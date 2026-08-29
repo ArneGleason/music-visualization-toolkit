@@ -1,0 +1,37 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large source media
+audio/*
+source/*.dawproject
+source/*.wav
+source/*.aiff
+source/*.flac
+clips/inbox/*
+clips/raw/*
+refs/*.png
+refs/*.jpg
+refs/*.jpeg
+refs/*.webp
+
+# Storyboard and generation imagery
+board/frames/*
+board/refs/*
+board/refpacks/*
+board/rejects/*
+
+# Disposable and rendered output
+build/
+out/
+_to_delete/
+
+# Regenerable musical substrates
+analysis/envelopes.json
+stage/data.json
+world/data.json
+
+# Keep directory placeholders
+!**/.gitkeep

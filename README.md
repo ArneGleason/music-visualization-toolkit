@@ -1,0 +1,107 @@
+# Music Visualization Toolkit
+
+A dependency-light collection of tools for turning a music project into
+frame-accurate animatics, 3D arrangement visualizations, and audio/MIDI-driven
+vector performances.
+
+This repository contains the reusable code from the **We Be** music-video
+project. It deliberately does **not** contain the song, stems, DAW project,
+storyboard frames, generated clips, or rendered videos.
+
+## What is here
+
+- **Vector stage** — Three.js laser performers driven by stems, notes,
+  automation, lyrics, drum strikes, and tempo-aware section choreography.
+- **3D world** — an alternate Three.js arrangement/world visualization.
+- **Offline renderer** — deterministic Chromium capture with temporal
+  supersampling, ffmpeg encoding, and audio muxing.
+- **Musical timing** — closed-form integration of Bitwig DAWproject linear
+  tempo ramps, plus a MIDI timing fallback.
+- **Music-video pipeline** — shot planning, slates, animatics, prompts,
+  generated-clip ingest, and frame-accurate final assembly.
+- **Storyboard tools** — prompt work orders, galleries, and a timed storyboard
+  animatic.
+
+The code favors small readable Python scripts, JSON interchange files,
+Three.js in the browser, and ffmpeg subprocesses over a large framework.
+
+## Requirements
+
+- Python 3.10+
+- ffmpeg and ffprobe
+- A Chromium-compatible browser installed by Playwright
+- macOS is the best-tested platform; most rendering code is portable
+
+Install the Python environment:
+
+```bash
+bash setup.sh
+```
+
+## Start a project
+
+1. Add a final mix at `audio/song.wav`.
+2. Add a Bitwig `*.dawproject` file under `source/` for exact ramped tempo,
+   notes, automation, markers, and stems.
+3. If there is no DAWproject, add `midi/song.mid` and use
+   `tools/beatmap.py` as the timing fallback.
+4. Add bar/beat-marked lyrics at `lyrics/lyrics.md` if needed.
+5. Copy and adapt the lightweight files under `examples/we-be-config/`.
+
+The vector exporter is currently DAWproject-oriented. A MIDI-only project can
+already use the timing, animatic, and shot tools; extending
+`tools/stage_export.py` with a MIDI-only substrate is the natural next step.
+
+## Useful commands
+
+```bash
+./run.sh timing                  # rebuild and listen to the timing grid
+./run.sh stems                   # extract per-stem spectral envelopes
+./run.sh laser                   # export and open the live vector stage
+./run.sh laserdraft              # quick full-song staging render
+./run.sh lasertest 34 15         # master-quality 15-second test window
+./run.sh laserfinal              # 1080p60, 32x temporal master
+./run.sh world                   # export and open the alternate 3D world
+./run.sh cut                     # render the current shot edit
+```
+
+Run tools through the repository environment rather than activating it:
+
+```bash
+./.venv/bin/python3 tools/stage_export.py
+```
+
+## Data flow
+
+```text
+DAWproject / MIDI / mix / lyrics
+              |
+              v
+      timing + musical features
+              |
+       +------+-------+
+       |              |
+       v              v
+ vector stage      shot plan
+       |              |
+       v              v
+ offline master    animatic / cut
+```
+
+Generated data lives in `analysis/`, `stage/data.json`, and `world/data.json`.
+Large media and rendered outputs are ignored by Git. Commit code, small
+configuration, timing metadata when useful, and documentation—not paid or
+regenerable media.
+
+## Lightweight example configuration
+
+`examples/we-be-config/` preserves small shot and world configuration files
+from the project that produced this toolkit. They are examples of shape and
+structure only; the corresponding audio and images are intentionally absent.
+
+## Repository status
+
+This is an extracted working toolkit rather than a packaged library. Some
+tools still assume the directory conventions of the original project. The
+scripts are intentionally straightforward so those assumptions are easy to
+replace as new music-video projects are added.

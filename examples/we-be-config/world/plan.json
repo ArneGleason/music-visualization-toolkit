@@ -1,0 +1,151 @@
+{
+  "min_shot_sec": 0.9,
+  "sections": {
+    "intro": {
+      "world": "record",
+      "cut_on": [
+        "bar",
+        4
+      ],
+      "cams": [
+        "drop",
+        "wide",
+        "stylus"
+      ]
+    },
+    "verse-1": {
+      "world": "machine",
+      "cut_on": [
+        "line"
+      ],
+      "cams": [
+        "macro",
+        "arm",
+        "furrow",
+        "heat",
+        "macro",
+        "arm",
+        "reveal"
+      ]
+    },
+    "chorus-1": {
+      "world": "record",
+      "cut_on": [
+        "bar",
+        1
+      ],
+      "cams": [
+        "runner",
+        "chase",
+        "low",
+        "wide"
+      ]
+    },
+    "verse-2": {
+      "world": "ocean",
+      "cut_on": [
+        "line"
+      ],
+      "cams": [
+        "floor",
+        "enter",
+        "descend",
+        "descend",
+        "deep",
+        "deep",
+        "vast"
+      ]
+    },
+    "chorus-2": {
+      "world": "record",
+      "cut_on": [
+        "bar",
+        1
+      ],
+      "cams": [
+        "chase",
+        "runner",
+        "low",
+        "wide"
+      ],
+      "cam_overrides": {
+        "7": "close"
+      }
+    },
+    "verse-3": {
+      "world": "lines",
+      "cut_on": [
+        "bar",
+        2
+      ],
+      "cams": [
+        "grid",
+        "order",
+        "swap",
+        "grid"
+      ]
+    },
+    "recap": {
+      "worlds": [
+        "machine",
+        "ocean"
+      ],
+      "cut_on": [
+        "line"
+      ],
+      "cams": {
+        "machine": [
+          "macro",
+          "heat",
+          "reveal",
+          "furrow"
+        ],
+        "ocean": [
+          "deep",
+          "descend",
+          "vast",
+          "enter"
+        ]
+      }
+    },
+    "turn": {
+      "world": "game",
+      "cut_on": [
+        "bar",
+        2
+      ],
+      "cams": [
+        "board",
+        "toy",
+        "board"
+      ]
+    },
+    "unravel": {
+      "world": "apart",
+      "cut_on": [
+        "bar",
+        1
+      ],
+      "cams": [
+        "fault",
+        "bleed",
+        "fault"
+      ]
+    },
+    "final-chorus": {
+      "world": "record",
+      "cut_on": [
+        "beat",
+        4
+      ],
+      "cams": [
+        "chase",
+        "runner",
+        "low",
+        "sprint",
+        "wide",
+        "runout"
+      ]
+    }
+  }
+}

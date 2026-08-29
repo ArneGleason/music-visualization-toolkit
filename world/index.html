@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Music Visualization — the groove</title>
+<style>
+  html,body{margin:0;background:#07070a;overflow:hidden;font:13px/1.4 -apple-system,system-ui,sans-serif;color:#8a8f98}
+  canvas{display:block}
+  #hud{position:fixed;left:14px;bottom:12px;opacity:.75;pointer-events:none;
+       font-variant-numeric:tabular-nums}
+  #bar{position:fixed;left:0;right:0;top:0;display:flex;gap:10px;align-items:center;
+       padding:9px 14px;background:linear-gradient(#0b0c11ee,#0b0c1100)}
+  #play{padding:6px 13px;border:1px solid #333a44;background:#12141a;color:#c9cfd8;
+        border-radius:5px;cursor:pointer;font:inherit}
+  #scrub{flex:1;accent-color:#c8923e;cursor:pointer}
+  #secs{display:flex;gap:5px;flex-wrap:wrap}
+  #secs b{font-weight:500;padding:3px 7px;border-radius:4px;background:#191c24;
+          color:#98a0ac;cursor:pointer;font-size:11px}
+  #secs b:hover{background:#2a2f3a;color:#e6e9ee}
+</style>
+</head>
+<body>
+<div id="bar">
+  <button id="play">▶</button>
+  <input id="scrub" type="range" min="0" max="1000" value="0" step="1">
+  <span id="secs"></span>
+</div>
+<div id="hud"></div>
+<script type="importmap">
+{"imports":{"three":"./three/three.module.js","three/addons/":"./three/addons/"}}
+</script>
+<script type="module">
+import * as THREE from 'three';
+
+// ───────────────────────────────────────────── the world, in one idea ──────
+// The record IS the song. Radius is time: the stylus starts at the outer edge
+// and tracks inward across exactly the duration of the track. Rotation is
+// locked to the BAR, not to 33⅓ — one revolution per bar — so a downbeat is
+// always at the same angular position and the disc reads as a clock. Sections
+// are visible bands pressed into the surface, so the whole structure of the
+// song is laid out in front of you and you can see how far in the needle has
+// travelled.
+
+// SCALE. The cover is a deliberate fantasy: she is tiny on a vast record.
+// A person is 1.7 units, the disc is 70 — about forty of her across the
+// playable band. That breaks one-revolution-per-bar: at radius 70 a bar-long
+// revolution is 230 units/second and she would be a smear. So the disc is
+// locked to a PHRASE instead — one revolution every REV_BARS bars — which
+// lands the surface speed at a hard sprint and still keeps the rotation
+// rigidly musical.
+const R_OUT = 70.0, R_IN = 21.0, R_LABEL = 17.0;
+const REV_BARS = 20;
+const data = await (await fetch('./data.json')).json();
+const DUR = data.duration;
+
+// ── time → musical position ────────────────────────────────────────────────
+const barT = data.bars.map(b => b.t);
+function barPos(t) {                      // fractional bar index
+  let i = Math.max(0, upper(barT, t) - 1);
+  const t0 = barT[i], t1 = barT[Math.min(i + 1, barT.length - 1)];
+  return i + (t1 > t0 ? (t - t0) / (t1 - t0) : 0);
+}
+function upper(arr, x) { let lo = 0, hi = arr.length; while (lo < hi) { const m = (lo + hi) >> 1; if (arr[m] <= x) lo = m + 1; else hi = m; } return lo; }
+function beatPhase(t) { const b = barPos(t) * 4; return b - Math.floor(b); }
+const styRadius = t => R_OUT - (R_OUT - R_IN) * Math.min(1, Math.max(0, t / DUR));
+
+// ── strike lookup: transient value now, decaying ───────────────────────────
+function striker(list, release) {
+  const ts = list.map(h => h[0]);
+  return t => {
+    let i = upper(ts, t) - 1, v = 0;
+    for (let k = i; k >= 0 && k > i - 4; k--) {
+      const age = t - ts[k];
+      if (age < 0 || age > release) continue;
+      v = Math.max(v, list[k][1] * (1 - age / release) ** 1.6);
+    }
+    return v;
+  };
+}
+const kickAt = striker(data.hits.kick, 0.30);
+const snareAt = striker(data.hits.snare, 0.20);
+const hatTimes = data.hits.hat.map(h => h[0]);
+
+// ── stems ──────────────────────────────────────────────────────────────────
+function stemAt(name, t) {
+  const s = data.stems[name]; if (!s) return 0;
+  const i = Math.round((t + s.delta) * data.rate);
+  return i >= 0 && i < s.rms.length ? Math.min(1.3, s.rms[i] / s.norm) : 0;
+}
+const sectionAt = t => data.sections.find(s => t >= s.t0 && t < s.t1) || data.sections[0];
+
+// ── scene ──────────────────────────────────────────────────────────────────
+const renderer = new THREE.WebGLRenderer({antialias:true, preserveDrawingBuffer:true});
+renderer.setSize(innerWidth, innerHeight);
+renderer.setPixelRatio(1);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.15;
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.fog = new THREE.FogExp2(0x0a0a10, 0.0125);
+const camera = new THREE.PerspectiveCamera(38, innerWidth/innerHeight, 0.1, 400);
+
+// the disc lives in its own group so it can spin under a fixed camera
+const disc = new THREE.Group();
+const discSpin = new THREE.Group();
+disc.add(discSpin);
+scene.add(disc);
+
+// ── the record surface, drawn as a texture so the bands are pressed in ─────
+function recordTexture() {
+  const N = 2048, c = document.createElement('canvas');
+  c.width = c.height = N;
+  const x = c.getContext('2d'), C = N/2;
+  x.fillStyle = '#08080b'; x.fillRect(0,0,N,N);
+
+  // section bands: radius is time, so this is the song's structure, pressed in
+  for (const s of data.sections) {
+    const r1 = styRadius(s.t0)/R_OUT*C, r0 = styRadius(s.t1)/R_OUT*C;
+    const g = x.createRadialGradient(C,C,r0,C,C,r1);
+    const [R,G,B] = s.tint;
+    g.addColorStop(0, `rgb(${R*1.5|0},${G*1.5|0},${B*1.5|0})`);
+    g.addColorStop(1, `rgb(${R*0.8|0},${G*0.8|0},${B*0.8|0})`);
+    x.fillStyle = g; x.beginPath(); x.arc(C,C,r1,0,7); x.arc(C,C,r0,0,7,true); x.fill();
+    // the land between tracks — a bright ring you can see coming
+    x.strokeStyle = 'rgba(190,175,150,0.30)'; x.lineWidth = 3;
+    x.beginPath(); x.arc(C,C,r1,0,7); x.stroke();
+  }
+  // grooves
+  const rOut = C, rIn = R_LABEL/R_OUT*C;
+  for (let r = rIn; r < rOut; r += 0.62) {
+    const a = 0.05 + 0.05*Math.sin(r*0.7) + 0.03*Math.random();
+    x.strokeStyle = `rgba(0,0,0,${0.45+a})`; x.lineWidth = 0.7;
+    x.beginPath(); x.arc(C,C,r,0,7); x.stroke();
+    x.strokeStyle = `rgba(255,240,220,${a*0.5})`; x.lineWidth = 0.35;
+    x.beginPath(); x.arc(C,C,r+0.55,0,7); x.stroke();
+  }
+  // label
+  x.fillStyle = '#c8792e'; x.beginPath(); x.arc(C,C,rIn,0,7); x.fill();
+  x.fillStyle = '#1a1208'; x.font = `bold ${N*0.030}px sans-serif`;
+  x.textAlign='center'; x.fillText('WE BE POP', C, C - N*0.012);
+  x.font = `${N*0.019}px sans-serif`; x.fillText('side one', C, C + N*0.022);
+  x.fillStyle='#07070a'; x.beginPath(); x.arc(C,C,N*0.012,0,7); x.fill();
+
+  const tex = new THREE.CanvasTexture(c);
+  tex.anisotropy = 8; tex.colorSpace = THREE.SRGBColorSpace;
+  return tex;
+}
+const surfMat = new THREE.MeshStandardMaterial({
+  map: recordTexture(), roughness: 0.34, metalness: 0.15,
+});
+const surface = new THREE.Mesh(new THREE.CircleGeometry(R_OUT, 256), surfMat);
+surface.rotation.x = -Math.PI/2;
+discSpin.add(surface);
+const rim = new THREE.Mesh(new THREE.CylinderGeometry(R_OUT, R_OUT, 0.09, 256, 1, true),
+  new THREE.MeshStandardMaterial({color:0x0c0c10, roughness:0.5, side:THREE.DoubleSide}));
+rim.position.y = -0.045; discSpin.add(rim);
+
+// ── the tonearm: the playhead, and the antagonist ──────────────────────────
+const arm = new THREE.Group(); scene.add(arm);
+const armMetal = new THREE.MeshStandardMaterial({color:0x9aa0a8, roughness:0.28, metalness:0.9});
+const tube = new THREE.Mesh(new THREE.CylinderGeometry(0.30,0.30,34,24), armMetal);
+tube.rotation.z = Math.PI/2; tube.rotation.y = -0.16;
+tube.position.set(20.5, 7.4, -7.5); arm.add(tube);
+const head = new THREE.Mesh(new THREE.BoxGeometry(4.4,2.0,2.9),
+  new THREE.MeshStandardMaterial({color:0x16171c, roughness:0.42, metalness:0.65}));
+head.position.set(4.4, 7.1, -5.0); arm.add(head);
+const cart = new THREE.Mesh(new THREE.BoxGeometry(3.9,1.7,2.5),
+  new THREE.MeshStandardMaterial({color:0xb9913f, roughness:0.33, metalness:0.8}));
+cart.position.set(3.6, 5.2, -4.6); arm.add(cart);
+const styl = new THREE.Mesh(new THREE.ConeGeometry(0.18,2.4,12),
+  new THREE.MeshStandardMaterial({color:0xe6e6e6, metalness:1, roughness:0.12}));
+styl.position.set(3.1, 2.8, -4.4); arm.add(styl);
+
+// ── the runner (placeholder — she gets a body in the next experiment) ──────
+const her = new THREE.Group(); scene.add(her);
+const herMat = new THREE.MeshStandardMaterial({color:0xe8b489, roughness:0.6});
+const body = new THREE.Mesh(new THREE.CapsuleGeometry(0.20,0.62,6,14), herMat);
+body.position.y = 0.92; her.add(body);
+const headM = new THREE.Mesh(new THREE.SphereGeometry(0.19,20,16), herMat);
+headM.position.y = 1.52; her.add(headM);
+
+// ── light ──────────────────────────────────────────────────────────────────
+const amb = new THREE.AmbientLight(0x2a2f52, 1.1); scene.add(amb);
+const key = new THREE.PointLight(0xffb35e, 900, 180, 2.0);
+key.position.set(11.0, 5.0, -16.0); scene.add(key);
+const fill = new THREE.DirectionalLight(0x5f77c8, 0.55);
+fill.position.set(-4, 3, 6); scene.add(fill);
+const rimL = new THREE.PointLight(0x89c6ff, 220, 90, 2.0);
+rimL.position.set(-9, 3.0, 10); scene.add(rimL);
+
+// ── hi-hat dust, flung off the surface ─────────────────────────────────────
+const MAXP = 900;
+const pGeo = new THREE.BufferGeometry();
+const pPos = new Float32Array(MAXP*3), pLife = new Float32Array(MAXP), pVel = new Float32Array(MAXP*3);
+pGeo.setAttribute('position', new THREE.BufferAttribute(pPos,3));
+const dust = new THREE.Points(pGeo, new THREE.PointsMaterial({
+  color:0xdcefff, size:0.16, transparent:true, opacity:0.85,
+  blending:THREE.AdditiveBlending, depthWrite:false}));
+scene.add(dust);
+let pNext = 0, lastHat = 0;
+function spawnDust(n, mag) {
+  for (let k=0;k<n;k++){
+    const i = pNext = (pNext+1) % MAXP;
+    const a = Math.random()*Math.PI*2, r = 3 + Math.random()*16;
+    pPos[i*3] = Math.cos(a)*r; pPos[i*3+1] = 0.05; pPos[i*3+2] = Math.sin(a)*r + 2;
+    pVel[i*3] = Math.cos(a)*(3+7*mag); pVel[i*3+1] = 2.5+5*Math.random()*mag;
+    pVel[i*3+2] = Math.sin(a)*(3+7*mag) + 6;
+    pLife[i] = 0.55 + Math.random()*0.7;
+  }
+}
+
+// ── per-frame ──────────────────────────────────────────────────────────────
+const hud = document.getElementById('hud');
+let smoothKick = 0, smoothSnare = 0;
+
+function setTime(t, dt) {
+  dt = dt || 1/60;
+  const sec = sectionAt(t);
+  const rS = styRadius(t);
+  const bp = barPos(t);
+
+  // one revolution per BAR — the disc is a clock
+  discSpin.rotation.y = (bp / REV_BARS) * Math.PI * 2;
+  disc.position.set(-rS, 0, 0);
+
+  const k = kickAt(t), sn = snareAt(t);
+  smoothKick += (k - smoothKick) * (k > smoothKick ? 0.55 : 0.13);
+  smoothSnare += (sn - smoothSnare) * (sn > smoothSnare ? 0.75 : 0.16);
+
+  // the room: indigo at rest, thrown to process blue by the snare
+  const base = new THREE.Color(0x1a1638).lerp(new THREE.Color(0x2e2668), Math.min(1, smoothKick));
+  amb.color.copy(base).lerp(new THREE.Color(0x0085ca), Math.min(0.7, smoothSnare*0.85));
+  amb.intensity = 0.85 + 0.9*smoothKick + 1.5*smoothSnare;
+  key.intensity = 760 + 620*smoothKick;
+  scene.fog.color.copy(amb.color).multiplyScalar(0.16);
+  renderer.setClearColor(scene.fog.color);
+
+  // the arm rides the surface; the kick makes it flex
+  arm.position.set(0, 0.02 + 0.05*smoothKick, 0);
+  arm.rotation.z = -0.035 + 0.02*smoothKick;
+
+  // she runs just ahead of the needle, bobbing on the beat
+  const ph = beatPhase(t);
+  her.position.set(0.3, 0.02 + 0.20*Math.abs(Math.sin(ph*Math.PI)), 6.4);
+  her.rotation.y = Math.PI + 0.18*Math.sin(bp*Math.PI*2);
+  const lean = 0.12 + 0.05*stemAt('Lead Vocal', t);
+  her.rotation.x = -lean;
+
+  // dust from the hats
+  while (lastHat < hatTimes.length && hatTimes[lastHat] <= t) {
+    const mag = data.hits.hat[lastHat][1];
+    spawnDust(2 + (6*mag)|0, mag); lastHat++;
+  }
+  if (lastHat && hatTimes[lastHat-1] > t + 0.5) lastHat = 0;   // seeking backwards
+  for (let i=0;i<MAXP;i++){
+    if (pLife[i] <= 0) { pPos[i*3+1] = -99; continue; }
+    pLife[i] -= dt;
+    pPos[i*3] += pVel[i*3]*dt; pPos[i*3+1] += pVel[i*3+1]*dt; pPos[i*3+2] += pVel[i*3+2]*dt;
+    pVel[i*3+1] -= 5.2*dt;
+  }
+  pGeo.attributes.position.needsUpdate = true;
+
+  // camera: behind her shoulder, breathing with the section's attributes
+  const wob = 0.10*sec.orbit;
+  camera.position.set(
+    -1.4 + 0.7*Math.sin(t*0.31)*wob,
+    6.9 + 1.1*sec.spread + 0.45*smoothKick + 0.35*Math.sin(t*0.23)*wob,
+    15.2 + 1.1*Math.sin(t*0.19)*wob);
+  camera.lookAt(0.9, 1.1, 3.4);
+  camera.fov = 38 - 3*smoothSnare;
+  camera.updateProjectionMatrix();
+
+  hud.textContent =
+    `${(t/60|0)}:${(t%60).toFixed(2).padStart(5,'0')}   bar ${(bp+1)|0}   ` +
+    `${sec.id} · ${sec.arch}   r=${rS.toFixed(2)}`;
+}
+
+function render(){ renderer.render(scene, camera); }
+window.setTime = (t, dt) => { setTime(t, dt); render(); };
+
+// ── offline render harness ─────────────────────────────────────────────────
+// Accumulation motion blur, GPU side. renderFrame(t, 1/fps, N) advances the
+// whole simulation N times inside one output frame and averages the results,
+// so anything moving smears along its real path. Only ONE frame is ever read
+// back per output frame, which is what keeps capture affordable.
+let acc = null, accCtx = null;
+window.setRenderSize = (w, h) => {
+  renderer.setSize(w, h, false);
+  camera.aspect = w/h; camera.updateProjectionMatrix();
+  acc = document.createElement('canvas'); acc.width = w; acc.height = h;
+  accCtx = acc.getContext('2d', {willReadFrequently:false});
+  acc.style.cssText = 'position:fixed;left:0;top:0;width:100vw;height:auto;z-index:5';
+  acc.id = 'out';
+  document.body.appendChild(acc);
+  document.getElementById('bar').style.display = 'none';
+  document.getElementById('hud').style.display = 'none';
+  renderer.domElement.style.display = 'none';
+};
+window.renderFrame = (t, frameDt, N) => {
+  accCtx.globalCompositeOperation = 'source-over';
+  accCtx.globalAlpha = 1;
+  accCtx.fillStyle = '#000'; accCtx.fillRect(0,0,acc.width,acc.height);
+  accCtx.globalCompositeOperation = 'lighter';
+  accCtx.globalAlpha = 1/N;
+  const sub = frameDt / N;
+  for (let k = 0; k < N; k++) {
+    setTime(t + k*sub, sub);
+    renderer.render(scene, camera);
+    accCtx.drawImage(renderer.domElement, 0, 0);
+  }
+  accCtx.globalCompositeOperation = 'source-over';
+  accCtx.globalAlpha = 1;
+};
+// expose which renderer we actually got — SwiftShader here means Chrome is
+// software-rasterising and any supersampling will cost 100x what it should
+{
+  const gl = renderer.getContext();
+  const dbg = gl.getExtension('WEBGL_debug_renderer_info');
+  window.__gpu = dbg ? gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL)
+                     : gl.getParameter(gl.RENDERER);
+}
+window.__ready = true;
+
+// live playback with the audio, for judging by ear
+const audio = new Audio('../audio/song.wav');
+audio.preload = 'auto';
+let playing = false;
+const playBtn = document.getElementById('play');
+playBtn.onclick = () => {
+  if (!playing) { audio.play(); playing = true; playBtn.textContent='❚❚'; loop(); }
+  else { audio.pause(); playing = false; playBtn.textContent='▶'; }
+};
+const scrub = document.getElementById('scrub');
+scrub.oninput = () => { const t = scrub.value/1000*DUR; audio.currentTime = t; setTime(t,1/60); render(); };
+const secsEl = document.getElementById('secs');
+for (const s of data.sections) {
+  const b = document.createElement('b'); b.textContent = s.id;
+  b.onclick = () => { audio.currentTime = s.t0 + 0.02; setTime(s.t0+0.02,1/60); render();
+                      if(!playing) playBtn.click(); };
+  secsEl.appendChild(b);
+}
+addEventListener('keydown', e => {
+  if (e.key===' '){ e.preventDefault(); playBtn.click(); }
+  if (e.key==='ArrowRight'){ audio.currentTime = Math.min(DUR, audio.currentTime+5); }
+  if (e.key==='ArrowLeft'){ audio.currentTime = Math.max(0, audio.currentTime-5); }
+});
+let last = performance.now();
+function loop(){
+  if (!playing) return;
+  const now = performance.now(); const dt = Math.min(0.1,(now-last)/1000); last = now;
+  setTime(audio.currentTime, dt); render();
+  scrub.value = Math.round(audio.currentTime/DUR*1000);
+  requestAnimationFrame(loop);
+}
+addEventListener('resize', ()=>{ renderer.setSize(innerWidth,innerHeight);
+  camera.aspect = innerWidth/innerHeight; camera.updateProjectionMatrix(); });
+setTime(0.0, 1/60); render();
+</script>
+</body>
+</html>

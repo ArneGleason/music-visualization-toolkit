@@ -1,0 +1,33 @@
+{
+  "_comment": "Cutting rules for 'We Be Pop'. Times are mix time — the grid is zeroed at the Project Master clip. Section keys match shots/sections.json. The animatic is free — iterate here before generating anything.",
+  "fps": 24,
+  "max_shot_sec": 8.0,
+  "min_shot_sec": 0.8,
+
+  "default": { "cut_every_bars": 2, "braid": ["performance", "concept"] },
+
+  "sections": {
+    "intro":        { "cut_every_bars": 2, "braid": ["concept"],
+                      "setups": ["world_wide", "world_detail", "world_wide", "artist_reveal"] },
+    "verse-1":      { "cut_every_bars": 2, "braid": ["performance", "concept"],
+                      "setups": ["perf_v_medium", "story_dive", "perf_v_close", "story_signs"] },
+    "chorus-1":     { "cut_every_bars": 1, "braid": ["performance", "performance"],
+                      "setups": ["perf_ch_wide", "perf_ch_close"] },
+    "verse-2":      { "cut_every_bars": 2, "braid": ["performance", "concept"],
+                      "setups": ["perf_v_medium", "story_ground", "perf_v_profile", "story_waves", "perf_v_close", "story_ocean"] },
+    "chorus-2":     { "cut_every_bars": 1, "braid": ["performance", "performance", "concept"],
+                      "setups": ["perf_ch_wide", "perf_ch_close", "story_ocean"] },
+    "verse-3":      { "cut_every_bars": 4, "braid": ["performance", "concept"],
+                      "setups": ["perf_v_still", "story_lines"] },
+    "recap":        { "cut_every_bars": 2, "braid": ["concept", "performance"],
+                      "setups": ["story_dive", "story_waves", "perf_ch_wide", "story_signs", "story_ocean", "perf_v_close"] },
+    "turn":         { "cut_every_bars": 2, "braid": ["performance", "concept"],
+                      "setups": ["perf_turn", "story_oldgame"] },
+    "unravel":      { "cut_every_bars": 2, "braid": ["concept"],
+                      "setups": ["unravel_a", "unravel_b"] },
+    "final-chorus": { "cut_every_beats": 2, "braid": ["performance", "performance", "concept"],
+                      "setups": ["perf_ch_wide", "perf_dance", "perf_ch_close", "story_ocean", "perf_dance", "story_dive"] },
+    "end":          { "cut_every_bars": 4, "braid": ["performance"],
+                      "setups": ["perf_end"] }
+  }
+}
