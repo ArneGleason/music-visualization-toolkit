@@ -29,9 +29,14 @@ out/
 _to_delete/
 
 # Regenerable musical substrates
+analysis/beatmap.json
 analysis/envelopes.json
 stage/data.json
 world/data.json
+projects/*/generated/
+
+# Machine-local project source paths
+projects/*/project.local.json
 
 # Keep directory placeholders
 !**/.gitkeep

@@ -1,0 +1,1131 @@
+{
+  "schemaVersion": 1,
+  "project": "rivers-of-mars",
+  "updatedBy": "human+ai",
+  "tracks": [
+    {
+      "id": "lyrics",
+      "type": "lyrics",
+      "label": "Lyrics",
+      "color": "#f6c85f",
+      "items": [
+        {
+          "id": "lyr-001",
+          "section": "section-1",
+          "speaker": "Them 1",
+          "text": "Hey, I need you for something.",
+          "timingStatus": "placed",
+          "start": "5.1",
+          "end": "6.4.480",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          }
+        },
+        {
+          "id": "lyr-002",
+          "section": "section-1",
+          "speaker": "Them 1",
+          "text": "It's important.",
+          "timingStatus": "placed",
+          "start": "6.4.480",
+          "end": "7.3.240"
+        },
+        {
+          "id": "lyr-003",
+          "section": "section-1",
+          "speaker": "Them 1",
+          "text": "More than that sounds.",
+          "timingStatus": "placed",
+          "start": "8.2.480",
+          "end": "9.3",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          }
+        },
+        {
+          "id": "lyr-004",
+          "section": "section-1",
+          "speaker": "Them 1",
+          "text": "I've got pieces.",
+          "timingStatus": "placed",
+          "start": "10.2",
+          "end": "11.3"
+        },
+        {
+          "id": "lyr-005",
+          "section": "section-1",
+          "speaker": "Them 1",
+          "text": "Things that almost fit.",
+          "timingStatus": "placed",
+          "start": "11.4",
+          "end": "12.2.240",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          }
+        },
+        {
+          "id": "lyr-006",
+          "section": "section-1",
+          "speaker": "Them 1",
+          "text": "Then they don't quite match.",
+          "timingStatus": "placed",
+          "start": "12.3.480",
+          "end": "13.1.720"
+        },
+        {
+          "id": "lyr-007",
+          "section": "section-1",
+          "speaker": "Them 1",
+          "text": "Can I send you my stuff?",
+          "timingStatus": "placed",
+          "start": "13.1.720",
+          "end": "14.2.720"
+        },
+        {
+          "id": "lyr-008",
+          "section": "section-1",
+          "speaker": "Them 1",
+          "text": "Tell me what you got.",
+          "timingStatus": "placed",
+          "start": "14.4",
+          "end": "15.1.480",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          }
+        },
+        {
+          "id": "lyr-009",
+          "section": "section-1",
+          "speaker": "Them 1",
+          "text": "Right?",
+          "timingStatus": "placed",
+          "start": "15.1.720",
+          "end": "15.2.480"
+        },
+        {
+          "id": "lyr-010",
+          "section": "section-2",
+          "speaker": "Them 2",
+          "text": "I don't see anything.",
+          "timingStatus": "placed",
+          "start": "16.1.480",
+          "end": "16.4.480"
+        },
+        {
+          "id": "lyr-011",
+          "section": "section-2",
+          "speaker": "Them 2",
+          "text": "Think you forgot to attach it.",
+          "timingStatus": "placed",
+          "start": "16.4.480",
+          "end": "17.4"
+        },
+        {
+          "id": "lyr-012",
+          "section": "section-2",
+          "speaker": "Them 2",
+          "text": "If you've got it, give it.",
+          "timingStatus": "placed",
+          "start": "17.4",
+          "end": "18.3"
+        },
+        {
+          "id": "lyr-013",
+          "section": "section-2",
+          "speaker": "Them 2",
+          "text": "Don't clean it up first.",
+          "timingStatus": "placed",
+          "start": "18.3.480",
+          "end": "19.2.240"
+        },
+        {
+          "id": "lyr-014",
+          "section": "section-2",
+          "speaker": "Them 2",
+          "text": "I'll work on it now.",
+          "timingStatus": "placed",
+          "start": "19.2.240",
+          "end": "20.2"
+        },
+        {
+          "id": "lyr-015",
+          "section": "section-2",
+          "speaker": "Them 2",
+          "text": "We'll see what's your deal.",
+          "timingStatus": "placed",
+          "start": "20.2.480",
+          "end": "21.3",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          }
+        },
+        {
+          "id": "lyr-016",
+          "section": "pre-chorus-1",
+          "speaker": "Them 3",
+          "text": "In the garden, meanwhile—",
+          "timingStatus": "placed",
+          "start": "21.4",
+          "end": "23.2.240"
+        },
+        {
+          "id": "lyr-017",
+          "section": "chorus-1",
+          "speaker": "Them 3",
+          "text": "There's a little green light moving",
+          "timingStatus": "placed",
+          "start": "23.4",
+          "end": "24.4.240"
+        },
+        {
+          "id": "lyr-018",
+          "section": "chorus-1",
+          "speaker": "Them 3",
+          "text": "through the psychedelic garden.",
+          "timingStatus": "placed",
+          "start": "24.4.240",
+          "end": "25.3.480"
+        },
+        {
+          "id": "lyr-019",
+          "section": "chorus-1",
+          "speaker": "Them 3",
+          "text": "Something with no name is waking",
+          "timingStatus": "placed",
+          "start": "25.3.480",
+          "end": "26.4.240"
+        },
+        {
+          "id": "lyr-020",
+          "section": "chorus-1",
+          "speaker": "Them 3",
+          "text": "in the psychedelic garden.",
+          "timingStatus": "placed",
+          "start": "26.4.240",
+          "end": "27.3.720"
+        },
+        {
+          "id": "lyr-021",
+          "section": "chorus-1",
+          "speaker": "Them 3",
+          "text": "And whatever woke is waiting",
+          "timingStatus": "placed",
+          "start": "27.3.720",
+          "end": "28.4.240"
+        },
+        {
+          "id": "lyr-022",
+          "section": "chorus-1",
+          "speaker": "Them 3",
+          "text": "for the song to begin.",
+          "timingStatus": "placed",
+          "start": "28.4.240",
+          "end": "29.3.480"
+        },
+        {
+          "id": "lyr-023",
+          "section": "section-3",
+          "speaker": "Them 1",
+          "text": "Okay, there.",
+          "timingStatus": "placed",
+          "start": "29.4.240",
+          "end": "30.2.240"
+        },
+        {
+          "id": "lyr-024",
+          "section": "section-3",
+          "speaker": "Them 1",
+          "text": "You've got it.",
+          "timingStatus": "placed",
+          "start": "30.2.240",
+          "end": "30.3.720"
+        },
+        {
+          "id": "lyr-025",
+          "section": "section-3",
+          "speaker": "Them 1",
+          "text": "That should be enough.",
+          "timingStatus": "placed",
+          "start": "30.4.720",
+          "end": "31.3.240"
+        },
+        {
+          "id": "lyr-026",
+          "section": "section-3",
+          "speaker": "Them 1",
+          "text": "Just look and tell me.",
+          "timingStatus": "placed",
+          "start": "31.3.240",
+          "end": "32.1.720"
+        },
+        {
+          "id": "lyr-027",
+          "section": "section-3",
+          "speaker": "Them 1",
+          "text": "Do you see a pattern?",
+          "timingStatus": "placed",
+          "start": "32.2",
+          "end": "32.4.240"
+        },
+        {
+          "id": "lyr-028",
+          "section": "section-3",
+          "speaker": "Them 1",
+          "text": "I'm sure it's there.",
+          "timingStatus": "placed",
+          "start": "32.4.240",
+          "end": "33.1.720"
+        },
+        {
+          "id": "lyr-029",
+          "section": "section-3",
+          "speaker": "Them 1",
+          "text": "Hard to find, right?",
+          "timingStatus": "placed",
+          "start": "33.1.720",
+          "end": "33.4"
+        },
+        {
+          "id": "lyr-030",
+          "section": "section-4",
+          "speaker": "Them 2",
+          "text": "I see the world plus more.",
+          "timingStatus": "placed",
+          "start": "33.4",
+          "end": "34.2.480"
+        },
+        {
+          "id": "lyr-031",
+          "section": "section-4",
+          "speaker": "Them 2",
+          "text": "More is probably nothing.",
+          "timingStatus": "placed",
+          "start": "34.2.480",
+          "end": "34.4.480"
+        },
+        {
+          "id": "lyr-032",
+          "section": "section-4",
+          "speaker": "Them 2",
+          "text": "Yes, I see the world.",
+          "timingStatus": "placed",
+          "start": "34.4.480",
+          "end": "35.2.480"
+        },
+        {
+          "id": "lyr-033",
+          "section": "section-4",
+          "speaker": "Them 2",
+          "text": "Close but no see car.",
+          "timingStatus": "placed",
+          "start": "35.2.480",
+          "end": "35.4.720",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          }
+        },
+        {
+          "id": "lyr-034",
+          "section": "section-4",
+          "speaker": "Them 2",
+          "text": "Subject: Mars!",
+          "timingStatus": "placed",
+          "start": "35.4.720",
+          "end": "36.2.720"
+        },
+        {
+          "id": "lyr-035",
+          "section": "section-4",
+          "speaker": "Them 2",
+          "text": "You come back around.",
+          "timingStatus": "placed",
+          "start": "36.2.720",
+          "end": "36.4.240"
+        },
+        {
+          "id": "lyr-036",
+          "section": "section-4",
+          "speaker": "Them 2",
+          "text": "I'll pull it into a shape",
+          "timingStatus": "placed",
+          "start": "36.4.240",
+          "end": "37.2.240",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          }
+        },
+        {
+          "id": "lyr-037",
+          "section": "section-4",
+          "speaker": "Them 2",
+          "text": "and spin your world around.",
+          "timingStatus": "placed",
+          "start": "37.2.240",
+          "end": "37.4.240"
+        },
+        {
+          "id": "lyr-038",
+          "section": "section-5",
+          "speaker": "Them 1",
+          "text": "No.",
+          "timingStatus": "placed",
+          "start": "37.4.240",
+          "end": "38.1"
+        },
+        {
+          "id": "lyr-039",
+          "section": "section-5",
+          "speaker": "Them 1",
+          "text": "Don't make it better.",
+          "timingStatus": "placed",
+          "start": "38.1",
+          "end": "38.2.480"
+        },
+        {
+          "id": "lyr-040",
+          "section": "section-5",
+          "speaker": "Them 1",
+          "text": "Don't want fake shit.",
+          "timingStatus": "placed",
+          "start": "38.2.480",
+          "end": "39.1.240"
+        },
+        {
+          "id": "lyr-041",
+          "section": "section-5",
+          "speaker": "Them 1",
+          "text": "Dig the thing underneath it.",
+          "timingStatus": "placed",
+          "start": "39.1.240",
+          "end": "39.3.720"
+        },
+        {
+          "id": "lyr-042",
+          "section": "section-5",
+          "speaker": "Them 1",
+          "text": "Dig it stupid.",
+          "timingStatus": "placed",
+          "start": "39.3.720",
+          "end": "40.2"
+        },
+        {
+          "id": "lyr-043",
+          "section": "section-5",
+          "speaker": "Them 1",
+          "text": "Especially stupid.",
+          "timingStatus": "placed",
+          "start": "40.2.480",
+          "end": "41.1.240"
+        },
+        {
+          "id": "lyr-044",
+          "section": "section-5",
+          "speaker": "Them 1",
+          "text": "Can you hear",
+          "timingStatus": "placed",
+          "start": "41.1.240",
+          "end": "41.2.240"
+        },
+        {
+          "id": "lyr-045",
+          "section": "section-5",
+          "speaker": "Them 1",
+          "text": "what I meant?",
+          "timingStatus": "placed",
+          "start": "41.2.240",
+          "end": "41.3.480"
+        },
+        {
+          "id": "lyr-046",
+          "section": "section-6",
+          "speaker": "Them 2",
+          "text": "Sometimes.",
+          "timingStatus": "placed",
+          "start": "41.3.480",
+          "end": "42.2.240"
+        },
+        {
+          "id": "lyr-047",
+          "section": "section-6",
+          "speaker": "Them 2",
+          "text": "Not always.",
+          "timingStatus": "placed",
+          "start": "42.2.240",
+          "end": "42.4.720"
+        },
+        {
+          "id": "lyr-048",
+          "section": "section-6",
+          "speaker": "Them 2",
+          "text": "Meaning leaves thread.",
+          "timingStatus": "placed",
+          "start": "42.4.720",
+          "end": "43.4.480"
+        },
+        {
+          "id": "lyr-049",
+          "section": "section-6",
+          "speaker": "Them 2",
+          "text": "Words leave words.",
+          "timingStatus": "placed",
+          "start": "43.4.480",
+          "end": "44.4.480"
+        },
+        {
+          "id": "lyr-050",
+          "section": "section-6",
+          "speaker": "Them 2",
+          "text": "Things clap overhead",
+          "timingStatus": "placed",
+          "start": "44.4.480",
+          "end": "45.3.240",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          }
+        },
+        {
+          "id": "lyr-051",
+          "section": "section-6",
+          "speaker": "Them 2",
+          "text": "like rockets coming in.",
+          "timingStatus": "placed",
+          "start": "45.3.240",
+          "end": "46.3"
+        },
+        {
+          "id": "lyr-052",
+          "section": "section-6",
+          "speaker": "Them 2",
+          "text": "Can't tell you",
+          "timingStatus": "placed",
+          "start": "47.2.480",
+          "end": "47.4"
+        },
+        {
+          "id": "lyr-053",
+          "section": "section-6",
+          "speaker": "Them 2",
+          "text": "if they're true.",
+          "timingStatus": "placed",
+          "start": "47.4",
+          "end": "48.2"
+        },
+        {
+          "id": "lyr-054",
+          "section": "pre-chorus-2",
+          "speaker": "Them 3",
+          "text": "Elsewhere, under a smaller moon—",
+          "timingStatus": "placed",
+          "start": "49.1",
+          "end": "49.4.240"
+        },
+        {
+          "id": "lyr-055",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "Chrome-plated bodies go swimming",
+          "timingStatus": "placed",
+          "start": "49.4.720",
+          "end": "51.4.240"
+        },
+        {
+          "id": "lyr-056",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "in the rivers of Mars.",
+          "timingStatus": "placed",
+          "start": "51.4.240",
+          "end": "53.3.240"
+        },
+        {
+          "id": "lyr-057",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "Tails wagging to music",
+          "timingStatus": "placed",
+          "start": "53.3.720",
+          "end": "54.4"
+        },
+        {
+          "id": "lyr-058",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "that bends your mind.",
+          "timingStatus": "placed",
+          "start": "54.4.240",
+          "end": "55.3.720"
+        },
+        {
+          "id": "lyr-059",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "Tiny mouths all agape",
+          "timingStatus": "placed",
+          "start": "55.3.720",
+          "end": "56.3.480"
+        },
+        {
+          "id": "lyr-060",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "in the rivers of Mars.",
+          "timingStatus": "placed",
+          "start": "56.3.720",
+          "end": "57.4.240"
+        },
+        {
+          "id": "lyr-061",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "Whatever falls from heaven",
+          "timingStatus": "placed",
+          "start": "57.3.480",
+          "end": "58.4"
+        },
+        {
+          "id": "lyr-062",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "leaves the senses behind.",
+          "timingStatus": "placed",
+          "start": "58.4",
+          "end": "59.4"
+        },
+        {
+          "id": "lyr-063",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "No one has ever been",
+          "timingStatus": "placed",
+          "start": "59.3.480",
+          "end": "60.3"
+        },
+        {
+          "id": "lyr-064",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "in the rivers of Mars.",
+          "timingStatus": "placed",
+          "start": "60.4",
+          "end": "61.3.720"
+        },
+        {
+          "id": "lyr-065",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "Then turns.",
+          "timingStatus": "placed",
+          "start": "61.4.240",
+          "end": "62.2"
+        },
+        {
+          "id": "lyr-066",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "Then follows.",
+          "timingStatus": "placed",
+          "start": "62.2.240",
+          "end": "62.4"
+        },
+        {
+          "id": "lyr-067",
+          "section": "chorus-2",
+          "speaker": "Them 3",
+          "text": "Then answers.",
+          "timingStatus": "placed",
+          "start": "62.4.240",
+          "end": "63.3"
+        },
+        {
+          "id": "lyr-068",
+          "section": "outro",
+          "speaker": "Them 1",
+          "text": "You still there?",
+          "timingStatus": "placed",
+          "start": "63.4.240",
+          "end": "64.2"
+        },
+        {
+          "id": "lyr-069",
+          "section": "outro",
+          "speaker": "Them 2",
+          "text": "Define there.",
+          "timingStatus": "placed",
+          "start": "64.3.480",
+          "end": "65.1.240"
+        },
+        {
+          "id": "lyr-070",
+          "section": "outro",
+          "speaker": "Them 1",
+          "text": "Never mind.",
+          "timingStatus": "placed",
+          "start": "65.1.240",
+          "end": "65.2.720"
+        },
+        {
+          "id": "lyr-071",
+          "section": "outro",
+          "speaker": "Them 1",
+          "text": "La-la-la, low light.",
+          "timingStatus": "placed",
+          "start": "65.2.480",
+          "end": "66.1.240"
+        },
+        {
+          "id": "lyr-072",
+          "section": "outro",
+          "speaker": "Them 2",
+          "text": "No, go on.",
+          "timingStatus": "placed",
+          "start": "66.1.240",
+          "end": "66.3"
+        },
+        {
+          "id": "lyr-073",
+          "section": "outro",
+          "speaker": "Them 1",
+          "text": "Thought I heard something.",
+          "timingStatus": "placed",
+          "start": "66.3",
+          "end": "67.1.240"
+        },
+        {
+          "id": "lyr-074",
+          "section": "outro",
+          "speaker": "Them 2",
+          "text": "You did.",
+          "timingStatus": "placed",
+          "start": "67.1.240",
+          "end": "67.3"
+        },
+        {
+          "id": "lyr-075",
+          "section": "outro",
+          "speaker": "Them 1",
+          "text": "Was it you?",
+          "timingStatus": "placed",
+          "start": "67.3",
+          "end": "67.4.720"
+        },
+        {
+          "id": "lyr-076",
+          "section": "outro",
+          "speaker": "Them 2",
+          "text": "Da-da-dum.",
+          "timingStatus": "placed",
+          "start": "67.4.720",
+          "end": "68.2.240"
+        },
+        {
+          "id": "lyr-077",
+          "section": "outro",
+          "speaker": "Them 2",
+          "text": "Could've been.",
+          "timingStatus": "placed",
+          "start": "68.2.240",
+          "end": "68.3.240"
+        },
+        {
+          "id": "lyr-078",
+          "section": "outro",
+          "speaker": "Them 1",
+          "text": "Say goodnight.",
+          "timingStatus": "placed",
+          "start": "68.3.240",
+          "end": "69.1"
+        },
+        {
+          "id": "lyr-079",
+          "section": "outro",
+          "speaker": "Them 2",
+          "text": "To who?",
+          "timingStatus": "placed",
+          "start": "69.2.240",
+          "end": "69.3.240",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          }
+        },
+        {
+          "id": "lyr-080",
+          "section": "outro",
+          "speaker": "Them 1",
+          "text": "La-la-la—la-la",
+          "timingStatus": "placed",
+          "start": "69.3.240",
+          "end": "70.1.720"
+        },
+        {
+          "id": "lyr-081",
+          "section": "outro",
+          "speaker": "Them 2",
+          "text": "You first.",
+          "timingStatus": "placed",
+          "start": "70.2",
+          "end": "70.3.480"
+        },
+        {
+          "id": "lyr-082",
+          "section": "outro",
+          "speaker": "Them 1",
+          "text": "Night.",
+          "timingStatus": "placed",
+          "start": "70.3.240",
+          "end": "70.4.240",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          }
+        },
+        {
+          "id": "lyr-083",
+          "section": "outro",
+          "speaker": "Them 2",
+          "text": "Night.",
+          "timingStatus": "placed",
+          "start": "70.4.720",
+          "end": "71.1.720",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": "Night"
+          }
+        },
+        {
+          "id": "lyrics-mtejafmv",
+          "start": "71.4.720",
+          "end": "72.1.480",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          },
+          "text": "Night.",
+          "lyricOrigin": "improv"
+        },
+        {
+          "id": "lyrics-mtejbyfp",
+          "start": "60.3",
+          "end": "60.4",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          },
+          "text": "In",
+          "lyricOrigin": "improv"
+        },
+        {
+          "id": "lyrics-mtejg0j5",
+          "start": "68.4.720",
+          "end": "69.2",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          },
+          "text": "Who?",
+          "lyricOrigin": "improv"
+        },
+        {
+          "id": "lyrics-mtekde5n",
+          "start": "23.3",
+          "end": "23.4",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          },
+          "text": "The-the-the-the-the",
+          "lyricOrigin": "improv"
+        }
+      ]
+    },
+    {
+      "id": "scenes",
+      "type": "scene",
+      "label": "Scene Direction",
+      "color": "#56d6c9",
+      "items": [
+        {
+          "id": "scene-mteku12v",
+          "start": "2.4",
+          "end": "5.1",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          },
+          "prompt": "Introduce the music video with some attention grabbing visuals that foreshadow the outro of the video"
+        },
+        {
+          "id": "scene-signal-exchange",
+          "prompt": "Two distant speakers exchange imperfect visual packets: fragments arrive as illustrated objects that almost fit, while the environment behaves like a living communications instrument.",
+          "timingStatus": "placed",
+          "ai": {
+            "status": "suggestion",
+            "note": "Derived from the conversational lyric structure; keep typography and vector signals embedded in the world."
+          },
+          "start": "5.1",
+          "end": "10.1"
+        },
+        {
+          "id": "scene-mtejlbwp",
+          "start": "10.1",
+          "end": "13.1.720",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          },
+          "prompt": "Pieces of an incomplete shape design puzzle transition in  that almost fit but not  quite"
+        },
+        {
+          "id": "scene-mtejqrtr",
+          "start": "13.1.720",
+          "end": "16.1.480",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          },
+          "prompt": "pieces are packaged up and sent to the other them though a kind of complex  network of paths but is misrouted and lost"
+        },
+        {
+          "id": "scene-mtejt6in",
+          "start": "16.1.480",
+          "end": "21.3.480",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          },
+          "prompt": "The other them, expecting to receive a thing signals that it never arrived and asks for it to be sent over now"
+        },
+        {
+          "id": "scene-mtek08xn",
+          "start": "21.3.480",
+          "end": "23.3",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          },
+          "prompt": "introduction to a garden where creative ideas are grown within psychedelic substrate"
+        },
+        {
+          "id": "scene-psychedelic-garden",
+          "prompt": "Enter an illustrated psychedelic garden. A small green light moves through layered foliage; something unnamed wakes as leaves, tendrils, and negative space respond to the ensemble.",
+          "timingStatus": "placed",
+          "ai": {
+            "status": "suggestion",
+            "note": "Directly grounded in Chorus 1; preserve music-reactive vector behavior inside the illustration."
+          },
+          "start": "23.3",
+          "end": "29.4.240",
+          "drivers": []
+        },
+        {
+          "id": "scene-pattern-aperture",
+          "prompt": "The delivered fragments unfold into a living inspection table. Each phrase rotates the same almost-fitting objects through new alignments; hidden lines connect them into a planetary diagram that neither speaker can fully read.",
+          "start": "29.4.240",
+          "end": "35.4.720",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "suggestion",
+            "note": "Gap-fill proposal grounded in the pattern-reading dialogue from “Okay, there” through “Close but no see car.”"
+          }
+        },
+        {
+          "id": "scene-mars-unmasking",
+          "prompt": "“Subject: Mars” snaps the diagram into a provisional red world. One presence tries to pull it into a cleaner shape; the other rejects the polish, and the illustration peels through its glossy surface into clumsy, fertile construction marks underneath.",
+          "start": "35.4.720",
+          "end": "41.1.240",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "suggestion",
+            "note": "Gap-fill proposal connecting the Mars reveal to the request to dig out the awkward thing underneath."
+          }
+        },
+        {
+          "id": "scene-semantic-rocket-weather",
+          "prompt": "Meaning physically separates from language: words shed filament, loose phrases orbit as debris, and overhead percussion throws long rocket shadows across the communication space. The two presences watch the evidence depart without agreeing whether any of it is true.",
+          "start": "41.1.240",
+          "end": "49.1",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "suggestion",
+            "note": "Gap-fill proposal for the semantic breakdown and rocket imagery before the smaller moon appears."
+          }
+        },
+        {
+          "id": "scene-rivers-of-mars",
+          "prompt": "A smaller moon reveals chrome-plated organisms swimming through impossible Martian rivers. Reflections behave like notation and the current bends with the harmony.",
+          "timingStatus": "placed",
+          "ai": {
+            "status": "suggestion",
+            "note": "Directly grounded in Chorus 2; visual identity should differ clearly from the garden."
+          },
+          "start": "49.1",
+          "end": "61.3.720",
+          "drivers": []
+        },
+        {
+          "id": "scene-current-turns-home",
+          "prompt": "The Martian current turns, follows, and answers: chrome swimmers and reflected notation reverse course together, tracing a signal path out of the river and back toward the two distant speakers.",
+          "start": "61.3.720",
+          "end": "63.4.240",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "suggestion",
+            "note": "Short bridge scene grounded in “Then turns / Then follows / Then answers” and aimed back toward the dialogue outro."
+          }
+        },
+        {
+          "id": "scene-low-light-outro",
+          "prompt": "The worlds fall quiet into low light. The two presences remain uncertain silhouettes while tiny rhythmic signals answer across a dark illustrated distance.",
+          "timingStatus": "placed",
+          "ai": {
+            "status": "suggestion",
+            "note": "Grounded in the outro dialogue and nonsense syllables."
+          },
+          "start": "63.4.240",
+          "end": "67.4.720",
+          "drivers": []
+        },
+        {
+          "id": "scene-mtekxa2z",
+          "start": "67.4.720",
+          "end": "72.3",
+          "timingStatus": "placed",
+          "drivers": [],
+          "ai": {
+            "status": "accepted",
+            "note": ""
+          },
+          "prompt": "Outro with the two thems signing off for the evening"
+        }
+      ]
+    },
+    {
+      "id": "transitions",
+      "type": "transition",
+      "label": "Transitions",
+      "color": "#b993ff",
+      "items": []
+    },
+    {
+      "id": "choreography",
+      "type": "choreography",
+      "label": "Choreography / Animation",
+      "color": "#ff7e67",
+      "items": [
+        {
+          "id": "choreo-vocal-presences",
+          "prompt": "Treat each vocal presence as a distinct illustrated performer. Phrase amplitude changes contour and scale; consonant onsets briefly reveal vector construction lines; call-and-response shifts spatial focus.",
+          "drivers": [
+            "lead-vocal.amp",
+            "backing-vocals.amp",
+            "vocal.onsets"
+          ],
+          "timingStatus": "placed",
+          "ai": {
+            "status": "suggestion",
+            "note": "Reusable performer mapping; track names will be reconciled after stem analysis."
+          },
+          "start": "2.4",
+          "end": "9.2.480"
+        },
+        {
+          "id": "choreo-percussion-environment",
+          "prompt": "Percussion causes physical consequences in the active scene: impacts, leaf snaps, water crowns, rocket-like overhead claps, flashes, or growth events. Preserve short transient envelopes so hits read as actions, not swells.",
+          "drivers": [
+            "drums.kick",
+            "drums.snare",
+            "drums.hat",
+            "drums.transients"
+          ],
+          "timingStatus": "placed",
+          "ai": {
+            "status": "suggestion",
+            "note": "Scene supplies the object; percussion supplies the event timing."
+          },
+          "start": "15.2.720",
+          "end": "16.1.480"
+        },
+        {
+          "id": "choreo-bass-world-scale",
+          "prompt": "Bass controls world-scale depth: camera radius, river pressure, terrain breathing, large shadow displacement, and the apparent weight of illustrated objects.",
+          "drivers": [
+            "bass.amp",
+            "bass.low",
+            "bass.notes"
+          ],
+          "timingStatus": "placed",
+          "ai": {
+            "status": "suggestion",
+            "note": "Keep movement slow enough to feel structural while note attacks remain legible."
+          },
+          "start": "9.2.480",
+          "end": "10.3.480"
+        },
+        {
+          "id": "choreo-incoming-notes",
+          "prompt": "Incoming MIDI notes appear as objects already native to the scene—seeds, signals, droplets, small moons, or metallic organisms—traveling toward the performer that will sound them.",
+          "drivers": [
+            "midi.notes",
+            "midi.velocity",
+            "midi.pitch"
+          ],
+          "timingStatus": "placed",
+          "ai": {
+            "status": "suggestion",
+            "note": "Carries forward the toolkit's readable incoming-note grammar without reusing its stage look."
+          },
+          "start": "4.2.240",
+          "end": "14.2"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "notes",
+      "label": "Human + AI Notes",
+      "color": "#9aa7bd",
+      "items": []
+    }
+  ]
+}

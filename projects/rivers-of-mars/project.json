@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "title": "Rivers of Mars",
+  "slug": "rivers-of-mars",
+  "sources": {
+    "dawproject": "../../source/Rivers-of-Mars.dawproject",
+    "audio": "../../audio/song.wav",
+    "stems": "../../source/stems",
+    "lyricsUrl": "https://docs.google.com/document/d/16uogK51go69Ep4rQitCD6cO1jxgKKs3a7v7r5RAvEJ4"
+  },
+  "timing": {
+    "masterTrack": "Master Export Wav file",
+    "durationSource": "auto",
+    "beatmap": "generated/beatmap.json",
+    "compiledTimeline": "generated/timeline.compiled.json"
+  },
+  "timeline": "timeline.json",
+  "referenceWaveforms": {
+    "output": "generated/waveforms.json",
+    "samplesPerSecond": 40,
+    "tracks": [
+      {"id":"master","label":"Master","source":"audio","match":"Master Export Wav file","role":"overall structure","color":"#dbe5ff"},
+      {"id":"lead-vocal","label":"Lead Vocal","source":"stems","match":"Lead Vocal","role":"lyrics","color":"#f6c85f"},
+      {"id":"backing-vocals","label":"Backing Vocals","source":"stems","match":"Backing Vocals","role":"lyrics","color":"#ffd98a"},
+      {"id":"drums","label":"Drums","source":"stems","match":"Drum Kit","role":"transitions / scene changes","color":"#b993ff"},
+      {"id":"bass","label":"Bass","source":"stems","match":"Bass) restored","role":"choreography reference","color":"#ff7e67"}
+    ]
+  },
+  "render": {
+    "fps": 60,
+    "width": 1920,
+    "height": 1080,
+    "temporalSamples": 32
+  }
+}

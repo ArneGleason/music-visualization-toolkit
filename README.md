@@ -21,6 +21,10 @@ storyboard frames, generated clips, or rendered videos.
   generated-clip ingest, and frame-accurate final assembly.
 - **Storyboard tools** — prompt work orders, galleries, and a timed storyboard
   animatic.
+- **Timeline register** — a project-scoped, bar-primary editor for lyrics,
+  overlapping scenes, transitions, choreography, and human/AI notes. Editable
+  musical positions compile to deterministic frame edges for renderers; silent
+  master/stem waveform references make musical events easy to locate.
 
 The code favors small readable Python scripts, JSON interchange files,
 Three.js in the browser, and ffmpeg subprocesses over a large framework.
@@ -48,6 +52,10 @@ bash setup.sh
 4. Add bar/beat-marked lyrics at `lyrics/lyrics.md` if needed.
 5. Copy and adapt the lightweight files under `examples/we-be-config/`.
 
+For a narrative project, create `projects/<slug>/project.json` and
+`timeline.json`, then run `python tools/timeline.py sync
+projects/<slug>/project.json`. See [docs/TIMELINE.md](docs/TIMELINE.md).
+
 The vector exporter is currently DAWproject-oriented. A MIDI-only project can
 already use the timing, animatic, and shot tools; extending
 `tools/stage_export.py` with a MIDI-only substrate is the natural next step.
@@ -56,6 +64,8 @@ already use the timing, animatic, and shot tools; extending
 
 ```bash
 ./run.sh timing                  # rebuild and listen to the timing grid
+./run.sh timeline rivers-of-mars # open the annotation register/editor
+./run.sh timelinesync rivers-of-mars # rebuild its DAW grid + compiled register
 ./run.sh stems                   # extract per-stem spectral envelopes
 ./run.sh laser                   # export and open the live vector stage
 ./run.sh laserdraft              # quick full-song staging render

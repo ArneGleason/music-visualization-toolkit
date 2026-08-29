@@ -35,13 +35,13 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def handle_one_request(self):
         try:
             super().handle_one_request()
-        except (BrokenPipeError, ConnectionResetError):
+        except (BrokenPipeError, ConnectionResetError, ConnectionAbortedError):
             self.close_connection = True                     # the browser moved on
 
     def copyfile(self, src, dst):
         try:
             super().copyfile(src, dst)
-        except (BrokenPipeError, ConnectionResetError):
+        except (BrokenPipeError, ConnectionResetError, ConnectionAbortedError):
             pass
 
     def do_POST(self):

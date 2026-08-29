@@ -8,6 +8,8 @@
 #   ./run.sh prompts      regenerate prompts/prompts.md
 #   ./run.sh board        rebuild the shot score + storyboard work order
 #   ./run.sh timing       rebuild the beat grid + sections from source
+#   ./run.sh timeline [slug]      open the project timeline editor
+#   ./run.sh timelinesync [slug]  sync DAW timing + compile the register
 #   ./run.sh stems        extract stem envelopes from the DAWproject (once)
 #   ./run.sh world        export data + serve the 3D world, live with the audio
 #   ./run.sh laser        export data + serve the VECTOR STAGE, live with audio
@@ -41,6 +43,23 @@ close_player() {
 show() { command -v open >/dev/null && open "$1" || true; }
 
 case "${1:-cut}" in
+  timeline)
+    SLUG="${2:-rivers-of-mars}"
+    PROJECT="projects/$SLUG/project.json"
+    [ -f "$PROJECT" ] || { echo "no project: $PROJECT"; exit 1; }
+    [ -f "projects/$SLUG/generated/beatmap.json" ] || \
+      $PY tools/timeline.py sync "$PROJECT"
+    say "Timeline editor: $SLUG"
+    ( sleep 1; command -v open >/dev/null && open "http://127.0.0.1:8760/timeline/" ) &
+    $PY tools/timeline_server.py --project "$PROJECT"
+    ;;
+  timelinesync)
+    SLUG="${2:-rivers-of-mars}"
+    PROJECT="projects/$SLUG/project.json"
+    [ -f "$PROJECT" ] || { echo "no project: $PROJECT"; exit 1; }
+    say "Timeline sync: $SLUG"
+    $PY tools/timeline.py sync "$PROJECT"
+    ;;
   timing)
     close_player
     DP=$(ls source/*.dawproject 2>/dev/null | head -1)

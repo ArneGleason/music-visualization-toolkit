@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Music Video Timeline</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="identity">
+      <span class="eyebrow">MUSIC VIDEO REGISTER</span>
+      <h1 id="title">Loading…</h1>
+    </div>
+    <div class="transport">
+      <button id="play" class="round" aria-label="Play" title="Space: play/pause · Shift+Space or Shift-click: audition selected cue">▶</button>
+      <div class="clock"><strong id="barClock">—</strong><span id="timeClock">0:00.000</span></div>
+      <label>Snap
+        <select id="snap">
+          <option value="960">beat</option>
+          <option value="480">1/8</option>
+          <option value="240" selected>1/16</option>
+          <option value="120">1/32</option>
+          <option value="0">free</option>
+        </select>
+      </label>
+      <label>Zoom <input id="zoom" type="range" min="4" max="60" value="10"></label>
+    </div>
+    <div class="actions">
+      <span id="status">Loading project…</span>
+      <button id="save" class="primary" disabled>Save register</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="workspace">
+      <div class="track-labels" id="trackLabels">
+        <div class="corner">TRACKS</div>
+      </div>
+      <div class="scroll" id="scroll">
+        <div class="timeline" id="timeline">
+          <div class="ruler" id="ruler"></div>
+          <div class="tracks" id="tracks"></div>
+          <div class="playhead" id="playhead"><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="inspector">
+      <section>
+        <div class="panel-title"><span>Selected cue</span><button id="delete" class="danger" hidden>Delete</button></div>
+        <div id="emptySelection" class="empty">Select a cue to edit its words, direction, musical references, and status.</div>
+        <form id="itemForm" hidden>
+          <label>ID <input id="fieldId" readonly></label>
+          <label>Text / direction <textarea id="fieldText" rows="6" title="Enter commits and returns to the selected block · Shift+Enter adds a line break"></textarea></label>
+          <label>Start <input id="fieldStart" placeholder="12.1 or 12.1.480" title="Enter commits"></label>
+          <label>End <input id="fieldEnd" placeholder="14.1" title="Enter commits"></label>
+          <label>Drivers <input id="fieldDrivers" placeholder="kick, bass.energy, lead-vocal.amp" title="Enter commits"></label>
+          <label>AI note <textarea id="fieldAi" rows="3" placeholder="Optional proposal or rationale" title="Enter commits · Shift+Enter adds a line break"></textarea></label>
+          <label class="check" id="fieldImprovRow" hidden><input id="fieldImprov" type="checkbox"> Not on lyric sheet (improv)</label>
+          <label class="check"><input id="fieldSuggestion" type="checkbox"> AI suggestion awaiting review</label>
+        </form>
+      </section>
+
+      <section class="unplaced-panel">
+        <div class="panel-title"><span>Unplaced cues</span><b id="unplacedCount">0</b></div>
+        <p>Choose a cue, move the playhead, then place it. Its initial one-bar range can be resized directly.</p>
+        <div id="unplaced" class="unplaced"></div>
+      </section>
+
+      <section class="add-panel">
+        <div class="panel-title"><span>Add at playhead</span></div>
+        <div class="button-grid">
+          <button data-add="lyrics-improv">Improv lyric</button>
+          <button data-add="scene">Scene</button>
+          <button data-add="transition">Transition</button>
+          <button data-add="choreography">Choreography</button>
+          <button data-add="notes">Note</button>
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <dialog id="deleteDialog" class="confirm-dialog">
+    <form id="deleteForm">
+      <span class="eyebrow">DESTRUCTIVE ACTION</span>
+      <h2>Delete selected block?</h2>
+      <p id="deleteMessage"></p>
+      <label>Type <strong>delete</strong> to confirm
+        <input id="deleteConfirmInput" autocomplete="off" spellcheck="false" placeholder="Enter cancels">
+      </label>
+      <small>Press Enter without the exact word to abandon this deletion.</small>
+      <div class="dialog-actions">
+        <button id="deleteCancel" type="button">Cancel</button>
+        <button id="deleteCommit" type="submit" class="confirm-delete" disabled>Delete block</button>
+      </div>
+    </form>
+  </dialog>
+
+  <audio id="audio" preload="metadata"></audio>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

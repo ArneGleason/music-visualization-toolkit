@@ -202,11 +202,25 @@ def find_master(root, hint="master"):
 
 
 def parse_notes(root):
-    """-> [(absolute_beat, track_name)] — approximate, used only for density."""
+    """-> [(absolute_beat, track_name)] — approximate, used only for density.
+
+    Arrangement lanes refer to their track by id; they are not children of
+    the Track element in a DAWproject file.  Walking Track descendants (the
+    old implementation) therefore returned no notes for normal Bitwig
+    exports and could double-count disabled comp/alternate clips in files
+    that happened to nest content differently.
+    """
+    names = {t.get("id"): (t.get("name") or "track")
+             for t in root.iter("Track")}
     notes = []
-    for track in root.iter("Track"):
-        name = track.get("name") or "track"
-        for clip in track.iter("Clip"):
+    for lanes in root.iter("Lanes"):
+        track_id = lanes.get("track")
+        if not track_id:
+            continue
+        name = names.get(track_id, track_id)
+        for clip in lanes.iter("Clip"):
+            if clip.get("enable", "true").lower() == "false":
+                continue
             base = float(clip.get("time", 0) or 0)
             start = float(clip.get("playStart", 0) or 0)
             for n in clip.iter("Note"):
@@ -239,6 +253,15 @@ def main():
                     help="beat that is 0:00 in the mix; overrides auto-detection")
     ap.add_argument("--no-zero", action="store_true",
                     help="keep project time; do NOT zero the grid at the mix start")
+    ap.add_argument("--duration-source", choices=("auto", "clip", "audio"),
+                    default="auto",
+                    help="auto/clip prefers the placed master clip; audio uses the supplied WAV length")
+    ap.add_argument("--beatmap-out", type=pathlib.Path,
+                    default=ROOT / "analysis" / "beatmap.json",
+                    help="beatmap destination (default: analysis/beatmap.json)")
+    ap.add_argument("--lyrics-out", type=pathlib.Path,
+                    default=ROOT / "lyrics" / "lyrics.md",
+                    help="generated marker/lyric destination")
     a = ap.parse_args()
 
     root = read_project_xml(a.project)
@@ -266,9 +289,15 @@ def main():
     end_beat = curve.last_beat
     end_sec = sec(end_beat)
     file_sec = master[3] if master else None
-    # the clip's own extent on the timeline wins over the file length
+    # A deliberately trimmed clip is normally the arrangement's intent. Some
+    # workflows instead drop an already-exported loop onto a master track:
+    # its start is alignment truth while its file length is duration truth.
+    # Keep the established default and make that alternate policy explicit.
     clip_sec = sec(master[1] + master[4]) if master and master[4] else None
-    master_sec = clip_sec or file_sec
+    if a.duration_source == "audio":
+        master_sec = audio_sec or file_sec or clip_sec
+    else:
+        master_sec = clip_sec or file_sec or audio_sec
     duration = master_sec or audio_sec or end_sec
 
     # Bar grid. Bar NUMBERS stay in project terms so bar.beat references from
@@ -311,7 +340,9 @@ def main():
         "master_wav": master[2] if master else None,
         "master_sec": master_sec,
         "master_file_sec": file_sec,
+        "master_clip_sec": clip_sec,
         "master_clip_beats": master[4] if master else None,
+        "duration_source": a.duration_source,
         "tempo_map": [{"beat": b, "sec": round(sec(b), 6), "bpm": round(v, 6),
                        "interpolation": i} for b, v, i in curve.pts],
         "time_signatures": [{"beat": zero_beat, "sec": 0.0, "num": num, "den": den}],
@@ -322,7 +353,7 @@ def main():
         "bars": bars,
         "density": density,
     }
-    save(ROOT / "analysis" / "beatmap.json", bm)
+    save(a.beatmap_out, bm)
 
     bpms = [v for _, v, _ in curve.pts]
     print(f"  tempo      {min(bpms):.2f} – {max(bpms):.2f} bpm over {len(curve.pts)} points")
@@ -335,8 +366,9 @@ def main():
         if clip_sec and file_sec and abs(file_sec - clip_sec) > 0.02:
             print(f"             clip runs {clip_sec:.3f}s on the timeline; "
                   f"the file is {file_sec:.3f}s")
-            print(f"             -> trimmed by {file_sec - clip_sec:.3f}s, "
-                  f"using the timeline. Video ends at {clip_sec:.3f}s.")
+            chosen = "audio file" if a.duration_source == "audio" else "timeline clip"
+            print(f"             -> differ by {file_sec - clip_sec:+.3f}s; "
+                  f"using {chosen}. Video ends at {master_sec:.3f}s.")
         elif master_sec:
             print(f"             {master_sec:.3f}s")
     elif zero_beat:
@@ -379,7 +411,8 @@ def main():
                 out += [f"[{bb}] {text}", f"//   ^ marker also said: <{label}>"]
             else:
                 out.append(f"[{bb}] {text}")
-        p = ROOT / "lyrics" / "lyrics.md"
+        p = a.lyrics_out
+        p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text("\n".join(out) + "\n")
         print(f"wrote {p}")
         print("  → edit the ## headers into real sections, then run tools/lyrics.py")

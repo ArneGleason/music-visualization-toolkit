@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://music-visualization-toolkit.local/timeline.schema.json",
+  "title": "Music Video Timeline Register",
+  "type": "object",
+  "required": ["schemaVersion", "project", "tracks"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "project": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "updatedBy": {"type": "string"},
+    "tracks": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/track"}
+    }
+  },
+  "$defs": {
+    "position": {
+      "description": "DAW bar.beat or bar.beat.tick (tick is 0..PPQ-1)",
+      "type": "string",
+      "pattern": "^[1-9][0-9]*\\.[1-9][0-9]*(?:\\.[0-9]+)?$"
+    },
+    "track": {
+      "type": "object",
+      "required": ["id", "type", "label", "items"],
+      "properties": {
+        "id": {"type": "string"},
+        "type": {"enum": ["lyrics", "scene", "transition", "choreography", "notes"]},
+        "label": {"type": "string"},
+        "color": {"type": "string"},
+        "items": {"type": "array", "items": {"$ref": "#/$defs/item"}}
+      }
+    },
+    "item": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": {"type": "string"},
+        "start": {"$ref": "#/$defs/position"},
+        "end": {"$ref": "#/$defs/position"},
+        "at": {"$ref": "#/$defs/position"},
+        "timingStatus": {"enum": ["unplaced", "placed", "locked"]},
+        "text": {"type": "string"},
+        "prompt": {"type": "string"},
+        "section": {"type": "string"},
+        "speaker": {"type": "string"},
+        "lyricOrigin": {"enum": ["sheet", "improv"]},
+        "drivers": {"type": "array", "items": {"type": "string"}},
+        "ai": {
+          "type": "object",
+          "properties": {
+            "status": {"enum": ["suggestion", "accepted", "rejected"]},
+            "note": {"type": "string"}
+          }
+        }
+      }
+    }
+  }
+}
