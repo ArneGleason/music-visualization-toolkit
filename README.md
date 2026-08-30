@@ -26,6 +26,14 @@ into a conventional edit decision list. The public video is the durable media
 artifact; the repository keeps the code and compact project metadata required
 to reproduce it.
 
+### Selected frames from the video
+
+| Spirograph vocal transition | Psychedelic garden |
+|:--:|:--:|
+| ![Colored mouths moving through a luminous spirograph field](docs/images/rivers-of-mars-stills/spirograph-mouths.png) | ![Vector foliage and performers inside the psychedelic garden](docs/images/rivers-of-mars-stills/psychedelic-garden.png) |
+| River and MIDI currents | Packet in the starfield |
+| ![Layered musical currents flowing through the rivers of Mars](docs/images/rivers-of-mars-stills/river-midi.png) | ![A detached face waiting in a music-responsive starfield](docs/images/rivers-of-mars-stills/packet-starfield.jpg) |
+
 ### The music-video register
 
 ![Rivers of Mars music-video register](docs/images/rivers-of-mars-register.png)
