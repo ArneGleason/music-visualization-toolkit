@@ -74,9 +74,31 @@ main { height: calc(100% - 78px); display: grid; grid-template-columns: 1fr 320p
 .panel-title b { color: var(--accent); }
 .empty, .unplaced-panel p { color: var(--muted); }
 #itemForm label { display: block; color: var(--muted); margin: 9px 0; }
-#itemForm input:not([type=checkbox]), #itemForm textarea { display: block; width: 100%; margin-top: 4px; background: #0d121c; border: 1px solid var(--line); border-radius: 6px; padding: 7px; resize: vertical; }
+#itemForm input:not([type=checkbox]), #itemForm textarea, #itemForm select { display: block; width: 100%; margin-top: 4px; background: #0d121c; border: 1px solid var(--line); border-radius: 6px; padding: 7px; resize: vertical; }
 #itemForm input:focus, #itemForm textarea:focus { border-color: var(--accent); outline: 0; }
 #itemForm .check { display: flex; gap: 8px; align-items: center; }
+.choreography-fields { padding: 8px; border: 1px solid #513b37; border-radius: 8px; background: #1b171b; }
+.blocking-panel { margin: 14px 0 2px; padding: 9px; border: 1px solid #4d4242; border-radius: 9px; }
+.blocking-panel legend { padding: 0 6px; color: #ff9a85; font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+#blockingPreview { display: block; width: 100%; aspect-ratio: 30 / 17; overflow: hidden; border: 1px solid #343c51; border-radius: 7px; background: radial-gradient(circle at 50% 52%, #19152a 0, #090d16 68%); }
+#blockingPreview .stage-grid { stroke: #566078; stroke-opacity: .18; stroke-width: .7; fill: none; }
+#blockingPreview .motion-path { fill: none; stroke: #8994ad; stroke-opacity: .38; stroke-width: 1.2; stroke-dasharray: 3 4; }
+#blockingPreview .motion-path.selected { stroke: #fff; stroke-opacity: .9; stroke-width: 2; }
+#blockingPreview .blocking-node { cursor: pointer; color: #9aa7bd; filter: drop-shadow(0 0 4px currentColor); }
+#blockingPreview .blocking-node[data-layer="foreground"] { color: #ff937c; }
+#blockingPreview .blocking-node[data-layer="midground"] { color: #79e7d2; }
+#blockingPreview .blocking-node[data-layer="background"] { color: #9ca9d7; opacity: .75; }
+#blockingPreview .blocking-node.selected { color: #fff; filter: drop-shadow(0 0 7px #fff); }
+#blockingPreview .blocking-node path, #blockingPreview .blocking-node circle, #blockingPreview .blocking-node line { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+#blockingPreview .blocking-node text { fill: currentColor; font: 7px ui-monospace, SFMono-Regular, Consolas, monospace; paint-order: stroke; stroke: #080b12; stroke-width: 2px; }
+.blocking-toolbar { display: flex; align-items: start; gap: 7px; margin-top: 8px; }
+.blocking-elements { display: flex; flex: 1; flex-wrap: wrap; gap: 5px; }
+.blocking-elements button { padding: 4px 6px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; font: 10px ui-monospace, SFMono-Regular, Consolas, monospace; }
+.blocking-elements button.selected { color: #111; background: #ff9a85; border-color: #ff9a85; }
+#addBlockingElement { padding: 4px 7px; white-space: nowrap; }
+.blocking-element-form { margin-top: 9px; padding-top: 7px; border-top: 1px solid var(--line); }
+.blocking-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+.blocking-element-form small { display: block; color: var(--muted); margin-top: 8px; }
 .unplaced { display: flex; flex-direction: column; gap: 6px; max-height: 260px; overflow-y: auto; }
 .unplaced-item { text-align: left; padding: 8px; background: #101622; }
 .unplaced-item small { display: block; color: var(--muted); margin-top: 2px; }

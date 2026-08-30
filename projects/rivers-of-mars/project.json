@@ -8,6 +8,23 @@
     "stems": "../../source/stems",
     "lyricsUrl": "https://docs.google.com/document/d/16uogK51go69Ep4rQitCD6cO1jxgKKs3a7v7r5RAvEJ4"
   },
+  "visualReferences": [
+    {
+      "id": "rivers-of-mars-figurative-reference",
+      "path": "../../refs/Rivers-of-Mars.png",
+      "role": "figurative and element vocabulary",
+      "renderPolicy": "Interpret as authored line/vector motifs only; never place the raster image in the final video.",
+      "motifs": [
+        "asymmetric kneeling astronaut silhouette",
+        "curved reflective suit seams and backpack",
+        "river ribbon through red terrain",
+        "domed buildings and needle towers",
+        "spiked alien flora",
+        "small river creature",
+        "striped planet and multiple moons"
+      ]
+    }
+  ],
   "timing": {
     "masterTrack": "Master Export Wav file",
     "durationSource": "auto",
@@ -23,9 +40,54 @@
       {"id":"lead-vocal","label":"Lead Vocal","source":"stems","match":"Lead Vocal","role":"lyrics","color":"#f6c85f"},
       {"id":"backing-vocals","label":"Backing Vocals","source":"stems","match":"Backing Vocals","role":"lyrics","color":"#ffd98a"},
       {"id":"drums","label":"Drums","source":"stems","match":"Drum Kit","role":"transitions / scene changes","color":"#b993ff"},
+      {"id":"guitar","label":"Guitar","source":"stems","match":"Guitar","role":"structural plucks / choreography","color":"#69e6c2"},
       {"id":"bass","label":"Bass","source":"stems","match":"Bass) restored","role":"choreography reference","color":"#ff7e67"}
     ]
   },
+  "performance": {
+    "output": "generated/performance.json",
+    "samplesPerSecond": 60,
+    "signalRate": 720,
+    "tracks": [
+      {"id":"lead-vocal","match":"Lead Vocal","highpass":55,"lowpass":280},
+      {"id":"bass","match":"Bass) restored","highpass":25,"lowpass":180},
+      {"id":"guitar","match":"Guitar","highpass":70,"lowpass":6500},
+      {"id":"drum-low","match":"Drum Kit","highpass":25,"lowpass":120},
+      {"id":"drum-mid","match":"Drum Kit","highpass":160,"lowpass":1800},
+      {"id":"drum-high","match":"Drum Kit","highpass":2600,"lowpass":11000}
+    ],
+    "noteTracks": [
+      {"id":"diva-notes","match":"Diva","minVelocity":0.25,"minPitch":36,"maxPitch":96},
+      {"id":"guitar-notes","match":"Guitar AG","minVelocity":0.25,"minPitch":36,"maxPitch":96}
+    ]
+  },
+  "motionClips": [
+    {
+      "id": "cmu-125-06-freestyle",
+      "label": "Freestyle swimmer · biological-motion reference",
+      "format": "asf-amc",
+      "skeletonUrl": "https://mocap.cs.cmu.edu/subjects/125/125.asf",
+      "motionUrl": "https://mocap.cs.cmu.edu/subjects/125/125_06.amc",
+      "sourceRate": 120,
+      "sampleRate": 30,
+      "windowSec": 6,
+      "output": "generated/motion/cmu-125-06-freestyle.json",
+      "joints": [
+        "root", "head",
+        "lclavicle", "lhumerus", "lradius", "lhand",
+        "rclavicle", "rhumerus", "rradius", "rhand"
+      ],
+      "source": {
+        "provider": "Carnegie Mellon University Graphics Lab Motion Capture Database",
+        "subject": 125,
+        "trial": 6,
+        "description": "Free Style swimming motion",
+        "license": "CMU states that this dataset of motions is free for all uses.",
+        "acknowledgement": "The data used in this project was obtained from mocap.cs.cmu.edu. The database was created with funding from NSF EIA-0196217.",
+        "url": "https://mocap.cs.cmu.edu/search.php?subjectnumber=125"
+      }
+    }
+  ],
   "render": {
     "fps": 60,
     "width": 1920,

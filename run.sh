@@ -10,6 +10,9 @@
 #   ./run.sh timing       rebuild the beat grid + sections from source
 #   ./run.sh timeline [slug]      open the project timeline editor
 #   ./run.sh timelinesync [slug]  sync DAW timing + compile the register
+#   ./run.sh videopreview [slug]  live narrative vector preview
+#   ./run.sh videodraft [scene]   fast rendered scene checkpoint
+#   ./run.sh videotest [scene]    final-quality rendered scene checkpoint
 #   ./run.sh stems        extract stem envelopes from the DAWproject (once)
 #   ./run.sh world        export data + serve the 3D world, live with the audio
 #   ./run.sh laser        export data + serve the VECTOR STAGE, live with audio
@@ -31,6 +34,13 @@ set -e
 cd "$(dirname "$0")"
 PY=./.venv/bin/python3
 [ -x "$PY" ] || { echo "no .venv — run: bash setup.sh"; exit 1; }
+
+# Windows' system Chrome exposes the installed NVIDIA D3D11 stack to headless
+# capture; the bundled automation Chromium can fall back to CPU SwiftShader.
+VIDEO_RENDER_ARGS=""
+case "$(uname -s 2>/dev/null || true)" in
+  MINGW*|MSYS*|CYGWIN*) VIDEO_RENDER_ARGS="--headless --browser chrome --angle d3d11" ;;
+esac
 
 say() { printf "\n\033[1m▸ %s\033[0m\n" "$1"; }
 
@@ -59,6 +69,36 @@ case "${1:-cut}" in
     [ -f "$PROJECT" ] || { echo "no project: $PROJECT"; exit 1; }
     say "Timeline sync: $SLUG"
     $PY tools/timeline.py sync "$PROJECT"
+    ;;
+  videopreview)
+    SLUG="${2:-rivers-of-mars}"
+    PROJECT="projects/$SLUG/project.json"
+    [ -f "$PROJECT" ] || { echo "no project: $PROJECT"; exit 1; }
+    say "Narrative vector preview: $SLUG"
+    ( sleep 1; command -v open >/dev/null && \
+      open "http://127.0.0.1:8760/video/?scene=sequence-garden-intro" ) &
+    $PY tools/timeline_server.py --project "$PROJECT"
+    ;;
+  videodraft)
+    PROJECT="projects/rivers-of-mars/project.json"
+    SCENE="${2:-scene-mars-unmasking}"
+    say "Fast narrative scene render: $SCENE (854x480, 24fps, 2x)"
+    close_player
+    $PY tools/world_render.py --page video --project "$PROJECT" --section "$SCENE" \
+      --fps 24 --blur 2 --width 854 --jpeg 86 --crf 18 --preset medium \
+      --capture post $VIDEO_RENDER_ARGS --port 8759 \
+      --out "out/${SCENE}_draft.mp4" && show "out/${SCENE}_draft.mp4"
+    ;;
+  videotest)
+    PROJECT="projects/rivers-of-mars/project.json"
+    SCENE="${2:-scene-mars-unmasking}"
+    say "Final-quality narrative scene render: $SCENE (1080p60, 32x)"
+    close_player
+    $PY tools/world_render.py --page video --project "$PROJECT" --section "$SCENE" \
+      --fps 60 --blur 32 --width 1920 --jpeg 97 --crf 15 --preset slow \
+      --abr 320k --capture post $VIDEO_RENDER_ARGS --port 8761 \
+      --out "out/${SCENE}_master.mp4" \
+      && show "out/${SCENE}_master.mp4"
     ;;
   timing)
     close_player

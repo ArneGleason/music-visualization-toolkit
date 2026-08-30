@@ -45,6 +45,10 @@ python tools/timeline.py query projects/rivers-of-mars/project.json --bar 18.1
 python tools/timeline_server.py --project projects/rivers-of-mars/project.json
 ```
 
+`sync` also rebuilds configured `motionClips`. These are compact joint-control
+exports for biological-motion retargeting; raw capture downloads and generated
+motion arrays remain under the ignored project `generated/` directory.
+
 `sync` rebuilds the project beatmap from the DAWproject, validates the editable
 register, and compiles the renderer register. `query` returns active lyrics,
 scenes, transitions, choreography, and driver references at a frame, second,
@@ -82,6 +86,24 @@ drivers = state["drivers"]
 Overlapping scenes and transitions remain available in `scenes` and
 `transitions`; the singular values select the final active item in track order.
 This lets renderers blend deliberately without embedding edit logic in a scene.
+
+## Addressable vector blocking
+
+Choreography cues can carry a `blocking` object alongside their direction and
+drivers. It makes production staging editable rather than hiding it inside a
+renderer:
+
+- `rendererShot` selects a registered shot implementation;
+- `camera` and `formation` state the cue-level staging;
+- every performer, chorus formation, vector object, or environment actor has a
+  stable element ID, depth layer, entrance, action, exit, and normalized
+  0–100 motion path.
+
+Selecting one of these cues opens an animated vector blocking sketch in the
+inspector. Clicking a glyph or its ID selects that exact element, so feedback
+can name `them-1-refusal-face`, `polished-shell`, or another concrete object
+instead of describing an ambiguous area of the whole frame. The playhead drives
+the sketch and the same cue boundaries compile into the video renderer.
 
 ## AI collaboration
 

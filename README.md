@@ -25,6 +25,10 @@ storyboard frames, generated clips, or rendered videos.
   overlapping scenes, transitions, choreography, and human/AI notes. Editable
   musical positions compile to deterministic frame edges for renderers; silent
   master/stem waveform references make musical events easy to locate.
+- **Narrative vector video** — project-aware illustrated scenes that preserve
+  the live browser preview and deterministic, temporally supersampled export
+  pipeline while mapping visible actions to DAW-aligned vocal, drum, bass, and
+  master envelopes.
 
 The code favors small readable Python scripts, JSON interchange files,
 Three.js in the browser, and ffmpeg subprocesses over a large framework.
@@ -66,6 +70,9 @@ already use the timing, animatic, and shot tools; extending
 ./run.sh timing                  # rebuild and listen to the timing grid
 ./run.sh timeline rivers-of-mars # open the annotation register/editor
 ./run.sh timelinesync rivers-of-mars # rebuild its DAW grid + compiled register
+./run.sh videopreview             # live illustrated Rivers of Mars scene
+./run.sh videodraft               # fast rendered scene with the master audio
+./run.sh videotest                # selected scene at final render settings
 ./run.sh stems                   # extract per-stem spectral envelopes
 ./run.sh laser                   # export and open the live vector stage
 ./run.sh laserdraft              # quick full-song staging render

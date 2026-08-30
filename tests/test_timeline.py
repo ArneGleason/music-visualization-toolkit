@@ -14,6 +14,8 @@ from dawproject import parse_notes  # noqa: E402
 from timeline import (MusicalGrid, Position, TimelineRegister,  # noqa: E402
                       compile_timeline, validate_timeline)
 from waveforms import _origin_beat  # noqa: E402
+from performance import (midi_note_events, mouth_track, spell_visemes,
+                         word_onsets)  # noqa: E402
 
 
 def beatmap():
@@ -76,6 +78,74 @@ class RegisterTests(unittest.TestCase):
         self.assertEqual(len(errors), 1)
         self.assertIn("outside a lyrics track", errors[0])
 
+    def test_choreography_blocking_validates_addressable_vector_elements(self):
+        grid = MusicalGrid(beatmap())
+        timeline = {"schemaVersion": 1, "tracks": [
+            {"id": "choreo", "type": "choreography", "items": [
+                {"id": "good", "start": "1.1", "end": "1.2", "blocking": {
+                    "rendererShot": "inspection-delivery", "elements": [
+                        {"id": "lead-face", "kind": "performer", "layer": "foreground",
+                         "label": "Lead", "path": [[10, 50], [80, 25]]},
+                        {"id": "chorus-ring", "kind": "chorus", "layer": "background",
+                         "label": "Chorus", "path": [[80, 30], [55, 45]]},
+                    ], "interactions": [
+                        {"id": "lead-reaches-chorus", "initiator": "lead-face",
+                         "responder": "chorus-ring", "window": [0.15, 0.8],
+                         "action": "Lead reaches; chorus opens and returns."},
+                    ]}},
+                {"id": "bad", "start": "1.2", "end": "1.3", "blocking": {
+                    "rendererShot": "sideways-potato", "elements": [
+                        {"id": "bad-path", "kind": "object", "layer": "midground",
+                         "label": "Bad", "path": [[120, 20]]},
+                    ]}},
+            ]},
+        ]}
+        errors = validate_timeline(timeline, grid)
+        self.assertEqual(len(errors), 2)
+        self.assertTrue(any("rendererShot" in error for error in errors))
+        self.assertTrue(any("path coordinates" in error for error in errors))
+
+    def test_interaction_score_references_blocking_elements(self):
+        grid = MusicalGrid(beatmap())
+        timeline = {"schemaVersion": 1, "tracks": [
+            {"id": "choreo", "type": "choreography", "items": [
+                {"id": "bad", "start": "1.1", "end": "1.2", "blocking": {
+                    "elements": [{"id": "light", "kind": "object", "layer": "midground",
+                                  "label": "Light", "path": [[20, 30], [50, 40]]}],
+                    "interactions": [{"id": "light-coaxes-vine", "initiator": "light",
+                                      "responder": "missing-vine", "window": [.2, .7],
+                                      "action": "The light approaches; the vine recoils."}],
+                }},
+            ]},
+        ]}
+        errors = validate_timeline(timeline, grid)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("not a blocking element", errors[0])
+
+    def test_choreography_metaphor_ids_are_machine_readable(self):
+        grid = MusicalGrid(beatmap())
+        timeline = {"schemaVersion": 1, "tracks": [
+            {"id": "choreo", "type": "choreography", "items": [
+                {"id": "good", "start": "1.1", "end": "1.2",
+                 "metaphors": ["FRAME-CENTRIFUGAL", "SONIC-WAVEFORM-SKIN"]},
+                {"id": "bad", "start": "1.2", "end": "1.3",
+                 "metaphors": ["too vague"]},
+            ]},
+        ]}
+        errors = validate_timeline(timeline, grid)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("metaphor IDs", errors[0])
+
+    def test_transition_metaphors_are_machine_readable(self):
+        grid = MusicalGrid(beatmap())
+        timeline = {"schemaVersion": 1, "tracks": [
+            {"id": "transitions", "type": "transition", "items": [
+                {"id": "material-handoff", "start": "1.1", "end": "1.2",
+                 "metaphors": ["EDIT-MATERIAL-HANDOFF", "ANIM-MORPH"]},
+            ]},
+        ]}
+        self.assertEqual(validate_timeline(timeline, grid), [])
+
     def test_compile_rounds_edges_to_frames_and_query_returns_overlap(self):
         with tempfile.TemporaryDirectory() as tmp:
             d = pathlib.Path(tmp)
@@ -129,6 +199,54 @@ class WaveformAlignmentTests(unittest.TestCase):
         </Clips></Lanes></Arrangement></Project>
         """)
         self.assertEqual(_origin_beat(root, "Lead Vocal"), 7.25)
+
+
+class PerformanceControlTests(unittest.TestCase):
+    def test_spelling_drives_distinct_mouth_shapes_with_mass(self):
+        self.assertGreater(spell_visemes("ah")[0][0], spell_visemes("oo")[0][0])
+        track = mouth_track([(0.1, "Mars"), (0.5, "moon")], 60, 90)
+        self.assertEqual(set(track), {"open", "wide", "round", "teeth", "tongue", "tongue_pos"})
+        self.assertGreater(max(track["open"]), track["open"][0])
+
+    def test_lyric_phrase_distributes_word_onsets_across_authored_bounds(self):
+        compiled = {"tracks": [{"type": "lyrics", "items": [
+            {"text": "rivers on Mars", "startSec": 2.0, "endSec": 4.0},
+        ]}]}
+        words = word_onsets(compiled)
+        self.assertEqual([word for _, word in words], ["rivers", "on", "Mars"])
+        self.assertEqual(words[0][0], 2.0)
+        self.assertLess(words[-1][0], 4.0)
+
+    def test_midi_note_events_keep_exact_tempo_clock_and_performance_data(self):
+        root = ET.fromstring("""
+        <Project><Structure>
+          <Track id="synth" name="Diva melody"/>
+          <Track id="other" name="Other"/>
+        </Structure><Arrangement>
+          <Lanes track="synth"><Clip time="12" playStart="4">
+            <Note time="1" duration="2" key="67" vel="0.8"/>
+            <Note time="3" duration="1" key="40" vel="0.1"/>
+          </Clip></Lanes>
+          <Lanes track="other"><Clip time="12">
+            <Note time="1" duration="2" key="72" vel="0.9"/>
+          </Clip></Lanes>
+        </Arrangement></Project>
+        """)
+
+        class IdentityCurve:
+            @staticmethod
+            def sec(beat):
+                return beat
+
+        notes = midi_note_events(root, IdentityCurve(), 2.0, [{
+            "id": "melody", "match": "Diva", "minVelocity": .25,
+            "minPitch": 36, "maxPitch": 96,
+        }])
+        self.assertEqual(len(notes["melody"]), 1)
+        self.assertEqual(notes["melody"][0], {
+            "on": 7.0, "off": 9.0, "pitch": 67, "velocity": .8,
+            "track": "Diva melody",
+        })
 
 
 if __name__ == "__main__":

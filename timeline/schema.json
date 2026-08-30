@@ -45,6 +45,8 @@
         "speaker": {"type": "string"},
         "lyricOrigin": {"enum": ["sheet", "improv"]},
         "drivers": {"type": "array", "items": {"type": "string"}},
+        "metaphors": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z]+(?:-[A-Z]+)+$"}},
+        "blocking": {"$ref": "#/$defs/blocking"},
         "ai": {
           "type": "object",
           "properties": {
@@ -52,6 +54,50 @@
             "note": {"type": "string"}
           }
         }
+      }
+    },
+    "point": {
+      "type": "array",
+      "prefixItems": [{"type": "number", "minimum": 0, "maximum": 100}, {"type": "number", "minimum": 0, "maximum": 100}],
+      "items": false
+    },
+    "blockingElement": {
+      "type": "object",
+      "required": ["id", "kind", "layer", "label", "path"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "kind": {"enum": ["performer", "chorus", "object", "environment"]},
+        "layer": {"enum": ["foreground", "midground", "background"]},
+        "label": {"type": "string"},
+        "entrance": {"type": "string"},
+        "action": {"type": "string"},
+        "exit": {"type": "string"},
+        "path": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/point"}}
+      }
+    },
+    "blocking": {
+      "type": "object",
+      "properties": {
+        "rendererShot": {"enum": ["opening-oscilloscope", "opening-bifurcation", "opening-assembly", "opening-warm-call", "opening-important-fan", "opening-listener-crossing", "opening-solid-contour", "opening-piece-tableau", "opening-fit-tests", "opening-network-fold", "garden-threshold", "garden-light-dolly", "garden-branching-canopy", "garden-drum-awakening", "midi-network-pack", "midi-network-flight", "midi-network-loss", "receiver-empty-lens", "receiver-empty-starfield", "receiver-phase-demand", "receiver-raw-scan", "receiver-constructive-interference", "receiver-garden-phaseplate", "inspection-delivery", "inspection-pattern-test", "inspection-world-plus", "inspection-pre-mars", "crane-reveal", "overhead-rings", "plunging-spiral", "diagonal-refusal", "counterfeit-line", "overhead-excavation", "rising-kaleidoscope", "semantic-call-response", "semantic-filament-weather", "semantic-rocket-overhead", "semantic-rain-to-river", "river-moon-descent", "river-chrome-entry", "river-current-macro", "river-tail-notation", "river-spirograph-bend", "river-mouth-microcosm", "river-heaven-drumwall", "river-guitar-vault", "river-chorus-plunge", "current-switchyard-turn", "current-following-wake", "current-answer-contact", "outro-left-call", "outro-right-response", "outro-time-tunnel", "outro-crosscut-reprise", "outro-goodnight-cascade", "outro-final-iris", "production-coda-title"]},
+        "camera": {"type": "string"},
+        "formation": {"type": "string"},
+        "elements": {"type": "array", "items": {"$ref": "#/$defs/blockingElement"}},
+        "interactions": {"type": "array", "items": {"$ref": "#/$defs/interaction"}}
+      }
+    },
+    "interaction": {
+      "type": "object",
+      "required": ["id", "initiator", "responder", "window", "action"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "initiator": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "responder": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "window": {
+          "type": "array",
+          "prefixItems": [{"type": "number", "minimum": 0, "maximum": 1}, {"type": "number", "minimum": 0, "maximum": 1}],
+          "items": false
+        },
+        "action": {"type": "string"}
       }
     }
   }

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import contextlib
 import json
 import os
 import pathlib
@@ -12,7 +13,7 @@ import urllib.parse
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from mvlib import ROOT, load  # noqa: E402
-from serve import Handler as RangeHandler, Server, RANGE, _Slice  # noqa: E402
+from serve import Handler as RangeHandler, Server, RANGE, SINK, _Slice  # noqa: E402
 from timeline import (MusicalGrid, compile_timeline, load_project,  # noqa: E402
                       validate_timeline, _resolve)
 
@@ -134,6 +135,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--project", type=pathlib.Path, required=True)
     ap.add_argument("--port", type=int, default=8760)
+    ap.add_argument("--sink",
+                    help="write POSTed /frame bodies to this file, or '-' for stdout")
     args = ap.parse_args()
     project, project_dir = load_project(args.project)
     STATE.update({
@@ -145,9 +148,17 @@ def main():
     })
     if not STATE["beatmap_path"].exists():
         raise SystemExit("beatmap missing; run tools/timeline.py sync first")
-    compile_timeline(project, project_dir)
+    # In render-sink mode stdout is the binary frame stream into ffmpeg. Keep
+    # the register compiler's friendly "wrote ..." message off that stream.
+    if args.sink:
+        with contextlib.redirect_stdout(sys.stderr):
+            compile_timeline(project, project_dir)
+        SINK["fh"] = sys.stdout.buffer if args.sink == "-" else open(args.sink, "wb")
+    else:
+        compile_timeline(project, project_dir)
     with Server(("127.0.0.1", args.port), TimelineHandler) as httpd:
-        print(f"timeline editor: http://127.0.0.1:{args.port}/timeline/")
+        if not args.sink:
+            print(f"timeline editor: http://127.0.0.1:{args.port}/timeline/")
         try:
             httpd.serve_forever()
         except KeyboardInterrupt:

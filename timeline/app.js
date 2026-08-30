@@ -8,6 +8,17 @@ const els = {
   empty: $('#emptySelection'), form: $('#itemForm'), del: $('#delete'),
   fieldId: $('#fieldId'), fieldText: $('#fieldText'), fieldStart: $('#fieldStart'),
   fieldEnd: $('#fieldEnd'), fieldDrivers: $('#fieldDrivers'), fieldAi: $('#fieldAi'),
+  choreographyFields: $('#choreographyFields'), fieldRendererShot: $('#fieldRendererShot'),
+  fieldMetaphors: $('#fieldMetaphors'),
+  fieldCamera: $('#fieldCamera'), fieldFormation: $('#fieldFormation'),
+  fieldInteractions: $('#fieldInteractions'),
+  blockingPanel: $('#blockingPanel'), blockingPreview: $('#blockingPreview'),
+  blockingElements: $('#blockingElements'), addBlockingElement: $('#addBlockingElement'),
+  blockingElementForm: $('#blockingElementForm'), fieldElementId: $('#fieldElementId'),
+  fieldElementLabel: $('#fieldElementLabel'), fieldElementKind: $('#fieldElementKind'),
+  fieldElementLayer: $('#fieldElementLayer'), fieldElementEntrance: $('#fieldElementEntrance'),
+  fieldElementAction: $('#fieldElementAction'), fieldElementExit: $('#fieldElementExit'),
+  fieldElementPath: $('#fieldElementPath'),
   fieldImprovRow: $('#fieldImprovRow'), fieldImprov: $('#fieldImprov'),
   fieldSuggestion: $('#fieldSuggestion'), deleteDialog: $('#deleteDialog'),
   deleteForm: $('#deleteForm'), deleteMessage: $('#deleteMessage'),
@@ -18,6 +29,7 @@ const els = {
 let project, timeline, beatmap, waveforms = {tracks: []}, grid = [], byBar = new Map();
 let pxPerSec = +els.zoom.value, duration = 0, currentTime = 0;
 let selected = null, dirty = false, raf = 0, auditionEnd = null;
+let selectedBlockingElementId = null;
 let referencesCollapsed = localStorage.getItem('referenceWaveformsCollapsed') === 'true';
 
 const fmtTime = t => {
@@ -91,6 +103,160 @@ function allItems() {
 
 function itemLabel(item) {
   return item.text || item.prompt || item.name || item.id;
+}
+
+const SVG_NS = 'http://www.w3.org/2000/svg';
+const blockingKindMarkup = {
+  performer: '<path d="M-8,-3 Q0,-9 8,-3 M-7,2 Q0,8 7,2 M-8,-3 l-3,-2 M8,-3 l3,-2"/><path d="M-6,11 Q0,15 6,11"/>',
+  chorus: '<path d="M0,-10 Q-8,-4 -7,5 M0,-10 Q8,-4 7,5 M-7,5 Q0,12 7,5"/>',
+  object: '<path d="M0,-10 C8,-9 11,-2 9,5 C6,11 -5,12 -10,4 C-12,-3 -7,-9 0,-10Z"/>',
+  environment: '<path d="M-13,7 C-7,-8 4,-10 13,5 M-11,10 C-3,4 5,4 12,9"/>',
+};
+
+function blockingFor(item, create = false) {
+  if (!item.blocking && create) item.blocking = {camera: '', formation: '', elements: [], interactions: []};
+  if (item.blocking && !Array.isArray(item.blocking.elements)) item.blocking.elements = [];
+  if (item.blocking && !Array.isArray(item.blocking.interactions)) item.blocking.interactions = [];
+  return item.blocking || null;
+}
+
+function selectedBlockingElement() {
+  const blocking = selected?.track.type === 'choreography' ? blockingFor(selected.item) : null;
+  return blocking?.elements.find(element => element.id === selectedBlockingElementId) || null;
+}
+
+function formatMotionPath(points) {
+  return (points || []).map(point => `${Number(point[0]).toFixed(0)},${Number(point[1]).toFixed(0)}`).join(' ');
+}
+
+function parseMotionPath(value) {
+  const points = String(value || '').trim().split(/\s+/).filter(Boolean).map(token => {
+    const pair = token.split(',').map(Number);
+    if (pair.length !== 2 || pair.some(n => !Number.isFinite(n) || n < 0 || n > 100)) {
+      throw new Error('Motion path uses percent pairs such as 10,60 42,35 88,55');
+    }
+    return pair;
+  });
+  if (!points.length) throw new Error('Motion path needs at least one point');
+  return points;
+}
+
+function formatInteractions(interactions) {
+  return (interactions || []).map(item =>
+    `${Number(item.window?.[0] || 0).toFixed(2)}-${Number(item.window?.[1] ?? 1).toFixed(2)} | ${item.id} | ${item.initiator} -> ${item.responder} | ${item.action}`
+  ).join('\n');
+}
+
+function parseInteractions(value) {
+  return String(value || '').split(/\r?\n/).map(line => line.trim()).filter(Boolean).map(line => {
+    const match = line.match(/^(\d*\.?\d+)\s*[-–]\s*(\d*\.?\d+)\s*\|\s*([a-z0-9]+(?:-[a-z0-9]+)*)\s*\|\s*([a-z0-9]+(?:-[a-z0-9]+)*)\s*(?:->|→)\s*([a-z0-9]+(?:-[a-z0-9]+)*)\s*\|\s*(.+)$/);
+    if (!match) throw new Error('Interaction lines use: 0.10-0.70 | id | initiator -> responder | action');
+    const start = Number(match[1]), end = Number(match[2]);
+    if (start < 0 || end > 1 || end <= start) throw new Error('Interaction windows must increase within 0..1');
+    return {id: match[3], initiator: match[4], responder: match[5],
+            window: [start, end], action: match[6].trim()};
+  });
+}
+
+function blockingPoint(points, progress) {
+  if (!points?.length) return [50, 50];
+  if (points.length === 1) return points[0];
+  const scaled = Math.max(0, Math.min(.999999, progress)) * (points.length - 1);
+  const i = Math.floor(scaled), f = scaled - i;
+  return [points[i][0] + (points[i + 1][0] - points[i][0]) * f,
+          points[i][1] + (points[i + 1][1] - points[i][1]) * f];
+}
+
+function blockingSvgPath(points) {
+  const p = (points || []).map(([x, y]) => [15 + x * 2.7, 13 + y * 1.38]);
+  if (!p.length) return '';
+  if (p.length === 1) return `M${p[0][0]},${p[0][1]} l.01,.01`;
+  let d = `M${p[0][0]},${p[0][1]}`;
+  for (let i = 1; i < p.length - 1; i++) {
+    const mid = [(p[i][0] + p[i + 1][0]) / 2, (p[i][1] + p[i + 1][1]) / 2];
+    d += ` Q${p[i][0]},${p[i][1]} ${mid[0]},${mid[1]}`;
+  }
+  const last = p.at(-1), prior = p.at(-2);
+  d += ` Q${prior[0]},${prior[1]} ${last[0]},${last[1]}`;
+  return d;
+}
+
+function renderBlockingPreview() {
+  if (!selected || selected.track.type !== 'choreography') return;
+  const blocking = blockingFor(selected.item, true);
+  els.blockingPreview.innerHTML = '';
+  const grid = document.createElementNS(SVG_NS, 'path');
+  grid.setAttribute('class', 'stage-grid');
+  grid.setAttribute('d', 'M15 151 Q150 123 285 151 M15 13 L15 151 M285 13 L285 151 M150 13 L150 151');
+  els.blockingPreview.append(grid);
+  for (const element of blocking.elements) {
+    const path = document.createElementNS(SVG_NS, 'path');
+    path.setAttribute('class', `motion-path${element.id === selectedBlockingElementId ? ' selected' : ''}`);
+    path.setAttribute('d', blockingSvgPath(element.path));
+    els.blockingPreview.append(path);
+    const node = document.createElementNS(SVG_NS, 'g');
+    node.setAttribute('class', `blocking-node${element.id === selectedBlockingElementId ? ' selected' : ''}`);
+    node.dataset.elementId = element.id;
+    node.dataset.layer = element.layer || 'midground';
+    node.innerHTML = `${blockingKindMarkup[element.kind] || blockingKindMarkup.object}<text x="13" y="4">${escapeHtml(element.id)}</text>`;
+    node.addEventListener('click', event => {
+      event.stopPropagation(); selectedBlockingElementId = element.id; fillBlockingInspector();
+    });
+    els.blockingPreview.append(node);
+  }
+  updateBlockingProgress();
+}
+
+function updateBlockingProgress() {
+  if (!selected || selected.track.type !== 'choreography') return;
+  const blocking = blockingFor(selected.item);
+  if (!blocking) return;
+  const start = posToSec(selected.item.start || selected.item.at);
+  const end = selected.item.end ? posToSec(selected.item.end) : start + 1;
+  const progress = Math.max(0, Math.min(1, (currentTime - start) / Math.max(.001, end - start)));
+  for (const element of blocking.elements) {
+    const [x, y] = blockingPoint(element.path, progress);
+    const node = els.blockingPreview.querySelector(`[data-element-id="${CSS.escape(element.id)}"]`);
+    if (node) node.setAttribute('transform', `translate(${15 + x * 2.7} ${13 + y * 1.38})`);
+  }
+}
+
+function fillBlockingInspector() {
+  const isChoreography = selected?.track.type === 'choreography';
+  els.choreographyFields.hidden = !isChoreography;
+  els.blockingPanel.hidden = !isChoreography;
+  if (!isChoreography) return;
+  const blocking = blockingFor(selected.item, true);
+  els.fieldRendererShot.value = blocking.rendererShot || '';
+  els.fieldCamera.value = blocking.camera || '';
+  els.fieldFormation.value = blocking.formation || '';
+  els.fieldInteractions.value = formatInteractions(blocking.interactions);
+  if (!blocking.elements.some(element => element.id === selectedBlockingElementId)) {
+    selectedBlockingElementId = blocking.elements[0]?.id || null;
+  }
+  els.blockingElements.innerHTML = '';
+  for (const element of blocking.elements) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = element.id === selectedBlockingElementId ? 'selected' : '';
+    button.textContent = element.id;
+    button.title = element.label || element.id;
+    button.onclick = () => { selectedBlockingElementId = element.id; fillBlockingInspector(); };
+    els.blockingElements.append(button);
+  }
+  const element = selectedBlockingElement();
+  els.blockingElementForm.hidden = !element;
+  if (element) {
+    els.fieldElementId.value = element.id;
+    els.fieldElementLabel.value = element.label || '';
+    els.fieldElementKind.value = element.kind || 'object';
+    els.fieldElementLayer.value = element.layer || 'midground';
+    els.fieldElementEntrance.value = element.entrance || '';
+    els.fieldElementAction.value = element.action || '';
+    els.fieldElementExit.value = element.exit || '';
+    els.fieldElementPath.value = formatMotionPath(element.path);
+  }
+  renderBlockingPreview();
 }
 
 function layoutLanes(items) {
@@ -270,6 +436,7 @@ function beginDrag(e, track, item, mode) {
 }
 
 function select(track, item) {
+  if (selected?.item !== item) selectedBlockingElementId = null;
   selected = {track, item}; render(); fillInspector();
   focusSelectedClip();
 }
@@ -326,7 +493,8 @@ function resolveDeleteConfirmation() {
 
 function fillInspector() {
   if (!selected) {
-    els.empty.hidden = false; els.form.hidden = true; els.del.hidden = true; return;
+    els.empty.hidden = false; els.form.hidden = true; els.del.hidden = true;
+    els.choreographyFields.hidden = true; els.blockingPanel.hidden = true; return;
   }
   const {item} = selected;
   els.empty.hidden = true; els.form.hidden = false; els.del.hidden = false;
@@ -335,10 +503,12 @@ function fillInspector() {
   els.fieldStart.value = item.start || item.at || '';
   els.fieldEnd.value = item.end || '';
   els.fieldDrivers.value = (item.drivers || []).join(', ');
+  els.fieldMetaphors.value = (item.metaphors || []).join(', ');
   els.fieldAi.value = item.ai?.note || '';
   els.fieldImprovRow.hidden = selected.track.type !== 'lyrics';
   els.fieldImprov.checked = selected.track.type === 'lyrics' && item.lyricOrigin === 'improv';
   els.fieldSuggestion.checked = item.ai?.status === 'suggestion';
+  fillBlockingInspector();
 }
 
 function applyInspector() {
@@ -354,10 +524,40 @@ function applyInspector() {
   if (els.fieldEnd.value.trim()) { posToSec(els.fieldEnd.value.trim()); item.end = els.fieldEnd.value.trim(); }
   else delete item.end;
   item.drivers = els.fieldDrivers.value.split(',').map(x => x.trim()).filter(Boolean);
+  if (track.type === 'choreography') {
+    item.metaphors = els.fieldMetaphors.value.split(',').map(x => x.trim()).filter(Boolean);
+    const blocking = blockingFor(item, true);
+    if (els.fieldRendererShot.value) blocking.rendererShot = els.fieldRendererShot.value;
+    else delete blocking.rendererShot;
+    blocking.camera = els.fieldCamera.value.trim();
+    blocking.formation = els.fieldFormation.value.trim();
+    blocking.interactions = parseInteractions(els.fieldInteractions.value);
+    const element = selectedBlockingElement();
+    if (element) {
+      const nextId = els.fieldElementId.value.trim();
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(nextId)) {
+        throw new Error('Element ID uses lowercase words separated by hyphens');
+      }
+      if (blocking.elements.some(candidate => candidate !== element && candidate.id === nextId)) {
+        throw new Error(`Element ID “${nextId}” already exists in this cue`);
+      }
+      element.id = nextId;
+      selectedBlockingElementId = nextId;
+      element.label = els.fieldElementLabel.value.trim();
+      element.kind = els.fieldElementKind.value;
+      element.layer = els.fieldElementLayer.value;
+      element.entrance = els.fieldElementEntrance.value.trim();
+      element.action = els.fieldElementAction.value.trim();
+      element.exit = els.fieldElementExit.value.trim();
+      element.path = parseMotionPath(els.fieldElementPath.value);
+    }
+  }
   if (track.type === 'lyrics' && els.fieldImprov.checked) item.lyricOrigin = 'improv';
   else delete item.lyricOrigin;
   item.ai = {status: els.fieldSuggestion.checked ? 'suggestion' : 'accepted', note: els.fieldAi.value.trim()};
-  render(); markDirty();
+  render();
+  if (track.type === 'choreography') fillBlockingInspector();
+  markDirty();
 }
 
 function renderUnplaced() {
@@ -392,8 +592,27 @@ function addItem(kind) {
     if (improv) item.lyricOrigin = 'improv';
   } else if (type === 'notes') item.text = 'New note';
   else item.prompt = `New ${type} direction`;
+  if (type === 'choreography') {
+    item.blocking = {camera: '', formation: '', elements: [], interactions: []};
+  }
   track.items.push(item); select(track, item); markDirty();
   if (improv) { els.fieldText.focus(); els.fieldText.select(); }
+}
+
+function addBlockingElement() {
+  if (!selected || selected.track.type !== 'choreography') return;
+  const blocking = blockingFor(selected.item, true);
+  let n = blocking.elements.length + 1, id = `vector-element-${n}`;
+  while (blocking.elements.some(element => element.id === id)) id = `vector-element-${++n}`;
+  blocking.elements.push({
+    id, kind: 'object', layer: 'midground', label: 'New vector element',
+    entrance: 'Appears at cue start', action: 'Holds its authored motion path',
+    exit: 'Clears by cue end', path: [[10, 60], [50, 40], [90, 60]],
+  });
+  selectedBlockingElementId = id;
+  fillBlockingInspector();
+  markDirty('Vector element added — name and choreograph it, then save');
+  els.fieldElementLabel.focus(); els.fieldElementLabel.select();
 }
 
 function escapeHtml(s) {
@@ -410,6 +629,7 @@ function updatePlayhead() {
   els.playhead.style.left = `${currentTime * pxPerSec}px`;
   els.barClock.textContent = secToPos(currentTime);
   els.timeClock.textContent = fmtTime(currentTime);
+  updateBlockingProgress();
 }
 
 function animate() {
@@ -540,7 +760,12 @@ els.deleteInput.addEventListener('keydown', e => {
 els.deleteForm.addEventListener('submit', e => { e.preventDefault(); resolveDeleteConfirmation(); });
 els.deleteCancel.onclick = closeDeleteDialog;
 els.deleteDialog.addEventListener('cancel', e => { e.preventDefault(); closeDeleteDialog(); });
-for (const input of [els.fieldText, els.fieldStart, els.fieldEnd, els.fieldDrivers, els.fieldAi, els.fieldImprov, els.fieldSuggestion]) {
+for (const input of [els.fieldText, els.fieldStart, els.fieldEnd, els.fieldDrivers,
+  els.fieldMetaphors, els.fieldRendererShot, els.fieldCamera, els.fieldFormation,
+  els.fieldInteractions,
+  els.fieldElementId, els.fieldElementLabel, els.fieldElementKind, els.fieldElementLayer,
+  els.fieldElementEntrance, els.fieldElementAction, els.fieldElementExit,
+  els.fieldElementPath, els.fieldAi, els.fieldImprov, els.fieldSuggestion]) {
   input.addEventListener('change', () => { try { applyInspector(); } catch (error) { setStatus(error.message, true); } });
 }
 els.form.addEventListener('keydown', e => {
@@ -555,5 +780,6 @@ els.form.addEventListener('keydown', e => {
   } catch (error) { setStatus(error.message, true); }
 });
 document.querySelectorAll('[data-add]').forEach(b => b.onclick = () => addItem(b.dataset.add));
+els.addBlockingElement.onclick = addBlockingElement;
 window.addEventListener('beforeunload', e => { if (dirty) { e.preventDefault(); e.returnValue = ''; } });
 init();

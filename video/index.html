@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rivers of Mars — narrative vector preview</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main id="stage">
+    <canvas id="out" aria-label="Narrative vector video preview"></canvas>
+    <div id="caption" aria-live="polite"></div>
+  </main>
+
+  <header id="transport">
+    <button id="play" type="button" aria-label="Play or pause">Play</button>
+    <label class="scene-picker">
+      <span>Scene</span>
+      <select id="scene"></select>
+    </label>
+    <input id="scrub" type="range" min="0" max="1" step="0.001" value="0"
+           aria-label="Timeline position">
+    <output id="clock">0:00.00</output>
+    <label class="loop"><input id="loop" type="checkbox" checked> Loop scene</label>
+  </header>
+
+  <aside id="drivers" aria-label="Live audio-to-visual driver values"></aside>
+  <audio id="audio" preload="metadata" src="/api/audio"></audio>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

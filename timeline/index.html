@@ -56,9 +56,75 @@
           <label>Start <input id="fieldStart" placeholder="12.1 or 12.1.480" title="Enter commits"></label>
           <label>End <input id="fieldEnd" placeholder="14.1" title="Enter commits"></label>
           <label>Drivers <input id="fieldDrivers" placeholder="kick, bass.energy, lead-vocal.amp" title="Enter commits"></label>
+          <div id="choreographyFields" class="choreography-fields" hidden>
+            <label>Metaphors <input id="fieldMetaphors" placeholder="CAM-APPROACH, FRAME-CENTRIFUGAL" title="Catalog IDs · Enter commits"></label>
+            <label>Renderer shot
+              <select id="fieldRendererShot">
+                <option value="">Register-only cue</option>
+                <option value="garden-threshold">Garden threshold</option>
+                <option value="garden-light-dolly">Garden light dolly</option>
+                <option value="garden-branching-canopy">Garden branching canopy</option>
+                <option value="garden-drum-awakening">Garden drum awakening</option>
+                <option value="midi-network-pack">MIDI network pack</option>
+                <option value="midi-network-flight">MIDI network flight</option>
+                <option value="midi-network-loss">MIDI network loss</option>
+                <option value="inspection-delivery">Inspection delivery</option>
+                <option value="inspection-pattern-test">Inspection pattern test</option>
+                <option value="inspection-world-plus">Inspection world plus</option>
+                <option value="inspection-pre-mars">Inspection pre-Mars</option>
+                <option value="crane-reveal">Crane reveal</option>
+                <option value="overhead-rings">Overhead rings</option>
+                <option value="plunging-spiral">Plunging spiral</option>
+                <option value="diagonal-refusal">Diagonal refusal</option>
+                <option value="counterfeit-line">Counterfeit line</option>
+                <option value="overhead-excavation">Overhead excavation</option>
+                <option value="rising-kaleidoscope">Rising kaleidoscope</option>
+              </select>
+            </label>
+            <label>Camera <input id="fieldCamera" placeholder="Oblique medium push, then crane overhead" title="Enter commits"></label>
+            <label>Formation <input id="fieldFormation" placeholder="Lead foreground; chorus forms two rings" title="Enter commits"></label>
+            <label>Interaction score
+              <textarea id="fieldInteractions" rows="5" placeholder="0.10-0.70 | light-coaxes-vines | green-light -> vine-wall | approaches; vines reach, touch, then recoil" title="One interaction per line · Enter commits · Shift+Enter adds a line break"></textarea>
+            </label>
+          </div>
           <label>AI note <textarea id="fieldAi" rows="3" placeholder="Optional proposal or rationale" title="Enter commits · Shift+Enter adds a line break"></textarea></label>
           <label class="check" id="fieldImprovRow" hidden><input id="fieldImprov" type="checkbox"> Not on lyric sheet (improv)</label>
           <label class="check"><input id="fieldSuggestion" type="checkbox"> AI suggestion awaiting review</label>
+
+          <fieldset id="blockingPanel" class="blocking-panel" hidden>
+            <legend>Vector blocking preview</legend>
+            <svg id="blockingPreview" viewBox="0 0 300 170" role="img" aria-label="Animated blocking sketch for the selected choreography cue"></svg>
+            <div class="blocking-toolbar">
+              <div id="blockingElements" class="blocking-elements"></div>
+              <button id="addBlockingElement" type="button">+ element</button>
+            </div>
+            <div id="blockingElementForm" class="blocking-element-form" hidden>
+              <label>Element ID <input id="fieldElementId" placeholder="lead-face" title="Stable lowercase ID · Enter commits"></label>
+              <label>Label <input id="fieldElementLabel" title="Enter commits"></label>
+              <div class="blocking-pair">
+                <label>Kind
+                  <select id="fieldElementKind">
+                    <option value="performer">Performer</option>
+                    <option value="chorus">Chorus / formation</option>
+                    <option value="object">Vector object</option>
+                    <option value="environment">Environment</option>
+                  </select>
+                </label>
+                <label>Layer
+                  <select id="fieldElementLayer">
+                    <option value="foreground">Foreground</option>
+                    <option value="midground">Midground</option>
+                    <option value="background">Background</option>
+                  </select>
+                </label>
+              </div>
+              <label>Entrance <input id="fieldElementEntrance" placeholder="How it comes on stage" title="Enter commits"></label>
+              <label>Performance / animation <textarea id="fieldElementAction" rows="3" title="Enter commits · Shift+Enter adds a line break"></textarea></label>
+              <label>Exit <input id="fieldElementExit" placeholder="How it leaves or transforms" title="Enter commits"></label>
+              <label>Motion path <input id="fieldElementPath" placeholder="10,60 42,35 88,55" title="Percent coordinates: x,y x,y … · Enter commits"></label>
+              <small>Click any glyph or ID above to address that exact performer or object.</small>
+            </div>
+          </fieldset>
         </form>
       </section>
 

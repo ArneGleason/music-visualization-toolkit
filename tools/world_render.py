@@ -15,7 +15,8 @@ matters for cost — 8x supersampling is 8 cheap GPU renders, and only ONE frame
 is read back per output frame. In the Python visualiser 8x meant eight full
 CPU rasterisations, which is why it ran at 30x realtime.
 
-Frames are piped straight into ffmpeg; the audio is muxed from audio/song.wav.
+Frames are piped straight into ffmpeg. Project-aware pages can resolve their
+audio and authored scene spans through projects/<slug>/project.local.json.
 """
 from __future__ import annotations
 
@@ -51,16 +52,25 @@ def main():
     ap.add_argument("--width", type=int, default=1920)
     ap.add_argument("--port", type=int, default=8751)
     ap.add_argument("--headless", action="store_true",
-                    help="run without a window — WARNING: falls back to software GL")
+                    help="run without a window; verify the printed renderer because GPU availability varies")
+    ap.add_argument("--browser", choices=["bundled", "chrome", "msedge"],
+                    default="chrome" if sys.platform == "win32" else "bundled",
+                    help="Chromium build to launch; system Chrome/Edge can use the installed GPU stack")
+    ap.add_argument("--angle", choices=["auto", "d3d11", "d3d11on12", "vulkan", "metal", "swiftshader"],
+                    default="auto",
+                    help="ANGLE graphics backend; auto selects D3D11 on Windows and Metal on macOS")
     ap.add_argument("--probe", type=int, default=0,
                     help="time N frames, report the rate, and stop")
     ap.add_argument("--jpeg", type=int, default=94, help="frame quality; 0 = PNG")
     ap.add_argument("--crf", type=int, default=17, help="x264 quality; lower is better")
     ap.add_argument("--preset", default="medium", help="x264 speed/quality preset")
     ap.add_argument("--abr", default="256k", help="audio bitrate")
-    ap.add_argument("--audio", type=pathlib.Path, default=ROOT / "audio" / "song.wav")
+    ap.add_argument("--audio", type=pathlib.Path,
+                    help="audio to mux; defaults to the selected project's mix")
+    ap.add_argument("--project", type=pathlib.Path,
+                    help="project.json for a project-aware visualiser")
     ap.add_argument("--page", default="world",
-                    help="which visualiser to drive: world | stage")
+                    help="which visualiser to drive: world | stage | video")
     ap.add_argument("--query", default="",
                     help="query string passed to the visualiser page")
     ap.add_argument("--capture", default="dataurl",
@@ -73,10 +83,32 @@ def main():
 
     W = a.width
     H = int(W * 9 / 16) // 2 * 2
-    # Both pages expose the same contract (__ready, setRenderSize,
+    # Every page exposes the same contract (__ready, setRenderSize,
     # renderFrame, an #out canvas); they differ only in where their span
     # information lives.
-    if a.page == "stage":
+    project_path = None
+    audio_end = None
+    if a.page == "video":
+        if not a.project:
+            raise SystemExit("--page video requires --project projects/<slug>/project.json")
+        from timeline import load_project, compile_timeline, _resolve  # noqa: E402
+        project_path = a.project.resolve()
+        project, project_dir = load_project(project_path)
+        compiled = compile_timeline(project, project_dir)
+        audio_end = compiled["timing"]["durationSec"]
+        scene_track = next((track for track in compiled["tracks"]
+                            if track["id"] == "scenes"), None)
+        if not scene_track:
+            raise SystemExit("project has no scenes track")
+        secs = [(item["id"], item["startSec"], item["endSec"])
+                for item in scene_track["items"] if "startSec" in item]
+        # A music video may deliberately continue into a silent title or
+        # production coda after the bounced mix ends. Timeline scenes are
+        # authoritative for video length even when the audio source is shorter.
+        dur = max(audio_end, max((end for _, _, end in secs), default=audio_end))
+        if a.audio is None:
+            a.audio = _resolve(project_dir, project["sources"]["audio"])
+    elif a.page == "stage":
         if not (ROOT / "stage" / "data.json").exists():
             raise SystemExit("no stage/data.json — run: ./run.sh laser")
         spans = load(ROOT / "stage" / "data.json")
@@ -100,6 +132,8 @@ def main():
                 dict.fromkeys(x[0] for x in secs)))
         t0, t1 = s[0][1], s[-1][2]
 
+    if a.audio is None:
+        a.audio = ROOT / "audio" / "song.wav"
     a.out = a.out.resolve()
     a.out.parent.mkdir(parents=True, exist_ok=True)
     tmp = a.out.with_name(f".{a.out.stem}.partial{a.out.suffix}")
@@ -110,9 +144,14 @@ def main():
     # through, and now they are actually findable in the log.
     cmd = ["ffmpeg", "-y", "-hide_banner", "-nostats", "-loglevel", "warning",
            "-f", "image2pipe", "-vcodec", codec, "-r", str(a.fps), "-i", "-"]
-    if a.audio.exists():
+    if a.audio.exists() and (audio_end is None or t0 < audio_end - 1e-4):
         cmd += ["-ss", f"{t0:.4f}", "-i", str(a.audio), "-c:a", "aac",
-                "-b:a", a.abr, "-shortest"]
+                "-b:a", a.abr]
+        if audio_end is None or t1 <= audio_end + 1e-4:
+            cmd += ["-shortest"]
+    # `-shortest` can still retain an AAC encoder tail on very short tests.
+    # The authored browser frame span is authoritative, so cap the mux to it.
+    cmd += ["-t", f"{t1 - t0:.6f}"]
     # This content is almost entirely smooth glow gradients on black, which is
     # the worst case for 8-bit banding — far more than detail loss, banding is
     # what will make a master look cheap. `-tune film` would smooth it further
@@ -148,7 +187,11 @@ def main():
     # which writes it straight down ffmpeg's throat — the frames never enter
     # this process, and never touch the devtools protocol. Otherwise the
     # server is just the static server and we do the writing here.
-    srv_cmd = [sys.executable, str(ROOT / "tools" / "serve.py"), str(a.port)]
+    if a.page == "video":
+        srv_cmd = [sys.executable, str(ROOT / "tools" / "timeline_server.py"),
+                   "--project", str(project_path), "--port", str(a.port)]
+    else:
+        srv_cmd = [sys.executable, str(ROOT / "tools" / "serve.py"), str(a.port)]
     if a.capture == "post":
         srv_cmd += ["--sink", "-"]
         srv = subprocess.Popen(srv_cmd, cwd=ROOT, stdout=ff.stdin,
@@ -167,11 +210,18 @@ def main():
             # for a real GPU, so headed is the default.
             args = ["--disable-frame-rate-limit", "--ignore-gpu-blocklist",
                     "--enable-gpu-rasterization", "--enable-zero-copy"]
-            if sys.platform == "darwin":
-                args += ["--use-angle=metal"]
-            if a.headless:
+            angle = a.angle
+            if angle == "auto":
+                angle = "d3d11" if sys.platform == "win32" else (
+                    "metal" if sys.platform == "darwin" else None)
+            if angle:
+                args += ["--use-gl=angle", f"--use-angle={angle}"]
+            if angle == "swiftshader":
                 args += ["--enable-unsafe-swiftshader"]
-            br = p.chromium.launch(headless=bool(a.headless), args=args)
+            launch = {"headless": bool(a.headless), "args": args}
+            if a.browser != "bundled":
+                launch["channel"] = a.browser
+            br = p.chromium.launch(**launch)
             pg = br.new_page(viewport={"width": W, "height": H})
             errs = []
             pg.on("pageerror", lambda e: errs.append(str(e)))
@@ -184,7 +234,8 @@ def main():
             print(f"  renderer  {gpu}")
             if soft:
                 print("  !! software rasteriser — every sub-frame is on the CPU.")
-                print("     Drop --headless, or lower --width/--blur.")
+                print("     On Windows try --browser chrome --angle d3d11;")
+                print("     otherwise lower --width/--blur or use a headed browser.")
             pg.evaluate(f"window.setRenderSize({W},{H})")
             out = pg.locator("#out")
             shot_kw = {"type": "png"} if a.jpeg <= 0 else {"type": "jpeg", "quality": a.jpeg}
@@ -227,21 +278,30 @@ def main():
                 full = (t1 - t0) * a.fps / r / 60
                 print(f"  {a.probe} frames in {el:.1f}s  =  {r:.1f} fps")
                 print(f"  this span ({t1-t0:.0f}s) would take {full:.1f} min")
-                # Where the time actually goes. GL calls queue asynchronously,
-                # so the page forces the frame to complete before stopping the
-                # clock — otherwise this would measure submission, not work.
+                # Where the time actually goes. WebGL pages report simulation
+                # and GPU time separately; Canvas pages report one page-side
+                # draw/raster time. Capture is the remainder around readback.
                 if pg.evaluate("typeof window.__probe === 'function'"):
                     b = pg.evaluate(f"window.__probe({t0 + 1.0},{a.blur},8)")
-                    cap = max(0.0, 1000.0 / r - b["frameMs"])
+                    page_ms = b.get("drawMs", b.get("frameMs", 0.0))
+                    cap = max(0.0, 1000.0 / r - page_ms)
                     print()
                     print(f"  per output frame at blur {a.blur}:")
-                    print(f"    simulation (CPU/JS)   {b['simMs']:7.1f} ms")
-                    print(f"    render     (GPU)      {b['gpuMs']:7.1f} ms")
+                    if "drawMs" in b:
+                        print(f"    page draw / raster    {page_ms:7.1f} ms")
+                    else:
+                        print(f"    simulation (CPU/JS)   {b['simMs']:7.1f} ms")
+                        print(f"    render     (GPU)      {b['gpuMs']:7.1f} ms")
                     print(f"    capture    (readback) {cap:7.1f} ms")
-                    tot = b["simMs"] + b["gpuMs"] + cap
+                    if "drawMs" in b:
+                        parts = [("page draw/raster", page_ms), ("frame capture", cap)]
+                    else:
+                        parts = [("simulation", b["simMs"]),
+                                 ("GPU render", b["gpuMs"]),
+                                 ("frame capture", cap)]
+                    tot = sum(value for _, value in parts)
                     if tot > 0:
-                        worst = max([("simulation", b["simMs"]), ("GPU render", b["gpuMs"]),
-                                     ("frame capture", cap)], key=lambda x: x[1])
+                        worst = max(parts, key=lambda x: x[1])
                         print(f"    -> {worst[0]} dominates "
                               f"({100*worst[1]/tot:.0f}% of the frame)")
                 br.close()

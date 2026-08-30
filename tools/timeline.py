@@ -17,6 +17,7 @@ import bisect
 import copy
 import json
 import pathlib
+import re
 import subprocess
 import sys
 from dataclasses import dataclass
@@ -155,6 +156,109 @@ def validate_timeline(timeline: dict, grid: MusicalGrid | None = None) -> list[s
                 errors.append(f"item {iid!r} has lyricOrigin outside a lyrics track")
             elif lyric_origin not in {None, "sheet", "improv"}:
                 errors.append(f"item {iid!r} has unsupported lyricOrigin {lyric_origin!r}")
+            metaphors = item.get("metaphors")
+            if metaphors is not None:
+                if track.get("type") not in {"choreography", "transition"}:
+                    errors.append(f"item {iid!r} has metaphors outside a choreography or transition track")
+                elif not isinstance(metaphors, list) or any(
+                        not isinstance(value, str)
+                        or not re.fullmatch(r"[A-Z]+(?:-[A-Z]+)+", value)
+                        for value in metaphors):
+                    errors.append(f"item {iid!r} has invalid cinematographic metaphor IDs")
+            blocking = item.get("blocking")
+            if blocking is not None:
+                if track.get("type") != "choreography":
+                    errors.append(f"item {iid!r} has blocking outside a choreography track")
+                elif not isinstance(blocking, dict):
+                    errors.append(f"item {iid!r} blocking must be an object")
+                else:
+                    shots = {"opening-oscilloscope", "opening-bifurcation",
+                             "opening-assembly", "opening-warm-call",
+                             "opening-important-fan", "opening-listener-crossing",
+                             "opening-solid-contour", "opening-piece-tableau",
+                             "opening-fit-tests", "opening-network-fold",
+                             "garden-threshold", "garden-light-dolly",
+                             "garden-branching-canopy", "garden-drum-awakening",
+                             "midi-network-pack", "midi-network-flight",
+                             "midi-network-loss",
+                             "receiver-empty-lens", "receiver-empty-starfield",
+                             "receiver-phase-demand",
+                             "receiver-raw-scan",
+                             "receiver-constructive-interference",
+                             "receiver-garden-phaseplate",
+                             "inspection-delivery", "inspection-pattern-test",
+                             "inspection-world-plus", "inspection-pre-mars",
+                             "crane-reveal", "overhead-rings", "plunging-spiral",
+                             "diagonal-refusal", "counterfeit-line",
+                             "overhead-excavation", "rising-kaleidoscope",
+                             "semantic-call-response", "semantic-filament-weather",
+                             "semantic-rocket-overhead", "semantic-rain-to-river",
+                             "river-moon-descent", "river-chrome-entry",
+                             "river-current-macro", "river-tail-notation",
+                             "river-spirograph-bend", "river-mouth-microcosm",
+                             "river-heaven-drumwall", "river-guitar-vault",
+                             "river-chorus-plunge", "current-switchyard-turn",
+                             "current-following-wake", "current-answer-contact",
+                             "outro-left-call", "outro-right-response",
+                             "outro-time-tunnel", "outro-crosscut-reprise",
+                             "outro-goodnight-cascade", "outro-final-iris",
+                             "production-coda-title"}
+                    shot = blocking.get("rendererShot")
+                    if shot is not None and shot not in shots:
+                        errors.append(f"item {iid!r} has unsupported rendererShot {shot!r}")
+                    elements = blocking.get("elements", [])
+                    element_ids = set()
+                    if not isinstance(elements, list):
+                        errors.append(f"item {iid!r} blocking.elements must be a list")
+                    else:
+                        for element in elements:
+                            if not isinstance(element, dict):
+                                errors.append(f"item {iid!r} has a non-object blocking element")
+                                continue
+                            eid = element.get("id")
+                            if not eid or eid in element_ids:
+                                errors.append(f"item {iid!r} has missing or duplicate element id {eid!r}")
+                            element_ids.add(eid)
+                            if element.get("kind") not in {"performer", "chorus", "object", "environment"}:
+                                errors.append(f"item {iid!r} element {eid!r} has unsupported kind")
+                            if element.get("layer") not in {"foreground", "midground", "background"}:
+                                errors.append(f"item {iid!r} element {eid!r} has unsupported layer")
+                            path = element.get("path")
+                            if not isinstance(path, list) or not path:
+                                errors.append(f"item {iid!r} element {eid!r} needs a motion path")
+                            elif any(not isinstance(point, list) or len(point) != 2
+                                     or any(not isinstance(value, (int, float))
+                                            or isinstance(value, bool) or value < 0 or value > 100
+                                            for value in point) for point in path):
+                                errors.append(f"item {iid!r} element {eid!r} has invalid 0..100 path coordinates")
+                    interactions = blocking.get("interactions", [])
+                    if not isinstance(interactions, list):
+                        errors.append(f"item {iid!r} blocking.interactions must be a list")
+                    else:
+                        interaction_ids = set()
+                        for interaction in interactions:
+                            if not isinstance(interaction, dict):
+                                errors.append(f"item {iid!r} has a non-object interaction")
+                                continue
+                            interaction_id = interaction.get("id")
+                            if (not isinstance(interaction_id, str)
+                                    or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", interaction_id)
+                                    or interaction_id in interaction_ids):
+                                errors.append(f"item {iid!r} has missing, invalid, or duplicate interaction id {interaction_id!r}")
+                            interaction_ids.add(interaction_id)
+                            for role in ("initiator", "responder"):
+                                actor = interaction.get(role)
+                                if actor not in element_ids:
+                                    errors.append(f"item {iid!r} interaction {interaction_id!r} {role} {actor!r} is not a blocking element")
+                            window = interaction.get("window")
+                            if (not isinstance(window, list) or len(window) != 2
+                                    or any(not isinstance(value, (int, float))
+                                           or isinstance(value, bool) or value < 0 or value > 1
+                                           for value in window)
+                                    or (len(window) == 2 and window[1] <= window[0])):
+                                errors.append(f"item {iid!r} interaction {interaction_id!r} needs an increasing 0..1 window")
+                            if not isinstance(interaction.get("action"), str) or not interaction.get("action", "").strip():
+                                errors.append(f"item {iid!r} interaction {interaction_id!r} needs an action")
             start, end, at = item.get("start"), item.get("end"), item.get("at")
             if start is None and at is None:
                 if item.get("timingStatus") != "unplaced":
@@ -272,10 +376,19 @@ def sync_project(project_file: pathlib.Path) -> dict:
            "--duration-source", timing.get("durationSource", "auto"),
            "--beatmap-out", str(beatmap), "--no-lyrics", "--compare"]
     subprocess.run(cmd, check=True)
+    beatmap_data = load(beatmap)
     if project.get("referenceWaveforms"):
         from waveforms import build as build_waveforms
-        build_waveforms(project, project_dir, load(beatmap))
-    return compile_timeline(project, project_dir)
+        build_waveforms(project, project_dir, beatmap_data)
+    compiled = compile_timeline(project, project_dir)
+    if project.get("performance"):
+        from performance import build as build_performance
+        build_performance(project, project_dir, compiled, beatmap_data)
+    if project.get("motionClips"):
+        from motion_capture import build_clip
+        for spec in project["motionClips"]:
+            build_clip(spec, project_dir)
+    return compiled
 
 
 def main():
