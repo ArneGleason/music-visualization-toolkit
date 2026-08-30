@@ -1,6 +1,6 @@
 # Rivers of Mars
 
-[![Watch Rivers of Mars](thumbnail.svg)](https://youtu.be/FxzgJe0L55Y)
+[![Watch Rivers of Mars](thumbnail.png)](https://youtu.be/FxzgJe0L55Y)
 
 **Status:** complete and [published on YouTube](https://youtu.be/FxzgJe0L55Y).
 
@@ -55,7 +55,7 @@ from a general-purpose video editor.
 
 - `project.json` — machine-independent project manifest
 - `timeline.json` — editable music-video register
-- `thumbnail.svg` — deterministic thumbnail source
+- `thumbnail.png` — final project thumbnail
 - `../../video/app.js` — narrative vector renderer
 - `../../docs/VIDEO.md` — detailed scene, motion, and render design record
 

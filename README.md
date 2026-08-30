@@ -11,7 +11,7 @@ projects, generated clips, or rendered masters.
 
 ## Completed example: Rivers of Mars
 
-[![Watch Rivers of Mars](projects/rivers-of-mars/thumbnail.svg)](https://youtu.be/FxzgJe0L55Y)
+[![Watch Rivers of Mars](projects/rivers-of-mars/thumbnail.png)](https://youtu.be/FxzgJe0L55Y)
 
 [Watch **Rivers of Mars** on YouTube](https://youtu.be/FxzgJe0L55Y), or read
 the [project notes](projects/rivers-of-mars/README.md).

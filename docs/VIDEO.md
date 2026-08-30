@@ -7,7 +7,7 @@ older abstract instrument actors.
 
 ## Completed project: Rivers of Mars
 
-[![Watch Rivers of Mars](../projects/rivers-of-mars/thumbnail.svg)](https://youtu.be/FxzgJe0L55Y)
+[![Watch Rivers of Mars](../projects/rivers-of-mars/thumbnail.png)](https://youtu.be/FxzgJe0L55Y)
 
 The completed 3:23.708 video is [published on YouTube](https://youtu.be/FxzgJe0L55Y).
 The final local master is 1920×1080 at 24 fps with 32 temporal samples per
