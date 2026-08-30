@@ -200,6 +200,7 @@ let selectedScene = prototypeScenes.find(scene => scene.id === query.get('scene'
                  || scenes[0];
 let previewTime = selectedScene.startSec;
 let offline = false;
+let renderPixelScale = 1;
 
 for (const scene of prototypeScenes) {
   const option = document.createElement('option');
@@ -379,7 +380,7 @@ function pathStroke(g, path, color, width, alpha = 1, glow = 12) {
     g.strokeStyle = color;
     g.globalAlpha = alpha * .24;
     g.lineWidth = width * 4.2;
-    g.filter = `blur(${glow}px)`;
+    g.filter = `blur(${glow * renderPixelScale}px)`;
     g.stroke(path);
   }
   g.filter = 'none';
@@ -537,7 +538,7 @@ function drawMars(g, w, h, t, d, p) {
   g.save();
   g.globalCompositeOperation = 'screen';
   g.lineCap = 'round';
-  g.filter = `blur(${Math.round(10 + d.masterBody * 9)}px)`;
+  g.filter = `blur(${Math.round((10 + d.masterBody * 9) * renderPixelScale)}px)`;
   for (let band = 0; band < 5; band++) {
     const path = new Path2D();
     const rotation = turn * (band % 2 ? -1 : 1) + band * .58;
@@ -4347,7 +4348,7 @@ function drawChromeSwimmer(g, w, h, t, d, options = {}) {
   g.fillStyle = chrome;
   g.globalAlpha = alpha * .16;
   g.shadowColor = '#84f1e4';
-  g.shadowBlur = size * .085;
+  g.shadowBlur = size * .085 * renderPixelScale;
   g.fill(shell);
   pathStroke(g, shell, '#bffcf1', size * .008, alpha * .34, size * .035);
   for (const [elbow, wrist, hand, color, side] of [
@@ -4366,7 +4367,7 @@ function drawChromeSwimmer(g, w, h, t, d, options = {}) {
     g.fillStyle = color;
     g.globalAlpha = alpha * .12;
     g.shadowColor = color;
-    g.shadowBlur = size * .04;
+    g.shadowBlur = size * .04 * renderPixelScale;
     g.fill(finShell);
   }
   pathStroke(g, body, '#78dcd6', size * .12, alpha * .11, size * .13);
@@ -4386,7 +4387,7 @@ function drawChromeSwimmer(g, w, h, t, d, options = {}) {
     g.fillStyle = color;
     g.globalAlpha = alpha * .2;
     g.shadowColor = color;
-    g.shadowBlur = size * .045;
+    g.shadowBlur = size * .045 * renderPixelScale;
     g.fill();
     g.restore();
   }
@@ -4761,7 +4762,7 @@ function drawRiverWorld(g, w, h, t, d, local, shot) {
   g.save();
   g.globalAlpha = .78;
   g.shadowColor = '#f27e8d';
-  g.shadowBlur = moonR * .38;
+  g.shadowBlur = moonR * .38 * renderPixelScale;
   g.fillStyle = moon;
   g.beginPath();
   g.arc(moonX, moonY, moonR, 0, TAU);
@@ -5112,7 +5113,7 @@ function drawRiverSpirographField(g, w, h, t, d, morph, scale = 1,
     g.globalCompositeOperation = 'screen';
     g.lineCap = 'round';
     g.lineJoin = 'round';
-    g.filter = `blur(${Math.round(8 + saturation * 13)}px)`;
+    g.filter = `blur(${Math.round((8 + saturation * 13) * renderPixelScale)}px)`;
     for (let layer = 17; layer >= 0; layer -= 3) {
       g.strokeStyle = RIVER_SPIRO_COLORS[layer % RIVER_SPIRO_COLORS.length];
       g.globalAlpha = opacity * saturation * (.028 + d.masterBody * .022);
@@ -5459,7 +5460,7 @@ function fillMembrane(g, path, color, alpha, blur) {
   g.globalAlpha = alpha;
   g.fillStyle = color;
   g.shadowColor = color;
-  g.shadowBlur = blur;
+  g.shadowBlur = blur * renderPixelScale;
   g.fill(path);
   g.restore();
 }
@@ -5714,7 +5715,7 @@ function drawCurrentField(g, w, h, t, d, shot, alpha = 1) {
     g.strokeStyle = color;
     g.globalAlpha = alpha * (1 - subtract * .86) * (.025 + d.masterBody * .035);
     g.lineWidth = h * (.055 + lane / 8 * .032 + d.bassBody * .025);
-    g.filter = `blur(${12 + lane}px)`;
+    g.filter = `blur(${(12 + lane) * renderPixelScale}px)`;
     g.stroke(paths[lane]);
   }
   g.restore();
@@ -6479,7 +6480,7 @@ function drawProductionCoda(g, w, h, t, d, shot) {
   g.fillStyle = titleGradient;
   g.globalAlpha = titleP * .94;
   g.shadowColor = '#b9f1cc';
-  g.shadowBlur = 8 + titleP * 13;
+  g.shadowBlur = (8 + titleP * 13) * renderPixelScale;
   drawTrackedText(g, 'RIVERS OF MARS', w * .5,
                   h * lerp(.405, .35, titleP), lerp(15, 5.5, titleP));
   g.restore();
@@ -7032,7 +7033,7 @@ function drawLyric(g, w, h, lyric, voice) {
   g.textBaseline = 'middle';
   g.font = `350 ${size}px ui-sans-serif, system-ui, sans-serif`;
   g.shadowColor = color;
-  g.shadowBlur = 8 + voice * 13;
+  g.shadowBlur = (8 + voice * 13) * renderPixelScale;
   g.globalAlpha = .82 + voice * .16;
   g.fillStyle = color;
   g.fillText(lyric.text, w * .5, h * .91);
@@ -7235,6 +7236,7 @@ addEventListener('resize', () => { if (!offline) resize(); });
 
 window.setRenderSize = (w, h) => {
   offline = true;
+  renderPixelScale = Math.max(1, h / 480);
   transport.hidden = true;
   driversEl.hidden = true;
   captionEl.hidden = true;
@@ -7246,14 +7248,37 @@ window.setRenderSize = (w, h) => {
 
 window.renderFrame = (t, frameDt, samples = 1) => {
   const n = Math.max(1, Math.round(samples));
+  const logicalH = 480;
+  const logicalW = logicalH * canvas.width / canvas.height;
+  const outputScale = canvas.height / logicalH;
   ctx.save();
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
   ctx.globalCompositeOperation = 'source-over';
+  ctx.globalAlpha = 1;
+  ctx.filter = 'none';
   ctx.fillStyle = '#000';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-  ctx.globalCompositeOperation = 'lighter';
-  ctx.globalAlpha = 1 / n;
+  // Use an exact running average. Additive compositing is not color-neutral
+  // once a source frame already contains screen-blended translucent glows:
+  // at 16–32 samples it turns those layers into saturated slabs. Blending
+  // sample i at 1/(i+1) preserves the arithmetic mean without a float buffer.
+  ctx.globalCompositeOperation = 'source-over';
   for (let i = 0; i < n; i++) {
-    drawFrame(workCtx, t + (i + .5) / n * frameDt, work.width, work.height);
+    // Treat every temporal sample as an independent exposure. Some scene
+    // functions use screen compositing internally; carrying even one such
+    // state into the next sample turns translucent membranes into opaque
+    // color slabs at high sample counts.
+    workCtx.setTransform(1, 0, 0, 1, 0, 0);
+    workCtx.globalCompositeOperation = 'source-over';
+    workCtx.globalAlpha = 1;
+    workCtx.filter = 'none';
+    workCtx.shadowBlur = 0;
+    workCtx.shadowColor = '#0000';
+    workCtx.fillStyle = '#000';
+    workCtx.fillRect(0, 0, work.width, work.height);
+    workCtx.setTransform(outputScale, 0, 0, outputScale, 0, 0);
+    drawFrame(workCtx, t + (i + .5) / n * frameDt, logicalW, logicalH);
+    ctx.globalAlpha = 1 / (i + 1);
     ctx.drawImage(work, 0, 0);
   }
   ctx.restore();

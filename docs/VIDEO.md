@@ -5,15 +5,36 @@ scenes. It keeps the existing deterministic capture contract while using the
 authored timeline register and compact DAW-aligned waveforms instead of the
 older abstract instrument actors.
 
-## Current prototypes
+## Completed project: Rivers of Mars
+
+[![Watch Rivers of Mars](../projects/rivers-of-mars/thumbnail.svg)](https://youtu.be/FxzgJe0L55Y)
+
+The completed 3:23.708 video is [published on YouTube](https://youtu.be/FxzgJe0L55Y).
+The final local master is 1920×1080 at 24 fps with 32 temporal samples per
+output frame, H.264 CRF 14 using the slow preset, and 48 kHz stereo AAC at
+320 kbps. That is 4,889 output frames and 156,448 sampled exposures. The
+register contains 184 timed items: 87 lyric cues, 15 scenes, 15 transitions,
+63 choreography blocks, and 4 production notes.
+
+The final HD proof exposed two resolution-dependent bugs before the full
+render. The renderer now keeps a fixed 480-unit logical design height while
+scaling the output canvas, including Canvas properties such as blur and shadow
+that do not follow transforms. Temporal samples use an exact running average
+instead of additive compositing, which preserves translucent glows rather than
+turning them into saturated slabs at high sample counts.
+
+Rendered media remains outside Git. The public upload is the durable result;
+the compact register, renderer, thumbnail source, and regeneration command are
+kept in `projects/rivers-of-mars/` and this repository.
+
+## Design record
 
 ### Rendered opening sequence
 
 The first thirty seconds, from `2.4` through `13.1.720` (0.00–29.95
 seconds), now have a contiguous ten-shot score in the register and a matching
-renderer sequence, `sequence-opening`. The current review cut is
-`out/opening-chromatic-ignition-to-them_v2-review.mp4`. The
-first image is a forceful chromatic exposure rather than a dark lead-in. Peach,
+renderer sequence, `sequence-opening`. The first image is a forceful chromatic
+exposure rather than a dark lead-in. Peach,
 cyan and violet remain visible inside the near-white field as curved rays gather
 the entire image into one hot point over roughly half a second. That same point
 unfurls into an oscilloscope whose fine contour displacement comes from the
@@ -318,9 +339,8 @@ fifty-five seconds rather than from isolated excerpts.
 The longer `sequence-garden-through-river` review now continues through the
 semantic rocket/weather bridge and the first completed river movement. It spans
 `21.3.480` to the end of `lyr-060` (53.98–156.88 seconds), giving a contiguous
-102.90-second pacing strip. The review render is
-`out/garden-through-river_longest-strip_v1.mp4` at 854×480, 24 fps, with the
-original audio and one temporal sample for fast iteration.
+102.90-second pacing strip. Intermediate review renders are intentionally not
+retained; the same strip can be regenerated from the registered sequence.
 
 The formerly unrendered `scene-semantic-rocket-weather` gap is four authored
 shots rather than a generic fallback. Large face-on eyes and phonetic mouths
@@ -505,9 +525,10 @@ controls, the scrubber seeks on the master clock, and the selected scene loops
 by default.
 
 `videodraft` renders 854×480 at 24 fps with two temporal samples. `videotest`
-uses the master settings: 1920×1080 at 60 fps with 32 temporal samples. Both
-commands step time deterministically through `tools/world_render.py`, then mux
-the locally configured master WAV.
+uses a 1920×1080, 60 fps, 32-sample diagnostic profile. The published master
+keeps the approved 24 fps cadence while using all 32 temporal samples across
+each output exposure. All profiles step time deterministically through
+`tools/world_render.py`, then mux the locally configured master WAV.
 
 The exporter prints the actual ANGLE/WebGL renderer visible to its Chromium
 GPU process and `--probe N` separates page draw/raster time from frame capture
@@ -520,11 +541,12 @@ system Chrome exposed the NVIDIA D3D11 renderer even in headless mode. Treat
 the printed renderer as authoritative: RTX/D3D11 is hardware; SwiftShader is
 CPU software rasterization.
 
-The video render commands also use `--capture post`, sending each encoded
-canvas frame straight from the local page to ffmpeg through the timeline
-server. At draft settings this measured about 33 fps on the RTX 4080 SUPER,
-versus 3.6 fps through SwiftShader. At 1080p with 32 temporal samples, JPEG
-readback/encoding—not vector drawing—becomes the remaining dominant cost.
+The renderer supports `post`, `cdp`, `dataurl`, and `element` capture paths.
+At draft settings, `--capture post` measured about 33 fps on the RTX 4080
+SUPER, versus 3.6 fps through SwiftShader. At 1080p with 32 temporal samples,
+frame readback and encoding—not vector drawing—become the dominant cost. The
+final master used `--capture cdp` with lossless PNG transfer after the post and
+JPEG routes showed no advantage at those settings.
 
 On Windows, use the project environment directly if Bash is unavailable:
 

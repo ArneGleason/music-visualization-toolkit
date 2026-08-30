@@ -4,9 +4,27 @@ A dependency-light collection of tools for turning a music project into
 frame-accurate animatics, 3D arrangement visualizations, and audio/MIDI-driven
 vector performances.
 
-This repository contains the reusable code from the **We Be** music-video
-project. It deliberately does **not** contain the song, stems, DAW project,
-storyboard frames, generated clips, or rendered videos.
+This repository began with reusable code from the **We Be** music-video
+project and now includes the completed **Rivers of Mars** narrative-vector
+case study. It deliberately does **not** contain the songs, stems, DAW
+projects, generated clips, or rendered masters.
+
+## Completed example: Rivers of Mars
+
+[![Watch Rivers of Mars](projects/rivers-of-mars/thumbnail.svg)](https://youtu.be/FxzgJe0L55Y)
+
+[Watch **Rivers of Mars** on YouTube](https://youtu.be/FxzgJe0L55Y), or read
+the [project notes](projects/rivers-of-mars/README.md).
+
+The project starts with an earlier Bitwig composition, uses the original track
+plus human-written lyrics and vocal direction to produce a Suno cover, then
+cleans and reworks the separated stems in Bitwig. The completed DAW project
+drives a custom timeline register and browser-based vector renderer: stems,
+MIDI events, pitch, duration, velocity, rhythm, lyrics, scenes, transitions,
+and choreography all remain inspectable inputs rather than being flattened
+into a conventional edit decision list. The public video is the durable media
+artifact; the repository keeps the code and compact project metadata required
+to reproduce it.
 
 ## What is here
 
@@ -38,7 +56,8 @@ Three.js in the browser, and ffmpeg subprocesses over a large framework.
 - Python 3.10+
 - ffmpeg and ffprobe
 - A Chromium-compatible browser installed by Playwright
-- macOS is the best-tested platform; most rendering code is portable
+- macOS and Windows are tested; system Chrome with D3D11 was used for the
+  final `Rivers of Mars` render on Windows
 
 Install the Python environment:
 

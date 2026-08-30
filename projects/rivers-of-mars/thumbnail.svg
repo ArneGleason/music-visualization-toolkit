@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="bg" cx="68%" cy="35%" r="88%">
+      <stop offset="0" stop-color="#251036"/>
+      <stop offset="0.44" stop-color="#090b21"/>
+      <stop offset="1" stop-color="#020713"/>
+    </radialGradient>
+    <radialGradient id="mars" cx="35%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#ff9a72"/>
+      <stop offset="0.18" stop-color="#a93b53"/>
+      <stop offset="0.57" stop-color="#49142f"/>
+      <stop offset="1" stop-color="#09091b"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" x2="1">
+      <stop offset="0" stop-color="#86f5e2"/>
+      <stop offset="0.5" stop-color="#fff1ce"/>
+      <stop offset="1" stop-color="#ff9a6a"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff6d87"/>
+      <stop offset="0.34" stop-color="#ffd266"/>
+      <stop offset="0.68" stop-color="#64eadc"/>
+      <stop offset="1" stop-color="#8897ff"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="marsClip">
+      <path d="M74 400 C89 250 194 125 366 111 C526 100 612 218 586 370 C566 500 438 596 272 584 C124 574 59 505 74 400Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+
+  <!-- Large peripheral masses make the image read before the details do. -->
+  <ellipse cx="1194" cy="347" rx="360" ry="344" fill="none" stroke="#313568" stroke-width="74" opacity="0.13"/>
+  <ellipse cx="1194" cy="347" rx="281" ry="262" fill="none" stroke="#4fe4d3" stroke-width="5" opacity="0.20"/>
+  <ellipse cx="1194" cy="347" rx="226" ry="210" fill="none" stroke="#ffbd69" stroke-width="3" opacity="0.18"/>
+
+  <!-- Mars is an organic luminous mass rather than a diagrammatic circle. -->
+  <path d="M74 400 C89 250 194 125 366 111 C526 100 612 218 586 370 C566 500 438 596 272 584 C124 574 59 505 74 400Z"
+        fill="url(#mars)" stroke="#ff806e" stroke-width="6" opacity="0.96" filter="url(#bigGlow)"/>
+  <g clip-path="url(#marsClip)" fill="none" stroke-linecap="round">
+    <path d="M-38 264 C126 143 271 331 426 210 S683 198 733 282" stroke="#ff8a72" stroke-width="44" opacity="0.18"/>
+    <path d="M-18 355 C136 222 258 448 436 301 S675 292 722 352" stroke="#ffd167" stroke-width="30" opacity="0.22"/>
+    <path d="M-28 448 C139 333 290 538 457 394 S661 391 714 448" stroke="#55e7d4" stroke-width="22" opacity="0.22"/>
+    <path d="M34 513 C165 433 296 584 443 492 S637 478 694 520" stroke="#7a8cff" stroke-width="13" opacity="0.24"/>
+  </g>
+
+  <!-- Spirographic orbits: broad glow below, crisp colored lines above. -->
+  <g transform="translate(376 370) rotate(-12)" fill="none" stroke-linecap="round">
+    <g filter="url(#bigGlow)" opacity="0.22">
+      <ellipse rx="310" ry="114" stroke="#69ebd9" stroke-width="26" transform="rotate(16)"/>
+      <ellipse rx="278" ry="145" stroke="#ff6e9c" stroke-width="22" transform="rotate(58)"/>
+      <ellipse rx="250" ry="92" stroke="#ffd36d" stroke-width="18" transform="rotate(102)"/>
+    </g>
+    <ellipse rx="310" ry="114" stroke="#69ebd9" stroke-width="5" transform="rotate(16)" opacity="0.75"/>
+    <ellipse rx="278" ry="145" stroke="#ff6e9c" stroke-width="5" transform="rotate(58)" opacity="0.75"/>
+    <ellipse rx="250" ry="92" stroke="#ffd36d" stroke-width="4" transform="rotate(102)" opacity="0.78"/>
+    <ellipse rx="223" ry="71" stroke="#95a4ff" stroke-width="3" transform="rotate(142)" opacity="0.6"/>
+  </g>
+
+  <!-- The river/MIDI through-line visually connects planet, music and singer. -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M-48 604 C184 540 332 663 527 553 C704 454 791 503 927 438 C1064 373 1155 259 1334 312"
+          stroke="#53e5d4" stroke-width="42" opacity="0.10" filter="url(#bigGlow)"/>
+    <path d="M-48 604 C184 540 332 663 527 553 C704 454 791 503 927 438 C1064 373 1155 259 1334 312"
+          stroke="url(#river)" stroke-width="9" opacity="0.84" filter="url(#glow)"/>
+    <path d="M-31 639 C195 584 348 693 539 585 C718 484 825 550 963 462 C1096 377 1184 325 1319 354"
+          stroke="#928fff" stroke-width="4" opacity="0.55"/>
+    <path d="M-32 563 C166 501 343 625 504 519 C686 400 788 451 911 399 C1055 338 1139 216 1317 264"
+          stroke="#ff8bb8" stroke-width="4" opacity="0.48"/>
+  </g>
+
+  <!-- Pitch/duration packets are fat enough to survive mobile display. -->
+  <g filter="url(#glow)" stroke-linecap="round">
+    <path d="M460 573 C506 552 544 528 584 505" stroke="#ffd45e" stroke-width="18"/>
+    <path d="M602 496 C650 474 694 464 746 464" stroke="#ff6f9b" stroke-width="23"/>
+    <path d="M773 460 C817 455 851 443 893 420" stroke="#65ecdc" stroke-width="15"/>
+    <path d="M931 399 C966 376 1001 347 1036 319" stroke="#8da2ff" stroke-width="20"/>
+  </g>
+
+  <!-- The Them archetype: only expressive eyes and mouth, enlarged as performers. -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M780 224 C835 171 919 177 970 229 C919 210 844 211 780 224Z"
+          fill="#0a0d22" stroke="#fff0cf" stroke-width="9" filter="url(#glow)"/>
+    <path d="M1003 228 C1050 176 1121 185 1164 234 C1116 213 1054 213 1003 228Z"
+          fill="#0a0d22" stroke="#fff0cf" stroke-width="9" filter="url(#glow)"/>
+    <path d="M788 209 C811 181 828 170 849 158 M806 203 C833 176 854 165 878 153 M1016 207 C1040 179 1062 169 1085 157 M1044 204 C1072 177 1095 171 1120 161"
+          stroke="#7defdf" stroke-width="7" opacity="0.9"/>
+    <path d="M836 377 C890 331 966 337 1016 376 C965 363 892 365 836 377Z"
+          fill="#ff668b" stroke="#ffd0a0" stroke-width="8" filter="url(#glow)"/>
+    <path d="M836 379 C889 441 969 445 1016 378 C965 400 890 401 836 379Z"
+          fill="#8d214d" stroke="#ff7f9c" stroke-width="10" filter="url(#glow)"/>
+    <path d="M884 405 C919 386 957 390 981 406" stroke="#ffbd8e" stroke-width="7" opacity="0.78"/>
+    <path d="M1027 375 C1083 344 1130 354 1181 312 M1035 392 C1095 384 1147 404 1210 386 M1017 410 C1077 430 1134 465 1194 468"
+          stroke="#ff809d" stroke-width="4" opacity="0.55"/>
+  </g>
+
+  <!-- Musical particles keep the void active while retaining a clean hierarchy. -->
+  <g fill="#fff5cf">
+    <circle cx="704" cy="112" r="5"/><circle cx="748" cy="84" r="3" opacity="0.7"/>
+    <circle cx="1188" cy="94" r="6"/><circle cx="1233" cy="150" r="3" opacity="0.7"/>
+    <circle cx="649" cy="257" r="4" opacity="0.8"/><circle cx="1096" cy="603" r="5" opacity="0.75"/>
+    <circle cx="1212" cy="567" r="3" opacity="0.7"/><circle cx="684" cy="638" r="4" opacity="0.65"/>
+  </g>
+  <g fill="none" stroke-linecap="round" opacity="0.65">
+    <path d="M670 143 Q685 125 700 144 Q685 157 670 143" stroke="#ff7fa0" stroke-width="4"/>
+    <path d="M1148 538 Q1168 516 1187 539 Q1169 555 1148 538" stroke="#77eadd" stroke-width="5"/>
+    <path d="M721 607 Q741 582 762 605 Q742 625 721 607" stroke="#ffd06a" stroke-width="5"/>
+  </g>
+
+  <!-- Exact title, sized for legibility at a quarter-scale preview. -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-weight="700" fill="url(#title)" filter="url(#glow)">
+    <text x="57" y="88" font-size="66" letter-spacing="8">RIVERS</text>
+    <text x="58" y="159" font-size="66" letter-spacing="6">OF MARS</text>
+  </g>
+  <path d="M60 181 C173 170 273 195 397 175" fill="none" stroke="#72e7d7" stroke-width="5" opacity="0.72"/>
+</svg>
