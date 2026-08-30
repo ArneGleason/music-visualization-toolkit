@@ -26,6 +26,15 @@ into a conventional edit decision list. The public video is the durable media
 artifact; the repository keeps the code and compact project metadata required
 to reproduce it.
 
+### The music-video register
+
+![Rivers of Mars music-video register](docs/images/rivers-of-mars-register.png)
+
+The purpose-built register keeps silent master and stem waveforms, timed
+lyrics, scene direction, transitions, choreography, drivers, and production
+notes together on one musical timeline. It became the creative control surface
+for directing the browser renderer scene by scene and cut by cut.
+
 ## What is here
 
 - **Vector stage** — Three.js laser performers driven by stems, notes,
