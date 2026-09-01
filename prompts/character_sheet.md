@@ -1,5 +1,14 @@
 # Character sheet & board work order — image generation
 
+> **Status 2026-08-31:** both performers are BUILT as Flow Characters
+> (portrait + full body) in the Flow project "Rivers of Mars - AI video":
+> `Astronaut (Them 2)` and `Astronomer (Them 1)` — the astronomer recast as
+> the astronaut's **identical twin sister** (same face and bob; round brass
+> glasses, rust-brown tweed suit, mustard vest). Attach the Character on
+> performance shots instead of loose refs. Sections 1–10 below are kept as
+> the spec that produced them and for regenerating extra angles; the boards
+> (11–14) are still to generate.
+
 Paste-ready prompts for Flow / Gemini (Nano Banana). Attach
 `refs/character_master.png` as an ingredient on **every** prompt below —
 it anchors identity, wardrobe, palette, and world at once. Append the lock
@@ -28,20 +37,23 @@ out of Git). After saving, add any new `- ref name: path` lines to
 5. `refs/astronaut_move.png` — Mid-movement full body: walking turn with
    arms away from the body, hair in motion, on coral terrain.
 
-## The astronomer (Them 1) — new design, styled by the master image
+## The astronomer (Them 1) — the astronaut's identical twin
 
-6. `refs/astronomer_front.png` — Full-body studio portrait of a middle-aged
-   astronomer, front-on and centered: rumpled three-piece tweed suit, knit
-   tie, round brass-rimmed glasses, neat greying hair and mustache, a brass
-   pocket telescope in hand. Plain cream backdrop, warm tungsten light.
-   Same 1950s film world as the reference image.
-7. `refs/astronomer_34.png` — Waist-up 3/4 view, same man same suit same
+Generate every astronomer image with the astronaut character (or the master
+image) attached, so the twin faces stay identical.
+
+6. `refs/astronomer_front.png` — Full-body studio portrait, front-on and
+   centered: the astronaut's identical twin sister — same face, same auburn
+   curly bob — in round brass-rimmed glasses, rumpled rust-brown tweed
+   jacket and trousers, mustard knit vest, collared check shirt, brown
+   brogues. Plain cream backdrop, warm tungsten light.
+7. `refs/astronomer_34.png` — Waist-up 3/4 view, same woman same suit same
    day, holding a hand-inked Mars canal map. Plain warm backdrop.
 8. `refs/astronomer_close.png` — Frontal close-up, eyes to camera, mouth
    relaxed and softly closed (lip-sync anchor). Desk-lamp warmth against
    darkness.
 9. `refs/astronomer_profile.png` — True profile close-up facing frame
-   right (he and the astronaut face each other across the edit), same light.
+   right (the twins face each other across the edit), same light.
 10. `refs/astronomer_move.png` — Mid-movement: reaching up to a telescope
     eyepiece, jacket in motion, observatory interior soft behind.
 

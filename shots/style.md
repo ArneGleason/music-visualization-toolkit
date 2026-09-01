@@ -23,13 +23,23 @@ dial-covered receivers).
 
 Two performers carry the register's Them 1 / Them 2 dialogue:
 
+The two Thems are **identical twin sisters** — same face, same auburn curly
+bob — split across two planets. Wardrobe and glasses are the only visual
+difference, so every crosscut reads as one mind talking to itself.
+
 - **Them 2 — the astronaut-botanist on Mars** (the canonical reference image:
   auburn curly bob, riveted silver suit with red piping, chrome backpack).
   Receiver of the signal; kneels by the canal, inspects specimens, unmasks
   Mars.
-- **Them 1 — the astronomer on Earth** (proposed casting; adjust freely):
-  a Lowell-like figure in a tweed-and-brass observatory, sender of the
-  pieces, seen drawing canal maps and singing into period transmitters.
+- **Them 1 — her twin, the astronomer on Earth**: the same woman in round
+  brass-rimmed glasses, rumpled rust-brown tweed suit, mustard knit vest,
+  collared check shirt; a warm tungsten world of canal charts, brass
+  telescopes, and bakelite consoles. Sender of the pieces.
+
+Both exist as reusable **Flow Characters** (portrait + full body) in the
+Flow project "Rivers of Mars - AI video": `Astronaut (Them 2)` and
+`Astronomer (Them 1)`. Attach the character (not loose refs) on every
+performance shot.
 
 Before any video generation, build a character sheet per performer from the
 master reference image: full body front, 3/4 medium, close-up, profile, one

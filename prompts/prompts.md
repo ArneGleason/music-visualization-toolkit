@@ -64,7 +64,7 @@ Sections: signal-exchange · **generate ≥ 5.7s**
 Lyric: *Hey, I need you for something. / It's important.*
 
 ```
-Medium frontal shot, perfectly centered: a tweed-suited astronomer at a desk piled with hand-drawn canal charts, brass telescope behind. He sings earnestly to camera with softly formed words, minimal head motion, deadpan sincerity. Warm tungsten pools in darkness. Locked off.
+Medium frontal shot, perfectly centered: the astronomer twin - auburn curly bob, round brass-rimmed glasses, rust-brown tweed jacket over a mustard knit vest - at a desk piled with hand-drawn canal charts, brass telescope behind. She sings earnestly to camera with softly formed words, minimal head motion, deadpan sincerity. Warm tungsten pools in darkness. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -108,7 +108,7 @@ Sections: scene-03 · **generate ≥ 2.9s**
 Lyric: *Things that almost fit.*
 
 ```
-Frontal close-up of the astronomer against a plain warm backdrop, eyes to lens, singing gently with softly formed words and minimal head motion. Deadpan, a little hopeful. Locked off.
+Frontal close-up of the astronomer twin - round brass-rimmed glasses, auburn bob - against a plain warm backdrop, eyes to lens, singing gently with softly formed words and minimal head motion. Deadpan, a little hopeful. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -481,7 +481,7 @@ Sections: semantic-rocket-weather · **generate ≥ 5.7s**
 Lyric: *Words leave words. / Things clap overhead*
 
 ```
-Symmetrical split staging: the astronomer in his warm-gold study at frame left, the astronaut in cool-teal Martian night at frame right, divided by a thin centered seam of static. They sing to each other in turn, softly formed words, minimal motion. Locked off.
+Symmetrical split staging: identical twin sisters divided by a thin centered seam of static - the astronomer in her warm-gold study at frame left, the astronaut in cool-teal Martian night at frame right, the same face mirrored. They sing to each other in turn, softly formed words, minimal motion. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -723,7 +723,7 @@ Sections: low-light-outro, scene-14 · **generate ≥ 5.9s**
 Lyric: *You still there? / Define there.*
 
 ```
-Night interior close-medium: the astronomer in the small pool of his desk lamp, surrounded by darkness, tired and fond, singing the quiet lines to camera with barely moving lips. Locked off, centered.
+Night interior close-medium: the astronomer twin in the small pool of her desk lamp, glasses catching the light, surrounded by darkness, tired and fond, singing the quiet lines to camera with barely moving lips. Locked off, centered.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
