@@ -9,6 +9,22 @@ flora, and fauna of Mars. Not animation, not vectors: it should read as a
 meticulously art-directed film shot on a soundstage Mars, with matte-painting
 vistas, practical-looking sets, and deadpan performance.
 
+## The record
+
+Cyanite analysis of the master: **84 BPM, C# minor, 4/4, female vocal, high
+energy**. Genre R&B 0.45 / Pop 0.31 — electro-pop with indie/art-rock/dark-pop
+tags; "punchy and poignant, synths, electric guitar and rhythm." Mood:
+energetic, sexy, uplifting. Character: confident, resolute, strong. Movement:
+groovy, steady, driving, stomping. Instrumentation: percussion and synths
+throughout, bass and electric guitar frequent.
+
+Performance direction follows the record: **confident and punchy, never
+gentle**. Words clearly articulated, eyes locked on the lens, heads steady
+(the lip-sync pass needs stable faces), energy carried in delivery, shoulders,
+and the world moving on the beat. The Anderson deadpan is self-assurance, not
+softness. Reserve true quiet for the low-light outro, which the record
+actually gives us.
+
 ## The world
 
 Lowell's Mars taken literally and lovingly: canals as real waterways

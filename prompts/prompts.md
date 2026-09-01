@@ -64,7 +64,7 @@ Sections: signal-exchange · **generate ≥ 5.7s**
 Lyric: *Hey, I need you for something. / It's important.*
 
 ```
-Medium frontal shot, perfectly centered: the astronomer twin - auburn curly bob, round brass-rimmed glasses, rust-brown tweed jacket over a mustard knit vest - at a desk piled with hand-drawn canal charts, brass telescope behind. She sings earnestly to camera with softly formed words, minimal head motion, deadpan sincerity. Warm tungsten pools in darkness. Locked off.
+Medium frontal shot, perfectly centered: the astronomer twin - auburn curly bob, round brass-rimmed glasses, rust-brown tweed jacket over a mustard knit vest - at a desk piled with hand-drawn canal charts, brass telescope behind. She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Deadpan self-assurance. Warm tungsten pools in darkness. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -108,7 +108,7 @@ Sections: scene-03 · **generate ≥ 2.9s**
 Lyric: *Things that almost fit.*
 
 ```
-Frontal close-up of the astronomer twin - round brass-rimmed glasses, auburn bob - against a plain warm backdrop, eyes to lens, singing gently with softly formed words and minimal head motion. Deadpan, a little hopeful. Locked off.
+Frontal close-up of the astronomer twin - round brass-rimmed glasses, auburn bob - against a plain warm backdrop, eyes locked on the lens, singing with confident punch, words clearly articulated, head steady. Deadpan self-assurance with a flicker of hope. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -174,7 +174,7 @@ Sections: mars-unmasking, scene-05 · **generate ≥ 5.7s**
 Lyric: *I don't see anything. / Think you forgot to attach it. / If you've got it, give it.*
 
 ```
-Frontal close-up of the astronaut - auburn curly bob, riveted silver suit collar - against a soft dark neutral backdrop. She sings gently to camera, softly formed words, minimal head motion, deadpan and curious. Locked off.
+Frontal close-up of the astronaut - auburn curly bob, riveted silver suit collar - against a soft dark neutral backdrop. She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Deadpan self-assurance. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -481,7 +481,7 @@ Sections: semantic-rocket-weather · **generate ≥ 5.7s**
 Lyric: *Words leave words. / Things clap overhead*
 
 ```
-Symmetrical split staging: identical twin sisters divided by a thin centered seam of static - the astronomer in her warm-gold study at frame left, the astronaut in cool-teal Martian night at frame right, the same face mirrored. They sing to each other in turn, softly formed words, minimal motion. Locked off.
+Symmetrical split staging: identical twin sisters divided by a thin centered seam of static - the astronomer in her warm-gold study at frame left, the astronaut in cool-teal Martian night at frame right, the same face mirrored. They trade lines like a confident call-and-response, clearly articulated, heads steady, each landing her phrase on the beat. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -569,7 +569,7 @@ Sections: rivers-of-mars · **generate ≥ 5.7s**
 Lyric: *in the rivers of Mars.*
 
 ```
-The astronaut kneels at the canal bank in moonlight, lamp beside her, singing softly toward the water with minimal head motion; a small chrome creature surfaces to listen. Gentle push, symmetrical framing on her and her reflection.
+The astronaut kneels at the canal bank in moonlight, lamp beside her, singing toward the water with confident, rhythmic delivery, head steady, shoulders grooving subtly; a small chrome creature surfaces and bobs on the beat. Slow push, symmetrical framing on her and her reflection.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -613,7 +613,7 @@ Sections: rivers-of-mars · **generate ≥ 5.7s**
 Lyric: *that bends your mind. / Tiny mouths all agape*
 
 ```
-Frontal hero close-up of the astronaut at the canal edge, moonlit, singing openly to camera; small ripples of reflected water-light move across her face. Softly formed words, minimal head motion. Locked off.
+Frontal hero close-up of the astronaut at the canal edge, moonlit, belting the chorus hook straight to camera - confident and punchy, words clearly articulated, eyes locked on the lens, head steady, shoulders moving subtly with the groove; ripples of reflected water-light pulse across her face on the beat. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -657,7 +657,7 @@ Sections: rivers-of-mars · **generate ≥ 5.7s**
 Lyric: *leaves the senses behind. / No one has ever been*
 
 ```
-One-point symmetrical view straight down the canal into the colony at night: ranked fountains and steam vents fire in sequential order along both banks, lit warm against the dark. Locked off while the water performs.
+One-point symmetrical view straight down the canal into the colony at night: ranked fountains and steam vents fire hard on the drum hits, jets punching up in sequence along both banks, lit warm against the dark. Locked off while the water performs.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
