@@ -1,6 +1,6 @@
 # Veo prompts
 
-36 setups covering 47 cuts. Generate one clip per setup (a couple of takes each for the ones you'll return to). Longest cut using each setup is noted -- generate at least that long.
+37 setups covering 47 cuts. Generate one clip per setup (a couple of takes each for the ones you'll return to). Longest cut using each setup is noted -- generate at least that long.
 
 **Reference images** (attach via Ingredients-to-Video every time):
 
@@ -21,7 +21,7 @@ Used by 1 cut(s): s001 (2.9s)
 Sections: scene-01 · **generate ≥ 2.9s**
 
 ```
-TODO — write this shot
+Night exterior, symmetrical frontal wide of a hillside observatory. The dome slit rumbles open and a blade of warm gold light escapes; one bright red point - Mars - sits dead center above it. Slow deliberate push toward the widening slit until its glow fills the frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -42,7 +42,7 @@ Used by 1 cut(s): s002 (2.9s)
 Sections: scene-01 · **generate ≥ 2.9s**
 
 ```
-TODO — write this shot
+Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, valves glowing. A round oscilloscope tube draws a warm gold waveform that pulses like a voice. Slow lateral drift ending centered on the scope screen.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -64,7 +64,7 @@ Sections: signal-exchange · **generate ≥ 5.7s**
 Lyric: *Hey, I need you for something. / It's important.*
 
 ```
-TODO — write this shot
+Medium frontal shot, perfectly centered: a tweed-suited astronomer at a desk piled with hand-drawn canal charts, brass telescope behind. He sings earnestly to camera with softly formed words, minimal head motion, deadpan sincerity. Warm tungsten pools in darkness. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -86,7 +86,7 @@ Sections: scene-03, signal-exchange · **generate ≥ 5.7s**
 Lyric: *More than that sounds.*
 
 ```
-TODO — write this shot
+Top-down overhead macro of hand-inked Mars canal maps torn into pieces on a leather desktop. Tweed-cuffed hands slide the fragments together; the canal lines almost join, then miss by a hair, again and again. Slow overhead push-in.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -108,7 +108,7 @@ Sections: scene-03 · **generate ≥ 2.9s**
 Lyric: *Things that almost fit.*
 
 ```
-TODO — write this shot
+Frontal close-up of the astronomer against a plain warm backdrop, eyes to lens, singing gently with softly formed words and minimal head motion. Deadpan, a little hopeful. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -130,7 +130,7 @@ Sections: scene-04 · **generate ≥ 2.9s**
 Lyric: *Can I send you my stuff?*
 
 ```
-TODO — write this shot
+A single gold pulse of light leaves a night horizon and travels across a deep star field toward a small coral-red planet; a striped gas giant and several small moons hang in matte-painting depth. Slow lateral drift following the traveling light.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -152,7 +152,7 @@ Sections: scene-04 · **generate ≥ 2.9s**
 Lyric: *Tell me what you got.*
 
 ```
-TODO — write this shot
+Macro on Martian receiver hardware at night: bakelite dials, a swinging needle, a small round cathode screen flickering with static. Cool moonlight on metal, warm glow from the dials. Locked off with the slightest push.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -174,7 +174,7 @@ Sections: mars-unmasking, scene-05 · **generate ≥ 5.7s**
 Lyric: *I don't see anything. / Think you forgot to attach it. / If you've got it, give it.*
 
 ```
-TODO — write this shot
+Frontal close-up of the astronaut - auburn curly bob, riveted silver suit collar - against a soft dark neutral backdrop. She sings gently to camera, softly formed words, minimal head motion, deadpan and curious. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -196,7 +196,7 @@ Sections: scene-05 · **generate ≥ 5.7s**
 Lyric: *Don't clean it up first. / I'll work on it now.*
 
 ```
-TODO — write this shot
+Symmetrical night wide: the astronaut stands small at dead center beside a glowing receiver mast, coral terrain silvered by two small moons and a striped planet. Nothing moves but her breath and the mast's slow blink. Very slow push toward her.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -218,7 +218,7 @@ Sections: scene-06 · **generate ≥ 2.9s**
 Lyric: *In the garden, meanwhile—*
 
 ```
-TODO — write this shot
+Macro of the receiver's round cathode screen: static blooms into concentric interference rings that slowly resolve toward a green, leaf-like pattern. The screen's green-gold glow spreads until it fills the frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -239,7 +239,7 @@ Used by 1 cut(s): s016 (2.9s)
 Sections: scene-06 · **generate ≥ 2.9s**
 
 ```
-TODO — write this shot
+One-point symmetrical corridor: a riveted greenhouse airlock door centered at the end of a metal walkway. The door swings open and green-gold plant light spills toward camera. Slow push through the threshold into the glow.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -256,12 +256,12 @@ captions, no logos, no watermarks.
 
 ## `greenhouse_dolly_wide`  ·  concept
 
-Used by 2 cut(s): s017 (5.7s), s019 (5.7s)
+Used by 1 cut(s): s017 (5.7s)
 Sections: psychedelic-garden · **generate ≥ 5.7s**
 Lyric: *The-the-the-the-the / There's a little green light moving / through the psychedelic garden.*
 
 ```
-TODO — write this shot
+One continuous forward dolly down the central aisle of a Martian greenhouse: ranked rows of spiked alien plants left and right, hanging glass globes, mist. A small green lamp-light drifts ahead of camera, deeper into the foliage. Strict one-point perspective the whole way.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -283,7 +283,29 @@ Sections: psychedelic-garden · **generate ≥ 5.7s**
 Lyric: *Something with no name is waking / in the psychedelic garden.*
 
 ```
-TODO — write this shot
+Macro on a single spiked Martian flower: a pink thistle-globe trembling, tendrils slowly uncurling, dew catching green-gold light. Slight lateral drift, shallow focus.
+
+Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
+planimetric symmetrical composition, centered subjects, flat frontal staging,
+deadpan performance. Soundstage Mars with matte-painting depth: coral-red
+terrain, engineered canals of blue-green water, cream and turquoise domed
+buildings, needle towers, spiked ornamental plants, striped gas planet and
+small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
+instruments, hand-built practical props. Soft even studio lighting, saturated
+pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
+Consistent cast, wardrobe and hair throughout. No text, no titles, no
+captions, no logos, no watermarks.
+```
+
+## `greenhouse_drum_awakening`  ·  concept
+
+Used by 1 cut(s): s019 (5.7s)
+Sections: psychedelic-garden · **generate ≥ 5.7s**
+Lyric: *And whatever woke is waiting / for the song to begin.*
+
+```
+Further down the same greenhouse aisle, the garden wakes in waves: leaves snap open row by row, spore puffs rise, glass globes sway in ranked unison. The slow forward dolly never stops as the plants react around it.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -305,7 +327,7 @@ Sections: pattern-aperture · **generate ≥ 5.7s**
 Lyric: *Okay, there. / You've got it. / That should be enough.*
 
 ```
-TODO — write this shot
+Top-down overhead of a white enamel specimen table: silver-gloved hands arrange odd finds - spiked seed pods, a chrome scale, torn map fragments - into a circular diagram. The pieces almost complete a pattern; one always sits wrong. Slow overhead push.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -327,7 +349,7 @@ Sections: pattern-aperture · **generate ≥ 5.7s**
 Lyric: *Just look and tell me. / Do you see a pattern? / I'm sure it's there.*
 
 ```
-TODO — write this shot
+Waist-up medium of the astronaut at the specimen table in the greenhouse lab, turning a strange specimen in silver-gloved hands, holding it to the light, unhurried and deadpan. Locked off, symmetrical, instruments in soft focus behind.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -349,7 +371,7 @@ Sections: mars-unmasking · **generate ≥ 2.8s**
 Lyric: *You come back around. / I'll pull it into a shape*
 
 ```
-TODO — write this shot
+Grand symmetrical vista: a cream-and-turquoise domed settlement with needle towers under a mint-green sky, a straight canal running up the exact center of frame toward it, striped planet above. Very slow push along the canal axis.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -371,7 +393,7 @@ Sections: mars-unmasking · **generate ≥ 2.8s**
 Lyric: *and spin your world around. / No. / Don't make it better.*
 
 ```
-TODO — write this shot
+Medium shot: the astronaut centered on a coral ridge above the domed colony, vista soft behind her. She turns from the view to face camera, wind moving her hair. Slow lateral track that settles frontal and locked.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -393,7 +415,7 @@ Sections: mars-unmasking · **generate ≥ 2.8s**
 Lyric: *Don't want fake shit.*
 
 ```
-TODO — write this shot
+Deadpan planimetric side-on view: a procession of too-perfect objects - polished miniature domes, smiling masks, trophy-bright Mars globes - glides left to right across frame as if on a hidden conveyor. The astronaut stands behind it, unimpressed. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -415,7 +437,7 @@ Sections: mars-unmasking · **generate ≥ 2.8s**
 Lyric: *Dig the thing underneath it. / Dig it stupid.*
 
 ```
-TODO — write this shot
+Low frontal shot: the astronaut kneels in coral soil, digging with silver gloves, and lifts out a clumsy, handmade, unpolished object - clearly loved. Dust motes in warm light. Slight slow push toward her hands.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -437,7 +459,7 @@ Sections: semantic-rocket-weather · **generate ≥ 5.7s**
 Lyric: *Can you hear / what I meant? / Sometimes. / Not always. / Meaning leaves thread.*
 
 ```
-TODO — write this shot
+Wide sky over the domes: strange luminous filament weather - glowing threads and streamers peeling off slow cloud fronts and drifting apart. Two tiny figures watch from opposite frame edges. Slow upward drift.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -459,7 +481,7 @@ Sections: semantic-rocket-weather · **generate ≥ 5.7s**
 Lyric: *Words leave words. / Things clap overhead*
 
 ```
-TODO — write this shot
+Symmetrical split staging: the astronomer in his warm-gold study at frame left, the astronaut in cool-teal Martian night at frame right, divided by a thin centered seam of static. They sing to each other in turn, softly formed words, minimal motion. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -481,7 +503,7 @@ Sections: semantic-rocket-weather · **generate ≥ 5.7s**
 Lyric: *like rockets coming in.*
 
 ```
-TODO — write this shot
+Low-angle sky shot: finned retro rockets cross overhead in slow formation, their long shadows sweeping the coral terrain like clock hands. Camera locked low and centered; two small witnesses lean apart at the frame edges as the formation passes.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -503,7 +525,7 @@ Sections: semantic-rocket-weather · **generate ≥ 2.9s**
 Lyric: *Can't tell you / if they're true.*
 
 ```
-TODO — write this shot
+Rain begins over red terrain: falling water gathers into bright rivulets that join, straighten, and align into the geometry of a canal. Slow tilt and track following the water downhill, ending level on the moving current.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -525,7 +547,7 @@ Sections: rivers-of-mars · **generate ≥ 5.7s**
 Lyric: *Elsewhere, under a smaller moon— / Chrome-plated bodies go swimming*
 
 ```
-TODO — write this shot
+From high above dark water, the reflection of a small warm moon dead center, the camera cranes slowly down toward the canal surface; chrome glints of swimming bodies appear at different depths as it nears the waterline.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -547,7 +569,7 @@ Sections: rivers-of-mars · **generate ≥ 5.7s**
 Lyric: *in the rivers of Mars.*
 
 ```
-TODO — write this shot
+The astronaut kneels at the canal bank in moonlight, lamp beside her, singing softly toward the water with minimal head motion; a small chrome creature surfaces to listen. Gentle push, symmetrical framing on her and her reflection.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -569,7 +591,7 @@ Sections: current-turns-home, rivers-of-mars · **generate ≥ 5.7s**
 Lyric: *Tails wagging to music*
 
 ```
-TODO — write this shot
+Underwater macro inside the canal current: chrome-plated bodies pass through shafts of moonlight, bubbles and bright motes in deep parallax, ribbons of reflected light bending with the music. Slow lateral drift; the school never restarts, it just keeps passing.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -591,7 +613,7 @@ Sections: rivers-of-mars · **generate ≥ 5.7s**
 Lyric: *that bends your mind. / Tiny mouths all agape*
 
 ```
-TODO — write this shot
+Frontal hero close-up of the astronaut at the canal edge, moonlit, singing openly to camera; small ripples of reflected water-light move across her face. Softly formed words, minimal head motion. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -613,7 +635,7 @@ Sections: rivers-of-mars · **generate ≥ 5.7s**
 Lyric: *in the rivers of Mars. / Whatever falls from heaven*
 
 ```
-TODO — write this shot
+Waterline macro on one chrome creature: a friendly fish-lizard face breaking the surface, tail wagging in rhythm, notation-like ripples spreading behind it. Slight drift following it along the canal.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -635,7 +657,7 @@ Sections: rivers-of-mars · **generate ≥ 5.7s**
 Lyric: *leaves the senses behind. / No one has ever been*
 
 ```
-TODO — write this shot
+One-point symmetrical view straight down the canal into the colony at night: ranked fountains and steam vents fire in sequential order along both banks, lit warm against the dark. Locked off while the water performs.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -657,7 +679,7 @@ Sections: rivers-of-mars · **generate ≥ 2.8s**
 Lyric: *In / in the rivers of Mars.*
 
 ```
-TODO — write this shot
+Single smooth accelerating push from above the canal straight down through the surface: spray, bubbles, then the chrome school scattering and reforming around the camera underwater. One continuous move, no cut.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -679,7 +701,7 @@ Sections: current-turns-home · **generate ≥ 2.8s**
 Lyric: *Then turns.*
 
 ```
-TODO — write this shot
+Top-down planimetric view of a brass canal junction: lock-gates pivot on the beat, the current visibly turns and reverses, and the chrome swimmers wheel around together and head back the way they came. Locked overhead.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -701,7 +723,7 @@ Sections: low-light-outro, scene-14 · **generate ≥ 5.9s**
 Lyric: *You still there? / Define there.*
 
 ```
-TODO — write this shot
+Night interior close-medium: the astronomer in the small pool of his desk lamp, surrounded by darkness, tired and fond, singing the quiet lines to camera with barely moving lips. Locked off, centered.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -723,7 +745,7 @@ Sections: low-light-outro · **generate ≥ 5.7s**
 Lyric: *Never mind. / La-la-la, low light. / No, go on. / Thought I heard something.*
 
 ```
-TODO — write this shot
+Matching reverse: the astronaut in her bunk under a small warm lamp, cool Martian night at the porthole behind, singing softly to camera with minimal motion. Composition mirrors the astronomer's shot exactly. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -745,7 +767,7 @@ Sections: scene-14 · **generate ≥ 5.8s**
 Lyric: *You did. / Was it you? / Da-da-dum. / Could've been. / Say goodnight. / Who?*
 
 ```
-TODO — write this shot
+Looking down the interior of the great telescope tube: concentric brass rings receding to a far point of starlight that pulses gently with the rhythm. Slow steady push into the rings.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -767,7 +789,7 @@ Sections: scene-14 · **generate ≥ 3.0s**
 Lyric: *Night.*
 
 ```
-TODO — write this shot
+Wide night shot of the colony: dome windows and tower lights switch off in a cascading order down the valley, one per beat, until only the canal keeps a single moon reflection. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -788,7 +810,7 @@ Used by 1 cut(s): s047 (5.9s)
 Sections: production-coda · **generate ≥ 5.9s**
 
 ```
-TODO — write this shot
+The final wide night frame slowly darkens at its edges, a circular iris closing in on the moon's reflection in the canal until only that small light remains, then black. (Title is added in post, never generated.)
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,

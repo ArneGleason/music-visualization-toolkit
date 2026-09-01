@@ -20,7 +20,7 @@
     "scene-06":                { "cut_every_bars": 1, "braid": ["concept"],
                                  "setups": ["interference_bloom", "greenhouse_threshold"] },
     "psychedelic-garden":      { "cut_every_bars": 2, "braid": ["concept"],
-                                 "setups": ["greenhouse_dolly_wide", "flora_detail_macro", "greenhouse_dolly_wide", "greenhouse_drum_awakening"] },
+                                 "setups": ["greenhouse_dolly_wide", "flora_detail_macro", "greenhouse_drum_awakening", "greenhouse_dolly_wide"] },
     "pattern-aperture":        { "cut_every_bars": 2, "braid": ["concept", "performance"],
                                  "setups": ["specimen_table_macro", "astronaut_inspect_medium", "specimen_table_macro", "astronaut_close_sync"] },
     "mars-unmasking":          { "cut_every_bars": 1, "braid": ["performance", "concept"],
