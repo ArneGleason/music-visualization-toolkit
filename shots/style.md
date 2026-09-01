@@ -1,53 +1,74 @@
-# Style bible — Rivers of Mars, generated-footage path
+# Style bible — Rivers of Mars, live-action generated path
 
 Everything the video model needs to keep ~25 setups looking like one film.
 The lock block is appended verbatim to every prompt by `tools/prompts.py`.
 
-This is the alternate AI-video production path. The published vector video is
-the reference edit; this document translates its look, not replaces it.
+Direction: a **live-action** music video — a Wes Anderson quirky take on a
+1950s Technicolor sci-fi take on a Percival Lowell take on the environment,
+flora, and fauna of Mars. Not animation, not vectors: it should read as a
+meticulously art-directed film shot on a soundstage Mars, with matte-painting
+vistas, practical-looking sets, and deadpan performance.
+
+## The world
+
+Lowell's Mars taken literally and lovingly: canals as real waterways
+engineered through coral-red terrain, cream-and-turquoise domed settlements,
+needle towers, spiked ornamental flora, a small canal creature, a striped gas
+planet and several moons in a mint-green sky. Every composition is planimetric
+and symmetrical or a deliberate 90° angle off; props look hand-built;
+signage-free retro-futurist hardware (brass telescopes, riveted silver suits,
+dial-covered receivers).
 
 ## The characters
 
-Two abstract presences from the register: **Them 1** (the sender, warm
-gold-amber) and **Them 2** (the receiver, cool teal-white). They are stylized
-luminous figures, not photoreal humans — closer to sculpted light than to
-actors. Before any video generation, build a character sheet per figure from
-`refs/Rivers-of-Mars.png` plus new image generations: full body front, 3/4
-medium, close-up, profile, and one mid-movement pose each. Regenerate until
-each set reads as one being under one light, then register them here and
-attach them via Ingredients to Video on every performance shot.
+Two performers carry the register's Them 1 / Them 2 dialogue:
 
-- ref them1_front: refs/them1_front.png
-- ref them1_close: refs/them1_close.png
-- ref them1_move: refs/them1_move.png
-- ref them2_front: refs/them2_front.png
-- ref them2_close: refs/them2_close.png
+- **Them 2 — the astronaut-botanist on Mars** (the canonical reference image:
+  auburn curly bob, riveted silver suit with red piping, chrome backpack).
+  Receiver of the signal; kneels by the canal, inspects specimens, unmasks
+  Mars.
+- **Them 1 — the astronomer on Earth** (proposed casting; adjust freely):
+  a Lowell-like figure in a tweed-and-brass observatory, sender of the
+  pieces, seen drawing canal maps and singing into period transmitters.
+
+Before any video generation, build a character sheet per performer from the
+master reference image: full body front, 3/4 medium, close-up, profile, one
+mid-movement pose, and (for lip-sync shots) a neutral-mouth frontal close-up.
+Regenerate until each set reads as one person on one day, then register the
+keepers here and attach them via Ingredients-to-Video on every performance
+shot. Media stays out of Git; drop files into `refs/` locally.
+
+- ref character_master: refs/character_master.png
+- ref astronaut_front: refs/astronaut_front.png
+- ref astronaut_close: refs/astronaut_close.png
+- ref astronaut_move: refs/astronaut_move.png
+- ref astronomer_front: refs/astronomer_front.png
+- ref astronomer_close: refs/astronomer_close.png
 - ref palette: refs/palette.png
 - ref mars_world: refs/Rivers-of-Mars.png
 
-## Look
+## Framing and grade
 
-Painterly sci-fi animation over black: deep space blacks, glowing gold and
-teal signal light, rust-red Martian terrain, chrome river water, recursive
-psychedelic foliage. Light behaves like sound — everything luminous pulses,
-flows, or ripples. Camera language follows the register's motion contract:
-every move has an origin and a destination; slow dollies, drifts, and locked
-frames only.
+Generate clean 16:9; the uniform post grade (`tools/render.py`) applies the
+period look to every clip equally — warm Technicolor saturation, fine 35mm
+grain, gentle halation, and a 2.39:1 letterbox. Compose center-weighted so the
+letterbox crop never loses a face. The grade and letterbox are also the
+drift-hiders: the model only has to be consistent underneath them.
 
 ## Sections
 
 One line per register scene; setup names match `shots/plan.json`.
 
-- **scene-01** — oscilloscope ignition: light condenses into a waveform that becomes the performers.
-- **signal-exchange** — Them 1's warm plea; puzzle pieces that almost fit.
-- **scene-04** — the MIDI network: packets in flight, then loss.
-- **scene-05** — Them 2 waiting in the starfield; scanning the raw signal.
-- **psychedelic-garden** — one continuous forward dolly through recursive foliage; drums wake the garden.
-- **pattern-aperture** — inspection table, pattern tests, macro apertures.
-- **mars-unmasking** — the reveal: rust rings, counterfeit parade, excavation.
-- **semantic-rocket-weather** — filament weather, rockets overhead, rain becoming river.
-- **rivers-of-mars** — the chorus river: moon descent, chrome current, spirograph mouths, drum wall, plunge.
-- **current-turns-home / low-light-outro / coda** — the current reverses; low-light duet; night iris to title.
+- **scene-01** — the observatory wakes: dome opens, oscilloscope traces the first signal.
+- **signal-exchange** — the astronomer's warm plea; canal-map pieces that almost fit.
+- **scene-04** — the message crosses space: masts, relays, a signal in flight, then loss.
+- **scene-05** — the astronaut waiting under the Martian night; scanning dials.
+- **psychedelic-garden** — one continuous forward dolly through the greenhouse of spiked flora; drums wake it.
+- **pattern-aperture** — specimen table, pattern tests, macro apertures.
+- **mars-unmasking** — the reveal: domes wide, counterfeit parade, excavation.
+- **semantic-rocket-weather** — filament weather over the colony, rockets overhead, rain becoming canal.
+- **rivers-of-mars** — the chorus canal: moon descent, chrome current, the creature, sung close-ups, drum wall, plunge.
+- **current-turns-home / low-light-outro / coda** — the current reverses at the canal junction; lamplit duet; colony lights go out; night iris to title.
 
 ## The lock block
 
@@ -55,12 +76,15 @@ Appended, unchanged, to every generated prompt. Never paraphrase between
 shots — identical wording is the cheapest consistency tool available.
 
 ```lock
-Stylized painterly sci-fi animation, not photorealistic. Deep black space
-background, luminous gold-amber and teal-white light figures, rust-red Martian
-terrain, chrome-silver water, glowing recursive vegetation. All light sources
-pulse gently as if driven by music. Camera moves are slow and purposeful: a
-gentle push, a slow lateral drift, or locked off. No zooms, no whip pans, no
-speed ramps, no camera shake. Consistent character design throughout. 16:9,
-high detail, soft bloom on highlights, no text, no titles, no captions, no
-logos, no watermarks.
+Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
+planimetric symmetrical composition, centered subjects, flat frontal staging,
+deadpan performance. Soundstage Mars with matte-painting depth: coral-red
+terrain, engineered canals of blue-green water, cream and turquoise domed
+buildings, needle towers, spiked ornamental plants, striped gas planet and
+small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
+instruments, hand-built practical props. Soft even studio lighting, saturated
+pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
+Consistent cast, wardrobe and hair throughout. No text, no titles, no
+captions, no logos, no watermarks.
 ```
