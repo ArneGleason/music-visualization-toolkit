@@ -173,6 +173,42 @@ letterbox are also the drift-hiders.
   generation. (The vector render is no longer a per-shot fallback — it's a
   different film now.)
 
+## 7b. Beat-locked overlay pass (post)
+
+In-generation motion cannot be trusted to hit musical events — lip sync is
+the one in-generation sync we get (and the probe proved it). Every other
+musical punctuation happens **in post, over the footage**, driven by the
+same data that drove the vector video: `analysis/beatmap.json` (bars/beats),
+the compiled register (sections, lyric phrases, transitions), and
+`generated/performance.json` (drum low/mid/high, bass, guitar envelopes and
+exact MIDI note events). No hand-keyframing, no guessing — cues land on the
+grid by construction.
+
+Three layers, in order of preference:
+
+1. **Vector-stage overlay (the marriage of both paths)**: run the existing
+   browser renderer as an *effects-only* scene on a transparent/black
+   canvas — drum-hit rings, note ribbons, glows, caustic shimmer whose
+   amplitude follows bass — exported through the same deterministic
+   supersampled capture pipeline, then composited (screen/add blend) over
+   the assembled cut. The original Rivers of Mars engine survives as the
+   beat-perfect FX layer of the live-action film.
+2. **ffmpeg expression cues** generated from the beatmap into a filter
+   script: exposure kicks on downbeats, vignette/letterbox micro-breathing,
+   lantern-flare pulses on the kick, subtle scale punches on section
+   boundaries. Cheap, deterministic, good for the whole-film grade pass.
+3. **Optional manual polish in a free/open NLE**, never for sync-critical
+   work: export beat/section/lyric markers from the compiled timeline
+   (CSV/EDL) so DaVinci Resolve (free) or Kdenlive/Blender (open source)
+   display musically exact cue points for taste edits.
+
+Aesthetic guardrail: overlays obey the lock — warm halation, technicolor
+palette, no text; light behaves like sound, surfaces never change material.
+
+Smallest tooling when we get there: an effects-only scene for the video
+renderer (or `tools/overlay_render.py`) plus a tiny `tools/markers.py` that
+exports the grid as NLE markers.
+
 ## 8. Minimal tooling / schema changes
 
 Committed in this branch:
