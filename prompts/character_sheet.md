@@ -5,9 +5,10 @@
 > `Astronaut (Them 2)` and `Astronomer (Them 1)` — the astronomer recast as
 > the astronaut's **identical twin sister** (same face and bob; round brass
 > glasses, rust-brown tweed suit, mustard vest). Attach the Character on
-> performance shots instead of loose refs. Sections 1–10 below are kept as
-> the spec that produced them and for regenerating extra angles; the boards
-> (11–14) are still to generate.
+> performance shots instead of loose refs. The four boards (11–14) are also
+> generated and live in the project's media library: palette board,
+> observatory study, canal-to-colony vista, greenhouse aisle. Sections below
+> are kept as the spec that produced them and for regenerating extra angles.
 
 Paste-ready prompts for Flow / Gemini (Nano Banana). Attach
 `refs/character_master.png` as an ingredient on **every** prompt below —

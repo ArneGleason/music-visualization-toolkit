@@ -38,6 +38,15 @@ and animatic are that test. Schedule the spend accordingly:
   - `clips/inbox/probe_vocal.wav` / `probe_mix.wav` — the full couplet
     (10.7 s) for later
 - Remaining: the accounts, the in-browser generation, and the taste calls.
+- **2026-08-31, in Flow** (project "Rivers of Mars - AI video", driven by
+  Claude in the user's Chrome): both performers built as reusable Flow
+  Characters with portrait + full body — `Astronaut (Them 2)` and
+  `Astronomer (Them 1)`, cast as **identical twin sisters** (mirroring the
+  record: both vocal parts and backing vocals are one singer). All four
+  boards generated: palette, observatory study, canal-to-colony vista,
+  greenhouse aisle. Image prep is complete; next spend is the probe video.
+  Flow agent set to confirm-before-generating; image default Nano Banana 2,
+  16:9, x2.
 
 ## Accounts needed
 

@@ -25,7 +25,11 @@ Two performers carry the register's Them 1 / Them 2 dialogue:
 
 The two Thems are **identical twin sisters** — same face, same auburn curly
 bob — split across two planets. Wardrobe and glasses are the only visual
-difference, so every crosscut reads as one mind talking to itself.
+difference, so every crosscut reads as one mind talking to itself. This
+mirrors the record itself: both vocal parts and the backing vocals are the
+same singer, so one lip-sync source serves both twins (and backing vocals
+can appear as additional reflections of her — canal water, dome glass —
+when a shot wants them).
 
 - **Them 2 — the astronaut-botanist on Mars** (the canonical reference image:
   auburn curly bob, riveted silver suit with red piping, chrome backpack).
