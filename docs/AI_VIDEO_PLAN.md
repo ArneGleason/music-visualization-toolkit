@@ -143,7 +143,19 @@ letterbox are also the drift-hiders.
   neighbor frames).
 - **Takes**: 2–3 takes for setups used by 4+ cuts (chorus canal, greenhouse
   dolly, both duet setups); 1 take for single-use setups. `_sync` setups get
-  takes chosen *before* the sync pass — sync the winner only.
+  takes chosen *before* the sync pass — sync the winner only, and give hero
+  sync shots 2–3 *sync* passes too (Kling's Redub re-runs a finished clip
+  for ~10 credits; sustained vowels are where sync wobbles).
+- **Take review (owner's dailies rule)**: candidates are approved in
+  **batches and in context**, never in isolation — each candidate is viewed
+  butted against the current best take of the previous and next cut, with
+  the master mix over the join, because a take that reads fine alone can be
+  a discontinuity against its neighbors (radically different performance
+  energy across a cut). Rejections go onto a regen list and the batch loop
+  repeats until every cut has an approved take. Smallest tooling: a
+  generated review page (like `board/contact.html`) that plays each
+  candidate in a prev/candidate/next strip and records approve/regen per
+  take back into the shotlist clip assignment.
 - **Ingest**: download named after the setup (`canal_current_macro.mp4`) into
   `clips/inbox/`, `ingest.py --auto` files it and wires it to every cut;
   `--status` tracks coverage; `--in` picks the musical in-point. Lip-synced
