@@ -31,6 +31,11 @@ up on a singing close-up, the fallback direction is Act-Two style performance
 capture: film yourself singing the line on a phone and drive the character
 with that video instead of raw audio.
 
+**Outcome (2026-09-01): Phase 0 passed; Kling is the sync tool.** Kling's
+audio-driven sync held a sung phrase accurately end to end (drive the whole
+clip); sync.so's sync-3 drifted out of sync in parts on the same inputs.
+Details and credit costs in `docs/PHASE0.md`.
+
 ## 1. Timeline → shots and setups
 
 1. `tools/timeline.py sync projects/rivers-of-mars/project.json` — rebuild the

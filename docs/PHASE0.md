@@ -178,6 +178,26 @@ this repo touches them.
    on a phone and try Runway Act-Two before rethinking the direction. Only
    then move to storyboards.
 
+## sync.so A/B (2026-09-01) and the tool decision
+
+- sync.so account (3 free videos, watermarked). Studio: upload video →
+  upload audio → model picker (**sync-3**, new flagship; lipsync-2-pro;
+  lipsync-2) → sync. Same inputs as Kling: `probe_take.mp4` +
+  `probe_vocal_full8.wav`. Free-tier processing ~12 min. Output archived as
+  `clips/inbox/probe_syncso.mp4` (24 fps, 192 frames, watermarked).
+- Owner verdict: sync-3 "not bad in parts but badly out of sync in
+  others"; Kling's sync is very good throughout, with weirdness only on
+  prolonged, emphasized sung syllables.
+- **Decision: Kling is the production sync tool.** Held-note weirdness is
+  handled by takes — Redub passes (~10 credits for an 8 s clip) and
+  in-context batch review. sync.so stays a fallback candidate; Runway
+  Act-Two (performance-driven) remains the escape hatch for a shot neither
+  audio-driven tool can hold.
+
+**Phase 0 is complete.** The chain — approved still → Veo 3.1 Quality
+Frames-to-Video → Kling full-clip sync → master mux → technicolor grade —
+produced a production-worthy sung close-up on the first generation take.
+
 ## Exit criteria
 
 Phase 0 is done when one graded, synced, in-context clip is judged
