@@ -37,6 +37,13 @@ GRADES = {
                   "curves=all='0/0.05 0.5/0.52 1/0.95',"
                   "eq=saturation=1.12:contrast=1.04:gamma_r=1.03:gamma_b=0.97,"
                   "noise=alls=10:allf=t+u,vignette=PI/4.5"),
+    # 50s Technicolor feature: warm lifted curve, rich saturation, fine
+    # grain, and a 2.39:1 letterbox drawn inside the 16:9 frame
+    "technicolor": ("curves=r='0/0.02 0.5/0.55 1/1':g='0/0.02 0.5/0.5 1/0.98':b='0/0.04 0.5/0.47 1/0.94',"
+                    "eq=saturation=1.28:contrast=1.07,"
+                    "noise=alls=7:allf=t+u,vignette=PI/5.2,"
+                    "drawbox=y=0:w=iw:h=ih*0.128:color=black:t=fill,"
+                    "drawbox=y=ih*0.872:w=iw:h=ih*0.128:color=black:t=fill"),
 }
 
 
