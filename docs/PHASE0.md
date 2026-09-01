@@ -10,6 +10,21 @@ swimming"*, register bars 49.4.720–51.4.240 = 134.55–139.87 s (~5.3 s) — t
 chorus hook, sung by the astronaut in close-up (the `chorus_close_sync`
 setup).
 
+## The window
+
+Google AI **Ultra benefits run until 2026-09-07**, then the account drops to
+Pro. Owner is willing to re-upgrade if the path proves worthwhile — the probe
+and animatic are that test. Schedule the spend accordingly:
+
+- **Aug 31 – Sep 1**: character sheet + boards (images), probe clip, sync
+  tools, verdict.
+- **Sep 2 – 4**: storyboard stills for all setups, contact-sheet review,
+  animatic, cut iteration.
+- **Sep 4 – 6**: generate the reused and `_sync` setups at highest quality,
+  2–3 takes, inside the Ultra pool.
+- **Sep 7+**: one-off tails, fixes, and re-takes under Pro or API top-up;
+  re-upgrade only if the animatic earned it.
+
 ## Already done (Claude ran these locally)
 
 - Master mix copied to `audio/song.wav`; compiled register grid copied into
@@ -42,8 +57,10 @@ this repo touches them.
 
 2. ~~Slice the audio locally~~ — done, see above.
 
-3. **Drop the master reference** into `refs/character_master.png` (the canal
-   image; stays out of Git).
+3. ~~Drop the master reference~~ — done: found in Downloads and filed as
+   `refs/character_master.png` and `refs/Rivers-of-Mars.png`. Image prompts
+   for the full character sheet and boards are written in
+   `prompts/character_sheet.md`.
 
 4. **Make the character still** (Flow / Gemini, Nano Banana): upload the
    master image as an ingredient and ask for a frontal close-up, neutral or
