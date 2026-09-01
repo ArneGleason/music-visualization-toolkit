@@ -86,6 +86,26 @@ and animatic are that test. Schedule the spend accordingly:
 - Next: the lip-sync pass — Kling and sync.so accounts, then both tools on
   `probe_take.mp4` + `clips/inbox/probe_vocal_short.wav`.
 
+## Kling lip-sync pass (2026-09-01)
+
+- Kling account created (66 trial credits). Lip Sync tool: upload video →
+  face auto-detected as a Character → "Upload Local Dubbing" accepts WAV →
+  Add Speech → Generate. Cost: **5 credits** per run; trial queue ran
+  ~10 min despite a 3-minute estimate.
+- Result `clips/inbox/probe_kling.mp4` (1280×720, 7.97 s): mouth re-synced
+  to the vocal slice. Render audio is intact (voiced 0→5.73 s, then silent
+  tail — the slice simply ends before the 8 s video does); an apparent
+  "audio starts late / cuts early" was the Kling preview player, not the
+  file.
+- Owner verdict on sync quality: **good in the audible stretch**.
+- Embedded audio is scratch by design — the edit always lays the master
+  mix over the picture. Full-effect deliverable:
+  `out/probe_master_sync.mp4` = Kling mouth + master mix from 134.35 s +
+  technicolor grade + letterbox.
+- Stems measured master-aligned at the head (~4.5 s of tail padding
+  explains the 203.72 s vs 199.24 s length difference); slice timing from
+  the compiled register is correct as-is.
+
 ## Accounts needed
 
 | Account | Why | Plan for the probe |
