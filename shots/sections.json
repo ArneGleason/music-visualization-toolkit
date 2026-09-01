@@ -1,0 +1,139 @@
+{
+  "sections": [
+    {
+      "id": "scene-01",
+      "name": "scene-01",
+      "start_sec": 0.0,
+      "end_sec": 6.4833,
+      "dur_sec": 6.4833,
+      "start_barbeat": "2.4",
+      "register_id": "scene-mteku12v"
+    },
+    {
+      "id": "signal-exchange",
+      "name": "signal-exchange",
+      "start_sec": 6.4833,
+      "end_sec": 20.7833,
+      "dur_sec": 14.3,
+      "start_barbeat": "5.1",
+      "register_id": "scene-signal-exchange"
+    },
+    {
+      "id": "scene-03",
+      "name": "scene-03",
+      "start_sec": 20.7833,
+      "end_sec": 29.95,
+      "dur_sec": 9.1667,
+      "start_barbeat": "10.1",
+      "register_id": "scene-mtejlbwp"
+    },
+    {
+      "id": "scene-04",
+      "name": "scene-04",
+      "start_sec": 29.95,
+      "end_sec": 38.3333,
+      "dur_sec": 8.3833,
+      "start_barbeat": "13.1.720",
+      "register_id": "scene-mtejqrtr"
+    },
+    {
+      "id": "scene-05",
+      "name": "scene-05",
+      "start_sec": 38.3333,
+      "end_sec": 53.9833,
+      "dur_sec": 15.65,
+      "start_barbeat": "16.1.480",
+      "register_id": "scene-mtejt6in"
+    },
+    {
+      "id": "scene-06",
+      "name": "scene-06",
+      "start_sec": 53.9833,
+      "end_sec": 59.3667,
+      "dur_sec": 5.3833,
+      "start_barbeat": "21.3.480",
+      "register_id": "scene-mtek08xn"
+    },
+    {
+      "id": "psychedelic-garden",
+      "name": "psychedelic-garden",
+      "start_sec": 59.3667,
+      "end_sec": 77.25,
+      "dur_sec": 17.8833,
+      "start_barbeat": "23.3",
+      "register_id": "scene-psychedelic-garden"
+    },
+    {
+      "id": "pattern-aperture",
+      "name": "pattern-aperture",
+      "start_sec": 77.25,
+      "end_sec": 94.6167,
+      "dur_sec": 17.3667,
+      "start_barbeat": "29.4.240",
+      "register_id": "scene-pattern-aperture"
+    },
+    {
+      "id": "mars-unmasking",
+      "name": "mars-unmasking",
+      "start_sec": 94.6167,
+      "end_sec": 109.15,
+      "dur_sec": 14.5333,
+      "start_barbeat": "35.4.720",
+      "register_id": "scene-mars-unmasking"
+    },
+    {
+      "id": "semantic-rocket-weather",
+      "name": "semantic-rocket-weather",
+      "start_sec": 109.15,
+      "end_sec": 131.8667,
+      "dur_sec": 22.7167,
+      "start_barbeat": "41.1.240",
+      "register_id": "scene-semantic-rocket-weather"
+    },
+    {
+      "id": "rivers-of-mars",
+      "name": "rivers-of-mars",
+      "start_sec": 131.8667,
+      "end_sec": 167.9,
+      "dur_sec": 36.0333,
+      "start_barbeat": "49.1",
+      "register_id": "scene-rivers-of-mars"
+    },
+    {
+      "id": "current-turns-home",
+      "name": "current-turns-home",
+      "start_sec": 167.9,
+      "end_sec": 174.0333,
+      "dur_sec": 6.1333,
+      "start_barbeat": "61.3.720",
+      "register_id": "scene-current-turns-home"
+    },
+    {
+      "id": "low-light-outro",
+      "name": "low-light-outro",
+      "start_sec": 174.0333,
+      "end_sec": 185.8833,
+      "dur_sec": 11.85,
+      "start_barbeat": "63.4.240",
+      "register_id": "scene-low-light-outro"
+    },
+    {
+      "id": "scene-14",
+      "name": "scene-14",
+      "start_sec": 185.8833,
+      "end_sec": 199.25,
+      "dur_sec": 13.3667,
+      "start_barbeat": "67.4.720",
+      "register_id": "scene-mtekxa2z"
+    },
+    {
+      "id": "production-coda",
+      "name": "production-coda",
+      "start_sec": 199.25,
+      "end_sec": 203.7,
+      "dur_sec": 4.45,
+      "start_barbeat": "72.3",
+      "register_id": "scene-production-coda"
+    }
+  ]
+}

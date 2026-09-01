@@ -9,6 +9,8 @@ writes:
 
   shots/sections.json    one section per scene-lane item, with the exact
                          frame-derived start/end seconds from the register
+  analysis/lyrics.json   the register's lyric lane as timed lines, so
+                         tools/shotplan.py attaches lyric text to every cut
   analysis/beatmap.json  the register's bar grid in the shape mvlib.Beatmap
                          expects (only when missing, or with --force-beatmap)
 
@@ -75,6 +77,15 @@ def main():
     save(ROOT / "shots" / "sections.json", {"sections": sections})
     for s in sections:
         print(f"  {s['start_sec']:8.3f}s  {s['dur_sec']:7.3f}s  {s['id']}")
+
+    if "lyrics" in lanes:
+        lines = [{
+            "sec": round(it["startSec"], 4),
+            "end_sec": round(it["endSec"], 4),
+            "text": it.get("text", ""),
+            "speaker": it.get("speaker"),
+        } for it in lanes["lyrics"]["items"]]
+        save(ROOT / "analysis" / "lyrics.json", {"lines": lines})
 
     beatmap_out = ROOT / "analysis" / "beatmap.json"
     if a.force_beatmap or not beatmap_out.exists():

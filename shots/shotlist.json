@@ -1,0 +1,1088 @@
+{
+  "fps": 24,
+  "duration_sec": 199.25,
+  "max_shot_sec": 8.0,
+  "shots": [
+    {
+      "id": "s001",
+      "section": "scene-01",
+      "type": "concept",
+      "setup": "obs_dome_open",
+      "start_barbeat": "3.1",
+      "start_sec": 0.7134,
+      "end_sec": 3.6011,
+      "dur_sec": 2.8877,
+      "frames": 69,
+      "lyric": "",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s002",
+      "section": "scene-01",
+      "type": "concept",
+      "setup": "obs_console_macro",
+      "start_barbeat": "4.1",
+      "start_sec": 3.6011,
+      "end_sec": 6.4758,
+      "dur_sec": 2.8747,
+      "frames": 69,
+      "lyric": "",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s003",
+      "section": "signal-exchange",
+      "type": "performance",
+      "setup": "astronomer_desk_sync",
+      "start_barbeat": "5.1",
+      "start_sec": 6.4758,
+      "end_sec": 12.2055,
+      "dur_sec": 5.7297,
+      "frames": 138,
+      "lyric": "Hey, I need you for something. / It's important.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s004",
+      "section": "signal-exchange",
+      "type": "concept",
+      "setup": "canal_map_macro",
+      "start_barbeat": "7.1",
+      "start_sec": 12.2055,
+      "end_sec": 17.9243,
+      "dur_sec": 5.7188,
+      "frames": 137,
+      "lyric": "More than that sounds.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s005",
+      "section": "scene-03",
+      "type": "performance",
+      "setup": "astronomer_close_sync",
+      "start_barbeat": "9.1",
+      "start_sec": 17.9243,
+      "end_sec": 20.789,
+      "dur_sec": 2.8647,
+      "frames": 69,
+      "lyric": "",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s006",
+      "section": "scene-03",
+      "type": "concept",
+      "setup": "canal_map_macro",
+      "start_barbeat": "10.1",
+      "start_sec": 20.789,
+      "end_sec": 23.6664,
+      "dur_sec": 2.8774,
+      "frames": 69,
+      "lyric": "I've got pieces.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s007",
+      "section": "scene-03",
+      "type": "performance",
+      "setup": "astronomer_close_sync",
+      "start_barbeat": "11.1",
+      "start_sec": 23.6664,
+      "end_sec": 26.5389,
+      "dur_sec": 2.8725,
+      "frames": 69,
+      "lyric": "Things that almost fit.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s008",
+      "section": "scene-03",
+      "type": "concept",
+      "setup": "canal_map_macro",
+      "start_barbeat": "12.1",
+      "start_sec": 26.5389,
+      "end_sec": 29.4118,
+      "dur_sec": 2.8729,
+      "frames": 69,
+      "lyric": "Then they don't quite match.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s009",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "signal_crossing_space",
+      "start_barbeat": "13.1",
+      "start_sec": 29.4118,
+      "end_sec": 32.265,
+      "dur_sec": 2.8532,
+      "frames": 68,
+      "lyric": "Can I send you my stuff?",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s010",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "receiver_dial_macro",
+      "start_barbeat": "14.1",
+      "start_sec": 32.265,
+      "end_sec": 35.1423,
+      "dur_sec": 2.8773,
+      "frames": 69,
+      "lyric": "Tell me what you got.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s011",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "signal_crossing_space",
+      "start_barbeat": "15.1",
+      "start_sec": 35.1423,
+      "end_sec": 37.9796,
+      "dur_sec": 2.8373,
+      "frames": 68,
+      "lyric": "Right?",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s012",
+      "section": "scene-05",
+      "type": "performance",
+      "setup": "astronaut_close_sync",
+      "start_barbeat": "16.1",
+      "start_sec": 37.9796,
+      "end_sec": 43.6382,
+      "dur_sec": 5.6586,
+      "frames": 136,
+      "lyric": "I don't see anything. / Think you forgot to attach it. / If you've got it, give it.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s013",
+      "section": "scene-05",
+      "type": "concept",
+      "setup": "mars_night_wide",
+      "start_barbeat": "18.1",
+      "start_sec": 43.6382,
+      "end_sec": 49.3328,
+      "dur_sec": 5.6945,
+      "frames": 137,
+      "lyric": "Don't clean it up first. / I'll work on it now.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s014",
+      "section": "scene-05",
+      "type": "performance",
+      "setup": "astronaut_close_sync",
+      "start_barbeat": "20.1",
+      "start_sec": 49.3328,
+      "end_sec": 52.2028,
+      "dur_sec": 2.87,
+      "frames": 69,
+      "lyric": "We'll see what's your deal.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s015",
+      "section": "scene-06",
+      "type": "concept",
+      "setup": "interference_bloom",
+      "start_barbeat": "21.1",
+      "start_sec": 52.2028,
+      "end_sec": 55.0576,
+      "dur_sec": 2.8549,
+      "frames": 69,
+      "lyric": "In the garden, meanwhile—",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s016",
+      "section": "scene-06",
+      "type": "concept",
+      "setup": "greenhouse_threshold",
+      "start_barbeat": "22.1",
+      "start_sec": 55.0576,
+      "end_sec": 57.9397,
+      "dur_sec": 2.8821,
+      "frames": 69,
+      "lyric": "",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s017",
+      "section": "psychedelic-garden",
+      "type": "concept",
+      "setup": "greenhouse_dolly_wide",
+      "start_barbeat": "23.1",
+      "start_sec": 57.9397,
+      "end_sec": 63.6144,
+      "dur_sec": 5.6746,
+      "frames": 136,
+      "lyric": "The-the-the-the-the / There's a little green light moving / through the psychedelic garden.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s018",
+      "section": "psychedelic-garden",
+      "type": "concept",
+      "setup": "flora_detail_macro",
+      "start_barbeat": "25.1",
+      "start_sec": 63.6144,
+      "end_sec": 69.2757,
+      "dur_sec": 5.6613,
+      "frames": 136,
+      "lyric": "Something with no name is waking / in the psychedelic garden.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s019",
+      "section": "psychedelic-garden",
+      "type": "concept",
+      "setup": "greenhouse_dolly_wide",
+      "start_barbeat": "27.1",
+      "start_sec": 69.2757,
+      "end_sec": 74.9554,
+      "dur_sec": 5.6797,
+      "frames": 136,
+      "lyric": "And whatever woke is waiting / for the song to begin.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s020",
+      "section": "pattern-aperture",
+      "type": "concept",
+      "setup": "specimen_table_macro",
+      "start_barbeat": "29.1",
+      "start_sec": 74.9554,
+      "end_sec": 80.6268,
+      "dur_sec": 5.6714,
+      "frames": 136,
+      "lyric": "Okay, there. / You've got it. / That should be enough.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s021",
+      "section": "pattern-aperture",
+      "type": "performance",
+      "setup": "astronaut_inspect_medium",
+      "start_barbeat": "31.1",
+      "start_sec": 80.6268,
+      "end_sec": 86.3125,
+      "dur_sec": 5.6857,
+      "frames": 136,
+      "lyric": "Just look and tell me. / Do you see a pattern? / I'm sure it's there.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s022",
+      "section": "pattern-aperture",
+      "type": "concept",
+      "setup": "specimen_table_macro",
+      "start_barbeat": "33.1",
+      "start_sec": 86.3125,
+      "end_sec": 91.9656,
+      "dur_sec": 5.6531,
+      "frames": 136,
+      "lyric": "Hard to find, right? / I see the world plus more. / More is probably nothing. / Yes, I see the world.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s023",
+      "section": "mars-unmasking",
+      "type": "performance",
+      "setup": "astronaut_close_sync",
+      "start_barbeat": "35.1",
+      "start_sec": 91.9656,
+      "end_sec": 94.7952,
+      "dur_sec": 2.8296,
+      "frames": 68,
+      "lyric": "Close but no see car. / Subject: Mars!",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s024",
+      "section": "mars-unmasking",
+      "type": "concept",
+      "setup": "mars_domes_wide",
+      "start_barbeat": "36.1",
+      "start_sec": 94.7952,
+      "end_sec": 97.6239,
+      "dur_sec": 2.8287,
+      "frames": 68,
+      "lyric": "You come back around. / I'll pull it into a shape",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s025",
+      "section": "mars-unmasking",
+      "type": "performance",
+      "setup": "astronaut_mars_medium",
+      "start_barbeat": "37.1",
+      "start_sec": 97.6239,
+      "end_sec": 100.4736,
+      "dur_sec": 2.8497,
+      "frames": 68,
+      "lyric": "and spin your world around. / No. / Don't make it better.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s026",
+      "section": "mars-unmasking",
+      "type": "concept",
+      "setup": "counterfeit_parade",
+      "start_barbeat": "38.1",
+      "start_sec": 100.4736,
+      "end_sec": 103.311,
+      "dur_sec": 2.8374,
+      "frames": 68,
+      "lyric": "Don't want fake shit.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s027",
+      "section": "mars-unmasking",
+      "type": "performance",
+      "setup": "excavation_site",
+      "start_barbeat": "39.1",
+      "start_sec": 103.311,
+      "end_sec": 106.1423,
+      "dur_sec": 2.8313,
+      "frames": 68,
+      "lyric": "Dig the thing underneath it. / Dig it stupid.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s028",
+      "section": "mars-unmasking",
+      "type": "concept",
+      "setup": "astronaut_close_sync",
+      "start_barbeat": "40.1",
+      "start_sec": 106.1423,
+      "end_sec": 108.9813,
+      "dur_sec": 2.839,
+      "frames": 68,
+      "lyric": "Especially stupid.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s029",
+      "section": "semantic-rocket-weather",
+      "type": "concept",
+      "setup": "weather_over_colony",
+      "start_barbeat": "41.1",
+      "start_sec": 108.9813,
+      "end_sec": 114.6787,
+      "dur_sec": 5.6973,
+      "frames": 137,
+      "lyric": "Can you hear / what I meant? / Sometimes. / Not always. / Meaning leaves thread.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s030",
+      "section": "semantic-rocket-weather",
+      "type": "performance",
+      "setup": "duet_call_response_sync",
+      "start_barbeat": "43.1",
+      "start_sec": 114.6787,
+      "end_sec": 120.3863,
+      "dur_sec": 5.7077,
+      "frames": 137,
+      "lyric": "Words leave words. / Things clap overhead",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s031",
+      "section": "semantic-rocket-weather",
+      "type": "concept",
+      "setup": "rockets_overhead",
+      "start_barbeat": "45.1",
+      "start_sec": 120.3863,
+      "end_sec": 126.1299,
+      "dur_sec": 5.7436,
+      "frames": 138,
+      "lyric": "like rockets coming in.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s032",
+      "section": "semantic-rocket-weather",
+      "type": "performance",
+      "setup": "rain_to_canal",
+      "start_barbeat": "47.1",
+      "start_sec": 126.1299,
+      "end_sec": 129.0056,
+      "dur_sec": 2.8757,
+      "frames": 69,
+      "lyric": "Can't tell you / if they're true.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s033",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "canal_moon_descent",
+      "start_barbeat": "48.1",
+      "start_sec": 129.0056,
+      "end_sec": 134.7357,
+      "dur_sec": 5.7301,
+      "frames": 138,
+      "lyric": "Elsewhere, under a smaller moon— / Chrome-plated bodies go swimming",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s034",
+      "section": "rivers-of-mars",
+      "type": "performance",
+      "setup": "duet_canal_bank_sync",
+      "start_barbeat": "50.1",
+      "start_sec": 134.7357,
+      "end_sec": 140.4034,
+      "dur_sec": 5.6677,
+      "frames": 136,
+      "lyric": "in the rivers of Mars.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s035",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "canal_current_macro",
+      "start_barbeat": "52.1",
+      "start_sec": 140.4034,
+      "end_sec": 146.0556,
+      "dur_sec": 5.6522,
+      "frames": 136,
+      "lyric": "Tails wagging to music",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s036",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "chorus_close_sync",
+      "start_barbeat": "54.1",
+      "start_sec": 146.0556,
+      "end_sec": 151.7378,
+      "dur_sec": 5.6822,
+      "frames": 136,
+      "lyric": "that bends your mind. / Tiny mouths all agape",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s037",
+      "section": "rivers-of-mars",
+      "type": "performance",
+      "setup": "creature_swim_macro",
+      "start_barbeat": "56.1",
+      "start_sec": 151.7378,
+      "end_sec": 157.4229,
+      "dur_sec": 5.6851,
+      "frames": 136,
+      "lyric": "in the rivers of Mars. / Whatever falls from heaven",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s038",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "drumwall_colony",
+      "start_barbeat": "58.1",
+      "start_sec": 157.4229,
+      "end_sec": 163.1046,
+      "dur_sec": 5.6817,
+      "frames": 136,
+      "lyric": "leaves the senses behind. / No one has ever been",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s039",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "chorus_plunge",
+      "start_barbeat": "60.1",
+      "start_sec": 163.1046,
+      "end_sec": 165.9478,
+      "dur_sec": 2.8432,
+      "frames": 68,
+      "lyric": "In / in the rivers of Mars.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s040",
+      "section": "current-turns-home",
+      "type": "concept",
+      "setup": "canal_junction_turn",
+      "start_barbeat": "61.1",
+      "start_sec": 165.9478,
+      "end_sec": 168.792,
+      "dur_sec": 2.8442,
+      "frames": 68,
+      "lyric": "Then turns.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s041",
+      "section": "current-turns-home",
+      "type": "concept",
+      "setup": "canal_current_macro",
+      "start_barbeat": "62.1",
+      "start_sec": 168.792,
+      "end_sec": 171.6872,
+      "dur_sec": 2.8951,
+      "frames": 69,
+      "lyric": "Then follows. / Then answers.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s042",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronomer_sync",
+      "start_barbeat": "63.1",
+      "start_sec": 171.6872,
+      "end_sec": 177.4275,
+      "dur_sec": 5.7404,
+      "frames": 138,
+      "lyric": "You still there? / Define there.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s043",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronaut_sync",
+      "start_barbeat": "65.1",
+      "start_sec": 177.4275,
+      "end_sec": 183.1699,
+      "dur_sec": 5.7424,
+      "frames": 138,
+      "lyric": "Never mind. / La-la-la, low light. / No, go on. / Thought I heard something.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s044",
+      "section": "scene-14",
+      "type": "concept",
+      "setup": "telescope_time_tunnel",
+      "start_barbeat": "67.1",
+      "start_sec": 183.1699,
+      "end_sec": 188.9496,
+      "dur_sec": 5.7796,
+      "frames": 139,
+      "lyric": "You did. / Was it you? / Da-da-dum. / Could've been. / Say goodnight. / Who?",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s045",
+      "section": "scene-14",
+      "type": "performance",
+      "setup": "duet_lamplight_astronomer_sync",
+      "start_barbeat": "69.1",
+      "start_sec": 188.9496,
+      "end_sec": 194.8134,
+      "dur_sec": 5.8638,
+      "frames": 141,
+      "lyric": "To who? / La-la-la—la-la / You first. / Night. / Night.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s046",
+      "section": "scene-14",
+      "type": "concept",
+      "setup": "colony_goodnight_cascade",
+      "start_barbeat": "71.1",
+      "start_sec": 194.8134,
+      "end_sec": 197.7725,
+      "dur_sec": 2.9591,
+      "frames": 71,
+      "lyric": "Night.",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    },
+    {
+      "id": "s047",
+      "section": "production-coda",
+      "type": "concept",
+      "setup": "night_iris_title",
+      "start_barbeat": "72.1",
+      "start_sec": 197.7725,
+      "end_sec": 203.7,
+      "dur_sec": 5.9275,
+      "frames": 142,
+      "lyric": "",
+      "description": "",
+      "prompt": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      }
+    }
+  ]
+}

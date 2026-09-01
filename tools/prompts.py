@@ -28,7 +28,7 @@ def read_style(path: pathlib.Path):
     """style.md: prose for humans, plus a fenced ```lock block appended to every prompt."""
     if not path.exists():
         return "", {}
-    text = path.read_text()
+    text = path.read_text(encoding="utf-8")
     lock = ""
     m = re.search(r"```lock\s*\n(.*?)```", text, re.S)
     if m:
@@ -38,6 +38,8 @@ def read_style(path: pathlib.Path):
 
 
 def main():
+    if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("-o", "--out", type=pathlib.Path, default=ROOT / "prompts" / "prompts.md")
@@ -82,7 +84,7 @@ def main():
         out += ["```", ""]
 
     a.out.parent.mkdir(parents=True, exist_ok=True)
-    a.out.write_text("\n".join(out))
+    a.out.write_text("\n".join(out), encoding="utf-8")
     todo = sum(1 for k, v in groups.items()
                if not any(s.get("prompt") or s.get("description") for s in v))
     print(f"wrote {a.out}  —  {len(groups)} setups"

@@ -6,8 +6,23 @@ building storyboards or spending at scale. Budget: an afternoon and under
 ~$40 of subscriptions, most of which carries into production anyway.
 
 **The probe phrase** (proposed): `lyr-055`, *"Chrome-plated bodies go
-swimming"*, register bars 49.4.720–51.4.240 (~5.5 s) — the chorus hook, sung
-by the astronaut in close-up (the `chorus_close_sync` setup).
+swimming"*, register bars 49.4.720–51.4.240 = 134.55–139.87 s (~5.3 s) — the
+chorus hook, sung by the astronaut in close-up (the `chorus_close_sync`
+setup).
+
+## Already done (Claude ran these locally)
+
+- Master mix copied to `audio/song.wav`; compiled register grid copied into
+  `projects/rivers-of-mars/generated/`; `project.local.json` points at the
+  Bitwig project, Export Audio mix, and stem folder on this machine.
+- `register2sections.py → shotplan.py → prompts.py` run: 15 sections,
+  47 shots, 36 setups, `prompts/prompts.md` written with the lock block.
+- Probe audio sliced with 0.2 s handles:
+  - `clips/inbox/probe_vocal_short.wav` — lead-vocal stem, lyr-055 (5.3 s),
+    **use this for the sync tools**
+  - `clips/inbox/probe_vocal.wav` / `probe_mix.wav` — the full couplet
+    (10.7 s) for later
+- Remaining: the accounts, the in-browser generation, and the taste calls.
 
 ## Accounts needed
 
@@ -23,21 +38,9 @@ this repo touches them.
 
 ## Steps
 
-1. **Get the exact phrase times.** After `tools/timeline.py sync`, read them
-   from the compiled register:
+1. ~~Get the exact phrase times~~ — done, see above.
 
-   ```bash
-   ./.venv/bin/python3 -c "import json;i=[x for t in json.load(open('projects/rivers-of-mars/generated/timeline.compiled.json'))['tracks'] if t['id']=='lyrics' for x in t['items'] if x['id']=='lyr-055'][0];print(i['startSec'],i['endSec'])"
-   ```
-
-2. **Slice the audio locally** (stems live in `source/stems/`, machine-local).
-   Cut the lead-vocal stem for the sync tools and the full mix for judging,
-   with ~0.2 s handles (substitute the printed times):
-
-   ```bash
-   ffmpeg -i "source/stems/<Lead Vocal file>.wav" -ss <start-0.2> -to <end+0.2> -c:a pcm_s16le clips/inbox/probe_vocal.wav
-   ffmpeg -i audio/song.wav -ss <start-0.2> -to <end+0.2> -c:a pcm_s16le clips/inbox/probe_mix.wav
-   ```
+2. ~~Slice the audio locally~~ — done, see above.
 
 3. **Drop the master reference** into `refs/character_master.png` (the canal
    image; stays out of Git).
