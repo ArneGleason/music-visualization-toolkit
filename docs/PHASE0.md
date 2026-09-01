@@ -67,6 +67,24 @@ and animatic are that test. Schedule the spend accordingly:
   and it makes every video credit land on approved compositions.
 - Characters (portrait + body + acting bio) attach via the composer's + →
   Characters. Boards and stills live in All Media and attach the same way.
+- Downloads and video playback require the Chrome window to be **visible**
+  (not minimized) — a hidden tab freezes Flow's player and downloads.
+
+## Probe video status (2026-09-01)
+
+- Two Veo 3.1 Quality 8 s takes generated Frames-to-Video from the approved
+  "Astronaut singing on Mars" still. Owner reviewed both:
+  - **Winner** (`edit/fb21dc9e…`): clean, confident belt to camera —
+    downloaded to `clips/inbox/probe_take.mp4` (1280×720, 24 fps).
+  - Rejected (`edit/ba313667…`): better dancey body language, but water
+    caustics morphed into an unrationalizable scaly-glitter effect on her.
+    **Known failure mode**: light-on-surface reinterpreted as material. A
+    guard line now lives in the lock block ("reflected light … never changes
+    the surface itself").
+- Graded audition (technicolor grade + 2.39 letterbox + chorus mix slice):
+  `out/probe_graded.mp4`.
+- Next: the lip-sync pass — Kling and sync.so accounts, then both tools on
+  `probe_take.mp4` + `clips/inbox/probe_vocal_short.wav`.
 
 ## Accounts needed
 

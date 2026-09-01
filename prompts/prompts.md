@@ -30,7 +30,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -51,7 +53,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -73,7 +77,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -95,7 +101,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -117,7 +125,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -139,7 +149,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -161,7 +173,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -183,7 +197,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -205,7 +221,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -227,7 +245,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -248,7 +268,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -270,7 +292,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -292,7 +316,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -314,7 +340,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -336,7 +364,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -358,7 +388,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -380,7 +412,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -402,7 +436,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -424,7 +460,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -446,7 +484,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -468,7 +508,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -490,7 +532,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -512,7 +556,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -534,7 +580,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -556,7 +604,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -578,7 +628,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -600,7 +652,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -622,7 +676,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -644,7 +700,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -666,7 +724,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -688,7 +748,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -710,7 +772,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -732,7 +796,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -754,7 +820,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -776,7 +844,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -798,7 +868,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
@@ -819,7 +891,9 @@ terrain, engineered canals of blue-green water, cream and turquoise domed
 buildings, needle towers, spiked ornamental plants, striped gas planet and
 small moons in a mint-green sky. Riveted silver spacesuits, brass and bakelite
 instruments, hand-built practical props. Soft even studio lighting, saturated
-pastel palette. Camera locked off or moving in slow symmetrical push-ins and
+pastel palette. Reflected light may move across faces and costumes but never
+changes the surface itself: no glitter, no scales, no sequins forming on skin
+or fabric. Camera locked off or moving in slow symmetrical push-ins and
 90-degree lateral tracks; no handheld, no zooms, no whip pans, no speed ramps.
 Consistent cast, wardrobe and hair throughout. No text, no titles, no
 captions, no logos, no watermarks.
