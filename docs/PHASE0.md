@@ -105,6 +105,14 @@ and animatic are that test. Schedule the spend accordingly:
 - Stems measured master-aligned at the head (~4.5 s of tail padding
   explains the 203.72 s vs 199.24 s length difference); slice timing from
   the compiled register is correct as-is.
+- Owner review of the first pass: **sync is perfect wherever audio drives**;
+  in the undriven tail the source take's own mouth motion bleeds back
+  through. **Production rule: the sync audio must cover the entire clip** —
+  slice vocal for exactly [clip_start, clip_start + clip_dur] — and cuts
+  land on phrase boundaries anyway. Second run with a full-8 s slice
+  (10 credits; longer audio costs more) drove every frame:
+  `clips/inbox/probe_kling_full.mp4`, zero silent regions. Final graded
+  master-muxed probe: **`out/probe_final.mp4`**. Credits remaining: 51.
 
 ## Accounts needed
 
