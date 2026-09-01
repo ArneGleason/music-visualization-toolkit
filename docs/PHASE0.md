@@ -48,6 +48,26 @@ and animatic are that test. Schedule the spend accordingly:
   Flow agent set to confirm-before-generating; image default Nano Banana 2,
   16:9, x2.
 
+## Flow workflow facts (learned by driving it, 2026-08-31)
+
+- Account has **25,050 Flow credits**. Image generation (Nano Banana 2)
+  costs **0 credits** on this plan — iterate stills freely.
+- Video models in Flow: Omni 1.1 Flash, Veo 3.1 Lite / Fast / Quality.
+  **Veo 3.1 Quality, 8 s ≈ 100 credits per take** (Fast ≈ 10). The credit
+  pool supports ~250 Quality takes — far beyond the ~70-generation plan.
+- The chat composer runs whatever model its chip is pinned to; asking the
+  *agent* for "a video" while the chip says Nano Banana yields **stills**.
+  To generate video: click the chip → toggle **Image | Video** → pick model,
+  duration (4/6/8 s), count (x1–x4), and **Frames** (start/end frame slots)
+  or **Ingredients** mode.
+- The happy path found for performance shots: generate the shot as a
+  **still** first (free, fast, agent understands characters), approve it,
+  then feed it to **Frames-to-Video** as the start frame with a motion
+  prompt. Exactly the plan's storyboard-stills-become-first-frames idea,
+  and it makes every video credit land on approved compositions.
+- Characters (portrait + body + acting bio) attach via the composer's + →
+  Characters. Boards and stills live in All Media and attach the same way.
+
 ## Accounts needed
 
 | Account | Why | Plan for the probe |
