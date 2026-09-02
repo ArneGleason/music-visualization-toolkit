@@ -65,18 +65,26 @@ Roughly 25 setups cover ~90 cuts; reuse keeps the budget sane.
   get the lip-sync pass): astronomer at the observatory, astronaut on Mars,
   lamplit duet crosscuts.
 - **Environments** (drift-tolerant, no faces): observatory dome, Mars night
-  wide, greenhouse dolly, domes wide, weather over the colony, rockets
-  overhead, canal moon descent, drum-wall colony, telescope time tunnel.
+  wide, the canal forest, domes wide, weather over the colony, rockets
+  descending from orbit and landing, basin moon descent, the water ballet
+  from above, drum-wall basin, telescope time tunnel.
 - **Objects**: canal-map pieces, transmitter, receiver dials, specimen table,
   pattern tests, counterfeit parade, excavation site.
 - **Macro imagery**: oscilloscope trace, radio masts, flora detail, canal
-  current, creature swim — the most forgiving category; use it wherever the
-  register calls for texture-level choreography.
-- **Transitional material**: interference bloom, greenhouse threshold,
+  current, the mer-folk surfacing — the most forgiving category; use it
+  wherever the register calls for texture-level choreography.
+- **Transitional material**: interference bloom, forest threshold,
   rain-to-canal, chorus plunge, canal-junction turn, following wake,
   goodnight cascade, night iris — short dedicated clips whose first/last
   frames tie adjoining setups together, standing in for the register's
   transition lane.
+
+Setup bodies are authored once, at the setup level, in `shots/setups.json`
+(`still` = the frame without motion words, `motion` = the video sentence) and
+applied with `tools/shotplan.py --setups shots/setups.json`. The v2 revision
+after the owner's first storyboard review (canal basin, canal forest,
+mer-folk school, orbit arrivals, twin differentiation by hair, canonical suit)
+is recorded in `docs/STORYBOARD_REVIEW.md`.
 
 Lean non-character wherever the narrative allows; faces are where drift and
 sync cost live.
@@ -86,12 +94,18 @@ sync cost live.
 - **Master reference**: the generated canal image (`refs/character_master.png`)
   anchors character, wardrobe, palette, and world at once.
 - Build a **character sheet per performer** — the astronaut (from the master
-  image) and the proposed astronomer (Them 1, Lowell-like, tweed and brass):
-  full front, 3/4 medium, close-up, profile, mid-movement, plus a
-  neutral-mouth frontal close-up for sync shots. Iterate in images (cheap)
-  until each reads as one person on one day; only then touch video.
-- Also generate a **palette board** and two **world boards** (canal + colony,
-  observatory interior) as environment anchors.
+  image) and the astronomer, her identical twin (same face, hair worn up in
+  a French twist, tweed; no eyewear anywhere in the film — an accessory bleeds
+  between twins, hair does not): full front, 3/4 medium, close-up, profile,
+  mid-movement, plus a neutral-mouth frontal close-up for sync shots. Iterate
+  in images (cheap) until each reads as one person on one day; only then
+  touch video.
+- Wardrobe is one canonical sentence per outfit (the cast lines in
+  `shots/style.md`, substituted verbatim into prompts) plus a **suit
+  turnaround board**; the **mer-folk** get a design sheet of their own.
+- Also generate a **palette board** and the **world boards** (canal + colony,
+  observatory interior, canal basin, canal forest, Mars from orbit) as
+  environment anchors.
 - Store in `refs/`, register in `shots/style.md` as `- ref name: path` lines,
   attach via Ingredients-to-Video on every performance shot. Only the registry
   lines are committed.
@@ -116,8 +130,8 @@ letterbox are also the drift-hiders.
 - **Frames-to-Video** (first *and* last frame) is mandatory for:
   - every *transitional* setup — last frame of the outgoing setup, first
     frame of the incoming one;
-  - any cut that must land somewhere specific on a downbeat (the greenhouse
-    dolly arriving at the drum awakening, the chorus plunge);
+  - any cut that must land somewhere specific on a downbeat (the forest walk
+    arriving at the awakening, the chorus plunge);
   - re-entries to a repeated setup, so each chorus return starts from the
     same still.
 - Performance shots destined for lip-sync are generated with the mouth
@@ -146,8 +160,8 @@ letterbox are also the drift-hiders.
   canal setups (most reused), (3) remaining performance setups, (4)
   environments, (5) macros, (6) transitionals last (they need approved
   neighbor frames).
-- **Takes**: 2–3 takes for setups used by 4+ cuts (chorus canal, greenhouse
-  dolly, both duet setups); 1 take for single-use setups. `_sync` setups get
+- **Takes**: 2–3 takes for setups used by 4+ cuts (chorus basin, forest
+  walk, both duet setups); 1 take for single-use setups. `_sync` setups get
   takes chosen *before* the sync pass — sync the winner only, and give hero
   sync shots 2–3 *sync* passes too (Kling's Redub re-runs a finished clip
   for ~10 credits; sustained vowels are where sync wobbles).

@@ -1,50 +1,159 @@
 # Storyboard pass — review notes (2026-09-01)
 
-All 37 setups generated as stills in Flow (Nano Banana 2, 16:9, x2 variants,
-0 credits each), one prompt per setup = shot body + lock block, with the
-matching Character, board, or canal vista attached. Files land in
-`board/frames/<setup>_<variant>.jpg`; `tools/board_contact.py` builds
-`board/contact.html` from them. Ids are harvested from the Flow media grid,
+All 37 first-pass setups were generated as stills in Flow (Nano Banana 2,
+16:9, x2 variants, 0 credits each), one prompt per setup = shot body + lock
+block, with the matching Character, board, or canal vista attached. Files
+land in `board/frames/<setup>_<variant>.jpg`; `tools/board_contact.py`
+builds `board/contact.html` from them. Ids are harvested from the Flow media
+grid (only while the Chrome tab is visible — the grid is virtualized),
 resolved to signed CDN URLs (`flow-content.google/image/<id>?Expires…`) via
-the `media.getMediaUrlRedirect` endpoint, and pulled with curl; the grid is
-virtualized and only loads while the Chrome tab is visible.
+the `media.getMediaUrlRedirect` endpoint, and pulled with curl.
 
-## Systematic findings (feed the regen pass and the prompts)
+## Owner review of the first pass → v2 decisions
+
+The owner reviewed the full grid in Flow. Each note, and what changed in
+`shots/style.md`, `shots/setups.json` and `shots/plan.json` because of it:
+
+1. **The twins get mixed up** (the astronaut wearing the astronomer's
+   glasses). Glasses are removed from the film entirely; the twins are told
+   apart by **hair** (astronaut: bob down; astronomer: the same hair pinned
+   up in a French twist) and wardrobe. The astronomer Flow Character is
+   rebuilt to the new spec; one Character per shot, one twin per agent
+   session. Cast descriptions are substituted verbatim from `style.md`
+   (`{{astronaut}}`, `{{astronomer}}`) so no prompt paraphrases them.
+2. **No continuity of style** — handsome photographic prop/miniature frames
+   next to illustration-style ones. The lock block now says "photographed on
+   35mm three-strip Technicolor … never an illustration, painting, cartoon
+   or render"; every still prompt leads with "Film still."; a style anchor
+   is attached to every generation; v2 stills use Nano Banana Pro. The
+   owner's question — switch to ChatGPT's image generator? — is answered by
+   an A/B on four problem setups (twin close-up, water ballet, mer-folk,
+   forest walk) before committing the rest of the pass either way.
+3. **The silver suit changes from scene to scene.** One canonical suit
+   sentence (`{{suit}}`) pasted verbatim into every astronaut prompt, plus a
+   suit turnaround board attached with the Character. Three named variants
+   exist only where the script travels: field suit (canal forest), orbital
+   suit (landing field), liner (bunk, outro).
+4. **Water numbers crowded into narrow canals, illustration-ish.** New
+   location: the colony's circular **canal basin** — open water big enough
+   for a Busby Berkeley number. New setups `basin_moon_descent`,
+   `basin_edge_sync`, `basin_kaleidoscope_top` (the overhead flower),
+   `merfolk_surface_ring`, `drumwall_basin`; the plunge and junction stay.
+5. **No psychedelic garden.** The greenhouse aisle is replaced by the
+   **canal forest**: `forest_threshold` (hatch opens onto it),
+   `forest_walk_track` (she walks through lush oversized foliage following
+   the little green light, lateral track), `forest_awakening_frontal` (the
+   forest lights up around her on the drums); the thistle-globe macro stays.
+6. **The creature.** One fish-lizard becomes the **canal mer-folk**: a
+   chrome school of twelve or more — fish tail, slender humanoid arms, a
+   smooth alien head with one large lashed eye and a tiny singing mouth —
+   always moving in unison. A design sheet is generated before any water
+   setup is redone.
+7. **Arrivals come from orbit.** `signal_crossing_space` now ends over the
+   limb of Lowell's canal-scored Mars seen from orbit; `rockets_overhead` is
+   replaced by `orbit_rockets_descent` (rockets sinking toward the globe)
+   and `rockets_landing_wide` (touchdown on the landing field, the astronaut
+   in her orbital suit); the rocket section cuts every bar so "Things clap
+   overhead" lands on the descent and "like rockets coming in" on the
+   landing.
+
+Net: 50 cuts, 39 setups (was 47 / 37). The plan is now authored at the setup
+level in `shots/setups.json` (`still` = the frame, `motion` = the video
+sentence) and applied with `tools/shotplan.py --setups shots/setups.json`.
+
+### v2 order of work
+
+1. Sheets first, all free: rebuild the astronomer Character; generate the
+   suit turnaround, the mer-folk design sheet, and the basin / forest / orbit
+   boards; register them in `style.md`.
+2. The A/B (Flow Nano Banana Pro vs ChatGPT) on the four problem setups;
+   pick the generator for stills.
+3. Regenerate every changed or rejected setup with the guards; keep the
+   first-pass keepers listed below.
+4. Contact sheet → owner batch review → animatic → video inside the Ultra
+   window (ends 2026-09-07).
+
+## Systematic findings from the first pass (feed the regen pass)
 
 - **Astronaut gets the astronomer's glasses.** Seen in astronaut_close
   (one variant), excavation (one variant), and both lamplight-astronaut
-  variants. Twin bleed via the agent's conversation context. Guard: every
-  astronaut prompt states "no glasses — only the astronomer wears glasses",
-  and hero astronaut stills are generated in a fresh agent session.
+  variants. Twin bleed via the agent's conversation context. Resolved by
+  decision 1 above (no glasses in the film).
 - **Day where night was asked** (mars_night_wide, colony_goodnight A,
   drumwall A). The attached daytime canal vista biases the light. Guard: for
   night setups attach a night board (make one) or nothing, and lead the
   prompt with "Night."
 - **Text leakage**: telescope_time_tunnel A rendered "SLOW PUSH IN" labels.
-  Camera-direction phrases in the body can be drawn as annotations; keep
-  motion language out of *still* prompts (it belongs in the video prompt).
+  Camera-direction phrases in the body can be drawn as annotations; the
+  setup library now separates `still` (no motion words) from `motion`.
 - **Uninvited witness figures**: environment setups (greenhouse, drumwall,
   weather, iris, goodnight) keep adding two silver-suited men, sometimes with
   horns/saxophones. Sometimes charming (drumwall B), sometimes wrong. Guard:
-  "no people" on pure environment stills; allow "two distant witnesses" only
-  where the shot body asks for them.
+  "no people" on pure environment stills; witnesses only where the setup
+  names them.
 - **Triptych/strip layouts** on continuous-move setups (chorus_plunge A)
-  — reject; one frame per still.
+  — reject; "single frame, no panels" is now in the still text.
 - **Agent context contamination**: one stray desk-lamp astronaut still
   appeared inside another setup's request. Long agent sessions drift; start
   a new session per batch of ~10 setups.
 
-## Per-setup verdicts so far (17 stills labeled)
+## Per-setup verdicts
+
+All 76 first-pass stills are downloaded and labeled in `board/frames/`
+(`board/contact.html` shows 37 of the 39 v2 setups; only the two brand-new
+setups, `basin_kaleidoscope_top` and `rockets_landing_wide`, have nothing
+yet). The four boards now live in `refs/` too (`world_observatory`,
+`world_greenhouse`, `world_canal_colony`, `palette`). Stills of setups
+renamed in v2 are filed under the new names; "superseded" means the setup
+was redesigned by the owner's notes and the still is reference only.
+
+**Keepers as they stand** (usable as Frames-to-Video start frames now):
+obs_dome_open A (night dome, photographic), obs_console_macro A/B,
+canal_map_macro A/B, interference_bloom A/B, receiver_dial_macro A/B,
+specimen_table_macro A/B, mars_domes_wide A (B has witnesses),
+counterfeit_parade A/B, excavation_site A, astronaut_inspect_medium A,
+astronaut_mars_medium A, weather_over_colony A/B, flora_detail_macro A/B,
+canal_junction_turn A/B, chorus_plunge B, drumwall_basin B,
+colony_goodnight_cascade B, telescope_time_tunnel B, night_iris_title A/B,
+chorus_close_sync C/D (the Phase 0 "singing on Mars" night stills — no
+eyewear, correct suit).
 
 | setup | verdict |
 |---|---|
-| night_iris_title | A and B both strong; A (moon over canal in iris) preferred |
-| colony_goodnight_cascade | B (night, bridge figures) good; A is daytime — reject |
-| telescope_time_tunnel | B good (stage apparatus); A text leak — reject |
-| duet_lamplight_astronaut_sync | A, B, C all wear glasses — regen with guard; B's bunk/porthole composition is the keeper layout |
-| duet_lamplight_astronomer_sync | B (desk lamp, colony painting) excellent; A is just her portrait — reject |
-| canal_junction_turn | A and B both excellent top-down brass junctions |
+| obs_dome_open | A only (one variant survived): night hillside dome, blade of light — excellent |
+| obs_console_macro | A/B both excellent brass consoles with waveform |
+| astronomer_desk_sync | A/B good desk compositions (B hangs spacesuits behind her — a nice Anderson beat, keep as an option); regen for the new hair, no eyewear |
+| canal_map_macro | A/B both excellent overhead map pieces |
+| astronomer_close_sync | A good (warm backdrop); B is the astronaut in a silver suit with eyewear — twin bleed, reject |
+| signal_crossing_space | A (gold beam onto a console) and B (dollhouse observatory) both misread the shot — reject; superseded by the orbit version |
+| receiver_dial_macro | A/B both good; A's porthole with the striped planet is the keeper |
+| astronaut_close_sync | A (dark backdrop, singing) is the ideal composition but wears eyewear; B same — regen |
+| mars_night_wide | A/B both daytime — reject; regen with "Night." and no daytime board |
+| interference_bloom | A/B both excellent leaf-on-cathode screens |
+| forest_threshold (was greenhouse_threshold) | A: hatch opening onto lush green foliage — the closest thing to the lush garden the owner wants, keep as reference; B adds two witnesses — reject; superseded |
+| forest_walk_track (was greenhouse_dolly_wide) | A/B nursery aisles with witnesses — superseded by the canal forest |
+| flora_detail_macro | A/B both good thistle-globe macros; B more graphic |
+| forest_awakening_frontal (was greenhouse_drum_awakening) | A/B greenhouse aisles with a green lamp — superseded |
+| specimen_table_macro | A/B both excellent overhead mandalas |
+| astronaut_inspect_medium | A good (no eyewear, field table); B eyewear — reject |
+| mars_domes_wide | A excellent, empty vista; B has two tiny witnesses — usable |
+| astronaut_mars_medium | A usable (frontal among canals); B eyewear, turned pose — reject |
+| counterfeit_parade | A/B both excellent deadpan conveyors of masks, domes, globes |
+| excavation_site | A good (no eyewear); B eyewear — reject |
+| weather_over_colony | A/B both good filament weather; B more saturated |
+| duet_call_response_sync | A/B both good split-screen twins, matching faces — keeper layout; regen for hair/no eyewear |
+| orbit_rockets_descent (was rockets_overhead) | A illustration — reject; B photographic rockets-and-shadows — good but superseded by orbit + landing |
+| rain_to_canal | A/B both add silver-suited figures — reject; regen "no people" |
+| basin_moon_descent (was canal_moon_descent) | A drawn storyboard with text — reject; B one-point canal with floating swimmers — superseded by the basin |
+| basin_edge_sync (was duet_canal_bank_sync) | A night with lamp and creature but her wardrobe drifts dark/tweed-like — check; B daytime — reject; both narrow canals, superseded |
+| canal_current_macro | A/B illustration-style underwater cross-sections with suited swimmers — reject; regen with the mer-folk sheet |
+| chorus_close_sync | A/B eyewear and daylight — reject; C/D (Phase 0 night stills) are the keepers |
+| merfolk_surface_ring (was creature_swim_macro) | A cartoon eel, B chrome fish-lizard — the owner's "okay" creature; superseded by the mer-folk school |
+| drumwall_basin (was drumwall_colony) | B (night fountains) excellent; A daytime jazz band — reject |
 | chorus_plunge | B usable (splash + underwater cross-section); A triptych — reject |
-| drumwall_colony | B (night fountains) excellent; A daytime jazz band — reject |
-
-Remaining 29 setups: stills exist in Flow; download and labeling pending.
+| canal_junction_turn | A/B both excellent top-down brass junctions; keep, mer-folk added in video |
+| duet_lamplight_astronomer_sync | B (desk lamp, colony painting) excellent — regen anyway for the new hair; A is just her portrait — reject |
+| duet_lamplight_astronaut_sync | A, B, C all wear eyewear — regen; B's bunk/porthole composition is the keeper layout |
+| telescope_time_tunnel | B good (stage apparatus); A text leak — reject |
+| colony_goodnight_cascade | B (night, bridge figures) good; A is daytime — reject |
+| night_iris_title | A and B both strong; A (moon over canal in iris) preferred |

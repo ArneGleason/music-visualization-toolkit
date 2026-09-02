@@ -1,0 +1,200 @@
+{
+  "_comment": "Setup library for the live-action path. One entry per named setup in shots/plan.json: `slate` is the human label, `still` describes the frame with NO camera-motion words (it becomes the storyboard still and the Frames-to-Video start frame), `motion` is the sentence added only for video. {{astronaut}}, {{astronomer}}, {{merfolk}}, {{suit}}, {{suit_field}}, {{suit_orbital}}, {{suit_liner}} are substituted verbatim from the cast lines in shots/style.md by tools/prompts.py. Apply with: python tools/shotplan.py --setups shots/setups.json",
+  "setups": {
+    "obs_dome_open": {
+      "slate": "Observatory dome opens",
+      "still": "Night. Symmetrical frontal wide of a hillside observatory: the dome slit stands open and a blade of warm gold light escapes it; one bright red point - Mars - sits dead center above the dome. No people.",
+      "motion": "The slit rumbles wider as the camera pushes slowly toward it until the glow fills the frame."
+    },
+    "obs_console_macro": {
+      "slate": "Console and oscilloscope",
+      "still": "Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, glowing valves, and a round oscilloscope tube drawing a warm gold waveform, centered.",
+      "motion": "The waveform pulses like a voice; slow lateral drift ending centered on the scope screen."
+    },
+    "astronomer_desk_sync": {
+      "slate": "Astronomer sings at desk",
+      "still": "Medium frontal shot, perfectly centered: {{astronomer}} at a desk piled with hand-drawn canal charts, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance.",
+      "motion": "She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Locked off."
+    },
+    "canal_map_macro": {
+      "slate": "Canal map pieces",
+      "still": "Top-down overhead macro of hand-inked Mars canal maps torn into pieces on a leather desktop; tweed-cuffed hands hold two fragments whose canal lines almost join.",
+      "motion": "The hands slide the fragments together; the lines almost meet, then miss by a hair, again and again. Slow overhead push-in."
+    },
+    "astronomer_close_sync": {
+      "slate": "Astronomer close-up",
+      "still": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope.",
+      "motion": "She sings with confident punch, words clearly articulated, head steady. Locked off."
+    },
+    "signal_crossing_space": {
+      "slate": "Signal crosses space",
+      "still": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, drawn as Lowell drew it - a lattice of straight canals and dark oases across the whole planet - its terminator curving away; a striped gas giant and several small moons hang in matte-painting depth beyond. No people.",
+      "motion": "The pulse travels across frame and arrives over the limb of the planet. Slow lateral drift following the light."
+    },
+    "receiver_dial_macro": {
+      "slate": "Receiver dials tremble",
+      "still": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials.",
+      "motion": "The needle trembles and the static flickers. Locked off with the slightest push."
+    },
+    "astronaut_close_sync": {
+      "slate": "Astronaut close-up",
+      "still": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance.",
+      "motion": "She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off."
+    },
+    "mars_night_wide": {
+      "slate": "Waiting on Mars, wide",
+      "still": "Night. Symmetrical wide: {{astronaut}} in {{suit}} stands small at dead center beside a glowing receiver mast, coral terrain silvered by two small moons and the striped planet, the colony domes dark on the horizon.",
+      "motion": "Nothing moves but her breath and the mast's slow blink. Very slow push toward her."
+    },
+    "interference_bloom": {
+      "slate": "Interference blooms",
+      "still": "Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, leaf-like pattern, the screen's green-gold glow spreading to the frame edges.",
+      "motion": "The rings resolve into leaves and the glow spreads until it fills the frame."
+    },
+    "forest_threshold": {
+      "slate": "Garden hatch opens",
+      "still": "One-point symmetrical corridor: a riveted brass garden hatch centered at the end of a metal walkway, standing open onto the canal forest - giant fern-fans, cupped leaves, pink thistle-globes - with green and magenta light spilling toward camera. No people.",
+      "motion": "Slow push through the hatch into the glow."
+    },
+    "forest_walk_track": {
+      "slate": "Forest walk, following the green light",
+      "still": "Side-on planimetric view: {{astronaut}} in {{suit_field}} walks left to right along a mossy path through the canal forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan.",
+      "motion": "She follows the green light; slow 90-degree lateral track keeping her centered as the foliage layers slide past in deep parallax."
+    },
+    "flora_detail_macro": {
+      "slate": "Thistle-globe macro",
+      "still": "Macro on a single pink thistle-globe in the canal forest, tendrils half-uncurled, dew catching green-gold light, the small green light a soft blur behind it; shallow focus.",
+      "motion": "The tendrils slowly uncurl and the green light drifts past behind. Slight lateral drift."
+    },
+    "forest_awakening_frontal": {
+      "slate": "Forest wakes to drums",
+      "still": "Frontal symmetrical wide: {{astronaut}} in {{suit_field}} stands dead center on the forest path, small under the canopy, as the whole forest lights up around her - cupped leaves snapping open, thistle-globes glowing pink row by row, seed-lanterns lit, spore puffs rising - a blazing symmetrical mandala of foliage. She holds still and deadpan.",
+      "motion": "The forest wakes in waves on the drum hits, row by row from the edges to the center. Locked off."
+    },
+    "specimen_table_macro": {
+      "slate": "Specimen table mandala",
+      "still": "Top-down overhead of a white enamel specimen table: silver-gloved hands arranging odd finds - spiked seed pods, a chrome scale, torn map fragments - into a circular diagram that almost completes a pattern, one piece sitting wrong.",
+      "motion": "The hands try the wrong piece in every position. Slow overhead push."
+    },
+    "astronaut_inspect_medium": {
+      "slate": "Astronaut inspects specimen",
+      "still": "Waist-up medium of {{astronaut}} in {{suit}} at an enamel field table at the forest's edge, holding a strange specimen up to the light in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical.",
+      "motion": "She turns the specimen slowly in the light. Locked off."
+    },
+    "mars_domes_wide": {
+      "slate": "Colony vista reveal",
+      "still": "Grand symmetrical vista: the cream-and-turquoise domed colony with needle towers under a mint-green sky, a straight canal running up the exact center of frame into the circular canal basin at its foot, striped planet above. No people.",
+      "motion": "Very slow push along the canal axis."
+    },
+    "astronaut_mars_medium": {
+      "slate": "Astronaut above colony",
+      "still": "Medium shot: {{astronaut}} in {{suit}} centered on a coral ridge above the domed colony and its basin, vista soft behind her, facing camera, wind in her hair.",
+      "motion": "She turns from the view to face camera; slow lateral track that settles frontal and locked."
+    },
+    "counterfeit_parade": {
+      "slate": "Parade of fakes",
+      "still": "Deadpan planimetric side-on view: a procession of too-perfect objects - polished miniature domes, smiling masks, trophy-bright Mars globes - lined up left to right across frame on a hidden conveyor; {{astronaut}} in {{suit}} stands centered behind it, unimpressed.",
+      "motion": "The procession glides left to right. Locked off."
+    },
+    "excavation_site": {
+      "slate": "Digging the real thing",
+      "still": "Low frontal shot: {{astronaut}} in {{suit}} kneels in coral soil, lifting a clumsy, handmade, unpolished object out of the ground with silver gloves - clearly loved; dust motes in warm light.",
+      "motion": "She digs and lifts it free. Slight slow push toward her hands."
+    },
+    "weather_over_colony": {
+      "slate": "Filament weather",
+      "still": "Wide sky over the domes and the basin: strange luminous filament weather - glowing threads and streamers peeling off slow cloud fronts; two tiny figures watch from opposite frame edges.",
+      "motion": "The threads drift apart. Slow upward drift."
+    },
+    "duet_call_response_sync": {
+      "slate": "Split duet call/response",
+      "still": "Symmetrical split staging divided by a thin centered seam of static: {{astronomer}} in her warm-gold study at frame left, {{astronaut}} in {{suit}} in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase.",
+      "motion": "They trade lines like a confident call-and-response, clearly articulated, heads steady, each landing her phrase on the beat. Locked off."
+    },
+    "orbit_rockets_descent": {
+      "slate": "Rockets descend from orbit",
+      "still": "From orbit: the coral globe of Mars fills the lower frame, scored with Lowell's lattice of straight canals and dark oases, its terminator curving away; three finned chrome retro rockets descend toward it in slow formation, tail-first, retro-flames flickering; the striped gas planet and small moons beyond. No people.",
+      "motion": "The formation sinks toward the planet, flames pulsing. Locked off in space, symmetrical."
+    },
+    "rockets_landing_wide": {
+      "slate": "Rockets land",
+      "still": "Wide symmetrical landing field at the edge of the colony: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her.",
+      "motion": "The rockets touch down one after another on the beat and the dust rolls past her. Locked off."
+    },
+    "rain_to_canal": {
+      "slate": "Rain becomes canal",
+      "still": "Rain over red terrain: falling water gathering into bright rivulets that join, straighten, and align into the geometry of a canal running to the horizon. No people.",
+      "motion": "Slow tilt and track following the water downhill, ending level on the moving current."
+    },
+    "basin_moon_descent": {
+      "slate": "Descent to the basin",
+      "still": "Night. From high above the colony's circular canal basin: the reflection of a small warm moon dead center in a wide calm expanse of dark water ringed by fountains and brass lock-gates; {{merfolk}} glinting beneath the surface, arranged in concentric rings.",
+      "motion": "The camera cranes slowly down toward the water; the rings resolve as it nears the surface."
+    },
+    "basin_edge_sync": {
+      "slate": "Astronaut at the basin edge",
+      "still": "Night. {{astronaut}} in {{suit}} kneels at the stone rim of the wide canal basin in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of {{merfolk}} has just surfaced. Symmetrical framing on her and her reflection.",
+      "motion": "She sings with confident, rhythmic delivery, head steady, shoulders grooving subtly; the swimmer bobs on the beat. Slow push."
+    },
+    "basin_kaleidoscope_top": {
+      "slate": "Water ballet from above",
+      "still": "Night. Straight-down overhead of the circular canal basin lit like a stage: {{merfolk}} arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; fountains firing in a ring around the rim; the moon's reflection dead center. Busby Berkeley water-ballet geometry.",
+      "motion": "The rings rotate against each other and the tails fan open and closed on the beat. Locked overhead."
+    },
+    "merfolk_surface_ring": {
+      "slate": "Tiny mouths agape",
+      "still": "Night. Waterline shot at the center of the wide basin: a ring of {{merfolk}} surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water. Symmetrical, locked at water level.",
+      "motion": "They rise together on the downbeat, blink, and sing; the ripples spread. Locked off."
+    },
+    "chorus_close_sync": {
+      "slate": "Chorus hero close-up",
+      "still": "Night. Frontal hero close-up of {{astronaut}} in {{suit}} at the basin edge, moonlit, ripples of reflected water-light across her face, eyes locked on the lens, mouth open mid-belt, confident and punchy.",
+      "motion": "She belts the chorus hook straight to camera - words clearly articulated, head steady, shoulders moving subtly with the groove; the water-light pulses on the beat. Locked off."
+    },
+    "drumwall_basin": {
+      "slate": "Fountains on the beat",
+      "still": "Night. One-point symmetrical view across the canal basin toward the colony: ranked fountains around the rim firing hard, jets punching up in sequence, lit warm against the dark domes; the water otherwise calm and open. No people.",
+      "motion": "The fountains and steam vents fire on the drum hits, in sequence around the rim. Locked off while the water performs."
+    },
+    "chorus_plunge": {
+      "slate": "Plunge into the basin",
+      "still": "Single frame, no panels: looking straight down at the surface of the wide canal basin from a few feet above it, moonlit spray and bubbles bursting upward, {{merfolk}} visible scattering beneath the surface.",
+      "motion": "One smooth accelerating push straight down through the surface: spray, bubbles, then the school scattering and reforming around the camera underwater. One continuous move, no cut."
+    },
+    "canal_junction_turn": {
+      "slate": "The current turns",
+      "still": "Top-down planimetric view of a brass canal junction: lock-gates pivoting, the current visibly turning, and {{merfolk}} wheeling around together to head back the way they came.",
+      "motion": "The gates pivot on the beat, the current reverses, and the school wheels as one. Locked overhead."
+    },
+    "canal_current_macro": {
+      "slate": "Inside the current",
+      "still": "Underwater inside the canal current: {{merfolk}} passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them.",
+      "motion": "Slow lateral drift; the school never restarts, it just keeps passing, the light-ribbons bending with the music."
+    },
+    "duet_lamplight_astronomer_sync": {
+      "slate": "Astronomer lamplight outro",
+      "still": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered.",
+      "motion": "She sings the quiet lines to camera with barely moving lips. Locked off."
+    },
+    "duet_lamplight_astronaut_sync": {
+      "slate": "Astronaut lamplight outro",
+      "still": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered.",
+      "motion": "She sings softly to camera with minimal motion. Locked off."
+    },
+    "telescope_time_tunnel": {
+      "slate": "Telescope time tunnel",
+      "still": "Looking down the interior of the great telescope tube: concentric brass rings receding to a far point of starlight, perfectly centered. No people.",
+      "motion": "The starlight pulses gently with the rhythm; slow steady push into the rings."
+    },
+    "colony_goodnight_cascade": {
+      "slate": "Colony goodnight",
+      "still": "Night. Wide shot of the colony from across the basin: most dome windows and tower lights already dark, a last few still lit down the valley, the canal holding a single moon reflection. No people.",
+      "motion": "The remaining lights switch off in cascading order, one per beat, until only the moon's reflection is left. Locked off."
+    },
+    "night_iris_title": {
+      "slate": "Night iris out",
+      "still": "Night. The final wide frame of the colony darkening at its edges, a circular iris closing in on the moon's reflection in the basin. No people.",
+      "motion": "The iris closes until only that small light remains, then black. (Title is added in post, never generated.)"
+    }
+  }
+}

@@ -14,6 +14,13 @@ Existing shots are preserved on re-run when --merge is passed: hand-written
 descriptions, prompts and assigned clips survive a re-plan as long as the
 shot id still exists.
 
+With --setups PATH (a setup library, see shots/setups.json) every shot whose
+setup has an entry gets its description (`slate`), still-frame text (`still`)
+and full prompt (`still` + `motion`) from the library. The library is
+authoritative for those shots: author at the setup level, re-run, and the
+shot list follows. Cast placeholders like {{astronaut}} stay unexpanded here;
+tools/prompts.py substitutes them from shots/style.md.
+
 Cutting rules per section (see shots/plan.json):
   cut_every_bars / cut_every_beats   grid the cuts land on
   braid       repeating cycle of shot types, e.g. ["performance","concept"]
@@ -67,7 +74,13 @@ def main():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--merge", action="store_true",
                     help="keep descriptions/prompts/clips from the existing shotlist")
+    ap.add_argument("--setups", type=pathlib.Path, default=None,
+                    help="setup library (shots/setups.json): fills slate/still/prompt per setup")
     a = ap.parse_args()
+
+    library = {}
+    if a.setups:
+        library = load(a.setups).get("setups", {})
 
     bm = Beatmap.load()
     plan = load(ROOT / "shots" / "plan.json")
@@ -133,9 +146,15 @@ def main():
                 "transition": {"type": "cut", "dur_sec": 0.0},
             }
             if a.merge and sid in prev:
-                for k in ("description", "prompt", "clip", "transition", "setup", "type"):
+                for k in ("description", "prompt", "still", "clip", "transition", "setup", "type"):
                     if prev[sid].get(k):
                         shot[k] = prev[sid][k]
+            entry = library.get(shot.get("setup") or "")
+            if entry:
+                shot["description"] = entry.get("slate", shot["description"])
+                shot["still"] = entry.get("still", "").strip()
+                shot["prompt"] = " ".join(t for t in (entry.get("still", ""), entry.get("motion", ""))
+                                          if t and t.strip()).strip()
             shots.append(shot)
 
     save(out_path, {"fps": fps, "duration_sec": bm.duration,
@@ -143,6 +162,14 @@ def main():
 
     over = [s for s in shots if s["dur_sec"] > max_sec + 1e-6]
     uniq = len({s.get("setup") or s["id"] for s in shots})
+    if library:
+        used = {s.get("setup") for s in shots if s.get("setup")}
+        no_body = sorted(used - set(library))
+        unused = sorted(set(library) - used)
+        if no_body:
+            print(f"  !! setups without a library entry: {', '.join(no_body)}")
+        if unused:
+            print(f"  library entries no cut uses: {', '.join(unused)}")
     print(f"  {len(shots)} shots   avg {sum(s['dur_sec'] for s in shots)/len(shots):.2f}s"
           f"   min {min(s['dur_sec'] for s in shots):.2f}s"
           f"   max {max(s['dur_sec'] for s in shots):.2f}s")
