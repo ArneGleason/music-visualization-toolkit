@@ -93,7 +93,7 @@ Conventions: `CAM-PROCESSION`, `FRAME-CENTRIFUGAL`, `SONIC-MASS-FOLLOWER`
 **Still**
 
 ```
-Film still. Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, glowing valves, and a round oscilloscope tube drawing a warm gold waveform, centered. Framing: major shapes cropped by the frame edges, the action plainly continuing beyond the frame.
+Film still. Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, glowing valves, and a round oscilloscope tube drawing a warm gold waveform, centered. No people. Framing: major shapes cropped by the frame edges, the action plainly continuing beyond the frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -117,7 +117,7 @@ watermarks.
 **Video**
 
 ```
-Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, glowing valves, and a round oscilloscope tube drawing a warm gold waveform, centered. The waveform pulses like a voice; slow lateral drift ending centered on the scope screen. Camera and motion: a lateral tracking shot, new elements entering at one frame edge as the last leave the other; elements keep their trajectories before entering and after leaving the frame; the big slow things carry the weight of the music: size, glow and mass move slowly, only the fine edges are fast.
+Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, glowing valves, and a round oscilloscope tube drawing a warm gold waveform, centered. No people. The waveform pulses like a voice; slow lateral drift ending centered on the scope screen. Camera and motion: a lateral tracking shot, new elements entering at one frame edge as the last leave the other; elements keep their trajectories before entering and after leaving the frame; the big slow things carry the weight of the music: size, glow and mass move slowly, only the fine edges are fast.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -203,7 +203,7 @@ Conventions: `CAM-APPROACH`, `PERF-RESPONSE-CHAIN`, `ANIM-SLOW-IN-OUT`
 **Still**
 
 ```
-Film still. Top-down overhead macro of hand-inked Mars river maps torn into pieces on a leather desktop - winding blue-green rivers through coral terrain, settlements dotted along the banks; tweed-cuffed hands hold two fragments whose river lines almost join.
+Film still. Top-down overhead macro of hand-inked Mars river maps torn into pieces on a leather desktop - winding blue-green rivers through coral terrain, settlements dotted along the banks; tweed-cuffed hands hold two fragments whose river lines almost join. Only the hands are in frame; no people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -227,7 +227,7 @@ watermarks.
 **Video**
 
 ```
-Top-down overhead macro of hand-inked Mars river maps torn into pieces on a leather desktop - winding blue-green rivers through coral terrain, settlements dotted along the banks; tweed-cuffed hands hold two fragments whose river lines almost join. The hands slide the fragments together; the river lines almost meet, then miss by a hair, again and again. Slow overhead push-in. Camera and motion: a slow dolly-in that gathers speed, foreground parallax quickening so the subject grows faster than the background: travel, not a zoom; one thing initiates, another accommodates, the contact gives each an unequal recoil; moves ease in and ease out, quick through the middle, settling at the pose.
+Top-down overhead macro of hand-inked Mars river maps torn into pieces on a leather desktop - winding blue-green rivers through coral terrain, settlements dotted along the banks; tweed-cuffed hands hold two fragments whose river lines almost join. Only the hands are in frame; no people. The hands slide the fragments together; the river lines almost meet, then miss by a hair, again and again. Slow overhead push-in. Camera and motion: a slow dolly-in that gathers speed, foreground parallax quickening so the subject grows faster than the background: travel, not a zoom; one thing initiates, another accommodates, the contact gives each an unequal recoil; moves ease in and ease out, quick through the middle, settling at the pose.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -368,7 +368,7 @@ Conventions: `CAM-LOCKED`, `ANIM-MOVING-HOLD`, `SONIC-MASS-FOLLOWER`
 **Still**
 
 ```
-Film still. Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials.
+Film still. Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -392,7 +392,7 @@ watermarks.
 **Video**
 
 ```
-Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. The needle trembles and the static flickers. Locked off with the slightest push. Camera and motion: locked off on a tripod, the frame never moves; a held pose with internal life: breath, gaze, a strand of hair, one hand; nothing else moves; the big slow things carry the weight of the music: size, glow and mass move slowly, only the fine edges are fast.
+Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people. The needle trembles and the static flickers. Locked off with the slightest push. Camera and motion: locked off on a tripod, the frame never moves; a held pose with internal life: breath, gaze, a strand of hair, one hand; nothing else moves; the big slow things carry the weight of the music: size, glow and mass move slowly, only the fine edges are fast.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -533,7 +533,7 @@ Conventions: `FRAME-CENTRIPETAL`, `GROW-PROPAGATION-WAVE`, `SONIC-PHRASE-COLOR`
 **Still**
 
 ```
-Film still. Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, leaf-like pattern, the screen's green-gold glow spreading to the frame edges. Framing: curves, gazes and paths all leading inward to one central event.
+Film still. Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, leaf-like pattern, the screen's green-gold glow spreading to the frame edges. No people. Framing: curves, gazes and paths all leading inward to one central event.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -557,7 +557,7 @@ watermarks.
 **Video**
 
 ```
-Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, leaf-like pattern, the screen's green-gold glow spreading to the frame edges. The rings resolve into leaves and the glow spreads until it fills the frame. Camera and motion: the change travels outward from a source, near things first, farther things later; the light changes color at the phrase boundaries, not continuously.
+Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, leaf-like pattern, the screen's green-gold glow spreading to the frame edges. No people. The rings resolve into leaves and the glow spreads until it fills the frame. Camera and motion: the change travels outward from a source, near things first, farther things later; the light changes color at the phrase boundaries, not continuously.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -917,7 +917,7 @@ Conventions: `CAM-APPROACH`, `PERF-RESPONSE-CHAIN`, `ANIM-SLOW-IN-OUT`
 **Still**
 
 ```
-Film still. Top-down overhead of a white enamel specimen table: silver-gloved hands arranging odd finds - spiked seed pods, a chrome scale, torn map fragments - into a circular diagram that almost completes a pattern, one piece sitting wrong.
+Film still. Top-down overhead of a white enamel specimen table: silver-gloved hands arranging odd finds - spiked seed pods, a chrome scale, torn map fragments - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -941,7 +941,7 @@ watermarks.
 **Video**
 
 ```
-Top-down overhead of a white enamel specimen table: silver-gloved hands arranging odd finds - spiked seed pods, a chrome scale, torn map fragments - into a circular diagram that almost completes a pattern, one piece sitting wrong. The hands try the wrong piece in every position. Slow overhead push. Camera and motion: a slow dolly-in that gathers speed, foreground parallax quickening so the subject grows faster than the background: travel, not a zoom; one thing initiates, another accommodates, the contact gives each an unequal recoil; moves ease in and ease out, quick through the middle, settling at the pose.
+Top-down overhead of a white enamel specimen table: silver-gloved hands arranging odd finds - spiked seed pods, a chrome scale, torn map fragments - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people. The hands try the wrong piece in every position. Slow overhead push. Camera and motion: a slow dolly-in that gathers speed, foreground parallax quickening so the subject grows faster than the background: travel, not a zoom; one thing initiates, another accommodates, the contact gives each an unequal recoil; moves ease in and ease out, quick through the middle, settling at the pose.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1522,7 +1522,7 @@ Conventions: `CAM-DESCENT`, `FRAME-PATTERN-SURRENDER`, `DEPTH-SCALE-VELOCITY`
 **Still**
 
 ```
-Film still. Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison glinting beneath the surface, arranged in concentric rings. Framing: many identical performers arranged into one larger figure: a ring, a spiral, a fan.
+Film still. Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison glinting beneath the surface, arranged in concentric rings. No people. Framing: many identical performers arranged into one larger figure: a ring, a spiral, a fan.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1546,7 +1546,7 @@ watermarks.
 **Video**
 
 ```
-Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison glinting beneath the surface, arranged in concentric rings. The camera cranes slowly down toward the water; the rings resolve as it nears the surface. Camera and motion: a plunge toward an aperture, foreshortening accelerating until the opening expands past the frame; the individuals lock into the pattern on the accent and break out of it after; near objects swell faster than far ones as the camera closes.
+Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison glinting beneath the surface, arranged in concentric rings. No people. The camera cranes slowly down toward the water; the rings resolve as it nears the surface. Camera and motion: a plunge toward an aperture, foreshortening accelerating until the opening expands past the frame; the individuals lock into the pattern on the accent and break out of it after; near objects swell faster than far ones as the camera closes.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
