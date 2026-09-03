@@ -38,11 +38,6 @@ The owner reviewed the full grid in Flow. Each note, and what changed in
    belt of the reference image are gone). Variants add exactly one thing:
    a hand lantern (canal forest), a glass helmet (landing field), or remove
    the collar ring (bunk, outro).
-8. **The performer's body.** The owner re-cast the twins with a
-   **ballerina's build and a dancer's carriage** — slender, long-necked,
-   upright, shoulders back, chin lifted, stillness held with intention and
-   movement landing on the beat. It is in both cast lines, and both Flow
-   Characters are rebuilt to it before any v2 still.
 4. **Water numbers crowded into narrow canals, illustration-ish.** New
    location: the colony's circular **canal basin** — open water big enough
    for a Busby Berkeley number. New setups `basin_moon_descent`,
@@ -65,6 +60,11 @@ The owner reviewed the full grid in Flow. Each note, and what changed in
    in her orbital suit); the rocket section cuts every bar so "Things clap
    overhead" lands on the descent and "like rockets coming in" on the
    landing.
+8. **The performer's body.** The owner re-cast the twins with a
+   **ballerina's build and a dancer's carriage** — slender, long-necked,
+   upright, shoulders back, chin lifted, stillness held with intention and
+   movement landing on the beat. It is in both cast lines, and both Flow
+   Characters are rebuilt to it before any v2 still.
 
 Net: 50 cuts, 39 setups (was 47 / 37). The plan is now authored at the setup
 level in `shots/setups.json` (`still` = the frame, `motion` = the video

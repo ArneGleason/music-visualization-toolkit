@@ -105,8 +105,9 @@ identity, carries the difference — never an accessory.)
 
 Both exist as reusable **Flow Characters** (portrait + full body) in the Flow
 project "Rivers of Mars - AI video": `Astronaut (Them 2)` and
-`Astronomer (Them 1)`. The astronomer Character must be **rebuilt** to this
-spec (updo, no eyewear) before her shots are regenerated. Attach the
+`Astronomer (Them 1)`. **Both Characters must be rebuilt** to this spec
+(dancer's build and carriage, the plain suit; the astronomer with hair up
+and no eyewear) before any v2 still is generated. Attach the
 Character (not loose refs) on every shot of her, and only the one Character
 the shot needs — attaching both, or asking for one twin in a session that
 just drew the other, is how the bleed happened.
