@@ -53,8 +53,8 @@ a deliberate 90° angle off; props look hand-built; signage-free
 retro-futurist hardware (brass telescopes, riveted silver suits, dial-covered
 receivers). Four places the film keeps returning to:
 
-- **The observatory** on Earth — brass telescope, dome slit, desk of river
-  charts, bakelite console, warm tungsten pools in darkness.
+- **The observatory** on Earth — brass telescope, dome slit, desk of specimen
+  trays and spectrograms, bakelite console, warm tungsten pools in darkness.
 - **The colony and its river lagoon** — below the domes the river widens
   into one great mirror-calm lagoon, a natural pool with a rocky coral shore,
   big enough to stage a water ballet; the colony's fountains stand along the
@@ -154,7 +154,7 @@ thing (a lantern, a helmet) or remove one (the collar ring).
 - cast suit_field: her silver suit, carrying a small brass hand lantern
 - cast suit_orbital: her silver suit with a clear domed glass helmet sealed to the collar ring
 - cast suit_liner: her silver suit with the collar ring removed, a plain open neckline
-- cast merfolk: the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison
+- cast merfolk: the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison
 
 The suit variants are used only where the script goes somewhere: the field
 suit in the canal forest, the orbital suit on the landing field as the

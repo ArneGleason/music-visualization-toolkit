@@ -10,7 +10,7 @@
 - `suit_field` — her silver suit, carrying a small brass hand lantern
 - `suit_orbital` — her silver suit with a clear domed glass helmet sealed to the collar ring
 - `suit_liner` — her silver suit with the collar ring removed, a plain open neckline
-- `merfolk` — the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison
+- `merfolk` — the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison
 
 **Reference images** (attach the matching ones every time):
 
@@ -144,7 +144,7 @@ Conventions: `CAM-LOCKED`, `PERF-HYSTERETIC-PRESENCE`, `FRAME-SCALE-BILLING`
 **Still**
 
 ```
-Film still. Medium frontal shot, perfectly centered: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt at a desk piled with hand-drawn Mars river charts, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance. Framing: the lead largest and nearest, everything else smaller and farther.
+Film still. Medium frontal shot, perfectly centered: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt at a desk laid with specimen trays, translucent organic fragments and spectrogram strips, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance. Framing: the lead largest and nearest, everything else smaller and farther.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -166,7 +166,7 @@ watermarks.
 **Video**
 
 ```
-Medium frontal shot, perfectly centered: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt at a desk piled with hand-drawn Mars river charts, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Locked off. Camera and motion: locked off on a tripod, the frame never moves; she rises fast with the voice, holds across the gaps, and only slowly gives the phrase up; the lead advances and grows on the strong syllables and eases back on the breath.
+Medium frontal shot, perfectly centered: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt at a desk laid with specimen trays, translucent organic fragments and spectrogram strips, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Locked off. Camera and motion: locked off on a tripod, the frame never moves; she rises fast with the voice, holds across the gaps, and only slowly gives the phrase up; the lead advances and grows on the strong syllables and eases back on the breath.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -187,7 +187,7 @@ and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
 
-## `canal_map_macro`  ·  concept  ·  River map pieces
+## `canal_map_macro`  ·  concept  ·  Specimen pieces
 
 Used by 3 cut(s): s004 (5.7s), s006 (2.9s), s008 (2.9s)
 Sections: scene-03, signal-exchange · **generate ≥ 5.7s**
@@ -197,7 +197,7 @@ Conventions: `CAM-APPROACH`, `PERF-RESPONSE-CHAIN`, `ANIM-SLOW-IN-OUT`
 **Still**
 
 ```
-Film still. Top-down overhead macro of hand-inked Mars river maps torn into pieces on a leather desktop - winding blue-green rivers through coral terrain, settlements dotted along the banks; tweed-cuffed hands hold two fragments whose river lines almost join. Only the hands are in frame; no people.
+Film still. Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -219,7 +219,7 @@ watermarks.
 **Video**
 
 ```
-Top-down overhead macro of hand-inked Mars river maps torn into pieces on a leather desktop - winding blue-green rivers through coral terrain, settlements dotted along the banks; tweed-cuffed hands hold two fragments whose river lines almost join. Only the hands are in frame; no people. The hands slide the fragments together; the river lines almost meet, then miss by a hair, again and again. Slow overhead push-in. Camera and motion: a slow dolly-in that gathers speed, foreground parallax quickening so the subject grows faster than the background: travel, not a zoom; one thing initiates, another accommodates, the contact gives each an unequal recoil; moves ease in and ease out, quick through the middle, settling at the pose.
+Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people. The hands slide the fragments together; the helices almost meet, then miss by a hair, again and again. Slow overhead push-in. Camera and motion: a slow dolly-in that gathers speed, foreground parallax quickening so the subject grows faster than the background: travel, not a zoom; one thing initiates, another accommodates, the contact gives each an unequal recoil; moves ease in and ease out, quick through the middle, settling at the pose.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -515,7 +515,7 @@ Conventions: `FRAME-CENTRIPETAL`, `GROW-PROPAGATION-WAVE`, `SONIC-PHRASE-COLOR`
 **Still**
 
 ```
-Film still. Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, leaf-like pattern, the screen's green-gold glow spreading to the frame edges. No people. Framing: curves, gazes and paths all leading inward to one central event.
+Film still. Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, helix-like pattern, the screen's green-gold glow spreading to the frame edges. No people. Framing: curves, gazes and paths all leading inward to one central event.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -537,7 +537,7 @@ watermarks.
 **Video**
 
 ```
-Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, leaf-like pattern, the screen's green-gold glow spreading to the frame edges. No people. The rings resolve into leaves and the glow spreads until it fills the frame. Camera and motion: the change travels outward from a source, near things first, farther things later; the light changes color at the phrase boundaries, not continuously.
+Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, helix-like pattern, the screen's green-gold glow spreading to the frame edges. No people. The rings resolve into leaves and the glow spreads until it fills the frame. Camera and motion: the change travels outward from a source, near things first, farther things later; the light changes color at the phrase boundaries, not continuously.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -885,7 +885,7 @@ Conventions: `CAM-APPROACH`, `PERF-RESPONSE-CHAIN`, `ANIM-SLOW-IN-OUT`
 **Still**
 
 ```
-Film still. Top-down overhead of a white enamel specimen table: silver-gloved hands arranging odd finds - spiked seed pods, a chrome scale, torn map fragments - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people.
+Film still. Top-down overhead of a white enamel specimen table: silver-gloved hands arranging fragments of an alien specimen - translucent organic shards with helical structure inside, spiked seed pods, a chrome scale - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -907,7 +907,7 @@ watermarks.
 **Video**
 
 ```
-Top-down overhead of a white enamel specimen table: silver-gloved hands arranging odd finds - spiked seed pods, a chrome scale, torn map fragments - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people. The hands try the wrong piece in every position. Slow overhead push. Camera and motion: a slow dolly-in that gathers speed, foreground parallax quickening so the subject grows faster than the background: travel, not a zoom; one thing initiates, another accommodates, the contact gives each an unequal recoil; moves ease in and ease out, quick through the middle, settling at the pose.
+Top-down overhead of a white enamel specimen table: silver-gloved hands arranging fragments of an alien specimen - translucent organic shards with helical structure inside, spiked seed pods, a chrome scale - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people. The hands try the wrong piece in every position. Slow overhead push. Camera and motion: a slow dolly-in that gathers speed, foreground parallax quickening so the subject grows faster than the background: travel, not a zoom; one thing initiates, another accommodates, the contact gives each an unequal recoil; moves ease in and ease out, quick through the middle, settling at the pose.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -938,7 +938,7 @@ Conventions: `CAM-LOCKED`, `ANIM-MOVING-HOLD`, `FRAME-SCALE-BILLING`
 **Still**
 
 ```
-Film still. Waist-up medium of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at an enamel field table at the forest's edge, holding a strange specimen up to the light in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame. Framing: the lead largest and nearest, everything else smaller and farther.
+Film still. Waist-up medium of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at an enamel field table at the forest's edge, holding a strange translucent organic specimen up to the light, a helical structure glowing faintly inside it in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame. Framing: the lead largest and nearest, everything else smaller and farther.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -960,7 +960,7 @@ watermarks.
 **Video**
 
 ```
-Waist-up medium of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at an enamel field table at the forest's edge, holding a strange specimen up to the light in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame. She turns the specimen slowly in the light. Locked off. Camera and motion: locked off on a tripod, the frame never moves; a held pose with internal life: breath, gaze, a strand of hair, one hand; nothing else moves; the lead advances and grows on the strong syllables and eases back on the breath.
+Waist-up medium of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at an enamel field table at the forest's edge, holding a strange translucent organic specimen up to the light, a helical structure glowing faintly inside it in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame. She turns the specimen slowly in the light. Locked off. Camera and motion: locked off on a tripod, the frame never moves; a held pose with internal life: breath, gaze, a strand of hair, one hand; nothing else moves; the lead advances and grows on the strong syllables and eases back on the breath.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1468,7 +1468,7 @@ Conventions: `CAM-DESCENT`, `FRAME-PATTERN-SURRENDER`, `DEPTH-SCALE-VELOCITY`
 **Still**
 
 ```
-Film still. Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison glinting beneath the surface, arranged in concentric rings. No people. Framing: many identical performers arranged into one larger figure: a ring, a spiral, a fan.
+Film still. Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison glinting beneath the surface, arranged in concentric rings. No people. Framing: many identical performers arranged into one larger figure: a ring, a spiral, a fan.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1490,7 +1490,7 @@ watermarks.
 **Video**
 
 ```
-Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison glinting beneath the surface, arranged in concentric rings. No people. The camera cranes slowly down toward the water; the rings resolve as it nears the surface. Camera and motion: a plunge toward an aperture, foreshortening accelerating until the opening expands past the frame; the individuals lock into the pattern on the accent and break out of it after; near objects swell faster than far ones as the camera closes.
+Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison glinting beneath the surface, arranged in concentric rings. No people. The camera cranes slowly down toward the water; the rings resolve as it nears the surface. Camera and motion: a plunge toward an aperture, foreshortening accelerating until the opening expands past the frame; the individuals lock into the pattern on the accent and break out of it after; near objects swell faster than far ones as the camera closes.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1521,7 +1521,7 @@ Conventions: `CAM-BREATH`, `PERF-HYSTERETIC-PRESENCE`, `FRAME-SCALE-BILLING`
 **Still**
 
 ```
-Film still. Night. the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison has just surfaced. No one else in frame. Symmetrical framing on her and her reflection. Framing: the lead largest and nearest, everything else smaller and farther.
+Film still. Night. the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison has just surfaced. No one else in frame. Symmetrical framing on her and her reflection. Framing: the lead largest and nearest, everything else smaller and farther.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1543,7 +1543,7 @@ watermarks.
 **Video**
 
 ```
-Night. the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison has just surfaced. No one else in frame. Symmetrical framing on her and her reflection. She sings with confident, rhythmic delivery, head steady, shoulders grooving subtly; the swimmer bobs on the beat. Slow push. Camera and motion: a damped push and release with the phrase: a small forward lean on the articulation, a slower settle on the breath; she rises fast with the voice, holds across the gaps, and only slowly gives the phrase up; the lead advances and grows on the strong syllables and eases back on the breath.
+Night. the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison has just surfaced. No one else in frame. Symmetrical framing on her and her reflection. She sings with confident, rhythmic delivery, head steady, shoulders grooving subtly; the swimmer bobs on the beat. Slow push. Camera and motion: a damped push and release with the phrase: a small forward lean on the articulation, a slower settle on the breath; she rises fast with the voice, holds across the gaps, and only slowly gives the phrase up; the lead advances and grows on the strong syllables and eases back on the breath.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1574,7 +1574,7 @@ Conventions: `CAM-LOCKED`, `FRAME-PATTERN-SURRENDER`, `SONIC-MASS-FOLLOWER`
 **Still**
 
 ```
-Film still. Night. Straight-down overhead of the wide river lagoon lit like a stage: the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; the colony's fountains firing along the rocky shore; the moon's reflection dead center. Busby Berkeley water-ballet geometry. No people. Framing: many identical performers arranged into one larger figure: a ring, a spiral, a fan.
+Film still. Night. Straight-down overhead of the wide river lagoon lit like a stage: the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; the colony's fountains firing along the rocky shore; the moon's reflection dead center. Busby Berkeley water-ballet geometry. No people. Framing: many identical performers arranged into one larger figure: a ring, a spiral, a fan.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1596,7 +1596,7 @@ watermarks.
 **Video**
 
 ```
-Night. Straight-down overhead of the wide river lagoon lit like a stage: the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; the colony's fountains firing along the rocky shore; the moon's reflection dead center. Busby Berkeley water-ballet geometry. No people. The rings rotate against each other and the tails fan open and closed on the beat. Locked overhead. Camera and motion: locked off on a tripod, the frame never moves; the individuals lock into the pattern on the accent and break out of it after; the big slow things carry the weight of the music: size, glow and mass move slowly, only the fine edges are fast.
+Night. Straight-down overhead of the wide river lagoon lit like a stage: the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; the colony's fountains firing along the rocky shore; the moon's reflection dead center. Busby Berkeley water-ballet geometry. No people. The rings rotate against each other and the tails fan open and closed on the beat. Locked overhead. Camera and motion: locked off on a tripod, the frame never moves; the individuals lock into the pattern on the accent and break out of it after; the big slow things carry the weight of the music: size, glow and mass move slowly, only the fine edges are fast.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1627,7 +1627,7 @@ Conventions: `CAM-LOCKED`, `FRAME-PATTERN-SURRENDER`, `ANIM-ANTICIPATION`
 **Still**
 
 ```
-Film still. Night. Waterline shot at the center of the wide river lagoon: a ring of the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water, the colony domes dark on the far shore. Symmetrical, locked at water level. No people. Framing: many identical performers arranged into one larger figure: a ring, a spiral, a fan.
+Film still. Night. Waterline shot at the center of the wide river lagoon: a ring of the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water, the colony domes dark on the far shore. Symmetrical, locked at water level. No people. Framing: many identical performers arranged into one larger figure: a ring, a spiral, a fan.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1649,7 +1649,7 @@ watermarks.
 **Video**
 
 ```
-Night. Waterline shot at the center of the wide river lagoon: a ring of the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water, the colony domes dark on the far shore. Symmetrical, locked at water level. No people. They rise together on the downbeat, blink, and sing; the ripples spread. Locked off. Camera and motion: locked off on a tripod, the frame never moves; the individuals lock into the pattern on the accent and break out of it after; a brief lean or compression opposite the coming move.
+Night. Waterline shot at the center of the wide river lagoon: a ring of the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water, the colony domes dark on the far shore. Symmetrical, locked at water level. No people. They rise together on the downbeat, blink, and sing; the ripples spread. Locked off. Camera and motion: locked off on a tripod, the frame never moves; the individuals lock into the pattern on the accent and break out of it after; a brief lean or compression opposite the coming move.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1733,7 +1733,7 @@ Conventions: `CAM-LOCKED`, `ANIM-IMPACT-ACCENT`, `GROW-PROPAGATION-WAVE`
 **Still**
 
 ```
-Film still. Night. One-point symmetrical view across the river lagoon toward the colony: ranked fountains along the far shore firing hard, jets punching up in sequence, lit warm against the dark domes; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison surfacing in a line across the water on the beat; the water otherwise calm and open. No people.
+Film still. Night. One-point symmetrical view across the river lagoon toward the colony: ranked fountains along the far shore firing hard, jets punching up in sequence, lit warm against the dark domes; the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison surfacing in a line across the water on the beat; the water otherwise calm and open. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1755,7 +1755,7 @@ watermarks.
 **Video**
 
 ```
-Night. One-point symmetrical view across the river lagoon toward the colony: ranked fountains along the far shore firing hard, jets punching up in sequence, lit warm against the dark domes; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison surfacing in a line across the water on the beat; the water otherwise calm and open. No people. The fountains fire on the drum hits, in sequence along the shore, and the mer-folk rise and dip in time; no people appear. Locked off while the water performs. Camera and motion: locked off on a tripod, the frame never moves; one hard accent drawn as a single-frame flare, flattening or starburst on the hit; the change travels outward from a source, near things first, farther things later.
+Night. One-point symmetrical view across the river lagoon toward the colony: ranked fountains along the far shore firing hard, jets punching up in sequence, lit warm against the dark domes; the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison surfacing in a line across the water on the beat; the water otherwise calm and open. No people. The fountains fire on the drum hits, in sequence along the shore, and the mer-folk rise and dip in time; no people appear. Locked off while the water performs. Camera and motion: locked off on a tripod, the frame never moves; one hard accent drawn as a single-frame flare, flattening or starburst on the hit; the change travels outward from a source, near things first, farther things later.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1786,7 +1786,7 @@ Conventions: `CAM-PROCESSION`, `DEPTH-MOTION-PARALLAX`, `FRAME-CENTRIFUGAL`
 **Still**
 
 ```
-Film still. Underwater inside the river current: the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people. Framing: major shapes cropped by the frame edges, the action plainly continuing beyond the frame.
+Film still. Underwater inside the river current: the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people. Framing: major shapes cropped by the frame edges, the action plainly continuing beyond the frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1808,7 +1808,7 @@ watermarks.
 **Video**
 
 ```
-Underwater inside the river current: the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people. Slow lateral drift; the school never restarts, it just keeps passing, the light-ribbons bending with the music. Camera and motion: a lateral tracking shot, new elements entering at one frame edge as the last leave the other; near layers slide faster than far layers; elements keep their trajectories before entering and after leaving the frame.
+Underwater inside the river current: the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people. Slow lateral drift; the school never restarts, it just keeps passing, the light-ribbons bending with the music. Camera and motion: a lateral tracking shot, new elements entering at one frame edge as the last leave the other; near layers slide faster than far layers; elements keep their trajectories before entering and after leaving the frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1839,7 +1839,7 @@ Conventions: `CAM-DESCENT`, `FRAME-LENS-CROSSING`, `DEPTH-SCALE-VELOCITY`
 **Still**
 
 ```
-Film still. Single frame, no panels: looking straight down at the surface of the wide river lagoon from a few feet above it, moonlit spray and bubbles bursting upward, the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison visible scattering beneath the surface. No people. Framing: a large foreground object very close to the lens, partly occluding the scene.
+Film still. Single frame, no panels: looking straight down at the surface of the wide river lagoon from a few feet above it, moonlit spray and bubbles bursting upward, the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison visible scattering beneath the surface. No people. Framing: a large foreground object very close to the lens, partly occluding the scene.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1861,7 +1861,7 @@ watermarks.
 **Video**
 
 ```
-Single frame, no panels: looking straight down at the surface of the wide river lagoon from a few feet above it, moonlit spray and bubbles bursting upward, the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison visible scattering beneath the surface. No people. One smooth accelerating push straight down through the surface: spray, bubbles, then the school scattering and reforming around the camera underwater. One continuous move, no cut. Camera and motion: a plunge toward an aperture, foreshortening accelerating until the opening expands past the frame; a foreground object sweeps close past the lens, occludes, and exits an edge; near objects swell faster than far ones as the camera closes.
+Single frame, no panels: looking straight down at the surface of the wide river lagoon from a few feet above it, moonlit spray and bubbles bursting upward, the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison visible scattering beneath the surface. No people. One smooth accelerating push straight down through the surface: spray, bubbles, then the school scattering and reforming around the camera underwater. One continuous move, no cut. Camera and motion: a plunge toward an aperture, foreshortening accelerating until the opening expands past the frame; a foreground object sweeps close past the lens, occludes, and exits an edge; near objects swell faster than far ones as the camera closes.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1892,7 +1892,7 @@ Conventions: `CAM-LOCKED`, `FRAME-PATTERN-SURRENDER`, `PERF-ARC`
 **Still**
 
 ```
-Film still. Top-down planimetric view of the great slow eddy where the river enters the lagoon: the current curling into a wide spiral, the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison wheeling around together in the turning water to head back the way they came. No gates, no machinery, no people. Framing: many identical performers arranged into one larger figure: a ring, a spiral, a fan.
+Film still. Top-down planimetric view of the great slow eddy where the river enters the lagoon: the current curling into a wide spiral, the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison wheeling around together in the turning water to head back the way they came. No gates, no machinery, no people. Framing: many identical performers arranged into one larger figure: a ring, a spiral, a fan.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
@@ -1914,7 +1914,7 @@ watermarks.
 **Video**
 
 ```
-Top-down planimetric view of the great slow eddy where the river enters the lagoon: the current curling into a wide spiral, the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison wheeling around together in the turning water to head back the way they came. No gates, no machinery, no people. The eddy turns on the beat, the current visibly reverses, and the school wheels as one; no people appear. Locked overhead. Camera and motion: locked off on a tripod, the frame never moves; the individuals lock into the pattern on the accent and break out of it after; every move travels on a curved line of action with a slight overshoot and recovery.
+Top-down planimetric view of the great slow eddy where the river enters the lagoon: the current curling into a wide spiral, the river mer-folk - a school of chrome-plated swimmers polished like 1950s hood ornaments, all identical: each has a long fish tail, slender humanoid arms, and a smooth bald chrome head with exactly one large round eye set in the centre of the face with long lashes, no second eye, no nose, and a tiny round mouth open in song - moving in unison wheeling around together in the turning water to head back the way they came. No gates, no machinery, no people. The eddy turns on the beat, the current visibly reverses, and the school wheels as one; no people appear. Locked overhead. Camera and motion: locked off on a tripod, the frame never moves; the individuals lock into the pattern on the accent and break out of it after; every move travels on a curved line of action with a slight overshoot and recovery.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,

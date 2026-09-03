@@ -23,7 +23,7 @@
     },
     "astronomer_desk_sync": {
       "slate": "Astronomer sings at desk",
-      "still": "Medium frontal shot, perfectly centered: {{astronomer}} at a desk piled with hand-drawn Mars river charts, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance.",
+      "still": "Medium frontal shot, perfectly centered: {{astronomer}} at a desk laid with specimen trays, translucent organic fragments and spectrogram strips, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance.",
       "motion": "She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Locked off.",
       "conventions": [
         "CAM-LOCKED",
@@ -32,9 +32,9 @@
       ]
     },
     "canal_map_macro": {
-      "slate": "River map pieces",
-      "still": "Top-down overhead macro of hand-inked Mars river maps torn into pieces on a leather desktop - winding blue-green rivers through coral terrain, settlements dotted along the banks; tweed-cuffed hands hold two fragments whose river lines almost join. Only the hands are in frame; no people.",
-      "motion": "The hands slide the fragments together; the river lines almost meet, then miss by a hair, again and again. Slow overhead push-in.",
+      "slate": "Specimen pieces",
+      "still": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people.",
+      "motion": "The hands slide the fragments together; the helices almost meet, then miss by a hair, again and again. Slow overhead push-in.",
       "conventions": [
         "CAM-APPROACH",
         "PERF-RESPONSE-CHAIN",
@@ -93,7 +93,7 @@
     },
     "interference_bloom": {
       "slate": "Interference blooms",
-      "still": "Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, leaf-like pattern, the screen's green-gold glow spreading to the frame edges. No people.",
+      "still": "Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, helix-like pattern, the screen's green-gold glow spreading to the frame edges. No people.",
       "motion": "The rings resolve into leaves and the glow spreads until it fills the frame.",
       "conventions": [
         "FRAME-CENTRIPETAL",
@@ -143,7 +143,7 @@
     },
     "specimen_table_macro": {
       "slate": "Specimen table mandala",
-      "still": "Top-down overhead of a white enamel specimen table: silver-gloved hands arranging odd finds - spiked seed pods, a chrome scale, torn map fragments - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people.",
+      "still": "Top-down overhead of a white enamel specimen table: silver-gloved hands arranging fragments of an alien specimen - translucent organic shards with helical structure inside, spiked seed pods, a chrome scale - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people.",
       "motion": "The hands try the wrong piece in every position. Slow overhead push.",
       "conventions": [
         "CAM-APPROACH",
@@ -153,7 +153,7 @@
     },
     "astronaut_inspect_medium": {
       "slate": "Astronaut inspects specimen",
-      "still": "Waist-up medium of {{astronaut}} in {{suit}} at an enamel field table at the forest's edge, holding a strange specimen up to the light in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame.",
+      "still": "Waist-up medium of {{astronaut}} in {{suit}} at an enamel field table at the forest's edge, holding a strange translucent organic specimen up to the light, a helical structure glowing faintly inside it in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame.",
       "motion": "She turns the specimen slowly in the light. Locked off.",
       "conventions": [
         "CAM-LOCKED",
