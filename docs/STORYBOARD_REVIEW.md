@@ -29,11 +29,20 @@ The owner reviewed the full grid in Flow. Each note, and what changed in
    owner's question — switch to ChatGPT's image generator? — is answered by
    an A/B on four problem setups (twin close-up, water ballet, mer-folk,
    forest walk) before committing the rest of the pass either way.
-3. **The silver suit changes from scene to scene.** One canonical suit
-   sentence (`{{suit}}`) pasted verbatim into every astronaut prompt, plus a
-   suit turnaround board attached with the Character. Three named variants
-   exist only where the script travels: field suit (canal forest), orbital
-   suit (landing field), liner (bunk, outro).
+3. **The silver suit changes from scene to scene.** Two fixes: one
+   canonical suit sentence (`{{suit}}`) pasted verbatim into every astronaut
+   prompt with a suit turnaround board attached, and — the owner's second
+   note — the suit itself **simplified** until there is almost nothing to
+   drift: a plain smooth silver one-piece, one riveted collar ring, silver
+   gloves and boots, nothing else (the red straps, backpack, medallion and
+   belt of the reference image are gone). Variants add exactly one thing:
+   a hand lantern (canal forest), a glass helmet (landing field), or remove
+   the collar ring (bunk, outro).
+8. **The performer's body.** The owner re-cast the twins with a
+   **ballerina's build and a dancer's carriage** — slender, long-necked,
+   upright, shoulders back, chin lifted, stillness held with intention and
+   movement landing on the beat. It is in both cast lines, and both Flow
+   Characters are rebuilt to it before any v2 still.
 4. **Water numbers crowded into narrow canals, illustration-ish.** New
    location: the colony's circular **canal basin** — open water big enough
    for a Busby Berkeley number. New setups `basin_moon_descent`,

@@ -82,15 +82,22 @@ the astronaut in a third of her shots — an accessory is exactly the kind of
 token that bleeds between prompts. Glasses are gone from the film, and the
 word no longer appears in any prompt or Character bio.
 
-- **Them 2 — the astronaut-botanist on Mars** (the canonical reference
-  image): auburn curly chin-length bob with straight bangs, always worn down;
-  the surface suit below. Receiver of the signal; kneels by the canal,
-  inspects specimens, unmasks Mars.
-- **Them 1 — her twin, the astronomer on Earth**: the same auburn hair worn
-  **up** — pinned in a loose 1950s French twist with the same straight bangs
-  and a pencil pushed through it, a few curls escaping by the outro. Rumpled
-  rust-brown tweed jacket, mustard knit vest, collared check shirt. Sender of
-  the pieces.
+- **Them 2 - the astronaut-botanist on Mars** (the canonical reference
+  image, re-cast in build): a ballerina's build and a dancer's carriage -
+  slender, long-necked, upright, shoulders back, chin lifted, every stance a
+  held position; auburn curly chin-length bob with straight bangs, always
+  worn down; the silver suit below. Receiver of the signal; kneels by the
+  canal, inspects specimens, unmasks Mars.
+- **Them 1 - her twin, the astronomer on Earth**: the same face, the same
+  build and carriage, the same auburn hair worn **up** - pinned in a loose
+  1950s French twist with the same straight bangs and a pencil pushed
+  through it, a few curls escaping by the outro. Rumpled rust-brown tweed
+  jacket, mustard knit vest, collared check shirt. Sender of the pieces.
+
+The dancer's body is also the performance note made physical: the record is
+groovy, driving, stomping, and a dancer holds still with intention and moves
+on the beat with precision. Deadpan from the neck up, choreography from the
+neck down.
 
 (Working choice, one line to change: the differentiator could equally be a
 longer loose style. The rule is that *hair*, which the generator treats as
@@ -110,16 +117,21 @@ Prompt bodies name the cast with `{{astronaut}}`, `{{astronomer}}`,
 `{{merfolk}}` and the suits with `{{suit}}`, `{{suit_field}}`,
 `{{suit_orbital}}`, `{{suit_liner}}`; `tools/prompts.py` substitutes the
 lines below **verbatim** into every prompt, so a wardrobe or hair change is
-one edit here and never a paraphrase there. The suit changed from scene to
-scene in the first pass because every prompt described it a little
-differently; one canonical sentence, pasted, is the fix.
+one edit here and never a paraphrase there.
 
-- cast astronaut: the astronaut, a young woman with an auburn curly chin-length bob and straight bangs
-- cast astronomer: the astronomer, the astronaut's identical twin sister — the same face, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it — in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt
-- cast suit: her surface suit: a one-piece riveted brushed-silver spacesuit with fine ribbed quilting, a wide riveted silver collar ring and no helmet, two red webbing straps over the shoulders to a chrome backpack with a brass valve knob, a round silver chest medallion, a silver utility belt with a square buckle, ribbed silver gloves and boots
-- cast suit_field: her field suit: the same riveted silver spacesuit with the collar ring and red shoulder straps, plus a brass-buckled leather specimen satchel slung across the chest and a brass hand lantern clipped to the belt
-- cast suit_orbital: her orbital suit: the same riveted silver spacesuit with a clear domed glass helmet sealed to the collar ring by a brass clamp, and a bulkier chrome backpack with two brass tanks
-- cast suit_liner: her off-duty liner: the ribbed silver knit undersuit worn beneath the spacesuit, collar ring removed, sleeves pushed up
+The suit is deliberately **plain**. The first pass described it richly
+(quilting, red straps, backpack, medallion, belt) and every generation
+re-invented some of it; each element was a chance to drift. One collar ring,
+gloves, boots, smooth silver, nothing else - there is almost nothing left to
+get wrong, and the grade and letterbox do the rest. Variants add exactly one
+thing (a lantern, a helmet) or remove one (the collar ring).
+
+- cast astronaut: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted, with an auburn curly chin-length bob and straight bangs
+- cast astronomer: the astronomer, the astronaut's identical twin sister - the same face, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt
+- cast suit: her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned
+- cast suit_field: her silver suit, carrying a small brass hand lantern
+- cast suit_orbital: her silver suit with a clear domed glass helmet sealed to the collar ring
+- cast suit_liner: her silver suit with the collar ring removed, a plain open neckline
 - cast merfolk: the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison
 
 The suit variants are used only where the script goes somewhere: the field
@@ -131,7 +143,7 @@ the surface suit, unchanged.
 
 - Attach the astronaut Character (portrait + body) on every shot of her, plus
   the suit turnaround board (`refs/suit_turnaround.png`, front/side/back of
-  the empty suit and the three variants) once it exists.
+  the plain suit, plus the helmet and lantern variants) once it exists.
 - The mer-folk get their own design sheet (`refs/merfolk_sheet.png`: one
   swimmer front, side, and a ring of six from above) and it is attached on
   every water setup. They are always a **school** — twelve or more — never a
