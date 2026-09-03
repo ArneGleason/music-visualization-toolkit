@@ -145,7 +145,24 @@ accepts a local file, so the exact variant is used).
   say "each object keeps its shape" — Veo re-invents props that only the
   frame defines. The other four (specimen table from A, weather from B, canal
   junction from A, colony vista from A) were submitted the same way on
-  2026-09-02 evening, two takes each; verdicts below once reviewed.
+  2026-09-02 evening, two takes each (`clips/inbox/test_*.mp4`).
+- **mars_domes_wide**: take 2 is a clean slow push up the canal axis with
+  nothing invented — the keeper, and proof the vista category is easy.
+  Take 1 added two large silver-suited witnesses in the foreground that the
+  still never had — Veo's own "uninvited witness" habit; say "no people"
+  in the motion sentence too.
+- **weather_over_colony**: both takes turned the luminous filaments into
+  lightning bolts and grew the two tiny figures into foreground astronauts.
+  Reject. The phrase "glowing threads" reads as lightning to Veo; rewrite
+  as "slow silk-like streamers of pastel light, no lightning, no flashes",
+  and drop the figures from this setup.
+- **canal_junction_turn**: both takes animate the brass gates and churn the
+  current with the swimmers wheeling; mechanism reads. The swimmers are the
+  v1 silver-suited humans from the old still — redo from a mer-folk still
+  before it counts.
+- Lessons so far: Veo respects the frame but invents people and reads
+  "glowing" as electrical. Every environment motion sentence now ends with
+  "no people" and names what must not appear.
 
 ## Systematic findings from the first pass (feed the regen pass)
 
