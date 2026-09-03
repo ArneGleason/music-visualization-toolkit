@@ -40,3 +40,6 @@ projects/*/project.local.json
 
 # Keep directory placeholders
 !**/.gitkeep
+
+# derived cue files for the Blender composite
+generated/
