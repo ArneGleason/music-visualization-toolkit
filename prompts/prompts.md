@@ -15,10 +15,10 @@
 **Reference images** (attach the matching ones every time):
 
 - `character_master` — refs/character_master.png
-- `astronaut_front` — refs/astronaut_front.png
+- `astronaut_front` — refs/astronaut_front.jpg
 - `astronaut_close` — refs/astronaut_close.png
 - `astronaut_move` — refs/astronaut_move.png
-- `astronomer_front` — refs/astronomer_front.png
+- `astronomer_front` — refs/astronomer_front.jpg
 - `astronomer_close` — refs/astronomer_close.png
 - `suit_turnaround` — refs/suit_turnaround.png
 - `merfolk_sheet` — refs/merfolk_sheet.png

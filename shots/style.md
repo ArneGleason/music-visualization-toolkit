@@ -155,10 +155,10 @@ the surface suit, unchanged.
   register them below.
 
 - ref character_master: refs/character_master.png
-- ref astronaut_front: refs/astronaut_front.png
+- ref astronaut_front: refs/astronaut_front.jpg
 - ref astronaut_close: refs/astronaut_close.png
 - ref astronaut_move: refs/astronaut_move.png
-- ref astronomer_front: refs/astronomer_front.png
+- ref astronomer_front: refs/astronomer_front.jpg
 - ref astronomer_close: refs/astronomer_close.png
 - ref suit_turnaround: refs/suit_turnaround.png
 - ref merfolk_sheet: refs/merfolk_sheet.png
