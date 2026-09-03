@@ -90,7 +90,23 @@ The owner reviewed the full grid in Flow. Each note, and what changed in
     a music video. It moves up the order: build the overlay renderer and
     judge it on the animatic before volume generation.
 
-Net: 50 cuts, 39 setups (was 47 / 37). The plan is now authored at the setup
+12. **Shot language.** Every setup now carries two or three IDs from the
+    cinematographic metaphor catalog (`conventions` in `setups.json`);
+    `shots/conventions.json` phrases each ID for a photographed film and
+    the prompts append them (framing on the still, camera-and-motion on the
+    video). Direction notes can now name the device instead of describing
+    it.
+13. **Fauna in the garden.** Four practical-creature setups cut in among the
+    flora (lantern-moth, phonograph snail, chrome hummingbird-things,
+    lantern-eyes in the leaves); no consistency needed, a different creature
+    per cut. The mer-folk are the one creature that must stay consistent:
+    next browser task is to make them a Flow Character from the design
+    still so they can be attached like the twins.
+14. **Velocity by cut density.** The garden and the chorus now cut every bar
+    (2.8 s) instead of every two; adjacent identical setups are a single
+    continuous clip across two cuts. 59 cuts, 41 setups.
+
+Net (v2.2): 59 cuts, 41 setups (was 47 / 37). The plan is now authored at the setup
 level in `shots/setups.json` (`still` = the frame, `motion` = the video
 sentence) and applied with `tools/shotplan.py --setups shots/setups.json`.
 

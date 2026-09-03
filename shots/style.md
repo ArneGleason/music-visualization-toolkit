@@ -62,7 +62,11 @@ receivers). Four places the film keeps returning to:
   **here, in open water**, never crowded into a narrow channel. (Setup names
   still say `basin`; they mean this lagoon.)
 - **The river forest** — Lowell's dark vegetation belt along the rivers,
-  taken as a lush alien forest: fern-fans the size of sails, giant cupped
+  taken as a lush alien forest, and its **fauna**: hand-built practical
+  creatures cut in among the flora - a lantern-moth, a phonograph snail,
+  chrome hummingbird-things, lantern-eyes in the leaves. Unlike the twins
+  and the mer-folk these need no consistency: a different creature every
+  cut is the point. Lush alien forest: fern-fans the size of sails, giant cupped
   leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, moss and
   mist; the canopy closes overhead and the light turns green and magenta. A
   small green light travels through it and she follows it. (This replaces
@@ -183,6 +187,20 @@ the surface suit, unchanged.
 - ref world_basin: refs/world_basin.png
 - ref world_forest: refs/world_forest.png
 - ref world_orbit: refs/world_orbit.png
+
+## The shot language
+
+Every setup names two or three IDs from
+`docs/CINEMATOGRAPHIC_METAPHOR_CATALOG.md` (`conventions` in
+`shots/setups.json`): one spatial device, one performance device, one
+material device. `shots/conventions.json` says each ID in camera-department
+language for a photographed film, and `tools/prompts.py` appends the framing
+phrases to the still prompt and the camera-and-motion phrases to the video
+prompt. That is how the register's vocabulary reaches the generators, and how
+a note like "more CAM-APPROACH here" becomes an addressable edit.
+
+Cut density is a velocity control: the garden and the chorus cut every bar;
+adjacent identical setups are one continuous clip across two cuts.
 
 ## Still-generation guards
 

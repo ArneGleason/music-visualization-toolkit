@@ -70,6 +70,21 @@ def main():
     sl = load(ROOT / "shots" / "shotlist.json")
     lock, refs, cast = read_style(ROOT / "shots" / "style.md")
     missing: set = set()
+    conv_path = ROOT / "shots" / "conventions.json"
+    conventions = {k: v for k, v in load(conv_path).items() if not k.startswith("_")} if conv_path.exists() else {}
+    unknown_conv: set = set()
+
+    def conv_clause(ids, mode):
+        """One sentence of camera-department language for the setup's convention IDs."""
+        phrases = []
+        for cid in ids or []:
+            c = conventions.get(cid)
+            if c is None:
+                unknown_conv.add(cid)
+                continue
+            if c.get(mode):
+                phrases.append(c[mode])
+        return ("Camera and motion: " if mode == "video" else "Framing: ") + "; ".join(phrases) + "." if phrases else ""
 
     groups = collections.OrderedDict()
     for s in sl["shots"]:
@@ -113,10 +128,14 @@ def main():
         out.append(f"Sections: {', '.join(secs)} · **generate ≥ {longest:.1f}s**")
         if lyric:
             out.append(f"Lyric: *{lyric}*")
+        ids = next((s["conventions"] for s in shots if s.get("conventions")), [])
+        if ids:
+            out.append("Conventions: " + ", ".join(f"`{i}`" for i in ids))
         out.append("")
         if still:
-            out += block("Still", "Film still. " + expand(still, cast, missing))
-        out += block("Video", expand(body, cast, missing))
+            out += block("Still", " ".join(t for t in ("Film still. " + expand(still, cast, missing),
+                                                     conv_clause(ids, "still")) if t))
+        out += block("Video", " ".join(t for t in (expand(body, cast, missing), conv_clause(ids, "video")) if t))
 
     a.out.parent.mkdir(parents=True, exist_ok=True)
     a.out.write_text("\n".join(out), encoding="utf-8")
@@ -126,6 +145,8 @@ def main():
           + (f", {todo} still TODO" if todo else ""))
     if missing:
         print(f"  !! placeholders with no cast line in style.md: {', '.join(sorted(missing))}")
+    if unknown_conv:
+        print(f"  !! convention ids with no entry in shots/conventions.json: {', '.join(sorted(unknown_conv))}")
 
 
 if __name__ == "__main__":

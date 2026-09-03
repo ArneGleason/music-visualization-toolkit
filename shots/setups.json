@@ -4,197 +4,432 @@
     "obs_dome_open": {
       "slate": "Observatory dome opens",
       "still": "Night. Symmetrical frontal wide of a hillside observatory: the dome slit stands open and a blade of warm gold light escapes it; one bright red point - Mars - sits dead center above the dome. No people.",
-      "motion": "The slit rumbles wider as the camera pushes slowly toward it until the glow fills the frame."
+      "motion": "The slit rumbles wider as the camera pushes slowly toward it until the glow fills the frame.",
+      "conventions": [
+        "CAM-APPROACH",
+        "FRAME-CENTRIPETAL",
+        "ANIM-SLOW-IN-OUT"
+      ]
     },
     "obs_console_macro": {
       "slate": "Console and oscilloscope",
       "still": "Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, glowing valves, and a round oscilloscope tube drawing a warm gold waveform, centered.",
-      "motion": "The waveform pulses like a voice; slow lateral drift ending centered on the scope screen."
+      "motion": "The waveform pulses like a voice; slow lateral drift ending centered on the scope screen.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "FRAME-CENTRIFUGAL",
+        "SONIC-MASS-FOLLOWER"
+      ]
     },
     "astronomer_desk_sync": {
       "slate": "Astronomer sings at desk",
       "still": "Medium frontal shot, perfectly centered: {{astronomer}} at a desk piled with hand-drawn Mars river charts, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance.",
-      "motion": "She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Locked off."
+      "motion": "She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-HYSTERETIC-PRESENCE",
+        "FRAME-SCALE-BILLING"
+      ]
     },
     "canal_map_macro": {
       "slate": "River map pieces",
       "still": "Top-down overhead macro of hand-inked Mars river maps torn into pieces on a leather desktop - winding blue-green rivers through coral terrain, settlements dotted along the banks; tweed-cuffed hands hold two fragments whose river lines almost join.",
-      "motion": "The hands slide the fragments together; the river lines almost meet, then miss by a hair, again and again. Slow overhead push-in."
+      "motion": "The hands slide the fragments together; the river lines almost meet, then miss by a hair, again and again. Slow overhead push-in.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-RESPONSE-CHAIN",
+        "ANIM-SLOW-IN-OUT"
+      ]
     },
     "astronomer_close_sync": {
       "slate": "Astronomer close-up",
       "still": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope.",
-      "motion": "She sings with confident punch, words clearly articulated, head steady. Locked off."
+      "motion": "She sings with confident punch, words clearly articulated, head steady. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-EXAGGERATED-ENUNCIATION",
+        "ANIM-MOVING-HOLD"
+      ]
     },
     "signal_crossing_space": {
       "slate": "Signal crosses space",
       "still": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people.",
-      "motion": "The pulse travels across frame and arrives over the limb of the planet. Slow lateral drift following the light."
+      "motion": "The pulse travels across frame and arrives over the limb of the planet. Slow lateral drift following the light.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "DEPTH-RELATIVE-SCALE",
+        "FRAME-CENTRIFUGAL"
+      ]
     },
     "receiver_dial_macro": {
       "slate": "Receiver dials tremble",
       "still": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials.",
-      "motion": "The needle trembles and the static flickers. Locked off with the slightest push."
+      "motion": "The needle trembles and the static flickers. Locked off with the slightest push.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
     },
     "astronaut_close_sync": {
       "slate": "Astronaut close-up",
       "still": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance.",
-      "motion": "She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off."
+      "motion": "She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-HYSTERETIC-PRESENCE",
+        "PERF-EXAGGERATED-ENUNCIATION"
+      ]
     },
     "mars_night_wide": {
       "slate": "Waiting on Mars, wide",
       "still": "Night. Symmetrical wide: {{astronaut}} in {{suit}} stands small at dead center beside a glowing receiver mast, coral terrain silvered by two small moons and the striped planet, the colony domes dark on the horizon and the river a dark ribbon below. No one else in frame.",
-      "motion": "Nothing moves but her breath and the mast's slow blink. Very slow push toward her."
+      "motion": "Nothing moves but her breath and the mast's slow blink. Very slow push toward her.",
+      "conventions": [
+        "CAM-APPROACH",
+        "FRAME-NEGATIVE-WAKE",
+        "ANIM-MOVING-HOLD"
+      ]
     },
     "interference_bloom": {
       "slate": "Interference blooms",
       "still": "Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, leaf-like pattern, the screen's green-gold glow spreading to the frame edges.",
-      "motion": "The rings resolve into leaves and the glow spreads until it fills the frame."
+      "motion": "The rings resolve into leaves and the glow spreads until it fills the frame.",
+      "conventions": [
+        "FRAME-CENTRIPETAL",
+        "GROW-PROPAGATION-WAVE",
+        "SONIC-PHRASE-COLOR"
+      ]
     },
     "forest_threshold": {
       "slate": "Garden hatch opens",
       "still": "One-point symmetrical corridor: a riveted brass garden hatch centered at the end of a metal walkway, standing open onto the river forest - giant fern-fans, cupped leaves, pink thistle-globes - with green and magenta light spilling toward camera. No people.",
-      "motion": "Slow push through the hatch into the glow."
+      "motion": "Slow push through the hatch into the glow.",
+      "conventions": [
+        "CAM-APPROACH",
+        "FRAME-CENTRIPETAL",
+        "DEPTH-SCALE-VELOCITY"
+      ]
     },
     "forest_walk_track": {
       "slate": "Forest walk, following the green light",
       "still": "Side-on planimetric view: {{astronaut}} in {{suit_field}} walks left to right along a mossy path through the river forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan. No one else in frame.",
-      "motion": "She follows the green light; slow 90-degree lateral track keeping her centered as the foliage layers slide past in deep parallax."
+      "motion": "She follows the green light; slow 90-degree lateral track keeping her centered as the foliage layers slide past in deep parallax.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "ANIM-MULTIPLANE",
+        "DEPTH-MOTION-PARALLAX"
+      ]
     },
     "flora_detail_macro": {
       "slate": "Thistle-globe macro",
       "still": "Macro on a single pink thistle-globe in the river forest, tendrils half-uncurled, dew catching green-gold light, the small green light a soft blur behind it; shallow focus.",
-      "motion": "The tendrils slowly uncurl and the green light drifts past behind. Slight lateral drift."
+      "motion": "The tendrils slowly uncurl and the green light drifts past behind. Slight lateral drift.",
+      "conventions": [
+        "FRAME-SCALE-BILLING",
+        "ANIM-MOVING-HOLD",
+        "ANIM-FOLLOW-THROUGH"
+      ]
     },
     "forest_awakening_frontal": {
       "slate": "Forest wakes to drums",
       "still": "Frontal symmetrical wide: {{astronaut}} in {{suit_field}} stands dead center on the forest path, small under the canopy, as the whole forest lights up around her - cupped leaves snapping open, thistle-globes glowing pink row by row, seed-lanterns lit, spore puffs rising - a blazing symmetrical mandala of foliage. She holds still and deadpan. No one else in frame.",
-      "motion": "The forest wakes in waves on the drum hits, row by row from the edges to the center. Locked off."
+      "motion": "The forest wakes in waves on the drum hits, row by row from the edges to the center. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "GROW-PROPAGATION-WAVE",
+        "GROW-ENVIRONMENT-ANSWER"
+      ]
     },
     "specimen_table_macro": {
       "slate": "Specimen table mandala",
       "still": "Top-down overhead of a white enamel specimen table: silver-gloved hands arranging odd finds - spiked seed pods, a chrome scale, torn map fragments - into a circular diagram that almost completes a pattern, one piece sitting wrong.",
-      "motion": "The hands try the wrong piece in every position. Slow overhead push."
+      "motion": "The hands try the wrong piece in every position. Slow overhead push.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-RESPONSE-CHAIN",
+        "ANIM-SLOW-IN-OUT"
+      ]
     },
     "astronaut_inspect_medium": {
       "slate": "Astronaut inspects specimen",
       "still": "Waist-up medium of {{astronaut}} in {{suit}} at an enamel field table at the forest's edge, holding a strange specimen up to the light in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame.",
-      "motion": "She turns the specimen slowly in the light. Locked off."
+      "motion": "She turns the specimen slowly in the light. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "FRAME-SCALE-BILLING"
+      ]
     },
     "mars_domes_wide": {
       "slate": "Colony vista reveal",
       "still": "Grand symmetrical vista: the cream-and-turquoise domed colony with needle towers under a mint-green sky, a winding river of blue-green water snaking up the center of frame through coral terrain to the wide mirror-calm lagoon at its foot, striped planet above. Miniature-set depth. No people.",
-      "motion": "Very slow push along the river toward the colony; the water shimmers gently, nothing else moves; every dome and tower keeps its shape; no people appear."
+      "motion": "Very slow push along the river toward the colony; the water shimmers gently, nothing else moves; every dome and tower keeps its shape; no people appear.",
+      "conventions": [
+        "CAM-APPROACH",
+        "ANIM-MULTIPLANE",
+        "DEPTH-RELATIVE-SCALE"
+      ]
     },
     "astronaut_mars_medium": {
       "slate": "Astronaut above colony",
       "still": "Medium shot: {{astronaut}} in {{suit}} centered on a coral ridge above the domed colony and its river lagoon, vista soft behind her, facing camera, wind in her hair. No one else in frame.",
-      "motion": "She turns from the view to face camera; slow lateral track that settles frontal and locked."
+      "motion": "She turns from the view to face camera; slow lateral track that settles frontal and locked.",
+      "conventions": [
+        "CAM-SUSTAINED-REFRAME",
+        "PERF-ARC",
+        "ANIM-FOLLOW-THROUGH"
+      ]
     },
     "counterfeit_parade": {
       "slate": "Parade of fakes",
       "still": "Deadpan planimetric side-on view: a procession of too-perfect objects - polished miniature domes, smiling masks, trophy-bright Mars globes - lined up left to right across frame on a hidden conveyor; {{astronaut}} in {{suit}} stands centered behind it, unimpressed. No one else in frame.",
-      "motion": "The procession glides left to right. Locked off."
+      "motion": "The procession glides left to right. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "CAM-PROCESSION",
+        "FRAME-CENTRIFUGAL"
+      ]
     },
     "excavation_site": {
       "slate": "Digging the real thing",
       "still": "Low frontal shot: {{astronaut}} in {{suit}} kneels in coral soil, lifting a clumsy, handmade, unpolished object out of the ground with silver gloves - clearly loved; dust motes in warm light. No one else in frame.",
-      "motion": "She digs and lifts it free. Slight slow push toward her hands."
+      "motion": "She digs and lifts it free. Slight slow push toward her hands.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-ANTICIPATION",
+        "ANIM-FOLLOW-THROUGH"
+      ]
     },
     "weather_over_colony": {
       "slate": "Filament weather",
       "still": "Wide sky over the domes and the river lagoon: strange luminous filament weather - slow silk-like streamers of pastel light peeling off cloud fronts and drifting apart, no lightning, no flashes. No people.",
-      "motion": "The pastel streamers peel slowly off the cloud fronts and drift apart across the sky while the clouds creep; the domes and the water stay still; no lightning, no flashes, no people appear. Slow upward drift."
+      "motion": "The pastel streamers peel slowly off the cloud fronts and drift apart across the sky while the clouds creep; the domes and the water stay still; no lightning, no flashes, no people appear. Slow upward drift.",
+      "conventions": [
+        "CAM-ASCENT",
+        "FRAME-CENTRIFUGAL",
+        "SONIC-MASS-FOLLOWER"
+      ]
     },
     "duet_call_response_sync": {
       "slate": "Split duet call/response",
       "still": "Symmetrical split staging divided by a thin centered seam of static: {{astronomer}} in her warm-gold study at frame left, {{astronaut}} in {{suit}} in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase. No one else in frame.",
-      "motion": "They trade lines like a confident call-and-response, clearly articulated, heads steady, each landing her phrase on the beat. Locked off."
+      "motion": "They trade lines like a confident call-and-response, clearly articulated, heads steady, each landing her phrase on the beat. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "CAM-ATTENTION-HANDOFF",
+        "PERF-HYSTERETIC-PRESENCE"
+      ]
     },
     "orbit_rockets_descent": {
       "slate": "Rockets descend from orbit",
       "still": "From orbit: the coral globe of Mars fills the lower frame, threaded with winding blue-green rivers and dark oases, its terminator curving away; three finned chrome retro rockets descend toward it in slow formation, tail-first, retro-flames flickering; the striped gas planet and small moons beyond. No people.",
-      "motion": "The formation sinks toward the planet, flames pulsing. Locked off in space, symmetrical."
+      "motion": "The formation sinks toward the planet, flames pulsing. Locked off in space, symmetrical.",
+      "conventions": [
+        "CAM-LOCKED",
+        "DEPTH-RELATIVE-SCALE",
+        "ANIM-SLOW-IN-OUT"
+      ]
     },
     "rockets_landing_wide": {
       "slate": "Rockets land",
       "still": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame.",
-      "motion": "The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off."
+      "motion": "The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-IMPACT-ACCENT",
+        "FRAME-SCALE-BILLING"
+      ]
     },
     "rain_to_canal": {
       "slate": "Rain becomes river",
       "still": "Rain over red terrain: falling water gathering into bright rivulets that join and wind together into a young river snaking toward the horizon between coral banks. No people.",
-      "motion": "Slow tilt and track following the water downhill as it winds, ending level on the moving current."
+      "motion": "Slow tilt and track following the water downhill as it winds, ending level on the moving current.",
+      "conventions": [
+        "CAM-SUSTAINED-REFRAME",
+        "GROW-PROPAGATION-WAVE",
+        "EDIT-GRAPHIC-MATCH"
+      ]
     },
     "basin_moon_descent": {
       "slate": "Descent to the lagoon",
       "still": "Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; {{merfolk}} glinting beneath the surface, arranged in concentric rings.",
-      "motion": "The camera cranes slowly down toward the water; the rings resolve as it nears the surface."
+      "motion": "The camera cranes slowly down toward the water; the rings resolve as it nears the surface.",
+      "conventions": [
+        "CAM-DESCENT",
+        "FRAME-PATTERN-SURRENDER",
+        "DEPTH-SCALE-VELOCITY"
+      ]
     },
     "basin_edge_sync": {
       "slate": "Astronaut at the lagoon shore",
       "still": "Night. {{astronaut}} in {{suit}} kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of {{merfolk}} has just surfaced. No one else in frame. Symmetrical framing on her and her reflection.",
-      "motion": "She sings with confident, rhythmic delivery, head steady, shoulders grooving subtly; the swimmer bobs on the beat. Slow push."
+      "motion": "She sings with confident, rhythmic delivery, head steady, shoulders grooving subtly; the swimmer bobs on the beat. Slow push.",
+      "conventions": [
+        "CAM-BREATH",
+        "PERF-HYSTERETIC-PRESENCE",
+        "FRAME-SCALE-BILLING"
+      ]
     },
     "basin_kaleidoscope_top": {
       "slate": "Water ballet from above",
       "still": "Night. Straight-down overhead of the wide river lagoon lit like a stage: {{merfolk}} arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; the colony's fountains firing along the rocky shore; the moon's reflection dead center. Busby Berkeley water-ballet geometry. No people.",
-      "motion": "The rings rotate against each other and the tails fan open and closed on the beat. Locked overhead."
+      "motion": "The rings rotate against each other and the tails fan open and closed on the beat. Locked overhead.",
+      "conventions": [
+        "CAM-LOCKED",
+        "FRAME-PATTERN-SURRENDER",
+        "SONIC-MASS-FOLLOWER"
+      ]
     },
     "merfolk_surface_ring": {
       "slate": "Tiny mouths agape",
       "still": "Night. Waterline shot at the center of the wide river lagoon: a ring of {{merfolk}} surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water, the colony domes dark on the far shore. Symmetrical, locked at water level. No people.",
-      "motion": "They rise together on the downbeat, blink, and sing; the ripples spread. Locked off."
+      "motion": "They rise together on the downbeat, blink, and sing; the ripples spread. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "FRAME-PATTERN-SURRENDER",
+        "ANIM-ANTICIPATION"
+      ]
     },
     "chorus_close_sync": {
       "slate": "Chorus hero close-up",
       "still": "Night. Frontal hero close-up of {{astronaut}} in {{suit}} at the lagoon shore, moonlit, ripples of reflected water-light across her face, eyes locked on the lens, mouth open mid-belt, confident and punchy.",
-      "motion": "She belts the chorus hook straight to camera - words clearly articulated, head steady, shoulders moving subtly with the groove; the water-light pulses on the beat. Locked off."
+      "motion": "She belts the chorus hook straight to camera - words clearly articulated, head steady, shoulders moving subtly with the groove; the water-light pulses on the beat. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-EXAGGERATED-ENUNCIATION",
+        "PERF-HYSTERETIC-PRESENCE"
+      ]
     },
     "drumwall_basin": {
       "slate": "Fountains on the beat",
       "still": "Night. One-point symmetrical view across the river lagoon toward the colony: ranked fountains along the far shore firing hard, jets punching up in sequence, lit warm against the dark domes; {{merfolk}} surfacing in a line across the water on the beat; the water otherwise calm and open. No people.",
-      "motion": "The fountains fire on the drum hits, in sequence along the shore, and the mer-folk rise and dip in time; no people appear. Locked off while the water performs."
+      "motion": "The fountains fire on the drum hits, in sequence along the shore, and the mer-folk rise and dip in time; no people appear. Locked off while the water performs.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-IMPACT-ACCENT",
+        "GROW-PROPAGATION-WAVE"
+      ]
     },
     "chorus_plunge": {
       "slate": "Plunge into the basin",
       "still": "Single frame, no panels: looking straight down at the surface of the wide river lagoon from a few feet above it, moonlit spray and bubbles bursting upward, {{merfolk}} visible scattering beneath the surface. No people.",
-      "motion": "One smooth accelerating push straight down through the surface: spray, bubbles, then the school scattering and reforming around the camera underwater. One continuous move, no cut."
+      "motion": "One smooth accelerating push straight down through the surface: spray, bubbles, then the school scattering and reforming around the camera underwater. One continuous move, no cut.",
+      "conventions": [
+        "CAM-DESCENT",
+        "FRAME-LENS-CROSSING",
+        "DEPTH-SCALE-VELOCITY"
+      ]
     },
     "canal_junction_turn": {
       "slate": "The current turns in the eddy",
       "still": "Top-down planimetric view of the great slow eddy where the river enters the lagoon: the current curling into a wide spiral, {{merfolk}} wheeling around together in the turning water to head back the way they came. No gates, no machinery, no people.",
-      "motion": "The eddy turns on the beat, the current visibly reverses, and the school wheels as one; no people appear. Locked overhead."
+      "motion": "The eddy turns on the beat, the current visibly reverses, and the school wheels as one; no people appear. Locked overhead.",
+      "conventions": [
+        "CAM-LOCKED",
+        "FRAME-PATTERN-SURRENDER",
+        "PERF-ARC"
+      ]
     },
     "canal_current_macro": {
       "slate": "Inside the current",
       "still": "Underwater inside the river current: {{merfolk}} passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people.",
-      "motion": "Slow lateral drift; the school never restarts, it just keeps passing, the light-ribbons bending with the music."
+      "motion": "Slow lateral drift; the school never restarts, it just keeps passing, the light-ribbons bending with the music.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "DEPTH-MOTION-PARALLAX",
+        "FRAME-CENTRIFUGAL"
+      ]
     },
     "duet_lamplight_astronomer_sync": {
       "slate": "Astronomer lamplight outro",
       "still": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered.",
-      "motion": "She sings the quiet lines to camera with barely moving lips. Locked off."
+      "motion": "She sings the quiet lines to camera with barely moving lips. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
     },
     "duet_lamplight_astronaut_sync": {
       "slate": "Astronaut lamplight outro",
       "still": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered.",
-      "motion": "She sings softly to camera with minimal motion. Locked off."
+      "motion": "She sings softly to camera with minimal motion. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
     },
     "telescope_time_tunnel": {
       "slate": "Telescope time tunnel",
       "still": "Looking down the interior of the great telescope tube: concentric brass rings receding to a far point of starlight, perfectly centered. No people.",
-      "motion": "The starlight pulses gently with the rhythm; slow steady push into the rings."
+      "motion": "The starlight pulses gently with the rhythm; slow steady push into the rings.",
+      "conventions": [
+        "CAM-APPROACH",
+        "FRAME-CHROMATIC-TUNNEL",
+        "SONIC-MASS-FOLLOWER"
+      ]
     },
     "colony_goodnight_cascade": {
       "slate": "Colony goodnight",
       "still": "Night. Wide shot of the colony from across the river lagoon: most dome windows and tower lights already dark, a last few still lit down the valley, the water holding a single moon reflection. No people.",
-      "motion": "The remaining lights switch off in cascading order, one per beat, until only the moon's reflection is left. Locked off."
+      "motion": "The remaining lights switch off in cascading order, one per beat, until only the moon's reflection is left. Locked off.",
+      "conventions": [
+        "CAM-LOCKED",
+        "GROW-PROPAGATION-WAVE",
+        "FRAME-NEGATIVE-WAKE"
+      ]
     },
     "night_iris_title": {
       "slate": "Night iris out",
       "still": "Night. The final wide frame of the colony darkening at its edges, a circular iris closing in on the moon's reflection in the lagoon. No people.",
-      "motion": "The iris closes until only that small light remains, then black. (Title is added in post, never generated.)"
+      "motion": "The iris closes until only that small light remains, then black. (Title is added in post, never generated.)",
+      "conventions": [
+        "CAM-LOCKED",
+        "FRAME-CENTRIPETAL",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    "forest_fauna_moth": {
+      "slate": "Lantern-moth on a thistle-globe",
+      "still": "Macro in the river forest: a moth the size of a dinner plate resting on a pink thistle-globe, its four glassy wings lit from within like paper lanterns, antennae like brass filigree, fine fur on its body; foliage soft behind. Hand-built practical creature. No people.",
+      "motion": "The wings open and close once, slowly, their inner light pulsing on the beat; antennae quiver. Locked off.",
+      "conventions": [
+        "FRAME-SCALE-BILLING",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    "forest_fauna_snail": {
+      "slate": "Phonograph snail",
+      "still": "Low macro at the mossy path's edge in the river forest: a river snail the size of a cat, its spiral shell a polished brass phonograph horn, its body translucent jade, eye-stalks tipped with tiny lenses, crossing between giant fern stems. Hand-built practical creature. No people.",
+      "motion": "It glides a few inches on the beat, the horn tilting toward the lens as if listening; the eye-stalks turn separately. Locked off.",
+      "conventions": [
+        "FRAME-LENS-CROSSING",
+        "PERF-OVERLAP",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    "forest_fauna_birds": {
+      "slate": "Chrome hummingbird-things at the seed-lanterns",
+      "still": "Medium in the river forest canopy: a small flock of chrome hummingbird-things, each no bigger than a thumb with a needle beak and a fan of glass tail feathers, hovering at a cluster of hanging seed-lanterns, layered in depth. Hand-built practical creatures. No people.",
+      "motion": "They dart from lantern to lantern on the drum hits, each on its own arc, never in unison, near ones crossing the lens. Locked off.",
+      "conventions": [
+        "FRAME-PERIPHERAL-COUNTERPOINT",
+        "ANIM-CYCLE-VARIATION",
+        "DEPTH-MOTION-PARALLAX"
+      ]
+    },
+    "forest_fauna_eyes": {
+      "slate": "Eyes in the foliage",
+      "still": "Night-dark corner of the river forest: several pairs of large round lantern-eyes at different depths and sizes among the giant leaves, each pair a different color, the creatures themselves only suggested by silhouette; the small green light passing between them. No people.",
+      "motion": "The eyes blink at different times, one pair per beat, and turn to follow the green light as it passes. Locked off.",
+      "conventions": [
+        "FRAME-NEGATIVE-WAKE",
+        "DEPTH-RELATIVE-SCALE",
+        "ANIM-CYCLE-VARIATION"
+      ]
     }
   }
 }

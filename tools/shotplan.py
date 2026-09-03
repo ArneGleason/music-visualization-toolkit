@@ -155,6 +155,8 @@ def main():
                 shot["still"] = entry.get("still", "").strip()
                 shot["prompt"] = " ".join(t for t in (entry.get("still", ""), entry.get("motion", ""))
                                           if t and t.strip()).strip()
+                if entry.get("conventions"):
+                    shot["conventions"] = list(entry["conventions"])
             shots.append(shot)
 
     save(out_path, {"fps": fps, "duration_sec": bm.duration,

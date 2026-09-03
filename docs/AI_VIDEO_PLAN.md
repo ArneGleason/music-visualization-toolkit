@@ -83,6 +83,11 @@ Since the owner's second review (2026-09-02): every waterway is a winding
 natural **river** (the basin is the river's lagoon, no gates), and the
 only figures in the film are the two twins and the chrome mer-folk.
 
+Each setup also names its cinematographic conventions (catalog IDs);
+`shots/conventions.json` phrases them for a photographed film and the
+prompt tool appends them, so the register's shot language reaches the
+generators.
+
 Setup bodies are authored once, at the setup level, in `shots/setups.json`
 (`still` = the frame without motion words, `motion` = the video sentence) and
 applied with `tools/shotplan.py --setups shots/setups.json`. The v2 revision
