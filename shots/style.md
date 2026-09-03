@@ -85,7 +85,8 @@ word no longer appears in any prompt or Character bio.
 - **Them 2 - the astronaut-botanist on Mars** (the canonical reference
   image, re-cast in build): a ballerina's build and a dancer's carriage -
   slender, long-necked, upright, shoulders back, chin lifted, every stance a
-  held position; auburn curly chin-length bob with straight bangs, always
+  held position; a small, delicate, slightly upturned pixie nose (not a
+  flat pug nose); auburn curly chin-length bob with straight bangs, always
   worn down; the silver suit below. Receiver of the signal; kneels by the
   canal, inspects specimens, unmasks Mars.
 - **Them 1 - her twin, the astronomer on Earth**: the same face, the same
@@ -127,8 +128,8 @@ gloves, boots, smooth silver, nothing else - there is almost nothing left to
 get wrong, and the grade and letterbox do the rest. Variants add exactly one
 thing (a lantern, a helmet) or remove one (the collar ring).
 
-- cast astronaut: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted, with an auburn curly chin-length bob and straight bangs
-- cast astronomer: the astronomer, the astronaut's identical twin sister - the same face, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt
+- cast astronaut: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted, a small delicate slightly upturned pixie nose, with an auburn curly chin-length bob and straight bangs
+- cast astronomer: the astronomer, the astronaut's identical twin sister - the same face, the same ballerina's build and dancer's carriage, the same small pixie nose, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt
 - cast suit: her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned
 - cast suit_field: her silver suit, carrying a small brass hand lantern
 - cast suit_orbital: her silver suit with a clear domed glass helmet sealed to the collar ring
