@@ -31,7 +31,7 @@ out of Git). After saving, add any new `- ref name: path` lines to
 1. `refs/astronaut_front.png` — Full-body studio portrait, standing, front-on
    and centered in a dancer's first position, arms relaxed: the same young
    woman as the reference but with a ballerina's build and carriage — slender,
-   long-necked, upright, chin lifted, a small straight softly rounded nose — auburn curly bob with straight bangs,
+   long-necked, upright, chin lifted, a heart-shaped face, high cheekbones, large wide-set hazel-green eyes, a small straight nose, a full mouth, light freckles — auburn curly bob with straight bangs,
    in the plain silver suit (smooth close-fitting one-piece, single wide
    riveted collar ring, silver gloves and boots, nothing else). Plain
    coral-red seamless backdrop, soft even light.

@@ -85,8 +85,11 @@ word no longer appears in any prompt or Character bio.
 - **Them 2 - the astronaut-botanist on Mars** (the canonical reference
   image, re-cast in build): a ballerina's build and a dancer's carriage -
   slender, long-necked, upright, shoulders back, chin lifted, every stance a
-  held position; a small, straight nose with a softly rounded tip and naturally
-  rounded open nostrils (not a flat pug nose, not narrow slit nostrils); auburn curly chin-length bob with straight bangs, always
+  held position. **The face (v3, 2026-09-02, re-cast at the owner's
+  request):** heart-shaped, high cheekbones, large wide-set hazel-green
+  eyes under arched brows, a small straight nose, a full expressive mouth,
+  fair skin with light freckles. Auburn curly chin-length bob with straight
+  bangs, always
   worn down; the silver suit below. Receiver of the signal; kneels by the
   canal, inspects specimens, unmasks Mars.
 - **Them 1 - her twin, the astronomer on Earth**: the same face, the same
@@ -105,11 +108,10 @@ longer loose style. The rule is that *hair*, which the generator treats as
 identity, carries the difference — never an accessory.)
 
 Both exist as reusable **Flow Characters** (portrait + full body) in the Flow
-project "Rivers of Mars - AI video": **`Astronaut v2 (Them 2)`** and
-**`Astronomer v2 (Them 1)`** (built 2026-09-02 to this spec: dancer's build
-and carriage, pixie nose, the plain suit; the astronomer with hair up and no
-eyewear). The 08-31 Characters `Astronaut (Them 2)` / `Astronomer (Them 1)`
-are superseded and must not be attached. Attach the
+project "Rivers of Mars - AI video": the current ones are the **v3** pair
+(new face, dancer's build, plain suit; the astronomer with hair up and no
+eyewear). Every earlier Character (`Astronaut (Them 2)`, `Astronomer
+(Them 1)`, the v2 pair) is superseded and must not be attached. Attach the
 Character (not loose refs) on every shot of her, and only the one Character
 the shot needs — attaching both, or asking for one twin in a session that
 just drew the other, is how the bleed happened.
@@ -129,8 +131,8 @@ gloves, boots, smooth silver, nothing else - there is almost nothing left to
 get wrong, and the grade and letterbox do the rest. Variants add exactly one
 thing (a lantern, a helmet) or remove one (the collar ring).
 
-- cast astronaut: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted, a small straight nose with a softly rounded tip and naturally rounded open nostrils, with an auburn curly chin-length bob and straight bangs
-- cast astronomer: the astronomer, the astronaut's identical twin sister - the same face, the same ballerina's build and dancer's carriage, the same small straight softly rounded nose, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt
+- cast astronaut: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs
+- cast astronomer: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt
 - cast suit: her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned
 - cast suit_field: her silver suit, carrying a small brass hand lantern
 - cast suit_orbital: her silver suit with a clear domed glass helmet sealed to the collar ring
