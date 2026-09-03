@@ -140,6 +140,28 @@ day in the other; the astronomer's desk keeps putting an empty spacesuit
 and helmet behind her (charming, but decide). Next: owner batch review on
 the Blender animatic, then Frames-to-Video from the approved variants.
 
+## Owner review of the v2.2 pass (2026-09-03)
+
+Concept approved; consistency is the open problem: face drifts between
+shots, some stills slip into illustration, the mer-folk vary. Decisions:
+
+- **Likeness locked** to the moonlit lagoon close-up
+  (`refs/astronaut_likeness.jpg`, media db9e4b1e); v4 Characters built from
+  it; attached as an ingredient on every twin still.
+- **Mer-folk** get a Flow Character of their own and "exactly one eye" in
+  the cast line.
+- **Photographic anchor** attached on every non-twin still to stop
+  illustration drift.
+- **Story:** the astronomer is an exobiologist; the "pieces" are fragments
+  of an alien specimen with a helical, DNA-like structure (not maps), and
+  the strange organic shape she holds (`refs/specimen_ref.jpg`, media
+  4d6510c1) is the same organism.
+
+On the tool question: Flow's Characters do most of the identity work and
+Veo keeps a start frame's identity through a clip, so the fix is procedure
+(references attached, anchors attached, pick from x2/x4) before it is a
+different generator; ChatGPT stays the fixer for single stills.
+
 ## Generator A/B, Flow side (2026-09-02)
 
 Nano Banana Pro, 16:9, x2, the v2 Characters attached, "Film still." lead,

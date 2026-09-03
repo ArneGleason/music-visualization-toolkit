@@ -133,6 +133,26 @@ Character (not loose refs) on every shot of her, and only the one Character
 the shot needs — attaching both, or asking for one twin in a session that
 just drew the other, is how the bleed happened.
 
+**The likeness (owner's pick, 2026-09-03):** `refs/astronaut_likeness.jpg` -
+the moonlit lagoon close-up from the v2.2 pass (Flow media db9e4b1e). This
+exact face is the reference from here on: the v4 Characters are built from
+it, and it is attached as an extra image ingredient on every twin still
+alongside the Character.
+
+## Consistency rules (after the v2.2 review)
+
+- **Identity:** Character + the likeness still on every twin shot; one
+  twin per shot; x2 and pick, x4 when the first pair drifts.
+- **Look:** a keeper photographic still attached as a style anchor on every
+  environment and creature still (the lagoon close-up or a vista) - drift
+  into illustration happens on prompts with no photograph attached.
+- **Mer-folk:** one Flow Character built from the best ring still, attached
+  on every water shot; the cast line says "exactly one large round eye set
+  in the centre of the face, no second eye".
+- **Video inherits the still:** Frames-to-Video keeps the start frame's
+  identity for the clip, so consistency is won at the still stage; attach
+  the Character too so the motion holds it.
+
 ## Cast lines
 
 Prompt bodies name the cast with `{{astronaut}}`, `{{astronomer}}`,
@@ -174,6 +194,8 @@ the surface suit, unchanged.
 - Character sheets and boards stay out of Git; drop files into `refs/` and
   register them below.
 
+- ref astronaut_likeness: refs/astronaut_likeness.jpg
+- ref specimen_ref: refs/specimen_ref.jpg
 - ref character_master: refs/character_master.png
 - ref astronaut_front: refs/astronaut_front.jpg
 - ref astronaut_close: refs/astronaut_close.png

@@ -14,6 +14,8 @@
 
 **Reference images** (attach the matching ones every time):
 
+- `astronaut_likeness` — refs/astronaut_likeness.jpg
+- `specimen_ref` — refs/specimen_ref.jpg
 - `character_master` — refs/character_master.png
 - `astronaut_front` — refs/astronaut_front.jpg
 - `astronaut_close` — refs/astronaut_close.png
