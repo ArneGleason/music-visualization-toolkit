@@ -5,7 +5,9 @@ All 37 first-pass setups were generated as stills in Flow (Nano Banana 2,
 block, with the matching Character, board, or canal vista attached. Files
 land in `board/frames/<setup>_<variant>.jpg`; `tools/board_contact.py`
 builds `board/contact.html` from them. Ids are harvested from the Flow media
-grid (only while the Chrome tab is visible — the grid is virtualized),
+grid (only while the Chrome window renders — the grid is virtualized; Chrome
+must run with `--disable-backgrounding-occluded-windows
+--disable-renderer-backgrounding` or a covered/blanked window freezes),
 resolved to signed CDN URLs (`flow-content.google/image/<id>?Expires…`) via
 the `media.getMediaUrlRedirect` endpoint, and pulled with curl.
 
@@ -141,8 +143,9 @@ accepts a local file, so the exact variant is used).
   the keeper. Take 2: she turns to watch and the objects drift (masks vanish,
   globes multiply). Lesson: name the objects again in the motion sentence and
   say "each object keeps its shape" — Veo re-invents props that only the
-  frame defines. Remaining tests (specimen table, weather, junction, vista)
-  are queued behind the Character rebuild.
+  frame defines. The other four (specimen table from A, weather from B, canal
+  junction from A, colony vista from A) were submitted the same way on
+  2026-09-02 evening, two takes each; verdicts below once reviewed.
 
 ## Systematic findings from the first pass (feed the regen pass)
 
