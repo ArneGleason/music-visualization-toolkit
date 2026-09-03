@@ -82,6 +82,21 @@ sentence) and applied with `tools/shotplan.py --setups shots/setups.json`.
 4. Contact sheet → owner batch review → animatic → video inside the Ultra
    window (ends 2026-09-07).
 
+## Video tests (2026-09-02)
+
+Frames-to-Video, Veo 3.1 Quality, 8 s, x2, start frame = the labeled still
+uploaded straight into the composer's asset picker (its hidden file input
+accepts a local file, so the exact variant is used).
+
+- **counterfeit_parade** (from A): both takes play the hidden-conveyor gag
+  with the procession gliding left to right. Take 1 (`clips/inbox/
+  test_parade_1.mp4`): she holds still, deadpan, objects keep their shapes —
+  the keeper. Take 2: she turns to watch and the objects drift (masks vanish,
+  globes multiply). Lesson: name the objects again in the motion sentence and
+  say "each object keeps its shape" — Veo re-invents props that only the
+  frame defines. Remaining tests (specimen table, weather, junction, vista)
+  are queued behind the Character rebuild.
+
 ## Systematic findings from the first pass (feed the regen pass)
 
 - **Astronaut gets the astronomer's glasses.** Seen in astronaut_close
