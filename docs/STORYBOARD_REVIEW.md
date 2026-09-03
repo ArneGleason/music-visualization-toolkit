@@ -122,6 +122,24 @@ sentence) and applied with `tools/shotplan.py --setups shots/setups.json`.
 4. Contact sheet → owner batch review → animatic → video inside the Ultra
    window (ends 2026-09-07).
 
+## The v2.2 pass (2026-09-03): all 39 setups in the cut, regenerated
+
+Nano Banana Pro, x2, the v3 Characters attached on every twin shot, the
+river/lagoon world, "no people" on every non-twin still, the catalog's
+framing phrases appended. 78 stills, filed as `_m`/`_n` variants in
+`board/frames/` (originals in `board/v4/`, rejects in `board/rejects/`).
+The pass holds: winding rivers and the lagoon everywhere, the mer-folk
+school consistent across nine water setups, the v3 face across 24 twin
+stills, the four fauna setups reading as practical creatures. Rejects:
+one mer-folk ring that drew a caption ("THE CHROME MER-FOLK EMERGE"), one
+observatory dome with two spacemen and a "MARS" sign, and the first
+console attempt that seated two space-suited women at the console before
+"nobody at the console" was added. Watch items: the bunk-lamplight astronaut
+drifts older in one variant; the night-wide astronaut is dusk in one and
+day in the other; the astronomer's desk keeps putting an empty spacesuit
+and helmet behind her (charming, but decide). Next: owner batch review on
+the Blender animatic, then Frames-to-Video from the approved variants.
+
 ## Generator A/B, Flow side (2026-09-02)
 
 Nano Banana Pro, 16:9, x2, the v2 Characters attached, "Film still." lead,
