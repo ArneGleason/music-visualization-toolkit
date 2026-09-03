@@ -16,6 +16,7 @@
 
 - `astronaut_likeness` — refs/astronaut_likeness.jpg
 - `specimen_ref` — refs/specimen_ref.jpg
+- `merfolk_likeness` — refs/merfolk_likeness.jpg
 - `character_master` — refs/character_master.png
 - `astronaut_front` — refs/astronaut_front.jpg
 - `astronaut_close` — refs/astronaut_close.png
