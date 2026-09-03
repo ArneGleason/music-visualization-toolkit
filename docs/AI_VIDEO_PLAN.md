@@ -157,6 +157,30 @@ letterbox are also the drift-hiders.
    works. **No paid video generation before the animatic is approved**
    (AGENTS.md invariant 5).
 
+## 6b. Compositing and motion graphics: Blender, headless (2026-09-02)
+
+The owner's call after the video tests: the browser-capture renderer is not
+the tool for motion graphics or compositing (too much overhead per frame,
+too much friction). This path renders in **Blender 5.2, headless**, with no
+browser anywhere:
+
+- `tools/overlay_cues.py` exports beats, lyric lines, sections, choreography
+  spans and the cut from the register at the output fps into
+  `generated/overlay_cues.json` (frame-accurate, derived, not committed).
+- `tools/blender_comp.py` builds a Video Sequence Editor scene from the shot
+  list and the cues and renders it (`blender -b`, it relaunches itself):
+  the cut on channel 1 (clips trimmed to the exact frame count, otherwise the
+  setup's storyboard still, otherwise a slate), the master mix, the 2.39
+  letterbox, an additive **beat pulse** keyframed on every beat (harder on
+  downbeats and section starts), and optional per-twin **lyric captions**.
+  `--overlay-only` renders the overlay channels over transparency as
+  PNG+alpha. A 10 s proxy audition renders in ~5 s including startup.
+- Next elements are functions reading the same cue file: bar rings and
+  ribbons (a 3D Scene strip with emission and bloom over the footage), the
+  drum-wall geometry, section wipes, and the choreography lane's
+  `rendererShot` spans as element triggers. `--save-blend` keeps a .blend for
+  hand tweaking when wanted.
+
 ## 7. Generation work order, takes, ingest, budget, fallback
 
 - **Work order**: `tools/prompts.py` writes `prompts/prompts.md` grouped by
