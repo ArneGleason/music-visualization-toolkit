@@ -108,9 +108,9 @@ longer loose style. The rule is that *hair*, which the generator treats as
 identity, carries the difference — never an accessory.)
 
 Both exist as reusable **Flow Characters** (portrait + full body) in the Flow
-project "Rivers of Mars - AI video": the current ones are the **v3** pair
-(new face, dancer's build, plain suit; the astronomer with hair up and no
-eyewear). Every earlier Character (`Astronaut (Them 2)`, `Astronomer
+project "Rivers of Mars - AI video": the current ones are **`Astronaut v3 (Them 2)`** and **`Astronomer v3
+(Them 1)`** (built 2026-09-02: the v3 face, dancer's build, plain suit; the
+astronomer with hair up and no eyewear). Every earlier Character (`Astronaut (Them 2)`, `Astronomer
 (Them 1)`, the v2 pair) is superseded and must not be attached. Attach the
 Character (not loose refs) on every shot of her, and only the one Character
 the shot needs — attaching both, or asking for one twin in a session that

@@ -103,6 +103,15 @@ as the `_c`/`_d` variants (`_a`/`_b` for the brand-new kaleidoscope):
   redesign works on the first try; D (basin center, domes far) is the
   keeper layout.
 
+Owner review of these: liked the lot except the face — first the nose
+(pug → pixie, then the pixie came out with slit nostrils), then a request
+for a different face altogether. **v3 face** (Claude's pick, owner to
+confirm): heart-shaped, high cheekbones, large wide-set hazel-green eyes,
+small straight nose, full mouth, light freckles. Both Characters were
+rebuilt as `Astronaut v3 (Them 2)` / `Astronomer v3 (Them 1)`; the twin
+sheet held the face across the tweed/updo change on the first try. The
+astronaut A/B stills above are being re-run with v3.
+
 Verdict so far: with the plain suit, verbatim cast lines and Nano Banana
 Pro, Flow holds identity and style well enough that switching generators
 is not needed on this evidence; ChatGPT comparison below.
