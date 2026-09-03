@@ -82,6 +82,31 @@ sentence) and applied with `tools/shotplan.py --setups shots/setups.json`.
 4. Contact sheet → owner batch review → animatic → video inside the Ultra
    window (ends 2026-09-07).
 
+## Generator A/B, Flow side (2026-09-02)
+
+Nano Banana Pro, 16:9, x2, the v2 Characters attached, "Film still." lead,
+cast lines verbatim. Filed in `board/v2/` and copied into `board/frames/`
+as the `_c`/`_d` variants (`_a`/`_b` for the brand-new kaleidoscope):
+
+- **astronaut_close_sync** C/D: the pixie-nosed face and the plain suit hold
+  exactly; singing mouth; both ignored "dark neutral backdrop" and put the
+  colony behind her — fine as chorus-style close-ups, re-run with a board
+  of the dark backdrop for the true neutral one.
+- **forest_walk_track** C/D: lush canal forest, magenta canopy, hanging
+  seed-lanterns, she walks side-on with the lantern and the green light
+  ahead — exactly the psychedelic garden asked for; photographic.
+- **basin_kaleidoscope_top** A/B: chrome mer-folk in concentric rings in
+  the circular basin, fountains around the rim, moon at center — the Busby
+  Berkeley geometry lands; A is the more kaleidoscopic.
+- **merfolk_surface_ring** C/D: the school with the single lashed eye,
+  tiny mouths and fanned tails, surfacing in open water — the creature
+  redesign works on the first try; D (basin center, domes far) is the
+  keeper layout.
+
+Verdict so far: with the plain suit, verbatim cast lines and Nano Banana
+Pro, Flow holds identity and style well enough that switching generators
+is not needed on this evidence; ChatGPT comparison below.
+
 ## Video tests (2026-09-02)
 
 Frames-to-Video, Veo 3.1 Quality, 8 s, x2, start frame = the labeled still
