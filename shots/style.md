@@ -40,22 +40,28 @@ most on prompts with nothing attached.
 
 ## The world
 
-Lowell's Mars taken literally and lovingly: canals as real waterways
-engineered through coral-red terrain, cream-and-turquoise domed settlements,
+Lowell's Mars taken lovingly but not literally: the "canals" are **rivers**
+- winding natural waterways of blue-green water cut through coral-red
+terrain, never straight, never engineered - with cream-and-turquoise domed
+settlements grown up along their banks, built around the water rather than
+the water built for them. (Owner's note after the first pass: the straight
+canals and their gates read as plumbing; the film is called *Rivers of
+Mars*.) Also:
 needle towers, spiked ornamental flora, a striped gas planet and several
 moons in a mint-green sky. Every composition is planimetric and symmetrical or
 a deliberate 90° angle off; props look hand-built; signage-free
 retro-futurist hardware (brass telescopes, riveted silver suits, dial-covered
 receivers). Four places the film keeps returning to:
 
-- **The observatory** on Earth — brass telescope, dome slit, desk of canal
+- **The observatory** on Earth — brass telescope, dome slit, desk of river
   charts, bakelite console, warm tungsten pools in darkness.
-- **The colony and its canal basin** — the canals meet in one great circular
-  reservoir at the foot of the domes: a wide, calm expanse of blue-green
-  water ringed by fountains and brass lock-gates, big enough to stage a water
-  ballet. The chorus water numbers happen **here, in open water**, never
-  crowded into a narrow channel.
-- **The canal forest** — Lowell's dark vegetation belt along the canals,
+- **The colony and its river lagoon** — below the domes the river widens
+  into one great mirror-calm lagoon, a natural pool with a rocky coral shore,
+  big enough to stage a water ballet; the colony's fountains stand along the
+  shore. No gates, no locks, no channels. The chorus water numbers happen
+  **here, in open water**, never crowded into a narrow channel. (Setup names
+  still say `basin`; they mean this lagoon.)
+- **The river forest** — Lowell's dark vegetation belt along the rivers,
   taken as a lush alien forest: fern-fans the size of sails, giant cupped
   leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, moss and
   mist; the canopy closes overhead and the light turns green and magenta. A
@@ -63,10 +69,17 @@ receivers). Four places the film keeps returning to:
   the greenhouse aisle of the first pass, which read as a nursery, not a
   psychedelic garden.)
 - **Orbit** — the film goes to space when things arrive: Mars from orbit as
-  Lowell drew it, a coral globe scored with a lattice of straight canals and
-  dark oases, the rockets seen descending toward it before they land.
+    the film imagines it, a coral globe threaded with winding blue-green
+  rivers and dark oases, the rockets seen descending toward it before they
+  land.
 
 ## The characters
+
+**The whole cast is the two twins and the chrome mer-folk. Nobody else.**
+The first pass and the first video tests kept adding little helmeted
+spacemen - witnesses at frame edges, men with horns, extras in the water -
+and the owner has cut them entirely. Environment shots are empty of people;
+water shots are populated by the mer-folk only; the lock block now says so.
 
 Two performers carry the register's Them 1 / Them 2 dialogue: **identical
 twin sisters** — same face, same auburn hair, same voice — split across two
@@ -137,7 +150,7 @@ thing (a lantern, a helmet) or remove one (the collar ring).
 - cast suit_field: her silver suit, carrying a small brass hand lantern
 - cast suit_orbital: her silver suit with a clear domed glass helmet sealed to the collar ring
 - cast suit_liner: her silver suit with the collar ring removed, a plain open neckline
-- cast merfolk: the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison
+- cast merfolk: the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison
 
 The suit variants are used only where the script goes somewhere: the field
 suit in the canal forest, the orbital suit on the landing field as the
@@ -201,15 +214,15 @@ drift-hiders: the model only has to be consistent underneath them.
 One line per register scene; setup names match `shots/plan.json`.
 
 - **scene-01** — the observatory wakes: dome opens, oscilloscope traces the first signal.
-- **signal-exchange** — the astronomer's warm plea; canal-map pieces that almost fit.
+- **signal-exchange** — the astronomer's warm plea; river-map pieces that almost fit.
 - **scene-04** — the message crosses space and arrives over the limb of Mars, seen from orbit.
 - **scene-05** — the astronaut waiting under the Martian night; scanning dials.
-- **scene-06 / psychedelic-garden** — the garden hatch opens onto the canal forest; she walks its path following the little green light; the forest wakes around her on the drums.
+- **scene-06 / psychedelic-garden** — the garden hatch opens onto the river forest; she walks its path following the little green light; the forest wakes around her on the drums.
 - **pattern-aperture** — specimen table, pattern tests, macro apertures.
 - **mars-unmasking** — the reveal: domes wide, counterfeit parade, excavation.
-- **semantic-rocket-weather** — filament weather over the colony, the twins' call-and-response, rockets descending from orbit and landing, rain becoming canal.
-- **rivers-of-mars** — the chorus in the canal basin: moon descent, the mer-folk's water ballet from above, tiny mouths agape, sung close-ups, fountains on the drums, the plunge.
-- **current-turns-home / low-light-outro / coda** — the current reverses at the canal junction; lamplit duet; colony lights go out; night iris to title.
+- **semantic-rocket-weather** — filament weather over the colony, the twins' call-and-response, rockets descending from orbit and landing, rain becoming river.
+- **rivers-of-mars** — the chorus in the river lagoon: moon descent, the mer-folk's water ballet from above, tiny mouths agape, sung close-ups, fountains on the drums, the plunge.
+- **current-turns-home / low-light-outro / coda** — the current turns in the great eddy of the lagoon; lamplit duet; colony lights go out; night iris to title.
 
 ## The lock block
 
@@ -222,11 +235,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no

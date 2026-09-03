@@ -10,7 +10,7 @@
 - `suit_field` — her silver suit, carrying a small brass hand lantern
 - `suit_orbital` — her silver suit with a clear domed glass helmet sealed to the collar ring
 - `suit_liner` — her silver suit with the collar ring removed, a plain open neckline
-- `merfolk` — the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison
+- `merfolk` — the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison
 
 **Reference images** (attach the matching ones every time):
 
@@ -45,11 +45,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -68,11 +69,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -96,11 +98,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -119,11 +122,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -141,18 +145,19 @@ Lyric: *Hey, I need you for something. / It's important.*
 **Still**
 
 ```
-Film still. Medium frontal shot, perfectly centered: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt at a desk piled with hand-drawn canal charts, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance.
+Film still. Medium frontal shot, perfectly centered: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt at a desk piled with hand-drawn Mars river charts, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -164,18 +169,19 @@ watermarks.
 **Video**
 
 ```
-Medium frontal shot, perfectly centered: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt at a desk piled with hand-drawn canal charts, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Locked off.
+Medium frontal shot, perfectly centered: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt at a desk piled with hand-drawn Mars river charts, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -184,7 +190,7 @@ and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
 
-## `canal_map_macro`  ·  concept  ·  Canal map pieces
+## `canal_map_macro`  ·  concept  ·  River map pieces
 
 Used by 3 cut(s): s004 (5.7s), s006 (2.9s), s008 (2.9s)
 Sections: scene-03, signal-exchange · **generate ≥ 5.7s**
@@ -193,18 +199,19 @@ Lyric: *More than that sounds.*
 **Still**
 
 ```
-Film still. Top-down overhead macro of hand-inked Mars canal maps torn into pieces on a leather desktop; tweed-cuffed hands hold two fragments whose canal lines almost join.
+Film still. Top-down overhead macro of hand-inked Mars river maps torn into pieces on a leather desktop - winding blue-green rivers through coral terrain, settlements dotted along the banks; tweed-cuffed hands hold two fragments whose river lines almost join.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -216,18 +223,19 @@ watermarks.
 **Video**
 
 ```
-Top-down overhead macro of hand-inked Mars canal maps torn into pieces on a leather desktop; tweed-cuffed hands hold two fragments whose canal lines almost join. The hands slide the fragments together; the lines almost meet, then miss by a hair, again and again. Slow overhead push-in.
+Top-down overhead macro of hand-inked Mars river maps torn into pieces on a leather desktop - winding blue-green rivers through coral terrain, settlements dotted along the banks; tweed-cuffed hands hold two fragments whose river lines almost join. The hands slide the fragments together; the river lines almost meet, then miss by a hair, again and again. Slow overhead push-in.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -252,11 +260,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -275,11 +284,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -297,18 +307,19 @@ Lyric: *Can I send you my stuff?*
 **Still**
 
 ```
-Film still. From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, drawn as Lowell drew it - a lattice of straight canals and dark oases across the whole planet - its terminator curving away; a striped gas giant and several small moons hang in matte-painting depth beyond. No people.
+Film still. From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -320,18 +331,19 @@ watermarks.
 **Video**
 
 ```
-From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, drawn as Lowell drew it - a lattice of straight canals and dark oases across the whole planet - its terminator curving away; a striped gas giant and several small moons hang in matte-painting depth beyond. No people. The pulse travels across frame and arrives over the limb of the planet. Slow lateral drift following the light.
+From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people. The pulse travels across frame and arrives over the limb of the planet. Slow lateral drift following the light.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -356,11 +368,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -379,11 +392,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -408,11 +422,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -431,11 +446,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -453,18 +469,19 @@ Lyric: *Don't clean it up first. / I'll work on it now.*
 **Still**
 
 ```
-Film still. Night. Symmetrical wide: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned stands small at dead center beside a glowing receiver mast, coral terrain silvered by two small moons and the striped planet, the colony domes dark on the horizon.
+Film still. Night. Symmetrical wide: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned stands small at dead center beside a glowing receiver mast, coral terrain silvered by two small moons and the striped planet, the colony domes dark on the horizon and the river a dark ribbon below. No one else in frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -476,18 +493,19 @@ watermarks.
 **Video**
 
 ```
-Night. Symmetrical wide: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned stands small at dead center beside a glowing receiver mast, coral terrain silvered by two small moons and the striped planet, the colony domes dark on the horizon. Nothing moves but her breath and the mast's slow blink. Very slow push toward her.
+Night. Symmetrical wide: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned stands small at dead center beside a glowing receiver mast, coral terrain silvered by two small moons and the striped planet, the colony domes dark on the horizon and the river a dark ribbon below. No one else in frame. Nothing moves but her breath and the mast's slow blink. Very slow push toward her.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -512,11 +530,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -535,11 +554,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -556,18 +576,19 @@ Sections: scene-06 · **generate ≥ 2.9s**
 **Still**
 
 ```
-Film still. One-point symmetrical corridor: a riveted brass garden hatch centered at the end of a metal walkway, standing open onto the canal forest - giant fern-fans, cupped leaves, pink thistle-globes - with green and magenta light spilling toward camera. No people.
+Film still. One-point symmetrical corridor: a riveted brass garden hatch centered at the end of a metal walkway, standing open onto the river forest - giant fern-fans, cupped leaves, pink thistle-globes - with green and magenta light spilling toward camera. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -579,18 +600,19 @@ watermarks.
 **Video**
 
 ```
-One-point symmetrical corridor: a riveted brass garden hatch centered at the end of a metal walkway, standing open onto the canal forest - giant fern-fans, cupped leaves, pink thistle-globes - with green and magenta light spilling toward camera. No people. Slow push through the hatch into the glow.
+One-point symmetrical corridor: a riveted brass garden hatch centered at the end of a metal walkway, standing open onto the river forest - giant fern-fans, cupped leaves, pink thistle-globes - with green and magenta light spilling toward camera. No people. Slow push through the hatch into the glow.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -608,18 +630,19 @@ Lyric: *The-the-the-the-the / There's a little green light moving / through the 
 **Still**
 
 ```
-Film still. Side-on planimetric view: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit, carrying a small brass hand lantern walks left to right along a mossy path through the canal forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan.
+Film still. Side-on planimetric view: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit, carrying a small brass hand lantern walks left to right along a mossy path through the river forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan. No one else in frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -631,18 +654,19 @@ watermarks.
 **Video**
 
 ```
-Side-on planimetric view: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit, carrying a small brass hand lantern walks left to right along a mossy path through the canal forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan. She follows the green light; slow 90-degree lateral track keeping her centered as the foliage layers slide past in deep parallax.
+Side-on planimetric view: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit, carrying a small brass hand lantern walks left to right along a mossy path through the river forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan. No one else in frame. She follows the green light; slow 90-degree lateral track keeping her centered as the foliage layers slide past in deep parallax.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -660,18 +684,19 @@ Lyric: *Something with no name is waking / in the psychedelic garden.*
 **Still**
 
 ```
-Film still. Macro on a single pink thistle-globe in the canal forest, tendrils half-uncurled, dew catching green-gold light, the small green light a soft blur behind it; shallow focus.
+Film still. Macro on a single pink thistle-globe in the river forest, tendrils half-uncurled, dew catching green-gold light, the small green light a soft blur behind it; shallow focus.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -683,18 +708,19 @@ watermarks.
 **Video**
 
 ```
-Macro on a single pink thistle-globe in the canal forest, tendrils half-uncurled, dew catching green-gold light, the small green light a soft blur behind it; shallow focus. The tendrils slowly uncurl and the green light drifts past behind. Slight lateral drift.
+Macro on a single pink thistle-globe in the river forest, tendrils half-uncurled, dew catching green-gold light, the small green light a soft blur behind it; shallow focus. The tendrils slowly uncurl and the green light drifts past behind. Slight lateral drift.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -712,18 +738,19 @@ Lyric: *And whatever woke is waiting / for the song to begin.*
 **Still**
 
 ```
-Film still. Frontal symmetrical wide: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit, carrying a small brass hand lantern stands dead center on the forest path, small under the canopy, as the whole forest lights up around her - cupped leaves snapping open, thistle-globes glowing pink row by row, seed-lanterns lit, spore puffs rising - a blazing symmetrical mandala of foliage. She holds still and deadpan.
+Film still. Frontal symmetrical wide: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit, carrying a small brass hand lantern stands dead center on the forest path, small under the canopy, as the whole forest lights up around her - cupped leaves snapping open, thistle-globes glowing pink row by row, seed-lanterns lit, spore puffs rising - a blazing symmetrical mandala of foliage. She holds still and deadpan. No one else in frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -735,18 +762,19 @@ watermarks.
 **Video**
 
 ```
-Frontal symmetrical wide: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit, carrying a small brass hand lantern stands dead center on the forest path, small under the canopy, as the whole forest lights up around her - cupped leaves snapping open, thistle-globes glowing pink row by row, seed-lanterns lit, spore puffs rising - a blazing symmetrical mandala of foliage. She holds still and deadpan. The forest wakes in waves on the drum hits, row by row from the edges to the center. Locked off.
+Frontal symmetrical wide: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit, carrying a small brass hand lantern stands dead center on the forest path, small under the canopy, as the whole forest lights up around her - cupped leaves snapping open, thistle-globes glowing pink row by row, seed-lanterns lit, spore puffs rising - a blazing symmetrical mandala of foliage. She holds still and deadpan. No one else in frame. The forest wakes in waves on the drum hits, row by row from the edges to the center. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -771,11 +799,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -794,11 +823,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -816,18 +846,19 @@ Lyric: *Just look and tell me. / Do you see a pattern? / I'm sure it's there.*
 **Still**
 
 ```
-Film still. Waist-up medium of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at an enamel field table at the forest's edge, holding a strange specimen up to the light in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical.
+Film still. Waist-up medium of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at an enamel field table at the forest's edge, holding a strange specimen up to the light in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -839,18 +870,19 @@ watermarks.
 **Video**
 
 ```
-Waist-up medium of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at an enamel field table at the forest's edge, holding a strange specimen up to the light in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. She turns the specimen slowly in the light. Locked off.
+Waist-up medium of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at an enamel field table at the forest's edge, holding a strange specimen up to the light in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame. She turns the specimen slowly in the light. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -868,18 +900,19 @@ Lyric: *You come back around. / I'll pull it into a shape*
 **Still**
 
 ```
-Film still. Grand symmetrical vista: the cream-and-turquoise domed colony with needle towers under a mint-green sky, a straight canal running up the exact center of frame into the circular canal basin at its foot, striped planet above. No people.
+Film still. Grand symmetrical vista: the cream-and-turquoise domed colony with needle towers under a mint-green sky, a winding river of blue-green water snaking up the center of frame through coral terrain to the wide mirror-calm lagoon at its foot, striped planet above. Miniature-set depth. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -891,18 +924,19 @@ watermarks.
 **Video**
 
 ```
-Grand symmetrical vista: the cream-and-turquoise domed colony with needle towers under a mint-green sky, a straight canal running up the exact center of frame into the circular canal basin at its foot, striped planet above. No people. Very slow push along the canal axis.
+Grand symmetrical vista: the cream-and-turquoise domed colony with needle towers under a mint-green sky, a winding river of blue-green water snaking up the center of frame through coral terrain to the wide mirror-calm lagoon at its foot, striped planet above. Miniature-set depth. No people. Very slow push along the river toward the colony; the water shimmers gently, nothing else moves; every dome and tower keeps its shape; no people appear.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -920,18 +954,19 @@ Lyric: *and spin your world around. / No. / Don't make it better.*
 **Still**
 
 ```
-Film still. Medium shot: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned centered on a coral ridge above the domed colony and its basin, vista soft behind her, facing camera, wind in her hair.
+Film still. Medium shot: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned centered on a coral ridge above the domed colony and its river lagoon, vista soft behind her, facing camera, wind in her hair. No one else in frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -943,18 +978,19 @@ watermarks.
 **Video**
 
 ```
-Medium shot: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned centered on a coral ridge above the domed colony and its basin, vista soft behind her, facing camera, wind in her hair. She turns from the view to face camera; slow lateral track that settles frontal and locked.
+Medium shot: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned centered on a coral ridge above the domed colony and its river lagoon, vista soft behind her, facing camera, wind in her hair. No one else in frame. She turns from the view to face camera; slow lateral track that settles frontal and locked.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -972,18 +1008,19 @@ Lyric: *Don't want fake shit.*
 **Still**
 
 ```
-Film still. Deadpan planimetric side-on view: a procession of too-perfect objects - polished miniature domes, smiling masks, trophy-bright Mars globes - lined up left to right across frame on a hidden conveyor; the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned stands centered behind it, unimpressed.
+Film still. Deadpan planimetric side-on view: a procession of too-perfect objects - polished miniature domes, smiling masks, trophy-bright Mars globes - lined up left to right across frame on a hidden conveyor; the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned stands centered behind it, unimpressed. No one else in frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -995,18 +1032,19 @@ watermarks.
 **Video**
 
 ```
-Deadpan planimetric side-on view: a procession of too-perfect objects - polished miniature domes, smiling masks, trophy-bright Mars globes - lined up left to right across frame on a hidden conveyor; the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned stands centered behind it, unimpressed. The procession glides left to right. Locked off.
+Deadpan planimetric side-on view: a procession of too-perfect objects - polished miniature domes, smiling masks, trophy-bright Mars globes - lined up left to right across frame on a hidden conveyor; the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned stands centered behind it, unimpressed. No one else in frame. The procession glides left to right. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1024,18 +1062,19 @@ Lyric: *Dig the thing underneath it. / Dig it stupid.*
 **Still**
 
 ```
-Film still. Low frontal shot: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels in coral soil, lifting a clumsy, handmade, unpolished object out of the ground with silver gloves - clearly loved; dust motes in warm light.
+Film still. Low frontal shot: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels in coral soil, lifting a clumsy, handmade, unpolished object out of the ground with silver gloves - clearly loved; dust motes in warm light. No one else in frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1047,18 +1086,19 @@ watermarks.
 **Video**
 
 ```
-Low frontal shot: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels in coral soil, lifting a clumsy, handmade, unpolished object out of the ground with silver gloves - clearly loved; dust motes in warm light. She digs and lifts it free. Slight slow push toward her hands.
+Low frontal shot: the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels in coral soil, lifting a clumsy, handmade, unpolished object out of the ground with silver gloves - clearly loved; dust motes in warm light. No one else in frame. She digs and lifts it free. Slight slow push toward her hands.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1076,18 +1116,19 @@ Lyric: *Can you hear / what I meant? / Sometimes.*
 **Still**
 
 ```
-Film still. Wide sky over the domes and the basin: strange luminous filament weather - glowing threads and streamers peeling off slow cloud fronts; two tiny figures watch from opposite frame edges.
+Film still. Wide sky over the domes and the river lagoon: strange luminous filament weather - slow silk-like streamers of pastel light peeling off cloud fronts and drifting apart, no lightning, no flashes. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1099,18 +1140,19 @@ watermarks.
 **Video**
 
 ```
-Wide sky over the domes and the basin: strange luminous filament weather - glowing threads and streamers peeling off slow cloud fronts; two tiny figures watch from opposite frame edges. The threads drift apart. Slow upward drift.
+Wide sky over the domes and the river lagoon: strange luminous filament weather - slow silk-like streamers of pastel light peeling off cloud fronts and drifting apart, no lightning, no flashes. No people. The pastel streamers peel slowly off the cloud fronts and drift apart across the sky while the clouds creep; the domes and the water stay still; no lightning, no flashes, no people appear. Slow upward drift.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1128,18 +1170,19 @@ Lyric: *Not always. / Meaning leaves thread.*
 **Still**
 
 ```
-Film still. Symmetrical split staging divided by a thin centered seam of static: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt in her warm-gold study at frame left, the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase.
+Film still. Symmetrical split staging divided by a thin centered seam of static: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt in her warm-gold study at frame left, the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase. No one else in frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1151,18 +1194,19 @@ watermarks.
 **Video**
 
 ```
-Symmetrical split staging divided by a thin centered seam of static: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt in her warm-gold study at frame left, the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase. They trade lines like a confident call-and-response, clearly articulated, heads steady, each landing her phrase on the beat. Locked off.
+Symmetrical split staging divided by a thin centered seam of static: the astronomer, the astronaut's identical twin sister - the same heart-shaped face, high cheekbones, large wide-set hazel-green eyes, small straight nose, full mouth and light freckles, the same ballerina's build and dancer's carriage, the same auburn hair pinned up in a loose 1950s French twist with straight bangs and a pencil pushed through it - in a rumpled rust-brown tweed jacket, mustard knit vest and collared check shirt in her warm-gold study at frame left, the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase. No one else in frame. They trade lines like a confident call-and-response, clearly articulated, heads steady, each landing her phrase on the beat. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1180,18 +1224,19 @@ Lyric: *Things clap overhead*
 **Still**
 
 ```
-Film still. From orbit: the coral globe of Mars fills the lower frame, scored with Lowell's lattice of straight canals and dark oases, its terminator curving away; three finned chrome retro rockets descend toward it in slow formation, tail-first, retro-flames flickering; the striped gas planet and small moons beyond. No people.
+Film still. From orbit: the coral globe of Mars fills the lower frame, threaded with winding blue-green rivers and dark oases, its terminator curving away; three finned chrome retro rockets descend toward it in slow formation, tail-first, retro-flames flickering; the striped gas planet and small moons beyond. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1203,18 +1248,19 @@ watermarks.
 **Video**
 
 ```
-From orbit: the coral globe of Mars fills the lower frame, scored with Lowell's lattice of straight canals and dark oases, its terminator curving away; three finned chrome retro rockets descend toward it in slow formation, tail-first, retro-flames flickering; the striped gas planet and small moons beyond. No people. The formation sinks toward the planet, flames pulsing. Locked off in space, symmetrical.
+From orbit: the coral globe of Mars fills the lower frame, threaded with winding blue-green rivers and dark oases, its terminator curving away; three finned chrome retro rockets descend toward it in slow formation, tail-first, retro-flames flickering; the striped gas planet and small moons beyond. No people. The formation sinks toward the planet, flames pulsing. Locked off in space, symmetrical.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1232,18 +1278,19 @@ Lyric: *like rockets coming in.*
 **Still**
 
 ```
-Film still. Wide symmetrical landing field at the edge of the colony: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit with a clear domed glass helmet sealed to the collar ring stands small at dead center in the foreground, facing camera, the rockets landing behind her.
+Film still. Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit with a clear domed glass helmet sealed to the collar ring stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1255,18 +1302,19 @@ watermarks.
 **Video**
 
 ```
-Wide symmetrical landing field at the edge of the colony: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit with a clear domed glass helmet sealed to the collar ring stands small at dead center in the foreground, facing camera, the rockets landing behind her. The rockets touch down one after another on the beat and the dust rolls past her. Locked off.
+Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit with a clear domed glass helmet sealed to the collar ring stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1275,7 +1323,7 @@ and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
 
-## `rain_to_canal`  ·  concept  ·  Rain becomes canal
+## `rain_to_canal`  ·  concept  ·  Rain becomes river
 
 Used by 2 cut(s): s034 (2.9s), s035 (2.9s)
 Sections: semantic-rocket-weather · **generate ≥ 2.9s**
@@ -1284,18 +1332,19 @@ Lyric: *Can't tell you / if they're true.*
 **Still**
 
 ```
-Film still. Rain over red terrain: falling water gathering into bright rivulets that join, straighten, and align into the geometry of a canal running to the horizon. No people.
+Film still. Rain over red terrain: falling water gathering into bright rivulets that join and wind together into a young river snaking toward the horizon between coral banks. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1307,18 +1356,19 @@ watermarks.
 **Video**
 
 ```
-Rain over red terrain: falling water gathering into bright rivulets that join, straighten, and align into the geometry of a canal running to the horizon. No people. Slow tilt and track following the water downhill, ending level on the moving current.
+Rain over red terrain: falling water gathering into bright rivulets that join and wind together into a young river snaking toward the horizon between coral banks. No people. Slow tilt and track following the water downhill as it winds, ending level on the moving current.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1327,7 +1377,7 @@ and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
 
-## `basin_moon_descent`  ·  concept  ·  Descent to the basin
+## `basin_moon_descent`  ·  concept  ·  Descent to the lagoon
 
 Used by 1 cut(s): s036 (5.7s)
 Sections: rivers-of-mars · **generate ≥ 5.7s**
@@ -1336,18 +1386,19 @@ Lyric: *Elsewhere, under a smaller moon— / Chrome-plated bodies go swimming*
 **Still**
 
 ```
-Film still. Night. From high above the colony's circular canal basin: the reflection of a small warm moon dead center in a wide calm expanse of dark water ringed by fountains and brass lock-gates; the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison glinting beneath the surface, arranged in concentric rings.
+Film still. Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison glinting beneath the surface, arranged in concentric rings.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1359,18 +1410,19 @@ watermarks.
 **Video**
 
 ```
-Night. From high above the colony's circular canal basin: the reflection of a small warm moon dead center in a wide calm expanse of dark water ringed by fountains and brass lock-gates; the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison glinting beneath the surface, arranged in concentric rings. The camera cranes slowly down toward the water; the rings resolve as it nears the surface.
+Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison glinting beneath the surface, arranged in concentric rings. The camera cranes slowly down toward the water; the rings resolve as it nears the surface.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1379,7 +1431,7 @@ and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
 
-## `basin_edge_sync`  ·  performance  ·  Astronaut at the basin edge
+## `basin_edge_sync`  ·  performance  ·  Astronaut at the lagoon shore
 
 Used by 1 cut(s): s037 (5.7s)
 Sections: rivers-of-mars · **generate ≥ 5.7s**
@@ -1388,18 +1440,19 @@ Lyric: *in the rivers of Mars.*
 **Still**
 
 ```
-Film still. Night. the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels at the stone rim of the wide canal basin in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison has just surfaced. Symmetrical framing on her and her reflection.
+Film still. Night. the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison has just surfaced. No one else in frame. Symmetrical framing on her and her reflection.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1411,18 +1464,19 @@ watermarks.
 **Video**
 
 ```
-Night. the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels at the stone rim of the wide canal basin in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison has just surfaced. Symmetrical framing on her and her reflection. She sings with confident, rhythmic delivery, head steady, shoulders grooving subtly; the swimmer bobs on the beat. Slow push.
+Night. the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison has just surfaced. No one else in frame. Symmetrical framing on her and her reflection. She sings with confident, rhythmic delivery, head steady, shoulders grooving subtly; the swimmer bobs on the beat. Slow push.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1440,18 +1494,19 @@ Lyric: *Tails wagging to music*
 **Still**
 
 ```
-Film still. Night. Straight-down overhead of the circular canal basin lit like a stage: the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; fountains firing in a ring around the rim; the moon's reflection dead center. Busby Berkeley water-ballet geometry.
+Film still. Night. Straight-down overhead of the wide river lagoon lit like a stage: the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; the colony's fountains firing along the rocky shore; the moon's reflection dead center. Busby Berkeley water-ballet geometry. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1463,18 +1518,19 @@ watermarks.
 **Video**
 
 ```
-Night. Straight-down overhead of the circular canal basin lit like a stage: the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; fountains firing in a ring around the rim; the moon's reflection dead center. Busby Berkeley water-ballet geometry. The rings rotate against each other and the tails fan open and closed on the beat. Locked overhead.
+Night. Straight-down overhead of the wide river lagoon lit like a stage: the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; the colony's fountains firing along the rocky shore; the moon's reflection dead center. Busby Berkeley water-ballet geometry. No people. The rings rotate against each other and the tails fan open and closed on the beat. Locked overhead.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1492,18 +1548,19 @@ Lyric: *that bends your mind. / Tiny mouths all agape*
 **Still**
 
 ```
-Film still. Night. Waterline shot at the center of the wide basin: a ring of the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water. Symmetrical, locked at water level.
+Film still. Night. Waterline shot at the center of the wide river lagoon: a ring of the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water, the colony domes dark on the far shore. Symmetrical, locked at water level. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1515,18 +1572,19 @@ watermarks.
 **Video**
 
 ```
-Night. Waterline shot at the center of the wide basin: a ring of the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water. Symmetrical, locked at water level. They rise together on the downbeat, blink, and sing; the ripples spread. Locked off.
+Night. Waterline shot at the center of the wide river lagoon: a ring of the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water, the colony domes dark on the far shore. Symmetrical, locked at water level. No people. They rise together on the downbeat, blink, and sing; the ripples spread. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1544,18 +1602,19 @@ Lyric: *in the rivers of Mars. / Whatever falls from heaven*
 **Still**
 
 ```
-Film still. Night. Frontal hero close-up of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at the basin edge, moonlit, ripples of reflected water-light across her face, eyes locked on the lens, mouth open mid-belt, confident and punchy.
+Film still. Night. Frontal hero close-up of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at the lagoon shore, moonlit, ripples of reflected water-light across her face, eyes locked on the lens, mouth open mid-belt, confident and punchy.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1567,18 +1626,19 @@ watermarks.
 **Video**
 
 ```
-Night. Frontal hero close-up of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at the basin edge, moonlit, ripples of reflected water-light across her face, eyes locked on the lens, mouth open mid-belt, confident and punchy. She belts the chorus hook straight to camera - words clearly articulated, head steady, shoulders moving subtly with the groove; the water-light pulses on the beat. Locked off.
+Night. Frontal hero close-up of the astronaut, a young woman with a ballerina's build - slender, long-necked, long-limbed - and a dancer's carriage, upright with shoulders back and chin lifted; a heart-shaped face with high cheekbones, large wide-set hazel-green eyes under arched brows, a small straight nose, a full expressive mouth, fair skin with light freckles; an auburn curly chin-length bob with straight bangs in her silver suit: a plain, smooth, close-fitting one-piece brushed-silver spacesuit with a single wide riveted silver collar ring and matching silver gloves and boots, unadorned at the lagoon shore, moonlit, ripples of reflected water-light across her face, eyes locked on the lens, mouth open mid-belt, confident and punchy. She belts the chorus hook straight to camera - words clearly articulated, head steady, shoulders moving subtly with the groove; the water-light pulses on the beat. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1596,18 +1656,19 @@ Lyric: *leaves the senses behind. / No one has ever been*
 **Still**
 
 ```
-Film still. Night. One-point symmetrical view across the canal basin toward the colony: ranked fountains around the rim firing hard, jets punching up in sequence, lit warm against the dark domes; the water otherwise calm and open. No people.
+Film still. Night. One-point symmetrical view across the river lagoon toward the colony: ranked fountains along the far shore firing hard, jets punching up in sequence, lit warm against the dark domes; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison surfacing in a line across the water on the beat; the water otherwise calm and open. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1619,18 +1680,19 @@ watermarks.
 **Video**
 
 ```
-Night. One-point symmetrical view across the canal basin toward the colony: ranked fountains around the rim firing hard, jets punching up in sequence, lit warm against the dark domes; the water otherwise calm and open. No people. The fountains and steam vents fire on the drum hits, in sequence around the rim. Locked off while the water performs.
+Night. One-point symmetrical view across the river lagoon toward the colony: ranked fountains along the far shore firing hard, jets punching up in sequence, lit warm against the dark domes; the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison surfacing in a line across the water on the beat; the water otherwise calm and open. No people. The fountains fire on the drum hits, in sequence along the shore, and the mer-folk rise and dip in time; no people appear. Locked off while the water performs.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1648,18 +1710,19 @@ Lyric: *In / in the rivers of Mars.*
 **Still**
 
 ```
-Film still. Single frame, no panels: looking straight down at the surface of the wide canal basin from a few feet above it, moonlit spray and bubbles bursting upward, the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison visible scattering beneath the surface.
+Film still. Single frame, no panels: looking straight down at the surface of the wide river lagoon from a few feet above it, moonlit spray and bubbles bursting upward, the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison visible scattering beneath the surface. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1671,18 +1734,19 @@ watermarks.
 **Video**
 
 ```
-Single frame, no panels: looking straight down at the surface of the wide canal basin from a few feet above it, moonlit spray and bubbles bursting upward, the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison visible scattering beneath the surface. One smooth accelerating push straight down through the surface: spray, bubbles, then the school scattering and reforming around the camera underwater. One continuous move, no cut.
+Single frame, no panels: looking straight down at the surface of the wide river lagoon from a few feet above it, moonlit spray and bubbles bursting upward, the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison visible scattering beneath the surface. No people. One smooth accelerating push straight down through the surface: spray, bubbles, then the school scattering and reforming around the camera underwater. One continuous move, no cut.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1691,7 +1755,7 @@ and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
 
-## `canal_junction_turn`  ·  concept  ·  The current turns
+## `canal_junction_turn`  ·  concept  ·  The current turns in the eddy
 
 Used by 1 cut(s): s043 (2.8s)
 Sections: current-turns-home · **generate ≥ 2.8s**
@@ -1700,18 +1764,19 @@ Lyric: *Then turns.*
 **Still**
 
 ```
-Film still. Top-down planimetric view of a brass canal junction: lock-gates pivoting, the current visibly turning, and the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison wheeling around together to head back the way they came.
+Film still. Top-down planimetric view of the great slow eddy where the river enters the lagoon: the current curling into a wide spiral, the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison wheeling around together in the turning water to head back the way they came. No gates, no machinery, no people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1723,18 +1788,19 @@ watermarks.
 **Video**
 
 ```
-Top-down planimetric view of a brass canal junction: lock-gates pivoting, the current visibly turning, and the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison wheeling around together to head back the way they came. The gates pivot on the beat, the current reverses, and the school wheels as one. Locked overhead.
+Top-down planimetric view of the great slow eddy where the river enters the lagoon: the current curling into a wide spiral, the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison wheeling around together in the turning water to head back the way they came. No gates, no machinery, no people. The eddy turns on the beat, the current visibly reverses, and the school wheels as one; no people appear. Locked overhead.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1752,18 +1818,19 @@ Lyric: *Then follows. / Then answers.*
 **Still**
 
 ```
-Film still. Underwater inside the canal current: the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them.
+Film still. Underwater inside the river current: the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1775,18 +1842,19 @@ watermarks.
 **Video**
 
 ```
-Underwater inside the canal current: the canal mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. Slow lateral drift; the school never restarts, it just keeps passing, the light-ribbons bending with the music.
+Underwater inside the river current: the river mer-folk — a school of chrome-plated swimmers polished like 1950s hood ornaments, each with a long fish tail, slender humanoid arms, and a smooth bald alien head with stripped-down features: one large eye with long lashes, no nose, a tiny round mouth open in song — moving in unison passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people. Slow lateral drift; the school never restarts, it just keeps passing, the light-ribbons bending with the music.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1811,11 +1879,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1834,11 +1903,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1863,11 +1933,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1886,11 +1957,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1915,11 +1987,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1938,11 +2011,12 @@ planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1960,18 +2034,19 @@ Lyric: *Night.*
 **Still**
 
 ```
-Film still. Night. Wide shot of the colony from across the basin: most dome windows and tower lights already dark, a last few still lit down the valley, the canal holding a single moon reflection. No people.
+Film still. Night. Wide shot of the colony from across the river lagoon: most dome windows and tower lights already dark, a last few still lit down the valley, the water holding a single moon reflection. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -1983,18 +2058,19 @@ watermarks.
 **Video**
 
 ```
-Night. Wide shot of the colony from across the basin: most dome windows and tower lights already dark, a last few still lit down the valley, the canal holding a single moon reflection. No people. The remaining lights switch off in cascading order, one per beat, until only the moon's reflection is left. Locked off.
+Night. Wide shot of the colony from across the river lagoon: most dome windows and tower lights already dark, a last few still lit down the valley, the water holding a single moon reflection. No people. The remaining lights switch off in cascading order, one per beat, until only the moon's reflection is left. Locked off.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -2011,18 +2087,19 @@ Sections: production-coda · **generate ≥ 5.9s**
 **Still**
 
 ```
-Film still. Night. The final wide frame of the colony darkening at its edges, a circular iris closing in on the moon's reflection in the basin. No people.
+Film still. Night. The final wide frame of the colony darkening at its edges, a circular iris closing in on the moon's reflection in the lagoon. No people.
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
@@ -2034,18 +2111,19 @@ watermarks.
 **Video**
 
 ```
-Night. The final wide frame of the colony darkening at its edges, a circular iris closing in on the moon's reflection in the basin. No people. The iris closes until only that small light remains, then black. (Title is added in post, never generated.)
+Night. The final wide frame of the colony darkening at its edges, a circular iris closing in on the moon's reflection in the lagoon. No people. The iris closes until only that small light remains, then black. (Title is added in post, never generated.)
 
 Live-action 1950s Technicolor science-fiction feature, Wes Anderson style:
 planimetric symmetrical composition, centered subjects, flat frontal staging,
 deadpan performance. Photographed on 35mm three-strip Technicolor: real
 actors, practical sets, miniatures and painted backdrops — never an
 illustration, painting, cartoon or render. Soundstage Mars with
-matte-painting depth: coral-red terrain, engineered canals of blue-green
-water, cream and turquoise domed buildings, needle towers, spiked ornamental
-plants, striped gas planet and small moons in a mint-green sky. Riveted
-silver spacesuits, brass and bakelite instruments, hand-built practical
-props. Soft even studio lighting, saturated pastel palette. Reflected light
+matte-painting depth: coral-red terrain, winding natural rivers of
+blue-green water with settlements built up along their banks, cream and
+turquoise domed buildings, needle towers, spiked ornamental
+plants, striped gas planet and small moons in a mint-green sky. One riveted silver spacesuit, brass and bakelite instruments, hand-built
+practical props. The only figures that ever appear are the two twin sisters
+and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
 glitter, no scales, no sequins forming on skin or fabric. Camera locked off
 or moving in slow symmetrical push-ins and 90-degree lateral tracks; no

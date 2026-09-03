@@ -79,6 +79,10 @@ Roughly 25 setups cover ~90 cuts; reuse keeps the budget sane.
   frames tie adjoining setups together, standing in for the register's
   transition lane.
 
+Since the owner's second review (2026-09-02): every waterway is a winding
+natural **river** (the basin is the river's lagoon, no gates), and the
+only figures in the film are the two twins and the chrome mer-folk.
+
 Setup bodies are authored once, at the setup level, in `shots/setups.json`
 (`still` = the frame without motion words, `motion` = the video sentence) and
 applied with `tools/shotplan.py --setups shots/setups.json`. The v2 revision

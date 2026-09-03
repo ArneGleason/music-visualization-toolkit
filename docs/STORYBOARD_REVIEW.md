@@ -68,6 +68,28 @@ The owner reviewed the full grid in Flow. Each note, and what changed in
    movement landing on the beat. It is in both cast lines, and both Flow
    Characters are rebuilt to it before any v2 still.
 
+9. **Rivers, not canals** (owner, after the video tests). The straight
+   engineered channels and their brass gates read as plumbing; the film is
+   *Rivers of Mars*. Every waterway is now a winding natural river with the
+   settlements grown up along its banks; the "basin" is the river's wide
+   mirror-calm **lagoon** below the colony (setup names keep `basin` and
+   `canal_*`; the text is all river); `canal_junction_turn` is now the great
+   eddy where the river enters the lagoon, no gates. The lock block says
+   "winding natural rivers of blue-green water with settlements built up
+   along their banks".
+10. **No little spacemen.** The cast is the two twins and the chrome
+    mer-folk, nobody else. Witness figures are gone from every setup, water
+    scenes are populated by the mer-folk only, and the lock block now ends
+    the wardrobe line with "the only figures that ever appear are the two
+    twin sisters and the chrome mer-folk; no other people, no extras, no
+    spacemen."
+11. **The music has to show.** The owner's read of the video tests: the
+    shots are interesting but on their own will not convey the music; the
+    beat-locked overlay pass (plan section 7b — the vector engine's
+    register-driven elements composited over the footage) is what makes it
+    a music video. It moves up the order: build the overlay renderer and
+    judge it on the animatic before volume generation.
+
 Net: 50 cuts, 39 setups (was 47 / 37). The plan is now authored at the setup
 level in `shots/setups.json` (`still` = the frame, `motion` = the video
 sentence) and applied with `tools/shotplan.py --setups shots/setups.json`.
