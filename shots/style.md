@@ -105,10 +105,11 @@ longer loose style. The rule is that *hair*, which the generator treats as
 identity, carries the difference — never an accessory.)
 
 Both exist as reusable **Flow Characters** (portrait + full body) in the Flow
-project "Rivers of Mars - AI video": `Astronaut (Them 2)` and
-`Astronomer (Them 1)`. **Both Characters must be rebuilt** to this spec
-(dancer's build and carriage, the plain suit; the astronomer with hair up
-and no eyewear) before any v2 still is generated. Attach the
+project "Rivers of Mars - AI video": **`Astronaut v2 (Them 2)`** and
+**`Astronomer v2 (Them 1)`** (built 2026-09-02 to this spec: dancer's build
+and carriage, pixie nose, the plain suit; the astronomer with hair up and no
+eyewear). The 08-31 Characters `Astronaut (Them 2)` / `Astronomer (Them 1)`
+are superseded and must not be attached. Attach the
 Character (not loose refs) on every shot of her, and only the one Character
 the shot needs — attaching both, or asking for one twin in a session that
 just drew the other, is how the bleed happened.
