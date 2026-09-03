@@ -53,9 +53,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -107,9 +105,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -162,9 +158,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -217,9 +211,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -272,9 +264,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -327,9 +317,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -382,9 +370,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -437,9 +423,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -492,9 +476,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -547,9 +529,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -601,9 +581,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -656,9 +634,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -711,9 +687,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -766,9 +740,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -821,9 +793,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -876,9 +846,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -931,9 +899,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -986,9 +952,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1041,9 +1005,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1096,9 +1058,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1151,9 +1111,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1206,9 +1164,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1261,9 +1217,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1316,9 +1270,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1371,9 +1323,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1426,9 +1376,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1481,9 +1429,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1536,9 +1482,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1591,9 +1535,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1646,9 +1588,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1701,9 +1641,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1756,9 +1694,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1811,9 +1747,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1866,9 +1800,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1921,9 +1853,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -1976,9 +1906,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -2031,9 +1959,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -2086,9 +2012,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -2141,9 +2065,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -2196,9 +2118,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```
@@ -2250,9 +2170,7 @@ plants, striped gas planet and small moons in a mint-green sky. One riveted silv
 practical props. The only figures that ever appear are the two twin sisters
 and the chrome mer-folk; no other people, no extras, no spacemen. Soft even studio lighting, saturated pastel palette. Reflected light
 may move across faces and costumes but never changes the surface itself: no
-glitter, no scales, no sequins forming on skin or fabric. Camera locked off
-or moving in slow symmetrical push-ins and 90-degree lateral tracks; no
-handheld, no zooms, no whip pans, no speed ramps. Consistent cast, wardrobe
+glitter, no scales, no sequins forming on skin or fabric. Consistent cast, wardrobe
 and hair throughout. No text, no titles, no captions, no logos, no
 watermarks.
 ```

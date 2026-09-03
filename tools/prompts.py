@@ -104,10 +104,15 @@ def main():
         out += [f"- `{k}` — {v}" for k, v in refs.items()] + [""]
     out.append("---\n")
 
+    # the still prompt must not carry camera-motion words (they get drawn as
+    # captions), so the lock's camera sentence is dropped from Still blocks
+    still_lock = re.sub(r"\s*Camera locked off.*?speed ramps\.", "", lock, flags=re.S)
+
     def block(title, body):
         lines = [f"**{title}**", "", "```", body.strip()]
-        if lock:
-            lines += ["", lock]
+        lk = still_lock if title == "Still" else lock
+        if lk:
+            lines += ["", lk]
         return lines + ["```", ""]
 
     for key, shots in groups.items():
