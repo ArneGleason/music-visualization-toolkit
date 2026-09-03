@@ -146,6 +146,11 @@ accepts a local file, so the exact variant is used).
   frame defines. The other four (specimen table from A, weather from B, canal
   junction from A, colony vista from A) were submitted the same way on
   2026-09-02 evening, two takes each (`clips/inbox/test_*.mp4`).
+- **specimen_table_macro**: both takes are keepers — the silver-gloved
+  hands lift a map fragment and try it around the circle, deliberate, and
+  every pod, globe and fragment keeps its shape (the "every object keeps its
+  exact shape" line earned its place). Hands-and-props macros are a safe
+  category.
 - **mars_domes_wide**: take 2 is a clean slow push up the canal axis with
   nothing invented — the keeper, and proof the vista category is easy.
   Take 1 added two large silver-suited witnesses in the foreground that the
