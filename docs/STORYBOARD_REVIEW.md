@@ -110,7 +110,11 @@ confirm): heart-shaped, high cheekbones, large wide-set hazel-green eyes,
 small straight nose, full mouth, light freckles. Both Characters were
 rebuilt as `Astronaut v3 (Them 2)` / `Astronomer v3 (Them 1)`; the twin
 sheet held the face across the tweed/updo change on the first try. The
-astronaut A/B stills above are being re-run with v3.
+astronaut A/B stills were re-run with v3 (`_e`/`_f` in `board/v3/` and
+`board/frames/`): close-ups now on the dark neutral backdrop with the new
+face and plain suit, photographic; forest walks with lantern and green
+light, face consistent. v3 is the production cast unless the owner says
+otherwise.
 
 Verdict so far: with the plain suit, verbatim cast lines and Nano Banana
 Pro, Flow holds identity and style well enough that switching generators
