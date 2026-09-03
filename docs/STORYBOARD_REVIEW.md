@@ -114,7 +114,16 @@ astronaut A/B stills above are being re-run with v3.
 
 Verdict so far: with the plain suit, verbatim cast lines and Nano Banana
 Pro, Flow holds identity and style well enough that switching generators
-is not needed on this evidence; ChatGPT comparison below.
+is not needed on this evidence.
+
+**ChatGPT side** (one close-up, reference photo attached, same prompt):
+a genuinely handsome photographic close-up that obeyed the "soft dark
+neutral backdrop" Flow ignored, with the face close to the reference.
+So: prompt adherence and style are at least as good; what ChatGPT lacks is
+the reusable Character, the free x2 volume, and the direct hand-off to
+Frames-to-Video. **Decision: Flow (Nano Banana Pro + v3 Characters) for
+the pass; ChatGPT as the fixer for individual stills Flow will not obey
+(upload the result into Flow as a start frame).**
 
 ## Video tests (2026-09-02)
 
