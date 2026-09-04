@@ -194,6 +194,45 @@ matters more than the figure. Consequences for the regen pass:
   mer-folk) so the photo can be dropped from prompts that are short of
   ingredient slots.
 
+## The v6 pass, both generators (2026-09-03)
+
+All 41 setups regenerated twice from the same manifest
+(`codex/stills_manifest.json`, prompts verbatim, likeness / mer-folk /
+specimen / world-anchor photos attached per entry): Codex desktop on the
+OpenAI image model (`gpt-image-2`, 82 images, one guard failure) into
+`codex/out/`, and Flow / Nano Banana Pro x2 (84 images, the basin edge
+sent twice) into `board/v6flow/`. Side-by-side sheets:
+`board/v6_compare/v6_compare_1..6.jpg`.
+
+**Verdict: the Codex pass is the storyboard.** Both hold the face, but:
+
+- **Night is night in Codex.** Flow turned most "Night." prompts into
+  mint-green daylight (mars_night_wide, basin_moon_descent,
+  colony_goodnight_cascade, night_iris_title) because the attached world
+  anchor is a daylight-looking plate; the anchor overrode the prompt.
+- **Cast discipline.** Flow put spacemen, helmets and extra figures into
+  non-character shots (obs_dome_open, forest_fauna_moth, rain_to_canal,
+  interference_bloom, chorus_plunge, basin_edge_sync). Codex broke the
+  rule once (signal_crossing_space: twins and mer-folk in a group shot).
+- **Mer-folk.** Codex keeps the tails, the single eye and the identical
+  school in every water setup; Flow's school drifts toward drawn fish
+  (canal_junction_turn, basin_kaleidoscope_top).
+- **Illustration drift.** Flow slips into painted looks on forest_fauna_eyes,
+  rain_to_canal, canal_junction_turn; Codex stays photographic throughout.
+- **Flow alternates worth keeping:** telescope_time_tunnel A,
+  duet_lamplight_astronaut_sync A/B, obs_console_macro A, forest_threshold
+  A/B. Everything else is a Codex keeper by default.
+
+**Regen list (Codex, single stills):** signal_crossing_space (no people:
+the gold pulse over the globe only), chorus_plunge B (apparatus in frame),
+basin_edge_sync (bring the mer-folk ring up beside her).
+
+**Procedure notes.** Flow's `+` picker: uploading two files at once lands
+both in Recent but selects only one; upload one, Add, reopen, upload the
+next, Add. Reloading the page clears the chips. The panel entries and the
+grid tiles share `data-index`, which is how the harvest maps media ids back
+to prompts (`scratchpad/flow6/map6b.py`).
+
 ## Generator A/B, Flow side (2026-09-02)
 
 Nano Banana Pro, 16:9, x2, the v2 Characters attached, "Film still." lead,
