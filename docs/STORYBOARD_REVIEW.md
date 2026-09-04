@@ -227,6 +227,18 @@ sent twice) into `board/v6flow/`. Side-by-side sheets:
 the gold pulse over the globe only), chorus_plunge B (apparatus in frame),
 basin_edge_sync (bring the mer-folk ring up beside her).
 
+Those three were re-run as single stills in ChatGPT (same prompts, the
+photos attached in the chat; `board/v6_compare/fix_sheet.jpg`):
+signal_crossing_space now has no people (the gold pulse between globes;
+several Mars globes, so still a "usable, not final"), chorus_plunge got the
+clean overhead with a tail crossing the lens (keeper, staged as
+`chorus_plunge_r`), basin_edge_sync got one mer-folk beside her at the
+water's edge (alternate, staged as `basin_edge_sync_r`).
+
+The Codex pass is staged in `board/frames/` as variants `_p`/`_q`
+(contact sheet rebuilt, 41/41), and the Blender animatic was re-rendered
+with them on top: `out/blender_animatic_v6.mp4` (540p copy sent).
+
 **Procedure notes.** Flow's `+` picker: uploading two files at once lands
 both in Recent but selects only one; upload one, Add, reopen, upload the
 next, Add. Reloading the page clears the chips. The panel entries and the
