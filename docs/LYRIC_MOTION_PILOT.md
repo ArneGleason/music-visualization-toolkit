@@ -1,10 +1,24 @@
 # Lyric motion pilot — opening phrases
 
-Status: direction draft for review; no animation code or render has been made.
+Status: first working Blender pilot rendered; awaiting owner review.
 
 Pilot range: frames 150–725 at 24 fps (approximately 6.25–30.21 seconds).
 This covers the first six phrases, from “Hey, I need you for something” through
 “Then they don't quite match.”
+
+## Review render
+
+`out/lyric_motion_pilot_v03.mp4` is the current 1280×720 review version. It is
+24 seconds long, includes the matching music segment and eight selected
+storyboard cuts, and animates 116 individual glyphs. The media file remains
+local and ignored by Git. `out/lyric_motion_pilot_v03_contact.jpg` is a static
+QA sheet, not a substitute for judging the motion in the video.
+
+The implementation treats rigidity as a continuum from 0.0 (soft rubber) to
+1.0 (steel). Low-rigidity words pass motion through their letters with delayed
+bends, squash/stretch, overshoot, and unequal follow-through. High-rigidity
+words move nearly as one block and settle quickly. Because a phrase may assign
+different rigidity to each word, the apparent material can change mid-phrase.
 
 ## Why the words disappeared
 
@@ -152,22 +166,22 @@ Once the direction is approved, word attacks should be derived from the lead
 vocal stem, checked by ear, and snapped to musically intentional frame or
 eighth-note positions. Sung holds and consonants may require manual adjustment.
 
-## Proposed Blender implementation after approval
+## Blender implementation used in the pilot
 
-1. Preserve the existing `--lyrics` captions as the simple fallback.
-2. Add a separate optional lyric-motion data file; do not hard-code this pilot
-   into the compositor.
-3. Lay out one Blender VSE text strip per word. Reuse channels when words do not
-   overlap. Split only hero words such as “sounds,” “pieces,” and “match” into
-   per-letter strips.
-4. Keyframe opacity, color, text location, font size, and each strip's transform
-   scale/offset/rotation. Blender 5.2 exposes all of those properties in the
-   current headless VSE.
-5. Keep the lyric overlay independent of shot boundaries, so a phrase and its
+1. The existing `--lyrics` captions remain available as the simple fallback.
+2. `shots/lyric_motion_pilot.json` holds the optional choreography; the pilot
+   is not hard-coded into the compositor.
+3. Blender VSE uses one text strip per glyph so each letter can bend and settle
+   independently. Alternating channel banks let consecutive phrases overlap.
+4. Opacity, color, position, anisotropic scale, and rotation are keyframed.
+   Lyric transforms use auto-clamped curves; beat flashes keep their sharp
+   linear timing.
+5. Every glyph is placed around its own transform pivot, allowing local
+   squash/stretch and rotation without pulling the whole word apart.
+6. The lyric overlay is independent of shot boundaries, so a phrase and its
    gesture continue naturally over picture cuts.
-6. Render only frames 150–725 for the first test, both over the selected stills
-   and as a transparent overlay. Do not expand to the full song until this
-   pilot's motion language is approved.
+7. The audition remains limited to frames 150–725. Do not expand to the full
+   song until this motion language is approved.
 
 ## Review questions
 

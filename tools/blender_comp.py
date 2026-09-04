@@ -35,6 +35,7 @@ audio/song.wav, board/frames/<setup>_<variant>.jpg.
 from __future__ import annotations
 
 import argparse
+import math
 import os
 import pathlib
 import re
@@ -60,6 +61,8 @@ def build_parser():
                     help="output file; .mp4 for a movie, or a PNG path with a frame_ stem for a sequence")
     ap.add_argument("--proxy", action="store_true", help="1280x720 instead of 1920x1080")
     ap.add_argument("--lyrics", action="store_true", help="add lyric captions")
+    ap.add_argument("--lyric-motion", default=None,
+                    help="JSON choreography for per-letter lyric motion; replaces simple --lyrics captions")
     ap.add_argument("--overlay-only", action="store_true",
                     help="no footage/audio: render the overlay channels over transparency as PNG+alpha")
     ap.add_argument("--start", type=int, default=None, help="first output frame (0-based), for auditions")
@@ -229,7 +232,150 @@ def inside_blender(argv):
         key(pulse, "blend_alpha", B(f) + decay, 0.0)
 
     # ---- channel 5+: lyric captions -------------------------------------------
-    if a.lyrics:
+    if a.lyric_motion:
+        import blf
+
+        motion_path = pathlib.Path(a.lyric_motion)
+        if not motion_path.is_absolute():
+            motion_path = ROOT / motion_path
+        motion = json.loads(motion_path.read_text(encoding="utf-8"))
+        colors = {"Them 1": (1.0, 0.80, 0.35, 1.0),
+                  "Them 2": (0.55, 0.92, 1.0, 1.0)}
+        font_size = round(motion.get("font_size_720", 44) * H / 720)
+        baseline = motion.get("baseline_px_720", 64) * H / 720
+        blf.size(0, font_size)
+        space_w = blf.dimensions(0, " ")[0]
+
+        def transform_key(transform, path, frame, value):
+            setattr(transform, path, value)
+            transform.keyframe_insert(data_path=path, frame=frame)
+
+        def glyph_pose(word, index, count, phase=1.0):
+            rigidity = float(word.get("rigidity", 0.5))
+            rubber = 1.0 - rigidity
+            center = (count - 1) / 2
+            rel = (index - center) / max(1.0, center)
+            dx = float(word.get("dx", 0.0))
+            dy = float(word.get("dy", 0.0))
+            dx += rel * float(word.get("spread", 0.0)) * max(1, count - 1) / 2
+            split = float(word.get("split", 0.0))
+            if split and abs(rel) > 0.12:
+                dx += math.copysign(split, rel)
+            scatter = float(word.get("scatter", 0.0))
+            if scatter:
+                cluster = index % 3
+                dx += (-0.75, 0.15, 0.85)[cluster] * scatter
+                dy += (-0.20, 0.45, -0.10)[cluster] * scatter
+            curve = float(word.get("curve", 0.0))
+            dy += curve * (1.0 - rel * rel)
+            wave = float(word.get("wave", 0.0))
+            if wave:
+                dy += wave * math.sin(index * 1.15 + phase * math.pi)
+            rotation = float(word.get("rotation", 0.0))
+            rotation += float(word.get("bend", 0.0)) * rel * rubber
+            return dx, dy, float(word.get("sx", 1.0)), float(word.get("sy", 1.0)), rotation
+
+        n_glyph = 0
+        for phrase_index, phrase in enumerate(motion["phrases"]):
+            phrase_on, phrase_off = int(phrase["on"]), int(phrase["off"])
+            if phrase_off <= f0 or phrase_on > f1:
+                continue
+            words = phrase["words"]
+            glyph_widths = [[blf.dimensions(0, ch)[0] for ch in w["text"]] for w in words]
+            total_w = sum(sum(widths) for widths in glyph_widths) + space_w * (len(words) - 1)
+            x = (W - total_w) / 2
+            line_start = max(f0, phrase_on - 4)
+            line_end = min(f1 + 1, phrase_off + 6)
+            bank = 10 + (phrase_index % 2) * 42
+            glyph_number = 0
+            for word_index, (word, widths) in enumerate(zip(words, glyph_widths)):
+                count = len(widths)
+                rigidity = float(word.get("rigidity", 0.5))
+                rubber = 1.0 - rigidity
+                max_lag = min(5, max(0, (int(word["off"]) - int(word["on"])) // 3))
+                for glyph_index, (ch, char_w) in enumerate(zip(word["text"], widths)):
+                    gx = x + char_w / 2
+                    channel = bank + glyph_number
+                    t = strips.new_effect(
+                        name=f"motion_{phrase['id']}_{word_index}_{glyph_index}",
+                        type='TEXT', channel=channel, frame_start=B(line_start),
+                        length=line_end - line_start)
+                    t.text = ch
+                    t.font_size = font_size
+                    # Keep each single-glyph text box at frame centre, where
+                    # VSE rotation and anisotropic scaling have a useful local
+                    # pivot. Place the glyph with pixel transform offsets.
+                    # Positioning the text box itself away from centre makes
+                    # strip scaling orbit it around the full-frame origin.
+                    t.location = (0.5, 0.5)
+                    t.alignment_x = 'CENTER'
+                    t.anchor_x = 'CENTER'
+                    t.anchor_y = 'CENTER'
+                    base_x, base_y = gx - W / 2, baseline - H / 2
+                    t.color = colors.get(phrase.get("speaker"), (1.0, 0.96, 0.88, 1.0))
+                    t.use_bold = True
+                    t.use_shadow = True
+                    t.shadow_color = (0, 0, 0, 0.90)
+                    t.shadow_blur = 0.12
+                    t.use_outline = True
+                    t.outline_color = (0.02, 0.015, 0.01, 0.92)
+                    t.outline_width = 0.035
+                    t.blend_type = 'ALPHA_OVER'
+
+                    # The phrase remains readable: upcoming, active, spoken.
+                    key(t, "blend_alpha", B(line_start), 0.0)
+                    key(t, "blend_alpha", B(min(phrase_on, line_start + 4)), 0.34)
+                    key(t, "blend_alpha", B(int(word["on"])), 1.0)
+                    key(t, "blend_alpha", B(int(word["off"])), 0.72)
+                    key(t, "blend_alpha", B(max(phrase_off, line_end - 6)), 0.72)
+                    key(t, "blend_alpha", B(line_end - 1), 0.0)
+
+                    delay = round(rubber * glyph_index / max(1, count - 1) * max_lag)
+                    hit = min(int(word["off"]) - 1, int(word["on"]) + 2 + delay)
+                    anticipate = max(line_start, hit - 2)
+                    settle = min(int(word["off"]) - 1, hit + max(3, round(7 * rubber)))
+                    dx, dy, sx, sy, rotation = glyph_pose(word, glyph_index, count, 0.0)
+                    entry_dx = float(word.get("entry_dx", 0.0))
+                    ant_y = float(word.get("anticipation_y", -4.0 * rubber))
+
+                    for path, value in (("offset_x", base_x + entry_dx),
+                                        ("offset_y", base_y),
+                                        ("scale_x", 1.0), ("scale_y", 1.0),
+                                        ("rotation", 0.0)):
+                        transform_key(t.transform, path, B(line_start), value)
+                    transform_key(t.transform, "offset_x", B(anticipate), base_x - 0.25 * dx)
+                    transform_key(t.transform, "offset_y", B(anticipate), base_y + ant_y - 0.20 * dy)
+                    transform_key(t.transform, "scale_x", B(anticipate), 1.0 + (1.0 - sx) * 0.28)
+                    transform_key(t.transform, "scale_y", B(anticipate), 1.0 + (1.0 - sy) * 0.28)
+                    transform_key(t.transform, "rotation", B(anticipate), math.radians(-0.30 * rotation))
+
+                    overshoot = 1.0 + 0.18 * rubber
+                    transform_key(t.transform, "offset_x", B(hit), base_x + dx * overshoot)
+                    transform_key(t.transform, "offset_y", B(hit), base_y + dy * overshoot)
+                    transform_key(t.transform, "scale_x", B(hit), 1.0 + (sx - 1.0) * overshoot)
+                    transform_key(t.transform, "scale_y", B(hit), 1.0 + (sy - 1.0) * overshoot)
+                    transform_key(t.transform, "rotation", B(hit), math.radians(rotation * overshoot))
+
+                    dx2, dy2, sx2, sy2, rotation2 = glyph_pose(word, glyph_index, count, 1.0)
+                    transform_key(t.transform, "offset_x", B(settle), base_x + dx2 * 0.30)
+                    transform_key(t.transform, "offset_y", B(settle), base_y + dy2 * 0.30)
+                    transform_key(t.transform, "scale_x", B(settle), 1.0 + (sx2 - 1.0) * 0.30)
+                    transform_key(t.transform, "scale_y", B(settle), 1.0 + (sy2 - 1.0) * 0.30)
+                    transform_key(t.transform, "rotation", B(settle), math.radians(rotation2 * 0.30))
+
+                    release = int(word["off"])
+                    recoil_x = float(word.get("recoil_x", 0.0))
+                    recoil_y = float(word.get("recoil_y", 0.0))
+                    transform_key(t.transform, "offset_x", B(release), base_x + recoil_x)
+                    transform_key(t.transform, "offset_y", B(release), base_y + recoil_y)
+                    transform_key(t.transform, "scale_x", B(release), 1.0)
+                    transform_key(t.transform, "scale_y", B(release), 1.0)
+                    transform_key(t.transform, "rotation", B(release), 0.0)
+                    glyph_number += 1
+                    n_glyph += 1
+                    x += char_w
+                x += space_w
+    elif a.lyrics:
         colors = {"Them 1": (1.0, 0.80, 0.35, 1.0), "Them 2": (0.55, 0.92, 1.0, 1.0)}
         for i, ly in enumerate(cues["lyrics"]):
             on, off = ly["on"], max(ly["off"], ly["on"] + 6)
@@ -263,7 +409,12 @@ def inside_blender(argv):
                         fcurves.extend(cb.fcurves)
         for fc in fcurves:
             for kp in fc.keyframe_points:
-                kp.interpolation = 'LINEAR'
+                if 'motion_' in fc.data_path:
+                    kp.interpolation = 'BEZIER'
+                    kp.handle_left_type = 'AUTO_CLAMPED'
+                    kp.handle_right_type = 'AUTO_CLAMPED'
+                else:
+                    kp.interpolation = 'LINEAR'
 
     # ---- output ---------------------------------------------------------------
     out = pathlib.Path(a.out)
@@ -294,9 +445,11 @@ def inside_blender(argv):
         bp.parent.mkdir(parents=True, exist_ok=True)
         bpy.ops.wm.save_as_mainfile(filepath=str(bp))
 
+    lyric_mode = "motion" if a.lyric_motion else ("simple" if a.lyrics else "off")
     print(f"[blender_comp] {W}x{H} @ {fps:g} fps, frames {sc.frame_start}-{sc.frame_end} "
           f"({sc.frame_end - sc.frame_start + 1}); cut: {n_clip} clips, {n_still} stills, {n_slate} slates; "
-          f"{len(cues['beats'])} beats, lyrics={'on' if a.lyrics else 'off'}")
+          f"{len(cues['beats'])} beats, lyrics={lyric_mode}" +
+          (f" ({n_glyph} glyphs)" if a.lyric_motion else ""))
     bpy.ops.render.render(animation=True)
     print(f"[blender_comp] wrote {r.filepath}")
 

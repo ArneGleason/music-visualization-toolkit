@@ -29,6 +29,16 @@ The approved image set includes the targeted revisions made on 2026-09-04:
 | `duet_lamplight_astronomer_sync` | B | A weary end-of-day beat beside a period-futurist television; pinned hair is restored, though the pencil is not clearly visible. |
 | `duet_lamplight_astronaut_sync` | B | Darker exterior and dim evening interior, with small practical lights. |
 
+### Lyric-motion pilot awaiting review
+
+An optional per-glyph lyric system has been tested on the first six phrases,
+frames 150–725. It treats letter motion as a continuum between soft rubber and
+rigid steel, allowing material behavior to change within a phrase. The current
+local review file is `out/lyric_motion_pilot_v03.mp4`; its editable motion data
+is tracked in `shots/lyric_motion_pilot.json`. See
+`docs/LYRIC_MOTION_PILOT.md` for the word-by-word direction. No later lyrics
+have been choreographed yet.
+
 ## Timing remains editable
 
 The selected stills define compositions and future start/reference frames;

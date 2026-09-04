@@ -1,0 +1,88 @@
+{
+  "_comment": "Opening lyric-motion audition. Word frames are provisional; line frames come from the register. Rigidity runs 0.0 (rubber) to 1.0 (steel).",
+  "fps": 24,
+  "start": 150,
+  "end": 725,
+  "font_size_720": 44,
+  "baseline_px_720": 64,
+  "phrases": [
+    {
+      "id": "pilot-001",
+      "text": "Hey, I need you for something.",
+      "speaker": "Them 1",
+      "on": 156,
+      "off": 284,
+      "words": [
+        {"text": "Hey,", "on": 156, "off": 175, "rigidity": 0.25, "dx": 0, "dy": 12, "sx": 1.10, "sy": 1.10, "rotation": 2, "bend": 5, "entry_dx": -10},
+        {"text": "I", "on": 175, "off": 185, "rigidity": 0.75, "dy": 4, "sx": 1.04, "sy": 1.04},
+        {"text": "need", "on": 185, "off": 205, "rigidity": 0.12, "dy": 10, "sx": 1.10, "sy": 1.15, "rotation": 3, "bend": 9},
+        {"text": "you", "on": 205, "off": 225, "rigidity": 0.35, "dx": 16, "dy": 5, "sx": 1.08, "sy": 1.08, "bend": 4},
+        {"text": "for", "on": 225, "off": 245, "rigidity": 0.70, "dy": 4, "sx": 1.04, "sy": 1.04},
+        {"text": "something.", "on": 245, "off": 284, "rigidity": 0.08, "dy": 8, "sx": 1.05, "sy": 1.08, "split": 6, "curve": 8, "bend": 10}
+      ]
+    },
+    {
+      "id": "pilot-002",
+      "text": "It's important.",
+      "speaker": "Them 1",
+      "on": 284,
+      "off": 332,
+      "words": [
+        {"text": "It's", "on": 284, "off": 300, "rigidity": 0.20, "dy": 7, "sx": 1.06, "sy": 1.08, "bend": 6},
+        {"text": "important.", "on": 300, "off": 332, "rigidity": 0.94, "dy": -8, "sx": 1.20, "sy": 0.94, "anticipation_y": 12, "recoil_y": 4}
+      ]
+    },
+    {
+      "id": "pilot-003",
+      "text": "More than that sounds.",
+      "speaker": "Them 1",
+      "on": 387,
+      "off": 464,
+      "words": [
+        {"text": "More", "on": 387, "off": 404, "rigidity": 0.68, "dy": 5, "sx": 1.18, "sy": 0.94},
+        {"text": "than", "on": 404, "off": 422, "rigidity": 0.82, "dx": 8, "dy": 3, "sx": 1.04, "sy": 1.02},
+        {"text": "that", "on": 422, "off": 439, "rigidity": 0.82, "dx": -8, "dy": 3, "sx": 1.04, "sy": 1.02},
+        {"text": "sounds.", "on": 439, "off": 464, "rigidity": 0.04, "dy": 6, "sx": 1.05, "sy": 1.12, "wave": 15, "bend": 10}
+      ]
+    },
+    {
+      "id": "pilot-004",
+      "text": "I've got pieces.",
+      "speaker": "Them 1",
+      "on": 516,
+      "off": 602,
+      "words": [
+        {"text": "I've", "on": 516, "off": 541, "rigidity": 0.70, "dy": 4, "sx": 1.03, "sy": 1.03},
+        {"text": "got", "on": 541, "off": 566, "rigidity": 0.86, "dy": -5, "sx": 1.08, "sy": 0.90, "anticipation_y": 7},
+        {"text": "pieces.", "on": 566, "off": 602, "rigidity": 0.08, "dy": 5, "sx": 1.06, "sy": 1.08, "scatter": 14, "wave": 8, "bend": 12}
+      ]
+    },
+    {
+      "id": "pilot-005",
+      "text": "Things that almost fit.",
+      "speaker": "Them 1",
+      "on": 620,
+      "off": 658,
+      "words": [
+        {"text": "Things", "on": 620, "off": 631, "rigidity": 0.22, "dy": 6, "sx": 1.07, "sy": 1.08, "bend": 5},
+        {"text": "that", "on": 631, "off": 639, "rigidity": 0.72, "dy": 4, "sx": 1.03, "sy": 1.03},
+        {"text": "almost", "on": 639, "off": 651, "rigidity": 0.14, "dy": 8, "sx": 0.88, "sy": 1.08, "spread": -1.5, "bend": 5},
+        {"text": "fit.", "on": 651, "off": 658, "rigidity": 0.25, "dx": -6, "dy": 8, "sx": 1.08, "sy": 1.06, "recoil_x": 4}
+      ]
+    },
+    {
+      "id": "pilot-006",
+      "text": "Then they don't quite match.",
+      "speaker": "Them 1",
+      "on": 680,
+      "off": 719,
+      "words": [
+        {"text": "Then", "on": 680, "off": 686, "rigidity": 0.94, "dy": 2, "sx": 1.03, "sy": 1.02},
+        {"text": "they", "on": 686, "off": 693, "rigidity": 0.92, "dy": 2, "sx": 1.03, "sy": 1.02},
+        {"text": "don't", "on": 693, "off": 699, "rigidity": 0.16, "dy": 5, "sx": 1.06, "sy": 1.10, "rotation": 3, "split": 4, "bend": -8},
+        {"text": "quite", "on": 699, "off": 709, "rigidity": 0.32, "dy": -5, "sx": 1.05, "sy": 1.08, "bend": 5},
+        {"text": "match.", "on": 709, "off": 719, "rigidity": 0.08, "dx": -8, "dy": -5, "sx": 1.10, "sy": 1.12, "rotation": -3, "bend": 12, "wave": 6, "recoil_x": 12}
+      ]
+    }
+  ]
+}
