@@ -162,6 +162,38 @@ Veo keeps a start frame's identity through a clip, so the fix is procedure
 (references attached, anchors attached, pick from x2/x4) before it is a
 different generator; ChatGPT stays the fixer for single stills.
 
+## Lock comparison, Flow vs ChatGPT (2026-09-03)
+
+Four setups regenerated in both generators with the locked likeness
+attached (`refs/astronaut_likeness.jpg` on the twin shots,
+`refs/merfolk_likeness.jpg` on the ring); Flow also had the `Astronaut v3`
+Character attached. Sheet: `board/v5/lock_compare.jpg` (reference, Flow A,
+Flow B, ChatGPT per row); sources in `board/v5/`.
+
+| setup | Flow (Character + photo) | ChatGPT (photo) |
+|---|---|---|
+| astronaut_close_sync | same face in both variants; near-identical to the reference | same face; slightly rounder cheek, otherwise a match |
+| astronaut_inspect_medium | same face; A holds the helical specimen (keeper), B a limp membrane | same face; specimen reads as a glowing helix; environment is lusher, more painted |
+| mars_night_wide | same face at a distance; honors the lock's striped gas planet and small moons; lantern post and winding river — usable as is | face holds; drops the gas planet; matte-painting look, but the winding river with settlements on its banks is the better reading of the world |
+| merfolk_surface_ring | practically a re-print of the reference (identical school, one eye) | one eye held, but the tails are gone and the ring became a splashing crowd |
+
+**Verdict.** The lock comes from the attached likeness photograph, not
+from the generator: with it attached, both tools hold the face across a
+close-up, a medium and a wide. Flow stays primary (free stills, the
+Character, and the still goes straight to Veo as a start frame); ChatGPT
+stays the fixer, and is the stronger choice when a wide environment
+matters more than the figure. Consequences for the regen pass:
+
+- Every twin still: Character + `astronaut_likeness.jpg` attached, x2, pick.
+- Every mer-folk still: `merfolk_likeness.jpg` attached; the school is
+  now a fixed prop, so vary the framing, not the creatures.
+- Flow follows the lock block more literally (the gas planet, the
+  backdrop); ChatGPT follows the prose and the photo. Keep the lock block
+  as the contract and write ChatGPT prompts from it, not freehand.
+- Build the v4 Characters from the likeness (astronaut, astronomer twin,
+  mer-folk) so the photo can be dropped from prompts that are short of
+  ingredient slots.
+
 ## Generator A/B, Flow side (2026-09-02)
 
 Nano Banana Pro, 16:9, x2, the v2 Characters attached, "Film still." lead,

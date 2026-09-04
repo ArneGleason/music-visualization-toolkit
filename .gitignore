@@ -43,3 +43,6 @@ projects/*/project.local.json
 
 # derived cue files for the Blender composite
 generated/
+
+# generation passes (v2, v3, v4, v5 ...)
+board/v*/
