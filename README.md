@@ -158,3 +158,8 @@ This is an extracted working toolkit rather than a packaged library. Some
 tools still assume the directory conventions of the original project. The
 scripts are intentionally straightforward so those assumptions are easy to
 replace as new music-video projects are added.
+
+The current live-action **Rivers of Mars** production pause point is documented
+in [docs/PRODUCTION_STATUS.md](docs/PRODUCTION_STATUS.md). The owner's 41
+approved storyboard choices are preserved separately from the ignored image
+files in [shots/still_favorites.md](shots/still_favorites.md).

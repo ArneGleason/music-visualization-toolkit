@@ -126,8 +126,18 @@ def inside_blender(argv):
     if a.favorites:
         fav_path = pathlib.Path(a.favorites)
         for m in re.finditer(r"^\|\s*\d+\s*\|\s*`([\w-]+)`\s*\|[^|]*\|\s*([AB])\s*\|\s*`([^`]+)`", fav_path.read_text(encoding="utf-8"), re.M):
-            f = (fav_path.parent / m.group(3)).resolve()
-            if f.exists():
+            listed = pathlib.Path(m.group(3))
+            # The handoff stores paths relative to codex/ (for example
+            # ``out/setup_a.jpg``), while the Markdown itself lives in
+            # codex/out/. Resolve that convention first; retain support for a
+            # filename written relative to the Markdown file.
+            candidates = (
+                [listed]
+                if listed.is_absolute()
+                else [fav_path.parent.parent / listed, fav_path.parent / listed]
+            )
+            f = next((candidate.resolve() for candidate in candidates if candidate.exists()), None)
+            if f is not None:
                 favorites[m.group(1)] = f
 
     def pick_still(setup):

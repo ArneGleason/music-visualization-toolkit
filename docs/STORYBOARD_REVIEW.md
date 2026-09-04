@@ -246,6 +246,16 @@ the variant order. The letterbox bars are now opt-in (`--letterbox`): on a
 16:9 still they covered the top 13% of the frame, which took the heads off
 the standing shots. The full frame is shown by default.
 
+## Approved stills and pause point (2026-09-04)
+
+The owner completed a second A/B review after six targeted regenerations. All
+41 setups now have an approved favorite, recorded in the tracked
+`shots/still_favorites.md`; generated JPEGs remain local under `codex/out/`.
+The updated favorites animatic is
+`out/blender_animatic_v6_regen_fav.mp4` (59 still cuts, zero slates, 199.253 s),
+with a 540p sharing copy beside it. See `docs/PRODUCTION_STATUS.md` for the
+current handoff, timing-edit workflow, and recommended order before lip sync.
+
 **Procedure notes.** Flow's `+` picker: uploading two files at once lands
 both in Recent but selects only one; upload one, Add, reopen, upload the
 next, Add. Reloading the page clears the chips. The panel entries and the
