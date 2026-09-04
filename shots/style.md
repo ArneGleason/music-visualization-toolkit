@@ -197,6 +197,8 @@ the surface suit, unchanged.
 - ref astronaut_likeness: refs/astronaut_likeness.jpg
 - ref specimen_ref: refs/specimen_ref.jpg
 - ref merfolk_likeness: refs/merfolk_likeness.jpg
+- ref merfolk_likeness_gpt: refs/merfolk_likeness_gpt.jpg
+- ref world_anchor: refs/world_anchor.jpg
 - ref character_master: refs/character_master.png
 - ref astronaut_front: refs/astronaut_front.jpg
 - ref astronaut_close: refs/astronaut_close.png
