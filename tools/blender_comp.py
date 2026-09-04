@@ -67,6 +67,10 @@ def build_parser():
     ap.add_argument("--save-blend", default=None, help="also save the .blend for hand tweaking")
     ap.add_argument("--variant-order", default="f,e,d,c,b,a",
                     help="which still variant to prefer per setup when several exist")
+    ap.add_argument("--favorites", default=None,
+                    help="owner's A/B picks (codex/out/still_favorites.md); a listed setup uses that file")
+    ap.add_argument("--letterbox", action="store_true",
+                    help="draw 2.39:1 letterbox bars over the frame (off by default: they cropped heads)")
     return ap
 
 
@@ -117,7 +121,18 @@ def inside_blender(argv):
         key = re.sub(r"_(\d+|[a-z])$", "", p.stem)
         stills_by_setup.setdefault(key, []).append(p)
 
+    # owner's A/B picks (codex/out/still_favorites.md): "| n | `setup` | slate | A | `out/file.jpg` |"
+    favorites = {}
+    if a.favorites:
+        fav_path = pathlib.Path(a.favorites)
+        for m in re.finditer(r"^\|\s*\d+\s*\|\s*`([\w-]+)`\s*\|[^|]*\|\s*([AB])\s*\|\s*`([^`]+)`", fav_path.read_text(encoding="utf-8"), re.M):
+            f = (fav_path.parent / m.group(3)).resolve()
+            if f.exists():
+                favorites[m.group(1)] = f
+
     def pick_still(setup):
+        if setup in favorites:
+            return favorites[setup]
         cands = stills_by_setup.get(setup or "", [])
         if not cands:
             return None
@@ -168,9 +183,10 @@ def inside_blender(argv):
         if wav.exists():
             strips.new_sound(name="master", filepath=str(wav), channel=2, frame_start=B(0))
 
-    # ---- channel 3: letterbox -------------------------------------------------
+    # ---- channel 3: letterbox (opt-in: the bars cover the top and bottom of a
+    # 16:9 still, which took the heads off the standing shots) ----------------
     bar_h = round(H * 0.128)
-    for i, y in enumerate((H / 2 - bar_h / 2, -(H / 2 - bar_h / 2))):
+    for i, y in enumerate((H / 2 - bar_h / 2, -(H / 2 - bar_h / 2)) if a.letterbox else ()):
         bar = strips.new_effect(name=f"letterbox_{i}", type='COLOR', channel=3, frame_start=B(f0), length=f1 - f0 + 1)
         bar.color = (0, 0, 0)
         bar.transform.scale_y = bar_h / H
