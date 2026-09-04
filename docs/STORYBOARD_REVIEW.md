@@ -239,6 +239,13 @@ The Codex pass is staged in `board/frames/` as variants `_p`/`_q`
 (contact sheet rebuilt, 41/41), and the Blender animatic was re-rendered
 with them on top: `out/blender_animatic_v6.mp4` (540p copy sent).
 
+**Owner's A/B picks** live in `codex/out/still_favorites.md` (41/41
+reviewed, written by Codex's review tool). `tools/blender_comp.py
+--favorites codex/out/still_favorites.md` uses that file per setup ahead of
+the variant order. The letterbox bars are now opt-in (`--letterbox`): on a
+16:9 still they covered the top 13% of the frame, which took the heads off
+the standing shots. The full frame is shown by default.
+
 **Procedure notes.** Flow's `+` picker: uploading two files at once lands
 both in Recent but selects only one; upload one, Add, reopen, upload the
 next, Add. Reloading the page clears the chips. The panel entries and the
