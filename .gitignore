@@ -46,3 +46,8 @@ generated/
 
 # generation passes (v2, v3, v4, v5 ...)
 board/v*/
+
+# Codex handoff folder: media in, media out
+codex/refs/*.jpg
+codex/out/*
+!codex/out/.gitkeep

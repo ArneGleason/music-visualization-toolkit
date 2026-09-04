@@ -1,0 +1,17 @@
+Work inside the folder
+C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\codex
+Read README.md there first, then stills_manifest.json.
+
+Generate every storyboard still listed in the manifest with the OpenAI image
+model: use the image edit endpoint with the entry's refs attached as input
+images, pass the prompt verbatim, size 1536x1024, quality high, two variants
+per setup, and save them as JPEG to exactly the listed output paths under
+out/. Follow the procedure and the acceptance guards in README.md: never
+paraphrase a prompt or drop the lock block, skip entries whose outputs
+already exist, append refusals and errors to out/_log.md and keep going, and
+finish by writing out/_report.md.
+
+Write only inside out/. Do not modify anything else in the folder or the
+repository, do not commit, and do not generate video. Before the first API
+call, tell me the number of images and the approximate cost, then proceed
+without further questions.
