@@ -29,11 +29,11 @@ The approved image set includes the targeted revisions made on 2026-09-04:
 | `duet_lamplight_astronomer_sync` | B | A weary end-of-day beat beside a period-futurist television; pinned hair is restored, though the pencil is not clearly visible. |
 | `duet_lamplight_astronaut_sync` | B | Darker exterior and dim evening interior, with small practical lights. |
 
-### Full flat-shape lyric animatic v03 ready for review
+### Full flat-shape lyric animatic v04 rendered and reviewed
 
 The approved flat Fredoka treatment now covers the complete song: 87 lyric
 lines and 305 individually animated words across all 4,782 frames. The current
-local review file is `out/blender_animatic_flat_lyrics_v03.mp4`: 1280×720,
+local review file is `out/blender_animatic_flat_lyrics_v04.mp4`: 1280×720,
 24 fps, 199.25 seconds, 59 selected-still cuts, and continuous master audio.
 The text has no backing rectangle or visible 3D treatment. Scene-aware color
 eases over 12 frames at cuts and switches to a dark fill for unusually bright
@@ -67,14 +67,18 @@ space and “Can’t tell you / if they’re true.” Repeated bar-length EDL en
 reuse that same setup, so they create no visible picture change. The tracked
 overrides in `shots/plan.json` survive `tools/shotplan.py --merge`, and the
 current passage review is `out/shot_timing_review_v04.mp4`. The owner approved
-this passage on 2026-09-05 as “a lot better.” The full v03 movie predates these
-four timing changes.
+this passage on 2026-09-05 as “a lot better.” The full v04 movie incorporates
+all four changes. It was rendered and reviewed across the complete song on
+2026-09-05: 4,782 video frames at 24 fps, 199.250 seconds of picture, 199.241
+seconds of AAC audio, and no missing-image slates or accidental black sections.
+The four review contact sheets are local under `out/animatic_v04_review_*.jpg`.
 
-Next session: render the complete stills-only lyric animatic as v04 from the
-current shot list and choreography, verify all 4,782 frames and the master
-audio, then use that full render for the next editorial review. Do not replace
-the approved stills with the ignored motion clips unless a motion-clip review
-is explicitly requested.
+Next session: build one restrained DAW-driven compositing pilot over the local
+river-chorus motion review, then compare it with the unaltered chorus before
+extending the effect language. The reviewable direction and approval gate are
+in [`docs/DAW_VISUALIZATION_OVERLAY_PLAN.md`](DAW_VISUALIZATION_OVERLAY_PLAN.md).
+Claude is separately preparing motion and lip-sync clips; do not replace those
+files or alter their assignments while that work is in progress.
 
 Editable full-song choreography is tracked in
 `shots/lyric_motion_full.json`. Heard word-timing corrections can be marked in
