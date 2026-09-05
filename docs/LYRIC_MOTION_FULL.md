@@ -3,6 +3,11 @@
 Status: second complete animatic rendered for owner timing, motion, and
 readability review.
 
+The pending v03 typography/timing audition is
+`out/lyric_scale66_alignment_check_v03.mp4`. It covers frames 900–1300 so the
+smaller type and corrected rapid dialogue can be judged before another full
+render.
+
 ## Current review render
 
 `out/blender_animatic_flat_lyrics_v02.mp4` is the current complete 1280×720
@@ -41,6 +46,14 @@ Only one or two content words receive the large semantic gesture in a normal
 line. Function words retain the presence handoff with restrained motion.
 Overlapping call-and-response lines use a second baseline 58 pixels higher.
 
+## Typography scale
+
+`type_scale` at the top of `shots/lyric_motion_full.json` scales the font,
+tracking, word gaps, and active-word shadow offset as one system. The v03
+audition sets it to `0.66`; changing it to `0.75` is the reversible alternative
+if two-thirds size proves too quiet. The lower-third baseline itself does not
+move.
+
 ## Color and contrast
 
 The renderer samples the lower portion of each selected still, chooses a
@@ -68,9 +81,17 @@ These values are editable at the top of `shots/lyric_motion_full.json` as
 
 ## Timing review
 
-Line frames come from `generated/overlay_cues.json`. Word frames after the
-opening pilot are provisional length-weighted placements, intended to be
-corrected by ear before lip sync or final footage.
+Line frames come from `generated/overlay_cues.json`. The first six phrases
+retain their hand-authored word frames. A conservative local Whisper pass over
+the master mix has moved 80 demonstrably late words earlier across 30 fully
+matched later phrases. It never moved a word later. Remaining later-song word
+frames are provisional length-weighted placements, intended to be corrected by
+ear before lip sync or final footage.
+
+`shots/lyric_alignment_report.md` records every applied frame change and its
+lexical match and confidence. `tools/align_lyric_words.py` can reproduce the
+early-only correction from a local word-timestamp transcript. The generated
+Whisper transcript stays under `out/` and out of Git.
 
 Use `shots/lyric_timing_review_full.md` as the listening sheet. Enter `OK`,
 `on -3f`, `on +2f`, or an exact value such as `on=181`, plus a listening note.

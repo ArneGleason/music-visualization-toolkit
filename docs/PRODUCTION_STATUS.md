@@ -41,6 +41,14 @@ lyric zones. Normal lines now clear four frames before the next onset; the five
 registered counter-vocal overlaps remain on two baselines. The active word
 turns warm white and gains a tight glyph-shaped charcoal contrast silhouette.
 
+A v03 excerpt is awaiting owner review at
+`out/lyric_scale66_alignment_check_v03.mp4` (frames 900–1300). It scales the
+entire typography system to 66% while leaving the baseline fixed. A
+conservative local Whisper comparison also pulled 80 late words earlier across
+30 fully matched later-song phrases; no word was moved later and the first six
+hand-timed phrases were preserved. Every change is recorded in
+`shots/lyric_alignment_report.md`.
+
 Editable full-song choreography is tracked in
 `shots/lyric_motion_full.json`. Heard word-timing corrections can be marked in
 `shots/lyric_timing_review_full.md`. The first six hand-authored pilot phrases

@@ -181,10 +181,12 @@ def build_full(cues, pilot):
 
     full = {k: v for k, v in pilot.items() if k != "phrases"}
     full["_comment"] = (
-        "Full-song flat lyric choreography. First six phrases are hand-authored; "
-        "later word frames are provisional and reviewed in shots/lyric_timing_review_full.md.")
+        "Full-song flat lyric choreography baseline. First six phrases are "
+        "hand-authored; later word frames begin provisional and may be refined "
+        "with tools/align_lyric_words.py and shots/lyric_timing_review_full.md.")
     full["start"] = 0
     full["end"] = int(cues["frames"]) - 1
+    full["type_scale"] = 0.66
     full["backing_band"] = False
     full["line_preroll_frames"] = 1
     full["line_tail_frames"] = 0

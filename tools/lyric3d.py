@@ -176,10 +176,17 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
     band_mat = _band_material(bpy, "LyricBackingBand") if use_band else None
 
     scale_720 = height / 720.0
-    font_size = float(motion.get("font_size_720", 44)) / 74.0 * scale_720
+    type_scale = float(motion.get("type_scale", 1.0))
+    font_size = (
+        float(motion.get("font_size_720", 44)) * type_scale
+        / 74.0 * scale_720)
     baseline_px = float(motion.get("baseline_px_720", 64)) * scale_720
-    tracking = float(motion.get("tracking_px_720", 8)) / 74.0 * scale_720
-    word_gap = float(motion.get("word_gap_px_720", 24)) / 74.0 * scale_720
+    tracking = (
+        float(motion.get("tracking_px_720", 8)) * type_scale
+        / 74.0 * scale_720)
+    word_gap = (
+        float(motion.get("word_gap_px_720", 24)) * type_scale
+        / 74.0 * scale_720)
     # Camera field height at z=0.  Convert a lower-edge pixel baseline to world Y.
     field_h = 2.0 * camera.location.z * math.tan(
         0.5 * 2.0 * math.atan(cam_data.sensor_width / (2.0 * cam_data.lens))
@@ -297,8 +304,8 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
             shadow.parent = obj
             px_world = field_h / height
             shadow.location = (
-                shadow_offset_px * px_world,
-                -shadow_offset_px * px_world,
+                shadow_offset_px * type_scale * px_world,
+                -shadow_offset_px * type_scale * px_world,
                 -0.030,
             )
             shadow.scale = (shadow_expand, shadow_expand, 1.0)
