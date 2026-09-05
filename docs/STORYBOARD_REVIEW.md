@@ -292,7 +292,15 @@ setup's Video prompt, Veo 3.1 Quality, 720p, 8 s, x1 (100 credits each).
   setups, `chorus_close_sync` (s045–s046) and `basin_edge_sync`
   (s041–s042), driven by 8 s lead-vocal slices
   (`clips/inbox/chorus_close_vocal8.wav`, `basin_edge_vocal8.wav`) so the
-  audio covers the whole clip.
+  audio covers the whole clip. Both ran (10 credits each, free tier, one
+  task at a time, KlingAI watermark bottom right): `clips/raw/
+  chorus_close_sync_kling.mp4`, `basin_edge_sync_kling.mp4`, assigned to
+  s045–s046 and s041–s042. `out/chorus_motion_v3_sync.mp4` is the chorus
+  with the synced mouths under the master mix.
+- Kling driving notes: the Lip Sync editor stalls at "Uploading video" while
+  its tab is hidden; it needs the tab in front. Result cards only expose a
+  Download button (browser download), so the clips come in through
+  `~/Downloads`. The share icon next to it opens Publish, not download.
 
 ## Generator A/B, Flow side (2026-09-02)
 
