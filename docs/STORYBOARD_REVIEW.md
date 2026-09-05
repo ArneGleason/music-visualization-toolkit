@@ -339,9 +339,67 @@ setup's Video prompt, Veo 3.1 Quality, 720p, 8 s, x1 (100 credits each).
   `shots/lyric_motion_full.json`; not touched here.
 - **Latest section renders:** `out/chorus_motion_v3_sync.mp4` (before the
   retime) and `out/chorus_motion_v4_retimed.mp4` (after).
-- **Next:** clean Kling pass on the two chorus shots, then Flow
-  Frames-to-Video on the remaining 33 setups (real-click picker, first-frame
-  check), then Kling on the other eleven sung runs.
+- **Next (done later the same day, see "Full motion pass"):** clean Kling
+  pass on the two chorus shots, then Flow Frames-to-Video on the remaining
+  33 setups (real-click picker, first-frame check), then Kling on the other
+  eleven sung runs.
+
+## Full motion pass (2026-09-05)
+
+Every setup in the cut now has motion. All 59 shots carry a clip.
+
+- **Flow, the remaining 33 setups:** one Frames-to-Video take each (Veo
+  3.1 Quality, 8 s, start frame = the approved Codex still), filed as
+  `clips/raw/<setup>_v6.mp4`. Every clip's first frame was diffed against
+  the 82 Codex stills and matched its own approved still (mean pixel
+  difference about 1, runner-up 9 or worse), so no start-frame mix-ups
+  this time. Two "Failed, not charged" cards appeared mid-run; the failed
+  sends were re-sent and the harvest found exactly 33 clips, no duplicates.
+  Ultra credit spend: 3,300.
+- **Assignments** (`shots/shotlist.json`): one clip per setup, so repeats
+  of a setup take later in-points to avoid replaying the same seconds:
+  canal_map_macro s004/s006/s008 at 0/2.5/5.1 s, signal_crossing s011 at
+  2.9, forest_walk s020 at 2.9, specimen_table s025 at 2.3, canal_current
+  s053 at 2.9. The rockets landing run s036-s038 plays continuously
+  (0 / 1.27 / 4.13 s); s039 restarts the clip at 0 because the four cuts
+  add up to 9.9 s and the clip is 8 s - a deliberate on-the-beat reprise,
+  swap for a second take if it reads as a stutter. s033-s034 (duet) play
+  continuously (0 / 2.86 s).
+- **Full render:** `out/full_motion_v1.mp4` (with lyric captions, no
+  letterbox), the first all-motion animatic. Cut-frame sheet
+  `out/full_motion_v1_cuts.jpg`.
+- **Kling, the eleven remaining sung runs** (Standard plan, 10 credits
+  each, 686 -> 576): s003, s005, s007, s012, s014, s026, s031, s033 (+s034
+  in the same 8 s), s054, s055, s057. Vocal slices are 8 s from each cut
+  start (`clips/inbox/kling_<shot>_vocal8.wav`), so every sync clip is
+  assigned with `in_sec` 0 (s034 continues at 2.86). The plan accepts four
+  jobs in flight at once. The duet s033 is a first pass with the whole
+  slice on Kling's "Character 1" (the astronomer, frame left); the
+  call-and-response needs the slice split per line and given to each twin
+  once the line owners are confirmed. Results still need downloading with
+  the "Without Watermark" toggle and filing as
+  `clips/raw/<setup>_s0NN_kling.mp4`.
+
+### Flow harvest notes (new UI)
+
+- Tiles rendered while the page is open carry `flow-content.google` ids;
+  tiles loaded from the listing carry opaque `flow.google.com/asb/...`
+  thumbnails with no id. To get the id of any tile, toggle its Favorite:
+  the `mYWVGd` batchexecute response holds the caption, the media id and a
+  second uppercase id. Hook `XMLHttpRequest.prototype.open` in the page
+  (the javascript tool runs in the main world), click Favorite, read the
+  capture, click again to undo. Then sign with
+  `labs.google/fx/api/trpc/media.getMediaUrlRedirect?name=<id>` and curl.
+- Background tabs get Chrome's intensive timer throttling after a few
+  minutes: `setTimeout` loops stall, the virtual-scroll grid stops
+  rendering, and a tab can even report a 200x72 viewport. Anything that
+  needs timers or scrolling must run in the visible tab (the idle Kling tab
+  was borrowed for the id harvest and restored).
+- The asset picker's search box sometimes ignores the first
+  `__search()`; clear and re-search. Two same-named uploads can coexist
+  (weather_over_colony_b.jpg twice) - after picking, download the slot
+  thumbnail from its signed `img.src` and diff it against the still before
+  sending.
 
 ## Generator A/B, Flow side (2026-09-02)
 

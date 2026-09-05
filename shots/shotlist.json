@@ -17,7 +17,7 @@
       "description": "Observatory dome opens",
       "prompt": "Night. Symmetrical frontal wide of a hillside observatory: the dome slit stands open and a blade of warm gold light escapes it; one bright red point - Mars - sits dead center above the dome. No people. The slit rumbles wider as the camera pushes slowly toward it until the glow fills the frame.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\obs_dome_open_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -46,7 +46,7 @@
       "description": "Console and oscilloscope",
       "prompt": "Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, glowing valves, and a round oscilloscope tube drawing a warm gold waveform, centered. No people. The waveform pulses like a voice; slow lateral drift ending centered on the scope screen.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\obs_console_macro_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -75,7 +75,7 @@
       "description": "Astronomer sings at desk",
       "prompt": "Medium frontal shot, perfectly centered: {{astronomer}} at a desk laid with specimen trays, translucent organic fragments and spectrogram strips, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\astronomer_desk_sync_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -104,7 +104,7 @@
       "description": "Specimen pieces",
       "prompt": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people. The hands slide the fragments together; the helices almost meet, then miss by a hair, again and again. Slow overhead push-in.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\canal_map_macro_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -133,7 +133,7 @@
       "description": "Astronomer close-up",
       "prompt": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope. She sings with confident punch, words clearly articulated, head steady. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\astronomer_close_sync_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -162,8 +162,8 @@
       "description": "Specimen pieces",
       "prompt": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people. The hands slide the fragments together; the helices almost meet, then miss by a hair, again and again. Slow overhead push-in.",
       "clip": {
-        "file": null,
-        "in_sec": 0.0,
+        "file": "clips\\raw\\canal_map_macro_v6.mp4",
+        "in_sec": 2.5,
         "speed": 1.0
       },
       "transition": {
@@ -191,8 +191,8 @@
       "description": "Astronomer close-up",
       "prompt": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope. She sings with confident punch, words clearly articulated, head steady. Locked off.",
       "clip": {
-        "file": null,
-        "in_sec": 0.0,
+        "file": "clips\\raw\\astronomer_close_sync_v6.mp4",
+        "in_sec": 2.87,
         "speed": 1.0
       },
       "transition": {
@@ -220,8 +220,8 @@
       "description": "Specimen pieces",
       "prompt": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people. The hands slide the fragments together; the helices almost meet, then miss by a hair, again and again. Slow overhead push-in.",
       "clip": {
-        "file": null,
-        "in_sec": 0.0,
+        "file": "clips\\raw\\canal_map_macro_v6.mp4",
+        "in_sec": 5.1,
         "speed": 1.0
       },
       "transition": {
@@ -249,7 +249,7 @@
       "description": "Signal crosses space",
       "prompt": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people. The pulse travels across frame and arrives over the limb of the planet. Slow lateral drift following the light.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\signal_crossing_space_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -278,7 +278,7 @@
       "description": "Receiver dials tremble",
       "prompt": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people. The needle trembles and the static flickers. Locked off with the slightest push.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\receiver_dial_macro_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -307,8 +307,8 @@
       "description": "Signal crosses space",
       "prompt": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people. The pulse travels across frame and arrives over the limb of the planet. Slow lateral drift following the light.",
       "clip": {
-        "file": null,
-        "in_sec": 0.0,
+        "file": "clips\\raw\\signal_crossing_space_v6.mp4",
+        "in_sec": 2.9,
         "speed": 1.0
       },
       "transition": {
@@ -336,7 +336,7 @@
       "description": "Astronaut close-up",
       "prompt": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\astronaut_close_sync_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -365,7 +365,7 @@
       "description": "Waiting on Mars, wide",
       "prompt": "Night. Symmetrical wide: {{astronaut}} in {{suit}} stands small at dead center beside a glowing receiver mast, coral terrain silvered by two small moons and the striped planet, the colony domes dark on the horizon and the river a dark ribbon below. No one else in frame. Nothing moves but her breath and the mast's slow blink. Very slow push toward her.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\mars_night_wide_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -394,8 +394,8 @@
       "description": "Astronaut close-up",
       "prompt": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off.",
       "clip": {
-        "file": null,
-        "in_sec": 0.0,
+        "file": "clips\\raw\\astronaut_close_sync_v6.mp4",
+        "in_sec": 2.9,
         "speed": 1.0
       },
       "transition": {
@@ -423,7 +423,7 @@
       "description": "Interference blooms",
       "prompt": "Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, helix-like pattern, the screen's green-gold glow spreading to the frame edges. No people. The rings resolve into leaves and the glow spreads until it fills the frame.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\interference_bloom_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -452,7 +452,7 @@
       "description": "Garden hatch opens",
       "prompt": "One-point symmetrical corridor: a riveted brass garden hatch centered at the end of a metal walkway, standing open onto the river forest - giant fern-fans, cupped leaves, pink thistle-globes - with green and magenta light spilling toward camera. No people. Slow push through the hatch into the glow.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\forest_threshold_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -481,7 +481,7 @@
       "description": "Forest walk, following the green light",
       "prompt": "Side-on planimetric view: {{astronaut}} in {{suit_field}} walks left to right along a mossy path through the river forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan. No one else in frame. She follows the green light; slow 90-degree lateral track keeping her centered as the foliage layers slide past in deep parallax.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\forest_walk_track_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -510,7 +510,7 @@
       "description": "Lantern-moth on a thistle-globe",
       "prompt": "Macro in the river forest: a moth the size of a dinner plate resting on a pink thistle-globe, its four glassy wings lit from within like paper lanterns, antennae like brass filigree, fine fur on its body; foliage soft behind. Hand-built practical creature. No people. The wings open and close once, slowly, their inner light pulsing on the beat; antennae quiver. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\forest_fauna_moth_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -539,7 +539,7 @@
       "description": "Eyes in the foliage",
       "prompt": "Night-dark corner of the river forest: several pairs of large round lantern-eyes at different depths and sizes among the giant leaves, each pair a different color, the creatures themselves only suggested by silhouette; the small green light passing between them. No people. The eyes blink at different times, one pair per beat, and turn to follow the green light as it passes. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\forest_fauna_eyes_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -568,8 +568,8 @@
       "description": "Forest walk, following the green light",
       "prompt": "Side-on planimetric view: {{astronaut}} in {{suit_field}} walks left to right along a mossy path through the river forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan. No one else in frame. She follows the green light; slow 90-degree lateral track keeping her centered as the foliage layers slide past in deep parallax.",
       "clip": {
-        "file": null,
-        "in_sec": 0.0,
+        "file": "clips\\raw\\forest_walk_track_v6.mp4",
+        "in_sec": 2.9,
         "speed": 1.0
       },
       "transition": {
@@ -597,7 +597,7 @@
       "description": "Chrome hummingbird-things at the seed-lanterns",
       "prompt": "Medium in the river forest canopy: a small flock of chrome hummingbird-things, each no bigger than a thumb with a needle beak and a fan of glass tail feathers, hovering at a cluster of hanging seed-lanterns, layered in depth. Hand-built practical creatures. No people. They dart from lantern to lantern on the drum hits, each on its own arc, never in unison, near ones crossing the lens. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\forest_fauna_birds_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -626,7 +626,7 @@
       "description": "Forest wakes to drums",
       "prompt": "Frontal symmetrical wide: {{astronaut}} in {{suit_field}} stands dead center on the forest path, small under the canopy, as the whole forest lights up around her - cupped leaves snapping open, thistle-globes glowing pink row by row, seed-lanterns lit, spore puffs rising - a blazing symmetrical mandala of foliage. She holds still and deadpan. No one else in frame. The forest wakes in waves on the drum hits, row by row from the edges to the center. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\forest_awakening_frontal_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -655,7 +655,7 @@
       "description": "Specimen table mandala",
       "prompt": "Top-down overhead of a white enamel specimen table: silver-gloved hands arranging fragments of an alien specimen - translucent organic shards with helical structure inside, spiked seed pods, a chrome scale - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people. The hands try the wrong piece in every position. Slow overhead push.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\specimen_table_macro_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -684,7 +684,7 @@
       "description": "Astronaut inspects specimen",
       "prompt": "Waist-up medium of {{astronaut}} in {{suit}} at an enamel field table at the forest's edge, holding a strange translucent organic specimen up to the light, a helical structure glowing faintly inside it in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame. She turns the specimen slowly in the light. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\astronaut_inspect_medium_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -713,8 +713,8 @@
       "description": "Specimen table mandala",
       "prompt": "Top-down overhead of a white enamel specimen table: silver-gloved hands arranging fragments of an alien specimen - translucent organic shards with helical structure inside, spiked seed pods, a chrome scale - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people. The hands try the wrong piece in every position. Slow overhead push.",
       "clip": {
-        "file": null,
-        "in_sec": 0.0,
+        "file": "clips\\raw\\specimen_table_macro_v6.mp4",
+        "in_sec": 2.3,
         "speed": 1.0
       },
       "transition": {
@@ -742,7 +742,7 @@
       "description": "Astronaut close-up",
       "prompt": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\astronaut_close_sync_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -771,7 +771,7 @@
       "description": "Colony vista reveal",
       "prompt": "Grand symmetrical vista: the cream-and-turquoise domed colony with needle towers under a mint-green sky, a winding river of blue-green water snaking up the center of frame through coral terrain to the wide mirror-calm lagoon at its foot, striped planet above. Miniature-set depth. No people. Very slow push along the river toward the colony; the water shimmers gently, nothing else moves; every dome and tower keeps its shape; no people appear.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\mars_domes_wide_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -800,7 +800,7 @@
       "description": "Astronaut above colony",
       "prompt": "Medium shot: {{astronaut}} in {{suit}} centered on a coral ridge above the domed colony and its river lagoon, vista soft behind her, facing camera, wind in her hair. No one else in frame. She turns from the view to face camera; slow lateral track that settles frontal and locked.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\astronaut_mars_medium_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -829,7 +829,7 @@
       "description": "Parade of fakes",
       "prompt": "Deadpan planimetric side-on view: a procession of too-perfect objects - polished miniature domes, smiling masks, trophy-bright Mars globes - lined up left to right across frame on a hidden conveyor; {{astronaut}} in {{suit}} stands centered behind it, unimpressed. No one else in frame. The procession glides left to right. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\counterfeit_parade_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -858,7 +858,7 @@
       "description": "Digging the real thing",
       "prompt": "Low frontal shot: {{astronaut}} in {{suit}} kneels in coral soil, lifting a clumsy, handmade, unpolished object out of the ground with silver gloves - clearly loved; dust motes in warm light. No one else in frame. She digs and lifts it free. Slight slow push toward her hands.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\excavation_site_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -887,7 +887,7 @@
       "description": "Astronaut close-up",
       "prompt": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\astronaut_close_sync_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -916,7 +916,7 @@
       "description": "Filament weather",
       "prompt": "Wide sky over the domes and the river lagoon: strange luminous filament weather - slow silk-like streamers of pastel light peeling off cloud fronts and drifting apart, no lightning, no flashes. No people. The pastel streamers peel slowly off the cloud fronts and drift apart across the sky while the clouds creep; the domes and the water stay still; no lightning, no flashes, no people appear. Slow upward drift.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\weather_over_colony_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -945,7 +945,7 @@
       "description": "Split duet call/response",
       "prompt": "Symmetrical split staging divided by a thin centered seam of static: {{astronomer}} in her warm-gold study at frame left, {{astronaut}} in {{suit}} in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase. No one else in frame. They trade lines like a confident call-and-response, clearly articulated, heads steady, each landing her phrase on the beat. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\duet_call_response_sync_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -974,8 +974,8 @@
       "description": "Split duet call/response",
       "prompt": "Symmetrical split staging divided by a thin centered seam of static: {{astronomer}} in her warm-gold study at frame left, {{astronaut}} in {{suit}} in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase. No one else in frame. They trade lines like a confident call-and-response, clearly articulated, heads steady, each landing her phrase on the beat. Locked off.",
       "clip": {
-        "file": null,
-        "in_sec": 0.0,
+        "file": "clips\\raw\\duet_call_response_sync_v6.mp4",
+        "in_sec": 2.86,
         "speed": 1.0
       },
       "transition": {
@@ -1003,7 +1003,7 @@
       "description": "Rockets descend from orbit",
       "prompt": "From orbit: the coral globe of Mars fills the lower frame, threaded with winding blue-green rivers and dark oases, its terminator curving away; three finned chrome retro rockets descend toward it in slow formation, tail-first, retro-flames flickering; the striped gas planet and small moons beyond. No people. The formation sinks toward the planet, flames pulsing. Locked off in space, symmetrical.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\orbit_rockets_descent_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -1032,7 +1032,7 @@
       "description": "Rockets land",
       "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\rockets_landing_wide_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -1061,8 +1061,8 @@
       "description": "Rockets land",
       "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
       "clip": {
-        "file": null,
-        "in_sec": 0.0,
+        "file": "clips\\raw\\rockets_landing_wide_v6.mp4",
+        "in_sec": 1.266,
         "speed": 1.0
       },
       "transition": {
@@ -1090,8 +1090,8 @@
       "description": "Rockets land",
       "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
       "clip": {
-        "file": null,
-        "in_sec": 0.0,
+        "file": "clips\\raw\\rockets_landing_wide_v6.mp4",
+        "in_sec": 4.13,
         "speed": 1.0
       },
       "transition": {
@@ -1119,7 +1119,7 @@
       "description": "Rockets land",
       "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\rockets_landing_wide_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -1148,7 +1148,7 @@
       "description": "Rain becomes river",
       "prompt": "Rain over red terrain: falling water gathering into bright rivulets that join and wind together into a young river snaking toward the horizon between coral banks. No people. Slow tilt and track following the water downhill as it winds, ending level on the moving current.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\rain_to_canal_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -1496,7 +1496,7 @@
       "description": "The current turns in the eddy",
       "prompt": "Top-down planimetric view of the great slow eddy where the river enters the lagoon: the current curling into a wide spiral, {{merfolk}} wheeling around together in the turning water to head back the way they came. No gates, no machinery, no people. The eddy turns on the beat, the current visibly reverses, and the school wheels as one; no people appear. Locked overhead.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\canal_junction_turn_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -1525,8 +1525,8 @@
       "description": "Inside the current",
       "prompt": "Underwater inside the river current: {{merfolk}} passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people. Slow lateral drift; the school never restarts, it just keeps passing, the light-ribbons bending with the music.",
       "clip": {
-        "file": null,
-        "in_sec": 0.0,
+        "file": "clips\\raw\\canal_current_macro_v6.mp4",
+        "in_sec": 2.9,
         "speed": 1.0
       },
       "transition": {
@@ -1554,7 +1554,7 @@
       "description": "Astronomer lamplight outro",
       "prompt": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered. She sings the quiet lines to camera with barely moving lips. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\duet_lamplight_astronomer_sync_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -1583,7 +1583,7 @@
       "description": "Astronaut lamplight outro",
       "prompt": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered. She sings softly to camera with minimal motion. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\duet_lamplight_astronaut_sync_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -1612,7 +1612,7 @@
       "description": "Telescope time tunnel",
       "prompt": "Looking down the interior of the great telescope tube: concentric brass rings receding to a far point of starlight, perfectly centered. No people. The starlight pulses gently with the rhythm; slow steady push into the rings.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\telescope_time_tunnel_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -1641,7 +1641,7 @@
       "description": "Astronomer lamplight outro",
       "prompt": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered. She sings the quiet lines to camera with barely moving lips. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\duet_lamplight_astronomer_sync_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -1670,7 +1670,7 @@
       "description": "Colony goodnight",
       "prompt": "Night. Wide shot of the colony from across the river lagoon: most dome windows and tower lights already dark, a last few still lit down the valley, the water holding a single moon reflection. No people. The remaining lights switch off in cascading order, one per beat, until only the moon's reflection is left. Locked off.",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\colony_goodnight_cascade_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
@@ -1699,7 +1699,7 @@
       "description": "Night iris out",
       "prompt": "Night. The final wide frame of the colony darkening at its edges, a circular iris closing in on the moon's reflection in the lagoon. No people. The iris closes until only that small light remains, then black. (Title is added in post, never generated.)",
       "clip": {
-        "file": null,
+        "file": "clips\\raw\\night_iris_title_v6.mp4",
         "in_sec": 0.0,
         "speed": 1.0
       },
