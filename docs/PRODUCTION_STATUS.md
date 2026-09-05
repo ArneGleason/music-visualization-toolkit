@@ -29,14 +29,16 @@ The approved image set includes the targeted revisions made on 2026-09-04:
 | `duet_lamplight_astronomer_sync` | B | A weary end-of-day beat beside a period-futurist television; pinned hair is restored, though the pencil is not clearly visible. |
 | `duet_lamplight_astronaut_sync` | B | Darker exterior and dim evening interior, with small practical lights. |
 
-### Lyric-motion 3D pilot awaiting review
+### Lyric-motion flat-shape pilot awaiting review
 
 An optional per-glyph lyric system has been tested on the first six phrases,
-frames 150–725. The new pass uses Fredoka as beveled 3D glyph geometry: rubber
-words flex, squash, overshoot, and travel in perspective depth, while rigid
-words behave as tighter metallic blocks. The current local review file is
-`out/lyric_motion_pilot_3d_v01.mp4`; the earlier 2D comparison is
-`out/lyric_motion_pilot_v03.mp4`. Editable motion data is tracked in
+frames 150–725. The current pass uses Fredoka as flat, unlit glyph shapes:
+rubber words flex, squash, and overshoot in the picture plane, while rigid
+words behave as tighter blocks. Text color is sampled per selected still,
+converted to a subdued complementary color, and eased over 12 frames at shot
+cuts. The current local review file is `out/lyric_motion_pilot_flat_v02.mp4`;
+the dimensional comparison is `out/lyric_motion_pilot_3d_v01.mp4`, and the
+earlier VSE comparison is `out/lyric_motion_pilot_v03.mp4`. Editable motion data is tracked in
 `shots/lyric_motion_pilot.json`, and heard timing corrections can be marked in
 `shots/lyric_timing_review.md`. See
 `docs/LYRIC_MOTION_PILOT.md` for the word-by-word direction. No later lyrics

@@ -10,6 +10,7 @@ scene strip over the shot edit.
 from __future__ import annotations
 
 import json
+import colorsys
 import math
 import pathlib
 
@@ -38,6 +39,46 @@ def _material(bpy, name, metallic, roughness):
     return mat
 
 
+def _flat_material(bpy, name):
+    """Unlit, solid-color material driven by each object's display color."""
+    mat = bpy.data.materials.new(name)
+    mat.use_nodes = True
+    nodes = mat.node_tree.nodes
+    links = mat.node_tree.links
+    principled = nodes.get("Principled BSDF")
+    object_info = nodes.new("ShaderNodeObjectInfo")
+    links.new(object_info.outputs["Color"], principled.inputs["Base Color"])
+    emission = principled.inputs.get("Emission Color") or principled.inputs.get("Emission")
+    if emission:
+        links.new(object_info.outputs["Color"], emission)
+    strength = principled.inputs.get("Emission Strength")
+    if strength:
+        strength.default_value = 1.0
+    principled.inputs["Metallic"].default_value = 0.0
+    principled.inputs["Roughness"].default_value = 1.0
+    return mat
+
+
+def _band_material(bpy, name):
+    """A transparent, scene-tinted support band behind the flat lyrics."""
+    mat = bpy.data.materials.new(name)
+    mat.use_nodes = True
+    nodes = mat.node_tree.nodes
+    links = mat.node_tree.links
+    nodes.clear()
+    output = nodes.new("ShaderNodeOutputMaterial")
+    transparent = nodes.new("ShaderNodeBsdfTransparent")
+    emission = nodes.new("ShaderNodeEmission")
+    mix = nodes.new("ShaderNodeMixShader")
+    object_info = nodes.new("ShaderNodeObjectInfo")
+    links.new(object_info.outputs["Color"], emission.inputs["Color"])
+    links.new(object_info.outputs["Alpha"], mix.inputs[0])
+    links.new(transparent.outputs["BSDF"], mix.inputs[1])
+    links.new(emission.outputs["Emission"], mix.inputs[2])
+    links.new(mix.outputs["Shader"], output.inputs["Surface"])
+    return mat
+
+
 def _add_area_light(bpy, scene, name, location, energy, color, size):
     data = bpy.data.lights.new(name=name, type="AREA")
     data.energy = energy
@@ -63,7 +104,8 @@ def _iter_fcurves(action):
                 yield from bag.fcurves
 
 
-def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
+def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
+                      flat=False, palette_cues=None):
     import bpy
 
     root = pathlib.Path(root)
@@ -78,7 +120,7 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
     if not font_path.exists():
         raise FileNotFoundError(f"3D lyric font not found: {font_path}")
 
-    scene = bpy.data.scenes.new("LyricGeometry")
+    scene = bpy.data.scenes.new("LyricFlatShapes" if flat else "LyricGeometry")
     previous_scene = bpy.context.window.scene
     bpy.context.window.scene = scene
     scene.frame_start = 1
@@ -97,8 +139,11 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
     scene.world.node_tree.nodes["Background"].inputs["Color"].default_value = (0.008, 0.010, 0.016, 1.0)
     scene.world.node_tree.nodes["Background"].inputs["Strength"].default_value = 0.12
 
-    # A perspective camera makes actual Z movement readable as both size and
-    # foreshortening, with enough horizontal room for loose tracking.
+    # The flat mode keeps every face on one camera-parallel plane and never
+    # animates Z or X/Y rotation. A perspective camera is retained because
+    # Blender 5.2's headless Eevee path can drop converted font faces under an
+    # orthographic camera; with a head-on plane there is still no perspective
+    # distortion in the lettering.
     cam_data = bpy.data.cameras.new("LyricCamera")
     camera = bpy.data.objects.new("LyricCamera", cam_data)
     scene.collection.objects.link(camera)
@@ -108,16 +153,19 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
     cam_data.sensor_width = 36.0
     scene.camera = camera
 
-    _add_area_light(bpy, scene, "LyricKey", (-4.0, 3.0, 8.0), 900.0,
-                    (1.0, 0.68, 0.30), 5.0)
-    _add_area_light(bpy, scene, "LyricFill", (4.0, -1.0, 6.0), 650.0,
-                    (0.34, 0.72, 1.0), 4.0)
-    _add_area_light(bpy, scene, "LyricRim", (0.0, 4.0, 2.0), 500.0,
-                    (1.0, 0.28, 0.10), 3.0)
+    if not flat:
+        _add_area_light(bpy, scene, "LyricKey", (-4.0, 3.0, 8.0), 900.0,
+                        (1.0, 0.68, 0.30), 5.0)
+        _add_area_light(bpy, scene, "LyricFill", (4.0, -1.0, 6.0), 650.0,
+                        (0.34, 0.72, 1.0), 4.0)
+        _add_area_light(bpy, scene, "LyricRim", (0.0, 4.0, 2.0), 500.0,
+                        (1.0, 0.28, 0.10), 3.0)
 
     font = bpy.data.fonts.load(str(font_path))
     rubber_mat = _material(bpy, "LyricRubber", metallic=0.0, roughness=0.36)
     steel_mat = _material(bpy, "LyricSteel", metallic=0.62, roughness=0.24)
+    flat_mat = _flat_material(bpy, "LyricFlatFill")
+    band_mat = _band_material(bpy, "LyricBackingBand") if flat else None
 
     scale_720 = height / 720.0
     font_size = float(motion.get("font_size_720", 44)) / 74.0 * scale_720
@@ -135,6 +183,48 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
     dim_gold = (0.20, 0.085, 0.018, 1.0)
     dim_cyan = (0.018, 0.13, 0.18, 1.0)
 
+    def sample_scene(path):
+        """Return subdued complementary text and dark backing colors."""
+        if not path or not pathlib.Path(path).exists():
+            return (1.0, 0.72, 0.30, 1.0), (0.035, 0.025, 0.020, 0.22)
+        image = bpy.data.images.load(str(path), check_existing=False)
+        image.scale(24, 16)
+        pixels = list(image.pixels)
+        samples = []
+        # Blender pixel rows begin at the bottom; weight the actual lyric zone.
+        for y in range(0, 7):
+            for x in range(24):
+                i = (y * 24 + x) * 4
+                rgb = pixels[i:i + 3]
+                lum = 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]
+                if 0.035 < lum < 0.96:
+                    samples.append(rgb)
+        if not samples:
+            samples = [(0.35, 0.30, 0.25)]
+        avg = tuple(sum(p[i] for p in samples) / len(samples) for i in range(3))
+        hue, saturation, value = colorsys.rgb_to_hsv(*avg)
+        complement = colorsys.hsv_to_rgb(
+            (hue + 0.5) % 1.0,
+            min(0.56, max(0.30, saturation * 0.72)),
+            0.96)
+        # A touch of cream prevents saturated RGB cycling from reading as a
+        # rainbow while keeping the scene-to-scene relationship visible.
+        complement = tuple(c * 0.88 + 0.12 for c in complement)
+        backing = tuple(max(0.012, c * 0.13) for c in avg) + (0.22,)
+        return complement + (1.0,), backing
+
+    palette = []
+    if flat:
+        for cue in palette_cues or []:
+            text_color, backing = sample_scene(cue.get("path"))
+            palette.append({**cue, "text": text_color, "back": backing})
+
+    def palette_at(frame):
+        cue = next((c for c in palette if c["start"] <= frame < c["end"]), None)
+        if cue is None:
+            return (1.0, 0.72, 0.30, 1.0), (0.035, 0.025, 0.020, 0.22)
+        return cue["text"], cue["back"]
+
     def create_glyph(name, char, rigidity):
         curve = bpy.data.curves.new(name + "Curve", type="FONT")
         curve.body = char
@@ -143,12 +233,17 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
         curve.align_x = "CENTER"
         curve.align_y = "CENTER"
         curve.resolution_u = 8
-        curve.extrude = 0.060 + 0.045 * rigidity
-        curve.bevel_depth = 0.022 + 0.010 * (1.0 - rigidity)
-        curve.bevel_resolution = 3
+        # Eevee drops several zero-thickness converted font faces in headless
+        # rendering.  This hairline depth only makes the front face render; an
+        # orthographic camera and unlit material keep it visually flat.
+        curve.extrude = 0.001 if flat else 0.060 + 0.045 * rigidity
+        curve.bevel_depth = 0.0 if flat else 0.022 + 0.010 * (1.0 - rigidity)
+        curve.bevel_resolution = 0 if flat else 3
+        curve.offset = 0.018 if flat else 0.0
         obj = bpy.data.objects.new(name, curve)
         scene.collection.objects.link(obj)
-        obj.data.materials.append(steel_mat if rigidity >= 0.65 else rubber_mat)
+        obj.data.materials.append(
+            flat_mat if flat else (steel_mat if rigidity >= 0.65 else rubber_mat))
         # Conversion is the point of this renderer: after it, the glyph is
         # genuine geometry and the bend modifier deforms its outline and depth.
         for selected in bpy.context.selected_objects:
@@ -170,8 +265,36 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
             u = (source.co.y - ymin) / span
             bell = math.sin(math.pi * u)
             target.co.x += span * 0.13 * bell
-            target.co.z += span * 0.11 * bell
+            if flat:
+                target.co.y += span * 0.035 * math.sin(2.0 * math.pi * u)
+            else:
+                target.co.z += span * 0.11 * bell
         return obj, flex
+
+    def add_band(name, total_w, line_start, line_end, phrase_on, phrase_off):
+        mesh = bpy.data.meshes.new(name + "Mesh")
+        mesh.from_pydata([(-0.5, -0.5, 0.0), (0.5, -0.5, 0.0),
+                          (0.5, 0.5, 0.0), (-0.5, 0.5, 0.0)], [], [(0, 1, 2, 3)])
+        band = bpy.data.objects.new(name, mesh)
+        scene.collection.objects.link(band)
+        band.data.materials.append(band_mat)
+        band.location = (0.0, baseline_y + 0.01, -0.08)
+        band.scale = (total_w + 0.65, 0.74, 1.0)
+        band.hide_render = True
+        band.keyframe_insert(data_path="hide_render", frame=line_start)
+        band.hide_render = False
+        band.keyframe_insert(data_path="hide_render", frame=line_start + 1)
+        band.hide_render = True
+        band.keyframe_insert(data_path="hide_render", frame=line_end + 1)
+        transitions = {line_start + 1, line_end}
+        for cue in palette:
+            if line_start < cue["start"] < line_end:
+                transitions.add(max(line_start + 1, cue["start"] - 3))
+                transitions.add(min(line_end, cue["start"] + 9))
+        for frame in sorted(transitions):
+            _, back = palette_at(frame)
+            _key(band, "color", frame, back)
+        return band
 
     glyph_count = 0
     for phrase in motion["phrases"]:
@@ -197,6 +320,9 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
         widths = [max(0.08, obj.dimensions.x) for obj, *_ in made]
         total_w = sum(widths) + tracking * max(0, len(widths) - 1)
         total_w += word_gap * max(0, len(phrase["words"]) - 1)
+        if flat:
+            add_band(f"band_{phrase['id']}", total_w, line_start, line_end,
+                     phrase_on, phrase_off)
         cursor = -total_w / 2.0
         last_word = -1
 
@@ -235,7 +361,7 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
             base = (base_x, baseline_y, 0.0)
             obj.location = base
             obj.rotation_mode = "XYZ"
-            obj.color = dim
+            obj.color = palette_at(line_start + 1)[0] if flat else dim
             obj.hide_render = True
             obj.keyframe_insert(data_path="hide_render", frame=line_start)
             obj.hide_render = False
@@ -243,10 +369,22 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
             obj.hide_render = True
             obj.keyframe_insert(data_path="hide_render", frame=line_end + 1)
 
-            _key(obj, "color", line_start + 1, dim)
-            _key(obj, "color", word_on - 1, dim)
-            _key(obj, "color", hit, active)
-            _key(obj, "color", word_off, tuple(v * 0.72 if i < 3 else v for i, v in enumerate(active)))
+            if flat:
+                color_frames = {line_start + 1, word_on - 1, hit, word_off, line_end}
+                for cue in palette:
+                    if line_start < cue["start"] < line_end:
+                        color_frames.add(max(line_start + 1, cue["start"] - 3))
+                        color_frames.add(min(line_end, cue["start"] + 9))
+                for frame in sorted(color_frames):
+                    color = palette_at(frame)[0]
+                    level = 0.34 if frame < word_on else (1.0 if frame < word_off else 0.74)
+                    _key(obj, "color", frame,
+                         tuple(c * level if i < 3 else c for i, c in enumerate(color)))
+            else:
+                _key(obj, "color", line_start + 1, dim)
+                _key(obj, "color", word_on - 1, dim)
+                _key(obj, "color", hit, active)
+                _key(obj, "color", word_off, tuple(v * 0.72 if i < 3 else v for i, v in enumerate(active)))
 
             # Anticipation retreats from camera and compresses; the syllable
             # then arrives in depth. Rubber letters overshoot individually,
@@ -257,24 +395,28 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
             _key(flex, "value", line_start + 1, 0.0)
 
             _key(obj, "location", anticipate,
-                 (base_x - dx * 0.3, baseline_y - 0.12 - dy * 0.2, -0.35 - 0.25 * rubber))
+                 (base_x - dx * 0.3, baseline_y - 0.12 - dy * 0.2,
+                  0.0 if flat else -0.35 - 0.25 * rubber))
             _key(obj, "scale", anticipate,
-                 (1.08 + 0.10 * rubber, 0.78 - 0.08 * rubber, 0.82))
+                 (1.08 + 0.10 * rubber, 0.78 - 0.08 * rubber,
+                  1.0 if flat else 0.82))
             _key(obj, "rotation_euler", anticipate,
-                 (math.radians(-8.0 * rubber), math.radians(9.0 * rel * rubber),
+                 ((0.0 if flat else math.radians(-8.0 * rubber)),
+                  (0.0 if flat else math.radians(9.0 * rel * rubber)),
                   math.radians(-2.0 * rel * rubber)))
             _key(flex, "value", anticipate, -0.35 * rel * rubber)
 
             sx = float(word.get("sx", 1.0))
             sy = float(word.get("sy", 1.0))
-            z_hit = 0.68 + 0.95 * rubber + 0.26 * math.sin(gi * 1.7)
+            z_hit = 0.0 if flat else 0.68 + 0.95 * rubber + 0.26 * math.sin(gi * 1.7)
             _key(obj, "location", hit,
                  (base_x + dx * 1.55, baseline_y + (dy + curve_y + wave_y) * 1.45, z_hit))
             _key(obj, "scale", hit,
-                 (sx * (0.90 - 0.10 * rubber), sy * (1.20 + 0.30 * rubber), 1.0 + 0.45 * rubber))
+                 (sx * (0.90 - 0.10 * rubber), sy * (1.20 + 0.30 * rubber),
+                  1.0 if flat else 1.0 + 0.45 * rubber))
             _key(obj, "rotation_euler", hit,
-                 (math.radians((13.0 + 19.0 * rubber) * math.sin(gi * 1.3)),
-                  math.radians((8.0 + 24.0 * rubber) * rel),
+                 ((0.0 if flat else math.radians((13.0 + 19.0 * rubber) * math.sin(gi * 1.3))),
+                  (0.0 if flat else math.radians((8.0 + 24.0 * rubber) * rel)),
                   math.radians(float(word.get("rotation", 0.0)) * 1.8 +
                                float(word.get("bend", 0.0)) * rel * rubber)))
             bend_amount = float(word.get("bend", 5.0 if rubber > 0.55 else 1.5))
@@ -283,12 +425,13 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames):
 
             _key(obj, "location", rebound,
                  (base_x - dx * 0.45, baseline_y - dy * 0.35 - wave_y * 0.5,
-                  -0.18 - 0.30 * rubber))
+                  0.0 if flat else -0.18 - 0.30 * rubber))
             _key(obj, "scale", rebound,
-                 (1.08 + 0.10 * rubber, 0.88 - 0.06 * rubber, 0.92))
+                 (1.08 + 0.10 * rubber, 0.88 - 0.06 * rubber,
+                  1.0 if flat else 0.92))
             _key(obj, "rotation_euler", rebound,
-                 (math.radians(-9.0 * rubber * math.sin(gi * 1.3)),
-                  math.radians(-8.0 * rel * rubber), 0.0))
+                 ((0.0 if flat else math.radians(-9.0 * rubber * math.sin(gi * 1.3))),
+                  (0.0 if flat else math.radians(-8.0 * rel * rubber)), 0.0))
             _key(flex, "value", rebound, -0.45 * bend_amount / 10.0 * rubber)
 
             recoil_x = float(word.get("recoil_x", 0.0)) / 74.0 * scale_720

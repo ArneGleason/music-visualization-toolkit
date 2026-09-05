@@ -65,6 +65,8 @@ def build_parser():
                     help="JSON choreography for per-letter lyric motion; replaces simple --lyrics captions")
     ap.add_argument("--lyric-3d", default=None,
                     help="JSON choreography rendered as real 3D glyph geometry; replaces other lyric modes")
+    ap.add_argument("--lyric-flat", default=None,
+                    help="JSON choreography rendered as flat glyph shapes with shot-aware color")
     ap.add_argument("--overlay-only", action="store_true",
                     help="no footage/audio: render the overlay channels over transparency as PNG+alpha")
     ap.add_argument("--start", type=int, default=None, help="first output frame (0-based), for auditions")
@@ -159,6 +161,7 @@ def inside_blender(argv):
         strip.transform.scale_x = strip.transform.scale_y = s
 
     n_clip = n_still = n_slate = 0
+    cut_visuals = []
     if not a.overlay_only:
         for shot in cues["shots"]:
             fs, fe = shot["start"], shot["end"]
@@ -179,6 +182,7 @@ def inside_blender(argv):
                 continue
             still = pick_still(shot["setup"])
             if still:
+                cut_visuals.append({"start": fs, "end": fe, "path": str(still)})
                 st = strips.new_image(name=name, filepath=str(still), channel=1, frame_start=B(fs))
                 st.frame_final_duration = length
                 el = st.elements[0]
@@ -235,14 +239,15 @@ def inside_blender(argv):
 
     # ---- channel 5+: lyric captions -------------------------------------------
     n_glyph_3d = 0
-    if a.lyric_3d:
+    if a.lyric_flat or a.lyric_3d:
         tools_dir = str(pathlib.Path(__file__).resolve().parent)
         if tools_dir not in sys.path:
             sys.path.insert(0, tools_dir)
         from lyric3d import build_lyric_scene
 
         lyric_scene, n_glyph_3d = build_lyric_scene(
-            ROOT, a.lyric_3d, W, H, fps, total)
+            ROOT, a.lyric_flat or a.lyric_3d, W, H, fps, total,
+            flat=bool(a.lyric_flat), palette_cues=cut_visuals)
         lyric_strip = strips.new_scene(
             name="lyric_geometry", scene=lyric_scene, channel=96, frame_start=B(0))
         lyric_strip.blend_type = 'ALPHA_OVER'
@@ -460,11 +465,13 @@ def inside_blender(argv):
         bp.parent.mkdir(parents=True, exist_ok=True)
         bpy.ops.wm.save_as_mainfile(filepath=str(bp))
 
-    lyric_mode = "3d" if a.lyric_3d else ("motion" if a.lyric_motion else ("simple" if a.lyrics else "off"))
+    lyric_mode = ("flat" if a.lyric_flat else
+                  ("3d" if a.lyric_3d else
+                   ("motion" if a.lyric_motion else ("simple" if a.lyrics else "off"))))
     print(f"[blender_comp] {W}x{H} @ {fps:g} fps, frames {sc.frame_start}-{sc.frame_end} "
           f"({sc.frame_end - sc.frame_start + 1}); cut: {n_clip} clips, {n_still} stills, {n_slate} slates; "
           f"{len(cues['beats'])} beats, lyrics={lyric_mode}" +
-          (f" ({n_glyph_3d} glyphs)" if a.lyric_3d else
+          (f" ({n_glyph_3d} glyphs)" if (a.lyric_flat or a.lyric_3d) else
            (f" ({n_glyph} glyphs)" if a.lyric_motion else "")))
     bpy.ops.render.render(animation=True)
     print(f"[blender_comp] wrote {r.filepath}")

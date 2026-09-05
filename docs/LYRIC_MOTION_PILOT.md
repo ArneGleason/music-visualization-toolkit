@@ -1,6 +1,6 @@
 # Lyric motion pilot — opening phrases
 
-Status: second, true-3D Blender pilot rendered; awaiting owner review.
+Status: third, flat-shape Blender pilot rendered; awaiting owner review.
 
 Pilot range: frames 150–725 at 24 fps (approximately 6.25–30.21 seconds).
 This covers the first six phrases, from “Hey, I need you for something” through
@@ -8,28 +8,34 @@ This covers the first six phrases, from “Hey, I need you for something” thro
 
 ## Review render
 
-`out/lyric_motion_pilot_3d_v01.mp4` is the current 1280×720 review version. It is
+`out/lyric_motion_pilot_flat_v02.mp4` is the current 1280×720 review version. It is
 24 seconds long, includes the matching music segment and eight selected
-storyboard cuts, and animates 116 individual 3D glyph meshes. The earlier 2D
-comparison remains at `out/lyric_motion_pilot_v03.mp4`. Media files remain
-local and ignored by Git. `out/lyric_motion_pilot_3d_v01_contact.jpg` is a static
+storyboard cuts, and animates 116 individual flat glyph meshes. The dimensional
+comparison remains at `out/lyric_motion_pilot_3d_v01.mp4`, and the earlier VSE
+comparison at `out/lyric_motion_pilot_v03.mp4`. Media files remain local and
+ignored by Git. `out/lyric_motion_pilot_flat_v02_contact.jpg` is a static
 QA sheet, not a substitute for judging the motion in the video.
 
-The second pass uses the open-licensed Fredoka variable font with eight pixels
-of added letter tracking at 720p. Blender loads the original variable font,
-then converts every glyph to a beveled, extruded mesh. The wider/weight axes
-are useful for choosing a font instance, but Blender does not expose those
-OpenType axes as animatable text-object properties. Live expression therefore
-comes from real mesh shape keys, X/Y/Z rotation, anisotropic scale, and
-perspective-camera Z movement.
+The current pass uses the open-licensed Fredoka variable font with eight pixels
+of added letter tracking at 720p. Every letter is rendered as one unlit solid
+shape: no visible extrusion, bevel, directional lighting, foreshortening, Z
+travel, or X/Y rotation. Expressive motion remains through 2D squash/stretch,
+baseline movement, Z-axis rotation, and a mesh shape key that flexes the actual
+outline in the picture plane.
 
-Reproduce the 3D audition with:
+At each picture cut, the renderer samples the lower part of the selected still,
+chooses a subdued complementary text color, mixes it toward cream, and eases to
+the new color over 12 frames. This keeps changes connected to the composition
+without fast hue cycling. A faint, scene-tinted backing band provides contrast
+without changing the letter fill or resembling modeled depth.
+
+Reproduce the current flat audition with:
 
 ```powershell
 python tools/blender_comp.py --proxy --start 150 --end 725 `
-  --lyric-3d shots/lyric_motion_pilot.json `
+  --lyric-flat shots/lyric_motion_pilot.json `
   --favorites shots/still_favorites.md `
-  --out out/lyric_motion_pilot_3d_v01.mp4
+  --out out/lyric_motion_pilot_flat_v02.mp4
 ```
 
 The implementation treats rigidity as a continuum from 0.0 (soft rubber) to
@@ -71,9 +77,8 @@ labels.
    recoil, or hand attention to another word. This is where the lyric becomes
    an interpretive dance instead of karaoke highlighting.
 
-The second pilot deliberately exceeds the first pass's restrained scale and
-rotation limits: active rubber glyphs can come forward in camera depth, grow
-about 30%, rotate on all axes, and flex their actual outline. Each word
+The current pilot keeps the more pronounced squash/stretch and outline flex
+from the dimensional experiment, but confines them to the picture plane. Each word
 uses a two-frame anticipation, a two-to-four-frame attack, and an unequal
 six-to-ten-frame settling tail. Function words usually receive presence only.
 
@@ -196,14 +201,14 @@ same frame corrections without changing the data model.
 1. The existing `--lyrics` captions remain available as the simple fallback.
 2. `shots/lyric_motion_pilot.json` holds the optional choreography; the pilot
    is not hard-coded into the compositor.
-3. `--lyric-motion` retains the prior 2D VSE-glyph implementation for direct
-   comparison. `--lyric-3d` builds a transparent Blender scene containing one
-   beveled mesh per glyph and composites it as a scene strip.
-4. Color, position, anisotropic scale, and all three rotations are keyframed.
-   Perspective Z motion makes a glyph approach or retreat from the viewer.
+3. `--lyric-motion` retains the prior VSE implementation and `--lyric-3d`
+   retains the dimensional mesh implementation. `--lyric-flat` is the current
+   treatment and composites flat unlit glyphs as a transparent scene strip.
+4. Color, position, anisotropic scale, and Z-axis rotation are keyframed. The
+   sampled palette changes only around picture cuts and eases over 12 frames.
 5. Each mesh has a custom `RubberFlex` shape key that bows the actual outline
-   sideways and in depth. Low-rigidity words flex and overshoot independently;
-   high-rigidity words use a metallic material and move as a tighter block.
+   within the picture plane. Low-rigidity words flex and overshoot independently;
+   high-rigidity words move as a tighter block without metallic shading.
 6. The lyric overlay is independent of shot boundaries, so a phrase and its
    gesture continue naturally over picture cuts.
 7. The audition remains limited to frames 150–725. Do not expand to the full
