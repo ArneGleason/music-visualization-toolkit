@@ -122,4 +122,3 @@ answers these questions:
 - Is there enough contrast between rigid, architectural responses and rubbery,
   organic ones?
 - Would removing half the effects make the idea stronger?
-
