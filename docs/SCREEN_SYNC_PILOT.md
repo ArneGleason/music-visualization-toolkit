@@ -1,9 +1,53 @@
 # Screen replacement driven by the music: first effects test
 
-Status: owner prefers complete replacement, 2026-09-05. Latest study adds
-beam-speed response, accumulated phosphor persistence, peripheral markings,
-and an optional second audio channel. Awaiting review of these variations.
+Status: owner likes complete replacement, phosphor persistence, beam-speed
+weighting, and amber/cyan. Latest revision fixes amber's axis and gives cyan
+larger deflection, broader axis motion, and energy-spreading defocus.
 Test one element; expand only after reviewing what it teaches us.
+
+## Fixed amber and defocused cyan
+
+Latest owner direction combines two messages: keep amber fixed and modestly
+boosted; give cyan greater amplitude and a more tilted, wider wobble; emphasize
+central deflection slightly. Cyan should appear dimmer because an unfocused
+beam spreads its light over a wider area, giving separation and suggested depth.
+
+Run `tools/screen_sync_phosphor.py --profile depth` inside Blender. Previous
+renders remain intact; new media goes to `out/screen_sync_depth/`.
+`comparison.mp4` alternates previous dual-channel and revised versions twice
+(276 frames / 11.5 seconds). `dual.mp4` is the revised single passage.
+
+- Amber's axis is fixed at 0 degrees with a fixed vertical offset; amplitude
+  scale increases from 88 to 96 reference pixels.
+- Cyan's amplitude scale increases from 59 to 112 pixels. Its axis follows
+  `12 + 16*sin(t*1.25 + .55)` degrees, beginning at about 20 degrees and
+  ranging through a wider tilt during the passage. This is an artistic
+  axis skew; it does not rotate the underlying screen or reference marks.
+- Both signals retain their per-excerpt normalization, source offsets,
+  phosphor lifetimes, and dwell model. Gain does not pump independently on
+  every frame or note.
+- A gentle center-weighted gain reaches 1.20 at the middle and returns to
+  1.00 at the lateral edges. It magnifies displacement from each trace's own
+  axis. This approximates the requested lens-like emphasis without warping
+  the photographed console or adding a full-camera fisheye.
+- Cyan's accumulated light is convolved with a unit-sum Gaussian (sigma
+  7.5 pixels on the 768-pixel phosphor texture). Cyan's color/exposure factors
+  remain unchanged. The operation spreads light and lowers peak radiance;
+  the screen aperture then clips any spill at the rim. This is separate from
+  phosphor persistence and spatial supersampling.
+- Per-frame `dual_energy.json` records cyan energy and peaks before and after
+  spreading, before the final aperture mask, so the defocus can be checked
+  independently of appearance. Full settings are in `parameters.json`.
+
+Verification: all 69 frames retain essentially the same integrated cyan energy
+before final aperture clipping; peak radiance falls to 31–45% of its focused
+value (39% average). The comparison contains 276 video frames, with both audio
+and video starting at zero and lasting 11.5 seconds.
+
+The preview gives cyan a more diffuse, visually recessed layer while amber
+remains the sharper reading. This is a creative depth cue on the same screen,
+not a simulation of a second physical tube. Await owner review of the motion
+and amplitude balance before promoting the revision to other screens.
 
 ## Phosphor and two-channel study
 

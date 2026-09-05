@@ -106,6 +106,13 @@ Glass dirt and peripheral calibration are included. Owner preference between
 the latest variations is pending; the underlying complete-replacement choice
 remains accepted.
 
+Owner approved the persistence/beam weighting and liked amber with cyan, then
+requested fixed amber, wider cyan axis motion, more amplitude, center emphasis,
+and cyan defocus that spreads its energy. Latest review is
+`out/screen_sync_depth/comparison.mp4`, previous versus revised dual-channel
+twice. The earlier tests remain local for comparison; this revision awaits
+owner review of its new focus/motion balance.
+
 The latest plan is authoritative; generated clips may be replaced or reused
 as spare material. The shared repository records saved decisions and assets,
 not a live registry of another agent's in-flight generation jobs. At assembly,

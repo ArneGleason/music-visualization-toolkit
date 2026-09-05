@@ -1,7 +1,7 @@
 """CRT-inspired screen study: beam dwell, accumulated phosphor, optional dual audio.
 
-Blender -b -t 4 -P tools/screen_sync_phosphor.py -- [--preview] [--assemble-only]
-All media is local under out/screen_sync_phosphor; no generation service is used.
+Blender -b -t 4 -P tools/screen_sync_phosphor.py -- [--profile depth] [--preview]
+Media is local under out/screen_sync_phosphor or out/screen_sync_depth.
 """
 import argparse
 import array
@@ -18,6 +18,8 @@ import screen_sync_pilot as base
 import screen_sync_refine as refined
 
 OUT = base.ROOT / "out" / "screen_sync_phosphor"
+CLASSIC_OUT = OUT
+PROFILE = "classic"
 N = 768
 SUBSTEPS = 8
 FAST_HALF = .030
@@ -160,7 +162,15 @@ class Phosphor:
             angle = (.6*math.sin(rel*.6)) if self.channel == 0 else (-1.1*math.sin(rel*.55+.6))
         else:
             shift, angle = 0, 0
-        y = signal*amplitude+shift+PX*math.tan(math.radians(angle))
+        magnification = 1
+        if PROFILE == "depth":
+            amplitude = 96 if self.channel == 0 else 112
+            rel = sec-base.FIRST/24
+            shift = -7 if self.channel == 0 else 10
+            angle = 0 if self.channel == 0 else 12+16*math.sin(rel*1.25+.55)
+            # Magnify deflection around its own axis, not the fixed screen/grid.
+            magnification = 1+.20*(1-(PX/base.RX)**2)**2
+        y = signal*amplitude*magnification+shift+PX*math.tan(math.radians(angle))
         slope = np.gradient(y, PX)
         speed = np.sqrt(1+slope*slope)
         dwell = 1/speed
@@ -195,6 +205,8 @@ def setup(mode):
             obj.data.body = ("PHOSPHOR — amber bass / speed-weighted beam" if mode == "single"
                              else "TWO CHANNELS — amber bass + cyan drum body")
             obj.data.size = 20
+            if PROFILE == "depth":
+                obj.data.body = "DEPTH — fixed amber / larger, defocused cyan"
     rgba = np.zeros((N, N, 4), dtype=np.float32)
     rgba[:, :, 3] = 1
     image = float_image("Accumulated phosphor energy", rgba)
@@ -209,6 +221,22 @@ def encode(mode):
                   "-vf", "scale=1280:720:flags=lanczos", "-c:v", "libx264", "-crf", "17",
                   "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "256k",
                   "-movflags", "+faststart", str(OUT/f"{mode}.mp4")])
+
+
+def defocus(energy, sigma=7.5):
+    """Spread radiance with a unit-sum Gaussian, preserving energy away from edges."""
+    radius = math.ceil(3*sigma)
+    x = np.arange(-radius, radius+1, dtype=np.float32)
+    kernel = np.exp(-.5*(x/sigma)**2)
+    kernel /= kernel.sum()
+    result = energy
+    for axis in [0, 1]:
+        padding = [(0, 0), (0, 0)]
+        padding[axis] = (radius, radius)
+        padded = np.pad(result, padding, mode="constant")
+        result = np.apply_along_axis(lambda row: np.convolve(row, kernel, mode="valid"),
+                                     axis, padded)
+    return result
 
 
 def render(mode, bass, drums, preview):
@@ -233,15 +261,24 @@ def render(mode, bass, drums, preview):
                 channel.deposit(sec)
         energy = channels[0].energy()
         rgb = energy[:, :, None]*np.array([1.00, .43, .075], dtype=np.float32)
+        focus_stats = {}
         if mode == "dual":
-            rgb += channels[1].energy()[:, :, None]*np.array([.065, .40, .38], dtype=np.float32)
+            cyan = channels[1].energy()
+            if PROFILE == "depth":
+                spread = defocus(cyan)
+                focus_stats = {"cyan_sharp_energy": float(cyan.sum()),
+                               "cyan_spread_energy_before_aperture": float(spread.sum()),
+                               "cyan_sharp_peak": float(cyan.max()),
+                               "cyan_spread_peak": float(spread.max())}
+                cyan = spread*APERTURE
+            rgb += cyan[:, :, None]*np.array([.065, .40, .38], dtype=np.float32)
         # Gentle radiance shoulder keeps color addition from turning into clipping.
         rgb *= GRAIN[:, :, None]
         rgba[:, :, :3] = rgb/(1+rgb*.25)
         image.pixels.foreach_set(rgba.ravel())
         image.update()
         stats.append({"frame": base.FIRST+i, "energy_peak": float(rgb.max()),
-                      "energy_sum": float(rgb.sum())})
+                      "energy_sum": float(rgb.sum()), **focus_stats})
         if preview and i != 45:
             continue
         p = i/68
@@ -256,15 +293,20 @@ def render(mode, bass, drums, preview):
 
 def assemble():
     inputs = [refined.OUT/"refined.mp4", OUT/"single.mp4", OUT/"dual.mp4"]
+    if PROFILE == "depth":
+        inputs = [CLASSIC_OUT/"dual.mp4", OUT/"dual.mp4"]
     cmd = ["ffmpeg", "-y", "-v", "error"]
     for source in inputs:
         cmd += ["-i", str(source)]
     cmd += ["-i", str(base.ROOT/"audio/song.wav")]
-    filters = [f"[{i}:v]setpts=PTS-STARTPTS,split=2[v{i}a][v{i}b]" for i in range(3)]
-    filters += ["[v0a][v1a][v2a][v0b][v1b][v2b]concat=n=6:v=1:a=0[v]",
-                f"[3:a]atrim=start={base.FIRST/24}:end={base.END/24},"
-                "asetpts=PTS-STARTPTS,asplit=6[a0][a1][a2][a3][a4][a5]",
-                "[a0][a1][a2][a3][a4][a5]concat=n=6:v=0:a=1[a]"]
+    count = len(inputs)
+    filters = [f"[{i}:v]setpts=PTS-STARTPTS,split=2[v{i}a][v{i}b]" for i in range(count)]
+    video_labels = "".join(f"[v{i}{repeat}]" for repeat in ["a", "b"] for i in range(count))
+    audio_labels = "".join(f"[a{i}]" for i in range(count*2))
+    filters += [f"{video_labels}concat=n={count*2}:v=1:a=0[v]",
+                f"[{count}:a]atrim=start={base.FIRST/24}:end={base.END/24},"
+                f"asetpts=PTS-STARTPTS,asplit={count*2}{audio_labels}",
+                f"{audio_labels}concat=n={count*2}:v=0:a=1[a]"]
     base.command(cmd+["-filter_complex", ";".join(filters), "-map", "[v]", "-map", "[a]",
                       "-c:v", "libx264", "-crf", "17", "-pix_fmt", "yuv420p",
                       "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart",
@@ -272,14 +314,19 @@ def assemble():
 
 
 def main():
+    global OUT, PROFILE
     parser = argparse.ArgumentParser()
     parser.add_argument("--preview", action="store_true")
     parser.add_argument("--assemble-only", action="store_true")
+    parser.add_argument("--profile", choices=["classic", "depth"], default="classic")
     args = parser.parse_args(sys.argv[sys.argv.index("--")+1:] if "--" in sys.argv else [])
+    PROFILE = args.profile
+    if PROFILE == "depth":
+        OUT = base.ROOT / "out" / "screen_sync_depth"
     OUT.mkdir(parents=True, exist_ok=True)
     if not args.assemble_only:
         bass, drums = base.read_bass(), read_drums()
-        for mode in ["single", "dual"]:
+        for mode in (["dual"] if PROFILE == "depth" else ["single", "dual"]):
             render(mode, bass, drums, args.preview)
     if not args.preview:
         assemble()
@@ -290,8 +337,17 @@ def main():
             "dwell_model":"1/sqrt(1+(dy/dx)^2), art-directed width and bloom",
             "aperture":"elliptical soft clipping; trace reaches beyond useful glass",
             "channels":{"amber":"bass 25-180 Hz","cyan":"drum body 25-240 Hz"},
-            "dual_axes":"two near-horizontal axes with slow <=1.1 degree drift",
+            "dual_axes":("fixed amber; cyan begins near 20 degrees and swings widely"
+                         if PROFILE == "depth" else
+                         "two near-horizontal axes with slow <=1.1 degree drift"),
             "scope":"CRT-inspired composite, not a calibrated tube simulation",
+            "profile": PROFILE,
+            "depth_settings": ({"amber_axis_deg":0, "amber_amplitude":96,
+                                "cyan_amplitude":112, "cyan_axis_deg":"12+16*sin(t*1.25+.55)",
+                                "center_deflection_gain":1.20, "edge_deflection_gain":1,
+                                "cyan_defocus_sigma_texture_px":7.5,
+                                "cyan_exposure":"unchanged; normalized Gaussian spreads energy"}
+                               if PROFILE == "depth" else None),
         }, indent=2))
     print("PHOSPHOR STUDY COMPLETE")
 
