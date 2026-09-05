@@ -414,6 +414,50 @@ Every setup in the cut now has motion. All 59 shots carry a clip.
   thumbnail from its signed `img.src` and diff it against the still before
   sending.
 
+## Outro continuous coverage (2026-09-05, afternoon)
+
+First execution of `docs/CONTINUOUS_COVERAGE_PLAN.md`: the six source takes
+exist, are synced, and the proposed seventeen-row outro cut plays as
+`out/outro_preview_sync.mp4` (2:51.67 to 3:19.25; base-motion twin
+`out/outro_preview_base.mp4`; cut sheets `out/outro_preview_*_cuts.jpg`).
+The tracked record is `shots/outro_coverage.json` (take origins, guides,
+files, and the cut rows with their source in-points). The cut is NOT yet in
+`shots/plan.json` / `shotlist.json`; it was assembled in a sandbox copy of
+the repo so nothing collided with Codex's overlay work. Promote it through
+the merge workflow when accepted.
+
+- **Takes.** A = astronomer (`duet_lamplight_astronomer_sync`), B =
+  astronaut (`duet_lamplight_astronaut_sync`). A1/B1 start from the approved
+  stills at song frame 4165; A2/B2 start at 4320 from frame 155 of A1/B1;
+  A3/B3 start at 4500 from frame 180 of A2/B2 (anchors extracted from the
+  downloaded takes, uploaded, and used as Frames-to-Video start frames; each
+  continuation's first frame matched its anchor with difference about 1).
+  Flow: 6 x 100 credits. Every take is exactly 192 frames at 24 fps.
+- **Guides.** Per-speaker gated slices of the lead vocal (8 s from each
+  take's song start, the other twin's turns silenced, 60 ms pads):
+  `clips/inbox/guide_<take>.wav`. The two unattributed lines ("Who?" at
+  4530 and the last "Night" at 4742) are silent in both guides; the cut
+  holds A through "Who?" and puts the last "Night" over the colony.
+- **Sync.** Kling, one 8 s job per take (6 x 10 credits, 576 -> 516;
+  downloads matched by audio correlation 0.98+ and first frame). Kling
+  returns 30 fps / 239 frames; normalized to 24 fps / 192 frames as
+  `clips/outro/<take>_kling24.mp4` (last frame cloned), so
+  `source_in_frame = cut_start - take_start` holds exactly.
+- **What the preview shows.** The astronaut view is stable across all three
+  takes and sleepier by B3, which suits "Night". The astronomer replays the
+  approved still's television reach during A1 (that is where the anchor for
+  A2 lands, hand on the dial) and then settles back for A2/A3 with a small
+  framing drift to the left. If that reads as a jump on the A1 -> A2 return
+  at 3:01.75, the plan's remedy applies: a calmer coverage anchor for A1
+  instead of the reaching still. Mouths are closed on the listening views.
+- **Recipe notes.** Continuation anchors go in through the Add-media Upload
+  item with `HTMLInputElement.prototype.click` hooked and a REAL click on
+  the menu item (a script click on the item opens nothing); the captured
+  input is detached after the click, so re-append it before `file_upload`.
+  Preview assembly used a sandbox root (junctions to media, copies of
+  tools/shots/generated) so `blender_comp.py` could render a patched cut
+  without touching the tracked shot list.
+
 ## Generator A/B, Flow side (2026-09-02)
 
 Nano Banana Pro, 16:9, x2, the v2 Characters attached, "Film still." lead,

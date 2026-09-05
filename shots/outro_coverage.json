@@ -1,0 +1,406 @@
+{
+ "_comment": "Outro continuous-coverage takes generated 2026-09-05 per docs/CONTINUOUS_COVERAGE_PLAN.md. Song frames are 0-based 24 fps. Base takes are Flow Veo 3.1 Quality Frames-to-Video, 192 frames; synced takes are Kling lip sync on a per-speaker gated 8 s guide, returned at 30 fps/239 frames and normalized to 24 fps/192 frames as *_kling24.mp4. Media is local-only under clips/outro/. The proposed 17-row cut is rendered in out/outro_preview_sync.mp4; it is NOT yet promoted into shots/plan.json / shotlist.json.",
+ "takes": {
+  "A1": {
+   "song_start_frame": 4165,
+   "song_start_sec": 173.5417,
+   "speaker": "Them 1",
+   "phrases": [
+    [
+     0.44,
+     1.81,
+     "You still there?"
+    ],
+    [
+     3.982,
+     5.185,
+     "Never mind."
+    ],
+    [
+     4.898,
+     6.977,
+     "La-la-la, low light."
+    ]
+   ],
+   "setup": "duet_lamplight_astronomer_sync",
+   "start_frame_source": "approved still",
+   "base_file": "clips/outro/A1_base.mp4",
+   "guide_file": "clips/inbox/guide_A1.wav",
+   "synced_file": "clips/outro/A1_kling24.mp4",
+   "kling_download": "kling_20260905_Lip_Sync__5971_0.mp4"
+  },
+  "B1": {
+   "song_start_frame": 4165,
+   "song_start_sec": 173.5417,
+   "speaker": "Them 2",
+   "phrases": [
+    [
+     2.732,
+     4.102,
+     "Define there."
+    ],
+    [
+     6.857,
+     8.0,
+     "No, go on."
+    ]
+   ],
+   "setup": "duet_lamplight_astronaut_sync",
+   "start_frame_source": "approved still",
+   "base_file": "clips/outro/B1_base.mp4",
+   "guide_file": "clips/inbox/guide_B1.wav",
+   "synced_file": "clips/outro/B1_kling24.mp4",
+   "kling_download": "kling_20260905_Lip_Sync__5974_0.mp4"
+  },
+  "A2": {
+   "song_start_frame": 4320,
+   "song_start_sec": 180.0,
+   "speaker": "Them 1",
+   "phrases": [
+    [
+     0.0,
+     0.518,
+     "La-la-la, low light."
+    ],
+    [
+     1.69,
+     3.393,
+     "Thought I heard something."
+    ],
+    [
+     4.565,
+     5.935,
+     "Was it you?"
+    ],
+    [
+     7.607,
+     8.0,
+     "Say goodnight."
+    ]
+   ],
+   "setup": "duet_lamplight_astronomer_sync",
+   "start_frame_source": "A1_base frame 155",
+   "base_file": "clips/outro/A2_base.mp4",
+   "guide_file": "clips/inbox/guide_A2.wav",
+   "synced_file": "clips/outro/A2_kling24.mp4",
+   "kling_download": "kling_20260905_Lip_Sync__6008_0.mp4"
+  },
+  "B2": {
+   "song_start_frame": 4320,
+   "song_start_sec": 180.0,
+   "speaker": "Them 2",
+   "phrases": [
+    [
+     0.398,
+     1.81,
+     "No, go on."
+    ],
+    [
+     3.273,
+     4.685,
+     "You did."
+    ],
+    [
+     5.815,
+     7.018,
+     "Da-da-dum."
+    ],
+    [
+     6.898,
+     7.727,
+     "Could've been."
+    ]
+   ],
+   "setup": "duet_lamplight_astronaut_sync",
+   "start_frame_source": "B1_base frame 155",
+   "base_file": "clips/outro/B2_base.mp4",
+   "guide_file": "clips/inbox/guide_B2.wav",
+   "synced_file": "clips/outro/B2_kling24.mp4",
+   "kling_download": "kling_20260905_Lip_Sync__6014_0.mp4"
+  },
+  "A3": {
+   "song_start_frame": 4500,
+   "song_start_sec": 187.5,
+   "speaker": "Them 1",
+   "phrases": [
+    [
+     0.107,
+     1.518,
+     "Say goodnight."
+    ],
+    [
+     3.023,
+     4.977,
+     "La-la-la—la-la"
+    ],
+    [
+     5.94,
+     6.81,
+     "Night."
+    ]
+   ],
+   "setup": "duet_lamplight_astronomer_sync",
+   "start_frame_source": "A2_base frame 180",
+   "base_file": "clips/outro/A3_base.mp4",
+   "guide_file": "clips/inbox/guide_A3.wav",
+   "synced_file": "clips/outro/A3_kling24.mp4",
+   "kling_download": "kling_20260905_Lip_Sync__6020_0.mp4"
+  },
+  "B3": {
+   "song_start_frame": 4500,
+   "song_start_sec": 187.5,
+   "speaker": "Them 2",
+   "phrases": [
+    [
+     0.0,
+     0.227,
+     "Could've been."
+    ],
+    [
+     2.315,
+     3.143,
+     "To who?"
+    ],
+    [
+     5.023,
+     6.268,
+     "You first."
+    ],
+    [
+     7.065,
+     7.935,
+     "Night."
+    ]
+   ],
+   "setup": "duet_lamplight_astronaut_sync",
+   "start_frame_source": "B2_base frame 180",
+   "base_file": "clips/outro/B3_base.mp4",
+   "guide_file": "clips/inbox/guide_B3.wav",
+   "synced_file": "clips/outro/B3_kling24.mp4",
+   "kling_download": "kling_20260905_Lip_Sync__6024_0.mp4"
+  }
+ },
+ "cut": [
+  {
+   "id": "o01",
+   "start": 4120,
+   "end": 4177,
+   "setup": "telescope_time_tunnel",
+   "take": null,
+   "clip": {
+    "file": "clips/raw/telescope_time_tunnel_v6.mp4",
+    "in_sec": 0.0,
+    "speed": 1.0
+   },
+   "lyric": ""
+  },
+  {
+   "id": "o02",
+   "start": 4177,
+   "end": 4232,
+   "setup": "duet_lamplight_astronomer_sync",
+   "take": "A1",
+   "clip": {
+    "file": "clips/outro/A1_kling24.mp4",
+    "in_sec": 0.5,
+    "speed": 1.0
+   },
+   "lyric": "You still there?"
+  },
+  {
+   "id": "o03",
+   "start": 4232,
+   "end": 4262,
+   "setup": "duet_lamplight_astronaut_sync",
+   "take": "B1",
+   "clip": {
+    "file": "clips/outro/B1_kling24.mp4",
+    "in_sec": 2.79167,
+    "speed": 1.0
+   },
+   "lyric": "Define there."
+  },
+  {
+   "id": "o04",
+   "start": 4262,
+   "end": 4331,
+   "setup": "duet_lamplight_astronomer_sync",
+   "take": "A1",
+   "clip": {
+    "file": "clips/outro/A1_kling24.mp4",
+    "in_sec": 4.04167,
+    "speed": 1.0
+   },
+   "lyric": "Never mind. / La-la-la, low light."
+  },
+  {
+   "id": "o05",
+   "start": 4331,
+   "end": 4362,
+   "setup": "duet_lamplight_astronaut_sync",
+   "take": "B2",
+   "clip": {
+    "file": "clips/outro/B2_kling24.mp4",
+    "in_sec": 0.45833,
+    "speed": 1.0
+   },
+   "lyric": "No, go on."
+  },
+  {
+   "id": "o06",
+   "start": 4362,
+   "end": 4400,
+   "setup": "duet_lamplight_astronomer_sync",
+   "take": "A2",
+   "clip": {
+    "file": "clips/outro/A2_kling24.mp4",
+    "in_sec": 1.75,
+    "speed": 1.0
+   },
+   "lyric": "Thought I heard something."
+  },
+  {
+   "id": "o07",
+   "start": 4400,
+   "end": 4431,
+   "setup": "duet_lamplight_astronaut_sync",
+   "take": "B2",
+   "clip": {
+    "file": "clips/outro/B2_kling24.mp4",
+    "in_sec": 3.33333,
+    "speed": 1.0
+   },
+   "lyric": "You did."
+  },
+  {
+   "id": "o08",
+   "start": 4431,
+   "end": 4461,
+   "setup": "duet_lamplight_astronomer_sync",
+   "take": "A2",
+   "clip": {
+    "file": "clips/outro/A2_kling24.mp4",
+    "in_sec": 4.625,
+    "speed": 1.0
+   },
+   "lyric": "Was it you?"
+  },
+  {
+   "id": "o09",
+   "start": 4461,
+   "end": 4504,
+   "setup": "duet_lamplight_astronaut_sync",
+   "take": "B2",
+   "clip": {
+    "file": "clips/outro/B2_kling24.mp4",
+    "in_sec": 5.875,
+    "speed": 1.0
+   },
+   "lyric": "Da-da-dum. / Could've been."
+  },
+  {
+   "id": "o10",
+   "start": 4504,
+   "end": 4557,
+   "setup": "duet_lamplight_astronomer_sync",
+   "take": "A3",
+   "clip": {
+    "file": "clips/outro/A3_kling24.mp4",
+    "in_sec": 0.16667,
+    "speed": 1.0
+   },
+   "lyric": "Say goodnight. / (Who?)"
+  },
+  {
+   "id": "o11",
+   "start": 4557,
+   "end": 4574,
+   "setup": "duet_lamplight_astronaut_sync",
+   "take": "B3",
+   "clip": {
+    "file": "clips/outro/B3_kling24.mp4",
+    "in_sec": 2.375,
+    "speed": 1.0
+   },
+   "lyric": "To who?"
+  },
+  {
+   "id": "o12",
+   "start": 4574,
+   "end": 4622,
+   "setup": "duet_lamplight_astronomer_sync",
+   "take": "A3",
+   "clip": {
+    "file": "clips/outro/A3_kling24.mp4",
+    "in_sec": 3.08333,
+    "speed": 1.0
+   },
+   "lyric": "La-la-la-la-la"
+  },
+  {
+   "id": "o13",
+   "start": 4622,
+   "end": 4644,
+   "setup": "duet_lamplight_astronaut_sync",
+   "take": "B3",
+   "clip": {
+    "file": "clips/outro/B3_kling24.mp4",
+    "in_sec": 5.08333,
+    "speed": 1.0
+   },
+   "lyric": "You first."
+  },
+  {
+   "id": "o14",
+   "start": 4644,
+   "end": 4671,
+   "setup": "duet_lamplight_astronomer_sync",
+   "take": "A3",
+   "clip": {
+    "file": "clips/outro/A3_kling24.mp4",
+    "in_sec": 6.0,
+    "speed": 1.0
+   },
+   "lyric": "Night."
+  },
+  {
+   "id": "o15",
+   "start": 4671,
+   "end": 4689,
+   "setup": "duet_lamplight_astronaut_sync",
+   "take": "B3",
+   "clip": {
+    "file": "clips/outro/B3_kling24.mp4",
+    "in_sec": 7.125,
+    "speed": 1.0
+   },
+   "lyric": "Night."
+  },
+  {
+   "id": "o16",
+   "start": 4689,
+   "end": 4747,
+   "setup": "colony_goodnight_cascade",
+   "take": null,
+   "clip": {
+    "file": "clips/raw/colony_goodnight_cascade_v6.mp4",
+    "in_sec": 0.0,
+    "speed": 1.0
+   },
+   "lyric": "(Night.)"
+  },
+  {
+   "id": "o17",
+   "start": 4747,
+   "end": 4782,
+   "setup": "night_iris_title",
+   "take": null,
+   "clip": {
+    "file": "clips/raw/night_iris_title_v6.mp4",
+    "in_sec": 0.0,
+    "speed": 1.0
+   },
+   "lyric": ""
+  }
+ ]
+}
