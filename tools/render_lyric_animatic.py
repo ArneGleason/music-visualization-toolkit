@@ -29,6 +29,8 @@ def main():
     ap.add_argument("--out", default="out/blender_animatic_flat_lyrics_v01.mp4")
     ap.add_argument("--segment-frames", type=int, default=720)
     ap.add_argument("--proxy", action="store_true", default=True)
+    ap.add_argument("--allow-clips", action="store_true",
+                    help="use assigned motion clips when present; default is a stable all-stills animatic")
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
 
@@ -51,6 +53,8 @@ def main():
         command = [sys.executable, "tools/blender_comp.py"]
         if args.proxy:
             command.append("--proxy")
+        if not args.allow_clips:
+            command.append("--stills-only")
         command += [
             "--start", str(first), "--end", str(last),
             "--lyric-flat", args.choreography,

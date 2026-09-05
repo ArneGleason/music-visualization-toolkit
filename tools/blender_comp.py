@@ -76,6 +76,8 @@ def build_parser():
                     help="which still variant to prefer per setup when several exist")
     ap.add_argument("--favorites", default=None,
                     help="owner's A/B picks (codex/out/still_favorites.md); a listed setup uses that file")
+    ap.add_argument("--stills-only", action="store_true",
+                    help="ignore available motion clips and use the storyboard still for every cut")
     ap.add_argument("--letterbox", action="store_true",
                     help="draw 2.39:1 letterbox bars over the frame (off by default: they cropped heads)")
     return ap
@@ -171,7 +173,7 @@ def inside_blender(argv):
             src = next((s for s in shotlist["shots"] if s["id"] == shot["id"]), {})
             clip = (src.get("clip") or {}).get("file")
             name = f"{shot['id']}_{shot['setup']}"
-            if clip and (ROOT / clip).exists():
+            if not a.stills_only and clip and (ROOT / clip).exists():
                 st = strips.new_movie(name=name, filepath=str(ROOT / clip), channel=1, frame_start=B(fs))
                 in_f = int(round(float((src.get("clip") or {}).get("in_sec") or 0.0) * fps))
                 st.frame_offset_start = in_f

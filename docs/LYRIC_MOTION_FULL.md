@@ -1,16 +1,11 @@
 # Full-song flat lyric choreography
 
-Status: second complete animatic rendered for owner timing, motion, and
-readability review.
-
-The pending v03 typography/timing audition is
-`out/lyric_scale66_alignment_check_v03.mp4`. It covers frames 900–1300 so the
-smaller type and corrected rapid dialogue can be judged before another full
-render.
+Status: third complete animatic rendered with the owner-approved smaller type
+and conservative early-only word-alignment corrections.
 
 ## Current review render
 
-`out/blender_animatic_flat_lyrics_v02.mp4` is the current complete 1280×720
+`out/blender_animatic_flat_lyrics_v03.mp4` is the current complete 1280×720
 animatic:
 
 - 4,782 frames at 24 fps (199.25 seconds)
@@ -23,6 +18,8 @@ animatic:
 - the active word turns warm white and carries a tight charcoal silhouette for
   contrast; the support follows the deformed glyphs and is never a rectangle
 - the original master mix encoded once after the frame-locked sections join
+- the picture track is explicitly locked to approved stills; ignored motion
+  clips appearing later on disk cannot silently replace reviewed images
 
 Generated movie files and section renders remain local under `out/` and are
 ignored by Git.
@@ -49,10 +46,10 @@ Overlapping call-and-response lines use a second baseline 58 pixels higher.
 ## Typography scale
 
 `type_scale` at the top of `shots/lyric_motion_full.json` scales the font,
-tracking, word gaps, and active-word shadow offset as one system. The v03
-audition sets it to `0.66`; changing it to `0.75` is the reversible alternative
-if two-thirds size proves too quiet. The lower-third baseline itself does not
-move.
+tracking, word gaps, and active-word shadow offset as one system. The approved
+v03 render sets it to `0.66`; changing it to `0.75` remains a reversible
+alternative if two-thirds size later proves too quiet. The lower-third baseline
+itself does not move.
 
 ## Color and contrast
 
@@ -113,9 +110,13 @@ section joins. Finished sections are reused on resume.
 python tools/render_lyric_animatic.py `
   --choreography shots/lyric_motion_full.json `
   --favorites shots/still_favorites.md `
-  --out out/blender_animatic_flat_lyrics_v02.mp4 `
+  --out out/blender_animatic_flat_lyrics_v03.mp4 `
   --segment-frames 720
 ```
+
+The section renderer defaults to approved stills only, keeping typography-only
+reviews visually comparable even if motion clips are added under `clips/`.
+Pass `--allow-clips` only when intentionally reviewing the motion-clip edit.
 
 Pass `--force` after changing choreography, timing, selected stills, or palette
 logic; otherwise valid existing section files are intentionally reused.

@@ -29,25 +29,27 @@ The approved image set includes the targeted revisions made on 2026-09-04:
 | `duet_lamplight_astronomer_sync` | B | A weary end-of-day beat beside a period-futurist television; pinned hair is restored, though the pencil is not clearly visible. |
 | `duet_lamplight_astronaut_sync` | B | Darker exterior and dim evening interior, with small practical lights. |
 
-### Full flat-shape lyric animatic ready for review
+### Full flat-shape lyric animatic v03 ready for review
 
 The approved flat Fredoka treatment now covers the complete song: 87 lyric
 lines and 305 individually animated words across all 4,782 frames. The current
-local review file is `out/blender_animatic_flat_lyrics_v02.mp4`: 1280×720,
+local review file is `out/blender_animatic_flat_lyrics_v03.mp4`: 1280×720,
 24 fps, 199.25 seconds, 59 selected-still cuts, and continuous master audio.
 The text has no backing rectangle or visible 3D treatment. Scene-aware color
 eases over 12 frames at cuts and switches to a dark fill for unusually bright
 lyric zones. Normal lines now clear four frames before the next onset; the five
 registered counter-vocal overlaps remain on two baselines. The active word
 turns warm white and gains a tight glyph-shaped charcoal contrast silhouette.
+The approved v03 treatment scales the entire typography system to 66% while
+leaving the baseline fixed. A conservative local Whisper comparison also
+pulled 80 late words earlier across 30 fully matched later-song phrases; no word
+was moved later and the first six hand-timed phrases were preserved. Every
+change is recorded in `shots/lyric_alignment_report.md`.
 
-A v03 excerpt is awaiting owner review at
-`out/lyric_scale66_alignment_check_v03.mp4` (frames 900–1300). It scales the
-entire typography system to 66% while leaving the baseline fixed. A
-conservative local Whisper comparison also pulled 80 late words earlier across
-30 fully matched later-song phrases; no word was moved later and the first six
-hand-timed phrases were preserved. Every change is recorded in
-`shots/lyric_alignment_report.md`.
+This typography review is explicitly stills-only. The renderer now defaults to
+the 41 approved selections, so ignored motion clips that appear on disk do not
+silently change the reviewed 59-cut picture edit. Motion clips are included
+only when a future render deliberately passes `--allow-clips`.
 
 Editable full-song choreography is tracked in
 `shots/lyric_motion_full.json`. Heard word-timing corrections can be marked in
