@@ -1,5 +1,5 @@
 {
-  "_comment": "Cutting rules for the live-action generated path of 'Rivers of Mars'. Section ids match shots/sections.json, which tools/register2sections.py derives from the scene lane of projects/rivers-of-mars/timeline.json. Setups ending in _sync are frontal performance shots that get the lip-sync pass. Setup bodies live in shots/setups.json (apply with tools/shotplan.py --setups shots/setups.json). Iterate on the free animatic before generating anything. v2.2: the garden and the chorus cut every bar for velocity; adjacent identical setups are one continuous clip across two cuts (ingest sets the in-point).",
+  "_comment": "Cutting rules for the live-action generated path of 'Rivers of Mars'. Section ids match shots/sections.json, which tools/register2sections.py derives from the scene lane of projects/rivers-of-mars/timeline.json. Setups ending in _sync are frontal performance shots that get the lip-sync pass. Setup bodies live in shots/setups.json (apply with tools/shotplan.py --setups shots/setups.json). Iterate on the free animatic before generating anything. v2.3: the garden and chorus cut every bar for velocity; adjacent identical setups are one continuous clip across cuts, and four owner-approved lyric-locked picture changes are preserved below.",
   "fps": 24,
   "max_shot_sec": 8.0,
   "min_shot_sec": 0.8,
@@ -8,6 +8,81 @@
     "braid": [
       "concept"
     ]
+  },
+  "editorial_start_frames": {
+    "s035": 2881,
+    "s036": 2928,
+    "s040": 3165,
+    "s041": 3229
+  },
+  "editorial_shot_overrides": {
+    "s034": {
+      "lyric": "Words leave words."
+    },
+    "s035": {
+      "lyric": "Things clap overhead"
+    },
+    "s036": {
+      "lyric": "like rockets coming in."
+    },
+    "s037": {
+      "setup": "rockets_landing_wide",
+      "type": "concept",
+      "lyric": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      }
+    },
+    "s038": {
+      "setup": "rockets_landing_wide",
+      "type": "concept",
+      "lyric": "Can't tell you / if they're true.",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      }
+    },
+    "s039": {
+      "setup": "rockets_landing_wide",
+      "type": "concept",
+      "lyric": "",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      }
+    },
+    "s040": {
+      "setup": "rain_to_canal",
+      "type": "concept",
+      "lyric": "Elsewhere, under a smaller moon—",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      }
+    },
+    "s041": {
+      "setup": "basin_moon_descent",
+      "type": "concept",
+      "lyric": "Chrome-plated bodies go swimming",
+      "clip": {
+        "file": "clips\\raw\\basin_moon_descent_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      }
+    },
+    "s042": {
+      "lyric": "in the rivers of Mars.",
+      "clip": {
+        "file": "clips\\raw\\basin_edge_sync_kling.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      }
+    }
   },
   "sections": {
     "scene-01": {
@@ -135,8 +210,8 @@
         "duet_call_response_sync",
         "orbit_rockets_descent",
         "rockets_landing_wide",
-        "rain_to_canal",
-        "rain_to_canal"
+        "rockets_landing_wide",
+        "rockets_landing_wide"
       ]
     },
     "rivers-of-mars": {
@@ -144,7 +219,7 @@
       "braid": [
         "concept",
         "concept",
-        "performance",
+        "concept",
         "performance",
         "concept",
         "concept",
@@ -157,9 +232,9 @@
         "concept"
       ],
       "setups": [
+        "rockets_landing_wide",
+        "rain_to_canal",
         "basin_moon_descent",
-        "basin_moon_descent",
-        "basin_edge_sync",
         "basin_edge_sync",
         "basin_kaleidoscope_top",
         "merfolk_surface_ring",

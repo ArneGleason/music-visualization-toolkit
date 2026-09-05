@@ -59,9 +59,11 @@ The owner reviewed the full grid in Flow. Each note, and what changed in
    limb of Lowell's canal-scored Mars seen from orbit; `rockets_overhead` is
    replaced by `orbit_rockets_descent` (rockets sinking toward the globe)
    and `rockets_landing_wide` (touchdown on the landing field, the astronaut
-   in her orbital suit); the rocket section cuts every bar so "Things clap
-   overhead" lands on the descent and "like rockets coming in" on the
-   landing.
+   in her orbital suit). The final picture edit is lyric-locked rather than
+   bar-locked here: the descent enters on “Things clap overhead” (frame 2881),
+   the landing enters on “like rockets coming in” (frame 2928) and holds until
+   the spring enters on “Elsewhere, under a smaller moon” (frame 3165). The
+   first merfolk formation then enters on “Chrome-plated bodies” (frame 3229).
 8. **The performer's body.** The owner re-cast the twins with a
    **ballerina's build and a dancer's carriage** — slender, long-necked,
    upright, shoulders back, chin lifted, stillness held with intention and

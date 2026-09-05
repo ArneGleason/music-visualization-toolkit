@@ -51,6 +51,25 @@ the 41 approved selections, so ignored motion clips that appear on disk do not
 silently change the reviewed 59-cut picture edit. Motion clips are included
 only when a future render deliberately passes `--allow-clips`.
 
+### Lyric-locked picture timing v04
+
+Four owner-approved picture changes are now locked to the refined lyric frames:
+
+| Frame | Time | Lyric onset | Picture entering |
+|---:|---:|---|---|
+| 2881 | 2:00.042 | “Things clap overhead” | Rockets descending from orbit |
+| 2928 | 2:02.000 | “like rockets coming in” | Rockets landing at the colony |
+| 3165 | 2:11.875 | “Elsewhere, under a smaller moon” | The astronaut at the underground spring |
+| 3229 | 2:14.542 | “Chrome-plated bodies” | First merfolk formation in the lagoon |
+
+The landing composition deliberately holds through the intervening instrumental
+space and “Can’t tell you / if they’re true.” Repeated bar-length EDL entries
+reuse that same setup, so they create no visible picture change. The tracked
+overrides in `shots/plan.json` survive `tools/shotplan.py --merge`, and the
+current passage review is `out/shot_timing_review_v04.mp4`. The full v03 movie
+predates these four timing changes; render a full v04 after the passage is
+approved.
+
 Editable full-song choreography is tracked in
 `shots/lyric_motion_full.json`. Heard word-timing corrections can be marked in
 `shots/lyric_timing_review_full.md`. The first six hand-authored pilot phrases

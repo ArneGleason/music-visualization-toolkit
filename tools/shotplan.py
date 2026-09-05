@@ -149,6 +149,13 @@ def main():
                 for k in ("description", "prompt", "still", "clip", "transition", "setup", "type"):
                     if prev[sid].get(k):
                         shot[k] = prev[sid][k]
+            # A small number of picture-edit decisions intentionally depart
+            # from the repeating setup braid. Keep them in plan.json so a
+            # future --merge re-plan cannot silently undo an approved edit.
+            editorial = plan.get("editorial_shot_overrides", {}).get(sid, {})
+            for k in ("setup", "type"):
+                if editorial.get(k):
+                    shot[k] = editorial[k]
             entry = library.get(shot.get("setup") or "")
             if entry:
                 shot["description"] = entry.get("slate", shot["description"])
@@ -158,6 +165,39 @@ def main():
                 if entry.get("conventions"):
                     shot["conventions"] = list(entry["conventions"])
             shots.append(shot)
+
+    # Lyric-locked cut points can fall between beat-grid positions. Apply
+    # their exact output frames after planning, then rebuild every dependent
+    # timing field so the EDL remains gapless and internally consistent.
+    editorial_frames = plan.get("editorial_start_frames", {})
+    if editorial_frames:
+        timing_indices = set()
+        for i, shot in enumerate(shots):
+            if shot["id"] in editorial_frames:
+                shot["start_sec"] = round(int(editorial_frames[shot["id"]]) / fps, 4)
+                timing_indices.add(i)
+                if i:
+                    timing_indices.add(i - 1)
+        for i in sorted(timing_indices):
+            shot = shots[i]
+            end = shots[i + 1]["start_sec"] if i + 1 < len(shots) else shot["end_sec"]
+            start = shot["start_sec"]
+            shot["end_sec"] = round(end, 4)
+            shot["dur_sec"] = round(end - start, 4)
+            shot["frames"] = to_frames(end - start, fps)
+            shot["start_barbeat"] = bm.nearest_barbeat(start)
+            covered = [l for l in lyrics if start - 1e-6 <= l["sec"] < end - 1e-6]
+            shot["lyric"] = " / ".join(l["text"] for l in covered)
+
+    # Exact editorial metadata wins after automatic lyric coverage and merge.
+    # Clip overrides are necessary when a shot ID is reassigned to a different
+    # setup; carrying the old ID's clip forward would show the wrong footage.
+    for shot in shots:
+        editorial = plan.get("editorial_shot_overrides", {}).get(shot["id"], {})
+        if "lyric" in editorial:
+            shot["lyric"] = editorial["lyric"]
+        if "clip" in editorial:
+            shot["clip"] = editorial["clip"]
 
     save(out_path, {"fps": fps, "duration_sec": bm.duration,
                     "max_shot_sec": max_sec, "shots": shots})

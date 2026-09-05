@@ -967,9 +967,9 @@
       "setup": "duet_call_response_sync",
       "start_barbeat": "43.1",
       "start_sec": 114.6787,
-      "end_sec": 117.5329,
-      "dur_sec": 2.8543,
-      "frames": 69,
+      "end_sec": 120.0417,
+      "dur_sec": 5.363,
+      "frames": 129,
       "lyric": "Words leave words.",
       "description": "Split duet call/response",
       "prompt": "Symmetrical split staging divided by a thin centered seam of static: {{astronomer}} in her warm-gold study at frame left, {{astronaut}} in {{suit}} in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase. No one else in frame. They trade lines like a confident call-and-response, clearly articulated, heads steady, each landing her phrase on the beat. Locked off.",
@@ -994,11 +994,11 @@
       "section": "semantic-rocket-weather",
       "type": "concept",
       "setup": "orbit_rockets_descent",
-      "start_barbeat": "44.1",
-      "start_sec": 117.5329,
-      "end_sec": 120.3863,
-      "dur_sec": 2.8534,
-      "frames": 68,
+      "start_barbeat": "45.1",
+      "start_sec": 120.0417,
+      "end_sec": 122.0,
+      "dur_sec": 1.9583,
+      "frames": 47,
       "lyric": "Things clap overhead",
       "description": "Rockets descend from orbit",
       "prompt": "From orbit: the coral globe of Mars fills the lower frame, threaded with winding blue-green rivers and dark oases, its terminator curving away; three finned chrome retro rockets descend toward it in slow formation, tail-first, retro-flames flickering; the striped gas planet and small moons beyond. No people. The formation sinks toward the planet, flames pulsing. Locked off in space, symmetrical.",
@@ -1023,11 +1023,11 @@
       "section": "semantic-rocket-weather",
       "type": "concept",
       "setup": "rockets_landing_wide",
-      "start_barbeat": "45.1",
-      "start_sec": 120.3863,
+      "start_barbeat": "45.3",
+      "start_sec": 122.0,
       "end_sec": 123.2662,
-      "dur_sec": 2.8798,
-      "frames": 69,
+      "dur_sec": 1.2662,
+      "frames": 30,
       "lyric": "like rockets coming in.",
       "description": "Rockets land",
       "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
@@ -1051,15 +1051,15 @@
       "id": "s037",
       "section": "semantic-rocket-weather",
       "type": "concept",
-      "setup": "rain_to_canal",
+      "setup": "rockets_landing_wide",
       "start_barbeat": "46.1",
       "start_sec": 123.2662,
       "end_sec": 126.1299,
       "dur_sec": 2.8637,
       "frames": 69,
       "lyric": "",
-      "description": "Rain becomes river",
-      "prompt": "Rain over red terrain: falling water gathering into bright rivulets that join and wind together into a young river snaking toward the horizon between coral banks. No people. Slow tilt and track following the water downhill as it winds, ending level on the moving current.",
+      "description": "Rockets land",
+      "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
       "clip": {
         "file": null,
         "in_sec": 0.0,
@@ -1069,24 +1069,82 @@
         "type": "cut",
         "dur_sec": 0.0
       },
-      "still": "Rain over red terrain: falling water gathering into bright rivulets that join and wind together into a young river snaking toward the horizon between coral banks. No people.",
+      "still": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame.",
       "conventions": [
-        "CAM-SUSTAINED-REFRAME",
-        "GROW-PROPAGATION-WAVE",
-        "EDIT-GRAPHIC-MATCH"
+        "CAM-LOCKED",
+        "ANIM-IMPACT-ACCENT",
+        "FRAME-SCALE-BILLING"
       ]
     },
     {
       "id": "s038",
       "section": "semantic-rocket-weather",
       "type": "concept",
-      "setup": "rain_to_canal",
+      "setup": "rockets_landing_wide",
       "start_barbeat": "47.1",
       "start_sec": 126.1299,
       "end_sec": 129.0056,
       "dur_sec": 2.8757,
       "frames": 69,
       "lyric": "Can't tell you / if they're true.",
+      "description": "Rockets land",
+      "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-IMPACT-ACCENT",
+        "FRAME-SCALE-BILLING"
+      ]
+    },
+    {
+      "id": "s039",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "rockets_landing_wide",
+      "start_barbeat": "48.1",
+      "start_sec": 129.0056,
+      "end_sec": 131.875,
+      "dur_sec": 2.8694,
+      "frames": 69,
+      "lyric": "",
+      "description": "Rockets land",
+      "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
+      "clip": {
+        "file": null,
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-IMPACT-ACCENT",
+        "FRAME-SCALE-BILLING"
+      ]
+    },
+    {
+      "id": "s040",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "rain_to_canal",
+      "start_barbeat": "49.1",
+      "start_sec": 131.875,
+      "end_sec": 134.5417,
+      "dur_sec": 2.6667,
+      "frames": 64,
+      "lyric": "Elsewhere, under a smaller moon—",
       "description": "Rain becomes river",
       "prompt": "Rain over red terrain: falling water gathering into bright rivulets that join and wind together into a young river snaking toward the horizon between coral banks. No people. Slow tilt and track following the water downhill as it winds, ending level on the moving current.",
       "clip": {
@@ -1106,50 +1164,21 @@
       ]
     },
     {
-      "id": "s039",
+      "id": "s041",
       "section": "rivers-of-mars",
       "type": "concept",
       "setup": "basin_moon_descent",
-      "start_barbeat": "48.1",
-      "start_sec": 129.0056,
-      "end_sec": 131.8716,
-      "dur_sec": 2.866,
-      "frames": 69,
-      "lyric": "Elsewhere, under a smaller moon—",
-      "description": "Descent to the lagoon",
-      "prompt": "Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; {{merfolk}} glinting beneath the surface, arranged in concentric rings. No people. The camera cranes slowly down toward the water; the rings resolve as it nears the surface.",
-      "clip": {
-        "file": "clips\\raw\\basin_moon_descent_v6.mp4",
-        "in_sec": 0.0,
-        "speed": 1.0
-      },
-      "transition": {
-        "type": "cut",
-        "dur_sec": 0.0
-      },
-      "still": "Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; {{merfolk}} glinting beneath the surface, arranged in concentric rings. No people.",
-      "conventions": [
-        "CAM-DESCENT",
-        "FRAME-PATTERN-SURRENDER",
-        "DEPTH-SCALE-VELOCITY"
-      ]
-    },
-    {
-      "id": "s040",
-      "section": "rivers-of-mars",
-      "type": "concept",
-      "setup": "basin_moon_descent",
-      "start_barbeat": "49.1",
-      "start_sec": 131.8716,
-      "end_sec": 134.7357,
-      "dur_sec": 2.8641,
-      "frames": 69,
+      "start_barbeat": "50.1",
+      "start_sec": 134.5417,
+      "end_sec": 137.578,
+      "dur_sec": 3.0363,
+      "frames": 73,
       "lyric": "Chrome-plated bodies go swimming",
       "description": "Descent to the lagoon",
       "prompt": "Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; {{merfolk}} glinting beneath the surface, arranged in concentric rings. No people. The camera cranes slowly down toward the water; the rings resolve as it nears the surface.",
       "clip": {
         "file": "clips\\raw\\basin_moon_descent_v6.mp4",
-        "in_sec": 2.86,
+        "in_sec": 0.0,
         "speed": 1.0
       },
       "transition": {
@@ -1161,35 +1190,6 @@
         "CAM-DESCENT",
         "FRAME-PATTERN-SURRENDER",
         "DEPTH-SCALE-VELOCITY"
-      ]
-    },
-    {
-      "id": "s041",
-      "section": "rivers-of-mars",
-      "type": "performance",
-      "setup": "basin_edge_sync",
-      "start_barbeat": "50.1",
-      "start_sec": 134.7357,
-      "end_sec": 137.578,
-      "dur_sec": 2.8423,
-      "frames": 68,
-      "lyric": "",
-      "description": "Astronaut at the lagoon shore",
-      "prompt": "Night. {{astronaut}} in {{suit}} kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of {{merfolk}} has just surfaced. No one else in frame. Symmetrical framing on her and her reflection. She sings with confident, rhythmic delivery, head steady, shoulders grooving subtly; the swimmer bobs on the beat. Slow push.",
-      "clip": {
-        "file": "clips\\raw\\basin_edge_sync_kling.mp4",
-        "in_sec": 0.0,
-        "speed": 1.0
-      },
-      "transition": {
-        "type": "cut",
-        "dur_sec": 0.0
-      },
-      "still": "Night. {{astronaut}} in {{suit}} kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of {{merfolk}} has just surfaced. No one else in frame. Symmetrical framing on her and her reflection.",
-      "conventions": [
-        "CAM-BREATH",
-        "PERF-HYSTERETIC-PRESENCE",
-        "FRAME-SCALE-BILLING"
       ]
     },
     {
@@ -1207,7 +1207,7 @@
       "prompt": "Night. {{astronaut}} in {{suit}} kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of {{merfolk}} has just surfaced. No one else in frame. Symmetrical framing on her and her reflection. She sings with confident, rhythmic delivery, head steady, shoulders grooving subtly; the swimmer bobs on the beat. Slow push.",
       "clip": {
         "file": "clips\\raw\\basin_edge_sync_kling.mp4",
-        "in_sec": 2.84,
+        "in_sec": 0.0,
         "speed": 1.0
       },
       "transition": {
