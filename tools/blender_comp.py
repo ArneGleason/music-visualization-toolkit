@@ -63,6 +63,8 @@ def build_parser():
     ap.add_argument("--lyrics", action="store_true", help="add lyric captions")
     ap.add_argument("--lyric-motion", default=None,
                     help="JSON choreography for per-letter lyric motion; replaces simple --lyrics captions")
+    ap.add_argument("--lyric-3d", default=None,
+                    help="JSON choreography rendered as real 3D glyph geometry; replaces other lyric modes")
     ap.add_argument("--overlay-only", action="store_true",
                     help="no footage/audio: render the overlay channels over transparency as PNG+alpha")
     ap.add_argument("--start", type=int, default=None, help="first output frame (0-based), for auditions")
@@ -232,7 +234,20 @@ def inside_blender(argv):
         key(pulse, "blend_alpha", B(f) + decay, 0.0)
 
     # ---- channel 5+: lyric captions -------------------------------------------
-    if a.lyric_motion:
+    n_glyph_3d = 0
+    if a.lyric_3d:
+        tools_dir = str(pathlib.Path(__file__).resolve().parent)
+        if tools_dir not in sys.path:
+            sys.path.insert(0, tools_dir)
+        from lyric3d import build_lyric_scene
+
+        lyric_scene, n_glyph_3d = build_lyric_scene(
+            ROOT, a.lyric_3d, W, H, fps, total)
+        lyric_strip = strips.new_scene(
+            name="lyric_geometry", scene=lyric_scene, channel=96, frame_start=B(0))
+        lyric_strip.blend_type = 'ALPHA_OVER'
+        lyric_strip.frame_final_duration = total
+    elif a.lyric_motion:
         import blf
 
         motion_path = pathlib.Path(a.lyric_motion)
@@ -445,11 +460,12 @@ def inside_blender(argv):
         bp.parent.mkdir(parents=True, exist_ok=True)
         bpy.ops.wm.save_as_mainfile(filepath=str(bp))
 
-    lyric_mode = "motion" if a.lyric_motion else ("simple" if a.lyrics else "off")
+    lyric_mode = "3d" if a.lyric_3d else ("motion" if a.lyric_motion else ("simple" if a.lyrics else "off"))
     print(f"[blender_comp] {W}x{H} @ {fps:g} fps, frames {sc.frame_start}-{sc.frame_end} "
           f"({sc.frame_end - sc.frame_start + 1}); cut: {n_clip} clips, {n_still} stills, {n_slate} slates; "
           f"{len(cues['beats'])} beats, lyrics={lyric_mode}" +
-          (f" ({n_glyph} glyphs)" if a.lyric_motion else ""))
+          (f" ({n_glyph_3d} glyphs)" if a.lyric_3d else
+           (f" ({n_glyph} glyphs)" if a.lyric_motion else "")))
     bpy.ops.render.render(animation=True)
     print(f"[blender_comp] wrote {r.filepath}")
 

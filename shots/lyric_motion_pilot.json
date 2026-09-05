@@ -1,10 +1,14 @@
 {
-  "_comment": "Opening lyric-motion audition. Word frames are provisional; line frames come from the register. Rigidity runs 0.0 (rubber) to 1.0 (steel).",
+  "_comment": "Opening lyric-motion audition. Word frames are provisional; review them in shots/lyric_timing_review.md. Line frames come from the register. Rigidity runs 0.0 (rubber) to 1.0 (steel).",
   "fps": 24,
   "start": 150,
   "end": 725,
+  "font_file": "assets/fonts/fredoka/Fredoka[wdth,wght].ttf",
   "font_size_720": 44,
-  "baseline_px_720": 64,
+  "baseline_px_720": 82,
+  "tracking_px_720": 8,
+  "word_gap_px_720": 24,
+  "camera_lens_mm": 42,
   "phrases": [
     {
       "id": "pilot-001",

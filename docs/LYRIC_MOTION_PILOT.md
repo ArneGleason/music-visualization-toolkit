@@ -1,6 +1,6 @@
 # Lyric motion pilot — opening phrases
 
-Status: first working Blender pilot rendered; awaiting owner review.
+Status: second, true-3D Blender pilot rendered; awaiting owner review.
 
 Pilot range: frames 150–725 at 24 fps (approximately 6.25–30.21 seconds).
 This covers the first six phrases, from “Hey, I need you for something” through
@@ -8,11 +8,29 @@ This covers the first six phrases, from “Hey, I need you for something” thro
 
 ## Review render
 
-`out/lyric_motion_pilot_v03.mp4` is the current 1280×720 review version. It is
+`out/lyric_motion_pilot_3d_v01.mp4` is the current 1280×720 review version. It is
 24 seconds long, includes the matching music segment and eight selected
-storyboard cuts, and animates 116 individual glyphs. The media file remains
-local and ignored by Git. `out/lyric_motion_pilot_v03_contact.jpg` is a static
+storyboard cuts, and animates 116 individual 3D glyph meshes. The earlier 2D
+comparison remains at `out/lyric_motion_pilot_v03.mp4`. Media files remain
+local and ignored by Git. `out/lyric_motion_pilot_3d_v01_contact.jpg` is a static
 QA sheet, not a substitute for judging the motion in the video.
+
+The second pass uses the open-licensed Fredoka variable font with eight pixels
+of added letter tracking at 720p. Blender loads the original variable font,
+then converts every glyph to a beveled, extruded mesh. The wider/weight axes
+are useful for choosing a font instance, but Blender does not expose those
+OpenType axes as animatable text-object properties. Live expression therefore
+comes from real mesh shape keys, X/Y/Z rotation, anisotropic scale, and
+perspective-camera Z movement.
+
+Reproduce the 3D audition with:
+
+```powershell
+python tools/blender_comp.py --proxy --start 150 --end 725 `
+  --lyric-3d shots/lyric_motion_pilot.json `
+  --favorites shots/still_favorites.md `
+  --out out/lyric_motion_pilot_3d_v01.mp4
+```
 
 The implementation treats rigidity as a continuum from 0.0 (soft rubber) to
 1.0 (steel). Low-rigidity words pass motion through their letters with delayed
@@ -53,14 +71,15 @@ labels.
    recoil, or hand attention to another word. This is where the lyric becomes
    an interpretive dance instead of karaoke highlighting.
 
-Limits for the pilot: scale 0.90–1.22, rotation within ±4°, one line whenever
-possible, and no letter deformation that makes a word hard to read. Each word
+The second pilot deliberately exceeds the first pass's restrained scale and
+rotation limits: active rubber glyphs can come forward in camera depth, grow
+about 30%, rotate on all axes, and flex their actual outline. Each word
 uses a two-frame anticipation, a two-to-four-frame attack, and an unequal
 six-to-ten-frame settling tail. Function words usually receive presence only.
 
 ### Position and type
 
-- Center the phrase in the lower safe area, baseline about 64 pixels above the
+- Center the phrase in the lower safe area, baseline about 82 pixels above the
   bottom of a 720p frame.
 - Use a bold, clean face around 44 pixels at rest, with the existing dark
   shadow/outline for contrast over changing stills.
@@ -166,18 +185,25 @@ Once the direction is approved, word attacks should be derived from the lead
 vocal stem, checked by ear, and snapped to musically intentional frame or
 eighth-note positions. Sung holds and consonants may require manual adjustment.
 
+For the present review, mark heard corrections in
+`shots/lyric_timing_review.md`: `on -3f`, `on +2f`, an exact `on=181`, or
+`OK`. The JSON remains the machine-readable source; the Markdown sheet is the
+human listening and handoff record. A later local timeline UI can write these
+same frame corrections without changing the data model.
+
 ## Blender implementation used in the pilot
 
 1. The existing `--lyrics` captions remain available as the simple fallback.
 2. `shots/lyric_motion_pilot.json` holds the optional choreography; the pilot
    is not hard-coded into the compositor.
-3. Blender VSE uses one text strip per glyph so each letter can bend and settle
-   independently. Alternating channel banks let consecutive phrases overlap.
-4. Opacity, color, position, anisotropic scale, and rotation are keyframed.
-   Lyric transforms use auto-clamped curves; beat flashes keep their sharp
-   linear timing.
-5. Every glyph is placed around its own transform pivot, allowing local
-   squash/stretch and rotation without pulling the whole word apart.
+3. `--lyric-motion` retains the prior 2D VSE-glyph implementation for direct
+   comparison. `--lyric-3d` builds a transparent Blender scene containing one
+   beveled mesh per glyph and composites it as a scene strip.
+4. Color, position, anisotropic scale, and all three rotations are keyframed.
+   Perspective Z motion makes a glyph approach or retreat from the viewer.
+5. Each mesh has a custom `RubberFlex` shape key that bows the actual outline
+   sideways and in depth. Low-rigidity words flex and overshoot independently;
+   high-rigidity words use a metallic material and move as a tighter block.
 6. The lyric overlay is independent of shot boundaries, so a phrase and its
    gesture continue naturally over picture cuts.
 7. The audition remains limited to frames 150–725. Do not expand to the full
@@ -190,5 +216,7 @@ eighth-note positions. Sung holds and consonants may require manual adjustment.
 - Should active words behave more like typography, more like bodies dancing,
   or more like physical props in the scene?
 - Is the amount of motion restrained enough to read while watching the images?
+- Does the added tracking give the letters enough room, or should it open more?
+- Is the real Z travel expressive enough, or should hero words come even closer?
 - If this vocabulary works, should later passages reuse these motifs—signal,
   pieces, failed fit, ripple—or invent a new gesture for every phrase?
