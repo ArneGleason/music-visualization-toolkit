@@ -89,8 +89,11 @@ The DAW effects direction remains in
 [DAW_VISUALIZATION_OVERLAY_PLAN.md](DAW_VISUALIZATION_OVERLAY_PLAN.md).
 Latest effects direction: test one bass-driven replacement of the opening
 oscilloscope display, as specified in [SCREEN_SYNC_PILOT.md](SCREEN_SYNC_PILOT.md).
-The multi-effect river chorus is a later integration study. No screen-effects
-render exists yet.
+The multi-effect river chorus is a later integration study. The first screen
+test is now `out/screen_sync_pilot/comparison.mp4`: a 17.25-second comparison
+of the original pattern, an amber bass replacement, and a cyan bass overlay
+over the dimmed original. All use the approved still with a slight shared
+camera move. Awaiting owner review; actual moving-footage tracking is untested.
 
 The latest plan is authoritative; generated clips may be replaced or reused
 as spare material. The shared repository records saved decisions and assets,

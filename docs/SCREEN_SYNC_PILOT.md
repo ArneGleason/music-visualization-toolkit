@@ -1,7 +1,41 @@
 # Screen replacement driven by the music: first effects test
 
-Status: proposed next effects experiment, 2026-09-05. No effects render has been
-made yet. Test one element; expand only after reviewing what it teaches us.
+Status: first still-plate comparison rendered, 2026-09-05; awaiting owner review.
+Test one element; expand only after reviewing what it teaches us.
+
+## First rendered comparison
+
+Local review: `out/screen_sync_pilot/comparison.mp4`, 1280x720 at 24 fps.
+Original, A, B, then repeat: six 69-frame passages, 414 frames / 17.25 seconds.
+Each uses the exact same master excerpt and a shared slight push/drift.
+
+- Original: approved still with its static invented amber waveform.
+- A: original screen interior replaced with shaded glass and a subdued grid;
+  an amber trace displays the real band-limited bass.
+- B: original screen dimmed, with a cyan bass trace over it. The underlying
+  invented waveform is static in this test, not generated moving footage.
+
+Implemented in `tools/screen_sync_pilot.py`, rendered inside Blender with no
+add-ons or paid generation. Signed bass samples are filtered to 25-180 Hz and
+sampled at 8 kHz; the 64 ms display window uses a rising-crossing trigger search
+bounded to +/-6 ms. The stem's recorded 0.178348-second offset is applied once.
+Two short persistence traces follow the current line. Parameters are also
+saved locally under `out/screen_sync_pilot/parameters.json`.
+
+Technical review: active and quiet frames show changing bass shape and settling
+to a line between notes; camera movement carries plate and trace together.
+The comparison is assembled from the master audio directly to avoid repeated
+AAC padding at its joins. Owner listening review still determines perceived
+timing and the preferred visual treatment.
+
+Visual findings: B retains more photographic surface detail but has competing
+traces. A makes the response clearer, while its reconstructed glass is smoother
+than the original. Actual moving-screen tracking and restored fine glass
+reflections remain untested. Do not treat this proof as final screen cleanup.
+
+Reproduce with Blender in background mode running
+`tools/screen_sync_pilot.py`; `--preview` renders one frame per treatment and
+`--assemble-only` rebuilds the comparison from existing rendered snippets.
 
 ## Intention and choreography
 

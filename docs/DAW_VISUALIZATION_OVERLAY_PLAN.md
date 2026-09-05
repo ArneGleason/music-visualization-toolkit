@@ -2,8 +2,9 @@
 
 Status: creative direction for review before implementation.
 
-Latest direction, 2026-09-05: the next effects test is one music-driven
-oscilloscope screen replacement. See [SCREEN_SYNC_PILOT.md](SCREEN_SYNC_PILOT.md)
+Latest direction, 2026-09-05: the first effects comparison now tests one
+music-driven oscilloscope, both replacing and layering over the original trace.
+See [SCREEN_SYNC_PILOT.md](SCREEN_SYNC_PILOT.md)
 for intention, choreography, implementation requirements, and review criteria.
 The river chorus below is a later integration study, not the first task.
 
