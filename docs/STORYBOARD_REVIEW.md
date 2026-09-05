@@ -262,6 +262,30 @@ next, Add. Reloading the page clears the chips. The panel entries and the
 grid tiles share `data-index`, which is how the harvest maps media ids back
 to prompts (`scratchpad/flow6/map6b.py`).
 
+## Chorus motion test (2026-09-04)
+
+Approved set for the whole film: `shots/still_favorites.md` (41/41, tracked)
+with the images under `codex/out/`. First sequence taken to motion: the
+chorus, s039–s051 (129.0–166.0 s, 13 cuts, 8 setups). Each approved still
+was uploaded to Flow and used as the Frames-to-Video start frame with the
+setup's Video prompt, Veo 3.1 Quality, 720p, 8 s, x1 (100 credits each).
+
+- First round: 6 of 8 clips animated from the wrong still, because
+  selecting a picker option by script did not change the selection and
+  "Add to prompt" re-added the previous frame. Only a real click on the
+  option (then a check of the slot thumbnail) is reliable. ~600 credits
+  lost; all 8 regenerated correctly.
+- Clips in `clips/v6/<setup>.mp4`, filed as `clips/raw/<setup>_v6.mp4` and
+  assigned to the 13 cuts with `tools/ingest.py` (adjacent identical
+  setups run as one continuous clip via `in_sec`).
+- `out/chorus_motion_v1.mp4`: the section cut in Blender from the clips,
+  with beat pulse and captions, before lip sync.
+- Lip sync: Kling (production sync tool per PHASE0) on the two sung
+  setups, `chorus_close_sync` (s045–s046) and `basin_edge_sync`
+  (s041–s042), driven by 8 s lead-vocal slices
+  (`clips/inbox/chorus_close_vocal8.wav`, `basin_edge_vocal8.wav`) so the
+  audio covers the whole clip.
+
 ## Generator A/B, Flow side (2026-09-02)
 
 Nano Banana Pro, 16:9, x2, the v2 Characters attached, "Film still." lead,
