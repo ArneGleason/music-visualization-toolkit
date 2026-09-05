@@ -18,6 +18,9 @@ This is a reusable music-video and visualization toolkit.
 8. Refine across the whole timeline in successive passes. Carry lessons into
    the next section; log weaknesses and revisit them in a later pass rather
    than repeatedly polishing one short passage. Existing tests may be replaced.
+9. The latest creative plan takes precedence over generated media. Treat clips
+   as replaceable takes or spare material; reconcile assignments with the plan
+   during assembly instead of constraining the plan to preserve existing clips.
 
 ## Style
 

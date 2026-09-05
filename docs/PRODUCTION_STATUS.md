@@ -87,7 +87,17 @@ should be checked before merging any revised cut.
 
 The DAW effects direction remains in
 [DAW_VISUALIZATION_OVERLAY_PLAN.md](DAW_VISUALIZATION_OVERLAY_PLAN.md).
-Review that plan and run a small test after the coverage discussion.
+Latest effects direction: test one bass-driven replacement of the opening
+oscilloscope display, as specified in [SCREEN_SYNC_PILOT.md](SCREEN_SYNC_PILOT.md).
+The multi-effect river chorus is a later integration study. No screen-effects
+render exists yet.
+
+The latest plan is authoritative; generated clips may be replaced or reused
+as spare material. The shared repository records saved decisions and assets,
+not a live registry of another agent's in-flight generation jobs. At assembly,
+reconcile the current shot list, coverage proposal, saved takes, and sync
+origins. Keep proposed/tested/accepted/applied states distinct: a new plan is
+not evidence that an older render already implements it.
 
 Editable full-song choreography is tracked in
 `shots/lyric_motion_full.json`. Heard word-timing corrections can be marked in

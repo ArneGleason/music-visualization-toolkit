@@ -2,6 +2,32 @@
 
 Status: creative direction for review before implementation.
 
+Latest direction, 2026-09-05: the next effects test is one music-driven
+oscilloscope screen replacement. See [SCREEN_SYNC_PILOT.md](SCREEN_SYNC_PILOT.md)
+for intention, choreography, implementation requirements, and review criteria.
+The river chorus below is a later integration study, not the first task.
+
+The creative plan leads production. Generated motion and lip-sync clips are
+replaceable source material, including possible spare inserts; their existence
+does not lock the edit or force preservation of an obsolete idea. Retain useful
+tests for comparison and reconcile them with the latest plan when assembling.
+
+## Several techniques, chosen by scene purpose
+
+| Technique | Intention / choreography | Implementation requirement | First useful test |
+|---|---|---|---|
+| Instrument screen replacement | A device measures or receives the actual musical signal | Clean screen interior, signed audio, display mapping, glass and foreground masks | Opening oscilloscope; one bass trace |
+| Local light and material response | A lamp, plant, water surface, or exhaust responds to an event in its environment | Stem envelope or note event, localized mask, restrained response and decay | One light or one water ripple |
+| Motion attached to a surface | Currents, filaments, or glints travel along an existing form | Surface tracking/warping, depth or occlusion masks, a controlled path | One river surface after the screen test |
+| Added 3D geometry | Rings or note-bearing forms occupy meaningful space | Camera/perspective match, depth order, emission and compositing | Telescope tunnel or one formation |
+| Typography and transitions | Words gesture; one scene's musical motif becomes the next scene's material | Existing lyric timing, explicit entrance/exit cues, readability checks | Build on the approved typography when the scene calls for it |
+
+Recurring motifs can connect sections, but effects need not appear in every
+frame or every return. Literal instrument displays belong where the story
+contains instruments; broader visual metaphors serve other scenes. Each
+experiment records intention, expected behavior, implementation needs, and
+what its render demonstrated. Change one element at a time during early tests.
+
 ## The idea
 
 The music should appear to be part of the physical system of Mars, not a HUD,
@@ -51,7 +77,7 @@ every available event needs to be visible.
 7. Prefer a meaningful silence in the effects to continuous proof that the
    analyzer is running.
 
-## First pilot: the river chorus
+## Later integration study: the river chorus
 
 Use the existing local motion review `out/chorus_motion_v4_retimed.mp4`, covering
 approximately 2:14.5 through 2:37.4. It already contains water, swimmers,
@@ -78,10 +104,10 @@ trying to learn.
 1. Export the compact performance controls from the local DAWproject and six
    stems. This produces deterministic bass, drum-band, guitar, vocal, and MIDI
    event data; it does not render media or call a paid service.
-2. Add an effects-only mode to the existing browser visualization renderer.
-   Reuse its oscilloscope, note actors, ribbons, caustics, membranes, and
-   current-field ideas, but render only the selected scene effects over alpha
-   or black.
+2. Implement the selected element in Blender, using a dedicated scene or
+   compositor treatment and the existing VSE for assembly. Reuse the timing
+   data and useful behavior ideas from the vector renderer. The current
+   production backend is Blender; a browser effects renderer is not required.
 3. Track a small per-shot effects map in JSON. Each entry names the allowed
    drivers, its dominant behavior, and simple screen-space regions or anchor
    paths such as `water`, `sky`, `background`, or `screen`. The shot list stays
@@ -112,8 +138,8 @@ trying to learn.
 
 ## Approval gate
 
-Do not propagate the system across the full song until the river-chorus pilot
-answers these questions:
+Evaluate each focused experiment before extending its technique to additional
+scenes. Use the later river-chorus study to assess how accepted elements combine:
 
 - Does it feel embedded in the photographed world rather than overlaid?
 - Can the viewer perceive the musical relationship without being asked to

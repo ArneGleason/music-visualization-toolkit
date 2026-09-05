@@ -255,13 +255,13 @@ grid by construction.
 
 Three layers, in order of preference:
 
-1. **Vector-stage overlay (the marriage of both paths)**: run the existing
-   browser renderer as an *effects-only* scene on a transparent/black
-   canvas — drum-hit rings, note ribbons, glows, caustic shimmer whose
-   amplitude follows bass — exported through the same deterministic
-   supersampled capture pipeline, then composited (screen/add blend) over
-   the assembled cut. The original Rivers of Mars engine survives as the
-   beat-perfect FX layer of the live-action film.
+1. **Blender effects and screen replacement**: reuse the vector path's musical
+   data and selected behavior ideas in dedicated Blender scenes/compositor
+   treatments, assembled in the existing VSE. Start with the opening
+   oscilloscope: remove the invented trace and replace it with actual
+   bass-driven light beneath the glass. See `docs/SCREEN_SYNC_PILOT.md` for
+   the single-element test. Geometry, masks, emission, and depth-aware
+   compositing can support later rings, ribbons, and surface responses.
 2. **ffmpeg expression cues** generated from the beatmap into a filter
    script: exposure kicks on downbeats, vignette/letterbox micro-breathing,
    lantern-flare pulses on the kick, subtle scale punches on section
@@ -274,9 +274,9 @@ Three layers, in order of preference:
 Aesthetic guardrail: overlays obey the lock — warm halation, technicolor
 palette, no text; light behaves like sound, surfaces never change material.
 
-Smallest tooling when we get there: an effects-only scene for the video
-renderer (or `tools/overlay_render.py`) plus a tiny `tools/markers.py` that
-exports the grid as NLE markers.
+Smallest next tooling: a Blender screen-treatment scene with explicit audio
+mapping and a plate mask. Add tracking for the moving-plate test, and expand
+the reusable tooling only after the experiment demonstrates what is needed.
 
 ## 8. Minimal tooling / schema changes
 
