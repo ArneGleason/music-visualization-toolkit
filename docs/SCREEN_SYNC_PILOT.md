@@ -1,7 +1,32 @@
 # Screen replacement driven by the music: first effects test
 
-Status: first still-plate comparison rendered, 2026-09-05; awaiting owner review.
+Status: owner prefers complete replacement, 2026-09-05. A bounded refinement
+adds reference texture, organic line width, and spatial supersampling.
 Test one element; expand only after reviewing what it teaches us.
+
+## Replacement refinement
+
+Owner feedback: complete replacement is better; add more screen texture from
+the source image, a less uniform beam width, and smoothing. The first replacement
+is already acceptable and remains available as the comparison baseline.
+
+`tools/screen_sync_refine.py` keeps the same bass samples, song alignment, and
+camera movement. It samples a trace-free patch of the approved screen at image
+coordinates [645,405]–[745,485], mirrors it to avoid hard repeat seams, and
+blends it into the clean display. This recovers some photographic texture;
+it is not a reconstruction of all original glass reflections.
+
+The beam has gently varying radius, including more thickness where vertical
+travel slows, with deterministic slow irregularity and softer, fainter
+persistence. Cubic interpolation smooths the sampled contour. Rendering at
+2560x1440 and downsampling to 1280x720 provides 2x spatial supersampling per
+dimension; temporal sampling remains 24 fps.
+
+Local review: `out/screen_sync_refined/comparison.mp4`, old replacement then
+refinement, twice, with the same master excerpt (276 frames / 11.5 seconds).
+The revised single passage is `out/screen_sync_refined/refined.mp4`.
+Review this refinement, record the lesson, then advance to another section
+as planned rather than continuing to polish this one in isolation.
 
 ## First rendered comparison
 

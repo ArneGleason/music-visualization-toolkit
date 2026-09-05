@@ -93,7 +93,10 @@ The multi-effect river chorus is a later integration study. The first screen
 test is now `out/screen_sync_pilot/comparison.mp4`: a 17.25-second comparison
 of the original pattern, an amber bass replacement, and a cyan bass overlay
 over the dimmed original. All use the approved still with a slight shared
-camera move. Awaiting owner review; actual moving-footage tracking is untested.
+camera move. The owner selected complete replacement. The follow-up comparison
+is `out/screen_sync_refined/comparison.mp4`: reference-derived screen texture,
+varying beam width, and 2x spatial supersampling, compared with the first
+replacement. Actual moving-footage tracking is still untested.
 
 The latest plan is authoritative; generated clips may be replaced or reused
 as spare material. The shared repository records saved decisions and assets,
