@@ -186,6 +186,14 @@ def build_full(cues, pilot):
     full["start"] = 0
     full["end"] = int(cues["frames"]) - 1
     full["backing_band"] = False
+    full["line_preroll_frames"] = 1
+    full["line_tail_frames"] = 0
+    full["line_clearance_frames"] = 4
+    full["focus_shadow"] = True
+    full["focus_color"] = [1.0, 0.965, 0.86, 1.0]
+    full["focus_shadow_color"] = [0.018, 0.020, 0.026, 1.0]
+    full["focus_shadow_offset_px_720"] = 2.5
+    full["focus_shadow_expand"] = 1.065
     full["phrases"] = phrases
     return full
 
@@ -231,4 +239,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

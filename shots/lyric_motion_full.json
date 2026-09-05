@@ -10,6 +10,24 @@
   "word_gap_px_720": 24,
   "camera_lens_mm": 42,
   "backing_band": false,
+  "line_preroll_frames": 1,
+  "line_tail_frames": 0,
+  "line_clearance_frames": 4,
+  "focus_shadow": true,
+  "focus_color": [
+    1.0,
+    0.965,
+    0.86,
+    1.0
+  ],
+  "focus_shadow_color": [
+    0.018,
+    0.02,
+    0.026,
+    1.0
+  ],
+  "focus_shadow_offset_px_720": 2.5,
+  "focus_shadow_expand": 1.065,
   "phrases": [
     {
       "id": "pilot-001",

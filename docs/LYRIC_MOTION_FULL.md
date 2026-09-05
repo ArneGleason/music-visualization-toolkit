@@ -1,16 +1,22 @@
 # Full-song flat lyric choreography
 
-Status: first complete animatic rendered for owner timing and motion review.
+Status: second complete animatic rendered for owner timing, motion, and
+readability review.
 
 ## Current review render
 
-`out/blender_animatic_flat_lyrics_v01.mp4` is the complete 1280×720 animatic:
+`out/blender_animatic_flat_lyrics_v02.mp4` is the current complete 1280×720
+animatic:
 
 - 4,782 frames at 24 fps (199.25 seconds)
 - all 59 timed picture cuts using the 41 approved still selections
 - 87 registered lyric lines and 305 individually timed words
 - flat Fredoka glyph shapes with no visible extrusion, bevel, modeled lighting,
   perspective depth, or backing rectangle
+- ordinary lines clear four frames before the next line; the five registered
+  counter-vocal overlaps retain their separate baselines
+- the active word turns warm white and carries a tight charcoal silhouette for
+  contrast; the support follows the deformed glyphs and is never a rectangle
 - the original master mix encoded once after the frame-locked sections join
 
 Generated movie files and section renders remain local under `out/` and are
@@ -43,6 +49,23 @@ Colors are mixed toward cream to avoid rainbow-like cycling. When the actual
 lyric zone is unusually bright, such as the pale specimen table, the same rule
 selects a dark complementary fill instead. There is no backing rectangle.
 
+While a word is active, its letters turn warm white and a subtly expanded,
+slightly offset charcoal copy follows the same deformation behind them. This
+keeps the live word readable over pale or busy picture detail without making
+the letterform itself modeled or extruded. The support disappears with the
+word's active window.
+
+## Line handoff
+
+Normal lines enter one frame before their first word and have no post-roll.
+When the next lyric follows directly, the outgoing line clears four frames
+before the next onset, leaving a brief empty beat between lines. A later phrase
+whose `baseline_offset_px_720` is nonzero is an intentional counter-vocal and
+is exempt from this clearance only for the registered vocal overlap.
+
+These values are editable at the top of `shots/lyric_motion_full.json` as
+`line_preroll_frames`, `line_tail_frames`, and `line_clearance_frames`.
+
 ## Timing review
 
 Line frames come from `generated/overlay_cues.json`. Word frames after the
@@ -69,10 +92,9 @@ section joins. Finished sections are reused on resume.
 python tools/render_lyric_animatic.py `
   --choreography shots/lyric_motion_full.json `
   --favorites shots/still_favorites.md `
-  --out out/blender_animatic_flat_lyrics_v01.mp4 `
+  --out out/blender_animatic_flat_lyrics_v02.mp4 `
   --segment-frames 720
 ```
 
 Pass `--force` after changing choreography, timing, selected stills, or palette
 logic; otherwise valid existing section files are intentionally reused.
-

@@ -32,11 +32,14 @@ The approved image set includes the targeted revisions made on 2026-09-04:
 ### Full flat-shape lyric animatic ready for review
 
 The approved flat Fredoka treatment now covers the complete song: 87 lyric
-lines and 305 individually animated words across all 4,782 frames. The local
-review file is `out/blender_animatic_flat_lyrics_v01.mp4`: 1280×720, 24 fps,
-199.25 seconds, 59 selected-still cuts, and continuous master audio. The text
-has no backing rectangle or visible 3D treatment. Scene-aware color eases over
-12 frames at cuts and switches to a dark fill for unusually bright lyric zones.
+lines and 305 individually animated words across all 4,782 frames. The current
+local review file is `out/blender_animatic_flat_lyrics_v02.mp4`: 1280×720,
+24 fps, 199.25 seconds, 59 selected-still cuts, and continuous master audio.
+The text has no backing rectangle or visible 3D treatment. Scene-aware color
+eases over 12 frames at cuts and switches to a dark fill for unusually bright
+lyric zones. Normal lines now clear four frames before the next onset; the five
+registered counter-vocal overlaps remain on two baselines. The active word
+turns warm white and gains a tight glyph-shaped charcoal contrast silhouette.
 
 Editable full-song choreography is tracked in
 `shots/lyric_motion_full.json`. Heard word-timing corrections can be marked in

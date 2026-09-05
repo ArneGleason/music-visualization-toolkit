@@ -165,6 +165,13 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
     rubber_mat = _material(bpy, "LyricRubber", metallic=0.0, roughness=0.36)
     steel_mat = _material(bpy, "LyricSteel", metallic=0.62, roughness=0.24)
     flat_mat = _flat_material(bpy, "LyricFlatFill")
+    focus_shadow = flat and bool(motion.get("focus_shadow", True))
+    focus_color = tuple(motion.get(
+        "focus_color", [1.0, 0.965, 0.86, 1.0]))
+    shadow_color = tuple(motion.get(
+        "focus_shadow_color", [0.018, 0.020, 0.026, 1.0]))
+    shadow_offset_px = float(motion.get("focus_shadow_offset_px_720", 2.5))
+    shadow_expand = float(motion.get("focus_shadow_expand", 1.065))
     use_band = flat and bool(motion.get("backing_band", False))
     band_mat = _band_material(bpy, "LyricBackingBand") if use_band else None
 
@@ -279,7 +286,25 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
                 target.co.y += span * 0.035 * math.sin(2.0 * math.pi * u)
             else:
                 target.co.z += span * 0.11 * bell
-        return obj, flex
+        shadow = None
+        if focus_shadow:
+            # The active-word support follows the exact deformed silhouette.
+            # It is deliberately glyph-shaped, not a caption box: a subtly
+            # expanded, down-right charcoal copy behind the live letter.
+            shadow = obj.copy()
+            shadow.name = name + "FocusShadow"
+            scene.collection.objects.link(shadow)
+            shadow.parent = obj
+            px_world = field_h / height
+            shadow.location = (
+                shadow_offset_px * px_world,
+                -shadow_offset_px * px_world,
+                -0.030,
+            )
+            shadow.scale = (shadow_expand, shadow_expand, 1.0)
+            shadow.color = shadow_color
+            shadow.hide_render = True
+        return obj, flex, shadow
 
     def add_band(name, total_w, line_start, line_end, phrase_on, phrase_off):
         mesh = bpy.data.meshes.new(name + "Mesh")
@@ -307,7 +332,11 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
         return band
 
     glyph_count = 0
-    for phrase in motion["phrases"]:
+    phrases = motion["phrases"]
+    line_preroll = int(motion.get("line_preroll_frames", 1))
+    line_tail = int(motion.get("line_tail_frames", 0))
+    line_clearance = int(motion.get("line_clearance_frames", 4))
+    for phrase_index, phrase in enumerate(phrases):
         if frame_range:
             range_start, range_end = frame_range
             if (int(phrase["off"]) + 6 < range_start or
@@ -318,8 +347,17 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
         dim = dim_cyan if speaker == "Them 2" else dim_gold
         phrase_on = int(phrase["on"])
         phrase_off = int(phrase["off"])
-        line_start = max(0, phrase_on - 4)
-        line_end = min(total_frames - 1, phrase_off + 6)
+        line_start = max(0, phrase_on - line_preroll)
+        line_end = min(total_frames - 1, phrase_off + line_tail)
+        next_phrase = phrases[phrase_index + 1] if phrase_index + 1 < len(phrases) else None
+        if next_phrase:
+            next_on = int(next_phrase["on"])
+            intentional_overlap = (
+                next_on < phrase_off and
+                bool(next_phrase.get("baseline_offset_px_720", 0.0)))
+            if not intentional_overlap:
+                line_end = min(line_end, next_on - line_clearance)
+        line_end = max(line_start + 1, line_end)
         phrase_baseline_y = baseline_y + (
             float(phrase.get("baseline_offset_px_720", 0.0)) * scale_720
             / height * field_h)
@@ -328,9 +366,9 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
         for wi, word in enumerate(phrase["words"]):
             rigidity = float(word.get("rigidity", 0.5))
             for gi, char in enumerate(word["text"]):
-                obj, flex = create_glyph(
+                obj, flex, shadow = create_glyph(
                     f"lyric_{phrase['id']}_{wi:02d}_{gi:02d}", char, rigidity)
-                made.append((obj, flex, word, wi, gi, len(word["text"])))
+                made.append((obj, flex, shadow, word, wi, gi, len(word["text"])))
                 glyph_count += 1
 
         # Layout is measured from the chosen font geometry, with deliberately
@@ -344,7 +382,7 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
         cursor = -total_w / 2.0
         last_word = -1
 
-        for glyph_index, ((obj, flex, word, wi, gi, count), glyph_w) in enumerate(zip(made, widths)):
+        for glyph_index, ((obj, flex, shadow, word, wi, gi, count), glyph_w) in enumerate(zip(made, widths)):
             if last_word >= 0 and wi != last_word:
                 cursor += word_gap
             base_x = cursor + glyph_w / 2.0
@@ -387,17 +425,36 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
             obj.hide_render = True
             obj.keyframe_insert(data_path="hide_render", frame=line_end + 1)
 
+            if shadow:
+                shadow_on = max(line_start + 1, word_on - 1)
+                shadow_off = min(line_end + 1, word_off + 1)
+                shadow.hide_render = True
+                shadow.keyframe_insert(data_path="hide_render", frame=line_start)
+                shadow.keyframe_insert(data_path="hide_render", frame=shadow_on - 1)
+                shadow.hide_render = False
+                shadow.keyframe_insert(data_path="hide_render", frame=shadow_on)
+                shadow.hide_render = True
+                shadow.keyframe_insert(data_path="hide_render", frame=shadow_off)
+
             if flat:
-                color_frames = {line_start + 1, word_on - 1, hit, word_off, line_end}
+                color_frames = {
+                    line_start + 1, word_on - 1, word_on, hit,
+                    word_off, line_end,
+                }
                 for cue in palette:
                     if line_start < cue["start"] < line_end:
                         color_frames.add(max(line_start + 1, cue["start"] - 3))
                         color_frames.add(min(line_end, cue["start"] + 9))
                 for frame in sorted(color_frames):
                     color = palette_at(frame)[0]
-                    level = 0.48 if frame < word_on else (1.0 if frame < word_off else 0.78)
-                    _key(obj, "color", frame,
-                         tuple(c * level if i < 3 else c for i, c in enumerate(color)))
+                    if focus_shadow and word_on <= frame < word_off:
+                        display = focus_color
+                    else:
+                        level = 0.48 if frame < word_on else 0.78
+                        display = tuple(
+                            c * level if i < 3 else c
+                            for i, c in enumerate(color))
+                    _key(obj, "color", frame, display)
             else:
                 _key(obj, "color", line_start + 1, dim)
                 _key(obj, "color", word_on - 1, dim)
