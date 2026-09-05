@@ -247,7 +247,8 @@ def inside_blender(argv):
 
         lyric_scene, n_glyph_3d = build_lyric_scene(
             ROOT, a.lyric_flat or a.lyric_3d, W, H, fps, total,
-            flat=bool(a.lyric_flat), palette_cues=cut_visuals)
+            flat=bool(a.lyric_flat), palette_cues=cut_visuals,
+            frame_range=(f0, f1))
         lyric_strip = strips.new_scene(
             name="lyric_geometry", scene=lyric_scene, channel=96, frame_start=B(0))
         lyric_strip.blend_type = 'ALPHA_OVER'

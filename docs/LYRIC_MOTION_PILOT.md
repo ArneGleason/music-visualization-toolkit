@@ -1,6 +1,6 @@
 # Lyric motion pilot — opening phrases
 
-Status: third, flat-shape Blender pilot rendered; awaiting owner review.
+Status: flat-shape pilot approved as the basis for the full-song pass.
 
 Pilot range: frames 150–725 at 24 fps (approximately 6.25–30.21 seconds).
 This covers the first six phrases, from “Hey, I need you for something” through
@@ -26,8 +26,11 @@ outline in the picture plane.
 At each picture cut, the renderer samples the lower part of the selected still,
 chooses a subdued complementary text color, mixes it toward cream, and eases to
 the new color over 12 frames. This keeps changes connected to the composition
-without fast hue cycling. A faint, scene-tinted backing band provides contrast
-without changing the letter fill or resembling modeled depth.
+without fast hue cycling. The backing band tested in this pilot was subsequently
+removed. Bright lyric zones use a dark complementary fill instead.
+
+The approved treatment has now been extended across the complete song. See
+`docs/LYRIC_MOTION_FULL.md` and `shots/lyric_motion_full.json`.
 
 Reproduce the current flat audition with:
 

@@ -1,0 +1,3956 @@
+{
+  "_comment": "Full-song flat lyric choreography. First six phrases are hand-authored; later word frames are provisional and reviewed in shots/lyric_timing_review_full.md.",
+  "fps": 24,
+  "start": 0,
+  "end": 4781,
+  "font_file": "assets/fonts/fredoka/Fredoka[wdth,wght].ttf",
+  "font_size_720": 44,
+  "baseline_px_720": 82,
+  "tracking_px_720": 8,
+  "word_gap_px_720": 24,
+  "camera_lens_mm": 42,
+  "backing_band": false,
+  "phrases": [
+    {
+      "id": "pilot-001",
+      "text": "Hey, I need you for something.",
+      "speaker": "Them 1",
+      "on": 156,
+      "off": 284,
+      "words": [
+        {
+          "text": "Hey,",
+          "on": 156,
+          "off": 175,
+          "rigidity": 0.25,
+          "dx": 0,
+          "dy": 12,
+          "sx": 1.1,
+          "sy": 1.1,
+          "rotation": 2,
+          "bend": 5,
+          "entry_dx": -10
+        },
+        {
+          "text": "I",
+          "on": 175,
+          "off": 185,
+          "rigidity": 0.75,
+          "dy": 4,
+          "sx": 1.04,
+          "sy": 1.04
+        },
+        {
+          "text": "need",
+          "on": 185,
+          "off": 205,
+          "rigidity": 0.12,
+          "dy": 10,
+          "sx": 1.1,
+          "sy": 1.15,
+          "rotation": 3,
+          "bend": 9
+        },
+        {
+          "text": "you",
+          "on": 205,
+          "off": 225,
+          "rigidity": 0.35,
+          "dx": 16,
+          "dy": 5,
+          "sx": 1.08,
+          "sy": 1.08,
+          "bend": 4
+        },
+        {
+          "text": "for",
+          "on": 225,
+          "off": 245,
+          "rigidity": 0.7,
+          "dy": 4,
+          "sx": 1.04,
+          "sy": 1.04
+        },
+        {
+          "text": "something.",
+          "on": 245,
+          "off": 284,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.08,
+          "split": 6,
+          "curve": 8,
+          "bend": 10
+        }
+      ]
+    },
+    {
+      "id": "pilot-002",
+      "text": "It's important.",
+      "speaker": "Them 1",
+      "on": 284,
+      "off": 332,
+      "words": [
+        {
+          "text": "It's",
+          "on": 284,
+          "off": 300,
+          "rigidity": 0.2,
+          "dy": 7,
+          "sx": 1.06,
+          "sy": 1.08,
+          "bend": 6
+        },
+        {
+          "text": "important.",
+          "on": 300,
+          "off": 332,
+          "rigidity": 0.94,
+          "dy": -8,
+          "sx": 1.2,
+          "sy": 0.94,
+          "anticipation_y": 12,
+          "recoil_y": 4
+        }
+      ]
+    },
+    {
+      "id": "pilot-003",
+      "text": "More than that sounds.",
+      "speaker": "Them 1",
+      "on": 387,
+      "off": 464,
+      "words": [
+        {
+          "text": "More",
+          "on": 387,
+          "off": 404,
+          "rigidity": 0.68,
+          "dy": 5,
+          "sx": 1.18,
+          "sy": 0.94
+        },
+        {
+          "text": "than",
+          "on": 404,
+          "off": 422,
+          "rigidity": 0.82,
+          "dx": 8,
+          "dy": 3,
+          "sx": 1.04,
+          "sy": 1.02
+        },
+        {
+          "text": "that",
+          "on": 422,
+          "off": 439,
+          "rigidity": 0.82,
+          "dx": -8,
+          "dy": 3,
+          "sx": 1.04,
+          "sy": 1.02
+        },
+        {
+          "text": "sounds.",
+          "on": 439,
+          "off": 464,
+          "rigidity": 0.04,
+          "dy": 6,
+          "sx": 1.05,
+          "sy": 1.12,
+          "wave": 15,
+          "bend": 10
+        }
+      ]
+    },
+    {
+      "id": "pilot-004",
+      "text": "I've got pieces.",
+      "speaker": "Them 1",
+      "on": 516,
+      "off": 602,
+      "words": [
+        {
+          "text": "I've",
+          "on": 516,
+          "off": 541,
+          "rigidity": 0.7,
+          "dy": 4,
+          "sx": 1.03,
+          "sy": 1.03
+        },
+        {
+          "text": "got",
+          "on": 541,
+          "off": 566,
+          "rigidity": 0.86,
+          "dy": -5,
+          "sx": 1.08,
+          "sy": 0.9,
+          "anticipation_y": 7
+        },
+        {
+          "text": "pieces.",
+          "on": 566,
+          "off": 602,
+          "rigidity": 0.08,
+          "dy": 5,
+          "sx": 1.06,
+          "sy": 1.08,
+          "scatter": 14,
+          "wave": 8,
+          "bend": 12
+        }
+      ]
+    },
+    {
+      "id": "pilot-005",
+      "text": "Things that almost fit.",
+      "speaker": "Them 1",
+      "on": 620,
+      "off": 658,
+      "words": [
+        {
+          "text": "Things",
+          "on": 620,
+          "off": 631,
+          "rigidity": 0.22,
+          "dy": 6,
+          "sx": 1.07,
+          "sy": 1.08,
+          "bend": 5
+        },
+        {
+          "text": "that",
+          "on": 631,
+          "off": 639,
+          "rigidity": 0.72,
+          "dy": 4,
+          "sx": 1.03,
+          "sy": 1.03
+        },
+        {
+          "text": "almost",
+          "on": 639,
+          "off": 651,
+          "rigidity": 0.14,
+          "dy": 8,
+          "sx": 0.88,
+          "sy": 1.08,
+          "spread": -1.5,
+          "bend": 5
+        },
+        {
+          "text": "fit.",
+          "on": 651,
+          "off": 658,
+          "rigidity": 0.25,
+          "dx": -6,
+          "dy": 8,
+          "sx": 1.08,
+          "sy": 1.06,
+          "recoil_x": 4
+        }
+      ]
+    },
+    {
+      "id": "pilot-006",
+      "text": "Then they don't quite match.",
+      "speaker": "Them 1",
+      "on": 680,
+      "off": 719,
+      "words": [
+        {
+          "text": "Then",
+          "on": 680,
+          "off": 686,
+          "rigidity": 0.94,
+          "dy": 2,
+          "sx": 1.03,
+          "sy": 1.02
+        },
+        {
+          "text": "they",
+          "on": 686,
+          "off": 693,
+          "rigidity": 0.92,
+          "dy": 2,
+          "sx": 1.03,
+          "sy": 1.02
+        },
+        {
+          "text": "don't",
+          "on": 693,
+          "off": 699,
+          "rigidity": 0.16,
+          "dy": 5,
+          "sx": 1.06,
+          "sy": 1.1,
+          "rotation": 3,
+          "split": 4,
+          "bend": -8
+        },
+        {
+          "text": "quite",
+          "on": 699,
+          "off": 709,
+          "rigidity": 0.32,
+          "dy": -5,
+          "sx": 1.05,
+          "sy": 1.08,
+          "bend": 5
+        },
+        {
+          "text": "match.",
+          "on": 709,
+          "off": 719,
+          "rigidity": 0.08,
+          "dx": -8,
+          "dy": -5,
+          "sx": 1.1,
+          "sy": 1.12,
+          "rotation": -3,
+          "bend": 12,
+          "wave": 6,
+          "recoil_x": 12
+        }
+      ]
+    },
+    {
+      "id": "lyr-007",
+      "text": "Can I send you my stuff?",
+      "speaker": "Them 1",
+      "on": 719,
+      "off": 805,
+      "motif": "handoff and assembly",
+      "words": [
+        {
+          "text": "Can",
+          "on": 719,
+          "off": 734,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "I",
+          "on": 734,
+          "off": 744,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "send",
+          "on": 744,
+          "off": 760,
+          "rigidity": 0.35,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 6,
+          "dx": 14,
+          "entry_dx": -10,
+          "recoil_x": 4
+        },
+        {
+          "text": "you",
+          "on": 760,
+          "off": 775,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "my",
+          "on": 775,
+          "off": 787,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "stuff?",
+          "on": 787,
+          "off": 805,
+          "rigidity": 0.12,
+          "dy": 7,
+          "sx": 1.06,
+          "sy": 1.1,
+          "bend": 9,
+          "scatter": 12,
+          "wave": 6,
+          "rotation": 4,
+          "recoil_y": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-008",
+      "text": "Tell me what you got.",
+      "speaker": "Them 1",
+      "on": 826,
+      "off": 852,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Tell",
+          "on": 826,
+          "off": 832,
+          "rigidity": 0.42,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "me",
+          "on": 832,
+          "off": 837,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "what",
+          "on": 837,
+          "off": 842,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "you",
+          "on": 842,
+          "off": 847,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "got.",
+          "on": 847,
+          "off": 852,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-009",
+      "text": "Right?",
+      "speaker": "Them 1",
+      "on": 856,
+      "off": 869,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Right?",
+          "on": 856,
+          "off": 869,
+          "rigidity": 0.38,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4,
+          "rotation": 4,
+          "recoil_y": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-010",
+      "text": "I don't see anything.",
+      "speaker": "Them 2",
+      "on": 920,
+      "off": 971,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "I",
+          "on": 920,
+          "off": 928,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "don't",
+          "on": 928,
+          "off": 941,
+          "rigidity": 0.88,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 0.94,
+          "bend": 4,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "see",
+          "on": 941,
+          "off": 953,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "anything.",
+          "on": 953,
+          "off": 971,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-011",
+      "text": "Think you forgot to attach it.",
+      "speaker": "Them 2",
+      "on": 971,
+      "off": 1030,
+      "motif": "handoff and assembly",
+      "words": [
+        {
+          "text": "Think",
+          "on": 971,
+          "off": 982,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "you",
+          "on": 982,
+          "off": 991,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "forgot",
+          "on": 991,
+          "off": 1003,
+          "rigidity": 0.88,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 0.94,
+          "bend": 4,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "to",
+          "on": 1003,
+          "off": 1011,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "attach",
+          "on": 1011,
+          "off": 1022,
+          "rigidity": 0.3,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 1.06,
+          "bend": 4,
+          "split": 5,
+          "spread": -1.5,
+          "recoil_x": 6
+        },
+        {
+          "text": "it.",
+          "on": 1022,
+          "off": 1030,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-012",
+      "text": "If you've got it, give it.",
+      "speaker": "Them 2",
+      "on": 1030,
+      "off": 1082,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "If",
+          "on": 1030,
+          "off": 1038,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "you've",
+          "on": 1038,
+          "off": 1048,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "got",
+          "on": 1048,
+          "off": 1057,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "it,",
+          "on": 1057,
+          "off": 1065,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "give",
+          "on": 1065,
+          "off": 1074,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "it.",
+          "on": 1074,
+          "off": 1082,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-013",
+      "text": "Don't clean it up first.",
+      "speaker": "Them 2",
+      "on": 1090,
+      "off": 1137,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Don't",
+          "on": 1090,
+          "off": 1100,
+          "rigidity": 0.88,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 0.94,
+          "bend": 4,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "clean",
+          "on": 1100,
+          "off": 1111,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "it",
+          "on": 1111,
+          "off": 1119,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "up",
+          "on": 1119,
+          "off": 1127,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "first.",
+          "on": 1127,
+          "off": 1137,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-014",
+      "text": "I'll work on it now.",
+      "speaker": "Them 2",
+      "on": 1137,
+      "off": 1201,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "I'll",
+          "on": 1137,
+          "off": 1150,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "work",
+          "on": 1150,
+          "off": 1165,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "on",
+          "on": 1165,
+          "off": 1177,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "it",
+          "on": 1177,
+          "off": 1188,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "now.",
+          "on": 1188,
+          "off": 1201,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-015",
+      "text": "We'll see what's your deal.",
+      "speaker": "Them 2",
+      "on": 1210,
+      "off": 1287,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "We'll",
+          "on": 1210,
+          "off": 1226,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "see",
+          "on": 1226,
+          "off": 1240,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "what's",
+          "on": 1240,
+          "off": 1257,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "your",
+          "on": 1257,
+          "off": 1272,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "deal.",
+          "on": 1272,
+          "off": 1287,
+          "rigidity": 0.3,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 1.06,
+          "bend": 4,
+          "split": 5,
+          "spread": -1.5,
+          "recoil_x": 6
+        }
+      ]
+    },
+    {
+      "id": "lyr-016",
+      "text": "In the garden, meanwhile—",
+      "speaker": "Them 3",
+      "on": 1304,
+      "off": 1412,
+      "motif": "organic signal ripple",
+      "words": [
+        {
+          "text": "In",
+          "on": 1304,
+          "off": 1322,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "the",
+          "on": 1322,
+          "off": 1344,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "garden,",
+          "on": 1344,
+          "off": 1374,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "meanwhile—",
+          "on": 1374,
+          "off": 1412,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyrics-mtekde5n",
+      "text": "The-the-the-the-the",
+      "speaker": "",
+      "on": 1425,
+      "off": 1442,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "The-the-the-the-the",
+          "on": 1425,
+          "off": 1442,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        }
+      ]
+    },
+    {
+      "id": "lyr-017",
+      "text": "There's a little green light moving",
+      "speaker": "Them 3",
+      "on": 1442,
+      "off": 1514,
+      "motif": "organic signal ripple",
+      "words": [
+        {
+          "text": "There's",
+          "on": 1442,
+          "off": 1455,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "a",
+          "on": 1455,
+          "off": 1462,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "little",
+          "on": 1462,
+          "off": 1475,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "green",
+          "on": 1475,
+          "off": 1488,
+          "rigidity": 0.12,
+          "dy": 13,
+          "sx": 1.08,
+          "sy": 1.18,
+          "wave": 5,
+          "bend": 8
+        },
+        {
+          "text": "light",
+          "on": 1488,
+          "off": 1501,
+          "rigidity": 0.12,
+          "dy": 13,
+          "sx": 1.08,
+          "sy": 1.18,
+          "bend": 8,
+          "wave": 5
+        },
+        {
+          "text": "moving",
+          "on": 1501,
+          "off": 1514,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 6,
+          "wave": 14,
+          "dx": 14,
+          "entry_dx": -10,
+          "recoil_x": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-018",
+      "text": "through the psychedelic garden.",
+      "speaker": "Them 3",
+      "on": 1514,
+      "off": 1569,
+      "motif": "organic signal ripple",
+      "words": [
+        {
+          "text": "through",
+          "on": 1514,
+          "off": 1528,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "the",
+          "on": 1528,
+          "off": 1538,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "psychedelic",
+          "on": 1538,
+          "off": 1555,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "garden.",
+          "on": 1555,
+          "off": 1569,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-019",
+      "text": "Something with no name is waking",
+      "speaker": "Them 3",
+      "on": 1569,
+      "off": 1650,
+      "motif": "organic signal ripple",
+      "words": [
+        {
+          "text": "Something",
+          "on": 1569,
+          "off": 1588,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "with",
+          "on": 1588,
+          "off": 1601,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "no",
+          "on": 1601,
+          "off": 1611,
+          "rigidity": 0.88,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 0.94,
+          "bend": 4,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "name",
+          "on": 1611,
+          "off": 1624,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "is",
+          "on": 1624,
+          "off": 1634,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "waking",
+          "on": 1634,
+          "off": 1650,
+          "rigidity": 0.12,
+          "dy": 13,
+          "sx": 1.08,
+          "sy": 1.18,
+          "bend": 8,
+          "wave": 5
+        }
+      ]
+    },
+    {
+      "id": "lyr-020",
+      "text": "in the psychedelic garden.",
+      "speaker": "Them 3",
+      "on": 1650,
+      "off": 1710,
+      "motif": "organic signal ripple",
+      "words": [
+        {
+          "text": "in",
+          "on": 1650,
+          "off": 1661,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "the",
+          "on": 1661,
+          "off": 1673,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "psychedelic",
+          "on": 1673,
+          "off": 1694,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "garden.",
+          "on": 1694,
+          "off": 1710,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-021",
+      "text": "And whatever woke is waiting",
+      "speaker": "Them 3",
+      "on": 1710,
+      "off": 1786,
+      "motif": "organic signal ripple",
+      "words": [
+        {
+          "text": "And",
+          "on": 1710,
+          "off": 1723,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "whatever",
+          "on": 1723,
+          "off": 1742,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "woke",
+          "on": 1742,
+          "off": 1757,
+          "rigidity": 0.12,
+          "dy": 13,
+          "sx": 1.08,
+          "sy": 1.18,
+          "bend": 8,
+          "wave": 5
+        },
+        {
+          "text": "is",
+          "on": 1757,
+          "off": 1768,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "waiting",
+          "on": 1768,
+          "off": 1786,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-022",
+      "text": "for the song to begin.",
+      "speaker": "Them 3",
+      "on": 1786,
+      "off": 1841,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "for",
+          "on": 1786,
+          "off": 1797,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "the",
+          "on": 1797,
+          "off": 1807,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "song",
+          "on": 1807,
+          "off": 1819,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        },
+        {
+          "text": "to",
+          "on": 1819,
+          "off": 1828,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "begin.",
+          "on": 1828,
+          "off": 1841,
+          "rigidity": 0.12,
+          "dy": 13,
+          "sx": 1.08,
+          "sy": 1.18,
+          "bend": 8,
+          "wave": 5
+        }
+      ]
+    },
+    {
+      "id": "lyr-023",
+      "text": "Okay, there.",
+      "speaker": "Them 1",
+      "on": 1854,
+      "off": 1888,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Okay,",
+          "on": 1854,
+          "off": 1870,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "there.",
+          "on": 1870,
+          "off": 1888,
+          "rigidity": 0.42,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-024",
+      "text": "You've got it.",
+      "speaker": "Them 1",
+      "on": 1888,
+      "off": 1914,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "You've",
+          "on": 1888,
+          "off": 1898,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "got",
+          "on": 1898,
+          "off": 1907,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "it.",
+          "on": 1907,
+          "off": 1914,
+          "rigidity": 0.76,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-025",
+      "text": "That should be enough.",
+      "speaker": "Them 1",
+      "on": 1931,
+      "off": 1973,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "That",
+          "on": 1931,
+          "off": 1941,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "should",
+          "on": 1941,
+          "off": 1953,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "be",
+          "on": 1953,
+          "off": 1961,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "enough.",
+          "on": 1961,
+          "off": 1973,
+          "rigidity": 0.42,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-026",
+      "text": "Just look and tell me.",
+      "speaker": "Them 1",
+      "on": 1973,
+      "off": 2016,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Just",
+          "on": 1973,
+          "off": 1982,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "look",
+          "on": 1982,
+          "off": 1991,
+          "rigidity": 0.42,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "and",
+          "on": 1991,
+          "off": 1999,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "tell",
+          "on": 1999,
+          "off": 2008,
+          "rigidity": 0.42,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "me.",
+          "on": 2008,
+          "off": 2016,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-027",
+      "text": "Do you see a pattern?",
+      "speaker": "Them 1",
+      "on": 2020,
+      "off": 2059,
+      "motif": "formation and orbit",
+      "words": [
+        {
+          "text": "Do",
+          "on": 2020,
+          "off": 2027,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "you",
+          "on": 2027,
+          "off": 2035,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "see",
+          "on": 2035,
+          "off": 2043,
+          "rigidity": 0.42,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "a",
+          "on": 2043,
+          "off": 2049,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "pattern?",
+          "on": 2049,
+          "off": 2059,
+          "rigidity": 0.3,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 1.06,
+          "bend": 4,
+          "split": 5,
+          "spread": -1.5,
+          "recoil_x": 6,
+          "rotation": 4,
+          "recoil_y": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-028",
+      "text": "I'm sure it's there.",
+      "speaker": "Them 1",
+      "on": 2059,
+      "off": 2084,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "I'm",
+          "on": 2059,
+          "off": 2064,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "sure",
+          "on": 2064,
+          "off": 2071,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "it's",
+          "on": 2071,
+          "off": 2077,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "there.",
+          "on": 2077,
+          "off": 2084,
+          "rigidity": 0.42,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-029",
+      "text": "Hard to find, right?",
+      "speaker": "Them 1",
+      "on": 2084,
+      "off": 2122,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Hard",
+          "on": 2084,
+          "off": 2094,
+          "rigidity": 0.92,
+          "dy": -6,
+          "sx": 1.18,
+          "sy": 0.92,
+          "bend": 4,
+          "anticipation_y": 10,
+          "recoil_y": 3
+        },
+        {
+          "text": "to",
+          "on": 2094,
+          "off": 2102,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "find,",
+          "on": 2102,
+          "off": 2112,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "right?",
+          "on": 2112,
+          "off": 2122,
+          "rigidity": 0.38,
+          "dy": 7,
+          "sx": 1.02,
+          "sy": 1.02,
+          "rotation": 4,
+          "recoil_y": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-030",
+      "text": "I see the world plus more.",
+      "speaker": "Them 2",
+      "on": 2122,
+      "off": 2165,
+      "motif": "formation and orbit",
+      "words": [
+        {
+          "text": "I",
+          "on": 2122,
+          "off": 2127,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "see",
+          "on": 2127,
+          "off": 2134,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "the",
+          "on": 2134,
+          "off": 2141,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "world",
+          "on": 2141,
+          "off": 2149,
+          "rigidity": 0.35,
+          "dy": 7,
+          "sx": 1.14,
+          "sy": 1.06,
+          "bend": 8,
+          "rotation": 8,
+          "curve": 7
+        },
+        {
+          "text": "plus",
+          "on": 2149,
+          "off": 2157,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "more.",
+          "on": 2157,
+          "off": 2165,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-031",
+      "text": "More is probably nothing.",
+      "speaker": "Them 2",
+      "on": 2165,
+      "off": 2199,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "More",
+          "on": 2165,
+          "off": 2173,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "is",
+          "on": 2173,
+          "off": 2179,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "probably",
+          "on": 2179,
+          "off": 2189,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "nothing.",
+          "on": 2189,
+          "off": 2199,
+          "rigidity": 0.88,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 0.94,
+          "bend": 4,
+          "rotation": -3,
+          "recoil_x": 8
+        }
+      ]
+    },
+    {
+      "id": "lyr-032",
+      "text": "Yes, I see the world.",
+      "speaker": "Them 2",
+      "on": 2199,
+      "off": 2233,
+      "motif": "formation and orbit",
+      "words": [
+        {
+          "text": "Yes,",
+          "on": 2199,
+          "off": 2206,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "I",
+          "on": 2206,
+          "off": 2211,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "see",
+          "on": 2211,
+          "off": 2218,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "the",
+          "on": 2218,
+          "off": 2225,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "world.",
+          "on": 2225,
+          "off": 2233,
+          "rigidity": 0.35,
+          "dy": 7,
+          "sx": 1.14,
+          "sy": 1.06,
+          "bend": 8,
+          "rotation": 8,
+          "curve": 7
+        }
+      ]
+    },
+    {
+      "id": "lyr-033",
+      "text": "Close but no see car.",
+      "speaker": "Them 2",
+      "on": 2233,
+      "off": 2271,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Close",
+          "on": 2233,
+          "off": 2242,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "but",
+          "on": 2242,
+          "off": 2250,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "no",
+          "on": 2250,
+          "off": 2257,
+          "rigidity": 0.88,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 0.94,
+          "bend": 4,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "see",
+          "on": 2257,
+          "off": 2264,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "car.",
+          "on": 2264,
+          "off": 2271,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-034",
+      "text": "Subject: Mars!",
+      "speaker": "Them 2",
+      "on": 2271,
+      "off": 2305,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Subject:",
+          "on": 2271,
+          "off": 2290,
+          "rigidity": 0.92,
+          "dy": -6,
+          "sx": 1.18,
+          "sy": 0.92,
+          "bend": 4,
+          "anticipation_y": 10,
+          "recoil_y": 3
+        },
+        {
+          "text": "Mars!",
+          "on": 2290,
+          "off": 2305,
+          "rigidity": 0.35,
+          "dy": 2,
+          "sx": 1.14,
+          "sy": 1.06,
+          "rotation": 8,
+          "curve": 7,
+          "bend": 8
+        }
+      ]
+    },
+    {
+      "id": "lyr-035",
+      "text": "You come back around.",
+      "speaker": "Them 2",
+      "on": 2305,
+      "off": 2330,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "You",
+          "on": 2305,
+          "off": 2311,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "come",
+          "on": 2311,
+          "off": 2317,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "back",
+          "on": 2317,
+          "off": 2323,
+          "rigidity": 0.35,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02,
+          "dx": 14,
+          "entry_dx": -10,
+          "bend": 6,
+          "recoil_x": 4
+        },
+        {
+          "text": "around.",
+          "on": 2323,
+          "off": 2330,
+          "rigidity": 0.35,
+          "dy": 7,
+          "sx": 1.14,
+          "sy": 1.06,
+          "bend": 8,
+          "rotation": 8,
+          "curve": 7
+        }
+      ]
+    },
+    {
+      "id": "lyr-036",
+      "text": "I'll pull it into a shape",
+      "speaker": "Them 2",
+      "on": 2330,
+      "off": 2364,
+      "motif": "formation and orbit",
+      "words": [
+        {
+          "text": "I'll",
+          "on": 2330,
+          "off": 2336,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "pull",
+          "on": 2336,
+          "off": 2342,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "it",
+          "on": 2342,
+          "off": 2347,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "into",
+          "on": 2347,
+          "off": 2353,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "a",
+          "on": 2353,
+          "off": 2358,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "shape",
+          "on": 2358,
+          "off": 2364,
+          "rigidity": 0.3,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 1.06,
+          "bend": 4,
+          "split": 5,
+          "spread": -1.5,
+          "recoil_x": 6
+        }
+      ]
+    },
+    {
+      "id": "lyr-037",
+      "text": "and spin your world around.",
+      "speaker": "Them 2",
+      "on": 2364,
+      "off": 2399,
+      "motif": "formation and orbit",
+      "words": [
+        {
+          "text": "and",
+          "on": 2364,
+          "off": 2370,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "spin",
+          "on": 2370,
+          "off": 2377,
+          "rigidity": 0.35,
+          "dy": 2,
+          "sx": 1.14,
+          "sy": 1.06,
+          "rotation": 8,
+          "curve": 7,
+          "bend": 8
+        },
+        {
+          "text": "your",
+          "on": 2377,
+          "off": 2384,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "world",
+          "on": 2384,
+          "off": 2391,
+          "rigidity": 0.35,
+          "dy": 7,
+          "sx": 1.14,
+          "sy": 1.06,
+          "bend": 8,
+          "rotation": 8,
+          "curve": 7
+        },
+        {
+          "text": "around.",
+          "on": 2391,
+          "off": 2399,
+          "rigidity": 0.35,
+          "dy": 7,
+          "sx": 1.14,
+          "sy": 1.06,
+          "bend": 8,
+          "rotation": 8,
+          "curve": 7
+        }
+      ]
+    },
+    {
+      "id": "lyr-038",
+      "text": "No.",
+      "speaker": "Them 1",
+      "on": 2399,
+      "off": 2411,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "No.",
+          "on": 2399,
+          "off": 2411,
+          "rigidity": 0.88,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 0.94,
+          "bend": 4,
+          "rotation": -3,
+          "recoil_x": 8
+        }
+      ]
+    },
+    {
+      "id": "lyr-039",
+      "text": "Don't make it better.",
+      "speaker": "Them 1",
+      "on": 2411,
+      "off": 2437,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Don't",
+          "on": 2411,
+          "off": 2418,
+          "rigidity": 0.88,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 0.94,
+          "bend": 4,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "make",
+          "on": 2418,
+          "off": 2425,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "it",
+          "on": 2425,
+          "off": 2430,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "better.",
+          "on": 2430,
+          "off": 2437,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-040",
+      "text": "Don't want fake shit.",
+      "speaker": "Them 1",
+      "on": 2437,
+      "off": 2484,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Don't",
+          "on": 2437,
+          "off": 2449,
+          "rigidity": 0.88,
+          "dy": 2,
+          "sx": 1.1,
+          "sy": 0.94,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "want",
+          "on": 2449,
+          "off": 2461,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "fake",
+          "on": 2461,
+          "off": 2473,
+          "rigidity": 0.88,
+          "dy": 2,
+          "sx": 1.1,
+          "sy": 0.94,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "shit.",
+          "on": 2473,
+          "off": 2484,
+          "rigidity": 0.92,
+          "dy": -6,
+          "sx": 1.18,
+          "sy": 0.92,
+          "bend": 4,
+          "anticipation_y": 10,
+          "recoil_y": 3
+        }
+      ]
+    },
+    {
+      "id": "lyr-041",
+      "text": "Dig the thing underneath it.",
+      "speaker": "Them 1",
+      "on": 2484,
+      "off": 2526,
+      "motif": "downward excavation",
+      "words": [
+        {
+          "text": "Dig",
+          "on": 2484,
+          "off": 2492,
+          "rigidity": 0.42,
+          "dy": -13,
+          "sx": 1.08,
+          "sy": 0.88,
+          "bend": 4,
+          "anticipation_y": 8,
+          "recoil_y": -3
+        },
+        {
+          "text": "the",
+          "on": 2492,
+          "off": 2499,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "thing",
+          "on": 2499,
+          "off": 2508,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "underneath",
+          "on": 2508,
+          "off": 2519,
+          "rigidity": 0.42,
+          "dy": -13,
+          "sx": 1.08,
+          "sy": 0.88,
+          "bend": 4,
+          "anticipation_y": 8,
+          "recoil_y": -3
+        },
+        {
+          "text": "it.",
+          "on": 2519,
+          "off": 2526,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-042",
+      "text": "Dig it stupid.",
+      "speaker": "Them 1",
+      "on": 2526,
+      "off": 2564,
+      "motif": "downward excavation",
+      "words": [
+        {
+          "text": "Dig",
+          "on": 2526,
+          "off": 2538,
+          "rigidity": 0.42,
+          "dy": -13,
+          "sx": 1.02,
+          "sy": 0.88,
+          "anticipation_y": 8,
+          "recoil_y": -3
+        },
+        {
+          "text": "it",
+          "on": 2538,
+          "off": 2548,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "stupid.",
+          "on": 2548,
+          "off": 2564,
+          "rigidity": 0.92,
+          "dy": -6,
+          "sx": 1.18,
+          "sy": 0.92,
+          "bend": 4,
+          "anticipation_y": 10,
+          "recoil_y": 3
+        }
+      ]
+    },
+    {
+      "id": "lyr-043",
+      "text": "Especially stupid.",
+      "speaker": "Them 1",
+      "on": 2573,
+      "off": 2620,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Especially",
+          "on": 2573,
+          "off": 2599,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "stupid.",
+          "on": 2599,
+          "off": 2620,
+          "rigidity": 0.92,
+          "dy": -6,
+          "sx": 1.18,
+          "sy": 0.92,
+          "bend": 4,
+          "anticipation_y": 10,
+          "recoil_y": 3
+        }
+      ]
+    },
+    {
+      "id": "lyr-044",
+      "text": "Can you hear",
+      "speaker": "Them 1",
+      "on": 2620,
+      "off": 2637,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Can",
+          "on": 2620,
+          "off": 2626,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "you",
+          "on": 2626,
+          "off": 2631,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "hear",
+          "on": 2631,
+          "off": 2637,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        }
+      ]
+    },
+    {
+      "id": "lyr-045",
+      "text": "what I meant?",
+      "speaker": "Them 1",
+      "on": 2637,
+      "off": 2658,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "what",
+          "on": 2637,
+          "off": 2645,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "I",
+          "on": 2645,
+          "off": 2650,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "meant?",
+          "on": 2650,
+          "off": 2658,
+          "rigidity": 0.38,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4,
+          "rotation": 4,
+          "recoil_y": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-046",
+      "text": "Sometimes.",
+      "speaker": "Them 2",
+      "on": 2658,
+      "off": 2705,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Sometimes.",
+          "on": 2658,
+          "off": 2705,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-047",
+      "text": "Not always.",
+      "speaker": "Them 2",
+      "on": 2705,
+      "off": 2748,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Not",
+          "on": 2705,
+          "off": 2723,
+          "rigidity": 0.88,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 0.94,
+          "bend": 4,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "always.",
+          "on": 2723,
+          "off": 2748,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-048",
+      "text": "Meaning leaves thread.",
+      "speaker": "Them 2",
+      "on": 2748,
+      "off": 2812,
+      "motif": "semantic unraveling",
+      "words": [
+        {
+          "text": "Meaning",
+          "on": 2748,
+          "off": 2770,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        },
+        {
+          "text": "leaves",
+          "on": 2770,
+          "off": 2791,
+          "rigidity": 0.35,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02,
+          "dx": 14,
+          "entry_dx": -10,
+          "bend": 6,
+          "recoil_x": 4
+        },
+        {
+          "text": "thread.",
+          "on": 2791,
+          "off": 2812,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-049",
+      "text": "Words leave words.",
+      "speaker": "Them 2",
+      "on": 2812,
+      "off": 2881,
+      "motif": "semantic unraveling",
+      "words": [
+        {
+          "text": "Words",
+          "on": 2812,
+          "off": 2835,
+          "rigidity": 0.12,
+          "dy": 8,
+          "sx": 1.06,
+          "sy": 1.1,
+          "wave": 6,
+          "bend": 9,
+          "scatter": 12
+        },
+        {
+          "text": "leave",
+          "on": 2835,
+          "off": 2858,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "words.",
+          "on": 2858,
+          "off": 2881,
+          "rigidity": 0.12,
+          "dy": 8,
+          "sx": 1.06,
+          "sy": 1.1,
+          "bend": 9,
+          "wave": 6,
+          "scatter": 12
+        }
+      ]
+    },
+    {
+      "id": "lyr-050",
+      "text": "Things clap overhead",
+      "speaker": "Them 2",
+      "on": 2881,
+      "off": 2928,
+      "motif": "overhead arrival",
+      "words": [
+        {
+          "text": "Things",
+          "on": 2881,
+          "off": 2897,
+          "rigidity": 0.12,
+          "dy": 7,
+          "sx": 1.06,
+          "sy": 1.1,
+          "bend": 9,
+          "scatter": 12,
+          "wave": 6
+        },
+        {
+          "text": "clap",
+          "on": 2897,
+          "off": 2910,
+          "rigidity": 0.22,
+          "dy": 5,
+          "sx": 1.2,
+          "sy": 0.84,
+          "bend": 8
+        },
+        {
+          "text": "overhead",
+          "on": 2910,
+          "off": 2928,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-051",
+      "text": "like rockets coming in.",
+      "speaker": "Them 2",
+      "on": 2928,
+      "off": 2993,
+      "motif": "overhead arrival",
+      "words": [
+        {
+          "text": "like",
+          "on": 2928,
+          "off": 2943,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "rockets",
+          "on": 2943,
+          "off": 2963,
+          "rigidity": 0.22,
+          "dy": 16,
+          "sx": 1.2,
+          "sy": 1.18,
+          "bend": 8
+        },
+        {
+          "text": "coming",
+          "on": 2963,
+          "off": 2981,
+          "rigidity": 0.35,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 6,
+          "dx": 14,
+          "entry_dx": -10,
+          "recoil_x": 4
+        },
+        {
+          "text": "in.",
+          "on": 2981,
+          "off": 2993,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-052",
+      "text": "Can't tell you",
+      "speaker": "Them 2",
+      "on": 3053,
+      "off": 3079,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Can't",
+          "on": 3053,
+          "off": 3062,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "tell",
+          "on": 3062,
+          "off": 3071,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "you",
+          "on": 3071,
+          "off": 3079,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-053",
+      "text": "if they're true.",
+      "speaker": "Them 2",
+      "on": 3079,
+      "off": 3113,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "if",
+          "on": 3079,
+          "off": 3088,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "they're",
+          "on": 3088,
+          "off": 3101,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "true.",
+          "on": 3101,
+          "off": 3113,
+          "rigidity": 0.92,
+          "dy": -6,
+          "sx": 1.18,
+          "sy": 0.92,
+          "bend": 4,
+          "anticipation_y": 10,
+          "recoil_y": 3
+        }
+      ]
+    },
+    {
+      "id": "lyr-054",
+      "text": "Elsewhere, under a smaller moon—",
+      "speaker": "Them 3",
+      "on": 3165,
+      "off": 3221,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Elsewhere,",
+          "on": 3165,
+          "off": 3179,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "under",
+          "on": 3179,
+          "off": 3190,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "a",
+          "on": 3190,
+          "off": 3197,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "smaller",
+          "on": 3197,
+          "off": 3210,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "moon—",
+          "on": 3210,
+          "off": 3221,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-055",
+      "text": "Chrome-plated bodies go swimming",
+      "speaker": "Them 3",
+      "on": 3229,
+      "off": 3357,
+      "motif": "liquid travelling wave",
+      "words": [
+        {
+          "text": "Chrome-plated",
+          "on": 3229,
+          "off": 3273,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "bodies",
+          "on": 3273,
+          "off": 3303,
+          "rigidity": 0.12,
+          "dy": 2,
+          "sx": 1.06,
+          "sy": 1.1,
+          "scatter": 12,
+          "wave": 6,
+          "bend": 9
+        },
+        {
+          "text": "go",
+          "on": 3303,
+          "off": 3322,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "swimming",
+          "on": 3322,
+          "off": 3357,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        }
+      ]
+    },
+    {
+      "id": "lyr-056",
+      "text": "in the rivers of Mars.",
+      "speaker": "Them 3",
+      "on": 3357,
+      "off": 3476,
+      "motif": "liquid travelling wave",
+      "words": [
+        {
+          "text": "in",
+          "on": 3357,
+          "off": 3377,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "the",
+          "on": 3377,
+          "off": 3400,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "rivers",
+          "on": 3400,
+          "off": 3431,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        },
+        {
+          "text": "of",
+          "on": 3431,
+          "off": 3450,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "Mars.",
+          "on": 3450,
+          "off": 3476,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.14,
+          "sy": 1.06,
+          "bend": 8,
+          "rotation": 8,
+          "curve": 7
+        }
+      ]
+    },
+    {
+      "id": "lyr-057",
+      "text": "Tails wagging to music",
+      "speaker": "Them 3",
+      "on": 3484,
+      "off": 3556,
+      "motif": "liquid travelling wave",
+      "words": [
+        {
+          "text": "Tails",
+          "on": 3484,
+          "off": 3503,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "wagging",
+          "on": 3503,
+          "off": 3524,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "wave": 14,
+          "bend": 11
+        },
+        {
+          "text": "to",
+          "on": 3524,
+          "off": 3537,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "music",
+          "on": 3537,
+          "off": 3556,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        }
+      ]
+    },
+    {
+      "id": "lyr-058",
+      "text": "that bends your mind.",
+      "speaker": "Them 3",
+      "on": 3561,
+      "off": 3620,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "that",
+          "on": 3561,
+          "off": 3576,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "bends",
+          "on": 3576,
+          "off": 3592,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "wave": 14,
+          "bend": 11
+        },
+        {
+          "text": "your",
+          "on": 3592,
+          "off": 3606,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "mind.",
+          "on": 3606,
+          "off": 3620,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        }
+      ]
+    },
+    {
+      "id": "lyr-059",
+      "text": "Tiny mouths all agape",
+      "speaker": "Them 3",
+      "on": 3620,
+      "off": 3684,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Tiny",
+          "on": 3620,
+          "off": 3635,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "mouths",
+          "on": 3635,
+          "off": 3653,
+          "rigidity": 0.12,
+          "dy": 7,
+          "sx": 1.06,
+          "sy": 1.1,
+          "bend": 9,
+          "scatter": 12,
+          "wave": 6
+        },
+        {
+          "text": "all",
+          "on": 3653,
+          "off": 3667,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "agape",
+          "on": 3667,
+          "off": 3684,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-060",
+      "text": "in the rivers of Mars.",
+      "speaker": "Them 3",
+      "on": 3689,
+      "off": 3765,
+      "motif": "liquid travelling wave",
+      "words": [
+        {
+          "text": "in",
+          "on": 3689,
+          "off": 3702,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "the",
+          "on": 3702,
+          "off": 3717,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "rivers",
+          "on": 3717,
+          "off": 3737,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        },
+        {
+          "text": "of",
+          "on": 3737,
+          "off": 3749,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "Mars.",
+          "on": 3749,
+          "off": 3765,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.14,
+          "sy": 1.06,
+          "bend": 8,
+          "rotation": 8,
+          "curve": 7
+        }
+      ]
+    },
+    {
+      "id": "lyr-061",
+      "text": "Whatever falls from heaven",
+      "speaker": "Them 3",
+      "on": 3752,
+      "off": 3830,
+      "motif": "overhead arrival",
+      "words": [
+        {
+          "text": "Whatever",
+          "on": 3752,
+          "off": 3775,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "falls",
+          "on": 3775,
+          "off": 3793,
+          "rigidity": 0.24,
+          "dy": -13,
+          "sx": 1.02,
+          "sy": 0.88,
+          "dx": 14,
+          "entry_dx": -10,
+          "bend": 6,
+          "recoil_x": 4,
+          "anticipation_y": 8,
+          "recoil_y": -3
+        },
+        {
+          "text": "from",
+          "on": 3793,
+          "off": 3810,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "heaven",
+          "on": 3810,
+          "off": 3830,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.14,
+          "sy": 1.06,
+          "bend": 8,
+          "rotation": 8,
+          "curve": 7
+        }
+      ],
+      "baseline_offset_px_720": 58
+    },
+    {
+      "id": "lyr-062",
+      "text": "leaves the senses behind.",
+      "speaker": "Them 3",
+      "on": 3830,
+      "off": 3897,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "leaves",
+          "on": 3830,
+          "off": 3848,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02,
+          "dx": 14,
+          "entry_dx": -10,
+          "bend": 6,
+          "recoil_x": 4
+        },
+        {
+          "text": "the",
+          "on": 3848,
+          "off": 3861,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "senses",
+          "on": 3861,
+          "off": 3879,
+          "rigidity": 0.12,
+          "dy": 7,
+          "sx": 1.06,
+          "sy": 1.1,
+          "bend": 9,
+          "scatter": 12,
+          "wave": 6
+        },
+        {
+          "text": "behind.",
+          "on": 3879,
+          "off": 3897,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-063",
+      "text": "No one has ever been",
+      "speaker": "Them 3",
+      "on": 3889,
+      "off": 3949,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "No",
+          "on": 3889,
+          "off": 3899,
+          "rigidity": 0.88,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 0.94,
+          "bend": 4,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "one",
+          "on": 3899,
+          "off": 3911,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "has",
+          "on": 3911,
+          "off": 3923,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "ever",
+          "on": 3923,
+          "off": 3936,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        },
+        {
+          "text": "been",
+          "on": 3936,
+          "off": 3949,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ],
+      "baseline_offset_px_720": 58
+    },
+    {
+      "id": "lyrics-mtejbyfp",
+      "text": "In",
+      "speaker": "",
+      "on": 3949,
+      "off": 3966,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "In",
+          "on": 3949,
+          "off": 3966,
+          "rigidity": 0.76,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-064",
+      "text": "in the rivers of Mars.",
+      "speaker": "Them 3",
+      "on": 3966,
+      "off": 4030,
+      "motif": "liquid travelling wave",
+      "words": [
+        {
+          "text": "in",
+          "on": 3966,
+          "off": 3977,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "the",
+          "on": 3977,
+          "off": 3989,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "rivers",
+          "on": 3989,
+          "off": 4005,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        },
+        {
+          "text": "of",
+          "on": 4005,
+          "off": 4016,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "Mars.",
+          "on": 4016,
+          "off": 4030,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.14,
+          "sy": 1.06,
+          "bend": 8,
+          "rotation": 8,
+          "curve": 7
+        }
+      ]
+    },
+    {
+      "id": "lyr-065",
+      "text": "Then turns.",
+      "speaker": "Them 3",
+      "on": 4038,
+      "off": 4068,
+      "motif": "call-and-response sequence",
+      "words": [
+        {
+          "text": "Then",
+          "on": 4038,
+          "off": 4052,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "turns.",
+          "on": 4052,
+          "off": 4068,
+          "rigidity": 0.24,
+          "dy": 7,
+          "sx": 1.14,
+          "sy": 1.06,
+          "bend": 8,
+          "rotation": 8,
+          "curve": 7
+        }
+      ]
+    },
+    {
+      "id": "lyr-066",
+      "text": "Then follows.",
+      "speaker": "Them 3",
+      "on": 4073,
+      "off": 4103,
+      "motif": "call-and-response sequence",
+      "words": [
+        {
+          "text": "Then",
+          "on": 4073,
+          "off": 4086,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "follows.",
+          "on": 4086,
+          "off": 4103,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 6,
+          "wave": 14,
+          "dx": 14,
+          "entry_dx": -10,
+          "recoil_x": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-067",
+      "text": "Then answers.",
+      "speaker": "Them 3",
+      "on": 4108,
+      "off": 4155,
+      "motif": "call-and-response sequence",
+      "words": [
+        {
+          "text": "Then",
+          "on": 4108,
+          "off": 4129,
+          "rigidity": 0.24,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "answers.",
+          "on": 4129,
+          "off": 4155,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        }
+      ]
+    },
+    {
+      "id": "lyr-068",
+      "text": "You still there?",
+      "speaker": "Them 1",
+      "on": 4177,
+      "off": 4207,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "You",
+          "on": 4177,
+          "off": 4186,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "still",
+          "on": 4186,
+          "off": 4197,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "there?",
+          "on": 4197,
+          "off": 4207,
+          "rigidity": 0.38,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4,
+          "rotation": 4,
+          "recoil_y": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-069",
+      "text": "Define there.",
+      "speaker": "Them 2",
+      "on": 4232,
+      "off": 4262,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Define",
+          "on": 4232,
+          "off": 4248,
+          "rigidity": 0.92,
+          "dy": -6,
+          "sx": 1.18,
+          "sy": 0.92,
+          "bend": 4,
+          "anticipation_y": 10,
+          "recoil_y": 3
+        },
+        {
+          "text": "there.",
+          "on": 4248,
+          "off": 4262,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-070",
+      "text": "Never mind.",
+      "speaker": "Them 1",
+      "on": 4262,
+      "off": 4288,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Never",
+          "on": 4262,
+          "off": 4276,
+          "rigidity": 0.88,
+          "dy": 2,
+          "sx": 1.1,
+          "sy": 0.94,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "mind.",
+          "on": 4276,
+          "off": 4288,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        }
+      ]
+    },
+    {
+      "id": "lyr-071",
+      "text": "La-la-la, low light.",
+      "speaker": "Them 1",
+      "on": 4284,
+      "off": 4331,
+      "motif": "soft closing cadence",
+      "words": [
+        {
+          "text": "La-la-la,",
+          "on": 4284,
+          "off": 4303,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        },
+        {
+          "text": "low",
+          "on": 4303,
+          "off": 4316,
+          "rigidity": 0.42,
+          "dy": -13,
+          "sx": 1.02,
+          "sy": 0.88,
+          "anticipation_y": 8,
+          "recoil_y": -3
+        },
+        {
+          "text": "light.",
+          "on": 4316,
+          "off": 4331,
+          "rigidity": 0.12,
+          "dy": 13,
+          "sx": 1.08,
+          "sy": 1.18,
+          "wave": 5,
+          "bend": 8
+        }
+      ],
+      "baseline_offset_px_720": 58
+    },
+    {
+      "id": "lyr-072",
+      "text": "No, go on.",
+      "speaker": "Them 2",
+      "on": 4331,
+      "off": 4362,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "No,",
+          "on": 4331,
+          "off": 4342,
+          "rigidity": 0.88,
+          "dy": 7,
+          "sx": 1.1,
+          "sy": 0.94,
+          "bend": 4,
+          "rotation": -3,
+          "recoil_x": 8
+        },
+        {
+          "text": "go",
+          "on": 4342,
+          "off": 4352,
+          "rigidity": 0.66,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "on.",
+          "on": 4352,
+          "off": 4362,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-073",
+      "text": "Thought I heard something.",
+      "speaker": "Them 1",
+      "on": 4362,
+      "off": 4400,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Thought",
+          "on": 4362,
+          "off": 4373,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "I",
+          "on": 4373,
+          "off": 4379,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "heard",
+          "on": 4379,
+          "off": 4388,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        },
+        {
+          "text": "something.",
+          "on": 4388,
+          "off": 4400,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        }
+      ]
+    },
+    {
+      "id": "lyr-074",
+      "text": "You did.",
+      "speaker": "Them 2",
+      "on": 4400,
+      "off": 4431,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "You",
+          "on": 4400,
+          "off": 4416,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "did.",
+          "on": 4416,
+          "off": 4431,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-075",
+      "text": "Was it you?",
+      "speaker": "Them 1",
+      "on": 4431,
+      "off": 4461,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Was",
+          "on": 4431,
+          "off": 4442,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "it",
+          "on": 4442,
+          "off": 4451,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "you?",
+          "on": 4451,
+          "off": 4461,
+          "rigidity": 0.38,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4,
+          "rotation": 4,
+          "recoil_y": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-076",
+      "text": "Da-da-dum.",
+      "speaker": "Them 2",
+      "on": 4461,
+      "off": 4487,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Da-da-dum.",
+          "on": 4461,
+          "off": 4487,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        }
+      ]
+    },
+    {
+      "id": "lyr-077",
+      "text": "Could've been.",
+      "speaker": "Them 2",
+      "on": 4487,
+      "off": 4504,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Could've",
+          "on": 4487,
+          "off": 4496,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "been.",
+          "on": 4496,
+          "off": 4504,
+          "rigidity": 0.76,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-078",
+      "text": "Say goodnight.",
+      "speaker": "Them 1",
+      "on": 4504,
+      "off": 4535,
+      "motif": "soft closing cadence",
+      "words": [
+        {
+          "text": "Say",
+          "on": 4504,
+          "off": 4516,
+          "rigidity": 0.42,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "goodnight.",
+          "on": 4516,
+          "off": 4535,
+          "rigidity": 0.12,
+          "dy": 13,
+          "sx": 1.08,
+          "sy": 1.18,
+          "bend": 8,
+          "wave": 5
+        }
+      ]
+    },
+    {
+      "id": "lyrics-mtejg0j5",
+      "text": "Who?",
+      "speaker": "",
+      "on": 4530,
+      "off": 4552,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "Who?",
+          "on": 4530,
+          "off": 4552,
+          "rigidity": 0.38,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4,
+          "rotation": 4,
+          "recoil_y": 4
+        }
+      ],
+      "baseline_offset_px_720": 58
+    },
+    {
+      "id": "lyr-079",
+      "text": "To who?",
+      "speaker": "Them 2",
+      "on": 4557,
+      "off": 4574,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "To",
+          "on": 4557,
+          "off": 4565,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "who?",
+          "on": 4565,
+          "off": 4574,
+          "rigidity": 0.38,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4,
+          "rotation": 4,
+          "recoil_y": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-080",
+      "text": "La-la-la—la-la",
+      "speaker": "Them 1",
+      "on": 4574,
+      "off": 4618,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "La-la-la—la-la",
+          "on": 4574,
+          "off": 4618,
+          "rigidity": 0.08,
+          "dy": 8,
+          "sx": 1.05,
+          "sy": 1.16,
+          "bend": 11,
+          "wave": 14
+        }
+      ]
+    },
+    {
+      "id": "lyr-081",
+      "text": "You first.",
+      "speaker": "Them 2",
+      "on": 4622,
+      "off": 4649,
+      "motif": "rubber-to-rigid response chain",
+      "words": [
+        {
+          "text": "You",
+          "on": 4622,
+          "off": 4634,
+          "rigidity": 0.76,
+          "dy": 2,
+          "sx": 1.02,
+          "sy": 1.02
+        },
+        {
+          "text": "first.",
+          "on": 4634,
+          "off": 4649,
+          "rigidity": 0.66,
+          "dy": 7,
+          "sx": 1.08,
+          "sy": 1.1,
+          "bend": 4
+        }
+      ]
+    },
+    {
+      "id": "lyr-082",
+      "text": "Night.",
+      "speaker": "Them 1",
+      "on": 4644,
+      "off": 4662,
+      "motif": "soft closing cadence",
+      "words": [
+        {
+          "text": "Night.",
+          "on": 4644,
+          "off": 4662,
+          "rigidity": 0.12,
+          "dy": 13,
+          "sx": 1.08,
+          "sy": 1.18,
+          "bend": 8,
+          "wave": 5
+        }
+      ],
+      "baseline_offset_px_720": 58
+    },
+    {
+      "id": "lyr-083",
+      "text": "Night.",
+      "speaker": "Them 2",
+      "on": 4671,
+      "off": 4689,
+      "motif": "soft closing cadence",
+      "words": [
+        {
+          "text": "Night.",
+          "on": 4671,
+          "off": 4689,
+          "rigidity": 0.12,
+          "dy": 13,
+          "sx": 1.08,
+          "sy": 1.18,
+          "bend": 8,
+          "wave": 5
+        }
+      ]
+    },
+    {
+      "id": "lyrics-mtejafmv",
+      "text": "Night.",
+      "speaker": "",
+      "on": 4742,
+      "off": 4756,
+      "motif": "soft closing cadence",
+      "words": [
+        {
+          "text": "Night.",
+          "on": 4742,
+          "off": 4756,
+          "rigidity": 0.12,
+          "dy": 13,
+          "sx": 1.08,
+          "sy": 1.18,
+          "bend": 8,
+          "wave": 5
+        }
+      ]
+    }
+  ]
+}

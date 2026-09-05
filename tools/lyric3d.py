@@ -105,7 +105,7 @@ def _iter_fcurves(action):
 
 
 def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
-                      flat=False, palette_cues=None):
+                      flat=False, palette_cues=None, frame_range=None):
     import bpy
 
     root = pathlib.Path(root)
@@ -165,7 +165,8 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
     rubber_mat = _material(bpy, "LyricRubber", metallic=0.0, roughness=0.36)
     steel_mat = _material(bpy, "LyricSteel", metallic=0.62, roughness=0.24)
     flat_mat = _flat_material(bpy, "LyricFlatFill")
-    band_mat = _band_material(bpy, "LyricBackingBand") if flat else None
+    use_band = flat and bool(motion.get("backing_band", False))
+    band_mat = _band_material(bpy, "LyricBackingBand") if use_band else None
 
     scale_720 = height / 720.0
     font_size = float(motion.get("font_size_720", 44)) / 74.0 * scale_720
@@ -203,13 +204,22 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
             samples = [(0.35, 0.30, 0.25)]
         avg = tuple(sum(p[i] for p in samples) / len(samples) for i in range(3))
         hue, saturation, value = colorsys.rgb_to_hsv(*avg)
-        complement = colorsys.hsv_to_rgb(
-            (hue + 0.5) % 1.0,
-            min(0.56, max(0.30, saturation * 0.72)),
-            0.96)
-        # A touch of cream prevents saturated RGB cycling from reading as a
-        # rainbow while keeping the scene-to-scene relationship visible.
-        complement = tuple(c * 0.88 + 0.12 for c in complement)
+        avg_luma = 0.2126 * avg[0] + 0.7152 * avg[1] + 0.0722 * avg[2]
+        if avg_luma > 0.58:
+            # The pale worktable is the rare bright lyric zone. A dark,
+            # subdued complement preserves contrast without adding a box.
+            complement = colorsys.hsv_to_rgb(
+                (hue + 0.5) % 1.0,
+                min(0.52, max(0.28, saturation * 0.72)),
+                0.24)
+        else:
+            complement = colorsys.hsv_to_rgb(
+                (hue + 0.5) % 1.0,
+                min(0.56, max(0.30, saturation * 0.72)),
+                0.96)
+            # A touch of cream prevents saturated RGB cycling from reading as
+            # a rainbow while keeping the scene relationship visible.
+            complement = tuple(c * 0.88 + 0.12 for c in complement)
         backing = tuple(max(0.012, c * 0.13) for c in avg) + (0.22,)
         return complement + (1.0,), backing
 
@@ -298,6 +308,11 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
 
     glyph_count = 0
     for phrase in motion["phrases"]:
+        if frame_range:
+            range_start, range_end = frame_range
+            if (int(phrase["off"]) + 6 < range_start or
+                    int(phrase["on"]) - 4 > range_end):
+                continue
         speaker = phrase.get("speaker", "Them 1")
         active = cyan if speaker == "Them 2" else gold
         dim = dim_cyan if speaker == "Them 2" else dim_gold
@@ -305,6 +320,9 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
         phrase_off = int(phrase["off"])
         line_start = max(0, phrase_on - 4)
         line_end = min(total_frames - 1, phrase_off + 6)
+        phrase_baseline_y = baseline_y + (
+            float(phrase.get("baseline_offset_px_720", 0.0)) * scale_720
+            / height * field_h)
 
         made = []
         for wi, word in enumerate(phrase["words"]):
@@ -320,7 +338,7 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
         widths = [max(0.08, obj.dimensions.x) for obj, *_ in made]
         total_w = sum(widths) + tracking * max(0, len(widths) - 1)
         total_w += word_gap * max(0, len(phrase["words"]) - 1)
-        if flat:
+        if use_band:
             add_band(f"band_{phrase['id']}", total_w, line_start, line_end,
                      phrase_on, phrase_off)
         cursor = -total_w / 2.0
@@ -358,7 +376,7 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
             dx += cluster * scatter
             dy += (0.35 if gi % 2 else -0.2) * scatter
 
-            base = (base_x, baseline_y, 0.0)
+            base = (base_x, phrase_baseline_y, 0.0)
             obj.location = base
             obj.rotation_mode = "XYZ"
             obj.color = palette_at(line_start + 1)[0] if flat else dim
@@ -377,7 +395,7 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
                         color_frames.add(min(line_end, cue["start"] + 9))
                 for frame in sorted(color_frames):
                     color = palette_at(frame)[0]
-                    level = 0.34 if frame < word_on else (1.0 if frame < word_off else 0.74)
+                    level = 0.48 if frame < word_on else (1.0 if frame < word_off else 0.78)
                     _key(obj, "color", frame,
                          tuple(c * level if i < 3 else c for i, c in enumerate(color)))
             else:
@@ -395,7 +413,7 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
             _key(flex, "value", line_start + 1, 0.0)
 
             _key(obj, "location", anticipate,
-                 (base_x - dx * 0.3, baseline_y - 0.12 - dy * 0.2,
+                 (base_x - dx * 0.3, phrase_baseline_y - 0.12 - dy * 0.2,
                   0.0 if flat else -0.35 - 0.25 * rubber))
             _key(obj, "scale", anticipate,
                  (1.08 + 0.10 * rubber, 0.78 - 0.08 * rubber,
@@ -410,7 +428,7 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
             sy = float(word.get("sy", 1.0))
             z_hit = 0.0 if flat else 0.68 + 0.95 * rubber + 0.26 * math.sin(gi * 1.7)
             _key(obj, "location", hit,
-                 (base_x + dx * 1.55, baseline_y + (dy + curve_y + wave_y) * 1.45, z_hit))
+                 (base_x + dx * 1.55, phrase_baseline_y + (dy + curve_y + wave_y) * 1.45, z_hit))
             _key(obj, "scale", hit,
                  (sx * (0.90 - 0.10 * rubber), sy * (1.20 + 0.30 * rubber),
                   1.0 if flat else 1.0 + 0.45 * rubber))
@@ -424,7 +442,7 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
                  max(-1.35, min(1.35, bend_amount / 10.0 * (0.55 + 0.85 * rubber))))
 
             _key(obj, "location", rebound,
-                 (base_x - dx * 0.45, baseline_y - dy * 0.35 - wave_y * 0.5,
+                 (base_x - dx * 0.45, phrase_baseline_y - dy * 0.35 - wave_y * 0.5,
                   0.0 if flat else -0.18 - 0.30 * rubber))
             _key(obj, "scale", rebound,
                  (1.08 + 0.10 * rubber, 0.88 - 0.06 * rubber,
@@ -437,7 +455,7 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
             recoil_x = float(word.get("recoil_x", 0.0)) / 74.0 * scale_720
             recoil_y = float(word.get("recoil_y", 0.0)) / 74.0 * scale_720
             _key(obj, "location", settle,
-                 (base_x + recoil_x, baseline_y + recoil_y, 0.0))
+                 (base_x + recoil_x, phrase_baseline_y + recoil_y, 0.0))
             _key(obj, "scale", settle, (1.0, 1.0, 1.0))
             _key(obj, "rotation_euler", settle, (0.0, 0.0, 0.0))
             _key(flex, "value", settle, 0.0)

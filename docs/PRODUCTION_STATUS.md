@@ -29,20 +29,20 @@ The approved image set includes the targeted revisions made on 2026-09-04:
 | `duet_lamplight_astronomer_sync` | B | A weary end-of-day beat beside a period-futurist television; pinned hair is restored, though the pencil is not clearly visible. |
 | `duet_lamplight_astronaut_sync` | B | Darker exterior and dim evening interior, with small practical lights. |
 
-### Lyric-motion flat-shape pilot awaiting review
+### Full flat-shape lyric animatic ready for review
 
-An optional per-glyph lyric system has been tested on the first six phrases,
-frames 150–725. The current pass uses Fredoka as flat, unlit glyph shapes:
-rubber words flex, squash, and overshoot in the picture plane, while rigid
-words behave as tighter blocks. Text color is sampled per selected still,
-converted to a subdued complementary color, and eased over 12 frames at shot
-cuts. The current local review file is `out/lyric_motion_pilot_flat_v02.mp4`;
-the dimensional comparison is `out/lyric_motion_pilot_3d_v01.mp4`, and the
-earlier VSE comparison is `out/lyric_motion_pilot_v03.mp4`. Editable motion data is tracked in
-`shots/lyric_motion_pilot.json`, and heard timing corrections can be marked in
-`shots/lyric_timing_review.md`. See
-`docs/LYRIC_MOTION_PILOT.md` for the word-by-word direction. No later lyrics
-have been choreographed yet.
+The approved flat Fredoka treatment now covers the complete song: 87 lyric
+lines and 305 individually animated words across all 4,782 frames. The local
+review file is `out/blender_animatic_flat_lyrics_v01.mp4`: 1280×720, 24 fps,
+199.25 seconds, 59 selected-still cuts, and continuous master audio. The text
+has no backing rectangle or visible 3D treatment. Scene-aware color eases over
+12 frames at cuts and switches to a dark fill for unusually bright lyric zones.
+
+Editable full-song choreography is tracked in
+`shots/lyric_motion_full.json`. Heard word-timing corrections can be marked in
+`shots/lyric_timing_review_full.md`. The first six hand-authored pilot phrases
+are preserved; later word attacks are provisional until checked by ear. See
+`docs/LYRIC_MOTION_FULL.md` for motion grammar, rendering, and review guidance.
 
 ## Timing remains editable
 
