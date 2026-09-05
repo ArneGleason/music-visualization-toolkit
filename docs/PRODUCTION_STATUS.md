@@ -98,6 +98,14 @@ is `out/screen_sync_refined/comparison.mp4`: reference-derived screen texture,
 varying beam width, and 2x spatial supersampling, compared with the first
 replacement. Actual moving-footage tracking is still untested.
 
+Latest screen review: `out/screen_sync_phosphor/comparison.mp4` compares the
+previous replacement, a new amber trace with beam-speed-dependent intensity
+and accumulated phosphor decay, and an optional amber-bass/cyan-drums pair.
+The two-channel option uses near-horizontal axes with slow relative drift.
+Glass dirt and peripheral calibration are included. Owner preference between
+the latest variations is pending; the underlying complete-replacement choice
+remains accepted.
+
 The latest plan is authoritative; generated clips may be replaced or reused
 as spare material. The shared repository records saved decisions and assets,
 not a live registry of another agent's in-flight generation jobs. At assembly,

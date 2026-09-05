@@ -1,8 +1,64 @@
 # Screen replacement driven by the music: first effects test
 
-Status: owner prefers complete replacement, 2026-09-05. A bounded refinement
-adds reference texture, organic line width, and spatial supersampling.
+Status: owner prefers complete replacement, 2026-09-05. Latest study adds
+beam-speed response, accumulated phosphor persistence, peripheral markings,
+and an optional second audio channel. Awaiting review of these variations.
 Test one element; expand only after reviewing what it teaches us.
+
+## Phosphor and two-channel study
+
+Owner direction: the beam should become brighter, broader, and more bloomed
+where it travels slowly across the screen; fast vertical travel should produce
+a finer line. Improve the ends of the trace, add actual phosphor persistence,
+and make glass dirt and subtle peripheral calibration more tangible. Also
+explore two differently colored audio signals, preferably mostly horizontal
+with a little relative axis drift rather than a rigid cross.
+
+`tools/screen_sync_phosphor.py` implements one controlled comparison:
+
+1. Previous textured replacement, unchanged as a baseline.
+2. Single amber bass trace with the new screen behavior.
+3. Amber bass plus a quieter cyan trace from the drum body's 25–240 Hz band.
+
+Local movie: `out/screen_sync_phosphor/comparison.mp4` (sequence repeated twice,
+414 frames / 17.25 seconds, 1280x720, identical master excerpts). Separate
+`single.mp4` and `dual.mp4` are in the same folder. This is still the approved
+still with the shared slight camera move; it does not test moving-plate tracking.
+
+Implementation and review notes:
+
+- The simplified dwell proxy is `1 / sqrt(1 + (dy/dx)^2)` for a constant
+  horizontal sweep. It drives both intensity and core/halo width. Small
+  direction changes are taken from the audio, not random line animation.
+- The beam now extends across the glass aperture and is softly clipped at
+  its curved edge. It no longer ends in a blunt tube cap inside the screen.
+- A light buffer accumulates and decays at eight updates per movie frame
+  (192 Hz). Fast and slow components have 30 ms and 160 ms half-lives;
+  the current beam remains visible over that history. It is primed with
+  preceding audio so the screen is already operating when the shot starts.
+  This replaces the two explicit old-curve copies in earlier tests.
+- Persistence is a temporal effect, separate from the retained 2x spatial
+  supersampling. The display models brightness accumulation and decay;
+  it does not simulate every aspect of an electron tube. For the reference
+  distinction between intensity grading and persistence, see
+  [Tektronix's explanation](https://www.tek.com/en/support/faqs/how-dpo-technology-different-persistence)
+  and [oscilloscope display types](https://www.tek.com/en/documents/primer/oscilloscope-types).
+- Soft amplitude compression prevents artificially flat clipped peaks.
+  The existing stem offsets are applied once for both channels. This is
+  an artistic display derived from the real signals, not a calibrated scope.
+- Fixed glass dust/scuffs overlay the light, with faint phosphor grain.
+  Peripheral ticks and a subtle ring replace the full center graticule.
+  Dirt remains attached to the screen; it does not flicker randomly per frame.
+- Both dual-channel axes remain near horizontal, with small different offsets
+  and slow drift no greater than 1.1 degrees. The emitted colors add where
+  they meet. Cyan is deliberately subordinate to amber; the two-channel
+  treatment is optional, not a new requirement for every instrument shot.
+
+Inspect the new beam on flat, steep, and decaying portions, then judge whether
+the second channel adds musical information or makes the screen too busy.
+Moving footage and a perpendicular X/Y composition remain future possibilities.
+Record the preference and carry the chosen method to another situation rather
+than defaulting to another round on this same excerpt.
 
 ## Replacement refinement
 
@@ -79,8 +135,10 @@ The saved bass waveform summary has activity in this passage. Use bass alone
 for this first test. The opening precedes the first sung line, so a lead-vocal
 trace would not be a useful first demonstration.
 
-At bass attacks the trace gains amplitude and a modest amount of brightness;
-as the note decays, the display settles. Use a stable triggered sweep and short
+At bass attacks the trace gains amplitude; as the note decays, the display
+settles. The latest model derives local brightness from beam dwell, so quiet,
+nearly flat portions can glow more strongly than steep, energetic portions.
+Use a stable triggered sweep and short
 phosphor persistence so it reads as an instrument instead of changing randomly
 on every movie frame. Do not animate the dials, valves, or surrounding light
 in the first test. This is an audio-derived artistic instrument, not a claim
