@@ -304,6 +304,35 @@ setup's Video prompt, Veo 3.1 Quality, 720p, 8 s, x1 (100 credits each).
   Download button (browser download), so the clips come in through
   `~/Downloads`. The share icon next to it opens Publish, not download.
 
+## Where we are (2026-09-05, end of day)
+
+- **Approved stills:** `shots/still_favorites.md`, 41/41, images in
+  `codex/out/`. Contact sheet `board/approved_v6_sheet.jpg`.
+- **Motion:** the chorus only. Eight Flow clips (`clips/raw/<setup>_v6.mp4`,
+  Veo 3.1 Quality, 8 s, one take each, all verified against their approved
+  still), assigned to s041–s051. 33 setups still to animate; Ultra credits
+  end 2026-09-07.
+- **Lip sync:** two Kling clips on the free tier (watermarked):
+  `clips/raw/chorus_close_sync_kling.mp4` (slice from 146.0556 s) and
+  `basin_edge_sync_kling.mp4` (slice from 134.7357 s). Owner has since
+  subscribed to a Kling plan; every sung run gets re-synced clean. 13 sung
+  runs in the cut, none longer than 5.9 s, one 8 s job (10 credits) each;
+  budget 450 credits with retakes.
+- **Retiming (owner, commit 199b3fb):** cuts are now lyric-locked in the
+  rocket-weather / chorus join. Effect on the motion work: none of the eight
+  Flow clips needs regenerating; only in-points move. The basin edge is now
+  one cut (s042 at 137.58 s), so its Kling clip plays from `in_sec` 2.84 to
+  keep the mouth on the vocal. Rule for any sync clip: `in_sec` = cut start
+  minus the vocal slice start. When the clean Kling pass runs, slice each
+  vocal from the (new) cut start so `in_sec` returns to 0.
+- **Lyric overlays:** Codex owns `tools/lyric*.py` and
+  `shots/lyric_motion_full.json`; not touched here.
+- **Latest section renders:** `out/chorus_motion_v3_sync.mp4` (before the
+  retime) and `out/chorus_motion_v4_retimed.mp4` (after).
+- **Next:** clean Kling pass on the two chorus shots, then Flow
+  Frames-to-Video on the remaining 33 setups (real-click picker, first-frame
+  check), then Kling on the other eleven sung runs.
+
 ## Generator A/B, Flow side (2026-09-02)
 
 Nano Banana Pro, 16:9, x2, the v2 Characters attached, "Film still." lead,
