@@ -376,9 +376,22 @@ Every setup in the cut now has motion. All 59 shots carry a clip.
   jobs in flight at once. The duet s033 is a first pass with the whole
   slice on Kling's "Character 1" (the astronomer, frame left); the
   call-and-response needs the slice split per line and given to each twin
-  once the line owners are confirmed. Results still need downloading with
-  the "Without Watermark" toggle and filing as
-  `clips/raw/<setup>_s0NN_kling.mp4`.
+  once the line owners are confirmed. All eleven results are downloaded
+  clean (owner OK, no watermark), matched to their shot by audio
+  correlation against the vocal slices (best 0.99+, runner-up under 0.03)
+  and by first frame against the Flow clip, filed as
+  `clips/raw/<setup>_s0NN_kling.mp4` and assigned. 15 shots now play a
+  Kling sync clip. Render with syncs: `out/full_motion_v2_sync.mp4`.
+- **Owner rule (2026-09-05, after this pass):** never reuse the same start
+  frame in more than one place. When a setup returns, run a longer take (or
+  a continuation take started from the earlier take's frame at that song
+  time) and cut into its later section, so time keeps advancing across the
+  cross-cuts. Codex's `docs/CONTINUOUS_COVERAGE_PLAN.md` (commit 4edcd64)
+  carries the method and the outro's six-take proposal. Against that rule
+  this pass has one outright violation (s039 restarts the rockets clip) and
+  several repeats that reuse a take's later seconds without tracking song
+  time (s006/s008, s011, s020, s025, s053); the outro and duet syncs here
+  are first-pass placeholders until the coverage takes exist.
 
 ### Flow harvest notes (new UI)
 
