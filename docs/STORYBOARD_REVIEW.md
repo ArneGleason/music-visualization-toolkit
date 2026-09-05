@@ -264,6 +264,16 @@ next, Add. Reloading the page clears the chips. The panel entries and the
 grid tiles share `data-index`, which is how the harvest maps media ids back
 to prompts (`scratchpad/flow6/map6b.py`).
 
+## Current generation strategy (2026-09-05)
+
+The owner now wants continuous coverage takes for recurring views, with
+individual source in-points on each return, and successive refinement passes
+across the whole film. See
+[CONTINUOUS_COVERAGE_PLAN.md](CONTINUOUS_COVERAGE_PLAN.md) for the proposed
+outro exchange, source windows, speaker-specific sync, and other useful
+sections. This supersedes the per-cut work orders and next-step lists in the
+historical test notes below. Existing test media remains useful and replaceable.
+
 ## Chorus motion test (2026-09-04)
 
 Approved set for the whole film: `shots/still_favorites.md` (41/41, tracked)

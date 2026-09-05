@@ -12,6 +12,12 @@ This is a reusable music-video and visualization toolkit.
 5. Review an animatic before spending money on generated footage.
 6. Prefer DAWproject timing when linear tempo ramps matter. MIDI tempo events
    are steps and cannot reproduce a continuous ramp exactly.
+7. For recurring views of one continuous scene, plan source takes across the
+   cutaways and derive each cut's in-point from the take's song-time origin.
+   Do not restart a take at every return. See `docs/CONTINUOUS_COVERAGE_PLAN.md`.
+8. Refine across the whole timeline in successive passes. Carry lessons into
+   the next section; log weaknesses and revisit them in a later pass rather
+   than repeatedly polishing one short passage. Existing tests may be replaced.
 
 ## Style
 

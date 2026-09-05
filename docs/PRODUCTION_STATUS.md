@@ -73,12 +73,21 @@ all four changes. It was rendered and reviewed across the complete song on
 seconds of AAC audio, and no missing-image slates or accidental black sections.
 The four review contact sheets are local under `out/animatic_v04_review_*.jpg`.
 
-Next session: build one restrained DAW-driven compositing pilot over the local
-river-chorus motion review, then compare it with the unaltered chorus before
-extending the effect language. The reviewable direction and approval gate are
-in [`docs/DAW_VISUALIZATION_OVERLAY_PLAN.md`](DAW_VISUALIZATION_OVERLAY_PLAN.md).
-Claude is separately preparing motion and lip-sync clips; do not replace those
-files or alter their assignments while that work is in progress.
+Next: review the proposed dialogue-led outro and continuous source coverage in
+[CONTINUOUS_COVERAGE_PLAN.md](CONTINUOUS_COVERAGE_PLAN.md). The draft follows
+speaker turns with fourteen performance views drawn from six overlapping
+eight-second takes. Its exact cut timing is proposed, not applied to v04.
+
+The owner has adopted whole-film refinement passes: rough out the timeline,
+carry lessons into new sections, then return to earlier weaknesses. Existing
+animation and lip-sync tests are useful and replaceable; keep their files for
+comparison. Claude is separately preparing motion and lip-sync footage. This
+coverage plan is the shared handoff for future orders; current assignments
+should be checked before merging any revised cut.
+
+The DAW effects direction remains in
+[DAW_VISUALIZATION_OVERLAY_PLAN.md](DAW_VISUALIZATION_OVERLAY_PLAN.md).
+Review that plan and run a small test after the coverage discussion.
 
 Editable full-song choreography is tracked in
 `shots/lyric_motion_full.json`. Heard word-timing corrections can be marked in
@@ -106,18 +115,18 @@ and then keep the planning source in agreement. Generated video can be longer
 than its cut: `clip.in_sec` and `clip.speed` in the shot list choose the useful
 portion without regenerating a shot.
 
-This is the safe order from here:
+The production order now follows broad passes across the film:
 
-1. Watch the current animatic and note any desired cut changes by timestamp or
-   shot ID.
-2. Adjust and re-render until the picture edit feels settled.
-3. Generate motion clips from the approved stills, using first/last frames for
-   transitions and beat-critical arrivals.
-4. Ingest clips and refine in-points against the locked frame edges.
-5. Run lip sync only on the frontal `_sync` performance shots after timing is
-   stable.
-6. Add the beat-locked overlay/compositing pass and review again before a final
-   master.
+1. Review changed passages in a free animatic and map source coverage across
+   the timeline, including cutaways and later returns.
+2. Assemble a first motion pass with one candidate per source window and
+   adequate existing tests. Log problems and advance to other sections.
+3. Sync usable performance coverage and check speaker ownership, listening
+   gaps, individual in-points, and continuity across the whole song.
+4. Apply lessons from later sections to selected earlier weaknesses in a
+   refinement pass; do not repeatedly polish a single short passage.
+5. Review/test the DAW effects plan, extend the successful treatment, then
+   review the full composite before finishing.
 
 ## Reproducing the current animatic
 

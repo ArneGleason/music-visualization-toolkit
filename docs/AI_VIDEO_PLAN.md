@@ -9,6 +9,14 @@ pipeline (`shotplan → prompts → animatic → ingest → render`), replacing 
 the layer that wasn't landing — the rendered artwork — and adding one new
 stage: a **lip-sync pass** against the existing lead-vocal stem.
 
+Current production direction (2026-09-05): use continuous source coverage for
+recurring views and refine the whole timeline in successive passes. The exact
+outro proposal, source windows, sync strategy, and other candidate sections are
+in [CONTINUOUS_COVERAGE_PLAN.md](CONTINUOUS_COVERAGE_PLAN.md). That document
+supersedes earlier per-cut generation and repeated-take advice below and in
+historical review notes. The proposed outro still needs its free animatic
+review; v04 remains the approved edit.
+
 The canonical look reference is the generated master image (astronaut-botanist
 in a riveted silver suit kneeling by a canal, domes and needle towers, striped
 planet, canal creature) — it realizes the motifs already listed in
@@ -57,7 +65,8 @@ Performance cuts should land on lyric phrase boundaries; the register places
 every phrase, so where a bar-grid cut splits a phrase, add `hold` positions in
 `plan.json` at that phrase's start instead of hand-trimming seconds.
 
-Roughly 25 setups cover ~90 cuts; reuse keeps the budget sane.
+The current approved still edit uses 41 setups for 59 cuts. The proposed
+dialogue edit adds cuts without requiring one generation per cut.
 
 ## 2. Shot categories
 
@@ -131,22 +140,30 @@ letterbox are also the drift-hiders.
 
 ## 5. First/last frames and durations
 
-- `shots/shotlist.json` gives every cut exact `frames` at 24 fps via
-  `to_frames`; `tools/prompts.py` notes the longest cut per setup — generate
-  at least that long, choose in-points with `ingest.py --in`.
-- Ceiling `max_shot_sec: 8.0` matches one generation; anything longer is
-  auto-split on the bar grid or extended with Scenebuilder.
-- **Frames-to-Video** (first *and* last frame) is mandatory for:
-  - every *transitional* setup — last frame of the outgoing setup, first
-    frame of the incoming one;
-  - any cut that must land somewhere specific on a downbeat (the forest walk
-    arriving at the awakening, the chorus plunge);
-  - re-entries to a repeated setup, so each chorus return starts from the
-    same still.
+- `shots/shotlist.json` gives exact editorial frame edges at 24 fps. Source
+  takes may cover several cuts and the gaps between them. Size them to that
+  complete window, with handles where practical; `max_shot_sec: 8.0` is an
+  editorial cutting rule, not a source-duration limit.
+- `tools/prompts.py` currently reports the longest single cut per setup. That
+  is insufficient for continuous coverage. Use the reviewed source-window
+  work order until the exporter is extended to understand coverage takes.
+- Start the first take from the approved still or a reviewed calmer coverage
+  anchor. For subsequent blocks, use an appropriate continuation frame from
+  the preceding take at the next block's song-time origin. Re-entry to a view
+  advances its source clock; it does not restart the approved board pose.
+- For a designed transition or beat-critical arrival, use reviewed start/end
+  anchors when supported and trim to the required arrival in post. Hide joins
+  between source blocks while another view or insert is on screen.
+- Keep `clip.speed = 1` for synced performance. Set each cut's `clip.in_sec`
+  from its source take's song origin and verify duration/offsets after sync.
 - Performance shots destined for lip-sync are generated with the mouth
   neutral or loosely singing — the sync pass replaces mouth motion, and it
   degrades on extreme angles, profiles, and occlusion, so keep `_sync` setups
   frontal close/medium and let wides get away with plausible mouth movement.
+- Sync each whole coverage take using that performer's lines at their original
+  timestamps and silence during the other performer's turns. Both twins use
+  the same singer; the lead-vocal stem needs reviewed speaker gating, and
+  overlapping voices cannot be separated by gating alone.
 
 ## 6. Storyboard and animatic
 
@@ -188,36 +205,36 @@ browser anywhere:
 
 ## 7. Generation work order, takes, ingest, budget, fallback
 
-- **Work order**: `tools/prompts.py` writes `prompts/prompts.md` grouped by
-  setup with longest-cut durations. Order: (1) Phase 0 probe, (2) the chorus
-  canal setups (most reused), (3) remaining performance setups, (4)
-  environments, (5) macros, (6) transitionals last (they need approved
-  neighbor frames).
-- **Takes**: 2–3 takes for setups used by 4+ cuts (chorus basin, forest
-  walk, both duet setups); 1 take for single-use setups. `_sync` setups get
-  takes chosen *before* the sync pass — sync the winner only, and give hero
-  sync shots 2–3 *sync* passes too (Kling's Redub re-runs a finished clip
-  for ~10 credits; sustained vowels are where sync wobbles).
+- **Work order**: Phase 0 and the chorus tests have established a usable path.
+  Review the new outro coverage next, then carry the learning through the
+  opening, reply, action/insert scenes, and remaining timeline. Rough motion
+  coverage, sync/continuity, and selective refinement are whole-film passes.
+- **Takes**: one initial candidate per planned source window during the first
+  pass, with at most one targeted correction for a clear failure. Record the
+  lesson and move on with a usable test, still, or insert. Additional takes
+  belong to a later refinement pass supported by a specific hypothesis.
+  Sync the selected usable take once; do not default to multiple sync variants.
 - **Take review (owner's dailies rule)**: candidates are approved in
   **batches and in context**, never in isolation — each candidate is viewed
   butted against the current best take of the previous and next cut, with
   the master mix over the join, because a take that reads fine alone can be
   a discontinuity against its neighbors (radically different performance
-  energy across a cut). Rejections go onto a regen list and the batch loop
-  repeats until every cut has an approved take. Smallest tooling: a
+  energy across a cut). Rejections go onto a ranked issue list while the first
+  pass advances to other sections. Later passes revisit weak footage with
+  lessons learned elsewhere. Smallest tooling: a
   generated review page (like `board/contact.html`) that plays each
   candidate in a prev/candidate/next strip and records approve/regen per
   take back into the shotlist clip assignment.
-- **Ingest**: download named after the setup (`canal_current_macro.mp4`) into
-  `clips/inbox/`, `ingest.py --auto` files it and wires it to every cut;
-  `--status` tracks coverage; `--in` picks the musical in-point. Lip-synced
-  versions re-enter the same way, replacing the silent take on `_sync` shots.
-- **Budget**: ~25 setups × ~2 average takes ≈ 50 generations first pass, +20
-  fixes — inside one month of a high-tier Flow subscription; API top-up at
-  Veo 3.1 list prices (~$0.40/generation at 1080p, Fast ~$0.12) keeps a
-  re-pass in the tens of dollars. Add the sync pass: only the ~10–14 `_sync`
-  shots, priced per second on most dedicated tools — confirm current pricing
-  during Phase 0.
+- **Ingest**: name media by setup, coverage window, take, and sync version.
+  Record the source's song start and assign each cut its own in-point.
+  `ingest.py --auto` currently assigns the same zero in-point to every matching
+  setup use, so it is unsuitable for these coverage returns without further
+  individual assignments. Preserve those assignments through `--merge`.
+- **Budget**: count source windows and full synced seconds, not editorial
+  cuts. The draft outro uses six 8-second motion takes and up to six sync
+  jobs. Check current tool durations and pricing before an order. Longer
+  coverage buys editing freedom but can cost more per visible second; there
+  is no automatic blanket allowance for repeated variants.
 - **Fallback**: any setup that won't converge falls back to (a) a still +
   slow push (Frames-to-Video from one approved board frame), (b) macro/insert
   substitution, or (c) for stubborn sync shots, a non-sync medium where the
@@ -287,7 +304,8 @@ the vector renderer, and the shot pipeline itself. Sections carry a
 # Phase 0: one-shot probe (still -> clip -> lip-sync tools -> grade)
 # storyboard stills -> board/frames/, review contact sheet
 ./.venv/bin/python3 tools/storyboard_animatic.py
-# only after animatic approval: generate, sync the _sync winners, then
-./.venv/bin/python3 tools/ingest.py --auto && ./.venv/bin/python3 tools/ingest.py --status
+# after animatic approval: generate coverage windows, sync selected takes,
+# assign each cut with its own --assign / --file / --in mapping, then
+./.venv/bin/python3 tools/ingest.py --status
 ./.venv/bin/python3 tools/render.py
 ```
