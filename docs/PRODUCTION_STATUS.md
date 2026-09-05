@@ -1,6 +1,6 @@
 # Rivers of Mars live-action production status
 
-Pause point: 2026-09-04
+Pause point: 2026-09-05
 
 ## Current state
 
@@ -51,7 +51,7 @@ the 41 approved selections, so ignored motion clips that appear on disk do not
 silently change the reviewed 59-cut picture edit. Motion clips are included
 only when a future render deliberately passes `--allow-clips`.
 
-### Lyric-locked picture timing v04
+### Lyric-locked picture timing v04 — approved
 
 Four owner-approved picture changes are now locked to the refined lyric frames:
 
@@ -66,9 +66,15 @@ The landing composition deliberately holds through the intervening instrumental
 space and “Can’t tell you / if they’re true.” Repeated bar-length EDL entries
 reuse that same setup, so they create no visible picture change. The tracked
 overrides in `shots/plan.json` survive `tools/shotplan.py --merge`, and the
-current passage review is `out/shot_timing_review_v04.mp4`. The full v03 movie
-predates these four timing changes; render a full v04 after the passage is
-approved.
+current passage review is `out/shot_timing_review_v04.mp4`. The owner approved
+this passage on 2026-09-05 as “a lot better.” The full v03 movie predates these
+four timing changes.
+
+Next session: render the complete stills-only lyric animatic as v04 from the
+current shot list and choreography, verify all 4,782 frames and the master
+audio, then use that full render for the next editorial review. Do not replace
+the approved stills with the ignored motion clips unless a motion-clip review
+is explicitly requested.
 
 Editable full-song choreography is tracked in
 `shots/lyric_motion_full.json`. Heard word-timing corrections can be marked in
