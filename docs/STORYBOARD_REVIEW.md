@@ -275,6 +275,14 @@ setup's Video prompt, Veo 3.1 Quality, 720p, 8 s, x1 (100 credits each).
   "Add to prompt" re-added the previous frame. Only a real click on the
   option (then a check of the slot thumbnail) is reliable. ~600 credits
   lost; all 8 regenerated correctly.
+- Owner spotted a second slip: `basin_kaleidoscope_top` had animated from
+  a Flow-generated daylight still that the picker offered from Recent,
+  not from the approved Codex night still. A first-frame check against
+  `codex/out/` (mean pixel diff, `clips/v6/*_f0.jpg`) confirmed it: seven
+  clips within 1.2 of their approved still, the kaleidoscope at 70.
+  Regenerated from `basin_kaleidoscope_top_a.jpg`. Rule: after every
+  Frames-to-Video request, diff the clip's first frame against the
+  approved still before filing it.
 - Clips in `clips/v6/<setup>.mp4`, filed as `clips/raw/<setup>_v6.mp4` and
   assigned to the 13 cuts with `tools/ingest.py` (adjacent identical
   setups run as one continuous clip via `in_sec`).
