@@ -43,6 +43,9 @@ import subprocess
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "tools"))
+from assembly_sources import load_decisions, resolve_clip
+from assembly_timebase import conform_clip
 
 BLENDER_CANDIDATES = [
     os.environ.get("BLENDER", ""),
@@ -59,7 +62,10 @@ def build_parser():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--out", default="out/blender_animatic.mp4",
                     help="output file; .mp4 for a movie, or a PNG path with a frame_ stem for a sequence")
+    ap.add_argument("--shotlist", default="shots/shotlist.json",
+                    help="isolated shotlist snapshot for auditions; default is the production edit")
     ap.add_argument("--proxy", action="store_true", help="1280x720 instead of 1920x1080")
+    ap.add_argument("--beat-flash", action="store_true", help="opt in to the retired full-frame beat flash")
     ap.add_argument("--lyrics", action="store_true", help="add lyric captions")
     ap.add_argument("--lyric-motion", default=None,
                     help="JSON choreography for per-letter lyric motion; replaces simple --lyrics captions")
@@ -105,7 +111,8 @@ def inside_blender(argv):
 
     a = build_parser().parse_args(argv)
     cues = json.loads((ROOT / "generated" / "overlay_cues.json").read_text(encoding="utf-8"))
-    shotlist = json.loads((ROOT / "shots" / "shotlist.json").read_text(encoding="utf-8"))
+    shotlist = json.loads((ROOT / a.shotlist).read_text(encoding="utf-8"))
+    decisions = load_decisions(ROOT)
     fps = cues["fps"]
     W, H = (1280, 720) if a.proxy else (1920, 1080)
     total = cues["frames"]
@@ -171,11 +178,17 @@ def inside_blender(argv):
                 continue
             length = fe - fs
             src = next((s for s in shotlist["shots"] if s["id"] == shot["id"]), {})
-            clip = (src.get("clip") or {}).get("file")
+            selected = (src.get("clip") or {}) if a.stills_only else resolve_clip(
+                ROOT, src, fps, decisions, start=fs, end=fe)
+            if not a.stills_only and selected.get("file"):
+                selected = conform_clip(ROOT, selected, fps)
+            clip = selected.get("file")
+            if selected.get("assembly_decision") and not a.stills_only:
+                print(f"[assembly] {shot['id']}: protected source {clip}")
             name = f"{shot['id']}_{shot['setup']}"
             if not a.stills_only and clip and (ROOT / clip).exists():
                 st = strips.new_movie(name=name, filepath=str(ROOT / clip), channel=1, frame_start=B(fs))
-                in_f = int(round(float((src.get("clip") or {}).get("in_sec") or 0.0) * fps))
+                in_f = int(round(float(selected.get("in_sec") or 0.0) * fps))
                 st.frame_offset_start = in_f
                 st.frame_final_duration = length
                 st.frame_start = B(fs) - in_f
@@ -217,6 +230,7 @@ def inside_blender(argv):
     # ---- channel 4: beat pulse ---------------------------------------------
     pulse = strips.new_effect(name="beat_pulse", type='COLOR', channel=4, frame_start=B(f0), length=f1 - f0 + 1)
     pulse.color = (1.0, 0.96, 0.88)
+    pulse.mute = not a.beat_flash
     pulse.blend_type = 'ADD'
     section_frames = {s["frame"] for s in cues["sections"]}
 

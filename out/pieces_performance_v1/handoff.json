@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "test_id": "pieces_performance_v1",
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "authorization": {
+    "current_action": "one_flow_base_then_one_kling_sync",
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "task": "One Flow close-up singing take, inspect, then one Kling lip-sync. No specimen generation or assembly.",
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 488,
+    "song_origin_seconds": 20.333333333333332,
+    "requested_take_frames": 192,
+    "requested_take_seconds": 8,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 20.154985333333332,
+    "guide_already_aligned": true,
+    "guide_upload_start_seconds": 0,
+    "additional_audio_offset_seconds": 0
+  },
+  "cut": {
+    "review_id": "pieces_close_v1",
+    "replaces_old_shot_ids": [
+      "s005",
+      "s006",
+      "s007"
+    ],
+    "song_start_frame": 500,
+    "song_end_frame_exclusive": 670,
+    "source_in_frame_at_24fps": 12,
+    "source_out_frame_exclusive_at_24fps": 182,
+    "duration_frames": 170,
+    "speed": 1
+  },
+  "phrases": [
+    {
+      "text": "I've got pieces.",
+      "song_frames": [
+        516,
+        602
+      ],
+      "source_seconds": [
+        1.1666666666666667,
+        4.75
+      ]
+    },
+    {
+      "text": "Things that almost fit.",
+      "song_frames": [
+        620,
+        658
+      ],
+      "source_seconds": [
+        5.5,
+        7.083333333333333
+      ]
+    }
+  ],
+  "preceding_picture": {
+    "source": "out/opening_specimen_v2/base.mp4",
+    "song_frames": [
+      334,
+      500
+    ],
+    "source_frames": [
+      12,
+      178
+    ],
+    "note": "Proposed one-second extension beyond approved preview end476, real existing motion, not a freeze. Inspect the late hand reach in context; not production adoption."
+  },
+  "following_picture": {
+    "proposed_cut_frame": 670,
+    "lyric": "Then they do not quite match.",
+    "lyric_song_frames": [
+      680,
+      719
+    ],
+    "status": "future specimen continuation, not commissioned in this handoff; do not restart the previous specimen action"
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "codex/out/astronomer_close_sync_b.jpg",
+      "sha256": "BEB0A3EA59495CFC33935C9520BA1B8C6D4796318A00D2A6D44B4C680B6F5FD3"
+    },
+    "guide": {
+      "file": "out/pieces_performance_v1/guide.wav",
+      "sha256": "DEBC0DA4CAD19239DEE67B27F7E4A9426B20205B95037C929D84A4BDB187B037",
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples": 384000
+    },
+    "prompt": {
+      "file": "out/pieces_performance_v1/flow_prompt.txt"
+    },
+    "lock": {
+      "file": "out/pieces_performance_v1/style_lock_v2.txt",
+      "sha256": "6DB3E45D5777CB22AE1EE7DA18B8BDE8498CAAFFB8D96E8536F3414DEA260496",
+      "scope": "Identical to accepted opening v3 performance lock"
+    }
+  },
+  "guide_provenance": {
+    "source": "C:/Users/arneg/OneDrive/Documents/Bitwig Studio/Projects/RiversOnMars/samples/Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "source_sha256": "BEEDD740882CE6E8D5A0D85A7AEA2E83EF36368BD932B66FD44C22216D06E68E",
+    "verification": "Same extraction method compared against accepted opening guide at its original song origin.",
+    "opening_guide_correlation": 0.9999999999999999,
+    "candidate_correlations": {
+      "Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav": 0.9999999999999999,
+      "Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal).wav": 0.9987603022929282
+    },
+    "processing": "Mono 48k PCM16, exact eight-second trim; no normalization, gating, speed change, silence removal or extra offset."
+  },
+  "output": {
+    "base": "out/pieces_performance_v1/base.mp4",
+    "synced": "out/pieces_performance_v1/synced.mp4",
+    "receipt": "out/pieces_performance_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "Character 1",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_model_unavailable_or_cost_exceeds_expected": true
+  },
+  "assembly": {
+    "owner": "Codex after download",
+    "timestamp_conform_not_fps_reinterpret": true,
+    "production_assignment_requires_review": true
+  },
+  "performance": {
+    "prompt_bpm": 84,
+    "measured_local_bpm": 83.54451530257039,
+    "gesture_spacing_beats": [
+      2,
+      4
+    ],
+    "beat_source": "generated/overlay_cues.json",
+    "beat_grid": [
+      {
+        "frame": 499,
+        "sec": 20.789,
+        "bar": 10,
+        "beat": 1,
+        "downbeat": true,
+        "source_sec": 0.45566666666666933
+      },
+      {
+        "frame": 516,
+        "sec": 21.5105,
+        "bar": 10,
+        "beat": 2,
+        "downbeat": false,
+        "source_sec": 1.1771666666666682
+      },
+      {
+        "frame": 533,
+        "sec": 22.2236,
+        "bar": 10,
+        "beat": 3,
+        "downbeat": false,
+        "source_sec": 1.890266666666669
+      },
+      {
+        "frame": 551,
+        "sec": 22.9469,
+        "bar": 10,
+        "beat": 4,
+        "downbeat": false,
+        "source_sec": 2.6135666666666673
+      },
+      {
+        "frame": 568,
+        "sec": 23.6664,
+        "bar": 11,
+        "beat": 1,
+        "downbeat": true,
+        "source_sec": 3.3330666666666673
+      },
+      {
+        "frame": 585,
+        "sec": 24.3817,
+        "bar": 11,
+        "beat": 2,
+        "downbeat": false,
+        "source_sec": 4.0483666666666664
+      },
+      {
+        "frame": 603,
+        "sec": 25.1068,
+        "bar": 11,
+        "beat": 3,
+        "downbeat": false,
+        "source_sec": 4.773466666666668
+      },
+      {
+        "frame": 620,
+        "sec": 25.823,
+        "bar": 11,
+        "beat": 4,
+        "downbeat": false,
+        "source_sec": 5.489666666666668
+      },
+      {
+        "frame": 637,
+        "sec": 26.5389,
+        "bar": 12,
+        "beat": 1,
+        "downbeat": true,
+        "source_sec": 6.20556666666667
+      },
+      {
+        "frame": 654,
+        "sec": 27.2585,
+        "bar": 12,
+        "beat": 2,
+        "downbeat": false,
+        "source_sec": 6.925166666666669
+      },
+      {
+        "frame": 671,
+        "sec": 27.9708,
+        "bar": 12,
+        "beat": 3,
+        "downbeat": false,
+        "source_sec": 7.637466666666668
+      }
+    ],
+    "note": "Broad movement direction, not a guarantee of precise generated motion sync."
+  },
+  "coverage_guard": "Minimum picture coverage through source182/24=7.583333s. Measure actual returned timestamps; never stretch or freeze to hide shortfall. Full requested 8s is not guaranteed by Kling.",
+  "assembly_caveat": "Old production s005/s006/s007 boundaries are superseded ONLY in the proposed review. Codex must reconcile shotlist AND cues in the isolated preview. No production modifications by Claude.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T04:06:00Z",
+    "receipt": "out/pieces_performance_v1/RECEIPT.md",
+    "base": {
+      "file": "out/pieces_performance_v1/base.mp4",
+      "sha256": "434FA54AF26FE808ED355833540CA895B30BB0EE02002F65B71F4B377A58A86C",
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "flow_media_id": "f912fbd2-467a-4780-94fd-5355d8ef6679",
+      "flow_submitted_utc": "2026-09-06T03:54:09Z",
+      "credits": 100,
+      "end_frame_used": false,
+      "first_frame_diff_vs_still": 0.9,
+      "watermark": "none"
+    },
+    "synced": {
+      "file": "out/pieces_performance_v1/synced.mp4",
+      "sha256": "020381A7D4CBA87F9D9295F7DBDB6EAB3469584B950C77488E2841E56764C48B",
+      "fps": 30,
+      "frames": 239,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "kling_task": "3048",
+      "kling_submitted_utc": "2026-09-06T03:59:36Z",
+      "credits": 10,
+      "guide_lag_seconds": 0.0,
+      "sound_from_video": false,
+      "watermark": "none visible; plan no-watermark switch already on"
+    },
+    "base_verdict": "suitable: identity/backdrop stable, real lead-in, singing 1.0-3.2 and 3.8-4.9 s (phrase 1) and 5.25-6.75 s (phrase 2), one 0.5 s closed-lip moment 3.3-3.8 s, gaze drops ~3.8-4.5 s and from ~6.9 s",
+    "coverage_gaps_seconds": [
+      [
+        3.3,
+        3.8
+      ]
+    ],
+    "required_picture_end_seconds": 7.583333,
+    "returned_video_seconds": 7.966667,
+    "sheets": [
+      "base_contact_every6.jpg",
+      "base_mouth_1.0-4.9s_every4.jpg",
+      "base_mouth_5.25-7.4s_every3.jpg",
+      "synced_contact.jpg"
+    ],
+    "not_done": [
+      "no retries",
+      "no specimen generation",
+      "no assembly",
+      "no cue/shotlist edits",
+      "no commit",
+      "no owner approval or production adoption claimed"
+    ]
+  }
+}

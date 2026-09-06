@@ -7,6 +7,34 @@ this coverage discussion.
 
 ## Production unit: a continuous take
 
+### Adopted transition policy: exit handles by default
+
+Owner decision: preserve normal shot entrances and their existing song-time
+alignment. Do not add incoming pre-roll by default or shift existing clips,
+lip-sync passes, or effect mappings. Prefer straight entrances; use surplus
+outgoing footage for optional dissolves/overlaps when it is actually usable.
+
+Rounding generation duration upward provides potential exit footage, not a
+guarantee of usable handles. For each take, record its song-time origin, source
+fps/frame count, each cut's source in/out frames (out exclusive), and inspected
+usable exit frames. Also record how far lip sync and audio-driven effects
+remain valid; footage beyond that coverage is not automatically sync-ready.
+Keep the planned editorial frame boundaries unchanged in `shots/shotlist.json`.
+
+For a dissolve starting at a cut, the outgoing take advances beyond its planned
+out-point while the incoming take starts at its normal mapped source in-point.
+Both must represent the same advancing song time. With no valid exit handle,
+use a straight cut. Never loop/freeze/reset audio-driven motion to invent one.
+Continuous takes returning after a cutaway retain their original song-time
+origin and nonzero source in-points. Existing mappings remain authoritative.
+
+This is a forward-looking recording/review policy, not a retrospective shift
+or instruction to regenerate Claude's existing clips. New procedural still
+composites may be rendered longer for exit handles when assembled, but short
+look tests must explicitly report whether handles were actually rendered.
+
+### Continuous performance
+
 Generate enough continuous performance to cover an exchange, including the
 time when that performer is off screen. Cut between independently running
 views. On returning to a view, advance to the source moment corresponding to

@@ -1,5 +1,8 @@
 {
- "_comment": "Outro continuous-coverage takes generated 2026-09-05 per docs/CONTINUOUS_COVERAGE_PLAN.md. Song frames are 0-based 24 fps. Base takes are Flow Veo 3.1 Quality Frames-to-Video, 192 frames; synced takes are Kling lip sync on a per-speaker gated 8 s guide, returned at 30 fps/239 frames and normalized to 24 fps/192 frames as *_kling24.mp4. Media is local-only under clips/outro/. The proposed 17-row cut is rendered in out/outro_preview_sync.mp4; it is NOT yet promoted into shots/plan.json / shotlist.json.",
+ "_comment": "Outro continuous-coverage takes generated 2026-09-05 per docs/CONTINUOUS_COVERAGE_PLAN.md. Song frames are 0-based 24 fps. Base takes are Flow Veo 3.1 Quality Frames-to-Video, 192 frames; synced takes are Kling lip sync on a per-speaker gated 8 s guide, returned at 30 fps/239 frames and normalized to 24 fps/192 frames as *_kling24.mp4. Media is local-only under clips/outro/. The 17-row cut was previewed in out/outro_preview_sync.mp4 and is now promoted via plan editorial_range_files into shotlist.json. The new o01 tunnel FX is separately re-rendered for this song position.",
+ "replace_through_end": true,
+ "section": "low-light-outro",
+ "assembly_status": "Promoted by plan editorial_range_files for the rough assembly; preserve take song origins.",
  "takes": {
   "A1": {
    "song_start_frame": 4165,

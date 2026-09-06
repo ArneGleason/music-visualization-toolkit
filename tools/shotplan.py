@@ -146,7 +146,7 @@ def main():
                 "transition": {"type": "cut", "dur_sec": 0.0},
             }
             if a.merge and sid in prev:
-                for k in ("description", "prompt", "still", "clip", "transition", "setup", "type"):
+                for k in ("description", "prompt", "still", "clip", "transition", "setup", "type", "conventions"):
                     if prev[sid].get(k):
                         shot[k] = prev[sid][k]
             # A small number of picture-edit decisions intentionally depart
@@ -196,8 +196,49 @@ def main():
         editorial = plan.get("editorial_shot_overrides", {}).get(shot["id"], {})
         if "lyric" in editorial:
             shot["lyric"] = editorial["lyric"]
-        if "clip" in editorial:
+        if "clip" in editorial and (editorial["clip"].get("file") or not shot["clip"].get("file")
+                or prev.get(shot["id"], {}).get("setup") != shot["setup"]):
             shot["clip"] = editorial["clip"]
+
+    # Frame-authored replacement ranges survive --merge without renumbering
+    # unrelated shots. Media stays sourced from the handoff, timing from this EDL.
+    for relative in plan.get("editorial_range_files", []):
+        coverage = load(ROOT / relative)
+        rows = coverage["cut"]
+        first, last = rows[0]["start"], rows[-1]["end"]
+        assert all(a["end"] == b["start"] for a, b in zip(rows, rows[1:]))
+        originals = {s["id"]: s for s in shots}
+        retained = []
+        for shot in shots:
+            start, end = round(shot["start_sec"]*fps), round(shot["end_sec"]*fps)
+            if end <= first or start >= last:
+                retained.append(shot)
+            elif start < first:
+                shot["end_sec"] = first/fps
+                retained.append(shot)
+            elif end > last and not coverage.get("replace_through_end", False):
+                raise ValueError("Replacement must end at a shot boundary")
+        if coverage.get("replace_through_end", False):
+            retained = [s for s in retained if round(s["start_sec"]*fps) < first]
+        for row in rows:
+            template = prev.get(row["id"]) or originals.get(row["id"]) or next(
+                (s for s in shots if s["setup"] == row["setup"]), {})
+            shot = dict(template)
+            shot.update(id=row["id"], setup=row["setup"],
+                        section=coverage.get("section", "editorial"),
+                        start_sec=row["start"]/fps, end_sec=row["end"]/fps,
+                        clip=dict(row["clip"]), lyric=row.get("lyric", ""),
+                        transition={"type":"cut", "dur_sec":0.0})
+            retained.append(shot)
+        shots = sorted(retained, key=lambda s:s["start_sec"])
+    for shot in shots:
+        # Rounded boundaries, not separately rounded durations, are authoritative.
+        shot["frames"] = round(shot["end_sec"]*fps)-round(shot["start_sec"]*fps)
+        shot["dur_sec"] = round(shot["frames"]/fps, 6)
+        shot["start_barbeat"] = bm.nearest_barbeat(shot["start_sec"])
+    assert len({s["id"] for s in shots}) == len(shots)
+    assert all(round(a["end_sec"]*fps) == round(b["start_sec"]*fps)
+               for a,b in zip(shots,shots[1:])), "Editorial ranges leave a gap/overlap"
 
     save(out_path, {"fps": fps, "duration_sec": bm.duration,
                     "max_shot_sec": max_sec, "shots": shots})

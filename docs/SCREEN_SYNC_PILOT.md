@@ -5,6 +5,165 @@ weighting, and amber/cyan. Latest revision fixes amber's axis and gives cyan
 larger deflection, broader axis motion, and energy-spreading defocus.
 Test one element; expand only after reviewing what it teaches us.
 
+## Imperfect rail push-in — latest review
+
+Owner liked the scope push-in but requested less perfect digital camera motion.
+Latest new-only preview: **`out/screen_sync_scope_rail/dual.mp4`**. Reproduce with
+`-b -t 4 -P tools/screen_sync_phosphor.py -- --profile rosette --guitar --guitar-gain 0.30 --push-in --rail`.
+Optional comparison pairs the clean push-in with this rail version, twice.
+
+Keep the approved framing trajectory, 30% guitar, amplitudes, brightness build,
+phosphor and noise. Add continuous nonmatching-frequency lateral/vertical sway,
+tiny roll and small zoom-speed irregularity, gently introduced at the start.
+Maximum displacement bounds at 1280-wide delivery: 3.2 px horizontally and
+2.24 px vertically; roll <= .155 degrees; scale variation <= .23%. No random
+frame jumps or artificial motion blur. The entire camera moves, keeping the
+display, waveform, glass and rim registered together. No invented parallax.
+This is a deliberately restrained rail imperfection, not handheld motion.
+Review pending; clean push-in remains available, full animatic unchanged.
+
+## Scope-focused push-in — approved direction
+
+Owner requested a camera move that gives the scope more presence, potentially
+using this procedural still composite in preference to generated footage.
+Run Blender with `-b -t 4 -P tools/screen_sync_phosphor.py -- --profile rosette --guitar --guitar-gain 0.30 --push-in`.
+New-only preview: **`out/screen_sync_scope_pushin/dual.mp4`**. Comparison pairs
+the previous 30% guitar framing with this move. Prior outputs remain intact.
+
+- Ease from the previous wide start into a display-centred close-up: view width
+  1517.8 to 610 plate pixels, targeted at display centre (780,314). The final
+  framing crops the top/bottom of the circular rim and excludes the landscape;
+  brass edges retain some physical context. Smoothstep/exponential zoom.
+- Increase procedural phosphor texture to 1024 square for close-up sampling;
+  keep 2560x1440 render/downsample to 1280x720. Scale cyan defocus with texture
+  resolution to preserve its intentional softness. The photographic plate
+  does not gain detail; the regenerated trace is the focal point.
+- Gradually lift existing bright amber cores by up to 20%, without adding a
+  second wide bloom; cyan rises 20% before display tone compression while
+  retaining defocus. This is not a promise of 20% final encoded pixel brightness.
+- Keep amplitudes, 30% guitar blend, music timing, persistence and pickup
+  behaviour unchanged. Review camera punch before raising amplitude further.
+- Same 69-frame look test [86,155), no exit handles rendered yet and no full
+  timeline substitution. Production exit-handle policy is recorded in
+  `docs/CONTINUOUS_COVERAGE_PLAN.md`.
+
+Potential future use: selective still-based screen inserts or receiver displays
+where authored motion and music synchronization work better than generated
+movement. Not a blanket replacement plan; evaluate one different shot next.
+
+## Guitar at 30% — previous review
+
+Owner liked the 15% blend and requested 30%. Only the normalized guitar
+deflection gain changes: .15 to .30. Bass, cyan, filters, normalization, noise,
+lens, persistence, timing, and soundtrack stay unchanged.
+Run Blender with `-b -t 4 -P tools/screen_sync_phosphor.py -- --profile rosette --guitar --guitar-gain 0.30`.
+New-only preview: **`out/screen_sync_guitar_blend_30pct/dual.mp4`**, labelled
+30% guitar. Optional comparison plays 15% then 30%, twice. Previous previews
+remain intact. Review pending; full animatic unchanged.
+
+## Subtle guitar in amber — initial 15% test
+
+Owner requested representation of the audible guitar without adding another
+pattern, and approved testing a 15% guitar blend in amber. Cyan stays bass-only;
+neither current trace is drum-driven. Preserve the analog 2 noise, lens,
+persistence, and brightness sweep. This test does not alter the soundtrack.
+
+Run Blender with `-b -t 4 -P tools/screen_sync_phosphor.py -- --profile rosette --guitar`.
+New-only review: **`out/screen_sync_guitar_blend/dual.mp4`**, labelled GUITAR BLEND.
+Optional comparison uses analog 2 then guitar blend twice. All earlier previews
+remain intact; no update to the full animatic yet.
+
+- Restored Guitar stem, saved guitar offset 0.178348 seconds, filtered 90–900 Hz
+  for finer ripples without retaining the highest-frequency fuzz.
+- Fixed absolute 98.5th-percentile normalization over the same excerpt; no
+  per-frame gain changes. Guitar gets the same soft compression as bass and
+  0.15 relative deflection gain, added after the separate compression stages.
+- Guitar samples follow the bass-triggered window at matching song time, not
+  a separate guitar trigger. Amber still uses the combined curve's slope for
+  beam dwell/width, so fine ripples can also subtly affect its light texture.
+- Cyan receives exactly the same bass source and processing as analog 2.
+- Review pending: judge whether guitar is perceptible but subordinate; 15%
+  means normalized input-deflection gain, not a guaranteed pixel-height ratio
+  at every instant or a change to audio mixing.
+
+## Analog 2: wandering pickup and soft crackle
+
+Owner approved the analog refinement, requesting a slightly louder, more
+modulating visual noise floor plus imagined low pops/crackles. Render with
+`-b -t 4 -P tools/screen_sync_phosphor.py -- --profile rosette --crackle`.
+New-only review: **`out/screen_sync_rosette_analog2/dual.mp4`**, labelled
+ROSETTE ANALOG 2. Previous analog render is preserved; optional comparison
+plays analog 1 then analog 2 twice. No change to full animatic or soundtrack.
+
+The base pickup is multiplied by a smoothly wandering envelope centred on
+1.55x, with two nonmatching modulation rates. Five soft bipolar disturbances
+at excerpt seconds .19, .64, 1.09, 1.73, 2.38 create localized kinks rather than
+whole-screen brightness flashes. Temporal widths 35–60 ms are integrated by
+the existing eight-sample exposure and phosphor reservoirs. These are a
+deterministic art-directed noise test, not detected recording defects. Preserve
+the approved lens mapping, beam sweep, cyan softness, and music drivers.
+Review pending; keep changes subtle enough that musical deflection dominates.
+
+## Analog rosette refinement — approved
+
+Owner approved the circular rosette in motion. Latest requested refinement keeps
+that geometry, increases centre magnification, and adds subtle pickup noise plus
+a gently travelling beam head/tail, avoiding hard strobing.
+
+Run Blender with `-b -t 4 -P tools/screen_sync_phosphor.py -- --profile rosette --analog`.
+Show **`out/screen_sync_rosette_analog/dual.mp4` first**: new treatment only,
+labelled ROSETTE ANALOG. The previous comparison handoff confused the owner
+because it began with an older treatment. Optional `comparison.mp4` compares
+the approved rosette with this refinement, twice. Full animatic remains unchanged.
+
+- Amber centre deflection gain increases from 1.20 to 1.55, retaining unity
+  gain at the horizontal edges. Cyan uses a monotonic radial lens mapping
+  `r * (1 + .45*(1-r/254)^2)`: strongest magnification near centre, unity at rim.
+- Continuous seeded-by-formula multi-frequency pickup perturbs the traces even
+  in silence; maximum displacement bounds .85 px amber and 1.1 px cyan in
+  plate coordinates. This is synthetic visual noise, not changed soundtrack.
+- Travelling head/tail weights stay in [0.95,1.00], including bloom. Smooth wrap
+  avoids a hard reset; drift rates .31 sweeps/sec amber and .23 cyan. This is a
+  deliberately slow camera-beat impression, not literal simulation of a tube's
+  scan rate or uncontrolled aliasing against 24 fps.
+- Eight temporal exposure samples are averaged for each 24 fps frame, alongside
+  existing phosphor persistence and cyan defocus. Static glass dirt remains.
+- Review pending. Previous rosette and depth clips are preserved separately.
+
+## Circular cyan rosette — approved shape
+
+Owner likes the softer cyan depth treatment, but requested a circular scan:
+keep amber horizontal and let cyan expand from a small central circle into a
+waveform-shaped rosette. This replaces cyan's linear axis wobble for this test.
+The previous cyan driver was the **25–240 Hz drum-body stem**, not the bass or
+full mix; its transient content can leave small deflections between hits.
+
+Run Blender with `-b -t 4 -P tools/screen_sync_phosphor.py -- --profile rosette`.
+Local review: `out/screen_sync_rosette/comparison.mp4` (previous depth treatment
+then rosette, repeated twice); standalone `out/screen_sync_rosette/dual.mp4`.
+Same song frames [86,155), 24 fps, original master audio. No shot edit changes.
+
+- Cyan now uses the same filtered bass as amber, with the existing fixed
+  excerpt normalization (no per-frame gain pumping).
+- Autocorrelation estimates a bass period within 45–200 samples at 8 kHz;
+  smoothed period changes and a nearby rising crossing stabilize the shape.
+  This is approximate pitch locking, not a verified fundamental transcription.
+- Average three neighboring periods, rectify both polarities, and wrap three
+  cycles around the circle. A simple sine yields roughly six outward petals;
+  actual bass timbre supplies additional shape. Drift is -0.10 radians/second.
+- Radius = 42 + 153*tanh(1.65*abs(folded normalized waveform)), in screen-space
+  pixels. Quiet audio contracts toward the small base ring, louder audio expands.
+- Retain speed-dependent beam weight/bloom, 30/160 ms phosphor reservoirs,
+  normalized 7.5 texture-pixel Gaussian cyan defocus, dirt, and edge calibration.
+  Amber retains the depth version's fixed axis and amplitude treatment.
+- This is an artistic radial waveform display: full curves are deposited at
+  192 Hz; it does not simulate a single visible dot completing each sweep.
+
+Review the changing silhouette and persistence in motion. Both channels now
+share bass deliberately to test the geometry; independent drivers can follow
+after the shape is approved. Prior renders remain intact. Owner approved this
+shape after viewing the rosette-only clip; analog refinement is the next test.
+
 ## Fixed amber and defocused cyan
 
 Latest owner direction combines two messages: keep amber fixed and modestly

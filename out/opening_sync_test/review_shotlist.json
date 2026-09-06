@@ -1,0 +1,2067 @@
+{
+  "fps": 24,
+  "duration_sec": 199.25,
+  "max_shot_sec": 8.0,
+  "shots": [
+    {
+      "id": "s001",
+      "section": "scene-01",
+      "type": "concept",
+      "setup": "obs_dome_open",
+      "start_barbeat": "2.4",
+      "start_sec": 0.0,
+      "end_sec": 3.6011,
+      "dur_sec": 3.583333,
+      "frames": 86,
+      "lyric": "",
+      "description": "Observatory dome opens",
+      "prompt": "Night. Symmetrical frontal wide of a hillside observatory: the dome slit stands open and a blade of warm gold light escapes it; one bright red point - Mars - sits dead center above the dome. No people. The slit rumbles wider as the camera pushes slowly toward it until the glow fills the frame.",
+      "clip": {
+        "file": "clips\\raw\\obs_dome_open_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Symmetrical frontal wide of a hillside observatory: the dome slit stands open and a blade of warm gold light escapes it; one bright red point - Mars - sits dead center above the dome. No people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "FRAME-CENTRIPETAL",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "s002",
+      "section": "scene-01",
+      "type": "concept",
+      "setup": "obs_console_macro",
+      "start_barbeat": "4.1",
+      "start_sec": 3.6011,
+      "end_sec": 6.4758,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "",
+      "description": "Console and oscilloscope",
+      "prompt": "Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, glowing valves, and a round oscilloscope tube drawing a warm gold waveform, centered. No people. The waveform pulses like a voice; slow lateral drift ending centered on the scope screen.",
+      "clip": {
+        "file": "clips\\raw\\obs_console_macro_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, glowing valves, and a round oscilloscope tube drawing a warm gold waveform, centered. No people.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "FRAME-CENTRIFUGAL",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "s003",
+      "section": "signal-exchange",
+      "type": "performance",
+      "setup": "astronomer_desk_sync",
+      "start_barbeat": "5.1",
+      "start_sec": 6.4758,
+      "end_sec": 12.2055,
+      "dur_sec": 5.75,
+      "frames": 138,
+      "lyric": "Hey, I need you for something. / It's important.",
+      "description": "Astronomer sings at desk",
+      "prompt": "Medium frontal shot, perfectly centered: {{astronomer}} at a desk laid with specimen trays, translucent organic fragments and spectrogram strips, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Locked off.",
+      "clip": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_531edcd603077d548d53.mp4",
+        "in_sec": 0.5,
+        "speed": 1,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\opening_sync_test\\synced.mp4"
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Medium frontal shot, perfectly centered: {{astronomer}} at a desk laid with specimen trays, translucent organic fragments and spectrogram strips, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-HYSTERETIC-PRESENCE",
+        "FRAME-SCALE-BILLING"
+      ]
+    },
+    {
+      "id": "s004",
+      "section": "signal-exchange",
+      "type": "concept",
+      "setup": "canal_map_macro",
+      "start_barbeat": "7.1",
+      "start_sec": 12.2055,
+      "end_sec": 17.9243,
+      "dur_sec": 5.708333,
+      "frames": 137,
+      "lyric": "More than that sounds.",
+      "description": "Specimen pieces",
+      "prompt": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people. The hands slide the fragments together; the helices almost meet, then miss by a hair, again and again. Slow overhead push-in.",
+      "clip": {
+        "file": "clips\\raw\\canal_map_macro_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-RESPONSE-CHAIN",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "s005",
+      "section": "scene-03",
+      "type": "performance",
+      "setup": "astronomer_close_sync",
+      "start_barbeat": "9.1",
+      "start_sec": 17.9243,
+      "end_sec": 20.789,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "",
+      "description": "Astronomer close-up",
+      "prompt": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope. She sings with confident punch, words clearly articulated, head steady. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\astronomer_close_sync_s005_kling.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-EXAGGERATED-ENUNCIATION",
+        "ANIM-MOVING-HOLD"
+      ]
+    },
+    {
+      "id": "s006",
+      "section": "scene-03",
+      "type": "concept",
+      "setup": "canal_map_macro",
+      "start_barbeat": "10.1",
+      "start_sec": 20.789,
+      "end_sec": 23.6664,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "I've got pieces.",
+      "description": "Specimen pieces",
+      "prompt": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people. The hands slide the fragments together; the helices almost meet, then miss by a hair, again and again. Slow overhead push-in.",
+      "clip": {
+        "file": "clips\\raw\\canal_map_macro_v6.mp4",
+        "in_sec": 2.5,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-RESPONSE-CHAIN",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "s007",
+      "section": "scene-03",
+      "type": "performance",
+      "setup": "astronomer_close_sync",
+      "start_barbeat": "11.1",
+      "start_sec": 23.6664,
+      "end_sec": 26.5389,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "Things that almost fit.",
+      "description": "Astronomer close-up",
+      "prompt": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope. She sings with confident punch, words clearly articulated, head steady. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\astronomer_close_sync_s007_kling.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-EXAGGERATED-ENUNCIATION",
+        "ANIM-MOVING-HOLD"
+      ]
+    },
+    {
+      "id": "s008",
+      "section": "scene-03",
+      "type": "concept",
+      "setup": "canal_map_macro",
+      "start_barbeat": "12.1",
+      "start_sec": 26.5389,
+      "end_sec": 29.4118,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "Then they don't quite match.",
+      "description": "Specimen pieces",
+      "prompt": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people. The hands slide the fragments together; the helices almost meet, then miss by a hair, again and again. Slow overhead push-in.",
+      "clip": {
+        "file": "clips\\raw\\canal_map_macro_v6.mp4",
+        "in_sec": 5.1,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-RESPONSE-CHAIN",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "s009",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "signal_crossing_space",
+      "start_barbeat": "13.1",
+      "start_sec": 29.4118,
+      "end_sec": 32.265,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "Can I send you my stuff?",
+      "description": "Signal crosses space",
+      "prompt": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people. The pulse travels across frame and arrives over the limb of the planet. Slow lateral drift following the light.",
+      "clip": {
+        "file": "clips\\raw\\signal_crossing_space_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "DEPTH-RELATIVE-SCALE",
+        "FRAME-CENTRIFUGAL"
+      ]
+    },
+    {
+      "id": "s010",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "receiver_dial_macro",
+      "start_barbeat": "14.1",
+      "start_sec": 32.265,
+      "end_sec": 35.1423,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "Tell me what you got.",
+      "description": "Receiver dials tremble",
+      "prompt": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people. The needle trembles and the static flickers. Locked off with the slightest push.",
+      "clip": {
+        "file": "clips\\raw\\receiver_dial_macro_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "s011",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "signal_crossing_space",
+      "start_barbeat": "15.1",
+      "start_sec": 35.1423,
+      "end_sec": 37.9796,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "Right?",
+      "description": "Signal crosses space",
+      "prompt": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people. The pulse travels across frame and arrives over the limb of the planet. Slow lateral drift following the light.",
+      "clip": {
+        "file": "clips\\raw\\signal_crossing_space_v6.mp4",
+        "in_sec": 2.9,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "DEPTH-RELATIVE-SCALE",
+        "FRAME-CENTRIFUGAL"
+      ]
+    },
+    {
+      "id": "s012",
+      "section": "scene-05",
+      "type": "performance",
+      "setup": "astronaut_close_sync",
+      "start_barbeat": "16.1",
+      "start_sec": 37.9796,
+      "end_sec": 43.6382,
+      "dur_sec": 5.625,
+      "frames": 135,
+      "lyric": "I don't see anything. / Think you forgot to attach it. / If you've got it, give it.",
+      "description": "Astronaut close-up",
+      "prompt": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\astronaut_close_sync_s012_kling.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-HYSTERETIC-PRESENCE",
+        "PERF-EXAGGERATED-ENUNCIATION"
+      ]
+    },
+    {
+      "id": "s013",
+      "section": "scene-05",
+      "type": "concept",
+      "setup": "mars_night_wide",
+      "start_barbeat": "18.1",
+      "start_sec": 43.6382,
+      "end_sec": 49.3328,
+      "dur_sec": 5.708333,
+      "frames": 137,
+      "lyric": "Don't clean it up first. / I'll work on it now.",
+      "description": "Waiting on Mars, wide",
+      "prompt": "Night. Symmetrical wide: {{astronaut}} in {{suit}} stands small at dead center beside a glowing receiver mast, coral terrain silvered by two small moons and the striped planet, the colony domes dark on the horizon and the river a dark ribbon below. No one else in frame. Nothing moves but her breath and the mast's slow blink. Very slow push toward her.",
+      "clip": {
+        "file": "clips\\raw\\mars_night_wide_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Symmetrical wide: {{astronaut}} in {{suit}} stands small at dead center beside a glowing receiver mast, coral terrain silvered by two small moons and the striped planet, the colony domes dark on the horizon and the river a dark ribbon below. No one else in frame.",
+      "conventions": [
+        "CAM-APPROACH",
+        "FRAME-NEGATIVE-WAKE",
+        "ANIM-MOVING-HOLD"
+      ]
+    },
+    {
+      "id": "s014",
+      "section": "scene-05",
+      "type": "performance",
+      "setup": "astronaut_close_sync",
+      "start_barbeat": "20.1",
+      "start_sec": 49.3328,
+      "end_sec": 52.2028,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "We'll see what's your deal.",
+      "description": "Astronaut close-up",
+      "prompt": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\astronaut_close_sync_s014_kling.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-HYSTERETIC-PRESENCE",
+        "PERF-EXAGGERATED-ENUNCIATION"
+      ]
+    },
+    {
+      "id": "s015",
+      "section": "scene-06",
+      "type": "concept",
+      "setup": "interference_bloom",
+      "start_barbeat": "21.1",
+      "start_sec": 52.2028,
+      "end_sec": 55.0576,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "In the garden, meanwhile\u00e2\u20ac\u201d",
+      "description": "Interference blooms",
+      "prompt": "Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, helix-like pattern, the screen's green-gold glow spreading to the frame edges. No people. The rings resolve into leaves and the glow spreads until it fills the frame.",
+      "clip": {
+        "file": "clips\\raw\\interference_bloom_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Macro of the receiver's round cathode screen: static blooming into concentric interference rings that resolve toward a green, helix-like pattern, the screen's green-gold glow spreading to the frame edges. No people.",
+      "conventions": [
+        "FRAME-CENTRIPETAL",
+        "GROW-PROPAGATION-WAVE",
+        "SONIC-PHRASE-COLOR"
+      ]
+    },
+    {
+      "id": "s016",
+      "section": "scene-06",
+      "type": "concept",
+      "setup": "forest_threshold",
+      "start_barbeat": "22.1",
+      "start_sec": 55.0576,
+      "end_sec": 57.9397,
+      "dur_sec": 2.916667,
+      "frames": 70,
+      "lyric": "",
+      "description": "Garden hatch opens",
+      "prompt": "One-point symmetrical corridor: a riveted brass garden hatch centered at the end of a metal walkway, standing open onto the river forest - giant fern-fans, cupped leaves, pink thistle-globes - with green and magenta light spilling toward camera. No people. Slow push through the hatch into the glow.",
+      "clip": {
+        "file": "clips\\raw\\forest_threshold_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "One-point symmetrical corridor: a riveted brass garden hatch centered at the end of a metal walkway, standing open onto the river forest - giant fern-fans, cupped leaves, pink thistle-globes - with green and magenta light spilling toward camera. No people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "FRAME-CENTRIPETAL",
+        "DEPTH-SCALE-VELOCITY"
+      ]
+    },
+    {
+      "id": "s017",
+      "section": "psychedelic-garden",
+      "type": "concept",
+      "setup": "forest_walk_track",
+      "start_barbeat": "23.1",
+      "start_sec": 57.9397,
+      "end_sec": 60.775,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "The-the-the-the-the / There's a little green light moving",
+      "description": "Forest walk, following the green light",
+      "prompt": "Side-on planimetric view: {{astronaut}} in {{suit_field}} walks left to right along a mossy path through the river forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan. No one else in frame. She follows the green light; slow 90-degree lateral track keeping her centered as the foliage layers slide past in deep parallax.",
+      "clip": {
+        "file": "clips\\raw\\forest_walk_track_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Side-on planimetric view: {{astronaut}} in {{suit_field}} walks left to right along a mossy path through the river forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan. No one else in frame.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "ANIM-MULTIPLANE",
+        "DEPTH-MOTION-PARALLAX"
+      ]
+    },
+    {
+      "id": "s018",
+      "section": "psychedelic-garden",
+      "type": "concept",
+      "setup": "forest_fauna_moth",
+      "start_barbeat": "24.1",
+      "start_sec": 60.775,
+      "end_sec": 63.6144,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "through the psychedelic garden.",
+      "description": "Lantern-moth on a thistle-globe",
+      "prompt": "Macro in the river forest: a moth the size of a dinner plate resting on a pink thistle-globe, its four glassy wings lit from within like paper lanterns, antennae like brass filigree, fine fur on its body; foliage soft behind. Hand-built practical creature. No people. The wings open and close once, slowly, their inner light pulsing on the beat; antennae quiver. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\forest_fauna_moth_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Macro in the river forest: a moth the size of a dinner plate resting on a pink thistle-globe, its four glassy wings lit from within like paper lanterns, antennae like brass filigree, fine fur on its body; foliage soft behind. Hand-built practical creature. No people.",
+      "conventions": [
+        "FRAME-SCALE-BILLING",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "s019",
+      "section": "psychedelic-garden",
+      "type": "concept",
+      "setup": "forest_fauna_eyes",
+      "start_barbeat": "25.1",
+      "start_sec": 63.6144,
+      "end_sec": 66.4449,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "Something with no name is waking",
+      "description": "Eyes in the foliage",
+      "prompt": "Night-dark corner of the river forest: several pairs of large round lantern-eyes at different depths and sizes among the giant leaves, each pair a different color, the creatures themselves only suggested by silhouette; the small green light passing between them. No people. The eyes blink at different times, one pair per beat, and turn to follow the green light as it passes. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\forest_fauna_eyes_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night-dark corner of the river forest: several pairs of large round lantern-eyes at different depths and sizes among the giant leaves, each pair a different color, the creatures themselves only suggested by silhouette; the small green light passing between them. No people.",
+      "conventions": [
+        "FRAME-NEGATIVE-WAKE",
+        "DEPTH-RELATIVE-SCALE",
+        "ANIM-CYCLE-VARIATION"
+      ]
+    },
+    {
+      "id": "s020",
+      "section": "psychedelic-garden",
+      "type": "concept",
+      "setup": "forest_walk_track",
+      "start_barbeat": "26.1",
+      "start_sec": 66.4449,
+      "end_sec": 69.2757,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "in the psychedelic garden.",
+      "description": "Forest walk, following the green light",
+      "prompt": "Side-on planimetric view: {{astronaut}} in {{suit_field}} walks left to right along a mossy path through the river forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan. No one else in frame. She follows the green light; slow 90-degree lateral track keeping her centered as the foliage layers slide past in deep parallax.",
+      "clip": {
+        "file": "clips\\raw\\forest_walk_track_v6.mp4",
+        "in_sec": 2.9,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Side-on planimetric view: {{astronaut}} in {{suit_field}} walks left to right along a mossy path through the river forest - towering fern-fans, giant cupped leaves, pink thistle-globes on tall stalks, hanging seed-lanterns, mist, layer after layer of foliage - while a small green light floats ahead of her at shoulder height. The canopy closes overhead; the light is green and magenta. She is centered, unhurried and deadpan. No one else in frame.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "ANIM-MULTIPLANE",
+        "DEPTH-MOTION-PARALLAX"
+      ]
+    },
+    {
+      "id": "s021",
+      "section": "psychedelic-garden",
+      "type": "concept",
+      "setup": "forest_fauna_birds",
+      "start_barbeat": "27.1",
+      "start_sec": 69.2757,
+      "end_sec": 72.1189,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "And whatever woke is waiting",
+      "description": "Chrome hummingbird-things at the seed-lanterns",
+      "prompt": "Medium in the river forest canopy: a small flock of chrome hummingbird-things, each no bigger than a thumb with a needle beak and a fan of glass tail feathers, hovering at a cluster of hanging seed-lanterns, layered in depth. Hand-built practical creatures. No people. They dart from lantern to lantern on the drum hits, each on its own arc, never in unison, near ones crossing the lens. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\forest_fauna_birds_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Medium in the river forest canopy: a small flock of chrome hummingbird-things, each no bigger than a thumb with a needle beak and a fan of glass tail feathers, hovering at a cluster of hanging seed-lanterns, layered in depth. Hand-built practical creatures. No people.",
+      "conventions": [
+        "FRAME-PERIPHERAL-COUNTERPOINT",
+        "ANIM-CYCLE-VARIATION",
+        "DEPTH-MOTION-PARALLAX"
+      ]
+    },
+    {
+      "id": "s022",
+      "section": "psychedelic-garden",
+      "type": "concept",
+      "setup": "forest_awakening_frontal",
+      "start_barbeat": "28.1",
+      "start_sec": 72.1189,
+      "end_sec": 74.9554,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "for the song to begin.",
+      "description": "Forest wakes to drums",
+      "prompt": "Frontal symmetrical wide: {{astronaut}} in {{suit_field}} stands dead center on the forest path, small under the canopy, as the whole forest lights up around her - cupped leaves snapping open, thistle-globes glowing pink row by row, seed-lanterns lit, spore puffs rising - a blazing symmetrical mandala of foliage. She holds still and deadpan. No one else in frame. The forest wakes in waves on the drum hits, row by row from the edges to the center. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\forest_awakening_frontal_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Frontal symmetrical wide: {{astronaut}} in {{suit_field}} stands dead center on the forest path, small under the canopy, as the whole forest lights up around her - cupped leaves snapping open, thistle-globes glowing pink row by row, seed-lanterns lit, spore puffs rising - a blazing symmetrical mandala of foliage. She holds still and deadpan. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "GROW-PROPAGATION-WAVE",
+        "GROW-ENVIRONMENT-ANSWER"
+      ]
+    },
+    {
+      "id": "s023",
+      "section": "pattern-aperture",
+      "type": "concept",
+      "setup": "specimen_table_macro",
+      "start_barbeat": "29.1",
+      "start_sec": 74.9554,
+      "end_sec": 80.6268,
+      "dur_sec": 5.666667,
+      "frames": 136,
+      "lyric": "Okay, there. / You've got it. / That should be enough.",
+      "description": "Specimen table mandala",
+      "prompt": "Top-down overhead of a white enamel specimen table: silver-gloved hands arranging fragments of an alien specimen - translucent organic shards with helical structure inside, spiked seed pods, a chrome scale - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people. The hands try the wrong piece in every position. Slow overhead push.",
+      "clip": {
+        "file": "clips\\raw\\specimen_table_macro_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Top-down overhead of a white enamel specimen table: silver-gloved hands arranging fragments of an alien specimen - translucent organic shards with helical structure inside, spiked seed pods, a chrome scale - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-RESPONSE-CHAIN",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "s024",
+      "section": "pattern-aperture",
+      "type": "performance",
+      "setup": "astronaut_inspect_medium",
+      "start_barbeat": "31.1",
+      "start_sec": 80.6268,
+      "end_sec": 86.3125,
+      "dur_sec": 5.708333,
+      "frames": 137,
+      "lyric": "Just look and tell me. / Do you see a pattern? / I'm sure it's there.",
+      "description": "Astronaut inspects specimen",
+      "prompt": "Waist-up medium of {{astronaut}} in {{suit}} at an enamel field table at the forest's edge, holding a strange translucent organic specimen up to the light, a helical structure glowing faintly inside it in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame. She turns the specimen slowly in the light. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\astronaut_inspect_medium_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Waist-up medium of {{astronaut}} in {{suit}} at an enamel field table at the forest's edge, holding a strange translucent organic specimen up to the light, a helical structure glowing faintly inside it in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "FRAME-SCALE-BILLING"
+      ]
+    },
+    {
+      "id": "s025",
+      "section": "pattern-aperture",
+      "type": "concept",
+      "setup": "specimen_table_macro",
+      "start_barbeat": "33.1",
+      "start_sec": 86.3125,
+      "end_sec": 91.9656,
+      "dur_sec": 5.625,
+      "frames": 135,
+      "lyric": "Hard to find, right? / I see the world plus more. / More is probably nothing. / Yes, I see the world.",
+      "description": "Specimen table mandala",
+      "prompt": "Top-down overhead of a white enamel specimen table: silver-gloved hands arranging fragments of an alien specimen - translucent organic shards with helical structure inside, spiked seed pods, a chrome scale - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people. The hands try the wrong piece in every position. Slow overhead push.",
+      "clip": {
+        "file": "clips\\raw\\specimen_table_macro_v6.mp4",
+        "in_sec": 2.3,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Top-down overhead of a white enamel specimen table: silver-gloved hands arranging fragments of an alien specimen - translucent organic shards with helical structure inside, spiked seed pods, a chrome scale - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-RESPONSE-CHAIN",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "s026",
+      "section": "mars-unmasking",
+      "type": "performance",
+      "setup": "astronaut_close_sync",
+      "start_barbeat": "35.1",
+      "start_sec": 91.9656,
+      "end_sec": 94.7952,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "Close but no see car. / Subject: Mars!",
+      "description": "Astronaut close-up",
+      "prompt": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\astronaut_close_sync_s026_kling.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-HYSTERETIC-PRESENCE",
+        "PERF-EXAGGERATED-ENUNCIATION"
+      ]
+    },
+    {
+      "id": "s027",
+      "section": "mars-unmasking",
+      "type": "concept",
+      "setup": "mars_domes_wide",
+      "start_barbeat": "36.1",
+      "start_sec": 94.7952,
+      "end_sec": 97.6239,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "You come back around. / I'll pull it into a shape",
+      "description": "Colony vista reveal",
+      "prompt": "Grand symmetrical vista: the cream-and-turquoise domed colony with needle towers under a mint-green sky, a winding river of blue-green water snaking up the center of frame through coral terrain to the wide mirror-calm lagoon at its foot, striped planet above. Miniature-set depth. No people. Very slow push along the river toward the colony; the water shimmers gently, nothing else moves; every dome and tower keeps its shape; no people appear.",
+      "clip": {
+        "file": "clips\\raw\\mars_domes_wide_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Grand symmetrical vista: the cream-and-turquoise domed colony with needle towers under a mint-green sky, a winding river of blue-green water snaking up the center of frame through coral terrain to the wide mirror-calm lagoon at its foot, striped planet above. Miniature-set depth. No people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "ANIM-MULTIPLANE",
+        "DEPTH-RELATIVE-SCALE"
+      ]
+    },
+    {
+      "id": "s028",
+      "section": "mars-unmasking",
+      "type": "performance",
+      "setup": "astronaut_mars_medium",
+      "start_barbeat": "37.1",
+      "start_sec": 97.6239,
+      "end_sec": 100.4736,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "and spin your world around. / No. / Don't make it better.",
+      "description": "Astronaut above colony",
+      "prompt": "Medium shot: {{astronaut}} in {{suit}} centered on a coral ridge above the domed colony and its river lagoon, vista soft behind her, facing camera, wind in her hair. No one else in frame. She turns from the view to face camera; slow lateral track that settles frontal and locked.",
+      "clip": {
+        "file": "clips\\raw\\astronaut_mars_medium_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Medium shot: {{astronaut}} in {{suit}} centered on a coral ridge above the domed colony and its river lagoon, vista soft behind her, facing camera, wind in her hair. No one else in frame.",
+      "conventions": [
+        "CAM-SUSTAINED-REFRAME",
+        "PERF-ARC",
+        "ANIM-FOLLOW-THROUGH"
+      ]
+    },
+    {
+      "id": "s029",
+      "section": "mars-unmasking",
+      "type": "concept",
+      "setup": "counterfeit_parade",
+      "start_barbeat": "38.1",
+      "start_sec": 100.4736,
+      "end_sec": 103.311,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "Don't want fake shit.",
+      "description": "Parade of fakes",
+      "prompt": "Deadpan planimetric side-on view: a procession of too-perfect objects - polished miniature domes, smiling masks, trophy-bright Mars globes - lined up left to right across frame on a hidden conveyor; {{astronaut}} in {{suit}} stands centered behind it, unimpressed. No one else in frame. The procession glides left to right. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\counterfeit_parade_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Deadpan planimetric side-on view: a procession of too-perfect objects - polished miniature domes, smiling masks, trophy-bright Mars globes - lined up left to right across frame on a hidden conveyor; {{astronaut}} in {{suit}} stands centered behind it, unimpressed. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "CAM-PROCESSION",
+        "FRAME-CENTRIFUGAL"
+      ]
+    },
+    {
+      "id": "s030",
+      "section": "mars-unmasking",
+      "type": "performance",
+      "setup": "excavation_site",
+      "start_barbeat": "39.1",
+      "start_sec": 103.311,
+      "end_sec": 106.1423,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "Dig the thing underneath it. / Dig it stupid.",
+      "description": "Digging the real thing",
+      "prompt": "Low frontal shot: {{astronaut}} in {{suit}} kneels in coral soil, lifting a clumsy, handmade, unpolished object out of the ground with silver gloves - clearly loved; dust motes in warm light. No one else in frame. She digs and lifts it free. Slight slow push toward her hands.",
+      "clip": {
+        "file": "clips\\raw\\excavation_site_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Low frontal shot: {{astronaut}} in {{suit}} kneels in coral soil, lifting a clumsy, handmade, unpolished object out of the ground with silver gloves - clearly loved; dust motes in warm light. No one else in frame.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-ANTICIPATION",
+        "ANIM-FOLLOW-THROUGH"
+      ]
+    },
+    {
+      "id": "s031",
+      "section": "mars-unmasking",
+      "type": "concept",
+      "setup": "astronaut_close_sync",
+      "start_barbeat": "40.1",
+      "start_sec": 106.1423,
+      "end_sec": 108.9813,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "Especially stupid.",
+      "description": "Astronaut close-up",
+      "prompt": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\astronaut_close_sync_s031_kling.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-HYSTERETIC-PRESENCE",
+        "PERF-EXAGGERATED-ENUNCIATION"
+      ]
+    },
+    {
+      "id": "s032",
+      "section": "semantic-rocket-weather",
+      "type": "concept",
+      "setup": "weather_over_colony",
+      "start_barbeat": "41.1",
+      "start_sec": 108.9813,
+      "end_sec": 111.8191,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "Can you hear / what I meant? / Sometimes.",
+      "description": "Filament weather",
+      "prompt": "Wide sky over the domes and the river lagoon: strange luminous filament weather - slow silk-like streamers of pastel light peeling off cloud fronts and drifting apart, no lightning, no flashes. No people. The pastel streamers peel slowly off the cloud fronts and drift apart across the sky while the clouds creep; the domes and the water stay still; no lightning, no flashes, no people appear. Slow upward drift.",
+      "clip": {
+        "file": "clips\\raw\\weather_over_colony_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Wide sky over the domes and the river lagoon: strange luminous filament weather - slow silk-like streamers of pastel light peeling off cloud fronts and drifting apart, no lightning, no flashes. No people.",
+      "conventions": [
+        "CAM-ASCENT",
+        "FRAME-CENTRIFUGAL",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "s033",
+      "section": "semantic-rocket-weather",
+      "type": "performance",
+      "setup": "duet_call_response_sync",
+      "start_barbeat": "42.1",
+      "start_sec": 111.8191,
+      "end_sec": 114.6787,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "Not always. / Meaning leaves thread.",
+      "description": "Split duet call/response",
+      "prompt": "Symmetrical split staging divided by a thin centered seam of static: {{astronomer}} in her warm-gold study at frame left, {{astronaut}} in {{suit}} in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase. No one else in frame. They trade lines like a confident call-and-response, clearly articulated, heads steady, each landing her phrase on the beat. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\duet_call_response_sync_s033_kling.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Symmetrical split staging divided by a thin centered seam of static: {{astronomer}} in her warm-gold study at frame left, {{astronaut}} in {{suit}} in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "CAM-ATTENTION-HANDOFF",
+        "PERF-HYSTERETIC-PRESENCE"
+      ]
+    },
+    {
+      "id": "s034",
+      "section": "semantic-rocket-weather",
+      "type": "performance",
+      "setup": "duet_call_response_sync",
+      "start_barbeat": "43.1",
+      "start_sec": 114.66666666666667,
+      "end_sec": 119.04166666666667,
+      "dur_sec": 4.375,
+      "frames": 105,
+      "lyric": "Words leave words.",
+      "description": "Split duet call/response",
+      "prompt": "Symmetrical split staging divided by a thin centered seam of static: {{astronomer}} in her warm-gold study at frame left, {{astronaut}} in {{suit}} in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase. No one else in frame. They trade lines like a confident call-and-response, clearly articulated, heads steady, each landing her phrase on the beat. Locked off.",
+      "clip": {
+        "file": "clips/raw/duet_call_response_sync_s033_kling.mp4",
+        "in_sec": 2.86,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Symmetrical split staging divided by a thin centered seam of static: {{astronomer}} in her warm-gold study at frame left, {{astronaut}} in {{suit}} in cool-teal Martian night at frame right, the same face mirrored, both facing the lens mid-phrase. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "CAM-ATTENTION-HANDOFF",
+        "PERF-HYSTERETIC-PRESENCE"
+      ]
+    },
+    {
+      "id": "s034b",
+      "section": "semantic-rocket-weather",
+      "type": "concept",
+      "setup": "weather_over_colony",
+      "start_barbeat": "44.3",
+      "start_sec": 119.04166666666667,
+      "end_sec": 120.04166666666667,
+      "dur_sec": 1.0,
+      "frames": 24,
+      "lyric": "",
+      "description": "Filament weather",
+      "prompt": "Wide sky over the domes and the river lagoon: strange luminous filament weather - slow silk-like streamers of pastel light peeling off cloud fronts and drifting apart, no lightning, no flashes. No people. The pastel streamers peel slowly off the cloud fronts and drift apart across the sky while the clouds creep; the domes and the water stay still; no lightning, no flashes, no people appear. Slow upward drift.",
+      "clip": {
+        "file": "clips/raw/weather_over_colony_v6.mp4",
+        "in_sec": 4.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Wide sky over the domes and the river lagoon: strange luminous filament weather - slow silk-like streamers of pastel light peeling off cloud fronts and drifting apart, no lightning, no flashes. No people.",
+      "conventions": [
+        "CAM-ASCENT",
+        "FRAME-CENTRIFUGAL",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "s035",
+      "section": "semantic-rocket-weather",
+      "type": "concept",
+      "setup": "orbit_rockets_descent",
+      "start_barbeat": "45.1",
+      "start_sec": 120.0417,
+      "end_sec": 122.0,
+      "dur_sec": 1.958333,
+      "frames": 47,
+      "lyric": "Things clap overhead",
+      "description": "Rockets descend from orbit",
+      "prompt": "From orbit: the coral globe of Mars fills the lower frame, threaded with winding blue-green rivers and dark oases, its terminator curving away; three finned chrome retro rockets descend toward it in slow formation, tail-first, retro-flames flickering; the striped gas planet and small moons beyond. No people. The formation sinks toward the planet, flames pulsing. Locked off in space, symmetrical.",
+      "clip": {
+        "file": "clips\\raw\\orbit_rockets_descent_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "From orbit: the coral globe of Mars fills the lower frame, threaded with winding blue-green rivers and dark oases, its terminator curving away; three finned chrome retro rockets descend toward it in slow formation, tail-first, retro-flames flickering; the striped gas planet and small moons beyond. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "DEPTH-RELATIVE-SCALE",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "s036",
+      "section": "semantic-rocket-weather",
+      "type": "concept",
+      "setup": "rockets_landing_wide",
+      "start_barbeat": "45.3",
+      "start_sec": 122.0,
+      "end_sec": 123.2662,
+      "dur_sec": 1.25,
+      "frames": 30,
+      "lyric": "like rockets coming in.",
+      "description": "Rockets land",
+      "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\rockets_landing_wide_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-IMPACT-ACCENT",
+        "FRAME-SCALE-BILLING"
+      ]
+    },
+    {
+      "id": "s037",
+      "section": "semantic-rocket-weather",
+      "type": "concept",
+      "setup": "rockets_landing_wide",
+      "start_barbeat": "46.1",
+      "start_sec": 123.2662,
+      "end_sec": 126.1299,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "",
+      "description": "Rockets land",
+      "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\rockets_landing_wide_v6.mp4",
+        "in_sec": 1.266,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-IMPACT-ACCENT",
+        "FRAME-SCALE-BILLING"
+      ]
+    },
+    {
+      "id": "s038",
+      "section": "semantic-rocket-weather",
+      "type": "concept",
+      "setup": "rockets_landing_wide",
+      "start_barbeat": "47.1",
+      "start_sec": 126.1299,
+      "end_sec": 129.0056,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "Can't tell you / if they're true.",
+      "description": "Rockets land",
+      "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\rockets_landing_wide_v6.mp4",
+        "in_sec": 4.13,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-IMPACT-ACCENT",
+        "FRAME-SCALE-BILLING"
+      ]
+    },
+    {
+      "id": "s039",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "rockets_landing_wide",
+      "start_barbeat": "48.1",
+      "start_sec": 129.0056,
+      "end_sec": 131.875,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "",
+      "description": "Rockets land",
+      "prompt": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame. The rockets touch down one after another on the beat and the dust rolls past her; no one else appears. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\rockets_landing_wide_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Wide symmetrical landing field at the edge of the colony above the river: three finned chrome rockets settling onto brass landing rings in a row, tail-first on columns of flame, rings of coral dust rolling outward; {{astronaut}} in {{suit_orbital}} stands small at dead center in the foreground, facing camera, the rockets landing behind her. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-IMPACT-ACCENT",
+        "FRAME-SCALE-BILLING"
+      ]
+    },
+    {
+      "id": "s040",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "rain_to_canal",
+      "start_barbeat": "49.1",
+      "start_sec": 131.875,
+      "end_sec": 134.5417,
+      "dur_sec": 2.666667,
+      "frames": 64,
+      "lyric": "Elsewhere, under a smaller moon\u00e2\u20ac\u201d",
+      "description": "Rain becomes river",
+      "prompt": "Rain over red terrain: falling water gathering into bright rivulets that join and wind together into a young river snaking toward the horizon between coral banks. No people. Slow tilt and track following the water downhill as it winds, ending level on the moving current.",
+      "clip": {
+        "file": "clips\\raw\\rain_to_canal_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Rain over red terrain: falling water gathering into bright rivulets that join and wind together into a young river snaking toward the horizon between coral banks. No people.",
+      "conventions": [
+        "CAM-SUSTAINED-REFRAME",
+        "GROW-PROPAGATION-WAVE",
+        "EDIT-GRAPHIC-MATCH"
+      ]
+    },
+    {
+      "id": "s041",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "basin_moon_descent",
+      "start_barbeat": "50.1",
+      "start_sec": 134.5417,
+      "end_sec": 137.578,
+      "dur_sec": 3.041667,
+      "frames": 73,
+      "lyric": "Chrome-plated bodies go swimming",
+      "description": "Descent to the lagoon",
+      "prompt": "Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; {{merfolk}} glinting beneath the surface, arranged in concentric rings. No people. The camera cranes slowly down toward the water; the rings resolve as it nears the surface.",
+      "clip": {
+        "file": "clips\\raw\\basin_moon_descent_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. From high above the colony's river lagoon: the reflection of a small warm moon dead center in a wide mirror-calm expanse of dark water held by a rocky coral shore, the colony's fountains along the far bank; {{merfolk}} glinting beneath the surface, arranged in concentric rings. No people.",
+      "conventions": [
+        "CAM-DESCENT",
+        "FRAME-PATTERN-SURRENDER",
+        "DEPTH-SCALE-VELOCITY"
+      ]
+    },
+    {
+      "id": "s042",
+      "section": "rivers-of-mars",
+      "type": "performance",
+      "setup": "basin_edge_sync",
+      "start_barbeat": "51.1",
+      "start_sec": 137.578,
+      "end_sec": 140.4034,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "in the rivers of Mars.",
+      "description": "Astronaut at the lagoon shore",
+      "prompt": "Night. {{astronaut}} in {{suit}} kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of {{merfolk}} has just surfaced. No one else in frame. Symmetrical framing on her and her reflection. She sings with confident, rhythmic delivery, head steady, shoulders grooving subtly; the swimmer bobs on the beat. Slow push.",
+      "clip": {
+        "file": "clips\\raw\\basin_edge_sync_kling.mp4",
+        "in_sec": 2.84,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. {{astronaut}} in {{suit}} kneels at the rocky shore of the wide river lagoon in moonlight, lamp beside her, facing the lens mid-phrase; behind her the open water is wide and calm, and one of {{merfolk}} has just surfaced. No one else in frame. Symmetrical framing on her and her reflection.",
+      "conventions": [
+        "CAM-BREATH",
+        "PERF-HYSTERETIC-PRESENCE",
+        "FRAME-SCALE-BILLING"
+      ]
+    },
+    {
+      "id": "s043",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "basin_kaleidoscope_top",
+      "start_barbeat": "52.1",
+      "start_sec": 140.4034,
+      "end_sec": 143.2309,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "",
+      "description": "Water ballet from above",
+      "prompt": "Night. Straight-down overhead of the wide river lagoon lit like a stage: {{merfolk}} arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; the colony's fountains firing along the rocky shore; the moon's reflection dead center. Busby Berkeley water-ballet geometry. No people. The rings rotate against each other and the tails fan open and closed on the beat. Locked overhead.",
+      "clip": {
+        "file": "clips\\raw\\basin_kaleidoscope_top_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Straight-down overhead of the wide river lagoon lit like a stage: {{merfolk}} arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; the colony's fountains firing along the rocky shore; the moon's reflection dead center. Busby Berkeley water-ballet geometry. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "FRAME-PATTERN-SURRENDER",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "s044",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "merfolk_surface_ring",
+      "start_barbeat": "53.1",
+      "start_sec": 143.2309,
+      "end_sec": 146.0556,
+      "dur_sec": 2.791667,
+      "frames": 67,
+      "lyric": "Tails wagging to music",
+      "description": "Tiny mouths agape",
+      "prompt": "Night. Waterline shot at the center of the wide river lagoon: a ring of {{merfolk}} surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water, the colony domes dark on the far shore. Symmetrical, locked at water level. No people. They rise together on the downbeat, blink, and sing; the ripples spread. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\merfolk_surface_ring_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Waterline shot at the center of the wide river lagoon: a ring of {{merfolk}} surfacing in unison, chrome heads risen together, single lashed eyes open, tiny round mouths open in song, tails fanned behind them; concentric ripples spreading outward across the open water, the colony domes dark on the far shore. Symmetrical, locked at water level. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "FRAME-PATTERN-SURRENDER",
+        "ANIM-ANTICIPATION"
+      ]
+    },
+    {
+      "id": "s045",
+      "section": "rivers-of-mars",
+      "type": "performance",
+      "setup": "chorus_close_sync",
+      "start_barbeat": "54.1",
+      "start_sec": 146.0556,
+      "end_sec": 148.8999,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "that bends your mind.",
+      "description": "Chorus hero close-up",
+      "prompt": "Night. Frontal hero close-up of {{astronaut}} in {{suit}} at the lagoon shore, moonlit, ripples of reflected water-light across her face, eyes locked on the lens, mouth open mid-belt, confident and punchy. She belts the chorus hook straight to camera - words clearly articulated, head steady, shoulders moving subtly with the groove; the water-light pulses on the beat. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\chorus_close_sync_kling.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Frontal hero close-up of {{astronaut}} in {{suit}} at the lagoon shore, moonlit, ripples of reflected water-light across her face, eyes locked on the lens, mouth open mid-belt, confident and punchy.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-EXAGGERATED-ENUNCIATION",
+        "PERF-HYSTERETIC-PRESENCE"
+      ]
+    },
+    {
+      "id": "s046",
+      "section": "rivers-of-mars",
+      "type": "performance",
+      "setup": "chorus_close_sync",
+      "start_barbeat": "55.1",
+      "start_sec": 148.8999,
+      "end_sec": 151.7378,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "Tiny mouths all agape",
+      "description": "Chorus hero close-up",
+      "prompt": "Night. Frontal hero close-up of {{astronaut}} in {{suit}} at the lagoon shore, moonlit, ripples of reflected water-light across her face, eyes locked on the lens, mouth open mid-belt, confident and punchy. She belts the chorus hook straight to camera - words clearly articulated, head steady, shoulders moving subtly with the groove; the water-light pulses on the beat. Locked off.",
+      "clip": {
+        "file": "clips\\raw\\chorus_close_sync_kling.mp4",
+        "in_sec": 2.84,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Frontal hero close-up of {{astronaut}} in {{suit}} at the lagoon shore, moonlit, ripples of reflected water-light across her face, eyes locked on the lens, mouth open mid-belt, confident and punchy.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-EXAGGERATED-ENUNCIATION",
+        "PERF-HYSTERETIC-PRESENCE"
+      ]
+    },
+    {
+      "id": "s047",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "basin_kaleidoscope_top",
+      "start_barbeat": "56.1",
+      "start_sec": 151.7378,
+      "end_sec": 154.5819,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "in the rivers of Mars.",
+      "description": "Water ballet from above",
+      "prompt": "Night. Straight-down overhead of the wide river lagoon lit like a stage: {{merfolk}} arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; the colony's fountains firing along the rocky shore; the moon's reflection dead center. Busby Berkeley water-ballet geometry. No people. The rings rotate against each other and the tails fan open and closed on the beat. Locked overhead.",
+      "clip": {
+        "file": "clips\\raw\\basin_kaleidoscope_top_v6.mp4",
+        "in_sec": 4.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Straight-down overhead of the wide river lagoon lit like a stage: {{merfolk}} arranged in concentric rings and radiating spokes across the open water, tails fanning outward in unison so the whole school reads as one chrome flower; the colony's fountains firing along the rocky shore; the moon's reflection dead center. Busby Berkeley water-ballet geometry. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "FRAME-PATTERN-SURRENDER",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "s048",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "drumwall_basin",
+      "start_barbeat": "57.1",
+      "start_sec": 154.5819,
+      "end_sec": 157.4229,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "Whatever falls from heaven",
+      "description": "Fountains on the beat",
+      "prompt": "Night. One-point symmetrical view across the river lagoon toward the colony: ranked fountains along the far shore firing hard, jets punching up in sequence, lit warm against the dark domes; {{merfolk}} surfacing in a line across the water on the beat; the water otherwise calm and open. No people. The fountains fire on the drum hits, in sequence along the shore, and the mer-folk rise and dip in time; no people appear. Locked off while the water performs.",
+      "clip": {
+        "file": "clips\\raw\\drumwall_basin_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. One-point symmetrical view across the river lagoon toward the colony: ranked fountains along the far shore firing hard, jets punching up in sequence, lit warm against the dark domes; {{merfolk}} surfacing in a line across the water on the beat; the water otherwise calm and open. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-IMPACT-ACCENT",
+        "GROW-PROPAGATION-WAVE"
+      ]
+    },
+    {
+      "id": "s049",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "canal_current_macro",
+      "start_barbeat": "58.1",
+      "start_sec": 157.4229,
+      "end_sec": 160.2675,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "leaves the senses behind.",
+      "description": "Inside the current",
+      "prompt": "Underwater inside the river current: {{merfolk}} passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people. Slow lateral drift; the school never restarts, it just keeps passing, the light-ribbons bending with the music.",
+      "clip": {
+        "file": "clips\\raw\\canal_current_macro_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Underwater inside the river current: {{merfolk}} passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "DEPTH-MOTION-PARALLAX",
+        "FRAME-CENTRIFUGAL"
+      ]
+    },
+    {
+      "id": "s050",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "chorus_plunge",
+      "start_barbeat": "59.1",
+      "start_sec": 160.2675,
+      "end_sec": 163.1046,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "No one has ever been",
+      "description": "Plunge into the basin",
+      "prompt": "Single frame, no panels: looking straight down at the surface of the wide river lagoon from a few feet above it, moonlit spray and bubbles bursting upward, {{merfolk}} visible scattering beneath the surface. No people. One smooth accelerating push straight down through the surface: spray, bubbles, then the school scattering and reforming around the camera underwater. One continuous move, no cut.",
+      "clip": {
+        "file": "clips\\raw\\chorus_plunge_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Single frame, no panels: looking straight down at the surface of the wide river lagoon from a few feet above it, moonlit spray and bubbles bursting upward, {{merfolk}} visible scattering beneath the surface. No people.",
+      "conventions": [
+        "CAM-DESCENT",
+        "FRAME-LENS-CROSSING",
+        "DEPTH-SCALE-VELOCITY"
+      ]
+    },
+    {
+      "id": "s051",
+      "section": "rivers-of-mars",
+      "type": "concept",
+      "setup": "chorus_plunge",
+      "start_barbeat": "60.1",
+      "start_sec": 163.1046,
+      "end_sec": 165.9478,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "In / in the rivers of Mars.",
+      "description": "Plunge into the basin",
+      "prompt": "Single frame, no panels: looking straight down at the surface of the wide river lagoon from a few feet above it, moonlit spray and bubbles bursting upward, {{merfolk}} visible scattering beneath the surface. No people. One smooth accelerating push straight down through the surface: spray, bubbles, then the school scattering and reforming around the camera underwater. One continuous move, no cut.",
+      "clip": {
+        "file": "clips\\raw\\chorus_plunge_v6.mp4",
+        "in_sec": 2.84,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Single frame, no panels: looking straight down at the surface of the wide river lagoon from a few feet above it, moonlit spray and bubbles bursting upward, {{merfolk}} visible scattering beneath the surface. No people.",
+      "conventions": [
+        "CAM-DESCENT",
+        "FRAME-LENS-CROSSING",
+        "DEPTH-SCALE-VELOCITY"
+      ]
+    },
+    {
+      "id": "s052",
+      "section": "current-turns-home",
+      "type": "concept",
+      "setup": "canal_junction_turn",
+      "start_barbeat": "61.1",
+      "start_sec": 165.9478,
+      "end_sec": 168.792,
+      "dur_sec": 2.833333,
+      "frames": 68,
+      "lyric": "Then turns.",
+      "description": "The current turns in the eddy",
+      "prompt": "Top-down planimetric view of the great slow eddy where the river enters the lagoon: the current curling into a wide spiral, {{merfolk}} wheeling around together in the turning water to head back the way they came. No gates, no machinery, no people. The eddy turns on the beat, the current visibly reverses, and the school wheels as one; no people appear. Locked overhead.",
+      "clip": {
+        "file": "clips\\raw\\canal_junction_turn_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Top-down planimetric view of the great slow eddy where the river enters the lagoon: the current curling into a wide spiral, {{merfolk}} wheeling around together in the turning water to head back the way they came. No gates, no machinery, no people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "FRAME-PATTERN-SURRENDER",
+        "PERF-ARC"
+      ]
+    },
+    {
+      "id": "s053",
+      "section": "current-turns-home",
+      "type": "concept",
+      "setup": "canal_current_macro",
+      "start_barbeat": "62.1",
+      "start_sec": 168.792,
+      "end_sec": 171.6872,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "Then follows. / Then answers.",
+      "description": "Inside the current",
+      "prompt": "Underwater inside the river current: {{merfolk}} passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people. Slow lateral drift; the school never restarts, it just keeps passing, the light-ribbons bending with the music.",
+      "clip": {
+        "file": "clips\\raw\\canal_current_macro_v6.mp4",
+        "in_sec": 2.9,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Underwater inside the river current: {{merfolk}} passing through shafts of moonlight in loose formation, bubbles and bright motes in deep parallax, ribbons of reflected light bending across them. No people.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "DEPTH-MOTION-PARALLAX",
+        "FRAME-CENTRIFUGAL"
+      ]
+    },
+    {
+      "id": "o01",
+      "section": "low-light-outro",
+      "type": "concept",
+      "setup": "telescope_time_tunnel",
+      "start_barbeat": "63.1",
+      "start_sec": 171.66666666666666,
+      "end_sec": 174.04166666666666,
+      "dur_sec": 2.375,
+      "frames": 57,
+      "lyric": "",
+      "description": "Telescope time tunnel",
+      "prompt": "Looking down the interior of the great telescope tube: concentric brass rings receding to a far point of starlight, perfectly centered. No people. The starlight pulses gently with the rhythm; slow steady push into the rings.",
+      "clip": {
+        "file": "clips/raw/telescope_time_tunnel_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Looking down the interior of the great telescope tube: concentric brass rings receding to a far point of starlight, perfectly centered. No people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "FRAME-CHROMATIC-TUNNEL",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "o02",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronomer_sync",
+      "start_barbeat": "63.4",
+      "start_sec": 174.04166666666666,
+      "end_sec": 176.33333333333334,
+      "dur_sec": 2.291667,
+      "frames": 55,
+      "lyric": "You still there?",
+      "description": "Astronomer lamplight outro",
+      "prompt": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered. She sings the quiet lines to camera with barely moving lips. Locked off.",
+      "clip": {
+        "file": "clips/outro/A1_kling24.mp4",
+        "in_sec": 0.5,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o03",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronaut_sync",
+      "start_barbeat": "64.3",
+      "start_sec": 176.33333333333334,
+      "end_sec": 177.58333333333334,
+      "dur_sec": 1.25,
+      "frames": 30,
+      "lyric": "Define there.",
+      "description": "Astronaut lamplight outro",
+      "prompt": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered. She sings softly to camera with minimal motion. Locked off.",
+      "clip": {
+        "file": "clips/outro/B1_kling24.mp4",
+        "in_sec": 2.79167,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o04",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronomer_sync",
+      "start_barbeat": "65.1",
+      "start_sec": 177.58333333333334,
+      "end_sec": 180.45833333333334,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "Never mind. / La-la-la, low light.",
+      "description": "Astronomer lamplight outro",
+      "prompt": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered. She sings the quiet lines to camera with barely moving lips. Locked off.",
+      "clip": {
+        "file": "clips/outro/A1_kling24.mp4",
+        "in_sec": 4.04167,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o05",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronaut_sync",
+      "start_barbeat": "66.1",
+      "start_sec": 180.45833333333334,
+      "end_sec": 181.75,
+      "dur_sec": 1.291667,
+      "frames": 31,
+      "lyric": "No, go on.",
+      "description": "Astronaut lamplight outro",
+      "prompt": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered. She sings softly to camera with minimal motion. Locked off.",
+      "clip": {
+        "file": "clips/outro/B2_kling24.mp4",
+        "in_sec": 0.45833,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o06",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronomer_sync",
+      "start_barbeat": "66.3",
+      "start_sec": 181.75,
+      "end_sec": 183.33333333333334,
+      "dur_sec": 1.583333,
+      "frames": 38,
+      "lyric": "Thought I heard something.",
+      "description": "Astronomer lamplight outro",
+      "prompt": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered. She sings the quiet lines to camera with barely moving lips. Locked off.",
+      "clip": {
+        "file": "clips/outro/A2_kling24.mp4",
+        "in_sec": 1.75,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o07",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronaut_sync",
+      "start_barbeat": "67.1",
+      "start_sec": 183.33333333333334,
+      "end_sec": 184.625,
+      "dur_sec": 1.291667,
+      "frames": 31,
+      "lyric": "You did.",
+      "description": "Astronaut lamplight outro",
+      "prompt": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered. She sings softly to camera with minimal motion. Locked off.",
+      "clip": {
+        "file": "clips/outro/B2_kling24.mp4",
+        "in_sec": 3.33333,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o08",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronomer_sync",
+      "start_barbeat": "67.3",
+      "start_sec": 184.625,
+      "end_sec": 185.875,
+      "dur_sec": 1.25,
+      "frames": 30,
+      "lyric": "Was it you?",
+      "description": "Astronomer lamplight outro",
+      "prompt": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered. She sings the quiet lines to camera with barely moving lips. Locked off.",
+      "clip": {
+        "file": "clips/outro/A2_kling24.mp4",
+        "in_sec": 4.625,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o09",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronaut_sync",
+      "start_barbeat": "68.1",
+      "start_sec": 185.875,
+      "end_sec": 187.66666666666666,
+      "dur_sec": 1.791667,
+      "frames": 43,
+      "lyric": "Da-da-dum. / Could've been.",
+      "description": "Astronaut lamplight outro",
+      "prompt": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered. She sings softly to camera with minimal motion. Locked off.",
+      "clip": {
+        "file": "clips/outro/B2_kling24.mp4",
+        "in_sec": 5.875,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o10",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronomer_sync",
+      "start_barbeat": "68.3",
+      "start_sec": 187.66666666666666,
+      "end_sec": 189.875,
+      "dur_sec": 2.208333,
+      "frames": 53,
+      "lyric": "Say goodnight. / (Who?)",
+      "description": "Astronomer lamplight outro",
+      "prompt": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered. She sings the quiet lines to camera with barely moving lips. Locked off.",
+      "clip": {
+        "file": "clips/outro/A3_kling24.mp4",
+        "in_sec": 0.16667,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o11",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronaut_sync",
+      "start_barbeat": "69.2",
+      "start_sec": 189.875,
+      "end_sec": 190.58333333333334,
+      "dur_sec": 0.708333,
+      "frames": 17,
+      "lyric": "To who?",
+      "description": "Astronaut lamplight outro",
+      "prompt": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered. She sings softly to camera with minimal motion. Locked off.",
+      "clip": {
+        "file": "clips/outro/B3_kling24.mp4",
+        "in_sec": 2.375,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o12",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronomer_sync",
+      "start_barbeat": "69.3",
+      "start_sec": 190.58333333333334,
+      "end_sec": 192.58333333333334,
+      "dur_sec": 2.0,
+      "frames": 48,
+      "lyric": "La-la-la-la-la",
+      "description": "Astronomer lamplight outro",
+      "prompt": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered. She sings the quiet lines to camera with barely moving lips. Locked off.",
+      "clip": {
+        "file": "clips/outro/A3_kling24.mp4",
+        "in_sec": 3.08333,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o13",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronaut_sync",
+      "start_barbeat": "70.2",
+      "start_sec": 192.58333333333334,
+      "end_sec": 193.5,
+      "dur_sec": 0.916667,
+      "frames": 22,
+      "lyric": "You first.",
+      "description": "Astronaut lamplight outro",
+      "prompt": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered. She sings softly to camera with minimal motion. Locked off.",
+      "clip": {
+        "file": "clips/outro/B3_kling24.mp4",
+        "in_sec": 5.08333,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o14",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronomer_sync",
+      "start_barbeat": "70.3",
+      "start_sec": 193.5,
+      "end_sec": 194.625,
+      "dur_sec": 1.125,
+      "frames": 27,
+      "lyric": "Night.",
+      "description": "Astronomer lamplight outro",
+      "prompt": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered. She sings the quiet lines to camera with barely moving lips. Locked off.",
+      "clip": {
+        "file": "clips/outro/A3_kling24.mp4",
+        "in_sec": 6.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium: {{astronomer}} in the small pool of her desk lamp, a few curls escaped from the twist, surrounded by darkness, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o15",
+      "section": "low-light-outro",
+      "type": "performance",
+      "setup": "duet_lamplight_astronaut_sync",
+      "start_barbeat": "71.1",
+      "start_sec": 194.625,
+      "end_sec": 195.375,
+      "dur_sec": 0.75,
+      "frames": 18,
+      "lyric": "Night.",
+      "description": "Astronaut lamplight outro",
+      "prompt": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered. She sings softly to camera with minimal motion. Locked off.",
+      "clip": {
+        "file": "clips/outro/B3_kling24.mp4",
+        "in_sec": 7.125,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night interior close-medium, the exact mirror of the astronomer's lamplight frame: {{astronaut}} in {{suit_liner}} in her bunk under a small warm lamp, cool Martian night at the porthole behind, tired and fond, facing the lens. Centered.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "PERF-ABSENCE"
+      ]
+    },
+    {
+      "id": "o16",
+      "section": "low-light-outro",
+      "type": "concept",
+      "setup": "colony_goodnight_cascade",
+      "start_barbeat": "71.2",
+      "start_sec": 195.375,
+      "end_sec": 197.79166666666666,
+      "dur_sec": 2.416667,
+      "frames": 58,
+      "lyric": "(Night.)",
+      "description": "Colony goodnight",
+      "prompt": "Night. Wide shot of the colony from across the river lagoon: most dome windows and tower lights already dark, a last few still lit down the valley, the water holding a single moon reflection. No people. The remaining lights switch off in cascading order, one per beat, until only the moon's reflection is left. Locked off.",
+      "clip": {
+        "file": "clips/raw/colony_goodnight_cascade_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Wide shot of the colony from across the river lagoon: most dome windows and tower lights already dark, a last few still lit down the valley, the water holding a single moon reflection. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "GROW-PROPAGATION-WAVE",
+        "FRAME-NEGATIVE-WAKE"
+      ]
+    },
+    {
+      "id": "o17",
+      "section": "low-light-outro",
+      "type": "concept",
+      "setup": "night_iris_title",
+      "start_barbeat": "72.1",
+      "start_sec": 197.79166666666666,
+      "end_sec": 199.25,
+      "dur_sec": 1.458333,
+      "frames": 35,
+      "lyric": "",
+      "description": "Night iris out",
+      "prompt": "Night. The final wide frame of the colony darkening at its edges, a circular iris closing in on the moon's reflection in the lagoon. No people. The iris closes until only that small light remains, then black. (Title is added in post, never generated.)",
+      "clip": {
+        "file": "clips/raw/night_iris_title_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. The final wide frame of the colony darkening at its edges, a circular iris closing in on the moon's reflection in the lagoon. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "FRAME-CENTRIPETAL",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    }
+  ]
+}

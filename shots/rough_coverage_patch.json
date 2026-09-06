@@ -1,0 +1,8 @@
+{
+  "section": "semantic-rocket-weather",
+  "reason": "Cover the short duet tail with one second of environmental punctuation, not a frozen face or stretched sync. Rocket entrance remains at frame 2881.",
+  "cut": [
+    {"id":"s034", "start":2752, "end":2857, "setup":"duet_call_response_sync", "clip":{"file":"clips/raw/duet_call_response_sync_s033_kling.mp4", "in_sec":2.86, "speed":1.0}, "lyric":"Words leave words."},
+    {"id":"s034b", "start":2857, "end":2881, "setup":"weather_over_colony", "clip":{"file":"clips/raw/weather_over_colony_v6.mp4", "in_sec":4.0, "speed":1.0}, "lyric":""}
+  ]
+}

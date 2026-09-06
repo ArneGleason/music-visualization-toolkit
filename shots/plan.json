@@ -1,6 +1,7 @@
 {
   "_comment": "Cutting rules for the live-action generated path of 'Rivers of Mars'. Section ids match shots/sections.json, which tools/register2sections.py derives from the scene lane of projects/rivers-of-mars/timeline.json. Setups ending in _sync are frontal performance shots that get the lip-sync pass. Setup bodies live in shots/setups.json (apply with tools/shotplan.py --setups shots/setups.json). Iterate on the free animatic before generating anything. v2.3: the garden and chorus cut every bar for velocity; adjacent identical setups are one continuous clip across cuts, and four owner-approved lyric-locked picture changes are preserved below.",
   "fps": 24,
+  "editorial_range_files": ["shots/rough_coverage_patch.json", "shots/outro_coverage.json"],
   "max_shot_sec": 8.0,
   "min_shot_sec": 0.8,
   "default": {
@@ -10,6 +11,7 @@
     ]
   },
   "editorial_start_frames": {
+    "s001": 0,
     "s035": 2881,
     "s036": 2928,
     "s040": 3165,

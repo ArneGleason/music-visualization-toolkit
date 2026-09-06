@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "test_id": "specimen_mismatch_v2",
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "status": "codex_verified_ready_for_owner_review",
+  "task": "One replacement take: separated fingertip rotations, gentle overhead dolly push. No joining or snapping.",
+  "authorization": {
+    "new_paid_generation": true,
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "codex/out/canal_map_macro_b.jpg",
+      "sha256": "369C2AB8AF78FFB7CA833CB1A37933D954615980F81AA2AA41E578B7F5316828"
+    },
+    "prompt": {
+      "file": "out/specimen_mismatch_v2/flow_prompt.txt",
+      "sha256": "88926D512F95FA1F3E3E34BC090F386E9F3B863DB6FAC45C110EA90CE0923724"
+    },
+    "lock": {
+      "file": "out/specimen_mismatch_v2/style_lock_v2.txt",
+      "sha256": "6DB3E45D5777CB22AE1EE7DA18B8BDE8498CAAFFB8D96E8536F3414DEA260496"
+    }
+  },
+  "generation": {
+    "model": "Veo 3.1 Quality",
+    "mode": "Frames",
+    "start_frame": "codex/out/canal_map_macro_b.jpg",
+    "end_frame": null,
+    "seconds": 8,
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "outputs": 1,
+    "expected_credits": 100,
+    "stop_if_cost_exceeds_expected": true
+  },
+  "proposed_review_cut": {
+    "review_id": "specimen_mismatch",
+    "replaces_old_shot_id": "s008",
+    "song_start_frame": 670,
+    "song_end_frame_exclusive": 719,
+    "duration_frames": 49,
+    "lyric": "Then they don't quite match.",
+    "lyric_song_frames": [
+      680,
+      719
+    ],
+    "candidate_source_in_frame": 48,
+    "candidate_source_out_frame_exclusive": 97,
+    "candidate_source_origin_song_frame": 622,
+    "note": "Candidate source48..97 remains provisional. Select separated turning, not a joining event. Song interval670..719 remains unchanged."
+  },
+  "clock": {
+    "fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "speed": 1,
+    "master_audio_only": true,
+    "note": "Unsynced prop take. No vocal guide and no stem offset. Candidate origin622 is editorial mapping, not a claim of music-synced generation."
+  },
+  "coverage": {
+    "requested_source_frames": 192,
+    "required_continuous_frames": 49,
+    "candidate_lead_frames": 48,
+    "candidate_exit_frames": 95,
+    "verify_real_handles": true,
+    "note": "Preserve full eight seconds. Identify at least49 clean consecutive frames of separated rotation with stable geometry, including review of the late5s region."
+  },
+  "continuity": {
+    "previous_approved_review": "out/pieces_cutaway_review/preview.mp4",
+    "last_prop_insert": {
+      "file": "clips/raw/canal_map_macro_v6.mp4",
+      "source_frames": [
+        24,
+        72
+      ],
+      "song_frames": [
+        562,
+        610
+      ],
+      "crop": "960x540 at160,180 then scaled to1280x720"
+    },
+    "intent": "Alternate detail coverage of continued inspection, not matching or breaking objects. Broad separation and different orientations convey uncertainty.",
+    "reference_policy": "Only the approved still is uploaded as first frame. Generated video frames are planning references, not Flow start frames."
+  },
+  "output": {
+    "base": "out/specimen_mismatch_v2/base.mp4",
+    "receipt": "out/specimen_mismatch_v2/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "assembly": {
+    "owner": "Codex after download",
+    "production_assignment_requires_review": true,
+    "next_phrase": "Can I send you my stuff?",
+    "next_phrase_start_frame": 719,
+    "note": "Preview may end719. The next signal/send shot is not authorized by this work order. Preserve protected FX and reconcile isolated cues and shotlist together."
+  },
+  "supersedes": "out/specimen_mismatch_v1/handoff.json",
+  "polling": {
+    "first_check_after_seconds": 60,
+    "subsequent_check_interval_seconds": 25,
+    "note": "Use normal visible status checks when available; honor service rate limits and explicit retry guidance. Check/download promptly once ready. Do not submit another job while waiting. Report failures or prolonged unchanged status rather than silently waiting many minutes."
+  },
+  "claude_result": {
+    "completed_utc": "2026-09-06T04:31:00Z",
+    "receipt": "out/specimen_mismatch_v2/RECEIPT.md",
+    "base": {
+      "file": "out/specimen_mismatch_v2/base.mp4",
+      "sha256": "1B26A031346EC59D5107C2718BEC697D1FE1C1D981D51B4A393D8CF4151A2ABA",
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "flow_media_id": "fb33cbdf-70cb-4243-90cd-2c1ce7e89c75",
+      "flow_submitted_utc": "2026-09-06T04:22:45Z",
+      "ready_after_seconds": 85,
+      "credits": 100,
+      "end_frame_used": false,
+      "first_frame_diff_vs_still": 1.2,
+      "watermark": "none"
+    },
+    "usable": true,
+    "clean_separated_rotation_frames": [
+      54,
+      110
+    ],
+    "recommended_window": [
+      54,
+      103
+    ],
+    "alternative_window": [
+      57,
+      106
+    ],
+    "candidate_window_note": "[48,97) usable but frames 48-53 show the left fragment lifted/edge-on and briefly pale",
+    "camera": "overhead throughout; continuous push-in ~1.5x by 4 s and ~2x by 8 s (requested ~10%)",
+    "no_join_no_snap": true,
+    "geometry_stable_at_5s": true,
+    "action_timing_seconds": {
+      "lift_and_separate": [
+        0.0,
+        1.2
+      ],
+      "held_edge_on": [
+        1.25,
+        2.0
+      ],
+      "pale_fragment": [
+        2.0,
+        2.1
+      ],
+      "flat_separated_turning": [
+        2.25,
+        4.0
+      ],
+      "adjacent_no_contact": [
+        4.0,
+        5.4
+      ],
+      "release": [
+        5.5,
+        6.1
+      ],
+      "hands_withdraw_to_edge": [
+        6.0,
+        6.6
+      ],
+      "rest": [
+        6.6,
+        8.0
+      ]
+    },
+    "end_state_refs": [
+      "frame_f48.jpg",
+      "frame_f96.jpg",
+      "frame_f191.jpg"
+    ],
+    "weaknesses": [
+      "push-in far beyond 10%",
+      "fragments lifted/tilted 1.25-2.0 s",
+      "brief pale left fragment ~2.0 s",
+      "gap narrows to adjacency after 4 s",
+      "hands withdraw 6.0-6.6 s"
+    ],
+    "sheets": [
+      "contact_every6.jpg",
+      "contact_1.25-4.1s_every3_centre.jpg",
+      "contact_4.0-6.2s_every3_centre.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no retry",
+      "no assembly",
+      "no cue/shotlist edits",
+      "no further shots",
+      "no commit",
+      "no owner approval claimed"
+    ]
+  },
+  "codex_result": {
+    "preview": "out/specimen_mismatch_review/preview.mp4",
+    "song_frames": [
+      500,
+      719
+    ],
+    "selected_source_frames": [
+      54,
+      103
+    ],
+    "editorial_source_origin_song_frame": 616,
+    "source_hash_verified": true,
+    "production_unchanged": true,
+    "owner_approval": "pending"
+  }
+}

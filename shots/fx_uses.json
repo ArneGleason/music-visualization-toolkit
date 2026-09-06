@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "current_status": "2026-09-05: owner accepted all three full-cut passes; promoted to assembly_decisions.json for rough use. s044 is reconciled to 67 frames. All-swimmer expansion and exit handles remain deferred.",
+  "purpose": "Rendered FX-use candidates and owner-approved palette intent. This is not the automatic assembler override registry; promote reviewed deliveries to assembly_decisions.json.",
+  "palette": {"chrome_swimmers": "owner-approved violet bloom with pearl-white highlights"},
+  "uses": [
+    {"shot_id":"s043","setup":"basin_kaleidoscope_top","effect":"violet-pearl opposed-sector formation response","status":"owner_approved_rough_delivery","song_frames":[3370,3438],"fps":24,"source_in_frame":0,"clean_file":"out/swimmer_fx_full/s043/clean.mp4","review_file":"out/swimmer_fx_full/s043/violet.mp4","notes":"Current-frame silver reflection selection within pool region, not individual swimmer tracks."},
+    {"shot_id":"s044","setup":"merfolk_surface_ring","effect":"violet-pearl tracked torso response chain","status":"owner_approved_rough_delivery","song_frames":[3438,3505],"fps":24,"source_in_frame":0,"clean_file":"out/swimmer_fx_full/s044/clean.mp4","review_file":"out/swimmer_fx_full/s044/violet.mp4","notes":"67 frames reconciled from rounded shot boundaries. Accepted four-swimmer look across cut; all-swimmer expansion deferred."},
+    {"shot_id":"s047","setup":"basin_kaleidoscope_top","effect":"violet-pearl opposed-sector formation response","status":"owner_approved_rough_delivery","song_frames":[3642,3710],"fps":24,"source_in_frame":96,"clean_file":"out/swimmer_fx_full/s047/clean.mp4","review_file":"out/swimmer_fx_full/s047/violet.mp4","notes":"Return uses source at 4 seconds, with this shot's own song-time drum events."}
+  ],
+  "handles": "No additional lead or exit frames rendered.",
+  "recipe": "python tools/swimmer_palette_pilot.py --full --shot SHOT_ID"
+}

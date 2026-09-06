@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "test_id": "opening_sync_test_s003_v1",
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "status": "downloaded_verified_previews_rendered_awaiting_owner_review",
+  "authorization": {
+    "current_action": "none_download_task_completed_by_owner",
+    "new_paid_generation": false,
+    "production_edit_changes": false
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based, end-exclusive",
+    "song_origin_frame": 143,
+    "song_origin_seconds": 5.958333333333333,
+    "requested_take_frames": 192,
+    "requested_take_seconds": 8,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 5.779985333333333,
+    "guide_already_aligned": true,
+    "guide_upload_start_seconds": 0,
+    "additional_audio_offset_seconds": 0
+  },
+  "cut": {
+    "shot_id": "s003",
+    "song_start_frame": 155,
+    "song_end_frame_exclusive": 293,
+    "source_in_frame_at_24fps": 12,
+    "source_out_frame_exclusive_at_24fps": 150,
+    "duration_frames": 138,
+    "speed": 1
+  },
+  "inputs": {
+    "base": {
+      "file": "out/opening_sync_test/base.mp4",
+      "sha256": "7786120A61CE473384E68820BD75B156F945199B94DA206D53A9C5070B5CEB00",
+      "fps": 24,
+      "frames": 192
+    },
+    "guide": {
+      "file": "out/opening_sync_test/guide.wav",
+      "sha256": "63B9B6C2F67F83581ECC43764696EB798018BA65BF7FAD16B15FBBE2A418C41B",
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples": 384000
+    }
+  },
+  "output": {
+    "file": "out/opening_sync_test/synced.mp4",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true,
+    "receipt": "out/opening_sync_test/CLAUDE_RECEIPT.md"
+  },
+  "assembly": {
+    "owner": "Codex after download",
+    "timestamp_conform_not_fps_reinterpret": true,
+    "production_assignment_requires_review": true
+  }
+}

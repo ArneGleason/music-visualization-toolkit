@@ -24,6 +24,15 @@ This is a reusable music-video and visualization toolkit.
 
 ## Style
 
+Before clip ingest, replacement, or final assembly, read
+`docs/ASSEMBLY_DECISIONS.md` and `shots/assembly_decisions.json`. Preserve
+owner-approved procedural picture selections; a generated clip must not win
+solely because it exists. Reconcile protected entries with the shot list before
+rendering, and flag missing/pending clean renders rather than silently falling
+back. Both `tools/blender_comp.py` and `tools/render.py` enforce the register
+through `tools/assembly_sources.py`. Explicit stills-only/overlay-only modes
+remain unaffected. Do not bypass the shared resolver in a new motion assembler.
+
 Keep the Python small, readable, and dependency-light. Run repository tools as
 `./.venv/bin/python3 tools/<name>.py`. Large media, generated substrates, and
 renders must stay out of Git.

@@ -25,6 +25,8 @@ def run(command):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--choreography", default="shots/lyric_motion_full.json")
+    ap.add_argument("--shotlist", default="shots/shotlist.json",
+                    help="same shotlist snapshot used by a verified timing audition")
     ap.add_argument("--favorites", default="shots/still_favorites.md")
     ap.add_argument("--out", default="out/blender_animatic_flat_lyrics_v01.mp4")
     ap.add_argument("--segment-frames", type=int, default=720)
@@ -58,6 +60,7 @@ def main():
         command += [
             "--start", str(first), "--end", str(last),
             "--lyric-flat", args.choreography,
+            "--shotlist", args.shotlist,
             "--favorites", args.favorites,
             "--out", str(part.relative_to(ROOT)),
         ]

@@ -1,0 +1,30 @@
+{
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "duration": "12.708333",
+        "nb_frames": "305"
+      },
+      {
+        "codec_type": "audio",
+        "duration": "12.708000",
+        "nb_frames": "597"
+      }
+    ]
+  },
+  "production_unchanged": true,
+  "song_frames": [
+    500,
+    805
+  ],
+  "signal_source_frames": [
+    0,
+    86
+  ],
+  "signal_source_sha256": "16cdc302862503b4505e5f190899f2a579de211bb788b2d63f1c87fa953ee77d"
+}

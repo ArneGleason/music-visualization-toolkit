@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "test_id": "opening_performance_v3_s003",
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "status": "codex_verified_opening_preview_ready",
+  "codex_result": {
+    "verification": "out/opening_performance_v3/CODEX_VERIFICATION.md",
+    "preview": "out/opening_performance_v3/assembly_preview.mp4",
+    "song_interval_frames": [0,293],
+    "guide_lag_ms": 0,
+    "guide_correlation": 0.9994942838578799,
+    "production_shotlist_unchanged": true,
+    "owner_take_approval": "Accepted slower v3 performance; teeth brightness is a future note, no regen."
+  },
+  "authorization": {
+    "current_action": "one_flow_base_then_one_kling_sync",
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based, end-exclusive",
+    "song_origin_frame": 143,
+    "song_origin_seconds": 5.958333333333333,
+    "requested_take_frames": 192,
+    "requested_take_seconds": 8,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 5.779985333333333,
+    "guide_already_aligned": true,
+    "guide_upload_start_seconds": 0,
+    "additional_audio_offset_seconds": 0
+  },
+  "cut": {
+    "shot_id": "s003",
+    "song_start_frame": 155,
+    "song_end_frame_exclusive": 293,
+    "source_in_frame_at_24fps": 12,
+    "source_out_frame_exclusive_at_24fps": 150,
+    "duration_frames": 138,
+    "speed": 1
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "codex/out/astronomer_desk_sync_b.jpg",
+      "sha256": "24D2794A65E01BA10526249C190A5B576B459D2D7B654BB2CDD3ACA59F503FCB"
+    },
+    "guide": {
+      "file": "out/opening_sync_test/guide.wav",
+      "sha256": "63B9B6C2F67F83581ECC43764696EB798018BA65BF7FAD16B15FBBE2A418C41B",
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples": 384000
+    },
+    "prompt": {
+      "file": "out/opening_performance_v3/flow_prompt.txt"
+    },
+    "lock": {
+      "file": "out/opening_performance_v3/style_lock_v2.txt",
+      "scope": "candidate musical-performance lock; not yet production-wide"
+    }
+  },
+  "output": {
+    "base": "out/opening_performance_v3/base.mp4",
+    "synced": "out/opening_performance_v3/synced.mp4",
+    "receipt": "out/opening_performance_v3/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "assembly": {
+    "owner": "Codex after download",
+    "timestamp_conform_not_fps_reinterpret": true,
+    "production_assignment_requires_review": true
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "Character 1",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_model_unavailable_or_cost_exceeds_expected": true
+  },
+  "performance": {
+    "beat_source": "generated/overlay_cues.json",
+    "measured_local_bpm": 83.74624886593621,
+    "prompt_bpm": 84,
+    "gesture_spacing_beats": [
+      2,
+      4
+    ],
+    "beat_grid": [
+      {
+        "song_frame": 155,
+        "song_sec": 6.4758,
+        "source_sec": 0.5174666666666665,
+        "bar": 5,
+        "beat": 1
+      },
+      {
+        "song_frame": 173,
+        "song_sec": 7.1948,
+        "source_sec": 1.2364666666666668,
+        "bar": 5,
+        "beat": 2
+      },
+      {
+        "song_frame": 190,
+        "song_sec": 7.9188,
+        "source_sec": 1.960466666666667,
+        "bar": 5,
+        "beat": 3
+      },
+      {
+        "song_frame": 207,
+        "song_sec": 8.6263,
+        "source_sec": 2.6679666666666675,
+        "bar": 5,
+        "beat": 4
+      },
+      {
+        "song_frame": 224,
+        "song_sec": 9.3433,
+        "source_sec": 3.3849666666666662,
+        "bar": 6,
+        "beat": 1
+      },
+      {
+        "song_frame": 241,
+        "song_sec": 10.0578,
+        "source_sec": 4.099466666666667,
+        "bar": 6,
+        "beat": 2
+      },
+      {
+        "song_frame": 259,
+        "song_sec": 10.7729,
+        "source_sec": 4.814566666666667,
+        "bar": 6,
+        "beat": 3
+      },
+      {
+        "song_frame": 276,
+        "song_sec": 11.4906,
+        "source_sec": 5.5322666666666676,
+        "bar": 6,
+        "beat": 4
+      },
+      {
+        "song_frame": 293,
+        "song_sec": 12.2055,
+        "source_sec": 6.247166666666668,
+        "bar": 7,
+        "beat": 1
+      },
+      {
+        "song_frame": 310,
+        "song_sec": 12.9211,
+        "source_sec": 6.962766666666666,
+        "bar": 7,
+        "beat": 2
+      },
+      {
+        "song_frame": 327,
+        "song_sec": 13.6403,
+        "source_sec": 7.681966666666667,
+        "bar": 7,
+        "beat": 3
+      }
+    ],
+    "note": "Grid seconds guide choreography; frame-rounded cuts and source in-points remain unchanged. Text prompting does not guarantee precise motion synchronization."
+  },
+  "claude_result": {
+    "completed_utc": "2026-09-06T03:20:00Z",
+    "receipt": "out/opening_performance_v3/RECEIPT.md",
+    "base": {
+      "file": "out/opening_performance_v3/base.mp4",
+      "sha256": "225E9FBA2276A20E6BB8ECCE3E760D4D4D4B41C20660F648EA910D2C4386EA99",
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0,
+      "flow_media_id": "674ecc19-6b11-4f25-8865-cc4210eda681",
+      "flow_submitted_utc": "2026-09-06T03:10:47Z",
+      "credits": 100,
+      "first_frame_diff_vs_still": 1.0
+    },
+    "synced": {
+      "file": "out/opening_performance_v3/synced.mp4",
+      "sha256": "971BA8734AF38414B91BFEAF9909F2A257F57AFA4596850BC7D7FF95901DA26D",
+      "fps": 30,
+      "frames": 239,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "kling_task": "2872",
+      "kling_submitted_utc": "2026-09-06T03:15:35Z",
+      "credits": 10,
+      "guide_lag_seconds": 0.0,
+      "watermark": "none visible; plan no-watermark switch already on"
+    },
+    "base_verdict": "suitable: grounded 84 BPM feel, active singing 0.25-3.0 s and 4.6-7.5 s, closed-lip lean gap 3.2-4.4 s, identity/set held, mouth unobstructed, real lead-in",
+    "coverage_gap_seconds": [
+      3.2,
+      4.4
+    ],
+    "not_done": [
+      "no retries",
+      "no regeneration",
+      "no assembly",
+      "no commit",
+      "no owner approval or production adoption claimed"
+    ]
+  }
+}

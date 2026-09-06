@@ -25,6 +25,7 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from mvlib import ROOT, load, run, to_frames  # noqa: E402
+from assembly_sources import load_decisions, resolve_clip
 
 GRADES = {
     "none": "",
@@ -73,6 +74,7 @@ def main():
     a = ap.parse_args()
 
     sl = load(ROOT / "shots" / "shotlist.json")
+    decisions = load_decisions(ROOT)
     fps = sl["fps"]
     w, h = (1280, 720) if a.proxy else (1920, 1080)
     crf, preset = ("26", "veryfast") if a.proxy else ("18", "medium")
@@ -98,7 +100,9 @@ def main():
         frames = to_frames(s["dur_sec"], fps)
         dur = frames / fps
         seg = work / f"{s['id']}.mp4"
-        clip = s.get("clip") or {}
+        clip = resolve_clip(ROOT, s, fps, decisions)
+        if clip.get("assembly_decision"):
+            print(f"[assembly] {s['id']}: protected source {clip['file']}")
         src = clip.get("file")
         src_path = (ROOT / src) if src and not pathlib.Path(src).is_absolute() else (pathlib.Path(src) if src else None)
 

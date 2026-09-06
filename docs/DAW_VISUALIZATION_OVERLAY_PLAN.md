@@ -1,6 +1,14 @@
 # DAW-driven visual effects plan
 
-Status: creative direction for review before implementation.
+Status: evolving creative plan with tested looks; individual delivery approvals
+remain separate. Reusable modes and next tracking experiment: [FX_TYPES.md](FX_TYPES.md).
+
+Garden atmosphere, s019 / forest_fauna_eyes, is now FX-01: owner-accepted
+full-strength luminous airflow with bloom and three depth bands. Latest preview
+is flattened; separate production layers and motion integration remain pending.
+See [GARDEN_DUST_PILOT.md](GARDEN_DUST_PILOT.md). Next proposed experiment is FX-02:
+augment one existing light on a motion clip with a tracked musical pulse. No
+garden tracking claim or assembly substitution yet.
 
 Latest direction, 2026-09-05: the first effects comparison now tests one
 music-driven oscilloscope, both replacing and layering over the original trace.

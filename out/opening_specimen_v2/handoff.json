@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "test_id": "opening_specimen_v2",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "generate_one_continuous_overhead_specimen_take",
+  "authorization": {
+    "new_paid_generation": true,
+    "max_flow_submissions": 1,
+    "automatic_retries": false,
+    "lip_sync": false,
+    "production_edit_changes": false
+  },
+  "proposed_review_cuts": [
+    {
+      "shot_id": "s003",
+      "song_start_frame": 155,
+      "song_end_frame_exclusive": 334,
+      "source_origin_frame": 143,
+      "source_in_frame": 12,
+      "source_out_frame_exclusive": 191,
+      "lyric_end_frame_exclusive": 332
+    },
+    {
+      "shot_id": "s004",
+      "song_start_frame": 334,
+      "song_end_frame_exclusive": 476,
+      "source_origin_frame": 322,
+      "source_in_frame": 12,
+      "source_out_frame_exclusive": 154,
+      "lyric": "More than that sounds.",
+      "lyric_start_frame": 387,
+      "lyric_end_frame_exclusive": 464
+    }
+  ],
+  "clock": {
+    "fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "speed": 1,
+    "master_audio_only": true,
+    "note": "s004 origin is an editorial mapping of an unsynced prop take, not a claim of generated music synchronization."
+  },
+  "output": {
+    "clip": "out/opening_specimen_v2/base.mp4",
+    "receipt": "out/opening_specimen_v2/RECEIPT.md"
+  },
+  "assembly_caveat": "Old s005 starts at frame 430 and conflicts with revised s004. Codex must reconcile shotlist and overlay cues together in isolated opening review ending at 476; no production patch or blind append.",
+  "inputs": {
+    "first_frame": {
+      "file": "codex/out/canal_map_macro_b.jpg",
+      "sha256": "369C2AB8AF78FFB7CA833CB1A37933D954615980F81AA2AA41E578B7F5316828"
+    },
+    "prompt": "out/opening_specimen_v2/flow_prompt.txt",
+    "lock": "out/opening_specimen_v2/style_lock_v2.txt"
+  },
+  "generation": {
+    "model": "Veo 3.1 Quality",
+    "mode": "Frames",
+    "start_frame": "codex/out/canal_map_macro_b.jpg",
+    "end_frame": null,
+    "seconds": 8,
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "outputs": 1,
+    "expected_credits": 100,
+    "stop_if_cost_exceeds_expected": true
+  },
+  "requested_coverage": {
+    "source_frames": 192,
+    "fps": 24,
+    "required_continuous_interval": [
+      12,
+      154
+    ],
+    "lead_frames": 12,
+    "nominal_exit_frames": 38,
+    "actual_handles_must_be_verified": true
+  },
+  "claude_result": {
+    "completed_utc": "2026-09-06T03:46:00Z",
+    "receipt": "out/opening_specimen_v2/RECEIPT.md",
+    "base": {
+      "file": "out/opening_specimen_v2/base.mp4",
+      "sha256": "0CB72B1F0C58E4D97C933488392D203BA4A75EC49A281796E32B20D418A9AC17",
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "flow_media_id": "39dfb9e7-c901-49aa-9e39-eb2899d16cde",
+      "flow_submitted_utc": "2026-09-06T03:37:24Z",
+      "credits": 100,
+      "end_frame_used": false,
+      "first_frame_diff_vs_still": 1.1,
+      "watermark": "none"
+    },
+    "usable_continuous_intervals": [
+      [
+        0,
+        192
+      ]
+    ],
+    "required_interval_usable": true,
+    "clean_exit_handle_frames_after_154": [
+      154,
+      160
+    ],
+    "end_state_refs": [
+      "end_state_f153.jpg",
+      "end_state_f191.jpg"
+    ],
+    "verdict": "continuous overhead take; pieces and hands stable; single progression to a changed arrangement by ~6.2 s; right hand reaches to upper-right cluster from ~6.5 s",
+    "sheets": [
+      "contact_every6.jpg",
+      "contact_3.25-4.7s_every2.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no retry",
+      "no continuation",
+      "no assembly",
+      "no timing/cue edits",
+      "no commit"
+    ]
+  }
+}
