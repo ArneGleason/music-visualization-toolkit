@@ -1,0 +1,31 @@
+{
+  "status": "verified_owner_review_pending",
+  "sha256": "2d4b3e894a0556b8ee691e7f4c70a25c5a25bf83146d9580b5963fa0724c9576",
+  "probe": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "24/1",
+    "start_time": "0.000000",
+    "duration": "8.000000",
+    "nb_frames": "192"
+  },
+  "preview_song_frames": [
+    2399,
+    2564
+  ],
+  "excavation_song_frames": [
+    2484,
+    2564
+  ],
+  "source_frames": [
+    12,
+    92
+  ],
+  "source_origin_frame": 2472,
+  "no_added_FX": true,
+  "production_merged": false,
+  "avoid_source_frames": [
+    136,
+    192
+  ]
+}

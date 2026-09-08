@@ -1,0 +1,50 @@
+{
+  "status": "native_reveal_technical_checks_complete",
+  "song_frames": [
+    2122,
+    2233
+  ],
+  "frames": 111,
+  "fps": 24,
+  "resolution": [
+    {
+      "frame": 1,
+      "mean_1080_downsample_difference": 0.4969994212962963
+    },
+    {
+      "frame": 7,
+      "mean_1080_downsample_difference": 0.38314344618055557
+    },
+    {
+      "frame": 10,
+      "mean_1080_downsample_difference": 0.3803985821759259
+    },
+    {
+      "frame": 16,
+      "mean_1080_downsample_difference": 0.4041540075231482
+    },
+    {
+      "frame": 25,
+      "mean_1080_downsample_difference": 0.3961346209490741
+    },
+    {
+      "frame": 42,
+      "mean_1080_downsample_difference": 0.4174924045138889
+    },
+    {
+      "frame": 60,
+      "mean_1080_downsample_difference": 0.40429181134259257
+    },
+    {
+      "frame": 111,
+      "mean_1080_downsample_difference": 0.38743778935185186
+    }
+  ],
+  "source_images": [
+    "codex/out/forest_walk_track_b.jpg",
+    "codex/out/signal_crossing_space_a.jpg"
+  ],
+  "intentional_approximation": "Native noise nebula and procedural stars preserve composition/palette, not the exact old random texture. Authored polygon silhouette remains a still-image cutout, not moving footage roto.",
+  "production_promoted": false,
+  "clean_sha256": "6215778d12c5d52c0175b9f6ce6bfa5316c47f4b0542c43098c3eca6c2a86d24"
+}

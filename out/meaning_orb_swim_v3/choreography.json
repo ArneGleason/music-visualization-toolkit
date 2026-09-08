@@ -1,0 +1,2470 @@
+{
+  "status": "movement_test_owner_review_pending",
+  "preview_frames": [
+    2620,
+    2881
+  ],
+  "push_frames": [
+    2786,
+    2826
+  ],
+  "travel_frames": [
+    2748,
+    2836
+  ],
+  "records": [
+    {
+      "song_frame": 2658,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1030.0,
+        435.0
+      ],
+      "radius": 48.0,
+      "vocal_level": 0.6987694722829284,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2659,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1031.557030540028,
+        436.46178493563815
+      ],
+      "radius": 48.0,
+      "vocal_level": 0.22510742218436902,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2660,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1033.1062521614087,
+        437.91928200221776
+      ],
+      "radius": 48.0,
+      "vocal_level": 0.12837050742403044,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2661,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1034.6398951092804,
+        439.3682159083314
+      ],
+      "radius": 48.0,
+      "vocal_level": 0.11813880574632195,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2662,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1036.150267759936,
+        440.80433648098006
+      ],
+      "radius": 48.0,
+      "vocal_level": 0.10376221080877934,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2663,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1037.6297951963445,
+        442.2234311326498
+      ],
+      "radius": 48.0,
+      "vocal_level": 0.08055909590444767,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2664,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1039.0710571983554,
+        443.62133721813905
+      ],
+      "radius": 48.0,
+      "vocal_level": 0.066746448204998,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2665,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1040.4668254570602,
+        444.99395424488927
+      ],
+      "radius": 48.0,
+      "vocal_level": 0.05885423515814966,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2666,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1041.810099826667,
+        446.3372559010028
+      ],
+      "radius": 48.0,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2667,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1043.094143432077,
+        447.64730186566544
+      ],
+      "radius": 48.0,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2668,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1044.3125164560893,
+        448.9202493673313
+      ],
+      "radius": 48.0,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2669,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1045.459108436781,
+        450.1523644557641
+      ],
+      "radius": 48.07635584495089,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2670,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1046.5281689130863,
+        451.3400329548731
+      ],
+      "radius": 48.302306814703506,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2671,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1047.5143362648744,
+        452.4797710642133
+      ],
+      "radius": 48.673178061607814,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2672,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1048.4126646028863,
+        453.5682355780541
+      ],
+      "radius": 49.18429473801375,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2673,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1049.2186485736756,
+        454.60223369203925
+      ],
+      "radius": 49.830981996271255,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2674,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1049.9282459551423,
+        455.5787323686737
+      ],
+      "radius": 50.60856498873028,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2675,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1050.5378979293434,
+        456.49486723416396
+      ],
+      "radius": 51.51236886774077,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2676,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1051.0445469309018,
+        457.347950980516
+      ],
+      "radius": 52.53771878565267,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2677,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1051.4456519815037,
+        458.1354812482436
+      ],
+      "radius": 53.67993989481593,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2678,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1051.739201433575,
+        458.855147966566
+      ],
+      "radius": 54.93435734758049,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2679,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1051.9237230592232,
+        459.50484012956247
+      ],
+      "radius": 56.2962962962963,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2680,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1051.9982914338493,
+        460.0826519884081
+      ],
+      "radius": 57.761081893313296,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2681,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1051.9625325773955,
+        460.5868886415269
+      ],
+      "radius": 59.32403929098144,
+      "vocal_level": 0.7262912826300547,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2682,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1051.8166258299543,
+        461.0160710062642
+      ],
+      "radius": 60.98049364165067,
+      "vocal_level": 0.24893666082383276,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2683,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1051.5613029523304,
+        461.36894015749544
+      ],
+      "radius": 62.725770097670924,
+      "vocal_level": 0.40263949699513024,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2684,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1051.1978444560673,
+        461.6444610204443
+      ],
+      "radius": 64.55519381139216,
+      "vocal_level": 0.617497768198498,
+      "guitar_level": 0.43257828657603375
+    },
+    {
+      "song_frame": 2685,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1050.7280731813444,
+        461.84182540687834
+      ],
+      "radius": 66.46408993516431,
+      "vocal_level": 0.8905223589247332,
+      "guitar_level": 0.33174351046589395
+    },
+    {
+      "song_frame": 2686,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1050.154345154953,
+        461.96045438577625
+      ],
+      "radius": 68.44778362133734,
+      "vocal_level": 1,
+      "guitar_level": 0.23062956251607913
+    },
+    {
+      "song_frame": 2687,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1049.479537774201,
+        461.99999998151196
+      ],
+      "radius": 70.50160002226119,
+      "vocal_level": 0.8906697022661703,
+      "guitar_level": 0.14021907416606727
+    },
+    {
+      "song_frame": 2688,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1048.707035376006,
+        461.96034619457544
+      ],
+      "radius": 72.62086429028578,
+      "vocal_level": 0.7353207629217148,
+      "guitar_level": 0.1463525494979961
+    },
+    {
+      "song_frame": 2689,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1047.8407122635545,
+        461.8416093418351
+      ],
+      "radius": 74.80090157776108,
+      "vocal_level": 0.7063594206637583,
+      "guitar_level": 0.14855255879460344
+    },
+    {
+      "song_frame": 2690,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1046.8849132756493,
+        461.6441377153445
+      ],
+      "radius": 77.03703703703704,
+      "vocal_level": 0.80522030735388,
+      "guitar_level": 0.12700112853345116
+    },
+    {
+      "song_frame": 2691,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1045.8444319961975,
+        461.3685105606934
+      ],
+      "radius": 79.32459582046359,
+      "vocal_level": 0.98630994611997,
+      "guitar_level": 0.1008990765713391
+    },
+    {
+      "song_frame": 2692,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1044.724486713124,
+        461.0155363779006
+      ],
+      "radius": 81.65890308039067,
+      "vocal_level": 0.95488103022282,
+      "guitar_level": 0.0810448163430752
+    },
+    {
+      "song_frame": 2693,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1043.530694247281,
+        460.58625054983276
+      ],
+      "radius": 84.03528396916826,
+      "vocal_level": 0.997950639866664,
+      "guitar_level": 0.08132607251559756
+    },
+    {
+      "song_frame": 2694,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1042.269041782611,
+        460.0819123051045
+      ],
+      "radius": 86.44906363914629,
+      "vocal_level": 0.9922894876166639,
+      "guitar_level": 0.07617715876364908
+    },
+    {
+      "song_frame": 2695,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1040.945856838842,
+        459.5040010243701
+      ],
+      "radius": 88.89556724267469,
+      "vocal_level": 0.8626360646815617,
+      "guitar_level": 0.15763744943843083
+    },
+    {
+      "song_frame": 2696,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1039.5677755373051,
+        458.854211900841
+      ],
+      "radius": 91.3701199321034,
+      "vocal_level": 0.5302942696089146,
+      "guitar_level": 0.11086703224738144
+    },
+    {
+      "song_frame": 2697,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1038.1417093190398,
+        458.1344509677573
+      ],
+      "radius": 93.8680468597824,
+      "vocal_level": 0.4228437390247443,
+      "guitar_level": 0.076917467114861
+    },
+    {
+      "song_frame": 2698,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1036.6748102820927,
+        457.3468295074009
+      ],
+      "radius": 96.3846731780616,
+      "vocal_level": 0.5185069162485861,
+      "guitar_level": 0.06300467814424265
+    },
+    {
+      "song_frame": 2699,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1035.1744353118615,
+        456.493657858049
+      ],
+      "radius": 98.915324039291,
+      "vocal_level": 0.555717206534341,
+      "guitar_level": 0.07153208217994884
+    },
+    {
+      "song_frame": 2700,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1033.6481091843743,
+        455.57743863703445
+      ],
+      "radius": 101.45532459582047,
+      "vocal_level": 0.49689490716229945,
+      "guitar_level": 0.05036499806728426
+    },
+    {
+      "song_frame": 2701,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1032.1034868275551,
+        454.6008593997923
+      ],
+      "radius": 104.0,
+      "vocal_level": 0.6251138121904565,
+      "guitar_level": 0.05140577627701521
+    },
+    {
+      "song_frame": 2702,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1030.548314929741,
+        453.56678475642525
+      ],
+      "radius": 106.54467540417954,
+      "vocal_level": 0.7644770815580151,
+      "guitar_level": 0.04181271079928419
+    },
+    {
+      "song_frame": 2703,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1028.9903930879989,
+        452.4782479689129
+      ],
+      "radius": 109.084675960709,
+      "vocal_level": 0.4522703010749796,
+      "guitar_level": 0.03571261295957366
+    },
+    {
+      "song_frame": 2704,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1027.437534691089,
+        451.3384420536124
+      ],
+      "radius": 111.6153268219384,
+      "vocal_level": 0.2039635529778511,
+      "guitar_level": 0.03326263260219765
+    },
+    {
+      "song_frame": 2705,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1025.897527733261,
+        450.15071041515057
+      ],
+      "radius": 114.1319531402176,
+      "vocal_level": 0.09326713148381924,
+      "guitar_level": 0.02681588767663876
+    },
+    {
+      "song_frame": 2706,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1024.3780957554097,
+        448.9185370391795
+      ],
+      "radius": 116.62988006789661,
+      "vocal_level": 0.6307245395150227,
+      "guitar_level": 0.02544791347176265
+    },
+    {
+      "song_frame": 2707,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1022.8868591094807,
+        447.6455362727656
+      ],
+      "radius": 119.10443275732533,
+      "vocal_level": 1,
+      "guitar_level": 0.03280800862485666
+    },
+    {
+      "song_frame": 2708,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1021.431296740397,
+        446.33544222238686
+      ],
+      "radius": 121.55093636085371,
+      "vocal_level": 1,
+      "guitar_level": 0.3243828057057992
+    },
+    {
+      "song_frame": 2709,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1020.0187086771778,
+        444.9920978006399
+      ],
+      "radius": 123.96471603083174,
+      "vocal_level": 0.9908081913325649,
+      "guitar_level": 0.13814483303061417
+    },
+    {
+      "song_frame": 2710,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1018.6561794213692,
+        443.6194434537835
+      ],
+      "radius": 126.34109691960931,
+      "vocal_level": 0.8571373547619704,
+      "guitar_level": 0.06569430849336504
+    },
+    {
+      "song_frame": 2711,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1017.3505424164006,
+        442.22150560318687
+      ],
+      "radius": 128.67540417953643,
+      "vocal_level": 0.9199880074143443,
+      "guitar_level": 0.08279650898229962
+    },
+    {
+      "song_frame": 2712,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1016.1083457760647,
+        440.80238483458555
+      ],
+      "radius": 130.96296296296296,
+      "vocal_level": 1,
+      "guitar_level": 0.050480706706974285
+    },
+    {
+      "song_frame": 2713,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1014.9358194440005,
+        439.36624386979014
+      ],
+      "radius": 133.19909842223893,
+      "vocal_level": 1,
+      "guitar_level": 0.10873087274541177
+    },
+    {
+      "song_frame": 2714,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1013.8388439488832,
+        437.9172953561309
+      ],
+      "radius": 135.3791357097142,
+      "vocal_level": 0.8655693139315693,
+      "guitar_level": 0.044136037757617104
+    },
+    {
+      "song_frame": 2715,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1012.822920912023,
+        436.4597895094556
+      ],
+      "radius": 137.4983999777388,
+      "vocal_level": 1,
+      "guitar_level": 0.010937046717962822
+    },
+    {
+      "song_frame": 2716,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1011.8931454552836,
+        434.99800164692624
+      ],
+      "radius": 139.55221637866265,
+      "vocal_level": 0.7160593530430788,
+      "guitar_level": 0.01980512952543266
+    },
+    {
+      "song_frame": 2717,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1011.0541806477025,
+        433.53621964618685
+      ],
+      "radius": 141.5359100648357,
+      "vocal_level": 0.33530552718718254,
+      "guitar_level": 0.030653033793940312
+    },
+    {
+      "song_frame": 2718,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1010.3102341189712,
+        432.07873136768706
+      ],
+      "radius": 143.44480618860783,
+      "vocal_level": 1,
+      "guitar_level": 0.02188215714833136
+    },
+    {
+      "song_frame": 2719,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1009.6650369570621,
+        430.6298120770561
+      ],
+      "radius": 145.27422990232907,
+      "vocal_level": 1,
+      "guitar_level": 0.04108788203970141
+    },
+    {
+      "song_frame": 2720,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1009.1218249958393,
+        429.1937119044212
+      ],
+      "radius": 147.01950635834933,
+      "vocal_level": 1,
+      "guitar_level": 0.09306314392204035
+    },
+    {
+      "song_frame": 2721,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1008.6833225864988,
+        427.7746433774568
+      ],
+      "radius": 148.67596070901857,
+      "vocal_level": 1,
+      "guitar_level": 0.13603730695054025
+    },
+    {
+      "song_frame": 2722,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1008.3517289342279,
+        426.37676906473257
+      ],
+      "radius": 150.2389181066867,
+      "vocal_level": 1,
+      "guitar_level": 0.13618406329727745
+    },
+    {
+      "song_frame": 2723,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1008.1287070686133,
+        425.0041893656076
+      ],
+      "radius": 151.70370370370372,
+      "vocal_level": 1,
+      "guitar_level": 0.09935919721606526
+    },
+    {
+      "song_frame": 2724,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1008.0153755031072,
+        423.66093048248615
+      ],
+      "radius": 153.0656426524195,
+      "vocal_level": 1,
+      "guitar_level": 0.054356608136668885
+    },
+    {
+      "song_frame": 2725,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1008.012302625389,
+        422.3509326107158
+      ],
+      "radius": 154.32006010518407,
+      "vocal_level": 1,
+      "guitar_level": 0.2583906870913903
+    },
+    {
+      "song_frame": 2726,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1008.1195038467506,
+        421.0780383807712
+      ],
+      "radius": 155.46228121434734,
+      "vocal_level": 1,
+      "guitar_level": 0.12383901050877165
+    },
+    {
+      "song_frame": 2727,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1008.3364415248049,
+        419.84598158662607
+      ],
+      "radius": 156.48763113225922,
+      "vocal_level": 1,
+      "guitar_level": 0.033539661763800764
+    },
+    {
+      "song_frame": 2728,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1008.6620276599036,
+        418.658376233376
+      ],
+      "radius": 157.39143501126972,
+      "vocal_level": 1,
+      "guitar_level": 0.014882368905281992
+    },
+    {
+      "song_frame": 2729,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1009.0946293517433,
+        417.5187059362393
+      ],
+      "radius": 158.16901800372875,
+      "vocal_level": 1,
+      "guitar_level": 0.046911757491430256
+    },
+    {
+      "song_frame": 2730,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1009.6320769887899,
+        416.4303137020327
+      ],
+      "radius": 158.81570526198624,
+      "vocal_level": 1,
+      "guitar_level": 0.5055809903178796
+    },
+    {
+      "song_frame": 2731,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1010.2716751294532,
+        415.3963921230936
+      ],
+      "radius": 159.3268219383922,
+      "vocal_level": 1,
+      "guitar_level": 0.09331892938621532
+    },
+    {
+      "song_frame": 2732,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1011.0102160204368,
+        414.4199740124161
+      ],
+      "radius": 159.6976931852965,
+      "vocal_level": 1,
+      "guitar_level": 0.02964161932736342
+    },
+    {
+      "song_frame": 2733,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1011.8439956844663,
+        413.50392350746864
+      ],
+      "radius": 159.9236441550491,
+      "vocal_level": 1,
+      "guitar_level": 0.0719652371265809
+    },
+    {
+      "song_frame": 2734,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1012.7688324967128,
+        412.6509276687897
+      ],
+      "radius": 160.0,
+      "vocal_level": 1,
+      "guitar_level": 0.04584789871565181
+    },
+    {
+      "song_frame": 2735,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1013.7800881567422,
+        411.8634885980048
+      ],
+      "radius": 160.0,
+      "vocal_level": 0.8868231636039839,
+      "guitar_level": 0.009592673156393916
+    },
+    {
+      "song_frame": 2736,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1014.8726909508165,
+        411.14391609838594
+      ],
+      "radius": 160.0,
+      "vocal_level": 1,
+      "guitar_level": 0.013496056192776613
+    },
+    {
+      "song_frame": 2737,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1016.041161187874,
+        410.4943208994811
+      ],
+      "radius": 160.0,
+      "vocal_level": 1,
+      "guitar_level": 0.704847910336411
+    },
+    {
+      "song_frame": 2738,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1017.2796386816252,
+        409.9166084656894
+      ],
+      "radius": 160.0,
+      "vocal_level": 1,
+      "guitar_level": 0.022852923100575642
+    },
+    {
+      "song_frame": 2739,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1018.5819121409318,
+        409.4124734069423
+      ],
+      "radius": 160.0,
+      "vocal_level": 1,
+      "guitar_level": 0.013258428164844557
+    },
+    {
+      "song_frame": 2740,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1019.9414503210693,
+        408.98339450788654
+      ],
+      "radius": 160.0,
+      "vocal_level": 1,
+      "guitar_level": 0.030091231651110946
+    },
+    {
+      "song_frame": 2741,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1021.3514347796414,
+        408.63063039014986
+      ],
+      "radius": 160.0,
+      "vocal_level": 0.8020176123723737,
+      "guitar_level": 0.034780727057788584
+    },
+    {
+      "song_frame": 2742,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1022.8047940728657,
+        408.35521582041264
+      ],
+      "radius": 160.0,
+      "vocal_level": 1,
+      "guitar_level": 0.14998657979360502
+    },
+    {
+      "song_frame": 2743,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1024.2942392207292,
+        408.1579586751162
+      ],
+      "radius": 160.0,
+      "vocal_level": 1,
+      "guitar_level": 0.049054858063210235
+    },
+    {
+      "song_frame": 2744,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1025.812300263144,
+        408.0394375707106
+      ],
+      "radius": 160.0,
+      "vocal_level": 1,
+      "guitar_level": 0.007291953463623611
+    },
+    {
+      "song_frame": 2745,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1027.351363723767,
+        408.0000001663923
+      ],
+      "radius": 160.0,
+      "vocal_level": 0.9605924364663033,
+      "guitar_level": 0.02814550291426751
+    },
+    {
+      "song_frame": 2746,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1028.9037107935908,
+        408.03976214431236
+      ],
+      "radius": 160.0,
+      "vocal_level": 0.8643066396123172,
+      "guitar_level": 0.02491414922715835
+    },
+    {
+      "song_frame": 2747,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1030.461556042806,
+        408.1586068702447
+      ],
+      "radius": 160.0,
+      "vocal_level": 0.9714392082796702,
+      "guitar_level": 0.035754062211814826
+    },
+    {
+      "song_frame": 2748,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1032.017086466784,
+        408.3561857357101
+      ],
+      "radius": 160.0,
+      "vocal_level": 0.5528257216576024,
+      "guitar_level": 0.032039632196855274
+    },
+    {
+      "song_frame": 2749,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1033.2931970312177,
+        411.76669533579576
+      ],
+      "radius": 159.89212872739665,
+      "vocal_level": 0.33995789604192256,
+      "guitar_level": 0.036319536079978634
+    },
+    {
+      "song_frame": 2750,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1034.1294181424455,
+        415.4401158517909
+      ],
+      "radius": 159.56947536376168,
+      "vocal_level": 1,
+      "guitar_level": 0.03486803163267224
+    },
+    {
+      "song_frame": 2751,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1034.6817108842795,
+        419.336017548503
+      ],
+      "radius": 159.03417931433063,
+      "vocal_level": 1,
+      "guitar_level": 0.2853074395778465
+    },
+    {
+      "song_frame": 2752,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1035.0817064711655,
+        423.3931000635639
+      ],
+      "radius": 158.28930527701897,
+      "vocal_level": 0.6648308765094146,
+      "guitar_level": 0.24448010719168548
+    },
+    {
+      "song_frame": 2753,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1035.4261312583658,
+        427.5325898026002
+      ],
+      "radius": 157.33883139413118,
+      "vocal_level": 0.6117683001455656,
+      "guitar_level": 0.07387627258579854
+    },
+    {
+      "song_frame": 2754,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1035.7681728108223,
+        431.66274176263016
+      ],
+      "radius": 156.1876327493667,
+      "vocal_level": 0.6493505383558762,
+      "guitar_level": 0.2776845112598397
+    },
+    {
+      "song_frame": 2755,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1036.1112838472836,
+        435.68421589788016
+      ],
+      "radius": 154.84146029421834,
+      "vocal_level": 0.7159636881280467,
+      "guitar_level": 0.22794083752388855
+    },
+    {
+      "song_frame": 2756,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1036.4058003235298,
+        439.49605187949106
+      ],
+      "radius": 153.30691531114866,
+      "vocal_level": 0.8163333341690007,
+      "guitar_level": 0.17919856098304027
+    },
+    {
+      "song_frame": 2757,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1036.5486102680898,
+        443.0019331061357
+      ],
+      "radius": 151.5914195436752,
+      "vocal_level": 1,
+      "guitar_level": 0.16165475554944367
+    },
+    {
+      "song_frame": 2758,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1036.3859578417364,
+        446.11641272208584
+      ],
+      "radius": 149.70318114557375,
+      "vocal_level": 1,
+      "guitar_level": 0.14605121452063113
+    },
+    {
+      "song_frame": 2759,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1035.7193096692672,
+        448.7707721219607
+      ],
+      "radius": 147.65115662271572,
+      "vocal_level": 1,
+      "guitar_level": 0.3220016123561955
+    },
+    {
+      "song_frame": 2760,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1034.3140552699465,
+        450.9181961554217
+      ],
+      "radius": 145.44500896147431,
+      "vocal_level": 1,
+      "guitar_level": 0.27720838203751247
+    },
+    {
+      "song_frame": 2761,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1031.910667795222,
+        452.5379784272423
+      ],
+      "radius": 143.09506215706813,
+      "vocal_level": 1,
+      "guitar_level": 0.1727952973330583
+    },
+    {
+      "song_frame": 2762,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1028.237822250554,
+        453.63851342833385
+      ],
+      "radius": 140.61225237355555,
+      "vocal_level": 1,
+      "guitar_level": 0.09902099610443824
+    },
+    {
+      "song_frame": 2763,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1023.0268621660938,
+        454.25888777240624
+      ],
+      "radius": 138.0080759843563,
+      "vocal_level": 1,
+      "guitar_level": 0.043534071969389694
+    },
+    {
+      "song_frame": 2764,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1016.0269274826048,
+        454.4689480121806
+      ],
+      "radius": 135.29453475807543,
+      "vocal_level": 1,
+      "guitar_level": 0.04028023525180801
+    },
+    {
+      "song_frame": 2765,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        1007.0200101445837,
+        454.36779436586727
+      ],
+      "radius": 132.48407846894844,
+      "vocal_level": 1,
+      "guitar_level": 0.015379362581078134
+    },
+    {
+      "song_frame": 2766,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        995.8351919827282,
+        454.0807248703648
+      ],
+      "radius": 129.58954522435306,
+      "vocal_level": 1,
+      "guitar_level": 0.021898105513660733
+    },
+    {
+      "song_frame": 2767,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        982.3613427757821,
+        453.7547294906708
+      ],
+      "radius": 126.62409981346389,
+      "vocal_level": 1,
+      "guitar_level": 0.017020973876919615
+    },
+    {
+      "song_frame": 2768,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        966.5576141275853,
+        453.552705042028
+      ],
+      "radius": 123.6011703912117,
+      "vocal_level": 1,
+      "guitar_level": 0.05025974328229985
+    },
+    {
+      "song_frame": 2769,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        948.4611545960562,
+        453.6466260597377
+      ],
+      "radius": 120.53438382019115,
+      "vocal_level": 1,
+      "guitar_level": 0.010744703637806238
+    },
+    {
+      "song_frame": 2770,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        928.1915894846726,
+        454.20996092513906
+      ],
+      "radius": 117.4375,
+      "vocal_level": 1,
+      "guitar_level": 0.00033375354569964953
+    },
+    {
+      "song_frame": 2771,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        905.9519496452809,
+        455.40966401733544
+      ],
+      "radius": 114.32434551865185,
+      "vocal_level": 1,
+      "guitar_level": 0.12684816747387487
+    },
+    {
+      "song_frame": 2772,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        882.0258912431296,
+        457.3981013715762
+      ],
+      "radius": 111.20874696416023,
+      "vocal_level": 0.9815473261570783,
+      "guitar_level": 0.6590824634824886
+    },
+    {
+      "song_frame": 2773,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        856.77121559336,
+        460.30527791593977
+      ],
+      "radius": 108.10446423612288,
+      "vocal_level": 0.9029561769223178,
+      "guitar_level": 0.015672580530573604
+    },
+    {
+      "song_frame": 2774,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        830.609867301217,
+        464.23172818941174
+      ],
+      "radius": 105.02512419713453,
+      "vocal_level": 1,
+      "guitar_level": 0.007138474338691888
+    },
+    {
+      "song_frame": 2775,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        804.0147522963384,
+        469.24240964238254
+      ],
+      "radius": 101.98415500212593,
+      "vocal_level": 1,
+      "guitar_level": 0.012665773469684434
+    },
+    {
+      "song_frame": 2776,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        777.4938674303258,
+        475.36189907269886
+      ],
+      "radius": 98.99472144027168,
+      "vocal_level": 0.8749807701555549,
+      "guitar_level": 0.03719912051776695
+    },
+    {
+      "song_frame": 2777,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        751.5723631516847,
+        482.57114006890004
+      ],
+      "radius": 96.0696616189495,
+      "vocal_level": 1,
+      "guitar_level": 0.01907319874369614
+    },
+    {
+      "song_frame": 2778,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        726.7732643079836,
+        490.80592478321324
+      ],
+      "radius": 93.2214253123949,
+      "vocal_level": 0.7293303957348148,
+      "guitar_level": 0.0023494963004460053
+    },
+    {
+      "song_frame": 2779,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        703.5976464365642,
+        499.95721975953893
+      ],
+      "radius": 90.46201428921283,
+      "vocal_level": 0.9809242222197405,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2780,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        682.5051024655428,
+        509.87336614231765
+      ],
+      "radius": 87.80292492282322,
+      "vocal_level": 0.6409450736386239,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2781,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        663.8953355835024,
+        520.3641029181443
+      ],
+      "radius": 85.25509337728428,
+      "vocal_level": 0.20825968540316353,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2782,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        648.0916778259434,
+        531.2062815425433
+      ],
+      "radius": 82.82884364781471,
+      "vocal_level": 0.061382738915575795,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2783,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        635.3272620159964,
+        542.1510649854988
+      ],
+      "radius": 80.53383872078763,
+      "vocal_level": 0.09261620837151763,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2784,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        625.7344700476104,
+        552.9323372905721
+      ],
+      "radius": 78.37903510207448,
+      "vocal_level": 0.213276367221998,
+      "guitar_level": 0.0029319290128702645
+    },
+    {
+      "song_frame": 2785,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        619.3381475588243,
+        563.2759942219976
+      ],
+      "radius": 76.37264094545107,
+      "vocal_level": 0.9411083022560055,
+      "guitar_level": 0.19413764245248108
+    },
+    {
+      "song_frame": 2786,
+      "panel_shift_right_pixels": 0,
+      "object_center": [
+        616.0529195477658,
+        572.9097440107323
+      ],
+      "radius": 74.52207799443491,
+      "vocal_level": 1,
+      "guitar_level": 0.12478740609718379
+    },
+    {
+      "song_frame": 2787,
+      "panel_shift_right_pixels": 2,
+      "object_center": [
+        615.6847702057822,
+        581.5730215271558
+      ],
+      "radius": 72.83394753148868,
+      "vocal_level": 1,
+      "guitar_level": 0.08057926168971118
+    },
+    {
+      "song_frame": 2788,
+      "panel_shift_right_pixels": 9,
+      "object_center": [
+        617.9368706832037,
+        589.0266106240947
+      ],
+      "radius": 71.31400050810501,
+      "vocal_level": 1,
+      "guitar_level": 0.09163927096829187
+    },
+    {
+      "song_frame": 2789,
+      "panel_shift_right_pixels": 21,
+      "object_center": [
+        622.4194585614232,
+        595.061578367654
+      ],
+      "radius": 69.96711200798339,
+      "vocal_level": 1,
+      "guitar_level": 0.0702133996302474
+    },
+    {
+      "song_frame": 2790,
+      "panel_shift_right_pixels": 36,
+      "object_center": [
+        628.6634004185636,
+        599.507151080632
+      ],
+      "radius": 68.79726017342843,
+      "vocal_level": 1,
+      "guitar_level": 0.05026561401902637
+    },
+    {
+      "song_frame": 2791,
+      "panel_shift_right_pixels": 55,
+      "object_center": [
+        636.1369116666555,
+        602.2372044699682
+      ],
+      "radius": 67.80750970235546,
+      "vocal_level": 1,
+      "guitar_level": 0.011067489538741487
+    },
+    {
+      "song_frame": 2792,
+      "panel_shift_right_pixels": 78,
+      "object_center": [
+        644.2647727680054,
+        603.175096779739
+      ],
+      "radius": 67.0,
+      "vocal_level": 0.8936488182562616,
+      "guitar_level": 0.05822777354365813
+    },
+    {
+      "song_frame": 2793,
+      "panel_shift_right_pixels": 104,
+      "object_center": [
+        652.4492739959327,
+        602.2966424474038
+      ],
+      "radius": 66.3759380457063,
+      "vocal_level": 1,
+      "guitar_level": 0.09222172530868727
+    },
+    {
+      "song_frame": 2794,
+      "panel_shift_right_pixels": 133,
+      "object_center": [
+        660.0920468355091,
+        599.6311011543703
+      ],
+      "radius": 65.93559601114443,
+      "vocal_level": 1,
+      "guitar_level": 0.02510368871868286
+    },
+    {
+      "song_frame": 2795,
+      "panel_shift_right_pixels": 165,
+      "object_center": [
+        666.6159022112699,
+        595.2601400656002
+      ],
+      "radius": 65.67831364209309,
+      "vocal_level": 0.9667141933459155,
+      "guitar_level": 0.01190570218260391
+    },
+    {
+      "song_frame": 2796,
+      "panel_shift_right_pixels": 200,
+      "object_center": [
+        671.4857956632136,
+        589.3148118138016
+      ],
+      "radius": 65.6025053916512,
+      "vocal_level": 1,
+      "guitar_level": 0.021095983414955485
+    },
+    {
+      "song_frame": 2797,
+      "panel_shift_right_pixels": 237,
+      "object_center": [
+        674.2280773703646,
+        581.9706736852933
+      ],
+      "radius": 65.70567226852849,
+      "vocal_level": 1,
+      "guitar_level": 0.01069608898842611
+    },
+    {
+      "song_frame": 2798,
+      "panel_shift_right_pixels": 276,
+      "object_center": [
+        674.4472588617422,
+        573.4412508737828
+      ],
+      "radius": 65.98441834003975,
+      "vocal_level": 1,
+      "guitar_level": 0.06316963417721291
+    },
+    {
+      "song_frame": 2799,
+      "panel_shift_right_pixels": 318,
+      "object_center": [
+        671.839635071005,
+        563.970115198198
+      ],
+      "radius": 66.43447180570652,
+      "vocal_level": 0.6643911825550953,
+      "guitar_level": 0.06396020392146864
+    },
+    {
+      "song_frame": 2800,
+      "panel_shift_right_pixels": 361,
+      "object_center": [
+        666.2032353392281,
+        553.8219073424341
+      ],
+      "radius": 67.05071053408048,
+      "vocal_level": 1,
+      "guitar_level": 0.014448251262445802
+    },
+    {
+      "song_frame": 2801,
+      "panel_shift_right_pixels": 405,
+      "object_center": [
+        657.4437340626478,
+        543.2726730112302
+      ],
+      "radius": 67.82719193265842,
+      "vocal_level": 1,
+      "guitar_level": 0.09737275558395184
+    },
+    {
+      "song_frame": 2802,
+      "panel_shift_right_pixels": 451,
+      "object_center": [
+        645.5761239578375,
+        532.5999095913896
+      ],
+      "radius": 68.7571869986787,
+      "vocal_level": 1,
+      "guitar_level": 0.2930513396771734
+    },
+    {
+      "song_frame": 2803,
+      "panel_shift_right_pixels": 497,
+      "object_center": [
+        630.7221347549307,
+        522.0727288672161
+      ],
+      "radius": 69.83321837728428,
+      "vocal_level": 1,
+      "guitar_level": 0.04565842964077755
+    },
+    {
+      "song_frame": 2804,
+      "panel_shift_right_pixels": 544,
+      "object_center": [
+        613.1035595928479,
+        511.9425327390442
+      ],
+      "radius": 71.04710223311625,
+      "vocal_level": 1,
+      "guitar_level": 0.02301670015763029
+    },
+    {
+      "song_frame": 2805,
+      "panel_shift_right_pixels": 592,
+      "object_center": [
+        593.0318225821262,
+        502.4345731927887
+      ],
+      "radius": 72.38999372197019,
+      "vocal_level": 1,
+      "guitar_level": 0.05868252427096958
+    },
+    {
+      "song_frame": 2806,
+      "panel_shift_right_pixels": 640,
+      "object_center": [
+        570.894276419056,
+        493.74072618571125
+      ],
+      "radius": 73.85243583080208,
+      "vocal_level": 1,
+      "guitar_level": 0.08386833087526914
+    },
+    {
+      "song_frame": 2807,
+      "panel_shift_right_pixels": 688,
+      "object_center": [
+        547.1378518090526,
+        486.0137535723335
+      ],
+      "radius": 75.42441133720641,
+      "vocal_level": 1,
+      "guitar_level": 0.05989751327341786
+    },
+    {
+      "song_frame": 2808,
+      "panel_shift_right_pixels": 736,
+      "object_center": [
+        522.2507850512,
+        479.36326023343463
+      ],
+      "radius": 77.09539762359248,
+      "vocal_level": 1,
+      "guitar_level": 0.18387889417756828
+    },
+    {
+      "song_frame": 2809,
+      "panel_shift_right_pixels": 783,
+      "object_center": [
+        496.743222002804,
+        473.8534782287228
+      ],
+      "radius": 78.85442406673901,
+      "vocal_level": 0.6770375259446212,
+      "guitar_level": 0.12603122166433994
+    },
+    {
+      "song_frame": 2810,
+      "panel_shift_right_pixels": 829,
+      "object_center": [
+        471.1275328215475,
+        469.50292946963464
+      ],
+      "radius": 80.69013171028253,
+      "vocal_level": 0.45789738088948884,
+      "guitar_level": 0.0298710307381635
+    },
+    {
+      "song_frame": 2811,
+      "panel_shift_right_pixels": 875,
+      "object_center": [
+        445.8991710269785,
+        466.28593670897806
+      ],
+      "radius": 82.59083491606282,
+      "vocal_level": 0.37142085588590495,
+      "guitar_level": 0.7111209313500915
+    },
+    {
+      "song_frame": 2812,
+      "panel_shift_right_pixels": 919,
+      "object_center": [
+        421.51887285612037,
+        464.1358732181912
+      ],
+      "radius": 84.54458468016325,
+      "vocal_level": 0.19381159105510823,
+      "guitar_level": 0.047034688867531586
+    },
+    {
+      "song_frame": 2813,
+      "panel_shift_right_pixels": 962,
+      "object_center": [
+        398.3969205827021,
+        462.94996789829935
+      ],
+      "radius": 86.53923329100346,
+      "vocal_level": 0.3868503987614499,
+      "guitar_level": 0.03453457861517634
+    },
+    {
+      "song_frame": 2814,
+      "panel_shift_right_pixels": 1004,
+      "object_center": [
+        376.8800899527387,
+        462.5954179936587
+      ],
+      "radius": 88.5625,
+      "vocal_level": 0.5443861275275422,
+      "guitar_level": 0.05419190962744812
+    },
+    {
+      "song_frame": 2815,
+      "panel_shift_right_pixels": 1043,
+      "object_center": [
+        357.2417720759438,
+        462.91650886768144
+      ],
+      "radius": 90.60203737015357,
+      "vocal_level": 0.5871600818741253,
+      "guitar_level": 0.027277563378526177
+    },
+    {
+      "song_frame": 2816,
+      "panel_shift_right_pixels": 1080,
+      "object_center": [
+        339.6756100777788,
+        463.74240172318935
+      ],
+      "radius": 92.64549796446485,
+      "vocal_level": 0.6745868175912224,
+      "guitar_level": 0.003416411661821357
+    },
+    {
+      "song_frame": 2817,
+      "panel_shift_right_pixels": 1115,
+      "object_center": [
+        324.2928275151269,
+        464.8952273191678
+      ],
+      "radius": 94.68060103435042,
+      "vocal_level": 0.5145657382630716,
+      "guitar_level": 0.0001386688844300127
+    },
+    {
+      "song_frame": 2818,
+      "panel_shift_right_pixels": 1147,
+      "object_center": [
+        311.12325650362396,
+        466.1981175383877
+      ],
+      "radius": 96.69519886822984,
+      "vocal_level": 0.5044824055185039,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2819,
+      "panel_shift_right_pixels": 1176,
+      "object_center": [
+        300.119906425631,
+        467.48281722252045
+      ],
+      "radius": 98.6773424621866,
+      "vocal_level": 0.9437284041724717,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2820,
+      "panel_shift_right_pixels": 1202,
+      "object_center": [
+        291.1667565756792,
+        468.5965453744966
+      ],
+      "radius": 100.6153461780604,
+      "vocal_level": 0.9467808499693804,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2821,
+      "panel_shift_right_pixels": 1225,
+      "object_center": [
+        284.0893152617786,
+        469.40781626122583
+      ],
+      "radius": 102.4978510594878,
+      "vocal_level": 0.9741898452290956,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2822,
+      "panel_shift_right_pixels": 1244,
+      "object_center": [
+        278.66737001605844,
+        469.8109850963441
+      ],
+      "radius": 104.3138864832475,
+      "vocal_level": 1,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2823,
+      "panel_shift_right_pixels": 1259,
+      "object_center": [
+        274.64926388447196,
+        469.729347234849
+      ],
+      "radius": 106.05292983174884,
+      "vocal_level": 1,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2824,
+      "panel_shift_right_pixels": 1271,
+      "object_center": [
+        271.7669751438949,
+        469.1166911132971
+      ],
+      "radius": 107.70496388258624,
+      "vocal_level": 1,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2825,
+      "panel_shift_right_pixels": 1278,
+      "object_center": [
+        269.75125461771614,
+        467.9572801581708
+      ],
+      "radius": 109.2605316227157,
+      "vocal_level": 1,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2826,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        268.3460868066083,
+        466.26431404793226
+      ],
+      "radius": 110.71078820793285,
+      "vocal_level": 1,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2827,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        267.32178746538335,
+        464.07699154965655
+      ],
+      "radius": 112.04754980287876,
+      "vocal_level": 1,
+      "guitar_level": 0.0
+    },
+    {
+      "song_frame": 2828,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        266.48612859777063,
+        461.45636233048504
+      ],
+      "radius": 113.26333905269637,
+      "vocal_level": 0.8508512753004926,
+      "guitar_level": 0.006432140512297145
+    },
+    {
+      "song_frame": 2829,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        265.69298819723497,
+        458.4802106650149
+      ],
+      "radius": 114.35142695462405,
+      "vocal_level": 1,
+      "guitar_level": 0.030912529209631286
+    },
+    {
+      "song_frame": 2830,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        264.84815123824654,
+        455.2372572834405
+      ],
+      "radius": 115.3058709161586,
+      "vocal_level": 0.8331231819962618,
+      "guitar_level": 0.04879881507528578
+    },
+    {
+      "song_frame": 2831,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        263.91203418377034,
+        451.82099477286584
+      ],
+      "radius": 116.12154880585169,
+      "vocal_level": 0.831203844100033,
+      "guitar_level": 0.06811651250007404
+    },
+    {
+      "song_frame": 2832,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        262.89926063829495,
+        448.32348566566213
+      ],
+      "radius": 116.79418882322483,
+      "vocal_level": 1,
+      "guitar_level": 0.06508652427792272
+    },
+    {
+      "song_frame": 2833,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        261.87517333645167,
+        444.8294500609284
+      ],
+      "radius": 117.32039503559285,
+      "vocal_level": 0.7986553809036192,
+      "guitar_level": 0.10279965012823396
+    },
+    {
+      "song_frame": 2834,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.9495199326655,
+        441.4109515162839
+      ],
+      "radius": 117.69766845166549,
+      "vocal_level": 0.8466270909820633,
+      "guitar_level": 0.06559531073073137
+    },
+    {
+      "song_frame": 2835,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.2676898350768,
+        438.1229569466357
+      ],
+      "radius": 117.92442352454161,
+      "vocal_level": 1,
+      "guitar_level": 0.005869039685246748
+    },
+    {
+      "song_frame": 2836,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 118.0,
+      "vocal_level": 0.6086901006014298,
+      "guitar_level": 0.47877415218675007
+    },
+    {
+      "song_frame": 2837,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 118.00995154083593,
+      "vocal_level": 0.6323634350575961,
+      "guitar_level": 0.27415418255910107
+    },
+    {
+      "song_frame": 2838,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 118.0763638414047,
+      "vocal_level": 0.7190713449450067,
+      "guitar_level": 0.1613684857114235
+    },
+    {
+      "song_frame": 2839,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 118.24641385578401,
+      "vocal_level": 0.5008386491270733,
+      "guitar_level": 0.06207104188572281
+    },
+    {
+      "song_frame": 2840,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 118.55656815879647,
+      "vocal_level": 0.656134428634885,
+      "guitar_level": 0.11514206329830753
+    },
+    {
+      "song_frame": 2841,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 119.03215955461793,
+      "vocal_level": 0.3170486843823579,
+      "guitar_level": 0.19584845319647493
+    },
+    {
+      "song_frame": 2842,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 119.68720385275887,
+      "vocal_level": 0.2799691570388296,
+      "guitar_level": 0.34229313181584886
+    },
+    {
+      "song_frame": 2843,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 120.52445614008326,
+      "vocal_level": 0.7537671122824634,
+      "guitar_level": 0.36453188491675675
+    },
+    {
+      "song_frame": 2844,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 121.53570274517189,
+      "vocal_level": 1,
+      "guitar_level": 0.2571685276620423
+    },
+    {
+      "song_frame": 2845,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 122.70228201833979,
+      "vocal_level": 0.8891266995478964,
+      "guitar_level": 0.28650041834733103
+    },
+    {
+      "song_frame": 2846,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 123.99582406840668,
+      "vocal_level": 1,
+      "guitar_level": 0.5595550066866042
+    },
+    {
+      "song_frame": 2847,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 125.37919673639846,
+      "vocal_level": 1,
+      "guitar_level": 0.4308285092696961
+    },
+    {
+      "song_frame": 2848,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 126.80764237602837,
+      "vocal_level": 1,
+      "guitar_level": 0.44894723647401574
+    },
+    {
+      "song_frame": 2849,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 128.23008747892183,
+      "vocal_level": 1,
+      "guitar_level": 0.5608364448640365
+    },
+    {
+      "song_frame": 2850,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 129.59060485525512,
+      "vocal_level": 0.7197071548240074,
+      "guitar_level": 0.6983415728056981
+    },
+    {
+      "song_frame": 2851,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 130.8300059819917,
+      "vocal_level": 0.8235850651968646,
+      "guitar_level": 0.8335904707971931
+    },
+    {
+      "song_frame": 2852,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 131.8875392832837,
+      "vocal_level": 0.5295194920540574,
+      "guitar_level": 0.8366623428429129
+    },
+    {
+      "song_frame": 2853,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 132.70266853057896,
+      "vocal_level": 0.7421161626187321,
+      "guitar_level": 0.8124701755307628
+    },
+    {
+      "song_frame": 2854,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 133.21690426072246,
+      "vocal_level": 1,
+      "guitar_level": 0.6905910092793532
+    },
+    {
+      "song_frame": 2855,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 133.52473162041593,
+      "vocal_level": 1,
+      "guitar_level": 0.8043293991430125
+    },
+    {
+      "song_frame": 2856,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 133.75692404819532,
+      "vocal_level": 1,
+      "guitar_level": 0.9537035391746416
+    },
+    {
+      "song_frame": 2857,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 133.91235032589236,
+      "vocal_level": 1,
+      "guitar_level": 0.8333148560043079
+    },
+    {
+      "song_frame": 2858,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 133.99025323230552,
+      "vocal_level": 1,
+      "guitar_level": 0.7633640662175968
+    },
+    {
+      "song_frame": 2859,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 133.99025323230552,
+      "vocal_level": 1,
+      "guitar_level": 0.8355730173825956
+    },
+    {
+      "song_frame": 2860,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 133.91235032589236,
+      "vocal_level": 1,
+      "guitar_level": 0.6665073882276108
+    },
+    {
+      "song_frame": 2861,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 133.75692404819532,
+      "vocal_level": 0.9304134889467424,
+      "guitar_level": 0.7891689116299528
+    },
+    {
+      "song_frame": 2862,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 133.52473162041593,
+      "vocal_level": 1,
+      "guitar_level": 0.7765486383818032
+    },
+    {
+      "song_frame": 2863,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 133.21690426072246,
+      "vocal_level": 1,
+      "guitar_level": 0.9966673207769904
+    },
+    {
+      "song_frame": 2864,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 132.8349416730686,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2865,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 132.38070474078668,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2866,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 131.85640646055103,
+      "vocal_level": 1,
+      "guitar_level": 0.9553713917381745
+    },
+    {
+      "song_frame": 2867,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 131.26460116088066,
+      "vocal_level": 1,
+      "guitar_level": 0.8765313327858378
+    },
+    {
+      "song_frame": 2868,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 130.60817205770755,
+      "vocal_level": 1,
+      "guitar_level": 0.7754194611212533
+    },
+    {
+      "song_frame": 2869,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 129.8903172076383,
+      "vocal_level": 1,
+      "guitar_level": 0.6736482642770523
+    },
+    {
+      "song_frame": 2870,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 129.11453392734396,
+      "vocal_level": 1,
+      "guitar_level": 0.5819185622346057
+    },
+    {
+      "song_frame": 2871,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 128.28460175498464,
+      "vocal_level": 1,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2872,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 127.40456403667957,
+      "vocal_level": 0.8171913555838113,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2873,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 126.47870822773127,
+      "vocal_level": 0.9451789896827754,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2874,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 125.51154500457424,
+      "vocal_level": 0.7837976338915666,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2875,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 124.5077862892128,
+      "vocal_level": 0.8023259166339807,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2876,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 123.47232229321071,
+      "vocal_level": 0.6393628705263406,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2877,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 122.41019769307199,
+      "vocal_level": 0.4311723413415332,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2878,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 121.32658705308415,
+      "vocal_level": 0.06953936944570871,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2879,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 120.22676961536105,
+      "vocal_level": 0.043847392752166224,
+      "guitar_level": 1
+    },
+    {
+      "song_frame": 2880,
+      "panel_shift_right_pixels": 1280,
+      "object_center": [
+        260.0,
+        435.0
+      ],
+      "radius": 119.11610357990601,
+      "vocal_level": 0.042239232910964285,
+      "guitar_level": 1
+    }
+  ]
+}

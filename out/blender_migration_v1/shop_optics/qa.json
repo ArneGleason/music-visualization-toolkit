@@ -1,0 +1,52 @@
+{
+  "status": "optical_proof_not_full_shot_migration",
+  "frames": 85,
+  "fps": 24,
+  "song_frames": [
+    2399,
+    2484
+  ],
+  "source_switch_frame": 2431,
+  "mean_reference_difference": 1.6534573078363293,
+  "max_reference_difference": 2.177605975115741,
+  "resolution_checks": [
+    {
+      "frame": 1,
+      "mean_1080_downsample_difference": 1.5623933015046296
+    },
+    {
+      "frame": 26,
+      "mean_1080_downsample_difference": 1.039791304976852
+    },
+    {
+      "frame": 31,
+      "mean_1080_downsample_difference": 0.4124576822916667
+    },
+    {
+      "frame": 32,
+      "mean_1080_downsample_difference": 0.409814453125
+    },
+    {
+      "frame": 33,
+      "mean_1080_downsample_difference": 0.36251808449074074
+    },
+    {
+      "frame": 34,
+      "mean_1080_downsample_difference": 0.3631069155092593
+    },
+    {
+      "frame": 38,
+      "mean_1080_downsample_difference": 0.7532848668981481
+    },
+    {
+      "frame": 85,
+      "mean_1080_downsample_difference": 0.7304083478009259
+    }
+  ],
+  "limitations": [
+    "Approved decorative signal deliberately absent to isolate the transition.",
+    "Native blur sampling and edge extension are not pixel-identical to original OpenCV."
+  ],
+  "production_promoted": false,
+  "saved_scene_random_access_frame_33_max_pixel_error": 0.0
+}

@@ -1,0 +1,102 @@
+{
+  "song_frames": [
+    86,
+    155
+  ],
+  "fps": 24,
+  "substeps": 8,
+  "phosphor_half_lives_sec": [
+    0.03,
+    0.16
+  ],
+  "phosphor_texture_size": [
+    1024,
+    1024
+  ],
+  "render_size": [
+    2560,
+    1440
+  ],
+  "dwell_model": "1/sqrt(1+(dy/dx)^2), art-directed width and bloom",
+  "aperture": "elliptical soft clipping; trace reaches beyond useful glass",
+  "channels": {
+    "amber": "bass 25-180 Hz + 30% guitar 90-900 Hz",
+    "cyan": "rectified bass 25-180 Hz"
+  },
+  "dual_axes": "fixed amber; radial cyan",
+  "scope": "CRT-inspired composite, not a calibrated tube simulation",
+  "profile": "rosette",
+  "rail_settings": {
+    "model": "continuous multi-frequency mechanical sway",
+    "max_x_view_fraction": 0.0025,
+    "max_y_view_fraction": 0.00175,
+    "max_roll_degrees": 0.155,
+    "max_scale_fraction": 0.0023,
+    "soundtrack_and_signal": "unchanged",
+    "motion_blur": "none; low-amplitude camera movement at 24 fps"
+  },
+  "push_in_settings": {
+    "end_view_width_plate_px": 610,
+    "target_plate_xy": [
+      780,
+      314
+    ],
+    "ease": "smoothstep with exponential zoom",
+    "max_beam_gain_at_end": 1.2,
+    "amber": "core-weighted intensity, no new blur",
+    "cyan": "uniform intensity lift retaining defocus",
+    "amplitude": "unchanged",
+    "handles_rendered": 0
+  },
+  "guitar_settings": {
+    "gain": 0.3,
+    "filter_hz": [
+      90,
+      900
+    ],
+    "normalization": "fixed excerpt absolute 98.5th percentile",
+    "normalization_value": 0.16209861636161804,
+    "offset_sec": 0.178348,
+    "trigger": "shared bass-triggered song-time window"
+  },
+  "analog_settings": {
+    "amber_center_gain": 1.55,
+    "cyan_radial_center_gain": 1.45,
+    "noise_scale_px": {
+      "amber": 0.85,
+      "cyan": 1.1
+    },
+    "crackle": true,
+    "noise_floor_gain": "1.55*(1+.25*sin(t*3.1+.4)+.12*sin(t*7.3+1.7))",
+    "crackle_event_times_sec": [
+      0.19,
+      0.64,
+      1.09,
+      1.73,
+      2.38
+    ],
+    "sweep_brightness_range": [
+      0.95,
+      1.0
+    ],
+    "sweep_cycles_sec": {
+      "amber": 0.31,
+      "cyan": 0.23
+    },
+    "temporal_exposure_samples": 8
+  },
+  "rosette_settings": {
+    "cycles_per_revolution": 3,
+    "base_radius": 42,
+    "outward_gain": 153,
+    "compression_drive": 1.65,
+    "rotation_rad_sec": -0.1,
+    "period_range_samples": [
+      45,
+      200
+    ],
+    "driver": "three-period folded rectified bass, no frame normalization",
+    "cyan_defocus_sigma_texture_px": 7.5
+  },
+  "depth_settings": null
+}

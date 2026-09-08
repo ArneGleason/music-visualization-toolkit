@@ -1,0 +1,702 @@
+{
+  "fps": 24,
+  "duration_sec": 91.625,
+  "max_shot_sec": 8.0,
+  "shots": [
+    {
+      "id": "s001",
+      "section": "scene-01",
+      "type": "concept",
+      "setup": "obs_dome_open",
+      "start_barbeat": "2.4",
+      "start_sec": 0.0,
+      "end_sec": 3.5833333333333335,
+      "dur_sec": 3.5833333333333335,
+      "frames": 86,
+      "lyric": "",
+      "description": "Observatory dome opens",
+      "prompt": "Night. Symmetrical frontal wide of a hillside observatory: the dome slit stands open and a blade of warm gold light escapes it; one bright red point - Mars - sits dead center above the dome. No people. The slit rumbles wider as the camera pushes slowly toward it until the glow fills the frame.",
+      "clip": {
+        "file": "clips\\raw\\obs_dome_open_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Symmetrical frontal wide of a hillside observatory: the dome slit stands open and a blade of warm gold light escapes it; one bright red point - Mars - sits dead center above the dome. No people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "FRAME-CENTRIPETAL",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "s002",
+      "section": "scene-01",
+      "type": "concept",
+      "setup": "obs_console_macro",
+      "start_barbeat": "4.1",
+      "start_sec": 3.5833333333333335,
+      "end_sec": 6.458333333333333,
+      "dur_sec": 2.875,
+      "frames": 69,
+      "lyric": "",
+      "description": "Console and oscilloscope",
+      "prompt": "Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, glowing valves, and a round oscilloscope tube drawing a warm gold waveform, centered. No people. The waveform pulses like a voice; slow lateral drift ending centered on the scope screen.",
+      "clip": {
+        "file": "clips\\raw\\obs_console_macro_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Macro across a brass-and-bakelite observatory console: trembling dials, punched tape, glowing valves, and a round oscilloscope tube drawing a warm gold waveform, centered. No people.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "FRAME-CENTRIFUGAL",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "s003",
+      "section": "signal-exchange",
+      "type": "performance",
+      "setup": "astronomer_desk_sync",
+      "start_barbeat": "5.1",
+      "start_sec": 6.458333333333333,
+      "end_sec": 13.916666666666666,
+      "dur_sec": 7.458333333333333,
+      "frames": 179,
+      "lyric": "Hey, I need you for something. / It's important.",
+      "description": "Astronomer sings at desk",
+      "prompt": "Medium frontal shot, perfectly centered: {{astronomer}} at a desk laid with specimen trays, translucent organic fragments and spectrogram strips, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery - words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders on the beat. Locked off.",
+      "clip": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_a6ed5ea7904f880cb501.mp4",
+        "in_sec": 0.5,
+        "speed": 1,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\opening_performance_v3\\synced.mp4"
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Medium frontal shot, perfectly centered: {{astronomer}} at a desk laid with specimen trays, translucent organic fragments and spectrogram strips, a brass telescope behind her, warm tungsten pools in darkness. She faces the lens, mouth open mid-phrase, deadpan self-assurance.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-HYSTERETIC-PRESENCE",
+        "FRAME-SCALE-BILLING"
+      ]
+    },
+    {
+      "id": "s004",
+      "section": "signal-exchange",
+      "type": "concept",
+      "setup": "canal_map_macro",
+      "start_barbeat": "7.1",
+      "start_sec": 13.916666666666666,
+      "end_sec": 20.833333333333332,
+      "dur_sec": 6.916666666666667,
+      "frames": 166,
+      "lyric": "More than that sounds.",
+      "description": "Specimen pieces",
+      "prompt": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people. The hands slide the fragments together; the helices almost meet, then miss by a hair, again and again. Slow overhead push-in.",
+      "clip": {
+        "file": "out/opening_specimen_v2/base.mp4",
+        "in_sec": 0.5,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-RESPONSE-CHAIN",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "pieces_face_in",
+      "section": "scene-03",
+      "type": "performance",
+      "setup": "astronomer_close_sync",
+      "start_barbeat": "9.1",
+      "start_sec": 20.833333333333332,
+      "end_sec": 23.416666666666668,
+      "dur_sec": 2.5833333333333335,
+      "frames": 62,
+      "lyric": "",
+      "description": "Astronomer close-up",
+      "prompt": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope. She sings with confident punch, words clearly articulated, head steady. Locked off.",
+      "clip": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_d80f8bf64955ecec2fcf.mp4",
+        "in_sec": 0.5,
+        "speed": 1,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\pieces_performance_v1\\synced.mp4"
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-EXAGGERATED-ENUNCIATION",
+        "ANIM-MOVING-HOLD"
+      ]
+    },
+    {
+      "id": "pieces_insert",
+      "section": "signal-exchange",
+      "type": "concept",
+      "setup": "canal_map_macro",
+      "start_barbeat": "7.1",
+      "start_sec": 23.416666666666668,
+      "end_sec": 25.416666666666668,
+      "dur_sec": 2.0,
+      "frames": 48,
+      "lyric": "More than that sounds.",
+      "description": "Specimen pieces",
+      "prompt": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people. The hands slide the fragments together; the helices almost meet, then miss by a hair, again and again. Slow overhead push-in.",
+      "clip": {
+        "file": "out/pieces_cutaway_review/insert.mp4",
+        "in_sec": 0.0,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-RESPONSE-CHAIN",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "pieces_face_return",
+      "section": "scene-03",
+      "type": "performance",
+      "setup": "astronomer_close_sync",
+      "start_barbeat": "9.1",
+      "start_sec": 25.416666666666668,
+      "end_sec": 27.916666666666668,
+      "dur_sec": 2.5,
+      "frames": 60,
+      "lyric": "",
+      "description": "Astronomer close-up",
+      "prompt": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope. She sings with confident punch, words clearly articulated, head steady. Locked off.",
+      "clip": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_d80f8bf64955ecec2fcf.mp4",
+        "in_sec": 5.083333333333333,
+        "speed": 1,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\pieces_performance_v1\\synced.mp4"
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Frontal close-up of {{astronomer}} against a plain warm backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance with a flicker of hope.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-EXAGGERATED-ENUNCIATION",
+        "ANIM-MOVING-HOLD"
+      ]
+    },
+    {
+      "id": "specimen_mismatch",
+      "section": "signal-exchange",
+      "type": "concept",
+      "setup": "canal_map_macro",
+      "start_barbeat": "7.1",
+      "start_sec": 27.916666666666668,
+      "end_sec": 29.958333333333332,
+      "dur_sec": 2.0416666666666665,
+      "frames": 49,
+      "lyric": "Then they don't quite match.",
+      "description": "Specimen pieces",
+      "prompt": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people. The hands slide the fragments together; the helices almost meet, then miss by a hair, again and again. Slow overhead push-in.",
+      "clip": {
+        "file": "out/specimen_mismatch_v2/base.mp4",
+        "in_sec": 2.25,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Top-down overhead macro on a leather desktop: fragments of an alien specimen laid out like a puzzle - translucent organic shards with a helical, DNA-like structure visible inside, edges that almost interlock - beside a brass loupe and a spectrogram strip; tweed-cuffed hands hold two fragments whose helices almost line up. Only the hands are in frame; no people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-RESPONSE-CHAIN",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "s009",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "signal_crossing_space",
+      "start_barbeat": "13.1",
+      "start_sec": 29.958333333333332,
+      "end_sec": 33.541666666666664,
+      "dur_sec": 3.5833333333333335,
+      "frames": 86,
+      "lyric": "Can I send you my stuff?",
+      "description": "Signal crosses space",
+      "prompt": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people. The pulse travels across frame and arrives over the limb of the planet. Slow lateral drift following the light.",
+      "clip": {
+        "file": "out/probe_voice_trial/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "DEPTH-RELATIVE-SCALE",
+        "FRAME-CENTRIFUGAL"
+      ]
+    },
+    {
+      "id": "s010",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "receiver_dial_macro",
+      "start_barbeat": "14.1",
+      "start_sec": 33.541666666666664,
+      "end_sec": 35.666666666666664,
+      "dur_sec": 2.125,
+      "frames": 51,
+      "lyric": "Tell me what you got.",
+      "description": "Receiver dials tremble",
+      "prompt": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people. The needle trembles and the static flickers. Locked off with the slightest push.",
+      "clip": {
+        "file": "clips\\raw\\receiver_dial_macro_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "s011",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "signal_crossing_space",
+      "start_barbeat": "15.1",
+      "start_sec": 35.666666666666664,
+      "end_sec": 37.958333333333336,
+      "dur_sec": 2.2916666666666665,
+      "frames": 55,
+      "lyric": "Right?",
+      "description": "Signal crosses space",
+      "prompt": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people. The pulse travels across frame and arrives over the limb of the planet. Slow lateral drift following the light.",
+      "clip": {
+        "file": "out/probe_voice_trial/clean.mp4",
+        "in_sec": 5.708333333333333,
+        "speed": 1.0
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "From orbit: a single gold pulse of light crossing a deep star field toward the coral-red globe of Mars, threaded with winding blue-green rivers and dark oases; a striped gas giant and several small moons hang in matte-painting depth beyond. No people.",
+      "conventions": [
+        "CAM-PROCESSION",
+        "DEPTH-RELATIVE-SCALE",
+        "FRAME-CENTRIFUGAL"
+      ]
+    },
+    {
+      "id": "s012",
+      "section": "scene-05",
+      "type": "performance",
+      "setup": "astronaut_close_sync",
+      "start_barbeat": "16.1",
+      "start_sec": 37.958333333333336,
+      "end_sec": 45.083333333333336,
+      "dur_sec": 7.125,
+      "frames": 171,
+      "lyric": "I don't see anything. / Think you forgot to attach it. / If you've got it, give it.",
+      "description": "Astronaut close-up",
+      "prompt": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance. She sings straight to camera with confident, punchy delivery: words clearly articulated, eyes locked on the lens, head steady, a subtle groove in her shoulders. Locked off.",
+      "clip": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_49bb1ee673385c931ee7.mp4",
+        "in_sec": 0.5,
+        "speed": 1,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\astronaut_reply_v1\\synced.mp4"
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Frontal close-up of {{astronaut}} in {{suit}}, head and collar ring, against a soft dark neutral backdrop, eyes locked on the lens, mouth open mid-phrase, deadpan self-assurance.",
+      "conventions": [
+        "CAM-LOCKED",
+        "PERF-HYSTERETIC-PRESENCE",
+        "PERF-EXAGGERATED-ENUNCIATION"
+      ]
+    },
+    {
+      "id": "receiver_reply_arrival",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "receiver_dial_macro",
+      "start_barbeat": "14.1",
+      "start_sec": 45.083333333333336,
+      "end_sec": 50.041666666666664,
+      "dur_sec": 4.958333333333333,
+      "frames": 119,
+      "lyric": "Tell me what you got.",
+      "description": "Receiver dials tremble",
+      "prompt": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people. The needle trembles and the static flickers. Locked off with the slightest push.",
+      "clip": {
+        "file": "out/receiver_now_v3/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "screen_reply",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "receiver_dial_macro",
+      "start_barbeat": "14.1",
+      "start_sec": 50.041666666666664,
+      "end_sec": 54.333333333333336,
+      "dur_sec": 4.291666666666667,
+      "frames": 103,
+      "lyric": "Tell me what you got.",
+      "description": "Receiver dials tremble",
+      "prompt": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people. The needle trembles and the static flickers. Locked off with the slightest push.",
+      "clip": {
+        "file": "out/screen_garden_trial/clean.mp4",
+        "in_sec": 4.958333333333333,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "garden_entry",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "forest_threshold",
+      "start_barbeat": "14.1",
+      "start_sec": 54.333333333333336,
+      "end_sec": 58.833333333333336,
+      "dur_sec": 4.5,
+      "frames": 108,
+      "lyric": "Tell me what you got.",
+      "description": "Receiver dials tremble",
+      "prompt": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people. The needle trembles and the static flickers. Locked off with the slightest push.",
+      "clip": {
+        "file": "out/screen_garden_trial/clean.mp4",
+        "in_sec": 9.25,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "garden_walk",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "forest_walk_track",
+      "start_barbeat": "14.1",
+      "start_sec": 58.833333333333336,
+      "end_sec": 63.083333333333336,
+      "dur_sec": 4.25,
+      "frames": 102,
+      "lyric": "Tell me what you got.",
+      "description": "Receiver dials tremble",
+      "prompt": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people. The needle trembles and the static flickers. Locked off with the slightest push.",
+      "clip": {
+        "file": "out/garden_ghost_wings_v3/walk/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Night. Macro on Martian receiver hardware: bakelite dials, a swinging needle, a small round cathode screen flickering with static; cool moonlight on metal, warm glow from the dials. No people.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "garden_moth",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "forest_fauna_moth",
+      "start_sec": 63.083333333333336,
+      "end_sec": 65.375,
+      "dur_sec": 2.2916666666666665,
+      "frames": 55,
+      "lyric": "through the psychedelic garden",
+      "description": "Spectral ghost wings around the garden moth",
+      "prompt": "",
+      "clip": {
+        "file": "out/garden_ghost_wings_v3/moth/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Garden moth",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "garden_waking_motion_audition",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "forest_fauna_eyes",
+      "start_sec": 65.375,
+      "end_sec": 68.75,
+      "dur_sec": 3.375,
+      "frames": 81,
+      "lyric": "Something with no name is waking",
+      "description": "Staggered eye openings, three-depth airflow and leaf phosphor",
+      "prompt": "",
+      "clip": {
+        "file": "out/garden_waking_v3/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Dark waking fauna",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "garden_walk_return_review",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "forest_walk_track",
+      "start_sec": 68.75,
+      "end_sec": 71.25,
+      "dur_sec": 2.5,
+      "frames": 60,
+      "lyric": "in the psychedelic garden",
+      "description": "Continue screen-right through the garden; later lantern approach preserved for possible return.",
+      "prompt": "",
+      "clip": {
+        "file": "out/garden_walk_guide_v1/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Later garden walk, same woman and lantern.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "garden_birds_fx_audition",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "forest_fauna_birds",
+      "start_sec": 71.25,
+      "end_sec": 74.41666666666667,
+      "dur_sec": 3.1666666666666665,
+      "frames": 76,
+      "lyric": "And whatever woke is waiting",
+      "description": "Chrome hummingbirds hovering at warm hanging seed lanterns; musical light response.",
+      "prompt": "",
+      "clip": {
+        "file": "out/garden_birds_fx_v2/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Chrome hummingbirds at seed lanterns. Existing motion plate, not a generation prompt.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "garden_begin_bloom_audition",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "forest_awakening_frontal",
+      "start_sec": 74.41666666666667,
+      "end_sec": 77.25,
+      "dur_sec": 2.8333333333333335,
+      "frames": 68,
+      "lyric": "for the song to begin.",
+      "description": "Original unsynced garden take advanced to pollen release on begin. Green guide and song-timed lights retained.",
+      "prompt": "",
+      "clip": {
+        "file": "out/garden_guide_conductor_v4/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Frontal garden, woman and glowing seed lanterns.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    },
+    {
+      "id": "exchange_specimens_audition",
+      "section": "pattern-aperture",
+      "type": "concept",
+      "setup": "specimen_table_macro",
+      "start_barbeat": "29.1",
+      "start_sec": 77.25,
+      "end_sec": 84.0,
+      "dur_sec": 6.75,
+      "frames": 162,
+      "lyric": "Okay, there. You've got it. That should be enough. Just look and tell me.",
+      "description": "Existing footage timing audition. Offscreen astronomer voice; not a new generation prompt.",
+      "prompt": "",
+      "clip": {
+        "file": "clips\\raw\\specimen_table_macro_v6.mp4",
+        "in_sec": 0.5,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0
+      },
+      "still": "Top-down overhead of a white enamel specimen table: silver-gloved hands arranging fragments of an alien specimen - translucent organic shards with helical structure inside, spiked seed pods, a chrome scale - into a circular diagram that almost completes a pattern, one piece sitting wrong. Only the hands are in frame; no people.",
+      "conventions": [
+        "CAM-APPROACH",
+        "PERF-RESPONSE-CHAIN",
+        "ANIM-SLOW-IN-OUT"
+      ]
+    },
+    {
+      "id": "exchange_listener_audition",
+      "section": "pattern-aperture",
+      "type": "performance",
+      "setup": "astronaut_inspect_medium",
+      "start_barbeat": "31.1",
+      "start_sec": 84.0,
+      "end_sec": 88.41666666666667,
+      "dur_sec": 4.416666666666667,
+      "frames": 106,
+      "lyric": "Do you see a pattern? I'm sure it's there. Hard to find, right?",
+      "description": "Existing footage timing audition. Offscreen astronomer voice; not a new generation prompt.",
+      "prompt": "",
+      "clip": {
+        "file": "clips\\raw\\astronaut_inspect_medium_v6.mp4",
+        "in_sec": 0.5,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0
+      },
+      "still": "Waist-up medium of {{astronaut}} in {{suit}} at an enamel field table at the forest's edge, holding a strange translucent organic specimen up to the light, a helical structure glowing faintly inside it in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "FRAME-SCALE-BILLING"
+      ]
+    },
+    {
+      "id": "world_pullback_timing_test",
+      "section": "pattern-aperture",
+      "type": "performance",
+      "setup": "world_pullback_test",
+      "start_barbeat": "31.1",
+      "start_sec": 88.41666666666667,
+      "end_sec": 91.625,
+      "dur_sec": 3.2083333333333335,
+      "frames": 77,
+      "lyric": "I see the world plus more. More is probably nothing.",
+      "description": "Temporary procedural globe and existing garden still. Timing mockup only.",
+      "prompt": "",
+      "clip": {
+        "file": "out/world_pullback_refined_v2/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0
+      },
+      "still": "Waist-up medium of {{astronaut}} in {{suit}} at an enamel field table at the forest's edge, holding a strange translucent organic specimen up to the light, a helical structure glowing faintly inside it in silver-gloved hands, unhurried and deadpan; instruments in soft focus behind. Symmetrical. No one else in frame.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "FRAME-SCALE-BILLING"
+      ]
+    }
+  ]
+}

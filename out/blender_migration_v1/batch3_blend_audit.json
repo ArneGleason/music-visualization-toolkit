@@ -1,0 +1,458 @@
+[
+  {
+    "family": "opening",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\opening\\opening_1280.blend",
+    "frame_range": [
+      1,
+      86
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\opening\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "opening",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\opening\\opening_1920.blend",
+    "frame_range": [
+      1,
+      86
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\opening\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "birds",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\birds\\birds_1280.blend",
+    "frame_range": [
+      1,
+      76
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\birds\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "birds",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\birds\\birds_1920.blend",
+    "frame_range": [
+      1,
+      76
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\birds\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "guide",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\guide\\guide_1280.blend",
+    "frame_range": [
+      1,
+      60
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\guide\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "guide",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\guide\\guide_1920.blend",
+    "frame_range": [
+      1,
+      60
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\guide\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "bloom",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\bloom\\bloom_1280.blend",
+    "frame_range": [
+      1,
+      68
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\bloom\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "bloom",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\bloom\\bloom_1920.blend",
+    "frame_range": [
+      1,
+      68
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\bloom\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "pressure",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\pressure\\pressure_1280.blend",
+    "frame_range": [
+      1,
+      69
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\pressure\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "pressure",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\pressure\\pressure_1920.blend",
+    "frame_range": [
+      1,
+      69
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\pressure\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "swim043",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim043\\swim043_1280.blend",
+    "frame_range": [
+      1,
+      116
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim043\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "swim043",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim043\\swim043_1920.blend",
+    "frame_range": [
+      1,
+      116
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim043\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "swim044",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim044\\swim044_1280.blend",
+    "frame_range": [
+      1,
+      67
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim044\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "swim044",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim044\\swim044_1920.blend",
+    "frame_range": [
+      1,
+      67
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim044\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "swim047",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim047\\swim047_1280.blend",
+    "frame_range": [
+      1,
+      68
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim047\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "swim047",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim047\\swim047_1920.blend",
+    "frame_range": [
+      1,
+      68
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim047\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "tunnel",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\tunnel\\tunnel_1280.blend",
+    "frame_range": [
+      1,
+      57
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\tunnel\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 172,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "tunnel",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\tunnel\\tunnel_1920.blend",
+    "frame_range": [
+      1,
+      57
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\tunnel\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 172,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "titles",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\titles\\titles_1280.blend",
+    "frame_range": [
+      1,
+      72
+    ],
+    "images": [],
+    "objects": 7,
+    "text": [
+      "RIVERS OF MARS",
+      "Human imagination and direction, AI-assisted craft",
+      "Arne Gleason \u00b7 Human",
+      "v0.1.0  |  2026-09-07T20:56:35Z"
+    ],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "titles",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\titles\\titles_1920.blend",
+    "frame_range": [
+      1,
+      72
+    ],
+    "images": [],
+    "objects": 7,
+    "text": [
+      "RIVERS OF MARS",
+      "Human imagination and direction, AI-assisted craft",
+      "Arne Gleason \u00b7 Human",
+      "v0.1.0  |  2026-09-07T20:56:35Z"
+    ],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "pieces",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\pieces\\pieces_1280.blend",
+    "frame_range": [
+      1,
+      48
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\pieces\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "pieces",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\pieces\\pieces_1920.blend",
+    "frame_range": [
+      1,
+      48
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\pieces\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "meant",
+    "width": 1280,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\meant\\meant_1280.blend",
+    "frame_range": [
+      1,
+      11
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\meant\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  },
+  {
+    "family": "meant",
+    "width": 1920,
+    "blend": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\meant\\meant_1920.blend",
+    "frame_range": [
+      1,
+      11
+    ],
+    "images": [
+      {
+        "path": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\meant\\plates\\0001.png",
+        "source": "SEQUENCE"
+      }
+    ],
+    "objects": 2,
+    "text": [],
+    "errors": [],
+    "status": "dependency_check_pass"
+  }
+]

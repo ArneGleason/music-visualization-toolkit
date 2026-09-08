@@ -1,0 +1,51 @@
+[
+  {
+    "family": "world",
+    "frame": 42,
+    "max_difference": 0.0,
+    "mean_difference": 0.0,
+    "passed": true
+  },
+  {
+    "family": "orb",
+    "frame": 110,
+    "max_difference": 0.0,
+    "mean_difference": 0.0,
+    "passed": true
+  },
+  {
+    "family": "meaning",
+    "frame": 150,
+    "max_difference": 0.0,
+    "mean_difference": 0.0,
+    "passed": true
+  },
+  {
+    "family": "night",
+    "frame": 50,
+    "max_difference": 0.0,
+    "mean_difference": 0.0,
+    "passed": true
+  },
+  {
+    "family": "room_late",
+    "frame": 65,
+    "max_difference": 0.0,
+    "mean_difference": 0.0,
+    "passed": true
+  },
+  {
+    "family": "close_cloud",
+    "frame": 60,
+    "max_difference": 0.0,
+    "mean_difference": 0.0,
+    "passed": true
+  },
+  {
+    "family": "return_cloud",
+    "frame": 70,
+    "max_difference": 0.0,
+    "mean_difference": 0.0,
+    "passed": true
+  }
+]

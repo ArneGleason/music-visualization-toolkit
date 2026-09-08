@@ -1,0 +1,27 @@
+{
+  "hash_checks": {
+    "base": true,
+    "guide": true,
+    "synced": true,
+    "original": true
+  },
+  "native_video": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "nb_frames": "239",
+    "duration": "7.966667"
+  },
+  "audio_guide_correlation_zero_lag": 0.9998365719700799,
+  "conform": "Timestamp-resampled fps=24, no reinterpretation, no speed change, no added offset.",
+  "source_song_origin": 1720,
+  "source_frames_24fps": [
+    66,
+    134
+  ],
+  "song_frames": [
+    1786,
+    1854
+  ],
+  "articulation": "Claude reports partial/weak articulation, not corrected by assembly. Owner review required."
+}

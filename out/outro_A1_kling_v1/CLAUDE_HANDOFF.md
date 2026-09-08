@@ -1,0 +1,13 @@
+# A1 approved v3: Kling only
+
+Read handoff.json and verify the two input hashes. Upload THIS folder's base.mp4 (approved v3 picture, scratch audio removed without changing video) and guide.wav. One Kling Lip Sync, sole woman. Full guide starts at0 and lasts8seconds. Use uploaded audio, not sound from video. No offset, leading-silence removal, trimming, normalizing, timing adjustment or old A1 guide. Do not regenerate the Flow base or lip-sync a previously synced video.
+
+Expected cost10credits from past eight-second jobs; check actual UI before submission and stop if more expensive/unavailable. No purchases or upgrade. One submission only, no automatic retry. Check after30seconds, then20seconds,10seconds near90%; count tool time and respect site rate limits. No exponential backoff, repeated submissions or unnecessary minutes of waiting after completion.
+
+The guide is a continuous vocal-context slice, NOT a separated single-speaker stem. It includes 'Define there' and the start of 'No, go on' from the other speaker. This is intentional context, not a request to assign those lines to the astronomer. Codex only uses source12..67 and97..166 in her two cuts; the other speaker is on screen for the intervening reply. Never compress the guide to remove those lines. Preserve every gap and the full original clock.
+
+Review natural articulation of 'You still there', 'Never mind' and 'La-la-la, low light', especially phrase endings, because Flow's scratch performance was early. Note missed words, puppet lips, new teeth artifacts, or poor sync during the head turn; return the result for owner review, do not try to fix or regenerate it yourself. Her moderate warmth and the TV's brief static/reflected light are OWNER ACCEPTED, not defects requiring an acting retry. No TV effects processing here.
+
+Download the whole original and retain it; make byte-identical synced.mp4 here. No conversion to24fps, crop, speed change, trim or audio replacement. Record native fps, decoded frame count, duration/start times, dimensions, SHA256, job ID, actual credits/settings and observations in RECEIPT.md. Update handoff.json with claude_result paths/hashes and status claude_done_ready_for_codex_verification once on disk. If blocked, record why rather than mark done.
+
+STOP. No B1/A2, Flow, additional Kling, production changes, assembly or commit. Codex will timestamp-conform if needed and review the intended cuts. The source origin stays song4165 at24fps, not the beginning of the spoken question. The supplied audio already accounts for the project stem placement offset; apply no additional offset.

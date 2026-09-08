@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "test_id": "outro_B1_v2",
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "ONE exobiologist B1 Flow base, inspect before ONE Kling. Pause on material face/suit/artifact defects; no retries.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 1,
+    "kling_condition": "Base passes bounded visual review below; otherwise return base and stop for owner.",
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "sole woman",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical estimate110 total, check actual UI for each step. No purchases."
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "out/outro_B1_v2/first_frame.png",
+      "sha256": "96988adbea0a3da9f60dcf098077445a543976cc02d5a854475fe2594fc003b9"
+    },
+    "approved_anchor": {
+      "file": "out/outro_anchors_v2/exobiologist.png",
+      "sha256": "ea5bc2eb64dabc0601e33769876f3b035e594ae345ede604bc694833f04c5f0b"
+    },
+    "prompt": {
+      "file": "out/outro_B1_v2/flow_prompt.txt",
+      "sha256": "1afbdc838a70a8e99872209e9eb05afe7fec608965ce644a0e118e90e59dcd64"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    },
+    "guide": {
+      "file": "out/outro_B1_v2/guide.wav",
+      "sha256": "aec7fa16b9b240410a96b1363db4453bc24cfc355fc5b18c328c8fe7f3bff4f4"
+    }
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 4165,
+    "song_end_frame_exclusive": 4357,
+    "requested_frames": 192,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_start_seconds": 173.36331866666666,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0
+  },
+  "guide_provenance": {
+    "source": "Exact same full-window continuous-context guide as verified A1 test. B1 and A1 share song origin4165.",
+    "samples": 384000,
+    "processing": "Mono48k PCM16, original gaps intact, no gating, normalization or timing changes. Other speaker is intentionally present as context. Not speaker-separated."
+  },
+  "visible_cuts": [
+    {
+      "song_frames": [
+        4232,
+        4262
+      ],
+      "source_frames_at_24fps": [
+        67,
+        97
+      ],
+      "phrase": "Define there."
+    }
+  ],
+  "continuity": {
+    "future_B2_anchor_source_frame_at_24fps": 155,
+    "future_B2_song_origin": 4320,
+    "do_not_generate_B2": true,
+    "no_go_on": "B1 only contains the beginning as continuation context; production No go on4331..4362 requires B2, do not use truncated B1 or loop its tail."
+  },
+  "base_gate": {
+    "must_pass": [
+      "same face/plain silver suit, no chest dials or hoses",
+      "artifact same shape, stable hands, no morph or duplicated object",
+      "face readable and actively articulating Define there, not frozen puppet/humming",
+      "no camera cut or scene reset"
+    ],
+    "tolerate_and_report": [
+      "modest warmth/smile, not a reason for endless retries",
+      "approximate scratch timing differs",
+      "minor glance or small low hand motion"
+    ],
+    "if_material_failure": "Download and receipt base, set status=base_needs_owner_review, skip Kling; no retry."
+  },
+  "output": {
+    "base": "out/outro_B1_v2/base.mp4",
+    "synced": "out/outro_B1_v2/synced.mp4",
+    "receipt": "out/outro_B1_v2/RECEIPT.md",
+    "preserve_original_downloads": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "tool_time_counts": true,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true
+  },
+  "assembly_guard": "Codex selects only assigned B1 source67..97 and retains approved A1 TV map v2 clean once. Never shift to match scratch speech, use other-speaker context as visible B speech, or restart source clock. Native fps timestamp-conformed after download. No final media assignment here.",
+  "completion": "Write RECEIPT.md with each original/copy SHA256, job ID, settings, actual credits, fps/count/duration and observations. Add claude_result and set claude_done_ready_for_codex_verification only when both done; otherwise explicit blocked/base review status. No assembly, commit, FX, B2 or auto retry.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T15:30:00Z",
+    "receipt": "out/outro_B1_v2/RECEIPT.md",
+    "input_hashes_ok": true,
+    "flow": {
+      "media_id": "ed4e7604-e0ef-423c-88aa-47fc7a852316",
+      "submitted_utc": "2026-09-07T15:08:59Z",
+      "ready_utc": "2026-09-07T15:10:39Z",
+      "downloaded_utc": "2026-09-07T15:11:29Z",
+      "progress_log": [
+        "15:09:29 21%",
+        "15:09:49 37%",
+        "15:10:39 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "start_thumbnail_id": "98a6e2e3",
+      "end_frame_used": false,
+      "audio_uploaded": false,
+      "first_frame_diff": 1.0,
+      "watermark": "none",
+      "extension_disconnect_note": "one Chrome extension disconnect during setup; state re-verified before the single send"
+    },
+    "base_original": {
+      "file": "out/outro_B1_v2/original_ed4e7604-e0ef-423c-88aa-47fc7a852316.mp4",
+      "sha256": "2ed1a1b84dafd68a77b7141768ae580661a4039b83552fad54a1cdc1493c92b7"
+    },
+    "base": {
+      "file": "out/outro_B1_v2/base.mp4",
+      "sha256": "2ed1a1b84dafd68a77b7141768ae580661a4039b83552fad54a1cdc1493c92b7",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "stream_start": 0.0,
+      "audio": "aac 48 kHz stereo (disposable)"
+    },
+    "base_gate": {
+      "face_plain_suit": "pass",
+      "artifact_hands_stable": "pass",
+      "define_there_articulation": "pass (early 2.0-2.6 s, delighted look)",
+      "no_cut_or_reset": "pass",
+      "tolerated": [
+        "broad smile 2.6-5.5 s",
+        "early timing",
+        "invented mouth motion 0.4-0.7, 1.3-1.9, 5.5-6.4, 7.3-7.6 s"
+      ],
+      "passed": true
+    },
+    "base_timing_seconds": {
+      "glance_down": [
+        0.5,
+        1.3
+      ],
+      "define_there": [
+        2.0,
+        2.6
+      ],
+      "listening_smile": [
+        2.6,
+        5.5
+      ],
+      "early_no_go_on": [
+        5.5,
+        6.4
+      ],
+      "speech_shapes": [
+        7.3,
+        7.6
+      ],
+      "looks_down": [
+        7.5,
+        8.0
+      ]
+    },
+    "frame_155": "frontal, mouth slightly open mid-shape, hands/artifact stable",
+    "kling": {
+      "job_id": "5949",
+      "download_name": "kling_20260907_Lip_Sync__5949_0.mp4",
+      "faces_detected": "Character 1 = exobiologist (sole)",
+      "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav at 0:00-0:08 (gaps intact), Sound from Video OFF, MP4 Without Watermark",
+      "credits": 10,
+      "balance_before": 371,
+      "balance_after": 361,
+      "submitted_utc": "2026-09-07T15:13:50Z",
+      "generated_utc": "2026-09-07T15:17:15Z",
+      "download_clicked_utc": "2026-09-07T15:18:16Z",
+      "filed_utc": "2026-09-07T15:18:59Z"
+    },
+    "synced_original": {
+      "file": "out/outro_B1_v2/original_kling_5949.mp4",
+      "sha256": "7055e5d5037286e56692ddc33343f551e4d5aa212f14802e2ca181756ddf7ea6"
+    },
+    "synced": {
+      "file": "out/outro_B1_v2/synced.mp4",
+      "sha256": "7055e5d5037286e56692ddc33343f551e4d5aa212f14802e2ca181756ddf7ea6",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false,
+      "remux_made": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 0.993,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "only mouth re-rendered; artifact, hands, suit, room unchanged",
+    "kling_cut_67_97": {
+      "define": "weak: small jaw/lip changes 2.8-3.2 s over toothy smile",
+      "there": "weak: small changes 3.2-3.6 s; ending barely reads",
+      "tail": "closed-lip smile 3.6-4.04 s",
+      "cause": "guide level for her line ~150 RMS; base smiling with teeth"
+    },
+    "other_speaker_context": "strong singing shapes 4.5-6.4 s (outside her cut); No go on shapes 7.3-7.7 s (B2 context)",
+    "defects": [
+      "Define there under-articulated in her cut",
+      "base delighted look/broad smile",
+      "base phrases early with invented mouth motion outside windows"
+    ],
+    "verdict": "both stages complete; sync in her cut is weak and needs owner review (possible louder/isolated guide for her line or accept)",
+    "sheets": [
+      "contact_every6.jpg",
+      "crop_face_every2.jpg",
+      "crop_artifact_hands_every8.jpg",
+      "crop_chest_every24.jpg",
+      "keyframes_0_24_67_97_155_191.jpg",
+      "mouth_synced_cut_src2.4-4.4s_native30_everyframe.jpg",
+      "mouth_synced_every6.jpg",
+      "mouth_base_every6.jpg",
+      "contact_synced_every10_native.jpg"
+    ],
+    "not_done": [
+      "no retry",
+      "no B2/A2",
+      "no assembly",
+      "no production edits",
+      "no artifact/TV graphics",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

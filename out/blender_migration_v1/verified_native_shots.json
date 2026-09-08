@@ -1,0 +1,3074 @@
+{
+  "s001": {
+    "status": "verified_native",
+    "song_frames": [
+      0,
+      86
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "opening",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/opening/native_clean.mp4",
+        "sha256": "aad0bad54f6cbe2844a8b4614cdb554d9776c6bd98882fc1613744d31a2e9e80"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/opening/opening_1280.blend",
+        "sha256": "d15c30f1bc6931f5a58d6ce292e8daa1142d99d0c867429ce93ca9606345a1d4"
+      },
+      {
+        "file": "out/blender_migration_v1/opening/opening_1920.blend",
+        "sha256": "c2cf27dcea3ec7c1476e7705893d8784e6c25198fc0cc9af2805c63537dab436"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s002": {
+    "status": "verified_native",
+    "song_frames": [
+      86,
+      155
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "scope",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/scope/native_clean.mp4",
+        "sha256": "812f22be139baf67c1ad8423998da390d91d5dcdbef0c5a5aac70ed484337166"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/scope/scope_1280.blend",
+        "sha256": "92813a0f604dd1d2e757ae282c54409d8fc79bd02b9e7ed47450bac7afd6b43f"
+      },
+      {
+        "file": "out/blender_migration_v1/scope/scope_1920.blend",
+        "sha256": "806e949c08b25a17abecd5371a1bf582b3ede7886059810208b70ff2e0b2646d"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "opening_before_need": {
+    "status": "verified_native",
+    "song_frames": [
+      155,
+      205
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 12,
+    "artifacts": [
+      {
+        "file": "out/assembly_cfr/synced_a6ed5ea7904f880cb501.mp4",
+        "sha256": "724e28c9189fcb8ff52f93089230ae645b5e384e14b1082dfd2e3d93448f8bb4"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "opening_need_landscape": {
+    "status": "verified_native",
+    "song_frames": [
+      205,
+      282
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "aerial",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/aerial/native_clean.mp4",
+        "sha256": "6f2c4802bafe0d821b7aadde74f280a93a56686bb5dd90fd74de694e4601e6ca"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/aerial/aerial_1280.blend",
+        "sha256": "930f5f761b9c4a77892eb7020dee73aae7db6a2492eba66b7401a059734ae455"
+      },
+      {
+        "file": "out/blender_migration_v1/aerial/aerial_1920.blend",
+        "sha256": "e1b6f8e86c08f7e883570fe5ca1a48306121301f0825c07d520f385fb9f12da5"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "opening_after_need": {
+    "status": "verified_native",
+    "song_frames": [
+      282,
+      334
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 139,
+    "artifacts": [
+      {
+        "file": "out/assembly_cfr/synced_a6ed5ea7904f880cb501.mp4",
+        "sha256": "724e28c9189fcb8ff52f93089230ae645b5e384e14b1082dfd2e3d93448f8bb4"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s004": {
+    "status": "verified_native",
+    "song_frames": [
+      334,
+      500
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 12,
+    "artifacts": [
+      {
+        "file": "out/opening_specimen_v2/base.mp4",
+        "sha256": "0cb72b1f0c58e4d97c933488392d203ba4a75ec49a281796e32b20d418a9ac17"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "pieces_face_in": {
+    "status": "verified_native",
+    "song_frames": [
+      500,
+      562
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 12,
+    "artifacts": [
+      {
+        "file": "out/assembly_cfr/synced_d80f8bf64955ecec2fcf.mp4",
+        "sha256": "1b61c5eb5a534eb23d5da6c765d3525842fef3b6cfd9c8cf1892fbd3579cbc30"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "pieces_insert": {
+    "status": "verified_native",
+    "song_frames": [
+      562,
+      610
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "pieces",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/pieces/native_clean.mp4",
+        "sha256": "f73818814ae94ea005fb99971a1d1f90833de1f80d10a7f3b88a5855eaf995a9"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/pieces/pieces_1280.blend",
+        "sha256": "e4cdbb08c56dffb50f610ae23116406ed66df36aa79a4308cc0f17dc4abc3696"
+      },
+      {
+        "file": "out/blender_migration_v1/pieces/pieces_1920.blend",
+        "sha256": "40839851df6fdf7fdf7ec9d9b18629fe4b9a3c24b7cb21d74c63077dedcf06ba"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "pieces_face_return": {
+    "status": "verified_native",
+    "song_frames": [
+      610,
+      670
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 122,
+    "artifacts": [
+      {
+        "file": "out/assembly_cfr/synced_d80f8bf64955ecec2fcf.mp4",
+        "sha256": "1b61c5eb5a534eb23d5da6c765d3525842fef3b6cfd9c8cf1892fbd3579cbc30"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "specimen_mismatch": {
+    "status": "verified_native",
+    "song_frames": [
+      670,
+      719
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 54,
+    "artifacts": [
+      {
+        "file": "out/specimen_mismatch_v2/base.mp4",
+        "sha256": "1b26a031346ec59d5107c2718bec697d1fe1c1d981d51b4a393d8cf4151a2aba"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s009": {
+    "status": "verified_native",
+    "song_frames": [
+      719,
+      805
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "probe",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/probe/native_clean.mp4",
+        "sha256": "7c2981c70bd0ef839d3aee88469563a60cb7fd8cee72779f49b4a802b30dc893"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/probe/probe_1280.blend",
+        "sha256": "d67cb501140c3ae0d42e1f731b6c571aa233c58b29c925eeb1558346002b1120"
+      },
+      {
+        "file": "out/blender_migration_v1/probe/probe_1920.blend",
+        "sha256": "5fca5fe80db69a64836daed6217a4439315b89e1d32bd93e0b6cde2f8144c906"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s010": {
+    "status": "verified_native",
+    "song_frames": [
+      805,
+      856
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "receiver",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/receiver/native_clean.mp4",
+        "sha256": "5af5aec9c0e162052a9ef7390bf84ffc0c31c37a5fc6667f4b460555af581f30"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/receiver/receiver_1280.blend",
+        "sha256": "debb035e4990915359467f60d82413fa6e8a4e1945dc5873fa008fb1efc0a6bd"
+      },
+      {
+        "file": "out/blender_migration_v1/receiver/receiver_1920.blend",
+        "sha256": "f704fa7c8be093351acd57ce142247b074c044128998fc20b1e742b501e2804b"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s011": {
+    "status": "verified_native",
+    "song_frames": [
+      856,
+      911
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "probe",
+    "source_in_frame": 137,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/probe/native_clean.mp4",
+        "sha256": "7c2981c70bd0ef839d3aee88469563a60cb7fd8cee72779f49b4a802b30dc893"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/probe/probe_1280.blend",
+        "sha256": "d67cb501140c3ae0d42e1f731b6c571aa233c58b29c925eeb1558346002b1120"
+      },
+      {
+        "file": "out/blender_migration_v1/probe/probe_1920.blend",
+        "sha256": "5fca5fe80db69a64836daed6217a4439315b89e1d32bd93e0b6cde2f8144c906"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s012": {
+    "status": "verified_native",
+    "song_frames": [
+      911,
+      1082
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "message",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/message/performance_clean.mp4",
+        "sha256": "5f3bb0c58cd18ae135242c4a5e5cc73d7d5155d89551f1deeea91b93f1d8d85a"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/message/message_1280.blend",
+        "sha256": "61af873511808bb655af8b848b0fde0dc9cd61799f32cb2d8c3cf9e04aec4a12"
+      },
+      {
+        "file": "out/blender_migration_v1/message/message_1920.blend",
+        "sha256": "809741ff0f656ed89b21cf319f9418b4706aeab7eb4dffd4fbd3560273a584bc"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "receiver_reply_arrival": {
+    "status": "verified_native",
+    "song_frames": [
+      1082,
+      1201
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "message",
+    "source_in_frame": 111,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/message/native_clean.mp4",
+        "sha256": "3e73ad14f5383178977ee6dfa9f33b033c6511d10b991785fa756944ece09586"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/message/message_1280.blend",
+        "sha256": "61af873511808bb655af8b848b0fde0dc9cd61799f32cb2d8c3cf9e04aec4a12"
+      },
+      {
+        "file": "out/blender_migration_v1/message/message_1920.blend",
+        "sha256": "809741ff0f656ed89b21cf319f9418b4706aeab7eb4dffd4fbd3560273a584bc"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "screen_reply": {
+    "status": "verified_native",
+    "song_frames": [
+      1201,
+      1304
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "screen",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/screen/native_clean.mp4",
+        "sha256": "acb115ace5828c6d2398e2cb115bf0bd39ad325cda1310fb1ee8aa77855e4ca9"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/screen/screen_1280.blend",
+        "sha256": "06486e50a944d949a3ef178cf7a33c7b3a28b2ec35f9b2f5b891fbd6b8906177"
+      },
+      {
+        "file": "out/blender_migration_v1/screen/screen_1920.blend",
+        "sha256": "7df8569c37ec0d2723735b437e9d5e17bf0c9ba1164b019509b9c2505051566c"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "garden_entry": {
+    "status": "verified_native",
+    "song_frames": [
+      1304,
+      1412
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "clips/raw/forest_threshold_v6.mp4",
+        "sha256": "5c07a6b345fef0a6334146c0af2c688ddfc738fd649d582bfeace5bc22c630c3"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "garden_walk": {
+    "status": "verified_native",
+    "song_frames": [
+      1412,
+      1514
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "walk",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/walk/native_clean.mp4",
+        "sha256": "3622a3286bea1937ff8ae1d6136d0e8933df918745b5408c7ccda5ac2a1704d4"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/walk/walk_1280.blend",
+        "sha256": "ab40be9f4170fe8f97bfec073c5f2e56d23c2dcfb86267f3836b29f3ccb51d72"
+      },
+      {
+        "file": "out/blender_migration_v1/walk/walk_1920.blend",
+        "sha256": "afc8008ba9e695dc4a3d410d2051836eae91adfda6b2206613ad9bc275461470"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "garden_moth": {
+    "status": "verified_native",
+    "song_frames": [
+      1514,
+      1569
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "moth",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/moth/native_clean.mp4",
+        "sha256": "da41fa47b7b0773e84a55c9d669f9a9bc750af2ab76f2ac3f65e0755f93e134f"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/moth/moth_1280.blend",
+        "sha256": "4ba0cdfe97b2313944ec59fa530624bb4ea0737edda52b7c325b0d0efa213427"
+      },
+      {
+        "file": "out/blender_migration_v1/moth/moth_1920.blend",
+        "sha256": "295907d6957b96538fb49c79343f533057b522f6c60cd6aa35ae54419c17fe57"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "garden_waking_motion_audition": {
+    "status": "verified_native",
+    "song_frames": [
+      1569,
+      1650
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "waking",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/waking/native_clean.mp4",
+        "sha256": "65c25b21d4619f3cd25852169c27b5f4e35f034cbb7507ceb5d7de99a0c62838"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/waking/waking_1280.blend",
+        "sha256": "fa2dc9f96bf6506df26ee0e3ce2c9e71d8cb9b6c7c65b9975c645f5b78ec27e7"
+      },
+      {
+        "file": "out/blender_migration_v1/waking/waking_1920.blend",
+        "sha256": "3bebe0a6573b2d5d373ea78dc0411f6f3003446721fa4b643c721c29998015b4"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "garden_walk_return_review": {
+    "status": "verified_native",
+    "song_frames": [
+      1650,
+      1710
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "guide",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/guide/native_clean.mp4",
+        "sha256": "e2a039d74314a1c2eb2334b3a3c135186c9e9cceadbccff36b56d4d7b821043d"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/guide/guide_1280.blend",
+        "sha256": "a2504bae6a2d19e1d88a534814d39ed816239fd35a84616e0ee4bea227fb1021"
+      },
+      {
+        "file": "out/blender_migration_v1/guide/guide_1920.blend",
+        "sha256": "48e7ab3cfc54a36187b61ddbd6c3844640414d079ac6b9c22e810873f0611d5c"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "garden_birds_fx_audition": {
+    "status": "verified_native",
+    "song_frames": [
+      1710,
+      1786
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "birds",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/birds/native_clean.mp4",
+        "sha256": "15d4453bd9c872f22f85c477f8412e7d987b0fc1d7d45b4877b0a7f8f0e3593d"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/birds/birds_1280.blend",
+        "sha256": "04c79f004854aa57dce3aea54ea663d6b6c2a7afc6e1f77cf8d6538ddded575f"
+      },
+      {
+        "file": "out/blender_migration_v1/birds/birds_1920.blend",
+        "sha256": "786eb47de3e74ea9a85b574ae1b2c720ef79bc4e7e4d8f22c95a5c5d91d687dd"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "garden_begin_bloom_audition": {
+    "status": "verified_native",
+    "song_frames": [
+      1786,
+      1854
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "bloom",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/bloom/native_clean.mp4",
+        "sha256": "d342f7c49cbaf50f9f5393f7c1146b307fca3490bbcc651f6053772d8c131f4c"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/bloom/bloom_1280.blend",
+        "sha256": "bb97bc6d39761496b7b37310b9fa8266293d5b73d895d5d7bcc28a4bfe5eb67b"
+      },
+      {
+        "file": "out/blender_migration_v1/bloom/bloom_1920.blend",
+        "sha256": "0559436c28d162ee2845339ce22c146dfa97b964c4fd370a91acb3c2caec317d"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "exchange_specimens_audition": {
+    "status": "verified_native",
+    "song_frames": [
+      1854,
+      2016
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 12,
+    "artifacts": [
+      {
+        "file": "clips/raw/specimen_table_macro_v6.mp4",
+        "sha256": "88cd64ff4650a921e2133597a591c8b7f10bc922ff8956e58aac7098b8831644"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "exchange_listener_audition": {
+    "status": "verified_native",
+    "song_frames": [
+      2016,
+      2122
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "specimen",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/specimen/native_clean.mp4",
+        "sha256": "9bfc4910ea2dc0cf34eedcc0e65e1379c392424f2ec1f330babc447fb167744b"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/specimen/specimen_1280.blend",
+        "sha256": "5138695e4a930f8c8ba96db48149986f4ed883a919b32cb771b63a4fefd3c561"
+      },
+      {
+        "file": "out/blender_migration_v1/specimen/specimen_1920.blend",
+        "sha256": "433169bd62af06bd20f19eccc792f62a999953f93a1f988a51deb50184057bac"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "world_pullback_timing_test": {
+    "status": "verified_native",
+    "song_frames": [
+      2122,
+      2233
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "world",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/world/native_clean.mp4",
+        "sha256": "6215778d12c5d52c0175b9f6ce6bfa5316c47f4b0542c43098c3eca6c2a86d24"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/world/world_1280.blend",
+        "sha256": "3d46c44172f325b839f8d3d69fd46f7abe99ec0eb963af82d75badac8cc3617a"
+      },
+      {
+        "file": "out/blender_migration_v1/world/world_1920.blend",
+        "sha256": "dc31b1d5566b54ef455202ae7dfb3c0c1252d81154b9b1fc4d282436257f4f90"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "close_reply_timing_test": {
+    "status": "verified_native",
+    "song_frames": [
+      2233,
+      2271
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/next_mars_sequence_v1/close_clean.mp4",
+        "sha256": "a58be3c03a4eeedaf154f5406537a720914ea2b8f0fee89051d481ea9e898f10"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "mars_colony_reply_test": {
+    "status": "verified_native",
+    "song_frames": [
+      2271,
+      2399
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "orb",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/orb/native_clean.mp4",
+        "sha256": "88dfd10ce4f0d12a473621f48c1910fb12ea7ba0cf25c7e6798ab0f12a38b1d8"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/orb/orb_1280.blend",
+        "sha256": "b46929225c29be19aaaa3cf095878a0c5d8fc13ed4de9cdddf4f0a8dbdae6a86"
+      },
+      {
+        "file": "out/blender_migration_v1/orb/orb_1920.blend",
+        "sha256": "82695a942f91cc1fb04c8a673a3fd5ebb20966a01d07f11c25ecb507052ba687"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "shop_reply_timing_test": {
+    "status": "verified_native",
+    "song_frames": [
+      2399,
+      2484
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "shop_full",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/shop_full/native_clean.mp4",
+        "sha256": "4cfe69b441966ca923ecb09ebce0375842e8347687384cb421d9a6205ecba5ca"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/shop_full/shop_full_1280.blend",
+        "sha256": "7e46628ada26636f8802919cfeba30233805ac2316c4dbc4a55147f3b2ef3094"
+      },
+      {
+        "file": "out/blender_migration_v1/shop_full/shop_full_1920.blend",
+        "sha256": "333378b604380a76778cce004671383724bc07ee504972f8438f8801c2db79a7"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "archaeology_discovery_review": {
+    "status": "verified_native",
+    "song_frames": [
+      2484,
+      2564
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 12,
+    "artifacts": [
+      {
+        "file": "out/archaeology_discovery_v1/base.mp4",
+        "sha256": "2d4b3e894a0556b8ee691e7f4c70a25c5a25bf83146d9580b5963fa0724c9576"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "excavation_reply_performance_review": {
+    "status": "verified_native",
+    "song_frames": [
+      2564,
+      2647
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 12,
+    "artifacts": [
+      {
+        "file": "out/excavation_reply_synced_v2/conformed.mp4",
+        "sha256": "7e2b598500c0b3cbba1d0865b30525cb7ded239dbc888d747600c0a4ae791b51"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "meant_artifact_insert": {
+    "status": "verified_native",
+    "song_frames": [
+      2647,
+      2658
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "meant",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/meant/native_clean.mp4",
+        "sha256": "f85d7d1962c261f890db359717e8745091806900ac8ef5fcdebe1c5d7f673991"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/meant/meant_1280.blend",
+        "sha256": "b4f41b122b3dde20a0f17a3565d5fcb6081639aa90b9510f665191be8f05149c"
+      },
+      {
+        "file": "out/blender_migration_v1/meant/meant_1920.blend",
+        "sha256": "355861448be137cb604c1d3884a5b79f954513c48ecd127ce155d955faf1d8ec"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "meaning_reply_test": {
+    "status": "verified_native",
+    "song_frames": [
+      2658,
+      2812
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "meaning",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/meaning/native_clean.mp4",
+        "sha256": "41dd787cd6aff790b70a7569398cec95fade391c8005c18b8efdb85ffecaf2c4"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/meaning/meaning_1280.blend",
+        "sha256": "f69d4e7244a76732f80553fcb1aef1404d3fd4091a7ac00f0eb4adb9ffc2d7ff"
+      },
+      {
+        "file": "out/blender_migration_v1/meaning/meaning_1920.blend",
+        "sha256": "1347bc3a726b308455ac1d08340aa14a007a0b31155b5fa90716fa0b80ac8b47"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "meaning_listener_test": {
+    "status": "verified_native",
+    "song_frames": [
+      2812,
+      2881
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "meaning",
+    "source_in_frame": 154,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/meaning/native_clean.mp4",
+        "sha256": "41dd787cd6aff790b70a7569398cec95fade391c8005c18b8efdb85ffecaf2c4"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/meaning/meaning_1280.blend",
+        "sha256": "f69d4e7244a76732f80553fcb1aef1404d3fd4091a7ac00f0eb4adb9ffc2d7ff"
+      },
+      {
+        "file": "out/blender_migration_v1/meaning/meaning_1920.blend",
+        "sha256": "1347bc3a726b308455ac1d08340aa14a007a0b31155b5fa90716fa0b80ac8b47"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s035": {
+    "status": "verified_native",
+    "song_frames": [
+      2881,
+      2928
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 12,
+    "artifacts": [
+      {
+        "file": "out/orbital_continuity_v1/take2/base.mp4",
+        "sha256": "c03615cf66d7b9db63530285beb719d8f7c32711d3cdb68ed2a47a5bf7299c64"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "landing_retry_s036": {
+    "status": "verified_native",
+    "song_frames": [
+      2928,
+      2958
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 12,
+    "artifacts": [
+      {
+        "file": "out/message_into_rockets_v3/conformed.mp4",
+        "sha256": "1075c1367a5866b9360b32fe60efa620408d6c10c48509e7e3c85c8831844d44"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "landing_retry_s037": {
+    "status": "verified_native",
+    "song_frames": [
+      2958,
+      3027
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "pressure",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/pressure/native_clean.mp4",
+        "sha256": "5af4d963e4db146a0d1bf3a01a6384da2c64f34be8e6ee351456a78342e98582"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/pressure/pressure_1280.blend",
+        "sha256": "d94a62d17b3105a7d9c8f88be08d8b2e1b0ee8579f4ca60c0b68a28641ae1d1f"
+      },
+      {
+        "file": "out/blender_migration_v1/pressure/pressure_1920.blend",
+        "sha256": "eaebddecc591252a0312171cbbccd34d6cdc5275f0205b9f9c1444db56b5f357"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "landing_tail_s038": {
+    "status": "verified_native",
+    "song_frames": [
+      3027,
+      3100
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 111,
+    "artifacts": [
+      {
+        "file": "out/message_into_rockets_v3/conformed.mp4",
+        "sha256": "1075c1367a5866b9360b32fe60efa620408d6c10c48509e7e3c85c8831844d44"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "spring_wide_insert": {
+    "status": "verified_native",
+    "song_frames": [
+      3100,
+      3165
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 112,
+    "artifacts": [
+      {
+        "file": "clips/raw/rain_to_canal_v6.mp4",
+        "sha256": "b5adb509d04caae529be114eb80b748818877eb7a9c0c2a46aee4dbef5ac09be"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "spring_close_s040": {
+    "status": "verified_native",
+    "song_frames": [
+      3165,
+      3229
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "clips/raw/rain_to_canal_v6.mp4",
+        "sha256": "b5adb509d04caae529be114eb80b748818877eb7a9c0c2a46aee4dbef5ac09be"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s041": {
+    "status": "verified_native",
+    "song_frames": [
+      3229,
+      3300
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "clips/raw/basin_moon_descent_v6.mp4",
+        "sha256": "1a72d403480970d767a0d60e3d58bfc8eda942717ec9c34fcb0ad9b28228e011"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s042": {
+    "status": "verified_native",
+    "song_frames": [
+      3300,
+      3376
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 66,
+    "artifacts": [
+      {
+        "file": "out/swimmer_cutaway_v2/synced_24.mp4",
+        "sha256": "8092378dfb5cc11ed2b04bac8f8353d843aac8e14c6375aa8c769627cb6a9ec3"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "swimming_overhead_early": {
+    "status": "verified_native",
+    "song_frames": [
+      3376,
+      3438
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "swim043",
+    "source_in_frame": 54,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/swim043/native_clean.mp4",
+        "sha256": "8623f68eae179f50ba4e9a9384c6c9c10f3e8f28bea3e076bee88c5822eece60"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/swim043/swim043_1280.blend",
+        "sha256": "88e79f85bd38c84fe3d890881a296d2de5eb1ff98d48e3fb6b38283fbd048ff9"
+      },
+      {
+        "file": "out/blender_migration_v1/swim043/swim043_1920.blend",
+        "sha256": "114912ca7d5aae34bb4b4d774033aec03f1e525886e0462d1556b5cc834831f7"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s044": {
+    "status": "verified_native",
+    "song_frames": [
+      3438,
+      3505
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "swim044",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/swim044/native_clean.mp4",
+        "sha256": "91560f150acbc5482052f215ce389af5d042e3427ff3883abfc42e672b7c954a"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/swim044/swim044_1280.blend",
+        "sha256": "d99bc457e2c84210b602dd5bd77dae9031118e37b2a65cd2c9831383b8777cfb"
+      },
+      {
+        "file": "out/blender_migration_v1/swim044/swim044_1920.blend",
+        "sha256": "50adb3980d85f0255c95904b22ebce2b427babd2c3b95a5a8b7539f4e75aef39"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s045": {
+    "status": "verified_native",
+    "song_frames": [
+      3505,
+      3574
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "bends",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/bends/native_clean.mp4",
+        "sha256": "1863a4461d4685c484e940e0d80aaae94bd2f9014220fb875b40173ae9b04eb8"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/bends/bends_1280.blend",
+        "sha256": "016b53f41ec4a4a3edbae57013fc5b3f789d302766c8657c6ebf2d000d43df57"
+      },
+      {
+        "file": "out/blender_migration_v1/bends/bends_1920.blend",
+        "sha256": "df51bd13c19330f5a0fbc6ed59069467bc151a59409e18b7e9a2c1c82a65b4c3"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s046": {
+    "status": "verified_native",
+    "song_frames": [
+      3574,
+      3642
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "bends",
+    "source_in_frame": 69,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/bends/native_clean.mp4",
+        "sha256": "1863a4461d4685c484e940e0d80aaae94bd2f9014220fb875b40173ae9b04eb8"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/bends/bends_1280.blend",
+        "sha256": "016b53f41ec4a4a3edbae57013fc5b3f789d302766c8657c6ebf2d000d43df57"
+      },
+      {
+        "file": "out/blender_migration_v1/bends/bends_1920.blend",
+        "sha256": "df51bd13c19330f5a0fbc6ed59069467bc151a59409e18b7e9a2c1c82a65b4c3"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s047": {
+    "status": "verified_native",
+    "song_frames": [
+      3642,
+      3710
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "swim047",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/swim047/native_clean.mp4",
+        "sha256": "a06b7d87fbbc55e39bc6d1552fabc667c5a1a42d6bb53860e9be9d5cebf852b6"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/swim047/swim047_1280.blend",
+        "sha256": "3b12230a37ce70eb93358a75118beb32937147687b99e500ec80b5ce29628dae"
+      },
+      {
+        "file": "out/blender_migration_v1/swim047/swim047_1920.blend",
+        "sha256": "0c7331954d9a4cb5356097ac5924928d66a211b8c245f518f4e79f8c93ac9ed0"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "s048": {
+    "status": "verified_native",
+    "song_frames": [
+      3710,
+      3752
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "clips/raw/drumwall_basin_v6.mp4",
+        "sha256": "bc32ee6a60156bca47670b8de00cf035bbc1607c82fb143c88c457dfe6b7e026"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "spring_falls_heaven": {
+    "status": "verified_native",
+    "song_frames": [
+      3752,
+      3830
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/spring_geyser_flow_v1/base.mp4",
+        "sha256": "e62d30cef23dee2bb7f8db8ec3cb6f041ed00a623f14888d1292269ea5988a53"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "underwater_senses": {
+    "status": "verified_native",
+    "song_frames": [
+      3830,
+      3897
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "clips/raw/canal_current_macro_v6.mp4",
+        "sha256": "040389ff1577f460d479521aacf548bcf65f6b3b8aa2aba115e83ef116401fde"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "chorus_plunge_continuous": {
+    "status": "verified_native",
+    "song_frames": [
+      3897,
+      4030
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "clips/raw/chorus_plunge_v6.mp4",
+        "sha256": "95238f773b82eb58e84d9d62b90fc72f7bc41b07272d0fceef0ad4b78e806f66"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "turn_phrase": {
+    "status": "verified_native",
+    "song_frames": [
+      4030,
+      4073
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 149,
+    "artifacts": [
+      {
+        "file": "out/swirl_springs_flow_v1/base.mp4",
+        "sha256": "b527a9d1c4bc80776e2c7e5c6dc9ac00ec1ba8120a4fa685752d7ea2f3d8fa64"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "follow_phrase": {
+    "status": "verified_native",
+    "song_frames": [
+      4073,
+      4120
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "source_only_native_vse",
+    "source_in_frame": 72,
+    "artifacts": [
+      {
+        "file": "clips/raw/canal_current_macro_v6.mp4",
+        "sha256": "040389ff1577f460d479521aacf548bcf65f6b3b8aa2aba115e83ef116401fde"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "tools/blender_comp.py",
+        "sha256": "59463c7f2241e2987f2864eb479c76fece3d82fc9be5f4a9068a0e7ebe5dbccf"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "o01": {
+    "status": "verified_native",
+    "song_frames": [
+      4120,
+      4177
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "tunnel",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/tunnel/native_clean.mp4",
+        "sha256": "c085522ee50fdc61f4cf3100c741a345b098b2bb5cadbe89133ec292471eef48"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/tunnel/tunnel_1280.blend",
+        "sha256": "67a25706869f25b493c0f3f8ee95ffe387342794c93ef0c8f43eb33ae5a7525d"
+      },
+      {
+        "file": "out/blender_migration_v1/tunnel/tunnel_1920.blend",
+        "sha256": "b8fca1b3d86e16c25ea5582558d142826516bafda60d5d8baadd7c396a4b938e"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_lead_1": {
+    "status": "verified_native",
+    "song_frames": [
+      4177,
+      4232
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "tv",
+    "source_in_frame": 12,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/tv/native_clean.mp4",
+        "sha256": "d7049387146d263b124324c3c9f855205ee904bfdcdaa73e7d15878020da7123"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/tv/tv_1280.blend",
+        "sha256": "e3516612d105b5b28c9a7350ce7ca89300e6005846f273c88b25551f2e683038"
+      },
+      {
+        "file": "out/blender_migration_v1/tv/tv_1920.blend",
+        "sha256": "137a39a5f6f5185ef6532237979b0961d579a6779feef45aa27af6e5aa283043"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_lead_2": {
+    "status": "verified_native",
+    "song_frames": [
+      4232,
+      4262
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "afterglow_b1",
+    "source_in_frame": 67,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/afterglow_b1/native_clean.mp4",
+        "sha256": "6d2729ab37646ef3386df0fd437e009c69d9b0ad0078c2e251834129b9256a39"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/afterglow_b1/afterglow_b1_1280.blend",
+        "sha256": "555e347e5e35f915e1a4ba66538bd7a58d2722d1d76d0c2f83cb2819e67c22c5"
+      },
+      {
+        "file": "out/blender_migration_v1/afterglow_b1/afterglow_b1_1920.blend",
+        "sha256": "79699ae36fe20123449dc84cff9f6f1dec2bb3899d9acfe6d69bc01928e0a32a"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_lead_3": {
+    "status": "verified_native",
+    "song_frames": [
+      4262,
+      4331
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "tv",
+    "source_in_frame": 97,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/tv/native_clean.mp4",
+        "sha256": "d7049387146d263b124324c3c9f855205ee904bfdcdaa73e7d15878020da7123"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/tv/tv_1280.blend",
+        "sha256": "e3516612d105b5b28c9a7350ce7ca89300e6005846f273c88b25551f2e683038"
+      },
+      {
+        "file": "out/blender_migration_v1/tv/tv_1920.blend",
+        "sha256": "137a39a5f6f5185ef6532237979b0961d579a6779feef45aa27af6e5aa283043"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_lead_4": {
+    "status": "verified_native",
+    "song_frames": [
+      4331,
+      4362
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "afterglow_b2",
+    "source_in_frame": 11,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/afterglow_b2/native_clean.mp4",
+        "sha256": "c56b6a01affaae426fe66284e4fc5acf5ce285c66ea7d6aabd589c48894421cd"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/afterglow_b2/afterglow_b2_1280.blend",
+        "sha256": "504f94ee917ac5988856723d4397111b78c2037dfd53e5190f107ac0fcdc3b0d"
+      },
+      {
+        "file": "out/blender_migration_v1/afterglow_b2/afterglow_b2_1920.blend",
+        "sha256": "c2c5aafa12329a03a9f6022bccd871668bc7ce56b2788e9aeb12374189b011c3"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_1": {
+    "status": "verified_native",
+    "song_frames": [
+      4362,
+      4400
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "tv_late",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/tv_late/native_clean.mp4",
+        "sha256": "1e0f8db9f068940cad2e58131ab7cf829ba7581d14f4cff97305f2a97e09ba3a"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/tv_late/tv_late_1280.blend",
+        "sha256": "0b458d0c180696b665de36b00f14b7c809c7e95d59e35787c2f0796a74a317a7"
+      },
+      {
+        "file": "out/blender_migration_v1/tv_late/tv_late_1920.blend",
+        "sha256": "6064991fb423b06ef8555cbf57e9b364fe8c157cf2da9d9b84f5dd6014e204f2"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_2": {
+    "status": "verified_native",
+    "song_frames": [
+      4400,
+      4431
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "room_late",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/room_late/native_clean.mp4",
+        "sha256": "8c33c8c5ef2e14df6467a4d7d298ee02c33f88dd2a94ca41b8dcb7ea31759481"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/room_late/room_late_1280.blend",
+        "sha256": "5119b055975f3b074516cb03a2ccd9684fb2aee0ac5b5a7be7e1a7dd42efa034"
+      },
+      {
+        "file": "out/blender_migration_v1/room_late/room_late_1920.blend",
+        "sha256": "a251dc98c959e9dfaff805794dc63d0e978e839794ea39a9f1ae874a149fbbed"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_3": {
+    "status": "verified_native",
+    "song_frames": [
+      4431,
+      4449
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "tv_late",
+    "source_in_frame": 38,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/tv_late/native_clean.mp4",
+        "sha256": "1e0f8db9f068940cad2e58131ab7cf829ba7581d14f4cff97305f2a97e09ba3a"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/tv_late/tv_late_1280.blend",
+        "sha256": "0b458d0c180696b665de36b00f14b7c809c7e95d59e35787c2f0796a74a317a7"
+      },
+      {
+        "file": "out/blender_migration_v1/tv_late/tv_late_1920.blend",
+        "sha256": "6064991fb423b06ef8555cbf57e9b364fe8c157cf2da9d9b84f5dd6014e204f2"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_4": {
+    "status": "verified_native",
+    "song_frames": [
+      4449,
+      4516
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "room_late",
+    "source_in_frame": 31,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/room_late/native_clean.mp4",
+        "sha256": "8c33c8c5ef2e14df6467a4d7d298ee02c33f88dd2a94ca41b8dcb7ea31759481"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/room_late/room_late_1280.blend",
+        "sha256": "5119b055975f3b074516cb03a2ccd9684fb2aee0ac5b5a7be7e1a7dd42efa034"
+      },
+      {
+        "file": "out/blender_migration_v1/room_late/room_late_1920.blend",
+        "sha256": "a251dc98c959e9dfaff805794dc63d0e978e839794ea39a9f1ae874a149fbbed"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_5": {
+    "status": "verified_native",
+    "song_frames": [
+      4516,
+      4538
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "tv_late",
+    "source_in_frame": 56,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/tv_late/native_clean.mp4",
+        "sha256": "1e0f8db9f068940cad2e58131ab7cf829ba7581d14f4cff97305f2a97e09ba3a"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/tv_late/tv_late_1280.blend",
+        "sha256": "0b458d0c180696b665de36b00f14b7c809c7e95d59e35787c2f0796a74a317a7"
+      },
+      {
+        "file": "out/blender_migration_v1/tv_late/tv_late_1920.blend",
+        "sha256": "6064991fb423b06ef8555cbf57e9b364fe8c157cf2da9d9b84f5dd6014e204f2"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_6": {
+    "status": "verified_native",
+    "song_frames": [
+      4538,
+      4574
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "close_cloud",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/close_cloud/native_clean.mp4",
+        "sha256": "1fb17da9cc6a5fde6c0a00a68c2f232823c59ae2201e9cbf32d09dbfe5328a3f"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/close_cloud/close_cloud_1280.blend",
+        "sha256": "522df448d7fd9aa62359d0257270de85e4620b44dcb3e11b8353a9c6d21fd467"
+      },
+      {
+        "file": "out/blender_migration_v1/close_cloud/close_cloud_1920.blend",
+        "sha256": "4dabc7d628edd3acb28fe5f6ad530470569078ab2df66658a016b23767098a0f"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_7": {
+    "status": "verified_native",
+    "song_frames": [
+      4574,
+      4622
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "close_cloud",
+    "source_in_frame": 36,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/close_cloud/native_clean.mp4",
+        "sha256": "1fb17da9cc6a5fde6c0a00a68c2f232823c59ae2201e9cbf32d09dbfe5328a3f"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/close_cloud/close_cloud_1280.blend",
+        "sha256": "522df448d7fd9aa62359d0257270de85e4620b44dcb3e11b8353a9c6d21fd467"
+      },
+      {
+        "file": "out/blender_migration_v1/close_cloud/close_cloud_1920.blend",
+        "sha256": "4dabc7d628edd3acb28fe5f6ad530470569078ab2df66658a016b23767098a0f"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_8": {
+    "status": "verified_native",
+    "song_frames": [
+      4622,
+      4644
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "return_cloud",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/return_cloud/native_clean.mp4",
+        "sha256": "1a06fc5a7f6754208a975e0030c35707dbfe31d76e71c881b4567da9d7e87348"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/return_cloud/return_cloud_1280.blend",
+        "sha256": "03ea7444569ec8f890ca805efa4e932f109dfef686de126ac7806e9717bd83ff"
+      },
+      {
+        "file": "out/blender_migration_v1/return_cloud/return_cloud_1920.blend",
+        "sha256": "384f2e6239cea8c660c925b0ba79817edd2858de4ef3b8810d91194e4f131838"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_9": {
+    "status": "verified_native",
+    "song_frames": [
+      4644,
+      4671
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "tv_late",
+    "source_in_frame": 78,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/tv_late/native_clean.mp4",
+        "sha256": "1e0f8db9f068940cad2e58131ab7cf829ba7581d14f4cff97305f2a97e09ba3a"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/tv_late/tv_late_1280.blend",
+        "sha256": "0b458d0c180696b665de36b00f14b7c809c7e95d59e35787c2f0796a74a317a7"
+      },
+      {
+        "file": "out/blender_migration_v1/tv_late/tv_late_1920.blend",
+        "sha256": "6064991fb423b06ef8555cbf57e9b364fe8c157cf2da9d9b84f5dd6014e204f2"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_10": {
+    "status": "verified_native",
+    "song_frames": [
+      4671,
+      4710
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "return_cloud",
+    "source_in_frame": 49,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/return_cloud/native_clean.mp4",
+        "sha256": "1a06fc5a7f6754208a975e0030c35707dbfe31d76e71c881b4567da9d7e87348"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/return_cloud/return_cloud_1280.blend",
+        "sha256": "03ea7444569ec8f890ca805efa4e932f109dfef686de126ac7806e9717bd83ff"
+      },
+      {
+        "file": "out/blender_migration_v1/return_cloud/return_cloud_1920.blend",
+        "sha256": "384f2e6239cea8c660c925b0ba79817edd2858de4ef3b8810d91194e4f131838"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_11": {
+    "status": "verified_native",
+    "song_frames": [
+      4710,
+      4782
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "night",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/night/native_clean.mp4",
+        "sha256": "ffc394d901225455c5209ae1145be467c6884b2a95093a6b4ac3d4c3dbfead87"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/night/night_1280.blend",
+        "sha256": "b0509531b092360c5b3f56a1d3aa8e9a3d8cbe028fdd898fa53aece18c89180f"
+      },
+      {
+        "file": "out/blender_migration_v1/night/night_1920.blend",
+        "sha256": "16dcd483192582ac7f85b9e290a2b0c14a8190284c69daa285954934027230a7"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  },
+  "outro_review_12": {
+    "status": "verified_native",
+    "song_frames": [
+      4782,
+      4854
+    ],
+    "fps": 24,
+    "baked_fx_dependencies": false,
+    "resolution_review_passed": true,
+    "family": "titles",
+    "source_in_frame": 0,
+    "artifacts": [
+      {
+        "file": "out/blender_migration_v1/titles/native_clean.mp4",
+        "sha256": "bf9e48ecec5e8bbedd79dc402bfdf4ad41eb36dad6f9ddaecb70b434b76820d7"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_review_draft.json",
+        "sha256": "b9dc9218b02fcce3b2ec79fed2f779d0e6c99a5e03e57ff4ff3aa542af5960e1"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_cues.json",
+        "sha256": "9ecb6442939c16fe39d3870bf5154a11f5d59f2471c6a3d4a609f0712cd9edaf"
+      },
+      {
+        "file": "out/blender_migration_v1/full_native_preview.py",
+        "sha256": "e788a0b8d065f9a64f4dc834281cc211dd2b88f6440dfe08ac63bf8ebeb45b84"
+      },
+      {
+        "file": "out/blender_migration_v1/titles/titles_1280.blend",
+        "sha256": "0c163a3b64c60c7fcb78464deb8f93fdc59666f58a0dbcfe75015b4a58a4ccb1"
+      },
+      {
+        "file": "out/blender_migration_v1/titles/titles_1920.blend",
+        "sha256": "293f08b84beb20d3e967357c894e3f1971185a26b1bbe2ebf025da54044d8b9b"
+      },
+      {
+        "file": "out/blender_migration_v1/autonomous_blend_audit.json",
+        "sha256": "795fab32f07003c751f2ea696d53988f5544fb283c5a48ee78f814baebcdcfd0"
+      },
+      {
+        "file": "out/blender_migration_v1/full_resolution_check.json",
+        "sha256": "e5070032ae509f8f5fb22dfceb33a80baa7ce8084aa4c186f7322a7e5d4bb190"
+      }
+    ],
+    "review_authority": "Owner authorized autonomous technical and visual review; full cut remains isolated for owner viewing.",
+    "production_promoted": false
+  }
+}

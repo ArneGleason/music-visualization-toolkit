@@ -1,0 +1,25 @@
+{
+  "status": "optical_technique_proof_only",
+  "sources": [
+    {
+      "name": "wide",
+      "file": "out/shop_wide_synced_v5/wide_cfr.mp4",
+      "sha256": "22d4e992571bce8ec47ac4af4e0e913006efdf91c36effe8bdd540030d226601",
+      "frames": 191
+    },
+    {
+      "name": "close",
+      "file": "out/shop_performance_v1/close/base.mp4",
+      "sha256": "510d47b9198a99cd3fddd48b34eaf498f9f98c32d2c0ee42a8144d400e754347",
+      "frames": 192
+    }
+  ],
+  "song_frames": [
+    2399,
+    2484
+  ],
+  "wide_origin": 2387,
+  "close_origin": 2425,
+  "switch": 2431,
+  "approved_signal_included": false
+}

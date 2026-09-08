@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "test_id": "specimen_discovery_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "ONE new Flow silent listening/discovery performance. No Kling. Replace repetitive specimen stroking with one rotation, discovery hold, knowing look up.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "model": "Veo 3.1 Quality",
+    "mode": "Frames",
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "duration_seconds": 8,
+    "outputs": 1,
+    "expected_credits": 100,
+    "stop_if_unavailable_or_cost_exceeds_expected": true
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "codex/out/astronaut_inspect_medium_a.jpg",
+      "sha256": "6B5E47A29A59A23824CBE1796E50923E1FC911BF77F66741C26F8258ADF95D06",
+      "provenance": "Owner selected A in codex/out/still_favorites.md; Codex inspected. Existing specimen and set continuity."
+    },
+    "prompt": {
+      "file": "out/specimen_discovery_v1/flow_prompt.txt",
+      "sha256": "E61A4F74EC5BF761681314156AEAAEAD478DF3EBEFFE4CCCCE5D5A46B36BC665"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6DB3E45D5777CB22AE1EE7DA18B8BDE8498CAAFFB8D96E8536F3414DEA260496"
+    }
+  },
+  "clock": {
+    "fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 2004,
+    "requested_source_frames": 192,
+    "no_audio_upload": true
+  },
+  "proposed_cut": {
+    "shot_id": "exchange_listener_discovery",
+    "setup": "astronaut_inspect_medium",
+    "song_frames": [
+      2016,
+      2122
+    ],
+    "source_frames_after_timestamp_conform": [
+      12,
+      118
+    ],
+    "duration_frames": 106,
+    "lead_handle_frames": 12,
+    "requested_exit_handle_frames": 74,
+    "status": "Candidate replacement only; existing specimen-table cut1854..2016 is approved and unchanged."
+  },
+  "output": {
+    "base": "out/specimen_discovery_v1/base.mp4",
+    "receipt": "out/specimen_discovery_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true,
+    "tool_time_counts": true
+  },
+  "assembly_guard": "Candidate only. Song2016..2122 uses source12..118 at24fps after timestamp conform. No source audio or lip sync. Do not move phrase cuts to suit generated action without review. Inspect actual gesture timing. Codex adds a restrained spiral glimmer during discovery after tracking the returned specimen. No automatic production replacement.",
+  "phrases": [
+    {
+      "text": "Do you see a pattern?",
+      "speaker": "Them1 offscreen; pictured Them2 listens",
+      "song_frames": [
+        2020,
+        2059
+      ],
+      "source_seconds": [
+        0.6666666666666666,
+        2.2916666666666665
+      ]
+    },
+    {
+      "text": "I'm sure it's there.",
+      "speaker": "Them1 offscreen; pictured Them2 listens",
+      "song_frames": [
+        2059,
+        2084
+      ],
+      "source_seconds": [
+        2.2916666666666665,
+        3.3333333333333335
+      ]
+    },
+    {
+      "text": "Hard to find, right?",
+      "speaker": "Them1 offscreen; pictured Them2 listens",
+      "song_frames": [
+        2084,
+        2122
+      ],
+      "source_seconds": [
+        3.3333333333333335,
+        4.916666666666667
+      ]
+    }
+  ],
+  "claude_result": {
+    "completed_utc": "2026-09-06T16:48:00Z",
+    "receipt": "out/specimen_discovery_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "original": {
+      "file": "out/specimen_discovery_v1/original_bde2940e-bf60-4459-b62f-9596c1d37b99.mp4",
+      "sha256": "8346BEC30429E79E2ADDA23C410A3C226FAF0E8B048BA6A8D7BECB2521837D62"
+    },
+    "base": {
+      "file": "out/specimen_discovery_v1/base.mp4",
+      "sha256": "8346BEC30429E79E2ADDA23C410A3C226FAF0E8B048BA6A8D7BECB2521837D62",
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "stream_start": 0.0,
+      "flow_media_id": "bde2940e-bf60-4459-b62f-9596c1d37b99",
+      "flow_submitted_utc": "2026-09-06T16:36:07Z",
+      "flow_ready_utc": "2026-09-06T16:37:48Z",
+      "flow_downloaded_utc": "2026-09-06T16:38:19Z",
+      "progress_log": [
+        "16:36:37 21%",
+        "16:37:08 47%",
+        "16:37:28 100%",
+        "16:37:48 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "end_frame_used": false,
+      "first_frame_diff_vs_still": 1.1,
+      "watermark": "none",
+      "flow_high_demand_banner": true
+    },
+    "camera": "locked; no cut, zoom or drift",
+    "gesture_timing_seconds": {
+      "lips_closed_by": 1.0,
+      "first_tilt": [
+        0.35,
+        0.75
+      ],
+      "regrip_left_hand_crosses": [
+        1.6,
+        2.4
+      ],
+      "rotation_stop": 2.5,
+      "hold_steady": [
+        2.6,
+        7.1
+      ],
+      "gaze_lift": 3.8,
+      "open_mouth_reaction": [
+        3.5,
+        4.5
+      ],
+      "closed_mouth_smile": [
+        4.5,
+        5.0
+      ],
+      "hand_motion_resumes": 7.1
+    },
+    "window_checks": {
+      "rotation_stop_in_2.3-3.3": true,
+      "gaze_lift_in_3.3-4.9": true,
+      "single_rotation": false,
+      "closed_mouth_reaction": false
+    },
+    "usable_intervals": {
+      "continuous": [
+        0,
+        192
+      ],
+      "cleanest": [
+        60,
+        172
+      ],
+      "proposed_window": [
+        12,
+        118
+      ]
+    },
+    "defects": [
+      "two handling actions (early tilt, left-hand re-grip briefly covering the specimen) instead of one wrist rotation",
+      "open-mouth amazement 3.5-4.5 s instead of closed-mouth half-smile",
+      "lips close by ~1.0 s not 0.5 s",
+      "hand motion resumes 7.1 s"
+    ],
+    "prop_integrity": "one rigid specimen, spiral stable, no morph; glint on tip during re-grip",
+    "verdict": "usable candidate with defects; Codex to judge open-mouth reaction and re-grip in context",
+    "sheets": [
+      "contact_every6.jpg",
+      "crop_specimen_hands_0-5s_every4.jpg",
+      "crop_face_0-5s_every4.jpg",
+      "crop_specimen_hands_5-8s_every6.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no audio",
+      "no retry",
+      "no assembly",
+      "no FX",
+      "no production edits",
+      "no commit",
+      "no owner approval claimed"
+    ]
+  }
+}

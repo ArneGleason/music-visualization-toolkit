@@ -1,0 +1,24 @@
+{
+  "source_frames": [
+    86,
+    155
+  ],
+  "fps": 24,
+  "render_size": [
+    2560,
+    1440
+  ],
+  "delivery_size": [
+    1280,
+    720
+  ],
+  "texture_source_region": [
+    645,
+    405,
+    745,
+    485
+  ],
+  "texture_method": "mirror-repeat trace-free original screen patch, alpha 0.40",
+  "beam": "slope-dependent radius plus slowly varying deterministic modulation",
+  "audio_mapping": "identical to screen_sync_pilot"
+}

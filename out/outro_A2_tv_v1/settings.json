@@ -1,0 +1,37 @@
+{
+  "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_8bc1525ed3fade27c26d.mp4",
+  "source_origin_song_frame": 4320,
+  "frames": 191,
+  "fps": 24,
+  "quad": [
+    [
+      1064.0,
+      308.0
+    ],
+    [
+      1278.0,
+      363.0
+    ],
+    [
+      1250.0,
+      582.0
+    ],
+    [
+      1049.0,
+      512.0
+    ]
+  ],
+  "projection": "Fixed planar screen on locked-camera plate, rounded inset mask; not motion-tracked",
+  "driver": "aligned lead vocal RMS, soft saturation, 3-frame smoothing",
+  "concept": "FICTIONAL sample-helix nodes resolving into a celestial constellation, not measured scientific data",
+  "layer": "straight-alpha screen replacement; original face/room untouched",
+  "resolve_source_seconds": [
+    1.85,
+    2.82
+  ],
+  "live_glass_weight": 0.45,
+  "point_punctuation_source_frames": [
+    60,
+    79
+  ]
+}

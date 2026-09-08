@@ -1,0 +1,9 @@
+# TV map v2: moving display and integrated receipt burst
+
+OWNER APPROVED v2: works really well. Use this treatment for A1's TV, rather than v1 or untreated Kling. Original v1 and accepted Kling source preserved. No production timeline assignment yet. Source mapping and single-application requirements below remain mandatory.
+
+More active helix rotation and modulation, rotating/scaling constellation, travelling data points and expanding scan ring. Constellation resolves around the existing illumination rather than slowly waiting until after the flash. Brightness burst derives from actual returned TV luminance: onset source46, peak source53 (2.2083seconds), song4218. This deliberately preserves correlation with already-generated reflected light on her face. Existing face and surrounding set are not artificially relit.
+
+Screen composition uses live glass/static72% plus15% reference glass, screen-blended trace,82% layer opacity and a much wider rounded feather (.19 normalized rather than .035). Softer beam core and stronger diffuse bloom remove the pasted-on crispness. Still fixed manual perspective, not motion tracking. The existing screen border remains visible during the flash. No extra full-frame flash, mastering or camera changes.
+
+burst_timing.json is the authoritative v2 event timing (the inherited settings resolve_source_seconds field from v1 is superseded). Separate RGBA layers and tv_map.blend retained. clean.mp4 is191 silent24fps frames; never overlay again on that baked result. preview.mp4 is154frames, song4177..4331, with unchanged temporary exobiologist still. full_take_review.mp4 retains the full191frame source clock. All three fully decoded and frame-count checked by deliver.py. Viewed screen contact sheet across beginning, burst, return and end: stronger static remains visible while graphics are washed into the illumination, then resolve back to color.

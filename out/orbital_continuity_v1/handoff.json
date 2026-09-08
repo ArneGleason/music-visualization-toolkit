@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "test_id": "orbital_continuity_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "One Flow-only replacement of orbital s035, matching the approved landing rockets. This new authorization supersedes the old landing handoff instruction not to regenerate orbital. Do not regenerate the landing.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical estimate; verify actual UI. No purchases. No Kling."
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "out/orbital_continuity_v1/first_frame.png",
+      "sha256": "72e74b72f17067ed08265fa0ee3627d3c9d63ccc87a47b664a1b79b0c2f03148"
+    },
+    "design_reference_inspect_only": {
+      "file": "out/orbital_continuity_v1/landing_design_reference.jpg",
+      "sha256": "5090652b57e4aafdcd1cff55281dd0748ed1fc997f59aba3b141504ea2c46677"
+    },
+    "prompt": {
+      "file": "out/orbital_continuity_v1/flow_prompt.txt",
+      "sha256": "281389fe10ef89dd099ef219b36cdf5587564a12b0eab2269eec702f35973c4c"
+    },
+    "lock": {
+      "file": "out/orbital_continuity_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    }
+  },
+  "input_guard": "Use first_frame.png as the sole Flow START frame. Landing reference is for visual QA only, never the END frame. No end frame or audio guide.",
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 2869,
+    "song_origin_seconds": 119.54166666666667,
+    "additional_audio_offset_seconds": 0,
+    "note": "Editorial source clock only; this is not lip-synced. No audio guide required."
+  },
+  "cut": {
+    "shot_id": "s035",
+    "lyric": "Things clap overhead",
+    "song_frames": [
+      2881,
+      2928
+    ],
+    "source_frames_at_24fps": [
+      12,
+      59
+    ],
+    "lead_handle_frames": 12,
+    "exit_handle_frames_if_192_delivered": 133,
+    "speed": 1
+  },
+  "approved_landing": {
+    "source": {
+      "file": "out/rocket_landing_retry_v1/synced.mp4",
+      "sha256": "2b9b6fe03f22377a4d3ce036a8be99907ef745ecc5346b5d69874b4b4daacae2"
+    },
+    "preview": "out/message_into_rockets_v3/preview.mp4",
+    "owner_accepted": true,
+    "song_frames_in_current_preview": [
+      2928,
+      3027
+    ],
+    "preserve_pressure_lens_fx": true
+  },
+  "quality_gate": [
+    "Inspect first frame and frames through the intended source0.5..2.458s window, then the full clip.",
+    "Exactly three matching smooth silver rockets, black vertical slots, short curved fins, no new portholes or needles.",
+    "Descent tail-first, not ascent; restrained motion already present in the intended window.",
+    "No fire or smoke around hulls, no morphing or disappearing rockets.",
+    "Do not reject merely for subtle camera variation; record minor deviations for owner review. Material design mismatch: save result and stop, no automatic retry."
+  ],
+  "output": {
+    "base": "out/orbital_continuity_v1/base.mp4",
+    "receipt": "out/orbital_continuity_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "tool_time_counts": true,
+    "respect_rate_limits": true
+  },
+  "assembly_guard": "Codex will timestamp-conform if needed and replace only s035 in the SAME 2786..3027 local preview. Keep message handoff, landing source/offsets, pressure-lens FX, lyric timing and master audio unchanged. Do not assemble or alter production registers.",
+  "completion": "Save untouched download and byte-identical base.mp4. Record IDs, settings, actual credits, hashes, native fps, frame count, dimensions and duration, visual QA and defects in RECEIPT.md. Add claude_result and flip status to claude_done_ready_for_codex_verification (or explicit blocked status). No commit, purchase or acceptance claim.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T02:40:00Z",
+    "receipt": "out/orbital_continuity_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "design_qa": "first_frame rockets match landing design family (smooth noses, black slots, curved fins); old portholes/needles absent",
+    "flow": {
+      "media_id": "38c4370d-ac98-4b4b-bf58-944a20df3cd7",
+      "submitted_utc": "2026-09-07T02:21:25Z",
+      "ready_utc": "2026-09-07T02:22:55Z",
+      "downloaded_utc": "2026-09-07T02:23:25Z",
+      "progress_log": [
+        "02:21:55 21%",
+        "02:22:15 38%",
+        "02:22:35 55%",
+        "02:22:55 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "start_thumbnail_id": "cb465db9",
+      "end_frame_used": false,
+      "first_frame_diff": 1.2,
+      "watermark": "none"
+    },
+    "original": {
+      "file": "out/orbital_continuity_v1/original_38c4370d-ac98-4b4b-bf58-944a20df3cd7.mp4",
+      "sha256": "4e73e5b9c8d74bc2698190608db6694e8b6edd490d161762220ef98ca4c3f4bd"
+    },
+    "base": {
+      "file": "out/orbital_continuity_v1/base.mp4",
+      "sha256": "4e73e5b9c8d74bc2698190608db6694e8b6edd490d161762220ef98ca4c3f4bd",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "stream_start": 0.0
+    },
+    "vehicles": "three rockets all 192 frames; geometry constant; no morphing/portholes/needles",
+    "motion": "tail-first slow descent (~9% frame height over 8 s), slight approach, gentle symmetrical camera drift, no cut; restrained inside source 12..59",
+    "engines": "narrow amber jets below bases, flickering, dimming ~40-50% over the take; no smoke/fireball/explosion; lit to the end",
+    "quality_gate": {
+      "matching_rockets": "pass",
+      "tail_first_descent": "pass (restrained)",
+      "no_fire_smoke_morph": "pass",
+      "material_mismatch": "none"
+    },
+    "defects": [
+      "motion very restrained in the 0.5-2.458 s window",
+      "right rocket drifts slightly right by 8 s (in frame)"
+    ],
+    "sheets": [
+      "contact_every6.jpg",
+      "rockets_0-3s_every4.jpg",
+      "rockets_3-8s_every8.jpg",
+      "center_rocket_every48.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no audio",
+      "no retry",
+      "no assembly",
+      "no FX",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ],
+    "take1": {
+      "verdict": "owner rejected motion as too static; retained as reference",
+      "base": "out/orbital_continuity_v1/base.mp4",
+      "media_id": "38c4370d-ac98-4b4b-bf58-944a20df3cd7"
+    },
+    "take2": {
+      "owner_requested": "dramatic re-entry on a rapid orbital trajectory with engines braking the fall",
+      "prompt_file": "out/orbital_continuity_v1/flow_prompt_take2.txt",
+      "prompt_sha256": "f002c3fcb88b5fa23cfcfb49cd0370fa76543a99d6beeb4ef254cf8a598e0b69",
+      "prompt_change": "motion paragraph replaced; design lock, composition paragraph and style lock unchanged",
+      "flow": {
+        "media_id": "66c5ad17-fc58-4ab3-956e-eb57db4cf392",
+        "submitted_utc": "2026-09-07T02:30:07Z",
+        "ready_utc": "2026-09-07T02:31:28Z",
+        "downloaded_utc": "2026-09-07T02:32:14Z",
+        "progress_log": [
+          "02:30:37 21%",
+          "02:30:57 38%",
+          "02:31:28 rendered"
+        ],
+        "credits": 100,
+        "first_frame_diff": 1.3,
+        "start_thumbnail_id": "cb465db9",
+        "end_frame_used": false
+      },
+      "original": {
+        "file": "out/orbital_continuity_v1/take2/original_66c5ad17-fc58-4ab3-956e-eb57db4cf392.mp4",
+        "sha256": "c03615cf66d7b9db63530285beb719d8f7c32711d3cdb68ed2a47a5bf7299c64"
+      },
+      "base": {
+        "file": "out/orbital_continuity_v1/take2/base.mp4",
+        "sha256": "c03615cf66d7b9db63530285beb719d8f7c32711d3cdb68ed2a47a5bf7299c64",
+        "fps": 24,
+        "frames": 192,
+        "width": 1280,
+        "height": 720,
+        "video_seconds": 8.0,
+        "stream_start": 0.0
+      },
+      "motion": "dramatic continuous plunge: horizon rises from ~39% to ~14% of frame height, rockets grow ~30-40%, terrain slides beneath; smooth tracking camera, no cut/shake",
+      "window_0.5_2.458": "plumes flare to long columns within 0.7 s and the formation is already dropping and enlarging",
+      "engines": "long pulsing amber braking plumes below bases, peak 2-3.5 s, easing to ~20% by 8 s; no hull fire, no fireball",
+      "vehicles": "three, design constant, noses upright, tail-first, no morphing, no landing",
+      "minor_deviations": [
+        "thin white exhaust haze near horizon 3-6 s",
+        "camera tilts/tracks more than a slow push-in (smooth)",
+        "rockets lower against planet by 8 s, still airborne"
+      ],
+      "quality_gate": {
+        "matching_rockets": "pass",
+        "tail_first_descent": "pass (dramatic)",
+        "no_fire_smoke_morph": "pass (faint haze noted)",
+        "material_mismatch": "none"
+      },
+      "sheets": [
+        "take2/contact_every6.jpg",
+        "take2/frames_0-3s_every4.jpg",
+        "take2/frames_3-8s_every8.jpg",
+        "take2/center_rocket_every48.jpg"
+      ]
+    },
+    "candidate": {
+      "base": "out/orbital_continuity_v1/take2/base.mp4",
+      "note": "use take2 for s035 [2881,2928) from source [12,59); take1 is a rejected reference"
+    },
+    "flow_credits_total": 200
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "owner_review_pending",
+  "song_frames": [
+    1514,
+    1786
+  ],
+  "fps": 24,
+  "frames": 272,
+  "walk_song_frames": [
+    1650,
+    1710
+  ],
+  "walk_source_frames": [
+    12,
+    72
+  ],
+  "walk_source_origin": 1638,
+  "master_audio_once": true,
+  "source_audio_used": false,
+  "retiming": false,
+  "new_walk_fx": "beat-grid green guide, already included once in clean",
+  "later_walk_policy": "Retain full192frames. Return must advance its source clock; no restart. With origin1638 the source ends at song1830; do not silently extend to1841. Later lantern approach not inserted yet.",
+  "full_film_updated": false
+}

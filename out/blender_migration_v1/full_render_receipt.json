@@ -1,0 +1,62 @@
+{
+  "status": "complete_self_reviewed_ready_for_owner_full_cut_review",
+  "parts": [
+    {
+      "part": 0,
+      "song_frames": [
+        0,
+        856
+      ],
+      "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\full_parts\\part0.mp4",
+      "frames": 856
+    },
+    {
+      "part": 1,
+      "song_frames": [
+        856,
+        1650
+      ],
+      "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\full_parts\\part1.mp4",
+      "frames": 794
+    },
+    {
+      "part": 2,
+      "song_frames": [
+        1650,
+        2484
+      ],
+      "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\full_parts\\part2.mp4",
+      "frames": 834
+    },
+    {
+      "part": 3,
+      "song_frames": [
+        2484,
+        3300
+      ],
+      "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\full_parts\\part3.mp4",
+      "frames": 816
+    },
+    {
+      "part": 4,
+      "song_frames": [
+        3300,
+        4177
+      ],
+      "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\full_parts\\part4.mp4",
+      "frames": 877
+    },
+    {
+      "part": 5,
+      "song_frames": [
+        4177,
+        4854
+      ],
+      "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\full_parts\\part5.mp4",
+      "frames": 677
+    }
+  ],
+  "frames": 4854,
+  "fps": 24,
+  "sha256": "1d2eca5e48cc3a091b3551bcb656c82a9bcbdfc6f59c47006c115e356d8f754a"
+}

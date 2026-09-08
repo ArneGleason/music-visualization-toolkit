@@ -1,0 +1,36 @@
+{
+  "status": "owner_review_pending",
+  "preview_song_frames": [
+    2122,
+    2399
+  ],
+  "frames": 277,
+  "planet_song_frames": [
+    2122,
+    2233
+  ],
+  "planet_extension": "34 new procedural frames, no loop/freeze; slow surface drift and3.5percent radius reduction.",
+  "close_song_frames": [
+    2233,
+    2271
+  ],
+  "close_original_source_seconds": [
+    0.8978186666666659,
+    2.481151999999999
+  ],
+  "close_measured_song_origin_seconds": 92.143848,
+  "guide_alignment_correlation": 0.90890569,
+  "returned_audio_guide_correlation": 0.99991944,
+  "close_conform": "trim at measured in-point, timestamp-based fps24; no slowdown or audio stretch; native30fps sample quantization remains.",
+  "colony_song_frames": [
+    2271,
+    2399
+  ],
+  "colony_source_frames": [
+    12,
+    140
+  ],
+  "colony_source_origin": 2259,
+  "audio": "Master once; all generated audio discarded",
+  "production_merged": false
+}

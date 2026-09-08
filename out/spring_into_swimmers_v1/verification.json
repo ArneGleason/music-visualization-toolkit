@@ -1,0 +1,66 @@
+{
+  "frames": 405,
+  "fps": 24.0,
+  "song_frames": [
+    3100,
+    3505
+  ],
+  "source_checks": [
+    {
+      "shot": "s041",
+      "song_frames": [
+        3229,
+        3302
+      ],
+      "selected": {
+        "file": "clips\\raw\\basin_moon_descent_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "source_frames": 192
+    },
+    {
+      "shot": "s042",
+      "song_frames": [
+        3302,
+        3370
+      ],
+      "selected": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\basin_edge_sync_kling_508bdc13af737d8904c6.mp4",
+        "in_sec": 2.84,
+        "speed": 1.0,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\basin_edge_sync_kling.mp4"
+      },
+      "source_frames": 191
+    },
+    {
+      "shot": "s043",
+      "song_frames": [
+        3370,
+        3438
+      ],
+      "selected": {
+        "file": "out/swimmer_fx_full/s043/clean.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0,
+        "assembly_decision": "swimmer-overhead-violet"
+      },
+      "source_frames": 68
+    },
+    {
+      "shot": "s044",
+      "song_frames": [
+        3438,
+        3505
+      ],
+      "selected": {
+        "file": "out/swimmer_fx_full/s044/clean.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0,
+        "assembly_decision": "swimmer-surface-violet"
+      },
+      "source_frames": 67
+    }
+  ],
+  "status": "existing edit audition; owner review pending"
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "test_id": "excavation_reply_lipsync_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "ONE Kling Lip Sync on owner-approved excavation close-up. No Flow or acting revision.",
+  "authorization": {
+    "max_flow_submissions": 0,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "sole woman",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical cost only; check UI and stop above10. No purchases."
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 2552,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 106.15498533333333,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0
+  },
+  "inputs": {
+    "base": {
+      "file": "out/excavation_reply_lipsync_v1/base.mp4",
+      "sha256": "2fe46beb1d0cf338e677aa7a1bb621c79758209fdf1102f1279ff420d7275426"
+    },
+    "guide": {
+      "file": "out/excavation_reply_lipsync_v1/guide.wav",
+      "sha256": "95a97c5381e72760c5dfbfbaf0ba53d0a5793a9530ce860c24651d69940d6534"
+    }
+  },
+  "source": {
+    "file": "out/excavation_reply_v1/base.mp4",
+    "sha256": "d7c268d3f466277922651125dbe953d3b66897d4193d87e3d8f6dfd0d63e2ca0"
+  },
+  "guide_provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "processing": "Uninterrupted8second mono48k PCM16 vocal slice. No gating, silence removal, normalization or time change. Context outside visible shot is not approved face coverage."
+  },
+  "phrases": [
+    {
+      "text": "Especially stupid.",
+      "song_frames": [
+        2573,
+        2620
+      ],
+      "source_seconds": [
+        0.875,
+        2.8333333333333335
+      ],
+      "words": [
+        {
+          "text": "Especially",
+          "source_seconds": [
+            0.875,
+            1.7916666666666667
+          ]
+        },
+        {
+          "text": "stupid.",
+          "source_seconds": [
+            1.7916666666666667,
+            2.8333333333333335
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Can you hear",
+      "song_frames": [
+        2620,
+        2637
+      ],
+      "source_seconds": [
+        2.8333333333333335,
+        3.5416666666666665
+      ],
+      "words": [
+        {
+          "text": "Can",
+          "source_seconds": [
+            2.8333333333333335,
+            3.0833333333333335
+          ]
+        },
+        {
+          "text": "you",
+          "source_seconds": [
+            3.0833333333333335,
+            3.2916666666666665
+          ]
+        },
+        {
+          "text": "hear",
+          "source_seconds": [
+            3.2916666666666665,
+            3.5416666666666665
+          ]
+        }
+      ]
+    },
+    {
+      "text": "what I meant?",
+      "song_frames": [
+        2637,
+        2658
+      ],
+      "source_seconds": [
+        3.5416666666666665,
+        4.416666666666667
+      ],
+      "words": [
+        {
+          "text": "what",
+          "source_seconds": [
+            3.5416666666666665,
+            3.7916666666666665
+          ]
+        },
+        {
+          "text": "I",
+          "source_seconds": [
+            3.7916666666666665,
+            3.9583333333333335
+          ]
+        },
+        {
+          "text": "meant?",
+          "source_seconds": [
+            3.9583333333333335,
+            4.416666666666667
+          ]
+        }
+      ]
+    }
+  ],
+  "cut": {
+    "song_frames": [
+      2564,
+      2658
+    ],
+    "source_frames_after_timestamp_conform": [
+      12,
+      106
+    ],
+    "speed": 1,
+    "guard": "Preserve approved source clock. Especially begins0.875s, question2.833333s, finishes4.416667s. No picture shifts. Later Sometimes belongs to the other speaker; do not extend this shot into it."
+  },
+  "output": {
+    "synced": "out/excavation_reply_lipsync_v1/synced.mp4",
+    "receipt": "out/excavation_reply_lipsync_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true,
+    "tool_time_counts": true
+  },
+  "inspection": "Owner accepts broader ironic wince/grin and transition to sincerity. Do not regenerate acting. Check especially every word through the grinning interval1.4..3.1s, plus question onset/end. Report missing articulation honestly; no automatic retry.",
+  "assembly_guard": "Codex verifies returned audio alignment and native timestamps, conforms to24fps without slowdown, then auditions source12..106 after unchanged excavation. Never upload review movie, FX or master mix. No close-up shop changes or full-film merge.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T20:10:00Z",
+    "receipt": "out/excavation_reply_lipsync_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "kling": {
+      "job_id": "983",
+      "download_name": "kling_20260907_Lip_Sync__983_0.mp4",
+      "faces_detected": "Character 1 = the woman (sole)",
+      "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav at 0:00-0:08, Sound from Video OFF, MP4 Without Watermark (existing entitlement)",
+      "credits": 10,
+      "balance_before": 436,
+      "balance_after": 426,
+      "submitted_utc": "2026-09-06T19:54:05Z (approximate; click timestamp lost to a tool timeout)",
+      "confirmed_generating_utc": "2026-09-06T19:56:55Z",
+      "generated_utc": "2026-09-06T19:57:27Z",
+      "download_clicked_utc": "2026-09-06T19:58:06Z",
+      "filed_utc": "2026-09-06T19:58:48Z"
+    },
+    "original": {
+      "file": "out/excavation_reply_lipsync_v1/original_983.mp4",
+      "sha256": "ecaf2acd7e15cb485e19ec799043c93d66bce40fc1429ae39c75b6c938849fe8"
+    },
+    "synced": {
+      "file": "out/excavation_reply_lipsync_v1/synced.mp4",
+      "sha256": "ecaf2acd7e15cb485e19ec799043c93d66bce40fc1429ae39c75b6c938849fe8",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "audio": "aac 44100 Hz stereo",
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 0.999,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "only the lower face changed; background/collar/hair at noise level; identity and teeth consistent",
+    "coverage_seconds_returned": 7.966667,
+    "coverage_required_seconds": 4.416667,
+    "words": {
+      "Especially": "ok: open 0.80-0.90, closure 0.93-1.17 (eyes squeezed), open 1.33-1.70",
+      "stupid": "ok through grin: wide open 1.73-1.97, rounded 2.13-2.23, open 2.27-2.57, held small open 2.6-2.83",
+      "Can": "weak: held shape, little motion 2.83-3.07",
+      "you": "ok: open vowel 3.13-3.30",
+      "hear": "ok: 3.30-3.53",
+      "what": "ok: open 3.60-3.70, closure 3.73-3.83",
+      "I": "ok: rounded 3.87-3.97",
+      "meant": "ok: wide open 4.0-4.23, closes 4.27-4.37; phrase completes ~4.4 s"
+    },
+    "grin_interval_1.4_3.1": "articulated: mouth shapes change through the grin; low motion only 2.4-3.05 s",
+    "mouth_settles_seconds": 4.65,
+    "pre_phrase_motion": "mouth open 0.27-0.75 s (base + guide context)",
+    "tail_motion": "guide-context openings 5.3-5.7, 5.9-6.3 s; not approved coverage",
+    "defects": [
+      "low-motion mouth 2.4-3.05 s (tail of stupid, Can)",
+      "mouth open before phrase 0.27-0.75 s",
+      "post-cut guide-context motion after 5.3 s"
+    ],
+    "verdict": "usable for source [12,106); every word articulated, timing aligned",
+    "sheets": [
+      "mouth_synced_src0.8-4.8s_native30_everyframe.jpg",
+      "mouth_base_src0.8-4.8s_every4.jpg",
+      "mouth_synced_src0-0.8s_every2.jpg",
+      "mouth_synced_src4.7-8s_every6.jpg",
+      "contact_synced_every10_native.jpg"
+    ],
+    "not_done": [
+      "no Flow",
+      "no acting revision",
+      "no retry",
+      "no assembly",
+      "no FX",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

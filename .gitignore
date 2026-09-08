@@ -12,6 +12,10 @@ source/*.aiff
 source/*.flac
 clips/inbox/*
 clips/raw/*
+clips/**/*.mp4
+clips/**/*.jpg
+clips/**/*.png
+board/approved*_sheet.jpg
 refs/*.png
 refs/*.jpg
 refs/*.jpeg

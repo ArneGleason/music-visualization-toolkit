@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "test_id": "outro_A1_v3",
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "status": "codex_verified_owner_selected_base",
+  "codex_result": {
+    "verification": "out/outro_A1_v3/CODEX_VERIFICATION.md",
+    "owner_selection": "Preferred A1 base for next lip-sync test. Still happy, but less glowy than prior takes; accept remaining warmth, no further acting retry.",
+    "base_sha256_verified": "99124a5780cd629cb086e9d362db2e1d78bb5afa2a9dcb5021fb871106d3817eb8d3",
+    "decoded_frames": 192,
+    "native_fps": 24,
+    "production_assembly_changed": false,
+    "next_step": "Prepare a fresh verified full-window A1 vocal guide and separate Kling-only handoff; no new submission authorized by this status."
+  },
+  "task": "ONE authorized Flow base retry: mission accomplished, not grateful smiling. TV response allowed. NO Kling.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "model": "Veo 3.1 Quality",
+    "mode": "Frames",
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "duration_seconds": 8,
+    "outputs": 1,
+    "expected_credits": 100,
+    "stop_if_unavailable_or_cost_exceeds_expected": true
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "out/outro_A1_v3/first_frame.png",
+      "sha256": "242b884af3a06ae3410ba695e87dc47786269303ceb7b744fb21b7a50e6c089c"
+    },
+    "approved_anchor": {
+      "file": "out/outro_anchors_v2/astronomer.png",
+      "sha256": "bb733e52548540403d7b4f3a5d4303999d65a8af71e7ff3317acb9565de1ebab"
+    },
+    "prompt": {
+      "file": "out/outro_A1_v3/flow_prompt.txt",
+      "sha256": "a446ee8ecba1ce34fd794dd134ad2f137bc3c86e74b1437024fd236996f5ab12"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    }
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based, end-exclusive",
+    "song_origin_frame": 4165,
+    "song_end_frame_exclusive": 4357,
+    "requested_take_frames": 192,
+    "no_audio_upload": true,
+    "guide_status": "No Kling guide supplied or authorized; Codex prepares after base review."
+  },
+  "visible_cuts": [
+    {
+      "song_frames": [
+        4177,
+        4232
+      ],
+      "source_frames_at_24fps": [
+        12,
+        67
+      ],
+      "phrase": "You still there?"
+    },
+    {
+      "song_frames": [
+        4262,
+        4331
+      ],
+      "source_frames_at_24fps": [
+        97,
+        166
+      ],
+      "phrase": "Never mind / La-la-la, low light"
+    }
+  ],
+  "continuity": {
+    "source_clock_runs_while_offscreen": true,
+    "speed": 1,
+    "lead_frames": 12,
+    "exit_frames_after_last_visible_cut": 26,
+    "future_A2_anchor_source_frame_at_24fps": 155,
+    "do_not_generate_A2": true
+  },
+  "performance_reference": {
+    "phrase_times_source": "shots/outro_coverage.json takes.A1; approximate acting only, not a verified new Kling guide",
+    "beat_source": "generated/overlay_cues.json",
+    "local_median_bpm": 83.86330281640876,
+    "beats": [
+      {
+        "frame": 4172,
+        "sec": 173.8469,
+        "bar": 63,
+        "beat": 4,
+        "downbeat": false
+      },
+      {
+        "frame": 4190,
+        "sec": 174.5676,
+        "bar": 64,
+        "beat": 1,
+        "downbeat": true
+      },
+      {
+        "frame": 4207,
+        "sec": 175.285,
+        "bar": 64,
+        "beat": 2,
+        "downbeat": false
+      },
+      {
+        "frame": 4224,
+        "sec": 175.9985,
+        "bar": 64,
+        "beat": 3,
+        "downbeat": false
+      },
+      {
+        "frame": 4241,
+        "sec": 176.7072,
+        "bar": 64,
+        "beat": 4,
+        "downbeat": false
+      },
+      {
+        "frame": 4258,
+        "sec": 177.4275,
+        "bar": 65,
+        "beat": 1,
+        "downbeat": true
+      },
+      {
+        "frame": 4275,
+        "sec": 178.1409,
+        "bar": 65,
+        "beat": 2,
+        "downbeat": false
+      },
+      {
+        "frame": 4292,
+        "sec": 178.8519,
+        "bar": 65,
+        "beat": 3,
+        "downbeat": false
+      },
+      {
+        "frame": 4309,
+        "sec": 179.5594,
+        "bar": 65,
+        "beat": 4,
+        "downbeat": false
+      },
+      {
+        "frame": 4327,
+        "sec": 180.2873,
+        "bar": 66,
+        "beat": 1,
+        "downbeat": true
+      },
+      {
+        "frame": 4344,
+        "sec": 181.0052,
+        "bar": 66,
+        "beat": 2,
+        "downbeat": false
+      }
+    ]
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "exponential_backoff": false,
+    "note": "Count tool time toward interval. Read visible progress; download promptly when ready. Do not submit duplicates."
+  },
+  "output": {
+    "base": "out/outro_A1_v3/base.mp4",
+    "receipt": "out/outro_A1_v3/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "review": {
+    "return_even_if_imperfect": true,
+    "flag_defects_without_retry": true,
+    "checks": [
+      "identity/outfit/props stable",
+      "mission accomplished, not grateful or celebratory grin",
+      "natural open articulation without deadpan regression",
+      "face near-frontal through question",
+      "TV unobstructed; brief static/reflected light ALLOWED, not a failure",
+      "no cuts/reset; continuity at source155"
+    ]
+  },
+  "return_protocol": "Write RECEIPT.md and claude_result with paths, SHA256, native fps/frame count/duration, media ID, settings, actual credits and visual observations. Flip status to claude_done_ready_for_codex_verification. No assembly, no commit, no Kling.",
+  "supersedes_for_review": "out/outro_A1_v2/base.mp4 (retain as spare; not overwritten)",
+  "owner_direction": "Change the grateful smile to mission well done; TV flash/reflected face light is acceptable. No automatic further retries.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T14:35:00Z",
+    "receipt": "out/outro_A1_v3/RECEIPT.md",
+    "input_hashes_ok": true,
+    "v2_preserved": true,
+    "flow": {
+      "media_id": "5a714c7e-042e-4fdf-9b9e-921e60f2a4ae",
+      "submitted_utc": "2026-09-07T14:22:09Z",
+      "ready_utc": "2026-09-07T14:24:14Z",
+      "downloaded_utc": "2026-09-07T14:24:50Z",
+      "progress_log": [
+        "14:22:39 20%",
+        "14:22:59 38%",
+        "14:23:19 54%",
+        "14:23:39 71%",
+        "14:24:04 93%",
+        "14:24:14 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "start_thumbnail_id": "96a0762e",
+      "end_frame_used": false,
+      "audio_uploaded": false,
+      "first_frame_diff": 0.8,
+      "watermark": "none",
+      "flow_high_demand_banner": true
+    },
+    "original": {
+      "file": "out/outro_A1_v3/original_5a714c7e-042e-4fdf-9b9e-921e60f2a4ae.mp4",
+      "sha256": "99124a5780cd629cb086e9d362db2e1d78bb5afa2a9d89ca41fc09a428c13767"
+    },
+    "base": {
+      "file": "out/outro_A1_v3/base.mp4",
+      "sha256": "99124a5780cd629cb086e9d362db2e1d78bb5afa2a9d89ca41fc09a428c13767",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "aspect": "16:9",
+      "video_seconds": 8.0,
+      "stream_start": 0.0,
+      "audio": "aac 48 kHz stereo (disposable)"
+    },
+    "camera": "locked",
+    "identity_outfit": "consistent; no spacesuit; props stable",
+    "mouth_activity_seconds": {
+      "you_still_there": [
+        0.05,
+        1.0
+      ],
+      "listening_gap": [
+        1.0,
+        2.9
+      ],
+      "never_mind": [
+        2.9,
+        3.9
+      ],
+      "la_la_la_low_light": [
+        4.0,
+        6.0
+      ],
+      "settle_nod": [
+        6.0,
+        7.4
+      ],
+      "look_down_reach": [
+        7.4,
+        8.0
+      ]
+    },
+    "head_turn_to_tv": [
+      1.3,
+      2.9
+    ],
+    "hands": "low and still until ~7.4 s, then a hand rises toward the table",
+    "tv_screen": {
+      "dim_stable": [
+        [
+          0.0,
+          1.9
+        ],
+        [
+          2.7,
+          8.0
+        ]
+      ],
+      "brief_static_response": [
+        2.0,
+        2.5
+      ],
+      "reflected_light_on_face": [
+        2.0,
+        2.3
+      ],
+      "geometry": "stable, unobstructed"
+    },
+    "frame_155": "frontal, closed-mouth composed smile, hands low, TV dim - clean A2 anchor",
+    "acting_read": "mission accomplished mostly achieved: relaxed corners on question and Never mind, composed settle with nod; moderate smile with teeth during sung run 4.6-6.0 s (milder than v2)",
+    "defects": [
+      "moderate smile with teeth during sung run ~4.6-6.0 s",
+      "TV glance is a ~1.5 s head turn (1.3-2.9 s)",
+      "phrases run ~0.5-1 s ahead of windows",
+      "looks down and reaches toward table 7.4-8.0 s"
+    ],
+    "review_checks": {
+      "identity_outfit_props": "pass",
+      "mission_accomplished_not_grin": "mostly (moderate smile in sung run)",
+      "open_articulation_no_deadpan": "pass",
+      "face_near_frontal_through_question": "pass",
+      "tv_unobstructed_brief_static_allowed": "pass",
+      "no_cuts_reset_continuity_155": "pass"
+    },
+    "sheets": [
+      "contact_every6.jpg",
+      "crop_face_every2.jpg",
+      "crop_tv_every8.jpg",
+      "keyframes_0_24_48_96_155_191.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no B1/A2",
+      "no retry",
+      "no assembly",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

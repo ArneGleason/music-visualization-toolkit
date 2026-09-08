@@ -1,0 +1,1998 @@
+[
+  {
+    "recipe": "tools/animatic.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 270,
+        "text": "ap.add_argument(\"--width\", type=int, default=1280)"
+      },
+      {
+        "line": 292,
+        "text": "s = W / 1920"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/blender_comp.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 67,
+        "text": "ap.add_argument(\"--proxy\", action=\"store_true\", help=\"1280x720 instead of 1920x1080\")"
+      },
+      {
+        "line": 110,
+        "text": "import bpy"
+      },
+      {
+        "line": 117,
+        "text": "W, H = (1280, 720) if a.proxy else (1920, 1080)"
+      },
+      {
+        "line": 126,
+        "text": "sc.render.resolution_x, sc.render.resolution_y = W, H"
+      },
+      {
+        "line": 190,
+        "text": "st = strips.new_movie(name=name, filepath=str(ROOT / clip), channel=1, frame_start=B(fs))"
+      },
+      {
+        "line": 201,
+        "text": "st = strips.new_image(name=name, filepath=str(still), channel=1, frame_start=B(fs))"
+      },
+      {
+        "line": 502,
+        "text": "import bpy  # noqa: F401  (inside Blender with no args)"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/garden_airflow.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 6,
+        "text": "import bpy"
+      },
+      {
+        "line": 61,
+        "text": "sc.render.resolution_x=1920; sc.render.resolution_y=1080; sc.render.resolution_percentage=100"
+      },
+      {
+        "line": 158,
+        "text": "for x,y,rx,ry,z in [(260,520,200,270,5),(1280,490,240,280,5),(760,100,360,90,4)]:"
+      },
+      {
+        "line": 208,
+        "text": "\"-vf\",\"scale=1280:720:flags=lanczos\",\"-c:v\",\"libx264\",\"-crf\",\"17\",\"-pix_fmt\",\"yuv420p\","
+      }
+    ]
+  },
+  {
+    "recipe": "tools/garden_dust_fields.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 6,
+        "text": "import bpy"
+      },
+      {
+        "line": 31,
+        "text": "sc.render.resolution_x=1920; sc.render.resolution_y=1080; sc.render.resolution_percentage=100"
+      },
+      {
+        "line": 125,
+        "text": "\"-vf\",\"scale=1280:720:flags=lanczos\",\"-c:v\",\"libx264\",\"-crf\",\"17\",\"-pix_fmt\",\"yuv420p\","
+      }
+    ]
+  },
+  {
+    "recipe": "tools/garden_dust_pilot.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 6,
+        "text": "import bpy"
+      },
+      {
+        "line": 95,
+        "text": "scene.render.resolution_x=1920; scene.render.resolution_y=1080"
+      },
+      {
+        "line": 150,
+        "text": "\"-vf\",\"scale=1280:720:flags=lanczos\",\"-c:v\",\"libx264\",\"-crf\",\"17\",\"-pix_fmt\",\"yuv420p\","
+      }
+    ]
+  },
+  {
+    "recipe": "tools/lyric3d.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 109,
+        "text": "import bpy"
+      },
+      {
+        "line": 135,
+        "text": "scene.render.resolution_x = width"
+      },
+      {
+        "line": 136,
+        "text": "scene.render.resolution_y = height"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/musical_contour_pilot.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 50,
+        "text": "beam=cv2.resize(beam,(1280,720),interpolation=cv2.INTER_AREA)"
+      },
+      {
+        "line": 94,
+        "text": "yy,xx=np.mgrid[:720,:1280]; r=np.hypot(xx-630,yy-315)"
+      },
+      {
+        "line": 131,
+        "text": "cv2.polylines(ink,[np.round(contour*4).astype(np.int32)],True,(208,244,225),8,cv2.LINE_AA,shift=2)"
+      },
+      {
+        "line": 133,
+        "text": "result=np.clip(frame.astype(np.float32)+ink*.92+cv2.GaussianBlur(ink,(0,0),2)*.25,0,255).astype(np.uint8)"
+      },
+      {
+        "line": 141,
+        "text": "check=frame.copy(); cv2.polylines(check,[baseline.astype(np.int32)],True,(0,255,0),1)"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/number_review_cuts.py",
+    "category": "raster operations",
+    "evidence": []
+  },
+  {
+    "recipe": "tools/pressure_lens_pilot.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 6,
+        "text": "import bpy"
+      },
+      {
+        "line": 39,
+        "text": "'-frames:v',str(count),'-vf','scale=1280:720','-f','rawvideo','-pix_fmt','rgb24','-'])"
+      },
+      {
+        "line": 40,
+        "text": "frames=np.frombuffer(raw,np.uint8).reshape(count,720,1280,3)"
+      },
+      {
+        "line": 43,
+        "text": "sc.render.resolution_x=1280; sc.render.resolution_y=720; sc.render.resolution_percentage=100"
+      },
+      {
+        "line": 51,
+        "text": "source=bpy.data.images.new('Source motion',1280,720,float_buffer=True)"
+      },
+      {
+        "line": 57,
+        "text": "field=bpy.data.images.new('Lens vector '+str(index),1280,720,float_buffer=True)"
+      },
+      {
+        "line": 70,
+        "text": "yy,xx=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 100,
+        "text": "rgba=np.concatenate([rgb,np.ones((720,1280,1),np.float32)],axis=2)"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/previz.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 50,
+        "text": "def slate(shot, fps, size=(1920, 1080)):"
+      },
+      {
+        "line": 89,
+        "text": "ap.add_argument(\"--width\", type=int, default=1920)"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/screen_sync_phosphor.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 13,
+        "text": "import bpy"
+      },
+      {
+        "line": 334,
+        "text": "scene.render.resolution_x, scene.render.resolution_y = 2560, 1440"
+      },
+      {
+        "line": 365,
+        "text": "\"-vf\", \"scale=1920:1080:flags=lanczos\", \"-c:v\", \"libx264\","
+      },
+      {
+        "line": 372,
+        "text": "\"-vf\", \"scale=1280:720:flags=lanczos\", \"-c:v\", \"libx264\", \"-crf\", \"17\","
+      }
+    ]
+  },
+  {
+    "recipe": "tools/screen_sync_pilot.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 14,
+        "text": "import bpy"
+      },
+      {
+        "line": 85,
+        "text": "scene.render.resolution_x = 1280"
+      },
+      {
+        "line": 86,
+        "text": "scene.render.resolution_y = 720"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/screen_sync_refine.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 7,
+        "text": "import bpy"
+      },
+      {
+        "line": 79,
+        "text": "scene.render.resolution_x = 2560"
+      },
+      {
+        "line": 80,
+        "text": "scene.render.resolution_y = 1440"
+      },
+      {
+        "line": 118,
+        "text": "\"-vf\", \"scale=1280:720:flags=lanczos\", \"-c:v\", \"libx264\","
+      },
+      {
+        "line": 137,
+        "text": "\"delivery_size\":[1280,720], \"texture_source_region\":[645,405,745,485],"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/stage.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 737,
+        "text": "ap.add_argument(\"--width\", type=int, default=1920)"
+      },
+      {
+        "line": 744,
+        "text": "help=\"1280 wide, no blur \u00e2\u20ac\u201d for fast iteration\")"
+      },
+      {
+        "line": 747,
+        "text": "a.width, a.blur, a.ss = 1280, 1, 1.0"
+      },
+      {
+        "line": 873,
+        "text": "s = W / 1920"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/swimmer_palette_pilot.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 52,
+        "text": "yy,xx=np.mgrid[:720,:1280]"
+      },
+      {
+        "line": 66,
+        "text": "core=np.zeros((720,1280),np.float32); rec=[]"
+      },
+      {
+        "line": 105,
+        "text": "halo=cv2.GaussianBlur(core,(0,0),6)*.75+cv2.GaussianBlur(core,(0,0),17)*.30"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/timing_auditions.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 91,
+        "text": "banner=Image.new('RGBA',(1280,64),(0,0,0,218))"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/tracked_light_pilot.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 54,
+        "text": "assert (w, h) == (1280, 720), 'Re-author initial mask for different resolution'"
+      },
+      {
+        "line": 91,
+        "text": "mask=cv2.GaussianBlur(mask,(0,0),1.4)"
+      },
+      {
+        "line": 109,
+        "text": "tracked=cv2.warpPerspective(mask,transform,(w,h))"
+      },
+      {
+        "line": 119,
+        "text": "halo=(cv2.GaussianBlur(tracked,(0,0),10)*.13+"
+      },
+      {
+        "line": 120,
+        "text": "cv2.GaussianBlur(tracked,(0,0),30)*.075)*strength"
+      },
+      {
+        "line": 129,
+        "text": "cv2.polylines(check,contour,True,(0,255,0),2)"
+      }
+    ]
+  },
+  {
+    "recipe": "tools/tunnel_arrival_pilot.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 81,
+        "text": "sampled=cv2.remap(gold,mx,my,cv2.INTER_LINEAR,borderMode=cv2.BORDER_CONSTANT)"
+      },
+      {
+        "line": 82,
+        "text": "valid=(mx>=0)&(mx<1280)&(my>=0)&(my<720)"
+      },
+      {
+        "line": 84,
+        "text": "smooth=cv2.GaussianBlur(profile[:,None],(1,9),1.5).ravel()"
+      },
+      {
+        "line": 134,
+        "text": "small=cv2.resize(beam,(1280,720),interpolation=cv2.INTER_AREA)"
+      },
+      {
+        "line": 135,
+        "text": "glow=small+cv2.GaussianBlur(small,(0,0),2)*.6+cv2.GaussianBlur(small,(0,0),8)*.25"
+      },
+      {
+        "line": 137,
+        "text": "glow=np.zeros((720,1280,3),np.float32)"
+      },
+      {
+        "line": 139,
+        "text": "core=cv2.resize(layer,(1280,720),interpolation=cv2.INTER_AREA)"
+      },
+      {
+        "line": 141,
+        "text": "glow+=core+cv2.GaussianBlur(core,(0,0),2+band*1.5)*1.2"
+      }
+    ]
+  },
+  {
+    "recipe": "out/bends_mind_fx_v1/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 25,
+        "text": "yy,xx=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 31,
+        "text": "trail=np.zeros((720,1280,3),np.float32)"
+      },
+      {
+        "line": 32,
+        "text": "proc=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','bgr24','-s','1280x720','-r','24','-i','-','-an','-c:v','libx264','-crf','17','-pix_fmt','yuv420p',str("
+      },
+      {
+        "line": 43,
+        "text": "frame=cv2.remap(pic,mx,my,cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT101)"
+      },
+      {
+        "line": 47,
+        "text": "frame[:,:,channel]=cv2.remap(pic[:,:,channel],(mx+sign*split).astype(np.float32),my,cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT101)"
+      },
+      {
+        "line": 62,
+        "text": "cv2.polylines(ink,[points[j:j+14]],False,tuple(float(c*energy) for c in color),2,cv2.LINE_AA)"
+      },
+      {
+        "line": 71,
+        "text": "ink=cv2.resize(ink,(1280,720),interpolation=cv2.INTER_AREA)"
+      },
+      {
+        "line": 74,
+        "text": "glow=trail*.8+cv2.GaussianBlur(trail,(0,0),3)*1.4+cv2.GaussianBlur(trail,(0,0),14)*1.1"
+      }
+    ]
+  },
+  {
+    "recipe": "out/colony_world_blossom_v1/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 19,
+        "text": "trail=[np.zeros((720,1280),np.float32) for _ in range(2)]"
+      },
+      {
+        "line": 37,
+        "text": "light=np.zeros((720,1280,3),np.float32)"
+      },
+      {
+        "line": 61,
+        "text": "energy=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 70,
+        "text": "beam=trail[side]*1.8+cv2.GaussianBlur(trail[side],(0,0),3)*2+cv2.GaussianBlur(trail[side],(0,0),10)*2.3"
+      }
+    ]
+  },
+  {
+    "recipe": "out/colony_world_blossom_v2/shape.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 8,
+        "text": "light=np.zeros((720,1280,3),np.float32)"
+      },
+      {
+        "line": 16,
+        "text": "energy=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 59,
+        "text": "beam=trail[side]*2+cv2.GaussianBlur(trail[side],(0,0),3)*2.4+cv2.GaussianBlur(trail[side],(0,0),11)*2.9"
+      }
+    ]
+  },
+  {
+    "recipe": "out/full_review_v05/check.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 23,
+        "text": "assert (video['width'],video['height']) == (1280,720)"
+      },
+      {
+        "line": 36,
+        "text": "'master_zero_lag_correlation':corr,'decode':'passed','width':1280,'height':720,"
+      }
+    ]
+  },
+  {
+    "recipe": "out/garden_begin_light_v1/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 9,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 23,
+        "text": "for px in (cx,1280-cx):"
+      },
+      {
+        "line": 41,
+        "text": "seed=cv2.GaussianBlur(warm,(0,0),1.1)*gain"
+      },
+      {
+        "line": 42,
+        "text": "flowers=cv2.GaussianBlur(pink,(0,0),1.2)*(.40*wave+.60*begin)"
+      },
+      {
+        "line": 44,
+        "text": "bloom=cv2.GaussianBlur(core,(0,0),7)*.75+cv2.GaussianBlur(core,(0,0),23)*.50"
+      }
+    ]
+  },
+  {
+    "recipe": "out/garden_birds_fx_v1/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 25,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 47,
+        "text": "local=cv2.GaussianBlur(matte,(0,0),1.3)*gain"
+      },
+      {
+        "line": 49,
+        "text": "bloom=cv2.GaussianBlur(core,(0,0),8)*.58+cv2.GaussianBlur(core,(0,0),24)*.28"
+      },
+      {
+        "line": 56,
+        "text": "motion=np.clip(cv2.GaussianBlur(diff,(0,0),4)*18,0,1)"
+      },
+      {
+        "line": 62,
+        "text": "glint=cv2.GaussianBlur(silver,(0,0),.75)*(.16+.32*state+.40*woke)*settle"
+      },
+      {
+        "line": 64,
+        "text": "pearl+=cv2.GaussianBlur(pearl,(0,0),4)*.8"
+      }
+    ]
+  },
+  {
+    "recipe": "out/garden_birds_fx_v2/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 9,
+        "text": "'cv2.GaussianBlur(core,(0,0),8)*.58+cv2.GaussianBlur(core,(0,0),24)*.28':"
+      },
+      {
+        "line": 10,
+        "text": "'cv2.GaussianBlur(core,(0,0),10)*1.05+cv2.GaussianBlur(core,(0,0),30)*.65',"
+      },
+      {
+        "line": 13,
+        "text": "'pearl+=cv2.GaussianBlur(pearl,(0,0),4)*.8':"
+      },
+      {
+        "line": 14,
+        "text": "'pearl+=cv2.GaussianBlur(pearl,(0,0),5)*1.35+cv2.GaussianBlur(pearl,(0,0),16)*.65',"
+      }
+    ]
+  },
+  {
+    "recipe": "out/garden_ghost_wings_v3/ghost_wings.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 17,
+        "text": "layer=np.zeros((720,1280,3),np.float32)"
+      },
+      {
+        "line": 36,
+        "text": "glow=layer*1.4+cv2.GaussianBlur(layer,(0,0),2)*2.8+cv2.GaussianBlur(layer,(0,0),7)*3.5"
+      }
+    ]
+  },
+  {
+    "recipe": "out/garden_light_moth_v1/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 18,
+        "text": "yy,xx=np.mgrid[:720,:1280]"
+      },
+      {
+        "line": 32,
+        "text": "score=cv2.GaussianBlur(score,(0,0),3)"
+      },
+      {
+        "line": 53,
+        "text": "matte=cv2.GaussianBlur(matte,(0,0),1.5)"
+      },
+      {
+        "line": 56,
+        "text": "glow=cv2.GaussianBlur(matte,(0,0),6)*.26+cv2.GaussianBlur(matte,(0,0),22)*.30"
+      }
+    ]
+  },
+  {
+    "recipe": "out/garden_psychedelic_v2/effects.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 12,
+        "text": "glow=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 42,
+        "text": "result=cv2.remap(pic,mx,my,cv2.INTER_CUBIC,borderMode=cv2.BORDER_REFLECT_101)"
+      },
+      {
+        "line": 44,
+        "text": "result[:,:,0]=cv2.remap(pic[:,:,0],mx+fringe,my-fringe*.3,cv2.INTER_CUBIC,borderMode=cv2.BORDER_REFLECT_101)"
+      },
+      {
+        "line": 45,
+        "text": "result[:,:,2]=cv2.remap(pic[:,:,2],mx-fringe,my+fringe*.3,cv2.INTER_CUBIC,borderMode=cv2.BORDER_REFLECT_101)"
+      },
+      {
+        "line": 49,
+        "text": "edge=cv2.GaussianBlur(np.clip(edge,0,.3),(0,0),2)*strength*freedom"
+      }
+    ]
+  },
+  {
+    "recipe": "out/garden_waking_v3/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 20,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 34,
+        "text": "cover=np.zeros((720,1280),np.float32);clear=np.zeros_like(cover);eye_info=[]"
+      },
+      {
+        "line": 70,
+        "text": "noise=cv2.remap(noise,gx+flow[:,:,0],gy+flow[:,:,1],cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT)"
+      },
+      {
+        "line": 73,
+        "text": "fine=cv2.resize(noise,(1280,720),interpolation=cv2.INTER_LINEAR)"
+      },
+      {
+        "line": 79,
+        "text": "phosphor+=cv2.GaussianBlur(phosphor,(0,0),1.7)*.65"
+      }
+    ]
+  },
+  {
+    "recipe": "out/garden_walk_guide_v1/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 11,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 30,
+        "text": "core=np.zeros((720,1280),np.float32);halo=core.copy()"
+      },
+      {
+        "line": 46,
+        "text": "occlusion=1-.70*cv2.GaussianBlur(dark*green,(0,0),1.8)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/glyph_debug/check.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 1,
+        "text": "import bpy,json,sys"
+      },
+      {
+        "line": 5,
+        "text": "sc=bpy.context.scene;sc.render.engine='BLENDER_EEVEE';sc.render.resolution_x=1280;sc.render.resolution_y=720;sc.render.resolution_percentage=100"
+      }
+    ]
+  },
+  {
+    "recipe": "out/meaning_orb_loop_v4/render.py",
+    "category": "raster operations",
+    "evidence": []
+  },
+  {
+    "recipe": "out/meaning_orb_pass_v2/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 21,
+        "text": "trail=np.zeros((720,1280,3),np.float32)"
+      },
+      {
+        "line": 32,
+        "text": "shift=round(1280*smooth((sf-2786)/40))"
+      },
+      {
+        "line": 33,
+        "text": "if shift<1280:"
+      },
+      {
+        "line": 36,
+        "text": "picture=np.zeros((720,1280,3),np.uint8)"
+      },
+      {
+        "line": 37,
+        "text": "if shift<1280:picture[:,shift:]=old[:,:1280-shift]"
+      },
+      {
+        "line": 38,
+        "text": "if shift>0:picture[:,:shift]=incoming[:,1280-shift:]"
+      },
+      {
+        "line": 61,
+        "text": "beam=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 93,
+        "text": "glow=trail*1.25+cv2.GaussianBlur(trail,(0,0),2.5)*1.6+cv2.GaussianBlur(trail,(0,0),9)*2.1"
+      }
+    ]
+  },
+  {
+    "recipe": "out/meaning_thread_trial_v1/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 22,
+        "text": "plate=cv2.resize(plate,(1280,720));cv2.imwrite(str(OUT/'listener_still.jpg'),plate)"
+      },
+      {
+        "line": 23,
+        "text": "trail=np.zeros((720,1280,3),np.float32)"
+      },
+      {
+        "line": 29,
+        "text": "pic=cv2.warpAffine(plate,np.array([[z,0,640*(1-z)],[0,z,360*(1-z)]],np.float32),(1280,720),borderMode=cv2.BORDER_REFLECT)"
+      },
+      {
+        "line": 56,
+        "text": "glow=trail*1.1+cv2.GaussianBlur(trail,(0,0),3)*1.6+cv2.GaussianBlur(trail,(0,0),12)*2.8"
+      }
+    ]
+  },
+  {
+    "recipe": "out/observatory_phosphor_start/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 11,
+        "text": "W,H=1280,720"
+      },
+      {
+        "line": 28,
+        "text": "picture=cv2.remap(frame.astype(np.float32),mapx.astype(np.float32),mapy.astype(np.float32),cv2.INTER_LINEAR,borderMode=cv2.BORDER_CONSTANT)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/opening_aerial_glimmer_v1/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 55,
+        "text": "yy,xx=np.mgrid[0:720,0:1280]"
+      },
+      {
+        "line": 58,
+        "text": "layer=np.zeros((720,1280,3),np.float32)"
+      },
+      {
+        "line": 90,
+        "text": "light = strips.new_image(name='garden_signal_and_architecture', filepath=str(lightdir/'000.png'), channel=90, frame_start=B(205))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_A2_tv_v1/blender.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 2,
+        "text": "import bpy,json"
+      },
+      {
+        "line": 6,
+        "text": "sc=bpy.context.scene; sc.render.resolution_x=1280; sc.render.resolution_y=720"
+      },
+      {
+        "line": 12,
+        "text": "base=strips.new_movie('Accepted A1 Kling',cfg['source'],channel=1,frame_start=1)"
+      },
+      {
+        "line": 13,
+        "text": "overlay=strips.new_image('Biology to star map',str(OUT/'layers/000.png'),channel=2,frame_start=1)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_A2_tv_v1/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 23,
+        "text": "glass=cv2.warpPerspective(frames[0].astype(np.float32),inv,(S,S))"
+      },
+      {
+        "line": 28,
+        "text": "alpha=cv2.warpPerspective(mask*.82,H,(1280,720))"
+      },
+      {
+        "line": 49,
+        "text": "cv2.polylines(im,[np.round(pts).astype(np.int32)],False,tuple(float(v) for v in color),width,cv2.LINE_AA)"
+      },
+      {
+        "line": 128,
+        "text": "trace=cv2.GaussianBlur(trace,(0,0),1.35)"
+      },
+      {
+        "line": 129,
+        "text": "bloom=cv2.GaussianBlur(trace,(0,0),7)*(.85+.55*response)+cv2.GaussianBlur(trace,(0,0),22)*(.38+.45*response)"
+      },
+      {
+        "line": 132,
+        "text": "current=cv2.warpPerspective(frames[f].astype(np.float32),inv,(S,S))"
+      },
+      {
+        "line": 139,
+        "text": "projected=cv2.warpPerspective(screen,H,(1280,720))"
+      },
+      {
+        "line": 145,
+        "text": "tiles.append(cv2.resize(comp[290:605,1030:1280].astype(np.uint8),(300,378)))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_additive_green_v1/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 21,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 35,
+        "text": "cv2.polylines(layer,[pts],True,(80*power,220*power,110*power),1,cv2.LINE_AA)"
+      },
+      {
+        "line": 37,
+        "text": "layer+=cv2.GaussianBlur(layer,(0,0),max(1,size*.5))*2+cv2.GaussianBlur(layer,(0,0),max(2,size*1.5))*2"
+      },
+      {
+        "line": 48,
+        "text": "cv2.polylines(im,[pts],True,tuple(float(c*(.6+.8*p)) for c in col),2,cv2.LINE_AA)"
+      },
+      {
+        "line": 52,
+        "text": "cv2.polylines(im,[np.c_[xx,yy].astype(np.int32)],False,(155,210,240),1,cv2.LINE_AA)"
+      },
+      {
+        "line": 62,
+        "text": "im+=cv2.GaussianBlur(im,(0,0),3)*(1.1+p)"
+      },
+      {
+        "line": 70,
+        "text": "im+=cv2.GaussianBlur(im,(0,0),4)*2"
+      },
+      {
+        "line": 77,
+        "text": "projected=cv2.warpPerspective(im*mask[:,:,None],H,(1280,720))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_artifact_home_v1/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 9,
+        "text": "W,H=1280,720; SCALE=2"
+      },
+      {
+        "line": 35,
+        "text": "layer+=cv2.GaussianBlur(layer,(0,0),3*SCALE)*2.1"
+      },
+      {
+        "line": 36,
+        "text": "layer+=cv2.GaussianBlur(layer,(0,0),16*SCALE)*2.8"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_B1_afterglow_v1/blender.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 2,
+        "text": "import bpy,json"
+      },
+      {
+        "line": 6,
+        "text": "sc=bpy.context.scene;sc.render.resolution_x=1280;sc.render.resolution_y=720;sc.render.resolution_percentage=100"
+      },
+      {
+        "line": 10,
+        "text": "st=strips.new_image(folder,str(OUT/folder/'000.png'),channel=ch,frame_start=1)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_B1_afterglow_v1/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 43,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 55,
+        "text": "warped=cv2.remap(f,mx.astype(np.float32),my.astype(np.float32),cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT)"
+      },
+      {
+        "line": 63,
+        "text": "core=cv2.GaussianBlur(warm,(0,0),.75)*sweep*(.65+2.1*v)"
+      },
+      {
+        "line": 65,
+        "text": "emitted+=cv2.GaussianBlur(emitted,(0,0),5)*1.0+cv2.GaussianBlur(emitted,(0,0),17)*.70"
+      },
+      {
+        "line": 78,
+        "text": "emitted+=motes*1.2+cv2.GaussianBlur(motes,(0,0),3)*3+cv2.GaussianBlur(motes,(0,0),9)*1.7"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_B1_afterglow_v2/blender.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 2,
+        "text": "import bpy,json"
+      },
+      {
+        "line": 6,
+        "text": "sc=bpy.context.scene;sc.render.resolution_x=1280;sc.render.resolution_y=720;sc.render.resolution_percentage=100"
+      },
+      {
+        "line": 11,
+        "text": "st=strips.new_image(folder,str(parent/folder/'000.png'),channel=ch,frame_start=1)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_B1_afterglow_v2/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 12,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 22,
+        "text": "mask=cv2.GaussianBlur(mask,(0,0),7)"
+      },
+      {
+        "line": 33,
+        "text": "violet=cv2.GaussianBlur(violet,(0,0),8)"
+      },
+      {
+        "line": 34,
+        "text": "teal=cv2.GaussianBlur(teal,(0,0),10)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_B1_afterglow_v3/blender.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 2,
+        "text": "import bpy,json"
+      },
+      {
+        "line": 6,
+        "text": "sc=bpy.context.scene;sc.render.resolution_x=1280;sc.render.resolution_y=720;sc.render.resolution_percentage=100"
+      },
+      {
+        "line": 11,
+        "text": "st=strips.new_image(folder,str(parent/folder/'000.png'),channel=ch,frame_start=1)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_B1_afterglow_v3/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 13,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 18,
+        "text": "mask=cv2.GaussianBlur((1-window)*(1-person),(0,0),5)"
+      },
+      {
+        "line": 38,
+        "text": "violet=cv2.GaussianBlur(np.exp(-((field-.50)/.34)**2),(0,0),5)"
+      },
+      {
+        "line": 39,
+        "text": "teal=cv2.GaussianBlur(np.exp(-((field+.72)/.38)**2),(0,0),6)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_B1_afterglow_v4/blender.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 2,
+        "text": "import bpy,json"
+      },
+      {
+        "line": 6,
+        "text": "sc=bpy.context.scene;sc.render.resolution_x=1280;sc.render.resolution_y=720;sc.render.resolution_percentage=100"
+      },
+      {
+        "line": 11,
+        "text": "st=strips.new_image(folder,str(parent/folder/'000.png'),channel=ch,frame_start=1)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_B1_afterglow_v4/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 13,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 18,
+        "text": "mask=cv2.GaussianBlur((1-window)*(1-person),(0,0),5)"
+      },
+      {
+        "line": 41,
+        "text": "result+=cv2.remap(texture,mx,my,cv2.INTER_CUBIC,borderMode=cv2.BORDER_WRAP)*(.55**octave)"
+      },
+      {
+        "line": 53,
+        "text": "violet=cv2.GaussianBlur(np.exp(-((field-.50)/.34)**2),(0,0),5)"
+      },
+      {
+        "line": 54,
+        "text": "teal=cv2.GaussianBlur(np.exp(-((field+.72)/.38)**2),(0,0),6)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_B2_afterglow_v1/blender.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 2,
+        "text": "import bpy,json"
+      },
+      {
+        "line": 6,
+        "text": "sc=bpy.context.scene;sc.render.resolution_x=1280;sc.render.resolution_y=720;sc.render.resolution_percentage=100"
+      },
+      {
+        "line": 11,
+        "text": "st=strips.new_image(folder,str(parent/folder/'000.png'),channel=ch,frame_start=1)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_B2_afterglow_v1/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 45,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 57,
+        "text": "warped=cv2.remap(f,mx.astype(np.float32),my.astype(np.float32),cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT)"
+      },
+      {
+        "line": 65,
+        "text": "core=cv2.GaussianBlur(warm,(0,0),.75)*sweep*(.65+2.1*v)"
+      },
+      {
+        "line": 67,
+        "text": "emitted+=cv2.GaussianBlur(emitted,(0,0),5)*1.0+cv2.GaussianBlur(emitted,(0,0),17)*.70"
+      },
+      {
+        "line": 80,
+        "text": "emitted+=motes*1.2+cv2.GaussianBlur(motes,(0,0),3)*3+cv2.GaussianBlur(motes,(0,0),9)*1.7"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_B2_afterglow_v1/room.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 13,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 18,
+        "text": "mask=cv2.GaussianBlur((1-window)*(1-person),(0,0),5)"
+      },
+      {
+        "line": 41,
+        "text": "result+=cv2.remap(texture,mx,my,cv2.INTER_CUBIC,borderMode=cv2.BORDER_WRAP)*(.55**octave)"
+      },
+      {
+        "line": 53,
+        "text": "violet=cv2.GaussianBlur(np.exp(-((field-.50)/.34)**2),(0,0),5)"
+      },
+      {
+        "line": 54,
+        "text": "teal=cv2.GaussianBlur(np.exp(-((field+.72)/.38)**2),(0,0),6)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_closing_available_v1/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 24,
+        "text": "w=1280/z;h=720/z"
+      },
+      {
+        "line": 25,
+        "text": "x0=np.clip(cx-w/2,0,1280-w);y0=np.clip(cy-h/2,0,720-h)"
+      },
+      {
+        "line": 26,
+        "text": "return cv2.warpAffine(f,np.float32([[z,0,-x0*z],[0,z,-y0*z]]),(1280,720))"
+      },
+      {
+        "line": 28,
+        "text": "cv2.rectangle(f,(0,0),(1280,32),(15,15,15),-1)"
+      },
+      {
+        "line": 31,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 32,
+        "text": "writer=cv2.VideoWriter(str(OUT/'silent.mp4'),cv2.VideoWriter_fourcc(*'mp4v'),24,(1280,720))"
+      },
+      {
+        "line": 44,
+        "text": "f=cv2.resize(artifact[90+song-4557][455:710,465:835],(1280,720))"
+      },
+      {
+        "line": 76,
+        "text": "f=np.zeros((720,1280,3),np.uint8)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_closing_available_v1/debug_labels.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 21,
+        "text": "w=cv2.VideoWriter(str(OUT/'debug_silent.mp4'),cv2.VideoWriter_fourcc(*'mp4v'),24,(1280,720));assert w.isOpened()"
+      },
+      {
+        "line": 29,
+        "text": "cv2.rectangle(f,(0,0),(1280,95),(12,12,12),-1)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_closing_timing_v1/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 24,
+        "text": "w=1280/z;h=720/z"
+      },
+      {
+        "line": 25,
+        "text": "x0=np.clip(cx-w/2,0,1280-w);y0=np.clip(cy-h/2,0,720-h)"
+      },
+      {
+        "line": 26,
+        "text": "return cv2.warpAffine(f,np.float32([[z,0,-x0*z],[0,z,-y0*z]]),(1280,720))"
+      },
+      {
+        "line": 28,
+        "text": "cv2.rectangle(f,(0,0),(1280,32),(15,15,15),-1)"
+      },
+      {
+        "line": 31,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 32,
+        "text": "writer=cv2.VideoWriter(str(OUT/'silent.mp4'),cv2.VideoWriter_fourcc(*'mp4v'),24,(1280,720))"
+      },
+      {
+        "line": 44,
+        "text": "f=cv2.resize(artifact[90+song-4557][455:710,465:835],(1280,720))"
+      },
+      {
+        "line": 76,
+        "text": "f=np.zeros((720,1280,3),np.uint8)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_depth_timing_v1/audit.py",
+    "category": "hybrid",
+    "evidence": [
+      {
+        "line": 9,
+        "text": "bpy=bool(re.search(r'\\bimport bpy\\b|\\bfrom bpy\\b',text))"
+      },
+      {
+        "line": 14,
+        "text": "if re.search(r'import bpy|cv2\\.(GaussianBlur|remap|warpPerspective|polylines)|resolution_[xy]|1280|1920|new_image|new_movie',line):"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_depth_timing_v1/build.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 2,
+        "text": "import bpy, math, random, sys"
+      },
+      {
+        "line": 10,
+        "text": "sc.render.resolution_x=round(HEIGHT*16/9);sc.render.resolution_y=HEIGHT;sc.render.resolution_percentage=100"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_depth_timing_v1/extension.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 2,
+        "text": "import bpy"
+      },
+      {
+        "line": 6,
+        "text": "sc.render.resolution_x=1280;sc.render.resolution_y=720;sc.render.resolution_percentage=100;sc.render.fps=24"
+      },
+      {
+        "line": 12,
+        "text": "for loop,coord in zip(uv.data,[(445/1280,20/720),(845/1280,20/720),(845/1280,245/720),(445/1280,245/720)]):loop.uv=coord"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_fx_notes_v2/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 20,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 34,
+        "text": "cv2.polylines(layer,[pts],True,(80*power,220*power,110*power),1,cv2.LINE_AA)"
+      },
+      {
+        "line": 36,
+        "text": "layer+=cv2.GaussianBlur(layer,(0,0),max(1,size*.5))*2+cv2.GaussianBlur(layer,(0,0),max(2,size*1.5))*2"
+      },
+      {
+        "line": 47,
+        "text": "cv2.polylines(im,[pts],True,tuple(float(c*(.6+.8*p)) for c in col),2,cv2.LINE_AA)"
+      },
+      {
+        "line": 51,
+        "text": "cv2.polylines(im,[np.c_[xx,yy].astype(np.int32)],False,(155,210,240),1,cv2.LINE_AA)"
+      },
+      {
+        "line": 61,
+        "text": "im+=cv2.GaussianBlur(im,(0,0),3)*(1.1+p)"
+      },
+      {
+        "line": 69,
+        "text": "im+=cv2.GaussianBlur(im,(0,0),4)*2"
+      },
+      {
+        "line": 76,
+        "text": "projected=cv2.warpPerspective(im*mask[:,:,None],H,(1280,720))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_fx_notes_v2/repair_night.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 6,
+        "text": "w=cv2.VideoWriter(str(OUT/'night.mp4'),cv2.VideoWriter_fourcc(*'mp4v'),24,(1280,720))"
+      },
+      {
+        "line": 9,
+        "text": "cv2.rectangle(f,(0,0),(1280,91),(12,12,12),-1)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_mote_cloud_blender_v1/build.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 2,
+        "text": "import bpy, math, random"
+      },
+      {
+        "line": 7,
+        "text": "sc.render.resolution_x=1280;sc.render.resolution_y=720;sc.render.resolution_percentage=100"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_notes_revision_v1/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 20,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 34,
+        "text": "cv2.polylines(layer,[pts],True,(80*power,220*power,110*power),1,cv2.LINE_AA)"
+      },
+      {
+        "line": 36,
+        "text": "layer+=cv2.GaussianBlur(layer,(0,0),max(1,size*.5))*2+cv2.GaussianBlur(layer,(0,0),max(2,size*1.5))*2"
+      },
+      {
+        "line": 44,
+        "text": "cv2.polylines(im,[pts],True,col,2,cv2.LINE_AA)"
+      },
+      {
+        "line": 48,
+        "text": "im+=cv2.GaussianBlur(im,(0,0),4)*1.4"
+      },
+      {
+        "line": 54,
+        "text": "alpha=cv2.warpPerspective(mask,H,(1280,720))*.97"
+      },
+      {
+        "line": 57,
+        "text": "glass=cv2.warpPerspective(f,inv,(S,S)).astype(float)*.10"
+      },
+      {
+        "line": 59,
+        "text": "proj=cv2.warpPerspective(screen,H,(1280,720))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_tv_map_v1/blender.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 2,
+        "text": "import bpy,json"
+      },
+      {
+        "line": 6,
+        "text": "sc=bpy.context.scene; sc.render.resolution_x=1280; sc.render.resolution_y=720"
+      },
+      {
+        "line": 12,
+        "text": "base=strips.new_movie('Accepted A1 Kling',cfg['source'],channel=1,frame_start=1)"
+      },
+      {
+        "line": 13,
+        "text": "overlay=strips.new_image('Biology to star map',str(OUT/'layers/000.png'),channel=2,frame_start=1)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_tv_map_v1/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 23,
+        "text": "glass=cv2.warpPerspective(frames[0].astype(np.float32),inv,(S,S))"
+      },
+      {
+        "line": 28,
+        "text": "alpha=cv2.warpPerspective(mask,H,(1280,720))"
+      },
+      {
+        "line": 42,
+        "text": "cv2.polylines(im,[np.round(pts).astype(np.int32)],False,tuple(float(v) for v in color),width,cv2.LINE_AA)"
+      },
+      {
+        "line": 92,
+        "text": "bloom=cv2.GaussianBlur(trace,(0,0),6)*.75+cv2.GaussianBlur(trace,(0,0),18)*.30"
+      },
+      {
+        "line": 97,
+        "text": "current=cv2.warpPerspective(frames[f].astype(np.float32),inv,(S,S))"
+      },
+      {
+        "line": 100,
+        "text": "projected=cv2.warpPerspective(screen,H,(1280,720))"
+      },
+      {
+        "line": 106,
+        "text": "tiles.append(cv2.resize(comp[290:605,1030:1280].astype(np.uint8),(300,378)))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_tv_map_v2/blender.py",
+    "category": "Blender present",
+    "evidence": [
+      {
+        "line": 2,
+        "text": "import bpy,json"
+      },
+      {
+        "line": 6,
+        "text": "sc=bpy.context.scene; sc.render.resolution_x=1280; sc.render.resolution_y=720"
+      },
+      {
+        "line": 12,
+        "text": "base=strips.new_movie('Accepted A1 Kling',cfg['source'],channel=1,frame_start=1)"
+      },
+      {
+        "line": 13,
+        "text": "overlay=strips.new_image('Biology to star map',str(OUT/'layers/000.png'),channel=2,frame_start=1)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_tv_map_v2/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 23,
+        "text": "glass=cv2.warpPerspective(frames[0].astype(np.float32),inv,(S,S))"
+      },
+      {
+        "line": 28,
+        "text": "alpha=cv2.warpPerspective(mask*.82,H,(1280,720))"
+      },
+      {
+        "line": 49,
+        "text": "cv2.polylines(im,[np.round(pts).astype(np.int32)],False,tuple(float(v) for v in color),width,cv2.LINE_AA)"
+      },
+      {
+        "line": 120,
+        "text": "trace=cv2.GaussianBlur(trace,(0,0),1.35)"
+      },
+      {
+        "line": 121,
+        "text": "bloom=cv2.GaussianBlur(trace,(0,0),7)*(.85+.55*response)+cv2.GaussianBlur(trace,(0,0),22)*(.38+.45*response)"
+      },
+      {
+        "line": 124,
+        "text": "current=cv2.warpPerspective(frames[f].astype(np.float32),inv,(S,S))"
+      },
+      {
+        "line": 131,
+        "text": "projected=cv2.warpPerspective(screen,H,(1280,720))"
+      },
+      {
+        "line": 137,
+        "text": "tiles.append(cv2.resize(comp[290:605,1030:1280].astype(np.uint8),(300,378)))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_water_reflection_v1/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 20,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 34,
+        "text": "cv2.polylines(layer,[pts],True,(80*power,220*power,110*power),1,cv2.LINE_AA)"
+      },
+      {
+        "line": 36,
+        "text": "layer+=cv2.GaussianBlur(layer,(0,0),max(1,size*.5))*2+cv2.GaussianBlur(layer,(0,0),max(2,size*1.5))*2"
+      },
+      {
+        "line": 44,
+        "text": "cv2.polylines(im,[pts],True,col,2,cv2.LINE_AA)"
+      },
+      {
+        "line": 48,
+        "text": "im+=cv2.GaussianBlur(im,(0,0),4)*1.4"
+      },
+      {
+        "line": 54,
+        "text": "alpha=cv2.warpPerspective(mask,H,(1280,720))*.97"
+      },
+      {
+        "line": 57,
+        "text": "glass=cv2.warpPerspective(f,inv,(S,S)).astype(float)*.10"
+      },
+      {
+        "line": 59,
+        "text": "proj=cv2.warpPerspective(screen,H,(1280,720))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_water_reflection_v2/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 20,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 34,
+        "text": "cv2.polylines(layer,[pts],True,(80*power,220*power,110*power),1,cv2.LINE_AA)"
+      },
+      {
+        "line": 36,
+        "text": "layer+=cv2.GaussianBlur(layer,(0,0),max(1,size*.5))*2+cv2.GaussianBlur(layer,(0,0),max(2,size*1.5))*2"
+      },
+      {
+        "line": 44,
+        "text": "cv2.polylines(im,[pts],True,col,2,cv2.LINE_AA)"
+      },
+      {
+        "line": 48,
+        "text": "im+=cv2.GaussianBlur(im,(0,0),4)*1.4"
+      },
+      {
+        "line": 54,
+        "text": "alpha=cv2.warpPerspective(mask,H,(1280,720))*.97"
+      },
+      {
+        "line": 57,
+        "text": "glass=cv2.warpPerspective(f,inv,(S,S)).astype(float)*.10"
+      },
+      {
+        "line": 59,
+        "text": "proj=cv2.warpPerspective(screen,H,(1280,720))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/outro_water_reflection_v3/build.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 17,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 31,
+        "text": "cv2.polylines(layer,[pts],True,(80*power,220*power,110*power),1,cv2.LINE_AA)"
+      },
+      {
+        "line": 33,
+        "text": "layer+=cv2.GaussianBlur(layer,(0,0),max(1,size*.5))*2+cv2.GaussianBlur(layer,(0,0),max(2,size*1.5))*2"
+      },
+      {
+        "line": 41,
+        "text": "cv2.polylines(im,[pts],True,col,2,cv2.LINE_AA)"
+      },
+      {
+        "line": 45,
+        "text": "im+=cv2.GaussianBlur(im,(0,0),4)*1.4"
+      },
+      {
+        "line": 51,
+        "text": "alpha=cv2.warpPerspective(mask,H,(1280,720))*.97"
+      },
+      {
+        "line": 54,
+        "text": "glass=cv2.warpPerspective(f,inv,(S,S)).astype(float)*.10"
+      },
+      {
+        "line": 56,
+        "text": "proj=cv2.warpPerspective(screen,H,(1280,720))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/probe_voice_trial/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 37,
+        "text": "yy,xx=np.mgrid[:720,:1280]"
+      },
+      {
+        "line": 63,
+        "text": "mask=cv2.GaussianBlur((gold*corridor).astype(np.float32),(0,0),1.0)"
+      },
+      {
+        "line": 67,
+        "text": "halo=(cv2.GaussianBlur(mask,(0,0),7)*.32+cv2.GaussianBlur(mask,(0,0),22)*.16)*pulse"
+      }
+    ]
+  },
+  {
+    "recipe": "out/receiver_interaction_v2/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 27,
+        "text": "result=np.zeros((720,1280,3),np.float32)"
+      },
+      {
+        "line": 29,
+        "text": "layer=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 47,
+        "text": "glow=layer*1.4+cv2.GaussianBlur(layer,(0,0),2)*2+cv2.GaussianBlur(layer,(0,0),7)*2.5"
+      }
+    ]
+  },
+  {
+    "recipe": "out/receiver_now_v3/burst.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 9,
+        "text": "result=np.zeros((720,1280,3),np.float32)"
+      },
+      {
+        "line": 22,
+        "text": "layer=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 41,
+        "text": "glow=layer*1.7+cv2.GaussianBlur(layer,(0,0),3)*3.5+cv2.GaussianBlur(layer,(0,0),12)*6"
+      }
+    ]
+  },
+  {
+    "recipe": "out/receiver_reply_arrival_v1/post.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 59,
+        "text": "yy,xx=np.mgrid[:720,:1280]"
+      },
+      {
+        "line": 61,
+        "text": "mask=cv2.GaussianBlur(mask,(0,0),1.4)"
+      },
+      {
+        "line": 75,
+        "text": "trackedmask=cv2.warpAffine(mask,matrix,(1280,720))"
+      },
+      {
+        "line": 81,
+        "text": "halo=(cv2.GaussianBlur(trackedmask,(0,0),10)*.18+cv2.GaussianBlur(trackedmask,(0,0),30)*.10)*strength"
+      }
+    ]
+  },
+  {
+    "recipe": "out/receiver_voice_review/rebuild_fx.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 45,
+        "text": "yy,xx=np.mgrid[:720,:1280]"
+      },
+      {
+        "line": 47,
+        "text": "mask=cv2.GaussianBlur(mask,(0,0),1.4)"
+      },
+      {
+        "line": 55,
+        "text": "tracked=cv2.warpPerspective(mask,np.array(record['homography']),(1280,720))"
+      },
+      {
+        "line": 63,
+        "text": "halo=(cv2.GaussianBlur(tracked,(0,0),10)*.18+cv2.GaussianBlur(tracked,(0,0),30)*.10)*strength"
+      }
+    ]
+  },
+  {
+    "recipe": "out/rosette_duet_trial/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 19,
+        "text": "self.trail=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 25,
+        "text": "if t<0:return np.zeros((720,1280,3),np.float32),None"
+      },
+      {
+        "line": 48,
+        "text": "if self.side==1:x=1280-x;y=400-125*np.sin(sweep+.25)*approach"
+      },
+      {
+        "line": 56,
+        "text": "energy=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 63,
+        "text": "energy=cv2.GaussianBlur(energy,(0,0),.7)"
+      },
+      {
+        "line": 65,
+        "text": "light=self.trail*1.5+cv2.GaussianBlur(self.trail,(0,0),3)*1.8+cv2.GaussianBlur(self.trail,(0,0),11)*2.5"
+      },
+      {
+        "line": 67,
+        "text": "xx=np.arange(1280)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/rosette_sprite_trial/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 24,
+        "text": "period=40.;trail=np.zeros((720,1280),np.float32);records=[]"
+      },
+      {
+        "line": 35,
+        "text": "energy=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 61,
+        "text": "energy=cv2.GaussianBlur(energy,(0,0),.6)"
+      },
+      {
+        "line": 64,
+        "text": "light=trail*2.6+cv2.GaussianBlur(trail,(0,0),3)*3.3+cv2.GaussianBlur(trail,(0,0),10)*4"
+      }
+    ]
+  },
+  {
+    "recipe": "out/screen_garden_trial/screen.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 13,
+        "text": "return cv2.resize(crop,(1280,720),interpolation=cv2.INTER_CUBIC).astype(np.float32)/255"
+      },
+      {
+        "line": 21,
+        "text": "transform=np.array([[2*radius/1280,0,center[0]-radius],[0,2*radius/720,center[1]-radius]],np.float32)"
+      },
+      {
+        "line": 22,
+        "text": "mapped=cv2.warpAffine(tex,transform,(1280,720))"
+      },
+      {
+        "line": 31,
+        "text": "tx=np.array([[2*r/1280,0,c[0]-r],[0,2*r/720,c[1]-r]],np.float32)"
+      },
+      {
+        "line": 32,
+        "text": "expanded=cv2.warpAffine(tex,tx,(1280,720),borderMode=cv2.BORDER_REFLECT_101)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/shop_push_test_v1/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 26,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 37,
+        "text": "# Exact original reference crop converted from1536 to1280 pixels."
+      },
+      {
+        "line": 39,
+        "text": "width=1280+(800/1.2-1280)*a"
+      },
+      {
+        "line": 41,
+        "text": "samples.append(cv2.remap(wide,(left+x*width/1280).astype(np.float32),(top+y*height/720).astype(np.float32),cv2.INTER_LINEAR))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/shop_signal_test_v1/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 20,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 21,
+        "text": "trail=np.zeros((720,1280,3),np.float32);level=0;records=[]"
+      },
+      {
+        "line": 39,
+        "text": "energy=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 47,
+        "text": "glow=trail*1.1+cv2.GaussianBlur(trail,(0,0),3)*2.0+cv2.GaussianBlur(trail,(0,0),12)*2.5"
+      },
+      {
+        "line": 52,
+        "text": "streaks.append(cv2.remap(glow,((x-640)/scale+640).astype(np.float32),((y-270)/scale+270).astype(np.float32),cv2.INTER_LINEAR))"
+      },
+      {
+        "line": 53,
+        "text": "glow=cv2.GaussianBlur(np.mean(streaks,axis=0),(0,0),max(.1,9*blur))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/shop_snap_test_v2/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 24,
+        "text": "width=1280+(800/1.2-1280)*a"
+      },
+      {
+        "line": 29,
+        "text": "width=1280/scale;height=720/scale"
+      },
+      {
+        "line": 30,
+        "text": "left=(1280-width)*.50;top=(720-height)*.40"
+      },
+      {
+        "line": 31,
+        "text": "samples.append(cv2.remap(plate,(left+x*width/1280).astype(np.float32),"
+      },
+      {
+        "line": 38,
+        "text": "streaks.append(cv2.remap(frame,((x-640)/scale+640).astype(np.float32),"
+      },
+      {
+        "line": 42,
+        "text": "frame=cv2.GaussianBlur(frame,(0,0),max(.1,11*blur))"
+      }
+    ]
+  },
+  {
+    "recipe": "out/shop_vapor_test_v3/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 22,
+        "text": "vapor=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 35,
+        "text": "vapor=cv2.GaussianBlur(vapor,(0,0),5+10*dissolve)"
+      }
+    ]
+  },
+  {
+    "recipe": "out/specimen_signal_v1/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 21,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 33,
+        "text": "visible=1-cv2.GaussianBlur(glove,(0,0),1.2)"
+      },
+      {
+        "line": 45,
+        "text": "signal=cv2.GaussianBlur(warm,(0,0),.8)*(response+punctuation)*settle*(.6+acquired*.8*sweep)"
+      },
+      {
+        "line": 47,
+        "text": "bloom=cv2.GaussianBlur(core,(0,0),4)*.9+cv2.GaussianBlur(core,(0,0),11)*.65"
+      }
+    ]
+  },
+  {
+    "recipe": "out/swimmer_cutaway_v2/fx_wrapper.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 3,
+        "text": "exec(compile('\"\"\"Two matched palette trials on a tracked subset of surface swimmers.\"\"\"\\nimport json\\nimport pathlib\\nimport sys\\nimport math\\nROOT=pathlib.Path(__file__).resolve()"
+      }
+    ]
+  },
+  {
+    "recipe": "out/world_nebula_v3/space.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 10,
+        "text": "field+=cv2.resize(grid,(1280,720),interpolation=cv2.INTER_CUBIC)*weight"
+      },
+      {
+        "line": 21,
+        "text": "blend=np.clip(x/1280*.75+n2*.4,0,1)"
+      },
+      {
+        "line": 23,
+        "text": "space=np.zeros((720,1280,3),np.float32)+np.array([.026,.016,.021],np.float32)"
+      },
+      {
+        "line": 30,
+        "text": "px=int(rng.integers(0,1280));py=int(rng.integers(0,720))"
+      },
+      {
+        "line": 39,
+        "text": "space+=points+cv2.GaussianBlur(points,(0,0),1.5)*.55"
+      }
+    ]
+  },
+  {
+    "recipe": "out/world_pullback_refined_v2/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 12,
+        "text": "subject=np.zeros((720,1280),np.float32)"
+      },
+      {
+        "line": 25,
+        "text": "subject=cv2.GaussianBlur(subject,(0,0),2.2)"
+      },
+      {
+        "line": 38,
+        "text": "matte=cv2.warpAffine(subject,matrix,(1280,720))"
+      },
+      {
+        "line": 46,
+        "text": "replace('    pic+=glow+cv2.GaussianBlur(glow,(0,0),5)*1.1+cv2.GaussianBlur(glow,(0,0),15)*.6', '''    # Two luminous messages, not spacecraft or explosive impacts."
+      },
+      {
+        "line": 67,
+        "text": "pic+=glow*1.15+cv2.GaussianBlur(glow,(0,0),5)*1.7+cv2.GaussianBlur(glow,(0,0),17)*1.05''')"
+      }
+    ]
+  },
+  {
+    "recipe": "out/world_pullback_test_v1/render.py",
+    "category": "raster operations",
+    "evidence": [
+      {
+        "line": 11,
+        "text": "y,x=np.mgrid[:720,:1280].astype(np.float32)"
+      },
+      {
+        "line": 12,
+        "text": "garden=cv2.resize(cv2.imread(str(ROOT/'codex/out/forest_walk_track_b.jpg')),(1280,853))[66:786].astype(np.float32)/255"
+      },
+      {
+        "line": 15,
+        "text": "stars=np.zeros((720,1280,3),np.float32)+np.array([.020,.015,.012],np.float32)"
+      },
+      {
+        "line": 16,
+        "text": "for px,py,v in zip(rng.integers(0,1280,400),rng.integers(0,720,400),rng.uniform(.12,.65,400)):"
+      },
+      {
+        "line": 27,
+        "text": "surface=cv2.remap(texture,u,v,cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT)"
+      },
+      {
+        "line": 36,
+        "text": "ground=cv2.warpAffine(garden,matrix,(1280,720))"
+      },
+      {
+        "line": 59,
+        "text": "pic+=glow+cv2.GaussianBlur(glow,(0,0),5)*1.1+cv2.GaussianBlur(glow,(0,0),15)*.6"
+      }
+    ]
+  }
+]

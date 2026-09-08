@@ -1,0 +1,1110 @@
+{
+  "fps": 24,
+  "frame_count": 4854,
+  "range_end_exclusive": true,
+  "status": "AUDIT_NOT_FINAL_ASSEMBLY",
+  "gaps_or_overlaps": [],
+  "canonical_source": "shots/shotlist.json",
+  "approved_snapshot": "out/swirl_tail_review_v1/shotlist.json",
+  "canonical_sha256": "390fcd2289739a050557400f53c0863e159227c43d68510d4be61c2a47f84938",
+  "warning": "Review snapshots reconciled for migration only. Never silently overwrite canonical shotlist.",
+  "shots": [
+    {
+      "id": "s001",
+      "song_frames": [
+        0,
+        86
+      ],
+      "selected_reference": "clips/raw/obs_dome_open_v6.mp4",
+      "source_start_frame": 0,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 1,
+      "assembly_layer_audit": [
+        "out/observatory_phosphor_start/render.py"
+      ],
+      "note": "Effects can be injected by review wrappers even when selected source is untreated."
+    },
+    {
+      "id": "s002",
+      "song_frames": [
+        86,
+        155
+      ],
+      "selected_reference": "out/screen_sync_scope_rail_clean/dual.mp4",
+      "source_start_frame": 0,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 2
+    },
+    {
+      "id": "opening_before_need",
+      "song_frames": [
+        155,
+        205
+      ],
+      "selected_reference": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation/out/assembly_cfr/synced_a6ed5ea7904f880cb501.mp4",
+      "source_start_frame": 12,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 3
+    },
+    {
+      "id": "opening_need_landscape",
+      "song_frames": [
+        205,
+        282
+      ],
+      "selected_reference": "out/opening_aerial_glimmer_v1/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/opening_aerial_glimmer_v1/blender_review.py",
+        "out/opening_aerial_glimmer_v1/build.py",
+        "out/opening_aerial_glimmer_v1/deliver.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 4
+    },
+    {
+      "id": "opening_after_need",
+      "song_frames": [
+        282,
+        334
+      ],
+      "selected_reference": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation/out/assembly_cfr/synced_a6ed5ea7904f880cb501.mp4",
+      "source_start_frame": 139,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 5
+    },
+    {
+      "id": "s004",
+      "song_frames": [
+        334,
+        500
+      ],
+      "selected_reference": "out/opening_specimen_v2/base.mp4",
+      "source_start_frame": 12,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 6
+    },
+    {
+      "id": "pieces_face_in",
+      "song_frames": [
+        500,
+        562
+      ],
+      "selected_reference": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation/out/assembly_cfr/synced_d80f8bf64955ecec2fcf.mp4",
+      "source_start_frame": 12,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 7
+    },
+    {
+      "id": "pieces_insert",
+      "song_frames": [
+        562,
+        610
+      ],
+      "selected_reference": "out/pieces_cutaway_review/insert.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/pieces_cutaway_review/blender_review.py",
+        "out/pieces_cutaway_review/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 8
+    },
+    {
+      "id": "pieces_face_return",
+      "song_frames": [
+        610,
+        670
+      ],
+      "selected_reference": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation/out/assembly_cfr/synced_d80f8bf64955ecec2fcf.mp4",
+      "source_start_frame": 122,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 9
+    },
+    {
+      "id": "specimen_mismatch",
+      "song_frames": [
+        670,
+        719
+      ],
+      "selected_reference": "out/specimen_mismatch_v2/base.mp4",
+      "source_start_frame": 54,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/specimen_mismatch_v2/prepare.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 10
+    },
+    {
+      "id": "s009",
+      "song_frames": [
+        719,
+        805
+      ],
+      "selected_reference": "out/probe_voice_trial/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/probe_voice_trial/blender_review.py",
+        "out/probe_voice_trial/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 11
+    },
+    {
+      "id": "s010",
+      "song_frames": [
+        805,
+        856
+      ],
+      "selected_reference": "out/receiver_voice_review/fx/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 12
+    },
+    {
+      "id": "s011",
+      "song_frames": [
+        856,
+        911
+      ],
+      "selected_reference": "out/probe_voice_trial/clean.mp4",
+      "source_start_frame": 137,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/probe_voice_trial/blender_review.py",
+        "out/probe_voice_trial/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 13
+    },
+    {
+      "id": "s012",
+      "song_frames": [
+        911,
+        1082
+      ],
+      "selected_reference": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation/out/assembly_cfr/synced_49bb1ee673385c931ee7.mp4",
+      "source_start_frame": 12,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 14,
+      "assembly_layer_audit": [
+        "out/rosette_duet_trial/preview.mp4 (resolve approved wrapper before migration)"
+      ],
+      "note": "Effects can be injected by review wrappers even when selected source is untreated."
+    },
+    {
+      "id": "receiver_reply_arrival",
+      "song_frames": [
+        1082,
+        1201
+      ],
+      "selected_reference": "out/receiver_now_v3/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/receiver_now_v3/blender_review.py",
+        "out/receiver_now_v3/burst.py",
+        "out/receiver_now_v3/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 15
+    },
+    {
+      "id": "screen_reply",
+      "song_frames": [
+        1201,
+        1304
+      ],
+      "selected_reference": "out/screen_garden_trial/clean.mp4",
+      "source_start_frame": 119,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/screen_garden_trial/blender_review.py",
+        "out/screen_garden_trial/render.py",
+        "out/screen_garden_trial/screen.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 16
+    },
+    {
+      "id": "garden_entry",
+      "song_frames": [
+        1304,
+        1412
+      ],
+      "selected_reference": "out/screen_garden_trial/clean.mp4",
+      "source_start_frame": 222,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/screen_garden_trial/blender_review.py",
+        "out/screen_garden_trial/render.py",
+        "out/screen_garden_trial/screen.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 17
+    },
+    {
+      "id": "garden_walk",
+      "song_frames": [
+        1412,
+        1514
+      ],
+      "selected_reference": "out/garden_ghost_wings_v3/walk/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 18
+    },
+    {
+      "id": "garden_moth",
+      "song_frames": [
+        1514,
+        1569
+      ],
+      "selected_reference": "out/garden_ghost_wings_v3/moth/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 19
+    },
+    {
+      "id": "garden_waking_motion_audition",
+      "song_frames": [
+        1569,
+        1650
+      ],
+      "selected_reference": "out/garden_waking_v3/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/garden_waking_v3/blender_review.py",
+        "out/garden_waking_v3/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 20
+    },
+    {
+      "id": "garden_walk_return_review",
+      "song_frames": [
+        1650,
+        1710
+      ],
+      "selected_reference": "out/garden_walk_guide_v1/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/garden_walk_guide_v1/blender_review.py",
+        "out/garden_walk_guide_v1/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 21
+    },
+    {
+      "id": "garden_birds_fx_audition",
+      "song_frames": [
+        1710,
+        1786
+      ],
+      "selected_reference": "out/garden_birds_fx_v2/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/garden_birds_fx_v2/blender_review.py",
+        "out/garden_birds_fx_v2/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 22
+    },
+    {
+      "id": "garden_begin_bloom_audition",
+      "song_frames": [
+        1786,
+        1854
+      ],
+      "selected_reference": "out/garden_bloom_synced_v5/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/garden_bloom_synced_v5/blender_review.py",
+        "out/garden_bloom_synced_v5/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 23
+    },
+    {
+      "id": "exchange_specimens_audition",
+      "song_frames": [
+        1854,
+        2016
+      ],
+      "selected_reference": "clips/raw/specimen_table_macro_v6.mp4",
+      "source_start_frame": 12,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 24
+    },
+    {
+      "id": "exchange_listener_audition",
+      "song_frames": [
+        2016,
+        2122
+      ],
+      "selected_reference": "out/lipsync_followup_review_v1/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/lipsync_followup_review_v1/adopt.py",
+        "out/lipsync_followup_review_v1/review.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 25
+    },
+    {
+      "id": "world_pullback_timing_test",
+      "song_frames": [
+        2122,
+        2233
+      ],
+      "selected_reference": "out/next_mars_sequence_v1/planet_clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/next_mars_sequence_v1/blender_review.py",
+        "out/next_mars_sequence_v1/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 26
+    },
+    {
+      "id": "close_reply_timing_test",
+      "song_frames": [
+        2233,
+        2271
+      ],
+      "selected_reference": "out/next_mars_sequence_v1/close_clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/next_mars_sequence_v1/blender_review.py",
+        "out/next_mars_sequence_v1/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 27
+    },
+    {
+      "id": "mars_colony_reply_test",
+      "song_frames": [
+        2271,
+        2399
+      ],
+      "selected_reference": "out/colony_world_blossom_v2/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/colony_world_blossom_v2/blender_review.py",
+        "out/colony_world_blossom_v2/render.py",
+        "out/colony_world_blossom_v2/shape.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 28
+    },
+    {
+      "id": "shop_reply_timing_test",
+      "song_frames": [
+        2399,
+        2484
+      ],
+      "selected_reference": "out/shop_wide_synced_v5/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/shop_wide_synced_v5/blender_review.py",
+        "out/shop_wide_synced_v5/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 29
+    },
+    {
+      "id": "archaeology_discovery_review",
+      "song_frames": [
+        2484,
+        2564
+      ],
+      "selected_reference": "out/archaeology_discovery_v1/base.mp4",
+      "source_start_frame": 12,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/archaeology_discovery_v1/prepare.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 30
+    },
+    {
+      "id": "excavation_reply_performance_review",
+      "song_frames": [
+        2564,
+        2647
+      ],
+      "selected_reference": "out/excavation_reply_synced_v2/conformed.mp4",
+      "source_start_frame": 12,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/excavation_reply_synced_v2/blender_review.py",
+        "out/excavation_reply_synced_v2/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 31
+    },
+    {
+      "id": "meant_artifact_insert",
+      "song_frames": [
+        2647,
+        2658
+      ],
+      "selected_reference": "out/meant_cutaway_v1/insert.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/meant_cutaway_v1/blender_review.py",
+        "out/meant_cutaway_v1/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 32
+    },
+    {
+      "id": "meaning_reply_test",
+      "song_frames": [
+        2658,
+        2812
+      ],
+      "selected_reference": "out/meaning_exchange_dual_sync_v6/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/meaning_exchange_dual_sync_v6/blender_review.py",
+        "out/meaning_exchange_dual_sync_v6/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 33
+    },
+    {
+      "id": "meaning_listener_test",
+      "song_frames": [
+        2812,
+        2881
+      ],
+      "selected_reference": "out/meaning_exchange_dual_sync_v6/clean.mp4",
+      "source_start_frame": 154,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/meaning_exchange_dual_sync_v6/blender_review.py",
+        "out/meaning_exchange_dual_sync_v6/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 34
+    },
+    {
+      "id": "s035",
+      "song_frames": [
+        2881,
+        2928
+      ],
+      "selected_reference": "out/orbital_continuity_v1/take2/base.mp4",
+      "source_start_frame": 12,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 35
+    },
+    {
+      "id": "landing_retry_s036",
+      "song_frames": [
+        2928,
+        2958
+      ],
+      "selected_reference": "out/message_into_rockets_v3/conformed.mp4",
+      "source_start_frame": 12,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/message_into_rockets_v3/blender_review.py",
+        "out/message_into_rockets_v3/fx_wrapper.py",
+        "out/message_into_rockets_v3/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 36
+    },
+    {
+      "id": "landing_retry_s037",
+      "song_frames": [
+        2958,
+        3027
+      ],
+      "selected_reference": "out/message_into_rockets_v3/fx/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 37
+    },
+    {
+      "id": "landing_tail_s038",
+      "song_frames": [
+        3027,
+        3100
+      ],
+      "selected_reference": "out/message_into_rockets_v3/conformed.mp4",
+      "source_start_frame": 111,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/message_into_rockets_v3/blender_review.py",
+        "out/message_into_rockets_v3/fx_wrapper.py",
+        "out/message_into_rockets_v3/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 38
+    },
+    {
+      "id": "spring_wide_insert",
+      "song_frames": [
+        3100,
+        3165
+      ],
+      "selected_reference": "clips/raw/rain_to_canal_v6.mp4",
+      "source_start_frame": 112,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 39
+    },
+    {
+      "id": "spring_close_s040",
+      "song_frames": [
+        3165,
+        3229
+      ],
+      "selected_reference": "clips/raw/rain_to_canal_v6.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 40
+    },
+    {
+      "id": "s041",
+      "song_frames": [
+        3229,
+        3300
+      ],
+      "selected_reference": "clips/raw/basin_moon_descent_v6.mp4",
+      "source_start_frame": 0,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 41
+    },
+    {
+      "id": "s042",
+      "song_frames": [
+        3300,
+        3376
+      ],
+      "selected_reference": "out/swimmer_cutaway_v2/synced_24.mp4",
+      "source_start_frame": 66,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/swimmer_cutaway_v2/blender_review.py",
+        "out/swimmer_cutaway_v2/fx_wrapper.py",
+        "out/swimmer_cutaway_v2/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 42
+    },
+    {
+      "id": "swimming_overhead_early",
+      "song_frames": [
+        3376,
+        3438
+      ],
+      "selected_reference": "out/swimmer_cutaway_v2/fx/s043/clean.mp4",
+      "source_start_frame": 54,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 43
+    },
+    {
+      "id": "s044",
+      "song_frames": [
+        3438,
+        3505
+      ],
+      "selected_reference": "out/swimmer_fx_full/s044/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 44
+    },
+    {
+      "id": "s045",
+      "song_frames": [
+        3505,
+        3574
+      ],
+      "selected_reference": "out/bends_mind_fx_v2/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/bends_mind_fx_v2/blender_review.py",
+        "out/bends_mind_fx_v2/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 45
+    },
+    {
+      "id": "s046",
+      "song_frames": [
+        3574,
+        3642
+      ],
+      "selected_reference": "out/bends_mind_fx_v2/clean.mp4",
+      "source_start_frame": 69,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/bends_mind_fx_v2/blender_review.py",
+        "out/bends_mind_fx_v2/render.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 46
+    },
+    {
+      "id": "s047",
+      "song_frames": [
+        3642,
+        3710
+      ],
+      "selected_reference": "out/swimmer_fx_full/s047/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 47
+    },
+    {
+      "id": "s048",
+      "song_frames": [
+        3710,
+        3752
+      ],
+      "selected_reference": "clips/raw/drumwall_basin_v6.mp4",
+      "source_start_frame": 0,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 48
+    },
+    {
+      "id": "spring_falls_heaven",
+      "song_frames": [
+        3752,
+        3830
+      ],
+      "selected_reference": "out/spring_geyser_flow_v1/base.mp4",
+      "source_start_frame": 0,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/spring_geyser_flow_v1/prepare.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 49
+    },
+    {
+      "id": "underwater_senses",
+      "song_frames": [
+        3830,
+        3897
+      ],
+      "selected_reference": "clips/raw/canal_current_macro_v6.mp4",
+      "source_start_frame": 0,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 50
+    },
+    {
+      "id": "chorus_plunge_continuous",
+      "song_frames": [
+        3897,
+        4030
+      ],
+      "selected_reference": "clips/raw/chorus_plunge_v6.mp4",
+      "source_start_frame": 0,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 51
+    },
+    {
+      "id": "turn_phrase",
+      "song_frames": [
+        4030,
+        4073
+      ],
+      "selected_reference": "out/swirl_springs_flow_v1/base.mp4",
+      "source_start_frame": 149,
+      "speed": 1,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [
+        "out/swirl_springs_flow_v1/prepare.py"
+      ],
+      "resolver_errors": [],
+      "review_number": 52
+    },
+    {
+      "id": "follow_phrase",
+      "song_frames": [
+        4073,
+        4120
+      ],
+      "selected_reference": "clips/raw/canal_current_macro_v6.mp4",
+      "source_start_frame": 72,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 53
+    },
+    {
+      "id": "o01",
+      "song_frames": [
+        4120,
+        4177
+      ],
+      "selected_reference": "out/tunnel_arrival_o01/clean.mp4",
+      "source_start_frame": 0,
+      "speed": 1.0,
+      "file_exists": true,
+      "status": "dependency_audit_pending",
+      "recipe_candidates": [],
+      "resolver_errors": [],
+      "review_number": 54
+    },
+    {
+      "id": "outro_lead_1",
+      "song_frames": [
+        4177,
+        4232
+      ],
+      "selected_reference": "out/outro_tv_map_v2/clean.mp4",
+      "source_start_frame": 12,
+      "status": "native_fx_migration_pending",
+      "review_number": 55
+    },
+    {
+      "id": "outro_lead_2",
+      "song_frames": [
+        4232,
+        4262
+      ],
+      "selected_reference": "out/outro_B1_afterglow_v4/clean.mp4",
+      "source_start_frame": 67,
+      "status": "native_fx_migration_pending",
+      "review_number": 56
+    },
+    {
+      "id": "outro_lead_3",
+      "song_frames": [
+        4262,
+        4331
+      ],
+      "selected_reference": "out/outro_tv_map_v2/clean.mp4",
+      "source_start_frame": 97,
+      "status": "native_fx_migration_pending",
+      "review_number": 57
+    },
+    {
+      "id": "outro_lead_4",
+      "song_frames": [
+        4331,
+        4362
+      ],
+      "selected_reference": "out/outro_B2_afterglow_v1/clean.mp4",
+      "source_start_frame": 11,
+      "status": "native_fx_migration_pending",
+      "review_number": 58
+    },
+    {
+      "id": "outro_review_1",
+      "song_frames": [
+        4362,
+        4400
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 0,
+      "status": "native_fx_migration_pending",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 59
+    },
+    {
+      "id": "outro_review_2",
+      "song_frames": [
+        4400,
+        4431
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 38,
+      "status": "native_fx_migration_pending",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 60
+    },
+    {
+      "id": "outro_review_3",
+      "song_frames": [
+        4431,
+        4449
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 69,
+      "status": "native_fx_migration_pending",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 61
+    },
+    {
+      "id": "outro_review_4",
+      "song_frames": [
+        4449,
+        4516
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 87,
+      "status": "native_fx_migration_pending",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 62
+    },
+    {
+      "id": "outro_review_5",
+      "song_frames": [
+        4516,
+        4538
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 154,
+      "status": "native_fx_migration_pending",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 63
+    },
+    {
+      "id": "outro_review_6",
+      "song_frames": [
+        4538,
+        4574
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 176,
+      "status": "native_fx_migration_pending",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 64
+    },
+    {
+      "id": "outro_review_7",
+      "song_frames": [
+        4574,
+        4622
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 212,
+      "status": "native_fx_migration_pending",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 65
+    },
+    {
+      "id": "outro_review_8",
+      "song_frames": [
+        4622,
+        4644
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 260,
+      "status": "native_fx_migration_pending",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 66
+    },
+    {
+      "id": "outro_review_9",
+      "song_frames": [
+        4644,
+        4671
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 282,
+      "status": "native_fx_migration_pending",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 67
+    },
+    {
+      "id": "outro_review_10",
+      "song_frames": [
+        4671,
+        4710
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 309,
+      "status": "native_fx_migration_pending",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 68
+    },
+    {
+      "id": "outro_review_11",
+      "song_frames": [
+        4710,
+        4782
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 348,
+      "status": "native_fx_migration_pending",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 69
+    },
+    {
+      "id": "outro_review_12",
+      "song_frames": [
+        4782,
+        4854
+      ],
+      "selected_reference": "out/closing_titles_blender_v1/preview_numbered.mp4",
+      "source_start_frame": 420,
+      "status": "title_native_recipe_text_updated_not_rendered",
+      "note": "Snapshot reference only; do not use numbered/baked movie as final plate.",
+      "review_number": 70
+    }
+  ]
+}

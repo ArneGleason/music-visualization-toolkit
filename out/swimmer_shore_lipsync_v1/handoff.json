@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "test_id": "swimmer_shore_lipsync_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "One Kling-only lip-sync repair of the existing singing shore performance. Use original Flow base, NOT old Kling. Preserve current edit and swimmer effects.",
+  "authorization": {
+    "max_flow_submissions": 0,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "real red-haired woman kneeling in foreground, NOT any chrome swimmer",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical estimate only; verify UI. No purchases."
+  },
+  "inputs": {
+    "base": {
+      "file": "out/swimmer_shore_lipsync_v1/base.mp4",
+      "sha256": "8a6aceaab1689ec333f1b5f868346bb798d334b3a3d47df544effa4bb98b5b68"
+    },
+    "guide": {
+      "file": "out/swimmer_shore_lipsync_v1/guide.wav",
+      "sha256": "cefde169c755ce5ce04a4ab5cc597e438b99e308e1950c14e442da2fbe79847b"
+    }
+  },
+  "original_source": {
+    "file": "clips/raw/basin_edge_sync_v6.mp4",
+    "sha256": "b51c8ef7b1343873bee2965a0f4782b50d100093b2cfe17a0b8ac124ed73d418"
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_seconds": 134.74333333333334,
+    "song_origin_frame_equivalent": 3233.84,
+    "source_in_seconds": 2.84,
+    "song_cut_start_frame": 3302,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 134.56498533333334,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0,
+    "note": "Preserve existing fractional-second in-point2.84 exactly. Do not round source clock or add half-second lead-in. Full base already supplies2.84seconds of context before visible cut."
+  },
+  "cut": {
+    "shot_id": "s042",
+    "song_frames": [
+      3302,
+      3370
+    ],
+    "source_seconds": [
+      2.84,
+      5.673333333333334
+    ],
+    "speed": 1,
+    "current_snapshot": "out/spring_into_swimmers_v1/shotlist.json"
+  },
+  "lyric_context": {
+    "full_first_phrase_song_frames": [
+      3229,
+      3357
+    ],
+    "text": "Chrome-plated bodies go swimming / in the rivers of Mars.",
+    "visible_words": "go swimming, then the start of in; other words play over swimmer coverage in current edit",
+    "go_song_frame": 3303,
+    "swimming_song_frame": 3322,
+    "in_song_frame": 3357,
+    "guard": "Do not shift go swimming to source zero. The audio file already places words correctly. The entire rivers of Mars line is NOT on the visible face; no need to extend this face shot."
+  },
+  "guide_provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "processing": "Continuous8second mono48k PCM16 slice. No normalization, gate, silence removal, stretching or extra offsets."
+  },
+  "output": {
+    "synced": "out/swimmer_shore_lipsync_v1/synced.mp4",
+    "receipt": "out/swimmer_shore_lipsync_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "tool_time_counts": true,
+    "respect_rate_limits": true
+  },
+  "quality_notes": "Check active articulation throughout source2.84..5.673333, especially go/swimming at source2.881667/3.673333 and in at5.131667. No missing-word blank gaps, puppet lips or facial warping. Preserve camera, costume and swimmers. Report defects; no automatic retry.",
+  "assembly_guard": "Codex verifies result/guide alignment, timestamp-conforms native30fps to24fps if needed and replaces only s042 at its existing2.84second in-point. Preserve approved spring transition and protected s043/s044 violet-pearl FX. Master/lyrics once. No assembly or new Flow by Claude.",
+  "completion": "Download untouched original and byte-identical synced.mp4. Write RECEIPT.md with hashes, job ID, actual settings/credits, native fps/frame count, duration/start times and articulation observations. Add claude_result and status=claude_done_ready_for_codex_verification. No commit or owner approval claims.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T03:25:00Z",
+    "receipt": "out/swimmer_shore_lipsync_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "base_video_identical_to_original_source": true,
+    "kling": {
+      "job_id": "2850",
+      "download_name": "kling_20260907_Lip_Sync__2850_0.mp4",
+      "faces_detected": "Character 1 = red-haired woman (sole); chrome swimmers not detected",
+      "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav at 0:00-0:08, Sound from Video OFF, MP4 Without Watermark",
+      "credits": 10,
+      "balance_before": 391,
+      "balance_after": 381,
+      "submitted_utc": "2026-09-07T03:09:06Z",
+      "generated_utc": "2026-09-07T03:12:10Z",
+      "download_clicked_utc": "2026-09-07T03:12:29Z",
+      "filed_utc": "2026-09-07T03:13:12Z"
+    },
+    "original": {
+      "file": "out/swimmer_shore_lipsync_v1/original_2850.mp4",
+      "sha256": "ba892d705834c66de39fe7cf6aca76f62a0a3996b96b4ae537d934b9876c3628"
+    },
+    "synced": {
+      "file": "out/swimmer_shore_lipsync_v1/synced.mp4",
+      "sha256": "ba892d705834c66de39fe7cf6aca76f62a0a3996b96b4ae537d934b9876c3628",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 1.0,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "only mouth re-rendered; swimmers, water, rocks, lantern, camera, costume unchanged (swimmer residual = base motion under re-encode, verified visually)",
+    "articulation": {
+      "go_2.882": "ok: wide open O held 2.70-2.93 s",
+      "swimming_3.673": "ok: open shapes 3.1-3.47, big open vowel 3.5-3.87, m-closure 3.9-4.27",
+      "sustain_4.3_4.67": "weak: near-closed lips with small motion",
+      "in_5.132": "ok: open shapes with teeth 5.1-5.47",
+      "window_gaps": "none",
+      "lead_0_2.8": "context singing (outside cut)",
+      "tail": "context activity 7-8 s (outside cut)"
+    },
+    "defects": [
+      "sustained -ing 4.3-4.67 s near-closed",
+      "slight open-mouth activity 5.5-5.8 s on quieter guide"
+    ],
+    "verdict": "usable for s042 at in-point 2.84 s; go/swimming/in all articulated on their anchors",
+    "sheets": [
+      "mouth_synced_src2.7-5.8s_native30_everyframe.jpg",
+      "mouth_base_src2.7-5.8s_every6.jpg",
+      "mouth_synced_src0-2.8s_every4.jpg",
+      "mouth_synced_src5.8-8s_every6.jpg",
+      "contact_synced_every10_native.jpg",
+      "swimmers_base_vs_synced_0.5-1.5s.jpg"
+    ],
+    "not_done": [
+      "no Flow",
+      "no retry",
+      "no assembly",
+      "no FX/shotlist/production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

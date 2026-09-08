@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "test_id": "garden_walk_return_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "One new non-speaking garden walking take. No Kling, no assembly. Fresh later coverage, not a restarted old take.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "model": "Veo 3.1 Quality",
+    "mode": "Frames",
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "duration_seconds": 8,
+    "outputs": 1,
+    "expected_credits": 100,
+    "stop_if_unavailable_or_cost_exceeds_expected": true
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "out/garden_walk_return_v1/first_frame.png",
+      "sha256": "31DD376C573D3E26C532D491ECC84907E6586853EA51474123C3182E5C23BA77",
+      "provenance": "Exact decoded frame144 from clips/raw/forest_walk_track_v6.mp4. Reviewed by Codex. Later garden geography, existing likeness/costume/lantern."
+    },
+    "identity_reference_only": "codex/out/forest_walk_track_b.jpg",
+    "prompt": {
+      "file": "out/garden_walk_return_v1/flow_prompt.txt"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6DB3E45D5777CB22AE1EE7DA18B8BDE8498CAAFFB8D96E8536F3414DEA260496"
+    }
+  },
+  "clock": {
+    "fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 1638,
+    "requested_source_frames": 192,
+    "no_audio_upload": true
+  },
+  "proposed_cut": {
+    "shot_id": "garden_walk_return",
+    "setup": "forest_walk_track",
+    "song_frames": [
+      1650,
+      1710
+    ],
+    "source_frames_after_timestamp_conform": [
+      12,
+      72
+    ],
+    "duration_frames": 60,
+    "lead_handle_frames": 12,
+    "requested_exit_handle_frames": 120,
+    "status": "Revised phrase-contained opening; distinct take with its own origin, not continuous old source clock"
+  },
+  "phrase": {
+    "text": "in the psychedelic garden",
+    "song_frames": [
+      1650,
+      1710
+    ]
+  },
+  "output": {
+    "base": "out/garden_walk_return_v1/base.mp4",
+    "receipt": "out/garden_walk_return_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true,
+    "tool_time_counts": true
+  },
+  "assembly_guard": "Codex verifies source12..72 after timestamp conform. No lip sync or source audio used. Never restart old walk source238..298, which exceeds192frames. No speed changes or holds. New base is a candidate, not an automatic production override; Codex adds restrained musical light response later.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T15:30:00Z",
+    "receipt": "out/garden_walk_return_v1/RECEIPT.md",
+    "original": {
+      "file": "out/garden_walk_return_v1/original_a136a80f-ca0c-4e24-959f-631264d09077.mp4",
+      "sha256": "834C5CAC6D8DDC7E8140DC3B44EBCE95A4400D20B30C9C3FB5B0514C62EADCA2"
+    },
+    "base": {
+      "file": "out/garden_walk_return_v1/base.mp4",
+      "sha256": "834C5CAC6D8DDC7E8140DC3B44EBCE95A4400D20B30C9C3FB5B0514C62EADCA2",
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "stream_start": 0.0,
+      "flow_media_id": "a136a80f-ca0c-4e24-959f-631264d09077",
+      "flow_submitted_utc": "2026-09-06T15:19:06Z",
+      "flow_ready_utc": "2026-09-06T15:20:24Z",
+      "flow_downloaded_utc": "2026-09-06T15:20:58Z",
+      "progress_log": [
+        "15:19:36 21%",
+        "15:20:04 45%",
+        "15:20:24 done"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "end_frame_used": false,
+      "first_frame_diff_vs_input": 1.7,
+      "watermark": "none"
+    },
+    "input_hash_ok": true,
+    "start_frame_provenance_note": "extracted Veo frame used deliberately per handoff; departs from the owner rule that only ChatGPT/Codex stills feed Flow",
+    "camera": "lateral track, gradual physical widening from ~1 s, no zoom snap/angle change/cut",
+    "usable_intervals": {
+      "clean": [
+        [
+          0,
+          27
+        ],
+        [
+          66,
+          96
+        ]
+      ],
+      "frond_crossing_face_obscured": [
+        27,
+        66
+      ],
+      "clean_walk_changed_composition": [
+        96,
+        192
+      ]
+    },
+    "proposed_window_verdict": "[12,72) usable with caveat: natural mid-stride walking, feet on path, steady likeness/suit/lantern, screen-right; a soft foreground frond sweeps across her at frames ~27-66 and covers the face around frames 57-63",
+    "exit_handle_verdict": "walking stays clean to 192; from ~frame 96 a new large hanging lamp and wider panorama appear (composition drift)",
+    "sheets": [
+      "contact_every6.jpg",
+      "contact_0.5-3.0s_every4.jpg",
+      "crop_window_f12-72_every3.jpg",
+      "crop_exit_f72-192_every8.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no audio",
+      "no retry",
+      "no assembly",
+      "no cue/shotlist edits",
+      "no commit",
+      "no owner approval claimed"
+    ]
+  }
+}

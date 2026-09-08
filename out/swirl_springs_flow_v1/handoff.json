@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical setting/cost. Verify current UI. No purchase or silent model change."
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "tool_time_counts": true,
+    "respect_rate_limits": true
+  },
+  "completion": "Download original untouched and save byte-identical base.mp4. Write RECEIPT.md with media ID, actual settings/credits, paths, SHA256, native fps/frame count/dimensions/duration, progress and visual QA including action timings. Add claude_result and flip status to claude_done_ready_for_codex_verification, or explicit blocked status. No retry, commit, purchase or owner-acceptance claim.",
+  "test_id": "swirl_springs_flow_v1",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "One Flow-only replacement of overhead spiral turn, no Kling. Improve swimmer persistence and add restrained geothermal surface activity.",
+  "inputs": {
+    "first_frame": {
+      "file": "out/swirl_springs_flow_v1/first_frame_surface.png",
+      "sha256": "102787475934f30ad23af3e78a029a698b0e31513d7c95ee8e02c4c5285f0426"
+    },
+    "formation_reference_inspect_only": {
+      "file": "out/swirl_springs_flow_v1/first_frame.jpg",
+      "sha256": "c73d155f754c45fb693e724aa60098298a6ea25dbefa226551c3f01a448ea0a3"
+    },
+    "prompt": {
+      "file": "out/swirl_springs_flow_v1/flow_prompt.txt",
+      "sha256": "97e1a86ee3fe995cf4702b92f4614ad8cd9a5c1eaf136b7b4afe0818e278d9b4"
+    },
+    "lock": {
+      "file": "out/swirl_springs_flow_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    }
+  },
+  "input_guard": "Revision2: use first_frame_surface.png as sole START. Original first_frame.jpg is inspect-only reference for the surfaced spiral, never an END frame. No audio. Prompt verbatim including lock. This supersedes the already-surfaced starting direction.",
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 4030,
+    "song_origin_seconds": 167.91666666666666,
+    "additional_audio_offset_seconds": 0,
+    "note": "NEW take clock. Source0 maps to4030; do not inherit the old source24-frame offset."
+  },
+  "cut": {
+    "shot_id": "turn_phrase",
+    "setup": "canal_junction_turn",
+    "song_frames": [
+      4030,
+      4073
+    ],
+    "source_frames_at_24fps": [
+      0,
+      43
+    ],
+    "duration_seconds": 1.7916666666666667,
+    "lead_handle_frames": 0,
+    "exit_handle_frames_if_192_delivered": 149,
+    "speed": 1
+  },
+  "lyric_targets": [
+    {
+      "word": "Then",
+      "song_frame": 4038,
+      "source_seconds": 0.3333333333333333
+    },
+    {
+      "word": "turns",
+      "song_frame": 4045,
+      "source_seconds": 0.625
+    }
+  ],
+  "timing_guard": "The preview uses only the first1.792seconds. Begin physically surfacing immediately, become a readable turning spiral around1second. No long setup or delayed reveal. Exact beat matching will be reviewed locally, no retiming by Claude. Preserve full8second download.",
+  "quality_gate": [
+    "Inspect intended source0..43 densely, then the full take. Follow several swimmers across consecutive frames: no pop-in/out, duplicates, merging, disappearance or body morph.",
+    "Keep overhead spiral readable with stable perimeter geography. No substitution of oblique aerial, underwater shot or new formation.",
+    "Geothermal bubbles, low water puffs and thin steam remain peripheral, not hiding swimmers.",
+    "Save and report defects even if the result is imperfect. No automatic second attempt; owner chooses whether minor flaws matter in the actual cut."
+  ],
+  "output": {
+    "base": "out/swirl_springs_flow_v1/base.mp4",
+    "receipt": "out/swirl_springs_flow_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "assembly_guard": "Codex will replace ONLY turn_phrase4030..4073 in out/swimming_to_outro_review_v1/shotlist.json for comparison. New source0..43, not old source24..67. Preserve plunge, following underwater shot, tunnel FX timing and outro clips. Discard Veo audio in assembly; master/lyrics once. No production edits or acceptance claims by Claude.",
+  "deferred_fx": "Vectorscope/rosette treatment may be explored separately after reviewing the replacement. Do not bake it into the generation.",
+  "revision": 2,
+  "revision_note": "Owner added surfacing-to-spiral continuity from preceding underwater shot. Same single authorized submission, not permission for an extra generation. If an earlier version was already submitted, preserve/report it and stop before another paid submission.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T13:30:00Z",
+    "receipt": "out/swirl_springs_flow_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "revision_executed": 2,
+    "earlier_version_submitted": false,
+    "flow": {
+      "media_id": "ffd91d79-b473-4486-b720-de0436b2b73b",
+      "submitted_utc": "2026-09-07T13:16:37Z",
+      "ready_utc": "2026-09-07T13:18:07Z",
+      "downloaded_utc": "2026-09-07T13:18:37Z",
+      "progress_log": [
+        "13:17:07 21%",
+        "13:17:27 37%",
+        "13:17:47 54%",
+        "13:18:07 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "start_thumbnail_id": "1462442a",
+      "end_frame_used": false,
+      "reference_uploaded": false,
+      "first_frame_diff": 1.0,
+      "watermark": "none",
+      "flow_high_demand_banner": true
+    },
+    "original": {
+      "file": "out/swirl_springs_flow_v1/original_ffd91d79-b473-4486-b720-de0436b2b73b.mp4",
+      "sha256": "b527a9d1c4bc80776e2c7e5c6dc9ac00ec1ba8120a4fa685752d7ea2f3d8fa64"
+    },
+    "base": {
+      "file": "out/swirl_springs_flow_v1/base.mp4",
+      "sha256": "b527a9d1c4bc80776e2c7e5c6dc9ac00ec1ba8120a4fa685752d7ea2f3d8fa64",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "stream_start": 0.0
+    },
+    "action_timing_seconds": {
+      "submerged_spiral_rising": [
+        0.0,
+        0.45
+      ],
+      "surfacing_wave": [
+        0.45,
+        0.85
+      ],
+      "spiral_dissolves_into_scatter": 0.85,
+      "outward_drift": [
+        1.8,
+        3.5
+      ],
+      "dense_steam": [
+        3.5,
+        5.0
+      ],
+      "swimmers_gone": [
+        6.0,
+        8.0
+      ],
+      "camera_tilts_oblique_by": 8.0
+    },
+    "window_0_43": {
+      "surfacing_continuous_no_popin": true,
+      "spiral_readable": false,
+      "perimeter_stable": true,
+      "swimmer_integrity": "intact, no merge/morph/vanish"
+    },
+    "gross_failures": [
+      "spiral formation not held after surfacing (scatter from ~0.85 s)",
+      "dense steam veils pool 3.5-5.0 s",
+      "swimmers vanish under steam/foam 5-8 s",
+      "camera drifts to oblique by 8 s"
+    ],
+    "quality_gate": {
+      "no_popin_0_43": "pass",
+      "spiral_readable_stable_perimeter": "FAIL",
+      "geothermal_peripheral": "pass in 0..43, fail after 3.5 s",
+      "saved_no_retry": true
+    },
+    "owner_decision_needed": "use the 0..43 surfacing wave without a readable spiral, or authorize a regeneration with the spiral arms pinned through the surfacing and steam capped",
+    "sheets": [
+      "frames_0-2s_every2.jpg",
+      "center_0-2s_every3.jpg",
+      "contact_every6.jpg",
+      "keyframes_0_12_24_43_96_191.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no audio",
+      "no retry",
+      "no assembly",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

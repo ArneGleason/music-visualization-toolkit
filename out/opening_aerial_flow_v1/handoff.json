@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "test_id": "opening_aerial_flow_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "Generate one continuous Mars aerial push-in for the approved opening cutaway. Flow only, no Kling or assembly.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical settings and cost. Verify current UI; no purchase or silent substitution."
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "out/opening_aerial_flow_v1/first_frame.png",
+      "sha256": "e309d2faecfcd09aa82e8e5a305faf0dd6b0ded31540c5eaf2fd01658cc977c7"
+    },
+    "composition_reference_inspect_only": {
+      "file": "out/opening_aerial_flow_v1/downward_reference.png",
+      "sha256": "8bb70b4b8f0adb2147c2125c3f62b555f1c184e1c6e08188898ae5c7aca80810"
+    },
+    "prompt": {
+      "file": "out/opening_aerial_flow_v1/flow_prompt.txt",
+      "sha256": "0e3a5ac41d738c08908e6ef5892167853f7632e07cc24e6c18c8d9ae759ff00f"
+    },
+    "lock": {
+      "file": "out/opening_aerial_flow_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    }
+  },
+  "input_guard": "Upload first_frame.png as the sole START frame. Inspect downward_reference.png for destination angle, not exact geography. Do not attach it as END frame or ingredient. No audio input. Two independently generated views are not calibrated camera endpoints; avoid forced morphing.",
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 205,
+    "song_origin_seconds": 8.541666666666666,
+    "additional_audio_offset_seconds": 0,
+    "note": "Editorial mapping only, no lip sync. Source timestamp zero maps to song frame205."
+  },
+  "cut": {
+    "shot_id": "opening_need_landscape",
+    "song_frames": [
+      205,
+      282
+    ],
+    "source_frames_at_24fps": [
+      0,
+      77
+    ],
+    "duration_seconds": 3.2083333333333335,
+    "lead_handle_frames": 0,
+    "exit_handle_frames_if_192_delivered": 115,
+    "speed": 1,
+    "return": "Astronomer returns at282, two frames before Its important cue284."
+  },
+  "motion_requirement": "Useful viewpoint change must occur within source0..3.208seconds, not first arrive at8seconds. Begin with visible horizon, move forward and smoothly pitch downward to a closer terrain-dominant view by about3seconds. Remaining footage continues naturally as reusable B-roll. No freeze, cut, speed ramp or snap.",
+  "quality_gate": [
+    "Inspect first frame, 1s, 2s, 3.2s and the full clip. Save a contact sheet if practical.",
+    "Horizon visible initially; purposeful aerial progress and increasingly downward view within the actual first3.208seconds.",
+    "Terrain, waterways, domes and oasis remain stable; no morphing, erupting buildings, new characters, spacecraft or giant light objects.",
+    "Destination reference is directional, not pixel matching. Minor composition differences are acceptable. Record defects without auto-retrying or withholding the downloaded result.",
+    "Camera motion is the explicit shot-specific exception to the generic flat staging in the unchanged lock. Do not edit the lock."
+  ],
+  "optional_codex_fx": {
+    "status": "small local test proposed, not part of Flow generation",
+    "idea": "One tiny restrained green glimmer in the garden canopy, suggesting a signal worth investigating. Track its placement after reviewing generated camera motion. No beam, floating orb, repeated strobe, large glow or green recoloring of the oasis. Omit if distracting.",
+    "owner_note": "User suggested a little green flash, not a prominent added object."
+  },
+  "output": {
+    "base": "out/opening_aerial_flow_v1/base.mp4",
+    "receipt": "out/opening_aerial_flow_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "tool_time_counts": true,
+    "respect_rate_limits": true
+  },
+  "assembly_guard": "Codex verifies and timestamp-conforms if necessary. Use source0..77 at24fps for song205..282 at speed1. Do not stretch an8second move into3.208seconds. Keep original face source clock, all lyrics and master timing intact; master audio once. Current preview out/opening_need_compare_v3/compare.mp4 is approved for timing. No assembler/register changes by Claude.",
+  "completion": "Save untouched original and byte-identical base.mp4 even if imperfect. Record media ID, actual settings/cost, download paths, SHA256, native fps/frame count/dimensions/duration, progress and visual QA in RECEIPT.md. Add claude_result and set status claude_done_ready_for_codex_verification, or explicit blocked status with reason. No automatic retries, commit, purchase or owner-acceptance claim.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T12:25:00Z",
+    "receipt": "out/opening_aerial_flow_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "flow": {
+      "media_id": "fc50c6a7-0cee-4e38-9834-76ec9be0a496",
+      "submitted_utc": "2026-09-07T12:14:12Z",
+      "ready_utc": "2026-09-07T12:15:42Z",
+      "downloaded_utc": "2026-09-07T12:16:21Z",
+      "progress_log": [
+        "12:14:42 21%",
+        "12:15:02 38%",
+        "12:15:22 53%",
+        "12:15:42 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "start_thumbnail_id": "b9c16943",
+      "end_frame_used": false,
+      "reference_uploaded": false,
+      "first_frame_diff": 1.2,
+      "watermark": "none",
+      "flow_high_demand_banner": true
+    },
+    "original": {
+      "file": "out/opening_aerial_flow_v1/original_fc50c6a7-0cee-4e38-9834-76ec9be0a496.mp4",
+      "sha256": "01634208e0a5ab30df26b11ea9b6bd208b1a7e744d10fe54a995cc3a44176f0e"
+    },
+    "base": {
+      "file": "out/opening_aerial_flow_v1/base.mp4",
+      "sha256": "01634208e0a5ab30df26b11ea9b6bd208b1a7e744d10fe54a995cc3a44176f0e",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "stream_start": 0.0
+    },
+    "camera": "forward glide + downward pitch from frame 0; steady pace (per-3-frame diff 9-15); no cut/whip/roll",
+    "sky_band_fraction_of_height": {
+      "0s": 0.21,
+      "1s": 0.19,
+      "2s": 0.13,
+      "3.2s": 0.07,
+      "8s": 0.08
+    },
+    "viewpoint_change_within_3.208s": true,
+    "destination": "steep oblique with oasis large in lower half; horizon remains as a thin top band (not fully map-like)",
+    "terrain_integrity": "stable; no morphing, no added objects, no people/craft/flashes",
+    "window_0_77": "usable: horizon visible at start, downward reveal complete by frame 77",
+    "tail_77_192": "coherent glide over oasis/waterways, reusable B-roll",
+    "defects": [
+      "horizon never fully exits frame (thin ~7% sky band throughout)"
+    ],
+    "sheets": [
+      "contact_every6.jpg",
+      "frames_0-3.3s_every4.jpg",
+      "keyframes_0_24_48_77_120_191.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no audio",
+      "no green FX",
+      "no retry",
+      "no assembly",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

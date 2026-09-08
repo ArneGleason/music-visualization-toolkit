@@ -1,0 +1,66 @@
+{
+  "frames": 402,
+  "fps": 24.0,
+  "song_frames": [
+    3376,
+    3778
+  ],
+  "source_checks": [
+    {
+      "shot": "s045",
+      "song_frames": [
+        3505,
+        3574
+      ],
+      "selected": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\chorus_close_sync_kling_0437aeecb6cd6f697a80.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\chorus_close_sync_kling.mp4"
+      },
+      "source_frames": 191
+    },
+    {
+      "shot": "s046",
+      "song_frames": [
+        3574,
+        3642
+      ],
+      "selected": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\chorus_close_sync_kling_0437aeecb6cd6f697a80.mp4",
+        "in_sec": 2.84,
+        "speed": 1.0,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\chorus_close_sync_kling.mp4"
+      },
+      "source_frames": 191
+    },
+    {
+      "shot": "s047",
+      "song_frames": [
+        3642,
+        3710
+      ],
+      "selected": {
+        "file": "out/swimmer_fx_full/s047/clean.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0,
+        "assembly_decision": "swimmer-return-violet"
+      },
+      "source_frames": 68
+    },
+    {
+      "shot": "s048",
+      "song_frames": [
+        3710,
+        3778
+      ],
+      "selected": {
+        "file": "clips\\raw\\drumwall_basin_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "source_frames": 192
+    }
+  ],
+  "status": "existing edit audition; owner review pending"
+}

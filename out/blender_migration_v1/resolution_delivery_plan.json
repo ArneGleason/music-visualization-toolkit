@@ -1,0 +1,461 @@
+{
+  "status": "planning_only_not_upscaled_or_mastered",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "native_scenes": {
+    "opening": {
+      "scene": "out/blender_migration_v1/opening/opening_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          87
+        ]
+      ],
+      "cuts": [
+        "s001"
+      ]
+    },
+    "scope": {
+      "scene": "out/blender_migration_v1/scope/scope_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          70
+        ]
+      ],
+      "cuts": [
+        "s002"
+      ]
+    },
+    "aerial": {
+      "scene": "out/blender_migration_v1/aerial/aerial_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          78
+        ]
+      ],
+      "cuts": [
+        "opening_need_landscape"
+      ]
+    },
+    "pieces": {
+      "scene": "out/blender_migration_v1/pieces/pieces_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          49
+        ]
+      ],
+      "cuts": [
+        "pieces_insert"
+      ]
+    },
+    "probe": {
+      "scene": "out/blender_migration_v1/probe/probe_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          87
+        ],
+        [
+          138,
+          193
+        ]
+      ],
+      "cuts": [
+        "s009",
+        "s011"
+      ]
+    },
+    "receiver": {
+      "scene": "out/blender_migration_v1/receiver/receiver_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          52
+        ]
+      ],
+      "cuts": [
+        "s010"
+      ]
+    },
+    "message": {
+      "scene": "out/blender_migration_v1/message/message_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          231
+        ]
+      ],
+      "cuts": [
+        "s012",
+        "receiver_reply_arrival"
+      ]
+    },
+    "screen": {
+      "scene": "out/blender_migration_v1/screen/screen_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          13,
+          116
+        ]
+      ],
+      "cuts": [
+        "screen_reply"
+      ]
+    },
+    "walk": {
+      "scene": "out/blender_migration_v1/walk/walk_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          103
+        ]
+      ],
+      "cuts": [
+        "garden_walk"
+      ]
+    },
+    "moth": {
+      "scene": "out/blender_migration_v1/moth/moth_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          56
+        ]
+      ],
+      "cuts": [
+        "garden_moth"
+      ]
+    },
+    "waking": {
+      "scene": "out/blender_migration_v1/waking/waking_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          82
+        ]
+      ],
+      "cuts": [
+        "garden_waking_motion_audition"
+      ]
+    },
+    "guide": {
+      "scene": "out/blender_migration_v1/guide/guide_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          61
+        ]
+      ],
+      "cuts": [
+        "garden_walk_return_review"
+      ]
+    },
+    "birds": {
+      "scene": "out/blender_migration_v1/birds/birds_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          77
+        ]
+      ],
+      "cuts": [
+        "garden_birds_fx_audition"
+      ]
+    },
+    "bloom": {
+      "scene": "out/blender_migration_v1/bloom/bloom_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          69
+        ]
+      ],
+      "cuts": [
+        "garden_begin_bloom_audition"
+      ]
+    },
+    "specimen": {
+      "scene": "out/blender_migration_v1/specimen/specimen_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          107
+        ]
+      ],
+      "cuts": [
+        "exchange_listener_audition"
+      ]
+    },
+    "world": {
+      "scene": "out/blender_migration_v1/world/world_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          112
+        ]
+      ],
+      "cuts": [
+        "world_pullback_timing_test"
+      ]
+    },
+    "orb": {
+      "scene": "out/blender_migration_v1/orb/orb_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          129
+        ]
+      ],
+      "cuts": [
+        "mars_colony_reply_test"
+      ]
+    },
+    "shop_full": {
+      "scene": "out/blender_migration_v1/shop_full/shop_full_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          86
+        ]
+      ],
+      "cuts": [
+        "shop_reply_timing_test"
+      ]
+    },
+    "meant": {
+      "scene": "out/blender_migration_v1/meant/meant_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          12
+        ]
+      ],
+      "cuts": [
+        "meant_artifact_insert"
+      ]
+    },
+    "meaning": {
+      "scene": "out/blender_migration_v1/meaning/meaning_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          224
+        ]
+      ],
+      "cuts": [
+        "meaning_reply_test",
+        "meaning_listener_test"
+      ]
+    },
+    "pressure": {
+      "scene": "out/blender_migration_v1/pressure/pressure_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          70
+        ]
+      ],
+      "cuts": [
+        "landing_retry_s037"
+      ]
+    },
+    "swim043": {
+      "scene": "out/blender_migration_v1/swim043/swim043_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          55,
+          117
+        ]
+      ],
+      "cuts": [
+        "swimming_overhead_early"
+      ]
+    },
+    "swim044": {
+      "scene": "out/blender_migration_v1/swim044/swim044_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          68
+        ]
+      ],
+      "cuts": [
+        "s044"
+      ]
+    },
+    "bends": {
+      "scene": "out/blender_migration_v1/bends/bends_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          138
+        ]
+      ],
+      "cuts": [
+        "s045",
+        "s046"
+      ]
+    },
+    "swim047": {
+      "scene": "out/blender_migration_v1/swim047/swim047_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          69
+        ]
+      ],
+      "cuts": [
+        "s047"
+      ]
+    },
+    "tunnel": {
+      "scene": "out/blender_migration_v1/tunnel/tunnel_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          58
+        ]
+      ],
+      "cuts": [
+        "o01"
+      ]
+    },
+    "tv": {
+      "scene": "out/blender_migration_v1/tv/tv_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          13,
+          68
+        ],
+        [
+          98,
+          167
+        ]
+      ],
+      "cuts": [
+        "outro_lead_1",
+        "outro_lead_3"
+      ]
+    },
+    "afterglow_b1": {
+      "scene": "out/blender_migration_v1/afterglow_b1/afterglow_b1_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          68,
+          98
+        ]
+      ],
+      "cuts": [
+        "outro_lead_2"
+      ]
+    },
+    "afterglow_b2": {
+      "scene": "out/blender_migration_v1/afterglow_b2/afterglow_b2_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          12,
+          43
+        ]
+      ],
+      "cuts": [
+        "outro_lead_4"
+      ]
+    },
+    "tv_late": {
+      "scene": "out/blender_migration_v1/tv_late/tv_late_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          106
+        ]
+      ],
+      "cuts": [
+        "outro_review_1",
+        "outro_review_3",
+        "outro_review_5",
+        "outro_review_9"
+      ]
+    },
+    "room_late": {
+      "scene": "out/blender_migration_v1/room_late/room_late_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          99
+        ]
+      ],
+      "cuts": [
+        "outro_review_2",
+        "outro_review_4"
+      ]
+    },
+    "close_cloud": {
+      "scene": "out/blender_migration_v1/close_cloud/close_cloud_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          85
+        ]
+      ],
+      "cuts": [
+        "outro_review_6",
+        "outro_review_7"
+      ]
+    },
+    "return_cloud": {
+      "scene": "out/blender_migration_v1/return_cloud/return_cloud_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          23
+        ],
+        [
+          50,
+          89
+        ]
+      ],
+      "cuts": [
+        "outro_review_8",
+        "outro_review_10"
+      ]
+    },
+    "night": {
+      "scene": "out/blender_migration_v1/night/night_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          73
+        ]
+      ],
+      "cuts": [
+        "outro_review_11"
+      ]
+    },
+    "titles": {
+      "scene": "out/blender_migration_v1/titles/titles_1920.blend",
+      "blender_frame_ranges_end_exclusive": [
+        [
+          1,
+          73
+        ]
+      ],
+      "cuts": [
+        "outro_review_12"
+      ]
+    }
+  },
+  "assembly": "Rebuild native FX caches at target resolution, remap cache spans in Blender, render lyrics and review numbers at target resolution. Do not upscale the 720 composite. Preserve all song-frame and source-frame clocks.",
+  "video_upscale": "Future selected-span source-video upscale replaces only raw plates. No external upscale or mastering was invoked.",
+  "exceptions": [
+    "Message performance cache has60untreated source frames before the native effect. Preserve this through native VSE source segments.",
+    "Screen transition cache begins at native scene frame13.",
+    "Probe output has an unused internal gap; only listed ranges are seen.",
+    "Do not overwrite720preview caches with1080media or reinterpret their source offsets."
+  ]
+}

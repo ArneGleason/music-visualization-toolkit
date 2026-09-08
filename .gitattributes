@@ -1,0 +1,4 @@
+# Preserve byte-identical checkpoint files, including hashes in receipts.
+# Both LF and CRLF already occur in the local creative history.
+out/** -text
+codex/out/** -text

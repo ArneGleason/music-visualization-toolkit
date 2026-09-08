@@ -1,0 +1,34 @@
+{
+  "status": "verified_synced_candidate_owner_review_pending",
+  "sha256": "ecaf2acd7e15cb485e19ec799043c93d66bce40fc1429ae39c75b6c938849fe8",
+  "probe": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "start_time": "0.000000",
+    "duration": "7.966667",
+    "nb_frames": "239"
+  },
+  "preview_song_frames": [
+    2484,
+    2658
+  ],
+  "reply_song_frames": [
+    2564,
+    2658
+  ],
+  "source_frames": [
+    12,
+    106
+  ],
+  "source_origin_frame": 2552,
+  "lip_sync_applied": true,
+  "production_merged": false,
+  "concerns": [
+    "Can has restrained articulation",
+    "early mouth movement remains during nine-frame pre-phrase bridge"
+  ],
+  "guide_zero_lag_correlation": 0.9998469536218504,
+  "conform": "Native30fps timestamp-resampled24fps; no slowdown or extra offset",
+  "source_original": "out/excavation_reply_lipsync_v1/synced.mp4"
+}

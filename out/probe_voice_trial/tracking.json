@@ -1,0 +1,2120 @@
+{
+  "source_sha256": "16cdc302862503b4505e5f190899f2a579de211bb788b2d63f1c87fa953ee77d",
+  "song_origin": 719,
+  "driver": "lead-vocal RMS",
+  "stem_offset_seconds": 0.178348,
+  "frames": [
+    {
+      "source_frame": 0,
+      "song_frame": 719,
+      "vocal_envelope": 0.7214436560892796,
+      "nozzle_xy": [
+        430.0,
+        375.0
+      ],
+      "track_points": 53,
+      "mask_sum": 1046.3924560546875
+    },
+    {
+      "source_frame": 1,
+      "song_frame": 720,
+      "vocal_envelope": 0.41648952762866387,
+      "nozzle_xy": [
+        431.630615234375,
+        375.054443359375
+      ],
+      "track_points": 53,
+      "mask_sum": 1147.0875244140625
+    },
+    {
+      "source_frame": 2,
+      "song_frame": 721,
+      "vocal_envelope": 0.2389622911782634,
+      "nozzle_xy": [
+        433.24224853515625,
+        375.0880432128906
+      ],
+      "track_points": 53,
+      "mask_sum": 1368.06787109375
+    },
+    {
+      "source_frame": 3,
+      "song_frame": 722,
+      "vocal_envelope": 0.8092625539647794,
+      "nozzle_xy": [
+        434.80419921875,
+        375.1169128417969
+      ],
+      "track_points": 53,
+      "mask_sum": 1572.9521484375
+    },
+    {
+      "source_frame": 4,
+      "song_frame": 723,
+      "vocal_envelope": 0.745136995645933,
+      "nozzle_xy": [
+        436.3871765136719,
+        375.14007568359375
+      ],
+      "track_points": 53,
+      "mask_sum": 1844.2906494140625
+    },
+    {
+      "source_frame": 5,
+      "song_frame": 724,
+      "vocal_envelope": 0.7206783385650013,
+      "nozzle_xy": [
+        438.04559326171875,
+        375.191162109375
+      ],
+      "track_points": 53,
+      "mask_sum": 2067.80859375
+    },
+    {
+      "source_frame": 6,
+      "song_frame": 725,
+      "vocal_envelope": 0.7644683665017795,
+      "nozzle_xy": [
+        439.6445617675781,
+        375.2264099121094
+      ],
+      "track_points": 53,
+      "mask_sum": 2349.866943359375
+    },
+    {
+      "source_frame": 7,
+      "song_frame": 726,
+      "vocal_envelope": 0.8687516913358524,
+      "nozzle_xy": [
+        441.2699890136719,
+        375.27728271484375
+      ],
+      "track_points": 53,
+      "mask_sum": 2522.5908203125
+    },
+    {
+      "source_frame": 8,
+      "song_frame": 727,
+      "vocal_envelope": 0.9007428811972902,
+      "nozzle_xy": [
+        443.1238708496094,
+        375.31439208984375
+      ],
+      "track_points": 53,
+      "mask_sum": 2717.0673828125
+    },
+    {
+      "source_frame": 9,
+      "song_frame": 728,
+      "vocal_envelope": 0.9406264919396989,
+      "nozzle_xy": [
+        444.961669921875,
+        375.3750305175781
+      ],
+      "track_points": 53,
+      "mask_sum": 2900.190185546875
+    },
+    {
+      "source_frame": 10,
+      "song_frame": 729,
+      "vocal_envelope": 0.9981565737869716,
+      "nozzle_xy": [
+        446.7906494140625,
+        375.4188232421875
+      ],
+      "track_points": 53,
+      "mask_sum": 3074.513916015625
+    },
+    {
+      "source_frame": 11,
+      "song_frame": 730,
+      "vocal_envelope": 0.9999427653794782,
+      "nozzle_xy": [
+        448.6565246582031,
+        375.48272705078125
+      ],
+      "track_points": 53,
+      "mask_sum": 3312.753173828125
+    },
+    {
+      "source_frame": 12,
+      "song_frame": 731,
+      "vocal_envelope": 0.9999982229818785,
+      "nozzle_xy": [
+        450.426513671875,
+        375.4884338378906
+      ],
+      "track_points": 53,
+      "mask_sum": 3647.272216796875
+    },
+    {
+      "source_frame": 13,
+      "song_frame": 732,
+      "vocal_envelope": 0.9999999448272151,
+      "nozzle_xy": [
+        452.27569580078125,
+        375.5359191894531
+      ],
+      "track_points": 53,
+      "mask_sum": 3843.409912109375
+    },
+    {
+      "source_frame": 14,
+      "song_frame": 733,
+      "vocal_envelope": 0.9873027218592544,
+      "nozzle_xy": [
+        454.0425109863281,
+        375.5774230957031
+      ],
+      "track_points": 53,
+      "mask_sum": 4235.36376953125
+    },
+    {
+      "source_frame": 15,
+      "song_frame": 734,
+      "vocal_envelope": 0.9413957815781024,
+      "nozzle_xy": [
+        455.7998962402344,
+        375.6258239746094
+      ],
+      "track_points": 53,
+      "mask_sum": 4453.95947265625
+    },
+    {
+      "source_frame": 16,
+      "song_frame": 735,
+      "vocal_envelope": 0.876513330696668,
+      "nozzle_xy": [
+        457.70025634765625,
+        375.6478576660156
+      ],
+      "track_points": 53,
+      "mask_sum": 4806.1650390625
+    },
+    {
+      "source_frame": 17,
+      "song_frame": 736,
+      "vocal_envelope": 0.7896072075302941,
+      "nozzle_xy": [
+        459.5521240234375,
+        375.693603515625
+      ],
+      "track_points": 53,
+      "mask_sum": 4977.24951171875
+    },
+    {
+      "source_frame": 18,
+      "song_frame": 737,
+      "vocal_envelope": 0.47564529674937234,
+      "nozzle_xy": [
+        461.3565979003906,
+        375.73223876953125
+      ],
+      "track_points": 53,
+      "mask_sum": 5176.45166015625
+    },
+    {
+      "source_frame": 19,
+      "song_frame": 738,
+      "vocal_envelope": 0.2729031160676237,
+      "nozzle_xy": [
+        463.25384521484375,
+        375.7799987792969
+      ],
+      "track_points": 53,
+      "mask_sum": 5362.91259765625
+    },
+    {
+      "source_frame": 20,
+      "song_frame": 739,
+      "vocal_envelope": 0.15657909637370374,
+      "nozzle_xy": [
+        465.08587646484375,
+        375.8087158203125
+      ],
+      "track_points": 53,
+      "mask_sum": 5784.03759765625
+    },
+    {
+      "source_frame": 21,
+      "song_frame": 740,
+      "vocal_envelope": 0.08983779216038867,
+      "nozzle_xy": [
+        466.9400634765625,
+        375.84881591796875
+      ],
+      "track_points": 53,
+      "mask_sum": 6045.97998046875
+    },
+    {
+      "source_frame": 22,
+      "song_frame": 741,
+      "vocal_envelope": 0.05154474056352152,
+      "nozzle_xy": [
+        468.86572265625,
+        375.887939453125
+      ],
+      "track_points": 53,
+      "mask_sum": 6458.6044921875
+    },
+    {
+      "source_frame": 23,
+      "song_frame": 742,
+      "vocal_envelope": 0.029573971219343978,
+      "nozzle_xy": [
+        470.75201416015625,
+        375.922119140625
+      ],
+      "track_points": 53,
+      "mask_sum": 6639.56298828125
+    },
+    {
+      "source_frame": 24,
+      "song_frame": 743,
+      "vocal_envelope": 0.016968167151888994,
+      "nozzle_xy": [
+        472.6372985839844,
+        375.99755859375
+      ],
+      "track_points": 53,
+      "mask_sum": 7047.47021484375
+    },
+    {
+      "source_frame": 25,
+      "song_frame": 744,
+      "vocal_envelope": 0.009735543947040851,
+      "nozzle_xy": [
+        474.60986328125,
+        376.0373229980469
+      ],
+      "track_points": 53,
+      "mask_sum": 7122.8525390625
+    },
+    {
+      "source_frame": 26,
+      "song_frame": 745,
+      "vocal_envelope": 0.005585801642354296,
+      "nozzle_xy": [
+        476.5982971191406,
+        376.0563049316406
+      ],
+      "track_points": 53,
+      "mask_sum": 7457.33642578125
+    },
+    {
+      "source_frame": 27,
+      "song_frame": 746,
+      "vocal_envelope": 0.0032048727998615473,
+      "nozzle_xy": [
+        478.5376281738281,
+        376.1033935546875
+      ],
+      "track_points": 53,
+      "mask_sum": 7705.1376953125
+    },
+    {
+      "source_frame": 28,
+      "song_frame": 747,
+      "vocal_envelope": 0.0018388067319489165,
+      "nozzle_xy": [
+        480.53009033203125,
+        376.1156921386719
+      ],
+      "track_points": 53,
+      "mask_sum": 7972.73046875
+    },
+    {
+      "source_frame": 29,
+      "song_frame": 748,
+      "vocal_envelope": 0.9690091327157354,
+      "nozzle_xy": [
+        482.4478454589844,
+        376.1667175292969
+      ],
+      "track_points": 53,
+      "mask_sum": 8082.63623046875
+    },
+    {
+      "source_frame": 30,
+      "song_frame": 749,
+      "vocal_envelope": 0.9990377968393197,
+      "nozzle_xy": [
+        484.410400390625,
+        376.2008972167969
+      ],
+      "track_points": 53,
+      "mask_sum": 8414.642578125
+    },
+    {
+      "source_frame": 31,
+      "song_frame": 750,
+      "vocal_envelope": 0.9999701255562186,
+      "nozzle_xy": [
+        486.27703857421875,
+        376.2230224609375
+      ],
+      "track_points": 53,
+      "mask_sum": 8633.6552734375
+    },
+    {
+      "source_frame": 32,
+      "song_frame": 751,
+      "vocal_envelope": 0.9999990724595099,
+      "nozzle_xy": [
+        488.25982666015625,
+        376.285888671875
+      ],
+      "track_points": 53,
+      "mask_sum": 9046.8076171875
+    },
+    {
+      "source_frame": 33,
+      "song_frame": 752,
+      "vocal_envelope": 0.9999999712017614,
+      "nozzle_xy": [
+        490.1972961425781,
+        376.30987548828125
+      ],
+      "track_points": 53,
+      "mask_sum": 8984.2880859375
+    },
+    {
+      "source_frame": 34,
+      "song_frame": 753,
+      "vocal_envelope": 0.9999999991058734,
+      "nozzle_xy": [
+        492.14190673828125,
+        376.3282775878906
+      ],
+      "track_points": 53,
+      "mask_sum": 9222.2333984375
+    },
+    {
+      "source_frame": 35,
+      "song_frame": 754,
+      "vocal_envelope": 0.9998141931938997,
+      "nozzle_xy": [
+        494.04986572265625,
+        376.3576965332031
+      ],
+      "track_points": 53,
+      "mask_sum": 9519.7890625
+    },
+    {
+      "source_frame": 36,
+      "song_frame": 755,
+      "vocal_envelope": 0.9571321320434919,
+      "nozzle_xy": [
+        495.98828125,
+        376.36431884765625
+      ],
+      "track_points": 53,
+      "mask_sum": 9797.244140625
+    },
+    {
+      "source_frame": 37,
+      "song_frame": 756,
+      "vocal_envelope": 0.8497349918645759,
+      "nozzle_xy": [
+        497.8824768066406,
+        376.3876647949219
+      ],
+      "track_points": 53,
+      "mask_sum": 9948.064453125
+    },
+    {
+      "source_frame": 38,
+      "song_frame": 757,
+      "vocal_envelope": 0.6709909552286424,
+      "nozzle_xy": [
+        499.80499267578125,
+        376.40655517578125
+      ],
+      "track_points": 53,
+      "mask_sum": 10255.1748046875
+    },
+    {
+      "source_frame": 39,
+      "song_frame": 758,
+      "vocal_envelope": 0.5294212942024916,
+      "nozzle_xy": [
+        501.6626281738281,
+        376.445556640625
+      ],
+      "track_points": 53,
+      "mask_sum": 10435.7265625
+    },
+    {
+      "source_frame": 40,
+      "song_frame": 759,
+      "vocal_envelope": 0.4318806100167988,
+      "nozzle_xy": [
+        503.5695495605469,
+        376.4787292480469
+      ],
+      "track_points": 53,
+      "mask_sum": 11048.939453125
+    },
+    {
+      "source_frame": 41,
+      "song_frame": 760,
+      "vocal_envelope": 0.3687160569607898,
+      "nozzle_xy": [
+        505.4085693359375,
+        376.5181884765625
+      ],
+      "track_points": 53,
+      "mask_sum": 10986.6708984375
+    },
+    {
+      "source_frame": 42,
+      "song_frame": 761,
+      "vocal_envelope": 0.3294947286279294,
+      "nozzle_xy": [
+        507.3236083984375,
+        376.5530090332031
+      ],
+      "track_points": 53,
+      "mask_sum": 11105.0322265625
+    },
+    {
+      "source_frame": 43,
+      "song_frame": 762,
+      "vocal_envelope": 0.8974531666762525,
+      "nozzle_xy": [
+        509.2105407714844,
+        376.6119689941406
+      ],
+      "track_points": 53,
+      "mask_sum": 11262.6689453125
+    },
+    {
+      "source_frame": 44,
+      "song_frame": 763,
+      "vocal_envelope": 0.9816902343257418,
+      "nozzle_xy": [
+        511.0257873535156,
+        376.6269836425781
+      ],
+      "track_points": 53,
+      "mask_sum": 11501.5869140625
+    },
+    {
+      "source_frame": 45,
+      "song_frame": 764,
+      "vocal_envelope": 0.919284833071182,
+      "nozzle_xy": [
+        512.8635559082031,
+        376.63427734375
+      ],
+      "track_points": 53,
+      "mask_sum": 11576.248046875
+    },
+    {
+      "source_frame": 46,
+      "song_frame": 765,
+      "vocal_envelope": 0.8847896951439649,
+      "nozzle_xy": [
+        514.7711181640625,
+        376.6589050292969
+      ],
+      "track_points": 53,
+      "mask_sum": 11822.244140625
+    },
+    {
+      "source_frame": 47,
+      "song_frame": 766,
+      "vocal_envelope": 0.8403660338053885,
+      "nozzle_xy": [
+        516.5565185546875,
+        376.6940612792969
+      ],
+      "track_points": 53,
+      "mask_sum": 11902.5673828125
+    },
+    {
+      "source_frame": 48,
+      "song_frame": 767,
+      "vocal_envelope": 0.757341159645875,
+      "nozzle_xy": [
+        518.4954223632812,
+        376.72747802734375
+      ],
+      "track_points": 53,
+      "mask_sum": 12321.5771484375
+    },
+    {
+      "source_frame": 49,
+      "song_frame": 768,
+      "vocal_envelope": 0.7331814439671718,
+      "nozzle_xy": [
+        520.3260498046875,
+        376.7735290527344
+      ],
+      "track_points": 53,
+      "mask_sum": 12317.2001953125
+    },
+    {
+      "source_frame": 50,
+      "song_frame": 769,
+      "vocal_envelope": 0.7329183698772207,
+      "nozzle_xy": [
+        522.166259765625,
+        376.81439208984375
+      ],
+      "track_points": 53,
+      "mask_sum": 12507.4111328125
+    },
+    {
+      "source_frame": 51,
+      "song_frame": 770,
+      "vocal_envelope": 0.7032225944406288,
+      "nozzle_xy": [
+        524.0579833984375,
+        376.89642333984375
+      ],
+      "track_points": 53,
+      "mask_sum": 12696.998046875
+    },
+    {
+      "source_frame": 52,
+      "song_frame": 771,
+      "vocal_envelope": 0.8493570003670611,
+      "nozzle_xy": [
+        525.8233032226562,
+        376.9012756347656
+      ],
+      "track_points": 53,
+      "mask_sum": 12835.2763671875
+    },
+    {
+      "source_frame": 53,
+      "song_frame": 772,
+      "vocal_envelope": 0.8009430084003998,
+      "nozzle_xy": [
+        527.6027221679688,
+        376.92364501953125
+      ],
+      "track_points": 53,
+      "mask_sum": 12911.9931640625
+    },
+    {
+      "source_frame": 54,
+      "song_frame": 773,
+      "vocal_envelope": 0.779638449896391,
+      "nozzle_xy": [
+        529.4051818847656,
+        376.9655456542969
+      ],
+      "track_points": 53,
+      "mask_sum": 13107.470703125
+    },
+    {
+      "source_frame": 55,
+      "song_frame": 774,
+      "vocal_envelope": 0.7969236633629986,
+      "nozzle_xy": [
+        531.1506042480469,
+        377.0106201171875
+      ],
+      "track_points": 53,
+      "mask_sum": 13124.873046875
+    },
+    {
+      "source_frame": 56,
+      "song_frame": 775,
+      "vocal_envelope": 0.7246242940538572,
+      "nozzle_xy": [
+        532.9113464355469,
+        377.0633239746094
+      ],
+      "track_points": 53,
+      "mask_sum": 13485.36328125
+    },
+    {
+      "source_frame": 57,
+      "song_frame": 776,
+      "vocal_envelope": 0.7653807361031295,
+      "nozzle_xy": [
+        534.6625061035156,
+        377.0881042480469
+      ],
+      "track_points": 53,
+      "mask_sum": 13309.7158203125
+    },
+    {
+      "source_frame": 58,
+      "song_frame": 777,
+      "vocal_envelope": 0.7748207211817183,
+      "nozzle_xy": [
+        536.4166564941406,
+        377.1117248535156
+      ],
+      "track_points": 53,
+      "mask_sum": 13423.0078125
+    },
+    {
+      "source_frame": 59,
+      "song_frame": 778,
+      "vocal_envelope": 0.8741593227128374,
+      "nozzle_xy": [
+        538.1348876953125,
+        377.13433837890625
+      ],
+      "track_points": 53,
+      "mask_sum": 13460.5546875
+    },
+    {
+      "source_frame": 60,
+      "song_frame": 779,
+      "vocal_envelope": 0.8653413484112932,
+      "nozzle_xy": [
+        539.8781127929688,
+        377.1445007324219
+      ],
+      "track_points": 53,
+      "mask_sum": 13598.791015625
+    },
+    {
+      "source_frame": 61,
+      "song_frame": 780,
+      "vocal_envelope": 0.8300981721261639,
+      "nozzle_xy": [
+        541.6383666992188,
+        377.15386962890625
+      ],
+      "track_points": 53,
+      "mask_sum": 13560.349609375
+    },
+    {
+      "source_frame": 62,
+      "song_frame": 781,
+      "vocal_envelope": 0.7858137546308199,
+      "nozzle_xy": [
+        543.3638305664062,
+        377.16802978515625
+      ],
+      "track_points": 53,
+      "mask_sum": 13691.6845703125
+    },
+    {
+      "source_frame": 63,
+      "song_frame": 782,
+      "vocal_envelope": 0.7938697404139203,
+      "nozzle_xy": [
+        545.0065307617188,
+        377.1769104003906
+      ],
+      "track_points": 53,
+      "mask_sum": 13587.826171875
+    },
+    {
+      "source_frame": 64,
+      "song_frame": 783,
+      "vocal_envelope": 0.7937741569584957,
+      "nozzle_xy": [
+        546.6481323242188,
+        377.21728515625
+      ],
+      "track_points": 53,
+      "mask_sum": 14004.57421875
+    },
+    {
+      "source_frame": 65,
+      "song_frame": 784,
+      "vocal_envelope": 0.8515680209036872,
+      "nozzle_xy": [
+        548.3296813964844,
+        377.2300109863281
+      ],
+      "track_points": 53,
+      "mask_sum": 13958.4140625
+    },
+    {
+      "source_frame": 66,
+      "song_frame": 785,
+      "vocal_envelope": 0.7853988237161956,
+      "nozzle_xy": [
+        549.9714050292969,
+        377.2371520996094
+      ],
+      "track_points": 53,
+      "mask_sum": 14186.4990234375
+    },
+    {
+      "source_frame": 67,
+      "song_frame": 786,
+      "vocal_envelope": 0.9933370715891252,
+      "nozzle_xy": [
+        551.590087890625,
+        377.2439880371094
+      ],
+      "track_points": 53,
+      "mask_sum": 14147.2236328125
+    },
+    {
+      "source_frame": 68,
+      "song_frame": 787,
+      "vocal_envelope": 0.8949863224426234,
+      "nozzle_xy": [
+        553.2932739257812,
+        377.253662109375
+      ],
+      "track_points": 53,
+      "mask_sum": 14352.2080078125
+    },
+    {
+      "source_frame": 69,
+      "song_frame": 788,
+      "vocal_envelope": 0.8444629613211186,
+      "nozzle_xy": [
+        554.91650390625,
+        377.2615051269531
+      ],
+      "track_points": 53,
+      "mask_sum": 14260.9853515625
+    },
+    {
+      "source_frame": 70,
+      "song_frame": 789,
+      "vocal_envelope": 0.9514048558064284,
+      "nozzle_xy": [
+        556.5211791992188,
+        377.2651672363281
+      ],
+      "track_points": 53,
+      "mask_sum": 14451.43359375
+    },
+    {
+      "source_frame": 71,
+      "song_frame": 790,
+      "vocal_envelope": 0.9427352997139321,
+      "nozzle_xy": [
+        558.0610961914062,
+        377.2765197753906
+      ],
+      "track_points": 53,
+      "mask_sum": 14533.357421875
+    },
+    {
+      "source_frame": 72,
+      "song_frame": 791,
+      "vocal_envelope": 0.9306391044739662,
+      "nozzle_xy": [
+        559.6336059570312,
+        377.303466796875
+      ],
+      "track_points": 53,
+      "mask_sum": 15022.9765625
+    },
+    {
+      "source_frame": 73,
+      "song_frame": 792,
+      "vocal_envelope": 0.9052212586161842,
+      "nozzle_xy": [
+        561.1693725585938,
+        377.3309020996094
+      ],
+      "track_points": 53,
+      "mask_sum": 15002.8447265625
+    },
+    {
+      "source_frame": 74,
+      "song_frame": 793,
+      "vocal_envelope": 0.7965605014217395,
+      "nozzle_xy": [
+        562.6666259765625,
+        377.3556823730469
+      ],
+      "track_points": 53,
+      "mask_sum": 15117.6884765625
+    },
+    {
+      "source_frame": 75,
+      "song_frame": 794,
+      "vocal_envelope": 0.5652772908696782,
+      "nozzle_xy": [
+        564.2200927734375,
+        377.39202880859375
+      ],
+      "track_points": 53,
+      "mask_sum": 15020.2607421875
+    },
+    {
+      "source_frame": 76,
+      "song_frame": 795,
+      "vocal_envelope": 0.42209172772683234,
+      "nozzle_xy": [
+        565.7242431640625,
+        377.393310546875
+      ],
+      "track_points": 53,
+      "mask_sum": 15180.49609375
+    },
+    {
+      "source_frame": 77,
+      "song_frame": 796,
+      "vocal_envelope": 0.3380758351022798,
+      "nozzle_xy": [
+        567.224609375,
+        377.4195861816406
+      ],
+      "track_points": 53,
+      "mask_sum": 15215.8896484375
+    },
+    {
+      "source_frame": 78,
+      "song_frame": 797,
+      "vocal_envelope": 0.270023444042494,
+      "nozzle_xy": [
+        568.7205200195312,
+        377.4621276855469
+      ],
+      "track_points": 53,
+      "mask_sum": 15452.4228515625
+    },
+    {
+      "source_frame": 79,
+      "song_frame": 798,
+      "vocal_envelope": 0.1549268746986837,
+      "nozzle_xy": [
+        570.206787109375,
+        377.46856689453125
+      ],
+      "track_points": 53,
+      "mask_sum": 15453.3125
+    },
+    {
+      "source_frame": 80,
+      "song_frame": 799,
+      "vocal_envelope": 0.08888982432252938,
+      "nozzle_xy": [
+        571.629150390625,
+        377.4822692871094
+      ],
+      "track_points": 53,
+      "mask_sum": 15700.6396484375
+    },
+    {
+      "source_frame": 81,
+      "song_frame": 800,
+      "vocal_envelope": 0.9717118890954711,
+      "nozzle_xy": [
+        573.0807495117188,
+        377.49725341796875
+      ],
+      "track_points": 53,
+      "mask_sum": 15407.3857421875
+    },
+    {
+      "source_frame": 82,
+      "song_frame": 801,
+      "vocal_envelope": 0.8593818164660827,
+      "nozzle_xy": [
+        574.509765625,
+        377.5087585449219
+      ],
+      "track_points": 53,
+      "mask_sum": 15536.474609375
+    },
+    {
+      "source_frame": 83,
+      "song_frame": 802,
+      "vocal_envelope": 0.9218830833009034,
+      "nozzle_xy": [
+        575.9539184570312,
+        377.5206604003906
+      ],
+      "track_points": 53,
+      "mask_sum": 15501.9775390625
+    },
+    {
+      "source_frame": 84,
+      "song_frame": 803,
+      "vocal_envelope": 0.9373397235781622,
+      "nozzle_xy": [
+        577.3692016601562,
+        377.53350830078125
+      ],
+      "track_points": 53,
+      "mask_sum": 15684.7333984375
+    },
+    {
+      "source_frame": 85,
+      "song_frame": 804,
+      "vocal_envelope": 0.8924481299190553,
+      "nozzle_xy": [
+        578.7911987304688,
+        377.5389709472656
+      ],
+      "track_points": 53,
+      "mask_sum": 15533.890625
+    },
+    {
+      "source_frame": 86,
+      "song_frame": 805,
+      "vocal_envelope": 0.8248377991673521,
+      "nozzle_xy": [
+        580.1348266601562,
+        377.5451965332031
+      ],
+      "track_points": 53,
+      "mask_sum": 15618.9501953125
+    },
+    {
+      "source_frame": 87,
+      "song_frame": 806,
+      "vocal_envelope": 0.5559361664192535,
+      "nozzle_xy": [
+        581.5477294921875,
+        377.5494689941406
+      ],
+      "track_points": 53,
+      "mask_sum": 15651.515625
+    },
+    {
+      "source_frame": 88,
+      "song_frame": 807,
+      "vocal_envelope": 0.44863433642418465,
+      "nozzle_xy": [
+        582.898193359375,
+        377.5403137207031
+      ],
+      "track_points": 53,
+      "mask_sum": 16027.396484375
+    },
+    {
+      "source_frame": 89,
+      "song_frame": 808,
+      "vocal_envelope": 0.3790951005179687,
+      "nozzle_xy": [
+        584.2252807617188,
+        377.5557861328125
+      ],
+      "track_points": 53,
+      "mask_sum": 15956.185546875
+    },
+    {
+      "source_frame": 90,
+      "song_frame": 809,
+      "vocal_envelope": 0.327932634594468,
+      "nozzle_xy": [
+        585.5028076171875,
+        377.56402587890625
+      ],
+      "track_points": 53,
+      "mask_sum": 16173.751953125
+    },
+    {
+      "source_frame": 91,
+      "song_frame": 810,
+      "vocal_envelope": 0.27880270143218305,
+      "nozzle_xy": [
+        586.8092041015625,
+        377.575439453125
+      ],
+      "track_points": 53,
+      "mask_sum": 16042.7314453125
+    },
+    {
+      "source_frame": 92,
+      "song_frame": 811,
+      "vocal_envelope": 0.24588558620482318,
+      "nozzle_xy": [
+        588.1148071289062,
+        377.58148193359375
+      ],
+      "track_points": 53,
+      "mask_sum": 16226.0791015625
+    },
+    {
+      "source_frame": 93,
+      "song_frame": 812,
+      "vocal_envelope": 0.22177526031031222,
+      "nozzle_xy": [
+        589.3634643554688,
+        377.576171875
+      ],
+      "track_points": 53,
+      "mask_sum": 16187.994140625
+    },
+    {
+      "source_frame": 94,
+      "song_frame": 813,
+      "vocal_envelope": 0.18214694629999695,
+      "nozzle_xy": [
+        590.6151733398438,
+        377.5758056640625
+      ],
+      "track_points": 53,
+      "mask_sum": 16352.86328125
+    },
+    {
+      "source_frame": 95,
+      "song_frame": 814,
+      "vocal_envelope": 0.10708422460402699,
+      "nozzle_xy": [
+        591.8607177734375,
+        377.57525634765625
+      ],
+      "track_points": 53,
+      "mask_sum": 16319.23046875
+    },
+    {
+      "source_frame": 96,
+      "song_frame": 815,
+      "vocal_envelope": 0.06143994017357604,
+      "nozzle_xy": [
+        593.1396484375,
+        377.5602111816406
+      ],
+      "track_points": 53,
+      "mask_sum": 16581.072265625
+    },
+    {
+      "source_frame": 97,
+      "song_frame": 816,
+      "vocal_envelope": 0.03525137584449247,
+      "nozzle_xy": [
+        594.3839111328125,
+        377.5733337402344
+      ],
+      "track_points": 53,
+      "mask_sum": 16411.73046875
+    },
+    {
+      "source_frame": 98,
+      "song_frame": 817,
+      "vocal_envelope": 0.020225597476478462,
+      "nozzle_xy": [
+        595.6177368164062,
+        377.58251953125
+      ],
+      "track_points": 53,
+      "mask_sum": 16458.869140625
+    },
+    {
+      "source_frame": 99,
+      "song_frame": 818,
+      "vocal_envelope": 0.011604505738587905,
+      "nozzle_xy": [
+        596.8424072265625,
+        377.5815734863281
+      ],
+      "track_points": 53,
+      "mask_sum": 16493.875
+    },
+    {
+      "source_frame": 100,
+      "song_frame": 819,
+      "vocal_envelope": 0.006658124863481979,
+      "nozzle_xy": [
+        598.0950317382812,
+        377.58154296875
+      ],
+      "track_points": 53,
+      "mask_sum": 16691.375
+    },
+    {
+      "source_frame": 101,
+      "song_frame": 820,
+      "vocal_envelope": 0.003820121916119738,
+      "nozzle_xy": [
+        599.3380737304688,
+        377.5874328613281
+      ],
+      "track_points": 53,
+      "mask_sum": 16685.17578125
+    },
+    {
+      "source_frame": 102,
+      "song_frame": 821,
+      "vocal_envelope": 0.0021918080170077354,
+      "nozzle_xy": [
+        600.5247802734375,
+        377.60772705078125
+      ],
+      "track_points": 53,
+      "mask_sum": 16819.302734375
+    },
+    {
+      "source_frame": 103,
+      "song_frame": 822,
+      "vocal_envelope": 0.0012575573473579175,
+      "nozzle_xy": [
+        601.7241821289062,
+        377.61492919921875
+      ],
+      "track_points": 53,
+      "mask_sum": 16590.560546875
+    },
+    {
+      "source_frame": 104,
+      "song_frame": 823,
+      "vocal_envelope": 0.0007215278298200971,
+      "nozzle_xy": [
+        602.9273071289062,
+        377.6348571777344
+      ],
+      "track_points": 53,
+      "mask_sum": 16745.708984375
+    },
+    {
+      "source_frame": 105,
+      "song_frame": 824,
+      "vocal_envelope": 0.41562680122376466,
+      "nozzle_xy": [
+        604.043212890625,
+        377.6282043457031
+      ],
+      "track_points": 53,
+      "mask_sum": 16585.51171875
+    },
+    {
+      "source_frame": 106,
+      "song_frame": 825,
+      "vocal_envelope": 0.5401935763367888,
+      "nozzle_xy": [
+        605.1859741210938,
+        377.61468505859375
+      ],
+      "track_points": 53,
+      "mask_sum": 16623.720703125
+    },
+    {
+      "source_frame": 107,
+      "song_frame": 826,
+      "vocal_envelope": 0.6939194789147084,
+      "nozzle_xy": [
+        606.304443359375,
+        377.61376953125
+      ],
+      "track_points": 53,
+      "mask_sum": 16511.662109375
+    },
+    {
+      "source_frame": 108,
+      "song_frame": 827,
+      "vocal_envelope": 0.8382283404572808,
+      "nozzle_xy": [
+        607.4102783203125,
+        377.6142578125
+      ],
+      "track_points": 53,
+      "mask_sum": 16740.255859375
+    },
+    {
+      "source_frame": 109,
+      "song_frame": 828,
+      "vocal_envelope": 0.8121975621216615,
+      "nozzle_xy": [
+        608.636962890625,
+        377.61407470703125
+      ],
+      "track_points": 53,
+      "mask_sum": 16802.46875
+    },
+    {
+      "source_frame": 110,
+      "song_frame": 829,
+      "vocal_envelope": 0.879548107688857,
+      "nozzle_xy": [
+        609.646240234375,
+        377.60601806640625
+      ],
+      "track_points": 53,
+      "mask_sum": 17113.193359375
+    },
+    {
+      "source_frame": 111,
+      "song_frame": 830,
+      "vocal_envelope": 0.8794431493678471,
+      "nozzle_xy": [
+        610.6896362304688,
+        377.60504150390625
+      ],
+      "track_points": 53,
+      "mask_sum": 16995.568359375
+    },
+    {
+      "source_frame": 112,
+      "song_frame": 831,
+      "vocal_envelope": 0.8727721287145035,
+      "nozzle_xy": [
+        611.7470703125,
+        377.592529296875
+      ],
+      "track_points": 53,
+      "mask_sum": 17273.71484375
+    },
+    {
+      "source_frame": 113,
+      "song_frame": 832,
+      "vocal_envelope": 0.882116422099362,
+      "nozzle_xy": [
+        612.7584228515625,
+        377.5787048339844
+      ],
+      "track_points": 53,
+      "mask_sum": 17134.14453125
+    },
+    {
+      "source_frame": 114,
+      "song_frame": 833,
+      "vocal_envelope": 0.9069366165915139,
+      "nozzle_xy": [
+        613.9296875,
+        377.5686950683594
+      ],
+      "track_points": 53,
+      "mask_sum": 17344.962890625
+    },
+    {
+      "source_frame": 115,
+      "song_frame": 834,
+      "vocal_envelope": 0.8884523729868236,
+      "nozzle_xy": [
+        615.0686645507812,
+        377.5422058105469
+      ],
+      "track_points": 53,
+      "mask_sum": 17401.625
+    },
+    {
+      "source_frame": 116,
+      "song_frame": 835,
+      "vocal_envelope": 0.8223870785950398,
+      "nozzle_xy": [
+        616.170166015625,
+        377.54022216796875
+      ],
+      "track_points": 53,
+      "mask_sum": 17724.75390625
+    },
+    {
+      "source_frame": 117,
+      "song_frame": 836,
+      "vocal_envelope": 0.6884567414444094,
+      "nozzle_xy": [
+        617.2167358398438,
+        377.53594970703125
+      ],
+      "track_points": 53,
+      "mask_sum": 17884.6484375
+    },
+    {
+      "source_frame": 118,
+      "song_frame": 837,
+      "vocal_envelope": 0.6602041077045713,
+      "nozzle_xy": [
+        618.2232055664062,
+        377.5210876464844
+      ],
+      "track_points": 53,
+      "mask_sum": 18223.193359375
+    },
+    {
+      "source_frame": 119,
+      "song_frame": 838,
+      "vocal_envelope": 0.9022019230477064,
+      "nozzle_xy": [
+        619.3149108886719,
+        377.5154113769531
+      ],
+      "track_points": 52,
+      "mask_sum": 18369.97265625
+    },
+    {
+      "source_frame": 120,
+      "song_frame": 839,
+      "vocal_envelope": 0.9156622757650695,
+      "nozzle_xy": [
+        620.2618103027344,
+        377.45298767089844
+      ],
+      "track_points": 52,
+      "mask_sum": 18726.69921875
+    },
+    {
+      "source_frame": 121,
+      "song_frame": 840,
+      "vocal_envelope": 0.7496358783542103,
+      "nozzle_xy": [
+        621.2726440429688,
+        377.4465026855469
+      ],
+      "track_points": 52,
+      "mask_sum": 18662.767578125
+    },
+    {
+      "source_frame": 122,
+      "song_frame": 841,
+      "vocal_envelope": 0.4901670980071196,
+      "nozzle_xy": [
+        622.293701171875,
+        377.4451141357422
+      ],
+      "track_points": 52,
+      "mask_sum": 19017.634765625
+    },
+    {
+      "source_frame": 123,
+      "song_frame": 842,
+      "vocal_envelope": 0.28123504921452536,
+      "nozzle_xy": [
+        623.3213806152344,
+        377.4595947265625
+      ],
+      "track_points": 52,
+      "mask_sum": 19290.833984375
+    },
+    {
+      "source_frame": 124,
+      "song_frame": 843,
+      "vocal_envelope": 0.7613874177066349,
+      "nozzle_xy": [
+        624.3196411132812,
+        377.4585876464844
+      ],
+      "track_points": 50,
+      "mask_sum": 19904.921875
+    },
+    {
+      "source_frame": 125,
+      "song_frame": 844,
+      "vocal_envelope": 0.9398820767740688,
+      "nozzle_xy": [
+        625.3394165039062,
+        377.46002197265625
+      ],
+      "track_points": 49,
+      "mask_sum": 20199.62890625
+    },
+    {
+      "source_frame": 126,
+      "song_frame": 845,
+      "vocal_envelope": 0.9342663211457543,
+      "nozzle_xy": [
+        626.3722534179688,
+        377.45458984375
+      ],
+      "track_points": 49,
+      "mask_sum": 20521.5390625
+    },
+    {
+      "source_frame": 127,
+      "song_frame": 846,
+      "vocal_envelope": 0.9196892119512027,
+      "nozzle_xy": [
+        627.347900390625,
+        377.4551239013672
+      ],
+      "track_points": 48,
+      "mask_sum": 19921.830078125
+    },
+    {
+      "source_frame": 128,
+      "song_frame": 847,
+      "vocal_envelope": 0.844589649001774,
+      "nozzle_xy": [
+        628.2772827148438,
+        377.427978515625
+      ],
+      "track_points": 48,
+      "mask_sum": 19622.96875
+    },
+    {
+      "source_frame": 129,
+      "song_frame": 848,
+      "vocal_envelope": 0.7245166124478853,
+      "nozzle_xy": [
+        629.24658203125,
+        377.4197692871094
+      ],
+      "track_points": 47,
+      "mask_sum": 18580.056640625
+    },
+    {
+      "source_frame": 130,
+      "song_frame": 849,
+      "vocal_envelope": 0.41569388477307107,
+      "nozzle_xy": [
+        630.2623596191406,
+        377.4222869873047
+      ],
+      "track_points": 46,
+      "mask_sum": 17839.880859375
+    },
+    {
+      "source_frame": 131,
+      "song_frame": 850,
+      "vocal_envelope": 0.23850578836818173,
+      "nozzle_xy": [
+        631.2276000976562,
+        377.4217224121094
+      ],
+      "track_points": 46,
+      "mask_sum": 16562.689453125
+    },
+    {
+      "source_frame": 132,
+      "song_frame": 851,
+      "vocal_envelope": 0.13684351194192246,
+      "nozzle_xy": [
+        632.2391052246094,
+        377.4263000488281
+      ],
+      "track_points": 46,
+      "mask_sum": 15531.640625
+    },
+    {
+      "source_frame": 133,
+      "song_frame": 852,
+      "vocal_envelope": 0.07851443308240175,
+      "nozzle_xy": [
+        633.2023010253906,
+        377.4115295410156
+      ],
+      "track_points": 46,
+      "mask_sum": 13626.3671875
+    },
+    {
+      "source_frame": 134,
+      "song_frame": 853,
+      "vocal_envelope": 0.04504792455828826,
+      "nozzle_xy": [
+        634.1629943847656,
+        377.39642333984375
+      ],
+      "track_points": 45,
+      "mask_sum": 12128.3544921875
+    },
+    {
+      "source_frame": 135,
+      "song_frame": 854,
+      "vocal_envelope": 0.025846400812439694,
+      "nozzle_xy": [
+        635.1402587890625,
+        377.3911590576172
+      ],
+      "track_points": 44,
+      "mask_sum": 10247.6689453125
+    },
+    {
+      "source_frame": 136,
+      "song_frame": 855,
+      "vocal_envelope": 0.014829460879888035,
+      "nozzle_xy": [
+        636.0641784667969,
+        377.37281799316406
+      ],
+      "track_points": 44,
+      "mask_sum": 8249.908203125
+    },
+    {
+      "source_frame": 137,
+      "song_frame": 856,
+      "vocal_envelope": 0.008508453907527698,
+      "nozzle_xy": [
+        636.9996337890625,
+        377.3627014160156
+      ],
+      "track_points": 44,
+      "mask_sum": 5801.48974609375
+    },
+    {
+      "source_frame": 138,
+      "song_frame": 857,
+      "vocal_envelope": 0.004881754534630793,
+      "nozzle_xy": [
+        637.9334106445312,
+        377.3476104736328
+      ],
+      "track_points": 44,
+      "mask_sum": 4109.42138671875
+    },
+    {
+      "source_frame": 139,
+      "song_frame": 858,
+      "vocal_envelope": 0.0028009233634448917,
+      "nozzle_xy": [
+        638.8384399414062,
+        377.3522033691406
+      ],
+      "track_points": 44,
+      "mask_sum": 2632.96875
+    },
+    {
+      "source_frame": 140,
+      "song_frame": 859,
+      "vocal_envelope": 0.569643406721533,
+      "nozzle_xy": [
+        639.8006591796875,
+        377.3409423828125
+      ],
+      "track_points": 44,
+      "mask_sum": 1690.9482421875
+    },
+    {
+      "source_frame": 141,
+      "song_frame": 860,
+      "vocal_envelope": 0.745009041238023,
+      "nozzle_xy": [
+        640.7413330078125,
+        377.3273010253906
+      ],
+      "track_points": 44,
+      "mask_sum": 861.397216796875
+    },
+    {
+      "source_frame": 142,
+      "song_frame": 861,
+      "vocal_envelope": 0.8054233639928493,
+      "nozzle_xy": [
+        641.6716613769531,
+        377.3035125732422
+      ],
+      "track_points": 44,
+      "mask_sum": 396.83038330078125
+    },
+    {
+      "source_frame": 143,
+      "song_frame": 862,
+      "vocal_envelope": 0.8312869883159364,
+      "nozzle_xy": [
+        642.6686096191406,
+        377.2906188964844
+      ],
+      "track_points": 44,
+      "mask_sum": 90.23735046386719
+    },
+    {
+      "source_frame": 144,
+      "song_frame": 863,
+      "vocal_envelope": 0.8370237993645409,
+      "nozzle_xy": [
+        643.4764099121094,
+        377.232666015625
+      ],
+      "track_points": 44,
+      "mask_sum": 21.36473846435547
+    },
+    {
+      "source_frame": 145,
+      "song_frame": 864,
+      "vocal_envelope": 0.7894666322602576,
+      "nozzle_xy": [
+        644.3365783691406,
+        377.1892547607422
+      ],
+      "track_points": 44,
+      "mask_sum": 4.438429832458496
+    },
+    {
+      "source_frame": 146,
+      "song_frame": 865,
+      "vocal_envelope": 0.7212740622806142,
+      "nozzle_xy": [
+        645.2210693359375,
+        377.14820861816406
+      ],
+      "track_points": 44,
+      "mask_sum": 2.7728686332702637
+    },
+    {
+      "source_frame": 147,
+      "song_frame": 866,
+      "vocal_envelope": 0.44863996494326835,
+      "nozzle_xy": [
+        646.0527648925781,
+        377.1203155517578
+      ],
+      "track_points": 44,
+      "mask_sum": 2.7481369972229004
+    },
+    {
+      "source_frame": 148,
+      "song_frame": 867,
+      "vocal_envelope": 0.2793188943269116,
+      "nozzle_xy": [
+        646.9481811523438,
+        377.10350036621094
+      ],
+      "track_points": 44,
+      "mask_sum": 3.1884608268737793
+    },
+    {
+      "source_frame": 149,
+      "song_frame": 868,
+      "vocal_envelope": 0.16026017109666302,
+      "nozzle_xy": [
+        647.7557678222656,
+        377.0951690673828
+      ],
+      "track_points": 44,
+      "mask_sum": 2.1393442153930664
+    },
+    {
+      "source_frame": 150,
+      "song_frame": 869,
+      "vocal_envelope": 0.09194982137467665,
+      "nozzle_xy": [
+        648.6197814941406,
+        377.09690856933594
+      ],
+      "track_points": 44,
+      "mask_sum": 2.412193775177002
+    },
+    {
+      "source_frame": 151,
+      "song_frame": 870,
+      "vocal_envelope": 0.05275652454991664,
+      "nozzle_xy": [
+        649.4872131347656,
+        377.0653991699219
+      ],
+      "track_points": 44,
+      "mask_sum": 1.9766147136688232
+    },
+    {
+      "source_frame": 152,
+      "song_frame": 871,
+      "vocal_envelope": 0.030269236426733022,
+      "nozzle_xy": [
+        650.2848510742188,
+        377.0191192626953
+      ],
+      "track_points": 44,
+      "mask_sum": 2.3061435222625732
+    },
+    {
+      "source_frame": 153,
+      "song_frame": 872,
+      "vocal_envelope": 0.017367077942948176,
+      "nozzle_xy": [
+        651.1191711425781,
+        376.9864196777344
+      ],
+      "track_points": 44,
+      "mask_sum": 1.500511884689331
+    },
+    {
+      "source_frame": 154,
+      "song_frame": 873,
+      "vocal_envelope": 0.009964420377980131,
+      "nozzle_xy": [
+        651.9745788574219,
+        376.9462432861328
+      ],
+      "track_points": 44,
+      "mask_sum": 1.6063261032104492
+    },
+    {
+      "source_frame": 155,
+      "song_frame": 874,
+      "vocal_envelope": 0.005717120277531883,
+      "nozzle_xy": [
+        652.7978515625,
+        376.9219207763672
+      ],
+      "track_points": 44,
+      "mask_sum": 1.6961194276809692
+    },
+    {
+      "source_frame": 156,
+      "song_frame": 875,
+      "vocal_envelope": 0.0032802173160012588,
+      "nozzle_xy": [
+        653.6383361816406,
+        376.89869689941406
+      ],
+      "track_points": 44,
+      "mask_sum": 2.321826696395874
+    },
+    {
+      "source_frame": 157,
+      "song_frame": 876,
+      "vocal_envelope": 0.0018820359058178825,
+      "nozzle_xy": [
+        654.4534912109375,
+        376.8840789794922
+      ],
+      "track_points": 44,
+      "mask_sum": 1.5169427394866943
+    },
+    {
+      "source_frame": 158,
+      "song_frame": 877,
+      "vocal_envelope": 0.0010798245389136828,
+      "nozzle_xy": [
+        655.2827453613281,
+        376.8594970703125
+      ],
+      "track_points": 44,
+      "mask_sum": 1.7291120290756226
+    },
+    {
+      "source_frame": 159,
+      "song_frame": 878,
+      "vocal_envelope": 0.0006195530229979465,
+      "nozzle_xy": [
+        656.1142272949219,
+        376.8499298095703
+      ],
+      "track_points": 44,
+      "mask_sum": 1.5333738327026367
+    },
+    {
+      "source_frame": 160,
+      "song_frame": 879,
+      "vocal_envelope": 0.0003554706662732892,
+      "nozzle_xy": [
+        656.9447631835938,
+        376.8260040283203
+      ],
+      "track_points": 44,
+      "mask_sum": 1.7038196325302124
+    },
+    {
+      "source_frame": 161,
+      "song_frame": 880,
+      "vocal_envelope": 0.00020395251074611402,
+      "nozzle_xy": [
+        657.8257446289062,
+        376.7649383544922
+      ],
+      "track_points": 44,
+      "mask_sum": 1.0547398328781128
+    },
+    {
+      "source_frame": 162,
+      "song_frame": 881,
+      "vocal_envelope": 0.00011701845070857093,
+      "nozzle_xy": [
+        658.6980895996094,
+        376.7017517089844
+      ],
+      "track_points": 44,
+      "mask_sum": 1.1720370054244995
+    },
+    {
+      "source_frame": 163,
+      "song_frame": 882,
+      "vocal_envelope": 6.713973638343723e-05,
+      "nozzle_xy": [
+        659.5599670410156,
+        376.6877899169922
+      ],
+      "track_points": 44,
+      "mask_sum": 1.1607794761657715
+    },
+    {
+      "source_frame": 164,
+      "song_frame": 883,
+      "vocal_envelope": 3.852165341740658e-05,
+      "nozzle_xy": [
+        660.3865356445312,
+        376.66448974609375
+      ],
+      "track_points": 44,
+      "mask_sum": 1.404892921447754
+    },
+    {
+      "source_frame": 165,
+      "song_frame": 884,
+      "vocal_envelope": 2.210193042069884e-05,
+      "nozzle_xy": [
+        661.261962890625,
+        376.65582275390625
+      ],
+      "track_points": 44,
+      "mask_sum": 0.8970822691917419
+    },
+    {
+      "source_frame": 166,
+      "song_frame": 885,
+      "vocal_envelope": 1.2681058183776686e-05,
+      "nozzle_xy": [
+        662.1614074707031,
+        376.64271545410156
+      ],
+      "track_points": 44,
+      "mask_sum": 0.9404658675193787
+    },
+    {
+      "source_frame": 167,
+      "song_frame": 886,
+      "vocal_envelope": 7.2758005115122895e-06,
+      "nozzle_xy": [
+        663.0048828125,
+        376.61085510253906
+      ],
+      "track_points": 44,
+      "mask_sum": 0.8833852410316467
+    },
+    {
+      "source_frame": 168,
+      "song_frame": 887,
+      "vocal_envelope": 4.174515432083339e-06,
+      "nozzle_xy": [
+        663.8625793457031,
+        376.6049346923828
+      ],
+      "track_points": 44,
+      "mask_sum": 0.9961579442024231
+    },
+    {
+      "source_frame": 169,
+      "song_frame": 888,
+      "vocal_envelope": 2.395142509079018e-06,
+      "nozzle_xy": [
+        664.6549072265625,
+        376.52728271484375
+      ],
+      "track_points": 44,
+      "mask_sum": 0.7284642457962036
+    },
+    {
+      "source_frame": 170,
+      "song_frame": 889,
+      "vocal_envelope": 1.3742212077377243e-06,
+      "nozzle_xy": [
+        665.5398864746094,
+        376.4849090576172
+      ],
+      "track_points": 44,
+      "mask_sum": 0.775437593460083
+    },
+    {
+      "source_frame": 171,
+      "song_frame": 890,
+      "vocal_envelope": 7.884641187894454e-07,
+      "nozzle_xy": [
+        666.4684143066406,
+        376.4792938232422
+      ],
+      "track_points": 44,
+      "mask_sum": 0.7645959854125977
+    },
+    {
+      "source_frame": 172,
+      "song_frame": 891,
+      "vocal_envelope": 4.5238398528416985e-07,
+      "nozzle_xy": [
+        667.3067626953125,
+        376.46592712402344
+      ],
+      "track_points": 44,
+      "mask_sum": 1.0032808780670166
+    },
+    {
+      "source_frame": 173,
+      "song_frame": 892,
+      "vocal_envelope": 2.5955685904362486e-07,
+      "nozzle_xy": [
+        668.2496337890625,
+        376.47381591796875
+      ],
+      "track_points": 44,
+      "mask_sum": 0.6613367795944214
+    },
+    {
+      "source_frame": 174,
+      "song_frame": 893,
+      "vocal_envelope": 1.4892163575214343e-07,
+      "nozzle_xy": [
+        669.2186889648438,
+        376.4312744140625
+      ],
+      "track_points": 44,
+      "mask_sum": 0.6418699622154236
+    },
+    {
+      "source_frame": 175,
+      "song_frame": 894,
+      "vocal_envelope": 8.544429793460625e-08,
+      "nozzle_xy": [
+        670.1179504394531,
+        376.3912353515625
+      ],
+      "track_points": 44,
+      "mask_sum": 0.5653151869773865
+    },
+    {
+      "source_frame": 176,
+      "song_frame": 895,
+      "vocal_envelope": 4.90239582224887e-08,
+      "nozzle_xy": [
+        671.0662231445312,
+        376.37049865722656
+      ],
+      "track_points": 44,
+      "mask_sum": 0.6553712487220764
+    },
+    {
+      "source_frame": 177,
+      "song_frame": 896,
+      "vocal_envelope": 2.8127663728241884e-08,
+      "nozzle_xy": [
+        671.9967346191406,
+        376.3352813720703
+      ],
+      "track_points": 44,
+      "mask_sum": 0.38248544931411743
+    },
+    {
+      "source_frame": 178,
+      "song_frame": 897,
+      "vocal_envelope": 1.6138343281430994e-08,
+      "nozzle_xy": [
+        672.9782104492188,
+        376.3154602050781
+      ],
+      "track_points": 44,
+      "mask_sum": 0.3683682084083557
+    },
+    {
+      "source_frame": 179,
+      "song_frame": 898,
+      "vocal_envelope": 9.259429662755998e-09,
+      "nozzle_xy": [
+        673.8536376953125,
+        376.3107147216797
+      ],
+      "track_points": 44,
+      "mask_sum": 0.3134922385215759
+    },
+    {
+      "source_frame": 180,
+      "song_frame": 899,
+      "vocal_envelope": 5.312629443083907e-09,
+      "nozzle_xy": [
+        674.833984375,
+        376.31651306152344
+      ],
+      "track_points": 44,
+      "mask_sum": 0.39778056740760803
+    },
+    {
+      "source_frame": 181,
+      "song_frame": 900,
+      "vocal_envelope": 3.048139316079794e-09,
+      "nozzle_xy": [
+        675.8194580078125,
+        376.33473205566406
+      ],
+      "track_points": 44,
+      "mask_sum": 0.3065315783023834
+    },
+    {
+      "source_frame": 182,
+      "song_frame": 901,
+      "vocal_envelope": 1.7488803594850404e-09,
+      "nozzle_xy": [
+        676.8241882324219,
+        376.3202362060547
+      ],
+      "track_points": 44,
+      "mask_sum": 0.3008188307285309
+    },
+    {
+      "source_frame": 183,
+      "song_frame": 902,
+      "vocal_envelope": 1.003426088715053e-09,
+      "nozzle_xy": [
+        677.8178405761719,
+        376.3043670654297
+      ],
+      "track_points": 44,
+      "mask_sum": 0.2651205360889435
+    },
+    {
+      "source_frame": 184,
+      "song_frame": 903,
+      "vocal_envelope": 5.757191508574444e-10,
+      "nozzle_xy": [
+        678.7830505371094,
+        376.25421142578125
+      ],
+      "track_points": 44,
+      "mask_sum": 0.28235504031181335
+    },
+    {
+      "source_frame": 185,
+      "song_frame": 904,
+      "vocal_envelope": 3.303208321885088e-10,
+      "nozzle_xy": [
+        679.7452087402344,
+        376.2046356201172
+      ],
+      "track_points": 44,
+      "mask_sum": 0.15853917598724365
+    },
+    {
+      "source_frame": 186,
+      "song_frame": 905,
+      "vocal_envelope": 1.895227074089924e-10,
+      "nozzle_xy": [
+        680.7233581542969,
+        376.17579650878906
+      ],
+      "track_points": 44,
+      "mask_sum": 0.1692240685224533
+    },
+    {
+      "source_frame": 187,
+      "song_frame": 906,
+      "vocal_envelope": 1.0873930168332897e-10,
+      "nozzle_xy": [
+        681.6833190917969,
+        376.13719177246094
+      ],
+      "track_points": 44,
+      "mask_sum": 0.16842792928218842
+    },
+    {
+      "source_frame": 188,
+      "song_frame": 907,
+      "vocal_envelope": 6.238954630940967e-11,
+      "nozzle_xy": [
+        682.657470703125,
+        376.116455078125
+      ],
+      "track_points": 44,
+      "mask_sum": 0.24019604921340942
+    },
+    {
+      "source_frame": 189,
+      "song_frame": 908,
+      "vocal_envelope": 3.5796215613280276e-11,
+      "nozzle_xy": [
+        683.7324523925781,
+        376.1024475097656
+      ],
+      "track_points": 44,
+      "mask_sum": 0.1947786957025528
+    },
+    {
+      "source_frame": 190,
+      "song_frame": 909,
+      "vocal_envelope": 2.0538201157574258e-11,
+      "nozzle_xy": [
+        684.7336120605469,
+        376.0738983154297
+      ],
+      "track_points": 44,
+      "mask_sum": 0.15818902850151062
+    },
+    {
+      "source_frame": 191,
+      "song_frame": 910,
+      "vocal_envelope": 0.014178059076028114,
+      "nozzle_xy": [
+        685.7223510742188,
+        376.0094451904297
+      ],
+      "track_points": 44,
+      "mask_sum": 0.1102859303355217
+    }
+  ]
+}

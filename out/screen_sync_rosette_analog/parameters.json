@@ -1,0 +1,60 @@
+{
+  "song_frames": [
+    86,
+    155
+  ],
+  "fps": 24,
+  "substeps": 8,
+  "phosphor_half_lives_sec": [
+    0.03,
+    0.16
+  ],
+  "phosphor_texture_size": [
+    768,
+    768
+  ],
+  "render_size": [
+    2560,
+    1440
+  ],
+  "dwell_model": "1/sqrt(1+(dy/dx)^2), art-directed width and bloom",
+  "aperture": "elliptical soft clipping; trace reaches beyond useful glass",
+  "channels": {
+    "amber": "bass 25-180 Hz",
+    "cyan": "rectified bass 25-180 Hz"
+  },
+  "dual_axes": "fixed amber; radial cyan",
+  "scope": "CRT-inspired composite, not a calibrated tube simulation",
+  "profile": "rosette",
+  "analog_settings": {
+    "amber_center_gain": 1.55,
+    "cyan_radial_center_gain": 1.45,
+    "noise_peak_bound_px": {
+      "amber": 0.85,
+      "cyan": 1.1
+    },
+    "sweep_brightness_range": [
+      0.95,
+      1.0
+    ],
+    "sweep_cycles_sec": {
+      "amber": 0.31,
+      "cyan": 0.23
+    },
+    "temporal_exposure_samples": 8
+  },
+  "rosette_settings": {
+    "cycles_per_revolution": 3,
+    "base_radius": 42,
+    "outward_gain": 153,
+    "compression_drive": 1.65,
+    "rotation_rad_sec": -0.1,
+    "period_range_samples": [
+      45,
+      200
+    ],
+    "driver": "three-period folded rectified bass, no frame normalization",
+    "cyan_defocus_sigma_texture_px": 7.5
+  },
+  "depth_settings": null
+}

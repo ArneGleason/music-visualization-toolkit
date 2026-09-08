@@ -1,0 +1,39 @@
+{
+  "status": "native_candidate_technical_checks_complete",
+  "song_frames": [
+    2271,
+    2399
+  ],
+  "frames": 128,
+  "fps": 24,
+  "mean_old_difference": 2.4910947305184825,
+  "max_old_difference": 3.744592013888889,
+  "resolution": [
+    {
+      "frame": 1,
+      "mean_1080_downsample_difference": 3.0404763454861112
+    },
+    {
+      "frame": 40,
+      "mean_1080_downsample_difference": 2.0425065104166666
+    },
+    {
+      "frame": 70,
+      "mean_1080_downsample_difference": 1.3743337673611111
+    },
+    {
+      "frame": 96,
+      "mean_1080_downsample_difference": 1.320597873263889
+    },
+    {
+      "frame": 110,
+      "mean_1080_downsample_difference": 1.144593822337963
+    },
+    {
+      "frame": 128,
+      "mean_1080_downsample_difference": 0.9946690538194445
+    }
+  ],
+  "clean_sha256": "88dfd10ce4f0d12a473621f48c1910fb12ea7ba0cf25c7e6798ab0f12a38b1d8",
+  "production_promoted": false
+}

@@ -1,0 +1,26 @@
+{
+  "preview_song_frames": [
+    3505,
+    4262
+  ],
+  "frames": 757,
+  "new_source_coverage": [
+    {
+      "shot": "turn_phrase",
+      "song_frames": [
+        4030,
+        4073
+      ],
+      "source": "out/swirl_springs_flow_v1/base.mp4",
+      "source_frames": [
+        149,
+        192
+      ],
+      "available_frames": 192,
+      "exit_handle_frames": 0
+    }
+  ],
+  "unchanged_approved_through": 3897,
+  "speed": 1,
+  "status": "new continuation pacing review pending"
+}

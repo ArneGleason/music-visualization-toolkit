@@ -1,0 +1,41 @@
+{
+  "preview": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "24/1",
+    "nb_frames": "301"
+  },
+  "source": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "24/1",
+    "nb_frames": "192"
+  },
+  "source_sha256": "b5adb509d04caae529be114eb80b748818877eb7a9c0c2a46aee4dbef5ac09be",
+  "song_frames": [
+    2928,
+    3229
+  ],
+  "landing_tail_source_frames": [
+    111,
+    184
+  ],
+  "wide_source_frames": [
+    112,
+    177
+  ],
+  "wide_song_frames": [
+    3100,
+    3165
+  ],
+  "close_source_frames": [
+    0,
+    64
+  ],
+  "close_song_frames": [
+    3165,
+    3229
+  ],
+  "speed": 1,
+  "status": "owner review pending; no generation or production merge"
+}

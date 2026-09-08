@@ -117,6 +117,11 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
         "font_file", "assets/fonts/fredoka/Fredoka[wdth,wght].ttf"))
     if not font_path.is_absolute():
         font_path = root / font_path
+    if flat and font_path.name == "Fredoka[wdth,wght].ttf":
+        # A real weight instance preserves rounded joins. Geometric outline
+        # dilation at small lyric sizes produces pointed self-intersections
+        # above m/r (and inside M), before any animation is applied.
+        font_path = font_path.with_name("Fredoka-Bold.ttf")
     if not font_path.exists():
         raise FileNotFoundError(f"3D lyric font not found: {font_path}")
 
@@ -263,7 +268,7 @@ def build_lyric_scene(root, motion_path, width, height, fps, total_frames,
         curve.extrude = 0.001 if flat else 0.060 + 0.045 * rigidity
         curve.bevel_depth = 0.0 if flat else 0.022 + 0.010 * (1.0 - rigidity)
         curve.bevel_resolution = 0 if flat else 3
-        curve.offset = 0.018 if flat else 0.0
+        curve.offset = 0.0
         obj = bpy.data.objects.new(name, curve)
         scene.collection.objects.link(obj)
         obj.data.materials.append(

@@ -1,5 +1,20 @@
 # Shared assembly decisions: intentional visualization replacements
 
+Opening review patch: `opening_need_landscape`, song205..282, now requires the
+owner-approved generated aerial plus garden/architecture lights from
+`out/opening_aerial_glimmer_v1/clean.mp4`, source0..77 at24fps. This is a new
+review cut, not an old production shot ID. Its source selection and exact
+snapshot are recorded in `shots/opening_review_decisions.json`. FX baked once,
+no audio or lyrics. Do not use untreated Flow in its place. Full-film merge
+pending; the September7 full review predates this insert.
+
+
+For the newer phrase-contained opening, also read
+[OPENING_REVIEW_ASSEMBLY.md](OPENING_REVIEW_ASSEMBLY.md) and
+shots/opening_review_decisions.json. The owner-approved two-rosette performance
+extension uses revised review timing; do not lose it when merging the opening
+into the older production edit. Review-composite approval is not clean delivery.
+
 This is the handoff between Codex, Claude, and whoever assembles the film.
 Read alongside `shots/assembly_decisions.json` before ingesting or selecting
 clips. The shot list remains the timing authority; this register records

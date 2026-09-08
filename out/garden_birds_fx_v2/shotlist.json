@@ -1,0 +1,35 @@
+{
+  "fps": 24,
+  "duration_sec": 74.41666666666667,
+  "max_shot_sec": 8.0,
+  "shots": [
+    {
+      "id": "garden_birds_fx_audition",
+      "section": "scene-04",
+      "type": "concept",
+      "setup": "forest_fauna_birds",
+      "start_sec": 71.25,
+      "end_sec": 74.41666666666667,
+      "dur_sec": 3.1666666666666665,
+      "frames": 76,
+      "lyric": "And whatever woke is waiting",
+      "description": "Chrome hummingbirds hovering at warm hanging seed lanterns; musical light response.",
+      "prompt": "",
+      "clip": {
+        "file": "out/garden_birds_fx_v2/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "transition": {
+        "type": "cut",
+        "dur_sec": 0.0
+      },
+      "still": "Chrome hummingbirds at seed lanterns. Existing motion plate, not a generation prompt.",
+      "conventions": [
+        "CAM-LOCKED",
+        "ANIM-MOVING-HOLD",
+        "SONIC-MASS-FOLLOWER"
+      ]
+    }
+  ]
+}

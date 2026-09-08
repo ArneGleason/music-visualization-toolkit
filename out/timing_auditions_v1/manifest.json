@@ -1,0 +1,163 @@
+{
+  "production_edl_sha256": "390fcd2289739a050557400f53c0863e159227c43d68510d4be61c2a47f84938",
+  "master_sha256": "cb7467e59de1caffd9db2922c164dd62f426a9ec3b5c7b2e891987df7597bb2e",
+  "fps": 24,
+  "stem_offset_seconds": 0.178348,
+  "cases": [
+    {
+      "name": "01_opening",
+      "song_frames": [
+        143,
+        305
+      ],
+      "variants": [
+        {
+          "letter": "A",
+          "label": "Current source mapping",
+          "changes": [],
+          "file": "out\\timing_auditions_v1\\01_opening_A.mp4"
+        },
+        {
+          "letter": "B",
+          "label": "Stem-clock correction; missing head held for test",
+          "changes": [
+            {
+              "shot_id": "s003",
+              "original_source": "clips\\raw\\astronomer_desk_sync_s003_kling.mp4",
+              "source_sha256": "f28dd6741bd6a6d07229a4416e7fe2a934ced647670807273ae244ef3e529408",
+              "old_in_sec": 0.0,
+              "measured_song_origin_sec": 6.654147999999999,
+              "quantized_song_origin_frame": 160,
+              "desired_source_in_frame": -5,
+              "held_head_frames": 5,
+              "candidate_clip": {
+                "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\timing_auditions_v1\\01_opening_B_s003_headhold.mp4",
+                "in_sec": 0,
+                "speed": 1.0,
+                "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\astronomer_desk_sync_s003_kling.mp4"
+              }
+            }
+          ],
+          "file": "out\\timing_auditions_v1\\01_opening_B.mp4"
+        }
+      ],
+      "comparison": "out\\timing_auditions_v1\\01_opening_comparison.mp4"
+    },
+    {
+      "name": "02_cut43",
+      "song_frames": [
+        3290,
+        3382
+      ],
+      "variants": [
+        {
+          "letter": "A",
+          "label": "Current mapping: old 2.84-second in-point",
+          "changes": [],
+          "file": "out\\timing_auditions_v1\\02_cut43_A.mp4"
+        },
+        {
+          "letter": "B",
+          "label": "Old trim removed only",
+          "changes": [
+            {
+              "shot_id": "s042",
+              "original_source": "clips\\raw\\basin_edge_sync_kling.mp4",
+              "source_sha256": "2a78af6b3bf9363e8d8e1c2809399c7955031d94cabf9f968f20452c54f82a7e",
+              "old_in_sec": 2.84,
+              "measured_song_origin_sec": 137.578,
+              "quantized_song_origin_frame": 3302,
+              "desired_source_in_frame": 0,
+              "held_head_frames": 0,
+              "candidate_clip": {
+                "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\basin_edge_sync_kling_508bdc13af737d8904c6.mp4",
+                "in_sec": 0.0,
+                "speed": 1.0,
+                "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\basin_edge_sync_kling.mp4"
+              }
+            }
+          ],
+          "file": "out\\timing_auditions_v1\\02_cut43_B.mp4"
+        },
+        {
+          "letter": "C",
+          "label": "Old trim removed plus stem-clock correction",
+          "changes": [
+            {
+              "shot_id": "s042",
+              "original_source": "clips\\raw\\basin_edge_sync_kling.mp4",
+              "source_sha256": "2a78af6b3bf9363e8d8e1c2809399c7955031d94cabf9f968f20452c54f82a7e",
+              "old_in_sec": 2.84,
+              "measured_song_origin_sec": 137.756348,
+              "quantized_song_origin_frame": 3306,
+              "desired_source_in_frame": -4,
+              "held_head_frames": 4,
+              "candidate_clip": {
+                "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\timing_auditions_v1\\02_cut43_C_s042_headhold.mp4",
+                "in_sec": 0,
+                "speed": 1.0,
+                "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\basin_edge_sync_kling.mp4"
+              }
+            }
+          ],
+          "file": "out\\timing_auditions_v1\\02_cut43_C.mp4"
+        }
+      ],
+      "comparison": "out\\timing_auditions_v1\\02_cut43_comparison.mp4"
+    },
+    {
+      "name": "03_outro",
+      "song_frames": [
+        4165,
+        4262
+      ],
+      "variants": [
+        {
+          "letter": "A",
+          "label": "Current source mapping",
+          "changes": [],
+          "file": "out\\timing_auditions_v1\\03_outro_A.mp4"
+        },
+        {
+          "letter": "B",
+          "label": "Stem-clock correction; existing head coverage",
+          "changes": [
+            {
+              "shot_id": "o02",
+              "original_source": "clips/outro/A1_kling24.mp4",
+              "source_sha256": "fb43fe7925792bbf3d3abfb0e8a5b5a9713ea829c1c696f26624df1d575e32da",
+              "old_in_sec": 0.5,
+              "measured_song_origin_sec": 173.72001466666666,
+              "quantized_song_origin_frame": 4169,
+              "desired_source_in_frame": 8,
+              "held_head_frames": 0,
+              "candidate_clip": {
+                "file": "clips/outro/A1_kling24.mp4",
+                "in_sec": 0.3333333333333333,
+                "speed": 1.0
+              }
+            },
+            {
+              "shot_id": "o03",
+              "original_source": "clips/outro/B1_kling24.mp4",
+              "source_sha256": "f67e91c99f4fe0a706c800074616f4aeb94b88cb1c9e3abe8a32e41b89a58253",
+              "old_in_sec": 2.79167,
+              "measured_song_origin_sec": 173.72001466666666,
+              "quantized_song_origin_frame": 4169,
+              "desired_source_in_frame": 63,
+              "held_head_frames": 0,
+              "candidate_clip": {
+                "file": "clips/outro/B1_kling24.mp4",
+                "in_sec": 2.625,
+                "speed": 1.0
+              }
+            }
+          ],
+          "file": "out\\timing_auditions_v1\\03_outro_B.mp4"
+        }
+      ],
+      "comparison": "out\\timing_auditions_v1\\03_outro_comparison.mp4"
+    }
+  ],
+  "limits": "Source timing only. Fixed editorial boundaries, lyrics and master. Held heads are diagnostic, not regenerated phonemes or genuine pre-roll."
+}

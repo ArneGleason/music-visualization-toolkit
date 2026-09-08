@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "test_id": "outro_A2_v2",
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "ONE astronomer A2 Flow continuation, base review then ONE Kling if usable. No automatic retries.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 1,
+    "kling_condition": "Base passes bounded visual review below; otherwise return base and stop for owner.",
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "sole woman",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical estimate110 total, check actual UI for each step. No purchases."
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 4320,
+    "song_end_frame_exclusive": 4512,
+    "requested_frames": 192,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_start_seconds": 179.821652,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0
+  },
+  "guide_provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "samples": 384000,
+    "processing": "Fresh continuous eight-second mono48k PCM16 slice. No gating, normalization, trimming gaps or time stretching. Stem placement offset applied once. Contains other speaker as context, NOT speaker-separated."
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "tool_time_counts": true,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "out/outro_A2_v2/first_frame.png",
+      "sha256": "3c0f7c873869bc0d03e85eb32252d07a44d5d5d6e729fbbba2da7b26b1c55bf9"
+    },
+    "continuation_base": {
+      "file": "out/outro_A1_v3/base.mp4",
+      "sha256": "99124a5780cd629cb086e9d362db2e1d78bb5afa2a9d89ca41fc09a428c13767"
+    },
+    "approved_anchor": {
+      "file": "out/outro_anchors_v2/astronomer.png",
+      "sha256": "bb733e52548540403d7b4f3a5d4303999d65a8af71e7ff3317acb9565de1ebab"
+    },
+    "prompt": {
+      "file": "out/outro_A2_v2/flow_prompt.txt",
+      "sha256": "96067b3bdc4b8dae565a31d7fbe5716e4f992d4f752e0a9443a318c6bb7a1adc"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    },
+    "guide": {
+      "file": "out/outro_A2_v2/guide.wav",
+      "sha256": "ce7b1cd73c5ba2adab1f3609b4ed7108ed4e94c855da56c6278913df73043004"
+    },
+    "prompt_take2": {
+      "file": "out/outro_A2_v2/flow_prompt_take2.txt",
+      "sha256": "37748ab8858993f0df12eeb050ba10683d08f88649710e83bfe9c21762f5041f",
+      "note": "owner-authorized edit of flow_prompt.txt; lock byte-identical"
+    }
+  },
+  "visible_cuts": [
+    {
+      "song_frames": [
+        4362,
+        4400
+      ],
+      "source_frames_at_24fps": [
+        42,
+        80
+      ],
+      "phrase": "Thought I heard something."
+    },
+    {
+      "song_frames": [
+        4431,
+        4461
+      ],
+      "source_frames_at_24fps": [
+        111,
+        141
+      ],
+      "phrase": "Was it you?"
+    }
+  ],
+  "continuity": {
+    "anchor_base_frame_at_24fps": 155,
+    "anchor_song_frame": 4320,
+    "inspection": "Same face, wardrobe, stable clear TV and low hands. Mild closed smile; require active articulation in new take. Untreated BASE frame, no Kling or baked TV FX.",
+    "future_A3_anchor_source_frame_at_24fps": 172,
+    "future_A3_song_origin": 4492,
+    "do_not_generate_A3": true,
+    "say_goodnight": "Only beginning is context here. Full line belongs to A3; never stretch or loop A2 to cover it."
+  },
+  "base_gate": {
+    "must_pass": [
+      "same face and brown study wardrobe, not silver suit",
+      "TV geometry and specimen/chart/room remain stable, hands do not obscure screen",
+      "active readable articulation through BOTH main lines, no persistent closed smile or head turned away",
+      "locked continuous shot, no scene reset"
+    ],
+    "tolerate_and_report": [
+      "modest warmth, not grounds for repeated retries",
+      "approximate scratch timing mismatch",
+      "small eye glance or subtle screen-light fluctuation"
+    ],
+    "if_material_failure": "Download and receipt base, set base_needs_owner_review, stop before Kling. No auto retry."
+  },
+  "output": {
+    "base": "out/outro_A2_v2/base.mp4",
+    "synced": "out/outro_A2_v2/synced.mp4",
+    "receipt": "out/outro_A2_v2/RECEIPT.md",
+    "preserve_original_downloads": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "assembly_guard": "Song origin4320, guide offset already applied once. Clock runs while offscreen. Source42..80 and111..141 only, no sliding to scratch speech. Native returned fps retained for Codex timestamp conform. No wipes or pushes, straight cuts planned. TV FX added once locally after review, not generated here.",
+  "completion": "Write RECEIPT.md with originals/copies SHA256, job IDs, settings, actual credits, native fps/decoded frame counts/dimensions/video and audio durations/start times, base gate and both sync windows. Add claude_result, set claude_done_ready_for_codex_verification after both stages; otherwise explicit blocked/base-review status. No A3/B3, FX, retries, assembly edits, commit or push.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T17:30:00Z",
+    "receipt": "out/outro_A2_v2/RECEIPT.md",
+    "input_hashes_ok": true,
+    "start_frame_equals_A1v3_frame155": true,
+    "owner_authorized_retry": "one Flow retry with prompt edit (chat, 2026-09-07); take 1 preserved in take1/",
+    "take1": {
+      "media_id": "9c4966e4-3c3a-4721-b49c-bc16c2830195",
+      "prompt": "flow_prompt.txt",
+      "submitted_utc": "2026-09-07T16:58:22Z",
+      "ready_utc": "2026-09-07T16:59:32Z",
+      "downloaded_utc": "2026-09-07T17:00:15Z",
+      "credits": 100,
+      "original": "out/outro_A2_v2/take1/original_9c4966e4-3c3a-4721-b49c-bc16c2830195.mp4",
+      "base": "out/outro_A2_v2/take1/base.mp4",
+      "sha256": "8836ee224def240a37f4b00daa2770b52c37207142dd61f2c2262bf2864c7007",
+      "receipt": "out/outro_A2_v2/take1/RECEIPT.md",
+      "gate": "FAIL: head turned to TV during line 1; TV flash + baked static; pointing gesture; line 2 pass"
+    },
+    "take2": {
+      "media_id": "d2f6d806-4ddb-4619-bf14-8f7878a6d525",
+      "prompt": "flow_prompt_take2.txt",
+      "prompt_sha256": "37748ab8858993f0df12eeb050ba10683d08f88649710e83bfe9c21762f5041f",
+      "submitted_utc": "2026-09-07T17:07:07Z",
+      "ready_utc": "2026-09-07T17:08:17Z",
+      "downloaded_utc": "2026-09-07T17:09:11Z",
+      "progress_log": [
+        "17:07:37 21%",
+        "17:07:57 38%",
+        "17:08:17 100%"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1 (model menu had reverted to Omni 1.1 Flash; switched back before send)",
+      "credits": 100,
+      "end_frame_used": false,
+      "audio_uploaded": false,
+      "first_frame_diff": 0.82,
+      "watermark": "none"
+    },
+    "flow_credits_total": 200,
+    "base_original": {
+      "file": "out/outro_A2_v2/original_d2f6d806-4ddb-4619-bf14-8f7878a6d525.mp4",
+      "sha256": "e814d46b8fb0e65844998765c893fea3deaf47f9dae68d89a80d5dfcbd5ac956"
+    },
+    "base": {
+      "file": "out/outro_A2_v2/base.mp4",
+      "take": 2,
+      "sha256": "e814d46b8fb0e65844998765c893fea3deaf47f9dae68d89a80d5dfcbd5ac956",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "audio_seconds": 8.0,
+      "stream_starts": 0.0,
+      "audio": "aac 48 kHz stereo (disposable)"
+    },
+    "base_gate": {
+      "face_wardrobe": "pass",
+      "tv_clear_stable": "pass: dark for 8 s, luma 31->28",
+      "hands": "pass: still in lap",
+      "frontal": "pass: fully frontal 8 s",
+      "no_cut_or_reset": "pass",
+      "articulation_line1_42_80": "FAIL: smile with small lip changes 1.75-2.9 s, articulation only from 3.05 s; real line delivered early 0.7-1.3 s",
+      "articulation_line2_111_141": "FAIL: closed-lip smile, no mouth motion; line delivered late 6.5-8.0 s",
+      "passed": false,
+      "owner_override": "owner accepted running Kling on both takes despite gate results"
+    },
+    "base_timing_seconds": {
+      "early_line1": [
+        0.7,
+        1.3
+      ],
+      "smile_in_cut1": [
+        1.75,
+        2.9
+      ],
+      "displaced_articulation": [
+        3.05,
+        3.9
+      ],
+      "listening": [
+        4.0,
+        6.4
+      ],
+      "late_line2_and_goodnight": [
+        6.5,
+        8.0
+      ]
+    },
+    "tv_luma_trace_per_6_frames": [
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28
+    ],
+    "frame_172": "frontal, level, mouth open mid-word, hands low, TV dark",
+    "kling": {
+      "submitted": true,
+      "jobs": 2,
+      "credits": 20,
+      "balance_before": 341,
+      "balance_after": 321,
+      "take2": {
+        "job_id": "325",
+        "download_name": "kling_20260908_Lip_Sync__325_0.mp4",
+        "base": "out/outro_A2_v2/base.mp4",
+        "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav 0:00-0:08 (gaps intact), zero offset, Sound from Video OFF, MP4 Without Watermark",
+        "submitted_utc": "2026-09-07T17:16:19Z",
+        "generated_by_utc": "2026-09-07T17:19:31Z",
+        "download_clicked_utc": "2026-09-07T17:20:43Z",
+        "filed_utc": "2026-09-07T17:21:04Z"
+      },
+      "take1": {
+        "job_id": "321",
+        "download_name": "kling_20260908_Lip_Sync__321_0.mp4",
+        "base": "out/outro_A2_v2/take1/base.mp4",
+        "settings": "same, zero offset; submitted in parallel on a fresh page while job 325 ran",
+        "submitted_utc": "2026-09-07T17:19:01Z",
+        "generated_utc": "2026-09-07T17:22:16Z",
+        "download_clicked_utc": "2026-09-07T17:22:33Z",
+        "filed_utc": "2026-09-07T17:23:04Z"
+      }
+    },
+    "sheets": [
+      "contact_every6.jpg",
+      "crop_face_every2.jpg",
+      "crop_face_cut1_every2.jpg",
+      "crop_face_cut2_every2.jpg",
+      "crop_tv_every8.jpg",
+      "crop_hands_every12.jpg",
+      "keyframes_0_42_79_111_140_155_172_191.jpg",
+      "mouth_synced_cut1_src1.67-3.4s_native30.jpg",
+      "mouth_synced_cut2_src4.53-5.93s_native30.jpg",
+      "contact_synced_every10_native.jpg",
+      "take1/mouth_synced_cut1_src1.67-3.4s_native30.jpg",
+      "take1/mouth_synced_cut2_src4.53-5.93s_native30.jpg",
+      "take1/contact_synced_every10_native.jpg"
+    ],
+    "owner_options": [
+      "Kling on take 2 (clean TV, frontal; risk of under-articulation over closed smile, line 1 guide quiet)",
+      "Kling on take 1 for comparison (line 2 frontal+articulated; head turn and baked static)",
+      "both Kling passes (20 credits) then pick per cut",
+      "third Flow"
+    ],
+    "not_done": [
+      "no third Flow",
+      "no further Kling",
+      "no A3/B3",
+      "no assembly",
+      "no FX",
+      "no production edits",
+      "no commit",
+      "no purchase"
+    ],
+    "owner_authorized_kling_on_both": "owner authorized Kling on take 1 and take 2 for per-cut comparison (chat, 2026-09-07); zero guide offset kept on both",
+    "creative_note": {
+      "offset_considered": "owner invited a creative lip-sync offset for take 1; checked natural alignment: something (2.8-3.25 s) already lands while her finger is on the TV (2.5-3.3 s), so ZERO offset kept; manifest clock unchanged (source 0 = song 4320)",
+      "beat": "TV switches on (flash 0.85-1.0 s, then static) while A2 is offscreen during B No go on (A2 source 0.46-1.75 s); on the cut back at source 42 she reacts, turns, points at something, returns frontal for Was it you",
+      "overlay_suggestion": "punctuation graphic on the TV glass at source 2.5-3.3 s (song 4380-4399); baked static as the switched-on texture under it",
+      "a3_anchor_if_take1": "take 1 base frame 172 (TV static on), not take 2 frame 172"
+    },
+    "synced_original": {
+      "file": "out/outro_A2_v2/original_kling_325.mp4",
+      "sha256": "67f343cff2e78837e8150c4494608575e178c61fa91ad734c0de04f31da3b618"
+    },
+    "synced": {
+      "file": "out/outro_A2_v2/synced.mp4",
+      "take": 2,
+      "job_id": "325",
+      "sha256": "67f343cff2e78837e8150c4494608575e178c61fa91ad734c0de04f31da3b618",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false,
+      "remux_made": false
+    },
+    "take1_synced_original": {
+      "file": "out/outro_A2_v2/take1/original_kling_321.mp4",
+      "sha256": "50f8dac28f5a9fdf98108e49077b98985027873229627d39e6df8a13cc01ecf8"
+    },
+    "take1_synced": {
+      "file": "out/outro_A2_v2/take1/synced.mp4",
+      "take": 1,
+      "job_id": "321",
+      "sha256": "50f8dac28f5a9fdf98108e49077b98985027873229627d39e6df8a13cc01ecf8",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false,
+      "remux_made": false
+    },
+    "audio_alignment": {
+      "take2_corr_lag0": 1.0,
+      "take1_corr_lag0": 1.0,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": {
+      "take2": "only mouth changed (mouth 4.4/max 10.5); TV dark, hands/desk unchanged",
+      "take1": "only mouth changed (mouth 4.2/max 10.1); TV/hands maxima are the base flash and point, not Kling"
+    },
+    "sync_checks": {
+      "take2_line1_42_80": "weak: small lip changes over smile 1.67-2.5, closed 2.5-2.85, open shapes 2.9-3.4 (something late)",
+      "take2_line2_111_141": "FAIL: teeth smile 4.8-5.2, closed smile 5.27-5.8; Was it you does not read",
+      "take1_line1_42_80": "articulated 1.67-3.1 while turned three-quarter to TV, frontal 3.13-3.4; finger on screen 2.5-3.3 under something",
+      "take1_line2_111_141": "strong: frontal open vowels 5.27-5.8 with teeth"
+    },
+    "per_cut_suggestion": {
+      "line1": "take 1 (job 321) with TV overlay at 2.5-3.3 s",
+      "line2": "take 1 (job 321)",
+      "tv_continuity": "both cuts from take 1 keep the static continuous; A3 anchor = take 1 base frame 172"
+    },
+    "credits_total": {
+      "flow": 200,
+      "kling": 20
+    }
+  }
+}

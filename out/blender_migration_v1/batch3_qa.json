@@ -1,0 +1,58 @@
+[
+  {
+    "family": "birds",
+    "frames_checked": 76,
+    "max_frame_mae": 0.5765010127314815,
+    "max_p99": 8.0,
+    "resolution_samples": 3
+  },
+  {
+    "family": "guide",
+    "frames_checked": 60,
+    "max_frame_mae": 0.19195167824074075,
+    "max_p99": 1.0,
+    "resolution_samples": 3
+  },
+  {
+    "family": "bloom",
+    "frames_checked": 68,
+    "max_frame_mae": 0.47287543402777776,
+    "max_p99": 3.0,
+    "resolution_samples": 3
+  },
+  {
+    "family": "pressure",
+    "frames_checked": 69,
+    "max_frame_mae": 0.2604210069444444,
+    "max_p99": 5.0,
+    "resolution_samples": 3
+  },
+  {
+    "family": "swim043",
+    "frames_checked": 116,
+    "max_frame_mae": 0.49832899305555556,
+    "max_p99": 8.0,
+    "resolution_samples": 3
+  },
+  {
+    "family": "swim044",
+    "frames_checked": 67,
+    "max_frame_mae": 0.19259367766203703,
+    "max_p99": 1.0,
+    "resolution_samples": 3
+  },
+  {
+    "family": "swim047",
+    "frames_checked": 68,
+    "max_frame_mae": 0.47777235243055555,
+    "max_p99": 8.0,
+    "resolution_samples": 3
+  },
+  {
+    "family": "tunnel",
+    "frames_checked": 57,
+    "max_frame_mae": 6.6706329571759255,
+    "max_p99": 39.0,
+    "resolution_samples": 3
+  }
+]

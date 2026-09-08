@@ -1,0 +1,53 @@
+{
+  "status": "verified_candidates_owner_review_pending",
+  "checks": [
+    {
+      "id": "wide",
+      "sha256": "29be3d520d057b098cd9ec2f621ce15717d852c75fa93461d5184f2c34cfb874",
+      "probe": {
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "start_time": "0.000000",
+        "nb_frames": "192"
+      },
+      "decoded_frames": 192
+    },
+    {
+      "id": "close",
+      "sha256": "510d47b9198a99cd3fddd48b34eaf498f9f98c32d2c0ee42a8144d400e754347",
+      "probe": {
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "start_time": "0.000000",
+        "nb_frames": "192"
+      },
+      "decoded_frames": 192
+    }
+  ],
+  "preview_song_frames": [
+    2330,
+    2484
+  ],
+  "shop_song_frames": [
+    2399,
+    2484
+  ],
+  "wide_origin_frame": 2387,
+  "close_origin_frame": 2425,
+  "close_lyric_source_frames": [
+    12,
+    59
+  ],
+  "push_song_frames": [
+    2425,
+    2437
+  ],
+  "close_blend_song_frames": [
+    2434,
+    2437
+  ],
+  "lip_sync_applied": false,
+  "production_merged": false
+}

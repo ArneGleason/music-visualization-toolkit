@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "test_id": "garden_eyes_motion_v1",
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "status": "codex_verified_ready_for_owner_review",
+  "task": "One fresh clean motion plate of the approved dark garden fauna. No Kling. Codex will reapply accepted particle/light FX at revised lyric timing.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "model": "Veo 3.1 Quality",
+    "mode": "Frames",
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "duration_seconds": 8,
+    "outputs": 1,
+    "expected_credits": 100,
+    "stop_if_unavailable_or_cost_exceeds_expected": true
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "codex/out/forest_fauna_eyes_a.jpg",
+      "sha256": "A37ECA9B1095B798E1C9B4591073516680C998E02E5C162BAE88458D8F55CBFE"
+    },
+    "prompt": {
+      "file": "out/garden_eyes_motion_v1/flow_prompt.txt"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6DB3E45D5777CB22AE1EE7DA18B8BDE8498CAAFFB8D96E8536F3414DEA260496"
+    }
+  },
+  "clock": {
+    "fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 1557,
+    "requested_source_frames": 192,
+    "no_audio_upload": true
+  },
+  "proposed_cut": {
+    "shot_id": "s019",
+    "setup": "forest_fauna_eyes",
+    "song_frames": [
+      1569,
+      1650
+    ],
+    "source_frames_after_timestamp_conform": [
+      12,
+      93
+    ],
+    "duration_frames": 81,
+    "lead_handle_frames": 12,
+    "requested_exit_handle_frames": 99,
+    "status": "lyric-contained review proposal; production still has old timing"
+  },
+  "phrase": {
+    "text": "Something with no name is waking",
+    "song_frames": [
+      1569,
+      1650
+    ]
+  },
+  "output": {
+    "base": "out/garden_eyes_motion_v1/base.mp4",
+    "receipt": "out/garden_eyes_motion_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true,
+    "tool_time_counts": true
+  },
+  "assembly_guard": "Keep protected still-based FX selection until a moving composite is verified and approved. Generated base alone must never automatically replace it. Rebuild particle/light timing from song1569..1650, do not shift the old1527..1595 baked pass. Re-evaluate eye masks and foliage occlusion against actual creature motion. Render clean effects separately; retain originals. Do not claim final 1080p readiness from this720p take.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T14:40:00Z",
+    "receipt": "out/garden_eyes_motion_v1/RECEIPT.md",
+    "base": {
+      "file": "out/garden_eyes_motion_v1/base.mp4",
+      "sha256": "7DFD214C4608C4E7B91739C93AA3E4B02294A531AA2D393F8BDA14E3108E3B17",
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "flow_media_id": "c824584b-78d2-4ff3-b14c-7aba5d80af73",
+      "flow_submitted_utc": "2026-09-06T14:30:21Z",
+      "flow_ready_utc": "2026-09-06T14:31:39Z",
+      "flow_downloaded_utc": "2026-09-06T14:32:36Z",
+      "progress_log": [
+        "14:30:31 5%",
+        "14:31:03 32%",
+        "14:31:21 45%",
+        "14:31:39 done"
+      ],
+      "credits": 100,
+      "end_frame_used": false,
+      "first_frame_diff_vs_still": 1.7,
+      "watermark": "none"
+    },
+    "camera": "locked; no drift, zoom, cut or transition",
+    "usable_intervals": {
+      "clean": [
+        0,
+        82
+      ],
+      "with_amber_exit": [
+        82,
+        93
+      ],
+      "not_recommended": [
+        93,
+        192
+      ]
+    },
+    "proposed_window_verdict": "[12,93) usable with caveat: amber-eyed creature walks out of frame left from ~frame 82 and reads as an edge blob at frames 88-92",
+    "late_handle_verdict": "unsuitable: amber pair absent after 4 s, pink pair migrates, new white/violet eye pairs appear from ~5.5 s",
+    "living_action_0.5_3.875": "yes: staggered head tilts/turns, weight shifts, one amber blink ~1.5-1.7 s, layered foliage sway; eyes attached to stable heads; no exposed bodies, teeth, particles or flashes",
+    "sheets": [
+      "contact_every6.jpg",
+      "contact_every6_brightened.jpg",
+      "contact_0.5-3.9s_every4_brightened.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no audio",
+      "no retry",
+      "no assembly",
+      "no cue/shotlist edits",
+      "no commit",
+      "no owner approval claimed"
+    ]
+  },
+  "codex_result": {
+    "hash_verified": true,
+    "preview": "out/garden_eyes_motion_review/preview.mp4",
+    "source_frames": [
+      0,
+      81
+    ],
+    "song_frames": [
+      1569,
+      1650
+    ],
+    "revised_visual_source_origin": 1569,
+    "lead_handle_frames": 0,
+    "reason": "No lip sync; earlier visual in-point avoids late amber exit without shortening lyric or retiming video.",
+    "fx_status": "Base-motion audition only, particles not yet rebuilt; protected static production selection unchanged.",
+    "handles": "At most one extra frame before reported clean cutoff82; later footage unsuitable. Do not claim requested99 clean exit frames.",
+    "owner_approval": "pending"
+  }
+}

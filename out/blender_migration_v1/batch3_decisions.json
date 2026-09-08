@@ -1,0 +1,95 @@
+{
+  "s010": {
+    "id": "receiver-light-response",
+    "shot_id": "s010",
+    "setup": "receiver_dial_macro",
+    "decision": "prefer_music_fx_composite_over_untreated_video",
+    "approval": "owner_approved_treatment",
+    "delivery_status": "delivery_ready",
+    "delivery_file": "out/blender_migration_v1/receiver/native_clean.mp4",
+    "fx_type": "FX-02",
+    "timing_snapshot": {
+      "fps": 24,
+      "song_start_frame": 805,
+      "song_end_frame_exclusive": 856,
+      "source_in_frame": 0,
+      "source_out_frame_exclusive": 51
+    },
+    "notes": "Isolated native-migration review. Original treatment approved; new render awaits contextual owner review. Not a production register update."
+  },
+  "s044": {
+    "id": "swimmer-surface-violet",
+    "shot_id": "s044",
+    "setup": "merfolk_surface_ring",
+    "decision": "prefer_music_fx_composite_over_untreated_video",
+    "approval": "owner_approved_treatment",
+    "delivery_status": "delivery_ready",
+    "delivery_file": "out/blender_migration_v1/swim044/native_clean.mp4",
+    "fx_type": "FX-02",
+    "timing_snapshot": {
+      "fps": 24,
+      "song_start_frame": 3438,
+      "song_end_frame_exclusive": 3505,
+      "source_in_frame": 0,
+      "source_out_frame_exclusive": 67
+    },
+    "notes": "Isolated native migration review, not production promotion."
+  },
+  "s047": {
+    "id": "swimmer-return-violet",
+    "shot_id": "s047",
+    "setup": "basin_kaleidoscope_top",
+    "decision": "prefer_music_fx_composite_over_untreated_video",
+    "approval": "owner_approved_treatment",
+    "delivery_status": "delivery_ready",
+    "delivery_file": "out/blender_migration_v1/swim047/native_clean.mp4",
+    "fx_type": "FX-02",
+    "timing_snapshot": {
+      "fps": 24,
+      "song_start_frame": 3642,
+      "song_end_frame_exclusive": 3710,
+      "source_in_frame": 0,
+      "source_out_frame_exclusive": 68
+    },
+    "notes": "Isolated native migration review, not production promotion."
+  },
+  "o01": {
+    "id": "tunnel-amber-cyan-arrivals",
+    "shot_id": "o01",
+    "setup": "telescope_time_tunnel",
+    "decision": "prefer_music_fx_composite_over_untreated_video",
+    "approval": "owner_approved_treatment",
+    "delivery_status": "delivery_ready",
+    "delivery_file": "out/blender_migration_v1/tunnel/native_clean.mp4",
+    "fx_type": "FX-04",
+    "approved_review": "out/tunnel_arrival_amber_cyan/tunnel_arrivals.mp4",
+    "source_video": "clips/raw/telescope_time_tunnel_v6.mp4",
+    "renderer": "tools/tunnel_arrival_pilot.py",
+    "renderer_args": [
+      "--two-color",
+      "--shot",
+      "o01"
+    ],
+    "timing_snapshot": {
+      "fps": 24,
+      "song_start_frame": 4120,
+      "song_end_frame_exclusive": 4177,
+      "source_in_frame": 0,
+      "source_out_frame_exclusive": 57,
+      "review_frame_count": 57,
+      "review_song_end_frame_exclusive": 4177,
+      "lead_handle_frames": 0,
+      "exit_handle_frames": 0
+    },
+    "assembly_requirements": [
+      "Apply this approved FX treatment to o01, migrated from retired s056 during outro reconciliation.",
+      "57-frame full-cut rough delivery is freshly driven by audio at frames 4120..4177, not a retimed old preview.",
+      "Review in the rough; authored centre and lack of spoke occlusion remain candidate-final limitations.",
+      "Preserve alternating amber/cyan arrivals, half-second anticipation, 10x waveform displacement and strong depth bloom.",
+      "Render a clean silent full-shot composite, validate exact frame coverage, then set delivery_file and delivery_status.",
+      "Use master soundtrack once; preserve original motion footage as the underlying source and spare.",
+      "No silent untreated fallback while delivery is pending. Revalidate if timing or source changes."
+    ],
+    "notes": "Isolated native migration review, not production promotion."
+  }
+}

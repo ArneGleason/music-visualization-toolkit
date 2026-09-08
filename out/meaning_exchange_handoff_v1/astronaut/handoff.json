@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "test_id": "meaning_exchange_v1_astronaut",
+  "status": "claude_done_ready_for_codex_verification",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "task": "One new Flow singing plate, then one Kling sync if the plate passes usability checks.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "sole real woman",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical expectations only; verify actual UI. No purchases or auto-retries."
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "codex/out/astronaut_close_sync_a.jpg",
+      "sha256": "85c55dc768ec12bf041ab194749412a25f127926c68b64f80c9d8e38bba7bf34"
+    },
+    "prompt": {
+      "file": "out/meaning_exchange_handoff_v1/astronaut/flow_prompt.txt",
+      "sha256": "81353fb6ed83a3235929cfe4b7ea791d4b4d16f93237a7e85baa0c8283339845"
+    },
+    "lock": {
+      "file": "out/meaning_exchange_handoff_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    },
+    "guide": {
+      "file": "out/meaning_exchange_handoff_v1/astronaut/guide.wav",
+      "sha256": "45f12a4cd10b1961a436600b502ae9482e73a5d090605efd1fc44470fc9adc75"
+    }
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 2646,
+    "song_origin_seconds": 110.25,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 110.071652,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0,
+    "source_duration_frames": 192
+  },
+  "cut": {
+    "visible_song_frames": [
+      2658,
+      2826
+    ],
+    "visible_source_frames_at_24fps": [
+      12,
+      180
+    ],
+    "lead_handle_frames": 12,
+    "exit_handle_frames": 12,
+    "speed": 1,
+    "panel_push_song_frames": [
+      2786,
+      2826
+    ],
+    "overlap_is_intentional": true
+  },
+  "camera": "Gentle axial pullback from close first frame,15-20percent smaller head by source6seconds.",
+  "quality_gate_before_kling": "Review full base for actual singing, full phrase coverage through source7.5, natural teeth, visible face, stable identity and gentle pullback. If silent, clamped-mouth, missing phrase, identity/prop failure, or unusable camera move, stop and report base only; no automatic Flow retry or Kling spend.",
+  "output": {
+    "base": "out/meaning_exchange_handoff_v1/astronaut/base.mp4",
+    "synced": "out/meaning_exchange_handoff_v1/astronaut/synced.mp4",
+    "receipt": "out/meaning_exchange_handoff_v1/astronaut/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "tool_time_counts": true,
+    "respect_rate_limits": true
+  },
+  "completion": "Save untouched original downloads and byte-identical base/synced copies. Record hashes, native fps, dimensions, frames, stream start times/durations, settings, job IDs, actual credits and visual defects. Add claude_result and set status=claude_done_ready_for_codex_verification. Partial failure stays explicit. No assembly, grading, FX, crop, commit or approval claim.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T00:05:00Z",
+    "receipt": "out/meaning_exchange_handoff_v1/astronaut/RECEIPT.md",
+    "input_hashes_ok": true,
+    "flow": {
+      "media_id": "7e0e9828-69a6-497a-9c73-d5240c3e008f",
+      "submitted_utc": "2026-09-06T23:43:20Z",
+      "ready_utc": "2026-09-06T23:44:41Z",
+      "downloaded_utc": "2026-09-06T23:45:54Z",
+      "progress_log": [
+        "23:43:28 3%",
+        "~23:44:05 34%",
+        "~23:44:15 46%",
+        "23:44:41 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "start_thumbnail_id": "bc55d662",
+      "end_frame_used": false,
+      "first_frame_diff": 1.0
+    },
+    "original": {
+      "file": "out/meaning_exchange_handoff_v1/astronaut/original_7e0e9828-69a6-497a-9c73-d5240c3e008f.mp4",
+      "sha256": "b01df54224cb31b090cfd3f0691bd7345509415374019b466a6965a51ae57d05"
+    },
+    "base": {
+      "file": "out/meaning_exchange_handoff_v1/astronaut/base.mp4",
+      "sha256": "b01df54224cb31b090cfd3f0691bd7345509415374019b466a6965a51ae57d05",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "stream_start": 0.0,
+      "watermark": "none"
+    },
+    "synced": null,
+    "kling": {
+      "submitted": false,
+      "reason": "quality gate prop failure: invented chest dials on the plain suit from ~2 s",
+      "credits": 0
+    },
+    "camera": "gentle axial pullback, head ~13% smaller by 6-7 s, no pan/cut",
+    "mouth_coverage": {
+      "singing": [
+        [
+          0.0,
+          0.6
+        ],
+        [
+          1.5,
+          3.7
+        ],
+        [
+          4.0,
+          8.0
+        ]
+      ],
+      "closed_smile_gap": [
+        1.0,
+        1.4
+      ],
+      "side_turn_reduced_visibility": [
+        4.0,
+        5.5
+      ]
+    },
+    "gesture": "open-palm offer toward screen right 4.3-5.3 s, hand to chest 7.0-8.0 s",
+    "gaze": "screen right ~4.0 s, screen left 4.0-5.5 s, lens after 5.5 s",
+    "defects": [
+      "two circular dial/badge controls appear on the suit chest from ~2 s (invented prop, gate failure)",
+      "closed-lip smile 1.0-1.4 s",
+      "3/4 profile turn 4.0-5.5 s reduces mouth visibility"
+    ],
+    "quality_gate": {
+      "singing": "pass",
+      "coverage_through_7.5s": "pass",
+      "teeth": "pass",
+      "face_visible": "pass (side turn 4.0-5.5 s)",
+      "identity": "pass",
+      "pullback": "pass",
+      "props": "FAIL"
+    },
+    "sheets": [
+      "contact_every6.jpg",
+      "crop_mouth_every2.jpg",
+      "frames_every8_half.jpg",
+      "crop_chest_every24.jpg"
+    ],
+    "not_done": [
+      "no Kling (withheld)",
+      "no Flow retry",
+      "no assembly",
+      "no FX",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ],
+    "take2": {
+      "owner_authorized_redo": true,
+      "prompt": "same verbatim flow_prompt.txt",
+      "flow": {
+        "media_id": "722a33f1-144a-4d4d-9dad-4f1581a56f99",
+        "submitted_utc": "2026-09-06T23:52:57Z",
+        "ready_utc": "2026-09-06T23:54:21Z",
+        "downloaded_utc": "2026-09-06T23:55:03Z",
+        "progress_log": [
+          "23:53:27 21%",
+          "23:54:01 50%",
+          "23:54:21 rendered"
+        ],
+        "credits": 100,
+        "first_frame_diff": 1.0
+      },
+      "original": {
+        "file": "out/meaning_exchange_handoff_v1/astronaut/take2/original_722a33f1-144a-4d4d-9dad-4f1581a56f99.mp4",
+        "sha256": "1f05dd2859e1b52143849ee5fa7c8fba307561aabbd6ff777f51bd316f10b848"
+      },
+      "base": {
+        "file": "out/meaning_exchange_handoff_v1/astronaut/take2/base.mp4",
+        "sha256": "1f05dd2859e1b52143849ee5fa7c8fba307561aabbd6ff777f51bd316f10b848",
+        "fps": 24,
+        "frames": 192,
+        "width": 1280,
+        "height": 720,
+        "video_seconds": 8.0
+      },
+      "camera": "gentle axial pullback, torso revealed by ~4 s",
+      "mouth_coverage": {
+        "closed_smile_gap": [
+          0.2,
+          0.9
+        ],
+        "singing": [
+          1.0,
+          8.0
+        ],
+        "side_turn": [
+          4.0,
+          5.5
+        ]
+      },
+      "gesture": "open-palm offer toward screen right 4.3-5.5 s",
+      "defects": [
+        "one red circular dial appears on the screen-left chest from ~4 s (invented prop, gate failure)",
+        "closed-lip smile 0.2-0.9 s",
+        "3/4 turn 4.0-5.5 s"
+      ],
+      "quality_gate": {
+        "props": "FAIL",
+        "others": "pass"
+      },
+      "kling": {
+        "submitted": false,
+        "credits": 0
+      },
+      "sheets": [
+        "take2/contact_every6.jpg",
+        "take2/crop_mouth_every2.jpg",
+        "take2/frames_every8_half.jpg",
+        "take2/crop_chest_every24.jpg"
+      ]
+    },
+    "flow_credits_total": 300,
+    "recommendation": "add an explicit smooth-unadorned-chest line to the prompt before any third attempt; or accept/paint out the dial",
+    "take3": {
+      "owner_authorized_prompt_tweak": true,
+      "prompt_file": "out/meaning_exchange_handoff_v1/astronaut/flow_prompt_take3.txt",
+      "prompt_sha256": "26e442cba69ed8801ad3aa48bbe2d746d1657a8c1cbf1a49f218924181386427",
+      "prompt_change": "one COSTUME LOCK sentence group inserted after the first paragraph; lock and all other text unchanged",
+      "flow": {
+        "media_id": "c85207a8-db31-4003-8d54-5e9edb0a2273",
+        "submitted_utc": "2026-09-06T23:59:15Z",
+        "ready_utc": "2026-09-07T00:00:39Z",
+        "downloaded_utc": "2026-09-07T00:01:19Z",
+        "progress_log": [
+          "23:59:45 21%",
+          "00:00:19 49%",
+          "00:00:39 rendered"
+        ],
+        "credits": 100,
+        "first_frame_diff": 1.1,
+        "start_thumbnail_id": "bc55d662",
+        "end_frame_used": false
+      },
+      "original": {
+        "file": "out/meaning_exchange_handoff_v1/astronaut/take3/original_c85207a8-db31-4003-8d54-5e9edb0a2273.mp4",
+        "sha256": "63f5ab558446e7919e1dee7f9c60916cde2337ec12f627be4ba34d2cd4e3e8bc"
+      },
+      "base": {
+        "file": "out/meaning_exchange_handoff_v1/astronaut/take3/base.mp4",
+        "sha256": "63f5ab558446e7919e1dee7f9c60916cde2337ec12f627be4ba34d2cd4e3e8bc",
+        "fps": 24,
+        "frames": 192,
+        "width": 1280,
+        "height": 720,
+        "video_seconds": 8.0,
+        "stream_start": 0.0
+      },
+      "camera": "axial pullback, torso by ~3-4 s, ~25% wider by the end; no pan/cut",
+      "costume": "plain silver chest all 8 s (no dials)",
+      "mouth_coverage_base": {
+        "singing": [
+          [
+            0.0,
+            0.3
+          ],
+          [
+            1.0,
+            8.0
+          ]
+        ],
+        "closed_smile": [
+          0.3,
+          0.9
+        ],
+        "side_turn": [
+          3.0,
+          5.9
+        ]
+      },
+      "gesture": "open-palm offer toward screen right 4.3-5.5 s",
+      "quality_gate": {
+        "singing": "pass",
+        "coverage_through_7.5s": "pass",
+        "teeth": "pass",
+        "face_visible": "pass (3/4 profile 3.0-5.9 s)",
+        "identity": "pass",
+        "pullback": "pass",
+        "props": "pass"
+      },
+      "kling": {
+        "submitted": true,
+        "job_id": "2052",
+        "download_name": "kling_20260907_Lip_Sync__2052_0.mp4",
+        "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav at 0:00-0:08, Sound from Video OFF, MP4 Without Watermark",
+        "credits": 10,
+        "balance_readings": {
+          "before": 406,
+          "after": 411,
+          "note": "account appears to have been credited between readings"
+        },
+        "submitted_utc": "2026-09-07T00:03:13Z",
+        "generated_utc": "2026-09-07T00:06:41Z",
+        "download_clicked_utc": "2026-09-07T00:07:47Z",
+        "filed_utc": "2026-09-07T00:08:29Z"
+      },
+      "synced_original": {
+        "file": "out/meaning_exchange_handoff_v1/astronaut/take3/original_kling_2052.mp4",
+        "sha256": "66ccdb53e129368d36fe200b067f54b2feff9e8fed430d7ed302272c2b806e76"
+      },
+      "synced": {
+        "file": "out/meaning_exchange_handoff_v1/astronaut/take3/synced.mp4",
+        "sha256": "66ccdb53e129368d36fe200b067f54b2feff9e8fed430d7ed302272c2b806e76",
+        "fps_native": 30,
+        "frames": 239,
+        "width": 1280,
+        "height": 720,
+        "video_seconds": 7.966667,
+        "audio_seconds": 7.895011,
+        "stream_starts": 0.0,
+        "watermark": "none",
+        "retimed": false,
+        "trimmed": false
+      },
+      "audio_alignment": {
+        "corr_vs_guide_lag0": 1.0,
+        "best_lag_seconds": 0.0
+      },
+      "picture_integrity": "only mouth/jaw re-rendered; background/costume/camera identical to take-3 base",
+      "mouth_coverage_synced": {
+        "articulated": [
+          [
+            0.13,
+            1.2
+          ],
+          [
+            1.6,
+            1.93
+          ],
+          [
+            2.4,
+            3.13
+          ],
+          [
+            3.2,
+            3.93
+          ],
+          [
+            4.4,
+            5.2
+          ],
+          [
+            5.6,
+            7.93
+          ]
+        ],
+        "closed_gaps_during_voiced_guide": [
+          [
+            1.27,
+            1.55
+          ],
+          [
+            2.0,
+            2.35
+          ]
+        ],
+        "side_turn": [
+          3.0,
+          5.9
+        ]
+      },
+      "defects": [
+        "closed-lip stretches 1.27-1.55 and 2.0-2.35 s during voiced guide",
+        "3/4 profile 3.0-5.9 s reduces mouth visibility",
+        "pullback slightly larger than asked by the end"
+      ],
+      "sheets": [
+        "take3/contact_every6.jpg",
+        "take3/crop_mouth_every2.jpg",
+        "take3/frames_every8_half.jpg",
+        "take3/crop_chest_every24.jpg",
+        "take3/mouth_synced_native30_every2.jpg",
+        "take3/contact_synced_every10_native.jpg"
+      ]
+    },
+    "candidate": {
+      "base": "out/meaning_exchange_handoff_v1/astronaut/take3/base.mp4",
+      "synced": "out/meaning_exchange_handoff_v1/astronaut/take3/synced.mp4",
+      "rejected_takes": [
+        "take 1 (astronaut/base.mp4): two chest dials",
+        "take 2 (astronaut/take2/base.mp4): one chest dial"
+      ]
+    },
+    "kling_credits_total": 10
+  }
+}

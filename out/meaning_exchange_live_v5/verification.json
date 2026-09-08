@@ -1,0 +1,40 @@
+{
+  "astronaut": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "duration": "7.966667",
+    "nb_frames": "239"
+  },
+  "astronomer": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "24/1",
+    "duration": "8.000000",
+    "nb_frames": "192"
+  },
+  "guide_correlation_zero_lag": 0.9998294883952078,
+  "status": "verified return; combined preview pending owner review",
+  "astronaut_song_origin": 2646,
+  "astronaut_visible": [
+    2658,
+    2826
+  ],
+  "astronaut_source": [
+    12,
+    180
+  ],
+  "astronomer_song_origin": 2774,
+  "astronomer_visible": [
+    2786,
+    2881
+  ],
+  "astronomer_source": [
+    12,
+    107
+  ],
+  "preview": [
+    2620,
+    2881
+  ]
+}

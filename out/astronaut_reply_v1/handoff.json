@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "authorization": {
+    "current_action": "one_flow_base_then_one_kling_sync",
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "Character 1",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_model_unavailable_or_cost_exceeds_expected": true
+  },
+  "assembly": {
+    "owner": "Codex after download",
+    "timestamp_conform_not_fps_reinterpret": true,
+    "production_assignment_requires_review": true
+  },
+  "test_id": "astronaut_reply_v1",
+  "status": "codex_verified_ready_for_owner_review",
+  "task": "One new astronaut singing base then one Kling pass; no later shots.",
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 899,
+    "song_origin_seconds": 37.458333333333336,
+    "requested_take_seconds": 8,
+    "requested_take_frames": 192,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 37.279985333333336,
+    "guide_already_aligned": true,
+    "guide_upload_start_seconds": 0,
+    "additional_audio_offset_seconds": 0
+  },
+  "cut": {
+    "shot_id": "s012",
+    "song_start_frame": 911,
+    "song_end_frame_exclusive": 1030,
+    "source_in_frame_at_24fps": 12,
+    "source_out_frame_exclusive_at_24fps": 131,
+    "duration_frames": 119,
+    "speed": 1
+  },
+  "phrases": [
+    {
+      "text": "I don't see anything.",
+      "song_frames": [
+        920,
+        971
+      ],
+      "source_seconds": [
+        0.875,
+        3.0
+      ],
+      "use": "visible"
+    },
+    {
+      "text": "Think you forgot to attach it.",
+      "song_frames": [
+        971,
+        1030
+      ],
+      "source_seconds": [
+        3.0,
+        5.458333333333333
+      ],
+      "use": "visible"
+    },
+    {
+      "text": "If you've got it, give it.",
+      "song_frames": [
+        1030,
+        1082
+      ],
+      "source_seconds": [
+        5.458333333333333,
+        7.625
+      ],
+      "use": "spare continuation only; next planned shot remains separate"
+    }
+  ],
+  "inputs": {
+    "first_frame": {
+      "file": "codex/out/astronaut_close_sync_a.jpg",
+      "sha256": "85C55DC768EC12BF041AB194749412A25F127926C68B64F80C9D8E38BBA7BF34"
+    },
+    "guide": {
+      "file": "out/astronaut_reply_v1/guide.wav",
+      "sha256": "49DDFA2494EC1ADFAFCD12C5303623CFFB742386E8957C79D9A1B5C276051E5C",
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples": 384000
+    },
+    "prompt": {
+      "file": "out/astronaut_reply_v1/flow_prompt.txt",
+      "sha256": "255D81717C834629F204A9F3CB4E788E82FDF465F7B113552CB1B541654E1EB7"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6DB3E45D5777CB22AE1EE7DA18B8BDE8498CAAFFB8D96E8536F3414DEA260496"
+    }
+  },
+  "guide_provenance": {
+    "source": "C:/Users/arneg/OneDrive/Documents/Bitwig Studio/Projects/RiversOnMars/samples/Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "source_sha256": "BEEDD740882CE6E8D5A0D85A7AEA2E83EF36368BD932B66FD44C22216D06E68E",
+    "opening_guide_correlation": 0.9999999999999999,
+    "processing": "Uninterrupted eight-second mono48k PCM16 extraction. No gates, normalization, removed silence or extra offset."
+  },
+  "output": {
+    "base": "out/astronaut_reply_v1/base.mp4",
+    "synced": "out/astronaut_reply_v1/synced.mp4",
+    "receipt": "out/astronaut_reply_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "coverage_guard": "Visible picture must cover through source131/24=5.458333s. Preserve full actual returned duration including real lead and tail. No held-head padding.",
+  "assembly_caveat": "Prior assembly ends911; new cut911..1030. Do not use old s012 cut912..1047 or old guide origin. Latest preferred receiver is out/receiver_voice_review. No production edits.",
+  "polling": {
+    "applies_to": [
+      "Flow",
+      "Kling"
+    ],
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "near_completion_threshold_percent": 90,
+    "near_completion_interval_seconds": 10,
+    "maximum_routine_interval_seconds": 30,
+    "progress_estimate": "With increasing percent, estimate remaining=(100-current)/(percent gain/elapsed seconds). Next check=max(10,min(20,0.5*estimated remaining)). Percent is approximate; default20 if unusable.",
+    "no_exponential_backoff": true,
+    "no_repeated_page_refresh": true,
+    "exceptions": "Honor explicit rate limits and retry-after. Tool latency counts as waiting. No overlapping checks. No resubmission for unchanged status.",
+    "stalled_job": "At15 minutes pending report status to owner, keep20-30s checks if tools allow; explicit service errors require stopping and reporting, never automatic retry."
+  },
+  "performance": {
+    "prompt_bpm": 84,
+    "measured_local_bpm": 84.732598042677,
+    "gesture_spacing_beats": [
+      2,
+      4
+    ],
+    "beat_grid": [
+      {
+        "frame": 912,
+        "sec": 37.9796,
+        "bar": 16,
+        "beat": 1,
+        "downbeat": true,
+        "source_sec": 0.5212666666666621
+      },
+      {
+        "frame": 928,
+        "sec": 38.6865,
+        "bar": 16,
+        "beat": 2,
+        "downbeat": false,
+        "source_sec": 1.2281666666666666
+      },
+      {
+        "frame": 945,
+        "sec": 39.3949,
+        "bar": 16,
+        "beat": 3,
+        "downbeat": false,
+        "source_sec": 1.936566666666664
+      },
+      {
+        "frame": 962,
+        "sec": 40.0984,
+        "bar": 16,
+        "beat": 4,
+        "downbeat": false,
+        "source_sec": 2.6400666666666623
+      },
+      {
+        "frame": 979,
+        "sec": 40.8053,
+        "bar": 17,
+        "beat": 1,
+        "downbeat": true,
+        "source_sec": 3.346966666666667
+      },
+      {
+        "frame": 996,
+        "sec": 41.5102,
+        "bar": 17,
+        "beat": 2,
+        "downbeat": false,
+        "source_sec": 4.051866666666662
+      },
+      {
+        "frame": 1013,
+        "sec": 42.2207,
+        "bar": 17,
+        "beat": 3,
+        "downbeat": false,
+        "source_sec": 4.762366666666665
+      },
+      {
+        "frame": 1030,
+        "sec": 42.9311,
+        "bar": 17,
+        "beat": 4,
+        "downbeat": false,
+        "source_sec": 5.472766666666665
+      },
+      {
+        "frame": 1047,
+        "sec": 43.6382,
+        "bar": 18,
+        "beat": 1,
+        "downbeat": true,
+        "source_sec": 6.179866666666662
+      },
+      {
+        "frame": 1064,
+        "sec": 44.3493,
+        "bar": 18,
+        "beat": 2,
+        "downbeat": false,
+        "source_sec": 6.890966666666664
+      },
+      {
+        "frame": 1081,
+        "sec": 45.0607,
+        "bar": 18,
+        "beat": 3,
+        "downbeat": false,
+        "source_sec": 7.602366666666661
+      }
+    ],
+    "benchmark": "out/opening_performance_v3; expression and real singing, not quiet closed-mouth posing"
+  },
+  "claude_result": {
+    "completed_utc": "2026-09-06T13:12:00Z",
+    "receipt": "out/astronaut_reply_v1/RECEIPT.md",
+    "base": {
+      "file": "out/astronaut_reply_v1/base.mp4",
+      "sha256": "A9B4CB462212AE39E789FFD1E85EAEAF4B7D4931E2308A6085155B75BA0E6FFB",
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "flow_media_id": "a2494344-5854-41c5-ba4a-45a4f77647ca",
+      "flow_submitted_utc": "2026-09-06T12:59:58Z",
+      "flow_ready_utc": "2026-09-06T13:01:18Z",
+      "flow_downloaded_utc": "2026-09-06T13:02:14Z",
+      "progress_log": [
+        "13:00:08 3%",
+        "13:00:42 33%",
+        "13:01:00 48%",
+        "13:01:18 done"
+      ],
+      "credits": 100,
+      "end_frame_used": false,
+      "first_frame_diff_vs_still": 0.8,
+      "watermark": "none"
+    },
+    "synced": {
+      "file": "out/astronaut_reply_v1/synced.mp4",
+      "sha256": "DA5A90AAA59B6FFA94C26517C34AD9F3EEB3A0EC8BF66A9C4D59968D7D2EE3EF",
+      "fps": 30,
+      "frames": 239,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "kling_task": "5392",
+      "kling_submitted_utc": "2026-09-06T13:04:53Z",
+      "kling_ready_utc": "2026-09-06T13:08:29Z",
+      "kling_downloaded_utc": "2026-09-06T13:10:05Z",
+      "status_log": [
+        "queueing 13:05:23 to 13:07:51 (8 checks, ~20 s apart)",
+        "ready 13:08:29"
+      ],
+      "credits": 10,
+      "guide_lag_seconds": 0.0,
+      "sound_from_video": false,
+      "watermark": "none visible; plan no-watermark switch already on"
+    },
+    "base_verdict": "suitable: identity/set/suit stable, real lead-in, mouth never closed mid-phrase; grin holds 1.5-2.4 s and 4.25-5.25 s; articulated 0.75-1.4, 2.5-4.1, 5.25-6.4 s",
+    "mouth_coverage_gaps_seconds": [
+      [
+        1.5,
+        2.4
+      ],
+      [
+        4.25,
+        5.25
+      ],
+      [
+        6.5,
+        6.8
+      ]
+    ],
+    "required_picture_end_seconds": 5.458333,
+    "returned_video_seconds": 7.966667,
+    "sheets": [
+      "base_contact_every6.jpg",
+      "base_mouth_0.75-3.2s_every3.jpg",
+      "base_mouth_3.0-5.6s_every3.jpg",
+      "base_mouth_5.5-8s_every4.jpg",
+      "synced_mouth_contact.jpg"
+    ],
+    "not_done": [
+      "no retries",
+      "no assembly",
+      "no cue/shotlist edits",
+      "no later shots",
+      "no commit",
+      "no owner approval claimed"
+    ]
+  },
+  "codex_result": {
+    "preview": "out/astronaut_reply_review/preview.mp4",
+    "song_frames": [
+      856,
+      1030
+    ],
+    "source_in_frame": 12,
+    "source_out_frame_exclusive": 131,
+    "song_source_origin": 899,
+    "zero_lag_correlation": 0.9995199533727324,
+    "best_lag_ms": 0.0,
+    "hashes_verified": true,
+    "production_unchanged": true,
+    "note": "Audio clock verified, not a guarantee of every mouth phoneme. Owner to review smiling performance and articulation."
+  }
+}

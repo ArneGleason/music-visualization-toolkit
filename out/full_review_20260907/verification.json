@@ -1,0 +1,461 @@
+{
+  "fps": 24,
+  "frames": 3830,
+  "duration_seconds": 159.58333333333334,
+  "reused_verified_unchanged_ranges": [
+    [
+      0,
+      2016
+    ],
+    [
+      2122,
+      2658
+    ]
+  ],
+  "newly_rendered_ranges": [
+    [
+      2016,
+      2122
+    ],
+    [
+      2658,
+      3830
+    ]
+  ],
+  "early_edl_and_cues_compared": true,
+  "source_checks": [
+    {
+      "id": "s001",
+      "source": {
+        "file": "clips\\raw\\obs_dome_open_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "frames": 192
+    },
+    {
+      "id": "s002",
+      "source": {
+        "file": "out/screen_sync_scope_rail_clean/dual.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0,
+        "assembly_decision": "scope-rail-visualization"
+      },
+      "frames": 69
+    },
+    {
+      "id": "s003",
+      "source": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_a6ed5ea7904f880cb501.mp4",
+        "in_sec": 0.5,
+        "speed": 1,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\opening_performance_v3\\synced.mp4"
+      },
+      "frames": 191
+    },
+    {
+      "id": "s004",
+      "source": {
+        "file": "out/opening_specimen_v2/base.mp4",
+        "in_sec": 0.5,
+        "speed": 1
+      },
+      "frames": 192
+    },
+    {
+      "id": "pieces_face_in",
+      "source": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_d80f8bf64955ecec2fcf.mp4",
+        "in_sec": 0.5,
+        "speed": 1,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\pieces_performance_v1\\synced.mp4"
+      },
+      "frames": 191
+    },
+    {
+      "id": "pieces_insert",
+      "source": {
+        "file": "out/pieces_cutaway_review/insert.mp4",
+        "in_sec": 0.0,
+        "speed": 1
+      },
+      "frames": 48
+    },
+    {
+      "id": "pieces_face_return",
+      "source": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_d80f8bf64955ecec2fcf.mp4",
+        "in_sec": 5.083333333333333,
+        "speed": 1,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\pieces_performance_v1\\synced.mp4"
+      },
+      "frames": 191
+    },
+    {
+      "id": "specimen_mismatch",
+      "source": {
+        "file": "out/specimen_mismatch_v2/base.mp4",
+        "in_sec": 2.25,
+        "speed": 1
+      },
+      "frames": 192
+    },
+    {
+      "id": "s009",
+      "source": {
+        "file": "out/probe_voice_trial/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 192
+    },
+    {
+      "id": "s010",
+      "source": {
+        "file": "out/receiver_voice_review/fx/clean.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0,
+        "assembly_decision": "receiver-light-response"
+      },
+      "frames": 51
+    },
+    {
+      "id": "s011",
+      "source": {
+        "file": "out/probe_voice_trial/clean.mp4",
+        "in_sec": 5.708333333333333,
+        "speed": 1.0
+      },
+      "frames": 192
+    },
+    {
+      "id": "s012",
+      "source": {
+        "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_49bb1ee673385c931ee7.mp4",
+        "in_sec": 0.5,
+        "speed": 1,
+        "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\astronaut_reply_v1\\synced.mp4"
+      },
+      "frames": 191
+    },
+    {
+      "id": "receiver_reply_arrival",
+      "source": {
+        "file": "out/receiver_now_v3/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 119
+    },
+    {
+      "id": "screen_reply",
+      "source": {
+        "file": "out/screen_garden_trial/clean.mp4",
+        "in_sec": 4.958333333333333,
+        "speed": 1
+      },
+      "frames": 330
+    },
+    {
+      "id": "garden_entry",
+      "source": {
+        "file": "out/screen_garden_trial/clean.mp4",
+        "in_sec": 9.25,
+        "speed": 1
+      },
+      "frames": 330
+    },
+    {
+      "id": "garden_walk",
+      "source": {
+        "file": "out/garden_ghost_wings_v3/walk/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 102
+    },
+    {
+      "id": "garden_moth",
+      "source": {
+        "file": "out/garden_ghost_wings_v3/moth/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 55
+    },
+    {
+      "id": "garden_waking_motion_audition",
+      "source": {
+        "file": "out/garden_waking_v3/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 81
+    },
+    {
+      "id": "garden_walk_return_review",
+      "source": {
+        "file": "out/garden_walk_guide_v1/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 60
+    },
+    {
+      "id": "garden_birds_fx_audition",
+      "source": {
+        "file": "out/garden_birds_fx_v2/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 76
+    },
+    {
+      "id": "garden_begin_bloom_audition",
+      "source": {
+        "file": "out/garden_bloom_synced_v5/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 68
+    },
+    {
+      "id": "exchange_specimens_audition",
+      "source": {
+        "file": "clips\\raw\\specimen_table_macro_v6.mp4",
+        "in_sec": 0.5,
+        "speed": 1
+      },
+      "frames": 192
+    },
+    {
+      "id": "exchange_listener_audition",
+      "source": {
+        "file": "out/lipsync_followup_review_v1/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 106
+    },
+    {
+      "id": "world_pullback_timing_test",
+      "source": {
+        "file": "out/next_mars_sequence_v1/planet_clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 111
+    },
+    {
+      "id": "close_reply_timing_test",
+      "source": {
+        "file": "out/next_mars_sequence_v1/close_clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 38
+    },
+    {
+      "id": "mars_colony_reply_test",
+      "source": {
+        "file": "out/colony_world_blossom_v2/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 128
+    },
+    {
+      "id": "shop_reply_timing_test",
+      "source": {
+        "file": "out/shop_wide_synced_v5/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 85
+    },
+    {
+      "id": "archaeology_discovery_review",
+      "source": {
+        "file": "out/archaeology_discovery_v1/base.mp4",
+        "in_sec": 0.5,
+        "speed": 1
+      },
+      "frames": 192
+    },
+    {
+      "id": "excavation_reply_performance_review",
+      "source": {
+        "file": "out/excavation_reply_synced_v2/conformed.mp4",
+        "in_sec": 0.5,
+        "speed": 1
+      },
+      "frames": 191
+    },
+    {
+      "id": "meant_artifact_insert",
+      "source": {
+        "file": "out/meant_cutaway_v1/insert.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 11
+    },
+    {
+      "id": "meaning_reply_test",
+      "source": {
+        "file": "out/meaning_exchange_dual_sync_v6/clean.mp4",
+        "in_sec": 0.0,
+        "speed": 1
+      },
+      "frames": 223
+    },
+    {
+      "id": "meaning_listener_test",
+      "source": {
+        "file": "out/meaning_exchange_dual_sync_v6/clean.mp4",
+        "in_sec": 6.416666666666667,
+        "speed": 1
+      },
+      "frames": 223
+    },
+    {
+      "id": "s035",
+      "source": {
+        "file": "out/orbital_continuity_v1/take2/base.mp4",
+        "in_sec": 0.5,
+        "speed": 1
+      },
+      "frames": 192
+    },
+    {
+      "id": "landing_retry_s036",
+      "source": {
+        "file": "out/message_into_rockets_v3/conformed.mp4",
+        "in_sec": 0.5,
+        "speed": 1
+      },
+      "frames": 191
+    },
+    {
+      "id": "landing_retry_s037",
+      "source": {
+        "file": "out/message_into_rockets_v3/fx/clean.mp4",
+        "in_sec": 0,
+        "speed": 1
+      },
+      "frames": 69
+    },
+    {
+      "id": "landing_tail_s038",
+      "source": {
+        "file": "out/message_into_rockets_v3/conformed.mp4",
+        "in_sec": 4.625,
+        "speed": 1
+      },
+      "frames": 191
+    },
+    {
+      "id": "spring_wide_insert",
+      "source": {
+        "file": "clips/raw/rain_to_canal_v6.mp4",
+        "in_sec": 4.666666666666667,
+        "speed": 1
+      },
+      "frames": 192
+    },
+    {
+      "id": "spring_close_s040",
+      "source": {
+        "file": "clips/raw/rain_to_canal_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1
+      },
+      "frames": 192
+    },
+    {
+      "id": "s041",
+      "source": {
+        "file": "clips\\raw\\basin_moon_descent_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "frames": 192
+    },
+    {
+      "id": "s042",
+      "source": {
+        "file": "out/swimmer_cutaway_v2/synced_24.mp4",
+        "in_sec": 2.7566666666666664,
+        "speed": 1
+      },
+      "frames": 191
+    },
+    {
+      "id": "swimming_overhead_early",
+      "source": {
+        "file": "out/swimmer_cutaway_v2/fx/s043/clean.mp4",
+        "in_sec": 2.25,
+        "speed": 1
+      },
+      "frames": 116
+    },
+    {
+      "id": "s044",
+      "source": {
+        "file": "out/swimmer_fx_full/s044/clean.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0,
+        "assembly_decision": "swimmer-surface-violet"
+      },
+      "frames": 67
+    },
+    {
+      "id": "s045",
+      "source": {
+        "file": "out/bends_mind_fx_v2/clean.mp4",
+        "in_sec": 0.0,
+        "speed": 1
+      },
+      "frames": 137
+    },
+    {
+      "id": "s046",
+      "source": {
+        "file": "out/bends_mind_fx_v2/clean.mp4",
+        "in_sec": 2.875,
+        "speed": 1
+      },
+      "frames": 137
+    },
+    {
+      "id": "s047",
+      "source": {
+        "file": "out/swimmer_fx_full/s047/clean.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0,
+        "assembly_decision": "swimmer-return-violet"
+      },
+      "frames": 68
+    },
+    {
+      "id": "s048",
+      "source": {
+        "file": "clips\\raw\\drumwall_basin_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "frames": 192
+    },
+    {
+      "id": "s049",
+      "source": {
+        "file": "clips\\raw\\canal_current_macro_v6.mp4",
+        "in_sec": 0.0,
+        "speed": 1.0
+      },
+      "frames": 192
+    }
+  ],
+  "master_once": true,
+  "status": "full review rendered, not production merge"
+}

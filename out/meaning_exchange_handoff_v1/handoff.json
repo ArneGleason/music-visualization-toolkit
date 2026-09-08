@@ -1,0 +1,45 @@
+{
+  "status": "claude_done_ready_for_codex_verification",
+  "jobs": [
+    {
+      "file": "out/meaning_exchange_handoff_v1/astronaut/handoff.json",
+      "sha256": "567f9902a39091c8c369b80b28190f2f0c39e2e621469f97d6339cb8ae136a75"
+    },
+    {
+      "file": "out/meaning_exchange_handoff_v1/astronomer/handoff.json",
+      "sha256": "669ef7314301f33373546f14ca10cfe4bd14defe8e2a1e656e4947ea110d5741"
+    }
+  ],
+  "max_total_flow": 2,
+  "max_total_kling": 1,
+  "reference_choreography": "out/meaning_orb_loop_v4/preview.mp4",
+  "current_request": "Fresh opposing axial camera moves plus coordinated offering/listening. Local sideways panel push and looping object remain separate.",
+  "speaker_guard": "All four lines are Them2 astronaut. Astronomer listens. No words duplicated across faces.",
+  "eight_second_guard": "Astronaut origin2646 ends2838. Only visible through2826, so source covers the full on-screen part including transition. Remaining Words leave words continues on master while astronomer listens; do not squeeze the whole phrase into8seconds or stretch the picture.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T00:15:00Z",
+    "flow_submissions": 4,
+    "kling_submissions": 1,
+    "flow_credits": 400,
+    "kling_credits": 10,
+    "astronaut": {
+      "status": "claude_done_ready_for_codex_verification",
+      "receipt": "out/meaning_exchange_handoff_v1/astronaut/RECEIPT.md",
+      "candidate_base": "astronaut/take3/base.mp4",
+      "candidate_synced": "astronaut/take3/synced.mp4",
+      "flow_media_id_take3": "c85207a8-db31-4003-8d54-5e9edb0a2273",
+      "kling_job_id": "2052",
+      "prompt_deviation": "owner-authorized costume-lock sentence added for take 3 (astronaut/flow_prompt_take3.txt); takes 1-2 with the verbatim prompt both grew chest dials and are retained as rejected references"
+    },
+    "astronomer": {
+      "status": "claude_done_ready_for_codex_verification",
+      "receipt": "out/meaning_exchange_handoff_v1/astronomer/RECEIPT.md",
+      "media_id": "d6fc6712-493c-41d2-a640-dc2db0cf9d90"
+    },
+    "submanifest_hashes_after_update": {
+      "astronaut": "2dd12b507e40a3c1fdd2826933865d40b6340e2a084017c874116f892270d074",
+      "astronomer": "2d957d09c05d24944d340e51aad47a7886ae86a66164b1e9ce902168e83cb3f8"
+    },
+    "note": "Sub-manifest hashes in jobs[] refer to the pre-run manifests and no longer match after claude_result was added; the post-update hashes are recorded above."
+  }
+}

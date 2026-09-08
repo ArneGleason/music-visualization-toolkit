@@ -1,0 +1,507 @@
+{
+  "scope": {
+    "entry": "tools/screen_sync_phosphor.py",
+    "files": {
+      "tools/screen_sync_phosphor.py": {
+        "references": [
+          "tools/screen_sync_phosphor.py"
+        ],
+        "review_flags": [
+          "pixels.foreach_set",
+          "np.zeros",
+          "bpy."
+        ]
+      }
+    },
+    "missing_entry": [],
+    "status": "static_hints_only_dynamic_wrappers_require_manual_reconciliation"
+  },
+  "receiver_arrival": {
+    "entry": "out/receiver_now_v3/render.py",
+    "files": {
+      "out/receiver_now_v3/render.py": {
+        "references": [
+          "out/receiver_interaction_v2/render.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      },
+      "out/receiver_interaction_v2/render.py": {
+        "references": [
+          "out/receiver_interaction_v2/blender_review.py",
+          "out/receiver_reply_arrival_v1/blender_review.py",
+          "out/receiver_reply_arrival_v1/post.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "np.zeros",
+          "exec(compile"
+        ]
+      },
+      "out/receiver_reply_arrival_v1/post.py": {
+        "references": [
+          "out/receiver_reply_arrival_v1/blender_review.py",
+          "out/rosette_duet_trial/render.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "np.mgrid",
+          "np.zeros",
+          "exec(compile"
+        ]
+      },
+      "out/rosette_duet_trial/render.py": {
+        "references": [],
+        "review_flags": [
+          "cv2.",
+          "np.zeros"
+        ]
+      },
+      "out/receiver_reply_arrival_v1/blender_review.py": {
+        "references": [
+          "out/probe_voice_trial/blender_review.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      },
+      "out/probe_voice_trial/blender_review.py": {
+        "references": [
+          "tools/blender_comp.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      },
+      "tools/blender_comp.py": {
+        "references": [
+          "tools/blender_comp.py",
+          "tools/overlay_cues.py"
+        ],
+        "review_flags": [
+          "bpy."
+        ]
+      },
+      "tools/overlay_cues.py": {
+        "references": [
+          "tools/overlay_cues.py"
+        ],
+        "review_flags": []
+      },
+      "out/receiver_interaction_v2/blender_review.py": {
+        "references": [
+          "out/probe_voice_trial/blender_review.py",
+          "out/receiver_interaction_v2/blender_review.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      }
+    },
+    "missing_entry": [],
+    "status": "static_hints_only_dynamic_wrappers_require_manual_reconciliation"
+  },
+  "screen_garden": {
+    "entry": "out/screen_garden_trial/render.py",
+    "files": {
+      "out/screen_garden_trial/render.py": {
+        "references": [
+          "out/receiver_now_v3/render.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "exec(compile"
+        ]
+      },
+      "out/receiver_now_v3/render.py": {
+        "references": [
+          "out/receiver_interaction_v2/render.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      },
+      "out/receiver_interaction_v2/render.py": {
+        "references": [
+          "out/receiver_interaction_v2/blender_review.py",
+          "out/receiver_reply_arrival_v1/blender_review.py",
+          "out/receiver_reply_arrival_v1/post.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "np.zeros",
+          "exec(compile"
+        ]
+      },
+      "out/receiver_reply_arrival_v1/post.py": {
+        "references": [
+          "out/receiver_reply_arrival_v1/blender_review.py",
+          "out/rosette_duet_trial/render.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "np.mgrid",
+          "np.zeros",
+          "exec(compile"
+        ]
+      },
+      "out/rosette_duet_trial/render.py": {
+        "references": [],
+        "review_flags": [
+          "cv2.",
+          "np.zeros"
+        ]
+      },
+      "out/receiver_reply_arrival_v1/blender_review.py": {
+        "references": [
+          "out/probe_voice_trial/blender_review.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      },
+      "out/probe_voice_trial/blender_review.py": {
+        "references": [
+          "tools/blender_comp.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      },
+      "tools/blender_comp.py": {
+        "references": [
+          "tools/blender_comp.py",
+          "tools/overlay_cues.py"
+        ],
+        "review_flags": [
+          "bpy."
+        ]
+      },
+      "tools/overlay_cues.py": {
+        "references": [
+          "tools/overlay_cues.py"
+        ],
+        "review_flags": []
+      },
+      "out/receiver_interaction_v2/blender_review.py": {
+        "references": [
+          "out/probe_voice_trial/blender_review.py",
+          "out/receiver_interaction_v2/blender_review.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      }
+    },
+    "missing_entry": [],
+    "status": "static_hints_only_dynamic_wrappers_require_manual_reconciliation"
+  },
+  "moth_walk": {
+    "entry": "out/garden_ghost_wings_v3/render.py",
+    "files": {
+      "out/garden_ghost_wings_v3/render.py": {
+        "references": [
+          "out/garden_light_moth_v1/render.py",
+          "out/garden_psychedelic_v2/effects.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "exec(compile"
+        ]
+      },
+      "out/garden_psychedelic_v2/effects.py": {
+        "references": [],
+        "review_flags": [
+          "cv2.",
+          "np.zeros"
+        ]
+      },
+      "out/garden_light_moth_v1/render.py": {
+        "references": [],
+        "review_flags": [
+          "cv2.",
+          "np.mgrid",
+          "np.zeros"
+        ]
+      }
+    },
+    "missing_entry": [],
+    "status": "static_hints_only_dynamic_wrappers_require_manual_reconciliation"
+  },
+  "waking": {
+    "entry": "out/garden_waking_v3/render.py",
+    "files": {
+      "out/garden_waking_v3/render.py": {
+        "references": [
+          "out/garden_eyes_airflow_v2/assemble.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "np.mgrid",
+          "np.zeros",
+          "exec(compile"
+        ]
+      },
+      "out/garden_eyes_airflow_v2/assemble.py": {
+        "references": [],
+        "review_flags": [
+          "cv2."
+        ]
+      }
+    },
+    "missing_entry": [],
+    "status": "static_hints_only_dynamic_wrappers_require_manual_reconciliation"
+  },
+  "planet": {
+    "entry": "out/next_mars_sequence_v1/render.py",
+    "files": {
+      "out/next_mars_sequence_v1/render.py": {
+        "references": [
+          "out/world_nebula_v3/space.py",
+          "out/world_pullback_refined_v2/render.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      },
+      "out/world_pullback_refined_v2/render.py": {
+        "references": [
+          "out/world_pullback_test_v1/render.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "np.zeros",
+          "exec(compile"
+        ]
+      },
+      "out/world_pullback_test_v1/render.py": {
+        "references": [],
+        "review_flags": [
+          "cv2.",
+          "np.mgrid",
+          "np.zeros"
+        ]
+      },
+      "out/world_nebula_v3/space.py": {
+        "references": [],
+        "review_flags": [
+          "cv2.",
+          "np.zeros"
+        ]
+      }
+    },
+    "missing_entry": [],
+    "status": "static_hints_only_dynamic_wrappers_require_manual_reconciliation"
+  },
+  "world_orb": {
+    "entry": "out/colony_world_blossom_v2/render.py",
+    "files": {
+      "out/colony_world_blossom_v2/render.py": {
+        "references": [
+          "out/colony_world_blossom_v1/render.py"
+        ],
+        "review_flags": [
+          "np.zeros",
+          "exec(compile"
+        ]
+      },
+      "out/colony_world_blossom_v1/render.py": {
+        "references": [],
+        "review_flags": [
+          "cv2.",
+          "np.zeros"
+        ]
+      }
+    },
+    "missing_entry": [],
+    "status": "static_hints_only_dynamic_wrappers_require_manual_reconciliation"
+  },
+  "shop": {
+    "entry": "out/shop_wide_synced_v5/render.py",
+    "files": {
+      "out/shop_wide_synced_v5/render.py": {
+        "references": [
+          "out/shop_push_signal_v4/render.py",
+          "out/shop_snap_test_v2/render.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "exec(compile"
+        ]
+      },
+      "out/shop_snap_test_v2/render.py": {
+        "references": [
+          "out/shop_push_test_v1/render.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "exec(compile"
+        ]
+      },
+      "out/shop_push_test_v1/render.py": {
+        "references": [
+          "out/shop_reply_review_v1/render.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "np.mgrid",
+          "exec(compile"
+        ]
+      },
+      "out/shop_reply_review_v1/render.py": {
+        "references": [],
+        "review_flags": []
+      },
+      "out/shop_push_signal_v4/render.py": {
+        "references": [
+          "out/shop_signal_test_v1/render.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      },
+      "out/shop_signal_test_v1/render.py": {
+        "references": [
+          "out/shop_reply_review_v1/render.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "np.mgrid",
+          "np.zeros",
+          "exec(compile"
+        ]
+      }
+    },
+    "missing_entry": [],
+    "status": "static_hints_only_dynamic_wrappers_require_manual_reconciliation"
+  },
+  "meaning_exchange": {
+    "entry": "out/meaning_exchange_dual_sync_v6/render.py",
+    "files": {
+      "out/meaning_exchange_dual_sync_v6/render.py": {
+        "references": [
+          "out/meaning_exchange_live_v5/render.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "exec(compile"
+        ]
+      },
+      "out/meaning_exchange_live_v5/render.py": {
+        "references": [
+          "out/meaning_orb_loop_v4/render.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "np.zeros",
+          "exec(compile"
+        ]
+      },
+      "out/meaning_orb_loop_v4/render.py": {
+        "references": [
+          "out/meaning_orb_pass_v2/render.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "exec(compile"
+        ]
+      },
+      "out/meaning_orb_pass_v2/render.py": {
+        "references": [
+          "out/probe_voice_trial/blender_review.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "np.zeros"
+        ]
+      },
+      "out/probe_voice_trial/blender_review.py": {
+        "references": [
+          "tools/blender_comp.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      },
+      "tools/blender_comp.py": {
+        "references": [
+          "tools/blender_comp.py",
+          "tools/overlay_cues.py"
+        ],
+        "review_flags": [
+          "bpy."
+        ]
+      },
+      "tools/overlay_cues.py": {
+        "references": [
+          "tools/overlay_cues.py"
+        ],
+        "review_flags": []
+      }
+    },
+    "missing_entry": [],
+    "status": "static_hints_only_dynamic_wrappers_require_manual_reconciliation"
+  },
+  "bends_mind": {
+    "entry": "out/bends_mind_fx_v2/render.py",
+    "files": {
+      "out/bends_mind_fx_v2/render.py": {
+        "references": [
+          "out/bends_mind_fx_v1/render.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      },
+      "out/bends_mind_fx_v1/render.py": {
+        "references": [
+          "out/probe_voice_trial/blender_review.py"
+        ],
+        "review_flags": [
+          "cv2.",
+          "np.mgrid",
+          "np.zeros"
+        ]
+      },
+      "out/probe_voice_trial/blender_review.py": {
+        "references": [
+          "tools/blender_comp.py"
+        ],
+        "review_flags": [
+          "exec(compile"
+        ]
+      },
+      "tools/blender_comp.py": {
+        "references": [
+          "tools/blender_comp.py",
+          "tools/overlay_cues.py"
+        ],
+        "review_flags": [
+          "bpy."
+        ]
+      },
+      "tools/overlay_cues.py": {
+        "references": [
+          "tools/overlay_cues.py"
+        ],
+        "review_flags": []
+      }
+    },
+    "missing_entry": [],
+    "status": "static_hints_only_dynamic_wrappers_require_manual_reconciliation"
+  },
+  "outro": {
+    "entry": "out/outro_particle_continuity_v1/render.py",
+    "files": {
+      "out/outro_particle_continuity_v1/render.py": {
+        "references": [],
+        "review_flags": [
+          "bpy."
+        ]
+      }
+    },
+    "missing_entry": [],
+    "status": "static_hints_only_dynamic_wrappers_require_manual_reconciliation"
+  }
+}

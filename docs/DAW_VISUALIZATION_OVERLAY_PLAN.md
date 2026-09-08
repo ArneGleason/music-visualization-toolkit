@@ -3,6 +3,12 @@
 Status: evolving creative plan with tested looks; individual delivery approvals
 remain separate. Reusable modes and next tracking experiment: [FX_TYPES.md](FX_TYPES.md).
 
+General owner-approved choreography principle: engage, focus, punctuate.
+Build attention towards a meaningful object or relationship, land a payoff on
+a chosen lyric/musical event, then release. See FX_TYPES.md for the approved
+receiver example and pacing guardrails. Do not equate musical integration with
+an unchanging effect or maximum brightness throughout.
+
 Garden atmosphere, s019 / forest_fauna_eyes, is now FX-01: owner-accepted
 full-strength luminous airflow with bloom and three depth bands. Latest preview
 is flattened; separate production layers and motion integration remain pending.

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "test_id": "opening_specimen_phrase_v1",
+  "status": "claude_blocked_no_usable_source",
+  "task": "inspect_and_prepare_existing_take_for_phrase_contained_review",
+  "authorization": {
+    "new_paid_generation": false,
+    "lip_sync": false,
+    "production_edit_changes": false
+  },
+  "input": {
+    "file": "clips/raw/canal_map_macro_v6.mp4",
+    "sha256": "BEFA2927AFA96C6B77FBE8EFD00F247BEC6E027BB871C65C795D619F6E7183B9",
+    "fps": 24,
+    "frames": 192
+  },
+  "proposed_review_cuts": [
+    {
+      "shot_id": "s003",
+      "song_start_frame": 155,
+      "song_end_frame_exclusive": 334,
+      "source_origin_frame": 143,
+      "source_in_frame": 12,
+      "source_out_frame_exclusive": 191,
+      "lyric_end_frame_exclusive": 332
+    },
+    {
+      "shot_id": "s004",
+      "song_start_frame": 334,
+      "song_end_frame_exclusive": 476,
+      "source_origin_frame": 322,
+      "source_in_frame": 12,
+      "source_out_frame_exclusive": 154,
+      "lyric": "More than that sounds.",
+      "lyric_start_frame": 387,
+      "lyric_end_frame_exclusive": 464
+    }
+  ],
+  "clock": {
+    "fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "speed": 1,
+    "master_audio_only": true,
+    "note": "s004 origin is an editorial mapping of an unsynced prop take, not a claim of generated music synchronization."
+  },
+  "output": {
+    "clip": "out/opening_specimen_phrase_v1/base.mp4",
+    "receipt": "out/opening_specimen_phrase_v1/RECEIPT.md"
+  },
+  "assembly_caveat": "Old s005 starts at frame 430 and conflicts with revised s004. Codex must reconcile shotlist and overlay cues together in isolated opening review ending at 476; no production patch or blind append.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T03:35:00Z",
+    "receipt": "out/opening_specimen_phrase_v1/RECEIPT.md",
+    "base_written": false,
+    "input_hash_verified": true,
+    "input_probe": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0
+    },
+    "verdict": "unusable for [12,154): Veo-invented radial morph at source ~86-108 into a different low-angle shot of two specimen halves; continuous overhead footage only [0,86)",
+    "usable_continuous_interval": [
+      12,
+      86
+    ],
+    "frames_needed": 142,
+    "frames_available_with_lead": 74,
+    "end_state_at_frame_85": "both hands bottom centre holding the two central fragments edge to edge, outer ring undisturbed",
+    "proposed_generation": "one 8 s Veo 3.1 Quality Frames-to-Video take with canal_map_macro_b.jpg as both Start and End frame, prompt forbidding cut/dissolve/zoom/angle change, hands trying the two central pieces; sample every 6 frames before use",
+    "production_note": "current s004 (in 0, 5.72 s) already shows the morph and the invented low-angle shot at about song 379-430; s006/s008 in-points sit inside the invented shot",
+    "sheets": [
+      "full_take_contact.jpg",
+      "interval_12-154_contact.jpg"
+    ],
+    "credits_spent": 0
+  }
+}

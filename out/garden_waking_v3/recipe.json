@@ -1,0 +1,50 @@
+{
+  "status": "owner_review_pending",
+  "song_frames": [
+    1569,
+    1650
+  ],
+  "waking_frame": 1621,
+  "opening_groups": [
+    [
+      "far_amber",
+      24
+    ],
+    [
+      "left_cyan",
+      37
+    ],
+    [
+      "right_pink",
+      44
+    ],
+    [
+      "middle_amber",
+      31
+    ],
+    [
+      "middle_green",
+      49
+    ],
+    [
+      "right_violet",
+      53
+    ],
+    [
+      "low_green",
+      58
+    ],
+    [
+      "right_cyan",
+      57
+    ],
+    [
+      "left_amber",
+      51
+    ]
+  ],
+  "method": "Source-color tracked soft aperture and inpainted closed-eye patch; no generated eyelids. Flow-advected noisy leaf contours plus shadow-detail lift.",
+  "source": "out/garden_eyes_motion_v1/base.mp4",
+  "airflow": "out/garden_eyes_airflow_v2/composite",
+  "unchanged": "Source timing, particles, camera, lyric choreography and font fix"
+}

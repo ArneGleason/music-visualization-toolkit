@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "test_id": "garden_bloom_lipsync_v2",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "ONE fresh Kling Lip Sync on original unsynced garden plate, with NEW guide aligned to later pollen-bloom selection. NO Flow. Never re-sync the old Kling output.",
+  "authorization": {
+    "max_flow_submissions": 0,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "Character 1 (sole woman)",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "10 credits is historical expectation, not live quote. Check actual UI first."
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 1720,
+    "song_origin_seconds": 71.66666666666667,
+    "requested_take_seconds": 8,
+    "requested_take_frames": 192,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 71.48831866666667,
+    "guide_already_aligned": true,
+    "guide_upload_start_seconds": 0,
+    "additional_audio_offset_seconds": 0
+  },
+  "cut": {
+    "shot_id": "garden_bloom_lipsync_test",
+    "setup": "forest_awakening_frontal",
+    "song_start_frame": 1786,
+    "song_end_frame_exclusive": 1854,
+    "source_in_frame_at_24fps": 66,
+    "source_out_frame_exclusive_at_24fps": 134,
+    "duration_frames": 68,
+    "speed": 1,
+    "picture_change": "EXACT approved bloom placement: original source66..134 -> song1786..1854. Source108 on begin1828. Full plate is unchanged; only guide origin changes. No shift to picture, no padding/retime."
+  },
+  "phrases": [
+    {
+      "text": "for the song to begin.",
+      "song_frames": [
+        1786,
+        1841
+      ],
+      "source_seconds": [
+        2.75,
+        5.041666666666667
+      ],
+      "words": [
+        {
+          "text": "for",
+          "song_frames": [
+            1786,
+            1797
+          ],
+          "source_seconds": [
+            2.75,
+            3.2083333333333335
+          ]
+        },
+        {
+          "text": "the",
+          "song_frames": [
+            1797,
+            1807
+          ],
+          "source_seconds": [
+            3.2083333333333335,
+            3.625
+          ]
+        },
+        {
+          "text": "song",
+          "song_frames": [
+            1807,
+            1819
+          ],
+          "source_seconds": [
+            3.625,
+            4.125
+          ]
+        },
+        {
+          "text": "to",
+          "song_frames": [
+            1819,
+            1828
+          ],
+          "source_seconds": [
+            4.125,
+            4.5
+          ]
+        },
+        {
+          "text": "begin",
+          "song_frames": [
+            1828,
+            1841
+          ],
+          "source_seconds": [
+            4.5,
+            5.041666666666667
+          ]
+        }
+      ]
+    }
+  ],
+  "inputs": {
+    "base": {
+      "file": "out/garden_bloom_lipsync_v2/base.mp4",
+      "sha256": "BA2641F5DA2A88B230FC3BA5A490274094A68DC82B9150294B99583AD3E9EB86",
+      "source": "clips/raw/forest_awakening_frontal_v6.mp4",
+      "source_sha256": "47223EB2F3BB613A475B78F97B15065BA42D371458D1D6F8C71F034AC947E924",
+      "video_frames_identical_to_source": true,
+      "audio_removed": true,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 192
+    },
+    "guide": {
+      "file": "out/garden_bloom_lipsync_v2/guide.wav",
+      "sha256": "B38441740658BA5908E2189AB6B964874B1400A9A9F13315740D2D0A901EA4F6",
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples": 384000
+    }
+  },
+  "guide_provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "source_sha256": "BEEDD740882CE6E8D5A0D85A7AEA2E83EF36368BD932B66FD44C22216D06E68E",
+    "processing": "NEW uninterrupted8second mono48k PCM16 vocal slice for origin1720. Placement correction applied once. No gating, normalization, silence removal, gain or timing changes. Context outside visible cut is not approved face coverage."
+  },
+  "output": {
+    "synced": "out/garden_bloom_lipsync_v2/synced.mp4",
+    "receipt": "out/garden_bloom_lipsync_v2/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true,
+    "tool_time_counts": true
+  },
+  "inspection": "Inspect original-source2.75..5.583333 seconds. Words2.75..5.041667, then13frame settling tail. Small quiet face was weak in prior test: inspect every word honestly, including sustained begin, plus mouth closure after phrase. Verify pollen development remains unchanged. No auto retry or Flow.",
+  "assembly_guard": "Source0 maps to song1720, NOT1774. Timestamp-conform30fps if needed. Use synced source66..134 at24fps, speed1, for song1786..1854. Minimum returned coverage134/24seconds. Reapply light FX at song timing. Codex will relocate green guide above head after return; never upload baked FX/lyrics/master or old synced.mp4.",
+  "owner_direction": {
+    "bloom_placement": "Approved later pollen burst selection; preserve exactly.",
+    "green_guide": "Move dance above her head, clear of pollen and bottom lyrics. Codex task only, not Kling input.",
+    "sequence": "Prepare handoff first; separate green-guide revision and later same-clock integration.",
+    "prior_test": "Keep garden_begin_lipsync_v1 untouched; this is a newly authorized single test, not automatic retry."
+  },
+  "claude_result": {
+    "completed_utc": "2026-09-06T16:26:00Z",
+    "receipt": "out/garden_bloom_lipsync_v2/RECEIPT.md",
+    "input_hashes_ok": true,
+    "guide_is_new": "corr vs v1 guide 0.005",
+    "kling": {
+      "job_id": "57",
+      "download_name": "kling_20260907_Lip_Sync__57_0.mp4",
+      "settings": "Lip Sync, Character 1 (sole woman, auto-detected), Upload Local Dubbing guide.wav at 0:00-0:08, Sound from Video OFF, MP4 Without Watermark (existing entitlement)",
+      "credits": 10,
+      "balance_before": 456,
+      "balance_after": 446,
+      "submitted_utc": "2026-09-06T16:12:33Z",
+      "generated_utc": "2026-09-06T16:15:48Z",
+      "card_ready_utc": "2026-09-06T16:17:03Z",
+      "download_clicked_utc": "2026-09-06T16:17:13Z",
+      "filed_utc": "2026-09-06T16:18:12Z",
+      "progress_checks_utc": [
+        "16:13:03 creating",
+        "16:13:23",
+        "16:13:55",
+        "16:14:15",
+        "16:14:35",
+        "16:14:55",
+        "16:15:28 creating",
+        "16:15:48 1/1 generated"
+      ]
+    },
+    "original": {
+      "file": "out/garden_bloom_lipsync_v2/original_57.mp4",
+      "sha256": "EE4935D09EA824BE44A61E6416C3C154072ED87E5C3176D361FEB9A113E1E371"
+    },
+    "synced": {
+      "file": "out/garden_bloom_lipsync_v2/synced.mp4",
+      "sha256": "EE4935D09EA824BE44A61E6416C3C154072ED87E5C3176D361FEB9A113E1E371",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "audio": "aac 44100 Hz stereo",
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 0.999,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "full-frame diff vs base 2.0-2.8 across take; pollen bloom, framing, set and identity unchanged",
+    "coverage_seconds_returned": 7.966667,
+    "coverage_required_seconds": 5.583333,
+    "words": {
+      "for": "weak: closed to ~2.93 s, slight parting, clear opening only at 3.20 s",
+      "the": "ok: clear open mouth 3.20-3.43 s",
+      "song": "missing: lips closed, faint lip-line motion only",
+      "to": "weak: faint parting 4.27-4.47 s",
+      "begin": "weak: slight parting 4.60-4.73 s and ~4.9-5.0 s, no open sustain",
+      "settling_tail": "clean: closed 5.04-5.58 s; next opening at ~5.70 s after out-point"
+    },
+    "defects": [
+      "small mouth amplitude on ~50 px face; only the for->the transition reads",
+      "\"song\", \"to\", \"begin\" not visibly sung",
+      "post-cut mouth motion 5.7-6.3 s and 7.4-7.9 s follows guide context (not approved coverage)"
+    ],
+    "verdict": "partial: timing aligned, amplitude too small; usable as test information",
+    "sheets": [
+      "mouth_synced_src2.6-5.6s_native30_everyframe.jpg",
+      "mouth_base_src2.6-5.6s_every3.jpg",
+      "mouth_synced_src5.0-8s_every3.jpg",
+      "contact_synced_every10_native.jpg"
+    ],
+    "not_done": [
+      "no Flow",
+      "no retry",
+      "no assembly",
+      "no FX edits",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

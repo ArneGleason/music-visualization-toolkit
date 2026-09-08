@@ -1,0 +1,24 @@
+{
+  "fps": 24,
+  "song_frames": [
+    86,
+    155
+  ],
+  "stem_offset_sec": 0.178348,
+  "signal_rate": 8000,
+  "band_hz": [
+    25,
+    180
+  ],
+  "window_ms": 64,
+  "trigger_search_ms": 6,
+  "normalization": 0.3395839333534241,
+  "plate": "codex/out/obs_console_macro_b.jpg",
+  "screen_ellipse_px": [
+    780,
+    314,
+    254,
+    257
+  ],
+  "scope": "still plate with shared camera transform; no motion tracking"
+}

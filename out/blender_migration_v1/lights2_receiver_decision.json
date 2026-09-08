@@ -1,0 +1,20 @@
+{
+  "s010": {
+    "id": "receiver-light-response",
+    "shot_id": "s010",
+    "setup": "receiver_dial_macro",
+    "decision": "prefer_music_fx_composite_over_untreated_video",
+    "approval": "owner_approved_treatment",
+    "delivery_status": "delivery_ready",
+    "delivery_file": "out/blender_migration_v1/receiver/native_clean.mp4",
+    "fx_type": "FX-02",
+    "timing_snapshot": {
+      "fps": 24,
+      "song_start_frame": 805,
+      "song_end_frame_exclusive": 856,
+      "source_in_frame": 0,
+      "source_out_frame_exclusive": 51
+    },
+    "notes": "Isolated native-migration review. Original treatment approved; new render awaits contextual owner review. Not a production register update."
+  }
+}

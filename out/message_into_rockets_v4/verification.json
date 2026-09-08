@@ -1,0 +1,42 @@
+{
+  "input_hashes_verified": true,
+  "source_probe": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "24/1",
+    "start_time": "0.000000",
+    "nb_frames": "192"
+  },
+  "preview_probe": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "24/1",
+    "start_time": "0.000000",
+    "nb_frames": "241"
+  },
+  "preview_song_frames": [
+    2786,
+    3027
+  ],
+  "orbital_source": {
+    "file": "out/orbital_continuity_v1/take2/base.mp4",
+    "sha256": "c03615cf66d7b9db63530285beb719d8f7c32711d3cdb68ed2a47a5bf7299c64",
+    "fps": 24,
+    "frames": 192,
+    "width": 1280,
+    "height": 720,
+    "video_seconds": 8.0,
+    "stream_start": 0.0
+  },
+  "orbital_song_frames": [
+    2881,
+    2928
+  ],
+  "orbital_source_frames": [
+    12,
+    59
+  ],
+  "only_s035_clip_changed": true,
+  "landing_and_fx_unchanged": true,
+  "status": "rendered for owner review; no production merge"
+}

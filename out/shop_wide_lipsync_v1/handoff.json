@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "test_id": "shop_wide_lipsync_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "ONE Kling Lip Sync on WIDE shop performance only. Never touch the approved close-up. NO Flow.",
+  "authorization": {
+    "max_flow_submissions": 0,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "sole real woman, NOT reflection or alien souvenir",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical expectation, verify actual UI; no purchases."
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 2387,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 99.27998533333333,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0
+  },
+  "inputs": {
+    "base": {
+      "file": "out/shop_wide_lipsync_v1/base.mp4",
+      "sha256": "9db1c6c112424d0f301fce9b900fc7ae2403e19d8c7297be3fdb4b5819cde7ef"
+    },
+    "guide": {
+      "file": "out/shop_wide_lipsync_v1/guide.wav",
+      "sha256": "f497d6e98e9f5283b4e815338cf3fffcea73a6c87308590d85de5efa96174439"
+    }
+  },
+  "source": {
+    "file": "out/shop_performance_v1/wide/base.mp4",
+    "sha256": "29be3d520d057b098cd9ec2f621ce15717d852c75fa93461d5184f2c34cfb874"
+  },
+  "guide_provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "processing": "Uninterrupted8second mono48k PCM16 slice, no normalization, gating, silence removal or time change; context outside wide usage is not approved face coverage."
+  },
+  "phrases": [
+    {
+      "text": "No.",
+      "song_frames": [
+        2399,
+        2411
+      ],
+      "source_seconds": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "text": "Don't make it better.",
+      "song_frames": [
+        2411,
+        2437
+      ],
+      "source_seconds": [
+        1.0,
+        2.0833333333333335
+      ]
+    }
+  ],
+  "cut": {
+    "wide_song_frames": [
+      2399,
+      2431
+    ],
+    "wide_source_frames": [
+      12,
+      44
+    ],
+    "target_phrase_song_frames": [
+      2399,
+      2437
+    ],
+    "target_phrase_source_frames": [
+      12,
+      50
+    ],
+    "source_switch_frame": 2431,
+    "close_source_origin_frame": 2425,
+    "guard": "Last6frames of better are on existing close source6..12 during transition. Preserve current approved edit. Do not move cut or retime either take. Close NEVER sent to Kling."
+  },
+  "output": {
+    "synced": "out/shop_wide_lipsync_v1/synced.mp4",
+    "receipt": "out/shop_wide_lipsync_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true,
+    "tool_time_counts": true
+  },
+  "assembly_guard": "Codex verifies return and reapplies approved shop_push_signal_v4 alien-head FX and snap transition. Never upload FX composite. No close-up changes. Extra returned guide words do not authorize extending wide coverage.",
+  "inspection": "Inspect source0.5..2.083333 for No and Dont make it better; avoid affecting reflection, souvenir or facial identity. Quiet reaction base may yield weak mouth articulation: report honestly, no automatic retry.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T19:20:00Z",
+    "receipt": "out/shop_wide_lipsync_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "kling": {
+      "job_id": "774",
+      "download_name": "kling_20260907_Lip_Sync__774_0.mp4",
+      "faces_detected": "Character 1 = real woman (selected), Character 2 = alien souvenir head (untouched)",
+      "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav at 0:00-0:08, Sound from Video OFF, MP4 Without Watermark (existing entitlement)",
+      "credits": 10,
+      "balance_before": 446,
+      "balance_after": 436,
+      "submitted_utc": "2026-09-06T19:02:24Z",
+      "generated_utc": "2026-09-06T19:05:30Z",
+      "download_clicked_utc": "2026-09-06T19:06:10Z",
+      "filed_utc": "2026-09-06T19:06:54Z",
+      "progress_checks_utc": [
+        "19:02:54 creating",
+        "19:03:14",
+        "19:03:34",
+        "19:04:10",
+        "19:04:30",
+        "19:04:50",
+        "19:05:10 creating",
+        "19:05:30 1/1 generated"
+      ]
+    },
+    "original": {
+      "file": "out/shop_wide_lipsync_v1/original_774.mp4",
+      "sha256": "1b0c12830a3196c9f3e13a1f40dbb521296e4b2bb9ab21f090b53f07e84cea45"
+    },
+    "synced": {
+      "file": "out/shop_wide_lipsync_v1/synced.mp4",
+      "sha256": "1b0c12830a3196c9f3e13a1f40dbb521296e4b2bb9ab21f090b53f07e84cea45",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "audio": "aac 44100 Hz stereo",
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 1.0,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": {
+      "reflection_region_diff_mean": 2.9,
+      "alien_head_region_diff_mean": 3.1,
+      "full_frame_diff_mean": 3.0,
+      "face_region_diff_max": 14.1,
+      "verdict": "only her mouth region changed; reflection, alien head, display, camera unchanged"
+    },
+    "coverage_seconds_returned": 7.966667,
+    "minimum_usable_coverage_seconds": 2.17,
+    "words": {
+      "No": "ok: opens ~0.57 s, rounded O held 0.67-1.07 s",
+      "Dont": "small opening 1.20-1.23 s",
+      "make": "open 1.33-1.47 s",
+      "it": "open 1.53-1.63 s",
+      "better": "open 1.87-2.00 s then teeth-visible 2.03-2.17 s, closes by 2.27 s"
+    },
+    "pre_inpoint_motion": "lips part 0.1-0.3 s following guide context (before source 12, not visible)",
+    "tail_motion": "guide-context openings 2.2-2.4, 4.2-5.0, 6.0-6.7 s; not approved coverage",
+    "defects": [
+      "moderate amplitude on ~110 px face, no wide jaw drop",
+      "\"better\" completes at 2.17 s, slightly past the 2.083 s target"
+    ],
+    "verdict": "usable for wide window [12,44); phrase articulated through 2.17 s",
+    "sheets": [
+      "mouth_synced_src0.3-2.3s_native30_everyframe.jpg",
+      "mouth_base_src0.3-2.3s_every3.jpg",
+      "mouth_synced_src2.2-8s_every6.jpg",
+      "contact_synced_every10_native.jpg",
+      "window_reflection_synced_every30.jpg"
+    ],
+    "not_done": [
+      "no Flow",
+      "no close-up pass",
+      "no retry",
+      "no assembly",
+      "no FX baking",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

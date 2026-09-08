@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "test_id": "archaeology_discovery_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "ONE careful archaeological discovery take; familiar clear amber spiral specimen stays embedded. NO Kling.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "model": "Veo 3.1 Quality",
+    "mode": "Frames",
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "duration_seconds": 8,
+    "outputs": 1,
+    "expected_credits": 100,
+    "stop_if_unavailable_or_cost_exceeds_expected": true
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "out/archaeology_discovery_v1/first_frame.png",
+      "sha256": "1f5e2ea0d4881dce1abe8491351e9178606fd9ddcccc84b61611aa0ea5188850"
+    },
+    "prompt": {
+      "file": "out/archaeology_discovery_v1/flow_prompt.txt",
+      "sha256": "0792afc2534a2728bad1d1577494bf40fa6da9019827eeae7bf0acc9f41847d0"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    }
+  },
+  "continuity_reference": {
+    "file": "codex/out/astronaut_inspect_medium_a.jpg",
+    "sha256": "6b5e47a29a59a23824cbe1796e50923e1fc911bf77f66741c26f8258adf95d06"
+  },
+  "reference_note": "New starting frame created with built-in image model from accepted specimen and excavation setting references; intended matching prop, not a claim of pixel-identical reconstruction. Do not use old conical excavation prop.",
+  "clock": {
+    "fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 2472,
+    "requested_source_frames": 192,
+    "no_audio_upload": true
+  },
+  "proposed_cut": {
+    "setup": "excavation_site",
+    "song_frames": [
+      2484,
+      2564
+    ],
+    "source_frames_after_timestamp_conform": [
+      12,
+      92
+    ],
+    "duration_frames": 80,
+    "lead_handle_frames": 12,
+    "requested_exit_handle_frames": 100,
+    "status": "candidate only"
+  },
+  "output": {
+    "base": "out/archaeology_discovery_v1/base.mp4",
+    "receipt": "out/archaeology_discovery_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true,
+    "tool_time_counts": true
+  },
+  "assembly_guard": "No production replacement until review. Existing specimen-handling and shop keepers remain unchanged. Never retime or loop returned action to hide incorrect choreography. Musical amber activation is deferred to Codex after picture review.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T19:36:00Z",
+    "receipt": "out/archaeology_discovery_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "original": {
+      "file": "out/archaeology_discovery_v1/original_9cafc314-0ddd-48bb-ae02-cd58b8176307.mp4",
+      "sha256": "2d4b3e894a0556b8ee691e7f4c70a25c5a25bf83146d9580b5963fa0724c9576"
+    },
+    "base": {
+      "file": "out/archaeology_discovery_v1/base.mp4",
+      "sha256": "2d4b3e894a0556b8ee691e7f4c70a25c5a25bf83146d9580b5963fa0724c9576",
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "stream_start": 0.0,
+      "flow_media_id": "9cafc314-0ddd-48bb-ae02-cd58b8176307",
+      "submitted_utc": "2026-09-06T19:23:50Z",
+      "ready_utc": "2026-09-06T19:25:20Z",
+      "downloaded_utc": "2026-09-06T19:25:55Z",
+      "progress_log": [
+        "19:24:20 21%",
+        "19:24:40 38%",
+        "19:25:00 55%",
+        "19:25:20 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "end_frame_used": false,
+      "first_frame_diff": 1.3,
+      "watermark": "none"
+    },
+    "camera": "NOT locked: slow steady push-in/tilt across the take, no cut",
+    "action_timing_seconds": {
+      "stroke1": [
+        0.4,
+        0.9
+      ],
+      "stroke2": [
+        1.25,
+        1.9
+      ],
+      "brushing_stops": 2.0,
+      "brush_set_down": 2.9,
+      "fingertip_check": [
+        3.25,
+        3.9
+      ],
+      "hold": [
+        3.9,
+        5.7
+      ],
+      "both_hands_grasp": [
+        6.0,
+        8.0
+      ]
+    },
+    "specimen": "same fluted clear shell with gold spiral throughout; fixed in ground 0-6.0 s; readable from frame 0, cleaner after stroke 2 (~2.0 s); lower edge clear by ~2.5 s; no morph",
+    "brush_contact": "bristles visibly contact shell and soil on both strokes; dust carried left-to-right/outward; no cloud or sparks",
+    "proposed_window_verdict": "[12,92) usable choreography with specimen in place; caveats: slow push-in, brush set down at 2.9 s",
+    "usable_intervals": {
+      "with_pushin_caveat": [
+        0,
+        136
+      ],
+      "unusable_lift_pose": [
+        136,
+        192
+      ]
+    },
+    "defects": [
+      "camera pushes in slowly (not locked)",
+      "both hands grasp specimen from ~6.0 s (lift pose)",
+      "brush set down on ground at ~2.9 s"
+    ],
+    "sheets": [
+      "contact_every6.jpg",
+      "crop_specimen_brush_0-4s_every3.jpg",
+      "crop_specimen_brush_4-8s_every8.jpg",
+      "crop_specimen_close_every12.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no audio",
+      "no retry",
+      "no assembly",
+      "no FX",
+      "no production edits",
+      "no commit",
+      "no owner approval claimed"
+    ]
+  }
+}

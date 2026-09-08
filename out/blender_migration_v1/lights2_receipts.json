@@ -1,0 +1,22 @@
+[
+  {
+    "family": "receiver",
+    "status": "native_rendered_owner_review_pending",
+    "frames": 51,
+    "clean": "out\\blender_migration_v1\\receiver\\native_clean.mp4",
+    "sha256": "5af5aec9c0e162052a9ef7390bf84ffc0c31c37a5fc6667f4b460555af581f30",
+    "max_frame_mae": 0.19197337962962963,
+    "recipe": "out/blender_migration_v1/lights2_native.py",
+    "resolution_samples": 3
+  },
+  {
+    "family": "specimen",
+    "status": "native_rendered_owner_review_pending",
+    "frames": 106,
+    "clean": "out\\blender_migration_v1\\specimen\\native_clean.mp4",
+    "sha256": "9bfc4910ea2dc0cf34eedcc0e65e1379c392424f2ec1f330babc447fb167744b",
+    "max_frame_mae": 0.17740306712962964,
+    "recipe": "out/blender_migration_v1/lights2_native.py",
+    "resolution_samples": 4
+  }
+]

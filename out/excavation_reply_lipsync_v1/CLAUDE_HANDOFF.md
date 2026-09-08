@@ -1,0 +1,13 @@
+# Lip-sync the approved excavation close-up
+
+Owner reviewed excavation_reply_review_v1 and likes the performance, including the broader irony. Do not regenerate or restrain its acting. This task is ONE Kling Lip Sync only, no Flow, extra variants or automatic retries.
+
+Read handoff.json. Verify this folder's base.mp4 and guide.wav hashes, then upload ONLY those files. The video is a silent remux of the approved original, no video-frame change. Select the sole woman in Kling Lip Sync, guide at0:00..0:08, Sound from Video OFF. No trimming, silence removal, normalization, TTS, offset or source crop. Historical expected10credits; verify actual UI and stop if higher or correct settings unavailable. Existing watermark-free entitlement only, no purchases.
+
+Exact clock,24fps zero-based/end-exclusive: source0 = song2552. Visible source12..106 (0.5..4.416667seconds) maps song2564..2658. Especially stupid starts source0.875seconds, ends2.833333. Can you hear runs2.833333..3.541667; what I meant runs3.541667..4.416667. Full guide has surrounding vocal context; do not remove it or assume it authorizes extra face coverage. No extra duh syllable or text-to-speech. Keep every onset and duration as supplied; source and master are not shifted to fit generated gestures.
+
+The earlier base has a mostly stationary grin around1.4..3.1seconds. The owner accepts its expression but now needs actual sung articulation. Inspect every word, especially stupid across that interval, and the question. Report any missing mouth motion, timing drift, frozen grin, distorted teeth/jaw, face change, or late phrase completion. Do not assume success from the completed job status. Do not retry automatically.
+
+Check after30seconds then about20seconds, near90percent about10seconds; tool time counts. Respect rate limits, no progressive long backoff, repeated reloads or duplicate jobs. Download promptly when ready. Save untouched original_<job-id>.mp4 and byte-identical synced.mp4. Preserve native rate/timestamps, no trim, retime, crop, interpolation or replacement audio. Codex handles timestamp-based24fps conform.
+
+Write RECEIPT.md with hashes, job/settings/cost, progress times, native FPS/frame count/duration/dimensions/stream starts, guide alignment if measured, word-level observations and defects. Add claude_result and set status claude_done_ready_for_codex_verification only when media and receipt exist. Otherwise report actual partial/failure state. Work only in this folder, no commit, production edits, assembly or changes to other clips. Codex will audition the returned shot after the excavation with the master soundtrack once.

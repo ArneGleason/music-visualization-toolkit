@@ -1,0 +1,20 @@
+{
+  "source_hash_matches": true,
+  "source_full_decode": true,
+  "returned_audio_best_lag_seconds": 0.0,
+  "returned_audio_correlation_at_zero": 0.9998209356296596,
+  "returned_audio_best_correlation": 0.9998209356296596,
+  "audio_check_limit": "Audio alignment is not proof of mouth alignment.",
+  "conformed": {
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_f5a66702297afd8ad243.mp4",
+    "speed": 1,
+    "timebase_original": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\outro_A1_kling_v1\\synced.mp4"
+  },
+  "preview_song_frames": [
+    4177,
+    4331
+  ],
+  "preview_frames": 154,
+  "middle_B": "Approved static anchor, not generated/lipsynced B1",
+  "boundary_note": "Claude reports other-speaker mouth onset around2.7s, which overlaps end of source12..67 (2.7917s) by about2frames. Do not claim entirely outside first cut. Leave unchanged for review; original listening tail is possible local fix."
+}

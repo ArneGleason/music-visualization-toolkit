@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "test_id": "lipsync_review_followup_v1_specimen",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "One fresh Kling Lip Sync using the supplied original-performance video and aligned guide. NO Flow. Never resync an already synced file.",
+  "authorization": {
+    "max_flow_submissions": 0,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "sole real woman",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical estimate only; verify UI. No purchases."
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 2004,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 83.321652,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0
+  },
+  "inputs": {
+    "base": {
+      "file": "out/lipsync_review_followup_v1/specimen/base.mp4",
+      "sha256": "80265cbe654db4049e46920a39ff6270813ab02728021cf4af243f2efb385746"
+    },
+    "guide": {
+      "file": "out/lipsync_review_followup_v1/specimen/guide.wav",
+      "sha256": "62f4d93ccfc1a65b222c5daf741b8e59998937d2784f432e564073efbd3399e0"
+    }
+  },
+  "source": {
+    "file": "out/specimen_discovery_v1/base.mp4",
+    "sha256": "8346bec30429e79e2adda23c410a3c226faf0e8b048ba6a8d7becb2521837d62"
+  },
+  "guide_provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "processing": "Continuous 8-second mono48k PCM16 slice. No gating, normalization, silence removal, stretch or added offsets."
+  },
+  "phrases": [
+    {
+      "text": "I'm sure it's there.",
+      "song_frames": [
+        2059,
+        2084
+      ],
+      "source_seconds": [
+        2.2916666666666665,
+        3.3333333333333335
+      ]
+    },
+    {
+      "text": "Hard to find, right?",
+      "song_frames": [
+        2084,
+        2122
+      ],
+      "source_seconds": [
+        3.3333333333333335,
+        4.916666666666667
+      ]
+    }
+  ],
+  "cut": {
+    "visible_song_frames": [
+      2016,
+      2122
+    ],
+    "replace_song_frames": [
+      2059,
+      2122
+    ],
+    "replace_source_frames_at_24fps": [
+      55,
+      118
+    ],
+    "speed": 1
+  },
+  "output": {
+    "synced": "out/lipsync_review_followup_v1/specimen/synced.mp4",
+    "receipt": "out/lipsync_review_followup_v1/specimen/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true,
+    "tool_time_counts": true
+  },
+  "assembly_guard": "Codex verifies original download, guide alignment, every word and timestamp-based 24fps conform. Keep current assembly until owner comparison. No changes to cuts or master audio.",
+  "specific_review": "Only2059..2122 becomes a speaking shot. Preserve original listening2016..2059. Reapply approved specimen_signal_v1 artifact glow AFTER sync. Never upload the FX composite. The original is a quiet listening performance, so report any puppet-like mouth or skipped words rather than retrying automatically.",
+  "completion": "Download full result and untouched original, record paths, hashes, dimensions, native fps, duration, credits and observed issues in RECEIPT.md. Add claude_result and set status=claude_done_ready_for_codex_verification. No assembly, commit, or approval claims.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T21:20:00Z",
+    "receipt": "out/lipsync_review_followup_v1/specimen/RECEIPT.md",
+    "input_hashes_ok": true,
+    "base_video_identical_to_source": true,
+    "kling": {
+      "job_id": "1259",
+      "download_name": "kling_20260907_Lip_Sync__1259_0.mp4",
+      "faces_detected": "Character 1 = the woman (sole)",
+      "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav at 0:00-0:08, Sound from Video OFF, MP4 Without Watermark",
+      "credits": 10,
+      "balance_before": 416,
+      "balance_after": 406,
+      "submitted_utc": "2026-09-06T20:56:42Z",
+      "generated_utc": "2026-09-06T20:59:49Z (done by)",
+      "download_clicked_utc": "2026-09-06T21:00:54Z",
+      "filed_utc": "2026-09-06T21:01:50Z"
+    },
+    "original": {
+      "file": "out/lipsync_review_followup_v1/specimen/original_1259.mp4",
+      "sha256": "995aff0397d7b3e56670c86707de40a4bc76b6b04d841d3b9549942596d26b4e"
+    },
+    "synced": {
+      "file": "out/lipsync_review_followup_v1/specimen/synced.mp4",
+      "sha256": "995aff0397d7b3e56670c86707de40a4bc76b6b04d841d3b9549942596d26b4e",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 1.0,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "only lower face re-rendered; hands, specimen, set, framing unchanged; identity consistent",
+    "words": {
+      "I'm sure": "ok: open/rounded 2.2-2.45 s",
+      "it's there": "ok but small: parted lips 2.6-2.9 s, near-closed 2.95-3.27 s (guide quiet)",
+      "Hard": "mismatch: wide open 3.3-3.63 s while guide near-silent (base open \"oh\" retained)",
+      "to find": "defect: tense pressed lips 3.7-4.0 s, then wide open O 4.03-4.3 s",
+      "right": "ok: open with teeth 4.4-4.73 s, smile, closed by ~5.0 s"
+    },
+    "listening_section_motion": "mouth sings the offscreen line 0.3-2.2 s (guide context); to be excluded by replace window 55..118",
+    "tail_motion": "brief opening ~5.5-5.7 s and small motion later (guide context)",
+    "defects": [
+      "pressed-lip puppet-like mouth 3.7-4.0 s",
+      "wide open mouth on near-silent guide 3.3-3.63 s",
+      "small amplitude 2.6-3.3 s",
+      "mouth motion in listening section 0.3-2.2 s"
+    ],
+    "verdict": "partial: usable for I'm sure and right; Hard to find carries a clamped-mouth artifact; owner audition needed",
+    "sheets": [
+      "mouth_synced_src2.2-5.0s_native30_everyframe.jpg",
+      "mouth_base_src2.2-5.0s_every4.jpg",
+      "mouth_synced_src0-2.3s_every3.jpg",
+      "mouth_synced_src5-8s_every6.jpg",
+      "contact_synced_every10_native.jpg"
+    ],
+    "not_done": [
+      "no Flow",
+      "no retry",
+      "no assembly",
+      "no FX",
+      "no cut changes",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

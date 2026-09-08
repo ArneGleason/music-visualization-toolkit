@@ -2,6 +2,8 @@
 
 ## rockets_landing_wide — landing, not explosion
 
+Update: owner now requests the landing replacement plus lip sync, while accepting the preceding orbital descent unchanged. Handoff prepared at out/rocket_landing_retry_v1/CLAUDE_HANDOFF.md and handoff.json, not submitted by Codex. Preserve helmet/plain suit, taper engines to cutoff at touchdown, retain low outward dust without the rising boiling cloud. Base quality gate before Kling. The first8second candidate does not solve the entire older landing run; later coverage remains to be planned. Historical deferred notes below are superseded for this bounded test.
+
 Owner requested a future replacement; do not generate yet. Current take:
 `clips/raw/rockets_landing_wide_v6.mp4`, used by s036–s039 in the current shotlist.
 The upper-body smoke/fire makes the rockets appear to explode or burn up.

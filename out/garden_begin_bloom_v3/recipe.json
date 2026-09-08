@@ -1,0 +1,370 @@
+{
+  "status": "owner_review_pending",
+  "song_frames": [
+    1786,
+    1854
+  ],
+  "source_frames": [
+    66,
+    134
+  ],
+  "source": "clips/raw/forest_awakening_frontal_v6.mp4",
+  "preview_song_frames": [
+    1710,
+    1854
+  ],
+  "preview_frames": 144,
+  "begin_frame": 1828,
+  "method": "Original generated pollen release aligned to begin by source selection, not time stretching. Existing lantern/flower response and excited green guide reapplied at original song-time cues.",
+  "mastering": false,
+  "audio": "master once; source audio discarded",
+  "processed_handles": 0,
+  "diagnostics": [
+    {
+      "song_frame": 1786,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.023082133382558823
+    },
+    {
+      "song_frame": 1787,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.03148889169096947
+    },
+    {
+      "song_frame": 1788,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.04154408723115921
+    },
+    {
+      "song_frame": 1789,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.053105514496564865
+    },
+    {
+      "song_frame": 1790,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.06591017544269562
+    },
+    {
+      "song_frame": 1791,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.0796058177947998
+    },
+    {
+      "song_frame": 1792,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.09379884600639343
+    },
+    {
+      "song_frame": 1793,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.10810788720846176
+    },
+    {
+      "song_frame": 1794,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.1222110316157341
+    },
+    {
+      "song_frame": 1795,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.13587722182273865
+    },
+    {
+      "song_frame": 1796,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.14897754788398743
+    },
+    {
+      "song_frame": 1797,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.16147665679454803
+    },
+    {
+      "song_frame": 1798,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.17341208457946777
+    },
+    {
+      "song_frame": 1799,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.18486623466014862
+    },
+    {
+      "song_frame": 1800,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.19594040513038635
+    },
+    {
+      "song_frame": 1801,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.2067350298166275
+    },
+    {
+      "song_frame": 1802,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.2173365205526352
+    },
+    {
+      "song_frame": 1803,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.22781257331371307
+    },
+    {
+      "song_frame": 1804,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.2382117062807083
+    },
+    {
+      "song_frame": 1805,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.24856606125831604
+    },
+    {
+      "song_frame": 1806,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.2588960528373718
+    },
+    {
+      "song_frame": 1807,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.26921311020851135
+    },
+    {
+      "song_frame": 1808,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.2795238792896271
+    },
+    {
+      "song_frame": 1809,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.28983137011528015
+    },
+    {
+      "song_frame": 1810,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.30013638734817505
+    },
+    {
+      "song_frame": 1811,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.3104372024536133
+    },
+    {
+      "song_frame": 1812,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.3207283616065979
+    },
+    {
+      "song_frame": 1813,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.3309955298900604
+    },
+    {
+      "song_frame": 1814,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.34120795130729675
+    },
+    {
+      "song_frame": 1815,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.3513041138648987
+    },
+    {
+      "song_frame": 1816,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.36116907000541687
+    },
+    {
+      "song_frame": 1817,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.37060272693634033
+    },
+    {
+      "song_frame": 1818,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.3792817294597626
+    },
+    {
+      "song_frame": 1819,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.3867190182209015
+    },
+    {
+      "song_frame": 1820,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.392236590385437
+    },
+    {
+      "song_frame": 1821,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.39496541023254395
+    },
+    {
+      "song_frame": 1822,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.39389273524284363
+    },
+    {
+      "song_frame": 1823,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.387967973947525
+    },
+    {
+      "song_frame": 1824,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.3762659728527069
+    },
+    {
+      "song_frame": 1825,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.35818326473236084
+    },
+    {
+      "song_frame": 1826,
+      "begin_envelope": 0.25925925925925924,
+      "mean_wave": 0.33362799882888794
+    },
+    {
+      "song_frame": 1827,
+      "begin_envelope": 0.7407407407407407,
+      "mean_wave": 0.303148478269577
+    },
+    {
+      "song_frame": 1828,
+      "begin_envelope": 1.0,
+      "mean_wave": 0.26795512437820435
+    },
+    {
+      "song_frame": 1829,
+      "begin_envelope": 1.0,
+      "mean_wave": 0.22981075942516327
+    },
+    {
+      "song_frame": 1830,
+      "begin_envelope": 1.0,
+      "mean_wave": 0.19080454111099243
+    },
+    {
+      "song_frame": 1831,
+      "begin_envelope": 1.0,
+      "mean_wave": 0.15305456519126892
+    },
+    {
+      "song_frame": 1832,
+      "begin_envelope": 0.972,
+      "mean_wave": 0.11840926110744476
+    },
+    {
+      "song_frame": 1833,
+      "begin_envelope": 0.896,
+      "mean_wave": 0.08821752667427063
+    },
+    {
+      "song_frame": 1834,
+      "begin_envelope": 0.784,
+      "mean_wave": 0.06321127712726593
+    },
+    {
+      "song_frame": 1835,
+      "begin_envelope": 0.6479999999999999,
+      "mean_wave": 0.04351382702589035
+    },
+    {
+      "song_frame": 1836,
+      "begin_envelope": 0.5,
+      "mean_wave": 0.028750484809279442
+    },
+    {
+      "song_frame": 1837,
+      "begin_envelope": 0.352,
+      "mean_wave": 0.018218016251921654
+    },
+    {
+      "song_frame": 1838,
+      "begin_envelope": 0.21600000000000008,
+      "mean_wave": 0.011063645593822002
+    },
+    {
+      "song_frame": 1839,
+      "begin_envelope": 0.10399999999999987,
+      "mean_wave": 0.006435513496398926
+    },
+    {
+      "song_frame": 1840,
+      "begin_envelope": 0.028000000000000025,
+      "mean_wave": 0.003583753714337945
+    },
+    {
+      "song_frame": 1841,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.0019097526092082262
+    },
+    {
+      "song_frame": 1842,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.0009735064813867211
+    },
+    {
+      "song_frame": 1843,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.0004745527112390846
+    },
+    {
+      "song_frame": 1844,
+      "begin_envelope": 0.0,
+      "mean_wave": 0.0002211533865192905
+    },
+    {
+      "song_frame": 1845,
+      "begin_envelope": 0.0,
+      "mean_wave": 9.85057486104779e-05
+    },
+    {
+      "song_frame": 1846,
+      "begin_envelope": 0.0,
+      "mean_wave": 4.1927251004381105e-05
+    },
+    {
+      "song_frame": 1847,
+      "begin_envelope": 0.0,
+      "mean_wave": 1.704977694316767e-05
+    },
+    {
+      "song_frame": 1848,
+      "begin_envelope": 0.0,
+      "mean_wave": 6.623033641517395e-06
+    },
+    {
+      "song_frame": 1849,
+      "begin_envelope": 0.0,
+      "mean_wave": 2.457257551213843e-06
+    },
+    {
+      "song_frame": 1850,
+      "begin_envelope": 0.0,
+      "mean_wave": 8.70649557782599e-07
+    },
+    {
+      "song_frame": 1851,
+      "begin_envelope": 0.0,
+      "mean_wave": 2.94569389325261e-07
+    },
+    {
+      "song_frame": 1852,
+      "begin_envelope": 0.0,
+      "mean_wave": 9.515671450799346e-08
+    },
+    {
+      "song_frame": 1853,
+      "begin_envelope": 0.0,
+      "mean_wave": 2.934682541422262e-08
+    }
+  ],
+  "source_song_origin_frame": 1720,
+  "speed": 1,
+  "source_bloom_anchor_frame": 108,
+  "release_frames_after_lyric": 13,
+  "lip_sync_used": false,
+  "lip_sync_alternate": "out/garden_begin_lipsync_v1/synced.mp4"
+}

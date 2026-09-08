@@ -1,0 +1,46 @@
+{
+  "status": "owner_review_pending",
+  "preview_song_frames": [
+    1786,
+    2122
+  ],
+  "preview_frames": 336,
+  "fps": 24,
+  "new_shots": [
+    {
+      "id": "exchange_specimens_audition",
+      "song_frames": [
+        1854,
+        2016
+      ],
+      "source": "clips\\raw\\specimen_table_macro_v6.mp4",
+      "source_frames": [
+        12,
+        174
+      ],
+      "source_song_origin": 1842,
+      "physical_exit_frames": 18
+    },
+    {
+      "id": "exchange_listener_audition",
+      "song_frames": [
+        2016,
+        2122
+      ],
+      "source": "clips\\raw\\astronaut_inspect_medium_v6.mp4",
+      "source_frames": [
+        12,
+        118
+      ],
+      "source_song_origin": 2004,
+      "physical_exit_frames": 74
+    }
+  ],
+  "garden": "Approved conductor/bloom treatment, original unsynced face while Claude works.",
+  "review_cautions": [
+    "Specimen source has pronounced framing changes.",
+    "Inspection open mouth may read as surprise or speech rather than listening."
+  ],
+  "audio": "master only; original clip audio discarded",
+  "production_modified": false
+}

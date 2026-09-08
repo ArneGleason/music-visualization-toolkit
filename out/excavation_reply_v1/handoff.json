@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "test_id": "excavation_reply_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "ONE matching kneeling close-up: quoted ironic judgment becomes sincere question. Performance review BEFORE lip sync.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "model": "Veo 3.1 Quality",
+    "mode": "Frames",
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "duration_seconds": 8,
+    "outputs": 1,
+    "expected_credits": 100,
+    "stop_if_unavailable_or_cost_exceeds_expected": true
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "out/excavation_reply_v1/first_frame.png",
+      "sha256": "560f85802221135c920d32842a030e512bd1269748db81a4c0293a60f9afadf3"
+    },
+    "prompt": {
+      "file": "out/excavation_reply_v1/flow_prompt.txt",
+      "sha256": "e2e71568c4e0bf85c07c73225fc9b65bebb2f4ccb5dd5239e39894ef1fdaa721"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    }
+  },
+  "clock": {
+    "fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 2552,
+    "requested_source_frames": 192,
+    "no_audio_upload": true
+  },
+  "proposed_cut": {
+    "song_frames": [
+      2564,
+      2658
+    ],
+    "source_frames_after_timestamp_conform": [
+      12,
+      106
+    ],
+    "lead_handle_frames": 12,
+    "requested_exit_handle_frames": 86,
+    "status": "candidate, not production merge",
+    "bridge": "nine frames2564..2573 allow eye-lift before Especially; previous excavation remains2484..2564"
+  },
+  "phrases": [
+    {
+      "text": "Especially stupid.",
+      "song_frames": [
+        2573,
+        2620
+      ],
+      "source_frames": [
+        21,
+        68
+      ]
+    },
+    {
+      "text": "Can you hear",
+      "song_frames": [
+        2620,
+        2637
+      ],
+      "source_frames": [
+        68,
+        85
+      ]
+    },
+    {
+      "text": "what I meant?",
+      "song_frames": [
+        2637,
+        2658
+      ],
+      "source_frames": [
+        85,
+        106
+      ]
+    }
+  ],
+  "acting_subtext": "She quotes an old judgment against her interests, then asks sincerely to be understood. Not insulting self or fossil. Background duh is not an extra sung line; precise timing unverified.",
+  "output": {
+    "base": "out/excavation_reply_v1/base.mp4",
+    "receipt": "out/excavation_reply_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true,
+    "tool_time_counts": true
+  },
+  "assembly_guard": "No lip-sync service until performance review. No modification of accepted shop or prior specimen footage. Preserve full phrase timing; no silent loops, freezes or stretching. Next Sometimes starts2658 and is another speaker.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T19:52:00Z",
+    "receipt": "out/excavation_reply_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "original": {
+      "file": "out/excavation_reply_v1/original_5440b7cc-1c0e-4404-ba17-ba62af34a613.mp4",
+      "sha256": "d7c268d3f466277922651125dbe953d3b66897d4193d87e3d8f6dfd0d63e2ca0"
+    },
+    "base": {
+      "file": "out/excavation_reply_v1/base.mp4",
+      "sha256": "d7c268d3f466277922651125dbe953d3b66897d4193d87e3d8f6dfd0d63e2ca0",
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "stream_start": 0.0,
+      "flow_media_id": "5440b7cc-1c0e-4404-ba17-ba62af34a613",
+      "submitted_utc": "2026-09-06T19:41:03Z",
+      "ready_utc": "2026-09-06T19:42:33Z",
+      "downloaded_utc": "2026-09-06T19:43:13Z",
+      "progress_log": [
+        "19:41:33 21%",
+        "19:41:53 38%",
+        "19:42:13 55%",
+        "19:42:33 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "end_frame_used": false,
+      "first_frame_diff": 1.6,
+      "watermark": "none"
+    },
+    "camera": "locked; no cut/zoom/drift; she sits up slightly from ~3 s",
+    "gesture_timing_seconds": {
+      "gaze_at_lens_from": 0.0,
+      "singing_onset": 0.25,
+      "eyes_squeezed_shut": [
+        0.75,
+        1.25
+      ],
+      "sideways_glance": [
+        1.33,
+        1.95
+      ],
+      "eyebrow_raise": 1.4,
+      "broad_grin_silent": [
+        1.4,
+        3.1
+      ],
+      "eye_roll_up": [
+        2.0,
+        2.6
+      ],
+      "turn_to_sincerity": [
+        2.9,
+        3.25
+      ],
+      "sincere_singing": [
+        3.1,
+        4.6
+      ],
+      "mouth_settles": 4.6,
+      "tail_lip_press": [
+        6.7,
+        6.9
+      ]
+    },
+    "articulation": "open, varied, teeth visible 0.25-0.7 s and 3.1-4.6 s; frozen grin (no articulation) 1.4-3.1 s",
+    "continuity": "kneeling framing, collar, shoulders, identity, teeth consistent; no props, no hands in face, no scene change",
+    "proposed_window_verdict": "[12,106) contains the full turn; sincere half strong, ironic half overacted with a silent grin gap",
+    "usable_intervals": {
+      "clean": [
+        70,
+        192
+      ],
+      "conditional_on_owner": [
+        0,
+        70
+      ]
+    },
+    "defects": [
+      "singing starts 0.25 s (early)",
+      "eyes squeezed shut 0.75-1.25 s",
+      "broad toothy grin + eye-roll 1.4-3.1 s (mugging)",
+      "silent mouth 1.4-3.1 s over \"stupid\"",
+      "sincere onset 3.1 s vs 2.83 target, end 4.6 vs 4.42",
+      "sits up slightly; tiny lip motion 6.7-6.9 s"
+    ],
+    "sheets": [
+      "contact_every6.jpg",
+      "crop_mouth_0-4.6s_every2.jpg",
+      "crop_face_0-4.6s_every4.jpg",
+      "crop_mouth_4.6-8s_every8.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no audio",
+      "no retry",
+      "no assembly",
+      "no FX",
+      "no production edits",
+      "no commit",
+      "no owner approval claimed"
+    ]
+  }
+}

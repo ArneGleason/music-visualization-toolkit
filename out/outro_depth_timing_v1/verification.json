@@ -1,0 +1,15 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "r_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  ],
+  "single_frame_resolution_check": {
+    "frame": 11,
+    "720_vs_downsampled_1080_mean_abs_code_difference": 1.1694133391203703,
+    "scope": "single composite frame only; not full animation certification"
+  }
+}

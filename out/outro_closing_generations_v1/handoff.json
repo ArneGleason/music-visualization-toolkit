@@ -1,0 +1,65 @@
+{
+  "status": "partial_A3_done_B3_base_needs_owner_review",
+  "task": "Two closing performances, A3 then B3; at most one Flow and one gated Kling per take.",
+  "jobs": [
+    {
+      "take": "A3",
+      "manifest": "out/outro_closing_generations_v1/A3/handoff.json",
+      "status": "claude_done_ready_for_codex_verification",
+      "flow_media_id": "13794e3e-2597-46d9-865c-fb46c77a48a3",
+      "kling": "not submitted",
+      "kling_job_id": "590"
+    },
+    {
+      "take": "B3",
+      "manifest": "out/outro_closing_generations_v1/B3/handoff.json",
+      "status": "base_needs_owner_review",
+      "flow_media_id": "8ee4df62-654b-4be9-a844-5fd57b04efbd",
+      "kling": "not submitted",
+      "flow_media_ids": [
+        "8ee4df62-654b-4be9-a844-5fd57b04efbd (take1)",
+        "8bf94ffa-1aaf-42b1-990b-bb0e42255e3e (take2, current base)"
+      ]
+    }
+  ],
+  "authorization": {
+    "max_flow_total": 2,
+    "max_kling_total": 2,
+    "no_automatic_retries": true,
+    "no_other_generations": true
+  },
+  "settings": {
+    "flow": "Veo3.1 Quality, Frames,16:9,720p,8seconds,x1; start frame only; no audio/end frame",
+    "kling": "Lip Sync, sole woman, own guide Local Dubbing0..8seconds at0:00, Sound from Video OFF"
+  },
+  "cost": "Expected100Flow+10Kling per take,220credits total maximum estimate. Check UI, stop if higher or unavailable. No purchases/upgrades.",
+  "polling": {
+    "first_check_seconds": 30,
+    "interval_seconds": 20,
+    "near90percent_seconds": 10,
+    "count_tool_time": true,
+    "respect_rate_limits": true,
+    "no_exponential_backoff": true
+  },
+  "return": "Preserve originals and byte-identical base/synced; write per-take RECEIPT with hashes, native metadata/settings/costs/job IDs and review observations; add claude_result and completed status to each child. Parent done only after both complete. Do not modify old takes, assembly, FX, title, music or Git.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T18:30:00Z",
+    "flow_submissions": 3,
+    "kling_submissions": 1,
+    "credits": {
+      "flow": 300,
+      "kling": 10,
+      "kling_balance": 311
+    },
+    "owner_authorizations": [
+      "accept A3 base and run Kling",
+      "one B3 Flow retry with prompt edit"
+    ],
+    "summary": "A3 complete (Kling 590; cuts 1 and 3 usable, cut 2 half). B3: two Flow takes, both fail the final Night cut (head turned to the light control, mouth closed); take 2 is lit and frontal to 6.5 s. Kling withheld on B3; owner to choose.",
+    "receipts": [
+      "out/outro_closing_generations_v1/A3/RECEIPT.md",
+      "out/outro_closing_generations_v1/B3/RECEIPT.md",
+      "out/outro_closing_generations_v1/B3/take1/RECEIPT.md"
+    ]
+  }
+}

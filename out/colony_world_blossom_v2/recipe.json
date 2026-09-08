@@ -1,0 +1,935 @@
+{
+  "status": "owner_approved; full-film integration pending",
+  "song_frames": [
+    2271,
+    2399
+  ],
+  "source_frames": [
+    12,
+    140
+  ],
+  "preview_song_frames": [
+    2233,
+    2399
+  ],
+  "method": "Independent cyan vocal and amber guitar deformation in radius and out-of-plane depth; counter-phase breathing, stronger bloom. Three revolutions with smooth acceleration/deceleration on spin..around, six temporal samples over .84frame shutter; reduced persistence while spinning and sparse departing sparks.",
+  "entries": [
+    2308,
+    2315
+  ],
+  "formation": [
+    2330,
+    2364
+  ],
+  "spin": [
+    2366,
+    2399
+  ],
+  "stem_offset_seconds": 0.178348,
+  "diagnostics": [
+    {
+      "song_frame": 2271,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2272,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2273,
+      "vocal_level": 0.9082546746932281,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2274,
+      "vocal_level": 0.6539433657791242,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2275,
+      "vocal_level": 0.6400083863139027,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2276,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2277,
+      "vocal_level": 0.8713472471396935,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2278,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2279,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2280,
+      "vocal_level": 0.72,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2281,
+      "vocal_level": 0.9075235278477982,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2282,
+      "vocal_level": 0.7426183533278838,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2283,
+      "vocal_level": 0.5346852143960763,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2284,
+      "vocal_level": 0.733853274608204,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2285,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2286,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2287,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2288,
+      "vocal_level": 0.72,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2289,
+      "vocal_level": 0.5184,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2290,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2291,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2292,
+      "vocal_level": 0.8051570131853635,
+      "guitar_level": 0.9270505550699806,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2293,
+      "vocal_level": 1,
+      "guitar_level": 0.6489353885489864,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2294,
+      "vocal_level": 1,
+      "guitar_level": 0.45425477198429043,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2295,
+      "vocal_level": 1,
+      "guitar_level": 0.3179783403890033,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2296,
+      "vocal_level": 0.8368367980738686,
+      "guitar_level": 0.2225848382723023,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2297,
+      "vocal_level": 0.8641124555901963,
+      "guitar_level": 0.1558093867906116,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2298,
+      "vocal_level": 0.8724963420762142,
+      "guitar_level": 0.10906657075342811,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2299,
+      "vocal_level": 0.8433911060376039,
+      "guitar_level": 0.07634659952739968,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2300,
+      "vocal_level": 0.6983685926485345,
+      "guitar_level": 0.05344261966917977,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2301,
+      "vocal_level": 0.7281452694042221,
+      "guitar_level": 0.03740983376842584,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2302,
+      "vocal_level": 0.6762237966012713,
+      "guitar_level": 0.026186883637898086,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2303,
+      "vocal_level": 0.7800061558446522,
+      "guitar_level": 0.018330818546528658,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2304,
+      "vocal_level": 0.8616149164729513,
+      "guitar_level": 0.01283157298257006,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2305,
+      "vocal_level": 0.9191363358375382,
+      "guitar_level": 0.025914222749016436,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2306,
+      "vocal_level": 0.8050003051067159,
+      "guitar_level": 0.018139955924311505,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2307,
+      "vocal_level": 0.8862777969160772,
+      "guitar_level": 0.012697969147018052,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2308,
+      "vocal_level": 0.9123870446223923,
+      "guitar_level": 0.008888578402912637,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2309,
+      "vocal_level": 0.8580087280097582,
+      "guitar_level": 0.011126993297035433,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2310,
+      "vocal_level": 1,
+      "guitar_level": 0.0077888953079248025,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2311,
+      "vocal_level": 1,
+      "guitar_level": 0.005452226715547361,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2312,
+      "vocal_level": 1,
+      "guitar_level": 0.0038165587008831526,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2313,
+      "vocal_level": 1,
+      "guitar_level": 0.0026715910906182066,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2314,
+      "vocal_level": 0.7995182243191169,
+      "guitar_level": 0.0018701137634327444,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2315,
+      "vocal_level": 0.8143310399400477,
+      "guitar_level": 0.001309079634402921,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2316,
+      "vocal_level": 0.8801586742170442,
+      "guitar_level": 0.0009163557440820446,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2317,
+      "vocal_level": 1,
+      "guitar_level": 0.0006414490208574311,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2318,
+      "vocal_level": 1,
+      "guitar_level": 0.00044901431460020176,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2319,
+      "vocal_level": 1,
+      "guitar_level": 0.0003143100202201412,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2320,
+      "vocal_level": 1,
+      "guitar_level": 0.00022001701415409882,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2321,
+      "vocal_level": 0.72,
+      "guitar_level": 0.00015401190990786917,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2322,
+      "vocal_level": 0.8163102339308795,
+      "guitar_level": 0.0001078083369355084,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2323,
+      "vocal_level": 1,
+      "guitar_level": 0.00014509454345548744,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2324,
+      "vocal_level": 1,
+      "guitar_level": 0.00013901541224440664,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2325,
+      "vocal_level": 1,
+      "guitar_level": 0.0001001561689325922,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2326,
+      "vocal_level": 1,
+      "guitar_level": 0.00013469061896971194,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2327,
+      "vocal_level": 1,
+      "guitar_level": 0.00017639338913025165,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2328,
+      "vocal_level": 1,
+      "guitar_level": 0.00012347537239117614,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2329,
+      "vocal_level": 0.9516684277777415,
+      "guitar_level": 0.00013845790990616206,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2330,
+      "vocal_level": 0.8968363524088716,
+      "guitar_level": 0.0001745218462904764,
+      "formation": 0.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2331,
+      "vocal_level": 1,
+      "guitar_level": 0.0001221652924033335,
+      "formation": 0.00254427030327702,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2332,
+      "vocal_level": 1,
+      "guitar_level": 0.00012583098987413186,
+      "formation": 0.00997353958884592,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2333,
+      "vocal_level": 1,
+      "guitar_level": 0.00010800237919363188,
+      "formation": 0.02198249542031346,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2334,
+      "vocal_level": 0.72,
+      "guitar_level": 0.00016347839795222995,
+      "formation": 0.038265825361286386,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2335,
+      "vocal_level": 1,
+      "guitar_level": 0.00015747760981869708,
+      "formation": 0.05851821697537147,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2336,
+      "vocal_level": 1,
+      "guitar_level": 0.00020028820884531438,
+      "formation": 0.08243435782617546,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2337,
+      "vocal_level": 1,
+      "guitar_level": 0.0002787777758456265,
+      "formation": 0.1097089354773051,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2338,
+      "vocal_level": 1,
+      "guitar_level": 0.00046887008247007155,
+      "formation": 0.1400366374923672,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2339,
+      "vocal_level": 1,
+      "guitar_level": 0.000438387697263863,
+      "formation": 0.17311215143496847,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2340,
+      "vocal_level": 0.9246075010434627,
+      "guitar_level": 0.0003068713880847041,
+      "formation": 0.20863016486871566,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2341,
+      "vocal_level": 0.7481660257560984,
+      "guitar_level": 0.00026029923495811446,
+      "formation": 0.24628536535721557,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2342,
+      "vocal_level": 0.7760678922447521,
+      "guitar_level": 0.0015933775522254635,
+      "formation": 0.2857724404640749,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2343,
+      "vocal_level": 0.6674883741834335,
+      "guitar_level": 0.4337202241826337,
+      "formation": 0.3267860777529005,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2344,
+      "vocal_level": 0.6878233050485619,
+      "guitar_level": 1,
+      "formation": 0.369020964787299,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2345,
+      "vocal_level": 0.6905025802055051,
+      "guitar_level": 1,
+      "formation": 0.41217178913087726,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2346,
+      "vocal_level": 0.6880853450728065,
+      "guitar_level": 1,
+      "formation": 0.455933238347242,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2347,
+      "vocal_level": 0.7846108465364159,
+      "guitar_level": 1,
+      "formation": 0.5,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2348,
+      "vocal_level": 0.946516656260493,
+      "guitar_level": 1,
+      "formation": 0.544066761652758,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2349,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.5878282108691227,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2350,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.630979035212701,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2351,
+      "vocal_level": 0.774563345259002,
+      "guitar_level": 1,
+      "formation": 0.6732139222470995,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2352,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.7142275595359251,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2353,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.7537146346427845,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2354,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.7913698351312844,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2355,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.8268878485650317,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2356,
+      "vocal_level": 1,
+      "guitar_level": 0.7661996247176717,
+      "formation": 0.8599633625076328,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2357,
+      "vocal_level": 1,
+      "guitar_level": 0.7960722448147305,
+      "formation": 0.8902910645226949,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2358,
+      "vocal_level": 0.9978053350879844,
+      "guitar_level": 0.9273461937322418,
+      "formation": 0.9175656421738245,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2359,
+      "vocal_level": 0.7184198412633488,
+      "guitar_level": 1,
+      "formation": 0.9414817830246286,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2360,
+      "vocal_level": 0.9706702264227148,
+      "guitar_level": 0.9401338344592115,
+      "formation": 0.9617341746387136,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2361,
+      "vocal_level": 1,
+      "guitar_level": 0.9468941780651882,
+      "formation": 0.9780175045796865,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2362,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 0.9900264604111542,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2363,
+      "vocal_level": 0.7302803338077026,
+      "guitar_level": 1,
+      "formation": 0.9974557296967229,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2364,
+      "vocal_level": 0.5485036428452486,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2365,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2366,
+      "vocal_level": 0.9533185553577079,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 0.0
+    },
+    {
+      "song_frame": 2367,
+      "vocal_level": 0.7411040373934703,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 0.050878117939429
+    },
+    {
+      "song_frame": 2368,
+      "vocal_level": 0.5335949069232986,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 0.19931633831941256
+    },
+    {
+      "song_frame": 2369,
+      "vocal_level": 0.9591498059005523,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 0.43902046098249553
+    },
+    {
+      "song_frame": 2370,
+      "vocal_level": 1,
+      "guitar_level": 0.9968678071277411,
+      "formation": 1.0,
+      "spin_radians": 0.763696285771223
+    },
+    {
+      "song_frame": 2371,
+      "vocal_level": 0.9058956784628778,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 1.167049612528139
+    },
+    {
+      "song_frame": 2372,
+      "vocal_level": 0.9262663952623104,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 1.6427862410957896
+    },
+    {
+      "song_frame": 2373,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 2.184611971316719
+    },
+    {
+      "song_frame": 2374,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 2.7862326030334725
+    },
+    {
+      "song_frame": 2375,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 3.441353936088593
+    },
+    {
+      "song_frame": 2376,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 4.14368177032463
+    },
+    {
+      "song_frame": 2377,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 4.886921905584122
+    },
+    {
+      "song_frame": 2378,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 5.664780141709619
+    },
+    {
+      "song_frame": 2379,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 6.470962278543664
+    },
+    {
+      "song_frame": 2380,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 7.299174115928803
+    },
+    {
+      "song_frame": 2381,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 8.143121453707577
+    },
+    {
+      "song_frame": 2382,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 8.996510091722538
+    },
+    {
+      "song_frame": 2383,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 9.853045829816223
+    },
+    {
+      "song_frame": 2384,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 10.70643446783118
+    },
+    {
+      "song_frame": 2385,
+      "vocal_level": 0.72,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 11.550381805609957
+    },
+    {
+      "song_frame": 2386,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 12.378593642995094
+    },
+    {
+      "song_frame": 2387,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 13.18477577982914
+    },
+    {
+      "song_frame": 2388,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 13.962634015954634
+    },
+    {
+      "song_frame": 2389,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 14.70587415121413
+    },
+    {
+      "song_frame": 2390,
+      "vocal_level": 0.9761302852957685,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 15.408201985450164
+    },
+    {
+      "song_frame": 2391,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 16.063323318505283
+    },
+    {
+      "song_frame": 2392,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 16.66494395022204
+    },
+    {
+      "song_frame": 2393,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 17.20676968044297
+    },
+    {
+      "song_frame": 2394,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 17.68250630901062
+    },
+    {
+      "song_frame": 2395,
+      "vocal_level": 0.8317330722555992,
+      "guitar_level": 0.9921610085470566,
+      "formation": 1.0,
+      "spin_radians": 18.085859635767537
+    },
+    {
+      "song_frame": 2396,
+      "vocal_level": 0.9092185246616032,
+      "guitar_level": 0.9383681214243491,
+      "formation": 1.0,
+      "spin_radians": 18.41053546055626
+    },
+    {
+      "song_frame": 2397,
+      "vocal_level": 1,
+      "guitar_level": 1,
+      "formation": 1.0,
+      "spin_radians": 18.650239583219346
+    },
+    {
+      "song_frame": 2398,
+      "vocal_level": 1,
+      "guitar_level": 0.978129218530291,
+      "formation": 1.0,
+      "spin_radians": 18.79867780359933
+    }
+  ],
+  "mastering": false,
+  "drivers": {
+    "cyan": "restored lead vocal",
+    "amber": "restored guitar"
+  },
+  "spin_turns": 3,
+  "temporal_samples_fast": 6,
+  "shutter_frames": 0.84
+}

@@ -1,0 +1,978 @@
+{
+  "status": "owner_review_pending",
+  "song_frames": [
+    2016,
+    2122
+  ],
+  "source": "out/specimen_discovery_v1/base.mp4",
+  "source_frames": [
+    12,
+    118
+  ],
+  "source_origin": 2004,
+  "preview_song_frames": [
+    1973,
+    2199
+  ],
+  "method": "Per-frame warm structure masks and centroid-following circulating highlight; vocal RMS attack/release, acquisition2062..2070, fuller2087 response. Neutral foreground glove exclusion. Approximate colour-based occlusion, not a solved3D track or manual roto.",
+  "vocal_stem": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+  "stem_offset_seconds": 0.178348,
+  "mastering": false,
+  "handles_rendered": 0,
+  "diagnostics": [
+    {
+      "song_frame": 2016,
+      "vocal_envelope": 0.002698860364034772,
+      "mask_mass": 4586.50439453125,
+      "visible_light_centroid": [
+        825.9488525390625,
+        254.5988006591797
+      ]
+    },
+    {
+      "song_frame": 2017,
+      "vocal_envelope": 0.0018352250335738063,
+      "mask_mass": 4319.7841796875,
+      "visible_light_centroid": [
+        825.8583374023438,
+        255.59619140625
+      ]
+    },
+    {
+      "song_frame": 2018,
+      "vocal_envelope": 0.0012479530414566398,
+      "mask_mass": 4347.93896484375,
+      "visible_light_centroid": [
+        829.0643920898438,
+        255.42283630371094
+      ]
+    },
+    {
+      "song_frame": 2019,
+      "vocal_envelope": 0.4781770706176758,
+      "mask_mass": 4179.68896484375,
+      "visible_light_centroid": [
+        829.9718017578125,
+        257.7575378417969
+      ]
+    },
+    {
+      "song_frame": 2020,
+      "vocal_envelope": 0.6005299091339111,
+      "mask_mass": 3902.575439453125,
+      "visible_light_centroid": [
+        830.9327392578125,
+        257.5401916503906
+      ]
+    },
+    {
+      "song_frame": 2021,
+      "vocal_envelope": 0.8535066246986389,
+      "mask_mass": 3719.367431640625,
+      "visible_light_centroid": [
+        830.2859497070312,
+        259.19659423828125
+      ]
+    },
+    {
+      "song_frame": 2022,
+      "vocal_envelope": 0.8963010907173157,
+      "mask_mass": 3597.936767578125,
+      "visible_light_centroid": [
+        830.5738525390625,
+        260.124755859375
+      ]
+    },
+    {
+      "song_frame": 2023,
+      "vocal_envelope": 0.8042075037956238,
+      "mask_mass": 3504.750244140625,
+      "visible_light_centroid": [
+        830.7931518554688,
+        261.31329345703125
+      ]
+    },
+    {
+      "song_frame": 2024,
+      "vocal_envelope": 0.7935348153114319,
+      "mask_mass": 3489.22119140625,
+      "visible_light_centroid": [
+        830.7681274414062,
+        260.9659729003906
+      ]
+    },
+    {
+      "song_frame": 2025,
+      "vocal_envelope": 0.8270791172981262,
+      "mask_mass": 3522.67578125,
+      "visible_light_centroid": [
+        830.0927734375,
+        260.5666809082031
+      ]
+    },
+    {
+      "song_frame": 2026,
+      "vocal_envelope": 0.6294963359832764,
+      "mask_mass": 3714.090087890625,
+      "visible_light_centroid": [
+        829.3899536132812,
+        259.6080322265625
+      ]
+    },
+    {
+      "song_frame": 2027,
+      "vocal_envelope": 0.5115837454795837,
+      "mask_mass": 3808.3388671875,
+      "visible_light_centroid": [
+        829.1533813476562,
+        258.87225341796875
+      ]
+    },
+    {
+      "song_frame": 2028,
+      "vocal_envelope": 0.5054003596305847,
+      "mask_mass": 3957.48681640625,
+      "visible_light_centroid": [
+        828.8983154296875,
+        257.37738037109375
+      ]
+    },
+    {
+      "song_frame": 2029,
+      "vocal_envelope": 1.0,
+      "mask_mass": 4173.27001953125,
+      "visible_light_centroid": [
+        829.2845458984375,
+        255.75909423828125
+      ]
+    },
+    {
+      "song_frame": 2030,
+      "vocal_envelope": 0.8592321276664734,
+      "mask_mass": 4440.25244140625,
+      "visible_light_centroid": [
+        829.64404296875,
+        254.4915008544922
+      ]
+    },
+    {
+      "song_frame": 2031,
+      "vocal_envelope": 1.0,
+      "mask_mass": 4543.134765625,
+      "visible_light_centroid": [
+        829.4307250976562,
+        254.15512084960938
+      ]
+    },
+    {
+      "song_frame": 2032,
+      "vocal_envelope": 1.0,
+      "mask_mass": 4739.9619140625,
+      "visible_light_centroid": [
+        828.909423828125,
+        253.99346923828125
+      ]
+    },
+    {
+      "song_frame": 2033,
+      "vocal_envelope": 0.8956575393676758,
+      "mask_mass": 4949.72265625,
+      "visible_light_centroid": [
+        827.2822265625,
+        253.60565185546875
+      ]
+    },
+    {
+      "song_frame": 2034,
+      "vocal_envelope": 1.0,
+      "mask_mass": 5053.5400390625,
+      "visible_light_centroid": [
+        825.3656005859375,
+        253.99420166015625
+      ]
+    },
+    {
+      "song_frame": 2035,
+      "vocal_envelope": 0.7279195785522461,
+      "mask_mass": 5191.6328125,
+      "visible_light_centroid": [
+        823.767333984375,
+        253.8762969970703
+      ]
+    },
+    {
+      "song_frame": 2036,
+      "vocal_envelope": 0.49498531222343445,
+      "mask_mass": 5084.37060546875,
+      "visible_light_centroid": [
+        823.0958251953125,
+        253.43453979492188
+      ]
+    },
+    {
+      "song_frame": 2037,
+      "vocal_envelope": 0.5999017357826233,
+      "mask_mass": 5039.1298828125,
+      "visible_light_centroid": [
+        823.0877685546875,
+        253.7662353515625
+      ]
+    },
+    {
+      "song_frame": 2038,
+      "vocal_envelope": 0.8754203915596008,
+      "mask_mass": 5060.6025390625,
+      "visible_light_centroid": [
+        823.7044677734375,
+        254.21728515625
+      ]
+    },
+    {
+      "song_frame": 2039,
+      "vocal_envelope": 1.0,
+      "mask_mass": 4992.63427734375,
+      "visible_light_centroid": [
+        824.054931640625,
+        254.73419189453125
+      ]
+    },
+    {
+      "song_frame": 2040,
+      "vocal_envelope": 0.9998592138290405,
+      "mask_mass": 5020.27783203125,
+      "visible_light_centroid": [
+        823.9456176757812,
+        255.4674835205078
+      ]
+    },
+    {
+      "song_frame": 2041,
+      "vocal_envelope": 0.9581326246261597,
+      "mask_mass": 5063.916015625,
+      "visible_light_centroid": [
+        822.8201293945312,
+        256.0920715332031
+      ]
+    },
+    {
+      "song_frame": 2042,
+      "vocal_envelope": 0.6515302062034607,
+      "mask_mass": 5090.84521484375,
+      "visible_light_centroid": [
+        820.8861694335938,
+        256.965087890625
+      ]
+    },
+    {
+      "song_frame": 2043,
+      "vocal_envelope": 0.44304054975509644,
+      "mask_mass": 5085.96875,
+      "visible_light_centroid": [
+        817.75439453125,
+        257.82952880859375
+      ]
+    },
+    {
+      "song_frame": 2044,
+      "vocal_envelope": 0.3118400275707245,
+      "mask_mass": 5276.72021484375,
+      "visible_light_centroid": [
+        813.563720703125,
+        257.2782897949219
+      ]
+    },
+    {
+      "song_frame": 2045,
+      "vocal_envelope": 0.4929123818874359,
+      "mask_mass": 5368.00146484375,
+      "visible_light_centroid": [
+        809.8905029296875,
+        256.94256591796875
+      ]
+    },
+    {
+      "song_frame": 2046,
+      "vocal_envelope": 0.5033694505691528,
+      "mask_mass": 5255.220703125,
+      "visible_light_centroid": [
+        807.6713256835938,
+        256.9425048828125
+      ]
+    },
+    {
+      "song_frame": 2047,
+      "vocal_envelope": 0.7489421367645264,
+      "mask_mass": 5033.83837890625,
+      "visible_light_centroid": [
+        805.9216918945312,
+        257.77020263671875
+      ]
+    },
+    {
+      "song_frame": 2048,
+      "vocal_envelope": 0.7451215386390686,
+      "mask_mass": 4766.142578125,
+      "visible_light_centroid": [
+        806.5877685546875,
+        257.8354187011719
+      ]
+    },
+    {
+      "song_frame": 2049,
+      "vocal_envelope": 0.7564299702644348,
+      "mask_mass": 4216.1923828125,
+      "visible_light_centroid": [
+        808.7645874023438,
+        258.28533935546875
+      ]
+    },
+    {
+      "song_frame": 2050,
+      "vocal_envelope": 0.7026508450508118,
+      "mask_mass": 3744.059814453125,
+      "visible_light_centroid": [
+        811.1074829101562,
+        258.20465087890625
+      ]
+    },
+    {
+      "song_frame": 2051,
+      "vocal_envelope": 0.7681528925895691,
+      "mask_mass": 3361.599853515625,
+      "visible_light_centroid": [
+        812.2275390625,
+        258.40106201171875
+      ]
+    },
+    {
+      "song_frame": 2052,
+      "vocal_envelope": 0.6608217358589172,
+      "mask_mass": 2595.221923828125,
+      "visible_light_centroid": [
+        815.2213134765625,
+        258.65338134765625
+      ]
+    },
+    {
+      "song_frame": 2053,
+      "vocal_envelope": 0.4493587911128998,
+      "mask_mass": 2018.56884765625,
+      "visible_light_centroid": [
+        821.2664184570312,
+        247.75735473632812
+      ]
+    },
+    {
+      "song_frame": 2054,
+      "vocal_envelope": 0.6071774959564209,
+      "mask_mass": 2007.2183837890625,
+      "visible_light_centroid": [
+        822.2418823242188,
+        238.8149871826172
+      ]
+    },
+    {
+      "song_frame": 2055,
+      "vocal_envelope": 0.5464350581169128,
+      "mask_mass": 2180.58056640625,
+      "visible_light_centroid": [
+        821.8660888671875,
+        237.03150939941406
+      ]
+    },
+    {
+      "song_frame": 2056,
+      "vocal_envelope": 0.37157583236694336,
+      "mask_mass": 2669.06884765625,
+      "visible_light_centroid": [
+        822.37451171875,
+        240.28016662597656
+      ]
+    },
+    {
+      "song_frame": 2057,
+      "vocal_envelope": 0.25267156958580017,
+      "mask_mass": 3804.586669921875,
+      "visible_light_centroid": [
+        819.1220703125,
+        248.3962860107422
+      ]
+    },
+    {
+      "song_frame": 2058,
+      "vocal_envelope": 0.8950221538543701,
+      "mask_mass": 4511.68603515625,
+      "visible_light_centroid": [
+        816.3753051757812,
+        252.3218536376953
+      ]
+    },
+    {
+      "song_frame": 2059,
+      "vocal_envelope": 0.8669836521148682,
+      "mask_mass": 4766.63623046875,
+      "visible_light_centroid": [
+        815.37353515625,
+        252.867919921875
+      ]
+    },
+    {
+      "song_frame": 2060,
+      "vocal_envelope": 0.9262994527816772,
+      "mask_mass": 4512.25244140625,
+      "visible_light_centroid": [
+        817.0247802734375,
+        252.29383850097656
+      ]
+    },
+    {
+      "song_frame": 2061,
+      "vocal_envelope": 0.6298836469650269,
+      "mask_mass": 3471.402587890625,
+      "visible_light_centroid": [
+        822.6580200195312,
+        246.99928283691406
+      ]
+    },
+    {
+      "song_frame": 2062,
+      "vocal_envelope": 0.5659043788909912,
+      "mask_mass": 2709.608642578125,
+      "visible_light_centroid": [
+        826.0037231445312,
+        239.44374084472656
+      ]
+    },
+    {
+      "song_frame": 2063,
+      "vocal_envelope": 0.6878743171691895,
+      "mask_mass": 2409.687255859375,
+      "visible_light_centroid": [
+        826.1897583007812,
+        236.11534118652344
+      ]
+    },
+    {
+      "song_frame": 2064,
+      "vocal_envelope": 1.0,
+      "mask_mass": 2409.920166015625,
+      "visible_light_centroid": [
+        826.2304077148438,
+        235.70005798339844
+      ]
+    },
+    {
+      "song_frame": 2065,
+      "vocal_envelope": 0.7692484259605408,
+      "mask_mass": 2749.702392578125,
+      "visible_light_centroid": [
+        826.8246459960938,
+        238.14120483398438
+      ]
+    },
+    {
+      "song_frame": 2066,
+      "vocal_envelope": 0.7013047337532043,
+      "mask_mass": 3555.385009765625,
+      "visible_light_centroid": [
+        825.6356811523438,
+        244.43563842773438
+      ]
+    },
+    {
+      "song_frame": 2067,
+      "vocal_envelope": 0.47688722610473633,
+      "mask_mass": 4772.9736328125,
+      "visible_light_centroid": [
+        822.4918823242188,
+        248.2080078125
+      ]
+    },
+    {
+      "song_frame": 2068,
+      "vocal_envelope": 0.32428333163261414,
+      "mask_mass": 5569.05126953125,
+      "visible_light_centroid": [
+        821.65771484375,
+        248.72463989257812
+      ]
+    },
+    {
+      "song_frame": 2069,
+      "vocal_envelope": 0.40238523483276367,
+      "mask_mass": 5446.572265625,
+      "visible_light_centroid": [
+        822.5940551757812,
+        247.34703063964844
+      ]
+    },
+    {
+      "song_frame": 2070,
+      "vocal_envelope": 0.27362197637557983,
+      "mask_mass": 5493.9873046875,
+      "visible_light_centroid": [
+        824.4050903320312,
+        246.1668701171875
+      ]
+    },
+    {
+      "song_frame": 2071,
+      "vocal_envelope": 0.34060928225517273,
+      "mask_mass": 5419.05908203125,
+      "visible_light_centroid": [
+        826.0120239257812,
+        245.53880310058594
+      ]
+    },
+    {
+      "song_frame": 2072,
+      "vocal_envelope": 0.8358697891235352,
+      "mask_mass": 5422.259765625,
+      "visible_light_centroid": [
+        827.3806762695312,
+        244.66392517089844
+      ]
+    },
+    {
+      "song_frame": 2073,
+      "vocal_envelope": 1.0,
+      "mask_mass": 5371.57373046875,
+      "visible_light_centroid": [
+        827.255126953125,
+        244.6107177734375
+      ]
+    },
+    {
+      "song_frame": 2074,
+      "vocal_envelope": 0.9756386876106262,
+      "mask_mass": 5363.892578125,
+      "visible_light_centroid": [
+        826.9603271484375,
+        244.63771057128906
+      ]
+    },
+    {
+      "song_frame": 2075,
+      "vocal_envelope": 0.9843578934669495,
+      "mask_mass": 5400.7060546875,
+      "visible_light_centroid": [
+        826.4285888671875,
+        244.6752471923828
+      ]
+    },
+    {
+      "song_frame": 2076,
+      "vocal_envelope": 0.9535651206970215,
+      "mask_mass": 5279.95703125,
+      "visible_light_centroid": [
+        825.5910034179688,
+        245.53965759277344
+      ]
+    },
+    {
+      "song_frame": 2077,
+      "vocal_envelope": 0.8721481561660767,
+      "mask_mass": 5295.7783203125,
+      "visible_light_centroid": [
+        824.4793090820312,
+        245.70970153808594
+      ]
+    },
+    {
+      "song_frame": 2078,
+      "vocal_envelope": 0.832227349281311,
+      "mask_mass": 5308.0166015625,
+      "visible_light_centroid": [
+        823.4071655273438,
+        246.09210205078125
+      ]
+    },
+    {
+      "song_frame": 2079,
+      "vocal_envelope": 0.7784730792045593,
+      "mask_mass": 5201.04150390625,
+      "visible_light_centroid": [
+        822.2587890625,
+        246.52490234375
+      ]
+    },
+    {
+      "song_frame": 2080,
+      "vocal_envelope": 0.5293617248535156,
+      "mask_mass": 5201.7099609375,
+      "visible_light_centroid": [
+        821.2699584960938,
+        246.68186950683594
+      ]
+    },
+    {
+      "song_frame": 2081,
+      "vocal_envelope": 0.359965980052948,
+      "mask_mass": 5245.2958984375,
+      "visible_light_centroid": [
+        820.2183837890625,
+        247.29832458496094
+      ]
+    },
+    {
+      "song_frame": 2082,
+      "vocal_envelope": 0.2447768747806549,
+      "mask_mass": 5394.6787109375,
+      "visible_light_centroid": [
+        819.6629028320312,
+        248.4315643310547
+      ]
+    },
+    {
+      "song_frame": 2083,
+      "vocal_envelope": 0.16644828021526337,
+      "mask_mass": 5386.03271484375,
+      "visible_light_centroid": [
+        818.2764892578125,
+        249.31076049804688
+      ]
+    },
+    {
+      "song_frame": 2084,
+      "vocal_envelope": 0.11318483203649521,
+      "mask_mass": 5260.5478515625,
+      "visible_light_centroid": [
+        817.0128173828125,
+        251.30007934570312
+      ]
+    },
+    {
+      "song_frame": 2085,
+      "vocal_envelope": 0.384134978055954,
+      "mask_mass": 5180.10546875,
+      "visible_light_centroid": [
+        816.2904052734375,
+        252.2610626220703
+      ]
+    },
+    {
+      "song_frame": 2086,
+      "vocal_envelope": 0.9945505857467651,
+      "mask_mass": 5225.23876953125,
+      "visible_light_centroid": [
+        815.4266357421875,
+        252.90208435058594
+      ]
+    },
+    {
+      "song_frame": 2087,
+      "vocal_envelope": 1.0,
+      "mask_mass": 5160.16650390625,
+      "visible_light_centroid": [
+        814.0458984375,
+        253.38412475585938
+      ]
+    },
+    {
+      "song_frame": 2088,
+      "vocal_envelope": 0.7744542360305786,
+      "mask_mass": 5148.42724609375,
+      "visible_light_centroid": [
+        813.0111694335938,
+        253.24972534179688
+      ]
+    },
+    {
+      "song_frame": 2089,
+      "vocal_envelope": 0.7767289876937866,
+      "mask_mass": 5153.70751953125,
+      "visible_light_centroid": [
+        812.15185546875,
+        253.2080078125
+      ]
+    },
+    {
+      "song_frame": 2090,
+      "vocal_envelope": 1.0,
+      "mask_mass": 5181.78955078125,
+      "visible_light_centroid": [
+        811.2894897460938,
+        252.94464111328125
+      ]
+    },
+    {
+      "song_frame": 2091,
+      "vocal_envelope": 1.0,
+      "mask_mass": 5174.37744140625,
+      "visible_light_centroid": [
+        810.508056640625,
+        252.38487243652344
+      ]
+    },
+    {
+      "song_frame": 2092,
+      "vocal_envelope": 0.986724317073822,
+      "mask_mass": 5234.625,
+      "visible_light_centroid": [
+        810.26025390625,
+        252.24581909179688
+      ]
+    },
+    {
+      "song_frame": 2093,
+      "vocal_envelope": 0.7976290583610535,
+      "mask_mass": 5192.4951171875,
+      "visible_light_centroid": [
+        809.505126953125,
+        252.09710693359375
+      ]
+    },
+    {
+      "song_frame": 2094,
+      "vocal_envelope": 0.5423877835273743,
+      "mask_mass": 5127.5546875,
+      "visible_light_centroid": [
+        808.3954467773438,
+        252.5782928466797
+      ]
+    },
+    {
+      "song_frame": 2095,
+      "vocal_envelope": 0.36882370710372925,
+      "mask_mass": 5040.046875,
+      "visible_light_centroid": [
+        807.7355346679688,
+        252.65382385253906
+      ]
+    },
+    {
+      "song_frame": 2096,
+      "vocal_envelope": 0.5198193192481995,
+      "mask_mass": 4972.58740234375,
+      "visible_light_centroid": [
+        807.4713745117188,
+        252.5172119140625
+      ]
+    },
+    {
+      "song_frame": 2097,
+      "vocal_envelope": 0.8716010451316833,
+      "mask_mass": 4986.78125,
+      "visible_light_centroid": [
+        806.9495849609375,
+        252.5573272705078
+      ]
+    },
+    {
+      "song_frame": 2098,
+      "vocal_envelope": 0.5926887392997742,
+      "mask_mass": 5031.46142578125,
+      "visible_light_centroid": [
+        806.8029174804688,
+        252.9685516357422
+      ]
+    },
+    {
+      "song_frame": 2099,
+      "vocal_envelope": 0.40302833914756775,
+      "mask_mass": 5063.82080078125,
+      "visible_light_centroid": [
+        807.174072265625,
+        253.54385375976562
+      ]
+    },
+    {
+      "song_frame": 2100,
+      "vocal_envelope": 0.2740592658519745,
+      "mask_mass": 5053.318359375,
+      "visible_light_centroid": [
+        807.3499145507812,
+        254.50717163085938
+      ]
+    },
+    {
+      "song_frame": 2101,
+      "vocal_envelope": 0.8617679476737976,
+      "mask_mass": 5092.435546875,
+      "visible_light_centroid": [
+        807.503173828125,
+        255.01853942871094
+      ]
+    },
+    {
+      "song_frame": 2102,
+      "vocal_envelope": 0.9837979078292847,
+      "mask_mass": 5149.69580078125,
+      "visible_light_centroid": [
+        807.813232421875,
+        255.46072387695312
+      ]
+    },
+    {
+      "song_frame": 2103,
+      "vocal_envelope": 0.8691413998603821,
+      "mask_mass": 5108.203125,
+      "visible_light_centroid": [
+        808.2760620117188,
+        255.8560333251953
+      ]
+    },
+    {
+      "song_frame": 2104,
+      "vocal_envelope": 0.8366178870201111,
+      "mask_mass": 5129.359375,
+      "visible_light_centroid": [
+        809.4164428710938,
+        256.34625244140625
+      ]
+    },
+    {
+      "song_frame": 2105,
+      "vocal_envelope": 0.8284558653831482,
+      "mask_mass": 5126.62890625,
+      "visible_light_centroid": [
+        810.6061401367188,
+        256.8824157714844
+      ]
+    },
+    {
+      "song_frame": 2106,
+      "vocal_envelope": 0.8020768165588379,
+      "mask_mass": 5126.79638671875,
+      "visible_light_centroid": [
+        811.5142211914062,
+        257.0901794433594
+      ]
+    },
+    {
+      "song_frame": 2107,
+      "vocal_envelope": 0.8266997933387756,
+      "mask_mass": 5162.830078125,
+      "visible_light_centroid": [
+        812.2384033203125,
+        257.421630859375
+      ]
+    },
+    {
+      "song_frame": 2108,
+      "vocal_envelope": 0.7551811337471008,
+      "mask_mass": 5151.9609375,
+      "visible_light_centroid": [
+        813.0477294921875,
+        257.8633117675781
+      ]
+    },
+    {
+      "song_frame": 2109,
+      "vocal_envelope": 0.6816912293434143,
+      "mask_mass": 5155.65625,
+      "visible_light_centroid": [
+        813.6682739257812,
+        257.7993469238281
+      ]
+    },
+    {
+      "song_frame": 2110,
+      "vocal_envelope": 0.6606733798980713,
+      "mask_mass": 5160.6123046875,
+      "visible_light_centroid": [
+        813.970458984375,
+        257.7784118652344
+      ]
+    },
+    {
+      "song_frame": 2111,
+      "vocal_envelope": 0.6478622555732727,
+      "mask_mass": 5120.3994140625,
+      "visible_light_centroid": [
+        813.8125610351562,
+        258.0479736328125
+      ]
+    },
+    {
+      "song_frame": 2112,
+      "vocal_envelope": 0.6356914639472961,
+      "mask_mass": 5081.3447265625,
+      "visible_light_centroid": [
+        813.679443359375,
+        257.8554992675781
+      ]
+    },
+    {
+      "song_frame": 2113,
+      "vocal_envelope": 0.7077590227127075,
+      "mask_mass": 5047.71826171875,
+      "visible_light_centroid": [
+        813.3963623046875,
+        258.44683837890625
+      ]
+    },
+    {
+      "song_frame": 2114,
+      "vocal_envelope": 0.9538176655769348,
+      "mask_mass": 5047.93505859375,
+      "visible_light_centroid": [
+        813.4368286132812,
+        258.34222412109375
+      ]
+    },
+    {
+      "song_frame": 2115,
+      "vocal_envelope": 0.8985759615898132,
+      "mask_mass": 5004.03271484375,
+      "visible_light_centroid": [
+        813.9647216796875,
+        259.0729064941406
+      ]
+    },
+    {
+      "song_frame": 2116,
+      "vocal_envelope": 0.9787181615829468,
+      "mask_mass": 5015.7705078125,
+      "visible_light_centroid": [
+        814.6492919921875,
+        259.59783935546875
+      ]
+    },
+    {
+      "song_frame": 2117,
+      "vocal_envelope": 1.0,
+      "mask_mass": 4916.708984375,
+      "visible_light_centroid": [
+        815.415283203125,
+        260.0368347167969
+      ]
+    },
+    {
+      "song_frame": 2118,
+      "vocal_envelope": 0.9413427114486694,
+      "mask_mass": 4986.92333984375,
+      "visible_light_centroid": [
+        816.4728393554688,
+        260.0570373535156
+      ]
+    },
+    {
+      "song_frame": 2119,
+      "vocal_envelope": 0.9246394634246826,
+      "mask_mass": 4985.94384765625,
+      "visible_light_centroid": [
+        817.494384765625,
+        260.2181701660156
+      ]
+    },
+    {
+      "song_frame": 2120,
+      "vocal_envelope": 0.7235245704650879,
+      "mask_mass": 5016.60791015625,
+      "visible_light_centroid": [
+        817.9802856445312,
+        260.2601013183594
+      ]
+    },
+    {
+      "song_frame": 2121,
+      "vocal_envelope": 0.7285593748092651,
+      "mask_mass": 5032.28564453125,
+      "visible_light_centroid": [
+        818.3580322265625,
+        260.4102478027344
+      ]
+    }
+  ]
+}

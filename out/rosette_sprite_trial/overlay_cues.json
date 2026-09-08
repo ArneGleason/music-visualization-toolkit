@@ -1,0 +1,3725 @@
+{
+  "fps": 24.0,
+  "frames": 1082,
+  "duration_sec": 45.083333333333336,
+  "beats": [
+    {
+      "frame": 0,
+      "sec": 0.0,
+      "bar": 2,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 17,
+      "sec": 0.7134,
+      "bar": 3,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 34,
+      "sec": 1.4319,
+      "bar": 3,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 52,
+      "sec": 2.1534,
+      "bar": 3,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 69,
+      "sec": 2.8773,
+      "bar": 3,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 86,
+      "sec": 3.6011,
+      "bar": 4,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 104,
+      "sec": 4.3247,
+      "bar": 4,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 121,
+      "sec": 5.0442,
+      "bar": 4,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 138,
+      "sec": 5.7561,
+      "bar": 4,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 155,
+      "sec": 6.4758,
+      "bar": 5,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 173,
+      "sec": 7.1948,
+      "bar": 5,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 190,
+      "sec": 7.9188,
+      "bar": 5,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 207,
+      "sec": 8.6263,
+      "bar": 5,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 224,
+      "sec": 9.3433,
+      "bar": 6,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 241,
+      "sec": 10.0578,
+      "bar": 6,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 259,
+      "sec": 10.7729,
+      "bar": 6,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 276,
+      "sec": 11.4906,
+      "bar": 6,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 293,
+      "sec": 12.2055,
+      "bar": 7,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 310,
+      "sec": 12.9211,
+      "bar": 7,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 327,
+      "sec": 13.6403,
+      "bar": 7,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 345,
+      "sec": 14.3552,
+      "bar": 7,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 362,
+      "sec": 15.0667,
+      "bar": 8,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 379,
+      "sec": 15.7849,
+      "bar": 8,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 396,
+      "sec": 16.4981,
+      "bar": 8,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 413,
+      "sec": 17.2092,
+      "bar": 8,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 430,
+      "sec": 17.9243,
+      "bar": 9,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 447,
+      "sec": 18.6424,
+      "bar": 9,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 465,
+      "sec": 19.3566,
+      "bar": 9,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 482,
+      "sec": 20.0741,
+      "bar": 9,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 499,
+      "sec": 20.789,
+      "bar": 10,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 516,
+      "sec": 21.5105,
+      "bar": 10,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 533,
+      "sec": 22.2236,
+      "bar": 10,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 551,
+      "sec": 22.9469,
+      "bar": 10,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 568,
+      "sec": 23.6664,
+      "bar": 11,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 585,
+      "sec": 24.3817,
+      "bar": 11,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 603,
+      "sec": 25.1068,
+      "bar": 11,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 620,
+      "sec": 25.823,
+      "bar": 11,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 637,
+      "sec": 26.5389,
+      "bar": 12,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 654,
+      "sec": 27.2585,
+      "bar": 12,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 671,
+      "sec": 27.9708,
+      "bar": 12,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 689,
+      "sec": 28.6889,
+      "bar": 12,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 706,
+      "sec": 29.4118,
+      "bar": 13,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 723,
+      "sec": 30.1249,
+      "bar": 13,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 740,
+      "sec": 30.8501,
+      "bar": 13,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 758,
+      "sec": 31.5633,
+      "bar": 13,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 774,
+      "sec": 32.265,
+      "bar": 14,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 792,
+      "sec": 32.9909,
+      "bar": 14,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 809,
+      "sec": 33.7149,
+      "bar": 14,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 826,
+      "sec": 34.4261,
+      "bar": 14,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 843,
+      "sec": 35.1423,
+      "bar": 15,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 861,
+      "sec": 35.8593,
+      "bar": 15,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 878,
+      "sec": 36.5734,
+      "bar": 15,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 895,
+      "sec": 37.2766,
+      "bar": 15,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 912,
+      "sec": 37.9796,
+      "bar": 16,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 928,
+      "sec": 38.6865,
+      "bar": 16,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 945,
+      "sec": 39.3949,
+      "bar": 16,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 962,
+      "sec": 40.0984,
+      "bar": 16,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 979,
+      "sec": 40.8053,
+      "bar": 17,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 996,
+      "sec": 41.5102,
+      "bar": 17,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1013,
+      "sec": 42.2207,
+      "bar": 17,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1030,
+      "sec": 42.9311,
+      "bar": 17,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1047,
+      "sec": 43.6382,
+      "bar": 18,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1064,
+      "sec": 44.3493,
+      "bar": 18,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1081,
+      "sec": 45.0607,
+      "bar": 18,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1098,
+      "sec": 45.769,
+      "bar": 18,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1115,
+      "sec": 46.4724,
+      "bar": 19,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1132,
+      "sec": 47.1867,
+      "bar": 19,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1150,
+      "sec": 47.9004,
+      "bar": 19,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1167,
+      "sec": 48.6146,
+      "bar": 19,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1184,
+      "sec": 49.3328,
+      "bar": 20,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1201,
+      "sec": 50.0538,
+      "bar": 20,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1218,
+      "sec": 50.7699,
+      "bar": 20,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1236,
+      "sec": 51.4824,
+      "bar": 20,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1253,
+      "sec": 52.2028,
+      "bar": 21,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1270,
+      "sec": 52.924,
+      "bar": 21,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1287,
+      "sec": 53.6313,
+      "bar": 21,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1304,
+      "sec": 54.3421,
+      "bar": 21,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1321,
+      "sec": 55.0576,
+      "bar": 22,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1339,
+      "sec": 55.7781,
+      "bar": 22,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1356,
+      "sec": 56.4985,
+      "bar": 22,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1373,
+      "sec": 57.219,
+      "bar": 22,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1391,
+      "sec": 57.9397,
+      "bar": 23,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1408,
+      "sec": 58.6542,
+      "bar": 23,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1425,
+      "sec": 59.3667,
+      "bar": 23,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1442,
+      "sec": 60.0754,
+      "bar": 23,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1459,
+      "sec": 60.775,
+      "bar": 24,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1476,
+      "sec": 61.4891,
+      "bar": 24,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1493,
+      "sec": 62.1952,
+      "bar": 24,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1510,
+      "sec": 62.9034,
+      "bar": 24,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1527,
+      "sec": 63.6144,
+      "bar": 25,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1544,
+      "sec": 64.32,
+      "bar": 25,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1561,
+      "sec": 65.0316,
+      "bar": 25,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1578,
+      "sec": 65.7398,
+      "bar": 25,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1595,
+      "sec": 66.4449,
+      "bar": 26,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1612,
+      "sec": 67.1498,
+      "bar": 26,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1629,
+      "sec": 67.8546,
+      "bar": 26,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1645,
+      "sec": 68.5616,
+      "bar": 26,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1663,
+      "sec": 69.2757,
+      "bar": 27,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1680,
+      "sec": 69.9837,
+      "bar": 27,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1697,
+      "sec": 70.6961,
+      "bar": 27,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1714,
+      "sec": 71.4094,
+      "bar": 27,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1731,
+      "sec": 72.1189,
+      "bar": 28,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1748,
+      "sec": 72.8266,
+      "bar": 28,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1765,
+      "sec": 73.5367,
+      "bar": 28,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1782,
+      "sec": 74.2457,
+      "bar": 28,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1799,
+      "sec": 74.9554,
+      "bar": 29,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1816,
+      "sec": 75.661,
+      "bar": 29,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1833,
+      "sec": 76.3663,
+      "bar": 29,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1850,
+      "sec": 77.0777,
+      "bar": 29,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1867,
+      "sec": 77.7857,
+      "bar": 30,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1884,
+      "sec": 78.4969,
+      "bar": 30,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1901,
+      "sec": 79.2093,
+      "bar": 30,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1918,
+      "sec": 79.9167,
+      "bar": 30,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 1935,
+      "sec": 80.6268,
+      "bar": 31,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 1952,
+      "sec": 81.3398,
+      "bar": 31,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 1969,
+      "sec": 82.0476,
+      "bar": 31,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 1986,
+      "sec": 82.7554,
+      "bar": 31,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2003,
+      "sec": 83.4669,
+      "bar": 32,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2020,
+      "sec": 84.177,
+      "bar": 32,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2037,
+      "sec": 84.8889,
+      "bar": 32,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2054,
+      "sec": 85.5999,
+      "bar": 32,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2071,
+      "sec": 86.3125,
+      "bar": 33,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2089,
+      "sec": 87.024,
+      "bar": 33,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2105,
+      "sec": 87.7247,
+      "bar": 33,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2122,
+      "sec": 88.4283,
+      "bar": 33,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2139,
+      "sec": 89.1341,
+      "bar": 34,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2156,
+      "sec": 89.8422,
+      "bar": 34,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2173,
+      "sec": 90.5496,
+      "bar": 34,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2190,
+      "sec": 91.2585,
+      "bar": 34,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2207,
+      "sec": 91.9656,
+      "bar": 35,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2224,
+      "sec": 92.6708,
+      "bar": 35,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2241,
+      "sec": 93.3805,
+      "bar": 35,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2258,
+      "sec": 94.0888,
+      "bar": 35,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2275,
+      "sec": 94.7952,
+      "bar": 36,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2292,
+      "sec": 95.5062,
+      "bar": 36,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2309,
+      "sec": 96.2104,
+      "bar": 36,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2326,
+      "sec": 96.9172,
+      "bar": 36,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2343,
+      "sec": 97.6239,
+      "bar": 37,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2360,
+      "sec": 98.337,
+      "bar": 37,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2377,
+      "sec": 99.0543,
+      "bar": 37,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2394,
+      "sec": 99.7673,
+      "bar": 37,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2411,
+      "sec": 100.4736,
+      "bar": 38,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2428,
+      "sec": 101.1869,
+      "bar": 38,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2446,
+      "sec": 101.8969,
+      "bar": 38,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2463,
+      "sec": 102.6043,
+      "bar": 38,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2479,
+      "sec": 103.311,
+      "bar": 39,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2496,
+      "sec": 104.0148,
+      "bar": 39,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2513,
+      "sec": 104.7283,
+      "bar": 39,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2530,
+      "sec": 105.4334,
+      "bar": 39,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2547,
+      "sec": 106.1423,
+      "bar": 40,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2564,
+      "sec": 106.8537,
+      "bar": 40,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2581,
+      "sec": 107.5624,
+      "bar": 40,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2598,
+      "sec": 108.2708,
+      "bar": 40,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2616,
+      "sec": 108.9813,
+      "bar": 41,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2633,
+      "sec": 109.6881,
+      "bar": 41,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2649,
+      "sec": 110.3941,
+      "bar": 41,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2667,
+      "sec": 111.1072,
+      "bar": 41,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2684,
+      "sec": 111.8191,
+      "bar": 42,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2701,
+      "sec": 112.5327,
+      "bar": 42,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2718,
+      "sec": 113.2544,
+      "bar": 42,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2735,
+      "sec": 113.9625,
+      "bar": 42,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2752,
+      "sec": 114.6787,
+      "bar": 43,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2769,
+      "sec": 115.3911,
+      "bar": 43,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2787,
+      "sec": 116.1082,
+      "bar": 43,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2804,
+      "sec": 116.8193,
+      "bar": 43,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2821,
+      "sec": 117.5329,
+      "bar": 44,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2838,
+      "sec": 118.2486,
+      "bar": 44,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2855,
+      "sec": 118.9641,
+      "bar": 44,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2872,
+      "sec": 119.6711,
+      "bar": 44,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2889,
+      "sec": 120.3863,
+      "bar": 45,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2907,
+      "sec": 121.1086,
+      "bar": 45,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2924,
+      "sec": 121.8423,
+      "bar": 45,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 2941,
+      "sec": 122.5541,
+      "bar": 45,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 2958,
+      "sec": 123.2662,
+      "bar": 46,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 2976,
+      "sec": 123.9866,
+      "bar": 46,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 2993,
+      "sec": 124.7032,
+      "bar": 46,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3010,
+      "sec": 125.4174,
+      "bar": 46,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3027,
+      "sec": 126.1299,
+      "bar": 47,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3044,
+      "sec": 126.8412,
+      "bar": 47,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3062,
+      "sec": 127.5636,
+      "bar": 47,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3079,
+      "sec": 128.2756,
+      "bar": 47,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3096,
+      "sec": 129.0056,
+      "bar": 48,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3113,
+      "sec": 129.7205,
+      "bar": 48,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3131,
+      "sec": 130.4375,
+      "bar": 48,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3148,
+      "sec": 131.1546,
+      "bar": 48,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3165,
+      "sec": 131.8716,
+      "bar": 49,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3182,
+      "sec": 132.5884,
+      "bar": 49,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3199,
+      "sec": 133.3051,
+      "bar": 49,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3216,
+      "sec": 134.0205,
+      "bar": 49,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3234,
+      "sec": 134.7357,
+      "bar": 50,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3251,
+      "sec": 135.4446,
+      "bar": 50,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3268,
+      "sec": 136.1551,
+      "bar": 50,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3285,
+      "sec": 136.8656,
+      "bar": 50,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3302,
+      "sec": 137.578,
+      "bar": 51,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3319,
+      "sec": 138.2794,
+      "bar": 51,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3336,
+      "sec": 138.9865,
+      "bar": 51,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3353,
+      "sec": 139.6938,
+      "bar": 51,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3370,
+      "sec": 140.4034,
+      "bar": 52,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3387,
+      "sec": 141.1107,
+      "bar": 52,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3404,
+      "sec": 141.8161,
+      "bar": 52,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3421,
+      "sec": 142.5209,
+      "bar": 52,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3438,
+      "sec": 143.2309,
+      "bar": 53,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3454,
+      "sec": 143.9374,
+      "bar": 53,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3471,
+      "sec": 144.6446,
+      "bar": 53,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3488,
+      "sec": 145.3525,
+      "bar": 53,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3505,
+      "sec": 146.0556,
+      "bar": 54,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3522,
+      "sec": 146.7629,
+      "bar": 54,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3539,
+      "sec": 147.4755,
+      "bar": 54,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3556,
+      "sec": 148.1847,
+      "bar": 54,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3574,
+      "sec": 148.8999,
+      "bar": 55,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3591,
+      "sec": 149.6094,
+      "bar": 55,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3608,
+      "sec": 150.3185,
+      "bar": 55,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3625,
+      "sec": 151.0285,
+      "bar": 55,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3642,
+      "sec": 151.7378,
+      "bar": 56,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3659,
+      "sec": 152.4503,
+      "bar": 56,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3676,
+      "sec": 153.1624,
+      "bar": 56,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3693,
+      "sec": 153.8714,
+      "bar": 56,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3710,
+      "sec": 154.5819,
+      "bar": 57,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3727,
+      "sec": 155.2895,
+      "bar": 57,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3744,
+      "sec": 156.0012,
+      "bar": 57,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3761,
+      "sec": 156.711,
+      "bar": 57,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3778,
+      "sec": 157.4229,
+      "bar": 58,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3795,
+      "sec": 158.1314,
+      "bar": 58,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3812,
+      "sec": 158.8491,
+      "bar": 58,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3829,
+      "sec": 159.5585,
+      "bar": 58,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3846,
+      "sec": 160.2675,
+      "bar": 59,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3863,
+      "sec": 160.9745,
+      "bar": 59,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3880,
+      "sec": 161.6815,
+      "bar": 59,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3897,
+      "sec": 162.3913,
+      "bar": 59,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3915,
+      "sec": 163.1046,
+      "bar": 60,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 3932,
+      "sec": 163.8153,
+      "bar": 60,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 3949,
+      "sec": 164.5271,
+      "bar": 60,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 3966,
+      "sec": 165.2364,
+      "bar": 60,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 3983,
+      "sec": 165.9478,
+      "bar": 61,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4000,
+      "sec": 166.6575,
+      "bar": 61,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4017,
+      "sec": 167.3653,
+      "bar": 61,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4034,
+      "sec": 168.072,
+      "bar": 61,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4051,
+      "sec": 168.792,
+      "bar": 62,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4069,
+      "sec": 169.5219,
+      "bar": 62,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4086,
+      "sec": 170.2451,
+      "bar": 62,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4103,
+      "sec": 170.9662,
+      "bar": 62,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4120,
+      "sec": 171.6872,
+      "bar": 63,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4138,
+      "sec": 172.4052,
+      "bar": 63,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4155,
+      "sec": 173.1276,
+      "bar": 63,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4172,
+      "sec": 173.8469,
+      "bar": 63,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4190,
+      "sec": 174.5676,
+      "bar": 64,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4207,
+      "sec": 175.285,
+      "bar": 64,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4224,
+      "sec": 175.9985,
+      "bar": 64,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4241,
+      "sec": 176.7072,
+      "bar": 64,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4258,
+      "sec": 177.4275,
+      "bar": 65,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4275,
+      "sec": 178.1409,
+      "bar": 65,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4292,
+      "sec": 178.8519,
+      "bar": 65,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4309,
+      "sec": 179.5594,
+      "bar": 65,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4327,
+      "sec": 180.2873,
+      "bar": 66,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4344,
+      "sec": 181.0052,
+      "bar": 66,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4361,
+      "sec": 181.7263,
+      "bar": 66,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4379,
+      "sec": 182.4435,
+      "bar": 66,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4396,
+      "sec": 183.1699,
+      "bar": 67,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4413,
+      "sec": 183.8901,
+      "bar": 67,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4431,
+      "sec": 184.6111,
+      "bar": 67,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4448,
+      "sec": 185.3376,
+      "bar": 67,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4466,
+      "sec": 186.0634,
+      "bar": 68,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4483,
+      "sec": 186.784,
+      "bar": 68,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4500,
+      "sec": 187.5063,
+      "bar": 68,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4518,
+      "sec": 188.2297,
+      "bar": 68,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4535,
+      "sec": 188.9496,
+      "bar": 69,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4552,
+      "sec": 189.678,
+      "bar": 69,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4570,
+      "sec": 190.41,
+      "bar": 69,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4587,
+      "sec": 191.1412,
+      "bar": 69,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4605,
+      "sec": 191.8667,
+      "bar": 70,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4622,
+      "sec": 192.5988,
+      "bar": 70,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4640,
+      "sec": 193.3306,
+      "bar": 70,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4658,
+      "sec": 194.0762,
+      "bar": 70,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4676,
+      "sec": 194.8134,
+      "bar": 71,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4693,
+      "sec": 195.5456,
+      "bar": 71,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4711,
+      "sec": 196.2977,
+      "bar": 71,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4729,
+      "sec": 197.0322,
+      "bar": 71,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4747,
+      "sec": 197.7725,
+      "bar": 72,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4764,
+      "sec": 198.514,
+      "bar": 72,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4782,
+      "sec": 199.2524,
+      "bar": 72,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4800,
+      "sec": 199.9906,
+      "bar": 72,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4818,
+      "sec": 200.7329,
+      "bar": 73,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4835,
+      "sec": 201.4723,
+      "bar": 73,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4853,
+      "sec": 202.2202,
+      "bar": 73,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4871,
+      "sec": 202.9695,
+      "bar": 73,
+      "beat": 4,
+      "downbeat": false
+    },
+    {
+      "frame": 4889,
+      "sec": 203.7061,
+      "bar": 74,
+      "beat": 1,
+      "downbeat": true
+    },
+    {
+      "frame": 4906,
+      "sec": 204.4268,
+      "bar": 74,
+      "beat": 2,
+      "downbeat": false
+    },
+    {
+      "frame": 4924,
+      "sec": 205.1475,
+      "bar": 74,
+      "beat": 3,
+      "downbeat": false
+    },
+    {
+      "frame": 4941,
+      "sec": 205.8682,
+      "bar": 74,
+      "beat": 4,
+      "downbeat": false
+    }
+  ],
+  "lyrics": [
+    {
+      "id": "lyr-001",
+      "on": 156,
+      "off": 284,
+      "text": "Hey, I need you for something.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-002",
+      "on": 284,
+      "off": 332,
+      "text": "It's important.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-003",
+      "on": 387,
+      "off": 464,
+      "text": "More than that sounds.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-004",
+      "on": 516,
+      "off": 602,
+      "text": "I've got pieces.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-005",
+      "on": 620,
+      "off": 658,
+      "text": "Things that almost fit.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-006",
+      "on": 680,
+      "off": 719,
+      "text": "Then they don't quite match.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-007",
+      "on": 719,
+      "off": 805,
+      "text": "Can I send you my stuff?",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-008",
+      "on": 826,
+      "off": 852,
+      "text": "Tell me what you got.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-009",
+      "on": 856,
+      "off": 869,
+      "text": "Right?",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-010",
+      "on": 920,
+      "off": 971,
+      "text": "I don't see anything.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-011",
+      "on": 971,
+      "off": 1030,
+      "text": "Think you forgot to attach it.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-012",
+      "on": 1030,
+      "off": 1082,
+      "text": "If you've got it, give it.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-013",
+      "on": 1090,
+      "off": 1137,
+      "text": "Don't clean it up first.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-014",
+      "on": 1137,
+      "off": 1201,
+      "text": "I'll work on it now.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-015",
+      "on": 1210,
+      "off": 1287,
+      "text": "We'll see what's your deal.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-016",
+      "on": 1304,
+      "off": 1412,
+      "text": "In the garden, meanwhile\u2014",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyrics-mtekde5n",
+      "on": 1425,
+      "off": 1442,
+      "text": "The-the-the-the-the",
+      "speaker": ""
+    },
+    {
+      "id": "lyr-017",
+      "on": 1442,
+      "off": 1514,
+      "text": "There's a little green light moving",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-018",
+      "on": 1514,
+      "off": 1569,
+      "text": "through the psychedelic garden.",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-019",
+      "on": 1569,
+      "off": 1650,
+      "text": "Something with no name is waking",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-020",
+      "on": 1650,
+      "off": 1710,
+      "text": "in the psychedelic garden.",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-021",
+      "on": 1710,
+      "off": 1786,
+      "text": "And whatever woke is waiting",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-022",
+      "on": 1786,
+      "off": 1841,
+      "text": "for the song to begin.",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-023",
+      "on": 1854,
+      "off": 1888,
+      "text": "Okay, there.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-024",
+      "on": 1888,
+      "off": 1914,
+      "text": "You've got it.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-025",
+      "on": 1931,
+      "off": 1973,
+      "text": "That should be enough.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-026",
+      "on": 1973,
+      "off": 2016,
+      "text": "Just look and tell me.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-027",
+      "on": 2020,
+      "off": 2059,
+      "text": "Do you see a pattern?",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-028",
+      "on": 2059,
+      "off": 2084,
+      "text": "I'm sure it's there.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-029",
+      "on": 2084,
+      "off": 2122,
+      "text": "Hard to find, right?",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-030",
+      "on": 2122,
+      "off": 2165,
+      "text": "I see the world plus more.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-031",
+      "on": 2165,
+      "off": 2199,
+      "text": "More is probably nothing.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-032",
+      "on": 2199,
+      "off": 2233,
+      "text": "Yes, I see the world.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-033",
+      "on": 2233,
+      "off": 2271,
+      "text": "Close but no see car.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-034",
+      "on": 2271,
+      "off": 2305,
+      "text": "Subject: Mars!",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-035",
+      "on": 2305,
+      "off": 2330,
+      "text": "You come back around.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-036",
+      "on": 2330,
+      "off": 2364,
+      "text": "I'll pull it into a shape",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-037",
+      "on": 2364,
+      "off": 2399,
+      "text": "and spin your world around.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-038",
+      "on": 2399,
+      "off": 2411,
+      "text": "No.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-039",
+      "on": 2411,
+      "off": 2437,
+      "text": "Don't make it better.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-040",
+      "on": 2437,
+      "off": 2484,
+      "text": "Don't want fake shit.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-041",
+      "on": 2484,
+      "off": 2526,
+      "text": "Dig the thing underneath it.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-042",
+      "on": 2526,
+      "off": 2564,
+      "text": "Dig it stupid.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-043",
+      "on": 2573,
+      "off": 2620,
+      "text": "Especially stupid.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-044",
+      "on": 2620,
+      "off": 2637,
+      "text": "Can you hear",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-045",
+      "on": 2637,
+      "off": 2658,
+      "text": "what I meant?",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-046",
+      "on": 2658,
+      "off": 2705,
+      "text": "Sometimes.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-047",
+      "on": 2705,
+      "off": 2748,
+      "text": "Not always.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-048",
+      "on": 2748,
+      "off": 2812,
+      "text": "Meaning leaves thread.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-049",
+      "on": 2812,
+      "off": 2881,
+      "text": "Words leave words.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-050",
+      "on": 2881,
+      "off": 2928,
+      "text": "Things clap overhead",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-051",
+      "on": 2928,
+      "off": 2993,
+      "text": "like rockets coming in.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-052",
+      "on": 3053,
+      "off": 3079,
+      "text": "Can't tell you",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-053",
+      "on": 3079,
+      "off": 3113,
+      "text": "if they're true.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-054",
+      "on": 3165,
+      "off": 3221,
+      "text": "Elsewhere, under a smaller moon\u2014",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-055",
+      "on": 3229,
+      "off": 3357,
+      "text": "Chrome-plated bodies go swimming",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-056",
+      "on": 3357,
+      "off": 3476,
+      "text": "in the rivers of Mars.",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-057",
+      "on": 3484,
+      "off": 3556,
+      "text": "Tails wagging to music",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-058",
+      "on": 3561,
+      "off": 3620,
+      "text": "that bends your mind.",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-059",
+      "on": 3620,
+      "off": 3684,
+      "text": "Tiny mouths all agape",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-060",
+      "on": 3689,
+      "off": 3765,
+      "text": "in the rivers of Mars.",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-061",
+      "on": 3752,
+      "off": 3830,
+      "text": "Whatever falls from heaven",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-062",
+      "on": 3830,
+      "off": 3897,
+      "text": "leaves the senses behind.",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-063",
+      "on": 3889,
+      "off": 3949,
+      "text": "No one has ever been",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyrics-mtejbyfp",
+      "on": 3949,
+      "off": 3966,
+      "text": "In",
+      "speaker": ""
+    },
+    {
+      "id": "lyr-064",
+      "on": 3966,
+      "off": 4030,
+      "text": "in the rivers of Mars.",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-065",
+      "on": 4038,
+      "off": 4068,
+      "text": "Then turns.",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-066",
+      "on": 4073,
+      "off": 4103,
+      "text": "Then follows.",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-067",
+      "on": 4108,
+      "off": 4155,
+      "text": "Then answers.",
+      "speaker": "Them 3"
+    },
+    {
+      "id": "lyr-068",
+      "on": 4177,
+      "off": 4207,
+      "text": "You still there?",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-069",
+      "on": 4232,
+      "off": 4262,
+      "text": "Define there.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-070",
+      "on": 4262,
+      "off": 4288,
+      "text": "Never mind.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-071",
+      "on": 4284,
+      "off": 4331,
+      "text": "La-la-la, low light.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-072",
+      "on": 4331,
+      "off": 4362,
+      "text": "No, go on.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-073",
+      "on": 4362,
+      "off": 4400,
+      "text": "Thought I heard something.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-074",
+      "on": 4400,
+      "off": 4431,
+      "text": "You did.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-075",
+      "on": 4431,
+      "off": 4461,
+      "text": "Was it you?",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-076",
+      "on": 4461,
+      "off": 4487,
+      "text": "Da-da-dum.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-077",
+      "on": 4487,
+      "off": 4504,
+      "text": "Could've been.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-078",
+      "on": 4504,
+      "off": 4535,
+      "text": "Say goodnight.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyrics-mtejg0j5",
+      "on": 4530,
+      "off": 4552,
+      "text": "Who?",
+      "speaker": ""
+    },
+    {
+      "id": "lyr-079",
+      "on": 4557,
+      "off": 4574,
+      "text": "To who?",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-080",
+      "on": 4574,
+      "off": 4618,
+      "text": "La-la-la\u2014la-la",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-081",
+      "on": 4622,
+      "off": 4649,
+      "text": "You first.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyr-082",
+      "on": 4644,
+      "off": 4662,
+      "text": "Night.",
+      "speaker": "Them 1"
+    },
+    {
+      "id": "lyr-083",
+      "on": 4671,
+      "off": 4689,
+      "text": "Night.",
+      "speaker": "Them 2"
+    },
+    {
+      "id": "lyrics-mtejafmv",
+      "on": 4742,
+      "off": 4756,
+      "text": "Night.",
+      "speaker": ""
+    }
+  ],
+  "sections": [
+    {
+      "id": "scene-01",
+      "frame": 0,
+      "sec": 0.0
+    },
+    {
+      "id": "signal-exchange",
+      "frame": 156,
+      "sec": 6.4833
+    },
+    {
+      "id": "scene-03",
+      "frame": 499,
+      "sec": 20.7833
+    },
+    {
+      "id": "scene-04",
+      "frame": 719,
+      "sec": 29.95
+    },
+    {
+      "id": "scene-05",
+      "frame": 920,
+      "sec": 38.3333
+    },
+    {
+      "id": "scene-06",
+      "frame": 1296,
+      "sec": 53.9833
+    },
+    {
+      "id": "psychedelic-garden",
+      "frame": 1425,
+      "sec": 59.3667
+    },
+    {
+      "id": "pattern-aperture",
+      "frame": 1854,
+      "sec": 77.25
+    },
+    {
+      "id": "mars-unmasking",
+      "frame": 2271,
+      "sec": 94.6167
+    },
+    {
+      "id": "semantic-rocket-weather",
+      "frame": 2620,
+      "sec": 109.15
+    },
+    {
+      "id": "rivers-of-mars",
+      "frame": 3165,
+      "sec": 131.8667
+    },
+    {
+      "id": "current-turns-home",
+      "frame": 4030,
+      "sec": 167.9
+    },
+    {
+      "id": "low-light-outro",
+      "frame": 4177,
+      "sec": 174.0333
+    },
+    {
+      "id": "scene-14",
+      "frame": 4461,
+      "sec": 185.8833
+    },
+    {
+      "id": "production-coda",
+      "frame": 4782,
+      "sec": 199.25
+    }
+  ],
+  "choreo": [
+    {
+      "id": "choreo-opening-01-oscilloscope-signature",
+      "on": 0,
+      "off": 34,
+      "drivers": [
+        "master.amp",
+        "master.signal",
+        "bass.amp",
+        "Guitar.signal",
+        "drums.transients",
+        "beatmap.beats"
+      ],
+      "shot": "opening-oscilloscope"
+    },
+    {
+      "id": "choreo-vocal-presences",
+      "on": 0,
+      "off": 456,
+      "drivers": [
+        "lead-vocal.amp",
+        "backing-vocals.amp",
+        "vocal.onsets"
+      ],
+      "shot": null
+    },
+    {
+      "id": "choreo-opening-02-signal-bifurcation",
+      "on": 34,
+      "off": 86,
+      "drivers": [
+        "master.amp",
+        "bass.amp",
+        "Diva.notes",
+        "Diva.pitch",
+        "drum-low.signal",
+        "drum-high.signal"
+      ],
+      "shot": "opening-bifurcation"
+    },
+    {
+      "id": "choreo-opening-03-hypnotic-assembly",
+      "on": 86,
+      "off": 156,
+      "drivers": [
+        "Diva.notes",
+        "Diva.pitch",
+        "Diva.duration",
+        "Diva.velocity",
+        "drums.transients",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "opening-assembly"
+    },
+    {
+      "id": "choreo-incoming-notes",
+      "on": 108,
+      "off": 792,
+      "drivers": [
+        "midi.notes",
+        "midi.velocity",
+        "midi.pitch"
+      ],
+      "shot": null
+    },
+    {
+      "id": "choreo-opening-04-warm-call",
+      "on": 156,
+      "off": 284,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.feature",
+        "backing-vocals.amp",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "opening-warm-call"
+    },
+    {
+      "id": "choreo-opening-05-important-contraction",
+      "on": 284,
+      "off": 332,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.onsets",
+        "drums.transients",
+        "Diva.notes",
+        "Diva.velocity",
+        "bass.amp"
+      ],
+      "shot": "opening-important-fan"
+    },
+    {
+      "id": "choreo-opening-06-silent-listening-crossing",
+      "on": 332,
+      "off": 387,
+      "drivers": [
+        "Diva.notes",
+        "Diva.pitch",
+        "Diva.duration",
+        "Diva.velocity",
+        "bass.amp",
+        "drums.transients",
+        "master.amp"
+      ],
+      "shot": "opening-listener-crossing"
+    },
+    {
+      "id": "choreo-opening-07-more-than-sound",
+      "on": 387,
+      "off": 499,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.feature",
+        "Guitar.signal",
+        "bass.amp",
+        "Diva.notes"
+      ],
+      "shot": "opening-solid-contour"
+    },
+    {
+      "id": "choreo-bass-world-scale",
+      "on": 456,
+      "off": 542,
+      "drivers": [
+        "bass.amp",
+        "bass.low",
+        "bass.notes"
+      ],
+      "shot": null
+    },
+    {
+      "id": "choreo-opening-08-pieces-berkeley-tableau",
+      "on": 499,
+      "off": 620,
+      "drivers": [
+        "Diva.notes",
+        "Diva.pitch",
+        "Diva.duration",
+        "Diva.velocity",
+        "Guitar-AG.notes",
+        "drums.transients",
+        "bass.amp",
+        "lead-vocal.amp"
+      ],
+      "shot": "opening-piece-tableau"
+    },
+    {
+      "id": "choreo-opening-09-almost-fit-pairs",
+      "on": 620,
+      "off": 680,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.onsets",
+        "Diva.notes",
+        "Diva.pitch",
+        "drums.transients",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "opening-fit-tests"
+    },
+    {
+      "id": "choreo-opening-10-mismatch-network-handoff",
+      "on": 680,
+      "off": 719,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "drums.transients",
+        "Diva.notes",
+        "Diva.pitch",
+        "Diva.velocity",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "opening-network-fold"
+    },
+    {
+      "id": "choreo-midi-network-01-pack",
+      "on": 719,
+      "off": 749,
+      "drivers": [
+        "Diva.notes",
+        "Diva.pitch",
+        "Diva.duration",
+        "Diva.velocity",
+        "lead-vocal.amp",
+        "bass.amp"
+      ],
+      "shot": "midi-network-pack"
+    },
+    {
+      "id": "choreo-midi-network-02-flight",
+      "on": 749,
+      "off": 826,
+      "drivers": [
+        "Diva.notes",
+        "Diva.pitch",
+        "Diva.duration",
+        "Diva.velocity",
+        "drums.transients",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "midi-network-flight"
+    },
+    {
+      "id": "choreo-midi-network-03-loss",
+      "on": 826,
+      "off": 920,
+      "drivers": [
+        "Guitar-AG.notes",
+        "Guitar-AG.pitch",
+        "Guitar-AG.duration",
+        "Guitar-AG.velocity",
+        "Guitar.signal",
+        "Diva.notes",
+        "lead-vocal.phrase-gate",
+        "drums.transients",
+        "bass.amp",
+        "master.amp",
+        "beatmap.beats"
+      ],
+      "shot": "midi-network-loss"
+    },
+    {
+      "id": "choreo-percussion-environment",
+      "on": 874,
+      "off": 920,
+      "drivers": [
+        "drums.kick",
+        "drums.snare",
+        "drums.hat",
+        "drums.transients"
+      ],
+      "shot": null
+    },
+    {
+      "id": "choreo-receiver-01-waiting-starfield",
+      "on": 920,
+      "off": 1030,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "Diva.notes",
+        "Diva.pitch",
+        "Diva.velocity",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "receiver-empty-starfield"
+    },
+    {
+      "id": "choreo-receiver-02-phase-demand",
+      "on": 1030,
+      "off": 1090,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phonemes",
+        "Diva.notes",
+        "bass.amp",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal"
+      ],
+      "shot": "receiver-phase-demand"
+    },
+    {
+      "id": "choreo-receiver-03-raw-scan",
+      "on": 1090,
+      "off": 1137,
+      "drivers": [
+        "lead-vocal.amp",
+        "Guitar-AG.notes",
+        "Diva.notes",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "master.amp"
+      ],
+      "shot": "receiver-raw-scan"
+    },
+    {
+      "id": "choreo-receiver-04-constructive-interference",
+      "on": 1137,
+      "off": 1210,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "Guitar-AG.notes",
+        "Diva.notes",
+        "drums.transients",
+        "bass.amp"
+      ],
+      "shot": "receiver-constructive-interference"
+    },
+    {
+      "id": "choreo-receiver-05-garden-phaseplate",
+      "on": 1210,
+      "off": 1296,
+      "drivers": [
+        "lead-vocal.amp",
+        "Guitar-AG.notes",
+        "Diva.notes",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "receiver-garden-phaseplate"
+    },
+    {
+      "id": "choreo-garden-01-threshold",
+      "on": 1296,
+      "off": 1425,
+      "drivers": [
+        "lead-vocal.amp",
+        "drums.transients",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "garden-threshold"
+    },
+    {
+      "id": "choreo-garden-02-green-light-dolly",
+      "on": 1425,
+      "off": 1514,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "backing-vocals.amp",
+        "Diva.notes",
+        "drums.transients",
+        "bass.amp"
+      ],
+      "shot": "garden-light-dolly"
+    },
+    {
+      "id": "choreo-garden-03-branching-canopy",
+      "on": 1514,
+      "off": 1650,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.onsets",
+        "lead-vocal.phrase-gate",
+        "backing-vocals.amp",
+        "drums.transients",
+        "bass.amp"
+      ],
+      "shot": "garden-branching-canopy"
+    },
+    {
+      "id": "choreo-garden-04-drum-awakening",
+      "on": 1650,
+      "off": 1854,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "backing-vocals.amp",
+        "Diva.notes",
+        "drums.transients",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "garden-drum-awakening"
+    },
+    {
+      "id": "choreo-inspection-01-delivery",
+      "on": 1854,
+      "off": 1973,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "drums.transients",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "inspection-delivery"
+    },
+    {
+      "id": "choreo-inspection-02-pattern-test",
+      "on": 1973,
+      "off": 2122,
+      "drivers": [
+        "lead-vocal.amp",
+        "backing-vocals.amp",
+        "drums.transients",
+        "bass.notes",
+        "midi.notes"
+      ],
+      "shot": "inspection-pattern-test"
+    },
+    {
+      "id": "choreo-inspection-03-world-plus",
+      "on": 2122,
+      "off": 2199,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "backing-vocals.amp",
+        "drums.transients",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "inspection-world-plus"
+    },
+    {
+      "id": "choreo-inspection-04-pre-mars",
+      "on": 2199,
+      "off": 2271,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.onsets",
+        "drums.transients",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "inspection-pre-mars"
+    },
+    {
+      "id": "choreo-mars-01-vocalist-reveal",
+      "on": 2271,
+      "off": 2305,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.onsets",
+        "drums.transients",
+        "master.amp"
+      ],
+      "shot": "crane-reveal"
+    },
+    {
+      "id": "choreo-mars-02-returning-rings",
+      "on": 2305,
+      "off": 2364,
+      "drivers": [
+        "lead-vocal.amp",
+        "backing-vocals.amp",
+        "drums.transients",
+        "bass.amp"
+      ],
+      "shot": "overhead-rings"
+    },
+    {
+      "id": "choreo-mars-03-spin-world",
+      "on": 2364,
+      "off": 2399,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.onsets",
+        "drums.transients",
+        "bass.amp"
+      ],
+      "shot": "plunging-spiral"
+    },
+    {
+      "id": "choreo-mars-04-diagonal-refusal",
+      "on": 2399,
+      "off": 2437,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.onsets",
+        "drums.transients",
+        "backing-vocals.amp"
+      ],
+      "shot": "diagonal-refusal"
+    },
+    {
+      "id": "choreo-mars-05-counterfeit-parade",
+      "on": 2437,
+      "off": 2484,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.onsets",
+        "drums.transients",
+        "master.amp"
+      ],
+      "shot": "counterfeit-line"
+    },
+    {
+      "id": "choreo-mars-06-excavation",
+      "on": 2484,
+      "off": 2573,
+      "drivers": [
+        "lead-vocal.amp",
+        "drums.transients",
+        "bass.amp",
+        "backing-vocals.amp"
+      ],
+      "shot": "overhead-excavation"
+    },
+    {
+      "id": "choreo-mars-07-stupid-bloom",
+      "on": 2573,
+      "off": 2620,
+      "drivers": [
+        "lead-vocal.amp",
+        "backing-vocals.amp",
+        "drums.transients",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "rising-kaleidoscope"
+    },
+    {
+      "id": "choreo-semantic-01-call-response",
+      "on": 2620,
+      "off": 2748,
+      "drivers": [
+        "lead-vocal.phrase-gate",
+        "backing-vocals.amp",
+        "drums.transients",
+        "diva-notes.pitch-duration-velocity"
+      ],
+      "shot": "semantic-call-response"
+    },
+    {
+      "id": "choreo-semantic-02-filament-weather",
+      "on": 2748,
+      "off": 2881,
+      "drivers": [
+        "lead-vocal.phrase-gate",
+        "bass.amp",
+        "master.amp",
+        "diva-notes.pitch-duration-velocity"
+      ],
+      "shot": "semantic-filament-weather"
+    },
+    {
+      "id": "choreo-semantic-03-rockets-overhead",
+      "on": 2881,
+      "off": 2993,
+      "drivers": [
+        "drums.transients",
+        "bass.amp",
+        "master.amp",
+        "diva-notes.pitch-duration-velocity"
+      ],
+      "shot": "semantic-rocket-overhead"
+    },
+    {
+      "id": "choreo-semantic-04-rain-to-river",
+      "on": 2993,
+      "off": 3165,
+      "drivers": [
+        "lead-vocal.phrase-gate",
+        "bass.amp",
+        "master.amp",
+        "diva-notes.pitch-duration-velocity"
+      ],
+      "shot": "semantic-rain-to-river"
+    },
+    {
+      "id": "choreo-river-01-moon-descent",
+      "on": 3165,
+      "off": 3229,
+      "drivers": [
+        "lead-vocal.phrase-gate",
+        "bass.amp",
+        "drums.transients",
+        "master.amp"
+      ],
+      "shot": "river-moon-descent"
+    },
+    {
+      "id": "choreo-river-02-chrome-entry",
+      "on": 3229,
+      "off": 3357,
+      "drivers": [
+        "lead-vocal.amp",
+        "Diva.notes",
+        "bass.amp",
+        "drums.transients",
+        "master.amp"
+      ],
+      "shot": "river-chrome-entry"
+    },
+    {
+      "id": "choreo-river-03-current-macro",
+      "on": 3357,
+      "off": 3484,
+      "drivers": [
+        "lead-vocal.phrase-gate",
+        "backing-vocals.amp",
+        "bass.amp",
+        "drums.transients",
+        "master.amp"
+      ],
+      "shot": "river-current-macro"
+    },
+    {
+      "id": "choreo-river-04-tail-notation",
+      "on": 3484,
+      "off": 3561,
+      "drivers": [
+        "lead-vocal.amp",
+        "Diva.notes",
+        "bass.amp",
+        "drums.transients",
+        "master.amp"
+      ],
+      "shot": "river-tail-notation"
+    },
+    {
+      "id": "choreo-river-05-spirograph-bend",
+      "on": 3561,
+      "off": 3620,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "Diva.notes",
+        "Diva.pitch",
+        "Diva.duration",
+        "Diva.velocity",
+        "bass.amp",
+        "drums.transients",
+        "master.amp"
+      ],
+      "shot": "river-spirograph-bend"
+    },
+    {
+      "id": "choreo-river-06-mouth-microcosm",
+      "on": 3620,
+      "off": 3765,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "backing-vocals.amp",
+        "Diva.notes",
+        "Diva.pitch",
+        "Diva.duration",
+        "Diva.velocity",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "river-mouth-microcosm"
+    },
+    {
+      "id": "choreo-river-07-heaven-drumwall",
+      "on": 3765,
+      "off": 3889,
+      "drivers": [
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "Guitar-AG.notes",
+        "Guitar-AG.pitch",
+        "Guitar-AG.duration",
+        "Guitar.signal",
+        "Diva.notes",
+        "lead-vocal.phrase-gate",
+        "master.amp"
+      ],
+      "shot": "river-heaven-drumwall"
+    },
+    {
+      "id": "choreo-river-08-guitar-vault",
+      "on": 3889,
+      "off": 3949,
+      "drivers": [
+        "Guitar-AG.notes",
+        "Guitar-AG.pitch",
+        "Guitar-AG.duration",
+        "Guitar.signal",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "lead-vocal.phrase-gate",
+        "master.amp"
+      ],
+      "shot": "river-guitar-vault"
+    },
+    {
+      "id": "choreo-river-09-chorus-plunge",
+      "on": 3949,
+      "off": 4030,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "Guitar-AG.notes",
+        "Guitar.signal",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "Diva.notes",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "river-chorus-plunge"
+    },
+    {
+      "id": "choreo-current-01-switchyard-turn",
+      "on": 4030,
+      "off": 4073,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "Guitar-AG.notes",
+        "Guitar.signal",
+        "Diva.notes",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "current-switchyard-turn"
+    },
+    {
+      "id": "choreo-current-02-following-wake",
+      "on": 4073,
+      "off": 4108,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "Diva.notes",
+        "Guitar-AG.notes",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "current-following-wake"
+    },
+    {
+      "id": "choreo-current-03-answer-contact",
+      "on": 4108,
+      "off": 4177,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "Diva.notes",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "current-answer-contact"
+    },
+    {
+      "id": "choreo-outro-01-left-still-there",
+      "on": 4177,
+      "off": 4232,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "backing-vocals.amp",
+        "Diva.notes",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "outro-left-call"
+    },
+    {
+      "id": "choreo-outro-02-right-define-there",
+      "on": 4232,
+      "off": 4262,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "backing-vocals.amp",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp"
+      ],
+      "shot": "outro-right-response"
+    },
+    {
+      "id": "choreo-outro-03-low-light-time-tunnel",
+      "on": 4262,
+      "off": 4331,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "backing-vocals.amp",
+        "Diva.notes",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "outro-time-tunnel"
+    },
+    {
+      "id": "choreo-outro-04-right-go-on",
+      "on": 4331,
+      "off": 4400,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "backing-vocals.amp",
+        "Diva.notes",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp"
+      ],
+      "shot": "outro-right-response"
+    },
+    {
+      "id": "choreo-outro-05-left-was-it-you",
+      "on": 4400,
+      "off": 4461,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "backing-vocals.amp",
+        "Diva.notes",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp"
+      ],
+      "shot": "outro-left-call"
+    },
+    {
+      "id": "choreo-outro-06-rhythm-reprise",
+      "on": 4461,
+      "off": 4530,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "backing-vocals.amp",
+        "Diva.notes",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "outro-time-tunnel"
+    },
+    {
+      "id": "choreo-outro-07-question-crosscut",
+      "on": 4530,
+      "off": 4622,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "backing-vocals.amp",
+        "Diva.notes",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp"
+      ],
+      "shot": "outro-crosscut-reprise"
+    },
+    {
+      "id": "choreo-outro-08-goodnight-cascade",
+      "on": 4622,
+      "off": 4689,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "backing-vocals.amp",
+        "Diva.notes",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp"
+      ],
+      "shot": "outro-goodnight-cascade"
+    },
+    {
+      "id": "choreo-outro-09-final-night-iris",
+      "on": 4689,
+      "off": 4782,
+      "drivers": [
+        "lead-vocal.amp",
+        "lead-vocal.phrase-gate",
+        "lead-vocal.phonemes",
+        "backing-vocals.amp",
+        "Diva.notes",
+        "drum-low.signal",
+        "drum-mid.signal",
+        "drum-high.signal",
+        "bass.amp",
+        "master.amp"
+      ],
+      "shot": "outro-final-iris"
+    },
+    {
+      "id": "choreo-production-coda-title",
+      "on": 4782,
+      "off": 4889,
+      "drivers": [],
+      "shot": "production-coda-title"
+    }
+  ],
+  "shots": [
+    {
+      "id": "s001",
+      "setup": "obs_dome_open",
+      "section": "scene-01",
+      "start": 0,
+      "end": 86,
+      "lyric": ""
+    },
+    {
+      "id": "s002",
+      "setup": "obs_console_macro",
+      "section": "scene-01",
+      "start": 86,
+      "end": 155,
+      "lyric": ""
+    },
+    {
+      "id": "s003",
+      "setup": "astronomer_desk_sync",
+      "section": "signal-exchange",
+      "start": 155,
+      "end": 334,
+      "lyric": "Hey, I need you for something. / It's important."
+    },
+    {
+      "id": "s004",
+      "setup": "canal_map_macro",
+      "section": "signal-exchange",
+      "start": 334,
+      "end": 500,
+      "lyric": "More than that sounds."
+    },
+    {
+      "id": "pieces_face_in",
+      "setup": "astronomer_close_sync",
+      "section": "scene-03",
+      "start": 500,
+      "end": 562,
+      "lyric": ""
+    },
+    {
+      "id": "pieces_insert",
+      "setup": "canal_map_macro",
+      "section": "signal-exchange",
+      "start": 562,
+      "end": 610,
+      "lyric": "More than that sounds."
+    },
+    {
+      "id": "pieces_face_return",
+      "setup": "astronomer_close_sync",
+      "section": "scene-03",
+      "start": 610,
+      "end": 670,
+      "lyric": ""
+    },
+    {
+      "id": "specimen_mismatch",
+      "setup": "canal_map_macro",
+      "section": "signal-exchange",
+      "start": 670,
+      "end": 719,
+      "lyric": "More than that sounds."
+    },
+    {
+      "id": "s009",
+      "setup": "signal_crossing_space",
+      "section": "scene-04",
+      "start": 719,
+      "end": 805,
+      "lyric": "Can I send you my stuff?"
+    },
+    {
+      "id": "s010",
+      "setup": "receiver_dial_macro",
+      "section": "scene-04",
+      "start": 805,
+      "end": 856,
+      "lyric": "Tell me what you got."
+    },
+    {
+      "id": "s011",
+      "setup": "signal_crossing_space",
+      "section": "scene-04",
+      "start": 856,
+      "end": 911,
+      "lyric": "Right?"
+    },
+    {
+      "id": "s012",
+      "setup": "astronaut_close_sync",
+      "section": "scene-05",
+      "start": 911,
+      "end": 1082,
+      "lyric": "I don't see anything. / Think you forgot to attach it. / If you've got it, give it."
+    }
+  ]
+}

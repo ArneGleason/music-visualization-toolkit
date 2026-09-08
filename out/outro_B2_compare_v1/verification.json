@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "take": "outro_B2_take1_kling_v1",
+      "hashes_verified": true,
+      "audio_zero_lag_correlation": 0.999778616361431
+    },
+    {
+      "take": "outro_B2_v2",
+      "hashes_verified": true,
+      "audio_zero_lag_correlation": 0.999778616361431
+    }
+  ],
+  "ranges": [
+    [
+      11,
+      42
+    ],
+    [
+      80,
+      111
+    ],
+    [
+      141,
+      184
+    ]
+  ],
+  "frames": 105,
+  "fps": 24,
+  "proposed_takes": [
+    1,
+    1,
+    2
+  ],
+  "production_changed": false
+}

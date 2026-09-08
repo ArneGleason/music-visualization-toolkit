@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "test_id": "outro_B2_v2",
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "ONE B2 continuation Flow base, inspect before ONE Kling. No automatic retry or other take.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 1,
+    "kling_condition": "Base passes bounded visual review below; otherwise return base and stop for owner.",
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "sole woman",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical estimate110 total, check actual UI for each step. No purchases."
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "out/outro_B2_v2/first_frame.png",
+      "sha256": "8f7641bb6332a8291ce778fa75a9addd60bf636179955c3cbc6379185eadb4d5"
+    },
+    "continuation_base": {
+      "file": "out/outro_B1_v2/base.mp4",
+      "sha256": "2ed1a1b84dafd68a77b7141768ae580661a4039b83552fad54a1cdc1493c92b7"
+    },
+    "approved_anchor": {
+      "file": "out/outro_anchors_v2/exobiologist.png",
+      "sha256": "ea5bc2eb64dabc0601e33769876f3b035e594ae345ede604bc694833f04c5f0b"
+    },
+    "prompt": {
+      "file": "out/outro_B2_v2/flow_prompt.txt",
+      "sha256": "674315f4caf44a47c9e832240feb560608012156647ec6d8ebf4a765b5fc5184"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    },
+    "guide": {
+      "file": "out/outro_B2_v2/guide.wav",
+      "sha256": "ce7b1cd73c5ba2adab1f3609b4ed7108ed4e94c855da56c6278913df73043004"
+    },
+    "prompt_take2": {
+      "file": "out/outro_B2_v2/flow_prompt_take2.txt",
+      "sha256": "ece36dc093bdb7cc4477a430a22f7af696b2b045645410097120494782f59b91",
+      "note": "owner-authorized edit of flow_prompt.txt; lock byte-identical"
+    }
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 4320,
+    "song_end_frame_exclusive": 4512,
+    "requested_frames": 192,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_start_seconds": 179.821652,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0
+  },
+  "guide_provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "samples": 384000,
+    "processing": "Fresh continuous eight-second mono48k PCM16 slice. No gating, normalization, trimming gaps or time stretching. Stem placement offset applied once. Contains other speaker as context, NOT speaker-separated."
+  },
+  "visible_cuts": [
+    {
+      "song_frames": [
+        4331,
+        4362
+      ],
+      "source_frames_at_24fps": [
+        11,
+        42
+      ],
+      "phrase": "No, go on."
+    },
+    {
+      "song_frames": [
+        4400,
+        4431
+      ],
+      "source_frames_at_24fps": [
+        80,
+        111
+      ],
+      "phrase": "You did."
+    },
+    {
+      "song_frames": [
+        4461,
+        4504
+      ],
+      "source_frames_at_24fps": [
+        141,
+        184
+      ],
+      "phrase": "Da-da-dum / Could've been."
+    }
+  ],
+  "continuity": {
+    "anchor_base_source_frame_at_24fps": 155,
+    "anchor_song_frame": 4320,
+    "anchor_inspection": "Face, plain suit and stable artifact accepted for continuation; mouth naturally open. From untreated BASE, not Kling or composited FX.",
+    "future_B3_anchor_source_frame_at_24fps": 180,
+    "future_B3_song_origin": 4500,
+    "do_not_generate_B3": true
+  },
+  "base_gate": {
+    "must_pass": [
+      "same face/plain silver suit, no chest dials or hoses",
+      "artifact same shape, stable hands, no morph or duplicated object",
+      "readable active articulation on all three assigned passages, not frozen puppet or continuous humming",
+      "no camera cut or scene reset"
+    ],
+    "tolerate_and_report": [
+      "modest warmth or smile, no endless retries",
+      "approximate scratch timing differs",
+      "small natural low hand movement, no prop morph"
+    ],
+    "if_material_failure": "Download and receipt base, set status=base_needs_owner_review, skip Kling; no retry."
+  },
+  "output": {
+    "base": "out/outro_B2_v2/base.mp4",
+    "synced": "out/outro_B2_v2/synced.mp4",
+    "receipt": "out/outro_B2_v2/RECEIPT.md",
+    "preserve_original_downloads": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "tool_time_counts": true,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true
+  },
+  "assembly_guard": "Use only source11..42,80..111,141..184 at24fps after timestamp conform. Clock advances offscreen, never restart source on a return or shift to generated scratch speech. Clean FX continuation added by Codex after review using song time; no baked FX input. Preserve native returned duration, even239frames at30fps. No assembly assignment here.",
+  "completion": "Write RECEIPT.md with input checks, original/copy hashes, job IDs, settings, actual credits, native fps/frame count/video and audio durations, base gate and lip sync observations for all three visible cuts. Add claude_result and set claude_done_ready_for_codex_verification when both stages done; otherwise specific blocked/base review status. No A2, B3, auto retries, assembly, FX or commit.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T16:36:00Z",
+    "receipt": "out/outro_B2_v2/RECEIPT.md",
+    "input_hashes_ok": true,
+    "start_frame_equals_B1_frame155": true,
+    "owner_authorized_retry": "one Flow retry with prompt edit (chat, 2026-09-07); take 1 preserved in take1/",
+    "take1": {
+      "media_id": "474079fc-bade-4422-9162-b409ce12c676",
+      "prompt": "flow_prompt.txt",
+      "submitted_utc": "2026-09-07T16:06:26Z",
+      "ready_utc": "2026-09-07T16:07:45Z",
+      "downloaded_utc": "2026-09-07T16:08:13Z",
+      "credits": 100,
+      "original": "out/outro_B2_v2/take1/original_474079fc-bade-4422-9162-b409ce12c676.mp4",
+      "base": "out/outro_B2_v2/take1/base.mp4",
+      "sha256": "ed5f2e2fe7872b682bf1d0b50f8997887e654746a9de53935f5e14fc842f63be",
+      "receipt": "out/outro_B2_v2/take1/RECEIPT.md",
+      "gate": "FAIL passage 3 (looks down, closed mouth 6.85-7.67 s)"
+    },
+    "take2": {
+      "media_id": "e8170422-751d-4940-890b-f885a63368c6",
+      "prompt": "flow_prompt_take2.txt",
+      "prompt_sha256": "ece36dc093bdb7cc4477a430a22f7af696b2b045645410097120494782f59b91",
+      "submitted_utc": "2026-09-07T16:15:42Z",
+      "ready_utc": "2026-09-07T16:17:22Z",
+      "downloaded_utc": "2026-09-07T16:18:16Z",
+      "progress_log": [
+        "16:16:12 22%",
+        "16:16:32 37%",
+        "16:16:52 55%",
+        "16:17:22 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "end_frame_used": false,
+      "audio_uploaded": false,
+      "first_frame_diff": 1.08,
+      "watermark": "none"
+    },
+    "flow_credits_total": 200,
+    "base_original": {
+      "file": "out/outro_B2_v2/original_e8170422-751d-4940-890b-f885a63368c6.mp4",
+      "sha256": "9a7056b689a77dd50fcc262540d04033c77bb6f271a899b131135ae6cca556f0"
+    },
+    "base": {
+      "file": "out/outro_B2_v2/base.mp4",
+      "take": 2,
+      "sha256": "9a7056b689a77dd50fcc262540d04033c77bb6f271a899b131135ae6cca556f0",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "audio_seconds": 8.0,
+      "stream_starts": 0.0,
+      "audio": "aac 48 kHz stereo (disposable)"
+    },
+    "base_gate": {
+      "face_plain_suit": "pass",
+      "artifact_hands_stable": "pass",
+      "no_cut_or_reset": "pass",
+      "gaze": "pass: eyes up whole take, never looks down",
+      "articulation_all_three": "FAIL - passage 2 (You did) closed-lip smile, lips part only 4.45-4.7 s",
+      "passed": false,
+      "owner_override": "accepted despite passage 2 closed smile"
+    },
+    "passages": {
+      "no_go_on_11_42": "pass: open articulation 0.0-0.75 s, broad toothy grin 1.0-1.7 s",
+      "you_did_80_111": "FAIL: closed knowing smile, head tilted, eyes up; lips part 4.45-4.7 s only",
+      "da_da_dum_couldve_been_141_184": "pass: singing shapes 5.875-6.2 and 6.75-7.3 s, closed calm by 7.4 s; final been on closed mouth"
+    },
+    "frame_180": "frontal, head level, eyes up, calm closed smile, hands/artifact stable (good B3 anchor)",
+    "kling": {
+      "submitted": true,
+      "job_id": "86",
+      "download_name": "kling_20260908_Lip_Sync__86_0.mp4",
+      "faces_detected": "Character 1 = exobiologist (sole)",
+      "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav at 0:00-0:08 (gaps intact), Sound from Video OFF, MP4 Without Watermark",
+      "credits": 10,
+      "balance_before": 361,
+      "balance_after": 351,
+      "submitted_utc": "2026-09-07T16:22:23Z",
+      "generated_utc": "2026-09-07T16:28:37Z",
+      "download_clicked_utc": "2026-09-07T16:29:37Z",
+      "filed_utc": "2026-09-07T16:29:53Z"
+    },
+    "sheets": [
+      "contact_every6.jpg",
+      "crop_face_every2.jpg",
+      "crop_face_cut1_every2.jpg",
+      "crop_face_cut2_every2.jpg",
+      "crop_face_cut3_every2.jpg",
+      "crop_artifact_hands_every8.jpg",
+      "crop_chest_every24.jpg",
+      "keyframes_0_11_41_80_110_141_180_183.jpg",
+      "mouth_synced_cut1_src0.27-1.87s_native30.jpg",
+      "mouth_synced_cut2_src3.27-4.7s_native30.jpg",
+      "mouth_synced_cut3_src5.8-7.7s_native30.jpg",
+      "contact_synced_every10_native.jpg"
+    ],
+    "not_done": [
+      "no third Flow",
+      "no second Kling",
+      "no A2/B3",
+      "no assembly",
+      "no FX",
+      "no production edits",
+      "no commit",
+      "no purchase"
+    ],
+    "owner_acceptance": "owner accepted take 2 base and authorized the single Kling pass (chat, 2026-09-07)",
+    "synced_original": {
+      "file": "out/outro_B2_v2/original_kling_86.mp4",
+      "sha256": "26ed64c2dec16db98ccb15877a24e57d826a290ffd58ecd199e597e393ef494f"
+    },
+    "synced": {
+      "file": "out/outro_B2_v2/synced.mp4",
+      "sha256": "26ed64c2dec16db98ccb15877a24e57d826a290ffd58ecd199e597e393ef494f",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false,
+      "remux_made": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 1.0,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "only mouth re-rendered (mouth mean 3.3/max 8.2); artifact+hands mean 2.3/max 3.6; chest/window/room unchanged",
+    "sync_checks": {
+      "cut1_no_go_on_11_42": "usable: clear No 0.27-0.85 s, go on as open/smiling shapes 1.0-1.5 s, on soft",
+      "cut2_you_did_80_111": "weak: closed smile 3.27-3.7, brief lip parting 3.73-3.85 and 4.0-4.07, open shapes late 4.47-4.7",
+      "cut3_dadadum_couldve_been_141_184": "usable: Da-da-dum 5.8-6.3, Could've 6.67-7.2; final been on closing/closed mouth from 7.4 s"
+    },
+    "other_speaker_context": "open shapes 1.9-2.3 s and 4.47-5.0 s outside her cuts",
+    "defects": [
+      "Kling cut 2 You did under-articulated over closed smile",
+      "Kling final been on closed mouth ~7.4 s on",
+      "base broad grin/laugh 1.0-2.6 s",
+      "base early Da-da-dum 5.0-5.8 s",
+      "take 1 archived: looks down through Could've been"
+    ],
+    "verdict": "both stages complete; cuts 1 and 3 usable, cut 2 weak; Codex to verify and owner to judge in context",
+    "credits_total": {
+      "flow": 200,
+      "kling": 10
+    }
+  }
+}

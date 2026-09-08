@@ -1,0 +1,216 @@
+{
+  "take": "A3",
+  "status": "claude_done_ready_for_codex_verification",
+  "inputs": {
+    "first_frame": {
+      "file": "out/outro_closing_generations_v1/A3/first_frame.png",
+      "sha256": "a5326cd101648ddaca6414c9a38d0c41940b1dc43c34279f52d7c81a4f499734"
+    },
+    "prompt": {
+      "file": "out/outro_closing_generations_v1/A3/flow_prompt.txt",
+      "sha256": "85345fb4e56464af6b41149993a3d36edfb0b9be3497d2f8af39b1d8b0d7e441"
+    },
+    "guide": {
+      "file": "out/outro_closing_generations_v1/A3/guide.wav",
+      "sha256": "b69e16605db4a140ba6f5c71b5d6192423f075f27a22e07f36c89ed4670b573d"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    }
+  },
+  "anchor": {
+    "source": {
+      "file": "out/outro_A2_v2/take1/base.mp4",
+      "sha256": "8836ee224def240a37f4b00daa2770b52c37207142dd61f2c2262bf2864c7007"
+    },
+    "source_frame_at24": 172,
+    "song_frame": 4492,
+    "inspection": "Existing identity, room and prop state retained from unsynced base. No baked FX."
+  },
+  "clock": {
+    "fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin": 4492,
+    "song_end_exclusive": 4684,
+    "requested_frames": 192,
+    "raw_stem_start_seconds": 186.98831866666666,
+    "stem_offset_applied_once_seconds": 0.178348,
+    "additional_offset_seconds": 0
+  },
+  "guide": "Continuous8seconds, mono48k PCM16,384000samples. Other speaker context retained, not isolated. No gating/normalization/shift. A3 and B3 have DIFFERENT origins: never interchange guides.",
+  "visible_cuts": [
+    {
+      "song": [
+        4504,
+        4557
+      ],
+      "source": [
+        12,
+        65
+      ],
+      "phrase": "Say goodnight"
+    },
+    {
+      "song": [
+        4574,
+        4622
+      ],
+      "source": [
+        82,
+        130
+      ],
+      "phrase": "Sung phrase"
+    },
+    {
+      "song": [
+        4644,
+        4671
+      ],
+      "source": [
+        152,
+        179
+      ],
+      "phrase": "Night"
+    }
+  ],
+  "output": {
+    "base": "out/outro_closing_generations_v1/A3/base.mp4",
+    "synced": "out/outro_closing_generations_v1/A3/synced.mp4",
+    "receipt": "out/outro_closing_generations_v1/A3/RECEIPT.md"
+  },
+  "authorization": {
+    "flow": 1,
+    "kling": 1,
+    "kling_condition": "base passes visual review; material failure pause for owner, no automatic retry"
+  },
+  "coverage_note": "Record actual returned frames. B3 has only3 intended exit frames after last cut; do not promise full switch action after final word.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T18:30:00Z",
+    "receipt": "out/outro_closing_generations_v1/A3/RECEIPT.md",
+    "input_hashes_ok": true,
+    "start_frame_equals_anchor": true,
+    "flow": {
+      "media_id": "13794e3e-2597-46d9-865c-fb46c77a48a3",
+      "submitted_utc": "2026-09-07T17:56:59Z",
+      "ready_utc": "2026-09-07T17:58:10Z",
+      "downloaded_utc": "2026-09-07T17:59:04Z",
+      "progress_log": [
+        "17:57:30 22%",
+        "17:57:50 39%",
+        "17:58:10 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1 (model menu had reverted to Omni; switched back before send)",
+      "credits": 100,
+      "end_frame_used": false,
+      "audio_uploaded": false,
+      "first_frame_diff": 0.87,
+      "watermark": "none"
+    },
+    "base_original": {
+      "file": "out/outro_closing_generations_v1/A3/original_13794e3e-2597-46d9-865c-fb46c77a48a3.mp4",
+      "sha256": "b8d54d355cc078d4c47b1bf3278c04e580d19eb8251625dbf27578f4cc1f5fa8"
+    },
+    "base": {
+      "file": "out/outro_closing_generations_v1/A3/base.mp4",
+      "sha256": "b8d54d355cc078d4c47b1bf3278c04e580d19eb8251625dbf27578f4cc1f5fa8",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "audio_seconds": 8.0,
+      "stream_starts": 0.0
+    },
+    "base_gate": {
+      "face_wardrobe_room": "pass",
+      "tv_shape": "pass",
+      "hand_action": "pass: natural reach to lower-right knob from 4.2 s, turn at ~6.2-6.4 s, no glass crossing",
+      "tv_state": "static to 6.33 s, dark after (early, during Night); white flash 7.7-8.0 s in exit frames",
+      "cut1_say_goodnight_12_65": "partial: closed smile 0.5-1.85 s, singing 1.9-2.7 s (late)",
+      "cut2_sung_82_130": "partial: frontal singing 3.42-4.0 s, head down-right with closed mouth 4.3-5.42 s",
+      "cut3_night_152_179": "pass: frontal articulation 6.25-6.6 s",
+      "no_cut_or_reset": "pass",
+      "passed": false,
+      "reason": "late line 1, head turned away in second half of sung phrase, TV off early + end flash"
+    },
+    "control_action_times_seconds": {
+      "hand_leaves_lap": 4.2,
+      "hand_at_knob": 4.7,
+      "knob_turn": 6.3,
+      "screen_dark": 6.33,
+      "end_flash": [
+        7.7,
+        8.0
+      ]
+    },
+    "kling": {
+      "submitted": true,
+      "job_id": "590",
+      "download_name": "kling_20260908_Lip_Sync__590_0.mp4",
+      "settings": "Lip Sync, Character 1, Upload Local Dubbing A3/guide.wav 0:00-0:08 (gaps intact), zero offset, Sound from Video OFF, MP4 Without Watermark",
+      "credits": 10,
+      "balance_before": 321,
+      "balance_after": 311,
+      "submitted_utc": "2026-09-07T18:17:53Z",
+      "generated_by_utc": "2026-09-07T18:21:04Z",
+      "download_clicked_utc": "2026-09-07T18:21:26Z",
+      "filed_utc": "2026-09-07T18:22:20Z"
+    },
+    "sheets": [
+      "contact_every6.jpg",
+      "crop_face_every2.jpg",
+      "crop_face_cut1_every2.jpg",
+      "crop_face_cut2_every2.jpg",
+      "crop_face_cut3_every2.jpg",
+      "crop_tv_hand_every8.jpg",
+      "keyframes_0_12_64_82_129_152_178_191.jpg",
+      "mouth_synced_cut1_src0.47-2.73s_native30.jpg",
+      "mouth_synced_cut2_src3.4-5.43s_native30.jpg",
+      "mouth_synced_cut3_src6.27-7.53s_native30.jpg",
+      "contact_synced_every10_native.jpg"
+    ],
+    "owner_options": [
+      "accept and run the single Kling (recommended: face lit and frontal in cuts 1 and 3; cut 2 second half will sync on a downturned head)",
+      "one Flow retry"
+    ],
+    "not_done": [
+      "no retry",
+      "no second Kling",
+      "no assembly",
+      "no FX",
+      "no commit",
+      "no purchase"
+    ],
+    "owner_acceptance": "owner accepted the base defects and authorized the single Kling (chat, 2026-09-07)",
+    "synced_original": {
+      "file": "out/outro_closing_generations_v1/A3/original_kling_590.mp4",
+      "sha256": "8f47e4ffa2b55eef994bf58c3c51725a976e33b39ce1c6db3587a412776fe868"
+    },
+    "synced": {
+      "file": "out/outro_closing_generations_v1/A3/synced.mp4",
+      "sha256": "8f47e4ffa2b55eef994bf58c3c51725a976e33b39ce1c6db3587a412776fe868",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false,
+      "remux_made": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 1.0,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "only mouth changed (mouth 5.4/max 14.5); TV/hands maxima are the base flash and knob action",
+    "sync_checks": {
+      "cut1_say_goodnight_12_65": "usable: small opening 1.2-1.5 s, strong singing 2.1-2.7 s",
+      "cut2_sung_82_130": "half: frontal singing 3.4-4.05 s; head down with closed mouth 4.3-5.42 s while guide sings",
+      "cut3_night_152_179": "usable: frontal Night 6.27-6.6 s, calm after"
+    }
+  }
+}

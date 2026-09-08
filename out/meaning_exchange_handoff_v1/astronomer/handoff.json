@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "test_id": "meaning_exchange_v1_astronomer",
+  "status": "claude_done_ready_for_codex_verification",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "task": "One new Flow listening plate. NO Kling. No dialogue.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "kling": null,
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical expectations only; verify actual UI. No purchases or auto-retries."
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "codex/out/astronomer_desk_sync_b.jpg",
+      "sha256": "24d2794a65e01ba10526249c190a5b576b459d2d7b654bb2cdd3aca59f503fcb"
+    },
+    "prompt": {
+      "file": "out/meaning_exchange_handoff_v1/astronomer/flow_prompt.txt",
+      "sha256": "1e2252d4b9a168d384f08434b338f7a1eef6cd9eda3f8a13cf3027ebfa8c2b39"
+    },
+    "lock": {
+      "file": "out/meaning_exchange_handoff_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    },
+    "guide": null
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 2774,
+    "song_origin_seconds": 115.58333333333333,
+    "lead_stem_placement_offset_seconds": null,
+    "raw_stem_extract_start_seconds": null,
+    "guide_already_aligned": false,
+    "additional_audio_offset_seconds": 0,
+    "source_duration_frames": 192
+  },
+  "cut": {
+    "visible_song_frames": [
+      2786,
+      2881
+    ],
+    "visible_source_frames_at_24fps": [
+      12,
+      107
+    ],
+    "lead_handle_frames": 12,
+    "exit_handle_frames": 85,
+    "speed": 1,
+    "panel_push_song_frames": [
+      2786,
+      2826
+    ],
+    "overlap_is_intentional": true
+  },
+  "camera": "Gentle axial push-in from wider first frame,10-15percent larger head by source4.5seconds.",
+  "quality_gate_before_kling": "No Kling under any circumstances. Confirm closed relaxed mouth after source0.5 and live attentive listening.",
+  "output": {
+    "base": "out/meaning_exchange_handoff_v1/astronomer/base.mp4",
+    "synced": null,
+    "receipt": "out/meaning_exchange_handoff_v1/astronomer/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "tool_time_counts": true,
+    "respect_rate_limits": true
+  },
+  "completion": "Save untouched original downloads and byte-identical base/synced copies. Record hashes, native fps, dimensions, frames, stream start times/durations, settings, job IDs, actual credits and visual defects. Add claude_result and set status=claude_done_ready_for_codex_verification. Partial failure stays explicit. No assembly, grading, FX, crop, commit or approval claim.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T00:05:00Z",
+    "receipt": "out/meaning_exchange_handoff_v1/astronomer/RECEIPT.md",
+    "input_hashes_ok": true,
+    "flow": {
+      "media_id": "d6fc6712-493c-41d2-a640-dc2db0cf9d90",
+      "submitted_utc": "2026-09-06T23:44:21Z",
+      "ready_utc": "2026-09-06T23:46:18Z",
+      "downloaded_utc": "2026-09-06T23:47:05Z",
+      "progress_log": [
+        "23:44:41 13%",
+        "23:45:07 35%",
+        "23:45:30 53%",
+        "23:46:18 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "start_thumbnail_id": "df5e41be",
+      "end_frame_used": false,
+      "first_frame_diff": 0.9
+    },
+    "original": {
+      "file": "out/meaning_exchange_handoff_v1/astronomer/original_d6fc6712-493c-41d2-a640-dc2db0cf9d90.mp4",
+      "sha256": "9e2931728f3357b2d7ab07d8488cc93bd7cf4d966537b6abb6c142e5ae20e72e"
+    },
+    "base": {
+      "file": "out/meaning_exchange_handoff_v1/astronomer/base.mp4",
+      "sha256": "9e2931728f3357b2d7ab07d8488cc93bd7cf4d966537b6abb6c142e5ae20e72e",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "stream_start": 0.0,
+      "watermark": "none"
+    },
+    "synced": null,
+    "kling": {
+      "submitted": false,
+      "reason": "not authorized (listening take)",
+      "credits": 0
+    },
+    "camera": "gentle axial push-in ~10%, easing by ~4-5 s; no pan/cut",
+    "mouth": "closed by ~0.5 s; slight partings 4.2-4.4 s and 5.25-5.9 s; no mouthing",
+    "gaze_timing_seconds": {
+      "to_screen_right": [
+        0.5,
+        1.25
+      ],
+      "return": [
+        1.4,
+        2.0
+      ],
+      "down_to_screen_left": [
+        2.1,
+        3.0
+      ],
+      "considering_down_left": [
+        3.1,
+        3.9
+      ],
+      "up_to_lens": [
+        4.0,
+        4.4
+      ],
+      "steady_listen": [
+        4.4,
+        6.0
+      ],
+      "eyes_lower_again": [
+        6.0,
+        7.9
+      ]
+    },
+    "hand": "right hand slides forward onto desk tray/paper 3.3-4.5 s and rests (mild contact)",
+    "empty_suit": "stays empty and inert all 8 s",
+    "defects": [
+      "slight lip partings 4.2-4.4 s and 5.25-5.9 s",
+      "hand touches desk tray/paper 3.3-4.5 s",
+      "push-in modest (~10%)"
+    ],
+    "verdict": "usable listening plate; proposed window [12,107) clean",
+    "sheets": [
+      "contact_every6.jpg",
+      "crop_face_every3.jpg",
+      "frames_every8_half.jpg",
+      "crop_suit_every24.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no retry",
+      "no assembly",
+      "no FX",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

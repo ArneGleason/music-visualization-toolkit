@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "test_id": "shop_performance_v1",
+  "status": "claude_done_ready_for_codex_verification",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "task": "Two Flow performance candidates only. NO Kling or other lip sync. Owner reviews base performances first.",
+  "authorization": {
+    "max_flow_submissions": 2,
+    "max_per_take": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "model": "Veo 3.1 Quality",
+    "mode": "Frames",
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "duration_seconds": 8,
+    "outputs_per_take": 1,
+    "expected_credits_per_take": 100,
+    "max_total_credits": 200,
+    "stop_if_settings_unavailable_or_price_exceeds_cap": true
+  },
+  "lock": {
+    "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+    "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+  },
+  "takes": [
+    {
+      "id": "wide",
+      "status": "claude_done_ready_for_codex_verification",
+      "first_frame": {
+        "file": "codex/out/counterfeit_parade_b.jpg",
+        "sha256": "e6b44f299c6c8a06f152db3771723fce9b083d5fa15c65da4e6c4667c7f16bc7"
+      },
+      "prompt": {
+        "file": "out/shop_performance_v1/wide_prompt.txt",
+        "sha256": "6f954582ae9b11b38f570eb001a6d91c369190f0638409e8454b6423177cae7e"
+      },
+      "song_frames": [
+        2399,
+        2437
+      ],
+      "song_origin_frame": 2387,
+      "source_frames_after_timestamp_conform": [
+        12,
+        50
+      ],
+      "lead_handle_frames": 12,
+      "requested_exit_handle_frames": 142,
+      "base": "out/shop_performance_v1/wide/base.mp4",
+      "claude_result": {
+        "status": "claude_done_ready_for_codex_verification",
+        "original": "out/shop_performance_v1/wide/original_fcfeb49c-cbdf-483e-9de5-91d462ed2cee.mp4",
+        "base": "out/shop_performance_v1/wide/base.mp4",
+        "sha256": "29be3d520d057b098cd9ec2f621ce15717d852c75fa93461d5184f2c34cfb874",
+        "fps": 24,
+        "frames": 192,
+        "width": 1280,
+        "height": 720,
+        "video_seconds": 8.0,
+        "stream_start": 0.0,
+        "flow_media_id": "fcfeb49c-cbdf-483e-9de5-91d462ed2cee",
+        "submitted_utc": "2026-09-06T17:59:03Z",
+        "ready_utc": "2026-09-06T18:00:29Z",
+        "downloaded_utc": "2026-09-06T18:01:31Z",
+        "progress_log": [
+          "17:59:33 21%",
+          "17:59:46 32%",
+          "18:00:29 rendered"
+        ],
+        "credits": 100,
+        "first_frame_diff": 0.95,
+        "end_frame_used": false,
+        "gesture_timing_seconds": {
+          "head_dip": [
+            0.45,
+            0.7
+          ],
+          "second_dip": [
+            1.1,
+            1.25
+          ],
+          "eyebrow_lift": 1.4,
+          "gaze_turn_to_viewer": [
+            1.3,
+            1.6
+          ],
+          "hands_to_hips": [
+            2.0,
+            2.6
+          ],
+          "broad_smile": [
+            3.0,
+            4.5
+          ],
+          "look_aside": [
+            5.3,
+            6.4
+          ]
+        },
+        "camera": "locked",
+        "reflection": "same woman, plausible",
+        "defects": [
+          "head shake reads as soft dip/tilt, not decisive",
+          "hands-on-hips pose from 2.0-2.6 s",
+          "broad warm smile 3-4.5 s, warmer than skeptical"
+        ],
+        "proposed_window_verdict": "[12,50) usable: dip, eyebrow lift and turn to viewer all inside; hands start rising at the window end",
+        "sheets": [
+          "wide/contact_every6.jpg",
+          "wide/crop_face_0-2.6s_every2.jpg",
+          "wide/crop_face_2.6-8s_every8.jpg",
+          "wide/crop_window_every24.jpg"
+        ]
+      }
+    },
+    {
+      "id": "close",
+      "status": "claude_done_ready_for_codex_verification",
+      "first_frame": {
+        "file": "out/shop_performance_v1/close_reference.png",
+        "sha256": "2982d1190a98f263e8944c4b30a50cbf4d5bf1e0b48e86504adc2f130bd861ea"
+      },
+      "prompt": {
+        "file": "out/shop_performance_v1/close_prompt.txt",
+        "sha256": "af4a8df6593a91094075a7c42d70b48590724e6d3f727d09316a422976f12e3b"
+      },
+      "song_frames": [
+        2437,
+        2484
+      ],
+      "song_origin_frame": 2425,
+      "source_frames_after_timestamp_conform": [
+        12,
+        59
+      ],
+      "lead_handle_frames": 12,
+      "requested_exit_handle_frames": 133,
+      "base": "out/shop_performance_v1/close/base.mp4",
+      "claude_result": {
+        "status": "claude_done_ready_for_codex_verification",
+        "original": "out/shop_performance_v1/close/original_9d951335-60b8-4aaf-bb13-06a679c455ff.mp4",
+        "base": "out/shop_performance_v1/close/base.mp4",
+        "sha256": "510d47b9198a99cd3fddd48b34eaf498f9f98c32d2c0ee42a8144d400e754347",
+        "fps": 24,
+        "frames": 192,
+        "width": 1280,
+        "height": 720,
+        "video_seconds": 8.0,
+        "stream_start": 0.0,
+        "flow_media_id": "9d951335-60b8-4aaf-bb13-06a679c455ff",
+        "submitted_utc": "2026-09-06T18:02:13Z",
+        "ready_utc": "2026-09-06T18:03:30Z",
+        "downloaded_utc": "2026-09-06T18:04:41Z",
+        "progress_log": [
+          "18:02:43 21%",
+          "18:03:30 rendered"
+        ],
+        "credits": 100,
+        "first_frame_diff": 1.6,
+        "end_frame_used": false,
+        "gesture_timing_seconds": {
+          "singing_onset": 0.08,
+          "gaze_on_camera": [
+            0.33,
+            0.5
+          ],
+          "eye_drop_downward": [
+            0.67,
+            0.83
+          ],
+          "open_vowels_teeth_visible": [
+            0.9,
+            1.45
+          ],
+          "bared_teeth_grimace": [
+            1.5,
+            1.9
+          ],
+          "mouth_settles": 2.5,
+          "looks_away": [
+            5.5,
+            8.0
+          ]
+        },
+        "camera": "locked",
+        "identity": "consistent, natural warm teeth",
+        "silent_gaps_in_singing_window": "none",
+        "tail_mouth_motion": "none until 5.4 s; no babbling",
+        "defects": [
+          "singing starts at 0.08 s before the gaze turn",
+          "eye move is downward, not an upward flick",
+          "clenched/bared teeth 1.5-1.9 s",
+          "looks away from 5.5 s"
+        ],
+        "proposed_window_verdict": "[12,59) usable: continuous singing across the window, settle at 2.5 s",
+        "sheets": [
+          "close/contact_every6.jpg",
+          "close/crop_mouth_0-3s_every2.jpg",
+          "close/crop_face_0-3s_every3.jpg",
+          "close/crop_mouth_3-8s_every6.jpg"
+        ]
+      }
+    }
+  ],
+  "clock": {
+    "fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "audio_upload": false,
+    "generated_audio": "disposable, never assembly soundtrack"
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "tool_time_counts": true,
+    "respect_rate_limits": true
+  },
+  "output": {
+    "receipt": "out/shop_performance_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "assembly_guard": "Candidate timings only. Codex builds a short local push transition ending before2437, subject to continuity review. Do not generate the camera transition. No lip sync now. Native frame rates are conformed by timestamps later, never interpreted frame-for-frame. Preserve full originals, record actual gesture timing; do not silently move cut boundaries or claim rendered handles are reviewed usable handles.",
+  "close_reference_provenance": {
+    "source": {
+      "file": "codex/out/counterfeit_parade_b.jpg",
+      "sha256": "e6b44f299c6c8a06f152db3771723fce9b083d5fa15c65da4e6c4667c7f16bc7"
+    },
+    "crop_xywh": [
+      624,
+      64,
+      800,
+      450
+    ],
+    "output_size": [
+      1280,
+      720
+    ],
+    "method": "deterministic crop and Lanczos enlargement; no invented pixels or new generation",
+    "limitation": "enlarged reference, not proof of final close-up detail"
+  },
+  "next_phase": "Owner approves performance and transition first; Codex prepares a separate exact guide for any later lip sync.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T18:16:00Z",
+    "receipt": "out/shop_performance_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1 (verified before each submit)",
+    "total_credits": 200,
+    "flow_high_demand_banner": true,
+    "takes": {
+      "wide": "fcfeb49c-cbdf-483e-9de5-91d462ed2cee",
+      "close": "9d951335-60b8-4aaf-bb13-06a679c455ff"
+    },
+    "verdict": "both takes usable candidates with defects; see per-take claude_result",
+    "not_done": [
+      "no Kling",
+      "no guide audio",
+      "no retry",
+      "no extra variants",
+      "no generated transition",
+      "no assembly",
+      "no production edits",
+      "no commit",
+      "no owner approval claimed"
+    ]
+  }
+}

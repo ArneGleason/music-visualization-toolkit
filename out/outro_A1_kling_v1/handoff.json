@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "test_id": "outro_A1_kling_v1",
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "ONE Kling Lip Sync using approved A1 v3 original performance. NO Flow or retry.",
+  "authorization": {
+    "max_flow_submissions": 0,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "sole real woman",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical estimate. Check actual UI, no purchases or upgrades."
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 4165,
+    "song_end_frame_exclusive": 4357,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 173.36331866666666,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0
+  },
+  "inputs": {
+    "base": {
+      "file": "out/outro_A1_kling_v1/base.mp4",
+      "sha256": "aa40341df7e079630de9c7c39bed6a077bfcb060962c1b509388ce24ee8578ba"
+    },
+    "guide": {
+      "file": "out/outro_A1_kling_v1/guide.wav",
+      "sha256": "aec7fa16b9b240410a96b1363db4453bc24cfc355fc5b18c328c8fe7f3bff4f4"
+    }
+  },
+  "original_source": {
+    "file": "out/outro_A1_v3/base.mp4",
+    "sha256": "99124a5780cd629cb086e9d362db2e1d78bb5afa2a9d89ca41fc09a428c13767"
+  },
+  "guide_provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "processing": "Continuous8second mono48k PCM16 slice. No gating, normalization, silence removal, concatenation or time stretching. Known project stem placement offset applied once during extraction. Not a speaker-separated stem.",
+    "samples": 384000,
+    "includes_other_speaker_context": true
+  },
+  "visible_cuts": [
+    {
+      "song_frames": [
+        4177,
+        4232
+      ],
+      "source_frames_at_24fps": [
+        12,
+        67
+      ],
+      "text": "You still there?"
+    },
+    {
+      "song_frames": [
+        4262,
+        4331
+      ],
+      "source_frames_at_24fps": [
+        97,
+        166
+      ],
+      "text": "Never mind / La-la-la, low light"
+    }
+  ],
+  "assembly_guard": "Keep source time running while offscreen. Other-speaker reply is context only, never select A1 during that reply. No retiming to generated scratch speech. Review question onset/tail and low light tail for missed syllables; retain original listening frames where necessary after review. No guaranteed sync quality. TV FX later, not uploaded now. Final master once.",
+  "output": {
+    "synced": "out/outro_A1_kling_v1/synced.mp4",
+    "receipt": "out/outro_A1_kling_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "tool_time_counts": true,
+    "respect_rate_limits": true
+  },
+  "completion": "Download full untouched original plus byte-identical synced.mp4. Record hashes, settings, credits, job ID, native fps/count/duration/dimensions and observations in RECEIPT.md; add claude_result and flip status to claude_done_ready_for_codex_verification. Return imperfect results, no automatic retry, no assembly or commit.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T15:00:00Z",
+    "receipt": "out/outro_A1_kling_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "base_video_identical_to_original_source": true,
+    "kling": {
+      "job_id": "5804",
+      "download_name": "kling_20260907_Lip_Sync__5804_0.mp4",
+      "faces_detected": "Character 1 = the astronomer (sole)",
+      "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav at 0:00-0:08 (all gaps intact), Sound from Video OFF, MP4 Without Watermark",
+      "credits": 10,
+      "balance_before": 381,
+      "balance_after": 371,
+      "submitted_utc": "2026-09-07T14:42:48Z",
+      "generated_utc": "2026-09-07T14:46:12Z",
+      "download_clicked_utc": "2026-09-07T14:47:11Z",
+      "filed_utc": "2026-09-07T14:47:56Z"
+    },
+    "original": {
+      "file": "out/outro_A1_kling_v1/original_5804.mp4",
+      "sha256": "4878c1a15925030d58bdc44ce2120b8906fd1e5f99de40e39716a13b0202cf48"
+    },
+    "synced": {
+      "file": "out/outro_A1_kling_v1/synced.mp4",
+      "sha256": "4878c1a15925030d58bdc44ce2120b8906fd1e5f99de40e39716a13b0202cf48",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 0.993,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "only mouth re-rendered; hands/desk/props unchanged; TV static burst content and geometry same but delayed ~0.1 s vs base",
+    "cut1_source_12_67": {
+      "you_still_there": "articulated 0.7-1.85 s with teeth/interior, carried through head turn",
+      "listening_gap": "closed mouth 1.9-2.67 s",
+      "pre_cut_residue": "small mouth opening 0.3-0.47 s in the lead"
+    },
+    "cut2_source_97_166": {
+      "never_mind": "open 3.85-4.57 s (starts ~0.15 s early, in lead)",
+      "la_la_la": "wide open with teeth 4.6-5.37 s on the guide peak",
+      "low_light": "open shapes 5.4-6.57 s",
+      "end": "mouth closes 6.6-6.97 s"
+    },
+    "other_speaker_context": "animates mouth 2.7-3.0 s and 7.0-7.1 s, outside her cuts",
+    "defects": [
+      "pre-question mouth motion 0.3-0.47 s (lead)",
+      "Never starts ~0.15 s early (lead)",
+      "TV static delayed ~0.1 s vs base"
+    ],
+    "verdict": "usable for both cuts; owner review of question tail through the head turn recommended",
+    "sheets": [
+      "mouth_synced_cut1_src0.3-3.0s_native30_everyframe.jpg",
+      "mouth_synced_cut2_src3.8-7.1s_native30_everyframe.jpg",
+      "mouth_base_every6.jpg",
+      "mouth_synced_every6.jpg",
+      "tv_base_vs_synced_1.8-2.8s_every3.jpg",
+      "contact_synced_every10_native.jpg"
+    ],
+    "not_done": [
+      "no Flow",
+      "no retry",
+      "no B1/A2",
+      "no assembly",
+      "no production edits",
+      "no TV FX",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

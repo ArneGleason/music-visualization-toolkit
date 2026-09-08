@@ -1,0 +1,21 @@
+{
+  "status": "owner_approved_clean_delivery_ready",
+  "clean": "out/opening_aerial_glimmer_v1/clean.mp4",
+  "sha256": "98447a3cd3f6e0520924cd18ad98f2ecf7ad8b80941f39df72b904f22e52f436",
+  "fps": 24,
+  "frames": 77,
+  "song_frames": [
+    205,
+    282
+  ],
+  "clean_source_frames": [
+    0,
+    77
+  ],
+  "audio": false,
+  "lyrics": false,
+  "fx_baked": true,
+  "snapshot": "out/opening_aerial_glimmer_v1/assembly_shotlist.json",
+  "cue_snapshot": "out/opening_aerial_glimmer_v1/overlay_cues.json",
+  "warning": "Use normal registry-aware assembler with clean snapshot. Do not use light-injecting blender_review.py with baked snapshot: that would double the FX. Original shotlist.json is for reproducing FX from raw source."
+}

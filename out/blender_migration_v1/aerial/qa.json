@@ -1,0 +1,26 @@
+[
+  {
+    "frame": 1,
+    "reference_mae_8bit": 2.4118424479166665,
+    "reference_p99": 10.0,
+    "resolution_mae_8bit": 3.267111183449074
+  },
+  {
+    "frame": 25,
+    "reference_mae_8bit": 2.7800557002314816,
+    "reference_p99": 11.0,
+    "resolution_mae_8bit": 2.534798538773148
+  },
+  {
+    "frame": 49,
+    "reference_mae_8bit": 2.774634693287037,
+    "reference_p99": 11.0,
+    "resolution_mae_8bit": 2.140671657986111
+  },
+  {
+    "frame": 77,
+    "reference_mae_8bit": 3.5260044126157406,
+    "reference_p99": 14.0,
+    "resolution_mae_8bit": 2.582109375
+  }
+]

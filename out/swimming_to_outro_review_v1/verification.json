@@ -1,0 +1,90 @@
+{
+  "preview_song_frames": [
+    3505,
+    4262
+  ],
+  "frames": 757,
+  "new_source_coverage": [
+    {
+      "shot": "chorus_plunge_continuous",
+      "song_frames": [
+        3897,
+        4030
+      ],
+      "source": "clips\\raw\\chorus_plunge_v6.mp4",
+      "source_frames": [
+        0,
+        133
+      ],
+      "available_frames": 192
+    },
+    {
+      "shot": "turn_phrase",
+      "song_frames": [
+        4030,
+        4073
+      ],
+      "source": "clips\\raw\\canal_junction_turn_v6.mp4",
+      "source_frames": [
+        24,
+        67
+      ],
+      "available_frames": 192
+    },
+    {
+      "shot": "follow_phrase",
+      "song_frames": [
+        4073,
+        4120
+      ],
+      "source": "clips\\raw\\canal_current_macro_v6.mp4",
+      "source_frames": [
+        72,
+        119
+      ],
+      "available_frames": 192
+    },
+    {
+      "shot": "o01",
+      "song_frames": [
+        4120,
+        4177
+      ],
+      "source": "out/tunnel_arrival_o01/clean.mp4",
+      "source_frames": [
+        0,
+        57
+      ],
+      "available_frames": 57
+    },
+    {
+      "shot": "o02",
+      "song_frames": [
+        4177,
+        4232
+      ],
+      "source": "clips/outro/A1_kling24.mp4",
+      "source_frames": [
+        12,
+        67
+      ],
+      "available_frames": 192
+    },
+    {
+      "shot": "o03",
+      "song_frames": [
+        4232,
+        4262
+      ],
+      "source": "clips/outro/B1_kling24.mp4",
+      "source_frames": [
+        67,
+        97
+      ],
+      "available_frames": 192
+    }
+  ],
+  "unchanged_approved_through": 3897,
+  "speed": 1,
+  "status": "new continuation pacing review pending"
+}

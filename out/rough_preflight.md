@@ -1,0 +1,79 @@
+# Rough assembly preflight
+
+PASS: 71 shots, 4782 frames at 24 fps; 8 protected FX selections. No gaps, overlaps or short sources.
+
+Outro take origins validated. FX deliveries are silent and cut-length only; unused source duration below is not a promise of usable lip-sync or FX handles.
+
+| Shot | Song frames (end exclusive) | Resolved picture | Unused source seconds |
+| --- | --- | --- | --- |
+| s001 | 0:86 | clips\raw\obs_dome_open_v6.mp4 | 4.417 |
+| s002 | 86:155 | out/screen_sync_scope_rail_clean/dual.mp4 | 0.000 |
+| s003 | 155:293 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\astronomer_desk_sync_s003_kling_8c5bbcd0ece329c8d6ce.mp4 | 2.208 |
+| s004 | 293:430 | clips\raw\canal_map_macro_v6.mp4 | 2.292 |
+| s005 | 430:499 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\astronomer_close_sync_s005_kling_c8a24fcb359e6cf17353.mp4 | 5.083 |
+| s006 | 499:568 | clips\raw\canal_map_macro_v6.mp4 | 2.625 |
+| s007 | 568:637 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\astronomer_close_sync_s007_kling_8d6508a0fecaed3ca221.mp4 | 5.083 |
+| s008 | 637:706 | clips\raw\canal_map_macro_v6.mp4 | 0.025 |
+| s009 | 706:774 | clips\raw\signal_crossing_space_v6.mp4 | 5.167 |
+| s010 | 774:843 | out/tracked_light_receiver/clean.mp4 | 0.000 |
+| s011 | 843:912 | clips\raw\signal_crossing_space_v6.mp4 | 2.225 |
+| s012 | 912:1047 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\astronaut_close_sync_s012_kling_df7332f4765fa575f0a1.mp4 | 2.333 |
+| s013 | 1047:1184 | clips\raw\mars_night_wide_v6.mp4 | 2.292 |
+| s014 | 1184:1253 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\astronaut_close_sync_s014_kling_d2fc4b1823754d62028c.mp4 | 5.083 |
+| s015 | 1253:1321 | clips\raw\interference_bloom_v6.mp4 | 5.167 |
+| s016 | 1321:1391 | clips\raw\forest_threshold_v6.mp4 | 5.083 |
+| s017 | 1391:1459 | clips\raw\forest_walk_track_v6.mp4 | 5.167 |
+| s018 | 1459:1527 | clips\raw\forest_fauna_moth_v6.mp4 | 5.167 |
+| s019 | 1527:1595 | out/garden_airflow_bloom_depth/clean.mp4 | 0.000 |
+| s020 | 1595:1663 | clips\raw\forest_walk_track_v6.mp4 | 2.267 |
+| s021 | 1663:1731 | clips\raw\forest_fauna_birds_v6.mp4 | 5.167 |
+| s022 | 1731:1799 | clips\raw\forest_awakening_frontal_v6.mp4 | 5.167 |
+| s023 | 1799:1935 | clips\raw\specimen_table_macro_v6.mp4 | 2.333 |
+| s024 | 1935:2072 | clips\raw\astronaut_inspect_medium_v6.mp4 | 2.292 |
+| s025 | 2072:2207 | clips\raw\specimen_table_macro_v6.mp4 | 0.075 |
+| s026 | 2207:2275 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\astronaut_close_sync_s026_kling_6d8c188eb20277557099.mp4 | 5.125 |
+| s027 | 2275:2343 | clips\raw\mars_domes_wide_v6.mp4 | 5.167 |
+| s028 | 2343:2411 | clips\raw\astronaut_mars_medium_v6.mp4 | 5.167 |
+| s029 | 2411:2479 | clips\raw\counterfeit_parade_v6.mp4 | 5.167 |
+| s030 | 2479:2547 | clips\raw\excavation_site_v6.mp4 | 5.167 |
+| s031 | 2547:2616 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\astronaut_close_sync_s031_kling_ba285a091a472c443391.mp4 | 5.083 |
+| s032 | 2616:2684 | clips\raw\weather_over_colony_v6.mp4 | 5.167 |
+| s033 | 2684:2752 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\duet_call_response_sync_s033_kling_6ebfec6c3f5d44f37ff3.mp4 | 5.125 |
+| s034 | 2752:2857 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\duet_call_response_sync_s033_kling_6ebfec6c3f5d44f37ff3.mp4 | 0.723 |
+| s034b | 2857:2881 | clips/raw/weather_over_colony_v6.mp4 | 3.000 |
+| s035 | 2881:2928 | clips\raw\orbit_rockets_descent_v6.mp4 | 6.042 |
+| s036 | 2928:2958 | clips\raw\rockets_landing_wide_v6.mp4 | 6.750 |
+| s037 | 2958:3027 | out/pressure_lens_rockets_exaggerated/clean.mp4 | 0.000 |
+| s038 | 3027:3096 | clips\raw\rockets_landing_wide_v6.mp4 | 0.995 |
+| s039 | 3096:3165 | clips\raw\rockets_landing_wide_v6.mp4 | 5.125 |
+| s040 | 3165:3229 | clips\raw\rain_to_canal_v6.mp4 | 5.333 |
+| s041 | 3229:3302 | clips\raw\basin_moon_descent_v6.mp4 | 4.958 |
+| s042 | 3302:3370 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\basin_edge_sync_kling_508bdc13af737d8904c6.mp4 | 2.285 |
+| s043 | 3370:3438 | out/swimmer_fx_full/s043/clean.mp4 | 0.000 |
+| s044 | 3438:3505 | out/swimmer_fx_full/s044/clean.mp4 | 0.000 |
+| s045 | 3505:3574 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\chorus_close_sync_kling_0437aeecb6cd6f697a80.mp4 | 5.083 |
+| s046 | 3574:3642 | C:\Users\arneg\OneDrive\Documents\ChatGPT\music-visualization-toolkit-video-generation\out\assembly_cfr\chorus_close_sync_kling_0437aeecb6cd6f697a80.mp4 | 2.285 |
+| s047 | 3642:3710 | out/swimmer_fx_full/s047/clean.mp4 | 0.000 |
+| s048 | 3710:3778 | clips\raw\drumwall_basin_v6.mp4 | 5.167 |
+| s049 | 3778:3846 | clips\raw\canal_current_macro_v6.mp4 | 5.167 |
+| s050 | 3846:3915 | clips\raw\chorus_plunge_v6.mp4 | 5.125 |
+| s051 | 3915:3983 | clips\raw\chorus_plunge_v6.mp4 | 2.327 |
+| s052 | 3983:4051 | clips\raw\canal_junction_turn_v6.mp4 | 5.167 |
+| s053 | 4051:4120 | clips\raw\canal_current_macro_v6.mp4 | 2.225 |
+| o01 | 4120:4177 | out/tunnel_arrival_o01/clean.mp4 | 0.000 |
+| o02 | 4177:4232 | clips/outro/A1_kling24.mp4 | 5.208 |
+| o03 | 4232:4262 | clips/outro/B1_kling24.mp4 | 3.958 |
+| o04 | 4262:4331 | clips/outro/A1_kling24.mp4 | 1.083 |
+| o05 | 4331:4362 | clips/outro/B2_kling24.mp4 | 6.250 |
+| o06 | 4362:4400 | clips/outro/A2_kling24.mp4 | 4.667 |
+| o07 | 4400:4431 | clips/outro/B2_kling24.mp4 | 3.375 |
+| o08 | 4431:4461 | clips/outro/A2_kling24.mp4 | 2.125 |
+| o09 | 4461:4504 | clips/outro/B2_kling24.mp4 | 0.333 |
+| o10 | 4504:4557 | clips/outro/A3_kling24.mp4 | 5.625 |
+| o11 | 4557:4574 | clips/outro/B3_kling24.mp4 | 4.917 |
+| o12 | 4574:4622 | clips/outro/A3_kling24.mp4 | 2.917 |
+| o13 | 4622:4644 | clips/outro/B3_kling24.mp4 | 2.000 |
+| o14 | 4644:4671 | clips/outro/A3_kling24.mp4 | 0.875 |
+| o15 | 4671:4689 | clips/outro/B3_kling24.mp4 | 0.125 |
+| o16 | 4689:4747 | clips/raw/colony_goodnight_cascade_v6.mp4 | 5.583 |
+| o17 | 4747:4782 | clips/raw/night_iris_title_v6.mp4 | 6.542 |

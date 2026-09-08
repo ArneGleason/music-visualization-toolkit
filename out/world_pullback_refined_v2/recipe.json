@@ -1,0 +1,29 @@
+{
+  "status": "refinement_owner_review_pending",
+  "song_frames": [
+    2122,
+    2199
+  ],
+  "frames": 77,
+  "world_on": 2141,
+  "orbit_entries": [
+    2149,
+    2157
+  ],
+  "settle_phrase_on": 2165,
+  "sources": [
+    "codex/out/forest_walk_track_b.jpg",
+    "codex/out/signal_crossing_space_a.jpg"
+  ],
+  "limitations": "Hand-authored silhouette matte for fast fixed-still pullback, not final roto. Temporary planet texture; geography not solved. No paid generation; no production changes.",
+  "mastering": false,
+  "improvements": "Early irregular garden fade, separately shrinking soft silhouette with lantern; lifted planetary midtones/fill/rim; brighter orbit cores and bloom; two curved incoming signal trails with small arrival responses.",
+  "signal_entries": [
+    2147,
+    2155
+  ],
+  "signal_landings": [
+    2161,
+    2170
+  ]
+}

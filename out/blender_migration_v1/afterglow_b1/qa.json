@@ -1,0 +1,21 @@
+{
+  "status": "technical_checks_complete_visual_review_required",
+  "frames": 191,
+  "fps": 24,
+  "resolution": [
+    {
+      "frame": 68,
+      "mean_difference_after_downsample": 0.41994538483796295
+    },
+    {
+      "frame": 78,
+      "mean_difference_after_downsample": 0.4225907841435185
+    },
+    {
+      "frame": 97,
+      "mean_difference_after_downsample": 0.4294140625
+    }
+  ],
+  "sha256": "6d2729ab37646ef3386df0fd437e009c69d9b0ad0078c2e251834129b9256a39",
+  "production_promoted": false
+}

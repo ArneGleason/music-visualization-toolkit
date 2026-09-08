@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "test_id": "lipsync_review_followup_v1_opening",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "One fresh Kling Lip Sync using the supplied original-performance video and aligned guide. NO Flow. Never resync an already synced file.",
+  "authorization": {
+    "max_flow_submissions": 0,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "sole real woman",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical estimate only; verify UI. No purchases."
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 143,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 5.779985333333333,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0
+  },
+  "inputs": {
+    "base": {
+      "file": "out/lipsync_review_followup_v1/opening/base.mp4",
+      "sha256": "f08ace1f47eb9b43064ec280a26c2788be75163a4e5a01cf70b956f2af03edb1"
+    },
+    "guide": {
+      "file": "out/lipsync_review_followup_v1/opening/guide.wav",
+      "sha256": "63b9b6c2f67f83581ecc43764696eb798018ba65bf7fad16b15fbbe2a418c41b"
+    }
+  },
+  "source": {
+    "file": "out/opening_performance_v3/base.mp4",
+    "sha256": "225e9fba2276a20e6bb8ecce3e760d4d4d4b41c20660f648ea910d2c4386ea99"
+  },
+  "guide_provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "processing": "Continuous 8-second mono48k PCM16 slice. No gating, normalization, silence removal, stretch or added offsets."
+  },
+  "phrases": [
+    {
+      "text": "Hey, I need you for something.",
+      "song_frames": [
+        156,
+        284
+      ],
+      "source_seconds": [
+        0.5416666666666666,
+        5.875
+      ]
+    },
+    {
+      "text": "It's important.",
+      "song_frames": [
+        284,
+        332
+      ],
+      "source_seconds": [
+        5.875,
+        7.875
+      ]
+    }
+  ],
+  "cut": {
+    "visible_song_frames": [
+      155,
+      334
+    ],
+    "replace_song_frames": [
+      155,
+      334
+    ],
+    "replace_source_frames_at_24fps": [
+      12,
+      191
+    ],
+    "speed": 1
+  },
+  "output": {
+    "synced": "out/lipsync_review_followup_v1/opening/synced.mp4",
+    "receipt": "out/lipsync_review_followup_v1/opening/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true,
+    "tool_time_counts": true
+  },
+  "assembly_guard": "Codex verifies original download, guide alignment, every word and timestamp-based 24fps conform. Keep current assembly until owner comparison. No changes to cuts or master audio.",
+  "specific_review": "Current opening allocation is155..334, NOT the historical155..293. Preserve the full important phrase. Assess natural mouth/teeth, missed words, phrase starts and ends. Do not brighten teeth or alter acting.",
+  "completion": "Download full result and untouched original, record paths, hashes, dimensions, native fps, duration, credits and observed issues in RECEIPT.md. Add claude_result and set status=claude_done_ready_for_codex_verification. No assembly, commit, or approval claims.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T21:20:00Z",
+    "receipt": "out/lipsync_review_followup_v1/opening/RECEIPT.md",
+    "input_hashes_ok": true,
+    "base_video_identical_to_source": true,
+    "kling": {
+      "job_id": "1235",
+      "download_name": "kling_20260907_Lip_Sync__1235_0.mp4",
+      "faces_detected": "Character 1 = the woman (sole)",
+      "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav at 0:00-0:08, Sound from Video OFF, MP4 Without Watermark",
+      "credits": 10,
+      "balance_before": 426,
+      "balance_after": 416,
+      "submitted_utc": "2026-09-06T20:55:08Z",
+      "generated_utc": "2026-09-06T20:58:28Z",
+      "download_clicked_utc": "2026-09-06T21:00:32Z",
+      "filed_utc": "2026-09-06T21:01:50Z"
+    },
+    "original": {
+      "file": "out/lipsync_review_followup_v1/opening/original_1235.mp4",
+      "sha256": "d897149596862338c7de7d66203728be5e3d2d9ab84b7af22f69dfcfa2db6355"
+    },
+    "synced": {
+      "file": "out/lipsync_review_followup_v1/opening/synced.mp4",
+      "sha256": "d897149596862338c7de7d66203728be5e3d2d9ab84b7af22f69dfcfa2db6355",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 1.0,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "only lower face re-rendered; background/set/costume unchanged; identity consistent; teeth natural",
+    "phrases": {
+      "Hey, I need you for something.": "articulated 0.45-3.4 s and 4.1-5.9 s; closed-lip smile 3.4-4.0 s during voiced guide (possible missed sustain)",
+      "It's important.": "onset ~5.9 s, open O sustain 6.3-6.7 s, closes ~7.1 s while guide tail runs to ~7.8 s"
+    },
+    "defects": [
+      "closed-lip smile 3.4-4.0 s during voiced guide",
+      "held open smile during guide silence 1.0-1.5 s (base)",
+      "mouth closes ~7.1 s before guide tail ends"
+    ],
+    "verdict": "usable, natural articulation; candidate for owner comparison against the old synced take",
+    "sheets": [
+      "mouth_synced_src0.4-7.87s_native30_every2.jpg",
+      "mouth_base_src0.4-7.87s_every8.jpg",
+      "contact_synced_every10_native.jpg"
+    ],
+    "not_done": [
+      "no Flow",
+      "no retry",
+      "no assembly",
+      "no cut changes",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

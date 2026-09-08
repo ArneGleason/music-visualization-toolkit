@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "test_id": "rocket_landing_retry_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "One NEW Flow controlled landing with helmeted singing performer, then one Kling pass only if base passes the gate. Orbital descent is accepted and MUST NOT be regenerated.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "sole real woman inside the clear helmet",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical estimates only. Verify actual UI, no purchases."
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "codex/out/rockets_landing_wide_a.jpg",
+      "sha256": "38d78627c028938d72902026520c9b0b2011aa92fcafa2b8dd30a03d1c3c546a"
+    },
+    "prompt": {
+      "file": "out/rocket_landing_retry_v1/flow_prompt.txt",
+      "sha256": "413d426231cecc4bc3d9692715b49cb1b67996fd67ecae1fc3a6d84d957931e9"
+    },
+    "lock": {
+      "file": "out/rocket_landing_retry_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    },
+    "guide": {
+      "file": "out/rocket_landing_retry_v1/guide.wav",
+      "sha256": "23745680e994e9416cfa883f81ad395cd6fdb8d227edd52c863275492305db79"
+    }
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 2916,
+    "song_origin_seconds": 121.5,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 121.321652,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0
+  },
+  "cut": {
+    "current_audition_song_frames": [
+      2928,
+      3027
+    ],
+    "current_source_frames": [
+      12,
+      111
+    ],
+    "primary_phrase_song_frames": [
+      2928,
+      2993
+    ],
+    "primary_phrase_source_frames": [
+      12,
+      77
+    ],
+    "lead_handle_frames": 12,
+    "requested_exit_handle_frames_after_audition": 81,
+    "speed": 1
+  },
+  "coverage_guard": "Eight seconds from origin2916 ends3108, NOT3165. This tests the first landing interval and primary line only. It does not cover the entire old landing run or complete the later phrase ending3113. Do not loop, freeze, stretch, restart landing, compress later lyrics, or claim full later coverage. Subsequent cut/coverage will be planned after owner review.",
+  "quality_gate_before_kling": [
+    "Inspect entire base before lip-sync spend.",
+    "Monotonic descent, engines shorten/dim and shut OFF at touchdown, no re-ignition.",
+    "Low outward dust, no mushroom-like rising cloud or explosion.",
+    "All three rockets stable and intact after landing.",
+    "Plain silver chest and clear helmet preserved; no new hardware.",
+    "Active natural singing through source0.5..3.208, face readable through visor.",
+    "If a material failure occurs, save base/receipt and stop for owner review. No automatic retry or Kling on a failed base."
+  ],
+  "output": {
+    "base": "out/rocket_landing_retry_v1/base.mp4",
+    "synced": "out/rocket_landing_retry_v1/synced.mp4",
+    "receipt": "out/rocket_landing_retry_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "tool_time_counts": true,
+    "respect_rate_limits": true
+  },
+  "assembly_guard": "Codex verifies source/guide clocks and timestamp conforms as needed. Existing orbital shot2881..2928 untouched. Reapply accepted local pressure-lens FX after sync, using new plate masks and existing song timing, not old baked picture. Master and lyrics once. No global flash or mastering.",
+  "completion": "Save untouched originals and byte-identical base/synced. Receipt records hashes, settings, credits, IDs, dimensions, native fps/frame count/durations, touchdown and engine-cutoff times for each rocket, dust development, costume and mouth defects. Add claude_result and status=claude_done_ready_for_codex_verification, or explicit blocked quality-gate status. No assembly, commit or approval claims.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T02:15:00Z",
+    "receipt": "out/rocket_landing_retry_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "flow": {
+      "media_id": "b09314b9-20fe-4c81-b20e-95d83fcc4f96",
+      "submitted_utc": "2026-09-07T01:49:22Z",
+      "ready_utc": "2026-09-07T01:50:52Z",
+      "downloaded_utc": "2026-09-07T01:51:30Z",
+      "progress_log": [
+        "01:49:52 21%",
+        "01:50:12 38%",
+        "01:50:32 54%",
+        "01:50:52 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "start_thumbnail_id": "424acdf7",
+      "end_frame_used": false,
+      "first_frame_diff": 0.9
+    },
+    "original": {
+      "file": "out/rocket_landing_retry_v1/original_b09314b9-20fe-4c81-b20e-95d83fcc4f96.mp4",
+      "sha256": "653071bad0731275f5f21a681c544e8bbff742d52ae1f145ab2b29b49c468d81"
+    },
+    "base": {
+      "file": "out/rocket_landing_retry_v1/base.mp4",
+      "sha256": "653071bad0731275f5f21a681c544e8bbff742d52ae1f145ab2b29b49c468d81",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "stream_start": 0.0,
+      "watermark": "none"
+    },
+    "synced": {
+      "file": "out/rocket_landing_retry_v1/synced.mp4",
+      "sha256": "2b9b6fe03f22377a4d3ce036a8be99907ef745ecc5346b5d69874b4b4daacae2",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false
+    },
+    "kling": {
+      "submitted": true,
+      "job_id": "2565",
+      "download_name": "kling_20260907_Lip_Sync__2565_0.mp4",
+      "faces_detected": "Character 1 = helmeted woman (sole)",
+      "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav at 0:00-0:08, Sound from Video OFF, MP4 Without Watermark",
+      "credits": 10,
+      "balance_before": 401,
+      "balance_after": 391,
+      "submitted_utc": "2026-09-07T02:03:11Z",
+      "generated_utc": "2026-09-07T02:06:06Z",
+      "download_clicked_utc": "2026-09-07T02:06:36Z",
+      "filed_utc": "2026-09-07T02:07:19Z"
+    },
+    "camera": "locked",
+    "touchdown_seconds": {
+      "left": 2.4,
+      "right": 2.5,
+      "center": 2.6
+    },
+    "engine_cutoff_seconds": {
+      "left": 3.0,
+      "center": 3.2,
+      "right": 3.3
+    },
+    "reignition": false,
+    "rockets_intact_and_planted": true,
+    "dust": {
+      "low_sheets": [
+        0.0,
+        3.0
+      ],
+      "merging": [
+        3.0,
+        4.0
+      ],
+      "rolling_bank_behind_her": [
+        4.0,
+        6.0
+      ],
+      "settling": [
+        6.0,
+        7.5
+      ],
+      "wisps": [
+        7.5,
+        8.0
+      ],
+      "mushroom_or_explosion": false,
+      "face_obscured": false
+    },
+    "costume": "plain silver chest all 8 s; helmet and neck ring preserved; no hardware",
+    "mouth": {
+      "articulated": [
+        [
+          0.0,
+          0.75
+        ],
+        [
+          1.17,
+          1.42
+        ],
+        [
+          6.5,
+          7.9
+        ]
+      ],
+      "fixed_grin": [
+        1.5,
+        3.4
+      ],
+      "calm": [
+        3.5,
+        6.4
+      ]
+    },
+    "quality_gate": {
+      "descent_and_cutoff": "pass (jets linger ~0.5-0.7 s after touchdown, all off by 3.3 s, no re-ignition)",
+      "dust": "partial (lateral, no mushroom/explosion, but rolling bank to helmet height 4.0-6.0 s)",
+      "rockets_stable": "pass",
+      "costume_helmet": "pass",
+      "singing_0.5_3.208": "FAIL (fixed grin 1.5-3.4 s)"
+    },
+    "defects": [
+      "fixed toothy grin 1.5-3.4 s instead of articulation on the primary line",
+      "rolling dust bank rises to helmet height behind her 4.0-6.0 s",
+      "jets linger 0.5-0.7 s after touchdown",
+      "Kling: \"in\" under-sung 2.4-3.25 s because the base holds a grin there"
+    ],
+    "sheets": [
+      "contact_every6.jpg",
+      "rockets_0-4s_every4.jpg",
+      "rockets_4-8s_every8.jpg",
+      "crop_mouth_0-3.5s_every2.jpg",
+      "crop_mouth_3.5-8s_every6.jpg",
+      "crop_chest_every24.jpg",
+      "mouth_synced_src0.4-3.6s_native30_everyframe.jpg",
+      "mouth_base_src0.4-3.6s_every6.jpg",
+      "mouth_synced_src3.6-8s_every6.jpg",
+      "contact_synced_every10_native.jpg"
+    ],
+    "not_done": [
+      "no Flow retry",
+      "no assembly",
+      "no FX",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed beyond the base acceptance"
+    ],
+    "owner_accepted_base": true,
+    "synced_original": {
+      "file": "out/rocket_landing_retry_v1/original_kling_2565.mp4",
+      "sha256": "2b9b6fe03f22377a4d3ce036a8be99907ef745ecc5346b5d69874b4b4daacae2"
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 1.0,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "rockets, dust, camera, costume, helmet identical to base; only mouth re-rendered",
+    "words": {
+      "like": "ok 0.5-0.9 s",
+      "rockets": "ok 0.9-1.7 s",
+      "coming": "partial 2.0-2.4 s (small rounded shapes)",
+      "in": "weak 2.4-3.25 s (closed-lip smile over loud sustain)"
+    },
+    "tail_motion": "closed smile 3.25-5.4 s; active singing shapes 5.5-7.9 s on the context line",
+    "quality_gate_override": "owner accepted the base despite the fixed grin and dust bank; Kling run on request"
+  }
+}

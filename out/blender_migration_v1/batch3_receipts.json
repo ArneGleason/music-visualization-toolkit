@@ -1,0 +1,98 @@
+[
+  {
+    "family": "opening",
+    "frames": 86,
+    "clean": "out\\blender_migration_v1\\opening\\native_clean.mp4",
+    "sha256": "aad0bad54f6cbe2844a8b4614cdb554d9776c6bd98882fc1613744d31a2e9e80",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 5
+  },
+  {
+    "family": "birds",
+    "frames": 76,
+    "clean": "out\\blender_migration_v1\\birds\\native_clean.mp4",
+    "sha256": "15d4453bd9c872f22f85c477f8412e7d987b0fc1d7d45b4877b0a7f8f0e3593d",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 3
+  },
+  {
+    "family": "guide",
+    "frames": 60,
+    "clean": "out\\blender_migration_v1\\guide\\native_clean.mp4",
+    "sha256": "e2a039d74314a1c2eb2334b3a3c135186c9e9cceadbccff36b56d4d7b821043d",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 3
+  },
+  {
+    "family": "bloom",
+    "frames": 68,
+    "clean": "out\\blender_migration_v1\\bloom\\native_clean.mp4",
+    "sha256": "d342f7c49cbaf50f9f5393f7c1146b307fca3490bbcc651f6053772d8c131f4c",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 4
+  },
+  {
+    "family": "pressure",
+    "frames": 69,
+    "clean": "out\\blender_migration_v1\\pressure\\native_clean.mp4",
+    "sha256": "5af4d963e4db146a0d1bf3a01a6384da2c64f34be8e6ee351456a78342e98582",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 5
+  },
+  {
+    "family": "swim043",
+    "frames": 116,
+    "clean": "out\\blender_migration_v1\\swim043\\native_clean.mp4",
+    "sha256": "8623f68eae179f50ba4e9a9384c6c9c10f3e8f28bea3e076bee88c5822eece60",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 3
+  },
+  {
+    "family": "swim044",
+    "frames": 67,
+    "clean": "out\\blender_migration_v1\\swim044\\native_clean.mp4",
+    "sha256": "91560f150acbc5482052f215ce389af5d042e3427ff3883abfc42e672b7c954a",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 3
+  },
+  {
+    "family": "swim047",
+    "frames": 68,
+    "clean": "out\\blender_migration_v1\\swim047\\native_clean.mp4",
+    "sha256": "a06b7d87fbbc55e39bc6d1552fabc667c5a1a42d6bb53860e9be9d5cebf852b6",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 3
+  },
+  {
+    "family": "tunnel",
+    "frames": 57,
+    "clean": "out\\blender_migration_v1\\tunnel\\native_clean.mp4",
+    "sha256": "c085522ee50fdc61f4cf3100c741a345b098b2bb5cadbe89133ec292471eef48",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 3
+  },
+  {
+    "family": "titles",
+    "frames": 72,
+    "clean": "out\\blender_migration_v1\\titles\\native_clean.mp4",
+    "sha256": "bf9e48ecec5e8bbedd79dc402bfdf4ad41eb36dad6f9ddaecb70b434b76820d7",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 3
+  },
+  {
+    "family": "pieces",
+    "frames": 48,
+    "clean": "out\\blender_migration_v1\\pieces\\native_clean.mp4",
+    "sha256": "f73818814ae94ea005fb99971a1d1f90833de1f80d10a7f3b88a5855eaf995a9",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 3
+  },
+  {
+    "family": "meant",
+    "frames": 11,
+    "clean": "out\\blender_migration_v1\\meant\\native_clean.mp4",
+    "sha256": "f85d7d1962c261f890db359717e8745091806900ac8ef5fcdebe1c5d7f673991",
+    "status": "native_rendered_review_pending",
+    "resolution_samples": 3
+  }
+]

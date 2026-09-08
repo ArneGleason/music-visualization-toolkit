@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "test_id": "meaning_astronomer_lipsync_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "ONE Kling Lip Sync on the fresh astronomer push-in. No Flow. Owner explicitly wants to audition the astronomer singing Words leave words.",
+  "authorization": {
+    "max_flow_submissions": 0,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "the real woman, never the empty spacesuit on its stand",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical estimate, verify actual UI. No purchases."
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 2774,
+    "song_origin_seconds": 115.58333333333333,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 115.40498533333333,
+    "guide_already_aligned": true,
+    "additional_audio_offset_seconds": 0
+  },
+  "inputs": {
+    "base": {
+      "file": "out/meaning_astronomer_lipsync_v1/base.mp4",
+      "sha256": "355e271a0dc845cfe8ab3f9a3920f894abfe635363f6fe0c9464e8954f193d0d"
+    },
+    "guide": {
+      "file": "out/meaning_astronomer_lipsync_v1/guide.wav",
+      "sha256": "121b19471d809c28c1f0cdcb13ad6b9981462c11a5f5bbd4b385ba62a715ca8c"
+    }
+  },
+  "original_source": {
+    "file": "out/meaning_exchange_handoff_v1/astronomer/base.mp4",
+    "sha256": "9e2931728f3357b2d7ab07d8488cc93bd7cf4d966537b6abb6c142e5ae20e72e"
+  },
+  "guide_provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "processing": "Continuous8second mono48k PCM16 slice with real context. No normalization, gating, silence removal, stretching or added offsets. Context is not permission to make the listener sing earlier lines in assembly."
+  },
+  "phrase": {
+    "text": "Words leave words.",
+    "song_frames": [
+      2812,
+      2881
+    ],
+    "source_frames_at_24fps": [
+      38,
+      107
+    ],
+    "source_seconds": [
+      1.5833333333333333,
+      4.458333333333333
+    ]
+  },
+  "cut": {
+    "whole_plate_song_frames": [
+      2786,
+      2881
+    ],
+    "whole_plate_source_frames": [
+      12,
+      107
+    ],
+    "keep_original_listening_song_frames": [
+      2786,
+      2812
+    ],
+    "keep_original_listening_source_frames": [
+      12,
+      38
+    ],
+    "replace_synced_song_frames": [
+      2812,
+      2881
+    ],
+    "replace_synced_source_frames": [
+      38,
+      107
+    ],
+    "panel_push_song_frames": [
+      2786,
+      2826
+    ]
+  },
+  "speaker_override": "Owner-authorized editorial audition: astronomer sings Words leave words even though current lyric metadata says Them2. Do not silently move or reassign Sometimes, Not always, or Meaning leaves thread. Codex reviews and reconciles metadata on adoption.",
+  "output": {
+    "synced": "out/meaning_astronomer_lipsync_v1/synced.mp4",
+    "receipt": "out/meaning_astronomer_lipsync_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "tool_time_counts": true,
+    "respect_rate_limits": true
+  },
+  "quality_notes": "Existing plate was generated as listening, so a clamped or puppet-like mouth is a known risk. Report articulation of all three words, especially start/end, face integrity, gaze/hand/camera preservation, and any unwanted earlier mouth movement. Do not retry or replace the Flow performance automatically.",
+  "assembly_guard": "Codex verifies hashes, guide alignment and timestamp conform30to24 if needed, then keeps original listening before2812 and uses sync for2812..2881 only. Reapply live_v5 loop/marks/panel push after sync. Check source switch at2812 and ensure outgoing astronaut face is offscreen at the vocal handover. No master shift, time stretch, repeated words, FX upload, duplicate soundtrack or new full assembly by Claude.",
+  "completion": "Download untouched result and byte-identical synced copy. Write receipt with hashes, native fps, frame count, dimensions, durations/start times, job ID, settings, credits and observations. Add claude_result; status=claude_done_ready_for_codex_verification. No production edits, commits or approval claims.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T01:40:00Z",
+    "receipt": "out/meaning_astronomer_lipsync_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "base_video_identical_to_original_source": true,
+    "kling": {
+      "job_id": "2403",
+      "download_name": "kling_20260907_Lip_Sync__2403_0.mp4",
+      "faces_detected": "Character 1 = the astronomer (sole); empty suit not detected",
+      "settings": "Lip Sync, Character 1, Upload Local Dubbing guide.wav at 0:00-0:08, Sound from Video OFF, MP4 Without Watermark",
+      "credits": 10,
+      "balance_before": 411,
+      "balance_after": 401,
+      "submitted_utc": "2026-09-07T01:26:10Z",
+      "generated_utc": "2026-09-07T01:29:34Z",
+      "download_clicked_utc": "2026-09-07T01:30:36Z",
+      "filed_utc": "2026-09-07T01:31:22Z"
+    },
+    "original": {
+      "file": "out/meaning_astronomer_lipsync_v1/original_2403.mp4",
+      "sha256": "42472161ce8a468658146540ff5f3404bce03fe3f51fb578f7172af04fafb3e2"
+    },
+    "synced": {
+      "file": "out/meaning_astronomer_lipsync_v1/synced.mp4",
+      "sha256": "42472161ce8a468658146540ff5f3404bce03fe3f51fb578f7172af04fafb3e2",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 1.0,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "push-in, gaze, hand slide, costume, empty suit and background preserved; only mouth re-rendered (brief hand-region jitter ~2.97 s)",
+    "words": {
+      "Words": "ok: rounded O opens 1.60 s, held/varied to 2.55 s, closed ~2.65 s",
+      "leave": "MISSING: lips closed 2.75-3.3 s while looking down (guide loud)",
+      "words": "ok/moderate: parts 4.17 s, open 4.33-4.67 s, closes ~4.9-5.0 s; runs past source 4.458 out-point"
+    },
+    "lead_motion": "guide-context mouth motion 0.1-0.8 s (inside kept listening 12..38, excluded)",
+    "tail_motion": "small lip motion 6.6-7.4 s (guide context)",
+    "defects": [
+      "\"leave\" not articulated 2.75-3.3 s",
+      "final \"words\" extends to ~4.7 s past frame 107",
+      "context mouth motion 0.1-0.8 s"
+    ],
+    "verdict": "partial: first and last words read, middle word missing; owner audition needed",
+    "sheets": [
+      "mouth_synced_src1.5-4.7s_native30_everyframe.jpg",
+      "mouth_base_src1.5-4.7s_every6.jpg",
+      "mouth_synced_src0-1.6s_every3.jpg",
+      "mouth_synced_src4.6-8s_every6.jpg",
+      "contact_synced_every10_native.jpg"
+    ],
+    "not_done": [
+      "no Flow",
+      "no retry",
+      "no assembly",
+      "no FX",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

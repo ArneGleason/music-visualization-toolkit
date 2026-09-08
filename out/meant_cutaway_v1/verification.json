@@ -1,0 +1,24 @@
+{
+  "status": "owner_approved; full-film integration pending",
+  "preview_song_frames": [
+    2484,
+    2658
+  ],
+  "insert_song_frames": [
+    2647,
+    2658
+  ],
+  "original_insert_source_frames": [
+    120,
+    131
+  ],
+  "crop_xywh": [
+    320,
+    290,
+    640,
+    360
+  ],
+  "picture_only_change": true,
+  "audio": "unchanged master, once",
+  "production_merged": false
+}

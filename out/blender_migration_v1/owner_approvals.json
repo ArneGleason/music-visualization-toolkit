@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "acceptance_standard": "Owner accepts appearance in contextual playback. Do not chase subtle color-profile or pixel differences where timing, intended effect and perceived quality are preserved. This does not waive timing, missing-effect or resolution checks.",
+  "approvals": [
+    {
+      "family": "waking",
+      "status": "owner_approved_native_look",
+      "shot_ids": ["garden_waking_motion_audition"],
+      "review_numbers": [20],
+      "review": "out/blender_migration_v1/waking_context.mp4",
+      "clean": "out/blender_migration_v1/waking/native_clean.mp4",
+      "song_frames": [1569, 1650],
+      "owner_note": "Owner said Good work and requested continuation before switching to technique-first batching."
+    },
+    {
+      "family": "moth",
+      "status": "owner_approved_native_look",
+      "shot_ids": ["garden_moth"],
+      "review_numbers": [19],
+      "review": "out/blender_migration_v1/moth_context.mp4",
+      "clean": "out/blender_migration_v1/moth/native_clean.mp4",
+      "song_frames": [1514,1569],
+      "owner_note": "Owner said the native moth looks great and requested the next shot."
+    },
+    {
+      "family": "screen",
+      "status": "owner_approved_native_look",
+      "shot_ids": ["screen_reply"],
+      "review_numbers": [16],
+      "review": "out/blender_migration_v1/screen_context.mp4",
+      "clean": "out/blender_migration_v1/screen/native_clean.mp4",
+      "song_frames": [1201,1304],
+      "owner_note": "Owner accepted the native screen-to-garden transition and asked to continue."
+    },
+    {
+      "family": "message",
+      "status": "owner_approved_native_look",
+      "shot_ids": ["s012", "receiver_reply_arrival"],
+      "review_numbers": [14, 15],
+      "review": "out/blender_migration_v1/message_context.mp4",
+      "clean": "out/blender_migration_v1/message/native_clean.mp4",
+      "song_frames": [971, 1201],
+      "owner_note": "Owner reviewed the native message/receiver sequence and accepted it."
+    },
+    {
+      "family": "bends",
+      "status": "owner_approved_native_look",
+      "shot_ids": ["s045", "s046"],
+      "review_numbers": [45, 46],
+      "review": "out/blender_migration_v1/bends_context.mp4",
+      "clean": "out/blender_migration_v1/bends/native_clean.mp4",
+      "song_frames": [3505, 3642],
+      "owner_note": "Owner likes this version better than the previous rendering; native look accepted."
+    },
+    {
+      "family": "tunnel",
+      "status": "owner_approved_native_look",
+      "shot_ids": ["o01"],
+      "review_numbers": [54],
+      "review": "out/blender_migration_v1/batch3_tunnel_context.mp4",
+      "clean": "out/blender_migration_v1/tunnel/native_clean.mp4",
+      "song_frames": [4120, 4177],
+      "source_frames": [0, 57],
+      "owner_note": "Tunnel looks different but owner likes it better. Corrected speech-to-text: this acceptance refers to the tunnel, not the title."
+    },
+    {
+      "family": "aerial",
+      "status": "owner_approved_native_look",
+      "shot_ids": ["opening_need_landscape"],
+      "review_numbers": [4],
+      "review": "out/blender_migration_v1/aerial_context.mp4",
+      "clean": "out/blender_migration_v1/aerial/native_clean.mp4",
+      "song_frames": [205, 282],
+      "source_frames": [0, 77]
+    },
+    {
+      "family": "probe",
+      "status": "owner_approved_native_look",
+      "shot_ids": ["s009", "s011"],
+      "review_numbers": [11, 13],
+      "review": "out/blender_migration_v1/probe_context.mp4",
+      "clean": "out/blender_migration_v1/probe/native_clean.mp4",
+      "uses": [
+        {"song_frames": [719, 805], "source_frames": [0, 86]},
+        {"song_frames": [856, 911], "source_frames": [137, 192]}
+      ]
+    }
+  ],
+  "scope_note": "Approval covers the new aerial, probe, tunnel, Bends Your Mind, message/receiver and screen-to-garden looks, not a claim that adjacent shots or the full assembly have been migrated. Final integration and mastering remain pending."
+}

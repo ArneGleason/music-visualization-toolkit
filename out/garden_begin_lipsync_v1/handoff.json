@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "test_id": "garden_begin_lipsync_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "One Kling Lip Sync on the existing clean garden awakening take. NO Flow generation. Codex reapplies accepted FX after verification.",
+  "authorization": {
+    "max_flow_submissions": 0,
+    "max_kling_submissions": 1,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "kling": {
+      "mode": "Lip Sync",
+      "character": "Character 1 (sole woman)",
+      "guide_start_seconds": 0,
+      "guide_duration_seconds": 8,
+      "sound_from_video": false,
+      "expected_credits": 10
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "10 credits is historical expectation, not live quote. Check actual UI first."
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 1774,
+    "song_origin_seconds": 73.91666666666667,
+    "requested_take_seconds": 8,
+    "requested_take_frames": 192,
+    "lead_stem_placement_offset_seconds": 0.178348,
+    "raw_stem_extract_start_seconds": 73.73831866666667,
+    "guide_already_aligned": true,
+    "guide_upload_start_seconds": 0,
+    "additional_audio_offset_seconds": 0
+  },
+  "cut": {
+    "shot_id": "garden_begin_lipsync_test",
+    "setup": "forest_awakening_frontal",
+    "song_start_frame": 1786,
+    "song_end_frame_exclusive": 1841,
+    "source_in_frame_at_24fps": 12,
+    "source_out_frame_exclusive_at_24fps": 67,
+    "duration_frames": 55,
+    "speed": 1,
+    "picture_change": "Previous FX used original source0..55. This sync test uses original12..67 to supply12 genuine lead frames. No freeze or retiming; Codex must rebuild FX against this new picture interval."
+  },
+  "phrases": [
+    {
+      "text": "for the song to begin.",
+      "song_frames": [
+        1786,
+        1841
+      ],
+      "source_seconds": [
+        0.5,
+        2.7916666666666665
+      ],
+      "words": [
+        {
+          "text": "for",
+          "song_frames": [
+            1786,
+            1797
+          ],
+          "source_seconds": [
+            0.5,
+            0.9583333333333334
+          ]
+        },
+        {
+          "text": "the",
+          "song_frames": [
+            1797,
+            1807
+          ],
+          "source_seconds": [
+            0.9583333333333334,
+            1.375
+          ]
+        },
+        {
+          "text": "song",
+          "song_frames": [
+            1807,
+            1819
+          ],
+          "source_seconds": [
+            1.375,
+            1.875
+          ]
+        },
+        {
+          "text": "to",
+          "song_frames": [
+            1819,
+            1828
+          ],
+          "source_seconds": [
+            1.875,
+            2.25
+          ]
+        },
+        {
+          "text": "begin",
+          "song_frames": [
+            1828,
+            1841
+          ],
+          "source_seconds": [
+            2.25,
+            2.7916666666666665
+          ]
+        }
+      ]
+    }
+  ],
+  "inputs": {
+    "base": {
+      "file": "out/garden_begin_lipsync_v1/base.mp4",
+      "sha256": "BA2641F5DA2A88B230FC3BA5A490274094A68DC82B9150294B99583AD3E9EB86",
+      "source": "clips/raw/forest_awakening_frontal_v6.mp4",
+      "source_sha256": "47223EB2F3BB613A475B78F97B15065BA42D371458D1D6F8C71F034AC947E924",
+      "video_frames_identical_to_source": true,
+      "audio_removed": true,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 192
+    },
+    "guide": {
+      "file": "out/garden_begin_lipsync_v1/guide.wav",
+      "sha256": "839360F3AEC9744482B2ECC765E671746BDDCAF936CC7DE249E6284720B34F5A",
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples": 384000
+    }
+  },
+  "guide_provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\RiversOnMars.tempo.light\\samples\\Synth Groove 2022-09-17 1007 good for reworking (Lead Vocal) restored.wav",
+    "source_sha256": "BEEDD740882CE6E8D5A0D85A7AEA2E83EF36368BD932B66FD44C22216D06E68E",
+    "processing": "Uninterrupted8second mono48k PCM16 extraction; no gate, gain change, normalization, silence removal or extra offset. Includes preceding vocal tail and following context outside visible cut. Do not treat following dialogue as approved coverage."
+  },
+  "output": {
+    "synced": "out/garden_begin_lipsync_v1/synced.mp4",
+    "receipt": "out/garden_begin_lipsync_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "respect_rate_limits": true,
+    "tool_time_counts": true
+  },
+  "inspection": "Check visible source0.5..2.7916667 seconds word by word. Quiet closed-mouth base and small face are known risks: report omitted words, puppet mouth, identity shifts, mouth movement after vocal and any framing/set change. Do not regenerate or retry without owner approval.",
+  "assembly_guard": "Codex timestamp-conforms any30fps return, never frame-for-frame reinterpretation. Reapply garden_begin_guide_v2 light/green-guide recipe at song1786..1841 against synced source12..67. Never upload processed FX, captions or master soundtrack. Preserve existing approved effects and source as fallback. Minimum source coverage67/24seconds; actual returned coverage must be measured.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T16:12:00Z",
+    "receipt": "out/garden_begin_lipsync_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "kling": {
+      "job_id": "6096",
+      "download_name": "kling_20260906_Lip_Sync__6096_0.mp4",
+      "settings": "Lip Sync, Character 1 (sole woman, auto-detected), Upload Local Dubbing guide.wav at 0:00-0:08, Sound from Video OFF, MP4 Without Watermark (existing entitlement)",
+      "credits": 10,
+      "balance_before": 466,
+      "balance_after": 456,
+      "submitted_utc": "2026-09-06T15:53:00Z",
+      "ready_utc": "2026-09-06T15:57:47Z",
+      "download_clicked_utc": "2026-09-06T15:58:43Z",
+      "filed_utc": "2026-09-06T15:59:22Z",
+      "progress_checks_utc": [
+        "15:53:31 generating",
+        "15:54:02",
+        "15:54:22",
+        "15:54:53",
+        "15:55:13",
+        "15:55:33",
+        "15:56:04 generating",
+        "15:56:24 badge 1/1 generated",
+        "15:57:17 card still creating",
+        "15:57:47 ready"
+      ]
+    },
+    "original": {
+      "file": "out/garden_begin_lipsync_v1/original_6096.mp4",
+      "sha256": "9926D0DC18A93CFFDE317E4875917D16A268835716863670E3F75A58644E6EB7"
+    },
+    "synced": {
+      "file": "out/garden_begin_lipsync_v1/synced.mp4",
+      "sha256": "9926D0DC18A93CFFDE317E4875917D16A268835716863670E3F75A58644E6EB7",
+      "fps_native": 30,
+      "frames": 239,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 7.966667,
+      "audio_seconds": 7.895011,
+      "audio": "aac 44100 Hz stereo",
+      "stream_starts": 0.0,
+      "watermark": "none",
+      "retimed": false,
+      "trimmed": false
+    },
+    "audio_alignment": {
+      "corr_vs_guide_lag0": 0.997,
+      "best_lag_seconds": 0.0
+    },
+    "picture_integrity": "first frame diff 1.9; full-frame diff vs base 2.0-3.1 across take; no framing/set/identity change",
+    "coverage_seconds_returned": 7.966667,
+    "coverage_required_seconds": 2.791667,
+    "words": {
+      "for": "weak: lips barely part until ~0.63 s; first clear opening at ~0.93 s",
+      "the": "ok: clear open mouth 0.93-1.17 s",
+      "song": "weak: mostly closed, slight parting 1.77-1.87 s",
+      "to": "weak: small parting 1.9 s and 2.23-2.37 s",
+      "begin": "partial: soft half-open 2.43-2.63 s, closes by 2.87 s, sustain not held"
+    },
+    "defects": [
+      "thin articulation on ~50 px face; only \"the\" reads clearly",
+      "mouth motion after visible cut at ~3.7-4.0, 5.4-5.6, 6.4-6.9, 7.0-7.9 s following guide context (not approved coverage)"
+    ],
+    "verdict": "partial: timing aligned, amplitude too small for phrase to read; usable as test information",
+    "sheets": [
+      "face_base_0-3s_every2.jpg",
+      "face_synced_0-3s_every2_24fps.jpg",
+      "mouth_synced_src0.4-2.9s_native30fps_everyframe.jpg",
+      "mouth_synced_src2.8-8s_every3_native.jpg",
+      "contact_synced_every10_native.jpg"
+    ],
+    "not_done": [
+      "no Flow",
+      "no retry",
+      "no assembly",
+      "no FX edits",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "take": "B3",
+  "status": "base_needs_owner_review",
+  "inputs": {
+    "first_frame": {
+      "file": "out/outro_closing_generations_v1/B3/first_frame.png",
+      "sha256": "13f777d66862118bb85ff1fc3ebdc0cbcc64b2be7529919e061f78b55d434e45"
+    },
+    "prompt": {
+      "file": "out/outro_closing_generations_v1/B3/flow_prompt.txt",
+      "sha256": "44c38a7af603eeb5fb739fceec0bc9b97e2ca797ec8b333f43c783f381dc9fed"
+    },
+    "guide": {
+      "file": "out/outro_closing_generations_v1/B3/guide.wav",
+      "sha256": "6786791ea1bb0be7418bfbb44241abafe36c3afbfaf214090a70da2d8c77bfaf"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    },
+    "prompt_take2": {
+      "file": "out/outro_closing_generations_v1/B3/flow_prompt_take2.txt",
+      "sha256": "0d34802c26bfd94075405f35c8aa1c7fd3237bdac815013282da0a89871d6d5d",
+      "note": "owner-authorized edit of flow_prompt.txt; lock byte-identical"
+    }
+  },
+  "anchor": {
+    "source": {
+      "file": "out/outro_B2_v2/base.mp4",
+      "sha256": "9a7056b689a77dd50fcc262540d04033c77bb6f271a899b131135ae6cca556f0"
+    },
+    "source_frame_at24": 180,
+    "song_frame": 4500,
+    "inspection": "Existing identity, room and prop state retained from unsynced base. No baked FX."
+  },
+  "clock": {
+    "fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin": 4500,
+    "song_end_exclusive": 4692,
+    "requested_frames": 192,
+    "raw_stem_start_seconds": 187.321652,
+    "stem_offset_applied_once_seconds": 0.178348,
+    "additional_offset_seconds": 0
+  },
+  "guide": "Continuous8seconds, mono48k PCM16,384000samples. Other speaker context retained, not isolated. No gating/normalization/shift. A3 and B3 have DIFFERENT origins: never interchange guides.",
+  "visible_cuts": [
+    {
+      "song": [
+        4557,
+        4574
+      ],
+      "source": [
+        57,
+        74
+      ],
+      "phrase": "To who (artifact insert planned)"
+    },
+    {
+      "song": [
+        4622,
+        4644
+      ],
+      "source": [
+        122,
+        144
+      ],
+      "phrase": "You first"
+    },
+    {
+      "song": [
+        4671,
+        4689
+      ],
+      "source": [
+        171,
+        189
+      ],
+      "phrase": "Night"
+    }
+  ],
+  "output": {
+    "base": "out/outro_closing_generations_v1/B3/base.mp4",
+    "synced": "out/outro_closing_generations_v1/B3/synced.mp4",
+    "receipt": "out/outro_closing_generations_v1/B3/RECEIPT.md"
+  },
+  "authorization": {
+    "flow": 1,
+    "kling": 1,
+    "kling_condition": "base passes visual review; material failure pause for owner, no automatic retry"
+  },
+  "coverage_note": "Record actual returned frames. B3 has only3 intended exit frames after last cut; do not promise full switch action after final word.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T18:30:00Z",
+    "receipt": "out/outro_closing_generations_v1/B3/RECEIPT.md",
+    "input_hashes_ok": true,
+    "start_frame_equals_anchor": true,
+    "owner_authorized_retry": "one Flow retry with prompt edit (chat, 2026-09-07); take 1 preserved in take1/",
+    "take1": {
+      "media_id": "8ee4df62-654b-4be9-a844-5fd57b04efbd",
+      "prompt": "flow_prompt.txt",
+      "submitted_utc": "2026-09-07T18:02:04Z",
+      "ready_utc": "2026-09-07T18:03:14Z",
+      "downloaded_utc": "2026-09-07T18:04:07Z",
+      "credits": 100,
+      "base": "out/outro_closing_generations_v1/B3/take1/base.mp4",
+      "sha256": "1d87b75e5458bd74599cfbf26ec804d45d4a870bd24582dfafdb1cac58f52e80",
+      "receipt": "out/outro_closing_generations_v1/B3/take1/RECEIPT.md",
+      "gate": "FAIL: profile from 4.2 s, long reach, room dark through Night"
+    },
+    "take2": {
+      "media_id": "8bf94ffa-1aaf-42b1-990b-bb0e42255e3e",
+      "prompt": "flow_prompt_take2.txt",
+      "prompt_sha256": "0d34802c26bfd94075405f35c8aa1c7fd3237bdac815013282da0a89871d6d5d",
+      "submitted_utc": "2026-09-07T18:19:54Z",
+      "ready_utc": "2026-09-07T18:21:35Z",
+      "downloaded_utc": "2026-09-07T18:22:23Z",
+      "progress_log": [
+        "18:20:24 21%",
+        "18:20:44 38%",
+        "18:21:04 55%",
+        "18:21:35 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "end_frame_used": false,
+      "audio_uploaded": false,
+      "first_frame_diff": 1.11,
+      "watermark": "none"
+    },
+    "flow_credits_total": 200,
+    "base_original": {
+      "file": "out/outro_closing_generations_v1/B3/original_8bf94ffa-1aaf-42b1-990b-bb0e42255e3e.mp4",
+      "sha256": "a9e95b5ad3f8147fd549ec78077166c45e50c57e55d24d17e9973efdb87275ec"
+    },
+    "base": {
+      "file": "out/outro_closing_generations_v1/B3/base.mp4",
+      "take": 2,
+      "sha256": "a9e95b5ad3f8147fd549ec78077166c45e50c57e55d24d17e9973efdb87275ec",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "audio_seconds": 8.0,
+      "stream_starts": 0.0
+    },
+    "base_gate": {
+      "face_suit_room": "pass",
+      "artifact": "pass",
+      "lighting": "pass: luma constant 49-50, lit to last frame",
+      "frontal": "pass to 6.5 s, then profile",
+      "cut1_to_who_57_74": "partial: puckered who 2.375-2.5 s then closed smile (line delivered early 1.1-2.0 s)",
+      "cut2_you_first_122_144": "weak: slight shapes 5.08-5.3 s, toothy smile with small lip motion",
+      "cut3_night_171_189": "FAIL: profile turned right, mouth closed, arm extended",
+      "hand_action": "full reach to bedside panel 6.3-8.0 s (asked for finger movement only)",
+      "no_cut_or_reset": "pass",
+      "passed": false
+    },
+    "control_action_times_seconds": {
+      "head_turn_right": 6.5,
+      "arm_reach_start": 6.3,
+      "room_dim": "none"
+    },
+    "kling": {
+      "submitted": false,
+      "reason": "final line turned away and silent on both takes; owner to decide",
+      "balance": 311
+    },
+    "sheets": [
+      "contact_every6.jpg",
+      "crop_face_every2.jpg",
+      "crop_face_cut1_every2.jpg",
+      "crop_face_cut2_every2.jpg",
+      "crop_face_cut3_every2.jpg",
+      "crop_artifact_hands_every8.jpg",
+      "keyframes_0_57_73_122_143_171_188_191.jpg"
+    ],
+    "owner_options": [
+      "Kling on take 2 for cuts 1-2; Codex covers Night with an insert/crop or the A3 reply",
+      "one more Flow with the light-control beat removed entirely (hands stay on the specimen)",
+      "Kling on take 1 for comparison (not recommended)"
+    ],
+    "not_done": [
+      "no Kling",
+      "no third Flow",
+      "no assembly",
+      "no FX",
+      "no commit",
+      "no purchase"
+    ]
+  }
+}

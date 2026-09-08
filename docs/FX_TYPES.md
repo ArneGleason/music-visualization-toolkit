@@ -5,6 +5,23 @@ This is the creative catalogue, not an assembly override. Shot timing remains in
 `shots/assembly_decisions.json`. A reusable look approval does not approve every
 application or declare a delivery layer ready.
 
+## General choreography principle: engage, focus, punctuate
+
+Owner direction, 2026-09-06: effects should create engagement, draw attention
+to something meaningful, then deliver a deliberate punctuation. Apply this as
+a general design principle, not continuous decoration or an identical burst
+on every shot. Let the payoff settle so the next event has room.
+
+For each treatment, identify the arrival/engagement, the object or relationship
+that receives attention, and the exact lyric or musical event that earns the
+payoff. Vary intensity and technique with the larger tension/release arc;
+punctuation can be subtle, a stop or a disappearance as well as a bright burst.
+
+Approved example: out/receiver_now_v3/preview.mp4. Rosettes arrive, attach to
+knobs and trace the receiver's controls, then all rings and the cyan/amber
+cabinet border flare on now (song1175). This is purposeful interaction rather
+than floating decoration. Preserve the approved strength for this shot.
+
 ## FX-04 — Analog contours with anticipatory depth pulses
 
 **Owner approved reusable mode and specific application to s056 / telescope_time_tunnel.**

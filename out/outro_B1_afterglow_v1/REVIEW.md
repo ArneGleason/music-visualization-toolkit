@@ -1,0 +1,11 @@
+# B1: psychedelic garden afterglow
+
+Owner accepts B1's lip sync and requests a narrative reason for the pleased expression: lingering garden aftereffects. Do not regenerate face/performance for that smile. This FX pass is a proposal awaiting review; no production assignment or timing change.
+
+Source out/outro_B1_v2/synced.mp4 SHA2567055e5d5037286e56692ddc33343f551e4d5aa212f14802e2ca181756ddf7ea6 verified. Native239frames30fps timestamp-conformed with shared assembly_timebase to191frames24fps, origin song4165. Claude flags weak articulation but owner explicitly considers it fine; that subjective approval governs, without claiming perfect phoneme alignment or that low guide level definitively caused the weakness.
+
+Three effects: source-color-derived amber internal spiral light, locally normalized to the quiet Define there line; sparse violet/pearl motes curling upward/outward from the artifact; local optical ripple around hands/nearby room with face and central artifact/hand region protected. Glow persists between words with a decay envelope. Voice gate isolates the intended interval temporally, not by speaker separation. Other louder A lines do not drive B's display. Screen-style saturation of additive light preserves some specimen texture; strength can be dialled down if too much detail is lost at peaks.
+
+Artifact center tracked from source0 using local sparse optical flow, forward/backward rejection. Translation tracking only, not full shape/occlusion solve. Natural end-of-take hand motion requires up to16px/frame allowance; visible interval67..97 is stable. Final tail is spare and needs separate visual review before future use. Motes stop below face. No face retouching, eyes changes, global exposure, master audio changes or filmic mastering.
+
+build.py produces optical frames and separate additive light layers. blender.py saves afterglow.blend and silent clean.mp4. deliver.py creates preview.mp4 containing approved A TV v2, then B afterglow, then A TV v2 again, at song4177..4331. B is now motion, not the placeholder still. Its assigned source67..97 maps song4232..4262. Master soundtrack used once, no lyrics in this isolated review. Never layer effects again over these clean baked movies. Review this short existing cut before extending the look into B2.

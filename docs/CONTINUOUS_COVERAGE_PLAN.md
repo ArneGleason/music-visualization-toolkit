@@ -1,5 +1,11 @@
 # Continuous coverage and whole-film refinement
 
+New creative revision: see OUTRO_REVISION_V2.md (2026-09-07). Owner requests
+quieter accomplishment, purposeful artifact continuity, new starting images
+and a functional TV readout. Existing take reuse principles still apply.
+New A3 origin4492 is proposed to improve lead-in; old generated media/mappings
+remain unchanged until reviewed replacement handoffs are issued.
+
 Owner direction recorded 2026-09-05. The production strategy below is adopted;
 the exact outro cut proposal is for review in a free animatic before generation.
 The current approved picture remains v04. DAW visualization experiments follow

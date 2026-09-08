@@ -1,0 +1,1730 @@
+{
+  "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\outro_exchange_fx_v1\\b_selected.mp4",
+  "frames": 191,
+  "fps": 24,
+  "song_origin": 4320,
+  "tracking": "artifact local sparse optical flow, forward/backward rejection, translation only",
+  "driver": "90percentile own three reply windows, gated with release; not speaker-separated",
+  "records": [
+    {
+      "source_frame": 0,
+      "song_frame": 4320,
+      "center": [
+        650.0,
+        576.0
+      ],
+      "voice_envelope": 0.0
+    },
+    {
+      "source_frame": 1,
+      "song_frame": 4321,
+      "center": [
+        650.0,
+        576.0
+      ],
+      "voice_envelope": 0.0
+    },
+    {
+      "source_frame": 2,
+      "song_frame": 4322,
+      "center": [
+        649.742919921875,
+        576.0989990234375
+      ],
+      "voice_envelope": 0.0
+    },
+    {
+      "source_frame": 3,
+      "song_frame": 4323,
+      "center": [
+        649.4883422851562,
+        576.193359375
+      ],
+      "voice_envelope": 0.0
+    },
+    {
+      "source_frame": 4,
+      "song_frame": 4324,
+      "center": [
+        649.4883422851562,
+        576.193359375
+      ],
+      "voice_envelope": 0.0
+    },
+    {
+      "source_frame": 5,
+      "song_frame": 4325,
+      "center": [
+        649.1213989257812,
+        576.4276123046875
+      ],
+      "voice_envelope": 0.0
+    },
+    {
+      "source_frame": 6,
+      "song_frame": 4326,
+      "center": [
+        648.42333984375,
+        572.579345703125
+      ],
+      "voice_envelope": 0.0
+    },
+    {
+      "source_frame": 7,
+      "song_frame": 4327,
+      "center": [
+        648.42333984375,
+        572.579345703125
+      ],
+      "voice_envelope": 0.004757939837872982
+    },
+    {
+      "source_frame": 8,
+      "song_frame": 4328,
+      "center": [
+        648.6781616210938,
+        548.540771484375
+      ],
+      "voice_envelope": 0.008010677061975002
+    },
+    {
+      "source_frame": 9,
+      "song_frame": 4329,
+      "center": [
+        648.6781616210938,
+        548.540771484375
+      ],
+      "voice_envelope": 0.006809075828641653
+    },
+    {
+      "source_frame": 10,
+      "song_frame": 4330,
+      "center": [
+        648.49267578125,
+        536.3858032226562
+      ],
+      "voice_envelope": 0.015172900632023811
+    },
+    {
+      "source_frame": 11,
+      "song_frame": 4331,
+      "center": [
+        648.6624145507812,
+        520.7420043945312
+      ],
+      "voice_envelope": 0.012896966189146042
+    },
+    {
+      "source_frame": 12,
+      "song_frame": 4332,
+      "center": [
+        648.6624145507812,
+        520.7420043945312
+      ],
+      "voice_envelope": 0.010962422005832195
+    },
+    {
+      "source_frame": 13,
+      "song_frame": 4333,
+      "center": [
+        648.1180419921875,
+        520.0340576171875
+      ],
+      "voice_envelope": 0.016243277117609978
+    },
+    {
+      "source_frame": 14,
+      "song_frame": 4334,
+      "center": [
+        646.843505859375,
+        528.5399780273438
+      ],
+      "voice_envelope": 0.2563616633415222
+    },
+    {
+      "source_frame": 15,
+      "song_frame": 4335,
+      "center": [
+        646.8434448242188,
+        528.5399780273438
+      ],
+      "voice_envelope": 1.0
+    },
+    {
+      "source_frame": 16,
+      "song_frame": 4336,
+      "center": [
+        646.2320556640625,
+        539.8370971679688
+      ],
+      "voice_envelope": 1.0
+    },
+    {
+      "source_frame": 17,
+      "song_frame": 4337,
+      "center": [
+        646.2320556640625,
+        539.8370971679688
+      ],
+      "voice_envelope": 1.0
+    },
+    {
+      "source_frame": 18,
+      "song_frame": 4338,
+      "center": [
+        645.8803100585938,
+        545.18017578125
+      ],
+      "voice_envelope": 1.0
+    },
+    {
+      "source_frame": 19,
+      "song_frame": 4339,
+      "center": [
+        645.271728515625,
+        556.2832641601562
+      ],
+      "voice_envelope": 0.8500000238418579
+    },
+    {
+      "source_frame": 20,
+      "song_frame": 4340,
+      "center": [
+        645.0455322265625,
+        558.97509765625
+      ],
+      "voice_envelope": 0.7225000262260437
+    },
+    {
+      "source_frame": 21,
+      "song_frame": 4341,
+      "center": [
+        644.8468017578125,
+        561.6512451171875
+      ],
+      "voice_envelope": 0.6141250133514404
+    },
+    {
+      "source_frame": 22,
+      "song_frame": 4342,
+      "center": [
+        644.634033203125,
+        569.841064453125
+      ],
+      "voice_envelope": 0.5220062732696533
+    },
+    {
+      "source_frame": 23,
+      "song_frame": 4343,
+      "center": [
+        644.634033203125,
+        569.8410034179688
+      ],
+      "voice_envelope": 0.44370535016059875
+    },
+    {
+      "source_frame": 24,
+      "song_frame": 4344,
+      "center": [
+        644.9251098632812,
+        574.8412475585938
+      ],
+      "voice_envelope": 0.3771495521068573
+    },
+    {
+      "source_frame": 25,
+      "song_frame": 4345,
+      "center": [
+        644.908203125,
+        575.249267578125
+      ],
+      "voice_envelope": 0.32057711482048035
+    },
+    {
+      "source_frame": 26,
+      "song_frame": 4346,
+      "center": [
+        644.8837890625,
+        577.54443359375
+      ],
+      "voice_envelope": 0.27249056100845337
+    },
+    {
+      "source_frame": 27,
+      "song_frame": 4347,
+      "center": [
+        644.88720703125,
+        579.1593017578125
+      ],
+      "voice_envelope": 0.4743781089782715
+    },
+    {
+      "source_frame": 28,
+      "song_frame": 4348,
+      "center": [
+        644.8936767578125,
+        579.2861328125
+      ],
+      "voice_envelope": 0.7244953513145447
+    },
+    {
+      "source_frame": 29,
+      "song_frame": 4349,
+      "center": [
+        644.9113159179688,
+        579.4226684570312
+      ],
+      "voice_envelope": 0.9888943433761597
+    },
+    {
+      "source_frame": 30,
+      "song_frame": 4350,
+      "center": [
+        645.4240112304688,
+        579.7918701171875
+      ],
+      "voice_envelope": 0.8929063677787781
+    },
+    {
+      "source_frame": 31,
+      "song_frame": 4351,
+      "center": [
+        645.8209838867188,
+        579.9466552734375
+      ],
+      "voice_envelope": 0.9042085409164429
+    },
+    {
+      "source_frame": 32,
+      "song_frame": 4352,
+      "center": [
+        646.1331787109375,
+        580.09423828125
+      ],
+      "voice_envelope": 1.0
+    },
+    {
+      "source_frame": 33,
+      "song_frame": 4353,
+      "center": [
+        646.149658203125,
+        580.0685424804688
+      ],
+      "voice_envelope": 0.8645712733268738
+    },
+    {
+      "source_frame": 34,
+      "song_frame": 4354,
+      "center": [
+        646.1686401367188,
+        580.0337524414062
+      ],
+      "voice_envelope": 1.0
+    },
+    {
+      "source_frame": 35,
+      "song_frame": 4355,
+      "center": [
+        646.4371337890625,
+        580.1347045898438
+      ],
+      "voice_envelope": 0.910492479801178
+    },
+    {
+      "source_frame": 36,
+      "song_frame": 4356,
+      "center": [
+        646.4371337890625,
+        580.1347045898438
+      ],
+      "voice_envelope": 0.773918628692627
+    },
+    {
+      "source_frame": 37,
+      "song_frame": 4357,
+      "center": [
+        646.2005615234375,
+        580.536865234375
+      ],
+      "voice_envelope": 0.6578308343887329
+    },
+    {
+      "source_frame": 38,
+      "song_frame": 4358,
+      "center": [
+        644.80419921875,
+        580.6871948242188
+      ],
+      "voice_envelope": 0.5591562390327454
+    },
+    {
+      "source_frame": 39,
+      "song_frame": 4359,
+      "center": [
+        644.80419921875,
+        580.6875
+      ],
+      "voice_envelope": 0.47528281807899475
+    },
+    {
+      "source_frame": 40,
+      "song_frame": 4360,
+      "center": [
+        644.4169921875,
+        580.9024658203125
+      ],
+      "voice_envelope": 0.40399041771888733
+    },
+    {
+      "source_frame": 41,
+      "song_frame": 4361,
+      "center": [
+        644.4169921875,
+        580.9024658203125
+      ],
+      "voice_envelope": 0.34339186549186707
+    },
+    {
+      "source_frame": 42,
+      "song_frame": 4362,
+      "center": [
+        644.9085693359375,
+        581.1781616210938
+      ],
+      "voice_envelope": 0.29188308119773865
+    },
+    {
+      "source_frame": 43,
+      "song_frame": 4363,
+      "center": [
+        645.7259521484375,
+        581.3955078125
+      ],
+      "voice_envelope": 0.2481006234884262
+    },
+    {
+      "source_frame": 44,
+      "song_frame": 4364,
+      "center": [
+        645.7260131835938,
+        581.3956298828125
+      ],
+      "voice_envelope": 0.21088553965091705
+    },
+    {
+      "source_frame": 45,
+      "song_frame": 4365,
+      "center": [
+        645.8734130859375,
+        581.4808959960938
+      ],
+      "voice_envelope": 0.1792527139186859
+    },
+    {
+      "source_frame": 46,
+      "song_frame": 4366,
+      "center": [
+        646.883056640625,
+        581.9066772460938
+      ],
+      "voice_envelope": 0.1523648053407669
+    },
+    {
+      "source_frame": 47,
+      "song_frame": 4367,
+      "center": [
+        646.8828125,
+        581.9068603515625
+      ],
+      "voice_envelope": 0.1295100897550583
+    },
+    {
+      "source_frame": 48,
+      "song_frame": 4368,
+      "center": [
+        647.8274536132812,
+        582.4051513671875
+      ],
+      "voice_envelope": 0.11008358001708984
+    },
+    {
+      "source_frame": 49,
+      "song_frame": 4369,
+      "center": [
+        647.799072265625,
+        582.5548706054688
+      ],
+      "voice_envelope": 0.09357104450464249
+    },
+    {
+      "source_frame": 50,
+      "song_frame": 4370,
+      "center": [
+        647.7666015625,
+        582.707763671875
+      ],
+      "voice_envelope": 0.07953538745641708
+    },
+    {
+      "source_frame": 51,
+      "song_frame": 4371,
+      "center": [
+        647.712158203125,
+        582.8148803710938
+      ],
+      "voice_envelope": 0.06760507822036743
+    },
+    {
+      "source_frame": 52,
+      "song_frame": 4372,
+      "center": [
+        647.700439453125,
+        582.8533935546875
+      ],
+      "voice_envelope": 0.05746431648731232
+    },
+    {
+      "source_frame": 53,
+      "song_frame": 4373,
+      "center": [
+        647.6817626953125,
+        582.914794921875
+      ],
+      "voice_envelope": 0.04884466901421547
+    },
+    {
+      "source_frame": 54,
+      "song_frame": 4374,
+      "center": [
+        647.5660400390625,
+        583.2838134765625
+      ],
+      "voice_envelope": 0.041517969220876694
+    },
+    {
+      "source_frame": 55,
+      "song_frame": 4375,
+      "center": [
+        647.5660400390625,
+        583.2838134765625
+      ],
+      "voice_envelope": 0.035290274769067764
+    },
+    {
+      "source_frame": 56,
+      "song_frame": 4376,
+      "center": [
+        647.4443359375,
+        583.6177978515625
+      ],
+      "voice_envelope": 0.029996734112501144
+    },
+    {
+      "source_frame": 57,
+      "song_frame": 4377,
+      "center": [
+        647.443603515625,
+        583.6229248046875
+      ],
+      "voice_envelope": 0.025497224181890488
+    },
+    {
+      "source_frame": 58,
+      "song_frame": 4378,
+      "center": [
+        647.38134765625,
+        583.7620849609375
+      ],
+      "voice_envelope": 0.02167264185845852
+    },
+    {
+      "source_frame": 59,
+      "song_frame": 4379,
+      "center": [
+        647.30126953125,
+        584.031005859375
+      ],
+      "voice_envelope": 0.018421746790409088
+    },
+    {
+      "source_frame": 60,
+      "song_frame": 4380,
+      "center": [
+        647.260986328125,
+        584.1878051757812
+      ],
+      "voice_envelope": 0.015658484771847725
+    },
+    {
+      "source_frame": 61,
+      "song_frame": 4381,
+      "center": [
+        647.23388671875,
+        584.4022827148438
+      ],
+      "voice_envelope": 0.013309712521731853
+    },
+    {
+      "source_frame": 62,
+      "song_frame": 4382,
+      "center": [
+        647.1728515625,
+        584.7393798828125
+      ],
+      "voice_envelope": 0.011313255876302719
+    },
+    {
+      "source_frame": 63,
+      "song_frame": 4383,
+      "center": [
+        647.1088256835938,
+        585.032958984375
+      ],
+      "voice_envelope": 0.009616267867386341
+    },
+    {
+      "source_frame": 64,
+      "song_frame": 4384,
+      "center": [
+        647.0601806640625,
+        585.32275390625
+      ],
+      "voice_envelope": 0.008173828013241291
+    },
+    {
+      "source_frame": 65,
+      "song_frame": 4385,
+      "center": [
+        647.0602416992188,
+        585.3228149414062
+      ],
+      "voice_envelope": 0.006947753950953484
+    },
+    {
+      "source_frame": 66,
+      "song_frame": 4386,
+      "center": [
+        646.960693359375,
+        585.5763549804688
+      ],
+      "voice_envelope": 0.0059055909514427185
+    },
+    {
+      "source_frame": 67,
+      "song_frame": 4387,
+      "center": [
+        646.9051513671875,
+        586.0753173828125
+      ],
+      "voice_envelope": 0.005019752308726311
+    },
+    {
+      "source_frame": 68,
+      "song_frame": 4388,
+      "center": [
+        646.8623046875,
+        586.358154296875
+      ],
+      "voice_envelope": 0.004266789648681879
+    },
+    {
+      "source_frame": 69,
+      "song_frame": 4389,
+      "center": [
+        646.802001953125,
+        586.621337890625
+      ],
+      "voice_envelope": 0.0036267712712287903
+    },
+    {
+      "source_frame": 70,
+      "song_frame": 4390,
+      "center": [
+        646.7823486328125,
+        586.9071044921875
+      ],
+      "voice_envelope": 0.003082755720242858
+    },
+    {
+      "source_frame": 71,
+      "song_frame": 4391,
+      "center": [
+        646.7823486328125,
+        586.9071044921875
+      ],
+      "voice_envelope": 0.00262034242041409
+    },
+    {
+      "source_frame": 72,
+      "song_frame": 4392,
+      "center": [
+        646.5156860351562,
+        587.2783203125
+      ],
+      "voice_envelope": 0.0022272912319749594
+    },
+    {
+      "source_frame": 73,
+      "song_frame": 4393,
+      "center": [
+        646.5157470703125,
+        587.2783203125
+      ],
+      "voice_envelope": 0.0018931976519525051
+    },
+    {
+      "source_frame": 74,
+      "song_frame": 4394,
+      "center": [
+        646.3778076171875,
+        587.5603637695312
+      ],
+      "voice_envelope": 0.0016092180740088224
+    },
+    {
+      "source_frame": 75,
+      "song_frame": 4395,
+      "center": [
+        646.19873046875,
+        588.24267578125
+      ],
+      "voice_envelope": 0.0013678354443982244
+    },
+    {
+      "source_frame": 76,
+      "song_frame": 4396,
+      "center": [
+        646.19873046875,
+        588.24267578125
+      ],
+      "voice_envelope": 0.007386751007288694
+    },
+    {
+      "source_frame": 77,
+      "song_frame": 4397,
+      "center": [
+        646.870849609375,
+        589.3616943359375
+      ],
+      "voice_envelope": 0.04596039652824402
+    },
+    {
+      "source_frame": 78,
+      "song_frame": 4398,
+      "center": [
+        647.2354736328125,
+        589.7860107421875
+      ],
+      "voice_envelope": 0.06792297959327698
+    },
+    {
+      "source_frame": 79,
+      "song_frame": 4399,
+      "center": [
+        647.2354736328125,
+        589.785888671875
+      ],
+      "voice_envelope": 0.05773453414440155
+    },
+    {
+      "source_frame": 80,
+      "song_frame": 4400,
+      "center": [
+        647.696533203125,
+        589.759765625
+      ],
+      "voice_envelope": 0.04907435551285744
+    },
+    {
+      "source_frame": 81,
+      "song_frame": 4401,
+      "center": [
+        647.696533203125,
+        589.759765625
+      ],
+      "voice_envelope": 0.041713204234838486
+    },
+    {
+      "source_frame": 82,
+      "song_frame": 4402,
+      "center": [
+        647.7005615234375,
+        589.2493896484375
+      ],
+      "voice_envelope": 0.03545622527599335
+    },
+    {
+      "source_frame": 83,
+      "song_frame": 4403,
+      "center": [
+        647.6563720703125,
+        588.7521362304688
+      ],
+      "voice_envelope": 0.0824451893568039
+    },
+    {
+      "source_frame": 84,
+      "song_frame": 4404,
+      "center": [
+        647.373046875,
+        589.0714721679688
+      ],
+      "voice_envelope": 0.42988473176956177
+    },
+    {
+      "source_frame": 85,
+      "song_frame": 4405,
+      "center": [
+        647.10302734375,
+        589.4437255859375
+      ],
+      "voice_envelope": 0.675589919090271
+    },
+    {
+      "source_frame": 86,
+      "song_frame": 4406,
+      "center": [
+        646.7406005859375,
+        589.669677734375
+      ],
+      "voice_envelope": 0.5742514729499817
+    },
+    {
+      "source_frame": 87,
+      "song_frame": 4407,
+      "center": [
+        646.739990234375,
+        589.67236328125
+      ],
+      "voice_envelope": 0.5012967586517334
+    },
+    {
+      "source_frame": 88,
+      "song_frame": 4408,
+      "center": [
+        646.1356811523438,
+        589.9840087890625
+      ],
+      "voice_envelope": 0.5279070138931274
+    },
+    {
+      "source_frame": 89,
+      "song_frame": 4409,
+      "center": [
+        646.1356811523438,
+        589.9840087890625
+      ],
+      "voice_envelope": 0.5579236745834351
+    },
+    {
+      "source_frame": 90,
+      "song_frame": 4410,
+      "center": [
+        646.091552734375,
+        590.1976318359375
+      ],
+      "voice_envelope": 0.5852312445640564
+    },
+    {
+      "source_frame": 91,
+      "song_frame": 4411,
+      "center": [
+        646.0868530273438,
+        590.5635375976562
+      ],
+      "voice_envelope": 0.49744656682014465
+    },
+    {
+      "source_frame": 92,
+      "song_frame": 4412,
+      "center": [
+        646.0994873046875,
+        590.7884521484375
+      ],
+      "voice_envelope": 0.42282959818840027
+    },
+    {
+      "source_frame": 93,
+      "song_frame": 4413,
+      "center": [
+        646.1063232421875,
+        591.05908203125
+      ],
+      "voice_envelope": 0.5460300445556641
+    },
+    {
+      "source_frame": 94,
+      "song_frame": 4414,
+      "center": [
+        646.1158447265625,
+        591.30859375
+      ],
+      "voice_envelope": 0.8418578505516052
+    },
+    {
+      "source_frame": 95,
+      "song_frame": 4415,
+      "center": [
+        646.1364135742188,
+        591.546630859375
+      ],
+      "voice_envelope": 0.7155792117118835
+    },
+    {
+      "source_frame": 96,
+      "song_frame": 4416,
+      "center": [
+        646.1429443359375,
+        591.758544921875
+      ],
+      "voice_envelope": 0.6082423329353333
+    },
+    {
+      "source_frame": 97,
+      "song_frame": 4417,
+      "center": [
+        646.1438598632812,
+        591.815185546875
+      ],
+      "voice_envelope": 0.517005980014801
+    },
+    {
+      "source_frame": 98,
+      "song_frame": 4418,
+      "center": [
+        646.1781005859375,
+        592.0415649414062
+      ],
+      "voice_envelope": 0.4394550919532776
+    },
+    {
+      "source_frame": 99,
+      "song_frame": 4419,
+      "center": [
+        646.2489013671875,
+        592.3377685546875
+      ],
+      "voice_envelope": 0.45700404047966003
+    },
+    {
+      "source_frame": 100,
+      "song_frame": 4420,
+      "center": [
+        646.2492065429688,
+        592.3378295898438
+      ],
+      "voice_envelope": 0.466624915599823
+    },
+    {
+      "source_frame": 101,
+      "song_frame": 4421,
+      "center": [
+        646.7080078125,
+        592.4810180664062
+      ],
+      "voice_envelope": 0.5725900530815125
+    },
+    {
+      "source_frame": 102,
+      "song_frame": 4422,
+      "center": [
+        647.1752319335938,
+        592.5603637695312
+      ],
+      "voice_envelope": 0.8344973921775818
+    },
+    {
+      "source_frame": 103,
+      "song_frame": 4423,
+      "center": [
+        647.17529296875,
+        592.5604248046875
+      ],
+      "voice_envelope": 0.8311373591423035
+    },
+    {
+      "source_frame": 104,
+      "song_frame": 4424,
+      "center": [
+        647.8355712890625,
+        592.7034301757812
+      ],
+      "voice_envelope": 0.706466794013977
+    },
+    {
+      "source_frame": 105,
+      "song_frame": 4425,
+      "center": [
+        647.8353881835938,
+        592.7432861328125
+      ],
+      "voice_envelope": 0.600496768951416
+    },
+    {
+      "source_frame": 106,
+      "song_frame": 4426,
+      "center": [
+        647.8316650390625,
+        592.8379516601562
+      ],
+      "voice_envelope": 0.5104222893714905
+    },
+    {
+      "source_frame": 107,
+      "song_frame": 4427,
+      "center": [
+        647.8079833984375,
+        592.9688720703125
+      ],
+      "voice_envelope": 0.4338589608669281
+    },
+    {
+      "source_frame": 108,
+      "song_frame": 4428,
+      "center": [
+        647.7799072265625,
+        593.057861328125
+      ],
+      "voice_envelope": 0.36878013610839844
+    },
+    {
+      "source_frame": 109,
+      "song_frame": 4429,
+      "center": [
+        647.7056884765625,
+        593.2412109375
+      ],
+      "voice_envelope": 0.31346312165260315
+    },
+    {
+      "source_frame": 110,
+      "song_frame": 4430,
+      "center": [
+        647.638916015625,
+        593.3741455078125
+      ],
+      "voice_envelope": 0.26644366979599
+    },
+    {
+      "source_frame": 111,
+      "song_frame": 4431,
+      "center": [
+        650.0,
+        576.0
+      ],
+      "voice_envelope": 0.22647713124752045
+    },
+    {
+      "source_frame": 112,
+      "song_frame": 4432,
+      "center": [
+        648.2589721679688,
+        576.509765625
+      ],
+      "voice_envelope": 0.19250556826591492
+    },
+    {
+      "source_frame": 113,
+      "song_frame": 4433,
+      "center": [
+        648.2593383789062,
+        576.5099487304688
+      ],
+      "voice_envelope": 0.16362974047660828
+    },
+    {
+      "source_frame": 114,
+      "song_frame": 4434,
+      "center": [
+        647.2550048828125,
+        576.79541015625
+      ],
+      "voice_envelope": 0.13908527791500092
+    },
+    {
+      "source_frame": 115,
+      "song_frame": 4435,
+      "center": [
+        645.740966796875,
+        577.2886962890625
+      ],
+      "voice_envelope": 0.11822248995304108
+    },
+    {
+      "source_frame": 116,
+      "song_frame": 4436,
+      "center": [
+        645.740966796875,
+        577.2886962890625
+      ],
+      "voice_envelope": 0.10048911720514297
+    },
+    {
+      "source_frame": 117,
+      "song_frame": 4437,
+      "center": [
+        644.0860595703125,
+        577.7863159179688
+      ],
+      "voice_envelope": 0.08541575074195862
+    },
+    {
+      "source_frame": 118,
+      "song_frame": 4438,
+      "center": [
+        643.440673828125,
+        577.9605102539062
+      ],
+      "voice_envelope": 0.07260338962078094
+    },
+    {
+      "source_frame": 119,
+      "song_frame": 4439,
+      "center": [
+        643.4406127929688,
+        577.9605102539062
+      ],
+      "voice_envelope": 0.06171288341283798
+    },
+    {
+      "source_frame": 120,
+      "song_frame": 4440,
+      "center": [
+        642.451904296875,
+        578.3458251953125
+      ],
+      "voice_envelope": 0.052455950528383255
+    },
+    {
+      "source_frame": 121,
+      "song_frame": 4441,
+      "center": [
+        642.19091796875,
+        578.509521484375
+      ],
+      "voice_envelope": 0.04458755999803543
+    },
+    {
+      "source_frame": 122,
+      "song_frame": 4442,
+      "center": [
+        641.7003173828125,
+        578.9000854492188
+      ],
+      "voice_envelope": 0.037899427115917206
+    },
+    {
+      "source_frame": 123,
+      "song_frame": 4443,
+      "center": [
+        641.4299926757812,
+        579.2003784179688
+      ],
+      "voice_envelope": 0.032214514911174774
+    },
+    {
+      "source_frame": 124,
+      "song_frame": 4444,
+      "center": [
+        641.326416015625,
+        579.5590209960938
+      ],
+      "voice_envelope": 0.027382338419556618
+    },
+    {
+      "source_frame": 125,
+      "song_frame": 4445,
+      "center": [
+        641.171630859375,
+        580.0533447265625
+      ],
+      "voice_envelope": 0.023274987936019897
+    },
+    {
+      "source_frame": 126,
+      "song_frame": 4446,
+      "center": [
+        641.0007934570312,
+        580.393798828125
+      ],
+      "voice_envelope": 0.019783740863204002
+    },
+    {
+      "source_frame": 127,
+      "song_frame": 4447,
+      "center": [
+        640.866943359375,
+        580.6566162109375
+      ],
+      "voice_envelope": 0.01681618019938469
+    },
+    {
+      "source_frame": 128,
+      "song_frame": 4448,
+      "center": [
+        640.7366943359375,
+        580.9107055664062
+      ],
+      "voice_envelope": 0.014293753542006016
+    },
+    {
+      "source_frame": 129,
+      "song_frame": 4449,
+      "center": [
+        640.7366943359375,
+        580.9107055664062
+      ],
+      "voice_envelope": 0.0121496906504035
+    },
+    {
+      "source_frame": 130,
+      "song_frame": 4450,
+      "center": [
+        640.9526977539062,
+        581.2304077148438
+      ],
+      "voice_envelope": 0.010327237658202648
+    },
+    {
+      "source_frame": 131,
+      "song_frame": 4451,
+      "center": [
+        641.2205810546875,
+        581.597412109375
+      ],
+      "voice_envelope": 0.00877815205603838
+    },
+    {
+      "source_frame": 132,
+      "song_frame": 4452,
+      "center": [
+        641.4302978515625,
+        581.794677734375
+      ],
+      "voice_envelope": 0.007461429573595524
+    },
+    {
+      "source_frame": 133,
+      "song_frame": 4453,
+      "center": [
+        641.611083984375,
+        581.9752197265625
+      ],
+      "voice_envelope": 0.006342215463519096
+    },
+    {
+      "source_frame": 134,
+      "song_frame": 4454,
+      "center": [
+        641.7808837890625,
+        582.1436767578125
+      ],
+      "voice_envelope": 0.005390883423388004
+    },
+    {
+      "source_frame": 135,
+      "song_frame": 4455,
+      "center": [
+        641.7808837890625,
+        582.1436767578125
+      ],
+      "voice_envelope": 0.004582250956445932
+    },
+    {
+      "source_frame": 136,
+      "song_frame": 4456,
+      "center": [
+        642.00439453125,
+        582.4973754882812
+      ],
+      "voice_envelope": 0.003894913475960493
+    },
+    {
+      "source_frame": 137,
+      "song_frame": 4457,
+      "center": [
+        642.00439453125,
+        582.4973754882812
+      ],
+      "voice_envelope": 0.04734785854816437
+    },
+    {
+      "source_frame": 138,
+      "song_frame": 4458,
+      "center": [
+        642.2364501953125,
+        583.017578125
+      ],
+      "voice_envelope": 0.13811005651950836
+    },
+    {
+      "source_frame": 139,
+      "song_frame": 4459,
+      "center": [
+        642.4843139648438,
+        583.3147583007812
+      ],
+      "voice_envelope": 0.21767693758010864
+    },
+    {
+      "source_frame": 140,
+      "song_frame": 4460,
+      "center": [
+        642.4843139648438,
+        583.3147583007812
+      ],
+      "voice_envelope": 0.20393778383731842
+    },
+    {
+      "source_frame": 141,
+      "song_frame": 4461,
+      "center": [
+        643.222412109375,
+        583.835693359375
+      ],
+      "voice_envelope": 0.1733471155166626
+    },
+    {
+      "source_frame": 142,
+      "song_frame": 4462,
+      "center": [
+        643.6808471679688,
+        584.1248779296875
+      ],
+      "voice_envelope": 0.14734505116939545
+    },
+    {
+      "source_frame": 143,
+      "song_frame": 4463,
+      "center": [
+        643.6808471679688,
+        584.1248779296875
+      ],
+      "voice_envelope": 0.12524329125881195
+    },
+    {
+      "source_frame": 144,
+      "song_frame": 4464,
+      "center": [
+        644.3746948242188,
+        584.6370849609375
+      ],
+      "voice_envelope": 0.38124874234199524
+    },
+    {
+      "source_frame": 145,
+      "song_frame": 4465,
+      "center": [
+        644.3746948242188,
+        584.6370849609375
+      ],
+      "voice_envelope": 0.4331314265727997
+    },
+    {
+      "source_frame": 146,
+      "song_frame": 4466,
+      "center": [
+        645.0181884765625,
+        585.14111328125
+      ],
+      "voice_envelope": 0.6784772872924805
+    },
+    {
+      "source_frame": 147,
+      "song_frame": 4467,
+      "center": [
+        645.4605712890625,
+        585.4285888671875
+      ],
+      "voice_envelope": 0.6205809116363525
+    },
+    {
+      "source_frame": 148,
+      "song_frame": 4468,
+      "center": [
+        645.4385986328125,
+        585.4337158203125
+      ],
+      "voice_envelope": 0.5274937748908997
+    },
+    {
+      "source_frame": 149,
+      "song_frame": 4469,
+      "center": [
+        646.070556640625,
+        585.985107421875
+      ],
+      "voice_envelope": 0.45012640953063965
+    },
+    {
+      "source_frame": 150,
+      "song_frame": 4470,
+      "center": [
+        646.4479370117188,
+        586.3682861328125
+      ],
+      "voice_envelope": 0.38260746002197266
+    },
+    {
+      "source_frame": 151,
+      "song_frame": 4471,
+      "center": [
+        646.6448974609375,
+        586.6729736328125
+      ],
+      "voice_envelope": 0.3252163529396057
+    },
+    {
+      "source_frame": 152,
+      "song_frame": 4472,
+      "center": [
+        646.829833984375,
+        586.973876953125
+      ],
+      "voice_envelope": 0.27643391489982605
+    },
+    {
+      "source_frame": 153,
+      "song_frame": 4473,
+      "center": [
+        646.829833984375,
+        586.973876953125
+      ],
+      "voice_envelope": 0.30759021639823914
+    },
+    {
+      "source_frame": 154,
+      "song_frame": 4474,
+      "center": [
+        646.922607421875,
+        587.319091796875
+      ],
+      "voice_envelope": 1.0
+    },
+    {
+      "source_frame": 155,
+      "song_frame": 4475,
+      "center": [
+        646.9580078125,
+        587.6146240234375
+      ],
+      "voice_envelope": 0.9017623662948608
+    },
+    {
+      "source_frame": 156,
+      "song_frame": 4476,
+      "center": [
+        646.99072265625,
+        587.9086303710938
+      ],
+      "voice_envelope": 0.9334681630134583
+    },
+    {
+      "source_frame": 157,
+      "song_frame": 4477,
+      "center": [
+        647.0577392578125,
+        588.19140625
+      ],
+      "voice_envelope": 0.8668585419654846
+    },
+    {
+      "source_frame": 158,
+      "song_frame": 4478,
+      "center": [
+        647.135009765625,
+        588.4683227539062
+      ],
+      "voice_envelope": 1.0
+    },
+    {
+      "source_frame": 159,
+      "song_frame": 4479,
+      "center": [
+        647.1465454101562,
+        588.46826171875
+      ],
+      "voice_envelope": 1.0
+    },
+    {
+      "source_frame": 160,
+      "song_frame": 4480,
+      "center": [
+        647.4842529296875,
+        588.961669921875
+      ],
+      "voice_envelope": 1.0
+    },
+    {
+      "source_frame": 161,
+      "song_frame": 4481,
+      "center": [
+        647.4841918945312,
+        588.9617919921875
+      ],
+      "voice_envelope": 0.8626677989959717
+    },
+    {
+      "source_frame": 162,
+      "song_frame": 4482,
+      "center": [
+        647.7333984375,
+        589.4716796875
+      ],
+      "voice_envelope": 0.7332676649093628
+    },
+    {
+      "source_frame": 163,
+      "song_frame": 4483,
+      "center": [
+        647.7811279296875,
+        589.7427368164062
+      ],
+      "voice_envelope": 0.968429684638977
+    },
+    {
+      "source_frame": 164,
+      "song_frame": 4484,
+      "center": [
+        647.7811279296875,
+        589.7431640625
+      ],
+      "voice_envelope": 0.9985225200653076
+    },
+    {
+      "source_frame": 165,
+      "song_frame": 4485,
+      "center": [
+        647.7752685546875,
+        590.2481689453125
+      ],
+      "voice_envelope": 0.8487441539764404
+    },
+    {
+      "source_frame": 166,
+      "song_frame": 4486,
+      "center": [
+        647.7677612304688,
+        590.5408935546875
+      ],
+      "voice_envelope": 0.7214325666427612
+    },
+    {
+      "source_frame": 167,
+      "song_frame": 4487,
+      "center": [
+        647.7677612304688,
+        590.5409545898438
+      ],
+      "voice_envelope": 0.6132177114486694
+    },
+    {
+      "source_frame": 168,
+      "song_frame": 4488,
+      "center": [
+        647.7373657226562,
+        591.05322265625
+      ],
+      "voice_envelope": 0.5955858826637268
+    },
+    {
+      "source_frame": 169,
+      "song_frame": 4489,
+      "center": [
+        647.7373657226562,
+        591.05322265625
+      ],
+      "voice_envelope": 0.5062479972839355
+    },
+    {
+      "source_frame": 170,
+      "song_frame": 4490,
+      "center": [
+        647.4205322265625,
+        591.7266845703125
+      ],
+      "voice_envelope": 0.43031081557273865
+    },
+    {
+      "source_frame": 171,
+      "song_frame": 4491,
+      "center": [
+        647.3617553710938,
+        591.89013671875
+      ],
+      "voice_envelope": 0.6592810750007629
+    },
+    {
+      "source_frame": 172,
+      "song_frame": 4492,
+      "center": [
+        647.316162109375,
+        592.005126953125
+      ],
+      "voice_envelope": 0.9634221792221069
+    },
+    {
+      "source_frame": 173,
+      "song_frame": 4493,
+      "center": [
+        646.9344482421875,
+        592.1878662109375
+      ],
+      "voice_envelope": 0.9450148344039917
+    },
+    {
+      "source_frame": 174,
+      "song_frame": 4494,
+      "center": [
+        646.6578369140625,
+        592.292236328125
+      ],
+      "voice_envelope": 0.8032626509666443
+    },
+    {
+      "source_frame": 175,
+      "song_frame": 4495,
+      "center": [
+        646.6578369140625,
+        592.292236328125
+      ],
+      "voice_envelope": 0.6827732920646667
+    },
+    {
+      "source_frame": 176,
+      "song_frame": 4496,
+      "center": [
+        646.3475952148438,
+        592.1087646484375
+      ],
+      "voice_envelope": 0.8738714456558228
+    },
+    {
+      "source_frame": 177,
+      "song_frame": 4497,
+      "center": [
+        646.3472900390625,
+        592.109375
+      ],
+      "voice_envelope": 0.9091916084289551
+    },
+    {
+      "source_frame": 178,
+      "song_frame": 4498,
+      "center": [
+        646.3194580078125,
+        591.643798828125
+      ],
+      "voice_envelope": 1.0
+    },
+    {
+      "source_frame": 179,
+      "song_frame": 4499,
+      "center": [
+        646.2885131835938,
+        591.46533203125
+      ],
+      "voice_envelope": 0.8500000238418579
+    },
+    {
+      "source_frame": 180,
+      "song_frame": 4500,
+      "center": [
+        646.2884521484375,
+        591.4586181640625
+      ],
+      "voice_envelope": 0.73944491147995
+    },
+    {
+      "source_frame": 181,
+      "song_frame": 4501,
+      "center": [
+        646.2791137695312,
+        591.360107421875
+      ],
+      "voice_envelope": 0.9385278224945068
+    },
+    {
+      "source_frame": 182,
+      "song_frame": 4502,
+      "center": [
+        646.2860717773438,
+        591.3047485351562
+      ],
+      "voice_envelope": 0.7977486848831177
+    },
+    {
+      "source_frame": 183,
+      "song_frame": 4503,
+      "center": [
+        646.4493408203125,
+        591.3136596679688
+      ],
+      "voice_envelope": 0.6780864000320435
+    },
+    {
+      "source_frame": 184,
+      "song_frame": 4504,
+      "center": [
+        646.6170654296875,
+        591.3218383789062
+      ],
+      "voice_envelope": 0.5763734579086304
+    },
+    {
+      "source_frame": 185,
+      "song_frame": 4505,
+      "center": [
+        646.6170654296875,
+        591.3218383789062
+      ],
+      "voice_envelope": 0.48991745710372925
+    },
+    {
+      "source_frame": 186,
+      "song_frame": 4506,
+      "center": [
+        646.6043701171875,
+        591.8392333984375
+      ],
+      "voice_envelope": 0.4164298474788666
+    },
+    {
+      "source_frame": 187,
+      "song_frame": 4507,
+      "center": [
+        646.3406982421875,
+        592.1322021484375
+      ],
+      "voice_envelope": 0.3539653718471527
+    },
+    {
+      "source_frame": 188,
+      "song_frame": 4508,
+      "center": [
+        646.3409423828125,
+        592.13232421875
+      ],
+      "voice_envelope": 0.3008705675601959
+    },
+    {
+      "source_frame": 189,
+      "song_frame": 4509,
+      "center": [
+        646.5411376953125,
+        592.0635375976562
+      ],
+      "voice_envelope": 0.2557399868965149
+    },
+    {
+      "source_frame": 190,
+      "song_frame": 4510,
+      "center": [
+        647.2852783203125,
+        586.2528686523438
+      ],
+      "voice_envelope": 0.21737898886203766
+    }
+  ],
+  "room_projection": "v4: v3 intensity and depth, with broad coherent three-octave fractal domain distortion and evolving mottling; practical lights unchanged"
+}

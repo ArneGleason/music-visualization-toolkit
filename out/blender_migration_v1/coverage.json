@@ -1,0 +1,1332 @@
+[
+  {
+    "id": "s001",
+    "song_frames": [
+      0,
+      86
+    ],
+    "source_frames": [
+      0,
+      86
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "s002",
+    "song_frames": [
+      86,
+      155
+    ],
+    "source_frames": [
+      0,
+      69
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "69"
+    }
+  },
+  {
+    "id": "opening_before_need",
+    "song_frames": [
+      155,
+      205
+    ],
+    "source_frames": [
+      12,
+      62
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "opening_need_landscape",
+    "song_frames": [
+      205,
+      282
+    ],
+    "source_frames": [
+      0,
+      77
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "77"
+    }
+  },
+  {
+    "id": "opening_after_need",
+    "song_frames": [
+      282,
+      334
+    ],
+    "source_frames": [
+      139,
+      191
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "s004",
+    "song_frames": [
+      334,
+      500
+    ],
+    "source_frames": [
+      12,
+      178
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "pieces_face_in",
+    "song_frames": [
+      500,
+      562
+    ],
+    "source_frames": [
+      12,
+      74
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "pieces_insert",
+    "song_frames": [
+      562,
+      610
+    ],
+    "source_frames": [
+      0,
+      48
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "48"
+    }
+  },
+  {
+    "id": "pieces_face_return",
+    "song_frames": [
+      610,
+      670
+    ],
+    "source_frames": [
+      122,
+      182
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "specimen_mismatch",
+    "song_frames": [
+      670,
+      719
+    ],
+    "source_frames": [
+      54,
+      103
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "s009",
+    "song_frames": [
+      719,
+      805
+    ],
+    "source_frames": [
+      0,
+      86
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "s010",
+    "song_frames": [
+      805,
+      856
+    ],
+    "source_frames": [
+      0,
+      51
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "51"
+    }
+  },
+  {
+    "id": "s011",
+    "song_frames": [
+      856,
+      911
+    ],
+    "source_frames": [
+      137,
+      192
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "s012",
+    "song_frames": [
+      911,
+      1082
+    ],
+    "source_frames": [
+      12,
+      183
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "receiver_reply_arrival",
+    "song_frames": [
+      1082,
+      1201
+    ],
+    "source_frames": [
+      0,
+      119
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "119"
+    }
+  },
+  {
+    "id": "screen_reply",
+    "song_frames": [
+      1201,
+      1304
+    ],
+    "source_frames": [
+      119,
+      222
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "330"
+    }
+  },
+  {
+    "id": "garden_entry",
+    "song_frames": [
+      1304,
+      1412
+    ],
+    "source_frames": [
+      222,
+      330
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "330"
+    }
+  },
+  {
+    "id": "garden_walk",
+    "song_frames": [
+      1412,
+      1514
+    ],
+    "source_frames": [
+      0,
+      102
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "102"
+    }
+  },
+  {
+    "id": "garden_moth",
+    "song_frames": [
+      1514,
+      1569
+    ],
+    "source_frames": [
+      0,
+      55
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "55"
+    }
+  },
+  {
+    "id": "garden_waking_motion_audition",
+    "song_frames": [
+      1569,
+      1650
+    ],
+    "source_frames": [
+      0,
+      81
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "81"
+    }
+  },
+  {
+    "id": "garden_walk_return_review",
+    "song_frames": [
+      1650,
+      1710
+    ],
+    "source_frames": [
+      0,
+      60
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "60"
+    }
+  },
+  {
+    "id": "garden_birds_fx_audition",
+    "song_frames": [
+      1710,
+      1786
+    ],
+    "source_frames": [
+      0,
+      76
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "76"
+    }
+  },
+  {
+    "id": "garden_begin_bloom_audition",
+    "song_frames": [
+      1786,
+      1854
+    ],
+    "source_frames": [
+      0,
+      68
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "68"
+    }
+  },
+  {
+    "id": "exchange_specimens_audition",
+    "song_frames": [
+      1854,
+      2016
+    ],
+    "source_frames": [
+      12,
+      174
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "exchange_listener_audition",
+    "song_frames": [
+      2016,
+      2122
+    ],
+    "source_frames": [
+      0,
+      106
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "106"
+    }
+  },
+  {
+    "id": "world_pullback_timing_test",
+    "song_frames": [
+      2122,
+      2233
+    ],
+    "source_frames": [
+      0,
+      111
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "111"
+    }
+  },
+  {
+    "id": "close_reply_timing_test",
+    "song_frames": [
+      2233,
+      2271
+    ],
+    "source_frames": [
+      0,
+      38
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "38"
+    }
+  },
+  {
+    "id": "mars_colony_reply_test",
+    "song_frames": [
+      2271,
+      2399
+    ],
+    "source_frames": [
+      0,
+      128
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "128"
+    }
+  },
+  {
+    "id": "shop_reply_timing_test",
+    "song_frames": [
+      2399,
+      2484
+    ],
+    "source_frames": [
+      0,
+      85
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "85"
+    }
+  },
+  {
+    "id": "archaeology_discovery_review",
+    "song_frames": [
+      2484,
+      2564
+    ],
+    "source_frames": [
+      12,
+      92
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "excavation_reply_performance_review",
+    "song_frames": [
+      2564,
+      2647
+    ],
+    "source_frames": [
+      12,
+      95
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "meant_artifact_insert",
+    "song_frames": [
+      2647,
+      2658
+    ],
+    "source_frames": [
+      0,
+      11
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "11"
+    }
+  },
+  {
+    "id": "meaning_reply_test",
+    "song_frames": [
+      2658,
+      2812
+    ],
+    "source_frames": [
+      0,
+      154
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "223"
+    }
+  },
+  {
+    "id": "meaning_listener_test",
+    "song_frames": [
+      2812,
+      2881
+    ],
+    "source_frames": [
+      154,
+      223
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "223"
+    }
+  },
+  {
+    "id": "s035",
+    "song_frames": [
+      2881,
+      2928
+    ],
+    "source_frames": [
+      12,
+      59
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "landing_retry_s036",
+    "song_frames": [
+      2928,
+      2958
+    ],
+    "source_frames": [
+      12,
+      42
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "landing_retry_s037",
+    "song_frames": [
+      2958,
+      3027
+    ],
+    "source_frames": [
+      0,
+      69
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "69"
+    }
+  },
+  {
+    "id": "landing_tail_s038",
+    "song_frames": [
+      3027,
+      3100
+    ],
+    "source_frames": [
+      111,
+      184
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "spring_wide_insert",
+    "song_frames": [
+      3100,
+      3165
+    ],
+    "source_frames": [
+      112,
+      177
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "spring_close_s040",
+    "song_frames": [
+      3165,
+      3229
+    ],
+    "source_frames": [
+      0,
+      64
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "s041",
+    "song_frames": [
+      3229,
+      3300
+    ],
+    "source_frames": [
+      0,
+      71
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "s042",
+    "song_frames": [
+      3300,
+      3376
+    ],
+    "source_frames": [
+      66,
+      142
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "swimming_overhead_early",
+    "song_frames": [
+      3376,
+      3438
+    ],
+    "source_frames": [
+      54,
+      116
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "116"
+    }
+  },
+  {
+    "id": "s044",
+    "song_frames": [
+      3438,
+      3505
+    ],
+    "source_frames": [
+      0,
+      67
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "67"
+    }
+  },
+  {
+    "id": "s045",
+    "song_frames": [
+      3505,
+      3574
+    ],
+    "source_frames": [
+      0,
+      69
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "137"
+    }
+  },
+  {
+    "id": "s046",
+    "song_frames": [
+      3574,
+      3642
+    ],
+    "source_frames": [
+      69,
+      137
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "137"
+    }
+  },
+  {
+    "id": "s047",
+    "song_frames": [
+      3642,
+      3710
+    ],
+    "source_frames": [
+      0,
+      68
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "68"
+    }
+  },
+  {
+    "id": "s048",
+    "song_frames": [
+      3710,
+      3752
+    ],
+    "source_frames": [
+      0,
+      42
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "spring_falls_heaven",
+    "song_frames": [
+      3752,
+      3830
+    ],
+    "source_frames": [
+      0,
+      78
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "underwater_senses",
+    "song_frames": [
+      3830,
+      3897
+    ],
+    "source_frames": [
+      0,
+      67
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "chorus_plunge_continuous",
+    "song_frames": [
+      3897,
+      4030
+    ],
+    "source_frames": [
+      0,
+      133
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "turn_phrase",
+    "song_frames": [
+      4030,
+      4073
+    ],
+    "source_frames": [
+      149,
+      192
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "follow_phrase",
+    "song_frames": [
+      4073,
+      4120
+    ],
+    "source_frames": [
+      72,
+      119
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "192"
+    }
+  },
+  {
+    "id": "o01",
+    "song_frames": [
+      4120,
+      4177
+    ],
+    "source_frames": [
+      0,
+      57
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "57"
+    }
+  },
+  {
+    "id": "outro_lead_1",
+    "song_frames": [
+      4177,
+      4232
+    ],
+    "source_frames": [
+      12,
+      67
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "outro_lead_2",
+    "song_frames": [
+      4232,
+      4262
+    ],
+    "source_frames": [
+      67,
+      97
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "outro_lead_3",
+    "song_frames": [
+      4262,
+      4331
+    ],
+    "source_frames": [
+      97,
+      166
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "outro_lead_4",
+    "song_frames": [
+      4331,
+      4362
+    ],
+    "source_frames": [
+      11,
+      42
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "191"
+    }
+  },
+  {
+    "id": "outro_review_1",
+    "song_frames": [
+      4362,
+      4400
+    ],
+    "source_frames": [
+      0,
+      38
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  },
+  {
+    "id": "outro_review_2",
+    "song_frames": [
+      4400,
+      4431
+    ],
+    "source_frames": [
+      38,
+      69
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  },
+  {
+    "id": "outro_review_3",
+    "song_frames": [
+      4431,
+      4449
+    ],
+    "source_frames": [
+      69,
+      87
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  },
+  {
+    "id": "outro_review_4",
+    "song_frames": [
+      4449,
+      4516
+    ],
+    "source_frames": [
+      87,
+      154
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  },
+  {
+    "id": "outro_review_5",
+    "song_frames": [
+      4516,
+      4538
+    ],
+    "source_frames": [
+      154,
+      176
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  },
+  {
+    "id": "outro_review_6",
+    "song_frames": [
+      4538,
+      4574
+    ],
+    "source_frames": [
+      176,
+      212
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  },
+  {
+    "id": "outro_review_7",
+    "song_frames": [
+      4574,
+      4622
+    ],
+    "source_frames": [
+      212,
+      260
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  },
+  {
+    "id": "outro_review_8",
+    "song_frames": [
+      4622,
+      4644
+    ],
+    "source_frames": [
+      260,
+      282
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  },
+  {
+    "id": "outro_review_9",
+    "song_frames": [
+      4644,
+      4671
+    ],
+    "source_frames": [
+      282,
+      309
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  },
+  {
+    "id": "outro_review_10",
+    "song_frames": [
+      4671,
+      4710
+    ],
+    "source_frames": [
+      309,
+      348
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  },
+  {
+    "id": "outro_review_11",
+    "song_frames": [
+      4710,
+      4782
+    ],
+    "source_frames": [
+      348,
+      420
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  },
+  {
+    "id": "outro_review_12",
+    "song_frames": [
+      4782,
+      4854
+    ],
+    "source_frames": [
+      420,
+      492
+    ],
+    "coverage_ok": true,
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "492"
+    }
+  }
+]

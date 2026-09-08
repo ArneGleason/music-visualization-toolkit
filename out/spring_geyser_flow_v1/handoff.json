@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "test_id": "spring_geyser_flow_v1",
+  "project_root": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation",
+  "status": "claude_done_ready_for_codex_verification",
+  "task": "One Flow-only geyser surge/pressure-decay/falling-spray take for Whatever falls from heaven. No Kling.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "stop_if_unavailable_or_cost_exceeds_expected": true,
+    "cost_note": "Historical setting/cost. Verify current UI. No purchase or silent model change."
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "out/spring_geyser_flow_v1/first_frame.png",
+      "sha256": "2d306b956cf8f0cc1e77ffbf0e7b1f4a1f1d644753c17c1300ed2974b63c43a9"
+    },
+    "prompt": {
+      "file": "out/spring_geyser_flow_v1/flow_prompt.txt",
+      "sha256": "f34fce4add1ab23323636a71c63caaa66c0ae9d47675edfcafc244ae7fe2da29"
+    },
+    "lock": {
+      "file": "out/spring_geyser_flow_v1/style_lock_v2.txt",
+      "sha256": "6db3e45d5777cb22ae1ee7da18b8bde8498caaffb8d96e8536f3414dea260496"
+    }
+  },
+  "input_guard": "Use this first_frame.png as sole START frame. No END frame, no audio input. Do not use the old arched-hose still from springs_splash_review_v1. Prompt verbatim including lock.",
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 3752,
+    "song_origin_seconds": 156.33333333333334,
+    "additional_audio_offset_seconds": 0,
+    "note": "Editorial source clock, no lip sync. Mid-eruption at source0, not eruption starting from a calm pool."
+  },
+  "cut": {
+    "shot_id": "spring_falls_heaven",
+    "song_frames": [
+      3752,
+      3830
+    ],
+    "source_frames_at_24fps": [
+      0,
+      78
+    ],
+    "duration_seconds": 3.25,
+    "lead_handle_frames": 0,
+    "exit_handle_frames_if_192_delivered": 114,
+    "speed": 1
+  },
+  "lyric_targets": [
+    {
+      "word": "Whatever",
+      "song_frame": 3752,
+      "source_seconds": 0
+    },
+    {
+      "word": "falls",
+      "song_frame": 3761,
+      "source_seconds": 0.375
+    },
+    {
+      "word": "from",
+      "song_frame": 3791,
+      "source_seconds": 1.625
+    },
+    {
+      "word": "heaven",
+      "song_frame": 3807,
+      "source_seconds": 2.2916666666666665
+    }
+  ],
+  "timing_guard": "Targets guide the action, not guaranteed frame-accurate generated events. Do not retime/trim to force a match. Report actual pressure-decay and splash times for Codex review. Useful fall/splash must be in first3.25s, not only at8s.",
+  "quality_gate": [
+    "Confirm tall vertical water exits top of frame, not small arched hose. Keep low framing and visible ground vent.",
+    "Inspect source0,0.5,1,2,3.25s and tail: pressure drops but previously airborne spray continues to fall and splash.",
+    "Liquid detail, stable geography, no smoke/explosion, no disappearing water or rigid water arch.",
+    "Save result even if imperfect; minor timing deviations are review notes, not authorization to retry. Report gross failures separately."
+  ],
+  "output": {
+    "base": "out/spring_geyser_flow_v1/base.mp4",
+    "receipt": "out/spring_geyser_flow_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "at_90_percent_seconds": 10,
+    "no_progressive_backoff": true,
+    "tool_time_counts": true,
+    "respect_rate_limits": true
+  },
+  "assembly_guard": "Codex handles conforming, editorial review and audio. Provisional preview snapshot out/springs_splash_review_v1/shotlist.json: replace only static spring3752..3830. Keep underwater footage on3830..3897 and preserve all prior accepted FX including Bends your mind and opening aerial. Do not change assembly, lyrics, master, registers or prior media.",
+  "completion": "Download original untouched and save byte-identical base.mp4. Write RECEIPT.md with media ID, actual settings/credits, paths, SHA256, native fps/frame count/dimensions/duration, progress and visual QA including action timings. Add claude_result and flip status to claude_done_ready_for_codex_verification, or explicit blocked status. No retry, commit, purchase or owner-acceptance claim.",
+  "claude_result": {
+    "completed_utc": "2026-09-07T13:00:00Z",
+    "receipt": "out/spring_geyser_flow_v1/RECEIPT.md",
+    "input_hashes_ok": true,
+    "flow": {
+      "media_id": "bef34bee-1e3b-4c6c-9dca-838a6a21f8e5",
+      "submitted_utc": "2026-09-07T12:46:55Z",
+      "ready_utc": "2026-09-07T12:48:25Z",
+      "downloaded_utc": "2026-09-07T12:48:56Z",
+      "progress_log": [
+        "12:47:25 21%",
+        "12:47:45 38%",
+        "12:48:05 55%",
+        "12:48:25 rendered"
+      ],
+      "settings": "Veo 3.1 Quality, Frames, 16:9, 720p, 8s, x1",
+      "credits": 100,
+      "start_thumbnail_id": "36d493a9",
+      "end_frame_used": false,
+      "first_frame_diff": 1.4,
+      "watermark": "none",
+      "flow_high_demand_banner": true
+    },
+    "original": {
+      "file": "out/spring_geyser_flow_v1/original_bef34bee-1e3b-4c6c-9dca-838a6a21f8e5.mp4",
+      "sha256": "e62d30cef23dee2bb7f8db8ec3cb6f041ed00a623f14888d1292269ea5988a53"
+    },
+    "base": {
+      "file": "out/spring_geyser_flow_v1/base.mp4",
+      "sha256": "e62d30cef23dee2bb7f8db8ec3cb6f041ed00a623f14888d1292269ea5988a53",
+      "fps": 24,
+      "frames": 192,
+      "width": 1280,
+      "height": 720,
+      "video_seconds": 8.0,
+      "stream_start": 0.0
+    },
+    "camera": "locked low at water level; summit never in frame",
+    "action_timing_seconds": {
+      "surge": [
+        0.0,
+        0.9
+      ],
+      "solid_mass_phase": [
+        1.0,
+        2.2
+      ],
+      "collapse": 2.2,
+      "splash_wall_and_pool_churn": [
+        2.3,
+        3.3
+      ],
+      "pool_motion_peak": [
+        2.8,
+        3.3
+      ],
+      "steam_veil": [
+        3.3,
+        4.8
+      ],
+      "settling": [
+        3.3,
+        8.0
+      ]
+    },
+    "falling_water_readable_within_3.25s": true,
+    "gross_failures": [
+      "small striped planet grows into a giant near sphere behind the geyser from ~1.9 s and stays to the end (inside visible window)"
+    ],
+    "defects": [
+      "column becomes a dense solid-looking mass 1.0-2.2 s and drops as one body",
+      "pressure decay is an abrupt collapse at ~2.2 s, not a gradual break-up",
+      "steam/mist veils the vent area 3.3-4.8 s"
+    ],
+    "quality_gate": {
+      "tall_column_low_framing_vent": "pass",
+      "pressure_drop_with_falling_splash": "pass (blob collapse)",
+      "stable_geography_liquid_detail": "FAIL (planet growth; solid-mass phase)",
+      "saved_no_retry": true
+    },
+    "owner_decision_needed": "use the splash beat with the planet masked/avoided, or authorize a regeneration",
+    "sheets": [
+      "contact_every6.jpg",
+      "frames_0-3.3s_every4.jpg",
+      "keyframes_0_12_24_48_78_191.jpg",
+      "pool_splash_every8.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no audio",
+      "no retry",
+      "no assembly",
+      "no production edits",
+      "no commit",
+      "no purchase",
+      "no owner approval claimed"
+    ]
+  }
+}

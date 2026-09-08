@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "test_id": "receiver_reply_arrival_v1",
+  "project_root": "C:/Users/arneg/OneDrive/Documents/ChatGPT/music-visualization-toolkit-video-generation",
+  "status": "codex_verified_ready_for_owner_review",
+  "task": "One clean Flow receiver plate for the returning reply. No Kling, lip sync, or baked musical effects.",
+  "authorization": {
+    "max_flow_submissions": 1,
+    "max_kling_submissions": 0,
+    "automatic_retries": false,
+    "production_edit_changes": false
+  },
+  "generation": {
+    "flow": {
+      "model": "Veo 3.1 Quality",
+      "mode": "Frames",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration_seconds": 8,
+      "outputs": 1,
+      "expected_credits": 100
+    },
+    "stop_if_model_unavailable_or_cost_exceeds_expected": true
+  },
+  "inputs": {
+    "first_frame": {
+      "file": "codex/out/receiver_dial_macro_b.jpg",
+      "sha256": "0C6BAF05F9CBC7FC027D26F54BAF1CB390E58075A5397BA8D7C56B6D413251B6"
+    },
+    "prompt": {
+      "file": "out/receiver_reply_arrival_v1/flow_prompt.txt"
+    },
+    "lock": {
+      "file": "out/astronaut_reply_v1/style_lock_v2.txt",
+      "sha256": "6DB3E45D5777CB22AE1EE7DA18B8BDE8498CAAFFB8D96E8536F3414DEA260496"
+    }
+  },
+  "clock": {
+    "timeline_fps": 24,
+    "indexing": "zero-based end-exclusive",
+    "song_origin_frame": 1070,
+    "requested_take_frames": 192,
+    "requested_take_seconds": 8,
+    "no_guide_upload": true
+  },
+  "proposed_cut": {
+    "song_frames": [
+      1082,
+      1201
+    ],
+    "source_frames_after_timestamp_conform": [
+      12,
+      131
+    ],
+    "duration_frames": 119,
+    "lead_handle_frames": 12,
+    "requested_exit_handle_frames": 61,
+    "approval": "timing proposal for next review, production shotlist unchanged"
+  },
+  "phrases": [
+    {
+      "text": "Don't clean it up first.",
+      "song_frames": [
+        1090,
+        1137
+      ],
+      "source_frames": [
+        20,
+        67
+      ]
+    },
+    {
+      "text": "I'll work on it now.",
+      "song_frames": [
+        1137,
+        1201
+      ],
+      "source_frames": [
+        67,
+        131
+      ]
+    }
+  ],
+  "output": {
+    "base": "out/receiver_reply_arrival_v1/base.mp4",
+    "receipt": "out/receiver_reply_arrival_v1/RECEIPT.md",
+    "preserve_original_download": true,
+    "do_not_trim": true,
+    "do_not_retime": true
+  },
+  "polling": {
+    "applies_to": [
+      "Flow",
+      "Kling"
+    ],
+    "first_check_seconds": 30,
+    "default_interval_seconds": 20,
+    "near_completion_threshold_percent": 90,
+    "near_completion_interval_seconds": 10,
+    "maximum_routine_interval_seconds": 30,
+    "progress_estimate": "With increasing percent, estimate remaining=(100-current)/(percent gain/elapsed seconds). Next check=max(10,min(20,0.5*estimated remaining)). Percent is approximate; default20 if unusable.",
+    "no_exponential_backoff": true,
+    "no_repeated_page_refresh": true,
+    "exceptions": "Honor explicit rate limits and retry-after. Tool latency counts as waiting. No overlapping checks. No resubmission for unchanged status.",
+    "stalled_job": "At15 minutes pending report status to owner, keep20-30s checks if tools allow; explicit service errors require stopping and reporting, never automatic retry."
+  },
+  "codex_post": {
+    "rosettes": "Carry the approved cyan/amber duet across cut; match outgoing motion and phase, no second birth animation. Arrive in peripheral space and settle into loose orbits near the receiver. No hand sorting or tidy puzzle resolution.",
+    "receiver": "Fresh vocal-envelope analysis at song1090..1201; same +0.178348 stem placement applied once. Re-track new plate; never reuse old homographies or baked response from Tell me what you got.",
+    "assembly": "Shared source resolver and timestamp conform. Master audio and lyrics once. Review preceding astronaut plus this shot before promotion."
+  },
+  "coverage_guard": "Report measured native timestamps, fps, frame count and actual usable range. Must cover source131/24 seconds. Do not infer handles from requested duration.",
+  "continuity_guard": "Use only the approved B still as first frame, no end frame and no extracted video frame. Do not widen or invent observatory interior. Matching device insert implies reply connection, not a proven spatial camera match.",
+  "claude_result": {
+    "completed_utc": "2026-09-06T13:49:00Z",
+    "receipt": "out/receiver_reply_arrival_v1/RECEIPT.md",
+    "base": {
+      "file": "out/receiver_reply_arrival_v1/base.mp4",
+      "sha256": "2225B920876CB65BF0B63EB2912B5AF862320494F2A8D34B4995D39A0AC6FACC",
+      "fps": 24,
+      "frames": 192,
+      "video_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "flow_media_id": "0b449559-82fd-432f-8ed1-489995e58d06",
+      "flow_submitted_utc": "2026-09-06T13:43:09Z",
+      "flow_ready_utc": "2026-09-06T13:44:26Z",
+      "flow_downloaded_utc": "2026-09-06T13:45:26Z",
+      "progress_log": [
+        "13:43:19 5%",
+        "13:43:50 30%",
+        "13:44:08 46%",
+        "13:44:26 done"
+      ],
+      "credits": 100,
+      "end_frame_used": false,
+      "first_frame_diff_vs_still": 0.9,
+      "watermark": "none"
+    },
+    "usable_interval": [
+      0,
+      192
+    ],
+    "proposed_source_interval_clean": true,
+    "exit_handle_frames_real": 61,
+    "camera": "steady symmetrical push-in, no events; ~15-20% tighter by 8 s (requested a few percent)",
+    "content_check": "receiver/background stable; no people, hands, props, rosettes, lights, flashes, cuts or freezes; meters steady",
+    "sheets": [
+      "contact_every6.jpg",
+      "contact_5_keyframes_full.jpg"
+    ],
+    "not_done": [
+      "no Kling",
+      "no guide upload",
+      "no retry",
+      "no assembly",
+      "no cue/shotlist edits",
+      "no later shots",
+      "no commit",
+      "no owner approval claimed"
+    ]
+  },
+  "codex_result": {
+    "hash_verified": true,
+    "native_fps": 24,
+    "frames": 192,
+    "source_used": [
+      12,
+      131
+    ],
+    "preview": "out/receiver_reply_arrival_review/preview.mp4",
+    "preview_song_frames": [
+      971,
+      1201
+    ],
+    "clean": "out/receiver_reply_arrival_review/clean.mp4",
+    "owner_approval": "pending",
+    "max_median_tracking_error_px": 0.7188911486257943,
+    "note": "Push stronger than requested. Fresh vocal-meter response and carried duet; production unchanged."
+  }
+}

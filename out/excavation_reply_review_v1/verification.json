@@ -1,0 +1,32 @@
+{
+  "status": "verified_candidate_with_performance_concerns",
+  "sha256": "d7c268d3f466277922651125dbe953d3b66897d4193d87e3d8f6dfd0d63e2ca0",
+  "probe": {
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "24/1",
+    "start_time": "0.000000",
+    "duration": "8.000000",
+    "nb_frames": "192"
+  },
+  "preview_song_frames": [
+    2484,
+    2658
+  ],
+  "reply_song_frames": [
+    2564,
+    2658
+  ],
+  "source_frames": [
+    12,
+    106
+  ],
+  "source_origin_frame": 2552,
+  "lip_sync_applied": false,
+  "production_merged": false,
+  "concerns": [
+    "broad wince and grin rather than small ironic gesture",
+    "long unarticulated grin before sincere question",
+    "generated singing timing not corrected"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "preview_song_frames": [
+    3505,
+    3897
+  ],
+  "spring_video_song_frames": [
+    3752,
+    3830
+  ],
+  "spring_frames": 78,
+  "underwater_song_frames": [
+    3830,
+    3897
+  ],
+  "underwater_source_frames": [
+    0,
+    67
+  ],
+  "status": "concept and timing review pending",
+  "spring_motion": "Flow source0..78 at native24fps; no timing change",
+  "new_Flow_submissions": 0,
+  "hashes_verified": true,
+  "source_frames": 192,
+  "source_used": [
+    0,
+    78
+  ],
+  "unused_tail_frames": 114,
+  "generated_audio_excluded": true,
+  "known_deviations": [
+    "column becomes a dense solid-looking mass 1.0-2.2 s and drops as one body",
+    "pressure decay is an abrupt collapse at ~2.2 s, not a gradual break-up",
+    "steam/mist veils the vent area 3.3-4.8 s",
+    "small striped planet grows into a giant near sphere behind the geyser from ~1.9 s and stays to the end (inside visible window)"
+  ]
+}

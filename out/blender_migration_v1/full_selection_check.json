@@ -1,0 +1,772 @@
+[
+  {
+    "id": "s001",
+    "review_number": 1,
+    "song_frames": [
+      0,
+      86
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\opening\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "s002",
+    "review_number": 2,
+    "song_frames": [
+      86,
+      155
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\scope\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "opening_before_need",
+    "review_number": 3,
+    "song_frames": [
+      155,
+      205
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_a6ed5ea7904f880cb501.mp4",
+    "source_in_frame": 12,
+    "issues": []
+  },
+  {
+    "id": "opening_need_landscape",
+    "review_number": 4,
+    "song_frames": [
+      205,
+      282
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\aerial\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "opening_after_need",
+    "review_number": 5,
+    "song_frames": [
+      282,
+      334
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_a6ed5ea7904f880cb501.mp4",
+    "source_in_frame": 139,
+    "issues": []
+  },
+  {
+    "id": "s004",
+    "review_number": 6,
+    "song_frames": [
+      334,
+      500
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\opening_specimen_v2\\base.mp4",
+    "source_in_frame": 12,
+    "issues": []
+  },
+  {
+    "id": "pieces_face_in",
+    "review_number": 7,
+    "song_frames": [
+      500,
+      562
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_d80f8bf64955ecec2fcf.mp4",
+    "source_in_frame": 12,
+    "issues": []
+  },
+  {
+    "id": "pieces_insert",
+    "review_number": 8,
+    "song_frames": [
+      562,
+      610
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\pieces\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "pieces_face_return",
+    "review_number": 9,
+    "song_frames": [
+      610,
+      670
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\assembly_cfr\\synced_d80f8bf64955ecec2fcf.mp4",
+    "source_in_frame": 122,
+    "issues": []
+  },
+  {
+    "id": "specimen_mismatch",
+    "review_number": 10,
+    "song_frames": [
+      670,
+      719
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\specimen_mismatch_v2\\base.mp4",
+    "source_in_frame": 54,
+    "issues": []
+  },
+  {
+    "id": "s009",
+    "review_number": 11,
+    "song_frames": [
+      719,
+      805
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\probe\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "s010",
+    "review_number": 12,
+    "song_frames": [
+      805,
+      856
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\receiver\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "s011",
+    "review_number": 13,
+    "song_frames": [
+      856,
+      911
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\probe\\native_clean.mp4",
+    "source_in_frame": 137,
+    "issues": []
+  },
+  {
+    "id": "s012",
+    "review_number": 14,
+    "song_frames": [
+      911,
+      1082
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\message\\performance_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "receiver_reply_arrival",
+    "review_number": 15,
+    "song_frames": [
+      1082,
+      1201
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\message\\native_clean.mp4",
+    "source_in_frame": 111,
+    "issues": []
+  },
+  {
+    "id": "screen_reply",
+    "review_number": 16,
+    "song_frames": [
+      1201,
+      1304
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\screen\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "garden_entry",
+    "review_number": 17,
+    "song_frames": [
+      1304,
+      1412
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\forest_threshold_v6.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "garden_walk",
+    "review_number": 18,
+    "song_frames": [
+      1412,
+      1514
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\walk\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "garden_moth",
+    "review_number": 19,
+    "song_frames": [
+      1514,
+      1569
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\moth\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "garden_waking_motion_audition",
+    "review_number": 20,
+    "song_frames": [
+      1569,
+      1650
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\waking\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "garden_walk_return_review",
+    "review_number": 21,
+    "song_frames": [
+      1650,
+      1710
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\guide\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "garden_birds_fx_audition",
+    "review_number": 22,
+    "song_frames": [
+      1710,
+      1786
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\birds\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "garden_begin_bloom_audition",
+    "review_number": 23,
+    "song_frames": [
+      1786,
+      1854
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\bloom\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "exchange_specimens_audition",
+    "review_number": 24,
+    "song_frames": [
+      1854,
+      2016
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\specimen_table_macro_v6.mp4",
+    "source_in_frame": 12,
+    "issues": []
+  },
+  {
+    "id": "exchange_listener_audition",
+    "review_number": 25,
+    "song_frames": [
+      2016,
+      2122
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\specimen\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "world_pullback_timing_test",
+    "review_number": 26,
+    "song_frames": [
+      2122,
+      2233
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\world\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "close_reply_timing_test",
+    "review_number": 27,
+    "song_frames": [
+      2233,
+      2271
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\next_mars_sequence_v1\\close_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "mars_colony_reply_test",
+    "review_number": 28,
+    "song_frames": [
+      2271,
+      2399
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\orb\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "shop_reply_timing_test",
+    "review_number": 29,
+    "song_frames": [
+      2399,
+      2484
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\shop_full\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "archaeology_discovery_review",
+    "review_number": 30,
+    "song_frames": [
+      2484,
+      2564
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\archaeology_discovery_v1\\base.mp4",
+    "source_in_frame": 12,
+    "issues": []
+  },
+  {
+    "id": "excavation_reply_performance_review",
+    "review_number": 31,
+    "song_frames": [
+      2564,
+      2647
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\excavation_reply_synced_v2\\conformed.mp4",
+    "source_in_frame": 12,
+    "issues": []
+  },
+  {
+    "id": "meant_artifact_insert",
+    "review_number": 32,
+    "song_frames": [
+      2647,
+      2658
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\meant\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "meaning_reply_test",
+    "review_number": 33,
+    "song_frames": [
+      2658,
+      2812
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\meaning\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "meaning_listener_test",
+    "review_number": 34,
+    "song_frames": [
+      2812,
+      2881
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\meaning\\native_clean.mp4",
+    "source_in_frame": 154,
+    "issues": []
+  },
+  {
+    "id": "s035",
+    "review_number": 35,
+    "song_frames": [
+      2881,
+      2928
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\orbital_continuity_v1\\take2\\base.mp4",
+    "source_in_frame": 12,
+    "issues": []
+  },
+  {
+    "id": "landing_retry_s036",
+    "review_number": 36,
+    "song_frames": [
+      2928,
+      2958
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\message_into_rockets_v3\\conformed.mp4",
+    "source_in_frame": 12,
+    "issues": []
+  },
+  {
+    "id": "landing_retry_s037",
+    "review_number": 37,
+    "song_frames": [
+      2958,
+      3027
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\pressure\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "landing_tail_s038",
+    "review_number": 38,
+    "song_frames": [
+      3027,
+      3100
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\message_into_rockets_v3\\conformed.mp4",
+    "source_in_frame": 111,
+    "issues": []
+  },
+  {
+    "id": "spring_wide_insert",
+    "review_number": 39,
+    "song_frames": [
+      3100,
+      3165
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\rain_to_canal_v6.mp4",
+    "source_in_frame": 112,
+    "issues": []
+  },
+  {
+    "id": "spring_close_s040",
+    "review_number": 40,
+    "song_frames": [
+      3165,
+      3229
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\rain_to_canal_v6.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "s041",
+    "review_number": 41,
+    "song_frames": [
+      3229,
+      3300
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\basin_moon_descent_v6.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "s042",
+    "review_number": 42,
+    "song_frames": [
+      3300,
+      3376
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\swimmer_cutaway_v2\\synced_24.mp4",
+    "source_in_frame": 66,
+    "issues": []
+  },
+  {
+    "id": "swimming_overhead_early",
+    "review_number": 43,
+    "song_frames": [
+      3376,
+      3438
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim043\\native_clean.mp4",
+    "source_in_frame": 54,
+    "issues": []
+  },
+  {
+    "id": "s044",
+    "review_number": 44,
+    "song_frames": [
+      3438,
+      3505
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim044\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "s045",
+    "review_number": 45,
+    "song_frames": [
+      3505,
+      3574
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\bends\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "s046",
+    "review_number": 46,
+    "song_frames": [
+      3574,
+      3642
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\bends\\native_clean.mp4",
+    "source_in_frame": 69,
+    "issues": []
+  },
+  {
+    "id": "s047",
+    "review_number": 47,
+    "song_frames": [
+      3642,
+      3710
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\swim047\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "s048",
+    "review_number": 48,
+    "song_frames": [
+      3710,
+      3752
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\drumwall_basin_v6.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "spring_falls_heaven",
+    "review_number": 49,
+    "song_frames": [
+      3752,
+      3830
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\spring_geyser_flow_v1\\base.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "underwater_senses",
+    "review_number": 50,
+    "song_frames": [
+      3830,
+      3897
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\canal_current_macro_v6.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "chorus_plunge_continuous",
+    "review_number": 51,
+    "song_frames": [
+      3897,
+      4030
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\chorus_plunge_v6.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "turn_phrase",
+    "review_number": 52,
+    "song_frames": [
+      4030,
+      4073
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\swirl_springs_flow_v1\\base.mp4",
+    "source_in_frame": 149,
+    "issues": []
+  },
+  {
+    "id": "follow_phrase",
+    "review_number": 53,
+    "song_frames": [
+      4073,
+      4120
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\clips\\raw\\canal_current_macro_v6.mp4",
+    "source_in_frame": 72,
+    "issues": []
+  },
+  {
+    "id": "o01",
+    "review_number": 54,
+    "song_frames": [
+      4120,
+      4177
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\tunnel\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "outro_lead_1",
+    "review_number": 55,
+    "song_frames": [
+      4177,
+      4232
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\tv\\native_clean.mp4",
+    "source_in_frame": 12,
+    "issues": []
+  },
+  {
+    "id": "outro_lead_2",
+    "review_number": 56,
+    "song_frames": [
+      4232,
+      4262
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\afterglow_b1\\native_clean.mp4",
+    "source_in_frame": 67,
+    "issues": []
+  },
+  {
+    "id": "outro_lead_3",
+    "review_number": 57,
+    "song_frames": [
+      4262,
+      4331
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\tv\\native_clean.mp4",
+    "source_in_frame": 97,
+    "issues": []
+  },
+  {
+    "id": "outro_lead_4",
+    "review_number": 58,
+    "song_frames": [
+      4331,
+      4362
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\afterglow_b2\\native_clean.mp4",
+    "source_in_frame": 11,
+    "issues": []
+  },
+  {
+    "id": "outro_review_1",
+    "review_number": 59,
+    "song_frames": [
+      4362,
+      4400
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\tv_late\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "outro_review_2",
+    "review_number": 60,
+    "song_frames": [
+      4400,
+      4431
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\room_late\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "outro_review_3",
+    "review_number": 61,
+    "song_frames": [
+      4431,
+      4449
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\tv_late\\native_clean.mp4",
+    "source_in_frame": 38,
+    "issues": []
+  },
+  {
+    "id": "outro_review_4",
+    "review_number": 62,
+    "song_frames": [
+      4449,
+      4516
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\room_late\\native_clean.mp4",
+    "source_in_frame": 31,
+    "issues": []
+  },
+  {
+    "id": "outro_review_5",
+    "review_number": 63,
+    "song_frames": [
+      4516,
+      4538
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\tv_late\\native_clean.mp4",
+    "source_in_frame": 56,
+    "issues": []
+  },
+  {
+    "id": "outro_review_6",
+    "review_number": 64,
+    "song_frames": [
+      4538,
+      4574
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\close_cloud\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "outro_review_7",
+    "review_number": 65,
+    "song_frames": [
+      4574,
+      4622
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\close_cloud\\native_clean.mp4",
+    "source_in_frame": 36,
+    "issues": []
+  },
+  {
+    "id": "outro_review_8",
+    "review_number": 66,
+    "song_frames": [
+      4622,
+      4644
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\return_cloud\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "outro_review_9",
+    "review_number": 67,
+    "song_frames": [
+      4644,
+      4671
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\tv_late\\native_clean.mp4",
+    "source_in_frame": 78,
+    "issues": []
+  },
+  {
+    "id": "outro_review_10",
+    "review_number": 68,
+    "song_frames": [
+      4671,
+      4710
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\return_cloud\\native_clean.mp4",
+    "source_in_frame": 49,
+    "issues": []
+  },
+  {
+    "id": "outro_review_11",
+    "review_number": 69,
+    "song_frames": [
+      4710,
+      4782
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\night\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  },
+  {
+    "id": "outro_review_12",
+    "review_number": 70,
+    "song_frames": [
+      4782,
+      4854
+    ],
+    "file": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit-video-generation\\out\\blender_migration_v1\\titles\\native_clean.mp4",
+    "source_in_frame": 0,
+    "issues": []
+  }
+]

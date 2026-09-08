@@ -1,0 +1,29 @@
+{
+  "clean.mp4": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "191"
+      }
+    ]
+  },
+  "preview.mp4": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "154"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "301"
+      }
+    ]
+  }
+}
