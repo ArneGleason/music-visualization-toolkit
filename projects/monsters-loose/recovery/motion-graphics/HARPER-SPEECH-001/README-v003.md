@@ -1,0 +1,1 @@
+v003 reverses speech-tail bend: tip leaves speaker approximately horizontally then curls upward into the balloon. Continuous outline retained. All v002 timing, word reveals and settling motion retained. Build-v003.py and compose-v003.py reproduce output.

@@ -1,0 +1,5 @@
+Base motion generated at 1080p, six seconds, 48 credits. Sampled at one-second intervals: Harper makes a broad but coherent presentation sweep and settles, composition/sign remain stable. Monster crosses behind cage but generator introduced a discernible eye and tooth line around seconds 2-3 despite prompt exclusions. Flag for user review or later shadow masking. Lip-sync pass pending; base motion is not vocal-synced. Standard assumed pre-roll: 12 frames at24fps; see timing.json for exact master/stem mapping.
+
+Lip-sync completed; 10 displayed credits. Raw output1904x1072 at30fps,179frames.24fps edit source converted at same speed. Returned vocal checked against input with PCM cross-correlation: zero offset. Full-mix preview uses original master slice from20.458333s. Full decode passed. Creative lip-sync review remains with user.
+
+User review: lip-sync not perceptually convincing, except perhaps final made. Monster appears to protrude from cage then retreat; request retry. Monster appearance itself acceptable. Potential future static patch/mask or subtle Blender rat silhouette/speech bubble discussed, not yet implemented.

@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-003-arctic-procurement-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous five-second graphic-novel shot, animate the supplied Arctic capture image. Preserve exact three MUCF team members, winter uniforms, patches, capture net, single horned shaggy white beast, transport sled cage and glacial ravine. Begin with living motion already underway. Camera stays locked at the same low angle, no zoom or cuts.\nThe beast makes one heavy restrained forward weight shift, pushing its broad forepaw into powder and raising its head slightly so its eye and horn read through drifting snow. It remains low, partly hidden by the foreground snow ridge and held securely under the same coherent net. No leap, charging escape, full stand or violent thrashing. In response the foreground handler leans back subtly and braces both boots, both hands firmly on the SAME taut guide rope. The right handler maintains the opposite net edge and takes one short balancing step. The rear handler steadies the transport sled cage. Capture lines stay physically attached to net and hands; no multiplying ropes, loose snakes, dissolving mesh or extra limbs. The beast's movement tensions the net naturally; keep net draped over its shoulders, face free. Over the last two seconds everyone settles under tension but continues small living movement. Fine windblown spindrift travels laterally, small snow displacement around paw, warm equipment lights steady. No large snow cloud hiding the action.\nPreserve rich illustrated ink contours, crosshatching, restrained halftone, icy blue and cream palette and amber accents. No photorealism or glossy CGI. No extra people, creatures, guns, injury, captions, speech bubbles, motion streaks or generated audio. Clear restrained dramatic action, readable in a brief cutaway."
+  ]
+}

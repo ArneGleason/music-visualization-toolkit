@@ -1,0 +1,1 @@
+Retry requested because001 had weak lip sync and monster protruding through cage.002 sampled base frames: much larger singing mouth movement; beast remains dark behind visible mesh. Further lip-sync pass pending. Potential Blender freeze/mask and small weird rat silhouette or explanatory speech bubble saved as optional later ideas, not added in this generation.

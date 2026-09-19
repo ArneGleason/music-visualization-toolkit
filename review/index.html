@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Frame review</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#14181c;color:#e4e8ec;font:15px system-ui}main{max-width:1500px;margin:auto;padding:16px}header{display:flex;gap:18px;align-items:center;margin-bottom:12px}h1{font-size:18px;margin:0}#name{color:#a5b0ba;font-size:13px;overflow-wrap:anywhere}.picture{position:relative;background:#080a0c;aspect-ratio:16/9;max-height:65vh;margin:auto;display:grid;place-items:center}video,img{position:absolute;width:100%;height:100%;object-fit:contain}img{z-index:1}[hidden]{display:none!important}.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:10px 0}button,input,select{font:inherit;color:inherit;background:#242b32;border:1px solid #46515c;border-radius:5px;padding:8px}button{cursor:pointer}button:hover{background:#35424e}button:focus-visible,input:focus-visible{outline:2px solid #72d2c9}#play,#mark{background:#225b57}#scrub{width:100%;accent-color:#74cfc4;padding:0}.counter{font-variant-numeric:tabular-nums;background:#202830;padding:9px 12px;border-radius:4px}#master{font-weight:700;color:#9ce2da}#jump{width:100px}#note{flex:1;min-width:200px}.help,#status{color:#acb8c2;font-size:13px}#status{min-height:20px}#marks{list-style:none;padding:0;margin:10px 0}#marks li{display:flex;gap:12px;align-items:center;padding:7px 0;border-top:1px solid #303840}#marks span{white-space:pre-wrap}#copy{margin-left:auto}
+</style>
+<main>
+<header><h1>Frame review</h1><span id="name"></span></header>
+<div class="picture"><video id="video" src="/media" preload="auto" playsinline></video><img id="still" alt="Paused review frame"></div>
+<div class="bar">
+<button id="back" aria-label="Previous frame">← Frame</button><button id="play">Play</button><button id="next" aria-label="Next frame">Frame →</button>
+<span class="counter" id="master"></span><span class="counter" id="preview"></span><span class="counter" id="time"></span>
+<label>Speed <select id="speed"><option value="0.25">¼×</option><option value="0.5">½×</option><option value="1" selected>1×</option></select></label>
+</div>
+<input id="scrub" aria-label="Frame scrubber" type="range" min="1" step="1" value="1">
+<div class="bar"><label>Master frame <input id="jump" type="number" step="1"></label><button id="go">Go</button><button id="copy">Copy frame reference</button></div>
+<div class="bar"><input id="note" aria-label="Frame note" placeholder="e.g. Cut here — bottom of rope punch"><button id="mark">Mark this frame</button></div>
+<div id="status" role="status"></div>
+<p class="help">Space: play/pause · ← / →: one frame · Shift + ← / →: ten frames · Counters are one-based. Paused pictures use exact decoded frames. Saved marks are shared with Codex.</p>
+<ul id="marks"></ul>
+</main><script type="module" src="/app.js"></script>

@@ -1,0 +1,13 @@
+{
+  "fps": 24,
+  "source_zero_master_frame": 492,
+  "preview_frames": 144,
+  "assumed_pre_roll_frames": 12,
+  "insert_preview_start_frame_zero_based": 60,
+  "insert_preview_end_frame_exclusive": 92,
+  "insert_source_in_frame_zero_based": 18,
+  "insert_source_out_frame_exclusive": 50,
+  "master_insert_start_frame": 552,
+  "master_insert_end_frame_exclusive": 584,
+  "underlying_Harper_continuous": true
+}

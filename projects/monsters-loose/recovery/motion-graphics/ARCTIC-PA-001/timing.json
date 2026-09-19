@@ -1,0 +1,42 @@
+{
+  "fps": 24,
+  "frame_convention": "Master one-based, end exclusive; source zero-based",
+  "master_start_frame": 766,
+  "master_end_frame_exclusive": 874,
+  "timing_basis": "DAWproject animatic-data.json: bar17 beat2 to bar19 beat1, rounded to24fps",
+  "assumed_pre_roll_frames": 0,
+  "assumed_post_roll_frames": 0,
+  "handle_note": "Procedural Blender shot rendered exactly to edit; can extend freely without paid regeneration.",
+  "pa_bubble_ranges_one_based": [
+    [
+      6,
+      36
+    ],
+    [
+      42,
+      71
+    ],
+    [
+      77,
+      108
+    ]
+  ],
+  "reaction_overlay_source_ranges_one_based": [
+    [
+      1,
+      51
+    ],
+    [
+      66,
+      88
+    ]
+  ],
+  "reaction_source_in_frame": 12,
+  "audio": "Original master music only; announcement represented visually, no added synthesized speech",
+  "credits": {
+    "patrol": 56,
+    "reaction": 64,
+    "total": 184,
+    "reaction_retry": 64
+  }
+}

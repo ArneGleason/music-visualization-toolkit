@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-004-harper-tall-gate-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous five-second cinematic upward height reveal from the supplied starting frame. Harper stands at the base of this immense closed steel gate. This gate is over FIFTY FEET TALL, about ten adult human heights. Its upper edge is initially outside the frame; do not reveal its full height immediately.\n0 to 0.5 seconds: subtle breathing and hair motion, Harper steady with a hand resting on her coiled rope. At 0.5 seconds she begins following the vertical steel ribs upward with her eyes. From 0.5 to 1.4 seconds her chin tilts gradually higher and higher, eyebrows lifting in dawning concern. She remains planted at the gate's base, not walking or growing.\nFrom 0.8 to 3.4 seconds the camera smoothly TILTS UP from its position near ground level, following her gaze up the towering steel ribs and immense vertical door panels. Harper naturally sinks toward and below the bottom edge of the composition as the lens looks ever higher; do not keep her face centered. The long converging vertical lines convey monumental scale. By 3.3 seconds reveal the distant heavy TOP CROSSBEAM and uppermost warning lamps high above against the dark sky, a dramatic upward-looking perspective. Finish with this towering upper gate, very slight continuing camera drift through 5 seconds. The reveal must be legible by 3.4 seconds for a short music-video edit.\nThe actual steel structure stays completely rigid and stationary, closed throughout, with consistent ribs and rivets. Only camera rotation and Harper's head/gaze move. No door lifting, sliding, stretching, bending or morphing, no monster visible. Keep her copper curly bob, uniform, gloves, ID and coiled lasso coherent while visible. No moon. Subtle ambient leaf motion and warm lamp glow.\nPreserve rich illustrated ink contours, crosshatching, restrained halftone, warm amber practical lighting and dark teal atmosphere. Maintain reference character identities and coherent anatomy. No photorealism, glossy CGI, captions, speech bubbles, cuts or generated audio."
+  ]
+}

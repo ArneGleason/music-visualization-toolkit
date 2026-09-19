@@ -1,0 +1,22 @@
+{
+  "source": "SCN-001-heli-landing-in-v002.png",
+  "expected_credits_based_on_previous_test": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-001-heli-landing-in-v002.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "Single continuous five-second graphic-novel helicopter landing shot. Most important: BOTH MAIN ROTOR AND TAIL ROTOR ARE ALREADY SPINNING RAPIDLY at operating speed in the starting frame and KEEP SPINNING CONTINUOUSLY for the entire five seconds, during descent, touchdown, and afterward while the door opens. Animate rapid cyclic blade motion with changing swept translucent rotational blur around the hubs, visibly alive over time, not a static painted blur disk. Never freeze blades, slow down, stop, reverse or dissolve the rotor assemblies. Keep the airframe and background sharp and stable while rotating blades remain naturally motion-blurred.\nLocked camera, same three-quarter composition. Nose remains screen-left. First second: tiny smooth forward drift left as helicopter hovers low, then decelerates. Seconds 1-3: gentle nearly vertical descent, level fuselage, both skids softly meet the pad with a slight natural settling. No bounce or sideways slide. Seconds 3-5: remain firmly landed; near-side passenger cabin door opens smoothly ONLY AFTER touchdown. Pilot and all four visitors remain seated inside, nobody exits. BOTH ROTORS CONTINUE AT OPERATING SPEED THROUGH THE LAST FRAME, engine still running; this is not shutdown.\nPreserve identical ivory and forest-green helicopter, ochre stripe, coherent mast/hubs and tail, windows, skids and occupants. Preserve zoo, lab, helipad, swamp, moonlight and amber lamps. Original bold graphic-novel ink, crosshatching and restrained halftone, with natural rotor motion blur integrated into that style. No photorealistic conversion, camera movement, zoom, cuts, duplicated parts, wobbling rotor axis, solid saucer rotor, cartoon speed lines, dust cloud, extra people or aircraft. No dialogue or music."
+  ]
+}

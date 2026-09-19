@@ -1,0 +1,19 @@
+{
+  "fps": 24,
+  "master_start_frame": 1305,
+  "master_end_frame_exclusive": 1507,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "source_in_frame": 12,
+  "source_out_frame_exclusive": 214,
+  "edited_source_length": 227,
+  "actual_unused_tail_frames": 13,
+  "credits_consumed": 80,
+  "retime": {
+    "original_source_start": 164,
+    "original_source_end_exclusive": 206,
+    "speed": 1.5,
+    "motion_blend_frames": 2
+  },
+  "note": "No deleted capture phase. Continuous grasp, transport and submersion; only action portion sped up with slight temporal blend."
+}

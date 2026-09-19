@@ -1,0 +1,27 @@
+{
+  "fps": 24,
+  "requested_duration_seconds": 4,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "intended_master_start_frame": 1041,
+  "intended_master_end_frame_exclusive": 1103,
+  "intended_source_in_frame": 12,
+  "intended_source_out_frame_exclusive": 74,
+  "source_zero_master_time": 42.833333333333336,
+  "actual_source_in_frame": 12,
+  "actual_source_out_frame_exclusive": 74,
+  "note": "Opening lab pitch only, existing scene4 cutaway and return timing retained. Original lyric begins43.1678 before revised gate cut ends43.3333; do not shift master audio.",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_frames": "97"
+      }
+    ]
+  },
+  "actual_available_post_roll_frames": 23
+}

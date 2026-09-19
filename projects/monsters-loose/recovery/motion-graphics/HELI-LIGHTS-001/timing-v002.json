@@ -1,0 +1,28 @@
+{
+  "fps": 24,
+  "new_generation_credits": 0,
+  "effect": "Blender tracked red beacon, double white tail flash, steady dim red port-side light; textured elongated wet-pad reflection overlays in landing shot",
+  "blink_period_frames": 29,
+  "red_peak_phase": 7,
+  "white_peak_phases": [
+    17,
+    20
+  ],
+  "wide": {
+    "source_length": 121,
+    "source_in_frame": 0,
+    "master_start_frame": 1,
+    "master_end_frame_exclusive": 90,
+    "source_zero_master_frame": 1
+  },
+  "landing": {
+    "source_length": 121,
+    "source_in_frame": 4,
+    "master_start_frame": 90,
+    "master_end_frame_exclusive": 207,
+    "source_zero_master_frame": 86
+  },
+  "tracking": "Landing patch tracks per source frame; wide silhouette anchors every12frames interpolated. Coordinates960x540, render1916x1080.",
+  "reflection": "Ground-plane footprints stretched toward camera, anisotropic noise breaks highlights into uneven horizontal ripples, matching emission pulses.",
+  "revision": "v002: brighter cores and broader halos, wider flash pulses on same phase; warm steady nose landing lamp added to approach and reinforced in landing; stronger pad reflections"
+}

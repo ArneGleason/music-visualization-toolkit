@@ -1,0 +1,6 @@
+{
+  "sample_rate": 8000,
+  "returned_audio_lag_samples": 0,
+  "returned_audio_lag_seconds": 0.0,
+  "method": "PCM cross correlation returned vocal vs uploaded source"
+}

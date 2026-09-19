@@ -1,0 +1,24 @@
+{
+  "source": "SCN-001-heli-landing-in-v001.png",
+  "expected_credits_based_on_previous_test": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-001-heli-landing-in-v001.png",
+    "--tailImage",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-001-heli-landed-out-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "Single continuous five-second exterior landing shot connecting the supplied first and last frames. Locked camera at the same three-quarter angle, nose screen-left, tail screen-right. Preserve the exact helicopter identity, scale, proportions, occupants and graphic-novel rendering.\n0-1 seconds: helicopter already hovers just above the helipad, doors closed. A tiny smooth forward drift to screen-left continues its previous approach and gently decelerates. No turn or change of heading.\n1-3 seconds: make a very gentle nearly vertical descent through the last short distance, level fuselage, until both skids softly meet the pad. Subtle settling only, no bounce, sideways slide or abrupt drop. The main and tail rotors rotate naturally throughout the descent; airframe remains solid and stable.\n3-5 seconds: helicopter remains firmly landed. Only AFTER touchdown, the near-side passenger door opens smoothly to the supplied end-frame position. All four visitors remain seated inside and pilot stays in cockpit. End precisely on the supplied landed, open-door composition. No one exits. Rotor continues idling with coherent motion; no sudden disappearance or instant stop.\nKeep landing pad, H marking, edge lights, zoo walls, laboratory, cages, swamp and moon stationary and consistent. Warm cabin light, cool teal moonlight, gentle existing red beacons. Preserve original rich hand-drawn monster graphic-novel style, black ink contours, crosshatching and restrained halftone throughout. No photorealism, glossy CGI, additional people, duplicated helicopter parts, warped rotors, motion lines, cuts, zoom, camera movement, dust cloud, dramatic searchlight, dialogue or music."
+  ]
+}

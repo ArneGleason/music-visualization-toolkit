@@ -1,0 +1,21 @@
+{
+  "expected_credits": 56,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-003-rope-patrol-v003.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "7",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous seven-second shot. Harper walks calmly along the glass Arctic habitat, already in a natural slow patrol stride at the start. Camera tracks gently beside her at matched speed, maintaining medium framing and keeping her face and entire rope coil visible. Her gloved hand rests on and steadies the SAME coiled rope at her hip. Rope remains neatly coiled, not swinging out, not unraveling. Restrained capable expression, occasional natural blink and small scanning glance along her route. She is not speaking or singing. Slow natural body weight shifts, modest arm movement, quiet breathing. No exaggerated acting. Keep observation rail and habitat geometry stable, subtle background parallax only. Motion continues through final half second.\nPreserve the supplied graphic-novel ink contours, crosshatching, halftone, exact Harper identity and olive MUCF uniform, coherent coiled tan belt rope, warm observation walkway, heavy plate-glass windows and cold blue contained Arctic habitat. No photorealism, no cuts, no moon, no captions, no speech bubbles, no extra people, no visible monsters, no new limbs or loose rope strands."
+  ]
+}

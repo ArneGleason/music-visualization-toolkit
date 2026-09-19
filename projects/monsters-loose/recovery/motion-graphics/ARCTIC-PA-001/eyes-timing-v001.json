@@ -1,0 +1,28 @@
+{
+  "fps": 24,
+  "base_take": "KLING-REACTION-002",
+  "master_start_frame": 874,
+  "master_end_frame_exclusive": 1033,
+  "source_in_frame": 12,
+  "source_out_frame_exclusive": 171,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "eye_open_source_frames_one_based": [
+    28,
+    44,
+    60
+  ],
+  "eye_open_master_frames": [
+    889,
+    905,
+    921
+  ],
+  "opening_duration_frames": 13,
+  "approach_scale_range": [
+    1,
+    1.38
+  ],
+  "overlay_length_frames": 192,
+  "new_credits": 0,
+  "announcement_overlay_removed": true
+}

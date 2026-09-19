@@ -1,0 +1,40 @@
+{
+  "fps": 24,
+  "master_start_frame": 1004,
+  "master_end_frame_exclusive": 1033,
+  "source_in_frame": 12,
+  "source_zero_master_frame": 992,
+  "source_length_frames": 72,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "master_onset_seconds": [
+    41.856,
+    42.181,
+    42.506,
+    42.851
+  ],
+  "guitar_onset_seconds": [
+    41.866,
+    42.191,
+    42.511,
+    42.851
+  ],
+  "timing_status": "Provisional later four-hit group from user approximate cue, awaiting listening confirmation",
+  "analysis": "Positive spectral flux in master, crosschecked embedded DAWproject acoustic guitar with0.382816123654544second stem offset; nearest24fps frame, not equal arbitrary shake spacing.",
+  "impact_master_frames": [
+    1006,
+    1013,
+    1021,
+    1029
+  ],
+  "impact_source_frames_one_based": [
+    15,
+    22,
+    30,
+    38
+  ],
+  "actual_source_in_frame": 12,
+  "actual_source_out_frame_exclusive": 41,
+  "actual_available_post_roll_frames": 31,
+  "new_generation_credits": 0
+}

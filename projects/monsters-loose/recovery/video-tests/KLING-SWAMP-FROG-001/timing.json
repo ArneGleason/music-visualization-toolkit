@@ -1,0 +1,19 @@
+{
+  "fps": 24,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "source_in_frame": 12,
+  "source_out_frame_exclusive": 214,
+  "master_start_frame": 1305,
+  "master_end_frame_exclusive": 1507,
+  "generated_original_frames": 241,
+  "edited_source_frames": 227,
+  "actual_unused_tail_frames": 13,
+  "removed_original_source_frames_inclusive": [
+    145,
+    158
+  ],
+  "reason": "Remove upward hop; cut directly from seated frog to submerged frog and dimpled pad.",
+  "master_capture_frame": 1438,
+  "credits_consumed": 80
+}

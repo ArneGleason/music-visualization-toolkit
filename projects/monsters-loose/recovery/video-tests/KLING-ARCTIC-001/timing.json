@@ -1,0 +1,18 @@
+{
+  "clip_id": "KLING-ARCTIC-001",
+  "fps": 24,
+  "requested_duration_seconds": 5,
+  "assumed_pre_roll_frames": 12,
+  "assumed_pre_roll_seconds": 0.5,
+  "minimum_assumed_post_roll_frames": 12,
+  "planned_source_in_frame": 12,
+  "actual_source_in_frame": 18,
+  "actual_source_out_frame_exclusive": 50,
+  "proposed_master_start_frame": 552,
+  "proposed_master_end_frame_exclusive": 584,
+  "note": "Original assumed pre/post-roll12frames retained; selected source18-50 for32frame insert. Underlying Harper continues source60-92, returns92.",
+  "actual_pre_roll_seconds": 0.75,
+  "actual_master_start_frame": 552,
+  "actual_master_end_frame_exclusive": 584,
+  "status": "generated_preview_selected"
+}

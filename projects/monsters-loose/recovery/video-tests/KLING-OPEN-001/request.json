@@ -1,0 +1,22 @@
+{
+  "source": "SCN-001-opening-heli-v001.png",
+  "expected_credits_based_on_previous_test": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-001-opening-heli-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "Single continuous five-second wide exterior establishing shot in the starting image's exact retro graphic-novel style. Slowly push the camera forward toward the remote moonlit zoo and laboratory, a modest graceful movement with subtle foreground branch parallax, keeping the entire facility and right-side helipad readable. No pullback, orbit, cut, close-up or interior view.\nThe ONE ivory-and-forest-green helicopter already visible at upper right flies steadily on a shallow descending approach toward the existing illuminated helipad at lower right. Its nose remains oriented generally leftward. Main and tail rotors spin naturally; the aircraft body, long tail, cabin windows, ochre stripe and skids stay solid and consistent. Advance a modest distance toward the pad over these five seconds, gradually slowing; at the end it is STILL AIRBORNE on approach, with clear space beneath its skids. Do not land, touch down, open doors or show anyone exiting. No additional aircraft. Keep credible scale relative to the pad and buildings, no sudden growth or jump in position. The flight path stays outside the zoo perimeter, clear of enclosure roofs and the laboratory.\nExisting small red safety beacons blink gently at separate intervals; most amber lamps and lab windows remain steady. Subtle natural ripples in swamp water and very slight mist drift. Preserve the starting frame's architecture, trees, coast, causeway, signage, helipad location and nighttime lighting. Retain bold ink contours, crosshatching, restrained halftone and teal/amber palette consistently across every frame, including the moving aircraft. No photorealistic conversion, glossy 3D, invented buildings, monster reveals, cartoon speed lines, dramatic searchlight or weather change. No dialogue or music."
+  ]
+}

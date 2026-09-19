@@ -1,0 +1,22 @@
+{
+  "source": "ANCH-006-B-comic-rope-v002.png",
+  "expected_credits_based_on_previous_test": 64,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\ANCH-006-B-comic-rope-v002.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "8",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "Single continuous eight-second shot animated entirely in the starting image's richly inked graphic-novel style. Preserve Harper and the boy exactly as drawn, with the same faces, costumes, proportions, bold ink outlines, crosshatching, restrained halftone, teal moonlit shadows and amber lamps. Locked tripod camera; identical framing throughout, no zoom, dolly, pullout, pan, reframing or cuts.\nGentle sequential choreography, no simultaneous tricks:\n0-3 seconds: Harper makes ONE slow, small controlled circle with her raised right wrist, guiding the existing open lasso loop through exactly one smooth rotation above and beside her. Her left hand steadily holds the existing spare coils at her waist. Keep the loop modest, well clear of the boy, and completely inside the frame.\n3-6 seconds: She stops rotating, lowers her right hand slowly, lets the loop settle downward naturally under gravity, then calmly gathers that slack loop into the existing coils in her left hand using her right hand. Show a simple unhurried gathering action, not elaborate rope tricks. Finish with all the rope hanging as a neat bundle of coils at her waist.\n6-8 seconds: With the rope now still, Harper gives the boy one small satisfied nod and one brief wink. The boy keeps his feet planted and his sketchbook hugged to his chest, rolls his eyes once in response, then settles into his skeptical expression.\nMaintain ONE continuous braided rope throughout, with the visible tied lasso eye intact, natural tension and gravity, stable thickness and length, and physical contact with her hands. Coils stay connected to the working rope. No dissolving, splitting, multiplying, detached ends, floating rings, rope passing through bodies, or drawn motion lines, speed streaks or ghost trails. Restrained body movement. Preserve enclosure geography, signage and the stable background. No dialogue, singing, new characters, photorealism, glossy 3D or style changes."
+  ]
+}

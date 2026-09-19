@@ -1,0 +1,53 @@
+{
+  "fps": 24,
+  "master_start_frame": 1012,
+  "master_end_frame_exclusive": 1041,
+  "source_in_frame": 12,
+  "source_zero_master_frame": 1000,
+  "source_length_frames": 72,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "master_onset_seconds": [
+    42.181,
+    42.346,
+    42.506,
+    42.666,
+    42.851
+  ],
+  "timing_status": "Cut1012 retained; reanalysed strong and weak attacks; user specified hard stop1034.",
+  "analysis": "Positive spectral flux in master, crosschecked embedded DAWproject acoustic guitar with0.382816123654544second stem offset; nearest24fps frame, not equal arbitrary shake spacing.",
+  "impact_master_frames": [
+    1013,
+    1017,
+    1021,
+    1025,
+    1029
+  ],
+  "impact_source_frames_one_based": [
+    14,
+    18,
+    22,
+    26,
+    30
+  ],
+  "actual_source_in_frame": 12,
+  "actual_source_out_frame_exclusive": 41,
+  "actual_available_post_roll_frames": 31,
+  "new_generation_credits": 0,
+  "guitar_onset_seconds_original_analysis": [
+    41.866,
+    42.191,
+    42.511,
+    42.851
+  ],
+  "timing_note": "No uniform shift of old cues. Retimed to master attacks, guitar corroborates quieter intervening events. Mechanical motion ends at1034; dust tail continues.",
+  "impact_strengths": [
+    1,
+    0.42,
+    0.9,
+    0.48,
+    0.8
+  ],
+  "mechanical_stop_master_frame": 1034,
+  "mechanical_stop_source_frame": 35
+}

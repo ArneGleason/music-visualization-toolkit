@@ -1,0 +1,21 @@
+{
+  "expected_credits": 64,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-002-stealth-pov-in-v003.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "8",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous eight-second LOW SUBJECTIVE CAMERA shot of an EMPTY zoo concourse viewed from within a shadowy planting bed. The shot contains ONLY architecture, paving, plants and lights. Nothing living enters the image other than the existing vegetation. The viewpoint itself supplies all the action.\nCamera height stays near 45 cm over the soil, concealed behind foliage throughout. Creep FORWARD along the narrow soil strip PARALLEL to the walkway, NEVER across the curb or onto open paving. Keep leaves close in the foreground at all times; fresh leaves overlap and replace those passing out of view. Maintain an obscured side view of enclosure 6 through gaps. The viewpoint does not emerge into the open at the end.\nMOVEMENT CHARACTER: begin already moving. Use a subtle grounded rhythmic vertical bob of only 2-3 cm, softly alternating lateral weight shifts, tiny irregular pitch changes, and small forward surges followed by soft settling. A quiet restrained walking cadence, organic and physically weighted rather than a perfectly stabilized dolly or drone. Keep the bounce gentle, not a hopping motion, violent shake or large roll. Foreground stems and leaves sweep past with genuine parallax as the camera advances. Around second 3, ease briefly and glance a few degrees toward the path from UNDER COVER, then resume the low undulating advance. Continue creeping through the final frame. Do not merely zoom the source image.\nPreserve the starting image's enclosure numeral 6, coherent cream pillars and black mesh, closed gate, amber lamps, distant laboratory, moonlit teal night, bold graphic-novel ink contours, crosshatching and restrained halftone. No photorealistic conversion. No visible characters or creatures anywhere, no heads, ears, limbs, body parts, silhouettes, cast character shadows or reflections. No text overlay, no thought bubble, no cuts, no audio. The frame remains an empty environment seen from a moving hidden viewpoint."
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "fps": 24,
+  "generation_defaults": {
+    "policy": "Flexible convention; log assumed handles per clip, including deviations",
+    "per_clip_timing_record_required": true,
+    "pre_roll_frames": 12,
+    "post_roll_frames": 12,
+    "default_source_in_frame": 12,
+    "applies_to": "Future generations; existing approved clips retain recorded source in-points",
+    "conventions": "GENERATION-CONVENTIONS.md"
+  },
+  "scope": "Opening through habitat storyboard, with exterior reset before visitors tour; video approved or for review through frame1304, planning stills through2461.",
+  "frame_convention": "one-based, end exclusive; source in zero-based",
+  "timing_basis": "Existing DAW beat 6.2 at frame 90; existing scene-2 boundary at frame 207",
+  "shots": [
+    {
+      "id": "OPEN-WIDE",
+      "start_frame": 1,
+      "end_frame_exclusive": 90,
+      "source": "motion-graphics/HELI-LIGHTS-001/KLING-OPEN-001-lights-v002.mp4",
+      "source_in_frame": 0,
+      "original_video_source": "video-tests/KLING-OPEN-001/KLING-OPEN-001-clean.mp4",
+      "effects_status": "brighter_lights_and_nose_lamp_for_review",
+      "effects_timing_record": "motion-graphics/HELI-LIGHTS-001/timing-v002.json"
+    },
+    {
+      "id": "OPEN-LANDING",
+      "start_frame": 90,
+      "end_frame_exclusive": 207,
+      "source": "motion-graphics/HELI-LIGHTS-001/KLING-OPEN-003-lights-v002.mp4",
+      "source_in_frame": 4,
+      "original_video_source": "video-tests/KLING-OPEN-003/KLING-OPEN-003-clean.mp4",
+      "effects_status": "brighter_lights_and_nose_lamp_for_review",
+      "effects_timing_record": "motion-graphics/HELI-LIGHTS-001/timing-v002.json"
+    },
+    {
+      "id": "HARPER-INTRO",
+      "start_frame": 207,
+      "end_frame_exclusive": 304,
+      "source": "motion-graphics/HARPER-THOUGHT-001/Harper-thought-bubble-v003.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "timing_record": "video-tests/KLING-KEEPER-001/timing.json",
+      "status": "approved"
+    },
+    {
+      "id": "HARPER-BOLT",
+      "start_frame": 304,
+      "end_frame_exclusive": 380,
+      "source": "motion-graphics/BOLT-THOUGHT-001/Bolt-oh-my-v001.mp4",
+      "source_in_frame": 24,
+      "assumed_pre_roll_frames": 12,
+      "timing_record": "video-tests/KLING-BOLT-001/timing.json",
+      "status": "approved",
+      "edit_note": "v07: cut 12 frames later, preserving source/master mapping and Oh my sync."
+    },
+    {
+      "id": "STEALTH-POV",
+      "start_frame": 380,
+      "end_frame_exclusive": 504,
+      "source": "motion-graphics/STEALTH-POV-001/Stealth-POV-motion-lens-v002.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "timing_record": "video-tests/KLING-POV-002/timing.json",
+      "status": "motion_effect_review"
+    },
+    {
+      "id": "HARPER-SIGN-SEQUENCE",
+      "start_frame": 504,
+      "end_frame_exclusive": 627,
+      "source": "motion-graphics/HARPER-ARCTIC-001/Harper-arctic-cutaway-v002.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "actual_source_out_frame_exclusive": 135,
+      "status": "approved",
+      "timing_record": "motion-graphics/HARPER-ARCTIC-001/timing-v002.json",
+      "edit_note": "Placed on existing phrase boundary627; full6s source retained,9frames unused tail."
+    },
+    {
+      "id": "HARPER-ROPE-PATROL",
+      "start_frame": 627,
+      "end_frame_exclusive": 766,
+      "source": "video-tests/KLING-PATROL-001/KLING-PATROL-001-01.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "status": "user_approved",
+      "timing_record": "video-tests/KLING-PATROL-001/timing.json"
+    },
+    {
+      "id": "PA-ANNOUNCEMENT-CLOSEUP",
+      "start_frame": 766,
+      "end_frame_exclusive": 874,
+      "source": "motion-graphics/ARCTIC-PA-001/Arctic-PA-ripples-v002.mp4",
+      "source_in_frame": 0,
+      "assumed_pre_roll_frames": 0,
+      "status": "user_approved",
+      "timing_record": "motion-graphics/ARCTIC-PA-001/timing.json",
+      "note": "Expanding radial distortion wave clusters on announcement bursts; stronger horn vibration. Same108frames, readable bubble."
+    },
+    {
+      "id": "HARPER-ARCTIC-REACTION",
+      "start_frame": 874,
+      "end_frame_exclusive": 1012,
+      "source": "motion-graphics/ARCTIC-PA-001/Harper-reaction-eyes-v001.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "status": "user_approved",
+      "timing_record": "video-tests/KLING-REACTION-002/timing.json",
+      "note": "User approved reaction performance/location. Removed carried announcement bubble. Three staggered red eye pairs open and approach within cave; Blender overlay, no new generation.",
+      "actual_source_out_frame_exclusive": 150,
+      "edit_note": "User exact frame1012 cut on rope downbeat."
+    },
+    {
+      "id": "ZONE8-GATE-SHAKE",
+      "start_frame": 1012,
+      "end_frame_exclusive": 1041,
+      "source": "motion-graphics/ZONE8-GATE-001/Zone8-gate-rattle-v004.mp4",
+      "source_in_frame": 12,
+      "actual_source_out_frame_exclusive": 41,
+      "assumed_pre_roll_frames": 12,
+      "status": "user_approved",
+      "timing_record": "motion-graphics/ZONE8-GATE-001/timing-v005.json",
+      "edit_note": "Cut1012, strong/weak attacks reanalysed, mechanical motion zero at1034; only dust/grit afterward.",
+      "note": "Approved master cut1012 and mechanical stop1034 preserved; broad textured smoky dust billows and more airborne grit."
+    },
+    {
+      "id": "LAB-PITCH-001",
+      "start_frame": 1041,
+      "end_frame_exclusive": 1103,
+      "source": "video-tests/KLING-LAB-PITCH-001/KLING-LAB-PITCH-001-01.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "status": "user_approved",
+      "timing_record": "video-tests/KLING-LAB-PITCH-001/timing.json",
+      "note": "Natural pitch acting; no supplied-audio lip-sync pass."
+    },
+    {
+      "id": "TOWN-FIRE-001",
+      "start_frame": 1103,
+      "end_frame_exclusive": 1162,
+      "source": "video-tests/KLING-TOWN-001/KLING-TOWN-001-01.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "assumed_post_roll_frames": 12,
+      "status": "crane_shot_for_review",
+      "timing_record": "video-tests/KLING-TOWN-001/timing.json",
+      "note": "Rising crane reveals burning coastal town; distant hulking monster lumbers through fires."
+    },
+    {
+      "id": "LAB-MEAN-001",
+      "start_frame": 1162,
+      "end_frame_exclusive": 1231,
+      "source": "video-tests/KLING-LAB-MEAN-002/KLING-LAB-MEAN-002-01.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "assumed_post_roll_frames": 12,
+      "status": "motion_for_review",
+      "timing_record": "video-tests/KLING-LAB-MEAN-002/timing.json"
+    },
+    {
+      "id": "HARPER-TALL-GATE-001",
+      "start_frame": 1231,
+      "end_frame_exclusive": 1305,
+      "source": "video-tests/KLING-TALL-GATE-001/KLING-TALL-GATE-001-01.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "assumed_post_roll_frames": 12,
+      "status": "motion_for_review",
+      "timing_record": "video-tests/KLING-TALL-GATE-001/timing.json"
+    },
+    {
+      "id": "SWAMP-FROG-001",
+      "start_frame": 1305,
+      "end_frame_exclusive": 1507,
+      "source": "motion-graphics/SWAMP-LIGHTS-001/Swamp-frog-lights-v001.mp4",
+      "source_in_frame": 12,
+      "media_type": "video",
+      "status": "lighting_polish_for_review",
+      "motion": "Frog notices wake; visible hand grasps and pulls it underwater; ripple aftermath. Continuous capture, locally accelerated1.5x.",
+      "timing_basis": "Preserved existing scene05 boundaries from storyboard timing",
+      "future_assumed_pre_roll_frames": 12,
+      "future_assumed_post_roll_frames": 12,
+      "timing_record": "video-tests/KLING-SWAMP-FROG-002/timing.json",
+      "assumed_pre_roll_frames": 12,
+      "assumed_post_roll_frames": 12,
+      "original_video_source": "video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4",
+      "approval_note": "User approved snatch take002; requested gradual facility warning-light flashes without regeneration.",
+      "lighting_timing_record": "motion-graphics/SWAMP-LIGHTS-001/timing.json"
+    },
+    {
+      "id": "ANCH-006-A-PLAN",
+      "start_frame": 1507,
+      "end_frame_exclusive": 1708,
+      "source": "assets/ANCH-006-A-v001.png",
+      "source_in_frame": 0,
+      "media_type": "image",
+      "status": "existing_storyboard_for_planning",
+      "timing_basis": "Existing storyboard cut preserved"
+    },
+    {
+      "id": "ANCH-006-B-PLAN",
+      "start_frame": 1708,
+      "end_frame_exclusive": 2036,
+      "source": "assets/ANCH-006-B-v001.png",
+      "source_in_frame": 0,
+      "media_type": "image",
+      "status": "existing_storyboard_for_planning",
+      "timing_basis": "Existing storyboard cut preserved"
+    },
+    {
+      "id": "ANCH-007-A-PLAN",
+      "start_frame": 2036,
+      "end_frame_exclusive": 2170,
+      "source": "assets/ANCH-007-A-v001.png",
+      "source_in_frame": 0,
+      "media_type": "image",
+      "status": "existing_storyboard_for_planning",
+      "timing_basis": "Existing storyboard cut preserved"
+    },
+    {
+      "id": "ANCH-007-B-PLAN",
+      "start_frame": 2170,
+      "end_frame_exclusive": 2462,
+      "source": "assets/ANCH-007-B-v001.png",
+      "source_in_frame": 0,
+      "media_type": "image",
+      "status": "existing_storyboard_for_planning",
+      "timing_basis": "Existing storyboard cut preserved"
+    }
+  ],
+  "generation_candidates": [
+    {
+      "id": "HARPER-SIGN-001",
+      "start_frame": 504,
+      "source": "video-tests/KLING-SIGN-001/KLING-SIGN-001-lipsync-24fps.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "timing_record": "video-tests/KLING-SIGN-001/timing.json",
+      "status": "retry_requested_weak_lip_sync_and_cage_crossing",
+      "note": "Full sung line with subtle beast movement; sign anchor replacement end not yet selected. Beast eye/teeth glimpse flagged for review."
+    },
+    {
+      "id": "HARPER-SIGN-002",
+      "start_frame": 504,
+      "source": "video-tests/KLING-SIGN-002/KLING-SIGN-002-lipsync-24fps.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "timing_record": "video-tests/KLING-SIGN-002/timing.json",
+      "status": "beast_approved_harper_too_exuberant",
+      "note": "Retry with visibly active singing and beast constrained behind cage mesh. Base and lip-sync music previews retained for comparison."
+    },
+    {
+      "id": "HARPER-SIGN-SPLICE-001",
+      "start_frame": 504,
+      "source": "motion-graphics/HARPER-SIGN-SPLICE-001/Harper-sign-composite-v001.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "timing_record": "motion-graphics/HARPER-SIGN-SPLICE-001/timing.json",
+      "status": "user_approved_composite",
+      "note": "Take001 base Harper plus take002 cage/beast,20px feather at cage post. No lip sync; speech bubble wording pending."
+    },
+    {
+      "id": "HARPER-SPEECH-001",
+      "start_frame": 504,
+      "source": "motion-graphics/HARPER-SPEECH-001/Harper-speech-v004.mp4",
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "timing_record": "motion-graphics/HARPER-SPEECH-001/timing.json",
+      "status": "awaiting_weighted_outline_and_drift_review",
+      "note": "v004 varied pen weight, distinct layouts, differential tail follow and restrained ambient body drift"
+    },
+    {
+      "id": "ARCTIC-PROCUREMENT-001",
+      "status": "generated_cutaway_awaiting_review",
+      "source": "video-tests/KLING-ARCTIC-001/KLING-ARCTIC-001-01.mp4",
+      "proposed_master_start_frame": 552,
+      "proposed_master_end_frame_exclusive": 584,
+      "timing_note": "Provisional existing second-bubble window: source frames61-92 at24fps, sourcezero masterframe492. Review duration on timing grid before video generation. Harper source keeps running beneath insert; return at corresponding source time, not restarted.",
+      "purpose": "Middle cutaway during We bring them here; MUCF staff capture remote Arctic snow beast, return to Harper for The lab mixes things up.",
+      "future_generation_assumed_pre_roll_frames": 12,
+      "future_generation_assumed_post_roll_frames": 12,
+      "source_in_frame": 18,
+      "source_out_frame_exclusive": 50,
+      "timing_record": "video-tests/KLING-ARCTIC-001/timing.json",
+      "preview": "motion-graphics/HARPER-ARCTIC-001/Harper-arctic-cutaway-v001.mp4"
+    },
+    {
+      "id": "HARPER-ARCTIC-RETURN-002",
+      "source": "motion-graphics/HARPER-ARCTIC-001/Harper-arctic-cutaway-v002.mp4",
+      "start_frame": 504,
+      "source_in_frame": 12,
+      "status": "user_approved",
+      "timing_record": "motion-graphics/HARPER-ARCTIC-001/timing-v002.json",
+      "approval_note": "User approved full sequence including lively return and red eye."
+    },
+    {
+      "id": "HARPER-ROPE-PATROL",
+      "source": "assets/SCN-003-rope-patrol-v003.png",
+      "status": "user_approved",
+      "purpose": "Have the knot before it is time to tie: calm walking patrol, hand on coiled belt rope",
+      "assumed_future_pre_roll_frames": 12,
+      "assumed_future_post_roll_frames": 12,
+      "note": "Recomposed beside plate-glass Arctic habitat; closer emphasis on Harper and coiled rope, no moon or repeated numbered cages. Prior corridor versions retained.",
+      "video_source": "video-tests/KLING-PATROL-001/KLING-PATROL-001-01.mp4"
+    },
+    {
+      "id": "PA-ANNOUNCEMENT-CLOSEUP",
+      "source": "assets/SCN-003-pa-arctic-v001.png",
+      "status": "ripple_polish_for_review",
+      "purpose": "Arctic PA: Blender speaker vibration and broken announcement bubble suggesting alarm in zone eight",
+      "assumed_future_pre_roll_frames": 12,
+      "assumed_future_post_roll_frames": 12,
+      "video_source": "motion-graphics/ARCTIC-PA-001/Arctic-PA-ripples-v002.mp4",
+      "note": "Expanding radial distortion wave clusters on announcement bursts; stronger horn vibration. Same108frames, readable bubble."
+    },
+    {
+      "id": "HARPER-ARCTIC-REACTION",
+      "source": "assets/SCN-003-harper-arctic-reaction-v002.png",
+      "status": "user_approved",
+      "purpose": "Listen upward, puzzled concern at garbled announcement, tighten grip on coiled rope; cave reserved for red eyes.",
+      "assumed_future_pre_roll_frames": 12,
+      "assumed_future_post_roll_frames": 12,
+      "video_source": "motion-graphics/ARCTIC-PA-001/Harper-reaction-eyes-v001.mp4",
+      "note": "User approved reaction performance/location. Removed carried announcement bubble. Three staggered red eye pairs open and approach within cave; Blender overlay, no new generation."
+    },
+    {
+      "id": "ZONE8-GATE-SHAKE",
+      "source": "assets/SCN-003-zone8-gate-v001.png",
+      "status": "blender_motion_for_review",
+      "purpose": "Four heavy gate impacts to processed guitar/steel-door sound; distant foliage enclosure, mostly hidden clawed creature.",
+      "timing_note": "User estimates cue about1second before current reaction ends atmaster1033. Approx42seconds only; locate four transients and map to frame grid before committing cut. May use Blender alone after still review; no video generation submitted.",
+      "assumed_future_pre_roll_frames": 12,
+      "assumed_future_post_roll_frames": 12,
+      "video_source": "motion-graphics/ZONE8-GATE-001/Zone8-gate-rattle-v004.mp4"
+    }
+  ],
+  "approved_sign_sequence": {
+    "source": "motion-graphics/HARPER-ARCTIC-001/Harper-arctic-cutaway-v002.mp4",
+    "master_start_frame": 504,
+    "source_in_frame": 12,
+    "timing_record": "motion-graphics/HARPER-ARCTIC-001/timing-v002.json",
+    "status": "integrated_at_existing_phrase_boundary"
+  },
+  "planned_scene3_revision": {
+    "order": [
+      "HARPER-SIGN-SEQUENCE",
+      "HARPER-ROPE-PATROL",
+      "PA-ANNOUNCEMENT-CLOSEUP",
+      "HARPER-ARCTIC-REACTION"
+    ],
+    "wide_reference": "assets/SCN-003-harper-arctic-reaction-v002.png",
+    "note": "User superseded enclosure4 return with continuous Arctic location for patrol, PA closeup and concerned reaction. PA motion and broken announcement bubble planned in Blender; Harper fully animated, listening and tightening rope grip. Dark cave reserved for red eyes. Exact cuts from timing grid before footage. No extra cutaways.",
+    "preview": "motion-graphics/ARCTIC-PA-001/Arctic-patrol-announcement-reaction-v004.mp4"
+  }
+}

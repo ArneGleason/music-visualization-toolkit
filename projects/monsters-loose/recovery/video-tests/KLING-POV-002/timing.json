@@ -1,0 +1,21 @@
+{
+  "clip_id": "KLING-POV-002",
+  "fps": 24,
+  "requested_duration_seconds": 8,
+  "assumed_pre_roll_frames": 12,
+  "assumed_pre_roll_seconds": 0.5,
+  "minimum_assumed_post_roll_frames": 12,
+  "provisional_master_in_frame": 380,
+  "master_out_frame_exclusive": 504,
+  "source_zero_master_frame": 368,
+  "source_zero_master_seconds": 15.291666666666666,
+  "planned_source_in_frame": 12,
+  "planned_source_out_frame_exclusive": 136,
+  "planned_tail_frames": 56,
+  "actual_source_in_frame": 12,
+  "actual_source_out_frame_exclusive": 136,
+  "status": "in_animatic_v08_review",
+  "note": "Provisional beat 11.1 insert after Oh my, before sign shot. Generous eight-second source for selection. Confirm trim after review; preserve original assumptions.",
+  "actual_master_in_frame": 380,
+  "actual_master_out_frame_exclusive": 504
+}

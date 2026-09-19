@@ -1,0 +1,31 @@
+{
+  "clip_id": "KLING-SIGN-002",
+  "fps": 24,
+  "requested_duration_seconds": 6,
+  "assumed_pre_roll_frames": 12,
+  "assumed_pre_roll_seconds": 0.5,
+  "minimum_assumed_post_roll_frames": 12,
+  "provisional_master_in_frame": 504,
+  "source_zero_master_frame": 492,
+  "source_zero_master_seconds": 20.458333333333332,
+  "planned_source_in_frame": 12,
+  "actual_source_in_frame": null,
+  "actual_source_out_frame_exclusive": null,
+  "lyric_master_start_seconds": 21.865816,
+  "lyric_master_end_seconds": 25.179816,
+  "status": "lip_sync_complete_awaiting_creative_review",
+  "note": "Base performance for subsequent recorded-vocal lip sync. Final cut and next shot boundary pending review; does not replace full original 15s sign anchor.",
+  "lip_sync_audio": {
+    "file": "Harper-sign-vocal-6s.wav",
+    "original_source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\MonstersUndone.cleaned-groove\\samples\\Set the Monsters Loose (Lead Vocal) - Renaissance.wav",
+    "original_stem_offset_seconds": 0.382816123654544,
+    "original_source_start_seconds": 20.07551720967879,
+    "master_start_seconds": 20.458333333333332,
+    "duration_seconds": 6,
+    "lyric_start_in_clip_seconds": 1.4074826666666667,
+    "lyric_end_in_clip_seconds": 4.721482666666667
+  },
+  "edit_source": "KLING-SIGN-002-lipsync-24fps.mp4",
+  "returned_audio_offset_seconds": 0.0,
+  "edit_conversion": "fps24 unchanged playback speed"
+}

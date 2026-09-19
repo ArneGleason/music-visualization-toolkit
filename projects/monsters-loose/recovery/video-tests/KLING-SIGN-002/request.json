@@ -1,0 +1,21 @@
+{
+  "expected_credits": 48,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-003-sign-presentation-clean-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "6",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous six-second graphic-novel shot. Camera completely locked. Harper faces the viewer with a cheerful theatrical expression and performs the sung phrase \"Got the hang of every face you made\" with CLEAR ACTIVE SINGING MOUTH SHAPES, moving lips and jaw visibly, not a closed-mouth smile. First 1.4 seconds: a small inviting presentation gesture toward the sign and a preparatory breath. Seconds1.4-4.8: she sings with distinct open and closed mouth shapes and expressive eyebrows, her face mostly frontal and clearly visible; gently turns her open presenting palm upward. Last1.2 seconds: finish singing and settle into a knowing smile. Keep head movement small for subsequent recorded-vocal lip sync. Preserve her identity, red curls, olive uniform, anatomy and coiled rope.\nThe beast stays DEEP INSIDE the enclosure, at least two metres behind the closed wire-mesh front wall. Its dark silhouette shifts slowly a short distance parallel to the REAR wall, with small shoulder and head movement. ALL front fence posts and diamond mesh remain continuously visible IN FRONT OF and occluding the creature at every moment. The mesh is a solid unbroken foreground barrier: no body part crosses its plane, no head protrudes, no leaning toward the fence, no entrance or exit, no opening gate. Keep creature size constant and shadowy, a distant dark shape behind the mesh rather than a foreground head. Gentle amber lamp flicker and tiny leaf movement add life.\nPreserve enclosure number4, rigid cage geometry, closed gate, exact sign and icons, moonlit teal night and amber lamps. Same bold ink contours, crosshatching and halftone, no photorealistic conversion. No new creatures or people, captions, bubbles, chains or motion lines. No camera movement, zoom, cuts or generated audio."
+  ]
+}

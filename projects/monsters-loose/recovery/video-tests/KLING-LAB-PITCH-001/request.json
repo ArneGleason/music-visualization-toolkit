@@ -1,0 +1,21 @@
+{
+  "expected_credits": 32,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\ANCH-004-A-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "4",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous four-second graphic-novel shot animating the supplied three-scientist laboratory frame. Locked camera, no cuts or zoom. Preserve exactly these three adults, their positions, faces, clothing and the laboratory, table plans, lamps, analog gauges. The silver-haired mustached scientist at LEFT is pitching an ambitious new creature design to the other two. His anatomical RIGHT hand is the BRASS MECHANICAL hand on SCREEN LEFT; his other hand is flesh. Maintain that identity and five coherent mechanical fingers.\nBegin with subtle living motion already underway. He turns his attention toward his colleagues, lowers the raised brass hand in one controlled open-palmed persuasive gesture toward the plans, and gives a small eager nod, with modest natural speaking mouth movement. His expression is excited intellectual conviction, not maniacal laughter or a big cartoon grin. Keep the brass hand visible and solid, no transformation, no pointing finger multiplying. His flesh hand settles near the tabletop.\nThe bespectacled scientist at CENTER watches him with thoughtful skepticism, making a small head turn toward the brass hand, maintaining his chin-resting pose. The brunette scientist at RIGHT raises one eyebrow and gives the center scientist a brief skeptical side glance, then looks back toward the pitch; her hands remain grounded on the table. Small distinct reactions, no large simultaneous gestures. Continue breathing and restrained movement through the final half-second.\nKeep rich illustrated ink contours, crosshatching, restrained halftone, warm amber practical light and dark teal laboratory atmosphere. No photorealism or glossy CGI. No extra people, monsters, machinery morphing, captions, speech bubbles or generated audio. Natural conversational mouth motion only; no precise lip-sync claimed."
+  ]
+}

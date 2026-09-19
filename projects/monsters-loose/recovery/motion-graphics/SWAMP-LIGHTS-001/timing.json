@@ -1,0 +1,13 @@
+{
+  "fps": 24,
+  "source": "video-tests\\KLING-SWAMP-FROG-002\\Swamp-frog-snatch-v002.mp4",
+  "source_frames": 227,
+  "master_start_frame": 1305,
+  "master_end_frame_exclusive": 1507,
+  "source_in_frame": 12,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "period_frames": 29,
+  "pulse_sigma_frames": 3.4,
+  "note": "Seven red facility beacons, staggered phase, feathered suppression plus Gaussian bloom. Windows and path lamps remain steady. Frog action unchanged."
+}

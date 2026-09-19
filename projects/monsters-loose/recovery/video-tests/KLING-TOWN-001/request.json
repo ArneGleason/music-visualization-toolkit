@@ -1,0 +1,21 @@
+{
+  "expected_credits": 32,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\ANCH-004-B-v002.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "4",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous four-second cinematic crane-up shot from the supplied illustrated frame. The camera rises smoothly several meters above the ruined street, with a gentle downward tilt keeping the devastated coastal town and distant hulking monster in view. Clear vertical camera translation: foreground rubble and fallen streetlamp drift down out of frame while more ruined rooftops and the burning hillside are revealed. No cuts, no sudden zoom, no orbit. Start moving immediately and continue smoothly through the end.\nThe distant monster remains far away at the end of the trail of fire, seen from behind. It takes one heavy lumbering step away across the hillside, shoulders rolling and a heavy arm swinging into a ruined building, kicking up a modest plume of dust and sparks. Maintain its hulking silhouette and distance; no approach toward camera. Fires flicker naturally, thick smoke curls upward and drifts, and small embers rise. Water catches faint flickering fire reflections. Preserve the town geography, bay, church and ruined street. Buildings stay solid; no melting or morphing.\nKeep rich illustrated ink contours, crosshatching, restrained halftone, warm amber firelight and dark teal nighttime atmosphere. Preserve the supplied graphic-novel style, no photorealism or glossy CGI. No captions, speech bubbles, text, extra monsters or generated audio."
+  ]
+}

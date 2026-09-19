@@ -1,0 +1,27 @@
+{
+  "fps": 24,
+  "requested_duration_seconds": 8,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "intended_master_start_frame": 874,
+  "intended_master_end_frame_exclusive": 1033,
+  "intended_source_in_frame": 12,
+  "intended_source_out_frame_exclusive": 171,
+  "source_zero_master_time": 35.875,
+  "timing_basis": "DAWproject-derived animatic/animatic-data.json beat grid; existing scene boundary1033 preserved",
+  "actual_source_in_frame": 12,
+  "actual_source_out_frame_exclusive": 171,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_frames": "193"
+      }
+    ]
+  },
+  "actual_available_post_roll_frames": 22
+}
