@@ -173,7 +173,7 @@
       "id": "SWAMP-FROG-001",
       "start_frame": 1305,
       "end_frame_exclusive": 1507,
-      "source": "motion-graphics/SWAMP-LIGHTS-001/Swamp-frog-lights-v001.mp4",
+      "source": "motion-graphics/SWAMP-LIGHTS-001/Swamp-frog-lights-v002.mp4",
       "source_in_frame": 12,
       "media_type": "video",
       "status": "lighting_polish_for_review",
@@ -185,8 +185,8 @@
       "assumed_pre_roll_frames": 12,
       "assumed_post_roll_frames": 12,
       "original_video_source": "video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4",
-      "approval_note": "User approved snatch take002; requested gradual facility warning-light flashes without regeneration.",
-      "lighting_timing_record": "motion-graphics/SWAMP-LIGHTS-001/timing.json"
+      "approval_note": "User approved v29 blinking lights; v30 adds synchronized anisotropic water reflections for review.",
+      "lighting_timing_record": "motion-graphics/SWAMP-LIGHTS-001/timing-v002.json"
     },
     {
       "id": "ANCH-006-A-PLAN",

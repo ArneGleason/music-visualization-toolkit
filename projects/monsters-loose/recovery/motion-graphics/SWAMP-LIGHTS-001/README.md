@@ -6,3 +6,6 @@ Input: video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4 (227 frames).
 Run animatic/prepare-swamp-lights.py to regenerate tracking and build script; run Blender in background with --python motion-graphics/SWAMP-LIGHTS-001/build.py; composite overlay/lights-%04d.png at 24fps over the source with FFmpeg overlay=0:0:format=auto, libx264 crf18 yuv420p. Run animatic/build-opening-v29.py after restoring predecessor project/media.
 
 The underlying frog snatch take002 is user approved. This light polish awaits review. Original footage and v28 remain available.
+
+## v002 synchronized water reflections
+User approved v001 lights. build-v002.py adds narrow elongated water footprints made of irregular horizontal glints and a faint textured bloom. Every reflection follows exactly the corresponding red beacon pulse; glints drift slightly with water movement. Footprints stop above foreground frog/creature/pads. Composite overlay-v002/lights-%04d.png over the original approved frog source to Swamp-frog-lights-v002.mp4. Full edit v30, all source trims and cuts unchanged. No generation credits.

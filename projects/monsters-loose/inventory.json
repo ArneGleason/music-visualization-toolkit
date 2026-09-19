@@ -217,6 +217,12 @@
       "snapshot_sha256": "468f10ceb40c6aa9033856c4e25ecf170819d738e30246a4eb6b0c826be6f092"
     },
     {
+      "path": "animatic/build-opening-v30.py",
+      "bytes": 1351,
+      "included": true,
+      "snapshot_sha256": "f449c88195bb2be1a59493e6791873cb4fffcb046936f07367dcac509bbe6b42"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -314,7 +320,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "185edb7d4c446f8f10111e036c93026ed76d552e7b7b2ff27efa8671f9c41c86"
+      "snapshot_sha256": "4fa21bec611bbf82eec3f289ee5a454c9dfecaa789ae1e8341dcaa199782023d"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -773,6 +779,17 @@
       "snapshot_sha256": "cc7ab63c65a49e53fffb9df7634ba7ffdbdd90f5e26e17974cd3e77d0cc3109e"
     },
     {
+      "path": "animatic/MonstersLoose-v30-opening-through-habitats.mp4",
+      "bytes": 78415770,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v30-through-habitats.blend",
+      "bytes": 293776,
+      "included": true,
+      "snapshot_sha256": "fe1414f78e0f6feeabf315b870b6247db0c665c65fcdc41bea7828b9ef8cc6d8"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -970,6 +987,11 @@
     },
     {
       "path": "animatic/render-v29.log",
+      "bytes": 137786,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v30.log",
       "bytes": 137786,
       "included": false
     },
@@ -18432,6 +18454,12 @@
       "included": false
     },
     {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/build-v002.py",
+      "bytes": 5848,
+      "included": true,
+      "snapshot_sha256": "500aeab40caa336cd1cc7f15c4bc054441a3bf11d5f87efcd8c5c31ac6a3e961"
+    },
+    {
       "path": "motion-graphics/SWAMP-LIGHTS-001/build.py",
       "bytes": 4322,
       "included": true,
@@ -19573,10 +19601,1155 @@
       "included": false
     },
     {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0001.png",
+      "bytes": 562872,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0002.png",
+      "bytes": 560090,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0003.png",
+      "bytes": 557518,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0004.png",
+      "bytes": 555546,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0005.png",
+      "bytes": 556416,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0006.png",
+      "bytes": 554043,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0007.png",
+      "bytes": 550656,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0008.png",
+      "bytes": 552142,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0009.png",
+      "bytes": 555231,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0010.png",
+      "bytes": 554647,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0011.png",
+      "bytes": 557868,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0012.png",
+      "bytes": 555999,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0013.png",
+      "bytes": 556351,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0014.png",
+      "bytes": 557176,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0015.png",
+      "bytes": 553460,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0016.png",
+      "bytes": 553452,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0017.png",
+      "bytes": 552608,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0018.png",
+      "bytes": 552845,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0019.png",
+      "bytes": 552960,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0020.png",
+      "bytes": 552183,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0021.png",
+      "bytes": 556333,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0022.png",
+      "bytes": 557440,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0023.png",
+      "bytes": 559753,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0024.png",
+      "bytes": 559522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0025.png",
+      "bytes": 559202,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0026.png",
+      "bytes": 556995,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0027.png",
+      "bytes": 557564,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0028.png",
+      "bytes": 559731,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0029.png",
+      "bytes": 561166,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0030.png",
+      "bytes": 559511,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0031.png",
+      "bytes": 560044,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0032.png",
+      "bytes": 554711,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0033.png",
+      "bytes": 556901,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0034.png",
+      "bytes": 557323,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0035.png",
+      "bytes": 553615,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0036.png",
+      "bytes": 552664,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0037.png",
+      "bytes": 553881,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0038.png",
+      "bytes": 557204,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0039.png",
+      "bytes": 557708,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0040.png",
+      "bytes": 555026,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0041.png",
+      "bytes": 553983,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0042.png",
+      "bytes": 549279,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0043.png",
+      "bytes": 549602,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0044.png",
+      "bytes": 549951,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0045.png",
+      "bytes": 546212,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0046.png",
+      "bytes": 547648,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0047.png",
+      "bytes": 548015,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0048.png",
+      "bytes": 546640,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0049.png",
+      "bytes": 545868,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0050.png",
+      "bytes": 548234,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0051.png",
+      "bytes": 549055,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0052.png",
+      "bytes": 554886,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0053.png",
+      "bytes": 555234,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0054.png",
+      "bytes": 556272,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0055.png",
+      "bytes": 558115,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0056.png",
+      "bytes": 558594,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0057.png",
+      "bytes": 559510,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0058.png",
+      "bytes": 560046,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0059.png",
+      "bytes": 563366,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0060.png",
+      "bytes": 560628,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0061.png",
+      "bytes": 559679,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0062.png",
+      "bytes": 559256,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0063.png",
+      "bytes": 557993,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0064.png",
+      "bytes": 557520,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0065.png",
+      "bytes": 554322,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0066.png",
+      "bytes": 555067,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0067.png",
+      "bytes": 557937,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0068.png",
+      "bytes": 557384,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0069.png",
+      "bytes": 553488,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0070.png",
+      "bytes": 555337,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0071.png",
+      "bytes": 553236,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0072.png",
+      "bytes": 552882,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0073.png",
+      "bytes": 552912,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0074.png",
+      "bytes": 552236,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0075.png",
+      "bytes": 549220,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0076.png",
+      "bytes": 550090,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0077.png",
+      "bytes": 549423,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0078.png",
+      "bytes": 553450,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0079.png",
+      "bytes": 552166,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0080.png",
+      "bytes": 554150,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0081.png",
+      "bytes": 556443,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0082.png",
+      "bytes": 557455,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0083.png",
+      "bytes": 555657,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0084.png",
+      "bytes": 556461,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0085.png",
+      "bytes": 559070,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0086.png",
+      "bytes": 559448,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0087.png",
+      "bytes": 560179,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0088.png",
+      "bytes": 562107,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0089.png",
+      "bytes": 555117,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0090.png",
+      "bytes": 554580,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0091.png",
+      "bytes": 554593,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0092.png",
+      "bytes": 554145,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0093.png",
+      "bytes": 550716,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0094.png",
+      "bytes": 547863,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0095.png",
+      "bytes": 549421,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0096.png",
+      "bytes": 554904,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0097.png",
+      "bytes": 553547,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0098.png",
+      "bytes": 553227,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0099.png",
+      "bytes": 553526,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0100.png",
+      "bytes": 553573,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0101.png",
+      "bytes": 552891,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0102.png",
+      "bytes": 552309,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0103.png",
+      "bytes": 552331,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0104.png",
+      "bytes": 550960,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0105.png",
+      "bytes": 549711,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0106.png",
+      "bytes": 547205,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0107.png",
+      "bytes": 549699,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0108.png",
+      "bytes": 553127,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0109.png",
+      "bytes": 554567,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0110.png",
+      "bytes": 556638,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0111.png",
+      "bytes": 555415,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0112.png",
+      "bytes": 556170,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0113.png",
+      "bytes": 555925,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0114.png",
+      "bytes": 558810,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0115.png",
+      "bytes": 559133,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0116.png",
+      "bytes": 562485,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0117.png",
+      "bytes": 561898,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0118.png",
+      "bytes": 561664,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0119.png",
+      "bytes": 557236,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0120.png",
+      "bytes": 559083,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0121.png",
+      "bytes": 558405,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0122.png",
+      "bytes": 555819,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0123.png",
+      "bytes": 554216,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0124.png",
+      "bytes": 555463,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0125.png",
+      "bytes": 556191,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0126.png",
+      "bytes": 558579,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0127.png",
+      "bytes": 557856,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0128.png",
+      "bytes": 555497,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0129.png",
+      "bytes": 554026,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0130.png",
+      "bytes": 552586,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0131.png",
+      "bytes": 552275,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0132.png",
+      "bytes": 550448,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0133.png",
+      "bytes": 548257,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0134.png",
+      "bytes": 547426,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0135.png",
+      "bytes": 546595,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0136.png",
+      "bytes": 548371,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0137.png",
+      "bytes": 551213,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0138.png",
+      "bytes": 553896,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0139.png",
+      "bytes": 556497,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0140.png",
+      "bytes": 559707,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0141.png",
+      "bytes": 557573,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0142.png",
+      "bytes": 559566,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0143.png",
+      "bytes": 559666,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0144.png",
+      "bytes": 559866,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0145.png",
+      "bytes": 561776,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0146.png",
+      "bytes": 560042,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0147.png",
+      "bytes": 559007,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0148.png",
+      "bytes": 555251,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0149.png",
+      "bytes": 553782,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0150.png",
+      "bytes": 553953,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0151.png",
+      "bytes": 552582,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0152.png",
+      "bytes": 550198,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0153.png",
+      "bytes": 548081,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0154.png",
+      "bytes": 551989,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0155.png",
+      "bytes": 553499,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0156.png",
+      "bytes": 553081,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0157.png",
+      "bytes": 551687,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0158.png",
+      "bytes": 549909,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0159.png",
+      "bytes": 551347,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0160.png",
+      "bytes": 552495,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0161.png",
+      "bytes": 550045,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0162.png",
+      "bytes": 551060,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0163.png",
+      "bytes": 551327,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0164.png",
+      "bytes": 549943,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0165.png",
+      "bytes": 551104,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0166.png",
+      "bytes": 555030,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0167.png",
+      "bytes": 554469,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0168.png",
+      "bytes": 555863,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0169.png",
+      "bytes": 555784,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0170.png",
+      "bytes": 554779,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0171.png",
+      "bytes": 556668,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0172.png",
+      "bytes": 557411,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0173.png",
+      "bytes": 560884,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0174.png",
+      "bytes": 559798,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0175.png",
+      "bytes": 563113,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0176.png",
+      "bytes": 559322,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0177.png",
+      "bytes": 557203,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0178.png",
+      "bytes": 559065,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0179.png",
+      "bytes": 558204,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0180.png",
+      "bytes": 555854,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0181.png",
+      "bytes": 553582,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0182.png",
+      "bytes": 557969,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0183.png",
+      "bytes": 559484,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0184.png",
+      "bytes": 560198,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0185.png",
+      "bytes": 557535,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0186.png",
+      "bytes": 557696,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0187.png",
+      "bytes": 557118,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0188.png",
+      "bytes": 554275,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0189.png",
+      "bytes": 554356,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0190.png",
+      "bytes": 550489,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0191.png",
+      "bytes": 551749,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0192.png",
+      "bytes": 553202,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0193.png",
+      "bytes": 548056,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0194.png",
+      "bytes": 549453,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0195.png",
+      "bytes": 549942,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0196.png",
+      "bytes": 553586,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0197.png",
+      "bytes": 555092,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0198.png",
+      "bytes": 554780,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0199.png",
+      "bytes": 558431,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0200.png",
+      "bytes": 560162,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0201.png",
+      "bytes": 560819,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0202.png",
+      "bytes": 559910,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0203.png",
+      "bytes": 560484,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0204.png",
+      "bytes": 563615,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0205.png",
+      "bytes": 560194,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0206.png",
+      "bytes": 555503,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0207.png",
+      "bytes": 558794,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0208.png",
+      "bytes": 556979,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0209.png",
+      "bytes": 555915,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0210.png",
+      "bytes": 553530,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0211.png",
+      "bytes": 552028,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0212.png",
+      "bytes": 553330,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0213.png",
+      "bytes": 556232,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0214.png",
+      "bytes": 553808,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0215.png",
+      "bytes": 552208,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0216.png",
+      "bytes": 550286,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0217.png",
+      "bytes": 551682,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0218.png",
+      "bytes": 550471,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0219.png",
+      "bytes": 549982,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0220.png",
+      "bytes": 551220,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0221.png",
+      "bytes": 552085,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0222.png",
+      "bytes": 548789,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0223.png",
+      "bytes": 552806,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0224.png",
+      "bytes": 554043,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0225.png",
+      "bytes": 552252,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0226.png",
+      "bytes": 554593,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/overlay-v002/lights-0227.png",
+      "bytes": 557694,
+      "included": false
+    },
+    {
       "path": "motion-graphics/SWAMP-LIGHTS-001/README.md",
-      "bytes": 1104,
+      "bytes": 1640,
       "included": true,
-      "snapshot_sha256": "c1e08447026f1650c69b0c27de44387fd3fcb76008e8bf9a6775992f6c94ef75"
+      "snapshot_sha256": "aef49a18ec742d90faecb75873ed92012d241967fe71aec86b5116c3f1c81f68"
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/reflections-review.jpg",
+      "bytes": 100881,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/render-v002.log",
+      "bytes": 39474,
+      "included": false
     },
     {
       "path": "motion-graphics/SWAMP-LIGHTS-001/render.log",
@@ -19594,10 +20767,27 @@
       "included": false
     },
     {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/Swamp-frog-lights-v002.mp4",
+      "bytes": 7203429,
+      "included": false
+    },
+    {
       "path": "motion-graphics/SWAMP-LIGHTS-001/Swamp-lights-v001.blend",
       "bytes": 211460,
       "included": true,
       "snapshot_sha256": "53dcd17df78cf6739deba03f9f0b27c9b382219a3f1024709aa3daedf8d2ad8b"
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/Swamp-lights-v002.blend",
+      "bytes": 3341301,
+      "included": true,
+      "snapshot_sha256": "8e2e7249f6d8a9ac146387e76ec9825e166603c8a09cfde8909baf04934ddb5b"
+    },
+    {
+      "path": "motion-graphics/SWAMP-LIGHTS-001/timing-v002.json",
+      "bytes": 616,
+      "included": true,
+      "snapshot_sha256": "b59efe422e4c3e304a5784aa0cb1cd6d316c37e4e0f19d64415fef809381924b"
     },
     {
       "path": "motion-graphics/SWAMP-LIGHTS-001/timing.json",
@@ -21707,15 +22897,15 @@
     },
     {
       "path": "shots/SCN-005-swamp-frog.md",
-      "bytes": 2174,
+      "bytes": 2439,
       "included": true,
-      "snapshot_sha256": "9eaa2bc8fa3b90e9ea404460c5759304ae52df401a2cf579499f4c4388512d7c"
+      "snapshot_sha256": "4fed19dca5eeab75bba55a0406ac3094649e0ba183a264eae1786835e7d781b8"
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 16760,
+      "bytes": 16763,
       "included": true,
-      "snapshot_sha256": "0e4827a13d3f27c575f09c1d401a970c0c2bcaa550054a16db1f5bf5e823bcc9"
+      "snapshot_sha256": "4abff3ab310da23723b67751f4ce896723fe553da84550b16d53fc14013bf1a7"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",

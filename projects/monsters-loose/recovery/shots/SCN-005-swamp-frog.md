@@ -11,3 +11,5 @@ Revision002 QC: head/gaze changes precede capture. Source180 hand reaches over f
 
 
 User approved take002 visible snatch. v29 adds Blender facility beacon polish at user request: seven tracked red lamps with feathered suppression and staggered 29-frame smooth flashes. No generation. Source trims and cut boundaries unchanged. See motion-graphics/SWAMP-LIGHTS-001. Full v29 decode validated: 2461 frames at 24fps.
+
+User approved v29 lamps. v30 adds anisotropic red reflections synchronized with each beacon, using Blender horizontal glints and textured bloom. Water regions limited above foreground subjects. No generation; 12-frame source trim and master1305..1507 unchanged.
