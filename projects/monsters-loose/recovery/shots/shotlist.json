@@ -192,14 +192,14 @@
       "id": "HARPER-TOUR-001",
       "start_frame": 1507,
       "end_frame_exclusive": 1625,
-      "source": "video-tests/KLING-TOUR-001/KLING-TOUR-001-01.mp4",
+      "source": "video-tests/KLING-TOUR-002/KLING-TOUR-002-01.mp4",
       "source_in_frame": 12,
       "media_type": "video",
-      "status": "generated_for_review",
-      "timing_record": "video-tests/KLING-TOUR-001/timing.json",
+      "status": "start_only_retry_for_review",
+      "timing_record": "video-tests/KLING-TOUR-002/timing.json",
       "start_frame_reference": "assets/SCN-006-tour-wide-v001.png",
-      "end_frame_reference": "assets/ANCH-006-A-v001.png",
-      "qa_note": "Contact-sheet check at source12,48,90,129: all five identities remain coherent, group approaches; no obvious barrier breaches. Motion awaits user review."
+      "qa_note": "Background landmarks remain much steadier in samples12,48,90,129. New continuity issue: Harper loose curls become ponytail. User review pending; do not auto-regenerate.",
+      "rejected_previous_source": "video-tests/KLING-TOUR-001/KLING-TOUR-001-01.mp4"
     },
     {
       "id": "HARPER-AQUARIUM-001",

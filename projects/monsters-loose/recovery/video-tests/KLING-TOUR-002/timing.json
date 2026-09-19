@@ -1,0 +1,17 @@
+{
+  "fps": 24,
+  "duration_seconds": 6,
+  "master_start_frame": 1507,
+  "master_end_frame_exclusive": 1625,
+  "source_in_frame": 12,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "timing_basis": "Existing tour entry1507; aquarium entry1625 = nearest frame to lyric Watch onset67.683816 seconds. DAW-derived timeline, no hand seconds trim.",
+  "start_frame_reference": "assets/SCN-006-tour-wide-v001.png",
+  "used_source_end_frame_exclusive": 130,
+  "camera": "fixed tripod; starting frame only, no end constraint",
+  "actual_source_frames": 145,
+  "actual_credits": 48,
+  "unused_tail_frames": 15,
+  "qa_note": "Background landmarks remain much steadier in samples12,48,90,129. New continuity issue: Harper loose curls become ponytail. User review pending; do not auto-regenerate."
+}

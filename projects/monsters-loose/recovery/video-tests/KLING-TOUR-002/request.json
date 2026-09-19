@@ -1,0 +1,21 @@
+{
+  "expected_credits": 48,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-006-tour-wide-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "6",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous six-second LOCKED-OFF CAMERA shot animating this single starting image. The camera is fixed to a stationary tripod for the entire shot. Same viewpoint, focal length, framing and perspective from beginning to end. Laboratory tower, skyline, moon, cage structures, lamps, sidewalks and paving stay registered in exactly the same screen positions. No dolly, tracking, zoom, pan, tilt, parallax, background sliding or scenery morphing. There is NO required ending image or final composition.\nThe five people walk naturally FORWARD along the path TOWARD this stationary camera, taking a few relaxed steps and gradually becoming a little larger in frame. Keep them all comfortably visible. Their feet lift, advance, contact the same stationary paving, and bear weight; no skating. Begin with walking underway and continue naturally at the end. Preserve identities, props, clothing and left-to-right order: orange sweater-vest boy with sketchbook, burgundy-suited woman, portly pinstripe-suited man, older glasses-wearing inspector with checklist, curly redheaded Harper in olive keeper uniform on right. No added or missing people.\nHarper gives a calm personable guided introduction, small conversational mouth movements, restrained welcoming gesture toward the cages, looking between visitors and enclosures. The visitors listen and make small head turns while walking. No exaggerated delight or theatrical presentation.\nShadowy monsters make subtle weight shifts and small head turns strictly INSIDE their enclosures, behind the closed mesh and bars. No heads, limbs, claws or tails passing through barriers. No doors opening, lunges, escapes or interaction with the visitors. Metal barriers and the entire environment remain rigid and stationary. Warm practical lamps remain steady, red beacons may blink softly without moving position.\nPreserve the exact rich graphic-novel illustration: bold ink contours, crosshatching, restrained halftone, deep teal nighttime and amber light, matte pavement. No photorealism, no glossy CGI, no new text, no captions, no speech bubbles, no generated audio, no cuts."
+  ]
+}

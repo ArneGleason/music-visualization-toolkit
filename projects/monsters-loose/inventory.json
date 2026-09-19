@@ -229,6 +229,12 @@
       "snapshot_sha256": "161d842a043a9bfcae49acfa664de2ec9249783d3d194ffb52a7bfbf9efecb8e"
     },
     {
+      "path": "animatic/build-opening-v32.py",
+      "bytes": 1740,
+      "included": true,
+      "snapshot_sha256": "33b5eed28e6ed2d5ba6155c2670520c292a088d6ce18006a7e714bb528e221dc"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -326,7 +332,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "d99ad574c5f4058847cc35a0dce72ea3aa271aa363fc52ff8084494e12413da4"
+      "snapshot_sha256": "46329243d7cd79c73cb7953673ab11ce9e732c61d81701954981faf6840e33de"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -807,6 +813,17 @@
       "snapshot_sha256": "7ddc8412f5e6fa2b0c841dc51852f27bd41e9af4473923c9648e5688a2b1c8af"
     },
     {
+      "path": "animatic/MonstersLoose-v32-opening-through-habitats.mp4",
+      "bytes": 80201926,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v32-through-habitats.blend",
+      "bytes": 293273,
+      "included": true,
+      "snapshot_sha256": "9f18660d696e1c49e51c7cdfe8394798e44767f397fd0c45204d0374576a4e0e"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1014,6 +1031,11 @@
     },
     {
       "path": "animatic/render-v31.log",
+      "bytes": 138123,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v32.log",
       "bytes": 138123,
       "included": false
     },
@@ -22947,15 +22969,15 @@
     },
     {
       "path": "shots/SCN-006-tour-aquarium.md",
-      "bytes": 1372,
+      "bytes": 2145,
       "included": true,
-      "snapshot_sha256": "5cfd4f584eecb026ad09b9817d4fad971ef5231560acb631e6f022c140b00607"
+      "snapshot_sha256": "985189f0266fb0ba115814247fe7f7140736c252c0968650b1a2929f2df70108"
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 17486,
+      "bytes": 17535,
       "included": true,
-      "snapshot_sha256": "4d6ee6be7182e2ad43651602d1f0c849dc76c255799e4967434a2822a9db6ddc"
+      "snapshot_sha256": "91e3874fd9848fc707c88593fbb18d8737f524177399541b7631dd9a5f565ed6"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -23136,6 +23158,12 @@
       "bytes": 1549,
       "included": true,
       "snapshot_sha256": "9b2656c24d4be4174ba24db9d29393d2646d9b3471b5a9bd2a9e6095def8f2ac"
+    },
+    {
+      "path": "video-tests/collect-kling-tour-002.py",
+      "bytes": 1549,
+      "included": true,
+      "snapshot_sha256": "f9c8cafc2a5426b2713b6ee5d81853e843b40b450c949ab2c4b810787bbdd128"
     },
     {
       "path": "video-tests/collect-kling-town-001.py",
@@ -24645,6 +24673,52 @@
       "snapshot_sha256": "9dbe3dc2480e9a397f39452968b16ac16c3d1d61c13aefbe6359aa092de96b4a"
     },
     {
+      "path": "video-tests/KLING-TOUR-002/KLING-TOUR-002-01.mp4",
+      "bytes": 20269203,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-TOUR-002/prompt.txt",
+      "bytes": 2118,
+      "included": true,
+      "snapshot_sha256": "0ff803af619a2169ca49b85fb953a9d5d6c68f70a48ccfcd05cb16bca9eabe8a"
+    },
+    {
+      "path": "video-tests/KLING-TOUR-002/request.json",
+      "bytes": 2553,
+      "included": true,
+      "snapshot_sha256": "6c4fbe95e23090e70a873645b8b9154ca37c97f0e888e248925622c4e0cc81a4"
+    },
+    {
+      "path": "video-tests/KLING-TOUR-002/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "c683a24b192fd92d82a646f866f0d506f7ce85919e483cfee0588fe2c4024a97"
+    },
+    {
+      "path": "video-tests/KLING-TOUR-002/review.jpg",
+      "bytes": 235173,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-TOUR-002/submission-stderr.txt",
+      "bytes": 3417,
+      "included": true,
+      "snapshot_sha256": "86af9ae3e4588b8ec1e58a2e47f9306dddfcadfce3545e27b3b8c3a3bf50656d"
+    },
+    {
+      "path": "video-tests/KLING-TOUR-002/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "b62ae9041832a331650580791fa670085cc9efe12a71d1965ac77338bf638907"
+    },
+    {
+      "path": "video-tests/KLING-TOUR-002/timing.json",
+      "bytes": 824,
+      "included": true,
+      "snapshot_sha256": "291b5e3494460baadf81b479506394c49a33f24dc434bab412df3ca1acdf7008"
+    },
+    {
       "path": "video-tests/KLING-TOWN-001/KLING-TOWN-001-01.mp4",
       "bytes": 17922166,
       "included": false
@@ -24847,6 +24921,12 @@
       "bytes": 621,
       "included": true,
       "snapshot_sha256": "b9ce87ccc40c77573efd2d703fcb76009e80943ad25fa01bed9a39105dc51b30"
+    },
+    {
+      "path": "video-tests/run-kling-tour-002.py",
+      "bytes": 621,
+      "included": true,
+      "snapshot_sha256": "377256a3c4a910a6f66b26c12577f40c56813cadcd150b5f2980cf01269626ce"
     },
     {
       "path": "video-tests/run-kling-town-001.py",

@@ -7,3 +7,8 @@ Tour master1507..1625 exclusive (118 frames), source12..130 exclusive. Generate6
 Aquarium master1625..1708 exclusive (83frames), new planning still SCN-006-aquarium-v001. Cut1625 comes from nearest frame to aligned Watch lyric onset67.683816s. Existing whole ends70.762816s, keeper next line starts70.845816s; existing1708 storyboard cut retained for now. Follow-on existing lasso still1708..2036 is planning only.
 
 Both stills made with built-in image generation using ANCH-006-A-v001 for identity/style. Prompts saved beside images. No aquarium video generated yet. Full edit v31 preserves preceding approved shots and remaining storyboard. New tour video and aquarium composition await user review.
+
+## Tour retry002
+User rejected take001 background geometry sliding despite good acting. Assistant confirmed take001 used both generated wide start and original close end. User authorized start-only. Retry002: same six-second model/1080p/48credits, no tailImage input, fixed tripod camera, people walk toward camera; rigid background and contained subtle creature movement. Same 12-frame pre/post convention, intended source12..130, master1507..1625. Aquarium cut unchanged. Request/submission retained in video-tests/KLING-TOUR-002. No automatic resubmissions.
+
+Take002 returned:145frames24fps. Sampled background registration much improved; Harper hair shifts into ponytail, flagged to user. Integrated v32 for review, not approved. No automatic further generation.
