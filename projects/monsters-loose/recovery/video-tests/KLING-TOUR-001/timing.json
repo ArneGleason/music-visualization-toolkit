@@ -1,0 +1,16 @@
+{
+  "fps": 24,
+  "duration_seconds": 6,
+  "master_start_frame": 1507,
+  "master_end_frame_exclusive": 1625,
+  "source_in_frame": 12,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "timing_basis": "Existing tour entry1507; aquarium entry1625 = nearest frame to lyric Watch onset67.683816 seconds. DAW-derived timeline, no hand seconds trim.",
+  "end_frame_reference": "assets/ANCH-006-A-v001.png",
+  "start_frame_reference": "assets/SCN-006-tour-wide-v001.png",
+  "actual_source_frames": 145,
+  "actual_credits": 48,
+  "used_source_end_frame_exclusive": 130,
+  "unused_tail_frames": 15
+}

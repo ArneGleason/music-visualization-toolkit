@@ -10,7 +10,7 @@
     "applies_to": "Future generations; existing approved clips retain recorded source in-points",
     "conventions": "GENERATION-CONVENTIONS.md"
   },
-  "scope": "Opening through habitat storyboard, with exterior reset before visitors tour; video approved or for review through frame1304, planning stills through2461.",
+  "scope": "Opening through swamp and tour video; aquarium reference and later storyboard through frame2461.",
   "frame_convention": "one-based, end exclusive; source in zero-based",
   "timing_basis": "Existing DAW beat 6.2 at frame 90; existing scene-2 boundary at frame 207",
   "shots": [
@@ -189,14 +189,29 @@
       "lighting_timing_record": "motion-graphics/SWAMP-LIGHTS-001/timing-v002.json"
     },
     {
-      "id": "ANCH-006-A-PLAN",
+      "id": "HARPER-TOUR-001",
       "start_frame": 1507,
+      "end_frame_exclusive": 1625,
+      "source": "video-tests/KLING-TOUR-001/KLING-TOUR-001-01.mp4",
+      "source_in_frame": 12,
+      "media_type": "video",
+      "status": "generated_for_review",
+      "timing_record": "video-tests/KLING-TOUR-001/timing.json",
+      "start_frame_reference": "assets/SCN-006-tour-wide-v001.png",
+      "end_frame_reference": "assets/ANCH-006-A-v001.png",
+      "qa_note": "Contact-sheet check at source12,48,90,129: all five identities remain coherent, group approaches; no obvious barrier breaches. Motion awaits user review."
+    },
+    {
+      "id": "HARPER-AQUARIUM-001",
+      "start_frame": 1625,
       "end_frame_exclusive": 1708,
-      "source": "assets/ANCH-006-A-v001.png",
+      "source": "assets/SCN-006-aquarium-v001.png",
       "source_in_frame": 0,
       "media_type": "image",
-      "status": "existing_storyboard_for_planning",
-      "timing_basis": "Existing storyboard cut preserved"
+      "status": "new_still_for_review",
+      "timing_basis": "Watch onset67.683816s rounded to master1625; existing next cut1708 retained",
+      "assumed_future_pre_roll_frames": 12,
+      "assumed_future_post_roll_frames": 12
     },
     {
       "id": "ANCH-006-B-PLAN",
