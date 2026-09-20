@@ -1,0 +1,74 @@
+[
+  {
+    "id": "OPEN-LANDING",
+    "input_source": "motion-graphics/HELI-LIGHTS-001/KLING-OPEN-003-lights-v002.mp4",
+    "output_source": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/OPEN-LANDING-beacons-v001.mp4",
+    "frames": 121,
+    "master_start_frame": 90,
+    "master_end_frame_exclusive": 207,
+    "source_in_frame": 4,
+    "period_frames": 29,
+    "sigma_frames": 3.4,
+    "stagger_frames": 4,
+    "coordinates_space": "960x540",
+    "visible_counts": {
+      "0": 121.0,
+      "1": 121.0,
+      "2": 121.0,
+      "3": 121.0,
+      "4": 121.0
+    }
+  },
+  {
+    "id": "HARPER-INTRO",
+    "input_source": "motion-graphics/HARPER-THOUGHT-001/Harper-thought-bubble-v003.mp4",
+    "output_source": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/HARPER-INTRO-beacons-v001.mp4",
+    "frames": 121,
+    "master_start_frame": 207,
+    "master_end_frame_exclusive": 304,
+    "source_in_frame": 12,
+    "period_frames": 29,
+    "sigma_frames": 3.4,
+    "stagger_frames": 4,
+    "coordinates_space": "960x540",
+    "visible_counts": {
+      "0": 121.0,
+      "1": 121.0,
+      "2": 121.0
+    }
+  },
+  {
+    "id": "HARPER-BOLT",
+    "input_source": "motion-graphics/BOLT-THOUGHT-001/Bolt-oh-my-v001.mp4",
+    "output_source": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/HARPER-BOLT-beacons-v001.mp4",
+    "frames": 241,
+    "master_start_frame": 304,
+    "master_end_frame_exclusive": 380,
+    "source_in_frame": 24,
+    "period_frames": 29,
+    "sigma_frames": 3.4,
+    "stagger_frames": 4,
+    "coordinates_space": "960x540",
+    "visible_counts": {
+      "0": 241.0,
+      "1": 241.0
+    }
+  },
+  {
+    "id": "STEALTH-POV",
+    "input_source": "motion-graphics/STEALTH-POV-001/Stealth-POV-motion-lens-v002.mp4",
+    "output_source": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/STEALTH-POV-beacons-v001.mp4",
+    "frames": 193,
+    "master_start_frame": 380,
+    "master_end_frame_exclusive": 504,
+    "source_in_frame": 12,
+    "period_frames": 29,
+    "sigma_frames": 3.4,
+    "stagger_frames": 4,
+    "coordinates_space": "960x540",
+    "visible_counts": {
+      "0": 193.0,
+      "1": 193.0
+    }
+  }
+]

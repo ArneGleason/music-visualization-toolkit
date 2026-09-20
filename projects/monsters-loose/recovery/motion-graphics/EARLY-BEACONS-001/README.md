@@ -1,0 +1,6 @@
+# Early shot structure beacon continuity
+User requested red structure warning lights on edit shots2-5: OPEN-LANDING, HARPER-INTRO, HARPER-BOLT, STEALTH-POV. Only building/enclosure beacons, not helicopter lamps or helipad edge lights. Existing thought bubbles, aircraft effects, POV bob/lens and approved source timing preserved.
+
+prepare.py tracks12 existing red lights across the four original input composites. shots.json preserves those input paths and prepare.py reuses them on subsequent runs to avoid applying the effect twice. render.py runs four Blender overlay builds and FFmpeg composites. Each subfolder has editable build.py, tracks, visibility and timing plus saved Blender project. Master-phase29frame Gaussian pulse, sigma3.4, stagger4frames, same as swamp/tour; distance-scaled halos, feathered suppression of original steady glow. Tower primary beacon uses phase7 across shots. No generation/credits.
+
+Shot2 master90..207 source4; shot3 master207..304 source12; shot4 master304..380 source24; shot5 master380..504 source12. End frames exclusive. All source lengths and cuts unchanged. v37 review. Original inputs remain available and recorded in shotlist pre_structure_beacon_source.

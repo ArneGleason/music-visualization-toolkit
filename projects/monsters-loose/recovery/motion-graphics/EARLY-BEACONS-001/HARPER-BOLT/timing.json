@@ -1,0 +1,17 @@
+{
+  "id": "HARPER-BOLT",
+  "input_source": "motion-graphics/BOLT-THOUGHT-001/Bolt-oh-my-v001.mp4",
+  "output_source": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/HARPER-BOLT-beacons-v001.mp4",
+  "frames": 241,
+  "master_start_frame": 304,
+  "master_end_frame_exclusive": 380,
+  "source_in_frame": 24,
+  "period_frames": 29,
+  "sigma_frames": 3.4,
+  "stagger_frames": 4,
+  "coordinates_space": "960x540",
+  "visible_counts": {
+    "0": 241.0,
+    "1": 241.0
+  }
+}

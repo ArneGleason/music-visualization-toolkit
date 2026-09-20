@@ -259,6 +259,12 @@
       "snapshot_sha256": "44b0eed3a5de650cdf949d28956bd63f3a3dd7a54903d9bdbd6379ac6a4dd83d"
     },
     {
+      "path": "animatic/build-opening-v37.py",
+      "bytes": 1211,
+      "included": true,
+      "snapshot_sha256": "86ff2034ceb7fcd189e4e8b674dba3f1307cfee2ccde9df3658a88f4985eb505"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -356,7 +362,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "2f283feef38eaf5b4f092b4ae14721748c611a6c1a3bf6bace9b26ff121303e3"
+      "snapshot_sha256": "3645a430866ecd83f628dc2db741cd8ea681afffaea092c73a919d30941bdecd"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -897,6 +903,17 @@
       "included": false
     },
     {
+      "path": "animatic/MonstersLoose-v37-opening-through-habitats.mp4",
+      "bytes": 81738528,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v37-through-habitats.blend",
+      "bytes": 293759,
+      "included": true,
+      "snapshot_sha256": "35b7db308bc6ecd3e4346e34d3f72a837033e04ae2423cc57e1e943e2433cd71"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1130,6 +1147,11 @@
     {
       "path": "animatic/render-v36.log",
       "bytes": 138326,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v37.log",
+      "bytes": 137816,
       "included": false
     },
     {
@@ -9198,6 +9220,3640 @@
       "bytes": 1090,
       "included": true,
       "snapshot_sha256": "38b2ee331badb1112d1900fb09d90ad650b791980170c0910a777ab3dbe49b57"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/build.py",
+      "bytes": 4522,
+      "included": true,
+      "snapshot_sha256": "480a4fbc26ff84706d6a6843c1f4ae18d85ae6b56355f7610b6d01ee97ff8d40"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/HARPER-BOLT-beacons-v001.blend",
+      "bytes": 129042,
+      "included": true,
+      "snapshot_sha256": "4ba6a6296ba9cc29888282dad20ffd40a816b7bb2a7f8fa7e5c57c2661acec3d"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/HARPER-BOLT-beacons-v001.mp4",
+      "bytes": 2555874,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0001.png",
+      "bytes": 201541,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0002.png",
+      "bytes": 201207,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0003.png",
+      "bytes": 200830,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0004.png",
+      "bytes": 200434,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0005.png",
+      "bytes": 200181,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0006.png",
+      "bytes": 200250,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0007.png",
+      "bytes": 200400,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0008.png",
+      "bytes": 200734,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0009.png",
+      "bytes": 201117,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0010.png",
+      "bytes": 201875,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0011.png",
+      "bytes": 201991,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0012.png",
+      "bytes": 202391,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0013.png",
+      "bytes": 202406,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0014.png",
+      "bytes": 202696,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0015.png",
+      "bytes": 202777,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0016.png",
+      "bytes": 202841,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0017.png",
+      "bytes": 202957,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0018.png",
+      "bytes": 202894,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0019.png",
+      "bytes": 202934,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0020.png",
+      "bytes": 203232,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0021.png",
+      "bytes": 202806,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0022.png",
+      "bytes": 202808,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0023.png",
+      "bytes": 202636,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0024.png",
+      "bytes": 203408,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0025.png",
+      "bytes": 203210,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0026.png",
+      "bytes": 203085,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0027.png",
+      "bytes": 202617,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0028.png",
+      "bytes": 202117,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0029.png",
+      "bytes": 201949,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0030.png",
+      "bytes": 201541,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0031.png",
+      "bytes": 201207,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0032.png",
+      "bytes": 200830,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0033.png",
+      "bytes": 200303,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0034.png",
+      "bytes": 200287,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0035.png",
+      "bytes": 200261,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0036.png",
+      "bytes": 200612,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0037.png",
+      "bytes": 200734,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0038.png",
+      "bytes": 201139,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0039.png",
+      "bytes": 201875,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0040.png",
+      "bytes": 201991,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0041.png",
+      "bytes": 202391,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0042.png",
+      "bytes": 202406,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0043.png",
+      "bytes": 202696,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0044.png",
+      "bytes": 202777,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0045.png",
+      "bytes": 202841,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0046.png",
+      "bytes": 202957,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0047.png",
+      "bytes": 202929,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0048.png",
+      "bytes": 202941,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0049.png",
+      "bytes": 203270,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0050.png",
+      "bytes": 202895,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0051.png",
+      "bytes": 202755,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0052.png",
+      "bytes": 202831,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0053.png",
+      "bytes": 203106,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0054.png",
+      "bytes": 203045,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0055.png",
+      "bytes": 202630,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0056.png",
+      "bytes": 202556,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0057.png",
+      "bytes": 202169,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0058.png",
+      "bytes": 202124,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0059.png",
+      "bytes": 201403,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0060.png",
+      "bytes": 201200,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0061.png",
+      "bytes": 200820,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0062.png",
+      "bytes": 200294,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0063.png",
+      "bytes": 200274,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0064.png",
+      "bytes": 200103,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0065.png",
+      "bytes": 200784,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0066.png",
+      "bytes": 200963,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0067.png",
+      "bytes": 201111,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0068.png",
+      "bytes": 201692,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0069.png",
+      "bytes": 201888,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0070.png",
+      "bytes": 202092,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0071.png",
+      "bytes": 202595,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0072.png",
+      "bytes": 202627,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0073.png",
+      "bytes": 202873,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0074.png",
+      "bytes": 202870,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0075.png",
+      "bytes": 202965,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0076.png",
+      "bytes": 202929,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0077.png",
+      "bytes": 203139,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0078.png",
+      "bytes": 203432,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0079.png",
+      "bytes": 203011,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0080.png",
+      "bytes": 202970,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0081.png",
+      "bytes": 202837,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0082.png",
+      "bytes": 203134,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0083.png",
+      "bytes": 203033,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0084.png",
+      "bytes": 202551,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0085.png",
+      "bytes": 202556,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0086.png",
+      "bytes": 202169,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0087.png",
+      "bytes": 202124,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0088.png",
+      "bytes": 201403,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0089.png",
+      "bytes": 201200,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0090.png",
+      "bytes": 200820,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0091.png",
+      "bytes": 200294,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0092.png",
+      "bytes": 200334,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0093.png",
+      "bytes": 200344,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0094.png",
+      "bytes": 200786,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0095.png",
+      "bytes": 200963,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0096.png",
+      "bytes": 201111,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0097.png",
+      "bytes": 201692,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0098.png",
+      "bytes": 201888,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0099.png",
+      "bytes": 202092,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0100.png",
+      "bytes": 202595,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0101.png",
+      "bytes": 202627,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0102.png",
+      "bytes": 202873,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0103.png",
+      "bytes": 202870,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0104.png",
+      "bytes": 202965,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0105.png",
+      "bytes": 202929,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0106.png",
+      "bytes": 202941,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0107.png",
+      "bytes": 203270,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0108.png",
+      "bytes": 202895,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0109.png",
+      "bytes": 202755,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0110.png",
+      "bytes": 202831,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0111.png",
+      "bytes": 203335,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0112.png",
+      "bytes": 203119,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0113.png",
+      "bytes": 202551,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0114.png",
+      "bytes": 202556,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0115.png",
+      "bytes": 202169,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0116.png",
+      "bytes": 202124,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0117.png",
+      "bytes": 201403,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0118.png",
+      "bytes": 201200,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0119.png",
+      "bytes": 200820,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0120.png",
+      "bytes": 200294,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0121.png",
+      "bytes": 200274,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0122.png",
+      "bytes": 200121,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0123.png",
+      "bytes": 200784,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0124.png",
+      "bytes": 200782,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0125.png",
+      "bytes": 201075,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0126.png",
+      "bytes": 201337,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0127.png",
+      "bytes": 201920,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0128.png",
+      "bytes": 202316,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0129.png",
+      "bytes": 202669,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0130.png",
+      "bytes": 202973,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0131.png",
+      "bytes": 202855,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0132.png",
+      "bytes": 203044,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0133.png",
+      "bytes": 203171,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0134.png",
+      "bytes": 202988,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0135.png",
+      "bytes": 203139,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0136.png",
+      "bytes": 203432,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0137.png",
+      "bytes": 203011,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0138.png",
+      "bytes": 202970,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0139.png",
+      "bytes": 202862,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0140.png",
+      "bytes": 203335,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0141.png",
+      "bytes": 203119,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0142.png",
+      "bytes": 202551,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0143.png",
+      "bytes": 202556,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0144.png",
+      "bytes": 202169,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0145.png",
+      "bytes": 202124,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0146.png",
+      "bytes": 201403,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0147.png",
+      "bytes": 201200,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0148.png",
+      "bytes": 200820,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0149.png",
+      "bytes": 200406,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0150.png",
+      "bytes": 200332,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0151.png",
+      "bytes": 200187,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0152.png",
+      "bytes": 200186,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0153.png",
+      "bytes": 200808,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0154.png",
+      "bytes": 201024,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0155.png",
+      "bytes": 201466,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0156.png",
+      "bytes": 201514,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0157.png",
+      "bytes": 201649,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0158.png",
+      "bytes": 202701,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0159.png",
+      "bytes": 202737,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0160.png",
+      "bytes": 202534,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0161.png",
+      "bytes": 202710,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0162.png",
+      "bytes": 202920,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0163.png",
+      "bytes": 202873,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0164.png",
+      "bytes": 202901,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0165.png",
+      "bytes": 202739,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0166.png",
+      "bytes": 202994,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0167.png",
+      "bytes": 202945,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0168.png",
+      "bytes": 202837,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0169.png",
+      "bytes": 203335,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0170.png",
+      "bytes": 203119,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0171.png",
+      "bytes": 202551,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0172.png",
+      "bytes": 202556,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0173.png",
+      "bytes": 202169,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0174.png",
+      "bytes": 202124,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0175.png",
+      "bytes": 201403,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0176.png",
+      "bytes": 201200,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0177.png",
+      "bytes": 200820,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0178.png",
+      "bytes": 200294,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0179.png",
+      "bytes": 200274,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0180.png",
+      "bytes": 200121,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0181.png",
+      "bytes": 200215,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0182.png",
+      "bytes": 200839,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0183.png",
+      "bytes": 201038,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0184.png",
+      "bytes": 201521,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0185.png",
+      "bytes": 201480,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0186.png",
+      "bytes": 202075,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0187.png",
+      "bytes": 202643,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0188.png",
+      "bytes": 202658,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0189.png",
+      "bytes": 202655,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0190.png",
+      "bytes": 202710,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0191.png",
+      "bytes": 202920,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0192.png",
+      "bytes": 202873,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0193.png",
+      "bytes": 202901,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0194.png",
+      "bytes": 203097,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0195.png",
+      "bytes": 202702,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0196.png",
+      "bytes": 202781,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0197.png",
+      "bytes": 202876,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0198.png",
+      "bytes": 203090,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0199.png",
+      "bytes": 202709,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0200.png",
+      "bytes": 202760,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0201.png",
+      "bytes": 202551,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0202.png",
+      "bytes": 202244,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0203.png",
+      "bytes": 201557,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0204.png",
+      "bytes": 201492,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0205.png",
+      "bytes": 201311,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0206.png",
+      "bytes": 200932,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0207.png",
+      "bytes": 200406,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0208.png",
+      "bytes": 200388,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0209.png",
+      "bytes": 200205,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0210.png",
+      "bytes": 200215,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0211.png",
+      "bytes": 200839,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0212.png",
+      "bytes": 201038,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0213.png",
+      "bytes": 201521,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0214.png",
+      "bytes": 201480,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0215.png",
+      "bytes": 202075,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0216.png",
+      "bytes": 202643,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0217.png",
+      "bytes": 202658,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0218.png",
+      "bytes": 202655,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0219.png",
+      "bytes": 202710,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0220.png",
+      "bytes": 202920,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0221.png",
+      "bytes": 203216,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0222.png",
+      "bytes": 203210,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0223.png",
+      "bytes": 203432,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0224.png",
+      "bytes": 202836,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0225.png",
+      "bytes": 202868,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0226.png",
+      "bytes": 203035,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0227.png",
+      "bytes": 203219,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0228.png",
+      "bytes": 202705,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0229.png",
+      "bytes": 202720,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0230.png",
+      "bytes": 202650,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0231.png",
+      "bytes": 202297,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0232.png",
+      "bytes": 201732,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0233.png",
+      "bytes": 201652,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0234.png",
+      "bytes": 201504,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0235.png",
+      "bytes": 200834,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0236.png",
+      "bytes": 200308,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0237.png",
+      "bytes": 200583,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0238.png",
+      "bytes": 200361,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0239.png",
+      "bytes": 200376,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0240.png",
+      "bytes": 200895,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/overlay/lights-0241.png",
+      "bytes": 201056,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/render.log",
+      "bytes": 43581,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/review.jpg",
+      "bytes": 50990,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/timing.json",
+      "bytes": 481,
+      "included": true,
+      "snapshot_sha256": "2c0161df9317cba8298c54a7892d2c4f18f17453117450aab7b341b56887adf8"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/tracks.json",
+      "bytes": 36771,
+      "included": true,
+      "snapshot_sha256": "24db7b2fb7b27e37d99d0735c83b707e84210b94373ac59b024f3084ab91f3d4"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT/visibility.json",
+      "bytes": 2424,
+      "included": true,
+      "snapshot_sha256": "8aa1e6d3594a62fe11d5ea56336aeb1485413b7ade0c7636e2e434d23e18d087"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT-0.jpg",
+      "bytes": 78754,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-BOLT-1.jpg",
+      "bytes": 71166,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/build.py",
+      "bytes": 4523,
+      "included": true,
+      "snapshot_sha256": "1db787b8263189e9d3ea1de49e3d9f6294516fd57628b6aec5f1747bd42ac316"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/HARPER-INTRO-beacons-v001.blend",
+      "bytes": 128490,
+      "included": true,
+      "snapshot_sha256": "1d889454f63d4464961e79dca6a6a658c95422af63cbb0ff32dd4d9916e1955a"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/HARPER-INTRO-beacons-v001.mp4",
+      "bytes": 2921971,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0001.png",
+      "bytes": 203292,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0002.png",
+      "bytes": 203065,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0003.png",
+      "bytes": 203173,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0004.png",
+      "bytes": 202912,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0005.png",
+      "bytes": 203042,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0006.png",
+      "bytes": 202720,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0007.png",
+      "bytes": 202491,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0008.png",
+      "bytes": 203696,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0009.png",
+      "bytes": 203502,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0010.png",
+      "bytes": 204110,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0011.png",
+      "bytes": 204414,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0012.png",
+      "bytes": 203801,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0013.png",
+      "bytes": 204888,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0014.png",
+      "bytes": 205020,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0015.png",
+      "bytes": 205471,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0016.png",
+      "bytes": 205137,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0017.png",
+      "bytes": 205933,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0018.png",
+      "bytes": 205955,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0019.png",
+      "bytes": 205735,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0020.png",
+      "bytes": 205983,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0021.png",
+      "bytes": 205981,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0022.png",
+      "bytes": 206050,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0023.png",
+      "bytes": 205453,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0024.png",
+      "bytes": 205577,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0025.png",
+      "bytes": 205871,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0026.png",
+      "bytes": 205000,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0027.png",
+      "bytes": 204659,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0028.png",
+      "bytes": 204258,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0029.png",
+      "bytes": 204114,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0030.png",
+      "bytes": 204133,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0031.png",
+      "bytes": 203217,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0032.png",
+      "bytes": 203385,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0033.png",
+      "bytes": 202809,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0034.png",
+      "bytes": 202708,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0035.png",
+      "bytes": 202457,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0036.png",
+      "bytes": 202306,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0037.png",
+      "bytes": 202816,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0038.png",
+      "bytes": 202962,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0039.png",
+      "bytes": 203721,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0040.png",
+      "bytes": 203863,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0041.png",
+      "bytes": 203897,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0042.png",
+      "bytes": 204582,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0043.png",
+      "bytes": 204983,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0044.png",
+      "bytes": 205140,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0045.png",
+      "bytes": 205896,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0046.png",
+      "bytes": 205834,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0047.png",
+      "bytes": 206001,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0048.png",
+      "bytes": 206110,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0049.png",
+      "bytes": 205680,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0050.png",
+      "bytes": 206042,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0051.png",
+      "bytes": 205981,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0052.png",
+      "bytes": 206341,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0053.png",
+      "bytes": 205639,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0054.png",
+      "bytes": 205788,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0055.png",
+      "bytes": 205440,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0056.png",
+      "bytes": 204726,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0057.png",
+      "bytes": 204248,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0058.png",
+      "bytes": 204003,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0059.png",
+      "bytes": 203716,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0060.png",
+      "bytes": 203645,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0061.png",
+      "bytes": 202735,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0062.png",
+      "bytes": 202716,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0063.png",
+      "bytes": 202600,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0064.png",
+      "bytes": 202607,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0065.png",
+      "bytes": 202457,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0066.png",
+      "bytes": 202895,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0067.png",
+      "bytes": 203704,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0068.png",
+      "bytes": 203288,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0069.png",
+      "bytes": 204015,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0070.png",
+      "bytes": 204383,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0071.png",
+      "bytes": 204410,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0072.png",
+      "bytes": 205125,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0073.png",
+      "bytes": 205549,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0074.png",
+      "bytes": 205417,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0075.png",
+      "bytes": 205941,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0076.png",
+      "bytes": 205677,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0077.png",
+      "bytes": 205889,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0078.png",
+      "bytes": 205700,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0079.png",
+      "bytes": 205896,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0080.png",
+      "bytes": 206121,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0081.png",
+      "bytes": 206296,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0082.png",
+      "bytes": 205725,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0083.png",
+      "bytes": 206102,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0084.png",
+      "bytes": 205107,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0085.png",
+      "bytes": 205365,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0086.png",
+      "bytes": 204499,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0087.png",
+      "bytes": 204245,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0088.png",
+      "bytes": 203721,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0089.png",
+      "bytes": 203656,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0090.png",
+      "bytes": 202607,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0091.png",
+      "bytes": 202541,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0092.png",
+      "bytes": 202604,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0093.png",
+      "bytes": 202792,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0094.png",
+      "bytes": 203150,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0095.png",
+      "bytes": 202820,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0096.png",
+      "bytes": 203442,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0097.png",
+      "bytes": 203521,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0098.png",
+      "bytes": 203753,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0099.png",
+      "bytes": 204539,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0100.png",
+      "bytes": 204874,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0101.png",
+      "bytes": 204944,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0102.png",
+      "bytes": 205681,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0103.png",
+      "bytes": 205786,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0104.png",
+      "bytes": 205675,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0105.png",
+      "bytes": 205646,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0106.png",
+      "bytes": 205596,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0107.png",
+      "bytes": 205564,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0108.png",
+      "bytes": 205496,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0109.png",
+      "bytes": 206015,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0110.png",
+      "bytes": 205416,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0111.png",
+      "bytes": 205462,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0112.png",
+      "bytes": 205229,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0113.png",
+      "bytes": 204885,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0114.png",
+      "bytes": 204632,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0115.png",
+      "bytes": 204397,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0116.png",
+      "bytes": 204171,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0117.png",
+      "bytes": 204191,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0118.png",
+      "bytes": 203823,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0119.png",
+      "bytes": 203189,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0120.png",
+      "bytes": 202898,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/overlay/lights-0121.png",
+      "bytes": 202799,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/render.log",
+      "bytes": 22224,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/review.jpg",
+      "bytes": 47602,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/timing.json",
+      "bytes": 514,
+      "included": true,
+      "snapshot_sha256": "ae391b889c14f06bcd154af7a6fcaec3d1a706f81cab94e928e9ed033562afd9"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/tracks.json",
+      "bytes": 27866,
+      "included": true,
+      "snapshot_sha256": "7d8071a2c5aa8ab6cad2fe8ed83fb86c5a5d8532f165ce61b748de8914a66275"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/visibility.json",
+      "bytes": 1836,
+      "included": true,
+      "snapshot_sha256": "7e483d9b9d035e7616f8e3991a7c019e559d23160b65ab265c0916a5d476b10d"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO-0.jpg",
+      "bytes": 74442,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO-1.jpg",
+      "bytes": 74826,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/build.py",
+      "bytes": 4523,
+      "included": true,
+      "snapshot_sha256": "957755f11359ac7477fa8b8242638b4e0bfe1d528abd0b97461735fc17862bb5"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/OPEN-LANDING-beacons-v001.blend",
+      "bytes": 153902,
+      "included": true,
+      "snapshot_sha256": "bfc4eda81796b825ab9ca2d23e51dcc44c0d60abe10ccefe96081b00c88f6ae0"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/OPEN-LANDING-beacons-v001.mp4",
+      "bytes": 3615479,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0001.png",
+      "bytes": 461601,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0002.png",
+      "bytes": 461818,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0003.png",
+      "bytes": 462383,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0004.png",
+      "bytes": 461441,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0005.png",
+      "bytes": 461052,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0006.png",
+      "bytes": 462583,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0007.png",
+      "bytes": 461599,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0008.png",
+      "bytes": 461631,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0009.png",
+      "bytes": 461955,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0010.png",
+      "bytes": 462571,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0011.png",
+      "bytes": 462855,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0012.png",
+      "bytes": 463177,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0013.png",
+      "bytes": 463571,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0014.png",
+      "bytes": 465009,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0015.png",
+      "bytes": 465659,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0016.png",
+      "bytes": 465609,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0017.png",
+      "bytes": 466264,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0018.png",
+      "bytes": 465931,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0019.png",
+      "bytes": 465794,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0020.png",
+      "bytes": 466045,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0021.png",
+      "bytes": 464555,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0022.png",
+      "bytes": 463749,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0023.png",
+      "bytes": 464235,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0024.png",
+      "bytes": 462612,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0025.png",
+      "bytes": 462055,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0026.png",
+      "bytes": 462182,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0027.png",
+      "bytes": 461176,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0028.png",
+      "bytes": 461951,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0029.png",
+      "bytes": 461174,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0030.png",
+      "bytes": 461096,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0031.png",
+      "bytes": 462363,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0032.png",
+      "bytes": 460664,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0033.png",
+      "bytes": 461753,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0034.png",
+      "bytes": 460784,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0035.png",
+      "bytes": 462178,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0036.png",
+      "bytes": 461599,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0037.png",
+      "bytes": 462417,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0038.png",
+      "bytes": 462254,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0039.png",
+      "bytes": 462207,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0040.png",
+      "bytes": 462176,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0041.png",
+      "bytes": 462510,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0042.png",
+      "bytes": 464037,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0043.png",
+      "bytes": 465010,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0044.png",
+      "bytes": 465965,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0045.png",
+      "bytes": 465609,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0046.png",
+      "bytes": 466264,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0047.png",
+      "bytes": 465786,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0048.png",
+      "bytes": 465794,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0049.png",
+      "bytes": 465682,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0050.png",
+      "bytes": 464433,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0051.png",
+      "bytes": 464168,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0052.png",
+      "bytes": 463159,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0053.png",
+      "bytes": 462356,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0054.png",
+      "bytes": 462055,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0055.png",
+      "bytes": 462182,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0056.png",
+      "bytes": 461856,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0057.png",
+      "bytes": 461841,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0058.png",
+      "bytes": 461805,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0059.png",
+      "bytes": 460997,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0060.png",
+      "bytes": 461870,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0061.png",
+      "bytes": 461488,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0062.png",
+      "bytes": 462063,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0063.png",
+      "bytes": 461811,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0064.png",
+      "bytes": 462182,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0065.png",
+      "bytes": 461497,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0066.png",
+      "bytes": 461328,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0067.png",
+      "bytes": 462132,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0068.png",
+      "bytes": 461860,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0069.png",
+      "bytes": 461954,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0070.png",
+      "bytes": 463270,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0071.png",
+      "bytes": 463577,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0072.png",
+      "bytes": 465188,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0073.png",
+      "bytes": 465352,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0074.png",
+      "bytes": 465517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0075.png",
+      "bytes": 466168,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0076.png",
+      "bytes": 465556,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0077.png",
+      "bytes": 465728,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0078.png",
+      "bytes": 466494,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0079.png",
+      "bytes": 464534,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0080.png",
+      "bytes": 463690,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0081.png",
+      "bytes": 463161,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0082.png",
+      "bytes": 463191,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0083.png",
+      "bytes": 461887,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0084.png",
+      "bytes": 461936,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0085.png",
+      "bytes": 461974,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0086.png",
+      "bytes": 462187,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0087.png",
+      "bytes": 460946,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0088.png",
+      "bytes": 460947,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0089.png",
+      "bytes": 462255,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0090.png",
+      "bytes": 462017,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0091.png",
+      "bytes": 462049,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0092.png",
+      "bytes": 462701,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0093.png",
+      "bytes": 462697,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0094.png",
+      "bytes": 461687,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0095.png",
+      "bytes": 462131,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0096.png",
+      "bytes": 462527,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0097.png",
+      "bytes": 462138,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0098.png",
+      "bytes": 463044,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0099.png",
+      "bytes": 463249,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0100.png",
+      "bytes": 464343,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0101.png",
+      "bytes": 465405,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0102.png",
+      "bytes": 465731,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0103.png",
+      "bytes": 465190,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0104.png",
+      "bytes": 466191,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0105.png",
+      "bytes": 465593,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0106.png",
+      "bytes": 465633,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0107.png",
+      "bytes": 465425,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0108.png",
+      "bytes": 464832,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0109.png",
+      "bytes": 464147,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0110.png",
+      "bytes": 463945,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0111.png",
+      "bytes": 462256,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0112.png",
+      "bytes": 461524,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0113.png",
+      "bytes": 461443,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0114.png",
+      "bytes": 461461,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0115.png",
+      "bytes": 461846,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0116.png",
+      "bytes": 461125,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0117.png",
+      "bytes": 460997,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0118.png",
+      "bytes": 461870,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0119.png",
+      "bytes": 462017,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0120.png",
+      "bytes": 461737,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/overlay/lights-0121.png",
+      "bytes": 461023,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/render.log",
+      "bytes": 22224,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/review.jpg",
+      "bytes": 36264,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/timing.json",
+      "bytes": 543,
+      "included": true,
+      "snapshot_sha256": "c8f63d944ef32315dda2d083b7aadad6207fad3374c588206d2dc5e3c1a7a70d"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/tracks.json",
+      "bytes": 45258,
+      "included": true,
+      "snapshot_sha256": "13706b2ef24c6e60201bd01092a7c281b0b0aad20ee53deab24e38a34ae6aff1"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/visibility.json",
+      "bytes": 3060,
+      "included": true,
+      "snapshot_sha256": "059299b80ed159c4d131963a69e0d1796ec575cc0a9e011c935e5317dc6e4ab6"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING-0.jpg",
+      "bytes": 53919,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING-1.jpg",
+      "bytes": 71513,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/prepare.py",
+      "bytes": 3390,
+      "included": true,
+      "snapshot_sha256": "4518437135f0c612d7d202917344c730c1fc29b3cd95e44ce2262eaf32959d62"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/README.md",
+      "bytes": 1208,
+      "included": true,
+      "snapshot_sha256": "be450fc6bd72a978bb52fbedf6c002daf0cc1925d96579f2c2925b574dc6d9ed"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/references.jpg",
+      "bytes": 666676,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/render.py",
+      "bytes": 944,
+      "included": true,
+      "snapshot_sha256": "edf74a13e1e91a8b4eaad15ab850422161083ffaa4e6287eee2091309068d5c0"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/review.jpg",
+      "bytes": 213176,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/shots.json",
+      "bytes": 2190,
+      "included": true,
+      "snapshot_sha256": "e238e03d93c13a23dab29a63c75280149f9555bde88f7994f4dd90c2bb4b01dd"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/build.py",
+      "bytes": 4522,
+      "included": true,
+      "snapshot_sha256": "9c7aa46f751772715c334e05a76158cfd4ea854fbb4239133d70dc964cdd1a90"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0001.png",
+      "bytes": 201731,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0002.png",
+      "bytes": 200964,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0003.png",
+      "bytes": 200769,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0004.png",
+      "bytes": 200281,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0005.png",
+      "bytes": 200526,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0006.png",
+      "bytes": 200795,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0007.png",
+      "bytes": 201123,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0008.png",
+      "bytes": 201229,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0009.png",
+      "bytes": 201143,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0010.png",
+      "bytes": 201900,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0011.png",
+      "bytes": 201899,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0012.png",
+      "bytes": 202191,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0013.png",
+      "bytes": 202533,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0014.png",
+      "bytes": 202276,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0015.png",
+      "bytes": 202667,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0016.png",
+      "bytes": 202699,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0017.png",
+      "bytes": 202402,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0018.png",
+      "bytes": 202333,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0019.png",
+      "bytes": 202439,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0020.png",
+      "bytes": 202440,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0021.png",
+      "bytes": 202402,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0022.png",
+      "bytes": 202657,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0023.png",
+      "bytes": 202812,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0024.png",
+      "bytes": 202682,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0025.png",
+      "bytes": 202524,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0026.png",
+      "bytes": 202829,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0027.png",
+      "bytes": 201980,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0028.png",
+      "bytes": 201902,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0029.png",
+      "bytes": 202087,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0030.png",
+      "bytes": 201716,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0031.png",
+      "bytes": 201236,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0032.png",
+      "bytes": 200574,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0033.png",
+      "bytes": 200268,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0034.png",
+      "bytes": 200315,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0035.png",
+      "bytes": 200671,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0036.png",
+      "bytes": 201120,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0037.png",
+      "bytes": 201081,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0038.png",
+      "bytes": 201497,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0039.png",
+      "bytes": 201908,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0040.png",
+      "bytes": 201808,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0041.png",
+      "bytes": 202297,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0042.png",
+      "bytes": 202499,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0043.png",
+      "bytes": 203087,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0044.png",
+      "bytes": 202575,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0045.png",
+      "bytes": 202641,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0046.png",
+      "bytes": 202565,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0047.png",
+      "bytes": 202552,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0048.png",
+      "bytes": 202497,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0049.png",
+      "bytes": 203281,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0050.png",
+      "bytes": 203053,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0051.png",
+      "bytes": 202401,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0052.png",
+      "bytes": 202836,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0053.png",
+      "bytes": 202939,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0054.png",
+      "bytes": 202389,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0055.png",
+      "bytes": 202226,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0056.png",
+      "bytes": 202133,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0057.png",
+      "bytes": 201448,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0058.png",
+      "bytes": 201292,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0059.png",
+      "bytes": 200762,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0060.png",
+      "bytes": 200954,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0061.png",
+      "bytes": 200159,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0062.png",
+      "bytes": 200130,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0063.png",
+      "bytes": 200212,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0064.png",
+      "bytes": 200688,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0065.png",
+      "bytes": 200967,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0066.png",
+      "bytes": 201411,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0067.png",
+      "bytes": 201501,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0068.png",
+      "bytes": 201688,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0069.png",
+      "bytes": 201936,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0070.png",
+      "bytes": 202951,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0071.png",
+      "bytes": 202936,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0072.png",
+      "bytes": 203034,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0073.png",
+      "bytes": 202843,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0074.png",
+      "bytes": 202835,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0075.png",
+      "bytes": 202776,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0076.png",
+      "bytes": 202863,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0077.png",
+      "bytes": 202394,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0078.png",
+      "bytes": 203381,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0079.png",
+      "bytes": 202592,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0080.png",
+      "bytes": 202654,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0081.png",
+      "bytes": 202870,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0082.png",
+      "bytes": 202409,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0083.png",
+      "bytes": 202410,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0084.png",
+      "bytes": 202605,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0085.png",
+      "bytes": 201634,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0086.png",
+      "bytes": 201984,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0087.png",
+      "bytes": 202047,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0088.png",
+      "bytes": 201448,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0089.png",
+      "bytes": 201113,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0090.png",
+      "bytes": 200807,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0091.png",
+      "bytes": 200332,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0092.png",
+      "bytes": 200684,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0093.png",
+      "bytes": 200463,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0094.png",
+      "bytes": 200864,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0095.png",
+      "bytes": 200883,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0096.png",
+      "bytes": 201365,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0097.png",
+      "bytes": 201896,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0098.png",
+      "bytes": 202849,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0099.png",
+      "bytes": 202949,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0100.png",
+      "bytes": 203278,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0101.png",
+      "bytes": 202814,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0102.png",
+      "bytes": 202470,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0103.png",
+      "bytes": 202916,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0104.png",
+      "bytes": 202843,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0105.png",
+      "bytes": 202546,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0106.png",
+      "bytes": 202518,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0107.png",
+      "bytes": 202840,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0108.png",
+      "bytes": 202643,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0109.png",
+      "bytes": 202461,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0110.png",
+      "bytes": 202955,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0111.png",
+      "bytes": 202731,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0112.png",
+      "bytes": 202584,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0113.png",
+      "bytes": 202156,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0114.png",
+      "bytes": 202282,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0115.png",
+      "bytes": 201629,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0116.png",
+      "bytes": 201090,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0117.png",
+      "bytes": 200785,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0118.png",
+      "bytes": 200579,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0119.png",
+      "bytes": 200414,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0120.png",
+      "bytes": 200156,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0121.png",
+      "bytes": 200302,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0122.png",
+      "bytes": 200649,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0123.png",
+      "bytes": 200886,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0124.png",
+      "bytes": 201059,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0125.png",
+      "bytes": 201358,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0126.png",
+      "bytes": 201791,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0127.png",
+      "bytes": 201734,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0128.png",
+      "bytes": 202342,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0129.png",
+      "bytes": 203099,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0130.png",
+      "bytes": 203057,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0131.png",
+      "bytes": 202958,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0132.png",
+      "bytes": 202702,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0133.png",
+      "bytes": 203031,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0134.png",
+      "bytes": 202905,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0135.png",
+      "bytes": 202936,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0136.png",
+      "bytes": 202710,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0137.png",
+      "bytes": 202597,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0138.png",
+      "bytes": 203435,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0139.png",
+      "bytes": 202899,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0140.png",
+      "bytes": 202601,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0141.png",
+      "bytes": 202349,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0142.png",
+      "bytes": 202442,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0143.png",
+      "bytes": 201935,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0144.png",
+      "bytes": 201271,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0145.png",
+      "bytes": 201205,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0146.png",
+      "bytes": 201019,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0147.png",
+      "bytes": 200643,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0148.png",
+      "bytes": 200528,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0149.png",
+      "bytes": 200372,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0150.png",
+      "bytes": 200527,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0151.png",
+      "bytes": 200576,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0152.png",
+      "bytes": 200875,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0153.png",
+      "bytes": 201569,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0154.png",
+      "bytes": 201494,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0155.png",
+      "bytes": 202116,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0156.png",
+      "bytes": 202660,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0157.png",
+      "bytes": 202855,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0158.png",
+      "bytes": 202941,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0159.png",
+      "bytes": 202945,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0160.png",
+      "bytes": 203257,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0161.png",
+      "bytes": 203115,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0162.png",
+      "bytes": 203391,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0163.png",
+      "bytes": 203073,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0164.png",
+      "bytes": 202530,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0165.png",
+      "bytes": 202878,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0166.png",
+      "bytes": 202740,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0167.png",
+      "bytes": 203010,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0168.png",
+      "bytes": 202860,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0169.png",
+      "bytes": 203026,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0170.png",
+      "bytes": 202811,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0171.png",
+      "bytes": 202127,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0172.png",
+      "bytes": 201892,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0173.png",
+      "bytes": 201710,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0174.png",
+      "bytes": 201611,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0175.png",
+      "bytes": 201129,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0176.png",
+      "bytes": 200943,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0177.png",
+      "bytes": 200373,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0178.png",
+      "bytes": 200329,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0179.png",
+      "bytes": 200228,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0180.png",
+      "bytes": 200315,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0181.png",
+      "bytes": 200565,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0182.png",
+      "bytes": 201372,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0183.png",
+      "bytes": 201666,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0184.png",
+      "bytes": 202137,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0185.png",
+      "bytes": 202098,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0186.png",
+      "bytes": 202896,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0187.png",
+      "bytes": 202010,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0188.png",
+      "bytes": 202826,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0189.png",
+      "bytes": 202948,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0190.png",
+      "bytes": 202857,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0191.png",
+      "bytes": 202890,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0192.png",
+      "bytes": 202822,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/overlay/lights-0193.png",
+      "bytes": 203174,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/render.log",
+      "bytes": 34989,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/review.jpg",
+      "bytes": 39516,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/STEALTH-POV-beacons-v001.blend",
+      "bytes": 126593,
+      "included": true,
+      "snapshot_sha256": "d0ebe543c7967ef18a6f7c6490d00bc75279b2d314dd32a7c0f025ab88089b51"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/STEALTH-POV-beacons-v001.mp4",
+      "bytes": 4180174,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/timing.json",
+      "bytes": 493,
+      "included": true,
+      "snapshot_sha256": "653892bad4c95db1ec9aa4ff553e8ac3cb352f4c921bb0cb369eeff112ec07d5"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/tracks.json",
+      "bytes": 29119,
+      "included": true,
+      "snapshot_sha256": "a51eb8c78f27f48124479da78557cee8c7f1f16ba3d28695214c281b8f2a5d31"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/visibility.json",
+      "bytes": 1944,
+      "included": true,
+      "snapshot_sha256": "5bce96cb101e2c062c81bdc0a60d1804be2638636940fc6c26d1327d37efe3cc"
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV-0.jpg",
+      "bytes": 53197,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV-1.jpg",
+      "bytes": 65079,
+      "included": false
     },
     {
       "path": "motion-graphics/HARPER-ARCTIC-001/build-v002.py",
@@ -24509,9 +28165,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 18574,
+      "bytes": 19716,
       "included": true,
-      "snapshot_sha256": "2f9046ce3d1aed08694ea907ebd9cb4320a23bc80ce5ceda8518131f2d316ab1"
+      "snapshot_sha256": "19ef48c71fdf5beebaa6e68e0c0c6fcd7e4f15e1b52cbce92462be4e51536906"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",

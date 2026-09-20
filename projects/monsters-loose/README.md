@@ -1,12 +1,12 @@
 # Monsters Loose — production recovery
 
-Current edit: **v36**, through master frame 2461 at 24 fps (102.54 seconds). Developed footage runs through frame 1624; a new aquarium reference fills frames 1625-1707, then existing lasso and habitat planning stills follow. The user approved the revised visible frog snatch in v28. The user also approved v29 facility beacon pulses. v30 adds synchronized elongated red water reflections; that reflection polish is retained. v31 adds the walking tour generation and new aquarium still for review.
+Current edit: **v37**, through master frame 2461 at 24 fps (102.54 seconds). Developed footage runs through frame 1624; a new aquarium reference fills frames 1625-1707, then existing lasso and habitat planning stills follow. The user approved the revised visible frog snatch in v28. The user also approved v29 facility beacon pulses. v30 adds synchronized elongated red water reflections; that reflection polish is retained. v31 adds the walking tour generation and new aquarium still for review.
 
 ## Resume
 
 Use the existing frame review at http://127.0.0.1:8767/ (same app and port). The swamp bridge occupies master frames **1305–1506**. `recovery/shots/shotlist.json` is the edit source of truth. Master frames are one-based; source offsets are zero-based; end frames are exclusive. Default assumed pre-roll is 12 frames (half a second), recorded per shot; consult actual source trims before changing cuts or lip-sync.
 
-The current Blender timeline is `recovery/animatic/MonstersLoose-v36-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
+The current Blender timeline is `recovery/animatic/MonstersLoose-v37-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
 
 ## What is backed up
 
@@ -25,7 +25,7 @@ Also preserve the original DAW project and its referenced recordings:
 1. Copy `recovery/` to the original job directory, then restore omitted source media there using `inventory.json`. Never run production builds directly inside this Git snapshot: generated content belongs outside Git.
 2. Install Blender 5.2, FFmpeg/ffprobe, and Python with NumPy/Pillow. Some generation scripts additionally require the Kling CLI and a separately authenticated account. Credentials are not backed up here.
 3. The Blender timelines use relative media paths where saved; older scripts and review state also contain absolute Windows paths. Restoring to the original job path is simplest. For another location, update these paths and use Blender's missing-file relinking before rendering. Font paths may also need relinking.
-4. Open the current v36 Blender file to inspect/render the edit. Effects can be rebuilt from their adjacent build scripts and README files. Historical animatic build scripts load predecessor `.blend` files; those small snapshots are retained. Restore source inputs before running them.
+4. Open the current v37 Blender file to inspect/render the edit. Effects can be rebuilt from their adjacent build scripts and README files. Historical animatic build scripts load predecessor `.blend` files; those small snapshots are retained. Restore source inputs before running them.
 5. Launch `tools/frame_review.py` with `--video <current-render> --notes <job>/shots/frame-review-notes.json --state <job>/animatic/frame-review-current.json --port 8767`. See `docs/FRAME_REVIEW.md`.
 
 To refresh this recovery snapshot after later work, run `python projects/monsters-loose/snapshot.py --source <job-directory>`, inspect the diff, then commit. The exporter copies files; it does not delete stale historical snapshots.
@@ -50,3 +50,5 @@ Current decision: user explicitly APPROVED tour003 as perfect, superseding earli
 Latest v35 animates aquarium1625..1708 with KLING-AQUARIUM-001,5seconds40credits, Harper Element, source12..95. Starting mouth open, then closes early and snout presses toward glass; this deviates from sustained open-mouth prompt and was disclosed for user review. Keeper likeness and intact separation appear coherent in sampled frames. No automatic retry. Tour lights v34 retained.
 
 Latest v36 adds aquarium expanding speech balloon: SORRY. then I'M NOT ON / THE MENU. One continuous ivory shape with integrated curved tail, ink pressure outline, Bangers lettering, word reveal, restrained settle. No new credits. Editable effect in AQUARIUM-SPEECH-001. Source trims and cuts unchanged; polish awaits review.
+
+Latest v37 adds tracked red structure beacon pulses to edit shots2-5 (landing, Harper intro, bolt inspection, creature POV), matching swamp/tour29frame cadence. Existing aircraft lights, bubbles, POV effects and trims preserved. EARLY-BEACONS-001 stores scripts/tracks/timing and original input paths. No credits.

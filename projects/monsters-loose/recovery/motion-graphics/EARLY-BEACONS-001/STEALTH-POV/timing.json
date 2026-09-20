@@ -1,0 +1,17 @@
+{
+  "id": "STEALTH-POV",
+  "input_source": "motion-graphics/STEALTH-POV-001/Stealth-POV-motion-lens-v002.mp4",
+  "output_source": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV/STEALTH-POV-beacons-v001.mp4",
+  "frames": 193,
+  "master_start_frame": 380,
+  "master_end_frame_exclusive": 504,
+  "source_in_frame": 12,
+  "period_frames": 29,
+  "sigma_frames": 3.4,
+  "stagger_frames": 4,
+  "coordinates_space": "960x540",
+  "visible_counts": {
+    "0": 193.0,
+    "1": 193.0
+  }
+}

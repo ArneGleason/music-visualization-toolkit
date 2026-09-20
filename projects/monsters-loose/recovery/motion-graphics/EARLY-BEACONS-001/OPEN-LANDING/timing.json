@@ -1,0 +1,20 @@
+{
+  "id": "OPEN-LANDING",
+  "input_source": "motion-graphics/HELI-LIGHTS-001/KLING-OPEN-003-lights-v002.mp4",
+  "output_source": "motion-graphics/EARLY-BEACONS-001/OPEN-LANDING/OPEN-LANDING-beacons-v001.mp4",
+  "frames": 121,
+  "master_start_frame": 90,
+  "master_end_frame_exclusive": 207,
+  "source_in_frame": 4,
+  "period_frames": 29,
+  "sigma_frames": 3.4,
+  "stagger_frames": 4,
+  "coordinates_space": "960x540",
+  "visible_counts": {
+    "0": 121.0,
+    "1": 121.0,
+    "2": 121.0,
+    "3": 121.0,
+    "4": 121.0
+  }
+}

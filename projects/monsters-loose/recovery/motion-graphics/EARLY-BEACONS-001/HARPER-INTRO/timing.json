@@ -1,0 +1,18 @@
+{
+  "id": "HARPER-INTRO",
+  "input_source": "motion-graphics/HARPER-THOUGHT-001/Harper-thought-bubble-v003.mp4",
+  "output_source": "motion-graphics/EARLY-BEACONS-001/HARPER-INTRO/HARPER-INTRO-beacons-v001.mp4",
+  "frames": 121,
+  "master_start_frame": 207,
+  "master_end_frame_exclusive": 304,
+  "source_in_frame": 12,
+  "period_frames": 29,
+  "sigma_frames": 3.4,
+  "stagger_frames": 4,
+  "coordinates_space": "960x540",
+  "visible_counts": {
+    "0": 121.0,
+    "1": 121.0,
+    "2": 121.0
+  }
+}
