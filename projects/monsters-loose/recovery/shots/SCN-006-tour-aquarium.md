@@ -19,3 +19,8 @@ User rejected take002 as a different person, not merely a hairstyle issue. Autho
 Take003:145frames24fps,48credits. Harper face/bob improved in samples, but fixed camera ignored: near cage architecture slides relative to tower. Background acceptance NOT met. v33 is a flagged test for user review, not an approved replacement. No further paid retry submitted.
 
 USER APPROVED take003: perfect. This supersedes assistant background concern; do not reject or regenerate. v34 adds five tracked soft blinking red rooftop lights, matching swamp29-frame/sigma3.4 cadence. Same trims. Earlier-shot light consistency remains a future pass.
+
+## Aquarium take001
+User requested animation of approved aquarium concept. Five seconds1080p,40credits, Harper Element321495363652188 attached, start image SCN-006-aquarium-v001 only. Locked camera; sea creature makes one heavy open-jaw forward push stopped by intact glass, slight lip compression and gills/bubbles; Harper folded arms, small backward lean and wary knowing eyebrow. All monster parts inside water, keeper on dry side, reflection not second character. Intended source12..95 exclusive, master1625..1708,12frame assumed pre/post handles. No lip sync/audio. See video-tests/KLING-AQUARIUM-001.
+
+Aquarium take001 returned121frames24fps,40credits. Sampled likeness/barrier okay. Mouth closes early, then snout presses toward Harper; does not keep mouth open as prompted. Disclosed and integrated v35 for review; no automatic retry.

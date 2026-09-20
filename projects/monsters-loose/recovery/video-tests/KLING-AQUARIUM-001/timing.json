@@ -1,0 +1,17 @@
+{
+  "fps": 24,
+  "duration_seconds": 5,
+  "master_start_frame": 1625,
+  "master_end_frame_exclusive": 1708,
+  "source_in_frame": 12,
+  "used_source_end_frame_exclusive": 95,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "start_frame_reference": "assets/SCN-006-aquarium-v001.png",
+  "element": "321495363652188",
+  "timing_basis": "Existing reviewed cut1625 on Watch onset67.683816s; next cut1708 preserved. 83frame editorial duration.",
+  "actual_source_frames": 121,
+  "actual_credits": 40,
+  "unused_tail_frames": 26,
+  "qa_note": "Samples12,40,65,94: Harper likeness consistent, barrier remains intact, creature inside. Mouth starts open but closes early; closed snout presses toward keeper rather than sustained open-jaw action. Disclosed to user; review pending."
+}

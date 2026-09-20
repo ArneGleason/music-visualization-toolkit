@@ -1,0 +1,24 @@
+{
+  "expected_credits": 40,
+  "element": "321495363652188",
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-006-aquarium-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "--elements",
+    "[{\"id\": \"321495363652188\", \"bindName\": \"Harper\"}]",
+    "One continuous five-second graphic-novel animation of this exact aquarium scene. Fixed tripod camera, no zoom, tracking, pan or cuts. Preserve the composition, immense reinforced glass window, steel mullions and dry public walkway.\nHarper <<<321495363652188>>> is the ONLY real woman on the LEFT, outside the tank on the dry walkway. Bind her exact identity to the approved Harper Element: same freckled face, hazel-green eyes, loose copper-red curly bob with short fringe, olive keeper uniform, gloves, belt and boots. Keep her hairstyle and face unchanged, no ponytail. The faint woman in the glass is only her reflection, following her movement; never a second person.\nThe enormous armored sea creature is entirely underwater BEHIND the intact aquarium glass. Its huge mouth is already open, big enough to swallow Harper whole. Over the first second its head eases back a few inches, jaw still open and predatory eye watching Harper. Between seconds1 and2.5 it makes ONE slow heavy forward push toward her, pressing its broad open jaws and snout against the INNER side of the window as though attempting to engulf her through the barrier. The glass physically STOPS it. Show slight soft-lip compression against the glass, gill movement, a gentle tail/fin effort and bubbles displaced within the water. The mouth remains clearly open and enormous; avoid a repeated chewing cycle or fast snapping. Seconds2.5-5 it remains close to the glass, restrained frustrated jaw/gill movement and gentle aquatic drift, eye tracking Harper. Every tooth, lip, fin and body part stays on the WATER side throughout. No crossing, clipping through or breaking the glass. No cracking, flooding, escape or physical contact with Harper.\nHarper stays calm but alert on the dry side with folded arms. During the creature's push she lifts her eyes toward its mouth and makes a small instinctive backward head/shoulder lean, then settles into a dry knowing raised-eyebrow expression: an experienced keeper who trusts the barrier. Subtle acting, no broad grin, panic, jump or large movement. Keep her face visible in three-quarter view; no lip sync or spoken dialogue. She remains outside and beside the mouth, never inside it.\nPreserve blue-green aquarium caustics and bubbles only behind the glass, subtle reflected Harper, warm amber walkway lamps. Steel and glass architecture remain rigid and registered. Maintain rich retro monster-comic ink contours, crosshatching, restrained halftone and dimensional drawn faces, no photorealism, glossy CGI or style change. No extra characters, no new text, no speech bubbles, no gore, no generated audio. Starting image only, no required final frame."
+  ]
+}

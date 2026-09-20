@@ -247,6 +247,12 @@
       "snapshot_sha256": "d7a490816bff260e9e4c93bfd963450ed52eb5db5d7d54624afbd5746e12afb6"
     },
     {
+      "path": "animatic/build-opening-v35.py",
+      "bytes": 1740,
+      "included": true,
+      "snapshot_sha256": "f3d3d2dc4ef20fbf74bab23f20dcb30b53158c728878c4422fb2ec791ae579ba"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -344,7 +350,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "129000ac80c83cb6f37713f340eb2327a65ac61ce3eadb1b996de0b771fc0318"
+      "snapshot_sha256": "66814dfdea64f357f9dd7df605272a50fa346cd6420cf01bb2c5407216634365"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -858,6 +864,17 @@
       "snapshot_sha256": "069de6913f6cb62423fd82426ab00de554409269df9f15dd5a680441d7b5dfa1"
     },
     {
+      "path": "animatic/MonstersLoose-v35-opening-through-habitats.mp4",
+      "bytes": 82129956,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v35-through-habitats.blend",
+      "bytes": 293521,
+      "included": true,
+      "snapshot_sha256": "c2a93b51e2edd01ccb93c76a18b6d99f803c2f03e79bf5a921ba0f3b2f8ad181"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1081,6 +1098,11 @@
     {
       "path": "animatic/render-v34.log",
       "bytes": 138123,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v35.log",
+      "bytes": 137819,
       "included": false
     },
     {
@@ -23795,15 +23817,15 @@
     },
     {
       "path": "shots/SCN-006-tour-aquarium.md",
-      "bytes": 3409,
+      "bytes": 4258,
       "included": true,
-      "snapshot_sha256": "d21fbf02b4f69593d64623041a1b2e19043974dd074a4911bf11787821e309ef"
+      "snapshot_sha256": "6618531b835119755c297568c393042bc3105b0c9c63a81ee27bef9ed0e1e79b"
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 17872,
+      "bytes": 18327,
       "included": true,
-      "snapshot_sha256": "e3f584438408a9270fb0cbbaf22d08afc4a6fdf26dd55215c368b11188d4ea1d"
+      "snapshot_sha256": "18b8e608906272793af09a847d2813c6958b8976cd0104fb15fb2ccfd9ee2682"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -23846,6 +23868,12 @@
       "bytes": 1239,
       "included": true,
       "snapshot_sha256": "99a47f67c76466471825768d2e5a263bcf2fa261328d823ccb18595f7a745dac"
+    },
+    {
+      "path": "video-tests/collect-kling-aquarium-001.py",
+      "bytes": 1557,
+      "included": true,
+      "snapshot_sha256": "c439792f456f0fdd7b8cf2a601bfe75cfc6335684ec6942a0690159fab6d947e"
     },
     {
       "path": "video-tests/collect-kling-arctic-001.py",
@@ -24047,6 +24075,52 @@
       "bytes": 89530,
       "included": true,
       "snapshot_sha256": "2892f302efcc478757461cb5dfa1162b7434a0af0e5be3fa30c8861cc0f3236b"
+    },
+    {
+      "path": "video-tests/KLING-AQUARIUM-001/KLING-AQUARIUM-001-01.mp4",
+      "bytes": 14686781,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-AQUARIUM-001/prompt.txt",
+      "bytes": 2674,
+      "included": true,
+      "snapshot_sha256": "fb81f562c2d8f8bab6c218ec10fd994fcf35f756b7e0ef833e63500163cc5169"
+    },
+    {
+      "path": "video-tests/KLING-AQUARIUM-001/request.json",
+      "bytes": 3226,
+      "included": true,
+      "snapshot_sha256": "bbb795be807e4146c3af0b3c43e9babc5ed8cd2ed9f3b18e82cb825a39d8d1be"
+    },
+    {
+      "path": "video-tests/KLING-AQUARIUM-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "f67bad2a53e0de6a963382750bf3c248b4d166b10de6a5c2583aea8fff8ed5f6"
+    },
+    {
+      "path": "video-tests/KLING-AQUARIUM-001/review.jpg",
+      "bytes": 218616,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-AQUARIUM-001/submission-stderr.txt",
+      "bytes": 4056,
+      "included": true,
+      "snapshot_sha256": "abfcde62d7cb4457db61455a7f35972d2b6d2b9d8446281e252aea7305b23015"
+    },
+    {
+      "path": "video-tests/KLING-AQUARIUM-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "6ee9da9592d10770ab12bbd408c752e11c56aa92d290c1e948c7d1b98c079df2"
+    },
+    {
+      "path": "video-tests/KLING-AQUARIUM-001/timing.json",
+      "bytes": 812,
+      "included": true,
+      "snapshot_sha256": "2f6c01a08a80e4648b120e4d84eac79eebc2f65a4c61314c9d1d00eeff06be48"
     },
     {
       "path": "video-tests/KLING-ARCTIC-001/KLING-ARCTIC-001-01.mp4",
@@ -25666,6 +25740,12 @@
       "bytes": 342,
       "included": true,
       "snapshot_sha256": "cb03458aa8f5257360c5b4287d699d2ebc311feff779c8673ef65bd7a429789c"
+    },
+    {
+      "path": "video-tests/run-kling-aquarium-001.py",
+      "bytes": 625,
+      "included": true,
+      "snapshot_sha256": "226bad81bce6604232df5c18f3e519f5dbad40c25ca7dee1d71398644e16be22"
     },
     {
       "path": "video-tests/run-kling-arctic-001.py",
