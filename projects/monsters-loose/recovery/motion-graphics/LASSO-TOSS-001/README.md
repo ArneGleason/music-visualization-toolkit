@@ -7,3 +7,5 @@ Continuity correction: remove the claw protruding from cage5 upper right. All cr
 Timing target: master1708..1768 exclusive at24fps. Default assumed pre-roll12frames; actual trim will be selected from returned gesture and recorded. Same stable review app port8767.
 
 Implemented: build.py renders97 transparent Blender frames with separately editable loop and slack lead, warm ink outline and braided highlights. tracks.json stores manual glove/coil positions and source67 release. composite.py adds localized corrected cage patch and rope overlay. Selection source24..84, master1708..1768. Pre-roll assumed12; actual editorial offset24. Review test, not yet approved.
+
+User decision: rejected as un-rope-like. Preserve this overlay experiment but stop pursuing throws/twirls. Follow-up is a simple demonstration with bundled coil and dangling slack, generated naturally.

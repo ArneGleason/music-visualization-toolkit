@@ -1,12 +1,12 @@
 # Monsters Loose — production recovery
 
-Current edit: **v40**, through master frame2461 at24fps (102.54seconds). Developed footage through aquarium, then new controlled rope-toss composite at1708..1767 for review. Cage5 protruding claw removed in both this composite and following planning still. Net interception and later habitat shots remain placeholders.
+Current edit: **v41**, through master frame2461 at24fps (102.54seconds). New simple rope demonstration at1708..1767 for review replaces rejected Blender toss. Bundled coil and connected strand; no rope overlay. Cage5 remains intact. Net interception and later habitat shots remain placeholders.
 
 ## Resume
 
 Use the existing frame review at http://127.0.0.1:8767/ (same app and port). The swamp bridge occupies master frames **1305–1506**. `recovery/shots/shotlist.json` is the edit source of truth. Master frames are one-based; source offsets are zero-based; end frames are exclusive. Default assumed pre-roll is 12 frames (half a second), recorded per shot; consult actual source trims before changing cuts or lip-sync.
 
-The current Blender timeline is `recovery/animatic/MonstersLoose-v40-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
+The current Blender timeline is `recovery/animatic/MonstersLoose-v41-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
 
 ## What is backed up
 
@@ -62,3 +62,6 @@ Rigid-prop experiment KLING-LASSO-PROP-001:4seconds32credits, cleaned start only
 
 
 v40: KLING-LASSO-TOSS-001 empty-hand gesture,4s32credits, start-only corrected-pose plate plus Harper Element. Blender loop/lead replaces unpredictable generated rope physics. Use source24..84 for master1708..1768; assumed pre-roll12, extra editorial trim12. Imagegen cage5 correction applied as localized video patch without regeneration. Performance is broader than requested; awaiting review. Old take004 and failed prop001 retained. All creatures stay behind barriers until deliberate breakout shots.
+
+
+v41: user retired toss/twirl experiments. KLING-ROPE-DEMO-001,4s32credits, new two-hand reference, Harper Element, start-only. Hands separate to show connected rope; main coil bundled. Source12..72 atmaster1708..1768, assumed/actual lead-in12frames. Wider arm spread and less slack than requested; awaiting review. No Blender rope overlay. Prompt, timing and sampled review recorded.

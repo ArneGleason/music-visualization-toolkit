@@ -14,3 +14,6 @@ User prefers early coherent swinging and cutting before rope lowers/deteriorates
 
 
 Underhand revision: generate a clean low empty-hand arm gesture, add controlled Blender loop moving toward offscreen left, cut before catch. Remove protruding cage5 claw. Monsters remain behind barriers until explicit escape shots.
+
+
+User rejected Blender toss as un-rope-like despite coherent overlay. Preserve attempts but retire throws/twirls for now. New approved direction: both hands already grip rope at waist, bundled coil plus single short dangling U. Small separation of hands and knowing look; net supplies later catching payoff. No unfolding topology, no releases, no rope overlay planned. Cage5 remains intact.

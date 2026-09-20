@@ -1,0 +1,24 @@
+{
+  "expected_credits": 32,
+  "element": "321495363652188",
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-006-rope-demo-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "4",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "--elements",
+    "[{\"id\": \"321495363652188\", \"bindName\": \"Harper\"}]",
+    "One continuous four-second graphic-novel animation of this exact starting frame. Locked camera, preserve architecture and boy. Harper <<<321495363652188>>> is the keeper on the left: preserve her approved freckled face, copper curly bob, olive uniform and proportions.\nA very small practical rope demonstration. Both hands already hold the rope at waist height. Her left hand keeps the bundled coil together. Her right hand holds the free end. One continuous short slack strand hangs in a natural U between her hands.\nFirst half second: relaxed hold with breathing. Seconds0.5-2: lift the bundled coil only a few centimeters and separate her hands slowly by about ten centimeters, showing the short dangling strand to the boy. The U becomes slightly shallower as the hands separate, obeying gravity and conserving rope length. Coil stays bundled, same number of loops; nothing unwinds. Seconds2-4: hold the demonstration pose, let the slack make one tiny natural settling sway. She gives the boy a restrained knowing eyebrow lift. The boy glances at the rope with mild skepticism; no big gestures.\nHands maintain their grips throughout, rope remains one coherent natural flexible rope, all below chest height. No throw, twirl, flourish, snapping, pulling taut, releasing, forming knots, full uncoiling or overhead motion. No extra strands or floating rigid hoops. No speech, lip sync or motion graphics. Preserve comic ink texture and nighttime colors. Monsters remain wholly behind intact cages; no claws or other parts through mesh. Fixed background, no camera movement, no cuts. Single starting image, no required final frame."
+  ]
+}

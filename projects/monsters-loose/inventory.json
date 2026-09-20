@@ -283,6 +283,12 @@
       "snapshot_sha256": "887cd7adfdf370a02cff438194336ef7be5272c6d7f84ffcd4ff20bdf74c285d"
     },
     {
+      "path": "animatic/build-opening-v41.py",
+      "bytes": 1603,
+      "included": true,
+      "snapshot_sha256": "8d821e3bf9c8846de1f48befee0edb0812094ef0d0cb70100d090fd2c37eb272"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -380,7 +386,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "c776086458c790625626f327a3f4bd80a8c97b12bad91d13eb8080dc126c8cb1"
+      "snapshot_sha256": "e2b14b00fa08538b729136793bcfcf0391b5d5303f253ebf3aff42f0595d8ee6"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -970,6 +976,17 @@
       "included": false
     },
     {
+      "path": "animatic/MonstersLoose-v41-opening-through-habitats.mp4",
+      "bytes": 79820934,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v41-through-habitats.blend",
+      "bytes": 293963,
+      "included": true,
+      "snapshot_sha256": "c67300c9a405073a735a1177910ed009ad55c772469d9353eecfbff942cbaa5a"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1223,6 +1240,11 @@
     {
       "path": "animatic/render-v40.log",
       "bytes": 138557,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v41.log",
+      "bytes": 138401,
       "included": false
     },
     {
@@ -1501,6 +1523,11 @@
     {
       "path": "animatic/v40-check.jpg",
       "bytes": 157455,
+      "included": false
+    },
+    {
+      "path": "animatic/v41-check.jpg",
+      "bytes": 149298,
       "included": false
     },
     {
@@ -3024,6 +3051,17 @@
     {
       "path": "assets/SCN-006-lasso-underhand-plate-v002.png",
       "bytes": 2723173,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-006-rope-demo-v001.md",
+      "bytes": 462,
+      "included": true,
+      "snapshot_sha256": "d22d7d6fadce162058783dcc84c2597f7ca64e211739a1dcf86b0521d71dcf28"
+    },
+    {
+      "path": "assets/SCN-006-rope-demo-v001.png",
+      "bytes": 2653194,
       "included": false
     },
     {
@@ -23452,9 +23490,9 @@
     },
     {
       "path": "motion-graphics/LASSO-TOSS-001/README.md",
-      "bytes": 1246,
+      "bytes": 1451,
       "included": true,
-      "snapshot_sha256": "aab001b66ee3d25bebf71ccbee7d39e7765de4d95be4b3b53d6d180bef29bcba"
+      "snapshot_sha256": "579e479f4827001008b0b4ce9b13bd6e12d247b946a1d59eb3f9502d7de118b7"
     },
     {
       "path": "motion-graphics/LASSO-TOSS-001/render.log",
@@ -28809,9 +28847,9 @@
     },
     {
       "path": "shots/SCN-006-lasso-net.md",
-      "bytes": 1974,
+      "bytes": 2369,
       "included": true,
-      "snapshot_sha256": "e7a1006bbb9418dc52b8b8f7934d5989a2f4ed64719a9fd4e90479f7b6743c23"
+      "snapshot_sha256": "befbd460c1c87875b450648d48863eb0a5a815a8d96328095528b9cb404667af"
     },
     {
       "path": "shots/SCN-006-tour-aquarium.md",
@@ -28821,9 +28859,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 22276,
+      "bytes": 22526,
       "included": true,
-      "snapshot_sha256": "cb4602a12bca9b0995de636c7fe7c0f9619a33e4158e73907b1628471a0612e8"
+      "snapshot_sha256": "6e149bc471a6c6f7e5f753e5f399dd0d528a11255dd90794946d4a66111bca5d"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -28968,6 +29006,12 @@
       "bytes": 1557,
       "included": true,
       "snapshot_sha256": "c88b63818d22b7c21341667d4f85e6f49a7f69160a055ee5b43c8157852ef662"
+    },
+    {
+      "path": "video-tests/collect-kling-rope-demo-001.py",
+      "bytes": 1559,
+      "included": true,
+      "snapshot_sha256": "a9583061d5523397fd6497b898aeaec90045b739143f7ec1b34ee4b2daccaf20"
     },
     {
       "path": "video-tests/collect-kling-sign-001.py",
@@ -29967,6 +30011,58 @@
       "bytes": 791,
       "included": true,
       "snapshot_sha256": "31b7095a38336d5ac79d7c86de8154029f3cff41a48791d1ee5b673a19d0682c"
+    },
+    {
+      "path": "video-tests/KLING-ROPE-DEMO-001/contact.jpg",
+      "bytes": 382180,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-ROPE-DEMO-001/KLING-ROPE-DEMO-001-01.mp4",
+      "bytes": 5599203,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-ROPE-DEMO-001/prompt.txt",
+      "bytes": 1632,
+      "included": true,
+      "snapshot_sha256": "c60cd99401a922fd8f5c12cbed5d3ee11a1e5a89f8d7105775ac27b85fa6b8aa"
+    },
+    {
+      "path": "video-tests/KLING-ROPE-DEMO-001/request.json",
+      "bytes": 2185,
+      "included": true,
+      "snapshot_sha256": "fe0baffae8aa1c0a218b15654b2b5f808b01a4f7e97f12aa77a3dd01119c0d7e"
+    },
+    {
+      "path": "video-tests/KLING-ROPE-DEMO-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "32bdd8d8ae14d5663a48e26b7596b9d40e4e8120d78b925a9c42b57926ff703f"
+    },
+    {
+      "path": "video-tests/KLING-ROPE-DEMO-001/review.md",
+      "bytes": 689,
+      "included": true,
+      "snapshot_sha256": "ab9af8522b81d7c3360b32fd9f8f169ba6ffa1695dd0208715c50051bace8b98"
+    },
+    {
+      "path": "video-tests/KLING-ROPE-DEMO-001/submission-stderr.txt",
+      "bytes": 3019,
+      "included": true,
+      "snapshot_sha256": "f95a1bf0904ae11f6559925bceeb0dcf14f91b079d3e2479198974bec820d77b"
+    },
+    {
+      "path": "video-tests/KLING-ROPE-DEMO-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "0c7fd4f77e5f20b7d3283ea732bf686370a61108057a2a852de4976c2b9687bb"
+    },
+    {
+      "path": "video-tests/KLING-ROPE-DEMO-001/timing.json",
+      "bytes": 357,
+      "included": true,
+      "snapshot_sha256": "a23e9baf6f76ae06417be488fcdc7c2fd49659c3a25a1a88f8366b1c59c9e6a2"
     },
     {
       "path": "video-tests/KLING-SIGN-001/Harper-sign-lipsync-music-preview.mp4",
@@ -30982,6 +31078,12 @@
       "bytes": 625,
       "included": true,
       "snapshot_sha256": "6bdab73c1015fa519dfd31a728716b7969229291e8c63ca20f7b5a5a785b0567"
+    },
+    {
+      "path": "video-tests/run-kling-rope-demo-001.py",
+      "bytes": 626,
+      "included": true,
+      "snapshot_sha256": "24df588f0358cbbf72021ec9e813d53ca4297459fad6d6613a917b645d12551c"
     },
     {
       "path": "video-tests/run-kling-sign-001.py",

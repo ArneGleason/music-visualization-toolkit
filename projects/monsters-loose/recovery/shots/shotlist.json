@@ -244,20 +244,20 @@
       "id": "HARPER-LASSO-001",
       "start_frame": 1708,
       "end_frame_exclusive": 1768,
-      "source": "motion-graphics/LASSO-TOSS-001/Lasso-toss-v001.mp4",
-      "source_in_frame": 24,
+      "source": "video-tests/KLING-ROPE-DEMO-001/KLING-ROPE-DEMO-001-01.mp4",
+      "source_in_frame": 12,
       "media_type": "video",
-      "status": "underhand_composite_for_review",
-      "start_frame_reference": "assets/SCN-006-lasso-underhand-plate-v002.png",
-      "timing_record": "motion-graphics/LASSO-TOSS-001/timing.json",
-      "note": "Empty-hand performance from Kling with controlled Blender loop/tether; corrected cage5 patch removes protruding claw. Source24..84, normal speed. Initial assumed pre-roll12; actual source trim24 chosen for gesture. No catch shown. Broad palm-up gesture differs from compact underhand request; review experiment.",
+      "status": "simple_rope_demonstration_for_review",
+      "start_frame_reference": "assets/SCN-006-rope-demo-v001.png",
+      "timing_record": "video-tests/KLING-ROPE-DEMO-001/timing.json",
+      "note": "Bundled coil and connected strand, widening hands to demonstrate rope. Wider arm spread than requested, strand nearly taut; no head crossing. Natural generated rope, no Blender rope overlay. Source12..72. Cage5 intact. Await user review.",
       "assumed_pre_roll_frames": 12
     },
     {
       "id": "ANCH-006-B-PLAN",
       "start_frame": 1768,
       "end_frame_exclusive": 2036,
-      "source": "assets/SCN-006-lasso-underhand-plate-v002.png",
+      "source": "assets/SCN-006-rope-demo-v001.png",
       "source_in_frame": 0,
       "media_type": "image",
       "status": "placeholder_pending_net_catch_and_later_shot_design",
@@ -402,11 +402,20 @@
     {
       "id": "KLING-LASSO-TOSS-001",
       "source": "video-tests/KLING-LASSO-TOSS-001/KLING-LASSO-TOSS-001-01.mp4",
-      "status": "composited_for_review",
+      "status": "user_rejected_un_rope_like_motion",
       "credits": 32,
       "assumed_pre_roll_frames": 12,
       "source_in_frame": 24,
       "note": "Start-only empty-hand plate; Blender loop plus cage5 repair. No video regeneration for claw correction."
+    },
+    {
+      "id": "KLING-ROPE-DEMO-001",
+      "source": "video-tests/KLING-ROPE-DEMO-001/KLING-ROPE-DEMO-001-01.mp4",
+      "status": "selected_for_review",
+      "credits": 32,
+      "assumed_pre_roll_frames": 12,
+      "source_in_frame": 12,
+      "review": "video-tests/KLING-ROPE-DEMO-001/review.md"
     }
   ],
   "approved_sign_sequence": {

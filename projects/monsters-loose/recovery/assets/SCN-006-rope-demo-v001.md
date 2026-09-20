@@ -1,0 +1,2 @@
+# Rope demonstration reference
+Built-in imagegen edit of SCN-006-lasso-underhand-plate-v002. Preserve identity, graphic-novel style, corrected intact cage5, boy, camera and setting. Repose both hands at waist already gripping the same rope: bundled coil in left hand, free end in right, single short gravity-hanging U between. Calm knowing demonstration expression. No lasso loop, throwing pose, motion lines or creature through cage. Main coil stays bundled.
