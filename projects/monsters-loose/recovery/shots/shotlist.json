@@ -246,10 +246,10 @@
       "source": "video-tests/KLING-TEST-004/KLING-TEST-004-clean.mp4",
       "source_in_frame": 0,
       "media_type": "video",
-      "status": "retained_best_test_selected_for_context_review",
+      "status": "rejected_loop_crosses_head_replacement_pending",
       "start_frame_reference": "assets/ANCH-006-B-comic-rope-v002.png",
       "timing_record": "video-tests/KLING-TEST-004/timing-selection.json",
-      "note": "User prefers coherent early fast twirl and cut before lowering deterioration. Select source0..60, normal speed; outgoing cut11frames earlier. Historical clip has no assumed pre-roll; selection starts at source beginning."
+      "note": "Current v39 retains old take004 only as review placeholder. User rejected head intersection. New rigid-prop001 also fails loop coherence; not substituted. No acceptable replacement yet."
     },
     {
       "id": "ANCH-006-B-PLAN",
@@ -387,6 +387,15 @@
       "assumed_future_pre_roll_frames": 12,
       "assumed_future_post_roll_frames": 12,
       "video_source": "motion-graphics/ZONE8-GATE-001/Zone8-gate-rattle-v004.mp4"
+    },
+    {
+      "id": "KLING-LASSO-PROP-001",
+      "source": "video-tests/KLING-LASSO-PROP-001/KLING-LASSO-PROP-001-01.mp4",
+      "status": "failed_loop_geometry_not_integrated",
+      "credits": 32,
+      "assumed_pre_roll_frames": 12,
+      "timing_record": "video-tests/KLING-LASSO-PROP-001/timing.json",
+      "review": "video-tests/KLING-LASSO-PROP-001/review.md"
     }
   ],
   "approved_sign_sequence": {

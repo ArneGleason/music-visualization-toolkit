@@ -8,3 +8,6 @@ Next proposed incident on One almost just just now got out, master1779 onward: m
 
 ## v39 earlier twirl selection
 User prefers early coherent swinging and cutting before rope lowers/deteriorates. Use source0..60 exclusive at normal24fps, master1708..1768 (2.5s). Overrides v38 source60..131. No leading handle available; historical assumed pre-roll unknown. Next placeholder/incident begins1768,11frames before One cue1779, useful incident setup lead. No loops, freezes, slowdown or generation.
+
+
+2026-09-19: v39 lasso rejected for head intersection. Rigid-prop test001 (4s/32credits) also failed loop integrity. Edit unchanged, replacement pending. No Blender overlay applied to failed footage.

@@ -1,0 +1,13 @@
+{
+  "fps": 24,
+  "master_start": 1708,
+  "master_end_exclusive": 1768,
+  "assumed_pre_roll_frames": 12,
+  "intended_source_in_frame": 12,
+  "edit_duration_frames": 60,
+  "requested_duration_seconds": 4,
+  "expected_tail_handle_frames": 24,
+  "source_image": "assets/ANCH-006-B-comic-rope-v002.png",
+  "status": "failed_loop_integrity_not_integrated",
+  "actual_source_in_frame": null
+}

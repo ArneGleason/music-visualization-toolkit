@@ -9,3 +9,6 @@ Status: awaiting result and visual verdict. Exact prompt and submission receipt 
 Completed and downloaded both supplied variants. Clean video passed full ffmpeg decode. User visual review pending.
 
 User verdict: not perfect, but pretty good. User considers the last two Kling takes usable; retain this as a production candidate. Eight-second duration and 64-credit choice accepted after explanation.
+
+
+2026-09-19: User rejected the early twirl as well: rope crosses Harper head. Retained for history, no longer a production candidate. Next attempt uses a rigid prop loop with tiny wrist tilt and later Blender accents.

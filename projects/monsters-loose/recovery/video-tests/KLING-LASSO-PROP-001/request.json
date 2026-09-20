@@ -1,0 +1,24 @@
+{
+  "expected_credits": 32,
+  "element": "321495363652188",
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\ANCH-006-B-comic-rope-v002.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "4",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "--elements",
+    "[{\"id\": \"321495363652188\", \"bindName\": \"Harper\"}]",
+    "One continuous four-second graphic-novel animation of the exact starting image. Locked tripod camera, completely fixed framing and architecture.\nHarper <<<321495363652188>>> is the woman on the LEFT. Apply the approved Harper character Element only to her. Preserve her exact freckled face, hazel-green eyes, loose copper curly bob with short fringe, olive uniform, gloves and proportions. Preserve the boy on the RIGHT from the starting image, his face, hair, clothing and sketchbook.\nThis is a deliberately simple demonstration with a STIFF PROP LASSO: the oval loop is rigid, like a lightweight hoop wrapped in rope. Keep the same coherent tied loop and connection to her raised hand as in the starting image. The oval stays in the upper LEFT empty space, entirely to the LEFT of her head, with a clear visible gap from every part of her hair and face throughout. It never travels over, behind, in front of, or through her head or body.\nHer raised arm stays nearly still. From second 0 to 0.5 she holds the prop. From 0.5 to 3 seconds she makes ONE small, slow wrist tilt and returns: the rigid oval tilts by only about ten degrees, never making a full rotation, with its center essentially stationary. This is a tiny controlled wrist demonstration, NOT rope spinning or a whipping action. The oval maintains its shape, size and integrity, and the rope connection stays attached to her glove. Her other hand keeps the lower coils still at her waist. From seconds 3 to 4 she holds the same pose with a restrained knowing eyebrow lift. The boy gives a subtle skeptical eye movement, body still. Gentle natural breathing only.\nNo overhead swing, no circular arm sweep, no throwing, no rope coil gathering, no lowering the raised arm, no unwinding, no growing strands, no changing knots, no loose flying rope. Do not add motion lines, trails, glow or any effects; these will be composited later. Preserve graphic-novel ink contours, crosshatching, colors and nighttime lighting. No photorealism or style change. No dialogue, no text or bubbles, no additional characters. Starting image only, no required end frame."
+  ]
+}

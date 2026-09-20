@@ -1,6 +1,6 @@
 # Monsters Loose — production recovery
 
-Current edit: **v39**, through master frame 2461 at 24 fps (102.54 seconds). Developed footage runs through frame 1624; a new aquarium reference fills frames 1625-1707, then existing lasso and habitat planning stills follow. The user approved the revised visible frog snatch in v28. The user also approved v29 facility beacon pulses. v30 adds synchronized elongated red water reflections; that reflection polish is retained. v31 adds the walking tour generation and new aquarium still for review.
+Current edit: **v39**, through master frame 2461 at 24 fps (102.54 seconds). Developed footage runs through the aquarium speech-bubble shot at frame1707. The retained lasso at1708..1767 is now rejected because the loop crosses Harper's head; the constrained rigid-prop test also failed loop integrity. Net interception and later habitat shots remain planning placeholders. See the revision history below for earlier decisions.
 
 ## Resume
 
@@ -56,3 +56,6 @@ Latest v37 adds tracked red structure beacon pulses to edit shots2-5 (landing, H
 Latest v38 selects retained illustrated lasso KLING-TEST-004-clean source60..131 for master1708..1779 (2.96seconds). User requested best earlier corrected-rope take in context; no regeneration. Net interception concept begins1779 on One; existing still is explicitly marked placeholder, no incident asset created yet. Timing and next-shot concept: shots/SCN-006-lasso-net.md.
 
 Latest v39 uses lasso take004 source0..60: opening2.5seconds only, before lowering/coiling deterioration. Master1708..1768; next planned incident begins11frames before One cue1779. Normal speed, no loop/freeze, no leading handle for this historical take. Supersedes v38 lasso source60..131. No credits.
+
+
+Rigid-prop experiment KLING-LASSO-PROP-001:4seconds32credits, cleaned start only plus Harper Element. Failed loop shape/head-clearance criterion; raw output retained outside Git, prompt/settings/review backed up. No v40 edit, no overlay applied, no further paid retry. LASSO-PROP-001/build.py is only an unrendered accent prototype.

@@ -22868,6 +22868,18 @@
       "included": false
     },
     {
+      "path": "motion-graphics/LASSO-PROP-001/build.py",
+      "bytes": 2750,
+      "included": true,
+      "snapshot_sha256": "897bd0038056d5c7ac2c5138df18febb99a55a7dbf3528cd356de0fe34c7c31f"
+    },
+    {
+      "path": "motion-graphics/LASSO-PROP-001/README.md",
+      "bytes": 960,
+      "included": true,
+      "snapshot_sha256": "49c7e2ba46dce90db89ab6ad4b22acd7c713239c329afd7578b652f5aae07296"
+    },
+    {
       "path": "motion-graphics/STEALTH-POV-001/build-parallax-v003.py",
       "bytes": 3919,
       "included": true,
@@ -28203,9 +28215,9 @@
     },
     {
       "path": "shots/SCN-006-lasso-net.md",
-      "bytes": 1533,
+      "bytes": 1737,
       "included": true,
-      "snapshot_sha256": "f76ed0177a748593460d82cf275561022793c63c31b1e6097a03888b07ee6eae"
+      "snapshot_sha256": "0b39c87964d442638783b3a85b14bcdb36c8a0d2add1a717c9d6e7d24e0e416a"
     },
     {
       "path": "shots/SCN-006-tour-aquarium.md",
@@ -28215,9 +28227,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 21311,
+      "bytes": 21657,
       "included": true,
-      "snapshot_sha256": "da93d5a88f5def056118a86b39ea4521ddc3c967a27b5d811f2c15e21559aa9f"
+      "snapshot_sha256": "0c000fd64fb4198f2678dc8da3098ed7ac9e0261c29bfd79b3a0e55abbeb0ea8"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -28302,6 +28314,12 @@
       "bytes": 1559,
       "included": true,
       "snapshot_sha256": "5cbfdf6b1739cbd00160da7ecab8a84e2f7c5e21b943754f9e1a10db75eb1fe8"
+    },
+    {
+      "path": "video-tests/collect-kling-lasso-prop-001.py",
+      "bytes": 1561,
+      "included": true,
+      "snapshot_sha256": "23d4330b2190069bdf0cfb6c6adf04f443ab2e99b800cebe6b91e03aedb7e938"
     },
     {
       "path": "video-tests/collect-kling-open-001.py",
@@ -28845,6 +28863,58 @@
       "bytes": 864,
       "included": true,
       "snapshot_sha256": "c54b4eadad9a7e84beb6f6ddede5b543d7e3d627395c977cba3467d398211ec4"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-PROP-001/contact.jpg",
+      "bytes": 423474,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-LASSO-PROP-001/KLING-LASSO-PROP-001-01.mp4",
+      "bytes": 6821628,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-LASSO-PROP-001/prompt.txt",
+      "bytes": 2117,
+      "included": true,
+      "snapshot_sha256": "109e2d571f77093825c8e05c8bc831275865755dd31390650dcf7f8f4b1dfeb4"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-PROP-001/request.json",
+      "bytes": 2674,
+      "included": true,
+      "snapshot_sha256": "168d9cce54e9126973cb8133f9cb5026826599c2d7eaed715e1a1398521bcebc"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-PROP-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "16eea861563ea80731f5e04b26957803767b28377af43cdc3c976b33a2aeb8fc"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-PROP-001/review.md",
+      "bytes": 948,
+      "included": true,
+      "snapshot_sha256": "83a83410bc83008a8b60d9b8996eb4c094b38975419b057f50ec03d29c86e98e"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-PROP-001/submission-stderr.txt",
+      "bytes": 3518,
+      "included": true,
+      "snapshot_sha256": "1422f686078d836e2287b6bd4cd79578d60bb5a6e9d7d601c991d462539dd0bf"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-PROP-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "41e184d306ca1f98dcbfc1126e115ac8f97a72e35eb066cb5e553ed1fe0cfec5"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-PROP-001/timing.json",
+      "bytes": 397,
+      "included": true,
+      "snapshot_sha256": "ab6b562f0cb8bb67711cb8156b01568badfcf16d9026259bb181eb5a47aced75"
     },
     {
       "path": "video-tests/KLING-OPEN-001/KLING-OPEN-001-01.mp4",
@@ -29918,9 +29988,9 @@
     },
     {
       "path": "video-tests/KLING-TEST-004/review.md",
-      "bytes": 1026,
+      "bytes": 1248,
       "included": true,
-      "snapshot_sha256": "4cb6282988fb815b147911461f5ea1ba92bf38d6216bd821af9e478306a7cb2a"
+      "snapshot_sha256": "8d7a880ab919dc581a5a09940da915a1ed0b4fb525f2f848a47291bf41918114"
     },
     {
       "path": "video-tests/KLING-TEST-004/selection-review.jpg",
@@ -30195,6 +30265,12 @@
       "bytes": 626,
       "included": true,
       "snapshot_sha256": "80672afa43f40716f2447318f43ff929a7a32d4848754363165d396b5cb83a96"
+    },
+    {
+      "path": "video-tests/run-kling-lasso-prop-001.py",
+      "bytes": 627,
+      "included": true,
+      "snapshot_sha256": "f24b4d89a959ddba37e7408855bba70b2cfc05e36b676776ce5e0c7338b247a9"
     },
     {
       "path": "video-tests/run-kling-open-001.py",
