@@ -271,6 +271,12 @@
       "snapshot_sha256": "859b7a4f240b0d50225703b2d93f4fc160d063b3abd2961c6bc87c4d915987f6"
     },
     {
+      "path": "animatic/build-opening-v39.py",
+      "bytes": 1661,
+      "included": true,
+      "snapshot_sha256": "12beaa59ee5e3c8d2445dd7a08e1d8a2badd65ed676c009f6de18fb5b238ec12"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -368,7 +374,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "67beba230c5c56107837b37d2ec43aa19f8a6dff32d256e86948ff92e9cf5adb"
+      "snapshot_sha256": "32dc849e77c9af3f4541407f4ac5b754dc43747871953a2f73acc2ebd3826a4d"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -931,6 +937,17 @@
       "snapshot_sha256": "ee29a5f63acefc3ae9ba30409a4349b0f266d2047c6e2979a2c14ccad2b8aef4"
     },
     {
+      "path": "animatic/MonstersLoose-v39-opening-through-habitats.mp4",
+      "bytes": 82115053,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v39-through-habitats.blend",
+      "bytes": 294353,
+      "included": true,
+      "snapshot_sha256": "4c2bc744e2815b5a54e9335c4f5ccec966e31c7b3ef29f3e0d710c1b2105fa0c"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1174,6 +1191,11 @@
     {
       "path": "animatic/render-v38.log",
       "bytes": 138572,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v39.log",
+      "bytes": 139434,
       "included": false
     },
     {
@@ -28181,9 +28203,9 @@
     },
     {
       "path": "shots/SCN-006-lasso-net.md",
-      "bytes": 1117,
+      "bytes": 1533,
       "included": true,
-      "snapshot_sha256": "bc1f0d424a37e3b233fe9873b322a75cac3b7abf9d294882bfdf09faf5c16018"
+      "snapshot_sha256": "f76ed0177a748593460d82cf275561022793c63c31b1e6097a03888b07ee6eae"
     },
     {
       "path": "shots/SCN-006-tour-aquarium.md",
@@ -28193,9 +28215,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 21157,
+      "bytes": 21311,
       "included": true,
-      "snapshot_sha256": "e3c1ea707bf72c0218ccfb6535bd19395f9d819965ddf35ffe230717a4a7c909"
+      "snapshot_sha256": "da93d5a88f5def056118a86b39ea4521ddc3c967a27b5d811f2c15e21559aa9f"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -29862,6 +29884,11 @@
       "included": false
     },
     {
+      "path": "video-tests/KLING-TEST-004/early-review.jpg",
+      "bytes": 289174,
+      "included": false
+    },
+    {
       "path": "video-tests/KLING-TEST-004/KLING-TEST-004-01.mp4",
       "bytes": 18915183,
       "included": false
@@ -29914,9 +29941,9 @@
     },
     {
       "path": "video-tests/KLING-TEST-004/timing-selection.json",
-      "bytes": 930,
+      "bytes": 891,
       "included": true,
-      "snapshot_sha256": "719af9c4986270c169b70483cae05ba7d19442affff778463a7f88ea4a9ef7e4"
+      "snapshot_sha256": "1995cb4aa62ac012c658facd06dc941e151d33334eb76cd22bc27e9ba722fc8c"
     },
     {
       "path": "video-tests/KLING-TOUR-001/KLING-TOUR-001-01.mp4",
