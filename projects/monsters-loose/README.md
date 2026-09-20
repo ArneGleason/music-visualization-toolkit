@@ -1,8 +1,10 @@
 # Monsters Loose — production recovery
 
-Current edit: **v47**, through master frame2461 at24fps (102.54seconds). Rope demonstration candidate keeper at1708..1767; Harper stay gesture1768..1892 user-approved. New kid reaction1893..2035 for review. Later habitat shots remain reference placeholders.
+Current edit: **v47**, through master frame2461 at24fps (102.54seconds). Rope demonstration candidate keeper at1708..1767; Harper stay gesture1768..1892 user-approved. Kid reaction1893..2035 reviewed: usable opening, no visible eye roll, too long; next consider a cutaway. Later habitat shots remain reference placeholders.
 
 ## Resume
+
+Paused for the night, September 19. Next: shorten the kid reaction using its opening and plan a cutaway for the remaining beat. The eye roll did not read; user could live with that, but would prefer a clear roll. No new trim or generation approved. v47 remains the unchanged review baseline.
 
 Use the existing frame review at http://127.0.0.1:8767/ (same app and port). The swamp bridge occupies master frames **1305–1506**. `recovery/shots/shotlist.json` is the edit source of truth. Master frames are one-based; source offsets are zero-based; end frames are exclusive. Default assumed pre-roll is 12 frames (half a second), recorded per shot; consult actual source trims before changing cuts or lip-sync.
 
@@ -25,7 +27,7 @@ Also preserve the original DAW project and its referenced recordings:
 1. Copy `recovery/` to the original job directory, then restore omitted source media there using `inventory.json`. Never run production builds directly inside this Git snapshot: generated content belongs outside Git.
 2. Install Blender 5.2, FFmpeg/ffprobe, and Python with NumPy/Pillow. Some generation scripts additionally require the Kling CLI and a separately authenticated account. Credentials are not backed up here.
 3. The Blender timelines use relative media paths where saved; older scripts and review state also contain absolute Windows paths. Restoring to the original job path is simplest. For another location, update these paths and use Blender's missing-file relinking before rendering. Font paths may also need relinking.
-4. Open the current v39 Blender file to inspect/render the edit. Effects can be rebuilt from their adjacent build scripts and README files. Historical animatic build scripts load predecessor `.blend` files; those small snapshots are retained. Restore source inputs before running them.
+4. Open the current v47 Blender file to inspect/render the edit. Effects can be rebuilt from their adjacent build scripts and README files. Historical animatic build scripts load predecessor `.blend` files; those small snapshots are retained. Restore source inputs before running them.
 5. Launch `tools/frame_review.py` with `--video <current-render> --notes <job>/shots/frame-review-notes.json --state <job>/animatic/frame-review-current.json --port 8767`. See `docs/FRAME_REVIEW.md`.
 
 To refresh this recovery snapshot after later work, run `python projects/monsters-loose/snapshot.py --source <job-directory>`, inspect the diff, then commit. The exporter copies files; it does not delete stale historical snapshots.
