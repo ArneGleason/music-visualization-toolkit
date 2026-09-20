@@ -1,12 +1,12 @@
 # Monsters Loose — production recovery
 
-Current edit: **v39**, through master frame 2461 at 24 fps (102.54 seconds). Developed footage runs through the aquarium speech-bubble shot at frame1707. The retained lasso at1708..1767 is now rejected because the loop crosses Harper's head; the constrained rigid-prop test also failed loop integrity. Net interception and later habitat shots remain planning placeholders. See the revision history below for earlier decisions.
+Current edit: **v40**, through master frame2461 at24fps (102.54seconds). Developed footage through aquarium, then new controlled rope-toss composite at1708..1767 for review. Cage5 protruding claw removed in both this composite and following planning still. Net interception and later habitat shots remain placeholders.
 
 ## Resume
 
 Use the existing frame review at http://127.0.0.1:8767/ (same app and port). The swamp bridge occupies master frames **1305–1506**. `recovery/shots/shotlist.json` is the edit source of truth. Master frames are one-based; source offsets are zero-based; end frames are exclusive. Default assumed pre-roll is 12 frames (half a second), recorded per shot; consult actual source trims before changing cuts or lip-sync.
 
-The current Blender timeline is `recovery/animatic/MonstersLoose-v39-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
+The current Blender timeline is `recovery/animatic/MonstersLoose-v40-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
 
 ## What is backed up
 
@@ -59,3 +59,6 @@ Latest v39 uses lasso take004 source0..60: opening2.5seconds only, before loweri
 
 
 Rigid-prop experiment KLING-LASSO-PROP-001:4seconds32credits, cleaned start only plus Harper Element. Failed loop shape/head-clearance criterion; raw output retained outside Git, prompt/settings/review backed up. No v40 edit, no overlay applied, no further paid retry. LASSO-PROP-001/build.py is only an unrendered accent prototype.
+
+
+v40: KLING-LASSO-TOSS-001 empty-hand gesture,4s32credits, start-only corrected-pose plate plus Harper Element. Blender loop/lead replaces unpredictable generated rope physics. Use source24..84 for master1708..1768; assumed pre-roll12, extra editorial trim12. Imagegen cage5 correction applied as localized video patch without regeneration. Performance is broader than requested; awaiting review. Old take004 and failed prop001 retained. All creatures stay behind barriers until deliberate breakout shots.

@@ -8,7 +8,8 @@
     "post_roll_frames": 12,
     "default_source_in_frame": 12,
     "applies_to": "Future generations; existing approved clips retain recorded source in-points",
-    "conventions": "GENERATION-CONVENTIONS.md"
+    "conventions": "GENERATION-CONVENTIONS.md",
+    "containment_rule": "Monsters remain wholly behind enclosure barriers until explicitly planned breakout shots; no protruding claws."
   },
   "scope": "Opening through swamp and tour video; aquarium reference and later storyboard through frame2461.",
   "frame_convention": "one-based, end exclusive; source in zero-based",
@@ -243,24 +244,25 @@
       "id": "HARPER-LASSO-001",
       "start_frame": 1708,
       "end_frame_exclusive": 1768,
-      "source": "video-tests/KLING-TEST-004/KLING-TEST-004-clean.mp4",
-      "source_in_frame": 0,
+      "source": "motion-graphics/LASSO-TOSS-001/Lasso-toss-v001.mp4",
+      "source_in_frame": 24,
       "media_type": "video",
-      "status": "rejected_loop_crosses_head_replacement_pending",
-      "start_frame_reference": "assets/ANCH-006-B-comic-rope-v002.png",
-      "timing_record": "video-tests/KLING-TEST-004/timing-selection.json",
-      "note": "Current v39 retains old take004 only as review placeholder. User rejected head intersection. New rigid-prop001 also fails loop coherence; not substituted. No acceptable replacement yet."
+      "status": "underhand_composite_for_review",
+      "start_frame_reference": "assets/SCN-006-lasso-underhand-plate-v002.png",
+      "timing_record": "motion-graphics/LASSO-TOSS-001/timing.json",
+      "note": "Empty-hand performance from Kling with controlled Blender loop/tether; corrected cage5 patch removes protruding claw. Source24..84, normal speed. Initial assumed pre-roll12; actual source trim24 chosen for gesture. No catch shown. Broad palm-up gesture differs from compact underhand request; review experiment.",
+      "assumed_pre_roll_frames": 12
     },
     {
       "id": "ANCH-006-B-PLAN",
       "start_frame": 1768,
       "end_frame_exclusive": 2036,
-      "source": "assets/ANCH-006-B-v001.png",
+      "source": "assets/SCN-006-lasso-underhand-plate-v002.png",
       "source_in_frame": 0,
       "media_type": "image",
       "status": "placeholder_pending_net_catch_and_later_shot_design",
       "timing_basis": "Existing storyboard cut preserved",
-      "note": "Existing lasso still retained temporarily. Plan rope-net interception on One almost just just now got out, starting1779; this still does not depict that incident."
+      "note": "Clean cage5 reference placeholder for planned net incident; no protruding monster claw."
     },
     {
       "id": "ANCH-007-A-PLAN",
@@ -396,6 +398,15 @@
       "assumed_pre_roll_frames": 12,
       "timing_record": "video-tests/KLING-LASSO-PROP-001/timing.json",
       "review": "video-tests/KLING-LASSO-PROP-001/review.md"
+    },
+    {
+      "id": "KLING-LASSO-TOSS-001",
+      "source": "video-tests/KLING-LASSO-TOSS-001/KLING-LASSO-TOSS-001-01.mp4",
+      "status": "composited_for_review",
+      "credits": 32,
+      "assumed_pre_roll_frames": 12,
+      "source_in_frame": 24,
+      "note": "Start-only empty-hand plate; Blender loop plus cage5 repair. No video regeneration for claw correction."
     }
   ],
   "approved_sign_sequence": {

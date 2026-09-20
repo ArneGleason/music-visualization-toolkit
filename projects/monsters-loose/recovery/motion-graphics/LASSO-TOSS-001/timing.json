@@ -1,0 +1,14 @@
+{
+  "fps": 24,
+  "master_start": 1708,
+  "master_end_exclusive": 1768,
+  "assumed_pre_roll_frames": 12,
+  "actual_source_in_frame": 24,
+  "source_out_frame_exclusive": 84,
+  "additional_editorial_head_trim_frames": 12,
+  "available_tail_frames": 13,
+  "release_source_frame": 67,
+  "release_master_frame": 1751,
+  "status": "awaiting_user_review",
+  "cage_repair": "assets/SCN-006-lasso-underhand-plate-v002.png"
+}

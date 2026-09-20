@@ -1,0 +1,13 @@
+{
+  "fps": 24,
+  "master_start": 1708,
+  "master_end_exclusive": 1768,
+  "assumed_pre_roll_frames": 12,
+  "intended_source_in_frame": 12,
+  "edit_duration_frames": 60,
+  "requested_duration_seconds": 4,
+  "status": "composited_for_review",
+  "actual_source_in_frame": 24,
+  "actual_source_out_frame_exclusive": 84,
+  "additional_editorial_trim_frames": 12
+}

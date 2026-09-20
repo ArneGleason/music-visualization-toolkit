@@ -1,0 +1,4 @@
+# Underhand plate review
+4seconds32credits, approved Harper Element, start-only SCN-006-lasso-underhand-plate-v001. Generated a broader palm-up arm gesture with two movements, rather than exactly the requested compact underhand toss. No generated moving rope. Keep source24..84 for this experiment. Manually keyed Blender rope loop and lead follows the glove, releases atsource67/master1751, exits left; does not cross head. Source motion is expressive; comic loop remains deliberately controlled and somewhat rigid. Await user judgment, not accepted footage.
+
+User noticed cage5 protruding claw after submission. Imagegen v002 removes it; a localized18px feathered patch over x1580..1850,y30..360 in1916x1080 footage replaces that region. No new video credits for correction. Corrected plate also replaces net-incident planning still after this shot. Preserve original tests, including take004 body motion, for possible reuse.

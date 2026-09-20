@@ -277,6 +277,12 @@
       "snapshot_sha256": "12beaa59ee5e3c8d2445dd7a08e1d8a2badd65ed676c009f6de18fb5b238ec12"
     },
     {
+      "path": "animatic/build-opening-v40.py",
+      "bytes": 1567,
+      "included": true,
+      "snapshot_sha256": "887cd7adfdf370a02cff438194336ef7be5272c6d7f84ffcd4ff20bdf74c285d"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -374,7 +380,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "32dc849e77c9af3f4541407f4ac5b754dc43747871953a2f73acc2ebd3826a4d"
+      "snapshot_sha256": "c776086458c790625626f327a3f4bd80a8c97b12bad91d13eb8080dc126c8cb1"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -948,6 +954,22 @@
       "snapshot_sha256": "4c2bc744e2815b5a54e9335c4f5ccec966e31c7b3ef29f3e0d710c1b2105fa0c"
     },
     {
+      "path": "animatic/MonstersLoose-v40-opening-through-habitats.mp4",
+      "bytes": 80215244,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v40-through-habitats.blend",
+      "bytes": 294107,
+      "included": true,
+      "snapshot_sha256": "93b856143c1521c0b69b47a6550e7f95bce27fb21c1def4eae6fef94888272a2"
+    },
+    {
+      "path": "animatic/MonstersLoose-v40-through-habitats.blend1",
+      "bytes": 294102,
+      "included": false
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1196,6 +1218,11 @@
     {
       "path": "animatic/render-v39.log",
       "bytes": 139434,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v40.log",
+      "bytes": 138557,
       "included": false
     },
     {
@@ -1469,6 +1496,11 @@
     {
       "path": "animatic/v24-review.jpg",
       "bytes": 113367,
+      "included": false
+    },
+    {
+      "path": "animatic/v40-check.jpg",
+      "bytes": 157455,
       "included": false
     },
     {
@@ -2976,6 +3008,22 @@
     {
       "path": "assets/SCN-006-aquarium-v001.png",
       "bytes": 2995119,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-006-lasso-underhand-plate-v001.png",
+      "bytes": 2860389,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-006-lasso-underhand-plate-v002.md",
+      "bytes": 714,
+      "included": true,
+      "snapshot_sha256": "d7a709e0d02eae4072a1fd6671c521c0270cf62ed45ab92c43fe8ead14878592"
+    },
+    {
+      "path": "assets/SCN-006-lasso-underhand-plate-v002.png",
+      "bytes": 2723173,
       "included": false
     },
     {
@@ -22880,6 +22928,552 @@
       "snapshot_sha256": "49c7e2ba46dce90db89ab6ad4b22acd7c713239c329afd7578b652f5aae07296"
     },
     {
+      "path": "motion-graphics/LASSO-TOSS-001/build.py",
+      "bytes": 3511,
+      "included": true,
+      "snapshot_sha256": "2bfd722996f3ac6f4e8d6da389a540d471e939c42733ecae61c0c6cbee4f53f9"
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/check.jpg",
+      "bytes": 299544,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/composite.py",
+      "bytes": 887,
+      "included": true,
+      "snapshot_sha256": "16c5fcc7a62aa4f85cd7162656bf90ac2d860e6088e23c16e1eeb2828907e350"
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/grip-check.jpg",
+      "bytes": 218863,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/Lasso-toss-v001.blend",
+      "bytes": 1083423,
+      "included": true,
+      "snapshot_sha256": "01aeff78f38a466f71fed74f24863019b9a8ded11e511b42c54584d0405c920c"
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/Lasso-toss-v001.blend1",
+      "bytes": 1084697,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/Lasso-toss-v001.mp4",
+      "bytes": 2785529,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0001.png",
+      "bytes": 516545,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0002.png",
+      "bytes": 514611,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0003.png",
+      "bytes": 514245,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0004.png",
+      "bytes": 513954,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0005.png",
+      "bytes": 514388,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0006.png",
+      "bytes": 514712,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0007.png",
+      "bytes": 513439,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0008.png",
+      "bytes": 512482,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0009.png",
+      "bytes": 511221,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0010.png",
+      "bytes": 510815,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0011.png",
+      "bytes": 509486,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0012.png",
+      "bytes": 509787,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0013.png",
+      "bytes": 512299,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0014.png",
+      "bytes": 510913,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0015.png",
+      "bytes": 513079,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0016.png",
+      "bytes": 509495,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0017.png",
+      "bytes": 507307,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0018.png",
+      "bytes": 508321,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0019.png",
+      "bytes": 511195,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0020.png",
+      "bytes": 512746,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0021.png",
+      "bytes": 515714,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0022.png",
+      "bytes": 517344,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0023.png",
+      "bytes": 519431,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0024.png",
+      "bytes": 521187,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0025.png",
+      "bytes": 523596,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0026.png",
+      "bytes": 522585,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0027.png",
+      "bytes": 523669,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0028.png",
+      "bytes": 524042,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0029.png",
+      "bytes": 523283,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0030.png",
+      "bytes": 523690,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0031.png",
+      "bytes": 523786,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0032.png",
+      "bytes": 524871,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0033.png",
+      "bytes": 523798,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0034.png",
+      "bytes": 524234,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0035.png",
+      "bytes": 523807,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0036.png",
+      "bytes": 524547,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0037.png",
+      "bytes": 524734,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0038.png",
+      "bytes": 524626,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0039.png",
+      "bytes": 525279,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0040.png",
+      "bytes": 525575,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0041.png",
+      "bytes": 526032,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0042.png",
+      "bytes": 525604,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0043.png",
+      "bytes": 526470,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0044.png",
+      "bytes": 525991,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0045.png",
+      "bytes": 525453,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0046.png",
+      "bytes": 525642,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0047.png",
+      "bytes": 525206,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0048.png",
+      "bytes": 525187,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0049.png",
+      "bytes": 525618,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0050.png",
+      "bytes": 525829,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0051.png",
+      "bytes": 525423,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0052.png",
+      "bytes": 524853,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0053.png",
+      "bytes": 526342,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0054.png",
+      "bytes": 525412,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0055.png",
+      "bytes": 525212,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0056.png",
+      "bytes": 526154,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0057.png",
+      "bytes": 525574,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0058.png",
+      "bytes": 526680,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0059.png",
+      "bytes": 526131,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0060.png",
+      "bytes": 525886,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0061.png",
+      "bytes": 525906,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0062.png",
+      "bytes": 525856,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0063.png",
+      "bytes": 526643,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0064.png",
+      "bytes": 525902,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0065.png",
+      "bytes": 526704,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0066.png",
+      "bytes": 527431,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0067.png",
+      "bytes": 527164,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0068.png",
+      "bytes": 527802,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0069.png",
+      "bytes": 525525,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0070.png",
+      "bytes": 524644,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0071.png",
+      "bytes": 521457,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0072.png",
+      "bytes": 505723,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0073.png",
+      "bytes": 501572,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0074.png",
+      "bytes": 495215,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0075.png",
+      "bytes": 488666,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0076.png",
+      "bytes": 487500,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0077.png",
+      "bytes": 486212,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0078.png",
+      "bytes": 482736,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0079.png",
+      "bytes": 483579,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0080.png",
+      "bytes": 481868,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0081.png",
+      "bytes": 480199,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0082.png",
+      "bytes": 478478,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0083.png",
+      "bytes": 475588,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0084.png",
+      "bytes": 472476,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0085.png",
+      "bytes": 473258,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0086.png",
+      "bytes": 472122,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0087.png",
+      "bytes": 470677,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0088.png",
+      "bytes": 470181,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0089.png",
+      "bytes": 468358,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0090.png",
+      "bytes": 468071,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0091.png",
+      "bytes": 466777,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0092.png",
+      "bytes": 465777,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0093.png",
+      "bytes": 464738,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0094.png",
+      "bytes": 464269,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0095.png",
+      "bytes": 463899,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0096.png",
+      "bytes": 463334,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/overlay/rope-0097.png",
+      "bytes": 462846,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/README.md",
+      "bytes": 1246,
+      "included": true,
+      "snapshot_sha256": "aab001b66ee3d25bebf71ccbee7d39e7765de4d95be4b3b53d6d180bef29bcba"
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/render.log",
+      "bytes": 15932,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/timing.json",
+      "bytes": 427,
+      "included": true,
+      "snapshot_sha256": "94ee348942700c48eabf0d24575dea4b41cd71ed5c8e8778659aa5e26ecbabcf"
+    },
+    {
+      "path": "motion-graphics/LASSO-TOSS-001/tracks.json",
+      "bytes": 1249,
+      "included": true,
+      "snapshot_sha256": "e6a15970ee37fb73257efdc28eebd3f7c7f2b12d8f52c872e12c5287ccd38119"
+    },
+    {
       "path": "motion-graphics/STEALTH-POV-001/build-parallax-v003.py",
       "bytes": 3919,
       "included": true,
@@ -28215,9 +28809,9 @@
     },
     {
       "path": "shots/SCN-006-lasso-net.md",
-      "bytes": 1737,
+      "bytes": 1974,
       "included": true,
-      "snapshot_sha256": "0b39c87964d442638783b3a85b14bcdb36c8a0d2add1a717c9d6e7d24e0e416a"
+      "snapshot_sha256": "e7a1006bbb9418dc52b8b8f7934d5989a2f4ed64719a9fd4e90479f7b6743c23"
     },
     {
       "path": "shots/SCN-006-tour-aquarium.md",
@@ -28227,9 +28821,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 21657,
+      "bytes": 22276,
       "included": true,
-      "snapshot_sha256": "0c000fd64fb4198f2678dc8da3098ed7ac9e0261c29bfd79b3a0e55abbeb0ea8"
+      "snapshot_sha256": "cb4602a12bca9b0995de636c7fe7c0f9619a33e4158e73907b1628471a0612e8"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -28320,6 +28914,12 @@
       "bytes": 1561,
       "included": true,
       "snapshot_sha256": "23d4330b2190069bdf0cfb6c6adf04f443ab2e99b800cebe6b91e03aedb7e938"
+    },
+    {
+      "path": "video-tests/collect-kling-lasso-toss-001.py",
+      "bytes": 1561,
+      "included": true,
+      "snapshot_sha256": "7c422008ce52d51d0d848308a390f69041fa2c64fb7bc3dcf9ba1d74e3fbdc53"
     },
     {
       "path": "video-tests/collect-kling-open-001.py",
@@ -28915,6 +29515,63 @@
       "bytes": 397,
       "included": true,
       "snapshot_sha256": "ab6b562f0cb8bb67711cb8156b01568badfcf16d9026259bb181eb5a47aced75"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-TOSS-001/contact.jpg",
+      "bytes": 409754,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-LASSO-TOSS-001/hands.jpg",
+      "bytes": 333174,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-LASSO-TOSS-001/KLING-LASSO-TOSS-001-01.mp4",
+      "bytes": 6787039,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-LASSO-TOSS-001/prompt.txt",
+      "bytes": 1784,
+      "included": true,
+      "snapshot_sha256": "a558bb7f79822d0010678848e23b875b0d1eeab95b082ab64f52c78dbb200680"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-TOSS-001/request.json",
+      "bytes": 2349,
+      "included": true,
+      "snapshot_sha256": "93fd670651a71c18d650e476904982ff90424108dc2f68133ff5668f3bd57418"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-TOSS-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "84d173acbca105534280191e457bf4913e83e67e99aabdabbfd679e5d3eaa0dc"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-TOSS-001/review.md",
+      "bytes": 932,
+      "included": true,
+      "snapshot_sha256": "54a28c7b8361d744cb6ae43bb9ef2d5974da49c9c6b93fa9376e655c3fd50f64"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-TOSS-001/submission-stderr.txt",
+      "bytes": 3203,
+      "included": true,
+      "snapshot_sha256": "992d8bec6a17d7fe2ca85690d2356bf454eb0d05c2a22b26fc5d3df86de582f7"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-TOSS-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "39142b3611cf073f72a2bd75f40dc41ec846e45a5f69db69cb78ecfb9de7a9ef"
+    },
+    {
+      "path": "video-tests/KLING-LASSO-TOSS-001/timing.json",
+      "bytes": 369,
+      "included": true,
+      "snapshot_sha256": "d5be28cb658260df98e1c5ba396fd9cb8d22b71b38b7fbb0230e715b1a858c4e"
     },
     {
       "path": "video-tests/KLING-OPEN-001/KLING-OPEN-001-01.mp4",
@@ -30271,6 +30928,12 @@
       "bytes": 627,
       "included": true,
       "snapshot_sha256": "f24b4d89a959ddba37e7408855bba70b2cfc05e36b676776ce5e0c7338b247a9"
+    },
+    {
+      "path": "video-tests/run-kling-lasso-toss-001.py",
+      "bytes": 627,
+      "included": true,
+      "snapshot_sha256": "8353c70f935bc198ffc3fff0b6a4a5e26323f90a10f21f0613a114ac370f9825"
     },
     {
       "path": "video-tests/run-kling-open-001.py",

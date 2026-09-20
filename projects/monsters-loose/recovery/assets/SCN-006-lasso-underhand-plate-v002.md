@@ -1,0 +1,3 @@
+# Underhand animation plate
+v001: imagegen edit of ANCH-006-B-comic-rope-v002. Preserve comic style, identity, costume, boy, architecture. Lower right throwing arm beside hip; empty relaxed glove separated from body for later Blender rope. Keep left-hand coils at waist, remove raised loop and all rope to moving hand. Single start-only animation plate.
+v002: precise localized removal of claw protruding through upper-right cage5. Reconstruct intact mesh and dark interior; preserve pose and composition. Generated after Kling submission, used as a localized feathered cage patch in final composite and as future clean reference. User continuity rule: all monsters remain behind cages until explicit breakout.

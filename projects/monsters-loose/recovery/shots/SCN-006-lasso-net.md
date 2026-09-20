@@ -11,3 +11,6 @@ User prefers early coherent swinging and cutting before rope lowers/deteriorates
 
 
 2026-09-19: v39 lasso rejected for head intersection. Rigid-prop test001 (4s/32credits) also failed loop integrity. Edit unchanged, replacement pending. No Blender overlay applied to failed footage.
+
+
+Underhand revision: generate a clean low empty-hand arm gesture, add controlled Blender loop moving toward offscreen left, cut before catch. Remove protruding cage5 claw. Monsters remain behind barriers until explicit escape shots.
