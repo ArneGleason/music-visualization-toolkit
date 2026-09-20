@@ -1,0 +1,15 @@
+{
+  "fps": 24,
+  "source": "video-tests/KLING-TOUR-003/KLING-TOUR-003-01.mp4",
+  "source_frames": 145,
+  "master_start_frame": 1507,
+  "master_end_frame_exclusive": 1625,
+  "source_in_frame": 12,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "period_frames": 29,
+  "pulse_sigma_frames": 3.4,
+  "phase_formula": "master = source_zero_based +1495; phase7+4*beacon_index",
+  "effect": "Five tracked red rooftop beacons, feathered source suppression and soft red bloom; far beacon gated when obscured. Same cadence as SWAMP-LIGHTS-001.",
+  "underlying_take_status": "user_approved"
+}

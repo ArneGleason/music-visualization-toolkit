@@ -241,6 +241,12 @@
       "snapshot_sha256": "6b877b51a6740c44c9ae3daab32495a003d324a752d27223088978e276dfddfb"
     },
     {
+      "path": "animatic/build-opening-v34.py",
+      "bytes": 1741,
+      "included": true,
+      "snapshot_sha256": "d7a490816bff260e9e4c93bfd963450ed52eb5db5d7d54624afbd5746e12afb6"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -338,7 +344,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "3af8e120693a1e048a20ada5c3f1e22f70f390bb45435cbb711987433c225681"
+      "snapshot_sha256": "129000ac80c83cb6f37713f340eb2327a65ac61ce3eadb1b996de0b771fc0318"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -841,6 +847,17 @@
       "snapshot_sha256": "e5fdfb8acf295dbd480d7dcc642ad11671d355047b8083ccff9716424f9e2aa5"
     },
     {
+      "path": "animatic/MonstersLoose-v34-opening-through-habitats.mp4",
+      "bytes": 81232059,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v34-through-habitats.blend",
+      "bytes": 293445,
+      "included": true,
+      "snapshot_sha256": "069de6913f6cb62423fd82426ab00de554409269df9f15dd5a680441d7b5dfa1"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1058,6 +1075,11 @@
     },
     {
       "path": "animatic/render-v33.log",
+      "bytes": 138123,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v34.log",
       "bytes": 138123,
       "included": false
     },
@@ -20890,6 +20912,788 @@
       "snapshot_sha256": "abf6ebdc20f884c9e10aebc03a569932d40b1cf1af8d78cb9dc5d53a77603da6"
     },
     {
+      "path": "motion-graphics/TOUR-LIGHTS-001/build.py",
+      "bytes": 4518,
+      "included": true,
+      "snapshot_sha256": "1ef665e00c75ebbeaa81d316907bab7c4dbcc3e37950841fead2f12cf2b995fe"
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0001.png",
+      "bytes": 477129,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0002.png",
+      "bytes": 474925,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0003.png",
+      "bytes": 475547,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0004.png",
+      "bytes": 475230,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0005.png",
+      "bytes": 474590,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0006.png",
+      "bytes": 475118,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0007.png",
+      "bytes": 473183,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0008.png",
+      "bytes": 473011,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0009.png",
+      "bytes": 474462,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0010.png",
+      "bytes": 471834,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0011.png",
+      "bytes": 475532,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0012.png",
+      "bytes": 474514,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0013.png",
+      "bytes": 473005,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0014.png",
+      "bytes": 473507,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0015.png",
+      "bytes": 471718,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0016.png",
+      "bytes": 473302,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0017.png",
+      "bytes": 473426,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0018.png",
+      "bytes": 472287,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0019.png",
+      "bytes": 472254,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0020.png",
+      "bytes": 471816,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0021.png",
+      "bytes": 471124,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0022.png",
+      "bytes": 473549,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0023.png",
+      "bytes": 472186,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0024.png",
+      "bytes": 473111,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0025.png",
+      "bytes": 475005,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0026.png",
+      "bytes": 476875,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0027.png",
+      "bytes": 477052,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0028.png",
+      "bytes": 478273,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0029.png",
+      "bytes": 479502,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0030.png",
+      "bytes": 478746,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0031.png",
+      "bytes": 481088,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0032.png",
+      "bytes": 478520,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0033.png",
+      "bytes": 476556,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0034.png",
+      "bytes": 475008,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0035.png",
+      "bytes": 475437,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0036.png",
+      "bytes": 473550,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0037.png",
+      "bytes": 472862,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0038.png",
+      "bytes": 473185,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0039.png",
+      "bytes": 473578,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0040.png",
+      "bytes": 474867,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0041.png",
+      "bytes": 474033,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0042.png",
+      "bytes": 473167,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0043.png",
+      "bytes": 473471,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0044.png",
+      "bytes": 472381,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0045.png",
+      "bytes": 472642,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0046.png",
+      "bytes": 475026,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0047.png",
+      "bytes": 474562,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0048.png",
+      "bytes": 474154,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0049.png",
+      "bytes": 474812,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0050.png",
+      "bytes": 474220,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0051.png",
+      "bytes": 475349,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0052.png",
+      "bytes": 475670,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0053.png",
+      "bytes": 477191,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0054.png",
+      "bytes": 476813,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0055.png",
+      "bytes": 480518,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0056.png",
+      "bytes": 482173,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0057.png",
+      "bytes": 482200,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0058.png",
+      "bytes": 482162,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0059.png",
+      "bytes": 480731,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0060.png",
+      "bytes": 480435,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0061.png",
+      "bytes": 480848,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0062.png",
+      "bytes": 479094,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0063.png",
+      "bytes": 477046,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0064.png",
+      "bytes": 476700,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0065.png",
+      "bytes": 475094,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0066.png",
+      "bytes": 474430,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0067.png",
+      "bytes": 475950,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0068.png",
+      "bytes": 475380,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0069.png",
+      "bytes": 475616,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0070.png",
+      "bytes": 476139,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0071.png",
+      "bytes": 474698,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0072.png",
+      "bytes": 476446,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0073.png",
+      "bytes": 476838,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0074.png",
+      "bytes": 475135,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0075.png",
+      "bytes": 474463,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0076.png",
+      "bytes": 474994,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0077.png",
+      "bytes": 476697,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0078.png",
+      "bytes": 474090,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0079.png",
+      "bytes": 474143,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0080.png",
+      "bytes": 475340,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0081.png",
+      "bytes": 475569,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0082.png",
+      "bytes": 477122,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0083.png",
+      "bytes": 477604,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0084.png",
+      "bytes": 479179,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0085.png",
+      "bytes": 479030,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0086.png",
+      "bytes": 483025,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0087.png",
+      "bytes": 483658,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0088.png",
+      "bytes": 482054,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0089.png",
+      "bytes": 480560,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0090.png",
+      "bytes": 479644,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0091.png",
+      "bytes": 480458,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0092.png",
+      "bytes": 477121,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0093.png",
+      "bytes": 475865,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0094.png",
+      "bytes": 475201,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0095.png",
+      "bytes": 474944,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0096.png",
+      "bytes": 474544,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0097.png",
+      "bytes": 476418,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0098.png",
+      "bytes": 477184,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0099.png",
+      "bytes": 474637,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0100.png",
+      "bytes": 474380,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0101.png",
+      "bytes": 475199,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0102.png",
+      "bytes": 476273,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0103.png",
+      "bytes": 475769,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0104.png",
+      "bytes": 474600,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0105.png",
+      "bytes": 474558,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0106.png",
+      "bytes": 475005,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0107.png",
+      "bytes": 473173,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0108.png",
+      "bytes": 473657,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0109.png",
+      "bytes": 471952,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0110.png",
+      "bytes": 473315,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0111.png",
+      "bytes": 477395,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0112.png",
+      "bytes": 473091,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0113.png",
+      "bytes": 474113,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0114.png",
+      "bytes": 481268,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0115.png",
+      "bytes": 473666,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0116.png",
+      "bytes": 481726,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0117.png",
+      "bytes": 476343,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0118.png",
+      "bytes": 473897,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0119.png",
+      "bytes": 472538,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0120.png",
+      "bytes": 471633,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0121.png",
+      "bytes": 470537,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0122.png",
+      "bytes": 470523,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0123.png",
+      "bytes": 468547,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0124.png",
+      "bytes": 467148,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0125.png",
+      "bytes": 468946,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0126.png",
+      "bytes": 467649,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0127.png",
+      "bytes": 469157,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0128.png",
+      "bytes": 467264,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0129.png",
+      "bytes": 467463,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0130.png",
+      "bytes": 467689,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0131.png",
+      "bytes": 469209,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0132.png",
+      "bytes": 468200,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0133.png",
+      "bytes": 467081,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0134.png",
+      "bytes": 468558,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0135.png",
+      "bytes": 471186,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0136.png",
+      "bytes": 469490,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0137.png",
+      "bytes": 470905,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0138.png",
+      "bytes": 472885,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0139.png",
+      "bytes": 474929,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0140.png",
+      "bytes": 475303,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0141.png",
+      "bytes": 475159,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0142.png",
+      "bytes": 474100,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0143.png",
+      "bytes": 475322,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0144.png",
+      "bytes": 472996,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/overlay/lights-0145.png",
+      "bytes": 473396,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/prepare.py",
+      "bytes": 2313,
+      "included": true,
+      "snapshot_sha256": "9cc1ce9aa6e01cbae83799c4b536e3b240c307308a4ecf50d98ab9c50fd0275c"
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/README.md",
+      "bytes": 987,
+      "included": true,
+      "snapshot_sha256": "7d3f5fef91bfd53398cb720ad3fee7b8a895860a7a736f3b96e7beac2a0a3c04"
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/render.log",
+      "bytes": 24493,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/review.jpg",
+      "bytes": 172981,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/timing.json",
+      "bytes": 616,
+      "included": true,
+      "snapshot_sha256": "fd918aace7c9e7a750db251378df43e79d69ce6586306c6ab4d372354fd35d4f"
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/Tour-lights-v001.blend",
+      "bytes": 158848,
+      "included": true,
+      "snapshot_sha256": "b28d8c51f266e456be9fa0da8b08ff2024bf3bdc4fa882678f9dbcce8480f37b"
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/Tour-lights-v001.mp4",
+      "bytes": 13468414,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/tracks.json",
+      "bytes": 54201,
+      "included": true,
+      "snapshot_sha256": "9a8ca0cad7991cfe3c176d752c2df99a04f68893315e3901b7d513edc3b20f69"
+    },
+    {
+      "path": "motion-graphics/TOUR-LIGHTS-001/visibility.json",
+      "bytes": 3660,
+      "included": true,
+      "snapshot_sha256": "26346f472729a7556880226d0a4210cfe7bdda02eb9ab6962a65a1a3d8b6ebfe"
+    },
+    {
       "path": "motion-graphics/ZONE8-GATE-001/build-v002.py",
       "bytes": 4826,
       "included": true,
@@ -22991,15 +23795,15 @@
     },
     {
       "path": "shots/SCN-006-tour-aquarium.md",
-      "bytes": 3136,
+      "bytes": 3409,
       "included": true,
-      "snapshot_sha256": "e4f2a656e78e4f113163f5e9856fa02c90b90505cb9cf43620d3069eccf5150d"
+      "snapshot_sha256": "d21fbf02b4f69593d64623041a1b2e19043974dd074a4911bf11787821e309ef"
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 17894,
+      "bytes": 17872,
       "included": true,
-      "snapshot_sha256": "34cb32937a4ddd3837db0cae4e331d3bce4df891e88363a8095e67981fef8999"
+      "snapshot_sha256": "e3f584438408a9270fb0cbbaf22d08afc4a6fdf26dd55215c368b11188d4ea1d"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -24749,6 +25553,11 @@
     {
       "path": "video-tests/KLING-TOUR-003/KLING-TOUR-003-01.mp4",
       "bytes": 30359267,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-TOUR-003/lights-reference.jpg",
+      "bytes": 197249,
       "included": false
     },
     {
