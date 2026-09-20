@@ -429,6 +429,15 @@
       "source_in_frame": 12,
       "review": "video-tests/KLING-ROPE-DEMO-001/review.md",
       "approval_note": "Good enough; rope works. More head/body language desirable, but retain candidate."
+    },
+    {
+      "id": "KLING-NET-001",
+      "source": "video-tests/KLING-NET-001/KLING-NET-001-01.mp4",
+      "status": "failed_action_not_integrated",
+      "credits": 56,
+      "element": "321495363652188",
+      "review": "video-tests/KLING-NET-001/review.md",
+      "assumed_pre_roll_frames": 12
     }
   ],
   "approved_sign_sequence": {
@@ -455,7 +464,7 @@
     "status": "vestibule_feeding_setup_for_review",
     "lyric": "One, one, almost, just, just now, got out.",
     "concept": "Routine feeding at rear habitat entrance; creature dashes into recessed vestibule, Harper surprised then stomps discreet nearby pedal, ceiling net drops onto creature before public concourse.",
-    "next_step": "Review revised spacious vestibule setup before video. Bind approved Harper Element; clarify boot-local pedal action, not foreground drain.",
+    "next_step": "First continuous take failed: creature retreats into habitat and net lowers without capture. Keep approved v004 storyboard. Consider separate dash and reaction/capture shots; no retry authorized by this result.",
     "lyric_cue_frame": 1779,
     "lead_in_frames": 11,
     "source": "assets/SCN-006-net-vestibule-v004.png",

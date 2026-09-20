@@ -10,3 +10,6 @@ Master1768..1893 exclusive125frames24fps (5.2083s); One cue1779. Assumed future 
 
 
 Latest v004 replaces exterior dangling canopy net with integrated ceiling recess inside deep containment vestibule. Larger naturalistic habitat behind rear threshold, public walkway foreground, central empty catching zone. Harper at left near habitat entrance, outside net footprint. Creature eating wholly inside habitat. Pedal not distinctly readable in still; animation must target a subtle flush floor panel beside her boot, never the prominent foreground drain. Harper is smaller in this wider view: use approved Harper Element321495363652188 for video identity. Timing unchanged. v45 animatic uses this still.
+
+
+KLING-NET-001 generated7s56credits with approved Harper full-body/face Element. Failed action: creature retreats instead of escaping, then net hangs without convincing capture. Not integrated; v45 unchanged. Raw test and review preserved.

@@ -29534,9 +29534,9 @@
     },
     {
       "path": "shots/SCN-006-net-interception.md",
-      "bytes": 1973,
+      "bytes": 2217,
       "included": true,
-      "snapshot_sha256": "05b2178c0ee531393ce736f1aefe437d79647b318580827b76f39fb9a345d962"
+      "snapshot_sha256": "0bf527ca15b1bd3629c9500e38ae5705602ea28cf0a9821fb14d9c9f6b408ffb"
     },
     {
       "path": "shots/SCN-006-tour-aquarium.md",
@@ -29546,9 +29546,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 23492,
+      "bytes": 23877,
       "included": true,
-      "snapshot_sha256": "448b2b8cd4f303ceec66d1e5894115df65d82748ba3084f86255361009d85082"
+      "snapshot_sha256": "a34bf7f3c374e64bd9b010e8ae395b007e727ed8f6ef4d02ced4fa6a16ba5e67"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -29645,6 +29645,12 @@
       "bytes": 1561,
       "included": true,
       "snapshot_sha256": "7c422008ce52d51d0d848308a390f69041fa2c64fb7bc3dcf9ba1d74e3fbdc53"
+    },
+    {
+      "path": "video-tests/collect-kling-net-001.py",
+      "bytes": 1547,
+      "included": true,
+      "snapshot_sha256": "ffc5afb90deecdf4272409b6865838005597924588c87028ad359498c424ece1"
     },
     {
       "path": "video-tests/collect-kling-open-001.py",
@@ -30303,6 +30309,64 @@
       "bytes": 369,
       "included": true,
       "snapshot_sha256": "d5be28cb658260df98e1c5ba396fd9cb8d22b71b38b7fbb0230e715b1a858c4e"
+    },
+    {
+      "path": "video-tests/KLING-NET-001/contact.jpg",
+      "bytes": 345998,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-NET-001/KLING-NET-001-01.mp4",
+      "bytes": 14333475,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-NET-001/prompt.txt",
+      "bytes": 3392,
+      "included": true,
+      "snapshot_sha256": "d3aa61047c8b4e15ee44397290cb07ca429ed9e501ebadea7d68e443608c06a3"
+    },
+    {
+      "path": "video-tests/KLING-NET-001/request.json",
+      "bytes": 3949,
+      "included": true,
+      "snapshot_sha256": "c09925e50c217d55c7a1bbc85dffebb0476df643b6a349bb86bf2507b0e6b659"
+    },
+    {
+      "path": "video-tests/KLING-NET-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "494ff8c544e44fc64631569c93796e89a85b9efeef3bf60f46ed5c3cc4a70ab7"
+    },
+    {
+      "path": "video-tests/KLING-NET-001/review-checklist.md",
+      "bytes": 1128,
+      "included": true,
+      "snapshot_sha256": "1177fe19c9109be51fbf347e35cc1b514425500ade013b71d524315539981b42"
+    },
+    {
+      "path": "video-tests/KLING-NET-001/review.md",
+      "bytes": 1037,
+      "included": true,
+      "snapshot_sha256": "79ad8cd4fb76945eaa70120d8c7facc937a13b10969de2b8fbfd1d06fd520aeb"
+    },
+    {
+      "path": "video-tests/KLING-NET-001/submission-stderr.txt",
+      "bytes": 4793,
+      "included": true,
+      "snapshot_sha256": "511633f4e9a558bfb0b94bad036b40d9c10d84e406795813c34cdd62a9db8bcb"
+    },
+    {
+      "path": "video-tests/KLING-NET-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "a92064d1d0f8fb46b9ac2fde784e6b810755d34054c26a4c388476506b46d3bb"
+    },
+    {
+      "path": "video-tests/KLING-NET-001/timing.json",
+      "bytes": 373,
+      "included": true,
+      "snapshot_sha256": "d9e483cc0166ab41e9399095c7bd724402295fd7c8d28ed09baf0fcd2375745d"
     },
     {
       "path": "video-tests/KLING-OPEN-001/KLING-OPEN-001-01.mp4",
@@ -31717,6 +31781,12 @@
       "bytes": 627,
       "included": true,
       "snapshot_sha256": "8353c70f935bc198ffc3fff0b6a4a5e26323f90a10f21f0613a114ac370f9825"
+    },
+    {
+      "path": "video-tests/run-kling-net-001.py",
+      "bytes": 620,
+      "included": true,
+      "snapshot_sha256": "8ddac4a4f0ec5569e364aa81fbf39c233d8f8dcf2f0be6d17e1b3a340ec368a7"
     },
     {
       "path": "video-tests/run-kling-open-001.py",

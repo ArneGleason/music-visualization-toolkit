@@ -77,3 +77,6 @@ v44: supersedes lever/roller net storyboard with SCN-006-net-feeding-v003: creat
 
 
 v45: SCN-006-net-vestibule-v004 replaces net-feeding-v003. Larger natural habitat, deep recessed containment vestibule, discreet folded net in ceiling recess above central catching floor. Creature still eating fully inside rear threshold; Harper at left. Foot-trigger action remains planned. Still only, no net video credits. Same1768..1893 timing.
+
+
+KLING-NET-001:7s56credits, Harper full-body/face Element bound. Test failed event choreography: monster retreats into habitat, net lowers afterward as curtain/sack, no capture. Raw video external; prompt/settings/review in recovery. Not integrated, current edit staysv45. No further paid retry.
