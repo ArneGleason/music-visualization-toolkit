@@ -240,14 +240,27 @@
       "speech_text": "Sorry. I'm not on the menu."
     },
     {
-      "id": "ANCH-006-B-PLAN",
+      "id": "HARPER-LASSO-001",
       "start_frame": 1708,
+      "end_frame_exclusive": 1779,
+      "source": "video-tests/KLING-TEST-004/KLING-TEST-004-clean.mp4",
+      "source_in_frame": 60,
+      "media_type": "video",
+      "status": "retained_best_test_selected_for_context_review",
+      "start_frame_reference": "assets/ANCH-006-B-comic-rope-v002.png",
+      "timing_record": "video-tests/KLING-TEST-004/timing-selection.json",
+      "note": "User requested best existing corrected-rope graphic-novel attempt. Use late twirl into gathering coils; no new generation."
+    },
+    {
+      "id": "ANCH-006-B-PLAN",
+      "start_frame": 1779,
       "end_frame_exclusive": 2036,
       "source": "assets/ANCH-006-B-v001.png",
       "source_in_frame": 0,
       "media_type": "image",
-      "status": "existing_storyboard_for_planning",
-      "timing_basis": "Existing storyboard cut preserved"
+      "status": "placeholder_pending_net_catch_and_later_shot_design",
+      "timing_basis": "Existing storyboard cut preserved",
+      "note": "Existing lasso still retained temporarily. Plan rope-net interception on One almost just just now got out, starting1779; this still does not depict that incident."
     },
     {
       "id": "ANCH-007-A-PLAN",
@@ -393,5 +406,13 @@
     "wide_reference": "assets/SCN-003-harper-arctic-reaction-v002.png",
     "note": "User superseded enclosure4 return with continuous Arctic location for patrol, PA closeup and concerned reaction. PA motion and broken announcement bubble planned in Blender; Harper fully animated, listening and tightening rope grip. Dark cave reserved for red eyes. Exact cuts from timing grid before footage. No extra cutaways.",
     "preview": "motion-graphics/ARCTIC-PA-001/Arctic-patrol-announcement-reaction-v004.mp4"
+  },
+  "planned_net_interception": {
+    "start_frame": 1779,
+    "provisional_end_frame_exclusive": 1893,
+    "status": "concept_only_not_generated",
+    "lyric": "One, one, almost, just, just now, got out.",
+    "concept": "A monster makes a sneaky break through a feeding/service opening. Harper triggers a secondary safety mechanism: a large rope net drops and catches it before escape. Mechanical deployment should be visually simple and readable. Ties to lasso competence; avoid elaborate rope physics.",
+    "next_step": "Design a clear still showing door, monster, Harper and overhead net mechanism before video generation."
   }
 }

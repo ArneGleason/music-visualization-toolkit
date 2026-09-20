@@ -1,0 +1,19 @@
+{
+  "fps": 24,
+  "master_start_frame": 1708,
+  "master_end_frame_exclusive": 1779,
+  "source_in_frame": 60,
+  "source_out_frame_exclusive": 131,
+  "selected_frames": 71,
+  "source": "KLING-TEST-004-clean.mp4",
+  "original_generation_seconds": 8,
+  "original_generation_credits": 64,
+  "new_generation_credits": 0,
+  "original_assumed_pre_roll_frames": null,
+  "pre_roll_note": "Historical test predates handle convention; no original assumed pre-roll recorded. Current editorial offset60frames is a selection, not an assumed generation lead-in.",
+  "unused_leading_frames": 60,
+  "timing_basis": "Preserve reviewed aquarium exit1708; next cut1779 = nearest masterframe to first One onset74.063816 seconds. Final out overlaps first One slightly in vocal alignment; review with audio.",
+  "action": "late gentle twirl, lowering and gathering rope into coils",
+  "source_frames": 193,
+  "unused_tail_frames": 62
+}

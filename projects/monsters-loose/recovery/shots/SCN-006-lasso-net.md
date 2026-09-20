@@ -1,0 +1,7 @@
+# Lasso return and proposed near escape
+
+Use retained KLING-TEST-004 (corrected comic-rope start ANCH-006-B-comic-rope-v002). User previously liked it despite imperfections, and now requested putting best attempt into edit. v38 selects source60..131 exclusive, 71frames, master1708..1779: last twirl into lowering/gathering coils. No slowdown, no paid generation, preserves original.
+
+Historical8second test predates explicit handle convention: assumed pre-roll unknown, current60frame offset is editorial selection only. See timing-selection.json.
+
+Next proposed incident on One almost just just now got out, master1779 onward: monster exploits a feeding/service opening; Harper operates a secondary catch mechanism, big rope net drops to intercept before full escape. Connects with rope/lasso theme, more controllable than wrapping a lasso around a moving creature. Design shot geometry before animation. No still or video for incident generated yet. Existing lasso storyboard remains as visibly labeled placeholder until designed. Provisional next phrase Your eye roll begins78.826816s, nearest master1893.

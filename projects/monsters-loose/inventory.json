@@ -265,6 +265,12 @@
       "snapshot_sha256": "86ff2034ceb7fcd189e4e8b674dba3f1307cfee2ccde9df3658a88f4985eb505"
     },
     {
+      "path": "animatic/build-opening-v38.py",
+      "bytes": 2079,
+      "included": true,
+      "snapshot_sha256": "859b7a4f240b0d50225703b2d93f4fc160d063b3abd2961c6bc87c4d915987f6"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -362,7 +368,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "3645a430866ecd83f628dc2db741cd8ea681afffaea092c73a919d30941bdecd"
+      "snapshot_sha256": "67beba230c5c56107837b37d2ec43aa19f8a6dff32d256e86948ff92e9cf5adb"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -914,6 +920,17 @@
       "snapshot_sha256": "35b7db308bc6ecd3e4346e34d3f72a837033e04ae2423cc57e1e943e2433cd71"
     },
     {
+      "path": "animatic/MonstersLoose-v38-opening-through-habitats.mp4",
+      "bytes": 82014617,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v38-through-habitats.blend",
+      "bytes": 294093,
+      "included": true,
+      "snapshot_sha256": "ee29a5f63acefc3ae9ba30409a4349b0f266d2047c6e2979a2c14ccad2b8aef4"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1152,6 +1169,11 @@
     {
       "path": "animatic/render-v37.log",
       "bytes": 137816,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v38.log",
+      "bytes": 138572,
       "included": false
     },
     {
@@ -28158,6 +28180,12 @@
       "snapshot_sha256": "4fed19dca5eeab75bba55a0406ac3094649e0ba183a264eae1786835e7d781b8"
     },
     {
+      "path": "shots/SCN-006-lasso-net.md",
+      "bytes": 1117,
+      "included": true,
+      "snapshot_sha256": "bc1f0d424a37e3b233fe9873b322a75cac3b7abf9d294882bfdf09faf5c16018"
+    },
+    {
       "path": "shots/SCN-006-tour-aquarium.md",
       "bytes": 4527,
       "included": true,
@@ -28165,9 +28193,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 19716,
+      "bytes": 21157,
       "included": true,
-      "snapshot_sha256": "19ef48c71fdf5beebaa6e68e0c0c6fcd7e4f15e1b52cbce92462be4e51536906"
+      "snapshot_sha256": "e3c1ea707bf72c0218ccfb6535bd19395f9d819965ddf35ffe230717a4a7c909"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -28375,9 +28403,9 @@
     },
     {
       "path": "video-tests/FOOTAGE-TO-KEEP.md",
-      "bytes": 1043,
+      "bytes": 1371,
       "included": true,
-      "snapshot_sha256": "56d6b954700d0803016fa480fe3d85c5bd26be2800fdd1b3015c55fd63e69142"
+      "snapshot_sha256": "bd3d2e84ce22da9ad4e105d76d52c18660e447fbc1330fb0c9691a54b6302c63"
     },
     {
       "path": "video-tests/HARPER-ELEMENT-v001/creation-result.json",
@@ -29829,6 +29857,11 @@
       "snapshot_sha256": "ef22b590c5c0e78453e8c62ee26cbec19981d6bcdf22db1b970498a9743b36fe"
     },
     {
+      "path": "video-tests/KLING-TEST-004/animatic-selection-review.jpg",
+      "bytes": 170796,
+      "included": false
+    },
+    {
       "path": "video-tests/KLING-TEST-004/KLING-TEST-004-01.mp4",
       "bytes": 18915183,
       "included": false
@@ -29863,6 +29896,11 @@
       "snapshot_sha256": "4cb6282988fb815b147911461f5ea1ba92bf38d6216bd821af9e478306a7cb2a"
     },
     {
+      "path": "video-tests/KLING-TEST-004/selection-review.jpg",
+      "bytes": 285928,
+      "included": false
+    },
+    {
       "path": "video-tests/KLING-TEST-004/submission-stderr.txt",
       "bytes": 3259,
       "included": true,
@@ -29873,6 +29911,12 @@
       "bytes": 468,
       "included": true,
       "snapshot_sha256": "a034326a77c81ee12091d0b9a7c2066d1990dc3540bd045244cb82495e83ec42"
+    },
+    {
+      "path": "video-tests/KLING-TEST-004/timing-selection.json",
+      "bytes": 930,
+      "included": true,
+      "snapshot_sha256": "719af9c4986270c169b70483cae05ba7d19442affff778463a7f88ea4a9ef7e4"
     },
     {
       "path": "video-tests/KLING-TOUR-001/KLING-TOUR-001-01.mp4",
