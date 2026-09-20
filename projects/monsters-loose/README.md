@@ -1,12 +1,12 @@
 # Monsters Loose — production recovery
 
-Current edit: **v44**, through master frame2461 at24fps (102.54seconds). New simple rope demonstration at1708..1767 for review replaces rejected Blender toss. Bundled coil and connected strand; no rope overlay. Cage5 remains intact. Net interception and later habitat shots remain placeholders.
+Current edit: **v45**, through master frame2461 at24fps (102.54seconds). New simple rope demonstration at1708..1767 for review replaces rejected Blender toss. Bundled coil and connected strand; no rope overlay. Cage5 remains intact. Net interception and later habitat shots remain placeholders.
 
 ## Resume
 
 Use the existing frame review at http://127.0.0.1:8767/ (same app and port). The swamp bridge occupies master frames **1305–1506**. `recovery/shots/shotlist.json` is the edit source of truth. Master frames are one-based; source offsets are zero-based; end frames are exclusive. Default assumed pre-roll is 12 frames (half a second), recorded per shot; consult actual source trims before changing cuts or lip-sync.
 
-The current Blender timeline is `recovery/animatic/MonstersLoose-v44-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
+The current Blender timeline is `recovery/animatic/MonstersLoose-v45-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
 
 ## What is backed up
 
@@ -74,3 +74,6 @@ v43: new net-interception starting-frame storyboard at1768..1893, enclosure5 ser
 
 
 v44: supersedes lever/roller net storyboard with SCN-006-net-feeding-v003: creature fully inside eating, Harper withdrawing from bowl, discreet floor stomp pedal, soft net gathered under exterior canopy. Future dash surprises Harper; she stomps and net drops onto creature. No escape in starting frame, no hand switch. Same1768..1893 placement. Net animation not submitted.
+
+
+v45: SCN-006-net-vestibule-v004 replaces net-feeding-v003. Larger natural habitat, deep recessed containment vestibule, discreet folded net in ceiling recess above central catching floor. Creature still eating fully inside rear threshold; Harper at left. Foot-trigger action remains planned. Still only, no net video credits. Same1768..1893 timing.

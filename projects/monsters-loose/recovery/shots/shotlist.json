@@ -257,12 +257,12 @@
       "id": "HARPER-NET-INTERCEPTION-001",
       "start_frame": 1768,
       "end_frame_exclusive": 1893,
-      "source": "assets/SCN-006-net-feeding-v003.png",
+      "source": "assets/SCN-006-net-vestibule-v004.png",
       "source_in_frame": 0,
       "media_type": "image",
-      "status": "feeding_setup_starting_frame_for_review",
+      "status": "vestibule_feeding_setup_for_review",
       "timing_basis": "Existing storyboard cut preserved",
-      "note": "Routine feeding: creature fully inside eating from bowl, Harper withdrawing hand. No hand control, roller or net gate. Soft gathered canopy net above exterior escape path; discreet floor pedal near boot. Future animation supplies dash, surprised reaction, stomp and net drop.",
+      "note": "Deep containment vestibule separates larger naturalistic habitat from concourse. Creature fully inside feeding at rear threshold; Harper along left wall. Soft net tucked into ceiling recess above empty vestibule floor. Foot trigger should be subtle floor panel near Harper, not foreground drain. No animation yet.",
       "timing_record": "shots/SCN-006-net-interception.md"
     },
     {
@@ -452,13 +452,13 @@
   "planned_net_interception": {
     "start_frame": 1768,
     "provisional_end_frame_exclusive": 1893,
-    "status": "feeding_setup_starting_frame_for_review",
+    "status": "vestibule_feeding_setup_for_review",
     "lyric": "One, one, almost, just, just now, got out.",
-    "concept": "Feeding lead-in, creature darts from bowl toward open exit, Harper surprised then stomps floor pedal just in time, overhead soft net drops onto partly emerged creature.",
-    "next_step": "Review feeding setup; animate single continuous sequence first, split dash/response if necessary. No net video submitted.",
+    "concept": "Routine feeding at rear habitat entrance; creature dashes into recessed vestibule, Harper surprised then stomps discreet nearby pedal, ceiling net drops onto creature before public concourse.",
+    "next_step": "Review revised spacious vestibule setup before video. Bind approved Harper Element; clarify boot-local pedal action, not foreground drain.",
     "lyric_cue_frame": 1779,
     "lead_in_frames": 11,
-    "source": "assets/SCN-006-net-feeding-v003.png",
+    "source": "assets/SCN-006-net-vestibule-v004.png",
     "assumed_pre_roll_frames": 12,
     "assumed_post_roll_frames": 12
   }
