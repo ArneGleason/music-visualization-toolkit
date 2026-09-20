@@ -1,0 +1,4 @@
+# Aquarium expanding speech balloon
+One balloon enters with SORRY., pauses, expands to add I'M NOT ON / THE MENU. below. Uses existing HARPER-SPEECH-001 curved continuous contour and pressure-varied ink outline, ivory paper, Bangers font. Absolute shape keys expand body while tail stays near speaker; text remains same size and moves into final layout; word-wise reveal, gentle final-word settling. Modest ambient drift and tail head-follow. Moved right to clear hair/face and keep creature eye readable.
+
+Blender build.py renders121 RGBA frames. Composite overlay/bubble-%04d.png at24fps over original aquarium movie, FFmpeg overlay=0:0:format=auto, libx264 crf18 yuv420p, output Aquarium-speech-v001.mp4. Trim source12..95 to master1625..1708. Bubble entry master1641, SORRY master1643; expand1658..1670; full words master1672, hold through1707. No generation, no new audio/lip sync. v36 for review. Editable text/timing/layout in build.py and timing.json.

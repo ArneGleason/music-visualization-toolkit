@@ -24,3 +24,5 @@ USER APPROVED take003: perfect. This supersedes assistant background concern; do
 User requested animation of approved aquarium concept. Five seconds1080p,40credits, Harper Element321495363652188 attached, start image SCN-006-aquarium-v001 only. Locked camera; sea creature makes one heavy open-jaw forward push stopped by intact glass, slight lip compression and gills/bubbles; Harper folded arms, small backward lean and wary knowing eyebrow. All monster parts inside water, keeper on dry side, reflection not second character. Intended source12..95 exclusive, master1625..1708,12frame assumed pre/post handles. No lip sync/audio. See video-tests/KLING-AQUARIUM-001.
 
 Aquarium take001 returned121frames24fps,40credits. Sampled likeness/barrier okay. Mouth closes early, then snout presses toward Harper; does not keep mouth open as prompted. Disclosed and integrated v35 for review; no automatic retry.
+
+v36 adds user-selected wisecrack: Sorry. [pause] I am not on the menu (display contraction). One continuous speech balloon swells to fit two extra lines, word-wise reveal and slight settle. Same source/cuts, no paid generation. See AQUARIUM-SPEECH-001 timing/build.

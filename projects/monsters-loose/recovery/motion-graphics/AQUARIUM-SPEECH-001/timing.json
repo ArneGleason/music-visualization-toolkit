@@ -1,0 +1,31 @@
+{
+  "fps": 24,
+  "source": "video-tests/KLING-AQUARIUM-001/KLING-AQUARIUM-001-01.mp4",
+  "source_frames": 121,
+  "master_start_frame": 1625,
+  "master_end_frame_exclusive": 1708,
+  "source_in_frame": 12,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "overlay_frames_one_based": {
+    "bubble_entry": 29,
+    "sorry_arrives": 31,
+    "expansion_start": 46,
+    "expansion_end": 58,
+    "word_arrivals": {
+      "IM": 52,
+      "NOT": 54,
+      "ON": 56,
+      "THE": 58,
+      "MENU": 60
+    },
+    "settle_end": 66,
+    "visible_until": 111
+  },
+  "layout": [
+    "SORRY.",
+    "I'M NOT ON",
+    "THE MENU."
+  ],
+  "note": "One continuous expanding balloon, weighted outline, curved integrated tail, Bangers font, slight ambient drift and stronger mouth-follow at tail. Full line remains through editorial cut; no rushed exit."
+}

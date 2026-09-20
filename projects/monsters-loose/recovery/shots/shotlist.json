@@ -212,17 +212,20 @@
       "id": "HARPER-AQUARIUM-001",
       "start_frame": 1625,
       "end_frame_exclusive": 1708,
-      "source": "video-tests/KLING-AQUARIUM-001/KLING-AQUARIUM-001-01.mp4",
+      "source": "motion-graphics/AQUARIUM-SPEECH-001/Aquarium-speech-v001.mp4",
       "source_in_frame": 12,
       "media_type": "video",
-      "status": "generated_for_review",
+      "status": "expanding_speech_balloon_for_review",
       "timing_basis": "Watch onset67.683816s rounded to master1625; existing next cut1708 retained",
       "assumed_future_pre_roll_frames": 12,
       "assumed_future_post_roll_frames": 12,
       "start_frame_reference": "assets/SCN-006-aquarium-v001.png",
       "element": "321495363652188",
       "timing_record": "video-tests/KLING-AQUARIUM-001/timing.json",
-      "qa_note": "Samples12,40,65,94: Harper likeness consistent, barrier remains intact, creature inside. Mouth starts open but closes early; closed snout presses toward keeper rather than sustained open-jaw action. Disclosed to user; review pending."
+      "qa_note": "Samples12,40,65,94: Harper likeness consistent, barrier remains intact, creature inside. Mouth starts open but closes early; closed snout presses toward keeper rather than sustained open-jaw action. Disclosed to user; review pending.",
+      "original_video_source": "video-tests/KLING-AQUARIUM-001/KLING-AQUARIUM-001-01.mp4",
+      "effects_timing_record": "motion-graphics/AQUARIUM-SPEECH-001/timing.json",
+      "speech_text": "Sorry. I'm not on the menu."
     },
     {
       "id": "ANCH-006-B-PLAN",

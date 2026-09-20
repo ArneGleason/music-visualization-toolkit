@@ -253,6 +253,12 @@
       "snapshot_sha256": "f3d3d2dc4ef20fbf74bab23f20dcb30b53158c728878c4422fb2ec791ae579ba"
     },
     {
+      "path": "animatic/build-opening-v36.py",
+      "bytes": 2438,
+      "included": true,
+      "snapshot_sha256": "44b0eed3a5de650cdf949d28956bd63f3a3dd7a54903d9bdbd6379ac6a4dd83d"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -350,7 +356,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "66814dfdea64f357f9dd7df605272a50fa346cd6420cf01bb2c5407216634365"
+      "snapshot_sha256": "2f283feef38eaf5b4f092b4ae14721748c611a6c1a3bf6bace9b26ff121303e3"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -875,6 +881,22 @@
       "snapshot_sha256": "c2a93b51e2edd01ccb93c76a18b6d99f803c2f03e79bf5a921ba0f3b2f8ad181"
     },
     {
+      "path": "animatic/MonstersLoose-v36-opening-through-habitats.mp4",
+      "bytes": 82025168,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v36-through-habitats.blend",
+      "bytes": 294277,
+      "included": true,
+      "snapshot_sha256": "d19ceec1ff89cbff31184e997fc376db1fc7353ed6d5dc35497fd04ea813a7b3"
+    },
+    {
+      "path": "animatic/MonstersLoose-v36-through-habitats.blend1",
+      "bytes": 293660,
+      "included": false
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1103,6 +1125,11 @@
     {
       "path": "animatic/render-v35.log",
       "bytes": 137819,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v36.log",
+      "bytes": 138326,
       "included": false
     },
     {
@@ -3143,6 +3170,665 @@
       "path": "master.wav",
       "bytes": 63490490,
       "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/animatic-review.jpg",
+      "bytes": 74123,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/Aquarium-speech-v001.blend",
+      "bytes": 400559,
+      "included": true,
+      "snapshot_sha256": "609a0e249ea1b8a1b4079aad704668697c2c4d209c97e3bd5bb125d1dc61d714"
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/Aquarium-speech-v001.blend1",
+      "bytes": 398802,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/Aquarium-speech-v001.mp4",
+      "bytes": 5454357,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/build.py",
+      "bytes": 5487,
+      "included": true,
+      "snapshot_sha256": "0b275c31290439b76678b480884a33081c5fdbc0aca7bd426f523a8c82bc1fd1"
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0001.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0002.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0003.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0004.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0005.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0006.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0007.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0008.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0009.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0010.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0011.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0012.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0013.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0014.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0015.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0016.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0017.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0018.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0019.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0020.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0021.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0022.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0023.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0024.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0025.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0026.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0027.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0028.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0029.png",
+      "bytes": 502902,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0030.png",
+      "bytes": 503391,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0031.png",
+      "bytes": 507799,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0032.png",
+      "bytes": 507587,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0033.png",
+      "bytes": 507528,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0034.png",
+      "bytes": 507207,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0035.png",
+      "bytes": 507038,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0036.png",
+      "bytes": 506416,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0037.png",
+      "bytes": 506657,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0038.png",
+      "bytes": 507327,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0039.png",
+      "bytes": 507655,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0040.png",
+      "bytes": 508018,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0041.png",
+      "bytes": 508162,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0042.png",
+      "bytes": 507312,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0043.png",
+      "bytes": 507058,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0044.png",
+      "bytes": 507374,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0045.png",
+      "bytes": 506758,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0046.png",
+      "bytes": 508523,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0047.png",
+      "bytes": 507827,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0048.png",
+      "bytes": 512259,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0049.png",
+      "bytes": 517528,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0050.png",
+      "bytes": 524427,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0051.png",
+      "bytes": 533817,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0052.png",
+      "bytes": 544168,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0053.png",
+      "bytes": 555046,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0054.png",
+      "bytes": 567834,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0055.png",
+      "bytes": 576817,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0056.png",
+      "bytes": 582789,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0057.png",
+      "bytes": 587980,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0058.png",
+      "bytes": 595871,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0059.png",
+      "bytes": 596498,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0060.png",
+      "bytes": 599299,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0061.png",
+      "bytes": 600886,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0062.png",
+      "bytes": 599867,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0063.png",
+      "bytes": 601676,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0064.png",
+      "bytes": 600535,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0065.png",
+      "bytes": 601004,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0066.png",
+      "bytes": 598847,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0067.png",
+      "bytes": 599657,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0068.png",
+      "bytes": 599219,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0069.png",
+      "bytes": 599265,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0070.png",
+      "bytes": 599760,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0071.png",
+      "bytes": 600578,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0072.png",
+      "bytes": 601455,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0073.png",
+      "bytes": 601470,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0074.png",
+      "bytes": 602423,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0075.png",
+      "bytes": 601974,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0076.png",
+      "bytes": 600812,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0077.png",
+      "bytes": 600551,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0078.png",
+      "bytes": 600847,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0079.png",
+      "bytes": 601581,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0080.png",
+      "bytes": 600992,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0081.png",
+      "bytes": 602818,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0082.png",
+      "bytes": 601752,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0083.png",
+      "bytes": 602494,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0084.png",
+      "bytes": 602478,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0085.png",
+      "bytes": 602788,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0086.png",
+      "bytes": 602604,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0087.png",
+      "bytes": 602052,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0088.png",
+      "bytes": 601866,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0089.png",
+      "bytes": 602107,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0090.png",
+      "bytes": 601401,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0091.png",
+      "bytes": 602360,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0092.png",
+      "bytes": 602488,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0093.png",
+      "bytes": 602385,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0094.png",
+      "bytes": 602340,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0095.png",
+      "bytes": 603192,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0096.png",
+      "bytes": 602952,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0097.png",
+      "bytes": 602908,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0098.png",
+      "bytes": 602019,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0099.png",
+      "bytes": 603017,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0100.png",
+      "bytes": 603372,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0101.png",
+      "bytes": 603320,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0102.png",
+      "bytes": 603262,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0103.png",
+      "bytes": 603587,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0104.png",
+      "bytes": 603023,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0105.png",
+      "bytes": 603111,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0106.png",
+      "bytes": 602635,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0107.png",
+      "bytes": 603154,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0108.png",
+      "bytes": 603586,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0109.png",
+      "bytes": 603863,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0110.png",
+      "bytes": 603723,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0111.png",
+      "bytes": 603762,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0112.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0113.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0114.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0115.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0116.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0117.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0118.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0119.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0120.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/overlay/bubble-0121.png",
+      "bytes": 442517,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/README.md",
+      "bytes": 964,
+      "included": true,
+      "snapshot_sha256": "e4589018cdc7356f468cd13f3c702a5822406d04d0324d9dc5d6b865e4588df6"
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/render.log",
+      "bytes": 20696,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/review-final.jpg",
+      "bytes": 102966,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/review.jpg",
+      "bytes": 167732,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/AQUARIUM-SPEECH-001/timing.json",
+      "bytes": 882,
+      "included": true,
+      "snapshot_sha256": "9c1c509679133b54fde1581d7b5460c886b38f565ac8ce17d5fb6793fcfd336f"
     },
     {
       "path": "motion-graphics/ARCTIC-PA-001/Arctic-PA-ripples-review-v002.mp4",
@@ -23817,15 +24503,15 @@
     },
     {
       "path": "shots/SCN-006-tour-aquarium.md",
-      "bytes": 4258,
+      "bytes": 4527,
       "included": true,
-      "snapshot_sha256": "6618531b835119755c297568c393042bc3105b0c9c63a81ee27bef9ed0e1e79b"
+      "snapshot_sha256": "30a23f1604abd12a8c97b9ce759de0a7a18d6220f6b4dfd5e4428088ab605bc1"
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 18327,
+      "bytes": 18574,
       "included": true,
-      "snapshot_sha256": "18b8e608906272793af09a847d2813c6958b8976cd0104fb15fb2ccfd9ee2682"
+      "snapshot_sha256": "2f9046ce3d1aed08694ea907ebd9cb4320a23bc80ce5ceda8518131f2d316ab1"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
