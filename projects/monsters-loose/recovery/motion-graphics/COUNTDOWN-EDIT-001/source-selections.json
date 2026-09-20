@@ -1,0 +1,156 @@
+{
+  "count5": {
+    "start_frame": 2510,
+    "frames": 27,
+    "map": [
+      [
+        0,
+        28
+      ],
+      [
+        3,
+        32
+      ],
+      [
+        13,
+        44
+      ],
+      [
+        26,
+        64
+      ]
+    ],
+    "note": "Enter finishing shove; loser remains on back."
+  },
+  "count3": {
+    "start_frame": 2548,
+    "frames": 30,
+    "map": [
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        29,
+        49
+      ]
+    ],
+    "note": "Cyclops tumbles behind boulder; end before later arm movement."
+  },
+  "count2": {
+    "start_frame": 2578,
+    "frames": 60,
+    "map": [
+      [
+        0,
+        44
+      ],
+      [
+        16,
+        62
+      ],
+      [
+        25,
+        72
+      ],
+      [
+        40,
+        89
+      ],
+      [
+        59,
+        112
+      ]
+    ],
+    "note": "Active wingbeats; sweep on two; hold fallen bat."
+  },
+  "duel": {
+    "start_frame": 2638,
+    "frames": 153,
+    "map": [
+      [
+        0,
+        0
+      ],
+      [
+        92,
+        86
+      ],
+      [
+        126,
+        112
+      ],
+      [
+        137,
+        122
+      ],
+      [
+        152,
+        136
+      ]
+    ],
+    "note": "Single kick contact master2775; cut airborne before generated local fall."
+  },
+  "flight": {
+    "start_frame": 2791,
+    "frames": 37,
+    "map": [
+      [
+        0,
+        0
+      ],
+      [
+        12,
+        35
+      ],
+      [
+        25,
+        74
+      ],
+      [
+        36,
+        105
+      ]
+    ],
+    "note": "Accelerated continuous downrange flight, near right-edge exit."
+  },
+  "landing": {
+    "start_frame": 2828,
+    "frames": 78,
+    "map": [
+      [
+        0,
+        0
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        25,
+        46
+      ],
+      [
+        49,
+        94
+      ],
+      [
+        60,
+        114
+      ],
+      [
+        77,
+        142
+      ]
+    ],
+    "note": "Touchdown2833; skid slows by2877; head lift2888 onward."
+  }
+}

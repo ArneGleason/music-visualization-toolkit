@@ -1,0 +1,48 @@
+# Countdown battle ladder — proposed choreography
+
+User approved v54 near misses and requested planning, plus a longer preview. Finalists are LOCKED BY USER: green orange-spined reptile versus white shaggy horned Arctic monster. Arctic monster is kicked over mountains. Existing rust-red armored toad-beetle in ANCH-008-A/B is superseded; retain those stills only as clearly labeled historical planning placeholders. No new generated footage authorized by this planning document alone.
+
+## Lyric and timebase
+
+Lead lyric: “Five, four, three more to go. Now only two. The final fight between the meanest ones, I'll bet you. One has that kick, that kick that knock you down. Down, down, down, down.” No sung one after the two in the countdown; “One has that kick” is the next sentence.
+24fps, master frames one-based. Provisional machine word attacks: Five2510; four2537; three2548; Now2578; only2591; two2603; The2638; final2642; fight2651; One2730; kick2775,2791; knock2807; down2823,2828,2838,2854,2870. Five already has an unresolved late-onset review flag: listen to extended preview before final count keyframes. Frame plans derived from timing.json, not arbitrary trimmed seconds.
+
+## Cast and accounting
+
+Six contestants at start: reptile, Arctic monster, plesio-bat, copper insectoid, luminous land-octopus cyclops, armored desert quadruped. All are already pictured earlier: reptile2036 and2170 onward; Arctic capture504..627; desert animal in habitat wide2036..2092; bat2092..2118; insect2118..2144; cyclops2144..2170. Use exact shown identities; no new rust-red toad-beetle. Desert quadruped is the squat horned/frilled armored creature in ANCH-007-A, not the unused ANCH-008 rival.
+Each displayed number is contestants REMAINING AFTER that shot's defeat. Six initial contestants permits four defeats labeled5,4,3,2. There is no formal sporting bracket: four decisive encounters in an imagined wilderness montage. Defeat means clearly knocked out of contention, not visibly killed; losers do not immediately pop up or return. Finalists each establish strength. Cyclops gets one win before losing, so the montage is not solely repeated finalist victories.
+
+## Proposed shots (end frames exclusive)
+
+1. FIVE —2510..2537,27frames. Arctic monster versus desert armored quadruped. Enter on finishing motion: Arctic shoulder-checks low beneath the opponent's armored flank. Desert creature rolls onto its side/back in a small dust burst and stays there. Arctic keeps footing, white fur and black horn visible. Stamp5 at decisive roll/impact. Survivors: reptile, Arctic, bat, insect, cyclops. This introduces the finalist as a formidable opponent before the last fight.
+2. FOUR —2537..2548,11frames. Cyclops defeats insectoid. Enter ALREADY at the finishing flip, not at the beginning of a grapple: one translucent arm releases the copper insect as it lands shell-down, legs folding inward. Cyclops eye and glowing internal organoids read behind the action. Stamp4 on landing. Survivors: reptile, Arctic, bat, cyclops. Eleven frames is too short for a full exchange; use a simple silhouette and a single readable impact. If this cannot read at speed, use a held defeated tableau with a 2-3frame jolt, not a busier action.
+3. THREE MORE TO GO —2548..2578,30frames. Arctic defeats cyclops. One compact shoulder/forearm shove sends the soft alien tumbling behind a low boulder; its luminous arms bundle together, with a slack arm remaining over the edge to confirm where it went. Arctic remains upright. Stamp3 on the displacement, allow a short aftermath through “more to go.” Survivors: reptile, Arctic, bat.
+4. NOW ONLY TWO —2578..2638,60frames. Reptile defeats plesio-bat. Low readable side angle, flyer actively wingbeats into a low pass. Reptile pivots and sweeps with tail/forearm (save its signature kick for the final payoff). Bat is knocked sideways onto a ledge, wings fold and dust settles; it stays down/out of contention. Accent decisive contact on “two” around2603; stamp2. Then hold reptile upright and either rack attention or hard cut within the latter part to Arctic watching from opposite ridge. Survivors: reptile and Arctic. No winner-looking flyaway, no hover with frozen wings.
+
+No defeated creature appears as a later victor: desert loses first; insect loses to cyclops; cyclops subsequently loses to Arctic; bat subsequently loses to reptile. Rabbit-moth stays outside this ladder.
+
+## Blender count treatment
+
+Large warm-cream inked numerals, thick black outline, restrained ochre burst. Fixed upper-left location avoids faces; choreography reserves that area. Each number starts on impact, expands rapidly over2frames, overshoots then settles over3-4frames. Short local camera jolt or2frame smear supports impact; do not obscure which creature lost. Keep4 especially simple because its whole shot is11frames. Hard replace previous count rather than dissolving overlapping numbers. For2, a slightly longer hold resolves to two silhouettes or a clean two-shot. No extra1 on the final kick unless subsequently requested.
+
+## Finalists and mountain kick
+
+2638..2730 proposed: “The final fight…” Low wide of green reptile and white Arctic beast on opposite sides of a rocky pass beneath snowy mountains. Same scale reference throughout; Arctic bulk makes it a credible threat. Two complementary close reaction angles if time permits, but avoid spending the whole phrase on static staring. Arctic lowers horns and loads a short charge; reptile plants supporting foot and shifts weight. Remove humans/zoo infrastructure from these imagined wilderness fight frames.
+### Revised three-shot kick payoff — user direction
+
+User supersedes the distant over-mountains snow plume with a clearly shown homecoming crash landing. The reptile kicks the Arctic beast TOWARD the mountains; it lands back in its snowy native environment, ploughs a long trench of displaced snow, then rests visibly intact. These monsters are nearly indestructible. Countdown ladder and final opponents unchanged.
+
+SHOT1 — KICK /2730..2791 proposed,61frames. “One has that…” supplies anticipation: Arctic commits, reptile plants its supporting foot and winds its hips. On first “kick” around2775, one strong side-on strike launches the snow beast screen-right. Hold just enough follow-through to read clean separation. This is ONE kick; do not repeat contact on the next word. White fur, black horns, bulk and all limbs remain consistent. A short Blender speed smear can bridge the handoff; no extra visual embellishment needed.
+
+SHOT2 — FLIGHT /2791..2828 proposed,37frames. Cut on second “kick” to a three-quarter downrange view. Camera is farther toward the snowy foothills, looking diagonally back toward the launch area: snow beast rushes past toward foreground-right, while the reptile is still visible as a small figure far back-left, finishing the SAME kick. Include rocky/snowy foothill framing so travel toward home reads. Beast exits toward the mountains, not up into orbit or over every summit. Keep a consistent left-to-right travel axis across cuts, show the huge distance using perspective and the tiny kicker in background. Flight occupies “that kick that knock you down”; gravity begins bringing the beast lower toward the end.
+
+SHOT3 — HOME LANDING AND SKID /2828..2906 proposed,78frames. Wide low side view of the Arctic creature's native snowfield: familiar blue ice walls, jagged snowy mountain silhouettes and cool moonlight; no capture team, nets, crate or zoo architecture. Snow beast enters fast from upper-left, drops onto its side/belly around2828..2838, then ploughs left-to-right along the ground. Heavy furred body stays solid and identifiable. A long continuous trench opens BEHIND its path, with ridges of displaced snow thrown to either side, chunks and a trailing powder plume. It decelerates with weight and friction rather than stopping instantly or bouncing weightlessly. Repeated “down” words accent touchdown, snow eruptions and the slowing skid, not separate impacts/cuts or launches. Aim for rest by2878, leaving about28frames to see the creature intact as snow settles. A blink, ear twitch, small head lift or irritated snort makes survival unmistakable: indignant, not injured. Keep some body/head visible through plume. The long furrow remains visible after the powder clears.
+
+These are provisional frame-grid cuts, preserving overall2906 endpoint. The main timing priority is enough screen time to read the trench and the unharmed resting beast; shorten flight/anticipation before sacrificing the landing hold. No new1 graphic. The previous plan to end on a distant snow plume, and to replay kick contact, is superseded.
+
+
+## Production approach
+
+Next review should approve cast/ladder and defeat poses first. Generate clear before/after anchors for defeats; preview them with provisional Blender counts against the song before paid footage. Each source action can have generous handles; the edit only uses the terminal defeat for the quick5/4/3 cuts. Maintain consistent screen direction for winners, alternate impact silhouettes only as needed for reading. Post handles timing, count bursts, impact accents, controlled flight and snow-trench continuity. Plan separate start/end anchors and generous source handles for kick, flight and landing; keep landing body motion continuous, with snow/trench effects in Blender where needed. Do not ask a single video generation to perform the entire ladder or the whole across-mountains kick.
+
+Preview v55 extends existing timeline through2905 using old storyboard stills labeled as placeholders. The countdown battles, new Arctic showdown and numeric effects are PLANNED, not generated or assembled yet. No generation credits spent on this planning pass.

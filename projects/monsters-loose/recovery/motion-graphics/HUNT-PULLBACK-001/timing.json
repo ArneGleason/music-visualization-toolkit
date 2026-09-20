@@ -1,0 +1,25 @@
+{
+  "fps": 24,
+  "master_start": 2170,
+  "master_end_exclusive": 2282,
+  "raw_source": "video-tests/KLING-HUNT-A-001/KLING-HUNT-A-001-01.mp4",
+  "raw_source_in_frame": 12,
+  "raw_source_out_frame_exclusive": 124,
+  "effect_source_in_frame": 0,
+  "close_scale": 2.6,
+  "close_hold_local_frames": [
+    1,
+    26
+  ],
+  "pullback_local_frames": [
+    26,
+    34
+  ],
+  "pullback_master_frames": [
+    2195,
+    2203
+  ],
+  "camera_shutter": 0.7,
+  "method": "Blender perspective camera pullback over same animated image sequence, Eevee motion blur",
+  "status": "rendered_for_review"
+}

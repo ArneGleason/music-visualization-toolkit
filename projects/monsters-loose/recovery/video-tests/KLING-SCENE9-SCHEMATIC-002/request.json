@@ -1,0 +1,21 @@
+{
+  "expected_credits": 48,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-009-scale-diagram-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "6",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "SIX SECONDS. Locked-off flatbed scan of an ink monster schematic. ANIMATE ONLY THE INK CREATURE AND THE TINY INK HUMAN. The paper is a SINGLE COMPLETELY IMMOBILE background plate: all fibers, stains, folds, creases, wrinkles, edges and grain stay at EXACTLY the same pixel coordinates from first to last frame. No moving vertical seam, no scrolling paper, no sliding texture, no traveling crease, no page turn, no wipe, no film gate weave, no panning, no zoom, no background transformation. Never invent a paper edge or fold. Treat background like a frozen photograph with cel-animation drawn over it. The ruler,50FT label, all ticks, heading, baseline and dashed line are fixed printed marks, not animation. All background pixels stay still.\nPreserve the exact horned armored quadruped and etched ink/crosshatch style of starting image. Same four legs, long tail, dorsal spikes and horns. One tiny human silhouette at lower left. No new characters, no realism, no color change. Entire drawing always inside frame.\n0-0.4seconds creature notices little human. 0.4-1.6seconds it bends front legs and lowers head down-left, opening mouth toward the figure. 1.6-2.2seconds it gently scoops the WHOLE tiny silhouette into jaws in one clear chomp. Human passes between lips, progressively occluded, no teleporting; disappears into mouth permanently. No toss, no blood, no dismemberment, no remaining limbs. 2.2-3seconds raises head to original profile with one gulp. From3seconds THROUGH THE FINAL FRAME, continue CLEAR VISIBLE CHEWING: lower jaw opens and closes rhythmically six to eight times, cheek and throat shift slightly with every chew, small satisfied head bobs, lips close between chews. Do not become still, do not settle to a frozen pose. Repeated jaw cycles at about2per second, easy to read, and keep chewing at very end. Tiny figure NEVER reappears. Body and feet otherwise stay planted. Playful sinister animated-diagram gag. Again paper texture and every background mark are frozen, ONLY beast/human ink drawing moves."
+  ]
+}

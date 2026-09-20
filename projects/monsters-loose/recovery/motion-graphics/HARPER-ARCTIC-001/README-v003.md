@@ -1,0 +1,3 @@
+Scene3 first/third speech bubbles rebuilt with aquarium-style inflation, constant-size Bangers lettering, ivory continuous balloon, weighted ink and anchored curved tail. Width grows with first line; height grows for second line. Word timings in timing-v003.json. Middle Arctic cutaway, Harper source performances, red eye, audio and edit trims retained. Build HARPER-SPEECH-001/build-v005.py, then compose-v003.py. v48 for user review. No generation credits.
+
+User approved September20: works really well; word-by-word arrivals make the text easier to read quickly. Use this and the aquarium as speech-balloon presentation references.

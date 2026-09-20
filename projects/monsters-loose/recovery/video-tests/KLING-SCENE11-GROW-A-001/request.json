@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-011-GROW-A-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: One continuous fixed-camera shot in the supplied vintage comic illustration. Preserve established creature identity, anatomy, color palette, location, lighting and composition. Detailed black ink crosshatching, amber practical lights and deep teal night shadows. No cuts, camera movement, new creatures, people, captions, audio or extra limbs. Background architecture stays rigid except explicitly directed contact damage. Physical movement must maintain grounded feet and clear separation from barriers.\n\nFIVE SECONDS. Main central copper beetle/mantis insect begins growing immediately on its rock. Its entire body increases together, shell, head, limbs and feathery antennae retaining exact anatomy. Fast clear enlargement during first1.4seconds: planted feet spread/bracing, body rises until head and antennae approach roof underside. Keep the first1.5seconds free of roof damage to allow a cut during growth. After that it presses gently against roof and pauses under tension without breaking through. Other two distant insects remain small and quietly react. Architecture and camera do NOT scale or move; ordinary service door remains unchanged to show true growth. No teleportation, duplicate hero or morph into a different insect."
+  ]
+}

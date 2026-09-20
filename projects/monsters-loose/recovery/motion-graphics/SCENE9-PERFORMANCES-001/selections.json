@@ -1,0 +1,56 @@
+{
+  "discussion": {
+    "start_frame": 2906,
+    "frames": 68,
+    "map": [
+      [
+        0,
+        0
+      ],
+      [
+        67,
+        67
+      ]
+    ],
+    "note": "Opening gesture and two colleagues turn to listen; native speed.",
+    "source": "video-tests\\KLING-SCENE9-DISCUSSION-001\\KLING-SCENE9-DISCUSSION-001-01.mp4",
+    "output": "motion-graphics\\SCENE9-PERFORMANCES-001\\discussion-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  },
+  "fire": {
+    "start_frame": 2974,
+    "frames": 57,
+    "map": [
+      [
+        0,
+        8
+      ],
+      [
+        56,
+        64
+      ]
+    ],
+    "note": "Inhale into full flame breath; native speed.",
+    "source": "video-tests\\KLING-SCENE9-FIRE-001\\KLING-SCENE9-FIRE-001-01.mp4",
+    "output": "motion-graphics\\SCENE9-PERFORMANCES-001\\fire-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  },
+  "presentation": {
+    "start_frame": 3031,
+    "frames": 57,
+    "map": [
+      [
+        0,
+        32
+      ],
+      [
+        56,
+        112
+      ]
+    ],
+    "note": "Point across design, then clear sheet for zoom; 1.43x.",
+    "source": "video-tests\\KLING-SCENE9-PRESENTATION-001\\KLING-SCENE9-PRESENTATION-001-01.mp4",
+    "output": "motion-graphics\\SCENE9-PERFORMANCES-001\\presentation-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  }
+}

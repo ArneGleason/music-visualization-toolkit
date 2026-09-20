@@ -1,0 +1,9 @@
+from pathlib import Path
+import json
+r=Path('C:/audio/shared/amtw-runtime/jobs/monsters-loose-word-timing-20260913');p=r/'shots/shotlist.json';d=json.loads(p.read_text());preview='animatic/MonstersLoose-v76-stealth-exit.mp4'
+for s in d['shots']:
+ if s['id']=='SCN-010-PRIVATE-PLAN':s.update(source='motion-graphics/SCENE10-EXIT-001/exit-timed-v001.mp4',media_type='video',status='generated_assembled_for_review',effects_record='motion-graphics/SCENE10-EXIT-001/selections.json',note='Cautious slinking exit and natural left-hand door closure; metal right arm stays on correct side. Source0..96 into78frames3223..3301; cuts to approved gate take.')
+d['current_preview']=preview;d['next_scene_planning'].update(preview=preview,status='scene10_both_performances_assembled_for_review',credits=80);p.write_text(json.dumps(d,indent=2)+'\n')
+p=r/'animatic/frame-review-current.json';t=p.with_suffix('.tmp');t.write_text(json.dumps(dict(video=str(r/preview),master_start=1)));t.replace(p)
+p=Path('projects/monsters-loose/README.md');s=p.read_text(encoding='utf-8').replace('Current preview: **v75**','Current preview: **v76**').replace('recovery/animatic/MonstersLoose-v75-gate-release.blend','recovery/animatic/MonstersLoose-v76-stealth-exit.blend').replace('Open the current v75 Blender','Open the current v76 Blender');p.write_text('Latest v76: generated stealth exit from A-v003, source0..96 fitted to78frames3223..3301; courtyard check, cautious steps, door closes behind scientist. Approved gate release follows unchanged. Scene10 fully animated for review. One5sec take40credits; Scene10 total80. Review3200.\n\n'+s,encoding='utf-8')
+p=r/'shots/SCN-010-scientist-exit-and-release.md';p.write_text(p.read_text()+'\n\nV76: exit take001 generated and assembled3223..3301; source0..96 mapped into78frames. Correct right prosthetic and natural left hand on door retained. Door closes before cut. New40credits, Scene10 total80. Gate take001 user-approved and unchanged.\n')

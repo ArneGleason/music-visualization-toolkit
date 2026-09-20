@@ -1,0 +1,12 @@
+{
+  "fps": 24,
+  "duration_seconds": 5,
+  "expected_credits": 40,
+  "master_start": 2444,
+  "master_end_exclusive": 2510,
+  "target_miss_frame": 2462,
+  "assumed_pre_roll_frames": 12,
+  "status": "selected_for_review",
+  "credits_consumed": 40,
+  "selection_record": "motion-graphics/NEARMISS-EDIT-001/selections.json"
+}

@@ -1,0 +1,1 @@
+Scene9 v70: three Kling performances. See selections.json for exact source-frame maps. Native 24fps discussion and flame; presentation maps80 source-frame intervals into56 output intervals. Blender cage-eye keys follow silhouette head. Last presentation pose feeds SCHEMATIC-ZOOM-002. Approved SCHEMATIC-ACTION-002 retained. 120 additional credits.

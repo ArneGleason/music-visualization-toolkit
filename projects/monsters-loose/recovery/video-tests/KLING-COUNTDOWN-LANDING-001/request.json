@@ -1,0 +1,21 @@
+{
+  "expected_credits": 48,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:/audio/shared/amtw-runtime/jobs/monsters-loose-word-timing-20260913/assets/SCN-008-landing-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "6",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: Single continuous cinematic shot. Preserve the starting image's exact creature identities, colors, markings, number of limbs, relative scale and vintage comic illustration: dense black ink, crosshatching, moonlit midnight teal and warm cream highlights. Maintain rigid landscape landmarks and physically continuous motion. No additional creatures, duplication, morphing, teleportation, text, humans, equipment, enclosures, cuts or audio. Non-gory combat between near-indestructible monsters; no wounds or dismemberment. Grounded creatures have supported feet; airborne creatures obey momentum and gravity.\n\nSIX SECONDS. Fixed wide low side camera. White beast starts LEFT airborne on side, head toward LEFT and rump toward RIGHT; momentum carries it RIGHT. At0.4seconds drops SIDE/BELLY first into deep snow, not onto feet. From0.4-3.4seconds heavy body skids continuously LEFT TO RIGHT across snowfield on side, ploughing a LONG deep trench behind its route. Dense snow ridges thrown to BOTH sides of furrow, powder plume trails LEFT, chunks thrown forward then fall. Body stays recognizable and partly visible. Decelerates gradually with friction, no bouncing or walking, no direction reversal. By3.5seconds comes to rest at center-right lying in displaced snow; long furrow clearly visible from left impact point all the way to resting body. Final2.5seconds powder settles, beast visibly unharmed makes small irritated head lift and blink, breathing. Keep head dark, white shaggy coat, black horns and four limbs. No disappearing under snow, no standup or renewed charge. Snow trench remains, no reset to untouched snow."
+  ]
+}

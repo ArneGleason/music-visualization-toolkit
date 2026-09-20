@@ -1,0 +1,21 @@
+{
+  "expected_credits": 48,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\ANCH-007-A-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "6",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous six-second shot animating this exact comic-book illustration of a nighttime monster facility. Preserve its intentionally theatrical compressed scale, precise composition, graphic-novel ink and crosshatching, rich amber habitat lights and cool blue night. Keep the same architecture, separate glass-and-steel enclosures, paths, plants and distinct creature identities. No people. No text or dialogue.\nA VERY GENTLE UPWARD CRANE: camera rises only a little over the full six seconds, slow even vertical translation, creating subtle physically coherent parallax between the near aquarium, the jungle enclosure and distant tower. Keep framing essentially as close as the starting image. No pullback, zoom-out, orbit, sideways pan, fast lift, overhead view or dramatic reveal. Keep the large jungle monster at left and small desert monster at center-right clearly visible and large enough to read throughout. Do not let roof beams newly hide their faces. Structures stay rigid, no rubbery sliding walls or bending bars.\nOnly modest independent living motion: the large green spined jungle reptile shifts its weight slightly on its rock, slowly turns its head a little and breathes, with a small tail-tip movement. Its feet remain supported; keep its exact limbs, claws, eyes and silhouette consistent. The squat armored horned desert beast makes one small deliberate step within its habitat and a slight head turn, then settles. The aquarium fin glides slowly a short distance within the right-hand water enclosure, leaving small coherent ripples; never reveal or invent a huge new animal. A little waterfall motion and very faint foliage movement. The distant Arctic habitat remains as pictured, no new creature reveal. All action is low amplitude and legible, beginning gently in the first half-second and continuing calmly for a reusable extended shot. No attacks or major story event.\nEvery creature stays completely within its own closed enclosure throughout. No limbs, tails, heads or fins cross glass, bars, walls or roofs. No escape, barrier damage, creature morphing, duplication or teleportation. Maintain intact glass and straight rigid frame members. Facility illumination stays steady; red warning beacons will be composited separately afterward. Single starting image only, no end image, no cuts."
+  ]
+}

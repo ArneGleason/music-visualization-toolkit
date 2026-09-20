@@ -1,0 +1,20 @@
+{
+  "smoke-b": {
+    "start_frame": 3724,
+    "frames": 51,
+    "map": [
+      [
+        0,
+        4
+      ],
+      [
+        50,
+        96
+      ]
+    ],
+    "note": "Reference-bound Cyclops appears in billowing smoke; end partly veiled before final solid settling. Element321906902305573.",
+    "source": "video-tests\\KLING-SCENE11-SMOKE-B-002\\KLING-SCENE11-SMOKE-B-002-01.mp4",
+    "output": "motion-graphics\\SCENE11-SMOKE-002\\smoke-b-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  }
+}

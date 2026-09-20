@@ -1,0 +1,36 @@
+{
+  "schematic": {
+    "start_frame": 3104,
+    "frames": 119,
+    "map": [
+      [
+        0,
+        0
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        49,
+        60
+      ],
+      [
+        62,
+        77
+      ],
+      [
+        95,
+        116
+      ],
+      [
+        118,
+        142
+      ]
+    ],
+    "note": "Lower head, scoop tiny figure whole, gulp and settle; no toss.",
+    "source": "video-tests\\KLING-SCENE9-SCHEMATIC-001\\KLING-SCENE9-SCHEMATIC-001-01.mp4",
+    "output": "motion-graphics\\SCHEMATIC-ACTION-001\\schematic-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  }
+}

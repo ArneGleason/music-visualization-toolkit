@@ -1,0 +1,1 @@
+Sampled source12..143 every12frames. Selected zero-based36..62 exclusive. Poised neck turn and beginning of wing flex, before larger wing fold. No obvious escape or identity break in selected sampled frames. User review pending; full take retained. Matched4percent push added in post.

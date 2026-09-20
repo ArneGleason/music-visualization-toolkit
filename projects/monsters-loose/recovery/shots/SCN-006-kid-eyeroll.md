@@ -6,3 +6,6 @@ Master1893..2036 exclusive143frames,24fps. Seven seconds provides168 nominalfram
 ## User review and overnight handoff — 2026-09-19
 
 The kid reaction is usable in part, but the eyes do not visibly roll and the shot runs too long. User could live without the eye roll, but would prefer it. Next editorial experiment: retain the first part of this take and cut to another shot for the remainder; choose the cutaway and exact frame timing together on resuming. No replacement shot or trim has been approved yet. Keep v47 unchanged as the review baseline and retain the full source take. Stop production for the night; no new generation or render requested.
+
+## September20 direction
+Retain this reaction as a placeholder without revising it now; proceed to the next shot after review.

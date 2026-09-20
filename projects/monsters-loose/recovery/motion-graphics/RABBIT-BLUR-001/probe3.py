@@ -1,0 +1,2 @@
+import bpy
+nt=bpy.data.node_groups.new('P','CompositorNodeTree');n=nt.nodes.new('CompositorNodeImage');print([(p.identifier,p.type) for p in n.bl_rna.properties][-25:]);n.image=bpy.data.images.load('C:/audio/shared/amtw-runtime/jobs/monsters-loose-word-timing-20260913/motion-graphics/RABBIT-BLUR-001/source/frame-0001.png');n.image.source='SEQUENCE';print([(i.name,i.type,str(getattr(i,'default_value',None))) for i in n.inputs])

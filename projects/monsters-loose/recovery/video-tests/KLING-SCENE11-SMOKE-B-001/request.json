@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-011-SMOKE-B-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: One continuous fixed-camera shot in the supplied vintage comic illustration. Preserve established creature identity, anatomy, color palette, location, lighting and composition. Detailed black ink crosshatching, amber practical lights and deep teal night shadows. No cuts, camera movement, new creatures, people, captions, audio or extra limbs. Background architecture stays rigid except explicitly directed contact damage. Physical movement must maintain grounded feet and clear separation from barriers.\n\nFIVE SECONDS. Fixed camera outside CLOSED steel door. Starting faint wisp grows into a graceful stream of translucent lavender/opal SMOKE flowing OUT FROM THE BLACK BRASS KEYHOLE, never from seams. Within first1.5seconds smoke curls into the recognizably octopus-like mantle of our alien SPACE OCTOPUS CYCLOPS: exactly ONE enormous central amber iris and dark pupil, soft bulbous lavender mantle containing softly luminous amber/turquoise organoids. Several flowing smoke arms curl below. This is a land octopus alien, NOT lizard, human, skull, bat or two-eyed ghost. By2.5seconds the single eye is clear and mantle occupies open walkway area to right of door, connected back to keyhole by trailing vapor; wispy arms drift toward ground. Keep body partly gaseous, no need to become fully solid. Deliberate intelligent eye looks around free side. Door and brass lock stay unchanged and fully closed throughout. No duplicate eyes or creature, no tentacle rope squeezed from hole. No camera movement."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "fps": 24,
+  "frames": 145,
+  "source_zero_master_frame": 2024,
+  "master_start": 2036,
+  "master_end_exclusive": 2092,
+  "source_in_frame": 12,
+  "source_out_frame_exclusive": 68,
+  "period_frames": 29,
+  "sigma_frames": 3.4,
+  "stagger_frames": 4,
+  "coordinates_space": "960x540",
+  "input_source": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\video-tests\\KLING-HABITATS-001\\KLING-HABITATS-001-01.mp4",
+  "tracking": "Local normalized patch matching; five roof junctions; manually review before conform."
+}

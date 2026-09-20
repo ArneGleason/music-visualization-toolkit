@@ -1,0 +1,23 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-011-SMOKE-B-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "--elements",
+    "[{\"id\": \"321906902305573\", \"bindName\": \"SpaceOctopusCyclops\"}]",
+    "CONTINUITY LOCK: One continuous fixed-camera shot in the supplied vintage comic illustration. Preserve established creature identity, anatomy, color palette, location, lighting and composition. Detailed black ink crosshatching, amber practical lights and deep teal night shadows. No cuts, camera movement, new creatures, people, captions, audio or extra limbs. Background architecture stays rigid except explicitly directed contact damage. Physical movement must maintain grounded feet and clear separation from barriers.\n\nFIVE SECONDS. Character identity reference <<<321906902305573>>> is the established SPACE OCTOPUS CYCLOPS; use Element for its exact tall irregular mantle, large single amber eye, wrinkled eye socket, long sucker-lined arm proportions and scattered small glowing organoids. Reference is identity only, NOT another scene or start/end frame.\nFrom the faint wisp at the CLOSED door keyhole, smoke flows OUT continuously and EXPANDS into a large VAPOROUS likeness of <<<321906902305573>>> in empty walkway to right. Begin immediately; by1.5seconds a tall billowing lavender/opal smoke mantle and long curling smoke arms suggest reference silhouette. By2seconds exactly ONE oversized amber iris/dark pupil is suspended within transparent vapor; tiny amber/turquoise organoid glows remain scattered through cloud, matching reference placement and scale. Body is large, rises to wheel-handle height, not a small cute baby. Smoke grows outward, never shrinks into mascot.\nRemain gaseous from beginning to END: broken wispy contours, turbulent eddies, semi-transparent interior revealing background, trailing vapor still connected to keyhole. Arms are curling translucent smoke, not smooth solid tubes. NO complete solidification, no shiny plastic skin, no emoji/cartoon redesign, no second eye, no clustered candy-colored eggs on chest, no toy proportions. Preserve reference creature identity and serious detailed vintage ink illustration style. Eye and organoids can become briefly readable through vapor but never an opaque fully solid body. Let cloud breathe and curl gently after forming. Door stays closed and perfectly rigid; smoke emerges only through black keyhole, no seam leaks. No new scene or camera motion."
+  ]
+}

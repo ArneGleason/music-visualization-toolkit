@@ -1,0 +1,27 @@
+{
+  "fps": 24,
+  "master_start": 2036,
+  "master_end_exclusive": 2092,
+  "input_source": "motion-graphics/HABITAT-LIGHTS-001/Habitat-lights-v001.mp4",
+  "input_source_in_frame": 12,
+  "input_source_out_exclusive": 68,
+  "roar_ramp_start_master": 2052,
+  "roar_full_strength_master": 2057,
+  "roar_last_master": 2091,
+  "nominal_peak_displacement_pixels": 19.0,
+  "pressure_front_interval_frames": 7,
+  "protected_post_x_ranges": [
+    [
+      446,
+      484
+    ],
+    [
+      540,
+      564
+    ]
+  ],
+  "coordinate_space": "1280x720",
+  "tracking": "tracking.json",
+  "status": "stronger_roar_for_review",
+  "strength_multiplier": 10
+}

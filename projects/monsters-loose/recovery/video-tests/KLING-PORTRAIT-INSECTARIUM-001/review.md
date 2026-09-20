@@ -1,0 +1,1 @@
+Sampled source12..143 every12frames. Selected zero-based70..96 exclusive. Raised antennae and small forelimb gesture; main face stays readable. No obvious escape or identity break in selected sampled frames. User review pending; full take retained. Matched4percent push added in post.

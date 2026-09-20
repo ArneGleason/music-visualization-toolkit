@@ -1,0 +1,17 @@
+{
+  "fps": 24,
+  "duration_seconds": 6,
+  "expected_credits": 48,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "master_start": 2144,
+  "master_end_exclusive": 2170,
+  "edit_frames": 26,
+  "actual_source_in_frame": 12,
+  "status": "selected_for_review",
+  "post_push": "Matched1.00 to1.04 scale over26frames; source selection after review",
+  "actual_source_out_frame_exclusive": 38,
+  "actual_source_frames": 145,
+  "credits_consumed": 48,
+  "selection_reason": "Open cyclops eye tracks sideways, arm curls, before later eyelid dip and broad reach."
+}

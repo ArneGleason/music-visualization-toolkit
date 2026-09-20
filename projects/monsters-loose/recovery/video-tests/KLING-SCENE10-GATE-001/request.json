@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\ANCH-010-B-v003.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous fixed-camera five-second shot in this exact vintage comic illustration. Preserve scientist identity, anatomy, clothing, mechanical RIGHT arm and natural LEFT hand holding notebook, cabinet and background. Rich ink and crosshatching, amber light and teal night. No cuts or camera movement. Acting remains natural and focused on switch.\nThe scientist deliberately PULLS the red handle OUT AWAY FROM THE CABINET TOWARD HIS OWN CHEST, bending his right elbow so the mechanical hand approaches his torso. Like pulling a brake lever toward oneself. Lever hinges forward/outward on its fixed lower mounting, in a vertical plane perpendicular to cabinet face. NOT a lateral sweep across the cabinet or across his body. Keep bar rigid, grip attached, and mounting fixed; no sliding or bending lever, detached grip, changed hand or extra fingers. Handle starts where shown; a small anticipation first0.3seconds, one decisive pull from0.4 to1.8seconds, then hold the pulled position. Scientist watches the grip throughout, focused closed-mouth expression, subtle effort in shoulder. Natural LEFT hand keeps notebook at waist.\nGATES START FULLY CLOSED and REMAIN CLOSED during the pull. Only AFTER handle reaches its stop at about2seconds do the background black mesh gate leaves briefly shudder and just START opening. A narrow center gap grows slightly during2.2 to3.2seconds, then stays small. Do not show fully open gates, do not open before pull, no new gate hardware or changing gate design. Keep red lamps in place. Finish with scientist holding lever and looking toward gate response, no return stroke. No audio."
+  ]
+}

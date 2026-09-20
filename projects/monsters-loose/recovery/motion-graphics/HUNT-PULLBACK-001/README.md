@@ -1,0 +1,1 @@
+Opening hunt2170..2282 uses original A source12..124 at24fps. Blender2.6x close crop through local26, eight-frame perspective-camera pullback with0.7shutter motion blur to native wide by34. Same continuous source; no match-cut discontinuity. Source PNG extraction and build.py reproduce112frames; encode overlay/pullback-%04d.png at24fps libx264crf17.

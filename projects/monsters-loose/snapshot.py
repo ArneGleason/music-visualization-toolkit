@@ -34,9 +34,12 @@ def main():
             target = dest / relative
             target.parent.mkdir(parents=True, exist_ok=True)
             if path.suffix.lower() in TEXT:
-                target.write_text(sanitize(path.read_text(encoding='utf-8-sig')), encoding='utf-8')
+                content = sanitize(path.read_text(encoding='utf-8-sig'))
+                if not target.exists() or target.read_text(encoding='utf-8') != content:
+                    target.write_text(content, encoding='utf-8')
             else:
-                shutil.copy2(path, target)
+                if not target.exists() or target.read_bytes() != path.read_bytes():
+                    shutil.copy2(path, target)
             entry['snapshot_sha256'] = hashlib.sha256(target.read_bytes()).hexdigest()
         entries.append(entry)
     (dest.parent / 'inventory.json').write_text(json.dumps({'source_root': str(source), 'files': entries}, indent=2)+'\n')

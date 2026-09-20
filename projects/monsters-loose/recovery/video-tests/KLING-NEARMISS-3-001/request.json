@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-007-nearmiss-3-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: A single continuous fixed-camera shot in the natural pre-capture moonlit mountain jungle. Preserve exactly the starting image creature identities, markings, anatomy, scale and illustration style: rich vintage comic ink, dense crosshatching, cool teal night and copper-gold highlights. Exactly two creatures throughout. Rigid consistent rock and tree landmarks. No enclosure, buildings, artificial lights, captions, audio, cuts, camera moves, morphing, duplication or teleportation. This is a tense survival encounter, not friendly play. One decisive readable near miss, no contact, catching, injury or gore. Physical continuous movement, claws and feet supported when grounded. Both opponents remain readable until the escape, with no aimless wandering.\n\nFIVE SECONDS. Two predators: spiny green reptile braced on LEFT ledge, long-necked saber-toothed bat at RIGHT. 0-0.8sec tense brief standoff, bat wings flex, reptile braces feet. 0.8-1.5sec: reptile lunges HEAD AND SHOULDERS right to snap at bat neck; simultaneously bat dodges upward by a wingbeat and swings long neck past ABOVE reptile snout. Jaws snap on empty air around1.4sec, clear narrow gap, neither bites or touches the other. Reptile feet STAY on left rock; do not jump ravine. 1.5-2.3sec: bat makes a short counter-snap down at space just behind reptile head; reptile quickly recoils to left and fangs miss again, counter near-miss around2.1sec. 2.3-5sec both separate and reset at respective sides, alert and dangerous. Two sharp opposing actions, physically readable, no grappling, merging, fighting contact or aimless travel. Keep both visible."
+  ]
+}

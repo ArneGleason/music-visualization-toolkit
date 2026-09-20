@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:/audio/shared/amtw-runtime/jobs/monsters-loose-word-timing-20260913/assets/SCN-008-count2-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: Single continuous cinematic shot. Preserve the starting image's exact creature identities, colors, markings, number of limbs, relative scale and vintage comic illustration: dense black ink, crosshatching, moonlit midnight teal and warm cream highlights. Maintain rigid landscape landmarks and physically continuous motion. No additional creatures, duplication, morphing, teleportation, text, humans, equipment, enclosures, cuts or audio. Non-gory combat between near-indestructible monsters; no wounds or dismemberment. Grounded creatures have supported feet; airborne creatures obey momentum and gravity.\n\nFIVE SECONDS. Fixed camera. Bat at right is initially airborne and MUST beat BOTH wings actively with obvious downstrokes and upstrokes, not hang still. First0.6seconds it makes low short approach toward lizard. Lizard LEFT pivots planted hips and makes ONE fast horizontal TAIL SWEEP toward RIGHT, contacting bat torso at about1second. No kick. Bat is knocked down onto right-hand rocky ledge by1.7seconds. Wings fold loosely around its intact body and long neck; it remains visibly down for rest of shot, no flyaway or recovery. Lizard settles upright left, both hindfeet grounded. Tail remains attached continuously, no duplication. Clearly readable single tail-hit then defeated landing. Wingbeats continue until contact."
+  ]
+}

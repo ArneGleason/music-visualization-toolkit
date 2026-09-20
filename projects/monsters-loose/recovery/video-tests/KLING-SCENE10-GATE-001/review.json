@@ -1,0 +1,15 @@
+{
+  "status": "user_approved_assembled",
+  "credits": 40,
+  "frames": 121,
+  "fps": 24,
+  "observations": [
+    "Handle reaches pulled position around source48, then holds.",
+    "Scientist bends elbow and draws handle toward body; lower mount remains in place in sampled frames.",
+    "Lights brighten after throw; narrow center gate opening visible late in take.",
+    "Character turns to gate response."
+  ],
+  "limitation": "Rendered illustration retains the original ambiguous hinge orientation; motion reads as pull but user should assess mechanical plausibility. No regeneration or assembly yet.",
+  "approval_note": "User approved grip change and mechanical action as perfect.",
+  "assembly": "motion-graphics/SCENE10-GATE-001/selections.json"
+}

@@ -1,0 +1,21 @@
+{
+  "expected_credits": 64,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:/audio/shared/amtw-runtime/jobs/monsters-loose-word-timing-20260913/assets/SCN-008-duel-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "8",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: Single continuous cinematic shot. Preserve the starting image's exact creature identities, colors, markings, number of limbs, relative scale and vintage comic illustration: dense black ink, crosshatching, moonlit midnight teal and warm cream highlights. Maintain rigid landscape landmarks and physically continuous motion. No additional creatures, duplication, morphing, teleportation, text, humans, equipment, enclosures, cuts or audio. Non-gory combat between near-indestructible monsters; no wounds or dismemberment. Grounded creatures have supported feet; airborne creatures obey momentum and gravity.\n\nEIGHT SECONDS. Fixed side-on camera. 0-2.5seconds tense faceoff with purposeful small shifts: green lizard LEFT braces hindfeet and coils hips, white Arctic beast RIGHT lowers horns and paws ground. 2.5-4seconds Arctic makes a short powerful charge LEFT toward lizard. Lizard stays in place. 4-5seconds lizard shifts all weight onto its left supporting hindfoot, raises the OTHER hindleg and drives ONE unmistakable powerful SIDE KICK toward RIGHT into the white beast's chest. Sole of green foot visibly connects with white chest. This is a LEG KICK, not a hand punch, bite or tail strike. By5.3seconds white beast is completely separated and launched bodily RIGHT, all four paws off ground, rolling onto side with head toward left and rump toward right. 5.3-8seconds white beast flies out RIGHT toward mountains; lizard holds follow-through briefly then lowers kicking foot. No repeated kick. Keep two hindlegs only, no fused anatomy. White monster never turns into lizard. Exaggerated tremendous force but clearly readable contact and recoil, intact creatures."
+  ]
+}

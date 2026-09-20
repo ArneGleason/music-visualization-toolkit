@@ -1,0 +1,11 @@
+{
+  "frames": 56,
+  "protected_posts_max_rgb_delta": 1,
+  "sample_effect_region_max_rgb_delta": [
+    42,
+    121,
+    134,
+    92
+  ],
+  "note": "All frame comparisons before video encoding; 1/255 color rounding allowed"
+}

@@ -1,0 +1,32 @@
+{
+  "schematic": {
+    "start_frame": 3104,
+    "frames": 119,
+    "map": [
+      [
+        0,
+        0
+      ],
+      [
+        35,
+        44
+      ],
+      [
+        49,
+        60
+      ],
+      [
+        54,
+        70
+      ],
+      [
+        118,
+        142
+      ]
+    ],
+    "note": "Swallow completes before vocal tail3158; repeated jaw opening/closing continues through final3222. Retake has no traveling vertical paper crease.",
+    "source": "video-tests\\KLING-SCENE9-SCHEMATIC-002\\KLING-SCENE9-SCHEMATIC-002-01.mp4",
+    "output": "motion-graphics\\SCHEMATIC-ACTION-002\\schematic-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "fps": 24,
+  "duration_seconds": 6,
+  "expected_credits": 48,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "master_start": 2118,
+  "master_end_exclusive": 2144,
+  "edit_frames": 26,
+  "actual_source_in_frame": 70,
+  "status": "selected_for_review",
+  "post_push": "Matched1.00 to1.04 scale over26frames; source selection after review",
+  "actual_source_out_frame_exclusive": 96,
+  "actual_source_frames": 145,
+  "credits_consumed": 48,
+  "selection_reason": "Raised antennae and small forelimb gesture; main face stays readable."
+}

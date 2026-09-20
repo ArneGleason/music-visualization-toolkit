@@ -1,0 +1,96 @@
+{
+  "shrink-a": {
+    "start_frame": 3379,
+    "frames": 46,
+    "map": [
+      [
+        0,
+        0
+      ],
+      [
+        45,
+        60
+      ]
+    ],
+    "note": "Shrink to tiny before late empty-floor hold."
+  },
+  "shrink-b": {
+    "start_frame": 3425,
+    "frames": 90,
+    "map": [
+      [
+        0,
+        16
+      ],
+      [
+        66,
+        100
+      ],
+      [
+        89,
+        120
+      ]
+    ],
+    "note": "Trim initial idle; retain gap crossing, sill hop and snarl."
+  },
+  "grow-a": {
+    "start_frame": 3515,
+    "frames": 36,
+    "map": [
+      [
+        0,
+        24
+      ],
+      [
+        35,
+        59
+      ]
+    ],
+    "note": "Native-speed growth/rear-up; cut before later pronounced upward camera follow."
+  },
+  "grow-b": {
+    "start_frame": 3551,
+    "frames": 91,
+    "map": [
+      [
+        0,
+        0
+      ],
+      [
+        90,
+        96
+      ]
+    ],
+    "note": "Roof push and enclosure collapse; cut before head leaves top edge."
+  },
+  "smoke-a": {
+    "start_frame": 3642,
+    "frames": 82,
+    "map": [
+      [
+        0,
+        24
+      ],
+      [
+        81,
+        120
+      ]
+    ],
+    "note": "Intact creature into vapor flowing to keyhole; skip initial idle."
+  },
+  "smoke-b": {
+    "start_frame": 3724,
+    "frames": 51,
+    "map": [
+      [
+        0,
+        16
+      ],
+      [
+        50,
+        88
+      ]
+    ],
+    "note": "Emergence and one-eyed reformation. Design simplifies toward smooth/cartoon form; user review needed."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "tool": "built-in image_gen",
+  "prompts": [
+    {
+      "id": "SHRINK-A",
+      "prompt": "One16:9 full-bleed starting frame vintage60s monster comic. Reference is creature identity ONLY, replace wilderness with spacious zoo habitat. Established dark olive green reptile with orange dorsal spines, yellow eyes cream belly four limbs, full-sized, entire body including tail visible centered facing right. Camera physically INSIDE immense rocky tropical habitat, low wide view with ample floor around creature to show it shrinking later. Creature is NOT tiny yet. Huge concrete perimeter walls, tall black steel vertical-bar service gate on right background, overhead steel mesh structure, deep planted rock habitat, amber industrial lamps/red beacon against teal nighttime sky. Scale like a large zoo building not a cage. Grounded feet, no intersection with gate or bars, clear empty distance to gate. Gate bottom has low concrete sill and broad gaps between vertical bars; no fine mesh across this service gate. No restraints, no people, no duplicates or transformation effects. Match bold ink detailed crosshatching and warm amber/teal palette. Starting frame before shrink."
+    },
+    {
+      "id": "SHRINK-B",
+      "prompt": "Create companion16:9 starting frame in same comic style, creature and SAME expansive habitat as reference, but ground-level close exterior reverse angle at the bottom of its tall black vertical-bar gate. This is BEFORE escape. Reptile now mouse-sized, exactly one tiny version of same olive reptile/orange spines, wholly on INSIDE ground behind gate, centered visibly in ONE unobstructed wide gap between bars; entire body and tail are inside, no part crosses or intersects metal. Face angled toward camera and image right, ready to walk out. Tiny creature occupies about20percent width so readable. Gate bars loom beyond frame top, thick concrete jamb and very low worn sill foreground, outside walkway lower right empty for its next step OVER sill. Gate is massive facility gate not tabletop cage. Through gaps behind see spacious deep tropical rock habitat and amber wall lamps, overhead mesh high above, consistent with reference. Camera close to ground, dry matte concrete, warm amber/teal night, clean readable geometry, no cuffs or chains. Do not show escaped creature or duplicate size stages. No bar across its face or through its body. No extra text."
+    },
+    {
+      "id": "GROW-A",
+      "prompt": "Create one16:9 full-bleed comic animation starting frame matching reference insect identity exactly: copper beetle shell, green-gold segmented body, mantis forelimbs, large black eyes and feathery orange moth antennae. Camera INSIDE its large zoo insectarium, wide low-angle, one main insect at NORMAL current zoo size on central low rock, whole body readable with plenty of clearance above antennae for later growth. Reference architecture expanded into a tall spacious building-scale habitat: concrete perimeter base and tall square black steel truss bays with wire-mesh walls and intact high roof, amber hanging industrial lamps, distant red beacon, lush ferns and dry rock garden. Two smaller same-species companions far back unobtrusive, retaining social species. No growth yet, no bent mesh, no broken roof, no insect already touching roof. Establish fixed scale using an ordinary keeper service door and ceiling beams. Subject roughly central lower half with head at45percentheight, ceiling occupies upper third. Night teal sky above wiremesh, warm copper highlights, detailed vintage60s ink/crosshatching matching reference. No humans, text or panels."
+    },
+    {
+      "id": "GROW-B",
+      "prompt": "Companion16:9 starting frame of SAME insect and SAME zoo insectarium from reference, now camera OUTSIDE building looking up from forecourt in a wide three-quarter view. Large tall rectangular black-steel truss and wire-mesh habitat on substantial concrete perimeter base, amber lamps, human-sized service door matchingreference, tropical plants beyond. Building occupies lower two thirds with empty night sky above for eventual giant insect rise. The copper beetle/mantis/moth insect has grown inside, its head just beneath intact roof, antennae bending gently against roof underside. Clearly visible face and copper shell through broad mesh bays. Entire insect still INSIDE building. Roof only slightly bowed upwards under pressure, all roof mesh and beams connected, NO holes NO breach NO debris NO body outside yet. This is STARTING FRAME before continued growth bursts through roof. Keep same creature design, black compound eyes, feathery orange antennae, green-gold legs, mantis forelimbs; head turned slightly toward image right like reference. Enclosure must look building-scale, not a small cage on ground. Scale supplied by standard door/lamps, not people. Vintage60s detailed ink crosshatching, amber highlights teal shadows, no text or panels."
+    },
+    {
+      "id": "SMOKE-A",
+      "prompt": "One16:9 starting frame for vintage60s comic music video. Use exact reference LAND OCTOPUS CYCLOPS identity: translucent lavender-opal bulbous mantle, ONE oversized amber eye, soft many arms/suckers, internal small luminous amber/turquoise organoids. Dry terrestrial creature, not underwater. Camera INSIDE large sealed exobiology habitat near its service exit. Creature fully intact, not smoke yet, at image left/center looking toward heavy CLOSED riveted dark steel service door on image right; leave visible floor space between front arms and door. Door built into substantial curved concrete base of glass/steel dome; retro pressure gauges and pipework, amber caged lamp overhead, mauve rock spires/alien plants and glass dome farther left. Door has distinctive simple oval brass escutcheon with a traditional visible keyhole at ordinary waist height, wheel handle above keyhole and two heavy hinges at far right edge. Face and eye clear, body and arms fully grounded, no limb touching lock. Composition establishes eye-to-keyhole direction. Soft organoid glow only, NO smoke transformation begun, NO duplicate creatures. Consistent retro Forbidden Planet-like dry terrain, dark teal night outside dome, warm amber lighting, detailed ink crosshatching. No text captions people or panels."
+    },
+    {
+      "id": "SMOKE-B",
+      "prompt": "Create16:9 exterior reverse-angle companion starting frame for the SAME closed exobiology door seen in reference. Camera now OUTSIDE habitat in zoo service walkway, close on lock. Heavy closed riveted black steel door in curved concrete facade occupies LEFT half; reverse side has matching round wheel handle above same distinctive oval brass escutcheon with traditional keyhole. Because camera is on opposite side, hinge side is now LEFT and latch/keyhole nearer right edge. Amber caged industrial lamp above, glass-and-steel dome rising background, exterior walkway extending to RIGHT with black steel facility fencing and tropical vegetation under teal night sky. IMPORTANT starting frame BEFORE escape: NO formed creature or eye outside yet. Only a very short fine thread of translucent lavender/opal vapor with tiny amber/turquoise spark-like organoid points is JUST emerging from the keyhole, a few centimeters long. Keep rest of right half open for cyclops head/tentacles to form during later animation. Do not show smoke leaking through door seams. Door remains completely closed and solid. Do not show inside alien rocks on exterior; use matte concrete pavement. Keyhole easily readable, approximately40percent across and52percent down. Match reference detailed1960s comic ink/crosshatching and amber/teal lighting, no captions or people. This vapor belongs to the SINGLE-EYED space octopus, not a two-eyed ghost or lizard; but no eye has emerged yet."
+    },
+    {
+      "id": "SMOKE-B-correction",
+      "prompt": "Precise edit of this16:9 image: keep entire steel door, wheel, brass keyhole, facility, lighting and composition unchanged. Replace ONLY the small solid purple worm/tentacle emerging from keyhole with a very faint wispy translucent lavender-gray SMOKE plume, softly feathered gaseous edges and thin curling eddies, no solid outline no tube no suckers no worm shape. A few tiny diffuse amber/turquoise lights suspended in vapor. Smoke originates inside the black keyhole and extends only10percent imagewidth to right. It is beginning to emerge, no formed creature or eye yet. Maintain ink-comic style in environment but vapor should be airy and transparent, background visible through it."
+    }
+  ],
+  "assets": [
+    [
+      "SHRINK-A",
+      "5784e8f6-0dd5-4af1-b99a-817e578145bc"
+    ],
+    [
+      "SHRINK-B",
+      "38f75b8a-6fe5-4f71-b317-b8fe30a7bfaa"
+    ],
+    [
+      "GROW-A",
+      "6ca9f969-e1e6-4e03-88bf-3d5fb5921f91"
+    ],
+    [
+      "GROW-B",
+      "643da37f-94d1-42b0-aad6-85f45e983a1d"
+    ],
+    [
+      "SMOKE-A",
+      "d8921f2e-0811-40e8-a96b-697a8023759f"
+    ],
+    [
+      "SMOKE-B",
+      "a30c95a0-f2f4-4480-ae4a-e5eca4d2e3d5"
+    ]
+  ]
+}

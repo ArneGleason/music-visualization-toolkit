@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-011-GROW-B-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: One continuous fixed-camera shot in the supplied vintage comic illustration. Preserve established creature identity, anatomy, color palette, location, lighting and composition. Detailed black ink crosshatching, amber practical lights and deep teal night shadows. No cuts, camera movement, new creatures, people, captions, audio or extra limbs. Background architecture stays rigid except explicitly directed contact damage. Physical movement must maintain grounded feet and clear separation from barriers.\n\nFIVE SECONDS. The already enlarged copper beetle/mantis insect is still inside the intact facility. It CONTINUES GROWING upward and outward, legs braced, head and feathery antennae pushing roof from below. Within0.5seconds roof mesh bows, then during0.8 to2.6seconds black steel roof sections buckle and break OUTWARD as the giant head and copper shoulders rise above roofline. Mesh tears visibly away from body instead of passing through it, debris falls outward under gravity. End huge insect towering above its substantial building, intact body, alert head/antenna motion, green-gold mantis forelimbs held clear. Camera fixed wide view; keep head in frame, allow slight forward lean rather than taller offscreen growth. Do not already start outside; first roof breach must happen in motion. No explosions, gore, people or extra creature."
+  ]
+}

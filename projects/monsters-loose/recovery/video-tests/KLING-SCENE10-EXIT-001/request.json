@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\ANCH-010-A-v003.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous fixed-camera five-second shot in the supplied vintage comic illustration. Preserve this scientist's naturally proportioned head, silver hair, curled moustache, goatee, ivory coat and loose red tie. His own RIGHT forearm and hand are metal, on image left at start. His own LEFT arm and hand are natural flesh, holding door on image right at start. Exactly two arms and hands, no swaps or extra fingers. Rich black ink crosshatching, amber light and teal night. Keep architecture and door geometry rigid.\nThe scientist stealthily slinks out through the laboratory doorway. From the starting cautious pose, briefly scan the courtyard to image left with a focused closed mouth, then hunch shoulders slightly and make two careful quiet forward steps diagonally toward image left, fully crossing the threshold by about2seconds. Stay fully visible in frame, move only a short distance, no exit from shot. His natural LEFT hand trails along the existing door edge and gently draws that same door partway toward closed behind him, then releases it around2.5seconds. Door rotates only about its existing fixed hinge, no new door or sliding panel. Mechanical RIGHT hand stays low beside his own right hip with a small balancing motion. Give a quick furtive glance back toward doorway around3seconds, then look toward the courtyard and settle into a cautious lean, ready to approach controls offscreen. Motion should read secretive and deliberate, not dancing or exaggerated tiptoeing. No toothy smile, no frozen pasted expression, no head enlargement, limb morphs, floating hands, camera movement, cuts, new people, captions or audio. Preserve face identity while allowing natural changes of expression. Main slinking action occurs in first3seconds; final2seconds provide subtle settling motion and handles for editing."
+  ]
+}

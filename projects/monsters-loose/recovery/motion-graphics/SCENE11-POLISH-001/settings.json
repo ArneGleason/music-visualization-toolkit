@@ -1,0 +1,38 @@
+{
+  "roar_master_start": 3492,
+  "roar_full_strength": 3494,
+  "roar_amplitude_px": 19,
+  "growth": "soft local32percent expansion +6.5percent anchored push",
+  "collapse_events_local": [
+    [
+      28,
+      640,
+      100
+    ],
+    [
+      43,
+      940,
+      285
+    ],
+    [
+      56,
+      1060,
+      390
+    ],
+    [
+      67,
+      400,
+      390
+    ],
+    [
+      76,
+      1030,
+      560
+    ]
+  ],
+  "cyclops_reveal_local": [
+    27,
+    50
+  ],
+  "sources": "v80 selected footage; durations unchanged"
+}

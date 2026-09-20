@@ -1,0 +1,24 @@
+{
+  "count4": {
+    "start_frame": 2537,
+    "frames": 11,
+    "map": [
+      [
+        0,
+        38
+      ],
+      [
+        4,
+        45
+      ],
+      [
+        10,
+        48
+      ]
+    ],
+    "note": "Rapid raised-tentacle downstroke and dust impact only; cut before insect rolls upright later in source.",
+    "source": "video-tests\\KLING-COUNTDOWN-COUNT4-001\\KLING-COUNTDOWN-COUNT4-001-01.mp4",
+    "output": "motion-graphics\\COUNTDOWN-EDIT-002\\count4-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  }
+}

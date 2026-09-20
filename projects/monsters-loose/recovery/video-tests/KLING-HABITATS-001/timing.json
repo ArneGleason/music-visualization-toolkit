@@ -1,0 +1,20 @@
+{
+  "fps": 24,
+  "duration_seconds": 6,
+  "expected_credits": 48,
+  "master_start": 2036,
+  "master_end_exclusive": 2092,
+  "edit_frames": 56,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "intended_source_in_frame": 12,
+  "intended_source_out_frame_exclusive": 68,
+  "nominal_source_frames": 144,
+  "potential_remaining_material_frames_after_edit": 76,
+  "note": "User estimated2037; preserve existing2036 boundary. First phrase ends2091 inclusive. Extra footage retained for possible reuse, no repeated section selected yet.",
+  "status": "generated_for_review",
+  "credits_consumed": 48,
+  "actual_source_frames": 145,
+  "actual_source_in_frame": 12,
+  "actual_source_out_frame_exclusive": 68
+}

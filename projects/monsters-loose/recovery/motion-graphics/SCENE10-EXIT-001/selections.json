@@ -1,0 +1,20 @@
+{
+  "exit": {
+    "start_frame": 3223,
+    "frames": 78,
+    "map": [
+      [
+        0,
+        0
+      ],
+      [
+        77,
+        96
+      ]
+    ],
+    "note": "Cautious threshold crossing and door closure; cut before prolonged final settling.",
+    "source": "video-tests\\KLING-SCENE10-EXIT-001\\KLING-SCENE10-EXIT-001-01.mp4",
+    "output": "motion-graphics\\SCENE10-EXIT-001\\exit-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  }
+}

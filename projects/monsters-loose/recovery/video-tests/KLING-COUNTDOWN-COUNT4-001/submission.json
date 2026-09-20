@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "status": 200,
+  "body": {
+    "generationId": "AY19dzi11fR0MVVU2ISegla9cx3NXnkwHsmeboUM13-AZoS16mmJAJdRMJVYl0IIScdvRcQm",
+    "status": "QUEUING",
+    "model": "kling-video-v3_0",
+    "creditsConsumed": 40,
+    "message": "Generation submitted. Poll query_tasks with this generationId to get the result.",
+    "credits_consumed": 40,
+    "generation_id": "AY19dzi11fR0MVVU2ISegla9cx3NXnkwHsmeboUM13-AZoS16mmJAJdRMJVYl0IIScdvRcQm"
+  }
+}

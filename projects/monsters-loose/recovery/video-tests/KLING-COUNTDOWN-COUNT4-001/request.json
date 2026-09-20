@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-008-count4-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: Single continuous cinematic shot. Preserve the starting image's exact creature identities, colors, markings, number of limbs, relative scale and vintage comic illustration: dense black ink, crosshatching, moonlit midnight teal and warm cream highlights. Maintain rigid landscape landmarks and physically continuous motion. No additional creatures, duplication, morphing, teleportation, text, humans, equipment, enclosures, cuts or audio. Non-gory combat between near-indestructible monsters; no wounds or dismemberment. Grounded creatures have supported feet; airborne creatures obey momentum and gravity.\n\nFIVE SECONDS. Fixed camera. The lavender cyclops on RIGHT performs ONE decisive fast tentacle-arm hammer strike against the copper insect at LEFT. In first second lift the left-facing tentacle high into a hooked arch above insect. Then whip that SAME attached tentacle DOWN hard onto the insect shell/body at about1.3seconds, slamming insect against rocky ground. Clear continuous fast downward arm arc, visible contact and small compact dust burst. Insect rocks with impact and its upward legs recoil once, then lies still on back. Tentacle rebounds slightly and retracts toward cyclops, retaining continuous attachment, no new limbs. Remaining seconds hold aftermath. Keep the single giant eye and softly glowing internal organoids; preserve copper insect identity. No repeated strikes, no grappling, no gore or damage, no extra creatures. Strong readable vertical impact suitable for an eleven-frame edited action accent."
+  ]
+}

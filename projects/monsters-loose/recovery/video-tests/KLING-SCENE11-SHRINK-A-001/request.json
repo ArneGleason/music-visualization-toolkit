@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-011-SHRINK-A-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: One continuous fixed-camera shot in the supplied vintage comic illustration. Preserve established creature identity, anatomy, color palette, location, lighting and composition. Detailed black ink crosshatching, amber practical lights and deep teal night shadows. No cuts, camera movement, new creatures, people, captions, audio or extra limbs. Background architecture stays rigid except explicitly directed contact damage. Physical movement must maintain grounded feet and clear separation from barriers.\n\nFIVE SECONDS. The full-size green reptile with orange dorsal spines SHRINKS IN PLACE. Start immediately: feet stay on same patch of floor while the WHOLE body, head, four legs and tail uniformly scale down rapidly and continuously. By1.5seconds it is mouse-sized, about one twentieth original body length. The entire room and bars stay exactly unchanged, camera absolutely locked, no zoom. This is actual magical shrinking, not walking away or camera pullback. Preserve recognizable proportions, no melting or smoke, no duplicate stages, no disappearance. Tiny reptile then makes a short purposeful movement toward the gate at image right. Keep tiny creature visible on floor. Main shrink finishes early for a short edit; remain tiny through end."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "plate_source": "KLING-HUNT-A-001 source frame110",
+  "mask_core_pixels": [
+    340,
+    652,
+    480,
+    830
+  ],
+  "feather_sigma": 12,
+  "search_patch_from_master": 2277,
+  "lurch_source_in": 12,
+  "lurch_source_out_exclusive": 96
+}

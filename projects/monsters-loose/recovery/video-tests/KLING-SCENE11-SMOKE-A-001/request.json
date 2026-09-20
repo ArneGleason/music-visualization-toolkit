@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-011-SMOKE-A-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: One continuous fixed-camera shot in the supplied vintage comic illustration. Preserve established creature identity, anatomy, color palette, location, lighting and composition. Detailed black ink crosshatching, amber practical lights and deep teal night shadows. No cuts, camera movement, new creatures, people, captions, audio or extra limbs. Background architecture stays rigid except explicitly directed contact damage. Physical movement must maintain grounded feet and clear separation from barriers.\n\nFIVE SECONDS. This exact translucent lavender land-octopus CYCLOPS has exactly ONE oversized amber eye and luminous amber/turquoise internal organoids. It deliberately looks at the closed steel door keyhole. Beginning0.3seconds its soft arms and mantle unravel smoothly into airy lavender/opal SMOKE with softly glowing organoid specks. No fire or violent explosion, no second eye, no new head. By2seconds most body is gaseous; the single eye briefly remains recognizable within vapor before also dissolving. Vapor streams coherently toward the brass KEYHOLE on door at image right. By3seconds leading thin tendril of SMOKE enters keyhole, remaining vapor follows. Keep door entirely shut and rigid, smoke passes through the actual black aperture only, not seams/wall/handle. Camera fixed, ground and rocks unchanged. No solid tentacle pushed through lock, no ordinary walking to door. End with wispy residue moving into keyhole."
+  ]
+}

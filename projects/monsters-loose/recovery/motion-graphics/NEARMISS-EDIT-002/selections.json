@@ -1,0 +1,48 @@
+{
+  "1": {
+    "frames": 76,
+    "map": [
+      [
+        0,
+        8
+      ],
+      [
+        12,
+        20
+      ],
+      [
+        75,
+        62
+      ]
+    ],
+    "note": "Early evasive pass, sustained wingbeats; ends at62 before later rabbit return.",
+    "source": "video-tests\\KLING-NEARMISS-1-002\\KLING-NEARMISS-1-002-01.mp4",
+    "output": "motion-graphics\\NEARMISS-EDIT-002\\nearmiss-1-timed-v002.mp4",
+    "interpolation": "linear frame blend, no invented optical-flow geometry"
+  },
+  "2": {
+    "frames": 66,
+    "map": [
+      [
+        0,
+        48
+      ],
+      [
+        10,
+        66
+      ],
+      [
+        22,
+        80
+      ],
+      [
+        65,
+        118
+      ]
+    ],
+    "note": "Insect descends below left rock edge, clear empty beat, then claw strikes bare stone.",
+    "source": "video-tests\\KLING-NEARMISS-2-002\\KLING-NEARMISS-2-002-01.mp4",
+    "output": "motion-graphics\\NEARMISS-EDIT-002\\nearmiss-2-timed-v002.mp4",
+    "interpolation": "linear frame blend, no invented optical-flow geometry"
+  }
+}

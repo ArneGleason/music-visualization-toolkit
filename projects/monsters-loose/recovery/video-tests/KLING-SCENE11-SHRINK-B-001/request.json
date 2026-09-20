@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-011-SHRINK-B-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: One continuous fixed-camera shot in the supplied vintage comic illustration. Preserve established creature identity, anatomy, color palette, location, lighting and composition. Detailed black ink crosshatching, amber practical lights and deep teal night shadows. No cuts, camera movement, new creatures, people, captions, audio or extra limbs. Background architecture stays rigid except explicitly directed contact damage. Physical movement must maintain grounded feet and clear separation from barriers.\n\nFIVE SECONDS. Tiny reptile starts entirely behind the gate as shown. It turns toward the camera through the unobstructed gap directly in front of it, carefully walks THROUGH THAT OPEN GAP BETWEEN bars, then lifts its front feet OVER low concrete sill and hops down onto exterior walkway. Hind legs and long tail follow through same opening without intersecting bars. Stay tiny, solid and same size throughout. Gate bars stay fixed, no bending metal or phasing through solid material. Finish crossing by about2.5seconds; on outside turn slightly toward image right, raise head and give one tiny fierce open-mouth snarl, then hold proud alert posture. Camera remains low and fixed. No new animal, no growth, no body split or clipping through sill."
+  ]
+}

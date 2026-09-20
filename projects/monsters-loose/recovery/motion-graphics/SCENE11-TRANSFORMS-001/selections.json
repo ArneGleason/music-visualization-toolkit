@@ -1,0 +1,114 @@
+{
+  "shrink-a": {
+    "start_frame": 3379,
+    "frames": 46,
+    "map": [
+      [
+        0,
+        0
+      ],
+      [
+        45,
+        60
+      ]
+    ],
+    "note": "Shrink to tiny before late empty-floor hold.",
+    "source": "video-tests\\KLING-SCENE11-SHRINK-A-001\\KLING-SCENE11-SHRINK-A-001-01.mp4",
+    "output": "motion-graphics\\SCENE11-TRANSFORMS-001\\shrink-a-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  },
+  "shrink-b": {
+    "start_frame": 3425,
+    "frames": 90,
+    "map": [
+      [
+        0,
+        16
+      ],
+      [
+        66,
+        100
+      ],
+      [
+        89,
+        120
+      ]
+    ],
+    "note": "Trim initial idle; retain gap crossing, sill hop and snarl.",
+    "source": "video-tests\\KLING-SCENE11-SHRINK-B-001\\KLING-SCENE11-SHRINK-B-001-01.mp4",
+    "output": "motion-graphics\\SCENE11-TRANSFORMS-001\\shrink-b-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  },
+  "grow-a": {
+    "start_frame": 3515,
+    "frames": 36,
+    "map": [
+      [
+        0,
+        24
+      ],
+      [
+        35,
+        59
+      ]
+    ],
+    "note": "Native-speed growth/rear-up; cut before later pronounced upward camera follow.",
+    "source": "video-tests\\KLING-SCENE11-GROW-A-001\\KLING-SCENE11-GROW-A-001-01.mp4",
+    "output": "motion-graphics\\SCENE11-TRANSFORMS-001\\grow-a-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  },
+  "grow-b": {
+    "start_frame": 3551,
+    "frames": 91,
+    "map": [
+      [
+        0,
+        0
+      ],
+      [
+        90,
+        96
+      ]
+    ],
+    "note": "Roof push and enclosure collapse; cut before head leaves top edge.",
+    "source": "video-tests\\KLING-SCENE11-GROW-B-001\\KLING-SCENE11-GROW-B-001-01.mp4",
+    "output": "motion-graphics\\SCENE11-TRANSFORMS-001\\grow-b-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  },
+  "smoke-a": {
+    "start_frame": 3642,
+    "frames": 82,
+    "map": [
+      [
+        0,
+        24
+      ],
+      [
+        81,
+        120
+      ]
+    ],
+    "note": "Intact creature into vapor flowing to keyhole; skip initial idle.",
+    "source": "video-tests\\KLING-SCENE11-SMOKE-A-001\\KLING-SCENE11-SMOKE-A-001-01.mp4",
+    "output": "motion-graphics\\SCENE11-TRANSFORMS-001\\smoke-a-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  },
+  "smoke-b": {
+    "start_frame": 3724,
+    "frames": 51,
+    "map": [
+      [
+        0,
+        16
+      ],
+      [
+        50,
+        88
+      ]
+    ],
+    "note": "Emergence and one-eyed reformation. Design simplifies toward smooth/cartoon form; user review needed.",
+    "source": "video-tests\\KLING-SCENE11-SMOKE-B-001\\KLING-SCENE11-SMOKE-B-001-01.mp4",
+    "output": "motion-graphics\\SCENE11-TRANSFORMS-001\\smoke-b-timed-v001.mp4",
+    "interpolation": "linear frame blend; no optical-flow geometry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "fps": 24,
+  "duration_seconds": 6,
+  "expected_credits": 48,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "master_start": 2092,
+  "master_end_exclusive": 2118,
+  "edit_frames": 26,
+  "actual_source_in_frame": 36,
+  "status": "selected_for_review",
+  "post_push": "Matched1.00 to1.04 scale over26frames; source selection after review",
+  "actual_source_out_frame_exclusive": 62,
+  "actual_source_frames": 145,
+  "credits_consumed": 48,
+  "selection_reason": "Poised neck turn and beginning of wing flex, before larger wing fold."
+}

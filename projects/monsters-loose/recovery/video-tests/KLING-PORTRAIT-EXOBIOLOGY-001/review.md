@@ -1,0 +1,1 @@
+Sampled source12..143 every12frames. Selected zero-based12..38 exclusive. Open cyclops eye tracks sideways, arm curls, before later eyelid dip and broad reach. No obvious escape or identity break in selected sampled frames. User review pending; full take retained. Matched4percent push added in post.

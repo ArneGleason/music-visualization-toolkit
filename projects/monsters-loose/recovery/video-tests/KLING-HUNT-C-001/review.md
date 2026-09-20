@@ -1,0 +1,1 @@
+Selected source12..108 exclusive, 96 frames. Right-side rabbit-moth peeks while predator investigates left; prey ducks as predator turns. Turn is broader and includes more body movement than the small attention shift requested. A small ear tip remains briefly above cover. Suitable for first assembled review; not user-approved yet.

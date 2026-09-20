@@ -1,0 +1,1 @@
+Revision of first two near-miss shots only. Build uses source-selections.json frame maps chosen after generation review. Third approved shot continues using NEARMISS-EDIT-001 unchanged. Fixed master ranges2302..2378 and2378..2444,24fps. Avoid static hovering and any prey reappearance; preserve visible escape before strike.

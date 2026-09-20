@@ -1,0 +1,29 @@
+[
+  {
+    "name": "aviary",
+    "source": "video-tests/KLING-PORTRAIT-AVIARY-001/KLING-PORTRAIT-AVIARY-001-01.mp4",
+    "source_in_frame": 36,
+    "edit_frames": 26,
+    "master_start": 2092,
+    "master_end_exclusive": 2118,
+    "reason": "Poised neck turn and beginning of wing flex, before larger wing fold."
+  },
+  {
+    "name": "insectarium",
+    "source": "video-tests/KLING-PORTRAIT-INSECTARIUM-001/KLING-PORTRAIT-INSECTARIUM-001-01.mp4",
+    "source_in_frame": 70,
+    "edit_frames": 26,
+    "master_start": 2118,
+    "master_end_exclusive": 2144,
+    "reason": "Raised antennae and small forelimb gesture; main face stays readable."
+  },
+  {
+    "name": "exobiology",
+    "source": "video-tests/KLING-PORTRAIT-EXOBIOLOGY-001/KLING-PORTRAIT-EXOBIOLOGY-001-01.mp4",
+    "source_in_frame": 12,
+    "edit_frames": 26,
+    "master_start": 2144,
+    "master_end_exclusive": 2170,
+    "reason": "Open cyclops eye tracks sideways, arm curls, before later eyelid dip and broad reach."
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-007-nearmiss-2-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: A single continuous fixed-camera shot in the natural pre-capture moonlit mountain jungle. Preserve exactly the starting image creature identities, markings, anatomy, scale and illustration style: rich vintage comic ink, dense crosshatching, cool teal night and copper-gold highlights. Exactly two creatures throughout. Rigid consistent rock and tree landmarks. No enclosure, buildings, artificial lights, captions, audio, cuts, camera moves, morphing, duplication or teleportation. This is a tense survival encounter, not friendly play. One decisive readable near miss, no contact, catching, injury or gore. Physical continuous movement, claws and feet supported when grounded. Both opponents remain readable until the escape, with no aimless wandering.\n\nFIVE SECONDS. Copper beetle-mantis at left, green spiny reptile at right. 0-0.8sec: insect senses danger, antennae angle back, legs coil; reptile raises its already raised foreclaw slightly. 0.8-1.5sec: insect makes ONE rapid sidestep down-left into the rock fissure, about one body width, keeping legs and shell together. Reptile swings foreclaw DOWN into the EMPTY ROCK where insect was; impact about1.4sec, dust flick and small grit, narrow miss clearly visible, NO contact with insect. The claw never touches or passes through shell. 1.5-2.5sec: insect grips fissure wall, clearly alive and intact; predator lifts claw from empty spot. 2.5-5sec: insect keeps safely behind rock edge, predator stops, no walking or wandering. Keep insect identity, two feather antennae and exact limb count; one clean dodge, one missed strike."
+  ]
+}

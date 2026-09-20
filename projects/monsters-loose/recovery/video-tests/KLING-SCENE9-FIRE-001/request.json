@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:/audio/shared/amtw-runtime/jobs/monsters-loose-word-timing-20260913/assets/SCN-009-town-gorilla-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: One continuous fixed-camera shot in the exact supplied vintage comic illustration. Preserve every established character identity, anatomy, clothing, mechanical hand, creature design, relative scale, setting and composition. Rich black ink outlines and crosshatching, warm amber light against dark teal shadows. No cuts, camera moves, new characters, changed faces, morphing, floating props, new text, audio or extra limbs. Physical motion, expressive but controlled. Keep background architecture rigid.\n\nFIVE SECONDS. Exactly one towering charcoal-furred giant gorilla over the same burning coastal town. Immediately inhale visibly through heaving chest, then at0.5seconds open jaws wider and exhale ONE powerful sustained FIRE BREATH toward screen-right across the roofs. Flame visibly originates inside mouth as bright white-orange core, expands into irregular billowing orange tongues with sparks, extends across right half. Gorilla remains readable on left, face never hidden behind flame. Fire lasts0.5-2.8seconds, pulses once stronger, then tapers3-4seconds into smoke and embers. Gorilla gives one strong chest/shoulder motion, its braced hand grips stone and clenched free fist rises slightly, tremendous weight. Keep jaw and teeth anatomically stable, no extra heads. Flame stays away from own body. Natural existing fires flicker, smoke rises, ash drifts; buildings remain solid and geography intact. Fixed camera, no cuts or motion. Preserve exact inked illustration; no photoreal fire pasted over comic. No people, gore, lettering or additional monsters."
+  ]
+}

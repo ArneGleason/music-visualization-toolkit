@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:/audio/shared/amtw-runtime/jobs/monsters-loose-word-timing-20260913/assets/SCN-008-count5-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: Single continuous cinematic shot. Preserve the starting image's exact creature identities, colors, markings, number of limbs, relative scale and vintage comic illustration: dense black ink, crosshatching, moonlit midnight teal and warm cream highlights. Maintain rigid landscape landmarks and physically continuous motion. No additional creatures, duplication, morphing, teleportation, text, humans, equipment, enclosures, cuts or audio. Non-gory combat between near-indestructible monsters; no wounds or dismemberment. Grounded creatures have supported feet; airborne creatures obey momentum and gravity.\n\nFIVE SECONDS. Fixed camera. Immediately the white Arctic beast on right drives its shoulder LEFT under the armored quadruped's flank in one compact forceful shove. During 0.4-1.6 seconds the brown armored creature tips and ROLLS onto its side/back to the left in a small dust burst. Its feet leave ground then fold upward; it stays on its side defeated for the remaining three seconds, no recovery or return to standing. White beast remains upright on four paws, withdraws shoulder and looks down, breathing. Clear separation after contact, no merged bodies. One decisive short action, not prolonged wrestling. No camera zoom."
+  ]
+}

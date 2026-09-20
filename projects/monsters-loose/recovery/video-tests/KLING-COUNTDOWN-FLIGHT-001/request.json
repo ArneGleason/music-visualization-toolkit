@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:/audio/shared/amtw-runtime/jobs/monsters-loose-word-timing-20260913/assets/SCN-008-flight-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: Single continuous cinematic shot. Preserve the starting image's exact creature identities, colors, markings, number of limbs, relative scale and vintage comic illustration: dense black ink, crosshatching, moonlit midnight teal and warm cream highlights. Maintain rigid landscape landmarks and physically continuous motion. No additional creatures, duplication, morphing, teleportation, text, humans, equipment, enclosures, cuts or audio. Non-gory combat between near-indestructible monsters; no wounds or dismemberment. Grounded creatures have supported feet; airborne creatures obey momentum and gravity.\n\nFIVE SECONDS. Camera fixed on the downrange valley. The white shaggy beast ALREADY airborne continues propelled rapidly diagonally toward foreground-RIGHT, growing larger slightly, fur streaming. Maintain side-on body orientation, head toward LEFT, rump toward RIGHT, all four paws airborne tucked loosely. It follows a shallow descending ballistic arc, not powered flight. During first2seconds it travels RIGHT and exits right edge; empty valley then remains. Small green lizard back-left completes SAME kick by lowering extended leg and remains on its distant ledge. No second launch, no flying lizard, no wing growth, no run cycle in air. Momentum and gravity clear, mountains remain solid, no camera orbit."
+  ]
+}

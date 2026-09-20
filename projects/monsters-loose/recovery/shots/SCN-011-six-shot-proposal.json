@@ -1,0 +1,81 @@
+{
+  "fps": 24,
+  "frame_convention": "master one-based, end exclusive",
+  "timing_source": "animatic/animatic-data.json aligned words; existing Scene11 boundaries",
+  "status": "six_starting_frames_built_for_review",
+  "shots": [
+    {
+      "id": "SCN-011-SHRINK-A",
+      "start_frame": 3379,
+      "end_frame_exclusive": 3425,
+      "duration_frames": 46,
+      "title": "Shrink inside habitat",
+      "starting_frame": "Full-size established green reptile fully inside a spacious concrete-and-steel zoo habitat. Camera inside enclosure; deep habitat visible, not a small cage. Low fixed camera with wall seams, service door and large rock providing stable scale. Feet grounded and whole body clear of bars.",
+      "choreography": "Begin shrinking on shrink3401; finish down3420. Body reduces coherently while room and camera stay fixed. End tiny and moving toward perimeter.",
+      "reference_brief": "New full-size start reference; retain established reptile design, not pose or cage geometry from ANCH-011-A.",
+      "status": "starting_frame_for_review",
+      "source": "assets/SCN-011-SHRINK-A-v001.png"
+    },
+    {
+      "id": "SCN-011-SHRINK-B",
+      "start_frame": 3425,
+      "end_frame_exclusive": 3515,
+      "duration_frames": 90,
+      "title": "Fit through and escape",
+      "starting_frame": "Low exterior view of SAME large habitat boundary. Tiny reptile starts wholly inside, just behind one clear gap between widely spaced bars, with sill and ground plane readable. No body/bar intersection.",
+      "choreography": "On fit, walk through clear gap, lift feet over low sill, plant on exterior pavement; then tiny defiant snarl for just as mean. Size remains constant.",
+      "reference_brief": "New tiny-creature start reference BEFORE crossing; align direction and facility materials with shot A.",
+      "status": "starting_frame_for_review",
+      "source": "assets/SCN-011-SHRINK-B-v001.png"
+    },
+    {
+      "id": "SCN-011-GROW-A",
+      "start_frame": 3515,
+      "end_frame_exclusive": 3551,
+      "duration_frames": 36,
+      "title": "Growth begins inside habitat",
+      "starting_frame": "Interior of a spacious planted insect habitat with tall steel-mesh roof, concrete base and overhead service structure. Established copper/green-gold insect at normal size, fully contained; one hero insect dominates.",
+      "choreography": "On Grow up, rise and expand rapidly; legs brace against ground, antennae/head approach roof. No breach yet. Cut as scale change becomes unmistakable.",
+      "reference_brief": "New intact enclosure interior start; identity from existing insect references, not old miniature cage.",
+      "status": "starting_frame_for_review",
+      "source": "assets/SCN-011-GROW-A-v001.png"
+    },
+    {
+      "id": "SCN-011-GROW-B",
+      "start_frame": 3551,
+      "end_frame_exclusive": 3642,
+      "duration_frames": 91,
+      "title": "Outgrow and breach",
+      "starting_frame": "Exterior low wide view of same facility, roof and beams still intact but beginning to bow. Enlarging insect visible beneath roof, not already outside. Provide headroom above enclosure.",
+      "choreography": "On ten times, continue enlargement and break mesh/roof outward. Creature rises above structure; debris drops; hold clear enormous silhouette through or more.",
+      "reference_brief": "New exterior PRE-breach starting image. Match enclosure bay geometry/materials and insect orientation with A.",
+      "status": "starting_frame_for_review",
+      "source": "assets/SCN-011-GROW-B-v001.png"
+    },
+    {
+      "id": "SCN-011-SMOKE-A",
+      "start_frame": 3642,
+      "end_frame_exclusive": 3724,
+      "duration_frames": 82,
+      "title": "Dissolve and approach lock",
+      "starting_frame": "Established translucent lavender space-octopus Cyclops with ONE oversized eye and amber/turquoise organoids, fully intact inside dry exobiology habitat facing closed steel door.",
+      "choreography": "On Change to smoke, silhouette unravels into vapor; by drift through anything a narrow stream travels toward and starts entering inner keyhole. Leave most passage for reverse angle.",
+      "reference_brief": "SCN-007-exobiology-v003 identity. No two-eyed ghost. New interior frame before dissolution.",
+      "status": "starting_frame_for_review",
+      "source": "assets/SCN-011-SMOKE-A-v001.png"
+    },
+    {
+      "id": "SCN-011-SMOKE-B",
+      "start_frame": 3724,
+      "end_frame_exclusive": 3775,
+      "duration_frames": 51,
+      "title": "Emerge through keyhole",
+      "starting_frame": "Exterior reverse view of same CLOSED steel door. Brass keyhole at same physical height; empty exterior with only first faint wisp at aperture. Camera close enough for opening to read.",
+      "choreography": "Lavender vapor with amber/turquoise organoid sparks emerges and reforms the SAME ONE-EYED land-octopus Cyclops mantle and arms outside; steel door stays shut.",
+      "reference_brief": "Exterior reverse angle, faint gaseous wisp only at start. Match cyclops identity during emergence.",
+      "status": "starting_frame_for_review",
+      "source": "assets/SCN-011-SMOKE-B-v001.png"
+    }
+  ],
+  "smoke_creature": "Established space-octopus Cyclops, user-selected"
+}

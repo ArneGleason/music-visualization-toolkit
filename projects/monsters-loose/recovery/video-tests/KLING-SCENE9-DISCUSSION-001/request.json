@@ -1,0 +1,21 @@
+{
+  "expected_credits": 40,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:/audio/shared/amtw-runtime/jobs/monsters-loose-word-timing-20260913/assets/ANCH-009-A-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: One continuous fixed-camera shot in the exact supplied vintage comic illustration. Preserve every established character identity, anatomy, clothing, mechanical hand, creature design, relative scale, setting and composition. Rich black ink outlines and crosshatching, warm amber light against dark teal shadows. No cuts, camera moves, new characters, changed faces, morphing, floating props, new text, audio or extra limbs. Physical motion, expressive but controlled. Keep background architecture rigid.\n\nFIVE SECONDS. Three scientists discuss the monster drawings naturally around table. LEFT bespectacled dark-haired scientist glances down at paper in his hand, makes a small thoughtful head turn toward colleague, keeps paper and other hand supported. CENTER auburn-haired woman listens, moves hand slightly away from chin and looks toward mad scientist. RIGHT gray-haired mustached mad scientist grins and makes ONE articulate inviting gesture with his existing metal prosthetic hand, fingers flexing naturally, then leans slightly toward plans. Subtle mouth movements suggesting conversation, no broad lip-sync pantomime. Start purposeful gestures within first0.3seconds, main exchange completes by3seconds with continuing small expressions afterward. Camera absolutely static. Rear RIGHT cage contains same shadowed monster silhouette; it remains exactly stationary in same position and head orientation, NO walking or face changes. Do NOT generate glowing eyes: eye effect added later. Cage bars, lamps and papers stay solid. No paper swapping or drawing crawl."
+  ]
+}

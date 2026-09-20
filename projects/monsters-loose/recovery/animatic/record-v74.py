@@ -1,0 +1,9 @@
+from pathlib import Path
+import json
+r=Path('C:/audio/shared/amtw-runtime/jobs/monsters-loose-word-timing-20260913');p=r/'shots/shotlist.json';d=json.loads(p.read_text());preview='animatic/MonstersLoose-v74-closed-gates-pull-lever.mp4'
+for s in d['shots']:
+ if s['id']=='SCN-010-UNLOCK-ZOO':s.update(source='assets/ANCH-010-B-v003.png',note='Gates fully closed. New projecting pull-back lever bracket, outward pull toward torso rather than lateral sweep. Scientist looks directly at mechanism. Gate shudder/first opening only after pull; supersedes earlier lever direction.',status='revised_storyboard_for_review',direction_record='shots/SCN-010-scientist-exit-and-release.md',prompt_record='shots/SCN-010-gate-v003-prompt.json')
+d['current_preview']=preview;d['next_scene_planning'].update(preview=preview,status='closed_gates_pull_back_mechanism_for_review');p.write_text(json.dumps(d,indent=2)+'\n')
+p=r/'animatic/frame-review-current.json';t=p.with_suffix('.tmp');t.write_text(json.dumps(dict(video=str(r/preview),master_start=1)));t.replace(p)
+p=Path('projects/monsters-loose/README.md');s=p.read_text(encoding='utf-8').replace('Current preview: **v73**','Current preview: **v74**').replace('recovery/animatic/MonstersLoose-v73-scientist-exit-acting.blend','recovery/animatic/MonstersLoose-v74-closed-gates-pull-lever.blend').replace('Open the current v73 Blender','Open the current v74 Blender')
+s='Latest v74: B-v003 replaces second Scene10 reference. Gates CLOSED, projecting pull-back lever bracket, head/gaze directly at switch. Outward pull toward torso supersedes lateral-rotation direction; gate shudder/initial opening follows pull only. A-v003 unchanged. Still references, no new Kling footage. Review3301. Direction: recovery/shots/SCN-010-scientist-exit-and-release.md.\n\n'+s;p.write_text(s,encoding='utf-8')

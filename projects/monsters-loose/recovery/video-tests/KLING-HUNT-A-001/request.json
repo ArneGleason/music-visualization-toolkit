@@ -1,0 +1,21 @@
+{
+  "expected_credits": 48,
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\ANCH-007-B-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "6",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "CONTINUITY LOCK: One continuous fixed-camera shot in the same natural pre-capture moonlit mountain jungle, no zoo architecture or red warning lights. Preserve the exact green spiny reptile and ONE small rabbit-moth prey, their faces, markings, anatomy and relative scale. Rich1960s comic ink and crosshatching, cool moonlight and amber ground bioluminescence. Rock and fern landmarks remain rigid and consistent. No camera move, cuts, morphing, duplication, additional animals, teleportation, flying prey, injury, gore, captions or audio. Predator stays on screen; deliberate readable movement with brief pauses. Movement physically continuous, feet supported on terrain. Only one prey exists; when hidden it remains behind cover.\n\nSIX SECONDS. Animate this exact wide starting scene as the first beat of a genuine predatory hide-and-seek encounter. Predator on SCREEN RIGHT, rabbit-moth peeking beside large rock on SCREEN LEFT. Keep all landmarks and full framing steady; close-up and fast pullback will be done afterward.\n0-1.3sec: reptile settles its open mouth to a watchful nearly closed jaw, takes a small sniff, and turns its head slightly UP toward SCREEN RIGHT, AWAY from the rabbit-moth. Do not roar. Small alert eye movement. Body and feet remain planted. Rabbit-moth stays quietly peeking, no movement yet.\n1.3-2.2sec: predator holds that attentive wrong-way gaze, unaware of prey. Rabbit-moth remains visible, ears and eye-spotted moth wings readable.\n2.2-3.3sec: the SAME rabbit-moth folds its wings and lowers its ears, takes one small backward step and ducks smoothly DOWN and BEHIND the solid left-hand rock and adjacent fern. Its body is progressively occluded by the rock, not faded or magically vanished; show ears disappear last. Remain entirely hidden after this. A small fern tremor marks where it went.\n3.3-4.8sec: predator hears the rustle and slowly turns its head LEFT toward that exact now-empty hiding place, lowering its head a little. Its eye searches the rock, body tenses slightly. No lunge yet, no forward step, no prey reappearance.\n4.8-6sec: hold alert search toward left rock with small breathing and eye motion, preparing to move in next shot. Clear quiet suspense, not comedy mugging. No running, attack, capture or scene changes."
+  ]
+}

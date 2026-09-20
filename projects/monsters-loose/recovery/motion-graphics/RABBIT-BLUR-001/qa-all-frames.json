@@ -1,0 +1,6 @@
+{
+  "frames": 76,
+  "protected_head_max_rgb_delta_8bit": 1,
+  "outside_effect_mask_max_rgb_delta_8bit": 1,
+  "note": "1/255 color conversion rounding; comparisons before video encoding"
+}

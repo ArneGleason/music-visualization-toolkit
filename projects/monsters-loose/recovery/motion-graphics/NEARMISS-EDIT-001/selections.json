@@ -1,0 +1,62 @@
+{
+  "1": {
+    "frames": 76,
+    "map": [
+      [
+        0,
+        12
+      ],
+      [
+        12,
+        24
+      ],
+      [
+        75,
+        68
+      ]
+    ],
+    "source": "video-tests\\KLING-NEARMISS-1-001\\KLING-NEARMISS-1-001-01.mp4",
+    "output": "motion-graphics\\NEARMISS-EDIT-001\\nearmiss-1-timed-v001.mp4",
+    "interpolation": "linear frame blend, no invented optical-flow geometry"
+  },
+  "2": {
+    "frames": 66,
+    "map": [
+      [
+        0,
+        18
+      ],
+      [
+        65,
+        83
+      ]
+    ],
+    "source": "video-tests\\KLING-NEARMISS-2-001\\KLING-NEARMISS-2-001-01.mp4",
+    "output": "motion-graphics\\NEARMISS-EDIT-001\\nearmiss-2-timed-v001.mp4",
+    "interpolation": "linear frame blend, no invented optical-flow geometry"
+  },
+  "3": {
+    "frames": 66,
+    "map": [
+      [
+        0,
+        22
+      ],
+      [
+        18,
+        42
+      ],
+      [
+        35,
+        80
+      ],
+      [
+        65,
+        110
+      ]
+    ],
+    "source": "video-tests\\KLING-NEARMISS-3-001\\KLING-NEARMISS-3-001-01.mp4",
+    "output": "motion-graphics\\NEARMISS-EDIT-001\\nearmiss-3-timed-v001.mp4",
+    "interpolation": "linear frame blend, no invented optical-flow geometry"
+  }
+}
