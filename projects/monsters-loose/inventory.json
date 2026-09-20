@@ -289,6 +289,12 @@
       "snapshot_sha256": "8d821e3bf9c8846de1f48befee0edb0812094ef0d0cb70100d090fd2c37eb272"
     },
     {
+      "path": "animatic/build-opening-v42.py",
+      "bytes": 1597,
+      "included": true,
+      "snapshot_sha256": "559616ffa9d3c8e554917de3c06393e3bc601032516244750f64d0bf22e75155"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -386,7 +392,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "e2b14b00fa08538b729136793bcfcf0391b5d5303f253ebf3aff42f0595d8ee6"
+      "snapshot_sha256": "7982f77be7153a34699bfb3ff21d6c747c7263d7fb1741b574bd7a32acfce4e3"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -987,6 +993,17 @@
       "snapshot_sha256": "c67300c9a405073a735a1177910ed009ad55c772469d9353eecfbff942cbaa5a"
     },
     {
+      "path": "animatic/MonstersLoose-v42-opening-through-habitats.mp4",
+      "bytes": 79823706,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v42-through-habitats.blend",
+      "bytes": 294024,
+      "included": true,
+      "snapshot_sha256": "571ef785dded686bdb02fa3c098067db944b42b2fe24ef1c7e880ae316650fa4"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1245,6 +1262,11 @@
     {
       "path": "animatic/render-v41.log",
       "bytes": 138401,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v42.log",
+      "bytes": 138409,
       "included": false
     },
     {
@@ -3174,6 +3196,12 @@
       "bytes": 935,
       "included": true,
       "snapshot_sha256": "7d2793c9880a27810eb27a04d8b44062fa71cba76b3576d85a64b8fd639bde6f"
+    },
+    {
+      "path": "FOOTAGE-TO-KEEP.md",
+      "bytes": 242,
+      "included": true,
+      "snapshot_sha256": "6c016e3131f98e549d04fba399d244884145aac745c5f18d2c691389656e08ad"
     },
     {
       "path": "index.html",
@@ -23512,6 +23540,554 @@
       "snapshot_sha256": "e6a15970ee37fb73257efdc28eebd3f7c7f2b12d8f52c872e12c5287ccd38119"
     },
     {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/build.py",
+      "bytes": 4522,
+      "included": true,
+      "snapshot_sha256": "60a501cd12a12e5a0edc32e08af814221cb0e2e7e6a2768339e67d512df68a7a"
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/check.jpg",
+      "bytes": 272515,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/composite.py",
+      "bytes": 446,
+      "included": true,
+      "snapshot_sha256": "059b98b4757459b774e101afe6527c83e744b1c267e89acba8b4105beaf0d8f5"
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0001.png",
+      "bytes": 482900,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0002.png",
+      "bytes": 482581,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0003.png",
+      "bytes": 483159,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0004.png",
+      "bytes": 483967,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0005.png",
+      "bytes": 481434,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0006.png",
+      "bytes": 480735,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0007.png",
+      "bytes": 479373,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0008.png",
+      "bytes": 479095,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0009.png",
+      "bytes": 478757,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0010.png",
+      "bytes": 476866,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0011.png",
+      "bytes": 474448,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0012.png",
+      "bytes": 476241,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0013.png",
+      "bytes": 474061,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0014.png",
+      "bytes": 476246,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0015.png",
+      "bytes": 476354,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0016.png",
+      "bytes": 477086,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0017.png",
+      "bytes": 476211,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0018.png",
+      "bytes": 476794,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0019.png",
+      "bytes": 475050,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0020.png",
+      "bytes": 475112,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0021.png",
+      "bytes": 475451,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0022.png",
+      "bytes": 475725,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0023.png",
+      "bytes": 474498,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0024.png",
+      "bytes": 475687,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0025.png",
+      "bytes": 477625,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0026.png",
+      "bytes": 476877,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0027.png",
+      "bytes": 479007,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0028.png",
+      "bytes": 481183,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0029.png",
+      "bytes": 482692,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0030.png",
+      "bytes": 482814,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0031.png",
+      "bytes": 481680,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0032.png",
+      "bytes": 482718,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0033.png",
+      "bytes": 482157,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0034.png",
+      "bytes": 480187,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0035.png",
+      "bytes": 479459,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0036.png",
+      "bytes": 479802,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0037.png",
+      "bytes": 478996,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0038.png",
+      "bytes": 478017,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0039.png",
+      "bytes": 475914,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0040.png",
+      "bytes": 474243,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0041.png",
+      "bytes": 475427,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0042.png",
+      "bytes": 476601,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0043.png",
+      "bytes": 476393,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0044.png",
+      "bytes": 477926,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0045.png",
+      "bytes": 477872,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0046.png",
+      "bytes": 476765,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0047.png",
+      "bytes": 474467,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0048.png",
+      "bytes": 474610,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0049.png",
+      "bytes": 475008,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0050.png",
+      "bytes": 475624,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0051.png",
+      "bytes": 475287,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0052.png",
+      "bytes": 474401,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0053.png",
+      "bytes": 476185,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0054.png",
+      "bytes": 477056,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0055.png",
+      "bytes": 477821,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0056.png",
+      "bytes": 478614,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0057.png",
+      "bytes": 481498,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0058.png",
+      "bytes": 482316,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0059.png",
+      "bytes": 483364,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0060.png",
+      "bytes": 483096,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0061.png",
+      "bytes": 482713,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0062.png",
+      "bytes": 483255,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0063.png",
+      "bytes": 481651,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0064.png",
+      "bytes": 479925,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0065.png",
+      "bytes": 479619,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0066.png",
+      "bytes": 479018,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0067.png",
+      "bytes": 477772,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0068.png",
+      "bytes": 476006,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0069.png",
+      "bytes": 474704,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0070.png",
+      "bytes": 475011,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0071.png",
+      "bytes": 476829,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0072.png",
+      "bytes": 476208,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0073.png",
+      "bytes": 478606,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0074.png",
+      "bytes": 478314,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0075.png",
+      "bytes": 475542,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0076.png",
+      "bytes": 475000,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0077.png",
+      "bytes": 474729,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0078.png",
+      "bytes": 475215,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0079.png",
+      "bytes": 475916,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0080.png",
+      "bytes": 476848,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0081.png",
+      "bytes": 473734,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0082.png",
+      "bytes": 474260,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0083.png",
+      "bytes": 477128,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0084.png",
+      "bytes": 477886,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0085.png",
+      "bytes": 479196,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0086.png",
+      "bytes": 479887,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0087.png",
+      "bytes": 481092,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0088.png",
+      "bytes": 481620,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0089.png",
+      "bytes": 483252,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0090.png",
+      "bytes": 482318,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0091.png",
+      "bytes": 481984,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0092.png",
+      "bytes": 481024,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0093.png",
+      "bytes": 480172,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0094.png",
+      "bytes": 478585,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0095.png",
+      "bytes": 478477,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0096.png",
+      "bytes": 478382,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/overlay/lights-0097.png",
+      "bytes": 475589,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/prepare.py",
+      "bytes": 1258,
+      "included": true,
+      "snapshot_sha256": "566a7c27c0aad7868fa11c979e697b846d9e54d0d181260bc1d014f07c4a7bd0"
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/README.md",
+      "bytes": 602,
+      "included": true,
+      "snapshot_sha256": "9b32fb70065340abadbff262bfedf3007b03d112cbd5b3a0725d35597c76b7a2"
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/render.log",
+      "bytes": 17020,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/Rope-demo-lights-v001.blend",
+      "bytes": 148517,
+      "included": true,
+      "snapshot_sha256": "a579e1f97b2e1d82cb74f884d017c9694cfdd1b4f8c328c600d3c64000cb6782"
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/Rope-demo-lights-v001.mp4",
+      "bytes": 2388301,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/timing.json",
+      "bytes": 451,
+      "included": true,
+      "snapshot_sha256": "cf682ed936afc69b7e5be2e53ebc5d1844158157346029f9739b1df23f1ddda2"
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/tracks.json",
+      "bytes": 36640,
+      "included": true,
+      "snapshot_sha256": "b1d5a8f86246cb4fa3fdafde3920b4a6b7ebb4245d0155e8f9387c65a708c6c1"
+    },
+    {
+      "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/visibility.json",
+      "bytes": 1490,
+      "included": true,
+      "snapshot_sha256": "d306b9c691f01e96f7ce2df06d55c7b1cc4d885e81078e7f699cf568e122242b"
+    },
+    {
       "path": "motion-graphics/STEALTH-POV-001/build-parallax-v003.py",
       "bytes": 3919,
       "included": true,
@@ -28859,9 +29435,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 22526,
+      "bytes": 22678,
       "included": true,
-      "snapshot_sha256": "6e149bc471a6c6f7e5f753e5f399dd0d528a11255dd90794946d4a66111bca5d"
+      "snapshot_sha256": "f4238063bb741f395b77f14608c1aedf98065b2041706c38e9390fc492ef352e"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -30042,9 +30618,9 @@
     },
     {
       "path": "video-tests/KLING-ROPE-DEMO-001/review.md",
-      "bytes": 689,
+      "bytes": 931,
       "included": true,
-      "snapshot_sha256": "ab9af8522b81d7c3360b32fd9f8f169ba6ffa1695dd0208715c50051bace8b98"
+      "snapshot_sha256": "e32dddd5072a6cc5de3f1017cddcb215ed44566cbeb825bcef7194914e0586ea"
     },
     {
       "path": "video-tests/KLING-ROPE-DEMO-001/submission-stderr.txt",

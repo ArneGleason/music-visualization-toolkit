@@ -1,0 +1,15 @@
+{
+  "fps": 24,
+  "master_start": 1708,
+  "master_end_exclusive": 1768,
+  "source_in_frame": 12,
+  "assumed_pre_roll_frames": 12,
+  "source_zero_master_frame": 1696,
+  "cycle_frames": 29,
+  "stagger_frames": 4,
+  "pulse_sigma_frames": 3.4,
+  "input": "video-tests/KLING-ROPE-DEMO-001/KLING-ROPE-DEMO-001-01.mp4",
+  "output": "motion-graphics/ROPE-DEMO-LIGHTS-001/Rope-demo-lights-v001.mp4",
+  "beacons": 5,
+  "new_generation_credits": 0
+}

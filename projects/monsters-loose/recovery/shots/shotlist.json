@@ -244,13 +244,13 @@
       "id": "HARPER-LASSO-001",
       "start_frame": 1708,
       "end_frame_exclusive": 1768,
-      "source": "video-tests/KLING-ROPE-DEMO-001/KLING-ROPE-DEMO-001-01.mp4",
+      "source": "motion-graphics/ROPE-DEMO-LIGHTS-001/Rope-demo-lights-v001.mp4",
       "source_in_frame": 12,
       "media_type": "video",
-      "status": "simple_rope_demonstration_for_review",
+      "status": "candidate_keeper_lighting_pass_for_review",
       "start_frame_reference": "assets/SCN-006-rope-demo-v001.png",
-      "timing_record": "video-tests/KLING-ROPE-DEMO-001/timing.json",
-      "note": "Bundled coil and connected strand, widening hands to demonstrate rope. Wider arm spread than requested, strand nearly taut; no head crossing. Natural generated rope, no Blender rope overlay. Source12..72. Cage5 intact. Await user review.",
+      "timing_record": "motion-graphics/ROPE-DEMO-LIGHTS-001/timing.json",
+      "note": "User accepted rope-demo001 as candidate keeper. Rope good; would prefer more head/body language, no performance change requested. Added five tracked red facility beacons matching established29frame cadence. Original take preserved, source12..72 unchanged.",
       "assumed_pre_roll_frames": 12
     },
     {
@@ -411,11 +411,12 @@
     {
       "id": "KLING-ROPE-DEMO-001",
       "source": "video-tests/KLING-ROPE-DEMO-001/KLING-ROPE-DEMO-001-01.mp4",
-      "status": "selected_for_review",
+      "status": "user_accepted_candidate_keeper",
       "credits": 32,
       "assumed_pre_roll_frames": 12,
       "source_in_frame": 12,
-      "review": "video-tests/KLING-ROPE-DEMO-001/review.md"
+      "review": "video-tests/KLING-ROPE-DEMO-001/review.md",
+      "approval_note": "Good enough; rope works. More head/body language desirable, but retain candidate."
     }
   ],
   "approved_sign_sequence": {
