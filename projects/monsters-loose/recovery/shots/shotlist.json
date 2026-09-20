@@ -192,14 +192,19 @@
       "id": "HARPER-TOUR-001",
       "start_frame": 1507,
       "end_frame_exclusive": 1625,
-      "source": "video-tests/KLING-TOUR-002/KLING-TOUR-002-01.mp4",
+      "source": "video-tests/KLING-TOUR-003/KLING-TOUR-003-01.mp4",
       "source_in_frame": 12,
       "media_type": "video",
-      "status": "start_only_retry_for_review",
-      "timing_record": "video-tests/KLING-TOUR-002/timing.json",
-      "start_frame_reference": "assets/SCN-006-tour-wide-v001.png",
-      "qa_note": "Background landmarks remain much steadier in samples12,48,90,129. New continuity issue: Harper loose curls become ponytail. User review pending; do not auto-regenerate.",
-      "rejected_previous_source": "video-tests/KLING-TOUR-001/KLING-TOUR-001-01.mp4"
+      "status": "test_for_review_background_criterion_not_met",
+      "timing_record": "video-tests/KLING-TOUR-003/timing.json",
+      "start_frame_reference": "assets/ANCH-006-A-v001.png",
+      "qa_note": "Samples12,48,90,129 show improved Harper face and loose curly bob. However cage pillars move and new near signage enters while distant tower remains near fixed: model ignored locked-camera instruction. NOT approved; stable-background acceptance criterion not met. No further generation authorized automatically.",
+      "rejected_previous_source": "video-tests/KLING-TOUR-001/KLING-TOUR-001-01.mp4",
+      "element": "321495363652188",
+      "rejected_previous_sources": [
+        "video-tests/KLING-TOUR-001/KLING-TOUR-001-01.mp4",
+        "video-tests/KLING-TOUR-002/KLING-TOUR-002-01.mp4"
+      ]
     },
     {
       "id": "HARPER-AQUARIUM-001",
