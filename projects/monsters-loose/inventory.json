@@ -295,6 +295,12 @@
       "snapshot_sha256": "559616ffa9d3c8e554917de3c06393e3bc601032516244750f64d0bf22e75155"
     },
     {
+      "path": "animatic/build-opening-v43.py",
+      "bytes": 1562,
+      "included": true,
+      "snapshot_sha256": "838d877b0d092bf9bdad7a9e88a356dab64fb2b928635653a39530b991824182"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -392,7 +398,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "7982f77be7153a34699bfb3ff21d6c747c7263d7fb1741b574bd7a32acfce4e3"
+      "snapshot_sha256": "755c9548eb3b9fe026b7b7f1126450e4248faac029ad1ed39b398be2957cd8d5"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -1004,6 +1010,17 @@
       "snapshot_sha256": "571ef785dded686bdb02fa3c098067db944b42b2fe24ef1c7e880ae316650fa4"
     },
     {
+      "path": "animatic/MonstersLoose-v43-opening-through-habitats.mp4",
+      "bytes": 79906658,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v43-through-habitats.blend",
+      "bytes": 295028,
+      "included": true,
+      "snapshot_sha256": "8a43e06ce8abbc847e1d25ba5700ee65b2d0da8dfc51ad65512896f9f4e97d9d"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1267,6 +1284,11 @@
     {
       "path": "animatic/render-v42.log",
       "bytes": 138409,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v43.log",
+      "bytes": 138133,
       "included": false
     },
     {
@@ -3073,6 +3095,17 @@
     {
       "path": "assets/SCN-006-lasso-underhand-plate-v002.png",
       "bytes": 2723173,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-006-net-interception-v001.md",
+      "bytes": 902,
+      "included": true,
+      "snapshot_sha256": "22254410b31163ea214c81d86666cd06e4dc714ff0c57d7e11d311dfa597c218"
+    },
+    {
+      "path": "assets/SCN-006-net-interception-v001.png",
+      "bytes": 2831743,
       "included": false
     },
     {
@@ -29428,6 +29461,12 @@
       "snapshot_sha256": "befbd460c1c87875b450648d48863eb0a5a815a8d96328095528b9cb404667af"
     },
     {
+      "path": "shots/SCN-006-net-interception.md",
+      "bytes": 1207,
+      "included": true,
+      "snapshot_sha256": "f66b8107ca487639c468ba6fee9d4b365f58a63b89c93c58fb37152de96142d9"
+    },
+    {
       "path": "shots/SCN-006-tour-aquarium.md",
       "bytes": 4527,
       "included": true,
@@ -29435,9 +29474,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 22678,
+      "bytes": 23418,
       "included": true,
-      "snapshot_sha256": "f4238063bb741f395b77f14608c1aedf98065b2041706c38e9390fc492ef352e"
+      "snapshot_sha256": "1af68612b4fb36d899cb3992df59db11d403d1526ba637cae157c0ab0371b6ca"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",

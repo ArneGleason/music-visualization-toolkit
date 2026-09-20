@@ -1,0 +1,4 @@
+# Near-escape starting frame
+Built-in imagegen, reference SCN-006-rope-demo-v001 for exact Harper identity and comic world. New medium-wide three-quarter camera at enclosure5 service doorway, no moon, no boy. Harper left at red release lever, bundled lasso retained. Center-right waist-high squat horned moss-scaled boar-like monster just inside threshold, bowl inside. Rolled heavy square-mesh hemp net overhead in side guides, visible lower edge, ready for vertical drop. Creature has not crossed threshold; no limbs through intact mesh. Night blue-green with warm practical lights; ink and crosshatching, no motion lines or captions. Match freckled copper curly bob, olive MUCF uniform, gloves/boots. Clear cause/effect staging for later lever-triggered safety catch.
+
+Result: readable lever, net, threshold and contained creature. No video credits spent. Master1768..1893 storyboard placement.

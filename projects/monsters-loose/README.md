@@ -1,12 +1,12 @@
 # Monsters Loose — production recovery
 
-Current edit: **v42**, through master frame2461 at24fps (102.54seconds). New simple rope demonstration at1708..1767 for review replaces rejected Blender toss. Bundled coil and connected strand; no rope overlay. Cage5 remains intact. Net interception and later habitat shots remain placeholders.
+Current edit: **v43**, through master frame2461 at24fps (102.54seconds). New simple rope demonstration at1708..1767 for review replaces rejected Blender toss. Bundled coil and connected strand; no rope overlay. Cage5 remains intact. Net interception and later habitat shots remain placeholders.
 
 ## Resume
 
 Use the existing frame review at http://127.0.0.1:8767/ (same app and port). The swamp bridge occupies master frames **1305–1506**. `recovery/shots/shotlist.json` is the edit source of truth. Master frames are one-based; source offsets are zero-based; end frames are exclusive. Default assumed pre-roll is 12 frames (half a second), recorded per shot; consult actual source trims before changing cuts or lip-sync.
 
-The current Blender timeline is `recovery/animatic/MonstersLoose-v42-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
+The current Blender timeline is `recovery/animatic/MonstersLoose-v43-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
 
 ## What is backed up
 
@@ -68,3 +68,6 @@ v41: user retired toss/twirl experiments. KLING-ROPE-DEMO-001,4s32credits, new t
 
 
 v42: rope-demo001 user accepted as candidate keeper; head/body acting could improve but rope works. Added five facility red beacons with matching29frame staggered sequence, source/master phase1696, same source12..72 trim. ROPE-DEMO-LIGHTS-001 includes tracking, Blender scene and composite recipe. No new generation credits. Lighting awaits review.
+
+
+v43: new net-interception starting-frame storyboard at1768..1893, enclosure5 service hatch, Harper release lever, contained horned boar-like monster, overhead rolled rope net. Next eye-roll reference placeholder starts1893; existing later cuts preserved. Net video not generated. Future7second clip allows125frame edit plus12frame handles. See SCN-006-net-interception.md.
