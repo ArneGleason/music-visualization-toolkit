@@ -1,0 +1,15 @@
+{
+  "fps": 24,
+  "master_start": 1768,
+  "master_end_exclusive": 1893,
+  "assumed_pre_roll_frames": 12,
+  "assumed_post_roll_frames": 12,
+  "intended_source_in_frame": 12,
+  "intended_source_out_frame_exclusive": 137,
+  "duration_seconds": 7,
+  "expected_credits": 56,
+  "status": "selected_for_review",
+  "actual_source_in_frame": 24,
+  "actual_source_out_frame_exclusive": 149,
+  "additional_editorial_head_trim_frames": 12
+}

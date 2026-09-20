@@ -1,0 +1,2 @@
+# Close Harper / creature obedience setup
+Built-in imagegen, reference net-feeding-v003 only for identity, creature and comic style. Closer knee-up two-shot, Harper left prominent face, creature right at enclosure5 threshold with one foot beginning step toward exit. Empty hand low initially, gap before snout for later palm-out stay, stationary coil at belt. Remove all nets/traps/pedals. No kid in frame. Modest animal-handler gag: step, command palm, obedient stop/head lower, restrained satisfaction toward offscreen visitors. Kid eye-roll follows later, not yet generated.

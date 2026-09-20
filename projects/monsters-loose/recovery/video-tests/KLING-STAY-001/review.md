@@ -1,0 +1,4 @@
+# Stay gesture first take
+7seconds56credits, start-only close Harper/creature image plus approved Harper Element321495363652188. Initial image upload failed before generation; one successful paid submission, not two. Sampled0,18,36,54,72,90,108,126,144: creature steps toward exit, Harper raises clear palm, creature stops then lowers head, Harper lowers hand and turns toward visitors. Core comic beat reads in samples; user review pending. Face/costume broadly consistent, no trap or rope physics. Early hand passes very close to snout; selected edit begins after earliest approach to avoid emphasizing contact.
+
+Select source24..149 exclusive normal24fps for master1768..1893. Assumed pre-roll12frames, actual offset24 adds12editorial trim frames to retain final glance. Next kid eye-roll remains a planning reference, not yet animated. No paid retry.

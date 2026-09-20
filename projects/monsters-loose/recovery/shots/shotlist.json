@@ -254,16 +254,18 @@
       "assumed_pre_roll_frames": 12
     },
     {
-      "id": "HARPER-NET-INTERCEPTION-001",
+      "id": "HARPER-STAY-001",
       "start_frame": 1768,
       "end_frame_exclusive": 1893,
-      "source": "assets/SCN-006-net-vestibule-v004.png",
-      "source_in_frame": 0,
-      "media_type": "image",
-      "status": "vestibule_feeding_setup_for_review",
+      "source": "video-tests/KLING-STAY-001/KLING-STAY-001-01.mp4",
+      "source_in_frame": 24,
+      "media_type": "video",
+      "status": "stay_gesture_for_review",
       "timing_basis": "Existing storyboard cut preserved",
-      "note": "Deep containment vestibule separates larger naturalistic habitat from concourse. Creature fully inside feeding at rear threshold; Harper along left wall. Soft net tucked into ceiling recess above empty vestibule floor. Foot trigger should be subtle floor panel near Harper, not foreground drain. No animation yet.",
-      "timing_record": "shots/SCN-006-net-interception.md"
+      "note": "Supersedes net. Creature steps forward; firm empty-palm stay stops it; lowers head; Harper small satisfied look toward visitors. Source24..149 keeps final glance. Next eye roll remains placeholder.",
+      "timing_record": "video-tests/KLING-STAY-001/timing.json",
+      "assumed_pre_roll_frames": 12,
+      "start_frame_reference": "assets/SCN-006-harper-stay-v001.png"
     },
     {
       "id": "SCN-006-EYE-ROLL-PLAN",
@@ -438,6 +440,16 @@
       "element": "321495363652188",
       "review": "video-tests/KLING-NET-001/review.md",
       "assumed_pre_roll_frames": 12
+    },
+    {
+      "id": "KLING-STAY-001",
+      "source": "video-tests/KLING-STAY-001/KLING-STAY-001-01.mp4",
+      "status": "selected_for_review",
+      "credits": 56,
+      "element": "321495363652188",
+      "source_in_frame": 24,
+      "assumed_pre_roll_frames": 12,
+      "review": "video-tests/KLING-STAY-001/review.md"
     }
   ],
   "approved_sign_sequence": {
@@ -461,10 +473,10 @@
   "planned_net_interception": {
     "start_frame": 1768,
     "provisional_end_frame_exclusive": 1893,
-    "status": "vestibule_feeding_setup_for_review",
+    "status": "retired_in_favor_of_stay_gesture",
     "lyric": "One, one, almost, just, just now, got out.",
     "concept": "Routine feeding at rear habitat entrance; creature dashes into recessed vestibule, Harper surprised then stomps discreet nearby pedal, ceiling net drops onto creature before public concourse.",
-    "next_step": "First continuous take failed: creature retreats into habitat and net lowers without capture. Keep approved v004 storyboard. Consider separate dash and reaction/capture shots; no retry authorized by this result.",
+    "next_step": "Do not pursue net capture; user replaced it with ordinary keeper obedience gesture and unimpressed kid eye roll.",
     "lyric_cue_frame": 1779,
     "lead_in_frames": 11,
     "source": "assets/SCN-006-net-vestibule-v004.png",

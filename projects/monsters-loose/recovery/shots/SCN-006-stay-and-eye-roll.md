@@ -1,0 +1,4 @@
+# Stay gesture, then kid eye roll
+Supersedes net interception/feeding-trap choreography. User explicitly authorized image followed immediately by Kling generation. Starting close shot shows recognizable Harper and cheeky boar-like monster at enclosure5. Creature takes tentative step toward exit; she raises firm empty palm without contact; it stops and sheepishly lowers head; she turns slightly to visitors with restrained pride. This ordinary animal handling makes kid eye-roll mean: that was just telling a weird dog to stay. No physical trap/rope motion.
+
+Current span1768..1893 exclusive125frames24fps. Seven-second generation,56credits, assumed12frame lead/tail, desired source12..137. Harper Element321495363652188 binds full figure and three detailed face references. Fixed camera. Next eye-roll cut1893 still reference placeholder; not generated in this request.
