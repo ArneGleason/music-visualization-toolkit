@@ -1,0 +1,4 @@
+SUPERSEDED, NOT DELIVERED. User requires feeding lead-in, no partial escape in starting frame. See SCN-006-net-feeding-v003.md.
+
+# Revised net interception starting frame
+Built-in imagegen edit of v001. Preserve Harper, monster, enclosure5 and comic world. Remove hand lever/plaque, roller/shutter and gate tracks. Monster front half outside threshold, mid-breakout; Harper surprised/reacting, not ready at control. Small gray tread foot pedal flush in paving near boot, no attention-grabbing paint or label. Loosely gathered soft knotted rope net suspended by quick-release hooks under exterior overhead canopy directly above escaping creature, weighted perimeter, will fall onto creature, not act as net gate. Full boots/threshold visible, no motion lines or captions. Keep previous image for history.

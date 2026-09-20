@@ -257,12 +257,12 @@
       "id": "HARPER-NET-INTERCEPTION-001",
       "start_frame": 1768,
       "end_frame_exclusive": 1893,
-      "source": "assets/SCN-006-net-interception-v001.png",
+      "source": "assets/SCN-006-net-feeding-v003.png",
       "source_in_frame": 0,
       "media_type": "image",
-      "status": "starting_frame_storyboard_for_review",
+      "status": "feeding_setup_starting_frame_for_review",
       "timing_basis": "Existing storyboard cut preserved",
-      "note": "Harper at net-release lever beside enclosure5 feeding doorway; horned scaled creature inside threshold. Rolled rope net overhead. Future vertical drop blocks exit. No video generated.",
+      "note": "Routine feeding: creature fully inside eating from bowl, Harper withdrawing hand. No hand control, roller or net gate. Soft gathered canopy net above exterior escape path; discreet floor pedal near boot. Future animation supplies dash, surprised reaction, stomp and net drop.",
       "timing_record": "shots/SCN-006-net-interception.md"
     },
     {
@@ -452,13 +452,13 @@
   "planned_net_interception": {
     "start_frame": 1768,
     "provisional_end_frame_exclusive": 1893,
-    "status": "starting_frame_created_for_review",
+    "status": "feeding_setup_starting_frame_for_review",
     "lyric": "One, one, almost, just, just now, got out.",
-    "concept": "A monster makes a sneaky break through a feeding/service opening. Harper triggers a secondary safety mechanism: a large rope net drops and catches it before escape. Mechanical deployment should be visually simple and readable. Ties to lasso competence; avoid elaborate rope physics.",
-    "next_step": "Review composition and cut; then animate creature approach, lever pull and vertical net descent.",
+    "concept": "Feeding lead-in, creature darts from bowl toward open exit, Harper surprised then stomps floor pedal just in time, overhead soft net drops onto partly emerged creature.",
+    "next_step": "Review feeding setup; animate single continuous sequence first, split dash/response if necessary. No net video submitted.",
     "lyric_cue_frame": 1779,
     "lead_in_frames": 11,
-    "source": "assets/SCN-006-net-interception-v001.png",
+    "source": "assets/SCN-006-net-feeding-v003.png",
     "assumed_pre_roll_frames": 12,
     "assumed_post_roll_frames": 12
   }

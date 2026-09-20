@@ -1,9 +1,9 @@
-# Near-escape net interception
+# Near-escape sequence — feeding setup
 
-Start master1768; lyric One onset1779; next Your eye roll cue1893. Proposed span1768..1893 exclusive125frames at24fps (5.2083s). Default future generated pre-roll12frames and post-roll12 minimum, requiring149frames; a7second generation provides168 nominal frames. Do not silently assume6seconds gives both handles.
+Latest user direction supersedes all partially-emerged starting frames. Opening must establish routine feeding. Harper has just placed food and is withdrawing her hand. Creature eats with all body parts inside cage5. Her stance is natural, unaware of impending dash. No pre-positioned hand on a lever and no foot poised over control.
 
-Starting frame: enclosure5 service/feeding doorway, Harper at release lever, waist-high horned scaled creature just inside threshold, clear overhead bundled rope-net safety rack. No body parts through intact mesh. Creature may try to cross legitimate open hatch only during this deliberate near-escape. Boy outside tighter framing.
+Remove hand switch and garage-door/roller mechanism. Discreet gray flush tread pedal near boot. Loosely folded soft weighted rope net suspended under exterior ceiling/canopy, above escape path, released to fall ONTO creature. No vertical net gate.
 
-Suggested action: short creature creep toward opening, Harper notices and pulls release, net drops vertically across threshold to block forward movement. Creature presses into rope mesh and stops, stays contained. Harper dry professional reaction. Keep camera fixed and net geometry simple, no lasso physics, no wrapping or complex net tangle. Match motion to lyric once starting image reviewed.
+Proposed continuous action: feeding lead-in; creature abruptly leaves bowl and dashes out; Harper surprised, recovers and stomps foot pedal; net drops over partly emerged creature just in time. If this sequence proves unreliable, split at dash into closer response/stomp/net shot. Do not start escape before feeding setup.
 
-This step creates a storyboard reference and animatic placement; no video generation credits submitted for the net yet.
+Master1768..1893 exclusive125frames24fps (5.2083s); One cue1779. Assumed future head/tail handles12frames each:149frames minimum,7second generation provides168nominalframes. No net video generation submitted yet. Current step: SCN-006-net-feeding-v003 starting still for review in animaticv44. v001 lever/roller rejected. v002 partially-emerged concept interrupted/superseded before delivery.

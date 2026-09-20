@@ -301,6 +301,12 @@
       "snapshot_sha256": "838d877b0d092bf9bdad7a9e88a356dab64fb2b928635653a39530b991824182"
     },
     {
+      "path": "animatic/build-opening-v44.py",
+      "bytes": 1406,
+      "included": true,
+      "snapshot_sha256": "a831f08644ab6f8a85742ad976ebfcf2d81ca75d896018c9042e1fc3ac61900f"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -398,7 +404,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "755c9548eb3b9fe026b7b7f1126450e4248faac029ad1ed39b398be2957cd8d5"
+      "snapshot_sha256": "26211b0c829fabd73b5ba5017aad6e41636ad0135f599fc88cf65699ba91f83d"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -1021,6 +1027,17 @@
       "snapshot_sha256": "8a43e06ce8abbc847e1d25ba5700ee65b2d0da8dfc51ad65512896f9f4e97d9d"
     },
     {
+      "path": "animatic/MonstersLoose-v44-opening-through-habitats.mp4",
+      "bytes": 79942059,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v44-through-habitats.blend",
+      "bytes": 294491,
+      "included": true,
+      "snapshot_sha256": "215105ef1946290d2dc626ed46145df2e389ae83b6612509d2cf55dcbdd9e47c"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1289,6 +1306,11 @@
     {
       "path": "animatic/render-v43.log",
       "bytes": 138133,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v44.log",
+      "bytes": 137751,
       "included": false
     },
     {
@@ -3098,6 +3120,17 @@
       "included": false
     },
     {
+      "path": "assets/SCN-006-net-feeding-v003.md",
+      "bytes": 746,
+      "included": true,
+      "snapshot_sha256": "688436ff1c6a0ab5287c8e496fccac97551c08a3d30244b595891d09eda4a3bb"
+    },
+    {
+      "path": "assets/SCN-006-net-feeding-v003.png",
+      "bytes": 2833269,
+      "included": false
+    },
+    {
       "path": "assets/SCN-006-net-interception-v001.md",
       "bytes": 902,
       "included": true,
@@ -3107,6 +3140,12 @@
       "path": "assets/SCN-006-net-interception-v001.png",
       "bytes": 2831743,
       "included": false
+    },
+    {
+      "path": "assets/SCN-006-net-interception-v002.md",
+      "bytes": 808,
+      "included": true,
+      "snapshot_sha256": "840cb6286ddad2455ffa57f9f600c98362da3f0d861254deb41de533b28d2fac"
     },
     {
       "path": "assets/SCN-006-rope-demo-v001.md",
@@ -29462,9 +29501,9 @@
     },
     {
       "path": "shots/SCN-006-net-interception.md",
-      "bytes": 1207,
+      "bytes": 1352,
       "included": true,
-      "snapshot_sha256": "f66b8107ca487639c468ba6fee9d4b365f58a63b89c93c58fb37152de96142d9"
+      "snapshot_sha256": "4daf02501b8770379b4dc0613aaf893f52c385cdfe81ef9e8c1c1ce2e845b408"
     },
     {
       "path": "shots/SCN-006-tour-aquarium.md",
@@ -29474,9 +29513,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 23418,
+      "bytes": 23420,
       "included": true,
-      "snapshot_sha256": "1af68612b4fb36d899cb3992df59db11d403d1526ba637cae157c0ab0371b6ca"
+      "snapshot_sha256": "b923bb768fd46c16015019747f5add3cf93db0df80116fd236d03b03615b5989"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
