@@ -1,0 +1,4 @@
+# Kid reaction take001
+7s56credits, detailed close start image based on CHAR009 portrait and approved concourse scene. No inappropriate Harper Element bound. Sampled0,18,36,54,72,90,108,126,150: skeptical look, upward/sideward eye movement and slight tilt, return toward viewer/Harper, smirk, then down to notebook. Eye-roll reads more subtly as upward glance than full clear arc, mouth parts briefly despite closed-mouth request, smirk larger than planned; notebook shifts in hands at end. Face/costume recognizable, camera drift modest. Candidate for contextual review, not user-approved. No automatic retry.
+
+Source12..155 master1893..2036,143frames24fps, default12frame assumed/actual lead-in. Prior Harper stay user-approved, preserved. Facility red lights in generated source have not received a separate Blender polish pass in this shot.

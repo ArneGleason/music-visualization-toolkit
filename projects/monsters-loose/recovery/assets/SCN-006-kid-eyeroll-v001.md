@@ -1,0 +1,2 @@
+# Kid reaction close-up
+Built-in imagegen using SCN-006-rope-demo-v001 for scene/pose continuity and CHAR-009-v001 for detailed identity. Chest-up boy slightly right of center, original dark unruly hair, thick brows, brown skin, rust vest/pale blue shirt, satchel strap/pencil, folded arms and creature sketchbook. Looking offscreen left toward Harper, mouth closed, skeptical anticipation before eye roll. Same lamp-lit concourse in background, no Harper or other people. Graphic-novel ink/crosshatching. Modest margin for small push-in. No text or effects.

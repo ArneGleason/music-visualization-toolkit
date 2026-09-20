@@ -260,23 +260,27 @@
       "source": "video-tests/KLING-STAY-001/KLING-STAY-001-01.mp4",
       "source_in_frame": 24,
       "media_type": "video",
-      "status": "stay_gesture_for_review",
+      "status": "user_approved",
       "timing_basis": "Existing storyboard cut preserved",
       "note": "Supersedes net. Creature steps forward; firm empty-palm stay stops it; lowers head; Harper small satisfied look toward visitors. Source24..149 keeps final glance. Next eye roll remains placeholder.",
       "timing_record": "video-tests/KLING-STAY-001/timing.json",
       "assumed_pre_roll_frames": 12,
-      "start_frame_reference": "assets/SCN-006-harper-stay-v001.png"
+      "start_frame_reference": "assets/SCN-006-harper-stay-v001.png",
+      "approval_note": "User: works, understated and deserves an eye roll."
     },
     {
-      "id": "SCN-006-EYE-ROLL-PLAN",
+      "id": "KID-EYEROLL-001",
       "start_frame": 1893,
       "end_frame_exclusive": 2036,
-      "source": "assets/SCN-006-rope-demo-v001.png",
-      "source_in_frame": 0,
-      "media_type": "image",
-      "status": "placeholder_pending_net_catch_and_later_shot_design",
+      "source": "video-tests/KLING-EYEROLL-001/KLING-EYEROLL-001-01.mp4",
+      "source_in_frame": 12,
+      "media_type": "video",
+      "status": "reaction_for_review",
       "timing_basis": "Existing storyboard cut preserved",
-      "note": "Eye roll lyric beat; reference placeholder, shot not yet designed."
+      "note": "Close skeptical reaction, subtle upward eye motion, smirk, notebook glance. Eye roll less broad than requested; mouth parts briefly. Contextual review pending.",
+      "assumed_pre_roll_frames": 12,
+      "start_frame_reference": "assets/SCN-006-kid-eyeroll-v001.png",
+      "timing_record": "video-tests/KLING-EYEROLL-001/timing.json"
     },
     {
       "id": "ANCH-007-A-PLAN",
@@ -444,12 +448,21 @@
     {
       "id": "KLING-STAY-001",
       "source": "video-tests/KLING-STAY-001/KLING-STAY-001-01.mp4",
-      "status": "selected_for_review",
+      "status": "user_approved",
       "credits": 56,
       "element": "321495363652188",
       "source_in_frame": 24,
       "assumed_pre_roll_frames": 12,
       "review": "video-tests/KLING-STAY-001/review.md"
+    },
+    {
+      "id": "KLING-EYEROLL-001",
+      "source": "video-tests/KLING-EYEROLL-001/KLING-EYEROLL-001-01.mp4",
+      "status": "selected_for_review",
+      "credits": 56,
+      "source_in_frame": 12,
+      "assumed_pre_roll_frames": 12,
+      "review": "video-tests/KLING-EYEROLL-001/review.md"
     }
   ],
   "approved_sign_sequence": {

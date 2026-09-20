@@ -319,6 +319,12 @@
       "snapshot_sha256": "dd58ed4f82a7ea8414d2e1561a094943131154cdf101dd401e9426127cc093bd"
     },
     {
+      "path": "animatic/build-opening-v47.py",
+      "bytes": 1189,
+      "included": true,
+      "snapshot_sha256": "383949ead7e09b22f35be229758d96ed7004f34c757e6451f1529f5c6fe13b5f"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -416,7 +422,7 @@
       "path": "animatic/frame-review-current.json",
       "bytes": 164,
       "included": true,
-      "snapshot_sha256": "c434fcfa25ba11c39d6e2431c4efb904f2d378eea161bc56b6cd7d845a59fe99"
+      "snapshot_sha256": "049606a264c2b6fb78d4b3a75488d2852c5397926486b425a8f134287b90160a"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -1077,6 +1083,17 @@
       "included": false
     },
     {
+      "path": "animatic/MonstersLoose-v47-opening-through-habitats.mp4",
+      "bytes": 80817064,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v47-through-habitats.blend",
+      "bytes": 293796,
+      "included": true,
+      "snapshot_sha256": "453ccfcb62cd6d9a335c676d55b4f050d694ed645ed241ab6a4bf81084913238"
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -1360,6 +1377,11 @@
     {
       "path": "animatic/render-v46.log",
       "bytes": 139041,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v47.log",
+      "bytes": 138026,
       "included": false
     },
     {
@@ -1648,6 +1670,11 @@
     {
       "path": "animatic/v46-check.jpg",
       "bytes": 139246,
+      "included": false
+    },
+    {
+      "path": "animatic/v47-check.jpg",
+      "bytes": 108876,
       "included": false
     },
     {
@@ -3169,6 +3196,17 @@
       "included": false
     },
     {
+      "path": "assets/SCN-006-kid-eyeroll-v001.md",
+      "bytes": 561,
+      "included": true,
+      "snapshot_sha256": "c1ada9ca7afc1cfc0f7a7e4e10f25cb8a48750d71addaa6249c29983e507d2a9"
+    },
+    {
+      "path": "assets/SCN-006-kid-eyeroll-v001.png",
+      "bytes": 2391416,
+      "included": false
+    },
+    {
       "path": "assets/SCN-006-lasso-underhand-plate-v001.png",
       "bytes": 2860389,
       "included": false
@@ -3347,9 +3385,9 @@
     },
     {
       "path": "FOOTAGE-TO-KEEP.md",
-      "bytes": 242,
+      "bytes": 414,
       "included": true,
-      "snapshot_sha256": "6c016e3131f98e549d04fba399d244884145aac745c5f18d2c691389656e08ad"
+      "snapshot_sha256": "3328db132c9959e6c4ac3bebc940fe05d9e2d8f4b6c7b1d24a2986dc41651607"
     },
     {
       "path": "index.html",
@@ -29570,6 +29608,12 @@
       "snapshot_sha256": "4fed19dca5eeab75bba55a0406ac3094649e0ba183a264eae1786835e7d781b8"
     },
     {
+      "path": "shots/SCN-006-kid-eyeroll.md",
+      "bytes": 793,
+      "included": true,
+      "snapshot_sha256": "6b0d75637ab94990e486acc25e57ce9f3c5529191c00f21a83bba60edd30f4b5"
+    },
+    {
       "path": "shots/SCN-006-lasso-net.md",
       "bytes": 2369,
       "included": true,
@@ -29595,9 +29639,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 24102,
+      "bytes": 24732,
       "included": true,
-      "snapshot_sha256": "eb2c65a199b75207677cdad0e9c24ee601565a20f4f86925ff244e984fe5125a"
+      "snapshot_sha256": "fe804b4ea3cfbd4cbe0fb41043366d5fca5a167ef1c753a9ac7832ca5d918b40"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -29658,6 +29702,12 @@
       "bytes": 1514,
       "included": true,
       "snapshot_sha256": "92b97c56d73ed1fa720da8e29a70656475ed0d124d8856a34fa9fa1fff73226d"
+    },
+    {
+      "path": "video-tests/collect-kling-eyeroll-001.py",
+      "bytes": 1555,
+      "included": true,
+      "snapshot_sha256": "5157a5d5035839088cdc28f6454262bfdd0c262213acd1c42adb5b55fdd7b907"
     },
     {
       "path": "video-tests/collect-kling-keeper-001.py",
@@ -30026,6 +30076,58 @@
       "bytes": 1123,
       "included": true,
       "snapshot_sha256": "74986aa5a617edbce3597acfc3f7c51599983dcefcec1fd96f5fd9bc856c051d"
+    },
+    {
+      "path": "video-tests/KLING-EYEROLL-001/contact.jpg",
+      "bytes": 279297,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-EYEROLL-001/KLING-EYEROLL-001-01.mp4",
+      "bytes": 18227424,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-EYEROLL-001/prompt.txt",
+      "bytes": 2295,
+      "included": true,
+      "snapshot_sha256": "3025ccea83979ad654d4fb9cb5ae84e1d0c046dbd7ca1c25c3a0253d02b0c0f9"
+    },
+    {
+      "path": "video-tests/KLING-EYEROLL-001/request.json",
+      "bytes": 2732,
+      "included": true,
+      "snapshot_sha256": "440d321808de08c59270b16d9938a4a39fa1f9ddc0a8f33dbf9bcc73fe8d8c6b"
+    },
+    {
+      "path": "video-tests/KLING-EYEROLL-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "fa09e5c460b56df52d2f8b0c44f5ca7417f9f4f8c8de7ec9ac623bdd6c119f10"
+    },
+    {
+      "path": "video-tests/KLING-EYEROLL-001/review.md",
+      "bytes": 849,
+      "included": true,
+      "snapshot_sha256": "5bbae22e2f2475370cedd279060787acb4878e7eb8d1779fbb48783311fc7e86"
+    },
+    {
+      "path": "video-tests/KLING-EYEROLL-001/submission-stderr.txt",
+      "bytes": 3600,
+      "included": true,
+      "snapshot_sha256": "9d636e8cd36466893032483f3ccf43c70d232f0717c98303ef17f93387c5fb7b"
+    },
+    {
+      "path": "video-tests/KLING-EYEROLL-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "9d5a3d7aeaf8e1e9014924c8820d30deea274ad707d68173306045e9050a4e35"
+    },
+    {
+      "path": "video-tests/KLING-EYEROLL-001/timing.json",
+      "bytes": 393,
+      "included": true,
+      "snapshot_sha256": "711e20d60a0d6df8913fd70f9f8bae78e2c4c51801ac80213f65674f32c50481"
     },
     {
       "path": "video-tests/KLING-KEEPER-001/KLING-KEEPER-001-01.mp4",
@@ -31864,6 +31966,12 @@
       "bytes": 3545,
       "included": true,
       "snapshot_sha256": "30a3ca2b3087b77a6e7672730369634da09b91aff793ae2def3e9d35c5612751"
+    },
+    {
+      "path": "video-tests/run-kling-eyeroll-001.py",
+      "bytes": 624,
+      "included": true,
+      "snapshot_sha256": "51e23db1610ce65ddf6995a58b884edff7d4bcf5c1a1bec10736a289748cb7f6"
     },
     {
       "path": "video-tests/run-kling-keeper-001.py",

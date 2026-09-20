@@ -1,12 +1,12 @@
 # Monsters Loose — production recovery
 
-Current edit: **v46**, through master frame2461 at24fps (102.54seconds). Rope demonstration at1708..1767 is a candidate keeper with facility beacons. New close Harper/creature stay-gesture take at1768..1892 is ready for review and replaces the retired net plan. Kid eye-roll from1893 and later habitat shots remain reference placeholders.
+Current edit: **v47**, through master frame2461 at24fps (102.54seconds). Rope demonstration candidate keeper at1708..1767; Harper stay gesture1768..1892 user-approved. New kid reaction1893..2035 for review. Later habitat shots remain reference placeholders.
 
 ## Resume
 
 Use the existing frame review at http://127.0.0.1:8767/ (same app and port). The swamp bridge occupies master frames **1305–1506**. `recovery/shots/shotlist.json` is the edit source of truth. Master frames are one-based; source offsets are zero-based; end frames are exclusive. Default assumed pre-roll is 12 frames (half a second), recorded per shot; consult actual source trims before changing cuts or lip-sync.
 
-The current Blender timeline is `recovery/animatic/MonstersLoose-v46-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
+The current Blender timeline is `recovery/animatic/MonstersLoose-v47-through-habitats.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
 
 ## What is backed up
 
@@ -83,3 +83,6 @@ KLING-NET-001:7s56credits, Harper full-body/face Element bound. Test failed even
 
 
 v46: user retired net capture; generated close SCN-006-harper-stay-v001 and KLING-STAY-001(7s56credits), approved Harper face/figure Element. Creature steps toward exit, palm-out stay stops it, lowers head, Harper turns with restrained satisfaction. Selected source24..149 at1768..1893 normal24fps; assumed pre-roll12, additional editorial trim12 retains glance. Kid eye roll1893 remains placeholder. Pending review. First upload failed before generation, only one paid submission.
+
+
+v47: KLING-EYEROLL-001,7s56credits, close starting frame based on original CHAR009 and concourse continuity. Subtle upward eye movement, smirk, down to notebook. Less broad eye-roll and bigger smirk than planned; mouth parts briefly. User review pending. Source12..155 at1893..2036, standard12frame lead-in. Harper stay preceding shot approved.
