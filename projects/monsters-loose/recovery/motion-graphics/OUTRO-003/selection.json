@@ -1,0 +1,14 @@
+{
+  "source": "video-tests\\KLING-SCENE14-FINALE-003\\KLING-SCENE14-FINALE-003-01.mp4",
+  "native_source_in_frame": 12,
+  "native_source_end_frame_exclusive": 352,
+  "master_start": 4951,
+  "master_end_exclusive": 5291,
+  "fps": 24,
+  "requested_duration_seconds": 15,
+  "assumed_leading_frames": 12,
+  "assumed_trailing_frames": 8,
+  "actual_trailing_frames": 9,
+  "character_reference": "assets/SCN-015-FINALE-v002.png",
+  "credits": 120
+}

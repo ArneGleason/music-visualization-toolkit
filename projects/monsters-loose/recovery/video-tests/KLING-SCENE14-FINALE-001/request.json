@@ -1,0 +1,22 @@
+{
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-015-FINALE-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "15",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "STYLE AND CONTINUITY LOCK: Preserve the supplied illustration identities, proportions, clothing, coherent anatomy, ink outlines, fine crosshatching, stable paper texture, teal night and amber highlights throughout. One continuous shot, no cuts, no morphing, no new text or speech bubbles, no lip-sync or audible dialogue. Keep all established subjects recognizable and in frame. No humans transform into monsters. Motion is natural within the illustrated world.\nA fifteen-second uninterrupted final tableau. First half-second quiet lead-in. Green reptile boss remains comfortably draped over fallen log on LEFT, satisfied and relaxed; tiny bronze insect stays perched RIGHT foreground and slowly sweeps its feather antennae. 0.5 to 3 seconds: subtle breathing, slow contented blink, small settling of foreclaw on log. 3 to 5 seconds: concentric ripples form in open midground water RIGHT, boss notices and slowly turns head toward them without leaving log. 5 to 8 seconds: one separate friendly long-necked aquatic reptile rises gradually from water in the midground, head first then curved neck and a low dark green back; wet skin, small yellow eye, graceful plesiosaur-like neck, no wings, no duplicate boss. It remains well behind and separate from the foreground tail/insect. Modest rings and drips, no spectacular splash. Boss watches with calm recognition, a subtly pleased expression. 8 to 11 seconds: aquatic resident settles floating, boss relaxes again and turns his face partway back toward us with a satisfied look, stays on log. 11 to 15 seconds: peaceful breathing, antenna motion, slow swimming ripple and hanging moss. Camera nearly fixed for first 6 seconds, then a very gentle crane upward and backward, ending only about 12 percent wider while keeping boss prominent. No forced final pose or cut, no rapid camera move, no transition to another setting, no text. The insect never grows or flies away. No new foreground creatures; only one aquatic resident emerges."
+  ],
+  "expected_credits": 120,
+  "purpose": "User-approved reprise/outro plan, 12-frame lead-in and best-part selection."
+}

@@ -1,0 +1,22 @@
+{
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-012-NO-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "true",
+    "--prefer_multi_shots",
+    "false",
+    "Preserve the exact illustrated character identities, age, clothing and natural head proportions from the starting image. Rich vintage comic ink and crosshatching, amber practical lighting and teal night. Fixed camera throughout, no cuts or zoom, rigid architecture. No text, captions or speech bubbles. One continuous five-second close-up of the boy looking up toward Harper OFFSCREEN RIGHT. He is fascinated, delighted and skeptical, not annoyed or afraid. At 0.35seconds his eyebrows lift and his lips begin ONE clear English phrase: \"No way!\" Say No briefly and stretch way with delighted incredulity, finishing by about2.1seconds. Natural expressive coordinated lips and jaw, no repeated speech. Tiny amazed head tilt, not an eye roll. Then close his mouth into a small delighted disbelieving smile and keep watching Harper through the end, subtle breathing/blink. Sketchbook and clothing remain stable. Only the boy speaks, no other voices, no music. Do not add anyone to the frame."
+  ],
+  "purpose": "Two approved exchange performances; generated dialogue is for articulation only, song stays master audio.",
+  "prompt_lock": "Preserve the exact illustrated character identities, age, clothing and natural head proportions from the starting image. Rich vintage comic ink and crosshatching, amber practical lighting and teal night. Fixed camera throughout, no cuts or zoom, rigid architecture. No text, captions or speech bubbles."
+}

@@ -1,3 +1,27 @@
+Final 1080p master: animatic/MonstersUndone-v94-master-1080p.mp4 (1920x1080,24fps,5290frames). Approved audio copied exactly. Mixed source resolution: native1080 footage and scaled720 baked effects. Preview remains v94 at720p.
+
+Latest v94: renamed display title Monsters Undone. Standalone MP4 with bottom lyrics, no scene markers. Final12frames5279..5290 show MONSTERS UNDONE / ©2026 Arne Gleason. Final beacon radius one-third and subdued intensity; swamp-entry radius75percent. CEO4414 and inspector4719 use original lights. No new generation credits.
+
+Latest v93: finale4951..5290 regenerated with established mossy swamp cousin in revised starting frame, stronger gentle crane up/back.240additional credits. Tracked red beacon pass across exit/outro; existing good blinking retained. Top scene titles and narrative markers removed throughout; bottom lyrics and countdown graphics preserved. Earlier v92 performances approved. Review finale from4940; light pass from3883.
+
+Latest v92: nine generated reprise/outro performances4414..5290; full song fleshed out. Human/monster gesture pairs, researchers, playful creatures, inspector, Harper/kid, continuous swamp finale4951..5290.408new Kling credits. Default12frame lead-in; precise selected source frames recorded in OUTRO-001/selections.json. Review from4398. Earlier approved footage retained.
+
+Latest v91: swamp-cousin meeting4242..4413,10second Kling3 take80credits edited into172frames. Remaining outro storyboard retained; next work crosscuts visitors/scientists/Harper/kid with swamp progression. Review4234.
+
+Latest v90: generated Scene13 procession4126..4241,7second Kling3 take56credits. Outro remains storyboard through5290; next direction is swamp procession crosscut with visitors/scientists/Harper/kid. Review4110.
+
+Latest v89: extended existing storyboard through scenes14 and15 and full ending, last frame5290. New context4242..5290,43.708seconds. Scene13 starting frame approved; crane animation pending. No new generation credits. Review4242.
+
+Latest v88: revised Scene13 single starting frame4126..4241. Pig-reptile leads Cyclops/bat beside corrected AIR and one-eyed UNUSUAL sign. Gentle crane proposed; no Kling submitted. Previous gate procession approved. Review4110.
+
+Latest v87: single continuous gate procession3883..4125, restored M.U.C.F. banners, three visitors and two escaping creatures.12second Kling take96credits. Review from3883; following familiar-face shots remain storyboard.
+
+Latest v86: extended through Scene13 familiar-face storyboard, end4241, to plan the preceding procession and visitor reactions. Kid exchange approved; Harper accepted for now, less-cutesy acting deferred. No new generation credits. Review3883.
+
+Latest v85: generated kid No way / Harper Yes way exchange3775..3882, eight-frame blur pullback and word-inflating Blender speech bubbles. Two five-second Kling3 native-dialogue1080p takes,120credits total. Original song audio preserved. Crowd/escape3883..4125 remains storyboard. Review3765.
+
+Latest v84: Scene12 storyboard extension, frames3775..4125 (14.625seconds). Two existing anchors: keeper/child exchange, then escape as spectacle. Approved footage through3774 preserved. Flesh out remaining scenes before deferred fixes; kid eye-roll remains a placeholder. No new generation credits.
+
 Latest v83: localized swirling displacement and fine turbulence through the Cyclops vapor reveal, settling to zero at final frame3774. Approved insect v82 and lizard effects preserved. Timing unchanged; no generation credits. Review3718. Reproducible effects: recovery/motion-graphics/SCENE11-SMOKE-003/build.py.
 
 Latest v82: stronger insect rapid-growth blur continuing across the cut, amplified enclosure recoil, dust and debris. Approved lizard roar and Cyclops reveal preserved. No generation credits; shot timing unchanged. Review from frame3508. Reproducible effects: recovery/motion-graphics/SCENE11-INSECT-002/build.py.
@@ -28,7 +52,7 @@ Latest v70: generated lab discussion with tracked rear-cage red eye, gorilla fir
 
 # Monsters Loose â€” production recovery
 
-Current preview: **v83**, through master frame3774 at24fps. Countdown defeats, green-lizard/Arctic showdown, kick, downrange flight, and snow landing are generated and assembled for review. Prior footage through2509 retains approved rabbit blur and stronger enclosure roar.
+Current preview: **v94**, through master frame3774 at24fps. Countdown defeats, green-lizard/Arctic showdown, kick, downrange flight, and snow landing are generated and assembled for review. Prior footage through2509 retains approved rabbit blur and stronger enclosure roar.
 
 ## Resume
 
@@ -60,7 +84,7 @@ Review from2510 for “Five, four, three more to go. Now only two,” then final
 
 Use the existing frame review at http://127.0.0.1:8767/ (same app and port). The swamp bridge occupies master frames **1305â€“1506**. `recovery/shots/shotlist.json` is the edit source of truth. Master frames are one-based; source offsets are zero-based; end frames are exclusive. Default assumed pre-roll is 12 frames (half a second), recorded per shot; consult actual source trims before changing cuts or lip-sync.
 
-The current Blender timeline is `recovery/animatic/MonstersLoose-v83-cyclops-turbulence.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
+The current Blender timeline is `recovery/animatic/MonstersUndone-v94.blend`. The current render pointer is `recovery/animatic/frame-review-current.json`. Latest swamp effect lives in `recovery/motion-graphics/SWAMP-LIGHTS-001/`. The underlying approved movie is `video-tests/KLING-SWAMP-FROG-002/Swamp-frog-snatch-v002.mp4`.
 
 ## What is backed up
 
@@ -79,7 +103,7 @@ Also preserve the original DAW project and its referenced recordings:
 1. Copy `recovery/` to the original job directory, then restore omitted source media there using `inventory.json`. Never run production builds directly inside this Git snapshot: generated content belongs outside Git.
 2. Install Blender 5.2, FFmpeg/ffprobe, and Python with NumPy/Pillow. Some generation scripts additionally require the Kling CLI and a separately authenticated account. Credentials are not backed up here.
 3. The Blender timelines use relative media paths where saved; older scripts and review state also contain absolute Windows paths. Restoring to the original job path is simplest. For another location, update these paths and use Blender's missing-file relinking before rendering. Font paths may also need relinking.
-4. Open the current v83 Blender file to inspect/render the edit. Effects can be rebuilt from their adjacent build scripts and README files. Historical animatic build scripts load predecessor `.blend` files; those small snapshots are retained. Restore source inputs before running them.
+4. Open the current v94 Blender file to inspect/render the edit. Effects can be rebuilt from their adjacent build scripts and README files. Historical animatic build scripts load predecessor `.blend` files; those small snapshots are retained. Restore source inputs before running them.
 5. Launch `tools/frame_review.py` with `--video <current-render> --notes <job>/shots/frame-review-notes.json --state <job>/animatic/frame-review-current.json --port 8767`. See `docs/FRAME_REVIEW.md`.
 
 To refresh this recovery snapshot after later work, run `python projects/monsters-loose/snapshot.py --source <job-directory>`, inspect the diff, then commit. The exporter copies files; it does not delete stale historical snapshots.

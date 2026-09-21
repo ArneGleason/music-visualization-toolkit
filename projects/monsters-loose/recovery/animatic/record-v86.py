@@ -1,0 +1,12 @@
+from pathlib import Path
+import json
+r=Path('C:/audio/shared/amtw-runtime/jobs/monsters-loose-word-timing-20260913');p=r/'shots/shotlist.json';d=json.loads(p.read_text());preview='animatic/MonstersLoose-v86-familiar-faces-storyboard.mp4'
+for s in d['shots']:
+ if s['id']=='SCN-012-EXCHANGE':s.update(status='accepted_placeholder',approval_note='Kid is great. Harper accepted for now but too cutesy; grounded alternative deferred to improvement pass.')
+ if s['id']=='SCN-012-ESCAPE-SHOW':s.update(status='replanning',direction_record='shots/SCN-012-procession-and-visitors-proposal.md')
+d['shots']=[s for s in d['shots'] if not s['id'].startswith('SCN-013-')]+json.loads((r/'animatic/scene13-storyboard-records.json').read_text())
+d['scene12_production']=d['next_scene_planning'];d['next_scene_planning']={'scene':13,'title':'Familiar faces, now real','start_frame':4126,'end_frame_exclusive':4242,'duration_frames':116,'status':'storyboard_for_context_review','preview':preview,'direction_record':'shots/SCN-012-procession-and-visitors-proposal.md'}
+d['current_preview']=preview;p.write_text(json.dumps(d,indent=2)+'\n')
+p=Path('projects/monsters-loose/README.md');s=p.read_text(encoding='utf-8').replace('Current preview: **v85**','Current preview: **v86**').replace('recovery/animatic/MonstersLoose-v85-no-way-yes-way.blend','recovery/animatic/MonstersLoose-v86-familiar-faces-storyboard.blend').replace('Open the current v85 Blender','Open the current v86 Blender');p.write_text('Latest v86: extended through Scene13 familiar-face storyboard, end4241, to plan the preceding procession and visitor reactions. Kid exchange approved; Harper accepted for now, less-cutesy acting deferred. No new generation credits. Review3883.\n\n'+s,encoding='utf-8')
+p=Path('projects/monsters-loose/HANDOFF.md');p.write_text('# Current working state\n\nv86 extends through Scene13, frame4241. Review procession/reaction area3883..4125 in context of following reptile/insect portraits4126..4241; Scene14 beyond-fence begins4242. Two-shot procession/visitor reaction is proposed, not generated. Kid No way is great; Harper Yes way is accepted for now but too cutesy, earmarked for later improvements with earlier kid eye-roll. Flesh out the remainder before fixes. No new credits spent for v86.\n')
+p=r/'animatic/frame-review-current.json';t=p.with_suffix('.tmp');t.write_text(json.dumps(dict(video=str(r/preview),master_start=1)));t.replace(p)

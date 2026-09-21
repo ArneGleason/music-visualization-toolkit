@@ -1,0 +1,22 @@
+[
+  {
+    "id": "SCN-012-EXCHANGE",
+    "start_frame": 3775,
+    "end_frame_exclusive": 3883,
+    "source": "animatic/../assets/ANCH-012-A-v001.png",
+    "source_in_frame": 0,
+    "media_type": "image",
+    "status": "storyboard_for_review",
+    "note": "ANCH-012-A / The keeper and the skeptic"
+  },
+  {
+    "id": "SCN-012-ESCAPE-SHOW",
+    "start_frame": 3883,
+    "end_frame_exclusive": 4126,
+    "source": "animatic/../assets/ANCH-012-B-v001.png",
+    "source_in_frame": 0,
+    "media_type": "image",
+    "status": "storyboard_for_review",
+    "note": "ANCH-012-B / They think it is part of the show"
+  }
+]

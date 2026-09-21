@@ -38,6 +38,12 @@
       "snapshot_sha256": "9b2c3b29fd8f5d1ceaf8305071b61924012ab96ac0c1cf8200eac00f9c1aa0c3"
     },
     {
+      "path": "animatic/audit-master.py",
+      "bytes": 1075,
+      "included": true,
+      "snapshot_sha256": "113e51272e8c4681ca986e74bdf855e50717089e5b8412d27ab634fb88f02955"
+    },
+    {
       "path": "animatic/audit-roughout.py",
       "bytes": 1334,
       "included": true,
@@ -108,6 +114,12 @@
       "bytes": 2514,
       "included": true,
       "snapshot_sha256": "354c78f683aca31628a9bb0bfc16fc58b362f21f5df5f6f65decfdc25de9cda0"
+    },
+    {
+      "path": "animatic/build-master-1080p.py",
+      "bytes": 1788,
+      "included": true,
+      "snapshot_sha256": "a0ee358e89b8eb12ed597e7b8baea3e1991f175ed074b4d0d672f2fa75ca6b6d"
     },
     {
       "path": "animatic/build-narrative.py",
@@ -541,6 +553,72 @@
       "snapshot_sha256": "5dd0a01c5cb42444339397dc06f4c79ac5a14dd936531833e0d80f2f37ed4b74"
     },
     {
+      "path": "animatic/build-opening-v84.py",
+      "bytes": 1377,
+      "included": true,
+      "snapshot_sha256": "23d8a59949cfe790b76b5c601eae222d520267880080669833290095b7d74331"
+    },
+    {
+      "path": "animatic/build-opening-v85.py",
+      "bytes": 1091,
+      "included": true,
+      "snapshot_sha256": "50739f64b9b8e4ffb5baacbf91499226ff18e920d99d36558d89ae6cebeec28d"
+    },
+    {
+      "path": "animatic/build-opening-v86.py",
+      "bytes": 1401,
+      "included": true,
+      "snapshot_sha256": "c244388aeeba4b2d622daedbbe47abe4710c825d1188b4cd30685a07db758936"
+    },
+    {
+      "path": "animatic/build-opening-v87.py",
+      "bytes": 948,
+      "included": true,
+      "snapshot_sha256": "94a4bbd7751c73fb1df8ed4b1612712cf89cc258aba05cf7d369c256b141cbca"
+    },
+    {
+      "path": "animatic/build-opening-v88.py",
+      "bytes": 1141,
+      "included": true,
+      "snapshot_sha256": "b90ffb957660e0a2980220f8d5afb0eba44b9031ab276addfcfe23eab2ca9b5b"
+    },
+    {
+      "path": "animatic/build-opening-v89.py",
+      "bytes": 1432,
+      "included": true,
+      "snapshot_sha256": "013dea5067102c70e190d56c1a1a11ba1de61e3814c232db0021284ebec7eede"
+    },
+    {
+      "path": "animatic/build-opening-v90.py",
+      "bytes": 967,
+      "included": true,
+      "snapshot_sha256": "56c444276689a4df58d08cfc4e45bb109755d64e103a9050ac3c9e8ebfa83e94"
+    },
+    {
+      "path": "animatic/build-opening-v91.py",
+      "bytes": 1016,
+      "included": true,
+      "snapshot_sha256": "6609019c2e2f56932384a9f026e601db0322c96bd26329445c3940f1227d5b06"
+    },
+    {
+      "path": "animatic/build-opening-v92.py",
+      "bytes": 1282,
+      "included": true,
+      "snapshot_sha256": "5e75d359d4bd6eee112f1e07dcd363d622d21b9e500eecebcb20471be7e7ca8f"
+    },
+    {
+      "path": "animatic/build-opening-v93.py",
+      "bytes": 1898,
+      "included": true,
+      "snapshot_sha256": "924e84e54b979eba2ab474f36f60314d7faa2a24a59fe6a73912844746cc8444"
+    },
+    {
+      "path": "animatic/build-opening-v94.py",
+      "bytes": 1886,
+      "included": true,
+      "snapshot_sha256": "69cab6ef6ad49109097b437ddcf4d7d09471de915e870368732a4a4ecae25783"
+    },
+    {
       "path": "animatic/build-parallax-experiment-v10.py",
       "bytes": 934,
       "included": true,
@@ -639,9 +717,21 @@
       "included": false
     },
     {
+      "path": "animatic/ending-storyboard-records.json",
+      "bytes": 1188,
+      "included": true,
+      "snapshot_sha256": "e27ef262f6fc3934caa51f52ddd974dde14cc56a795488d4a1947e8a81f0f15d"
+    },
+    {
       "path": "animatic/exo-lamp-check.jpg",
       "bytes": 96426,
       "included": false
+    },
+    {
+      "path": "animatic/export-thumbnails.py",
+      "bytes": 906,
+      "included": true,
+      "snapshot_sha256": "def1ced20b44312085223930cc9ae207667ce28709b37b4bba5fe893cda490d0"
     },
     {
       "path": "animatic/eye-v70.png",
@@ -661,15 +751,21 @@
       "snapshot_sha256": "bbd3ce306222940c6ce7a2956f49a0a6fa137dfa749c4ccaab321572f83a76d9"
     },
     {
+      "path": "animatic/finish-master-1080p.py",
+      "bytes": 2043,
+      "included": true,
+      "snapshot_sha256": "ae9920e11a8d1c7a58f440fb16570f3e7b5bc73f6e25e20a8a06b1d9d6c22db8"
+    },
+    {
       "path": "animatic/flight-impact-inspect.jpg",
       "bytes": 195402,
       "included": false
     },
     {
       "path": "animatic/frame-review-current.json",
-      "bytes": 158,
+      "bytes": 140,
       "included": true,
-      "snapshot_sha256": "997dc77f6b10332254b6bec3055571cd3f8bac9a317ce046b88175017fae74a6"
+      "snapshot_sha256": "e1fc4ae633e75aef29e077b150bc77e2370374c8313b05ac1d4998ca1a3000d1"
     },
     {
       "path": "animatic/frame-review-server-error.log",
@@ -743,6 +839,18 @@
       "snapshot_sha256": "66edd889b4b42fc828777d9bba94c1da7e762288049c9e7ed7f21e22b868f05d"
     },
     {
+      "path": "animatic/inspect-next-v83.py",
+      "bytes": 415,
+      "included": true,
+      "snapshot_sha256": "64b417d3efdf05e433b4092392f96e5bc78beaad3e73eb652342cac3f353edfe"
+    },
+    {
+      "path": "animatic/inspect-text-v92.py",
+      "bytes": 577,
+      "included": true,
+      "snapshot_sha256": "0ff4759a8ae4923344115f0cba07142a78b102ee6927d5b321a103388e42bc7b"
+    },
+    {
       "path": "animatic/inspect-ui.py",
       "bytes": 302,
       "included": true,
@@ -771,6 +879,47 @@
       "bytes": 64407,
       "included": true,
       "snapshot_sha256": "cdd6bd685d587885fa8316a4eaef47c02e645e1b5d495e2d87c5a4c8ff0fb466"
+    },
+    {
+      "path": "animatic/master-1080p-validation.json",
+      "bytes": 436,
+      "included": true,
+      "snapshot_sha256": "e8cec317254d6f372b95435ab786c4be5f4ca5c3ced53db7f540bcb1c0b14c52"
+    },
+    {
+      "path": "animatic/master-check-2541.mp4",
+      "bytes": 206771,
+      "included": false
+    },
+    {
+      "path": "animatic/master-check-3130.mp4",
+      "bytes": 143373,
+      "included": false
+    },
+    {
+      "path": "animatic/master-check-504.mp4",
+      "bytes": 271806,
+      "included": false
+    },
+    {
+      "path": "animatic/master-check-5285.mp4",
+      "bytes": 282030,
+      "included": false
+    },
+    {
+      "path": "animatic/master-check.log",
+      "bytes": 505,
+      "included": false
+    },
+    {
+      "path": "animatic/master-comparison.jpg",
+      "bytes": 419290,
+      "included": false
+    },
+    {
+      "path": "animatic/master-render.log",
+      "bytes": 290129,
+      "included": false
     },
     {
       "path": "animatic/master.wav",
@@ -1779,6 +1928,163 @@
       "included": false
     },
     {
+      "path": "animatic/MonstersLoose-v84-next-scene-storyboard.blend",
+      "bytes": 300850,
+      "included": true,
+      "snapshot_sha256": "47fb407598b0614157195557b79950e5a055d2af8b30792cddf2a3ee2620da9d"
+    },
+    {
+      "path": "animatic/MonstersLoose-v84-next-scene-storyboard.mp4",
+      "bytes": 140990866,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v85-no-way-yes-way.blend",
+      "bytes": 299764,
+      "included": true,
+      "snapshot_sha256": "5c5444ac47b2634746b4fc5d8245be8f8697d0ceb41c6b27789feca0654f83c1"
+    },
+    {
+      "path": "animatic/MonstersLoose-v85-no-way-yes-way.mp4",
+      "bytes": 141653799,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v86-familiar-faces-storyboard.blend",
+      "bytes": 299509,
+      "included": true,
+      "snapshot_sha256": "816ab52a101f723ae789328f6fc548c6cca1fefa8c489ba258f1c35fd041f344"
+    },
+    {
+      "path": "animatic/MonstersLoose-v86-familiar-faces-storyboard.mp4",
+      "bytes": 145263502,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v87-gate-procession.blend",
+      "bytes": 299189,
+      "included": true,
+      "snapshot_sha256": "c95c1f97d049f7d7adb3a68687ac575cf47b9b78362927cd9392d5f70982b9fb"
+    },
+    {
+      "path": "animatic/MonstersLoose-v87-gate-procession.mp4",
+      "bytes": 146108626,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v88-remaining-creatures.blend",
+      "bytes": 299322,
+      "included": true,
+      "snapshot_sha256": "906322b2b71ee28740fb0d77a09d41bd195bcb63b63f7e16ebade40dfe820ee5"
+    },
+    {
+      "path": "animatic/MonstersLoose-v88-remaining-creatures.mp4",
+      "bytes": 146101569,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v89-through-ending.blend",
+      "bytes": 299411,
+      "included": true,
+      "snapshot_sha256": "69442ea157ecf335f1602644a28c3a097d12fcd20f28c9f5beaa76f7b48a3e40"
+    },
+    {
+      "path": "animatic/MonstersLoose-v89-through-ending.mp4",
+      "bytes": 176966497,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v90-familiar-faces-procession.blend",
+      "bytes": 298465,
+      "included": true,
+      "snapshot_sha256": "07e9a681c5681fc2cb54bf245f1eaea9218817e013bcffef944ec1f03e21e5a2"
+    },
+    {
+      "path": "animatic/MonstersLoose-v90-familiar-faces-procession.mp4",
+      "bytes": 179579265,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v91-swamp-meeting.blend",
+      "bytes": 298445,
+      "included": true,
+      "snapshot_sha256": "b822622123b083389aef9579abf2adce2aee250f70e6a6b7e5ffc5911c6a9260"
+    },
+    {
+      "path": "animatic/MonstersLoose-v91-swamp-meeting.mp4",
+      "bytes": 181040569,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v92-outro-performances.blend",
+      "bytes": 297315,
+      "included": true,
+      "snapshot_sha256": "fb0364c6c05637972b0c500f0a1d37c26cca99398f6f68bff793c422dd221389"
+    },
+    {
+      "path": "animatic/MonstersLoose-v92-outro-performances.mp4",
+      "bytes": 183657461,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersLoose-v93-swamp-cousin-beacons.blend",
+      "bytes": 291730,
+      "included": true,
+      "snapshot_sha256": "a5a5e0c02ba3ec151140f93ed16309f67d1e52eb91e7b06e50a80f24ba5e5643"
+    },
+    {
+      "path": "animatic/MonstersLoose-v93-swamp-cousin-beacons.mp4",
+      "bytes": 181141570,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersUndone-v94-credit-check.mp4",
+      "bytes": 319819,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersUndone-v94-credit-check.png",
+      "bytes": 1816816,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersUndone-v94-master-1080p-render.mp4",
+      "bytes": 428150109,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersUndone-v94-master-1080p.blend",
+      "bytes": 291492,
+      "included": true,
+      "snapshot_sha256": "e142d9934fa33d1de5eeb8ab3f87729d6148b5234aac763d5ec7cc10284e1963"
+    },
+    {
+      "path": "animatic/MonstersUndone-v94-master-1080p.blend1",
+      "bytes": 291492,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersUndone-v94-master-1080p.mp4",
+      "bytes": 428150227,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersUndone-v94.blend",
+      "bytes": 291582,
+      "included": true,
+      "snapshot_sha256": "4b62ee1a225570758203fa4e00c63a3edd9d7b9a21d177c27d8f4f11fe1e49e2"
+    },
+    {
+      "path": "animatic/MonstersUndone-v94.blend1",
+      "bytes": 291582,
+      "included": false
+    },
+    {
+      "path": "animatic/MonstersUndone-v94.mp4",
+      "bytes": 181198128,
+      "included": false
+    },
+    {
       "path": "animatic/movie-validation.json",
       "bytes": 1401,
       "included": true,
@@ -2090,6 +2396,72 @@
       "snapshot_sha256": "c407fd0a6e8e987931bdf129ef87026170146458a54718cee19b9dbf294c1c70"
     },
     {
+      "path": "animatic/record-v84.py",
+      "bytes": 2596,
+      "included": true,
+      "snapshot_sha256": "56e22ba80b904a28cf7a716130803975e498eca7e0b43e61b731f8a42f430145"
+    },
+    {
+      "path": "animatic/record-v85.py",
+      "bytes": 2428,
+      "included": true,
+      "snapshot_sha256": "a7dc9d7c55403f65bb130aee12ebaa92b784ee1dc8cba772d66e6994b5e5860a"
+    },
+    {
+      "path": "animatic/record-v86.py",
+      "bytes": 2429,
+      "included": true,
+      "snapshot_sha256": "aefbe1521ab462dbe2e81de0999a8c463a805520f6bd2c22aa31215d97d14f72"
+    },
+    {
+      "path": "animatic/record-v87.py",
+      "bytes": 2406,
+      "included": true,
+      "snapshot_sha256": "e49b5f9ddf05eecfb010f18573bd0c95ce5b3b7e2e2e331fe759eaefa2391032"
+    },
+    {
+      "path": "animatic/record-v88.py",
+      "bytes": 2440,
+      "included": true,
+      "snapshot_sha256": "2ad1db2fac163a95e0bea63b442d825ffb9423a851254672a14b3c28bb3866ca"
+    },
+    {
+      "path": "animatic/record-v89.py",
+      "bytes": 2204,
+      "included": true,
+      "snapshot_sha256": "60339a0f5abc0510952056c82f0327492d758608b01276647b5eb2d3ae1cf759"
+    },
+    {
+      "path": "animatic/record-v90.py",
+      "bytes": 2373,
+      "included": true,
+      "snapshot_sha256": "0a4470a9b22f371c0e8bd75b482ecdfc63e29324a1243209a076e18e45515ec2"
+    },
+    {
+      "path": "animatic/record-v91.py",
+      "bytes": 2165,
+      "included": true,
+      "snapshot_sha256": "4936239d687a8379a6748dc79472b94ab573c992421413c9e98ffa58ea35a624"
+    },
+    {
+      "path": "animatic/record-v92.py",
+      "bytes": 3878,
+      "included": true,
+      "snapshot_sha256": "c276584687e2e29070970f69bf21659e339f287c5e02c8372e693a1108ec90fd"
+    },
+    {
+      "path": "animatic/record-v93.py",
+      "bytes": 4321,
+      "included": true,
+      "snapshot_sha256": "977602986b6b6fe99c2a0abd17c692ceba87d35c3d6835629c5fc25aac9ce07c"
+    },
+    {
+      "path": "animatic/record-v94.py",
+      "bytes": 4608,
+      "included": true,
+      "snapshot_sha256": "70da2a91f83c5a8bc459d996199043b582309b8154a7ef90e6c15d5ed360cbd2"
+    },
+    {
       "path": "animatic/render-before-label-fix.mp4",
       "bytes": 21259814,
       "included": false
@@ -2381,6 +2753,61 @@
       "included": false
     },
     {
+      "path": "animatic/render-v84.log",
+      "bytes": 226125,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v85.log",
+      "bytes": 226121,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v86.log",
+      "bytes": 232505,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v87.log",
+      "bytes": 232506,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v88.log",
+      "bytes": 232500,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v89.log",
+      "bytes": 290194,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v90.log",
+      "bytes": 290200,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v91.log",
+      "bytes": 290199,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v92.log",
+      "bytes": 290192,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v93.log",
+      "bytes": 290199,
+      "included": false
+    },
+    {
+      "path": "animatic/render-v94.log",
+      "bytes": 290181,
+      "included": false
+    },
+    {
       "path": "animatic/review-v70.jpg",
       "bytes": 383304,
       "included": false
@@ -2447,6 +2874,18 @@
       "included": false
     },
     {
+      "path": "animatic/review-v92.py",
+      "bytes": 1117,
+      "included": true,
+      "snapshot_sha256": "b24c69c7fbd50243e85857d9f9f8ddb3f557dcd1827c3ddde727391cce768193"
+    },
+    {
+      "path": "animatic/review-v93.py",
+      "bytes": 1146,
+      "included": true,
+      "snapshot_sha256": "ce4c5f906c53205f8ca9459183e707072c3226315bcf4f4b9930f34ad4bb01bc"
+    },
+    {
       "path": "animatic/roughout-build.log",
       "bytes": 1216,
       "included": false
@@ -2496,6 +2935,18 @@
       "path": "animatic/scene-anchors-render.log",
       "bytes": 1177767,
       "included": false
+    },
+    {
+      "path": "animatic/scene12-storyboard-records.json",
+      "bytes": 631,
+      "included": true,
+      "snapshot_sha256": "c7e0468a6c58208586dd0b19c6dc17ec0f9d9d2c268ecd0e6f81f397b036a412"
+    },
+    {
+      "path": "animatic/scene13-storyboard-records.json",
+      "bytes": 590,
+      "included": true,
+      "snapshot_sha256": "23f56b15a489f8721fdcadb0d53ac288969ba90fc79635a721a1e379604d1e47"
     },
     {
       "path": "animatic/SCN-001-exterior-arrival-plan.md",
@@ -2855,6 +3306,49 @@
       "included": false
     },
     {
+      "path": "animatic/v84-check.jpg",
+      "bytes": 140003,
+      "included": false
+    },
+    {
+      "path": "animatic/v85-check.jpg",
+      "bytes": 103787,
+      "included": false
+    },
+    {
+      "path": "animatic/v86-check.jpg",
+      "bytes": 169793,
+      "included": false
+    },
+    {
+      "path": "animatic/v89-check.jpg",
+      "bytes": 146727,
+      "included": false
+    },
+    {
+      "path": "animatic/v92-text-strips.json",
+      "bytes": 77015,
+      "included": true,
+      "snapshot_sha256": "a87e822b0bfaa301bd88f836317cd013d4f8c37b5af20237d718f5cdd8da142a"
+    },
+    {
+      "path": "animatic/v93-removed-scene-markers.json",
+      "bytes": 10319,
+      "included": true,
+      "snapshot_sha256": "406788c7a6a947b1ad9414123329aa482605c8921b641f86953faf8ab170f046"
+    },
+    {
+      "path": "animatic/v94-credit-final-check.png",
+      "bytes": 1853189,
+      "included": false
+    },
+    {
+      "path": "animatic/v94-master-audit.json",
+      "bytes": 153646,
+      "included": true,
+      "snapshot_sha256": "742acaf67b0405e7ed46999fb2dd41962503aaf38f81e2d3bcab0e22c48f2b4d"
+    },
+    {
       "path": "animatic/validate-blend.py",
       "bytes": 1040,
       "included": true,
@@ -2929,6 +3423,96 @@
     {
       "path": "animatic/workbench-check/timing-overview.png",
       "bytes": 18831,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/candidate-2052.png",
+      "bytes": 4695532,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/candidate-2170.png",
+      "bytes": 3401094,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/candidate-2680.png",
+      "bytes": 4411108,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/candidate-2906.png",
+      "bytes": 4218851,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/candidate-3494.png",
+      "bytes": 3998366,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/candidate-3883.png",
+      "bytes": 4353574,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/candidate-4234.png",
+      "bytes": 4403016,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/candidate-4970.png",
+      "bytes": 4112605,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/candidates.jpg",
+      "bytes": 142434,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/MonstersUndone-thumbnail-lizard.jpg",
+      "bytes": 226161,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/MonstersUndone-thumbnail-lizard.mp4",
+      "bytes": 125106,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/MonstersUndone-thumbnail-lizard.png",
+      "bytes": 3190104,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/MonstersUndone-thumbnail-procession.jpg",
+      "bytes": 470416,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/MonstersUndone-thumbnail-procession.mp4",
+      "bytes": 271072,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/MonstersUndone-thumbnail-procession.png",
+      "bytes": 4184587,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/MonstersUndone-thumbnail-swamp.jpg",
+      "bytes": 520746,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/MonstersUndone-thumbnail-swamp.mp4",
+      "bytes": 308005,
+      "included": false
+    },
+    {
+      "path": "animatic/youtube-thumbnails/MonstersUndone-thumbnail-swamp.png",
+      "bytes": 4017957,
       "included": false
     },
     {
@@ -4760,6 +5344,101 @@
     {
       "path": "assets/SCN-011-SMOKE-B-v001.png",
       "bytes": 2719345,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-012-NO-v001.png",
+      "bytes": 2505934,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-012-PROCESSION-v001.png",
+      "bytes": 2919505,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-012-PROCESSION-v002.png",
+      "bytes": 2769996,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-012-VISITORS-v001.png",
+      "bytes": 2842332,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-012-YES-v001.png",
+      "bytes": 2851217,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-013-PROCESSION-v001.png",
+      "bytes": 3192528,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-014-APPRAISE-v001.png",
+      "bytes": 3043643,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-014-CEO-v001.png",
+      "bytes": 2639300,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-014-DISPLAY-v001.png",
+      "bytes": 2998558,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-014-HARPER-KID-v001.png",
+      "bytes": 2773921,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-014-INSPECTOR-v001.png",
+      "bytes": 3026182,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-014-PLAY-v001.png",
+      "bytes": 3039619,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-014-POLITICIAN-v001.png",
+      "bytes": 2633294,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-014-SCIENTISTS-v001.png",
+      "bytes": 3065687,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-014-swamp-arm-reference.jpg",
+      "bytes": 166698,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-014-SWAMP-MEETING-v002.png",
+      "bytes": 3111819,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-015-FINALE-v001.png",
+      "bytes": 3061939,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-015-FINALE-v002.png",
+      "bytes": 2940316,
+      "included": false
+    },
+    {
+      "path": "assets/SCN-015-SWAMP-COUSIN-reference-v001.png",
+      "bytes": 2924791,
       "included": false
     },
     {
@@ -9805,6 +10484,12 @@
       "bytes": 965,
       "included": true,
       "snapshot_sha256": "55e025ece1a843f67b56c3250ffa8012eeeceedbe775cda43e77e575c1a173ce"
+    },
+    {
+      "path": "motion-graphics/audit-outro-lights.py",
+      "bytes": 1592,
+      "included": true,
+      "snapshot_sha256": "af0d0011976ed924a82ac8d860e8955ddeebfcaaf38b8b0c4884c026e4cd500f"
     },
     {
       "path": "motion-graphics/BOLT-THOUGHT-001/Bolt-oh-my-v001.blend",
@@ -16368,6 +17053,12 @@
       "path": "motion-graphics/EARLY-BEACONS-001/STEALTH-POV-1.jpg",
       "bytes": 65079,
       "included": false
+    },
+    {
+      "path": "motion-graphics/finale-light-frames.py",
+      "bytes": 753,
+      "included": true,
+      "snapshot_sha256": "4901f7e637366309e31af63c74aaa10ebefefe0e2ed02f1ff78dc6ec1b3ac8f6"
     },
     {
       "path": "motion-graphics/FLIGHT-SNOW-001/build.py",
@@ -31603,6 +32294,512 @@
       "snapshot_sha256": "9618a65495188520b2399e75fa440e3a19eb963ef0a50127c83aaf7e90d1c34e"
     },
     {
+      "path": "motion-graphics/OUTRO-001/APPRAISE-review.jpg",
+      "bytes": 244758,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/APPRAISE-timed-v001.mp4",
+      "bytes": 2238016,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/assembled-review.jpg",
+      "bytes": 450010,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/CEO-review.jpg",
+      "bytes": 203443,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/CEO-timed-v001.mp4",
+      "bytes": 1746657,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/DISPLAY-review.jpg",
+      "bytes": 235654,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/DISPLAY-timed-v001.mp4",
+      "bytes": 1934661,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/FINALE-review.jpg",
+      "bytes": 226872,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/FINALE-timed-v001.mp4",
+      "bytes": 18232113,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/HARPER-KID-review.jpg",
+      "bytes": 231233,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/HARPER-KID-timed-v001.mp4",
+      "bytes": 8094019,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/INSPECTOR-review.jpg",
+      "bytes": 228990,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/INSPECTOR-timed-v001.mp4",
+      "bytes": 3998322,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/PLAY-review.jpg",
+      "bytes": 244200,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/PLAY-timed-v001.mp4",
+      "bytes": 4266020,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/POLITICIAN-review.jpg",
+      "bytes": 202196,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/POLITICIAN-timed-v001.mp4",
+      "bytes": 2129292,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/review.md",
+      "bytes": 1926,
+      "included": true,
+      "snapshot_sha256": "3b3f887c5cafc9931d6440bf3c5dfeaf6bd5713e5887def49d59bc415e83994a"
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/SCIENTISTS-review.jpg",
+      "bytes": 198731,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/SCIENTISTS-timed-v001.mp4",
+      "bytes": 1546875,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/selections.json",
+      "bytes": 8142,
+      "included": true,
+      "snapshot_sha256": "549babfeaadbaa3d9ae2ff90c2119929aeaddc2b8028846142c37e92c8e5a8b8"
+    },
+    {
+      "path": "motion-graphics/OUTRO-001/validation.json",
+      "bytes": 234,
+      "included": true,
+      "snapshot_sha256": "d33f3f56474d6793de8cd0ba1c596b55da42b86c152d2f2bb8bae2b7b0c6bde0"
+    },
+    {
+      "path": "motion-graphics/OUTRO-002/FINALE-review.jpg",
+      "bytes": 246048,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-002/FINALE-timed-v002.mp4",
+      "bytes": 31976838,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-002/selection.json",
+      "bytes": 439,
+      "included": true,
+      "snapshot_sha256": "bd224b63d268f764514e74c9ad1453d972d5c032f04438f67dc7a8068934bc15"
+    },
+    {
+      "path": "motion-graphics/OUTRO-003/FINALE-review.jpg",
+      "bytes": 220474,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-003/FINALE-timed-v003.mp4",
+      "bytes": 25230639,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-003/selection.json",
+      "bytes": 456,
+      "included": true,
+      "snapshot_sha256": "76cf13ef67930755c606dbf3cb824c45298cbfd3956b61754c307c5db3d1dba2"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/assembled-review-v93.jpg",
+      "bytes": 446770,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/finale-anchors.json",
+      "bytes": 2776,
+      "included": true,
+      "snapshot_sha256": "15423aa8a438e0c3110f942f8242a60b7ca7882193c46a5942b827e1e7bff4a2"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/finale-grid-0.jpg",
+      "bytes": 137252,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/finale-grid-170.jpg",
+      "bytes": 131175,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/finale-grid-255.jpg",
+      "bytes": 126503,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/finale-grid-339.jpg",
+      "bytes": 126727,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/finale-grid-85.jpg",
+      "bytes": 135255,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/finale-plain-0.png",
+      "bytes": 1000166,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/finale-plain-170.png",
+      "bytes": 1005918,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/finale-plain-255.png",
+      "bytes": 973964,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/finale-plain-339.png",
+      "bytes": 983734,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/finale-plain-85.png",
+      "bytes": 1019431,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/original-shots.json",
+      "bytes": 12797,
+      "included": true,
+      "snapshot_sha256": "ffdc7e25d74c7ca159a22eb0e7b0f7e7b0ac04a8a5f1cfb1b6c63e809872b608"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/review.md",
+      "bytes": 2297,
+      "included": true,
+      "snapshot_sha256": "f85e6d1c419edcfe92a746e859bd1ac6ee0229a03c3a96524ebdbe56f078f34f"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-012-ESCAPE-SHOW-audit.jpg",
+      "bytes": 105814,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-012-ESCAPE-SHOW-beacons-v001.mp4",
+      "bytes": 10120776,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-012-ESCAPE-SHOW-points.json",
+      "bytes": 334,
+      "included": true,
+      "snapshot_sha256": "b7c56b13e02cb17ecd2f85782212133a173cce557aa6881d2890a18f99435a04"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-012-ESCAPE-SHOW-review.jpg",
+      "bytes": 178234,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-012-ESCAPE-SHOW-tracks.json",
+      "bytes": 12673,
+      "included": true,
+      "snapshot_sha256": "64140f44ac561903f04d4b06c0e9bbd9ff16579f6c049c24d83df2364b73b91f"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-013-REMAINING-PROCESSION-audit.jpg",
+      "bytes": 121302,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-013-REMAINING-PROCESSION-points.json",
+      "bytes": 142,
+      "included": true,
+      "snapshot_sha256": "1678521f42134a3de73a87991c7e6099f24963af231188c784a81b88d3ff82d1"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-APPRAISE-audit.jpg",
+      "bytes": 121541,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-APPRAISE-points.json",
+      "bytes": 87,
+      "included": true,
+      "snapshot_sha256": "a4842fadc6cd82f87edecca768369ed1bb6f47b8a35bd26815281884a2fff830"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-BEYOND-FENCE-audit.jpg",
+      "bytes": 122776,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-BEYOND-FENCE-beacons-v001.mp4",
+      "bytes": 8622063,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-BEYOND-FENCE-points.json",
+      "bytes": 530,
+      "included": true,
+      "snapshot_sha256": "60f043cd663cefea1dec061275bbd07750c4df5fe99833ff7da8c06abb08b139"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-BEYOND-FENCE-review.jpg",
+      "bytes": 205669,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-BEYOND-FENCE-tracks.json",
+      "bytes": 21696,
+      "included": true,
+      "snapshot_sha256": "23a26a7da2819810eb02a13e78949a2d6170d5275c9eeaaae5a22286b98d89be"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-CEO-audit.jpg",
+      "bytes": 103047,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-CEO-beacons-v001.mp4",
+      "bytes": 1629752,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-CEO-points.json",
+      "bytes": 854,
+      "included": true,
+      "snapshot_sha256": "0d5d2d85f21fe04696df2929bf953a5beed7340a988eae7f568e27021f432b12"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-CEO-review.jpg",
+      "bytes": 171004,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-CEO-tracks.json",
+      "bytes": 2711,
+      "included": true,
+      "snapshot_sha256": "c2663033ca457df8c8a2e5cefa29a48363e15b87b4a65c9876a96e1b5c9835d8"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-DISPLAY-audit.jpg",
+      "bytes": 117407,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-DISPLAY-points.json",
+      "bytes": 29,
+      "included": true,
+      "snapshot_sha256": "b8adebe32746515bd8d51a2c098af127edb0d9d5ad536bd3db0a30cb5ac362dc"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-HARPER-KID-audit.jpg",
+      "bytes": 120483,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-HARPER-KID-beacons-v001.mp4",
+      "bytes": 7301076,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-HARPER-KID-points.json",
+      "bytes": 8894,
+      "included": true,
+      "snapshot_sha256": "8dd8ede93303546af5b7d391bf73b61ea90264cd853e81866ed26e374c868a62"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-HARPER-KID-review.jpg",
+      "bytes": 193623,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-HARPER-KID-tracks.json",
+      "bytes": 4208,
+      "included": true,
+      "snapshot_sha256": "82a341c4e8ae7ee88294442632ddd9e7b34d85eea66ea952ebfd17c7b9d93147"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-INSPECTOR-audit.jpg",
+      "bytes": 115428,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-INSPECTOR-beacons-v001.mp4",
+      "bytes": 3762255,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-INSPECTOR-points.json",
+      "bytes": 317,
+      "included": true,
+      "snapshot_sha256": "021f4a15c5080851e33cb7ab1d16c50977e512a9e81dfc05fdb1abd84cc33442"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-INSPECTOR-review.jpg",
+      "bytes": 192119,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-INSPECTOR-tracks.json",
+      "bytes": 3868,
+      "included": true,
+      "snapshot_sha256": "7f50e26aeaf668afab45a60f379ee544dd298927206d1429fd70c99736e70dfe"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-PLAY-audit.jpg",
+      "bytes": 120904,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-PLAY-beacons-v001.mp4",
+      "bytes": 3932776,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-PLAY-points.json",
+      "bytes": 180,
+      "included": true,
+      "snapshot_sha256": "b87ea35689a7e79a5061765d3343e37d5d1afc98cfc8c95d8fbd309d83567f0a"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-PLAY-review.jpg",
+      "bytes": 204732,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-PLAY-tracks.json",
+      "bytes": 5063,
+      "included": true,
+      "snapshot_sha256": "7502203a7034e63798d8ea5ed7f6aab7ba54a69a6cedf1ed1e5b269afc68812b"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-POLITICIAN-audit.jpg",
+      "bytes": 101579,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-POLITICIAN-points.json",
+      "bytes": 12,
+      "included": true,
+      "snapshot_sha256": "f865256c77f3fc9fb80d7c6a2cdc9716f594a132d8ed568eff51d23dc252eb20"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-SCIENTISTS-audit.jpg",
+      "bytes": 100530,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-014-SCIENTISTS-points.json",
+      "bytes": 65,
+      "included": true,
+      "snapshot_sha256": "866892e14fe9b8c63ab510da64ef084f09dac569e5c0b8d660ba3f76850340c9"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-015-FINALE-audit.jpg",
+      "bytes": 111934,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-015-FINALE-beacons-v001.mp4",
+      "bytes": 19418782,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-015-FINALE-points.json",
+      "bytes": 29,
+      "included": true,
+      "snapshot_sha256": "4bba5c86e49042f293ca3de7255778f86b59f647de79e78bc6ca674af02f2c46"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-015-FINALE-review.jpg",
+      "bytes": 182873,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-001/SCN-015-FINALE-tracks.json",
+      "bytes": 61668,
+      "included": true,
+      "snapshot_sha256": "9e3df8cd5f4a4658e7971eb87639ef7777710a5f4ce78b35ca67599a82d0368d"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-002/SCN-014-BEYOND-FENCE-beacons-v002.mp4",
+      "bytes": 8648798,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-002/SCN-014-BEYOND-FENCE-review.jpg",
+      "bytes": 206644,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-002/SCN-015-FINALE-beacons-v002.mp4",
+      "bytes": 19842488,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-002/SCN-015-FINALE-review.jpg",
+      "bytes": 183931,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-002/settings.json",
+      "bytes": 288,
+      "included": true,
+      "snapshot_sha256": "67dec33bfb80def158b593824a30c39800137d8f6fc2b7e6040de532a23b359d"
+    },
+    {
+      "path": "motion-graphics/OUTRO-LIGHTS-002/validation.json",
+      "bytes": 202,
+      "included": true,
+      "snapshot_sha256": "0e0dfee501f1ca397baa957e294185cfcc1bed95c0d90c1a1d53260d6ab33f93"
+    },
+    {
+      "path": "motion-graphics/outro-lights.py",
+      "bytes": 4355,
+      "included": true,
+      "snapshot_sha256": "d495bdeded275a5ed293897b162c85377e655720e38d9a9b78e7561d9ff6f4c5"
+    },
+    {
+      "path": "motion-graphics/outro-select.py",
+      "bytes": 2238,
+      "included": true,
+      "snapshot_sha256": "3bd7b339cc9728187b64312f429a68123b35e954f4f877cd110e7af3b3c777b0"
+    },
+    {
       "path": "motion-graphics/PORTRAIT-BEACONS-001/compose.py",
       "bytes": 589,
       "included": true,
@@ -31964,6 +33161,12 @@
       "path": "motion-graphics/PORTRAIT-BEACONS-001/review-pulses.jpg",
       "bytes": 36483,
       "included": false
+    },
+    {
+      "path": "motion-graphics/prepare-finale-lights.py",
+      "bytes": 1187,
+      "included": true,
+      "snapshot_sha256": "8a484b9c49691a2535fc03f4e21af43498aab625767b611add20d1c495e1b7b6"
     },
     {
       "path": "motion-graphics/RABBIT-BLUR-001/before-contact.jpg",
@@ -33593,6 +34796,12 @@
       "snapshot_sha256": "df38bd037fb161360075f1dfafed0a568faa771211c761151ed8b549614d2b56"
     },
     {
+      "path": "motion-graphics/refine-outro-lights.py",
+      "bytes": 3628,
+      "included": true,
+      "snapshot_sha256": "0c4f75bdd026e748cec2f223f4cac918dc93176242e11b97a3d98d9cb6944913"
+    },
+    {
       "path": "motion-graphics/ROPE-DEMO-LIGHTS-001/build.py",
       "bytes": 4522,
       "included": true,
@@ -34406,6 +35615,671 @@
       "bytes": 1607,
       "included": true,
       "snapshot_sha256": "3905fadcaea43bdc3cedcea2b5ae35a1c23692a6b979456d53a1f4f0326a90ca"
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0001.png",
+      "bytes": 237277,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0002.png",
+      "bytes": 237527,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0003.png",
+      "bytes": 237491,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0004.png",
+      "bytes": 237886,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0005.png",
+      "bytes": 237642,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0006.png",
+      "bytes": 237621,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0007.png",
+      "bytes": 238102,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0008.png",
+      "bytes": 240815,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0009.png",
+      "bytes": 243467,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0010.png",
+      "bytes": 246889,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0011.png",
+      "bytes": 249533,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0012.png",
+      "bytes": 251843,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0013.png",
+      "bytes": 252316,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0014.png",
+      "bytes": 252262,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0015.png",
+      "bytes": 252495,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0016.png",
+      "bytes": 251971,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0017.png",
+      "bytes": 252178,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0018.png",
+      "bytes": 252600,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0019.png",
+      "bytes": 252395,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0020.png",
+      "bytes": 252743,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0021.png",
+      "bytes": 252594,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0022.png",
+      "bytes": 252644,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0023.png",
+      "bytes": 253323,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0024.png",
+      "bytes": 254151,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0025.png",
+      "bytes": 252948,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0026.png",
+      "bytes": 253834,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0027.png",
+      "bytes": 253252,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0028.png",
+      "bytes": 253159,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0029.png",
+      "bytes": 252357,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0030.png",
+      "bytes": 252179,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0031.png",
+      "bytes": 252494,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0032.png",
+      "bytes": 252690,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0033.png",
+      "bytes": 252747,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0034.png",
+      "bytes": 252682,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0035.png",
+      "bytes": 252559,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0036.png",
+      "bytes": 252634,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0037.png",
+      "bytes": 252805,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0038.png",
+      "bytes": 252544,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0039.png",
+      "bytes": 252762,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0040.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0041.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0042.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0043.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0044.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0045.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0046.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0047.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0048.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0049.png",
+      "bytes": 233107,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0050.png",
+      "bytes": 232982,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0051.png",
+      "bytes": 232320,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0052.png",
+      "bytes": 232446,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0053.png",
+      "bytes": 232763,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0054.png",
+      "bytes": 232794,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0055.png",
+      "bytes": 232576,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0056.png",
+      "bytes": 232692,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0057.png",
+      "bytes": 232419,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0058.png",
+      "bytes": 232541,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0059.png",
+      "bytes": 233423,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0060.png",
+      "bytes": 234365,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0061.png",
+      "bytes": 239217,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0062.png",
+      "bytes": 244691,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0063.png",
+      "bytes": 250459,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0064.png",
+      "bytes": 252802,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0065.png",
+      "bytes": 252859,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0066.png",
+      "bytes": 253086,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0067.png",
+      "bytes": 253045,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0068.png",
+      "bytes": 253406,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0069.png",
+      "bytes": 251859,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0070.png",
+      "bytes": 253896,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0071.png",
+      "bytes": 252745,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0072.png",
+      "bytes": 253347,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0073.png",
+      "bytes": 253769,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0074.png",
+      "bytes": 253786,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0075.png",
+      "bytes": 252070,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0076.png",
+      "bytes": 253151,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0077.png",
+      "bytes": 253703,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0078.png",
+      "bytes": 253500,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0079.png",
+      "bytes": 253673,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0080.png",
+      "bytes": 253443,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0081.png",
+      "bytes": 253085,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0082.png",
+      "bytes": 253132,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0083.png",
+      "bytes": 253425,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0084.png",
+      "bytes": 253325,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0085.png",
+      "bytes": 253080,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0086.png",
+      "bytes": 253186,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0087.png",
+      "bytes": 253398,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0088.png",
+      "bytes": 252652,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0089.png",
+      "bytes": 252809,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0090.png",
+      "bytes": 253149,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0091.png",
+      "bytes": 252862,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0092.png",
+      "bytes": 253072,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0093.png",
+      "bytes": 252622,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0094.png",
+      "bytes": 253302,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0095.png",
+      "bytes": 253186,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0096.png",
+      "bytes": 253775,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0097.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0098.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0099.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0100.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0101.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0102.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0103.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0104.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0105.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0106.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0107.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles/bubble-0108.png",
+      "bytes": 197522,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/bubbles.log",
+      "bytes": 18595,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/build-bubbles.py",
+      "bytes": 5583,
+      "included": true,
+      "snapshot_sha256": "963e905ef2007aa5566a46cb7223e9811bcd6f651e307e36af2a8290a6224b43"
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/compose.py",
+      "bytes": 2242,
+      "included": true,
+      "snapshot_sha256": "5d4cd1e01d84f5b530c8e38417ef31d3e7f2d2c13ca48b59a09016cf8bbba37a"
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/Exchange-bubbles-v001.blend",
+      "bytes": 899471,
+      "included": true,
+      "snapshot_sha256": "2cad6c175df3d9aae857e8fcbb01fe1046d5b21f5cd3e5f052e3af662164e149"
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/Exchange-bubbles-v001.blend1",
+      "bytes": 905780,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/exchange-composite-v001.mp4",
+      "bytes": 2716473,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/no-composite.jpg",
+      "bytes": 95555,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/no-review.jpg",
+      "bytes": 150438,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/README.md",
+      "bytes": 1855,
+      "included": true,
+      "snapshot_sha256": "15d560966044822eae746c11f1cc5e0e0f330b2f847ad1124853178310e5c0c9"
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/review.py",
+      "bytes": 739,
+      "included": true,
+      "snapshot_sha256": "8430e30fe73e5fd4fb074d910349a99314c0265ff63b370bb5cad8b27a3c8c46"
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/selections.json",
+      "bytes": 413,
+      "included": true,
+      "snapshot_sha256": "92f3fd2a5f31d0680d609af7214fd1e39e1c0b8bce0c5c525e59c9ea635e9a81"
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/yes-composite.jpg",
+      "bytes": 106473,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-EXCHANGE-001/yes-review.jpg",
+      "bytes": 155369,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-PROCESSION-001/procession-timed-v001.mp4",
+      "bytes": 11002786,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-PROCESSION-001/README.md",
+      "bytes": 1951,
+      "included": true,
+      "snapshot_sha256": "33bd07f33764bee2613d9d6c9fa26f36adb320bc9dd4806cd2b6a60806920c98"
+    },
+    {
+      "path": "motion-graphics/SCENE12-PROCESSION-001/review.jpg",
+      "bytes": 202535,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE12-PROCESSION-001/selections.json",
+      "bytes": 484,
+      "included": true,
+      "snapshot_sha256": "2d841b039e146751bc0d25c473189c72a1d59bf04a606a79d051f55aef62b46b"
+    },
+    {
+      "path": "motion-graphics/SCENE13-PROCESSION-001/procession-timed-v001.mp4",
+      "bytes": 12319266,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE13-PROCESSION-001/review.jpg",
+      "bytes": 182702,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE13-PROCESSION-001/selections.json",
+      "bytes": 562,
+      "included": true,
+      "snapshot_sha256": "30bab4e2ce97db22f86fb275f9f77934c7cc5ccd29765ab6cc6eac72d40a2b50"
+    },
+    {
+      "path": "motion-graphics/SCENE14-MEETING-001/meeting-timed-v001.mp4",
+      "bytes": 9438060,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE14-MEETING-001/review.jpg",
+      "bytes": 219886,
+      "included": false
+    },
+    {
+      "path": "motion-graphics/SCENE14-MEETING-001/selections.json",
+      "bytes": 573,
+      "included": true,
+      "snapshot_sha256": "143ad5946b607aec5b4f2ec7ecf74f6140e33f5f26dde519f3b1ef8ca22c61ac"
     },
     {
       "path": "motion-graphics/SCENE9-PERFORMANCES-001/build.py",
@@ -40066,9 +41940,9 @@
     },
     {
       "path": "shots/SCN-006-kid-eyeroll.md",
-      "bytes": 1503,
+      "bytes": 1734,
       "included": true,
-      "snapshot_sha256": "c8c4238c1beecb5f3f9b71e3f4fc002f6c9d6d8c487835c8b08318c4e01464e7"
+      "snapshot_sha256": "ee23c1c2de30b75afe5100c45c93ca26b11f0f659826156cbdf9f83e2488b46c"
     },
     {
       "path": "shots/SCN-006-lasso-net.md",
@@ -40173,6 +42047,126 @@
       "snapshot_sha256": "8840920c7bbbfb5b0c32297ed382591843cfad3838e351a0a9aa804ffacb529f"
     },
     {
+      "path": "shots/SCN-012-no-way-yes-way-proposal.md",
+      "bytes": 3640,
+      "included": true,
+      "snapshot_sha256": "89bf5fa8971354abc4d35428939ead80bc683831081c79b1a0fabde16fab7eda"
+    },
+    {
+      "path": "shots/SCN-012-procession-and-visitors-proposal.md",
+      "bytes": 2843,
+      "included": true,
+      "snapshot_sha256": "644090974e4948da7e254805d02450dfd59c4bfb4985e6611024f7456036ebcb"
+    },
+    {
+      "path": "shots/SCN-012-procession-starting-prompts.json",
+      "bytes": 4922,
+      "included": true,
+      "snapshot_sha256": "a65d9256b1ab4afb8d722335ee979c2611cd551d90af01b83ccc6f479dd6ca13"
+    },
+    {
+      "path": "shots/SCN-013-procession-direction.md",
+      "bytes": 1820,
+      "included": true,
+      "snapshot_sha256": "9853fd257081cac50f4646ab20a5f4c8e52b3c2c6ac0ff91c16ce63f03125a4d"
+    },
+    {
+      "path": "shots/SCN-013-procession-prompt.txt",
+      "bytes": 2369,
+      "included": true,
+      "snapshot_sha256": "ea8fc2af93fc183d98106b0e75ca36d943116135323e2da0bb290470bbed98c3"
+    },
+    {
+      "path": "shots/SCN-014-015-outro-revision.md",
+      "bytes": 1597,
+      "included": true,
+      "snapshot_sha256": "377e2816631990f497a737132f288050267b86b524de31f0a89ce77b548dc262"
+    },
+    {
+      "path": "shots/SCN-014-015-production-plan.json",
+      "bytes": 14813,
+      "included": true,
+      "snapshot_sha256": "159036f4d06f3e8384404fc8c281c13a4490b3f435e7887a0d03e489668698f3"
+    },
+    {
+      "path": "shots/SCN-014-APPRAISE-v001-prompt.txt",
+      "bytes": 1107,
+      "included": true,
+      "snapshot_sha256": "8d9d9cae3c0e814e1a7b99e4df934f9c13ae2dddb54a97a1f739a001f44298bb"
+    },
+    {
+      "path": "shots/SCN-014-CEO-v001-prompt.txt",
+      "bytes": 1126,
+      "included": true,
+      "snapshot_sha256": "6118d68a809c0f566659c3b3cdc2561b1e40cf555b6baa04b45f0b36205565b3"
+    },
+    {
+      "path": "shots/SCN-014-DISPLAY-v001-prompt.txt",
+      "bytes": 1212,
+      "included": true,
+      "snapshot_sha256": "012bd9c0fbee614dd8f673e8c12b0755ac3bbe1584b337ce35d771ec57e63b42"
+    },
+    {
+      "path": "shots/SCN-014-HARPER-KID-v001-prompt.txt",
+      "bytes": 1838,
+      "included": true,
+      "snapshot_sha256": "7285a5130577b3619f7cee18ea38beef7e7553be0fb908dda02ac0900acadc18"
+    },
+    {
+      "path": "shots/SCN-014-INSPECTOR-v001-prompt.txt",
+      "bytes": 1305,
+      "included": true,
+      "snapshot_sha256": "4a77220a03d0d9ab71fa93298924cc5d2393ee75ad71037c16744716e9539c6a"
+    },
+    {
+      "path": "shots/SCN-014-PLAY-v001-prompt.txt",
+      "bytes": 1892,
+      "included": true,
+      "snapshot_sha256": "e040b1c9ecacf23a5c5dbe9ffe9a1fbcc44e8640ccaf711639f592696eed2862"
+    },
+    {
+      "path": "shots/SCN-014-POLITICIAN-v001-prompt.txt",
+      "bytes": 1304,
+      "included": true,
+      "snapshot_sha256": "169f8464a8a5591b9c2492c0db2567a2c842afd03610474405972c29e9cdc8ec"
+    },
+    {
+      "path": "shots/SCN-014-SCIENTISTS-v001-prompt.txt",
+      "bytes": 1835,
+      "included": true,
+      "snapshot_sha256": "4f0a1f22293fa410ee93526bb00e1076b81d2400a52fb549e4de2783f83d7875"
+    },
+    {
+      "path": "shots/SCN-014-swamp-meeting-direction.md",
+      "bytes": 995,
+      "included": true,
+      "snapshot_sha256": "3f42f15609ce618ab75b12fc7fde59badd287f7e9d3c9d659d57163ffe35233e"
+    },
+    {
+      "path": "shots/SCN-014-swamp-meeting-v002-prompt.txt",
+      "bytes": 2857,
+      "included": true,
+      "snapshot_sha256": "8656547833e0429d3f673f50580bcd4f9074a02bccb4794cf0430d432be047b2"
+    },
+    {
+      "path": "shots/SCN-015-FINALE-v001-prompt.txt",
+      "bytes": 1490,
+      "included": true,
+      "snapshot_sha256": "9525a5370cf8d7cf8d1cc964f8ebd414fafebbd23ec12935445b0327754fa821"
+    },
+    {
+      "path": "shots/SCN-015-FINALE-v002-prompt.txt",
+      "bytes": 1103,
+      "included": true,
+      "snapshot_sha256": "47c38d71090e1f86fc7f73222ac68d43dd0b4e90cb0acad1fde52a0f12e5c1e0"
+    },
+    {
+      "path": "shots/SCN-015-SWAMP-COUSIN-reference-v001-prompt.txt",
+      "bytes": 1025,
+      "included": true,
+      "snapshot_sha256": "93f968efec73c417474f678036735179ab9f48c38cf33daed1fc96a4dc419429"
+    },
+    {
       "path": "shots/shotlist-pre-countdown-v60.json",
       "bytes": 36398,
       "included": true,
@@ -40198,9 +42192,9 @@
     },
     {
       "path": "shots/shotlist.json",
-      "bytes": 52715,
+      "bytes": 73069,
       "included": true,
-      "snapshot_sha256": "75d692a30e1cfff0ae0bc5f97165431ecf6b8e83f7881cb6f4a22595fafe1444"
+      "snapshot_sha256": "12b86e971dd0455789940278e3290a9116c2ffd3db6fd8716a8000260fa31c2e"
     },
     {
       "path": "shots/ZONE8-GATE-SHAKE.md",
@@ -40513,6 +42507,18 @@
       "bytes": 1581,
       "included": true,
       "snapshot_sha256": "561bd1ff14afa3aa70fb1d3f050b2057af48d18130bef4f0c29e5b0938b23a07"
+    },
+    {
+      "path": "video-tests/finish-finale2.py",
+      "bytes": 1376,
+      "included": true,
+      "snapshot_sha256": "61186365dfd9ec3effa573284430348ac2434919d9eb9fb56047587dfb40b114"
+    },
+    {
+      "path": "video-tests/finish-finale3.py",
+      "bytes": 1404,
+      "included": true,
+      "snapshot_sha256": "6303b653296664c665f0bd8fe2eb388bef3c1d11a583e04d274acff0c4292e76"
     },
     {
       "path": "video-tests/FOOTAGE-TO-KEEP.md",
@@ -41552,6 +43558,12 @@
     },
     {
       "path": "video-tests/kling-models-current.json",
+      "bytes": 89530,
+      "included": true,
+      "snapshot_sha256": "2892f302efcc478757461cb5dfa1162b7434a0af0e5be3fa30c8861cc0f3236b"
+    },
+    {
+      "path": "video-tests/kling-models-scene12.json",
       "bytes": 89530,
       "included": true,
       "snapshot_sha256": "2892f302efcc478757461cb5dfa1162b7434a0af0e5be3fa30c8861cc0f3236b"
@@ -42808,6 +44820,548 @@
       "snapshot_sha256": "81bffd65168b0131555eddb2d165343c85b675535d3bff8fb512205ad2013989"
     },
     {
+      "path": "video-tests/KLING-SCENE12-NO-001/KLING-SCENE12-NO-001-01.mp4",
+      "bytes": 9316464,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-NO-001/request.json",
+      "bytes": 1836,
+      "included": true,
+      "snapshot_sha256": "1ee1947e14b425fdfed6cf888cfba4f5a6ad55f1fa866657cac1e6fd2cc4ff21"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-NO-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "31242382c1d6ed59031136a2f24b4405fcf445f5c47abce49275b19b9b209e27"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-NO-001/submission-retry-stderr.txt",
+      "bytes": 2260,
+      "included": true,
+      "snapshot_sha256": "3e797f562deb529c63c37dfec48f8dcda17793d631ca39ef55260f35372e2950"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-NO-001/submission-stderr.txt",
+      "bytes": 454,
+      "included": true,
+      "snapshot_sha256": "f88bddcc571979771f4dd9c68e466d008ec81a4c77cb9ace046f2fe1c88f0901"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-NO-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "d907819899691e862a51eedc62c59a58dd58d5361e236fba12ad89033f76ff81"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-PROCESSION-001/KLING-SCENE12-PROCESSION-001-01.mp4",
+      "bytes": 26776854,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-PROCESSION-001/request.json",
+      "bytes": 2990,
+      "included": true,
+      "snapshot_sha256": "a3538b0751eea359aea91b4cb73a2ceea55a719152b1e3331f52bbfd25418b74"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-PROCESSION-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "28dda48b53d0e54d8d4fca2655209e03a9db4601d93d0c9a8a96d3e905f4484c"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-PROCESSION-001/submission-stderr.txt",
+      "bytes": 3753,
+      "included": true,
+      "snapshot_sha256": "94f7273dca961a1ed66e9b070ac404f56cdd0d5d7317956a0e8ed3921475d386"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-PROCESSION-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "13046db91795c61838fc4a09fc86ff0cc9b1bd8fac4346aaac1591365c0cf9df"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-YES-001/KLING-SCENE12-YES-001-01.mp4",
+      "bytes": 10699628,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-YES-001/request.json",
+      "bytes": 1957,
+      "included": true,
+      "snapshot_sha256": "69108f3eb2d74448cd7793550c42cf78cedf17beba3d4ea69a34bed8b5abeeaa"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-YES-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "fd7736f5a297a5724c8ded7f846228c9f712b67f40bd1c18837cd2c3841b5f80"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-YES-001/submission-stderr.txt",
+      "bytes": 2385,
+      "included": true,
+      "snapshot_sha256": "26b956e3ce36fbd4b410867e022d86936d3af57f63dcebc88c26e6b6974af456"
+    },
+    {
+      "path": "video-tests/KLING-SCENE12-YES-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "720fe980ff16bc82cfd177ec0ab87a8e550eac4d1a0d99659bd1f907ae487c1d"
+    },
+    {
+      "path": "video-tests/KLING-SCENE13-PROCESSION-001/KLING-SCENE13-PROCESSION-001-01.mp4",
+      "bytes": 35544922,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE13-PROCESSION-001/request.json",
+      "bytes": 2937,
+      "included": true,
+      "snapshot_sha256": "7b7817ea14837d8dcf1d4b8c78b7ed0601a0417d67f7d6d1dd77026e84b668e0"
+    },
+    {
+      "path": "video-tests/KLING-SCENE13-PROCESSION-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "90f946906f91127b632d1af082b2432c63f90d118704d68c550b49f317f3d487"
+    },
+    {
+      "path": "video-tests/KLING-SCENE13-PROCESSION-001/submission-stderr.txt",
+      "bytes": 3700,
+      "included": true,
+      "snapshot_sha256": "aa6cfd8618ff4a5844341e2ea9f360b726084d5d3887d3a1ea2f076cb7eec96a"
+    },
+    {
+      "path": "video-tests/KLING-SCENE13-PROCESSION-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "2ac52cdfb5a83369bf4426617036b5fb0aabe7b199fae523389fb7020de6141e"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-APPRAISE-001/KLING-SCENE14-APPRAISE-001-01.mp4",
+      "bytes": 11611803,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-APPRAISE-001/probe.json",
+      "bytes": 1660,
+      "included": true,
+      "snapshot_sha256": "9bd31f15b2c75e68620194c51e49d9964f074c25c9c9d95ed6dfb88be01b1fc0"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-APPRAISE-001/request.json",
+      "bytes": 1318,
+      "included": true,
+      "snapshot_sha256": "0e67cf5f22e3a78029a90a608d70157124d36754be3c6d591e145b707f166fcd"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-APPRAISE-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "f40c043aebe7910ba6ec70038f2f96ba6e59cc31ec3dad120c6a8b8203f21cb3"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-APPRAISE-001/submission-stderr.txt",
+      "bytes": 2083,
+      "included": true,
+      "snapshot_sha256": "da235e1f7781f66f7533b635a643bb9bc3ed88602fda1ea2580521bdbdad9111"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-APPRAISE-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "5f9646341b341cac6246f94f434aaf700b56720bc80461021555b53ca237d6c0"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-CEO-001/KLING-SCENE14-CEO-001-01.mp4",
+      "bytes": 6259845,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-CEO-001/probe.json",
+      "bytes": 1660,
+      "included": true,
+      "snapshot_sha256": "465271758b79c662ecdeb73ff08c36653c45d95e9a5e042c3e302299c74729b0"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-CEO-001/request.json",
+      "bytes": 1433,
+      "included": true,
+      "snapshot_sha256": "f2139bac38742df0cbad5f2723886eea35814efa8095ddf288434a9607cd742d"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-CEO-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "82239b29eb2575d474d35e54217a8cd3ed9e5de5b794a3ebae7c2631c44974c5"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-CEO-001/submission-stderr.txt",
+      "bytes": 2186,
+      "included": true,
+      "snapshot_sha256": "8c65fe3713524492aa9219360ce63713460a7d98a121c8c7ae7e52c1127f3781"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-CEO-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "49fbae2db85c2be5f966015359c87c154e1bade0f053e440d10c9d11fdad26a9"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-DISPLAY-001/KLING-SCENE14-DISPLAY-001-01.mp4",
+      "bytes": 8155445,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-DISPLAY-001/probe.json",
+      "bytes": 1660,
+      "included": true,
+      "snapshot_sha256": "055288b7bbe07bde723623c730ee310d7be0de1035aacc78bf13eae3e897b409"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-DISPLAY-001/request.json",
+      "bytes": 1382,
+      "included": true,
+      "snapshot_sha256": "c34e43ce6f4f49886dc9939f1062aeec82e3c1a17a1ba51a939441ee5db9a5ad"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-DISPLAY-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "02099816a9d9c12b41e7a66e55692aba9a6f654a5b3ecc232623c4d98faa54f9"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-DISPLAY-001/submission-stderr.txt",
+      "bytes": 2145,
+      "included": true,
+      "snapshot_sha256": "963f23470dfb7384a8dd5ffdb44e949f4f64c1897e826c24f34c4c1b2ef9d35a"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-DISPLAY-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "4919808414cef4576890beca5d98817d2b11ef56101319ce3b83bcb58f78aae8"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-001/KLING-SCENE14-FINALE-001-01.mp4",
+      "bytes": 48831691,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-001/probe.json",
+      "bytes": 1663,
+      "included": true,
+      "snapshot_sha256": "a345c994ec091b4992dd25726e29ebe5356a5809294cf78899b13bd8e1c22a87"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-001/request.json",
+      "bytes": 2512,
+      "included": true,
+      "snapshot_sha256": "4752d3ca1d4e972f400f930cdb1c914d72b2260193175bc35687ed9e90635de0"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "03a7df879fb156cfb4646efcd430385d22b5adc3f827f264bdbe611726c04a27"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-001/submission-stderr.txt",
+      "bytes": 3272,
+      "included": true,
+      "snapshot_sha256": "07a00b812692a66828e580a10dc37b86749f58f63bfa95c4f04d13f6216cc60f"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-001/submission.json",
+      "bytes": 470,
+      "included": true,
+      "snapshot_sha256": "da8a601bbd91f40fd40a4d6dd7e1484910c70d1870f5ca2b23370258e76291f2"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-002/KLING-SCENE14-FINALE-002-01.mp4",
+      "bytes": 66108118,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-002/probe.json",
+      "bytes": 1663,
+      "included": true,
+      "snapshot_sha256": "396ecf9e20fa369afeefa4961308b189ff53f920c426a0fd34f38310740571e0"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-002/request.json",
+      "bytes": 3680,
+      "included": true,
+      "snapshot_sha256": "1cef289df82f39e0a012e8a60100c4f57d0cce8c9fbafa04c972ffd5672cada0"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-002/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "b5ee5662f5f9246d7037301de9adb257786057360dddf1be59fa6a7efa6aa602"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-002/review.json",
+      "bytes": 189,
+      "included": true,
+      "snapshot_sha256": "b1887e693f1449869504ed627c9765d2d48a36e5d35109e16560ae728e2c565c"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-002/submission-stderr.txt",
+      "bytes": 4218,
+      "included": true,
+      "snapshot_sha256": "f3443e615c9ca7275cd43d1fbd3bbac2881182ca30ed816a849a28f25803f0cc"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-002/submission.json",
+      "bytes": 470,
+      "included": true,
+      "snapshot_sha256": "a1de1eab7167c4bbbba45ef265eb258c7df4f5852c8488d744e3cd8ae7ea4497"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-003/KLING-SCENE14-FINALE-003-01.mp4",
+      "bytes": 71440361,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-003/probe.json",
+      "bytes": 1663,
+      "included": true,
+      "snapshot_sha256": "2334040ba2ab62ea97bcd84f497403fafeb7472569930cfef262b413a3525d66"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-003/request.json",
+      "bytes": 3451,
+      "included": true,
+      "snapshot_sha256": "fdce25825dea3030af3e09b138c07a41a1ded62452d093030acb3e8f4b5ffd15"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-003/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "3dd71f194f2745e7b024be3951344b41fc211d4a55dab5cc59c7cac50bdda2f9"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-003/submission-stderr.txt",
+      "bytes": 4024,
+      "included": true,
+      "snapshot_sha256": "138bc0a81c677e19b12590961552e81e85f7f50804e209c22dc5d6202e2ef5c8"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-FINALE-003/submission.json",
+      "bytes": 470,
+      "included": true,
+      "snapshot_sha256": "8e07ac74a0ec162c10fa6d699acc11b9f2be7b72481261c6f5eef40dc8814b48"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-HARPER-KID-001/KLING-SCENE14-HARPER-KID-001-01.mp4",
+      "bytes": 24146087,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-HARPER-KID-001/probe.json",
+      "bytes": 1661,
+      "included": true,
+      "snapshot_sha256": "3d5a3e9e1189b81325e283dad1dc44ab85c8f025f52ebaac4f71c5d935bb005f"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-HARPER-KID-001/request.json",
+      "bytes": 1784,
+      "included": true,
+      "snapshot_sha256": "dfc7a8ec24201e0304512edddb4e380f7e9041b70899879cf38bf6126878f35f"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-HARPER-KID-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "17a6d10206dd69b70cb96cde90098c08904870a00631f618cd39c2a82cf9e385"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-HARPER-KID-001/submission-stderr.txt",
+      "bytes": 2555,
+      "included": true,
+      "snapshot_sha256": "24f2d3e282fa2de8ca3a837a0bc038f01c9d30a1f5552942a031973d86186ca6"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-HARPER-KID-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "8b73ac4f743c2859fb5b579841610973cd7e6d07ea41c1429386410d2b8c72ae"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-INSPECTOR-001/KLING-SCENE14-INSPECTOR-001-01.mp4",
+      "bytes": 13056613,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-INSPECTOR-001/probe.json",
+      "bytes": 1661,
+      "included": true,
+      "snapshot_sha256": "ce1874848b30fa7785074672c41a22b8a36e89439c6fd8397102bf5236a15e7b"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-INSPECTOR-001/request.json",
+      "bytes": 1444,
+      "included": true,
+      "snapshot_sha256": "0124bdfc35c5cbc88e8c9afdaaa5ef067779b81e9a9c573a26be2cc3b66f420a"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-INSPECTOR-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "a404b3aa6f4b35a03bc8e2b86c8b729823b0192b4e0a47ce01765dfce052d3a3"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-INSPECTOR-001/submission-stderr.txt",
+      "bytes": 2213,
+      "included": true,
+      "snapshot_sha256": "e6c30e77f55394cc1f52cc97d5d8449a99da12545750df5b972001a480ccdcff"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-INSPECTOR-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "4bbc94df2d737d8722584b5aabe7afe6ad48827c5ee097c043e80dba0a08010f"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-MEETING-001/KLING-SCENE14-MEETING-001-01.mp4",
+      "bytes": 26537167,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-MEETING-001/request.json",
+      "bytes": 3266,
+      "included": true,
+      "snapshot_sha256": "26de910f3a1629e90ccc0331381e6db4abbc0be9a0fe7acecf312a29c626cefc"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-MEETING-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "5607605230477eb8818e614d87efca0d64b7cbacde4c2820a2304cf45426757b"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-MEETING-001/submission-stderr.txt",
+      "bytes": 4005,
+      "included": true,
+      "snapshot_sha256": "b0ea8bcd6aa96a14cdce3100cca12a3152aaaa0a28a539217d0a36a2950b387c"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-MEETING-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "8883ad2313593012b660cb16b76119faacf1a86791f3298d890cb78930bb0b6e"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-PLAY-001/KLING-SCENE14-PLAY-001-01.mp4",
+      "bytes": 14575224,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-PLAY-001/probe.json",
+      "bytes": 1661,
+      "included": true,
+      "snapshot_sha256": "caefe45818a9ee37e9bc834236695aab9a15fc89385f5466b0a4725fc58b1b98"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-PLAY-001/request.json",
+      "bytes": 1679,
+      "included": true,
+      "snapshot_sha256": "f3d775597dfd37511dc220c8de3fdf488ab52ad62840c365d43dfa706a18b0cb"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-PLAY-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "0c19ad676ddcae6af3601516bf5a344dd17a93870990145493f61206e08bd28f"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-PLAY-001/submission-stderr.txt",
+      "bytes": 2434,
+      "included": true,
+      "snapshot_sha256": "3294e01366ac3616a667417ed1c00c9a709c3e06017f5e58f5323cbbd2bc39a5"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-PLAY-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "3a2ff3fcfe99bad9bfdfbcf5c98f1a09a7d40e928fa0e6128f28d3f2a4a66c56"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-POLITICIAN-001/KLING-SCENE14-POLITICIAN-001-01.mp4",
+      "bytes": 7168525,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-POLITICIAN-001/probe.json",
+      "bytes": 1660,
+      "included": true,
+      "snapshot_sha256": "21aa5b2348409cfc5f59a6478b3e0e79572d229b8e0f9574b263c0dd711fb3a3"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-POLITICIAN-001/request.json",
+      "bytes": 1393,
+      "included": true,
+      "snapshot_sha256": "92c432de70fc5a6d60cb9792c251afd7017d4c06f9a3f2be35a3599cf829295a"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-POLITICIAN-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "f66a7df915bde95bd36e2e7d833835f55d084d2a3af12a6c24f2b64685b2cae5"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-POLITICIAN-001/submission-stderr.txt",
+      "bytes": 2164,
+      "included": true,
+      "snapshot_sha256": "b95e341a31ee7211dd20f98a6fa5d88f124532cdcc82ffe4ada96e11d717c874"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-POLITICIAN-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "be78bca2b3238f96d33da437648d3811efdfc3b12972572db185325aa42bf7ff"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-SCIENTISTS-001/KLING-SCENE14-SCIENTISTS-001-01.mp4",
+      "bytes": 6219473,
+      "included": false
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-SCIENTISTS-001/probe.json",
+      "bytes": 1660,
+      "included": true,
+      "snapshot_sha256": "2086b0248b5bdcc8f4ba0f14cd13eb4058836b4976171fe6a07550115e1e4a62"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-SCIENTISTS-001/request.json",
+      "bytes": 1487,
+      "included": true,
+      "snapshot_sha256": "5121867006c141a943df750000137a48cc7567d326a49e33af4ff1c6250f94b1"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-SCIENTISTS-001/result.json",
+      "bytes": 2025,
+      "included": true,
+      "snapshot_sha256": "6190e476712046ed33b3de6ada760a7725ecc11fc5b4e10b621f84ff9dd42246"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-SCIENTISTS-001/submission-stderr.txt",
+      "bytes": 2258,
+      "included": true,
+      "snapshot_sha256": "9f98a664480d5fb3f4e0d22b769574c4807058422d2e7ceb9798efd3d0000579"
+    },
+    {
+      "path": "video-tests/KLING-SCENE14-SCIENTISTS-001/submission.json",
+      "bytes": 468,
+      "included": true,
+      "snapshot_sha256": "0d9d0d5b3d3cd12b7a4eafa3a2ddd2df08ccd96c6fc5e2e63957f151f3918984"
+    },
+    {
       "path": "video-tests/KLING-SCENE9-DISCUSSION-001/KLING-SCENE9-DISCUSSION-001-01.mp4",
       "bytes": 11099694,
       "included": false
@@ -43955,10 +46509,40 @@
       "snapshot_sha256": "cb03458aa8f5257360c5b4287d699d2ebc311feff779c8673ef65bd7a429789c"
     },
     {
+      "path": "video-tests/prepare-finale2.py",
+      "bytes": 3444,
+      "included": true,
+      "snapshot_sha256": "32cd35a25119d9cd90ea4cb33c7e1fdbd96f0cce44d013fa10031e0f35ba9cf9"
+    },
+    {
+      "path": "video-tests/prepare-finale3.py",
+      "bytes": 3743,
+      "included": true,
+      "snapshot_sha256": "adf01d08d6bf943e1f150455e68581ae0f9d7e14b28ad93d69e6b50e34956376"
+    },
+    {
+      "path": "video-tests/prepare-outro.py",
+      "bytes": 8687,
+      "included": true,
+      "snapshot_sha256": "c55805d9543d5c9857641e49ffec70eed52d8d0f5773a05a7194dd6b08bf3ef9"
+    },
+    {
       "path": "video-tests/review-countdown.py",
       "bytes": 662,
       "included": true,
       "snapshot_sha256": "7fd4d1c8a224084beece3d1b95d056cec7f847520aab7d834ddc1153dce21489"
+    },
+    {
+      "path": "video-tests/review-finale2.py",
+      "bytes": 1477,
+      "included": true,
+      "snapshot_sha256": "3f2df254613db99c79f08fd47eca8ad7b6ae551a5e0ccfba0488a6bb7004b5dc"
+    },
+    {
+      "path": "video-tests/review-finale3.py",
+      "bytes": 1477,
+      "included": true,
+      "snapshot_sha256": "1b772019895772ccd68c5f4f0a2c8aa7d5a4c928857f6fd236a10851092ffb8a"
     },
     {
       "path": "video-tests/review-hunt.py",
@@ -43979,10 +46563,22 @@
       "snapshot_sha256": "bbd57c3b738294066daeba91b940345112c31989d469af746a8df1fdead35e72"
     },
     {
+      "path": "video-tests/review-outro.py",
+      "bytes": 1453,
+      "included": true,
+      "snapshot_sha256": "25649312ad3b07c1e52609b4db66ca57697ebf2c60c6cdc700532ea0ad438031"
+    },
+    {
       "path": "video-tests/review-portrait-takes.py",
       "bytes": 667,
       "included": true,
       "snapshot_sha256": "b0b1430376266ecb78c1293c36cf7ce2be0f7c3f9599315b5e750518b3718392"
+    },
+    {
+      "path": "video-tests/review-procession.py",
+      "bytes": 678,
+      "included": true,
+      "snapshot_sha256": "7a5aaac42d145333acd02c7ee041045b8245dcb7d1e193f5b52f5038f64df598"
     },
     {
       "path": "video-tests/review-scene10.py",
@@ -44003,6 +46599,18 @@
       "snapshot_sha256": "bddf4249d6410fec510ebcbfc367d04a7cedff17bd29171b7acd96caa93a465c"
     },
     {
+      "path": "video-tests/review-scene13.py",
+      "bytes": 680,
+      "included": true,
+      "snapshot_sha256": "1fc97e143e96a9e9598d81d508d845c4b859e72b4eda2537a5c86805aa50c28e"
+    },
+    {
+      "path": "video-tests/review-scene14.py",
+      "bytes": 669,
+      "included": true,
+      "snapshot_sha256": "085c7aec6a80a44397c984c08e00a540683c74151bbdfb932a20215f07ba4b34"
+    },
+    {
       "path": "video-tests/review-scene9-002.py",
       "bytes": 671,
       "included": true,
@@ -44019,6 +46627,18 @@
       "bytes": 1898,
       "included": true,
       "snapshot_sha256": "d8576153456ea7cded0a942bccc01e4b80be226e8add45b14dec4db486904332"
+    },
+    {
+      "path": "video-tests/run-finale2.py",
+      "bytes": 1931,
+      "included": true,
+      "snapshot_sha256": "34491a47c66b5631bbbc91f791f421133c970f2ba8c6ceb84b30923e96f70a89"
+    },
+    {
+      "path": "video-tests/run-finale3.py",
+      "bytes": 1931,
+      "included": true,
+      "snapshot_sha256": "c469fdc84c0f36df94d67cdd81f021744b204cd8dff81844d3b85fa7d95b9d6d"
     },
     {
       "path": "video-tests/run-hunt-a.py",
@@ -44309,6 +46929,24 @@
       "snapshot_sha256": "e1f05b501fec2be9355a7467d05835e5192ea90e44ca1cd6c043a6dc37c73652"
     },
     {
+      "path": "video-tests/run-scene12.py",
+      "bytes": 1931,
+      "included": true,
+      "snapshot_sha256": "38e88c5c0067570e5a154d115b687fc80ed2587b35049f712582ee4d285bcb10"
+    },
+    {
+      "path": "video-tests/run-scene13.py",
+      "bytes": 1931,
+      "included": true,
+      "snapshot_sha256": "05e3e80a4ced15f5b6dcfde52eebf08ff144a0ac1016fcd2623163bcbc028524"
+    },
+    {
+      "path": "video-tests/run-scene14.py",
+      "bytes": 1931,
+      "included": true,
+      "snapshot_sha256": "ef1985e094e8e9ba8137cf2794fd6772b0b50259a7e880de11d3ecc8319b0ffe"
+    },
+    {
       "path": "video-tests/run-scene9-002.py",
       "bytes": 1930,
       "included": true,
@@ -44331,6 +46969,12 @@
       "bytes": 2611,
       "included": true,
       "snapshot_sha256": "61cd856f4153ae78d073320509212744719d49d755e756361c06d7872ab65daa"
+    },
+    {
+      "path": "video-tests/swamp-cousin-element.json",
+      "bytes": 114,
+      "included": true,
+      "snapshot_sha256": "f4e119af7cdc6d07ce1c55d917c6b1d0e04f0cc49c5eef4bfa0455b5ef07dd65"
     },
     {
       "path": "video-tests/VEO-TEST-001/prompt.txt",

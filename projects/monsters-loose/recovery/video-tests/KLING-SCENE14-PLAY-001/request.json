@@ -1,0 +1,22 @@
+{
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-014-PLAY-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "6",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "STYLE AND CONTINUITY LOCK: Preserve the supplied illustration identities, proportions, clothing, coherent anatomy, ink outlines, fine crosshatching, stable paper texture, teal night and amber highlights throughout. One continuous shot, no cuts, no morphing, no new text or speech bubbles, no lip-sync or audible dialogue. Keep all established subjects recognizable and in frame. No humans transform into monsters. Motion is natural within the illustrated world.\nFirst half-second quiet lead-in. These exact two swamp reptiles cautiously play-test each other. During 0.5 to 1.7 seconds the green orange-spined boss leans its snout toward the mossy cousin across the gap. During 1.7 to 2.6 the cousin makes one brief feint forward WITHOUT touching or biting, boss immediately draws his head back and shifts weight. During 2.6 to 4.3 both soften and lean cautiously back toward each other, heads tilted, a readable near miss and renewed curiosity. Final seconds gentle breathing and water ripples. Preserve who is where, log/reeds and coherent limbs. No injury, collision, tongues, kissing, grappling, second creature morph or violent fight. Locked camera."
+  ],
+  "expected_credits": 48,
+  "purpose": "User-approved reprise/outro plan, 12-frame lead-in and best-part selection."
+}

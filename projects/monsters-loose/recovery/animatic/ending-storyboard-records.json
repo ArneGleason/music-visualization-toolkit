@@ -1,0 +1,42 @@
+[
+  {
+    "id": "SCN-014-BEYOND-FENCE",
+    "start_frame": 4242,
+    "end_frame_exclusive": 4414,
+    "source": "assets/ANCH-014-A-v001.png",
+    "source_in_frame": 0,
+    "media_type": "image",
+    "status": "storyboard_for_review",
+    "note": "ANCH-014-A / Waiting beyond the fence"
+  },
+  {
+    "id": "SCN-014-FINAL-ESCAPE",
+    "start_frame": 4414,
+    "end_frame_exclusive": 4951,
+    "source": "assets/ANCH-014-B-v001.png",
+    "source_in_frame": 0,
+    "media_type": "image",
+    "status": "storyboard_for_review",
+    "note": "ANCH-014-B / Even Harper cannot catch them all"
+  },
+  {
+    "id": "SCN-015-FREE",
+    "start_frame": 4951,
+    "end_frame_exclusive": 5121,
+    "source": "assets/ANCH-015-A-v001.png",
+    "source_in_frame": 0,
+    "media_type": "image",
+    "status": "storyboard_for_review",
+    "note": "ANCH-015-A / Free to be themselves"
+  },
+  {
+    "id": "SCN-015-WORLD",
+    "start_frame": 5121,
+    "end_frame_exclusive": 5291,
+    "source": "assets/ANCH-015-B-v001.png",
+    "source_in_frame": 0,
+    "media_type": "image",
+    "status": "storyboard_for_review",
+    "note": "ANCH-015-B / A world beyond the zoo"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-015-FINALE-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "15",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "--elements",
+    "[{\"id\": \"321929464307636\", \"bindName\": \"MossySwampCousin\"}]",
+    "STYLE AND CONTINUITY LOCK: Preserve the supplied illustration identities, proportions, clothing, coherent anatomy, ink outlines, fine crosshatching, stable paper texture, teal night and amber highlights throughout. One continuous shot, no cuts, no morphing, no new text or speech bubbles, no lip-sync or audible dialogue. Keep all established subjects recognizable and in frame. No humans transform into monsters. Motion is natural within the illustrated world.\nFifteen seconds, one uninterrupted final shot. The starting frame is the composition only. The creature that later rises from water MUST be the established moss-covered swamp cousin <<<321929464307636>>> from the character Element. Match its broad blunt amphibian-reptile face, very large amber eyes, wide horizontal mouth, SHORT natural neck, moss-draped hunched back, olive mottled bumpy skin, slender long-fingered forearms. Exact detailed black ink hatching and textured illustration style. This is the same swamp cousin from the earlier meeting, NOT a new animal. Absolutely no long-necked water serpent, dinosaur neck, plesiosaur, smooth cartoon mascot, plastic or simplified rounded rendering.\nFirst 0.5seconds quiet lead-in. Green orange-spined boss rests draped over fallen log LEFT, small bronze insect perched RIGHT foreground. 0.5-3seconds: boss breathes and settles one foreclaw, quietly satisfied. 3-5seconds: ripples form in open water RIGHT behind the insect, boss notices and begins turning head toward them. 5-8seconds: the moss-covered swamp cousin <<<321929464307636>>> slowly rises from the water in the RIGHT MIDGROUND, broad head and wet mossy shoulders emerging together, short neck, waterline at chest. Its moss hangs wet and dripping. One slender long-fingered hand briefly breaks water beside its chest, making small rings. Keep the cousin separate from boss tail and insect, similar detailed ink treatment, not cute. 8-11seconds: cousin looks toward boss with quiet recognition and blinks, remains half-submerged. Boss looks back at it calmly, then relaxes against log, contented. 11-15seconds: peaceful breathing, antenna movements, small water ripples and soft moss movement. No other new creatures or interaction requiring contact.\nCAMERA: Very gradual, clearly visible crane UP and BACK from about1second through the end, increasing elevation enough to see more swamp water and surrounding habitat, around25-30percent wider by end. Smooth gentle cinematic retreat, no sudden zoom, no whip, no cut. Keep boss clearly readable in lower left, cousin midground right and small insect at right. Preserve distant facility geometry. Red warning beacons remain on their original towers; local blinking will be handled in post, do not invent extra lights or change architecture. Do not force a final still pose. No dialogue, captions or audio."
+  ],
+  "expected_credits": 120,
+  "purpose": "User requests established mossy swamp cousin replacing style-mismatched aquatic creature, and stronger gentle crane up/back.",
+  "pre_roll_frames": 12,
+  "post_roll_frames": 8,
+  "master_start": 4951,
+  "master_end_exclusive": 5291,
+  "reference": "assets/SCN-015-SWAMP-COUSIN-reference-v001.png"
+}

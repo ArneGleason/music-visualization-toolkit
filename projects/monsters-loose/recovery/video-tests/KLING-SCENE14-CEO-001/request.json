@@ -1,0 +1,22 @@
+{
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-014-CEO-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "4",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "STYLE AND CONTINUITY LOCK: Preserve the supplied illustration identities, proportions, clothing, coherent anatomy, ink outlines, fine crosshatching, stable paper texture, teal night and amber highlights throughout. One continuous shot, no cuts, no morphing, no new text or speech bubbles, no lip-sync or audible dialogue. Keep all established subjects recognizable and in frame. No humans transform into monsters. Motion is natural within the illustrated world.\nAfter 0.5 seconds of quiet breathing, the woman studies an impressive creature offscreen RIGHT. Her gaze briefly travels from its height down to its body and back, one eyebrow lifts slightly, then her chin rises a little in cool calculating approval. Keep expression controlled, lips closed, portfolio steady; no laughter, talking, giant grin or grand gesture. Readable appraisal during seconds 0.5 to 2.5, then hold with breathing. Fixed camera."
+  ],
+  "expected_credits": 32,
+  "purpose": "User-approved reprise/outro plan, 12-frame lead-in and best-part selection."
+}

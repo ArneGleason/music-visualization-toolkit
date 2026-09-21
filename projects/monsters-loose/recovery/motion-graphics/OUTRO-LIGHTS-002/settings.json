@@ -1,0 +1,7 @@
+{
+  "finale_radius_scale": 0.3333333333333333,
+  "finale_intensity": 0.7,
+  "swamp_entry_radius_scale": 0.75,
+  "swamp_entry_intensity": 0.9,
+  "method": "Suppress original baked bloom at previous radius before adding tighter core and halo; retain tracked29frame blink cadence."
+}

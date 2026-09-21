@@ -9,3 +9,6 @@ The kid reaction is usable in part, but the eyes do not visibly roll and the sho
 
 ## September20 direction
 Retain this reaction as a placeholder without revising it now; proceed to the next shot after review.
+
+## September20 resumed production
+Keep the nice-looking existing take as a placeholder. Eye-roll action remains earmarked for the later fixes pass; flesh out all remaining scenes before spending remaining credits on revisions.

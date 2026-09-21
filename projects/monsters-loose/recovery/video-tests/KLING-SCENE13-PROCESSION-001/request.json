@@ -1,0 +1,22 @@
+{
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-013-PROCESSION-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "7",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous SEVEN SECOND vintage comic shot from the exact supplied starting image. Preserve all three distinct creature identities and the zoo corridor geography. No additional creatures, no humans, no cuts. A very gentle camera crane UP, rising only about one meter over seven seconds with a slight downward tilt to reveal the line of marching creatures. No fast pullback, orbit, sideways angle change or dramatic zoom. Keep faces large and readable and the sign visible on the LEFT.\nThe squat armored reptilian PIG-BEAST leads, walking forward down the corridor toward lower-right foreground at an unhurried steady pace with short heavy alternating steps. Preserve its pig snout, tan curled horns, brown eyes, knobbly olive scales, stout clawed legs and short dorsal spines. It travels only about one body length so its face stays visible until near the end. No transformation into a dinosaur, boar mammal or different animal.\nThe translucent lavender ONE-EYED LAND OCTOPUS follows with clear separation, using alternating planted tentacles to pull its body forward along the paving. Exactly one large amber eye, softly glowing internal amber and turquoise organoids, coherent soft body. Its head stays upright and expressive. No extra eyes, wings, floating or turning into smoke.\nThe long flexible-neck SABER-TOOTHED PLESIOSAUR BAT follows ABOVE the line and must visibly flap BOTH wings rhythmically throughout the entire shot, with natural upstroke/downstroke and a subtle body bob supporting flight. Preserve huge pointed ears, glowing eyes, two long saber teeth and dark patterned furry neck. Continuous powered flight, never statically hanging in air or perched. Give wings room; no collisions with Cyclops, mesh or lamps. All three progress the same way toward the camera and exit offscreen lower-right, remaining spaced in single file.\nThe foreground sign is rigid architecture: preserve exact words JUNGLE, DESERT, AIR, COLD, UNUSUAL and existing five icons including single-eyed octopus. No texture crawl or changing lettering. Lamps and enclosures remain stable; red beacons may pulse subtly. Rich black crosshatched ink, amber practical lighting and dark teal night. No captions, speech bubbles, new logos, music or audio. Smooth legible motion, no morphing, limbs merging or sudden acceleration. Main action maintained throughout so editor can select five continuous seconds."
+  ],
+  "expected_credits": 56,
+  "purpose": "Approved Scene13 starting frame; gentle crane and coherent three-creature procession."
+}

@@ -1,0 +1,354 @@
+{
+  "removed": [
+    {
+      "name": "01 / A STRANGE PLACE",
+      "text": "01 / A STRANGE PLACE",
+      "start": 1,
+      "end": 207
+    },
+    {
+      "name": "01 / A STRANGE PLACE narrative 0 0",
+      "text": "Visitors approach the remote swamp zoo by helicopter.",
+      "start": 1,
+      "end": 207
+    },
+    {
+      "name": "01 / A STRANGE PLACE narrative 0 1",
+      "text": "A gentle landing brings them to the laboratory compound.",
+      "start": 1,
+      "end": 207
+    },
+    {
+      "name": "02 / THE KEEPER ON DUTY",
+      "text": "02 / THE KEEPER ON DUTY",
+      "start": 207,
+      "end": 504
+    },
+    {
+      "name": "02 / THE KEEPER ON DUTY narrative 0 0",
+      "text": "Harper discovers the loose bolt while something slips away under cover.",
+      "start": 207,
+      "end": 292
+    },
+    {
+      "name": "02 / THE KEEPER ON DUTY narrative 0 1",
+      "text": "An unseen viewpoint moves through the foliage farther along the concourse.",
+      "start": 207,
+      "end": 292
+    },
+    {
+      "name": "02 / THE KEEPER ON DUTY narrative 1 0",
+      "text": "Harper discovers the loose bolt while something slips away under cover.",
+      "start": 292,
+      "end": 504
+    },
+    {
+      "name": "02 / THE KEEPER ON DUTY narrative 1 1",
+      "text": "An unseen viewpoint moves through the foliage farther along the concourse.",
+      "start": 292,
+      "end": 504
+    },
+    {
+      "name": "03 / A PLACE BUILT FOR MONSTERS",
+      "text": "03 / A PLACE BUILT FOR MONSTERS",
+      "start": 504,
+      "end": 1033
+    },
+    {
+      "name": "03 / A PLACE BUILT FOR MONSTERS narrative 0 0",
+      "text": "MUCF tour, Arctic patrol, and an interrupted warning.",
+      "start": 504,
+      "end": 627
+    },
+    {
+      "name": "03 / A PLACE BUILT FOR MONSTERS narrative 0 1",
+      "text": "Three creatures stir; a distant steel gate rattles to the guitar impacts.",
+      "start": 504,
+      "end": 627
+    },
+    {
+      "name": "03 / A PLACE BUILT FOR MONSTERS narrative 1 0",
+      "text": "Her equipment hints at a special restraining lasso.",
+      "start": 627,
+      "end": 874
+    },
+    {
+      "name": "03 / A PLACE BUILT FOR MONSTERS narrative 1 1",
+      "text": "A garbled PA announcement warns that something is wrong.",
+      "start": 627,
+      "end": 874
+    },
+    {
+      "name": "03 / A PLACE BUILT FOR MONSTERS narrative 2 0",
+      "text": "Explore the zoo's different habitats and small enclosures.",
+      "start": 874,
+      "end": 1033
+    },
+    {
+      "name": "03 / A PLACE BUILT FOR MONSTERS narrative 2 1",
+      "text": "Building cage-rattles suggest something much larger inside.",
+      "start": 874,
+      "end": 1033
+    },
+    {
+      "name": "04 / DANGEROUS AMBITION",
+      "text": "04 / DANGEROUS AMBITION",
+      "start": 1033,
+      "end": 1305
+    },
+    {
+      "name": "04 / DANGEROUS AMBITION narrative 0 0",
+      "text": "Meet the laboratory team and its reckless scientist.",
+      "start": 1033,
+      "end": 1162
+    },
+    {
+      "name": "04 / DANGEROUS AMBITION narrative 0 1",
+      "text": "A town left burning recalls what their last creation could do.",
+      "start": 1033,
+      "end": 1162
+    },
+    {
+      "name": "04 / DANGEROUS AMBITION narrative 1 0",
+      "text": "The scientist proposes something even bigger and meaner.",
+      "start": 1162,
+      "end": 1305
+    },
+    {
+      "name": "04 / DANGEROUS AMBITION narrative 1 1",
+      "text": "Harper follows the gate upward, revealing its monumental height.",
+      "start": 1162,
+      "end": 1305
+    },
+    {
+      "name": "05 / TROUBLE BREWING",
+      "text": "05 / BACK AT THE MUCF",
+      "start": 1305,
+      "end": 1507
+    },
+    {
+      "name": "05 / TROUBLE BREWING narrative 0 0",
+      "text": "A peaceful swamp outside the facility.",
+      "start": 1305,
+      "end": 1507
+    },
+    {
+      "name": "05 / TROUBLE BREWING narrative 0 1",
+      "text": "A mossy hand snatches the startled frog beneath the water.",
+      "start": 1305,
+      "end": 1507
+    },
+    {
+      "name": "06 / THE VISITORS' TOUR",
+      "text": "06 / THE VISITORS' TOUR",
+      "start": 1507,
+      "end": 1625
+    },
+    {
+      "name": "06 / THE VISITORS' TOUR narrative 0 0",
+      "text": "Harper leads the visitors past the occupied enclosures.",
+      "start": 1507,
+      "end": 1625
+    },
+    {
+      "name": "06 / THE VISITORS' TOUR narrative 0 1",
+      "text": "Then: an enormous sea creature, safely behind aquarium glass.",
+      "start": 1507,
+      "end": 1625
+    },
+    {
+      "name": "06 / THE VISITORS' TOUR narrative 1 0",
+      "text": "A simple keeper tool: rope, ready for the job.",
+      "start": 1708,
+      "end": 1768
+    },
+    {
+      "name": "06 / THE VISITORS' TOUR narrative 1 1",
+      "text": "Candidate keeper / facility beacon pass",
+      "start": 1708,
+      "end": 1768
+    },
+    {
+      "name": "07 / CHOOSE YOUR CREATURE",
+      "text": "07 / CHOOSE YOUR CREATURE",
+      "start": 2036,
+      "end": 2510
+    },
+    {
+      "name": "07 / CHOOSE YOUR CREATURE narrative 0 0",
+      "text": "Reveal the variety: jungle, desert, lake, ice and alien habitats.",
+      "start": 2036,
+      "end": 2170
+    },
+    {
+      "name": "07 / CHOOSE YOUR CREATURE narrative 0 1",
+      "text": "Save the creatures of the surrounding swamp for later.",
+      "start": 2036,
+      "end": 2170
+    },
+    {
+      "name": "07 / CHOOSE YOUR CREATURE narrative 1 0",
+      "text": "Imagine the monsters in the wild, where they were captured.",
+      "start": 2170,
+      "end": 2510
+    },
+    {
+      "name": "07 / CHOOSE YOUR CREATURE narrative 1 1",
+      "text": "Their version of hide-and-seek is really hunting.",
+      "start": 2170,
+      "end": 2510
+    },
+    {
+      "name": "08 / THE MONSTER SHOWDOWN",
+      "text": "08 / THE MONSTER SHOWDOWN",
+      "start": 2510,
+      "end": 2906
+    },
+    {
+      "name": "08 / THE MONSTER SHOWDOWN narrative 0 0",
+      "text": "A countdown gathers monsters into a showdown.",
+      "start": 2510,
+      "end": 2629
+    },
+    {
+      "name": "08 / THE MONSTER SHOWDOWN narrative 0 1",
+      "text": "Wilderness battle ladder: green reptile versus Arctic finalist",
+      "start": 2510,
+      "end": 2629
+    },
+    {
+      "name": "08 / THE MONSTER SHOWDOWN narrative 1 0",
+      "text": "Wilderness battle ladder: green reptile versus Arctic finalist",
+      "start": 2629,
+      "end": 2727
+    },
+    {
+      "name": "08 / THE MONSTER SHOWDOWN narrative 1 1",
+      "text": "Wilderness battle ladder: green reptile versus Arctic finalist",
+      "start": 2629,
+      "end": 2727
+    },
+    {
+      "name": "08 / THE MONSTER SHOWDOWN narrative 2 0",
+      "text": "One kick launches the Arctic beast toward its home mountains",
+      "start": 2727,
+      "end": 2906
+    },
+    {
+      "name": "08 / THE MONSTER SHOWDOWN narrative 2 1",
+      "text": "A long snow skid; the indestructible beast rests intact",
+      "start": 2727,
+      "end": 2906
+    },
+    {
+      "name": "09 / WHAT SHALL WE MAKE NEXT?",
+      "text": "09 / WHAT SHALL WE MAKE NEXT?",
+      "start": 2906,
+      "end": 3223
+    },
+    {
+      "name": "09 / WHAT SHALL WE MAKE NEXT? narrative 0 0",
+      "text": "The scientists regroup to imagine their next creation.",
+      "start": 2906,
+      "end": 3223
+    },
+    {
+      "name": "09 / WHAT SHALL WE MAKE NEXT? narrative 0 1",
+      "text": "Town-fire reprise, then the proposed monster at fifty feet",
+      "start": 2906,
+      "end": 3223
+    },
+    {
+      "name": "10 / THE SCIENTIST'S SECRET",
+      "text": "10 / THE SCIENTIST'S SECRET",
+      "start": 3223,
+      "end": 3379
+    },
+    {
+      "name": "10 / THE SCIENTIST'S SECRET narrative 0 0",
+      "text": "Reveal the scientist's plan: unlock the zoo and let them loose.",
+      "start": 3223,
+      "end": 3379
+    },
+    {
+      "name": "10 / THE SCIENTIST'S SECRET narrative 0 1",
+      "text": "This circles back to the warnings we heard at the beginning.",
+      "start": 3223,
+      "end": 3379
+    },
+    {
+      "name": "11 / CONTAINMENT FAILS",
+      "text": "11 / CONTAINMENT FAILS",
+      "start": 3379,
+      "end": 3775
+    },
+    {
+      "name": "11 / CONTAINMENT FAILS narrative 0 0",
+      "text": "A huge creature shrinks small enough to escape.",
+      "start": 3379,
+      "end": 3515
+    },
+    {
+      "name": "11 / CONTAINMENT FAILS narrative 0 1",
+      "text": "Abilities once contained now become ways out.",
+      "start": 3379,
+      "end": 3515
+    },
+    {
+      "name": "11 / CONTAINMENT FAILS narrative 1 0",
+      "text": "A small, insect-like creature grows to enormous size.",
+      "start": 3515,
+      "end": 3642
+    },
+    {
+      "name": "11 / CONTAINMENT FAILS narrative 1 1",
+      "text": "Its enclosure cannot hold it.",
+      "start": 3515,
+      "end": 3642
+    },
+    {
+      "name": "11 / CONTAINMENT FAILS narrative 2 0",
+      "text": "The space-octopus Cyclops becomes vapor and escapes through the keyhole.",
+      "start": 3642,
+      "end": 3775
+    },
+    {
+      "name": "11 / CONTAINMENT FAILS narrative 2 1",
+      "text": "An apparently impenetrable door is no defense.",
+      "start": 3642,
+      "end": 3775
+    },
+    {
+      "name": "Aquarium review label 100",
+      "text": "06 / THE AQUARIUM",
+      "start": 1625,
+      "end": 1708
+    },
+    {
+      "name": "Aquarium review label 101",
+      "text": "A hungry resident tests the glass.",
+      "start": 1625,
+      "end": 1708
+    },
+    {
+      "name": "Aquarium review label 102",
+      "text": "Harper has a ready answer.",
+      "start": 1625,
+      "end": 1708
+    },
+    {
+      "name": "Review caption",
+      "text": "Almost escaped? A firm stay is all it takes.",
+      "start": 1768,
+      "end": 1893
+    },
+    {
+      "name": "Review caption.001",
+      "text": "Really? The kid gives Harper an eye roll.",
+      "start": 1893,
+      "end": 2036
+    }
+  ],
+  "lyrics_preserved": 356,
+  "countdown_graphics_preserved": 4
+}

@@ -1,0 +1,22 @@
+{
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-012-PROCESSION-v002.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "12",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "false",
+    "--prefer_multi_shots",
+    "false",
+    "One continuous TWELVE SECOND fixed-camera wide shot animating this exact detailed vintage comic frame. NO cuts, camera angle changes, orbit, pan or zoom. Preserve the spatial geography, exact three adult identities at LEFT, two existing creatures and open exit at RIGHT. Stable M.U.C.F. monster emblems on both banners; no changed lettering or elephants. Amber lamps, teal night and red beacons. Natural weighted motion, rich ink/crosshatching, consistent anatomy.\nA peaceful but intimidating procession: the GREEN LIZARD leads, walking steadily toward screen RIGHT and through the existing open gate into the dark exterior. Starting immediately, alternate planted feet with weight transfer, subtle spine/tail sway; head looks along the exit route, not at visitors. It crosses the threshold during seconds3-5, its trailing tail clears around6seconds. No attack, roar, running, turning back or disappearing before exiting.\nThe BRONZE INSECT follows the same ground route LEFT TO RIGHT with an organized alternating multi-leg walk, antennae slowly sweeping. It begins advancing after about0.8seconds, moves through the lizard's former position during seconds4-7, and begins crossing the same gate around8seconds, mostly clearing by10.5seconds. Preserve its copper wing shells, black compound eyes and feather antennae. No wings sprouting, flight, limb morphs, collisions or intersecting walls. Exactly these two creatures, no new ones.\nThe three adult visitors remain in their recessed area at LEFT. Their eyes and heads track the actual passing creatures to their RIGHT, never toward camera or off in the opposite direction. At first they lean back a little, shoulders tense. The short overweight politician clasps his jacket nervously, then loosens into an amazed grin once the lizard passes; no waving. The burgundy-suited CEO holds her portfolio, one restrained raised eyebrow becomes a small fascinated calculating smile. The bespectacled rumpled inspector hugs her clipboard protectively, follows the insect with cautious wonder, then relaxes slightly without dropping vigilance. They stay in place, no swapping positions or approaching the animals. Each reaction gradual and distinct, nervous delight not broad comedy, no bouncing or exaggerated cute acting. Final1.5seconds hold their interested gazes following the departing insect, natural breathing. Gates remain open and rigid. No additional people, captions or speech bubbles. No audio."
+  ],
+  "expected_credits": 96,
+  "purpose": "User requested trying one long coherent procession before considering a second angle."
+}

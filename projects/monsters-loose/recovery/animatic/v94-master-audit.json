@@ -1,0 +1,6608 @@
+{
+  "render": {
+    "resolution_x": 1280,
+    "resolution_y": 720,
+    "resolution_percentage": 100,
+    "fps": 24
+  },
+  "ffmpeg": {
+    "format": "MPEG4",
+    "codec": "H264",
+    "constant_rate_factor": "HIGH",
+    "ffmpeg_preset": "GOOD",
+    "audio_codec": "AAC"
+  },
+  "strips": [
+    {
+      "name": "lead-001-w001 Undone.",
+      "type": "TEXT",
+      "start": 5,
+      "end": 53,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Undone."
+    },
+    {
+      "name": "lead-002-w001 Undone",
+      "type": "TEXT",
+      "start": 208,
+      "end": 376,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -116.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "Undone"
+    },
+    {
+      "name": "lead-002-w002 until",
+      "type": "TEXT",
+      "start": 208,
+      "end": 376,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -23.0,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "until"
+    },
+    {
+      "name": "lead-002-w003 we",
+      "type": "TEXT",
+      "start": 208,
+      "end": 376,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 38.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "we"
+    },
+    {
+      "name": "lead-002-w004 set",
+      "type": "TEXT",
+      "start": 208,
+      "end": 376,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 91.0,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "set"
+    },
+    {
+      "name": "lead-002-w005 the",
+      "type": "TEXT",
+      "start": 208,
+      "end": 376,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 146.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-002-w006 monsters",
+      "type": "TEXT",
+      "start": 208,
+      "end": 376,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -98.75,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "monsters"
+    },
+    {
+      "name": "lead-002-w007 loose,",
+      "type": "TEXT",
+      "start": 208,
+      "end": 376,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 18.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "loose,"
+    },
+    {
+      "name": "lead-002-w008 oh",
+      "type": "TEXT",
+      "start": 208,
+      "end": 376,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 87.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "oh"
+    },
+    {
+      "name": "lead-002-w009 my.",
+      "type": "TEXT",
+      "start": 208,
+      "end": 376,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 139.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "my."
+    },
+    {
+      "name": "lead-003-w001 La",
+      "type": "TEXT",
+      "start": 387,
+      "end": 500,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -158.25,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "La"
+    },
+    {
+      "name": "lead-003-w002 da",
+      "type": "TEXT",
+      "start": 387,
+      "end": 500,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -119.25,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "da"
+    },
+    {
+      "name": "lead-003-w003 da",
+      "type": "TEXT",
+      "start": 387,
+      "end": 500,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -80.25,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "da"
+    },
+    {
+      "name": "lead-003-w004 na",
+      "type": "TEXT",
+      "start": 387,
+      "end": 500,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -41.5,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "na"
+    },
+    {
+      "name": "lead-003-w005 na",
+      "type": "TEXT",
+      "start": 387,
+      "end": 500,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -3.0,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "na"
+    },
+    {
+      "name": "lead-003-w006 na",
+      "type": "TEXT",
+      "start": 387,
+      "end": 500,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 35.5,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "na"
+    },
+    {
+      "name": "lead-003-w007 na",
+      "type": "TEXT",
+      "start": 387,
+      "end": 500,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 74.0,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "na"
+    },
+    {
+      "name": "lead-003-w008 na",
+      "type": "TEXT",
+      "start": 387,
+      "end": 500,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 112.5,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "na"
+    },
+    {
+      "name": "lead-003-w009 na.",
+      "type": "TEXT",
+      "start": 387,
+      "end": 500,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 154.75,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "na."
+    },
+    {
+      "name": "lead-004-w001 Got",
+      "type": "TEXT",
+      "start": 514,
+      "end": 629,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -86.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "Got"
+    },
+    {
+      "name": "lead-004-w002 the",
+      "type": "TEXT",
+      "start": 514,
+      "end": 629,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -29.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-004-w003 hang",
+      "type": "TEXT",
+      "start": 514,
+      "end": 629,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 37.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "hang"
+    },
+    {
+      "name": "lead-004-w004 of",
+      "type": "TEXT",
+      "start": 514,
+      "end": 629,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 96.0,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "of"
+    },
+    {
+      "name": "lead-004-w005 every",
+      "type": "TEXT",
+      "start": 514,
+      "end": 629,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -114.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "every"
+    },
+    {
+      "name": "lead-004-w006 face",
+      "type": "TEXT",
+      "start": 514,
+      "end": 629,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -34.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "face"
+    },
+    {
+      "name": "lead-004-w007 you",
+      "type": "TEXT",
+      "start": 514,
+      "end": 629,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 32.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "you"
+    },
+    {
+      "name": "lead-004-w008 made.",
+      "type": "TEXT",
+      "start": 514,
+      "end": 629,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 110.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "made."
+    },
+    {
+      "name": "lead-005-w001 Have",
+      "type": "TEXT",
+      "start": 638,
+      "end": 757,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -224.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Have"
+    },
+    {
+      "name": "lead-005-w002 the",
+      "type": "TEXT",
+      "start": 638,
+      "end": 757,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -157.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-005-w003 knot",
+      "type": "TEXT",
+      "start": 638,
+      "end": 757,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -92.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "knot"
+    },
+    {
+      "name": "lead-005-w004 before",
+      "type": "TEXT",
+      "start": 638,
+      "end": 757,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -5.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "before"
+    },
+    {
+      "name": "lead-005-w005 it's",
+      "type": "TEXT",
+      "start": 638,
+      "end": 757,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 71.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "it's"
+    },
+    {
+      "name": "lead-005-w006 time",
+      "type": "TEXT",
+      "start": 638,
+      "end": 757,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 133.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "time"
+    },
+    {
+      "name": "lead-005-w007 to",
+      "type": "TEXT",
+      "start": 638,
+      "end": 757,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 189.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "to"
+    },
+    {
+      "name": "lead-005-w008 tie.",
+      "type": "TEXT",
+      "start": 638,
+      "end": 757,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 236.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "tie."
+    },
+    {
+      "name": "lead-006-w001 Unpronounced",
+      "type": "TEXT",
+      "start": 757,
+      "end": 875,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -108.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "Unpronounced"
+    },
+    {
+      "name": "lead-006-w002 announcement",
+      "type": "TEXT",
+      "start": 757,
+      "end": 875,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 106.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "announcement"
+    },
+    {
+      "name": "lead-006-w003 that",
+      "type": "TEXT",
+      "start": 757,
+      "end": 875,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -153.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "that"
+    },
+    {
+      "name": "lead-006-w004 you've",
+      "type": "TEXT",
+      "start": 757,
+      "end": 875,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -70.75,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "you've"
+    },
+    {
+      "name": "lead-006-w005 come",
+      "type": "TEXT",
+      "start": 757,
+      "end": 875,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 22.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "come"
+    },
+    {
+      "name": "lead-006-w006 undone.",
+      "type": "TEXT",
+      "start": 757,
+      "end": 875,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 126.25,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "undone."
+    },
+    {
+      "name": "lead-007-w001 Undone,",
+      "type": "TEXT",
+      "start": 875,
+      "end": 996,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -181.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Undone,"
+    },
+    {
+      "name": "lead-007-w002 undone,",
+      "type": "TEXT",
+      "start": 875,
+      "end": 996,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -59.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "undone,"
+    },
+    {
+      "name": "lead-007-w003 undone,",
+      "type": "TEXT",
+      "start": 875,
+      "end": 996,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 61.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "undone,"
+    },
+    {
+      "name": "lead-007-w004 undone.",
+      "type": "TEXT",
+      "start": 875,
+      "end": 996,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 182.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "undone."
+    },
+    {
+      "name": "lead-008-w001 What",
+      "type": "TEXT",
+      "start": 1025,
+      "end": 1100,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -146.25,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "What"
+    },
+    {
+      "name": "lead-008-w002 kind",
+      "type": "TEXT",
+      "start": 1025,
+      "end": 1100,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -78.25,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "kind"
+    },
+    {
+      "name": "lead-008-w003 of",
+      "type": "TEXT",
+      "start": 1025,
+      "end": 1100,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -29.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "of"
+    },
+    {
+      "name": "lead-008-w004 monster",
+      "type": "TEXT",
+      "start": 1025,
+      "end": 1100,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 44.0,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "monster"
+    },
+    {
+      "name": "lead-008-w005 would",
+      "type": "TEXT",
+      "start": 1025,
+      "end": 1100,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 141.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "would"
+    },
+    {
+      "name": "lead-008-w006 you",
+      "type": "TEXT",
+      "start": 1025,
+      "end": 1100,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -120.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "you"
+    },
+    {
+      "name": "lead-008-w007 like",
+      "type": "TEXT",
+      "start": 1025,
+      "end": 1100,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -66.5,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "like"
+    },
+    {
+      "name": "lead-008-w008 to",
+      "type": "TEXT",
+      "start": 1025,
+      "end": 1100,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -22.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "to"
+    },
+    {
+      "name": "lead-008-w009 make",
+      "type": "TEXT",
+      "start": 1025,
+      "end": 1100,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 33.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "make"
+    },
+    {
+      "name": "lead-008-w010 now?",
+      "type": "TEXT",
+      "start": 1025,
+      "end": 1100,
+      "channel": 42,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 109.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "now?"
+    },
+    {
+      "name": "lead-009-w001 That",
+      "type": "TEXT",
+      "start": 1100,
+      "end": 1158,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -212.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "That"
+    },
+    {
+      "name": "lead-009-w002 last",
+      "type": "TEXT",
+      "start": 1100,
+      "end": 1158,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -145.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "last"
+    },
+    {
+      "name": "lead-009-w003 one",
+      "type": "TEXT",
+      "start": 1100,
+      "end": 1158,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -83.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "one"
+    },
+    {
+      "name": "lead-009-w004 set",
+      "type": "TEXT",
+      "start": 1100,
+      "end": 1158,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -25.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "set"
+    },
+    {
+      "name": "lead-009-w005 the",
+      "type": "TEXT",
+      "start": 1100,
+      "end": 1158,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 29.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-009-w006 town",
+      "type": "TEXT",
+      "start": 1100,
+      "end": 1158,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 97.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "town"
+    },
+    {
+      "name": "lead-009-w007 on",
+      "type": "TEXT",
+      "start": 1100,
+      "end": 1158,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 159.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "on"
+    },
+    {
+      "name": "lead-009-w008 fire.",
+      "type": "TEXT",
+      "start": 1100,
+      "end": 1158,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 215.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "fire."
+    },
+    {
+      "name": "lead-010-w001 Now",
+      "type": "TEXT",
+      "start": 1158,
+      "end": 1222,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -107.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "Now"
+    },
+    {
+      "name": "lead-010-w002 make",
+      "type": "TEXT",
+      "start": 1158,
+      "end": 1222,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -28.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "make"
+    },
+    {
+      "name": "lead-010-w003 one",
+      "type": "TEXT",
+      "start": 1158,
+      "end": 1222,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 45.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "one"
+    },
+    {
+      "name": "lead-010-w004 that",
+      "type": "TEXT",
+      "start": 1158,
+      "end": 1222,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 109.75,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "that"
+    },
+    {
+      "name": "lead-010-w005 is",
+      "type": "TEXT",
+      "start": 1158,
+      "end": 1222,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -112.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "is"
+    },
+    {
+      "name": "lead-010-w006 twice",
+      "type": "TEXT",
+      "start": 1158,
+      "end": 1222,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -52.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "twice"
+    },
+    {
+      "name": "lead-010-w007 as",
+      "type": "TEXT",
+      "start": 1158,
+      "end": 1222,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 12.75,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "as"
+    },
+    {
+      "name": "lead-010-w008 mean.",
+      "type": "TEXT",
+      "start": 1158,
+      "end": 1222,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 81.75,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "mean."
+    },
+    {
+      "name": "lead-011-w001 And",
+      "type": "TEXT",
+      "start": 1222,
+      "end": 1306,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -192.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "And"
+    },
+    {
+      "name": "lead-011-w002 fifty",
+      "type": "TEXT",
+      "start": 1222,
+      "end": 1306,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -126.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "fifty"
+    },
+    {
+      "name": "lead-011-w003 feet",
+      "type": "TEXT",
+      "start": 1222,
+      "end": 1306,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -58.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "feet"
+    },
+    {
+      "name": "lead-011-w004 or",
+      "type": "TEXT",
+      "start": 1222,
+      "end": 1306,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -4.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "or"
+    },
+    {
+      "name": "lead-011-w005 maybe",
+      "type": "TEXT",
+      "start": 1222,
+      "end": 1306,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 66.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "maybe"
+    },
+    {
+      "name": "lead-011-w006 higher.",
+      "type": "TEXT",
+      "start": 1222,
+      "end": 1306,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 171.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "higher."
+    },
+    {
+      "name": "lead-012-w001 Undone",
+      "type": "TEXT",
+      "start": 1306,
+      "end": 1489,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -116.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "Undone"
+    },
+    {
+      "name": "lead-012-w002 until",
+      "type": "TEXT",
+      "start": 1306,
+      "end": 1489,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -23.0,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "until"
+    },
+    {
+      "name": "lead-012-w003 we",
+      "type": "TEXT",
+      "start": 1306,
+      "end": 1489,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 38.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "we"
+    },
+    {
+      "name": "lead-012-w004 set",
+      "type": "TEXT",
+      "start": 1306,
+      "end": 1489,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 91.0,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "set"
+    },
+    {
+      "name": "lead-012-w005 the",
+      "type": "TEXT",
+      "start": 1306,
+      "end": 1489,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 146.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-012-w006 monsters",
+      "type": "TEXT",
+      "start": 1306,
+      "end": 1489,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -98.75,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "monsters"
+    },
+    {
+      "name": "lead-012-w007 loose,",
+      "type": "TEXT",
+      "start": 1306,
+      "end": 1489,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 18.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "loose,"
+    },
+    {
+      "name": "lead-012-w008 oh",
+      "type": "TEXT",
+      "start": 1306,
+      "end": 1489,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 87.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "oh"
+    },
+    {
+      "name": "lead-012-w009 my.",
+      "type": "TEXT",
+      "start": 1306,
+      "end": 1489,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 139.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "my."
+    },
+    {
+      "name": "lead-013-w001 Got",
+      "type": "TEXT",
+      "start": 1503,
+      "end": 1574,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -99.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "Got"
+    },
+    {
+      "name": "lead-013-w002 a",
+      "type": "TEXT",
+      "start": 1503,
+      "end": 1574,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -56.75,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "a"
+    },
+    {
+      "name": "lead-013-w003 zoo",
+      "type": "TEXT",
+      "start": 1503,
+      "end": 1574,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -13.75,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "zoo"
+    },
+    {
+      "name": "lead-013-w004 here",
+      "type": "TEXT",
+      "start": 1503,
+      "end": 1574,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 52.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "here"
+    },
+    {
+      "name": "lead-013-w005 to",
+      "type": "TEXT",
+      "start": 1503,
+      "end": 1574,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 108.75,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "to"
+    },
+    {
+      "name": "lead-013-w006 keep",
+      "type": "TEXT",
+      "start": 1503,
+      "end": 1574,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -121.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "keep"
+    },
+    {
+      "name": "lead-013-w007 the",
+      "type": "TEXT",
+      "start": 1503,
+      "end": 1574,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -53.75,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-013-w008 monsters",
+      "type": "TEXT",
+      "start": 1503,
+      "end": 1574,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 45.25,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "monsters"
+    },
+    {
+      "name": "lead-013-w009 in.",
+      "type": "TEXT",
+      "start": 1503,
+      "end": 1574,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 138.25,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "in."
+    },
+    {
+      "name": "lead-014-w001 So",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -226.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "So"
+    },
+    {
+      "name": "lead-014-w002 we",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -183.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "we"
+    },
+    {
+      "name": "lead-014-w003 can",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -133.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "can"
+    },
+    {
+      "name": "lead-014-w004 see",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -79.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "see"
+    },
+    {
+      "name": "lead-014-w005 them",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -16.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "them"
+    },
+    {
+      "name": "lead-014-w006 stomping",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 81.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "stomping"
+    },
+    {
+      "name": "lead-014-w007 around.",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 195.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "around."
+    },
+    {
+      "name": "lead-015-w001 Watch",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -217.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "Watch"
+    },
+    {
+      "name": "lead-015-w002 them",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -137.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "them"
+    },
+    {
+      "name": "lead-015-w003 try",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 42,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -79.0,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "try"
+    },
+    {
+      "name": "lead-015-w004 to",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 44,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -39.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "to"
+    },
+    {
+      "name": "lead-015-w005 eat",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 46,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 2.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "eat"
+    },
+    {
+      "name": "lead-015-w006 the",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 48,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 51.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-015-w007 keeper",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 50,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 124.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "keeper"
+    },
+    {
+      "name": "lead-015-w008 whole.",
+      "type": "TEXT",
+      "start": 1574,
+      "end": 1699,
+      "channel": 52,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 217.0,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "whole."
+    },
+    {
+      "name": "lead-016-w001 Zoo",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -238.5,
+        "offset_y": -218.0
+      },
+      "font_size": 31.0,
+      "text": "Zoo"
+    },
+    {
+      "name": "lead-016-w002 keeper",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -163.5,
+        "offset_y": -218.0
+      },
+      "font_size": 31.0,
+      "text": "keeper"
+    },
+    {
+      "name": "lead-016-w003 keeps",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -73.75,
+        "offset_y": -218.0
+      },
+      "font_size": 31.0,
+      "text": "keeps"
+    },
+    {
+      "name": "lead-016-w004 them",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 4.5,
+        "offset_y": -218.0
+      },
+      "font_size": 31.0,
+      "text": "them"
+    },
+    {
+      "name": "lead-016-w005 all",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 60.0,
+        "offset_y": -218.0
+      },
+      "font_size": 31.0,
+      "text": "all"
+    },
+    {
+      "name": "lead-016-w006 from",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 113.5,
+        "offset_y": -218.0
+      },
+      "font_size": 31.0,
+      "text": "from"
+    },
+    {
+      "name": "lead-016-w007 breaking",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 206.75,
+        "offset_y": -218.0
+      },
+      "font_size": 31.0,
+      "text": "breaking"
+    },
+    {
+      "name": "lead-016-w008 out.",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -232.25,
+        "offset_y": -267.0
+      },
+      "font_size": 31.0,
+      "text": "out."
+    },
+    {
+      "name": "lead-017-w001 One,",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -172.0,
+        "offset_y": -267.0
+      },
+      "font_size": 31.0,
+      "text": "One,"
+    },
+    {
+      "name": "lead-017-w002 one,",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 42,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -109.5,
+        "offset_y": -267.0
+      },
+      "font_size": 31.0,
+      "text": "one,"
+    },
+    {
+      "name": "lead-017-w003 almost,",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 44,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -28.5,
+        "offset_y": -267.0
+      },
+      "font_size": 31.0,
+      "text": "almost,"
+    },
+    {
+      "name": "lead-017-w004 just,",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 46,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 54.0,
+        "offset_y": -267.0
+      },
+      "font_size": 31.0,
+      "text": "just,"
+    },
+    {
+      "name": "lead-017-w005 just",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 48,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 115.0,
+        "offset_y": -267.0
+      },
+      "font_size": 31.0,
+      "text": "just"
+    },
+    {
+      "name": "lead-017-w006 now,",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 50,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 177.5,
+        "offset_y": -267.0
+      },
+      "font_size": 31.0,
+      "text": "now,"
+    },
+    {
+      "name": "lead-017-w007 got",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 52,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 236.0,
+        "offset_y": -267.0
+      },
+      "font_size": 31.0,
+      "text": "got"
+    },
+    {
+      "name": "lead-017-w008 out.",
+      "type": "TEXT",
+      "start": 1699,
+      "end": 1886,
+      "channel": 54,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": -316.0
+      },
+      "font_size": 31.0,
+      "text": "out."
+    },
+    {
+      "name": "lead-018-w001 Your",
+      "type": "TEXT",
+      "start": 1886,
+      "end": 1970,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -145.0,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "Your"
+    },
+    {
+      "name": "lead-018-w002 eye",
+      "type": "TEXT",
+      "start": 1886,
+      "end": 1970,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -85.0,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "eye"
+    },
+    {
+      "name": "lead-018-w003 roll",
+      "type": "TEXT",
+      "start": 1886,
+      "end": 1970,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -33.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "roll"
+    },
+    {
+      "name": "lead-018-w004 tells",
+      "type": "TEXT",
+      "start": 1886,
+      "end": 1970,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 22.0,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "tells"
+    },
+    {
+      "name": "lead-018-w005 me",
+      "type": "TEXT",
+      "start": 1886,
+      "end": 1970,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 77.0,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "me"
+    },
+    {
+      "name": "lead-018-w006 what,",
+      "type": "TEXT",
+      "start": 1886,
+      "end": 1970,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 139.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "what,"
+    },
+    {
+      "name": "lead-018-w007 what",
+      "type": "TEXT",
+      "start": 1886,
+      "end": 1970,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -129.0,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "what"
+    },
+    {
+      "name": "lead-018-w008 your",
+      "type": "TEXT",
+      "start": 1886,
+      "end": 1970,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -61.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "your"
+    },
+    {
+      "name": "lead-018-w009 face",
+      "type": "TEXT",
+      "start": 1886,
+      "end": 1970,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 2.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "face"
+    },
+    {
+      "name": "lead-018-w010 can't",
+      "type": "TEXT",
+      "start": 1886,
+      "end": 1970,
+      "channel": 42,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 69.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "can't"
+    },
+    {
+      "name": "lead-018-w011 say.",
+      "type": "TEXT",
+      "start": 1886,
+      "end": 1970,
+      "channel": 44,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 134.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "say."
+    },
+    {
+      "name": "lead-019-w001 You",
+      "type": "TEXT",
+      "start": 1970,
+      "end": 2029,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -115.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "You"
+    },
+    {
+      "name": "lead-019-w002 can't",
+      "type": "TEXT",
+      "start": 1970,
+      "end": 2029,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -53.25,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "can't"
+    },
+    {
+      "name": "lead-019-w003 believe",
+      "type": "TEXT",
+      "start": 1970,
+      "end": 2029,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 30.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "believe"
+    },
+    {
+      "name": "lead-019-w004 they",
+      "type": "TEXT",
+      "start": 1970,
+      "end": 2029,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 112.0,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "they"
+    },
+    {
+      "name": "lead-019-w005 even",
+      "type": "TEXT",
+      "start": 1970,
+      "end": 2029,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -137.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "even"
+    },
+    {
+      "name": "lead-019-w006 call",
+      "type": "TEXT",
+      "start": 1970,
+      "end": 2029,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -76.0,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "call"
+    },
+    {
+      "name": "lead-019-w007 that",
+      "type": "TEXT",
+      "start": 1970,
+      "end": 2029,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -19.5,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "that"
+    },
+    {
+      "name": "lead-019-w008 place",
+      "type": "TEXT",
+      "start": 1970,
+      "end": 2029,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 48.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "place"
+    },
+    {
+      "name": "lead-019-w009 a",
+      "type": "TEXT",
+      "start": 1970,
+      "end": 2029,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 99.5,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "a"
+    },
+    {
+      "name": "lead-019-w010 zoo.",
+      "type": "TEXT",
+      "start": 1970,
+      "end": 2029,
+      "channel": 42,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 141.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "zoo."
+    },
+    {
+      "name": "lead-020-w001 Choose",
+      "type": "TEXT",
+      "start": 2029,
+      "end": 2098,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -207.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Choose"
+    },
+    {
+      "name": "lead-020-w002 your",
+      "type": "TEXT",
+      "start": 2029,
+      "end": 2098,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -115.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "your"
+    },
+    {
+      "name": "lead-020-w003 favorite",
+      "type": "TEXT",
+      "start": 2029,
+      "end": 2098,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -19.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "favorite"
+    },
+    {
+      "name": "lead-020-w004 monster",
+      "type": "TEXT",
+      "start": 2029,
+      "end": 2098,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 103.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "monster"
+    },
+    {
+      "name": "lead-020-w005 beast.",
+      "type": "TEXT",
+      "start": 2029,
+      "end": 2098,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 215.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "beast."
+    },
+    {
+      "name": "lead-021-w001 Suit",
+      "type": "TEXT",
+      "start": 2098,
+      "end": 2165,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -221.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Suit"
+    },
+    {
+      "name": "lead-021-w002 the",
+      "type": "TEXT",
+      "start": 2098,
+      "end": 2165,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -160.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-021-w003 way",
+      "type": "TEXT",
+      "start": 2098,
+      "end": 2165,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -99.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "way"
+    },
+    {
+      "name": "lead-021-w004 you",
+      "type": "TEXT",
+      "start": 2098,
+      "end": 2165,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -36.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "you"
+    },
+    {
+      "name": "lead-021-w005 wanna",
+      "type": "TEXT",
+      "start": 2098,
+      "end": 2165,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 43.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "wanna"
+    },
+    {
+      "name": "lead-021-w006 be,",
+      "type": "TEXT",
+      "start": 2098,
+      "end": 2165,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 120.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "be,"
+    },
+    {
+      "name": "lead-021-w007 be,",
+      "type": "TEXT",
+      "start": 2098,
+      "end": 2165,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 173.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "be,"
+    },
+    {
+      "name": "lead-021-w008 be.",
+      "type": "TEXT",
+      "start": 2098,
+      "end": 2165,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 227.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "be."
+    },
+    {
+      "name": "lead-022-w001 Hunting",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -201.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "Hunting"
+    },
+    {
+      "name": "lead-022-w002 Ed,",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -125.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "Ed,"
+    },
+    {
+      "name": "lead-022-w003 head",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -66.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "head"
+    },
+    {
+      "name": "lead-022-w004 hunting",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 19.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "hunting"
+    },
+    {
+      "name": "lead-022-w005 Ted.",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 102.25,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "Ted."
+    },
+    {
+      "name": "lead-023-w001 Hide",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 166.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "Hide"
+    },
+    {
+      "name": "lead-023-w002 and",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 226.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "and"
+    },
+    {
+      "name": "lead-023-w003 seek's",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -190.5,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "seek's"
+    },
+    {
+      "name": "lead-023-w004 the",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -122.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-023-w005 game",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 42,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -58.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "game"
+    },
+    {
+      "name": "lead-023-w006 that",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 44,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 9.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "that"
+    },
+    {
+      "name": "lead-023-w007 monsters",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 46,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 102.5,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "monsters"
+    },
+    {
+      "name": "lead-023-w008 play.",
+      "type": "TEXT",
+      "start": 2165,
+      "end": 2302,
+      "channel": 48,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 199.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "play."
+    },
+    {
+      "name": "lead-024-w001 And",
+      "type": "TEXT",
+      "start": 2302,
+      "end": 2345,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -38.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "And"
+    },
+    {
+      "name": "lead-024-w002 play.",
+      "type": "TEXT",
+      "start": 2302,
+      "end": 2345,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 32.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "play."
+    },
+    {
+      "name": "lead-025-w001 And",
+      "type": "TEXT",
+      "start": 2381,
+      "end": 2431,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -38.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "And"
+    },
+    {
+      "name": "lead-025-w002 play.",
+      "type": "TEXT",
+      "start": 2381,
+      "end": 2431,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 32.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "play."
+    },
+    {
+      "name": "lead-026-w001 And",
+      "type": "TEXT",
+      "start": 2444,
+      "end": 2503,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -80.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "And"
+    },
+    {
+      "name": "lead-026-w002 play,",
+      "type": "TEXT",
+      "start": 2444,
+      "end": 2503,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -10.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "play,"
+    },
+    {
+      "name": "lead-026-w003 baby.",
+      "type": "TEXT",
+      "start": 2444,
+      "end": 2503,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 70.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "play."
+    },
+    {
+      "name": "lead-027-w001 Five,",
+      "type": "TEXT",
+      "start": 2510,
+      "end": 2626,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -121.75,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "Five,"
+    },
+    {
+      "name": "lead-027-w002 four,",
+      "type": "TEXT",
+      "start": 2510,
+      "end": 2626,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -45.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "four,"
+    },
+    {
+      "name": "lead-027-w003 three",
+      "type": "TEXT",
+      "start": 2510,
+      "end": 2626,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 35.0,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "three"
+    },
+    {
+      "name": "lead-027-w004 more",
+      "type": "TEXT",
+      "start": 2510,
+      "end": 2626,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 118.75,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "more"
+    },
+    {
+      "name": "lead-027-w005 to",
+      "type": "TEXT",
+      "start": 2510,
+      "end": 2626,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -131.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "to"
+    },
+    {
+      "name": "lead-027-w006 go.",
+      "type": "TEXT",
+      "start": 2510,
+      "end": 2626,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -85.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "go."
+    },
+    {
+      "name": "lead-028-w001 Now",
+      "type": "TEXT",
+      "start": 2510,
+      "end": 2626,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -23.25,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "Now"
+    },
+    {
+      "name": "lead-028-w002 only",
+      "type": "TEXT",
+      "start": 2510,
+      "end": 2626,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 46.25,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "only"
+    },
+    {
+      "name": "lead-028-w003 two.",
+      "type": "TEXT",
+      "start": 2510,
+      "end": 2626,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 115.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "two."
+    },
+    {
+      "name": "lead-029-w001 The",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -243.25,
+        "offset_y": -218.0
+      },
+      "font_size": 26.0,
+      "text": "The"
+    },
+    {
+      "name": "lead-029-w002 final",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -192.5,
+        "offset_y": -218.0
+      },
+      "font_size": 26.0,
+      "text": "final"
+    },
+    {
+      "name": "lead-029-w003 fight",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -137.0,
+        "offset_y": -218.0
+      },
+      "font_size": 26.0,
+      "text": "fight"
+    },
+    {
+      "name": "lead-029-w004 between",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -59.5,
+        "offset_y": -218.0
+      },
+      "font_size": 26.0,
+      "text": "between"
+    },
+    {
+      "name": "lead-029-w005 the",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 10.75,
+        "offset_y": -218.0
+      },
+      "font_size": 26.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-029-w006 meanest",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 81.25,
+        "offset_y": -218.0
+      },
+      "font_size": 26.0,
+      "text": "meanest"
+    },
+    {
+      "name": "lead-029-w007 ones,",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 162.5,
+        "offset_y": -218.0
+      },
+      "font_size": 26.0,
+      "text": "ones,"
+    },
+    {
+      "name": "lead-029-w008 I'll",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 209.5,
+        "offset_y": -218.0
+      },
+      "font_size": 26.0,
+      "text": "I'll"
+    },
+    {
+      "name": "lead-029-w009 bet",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 245.75,
+        "offset_y": -218.0
+      },
+      "font_size": 26.0,
+      "text": "bet"
+    },
+    {
+      "name": "lead-029-w010 you.",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 42,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -236.5,
+        "offset_y": -267.0
+      },
+      "font_size": 26.0,
+      "text": "you."
+    },
+    {
+      "name": "lead-030-w001 One",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 44,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -186.75,
+        "offset_y": -267.0
+      },
+      "font_size": 26.0,
+      "text": "One"
+    },
+    {
+      "name": "lead-030-w002 has",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 46,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -140.0,
+        "offset_y": -267.0
+      },
+      "font_size": 26.0,
+      "text": "has"
+    },
+    {
+      "name": "lead-030-w003 that",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 48,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -91.75,
+        "offset_y": -267.0
+      },
+      "font_size": 26.0,
+      "text": "that"
+    },
+    {
+      "name": "lead-030-w004 kick,",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 50,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -37.25,
+        "offset_y": -267.0
+      },
+      "font_size": 26.0,
+      "text": "kick,"
+    },
+    {
+      "name": "lead-030-w005 that",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 52,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 17.25,
+        "offset_y": -267.0
+      },
+      "font_size": 26.0,
+      "text": "that"
+    },
+    {
+      "name": "lead-030-w006 kick",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 54,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 68.75,
+        "offset_y": -267.0
+      },
+      "font_size": 26.0,
+      "text": "kick"
+    },
+    {
+      "name": "lead-030-w007 that",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 56,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 120.25,
+        "offset_y": -267.0
+      },
+      "font_size": 26.0,
+      "text": "that"
+    },
+    {
+      "name": "lead-030-w008 knock",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 58,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 181.5,
+        "offset_y": -267.0
+      },
+      "font_size": 26.0,
+      "text": "knock"
+    },
+    {
+      "name": "lead-030-w009 you",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 60,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 239.75,
+        "offset_y": -267.0
+      },
+      "font_size": 26.0,
+      "text": "you"
+    },
+    {
+      "name": "lead-030-w010 down.",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 62,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -141.75,
+        "offset_y": -316.0
+      },
+      "font_size": 26.0,
+      "text": "down."
+    },
+    {
+      "name": "lead-031-w001 Down,",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 64,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -70.5,
+        "offset_y": -316.0
+      },
+      "font_size": 26.0,
+      "text": "Down,"
+    },
+    {
+      "name": "lead-031-w002 down,",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 66,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.5,
+        "offset_y": -316.0
+      },
+      "font_size": 26.0,
+      "text": "down,"
+    },
+    {
+      "name": "lead-031-w003 down,",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 68,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 71.0,
+        "offset_y": -316.0
+      },
+      "font_size": 26.0,
+      "text": "down,"
+    },
+    {
+      "name": "lead-031-w004 down.",
+      "type": "TEXT",
+      "start": 2626,
+      "end": 2897,
+      "channel": 70,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 141.75,
+        "offset_y": -316.0
+      },
+      "font_size": 26.0,
+      "text": "down."
+    },
+    {
+      "name": "lead-032-w001 What",
+      "type": "TEXT",
+      "start": 2897,
+      "end": 2974,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -146.25,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "What"
+    },
+    {
+      "name": "lead-032-w002 kind",
+      "type": "TEXT",
+      "start": 2897,
+      "end": 2974,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -78.25,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "kind"
+    },
+    {
+      "name": "lead-032-w003 of",
+      "type": "TEXT",
+      "start": 2897,
+      "end": 2974,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -29.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "of"
+    },
+    {
+      "name": "lead-032-w004 monster",
+      "type": "TEXT",
+      "start": 2897,
+      "end": 2974,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 44.0,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "monster"
+    },
+    {
+      "name": "lead-032-w005 would",
+      "type": "TEXT",
+      "start": 2897,
+      "end": 2974,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 141.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "would"
+    },
+    {
+      "name": "lead-032-w006 you",
+      "type": "TEXT",
+      "start": 2897,
+      "end": 2974,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -120.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "you"
+    },
+    {
+      "name": "lead-032-w007 like",
+      "type": "TEXT",
+      "start": 2897,
+      "end": 2974,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -66.5,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "like"
+    },
+    {
+      "name": "lead-032-w008 to",
+      "type": "TEXT",
+      "start": 2897,
+      "end": 2974,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -22.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "to"
+    },
+    {
+      "name": "lead-032-w009 make",
+      "type": "TEXT",
+      "start": 2897,
+      "end": 2974,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 33.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "make"
+    },
+    {
+      "name": "lead-032-w010 now?",
+      "type": "TEXT",
+      "start": 2897,
+      "end": 2974,
+      "channel": 42,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 109.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "now?"
+    },
+    {
+      "name": "lead-033-w001 That",
+      "type": "TEXT",
+      "start": 2974,
+      "end": 3031,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -212.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "That"
+    },
+    {
+      "name": "lead-033-w002 last",
+      "type": "TEXT",
+      "start": 2974,
+      "end": 3031,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -145.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "last"
+    },
+    {
+      "name": "lead-033-w003 one",
+      "type": "TEXT",
+      "start": 2974,
+      "end": 3031,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -83.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "one"
+    },
+    {
+      "name": "lead-033-w004 set",
+      "type": "TEXT",
+      "start": 2974,
+      "end": 3031,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -25.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "set"
+    },
+    {
+      "name": "lead-033-w005 the",
+      "type": "TEXT",
+      "start": 2974,
+      "end": 3031,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 29.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-033-w006 town",
+      "type": "TEXT",
+      "start": 2974,
+      "end": 3031,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 97.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "town"
+    },
+    {
+      "name": "lead-033-w007 on",
+      "type": "TEXT",
+      "start": 2974,
+      "end": 3031,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 159.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "on"
+    },
+    {
+      "name": "lead-033-w008 fire.",
+      "type": "TEXT",
+      "start": 2974,
+      "end": 3031,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 215.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "fire."
+    },
+    {
+      "name": "lead-034-w001 Now",
+      "type": "TEXT",
+      "start": 3031,
+      "end": 3096,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -107.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "Now"
+    },
+    {
+      "name": "lead-034-w002 make",
+      "type": "TEXT",
+      "start": 3031,
+      "end": 3096,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -28.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "make"
+    },
+    {
+      "name": "lead-034-w003 one",
+      "type": "TEXT",
+      "start": 3031,
+      "end": 3096,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 45.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "one"
+    },
+    {
+      "name": "lead-034-w004 that",
+      "type": "TEXT",
+      "start": 3031,
+      "end": 3096,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 109.75,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "that"
+    },
+    {
+      "name": "lead-034-w005 is",
+      "type": "TEXT",
+      "start": 3031,
+      "end": 3096,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -112.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "is"
+    },
+    {
+      "name": "lead-034-w006 twice",
+      "type": "TEXT",
+      "start": 3031,
+      "end": 3096,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -52.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "twice"
+    },
+    {
+      "name": "lead-034-w007 as",
+      "type": "TEXT",
+      "start": 3031,
+      "end": 3096,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 12.75,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "as"
+    },
+    {
+      "name": "lead-034-w008 mean.",
+      "type": "TEXT",
+      "start": 3031,
+      "end": 3096,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 81.75,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "mean."
+    },
+    {
+      "name": "lead-035-w001 And",
+      "type": "TEXT",
+      "start": 3096,
+      "end": 3158,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -192.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "And"
+    },
+    {
+      "name": "lead-035-w002 fifty",
+      "type": "TEXT",
+      "start": 3096,
+      "end": 3158,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -126.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "fifty"
+    },
+    {
+      "name": "lead-035-w003 feet",
+      "type": "TEXT",
+      "start": 3096,
+      "end": 3158,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -58.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "feet"
+    },
+    {
+      "name": "lead-035-w004 or",
+      "type": "TEXT",
+      "start": 3096,
+      "end": 3158,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -4.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "or"
+    },
+    {
+      "name": "lead-035-w005 maybe",
+      "type": "TEXT",
+      "start": 3096,
+      "end": 3158,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 66.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "maybe"
+    },
+    {
+      "name": "lead-035-w006 higher.",
+      "type": "TEXT",
+      "start": 3096,
+      "end": 3158,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 171.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "higher."
+    },
+    {
+      "name": "lead-036-w001 Ah",
+      "type": "TEXT",
+      "start": 3158,
+      "end": 3220,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -138.5,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "Un"
+    },
+    {
+      "name": "lead-036-w002 na",
+      "type": "TEXT",
+      "start": 3158,
+      "end": 3220,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -99.0,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "un"
+    },
+    {
+      "name": "lead-036-w003 na",
+      "type": "TEXT",
+      "start": 3158,
+      "end": 3220,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -60.5,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "un"
+    },
+    {
+      "name": "lead-036-w004 na",
+      "type": "TEXT",
+      "start": 3158,
+      "end": 3220,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -22.0,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "un"
+    },
+    {
+      "name": "lead-036-w005 na",
+      "type": "TEXT",
+      "start": 3158,
+      "end": 3220,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 16.5,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "nun"
+    },
+    {
+      "name": "lead-036-w006 na",
+      "type": "TEXT",
+      "start": 3158,
+      "end": 3220,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 55.0,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "nun"
+    },
+    {
+      "name": "lead-036-w007 na",
+      "type": "TEXT",
+      "start": 3158,
+      "end": 3220,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 93.5,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "nun"
+    },
+    {
+      "name": "lead-036-w008 na.",
+      "type": "TEXT",
+      "start": 3158,
+      "end": 3220,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 135.75,
+        "offset_y": -267.0
+      },
+      "font_size": 30.0,
+      "text": "nun\u2026"
+    },
+    {
+      "name": "lead-037-w001 Until",
+      "type": "TEXT",
+      "start": 3220,
+      "end": 3304,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -198.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Until"
+    },
+    {
+      "name": "lead-037-w002 we",
+      "type": "TEXT",
+      "start": 3220,
+      "end": 3304,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -135.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "we"
+    },
+    {
+      "name": "lead-037-w003 set",
+      "type": "TEXT",
+      "start": 3220,
+      "end": 3304,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -83.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "set"
+    },
+    {
+      "name": "lead-037-w004 the",
+      "type": "TEXT",
+      "start": 3220,
+      "end": 3304,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -27.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-037-w005 monsters",
+      "type": "TEXT",
+      "start": 3220,
+      "end": 3304,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 71.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "monsters"
+    },
+    {
+      "name": "lead-037-w006 loose.",
+      "type": "TEXT",
+      "start": 3220,
+      "end": 3304,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 188.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "loose."
+    },
+    {
+      "name": "lead-038-w001 Oh",
+      "type": "TEXT",
+      "start": 3304,
+      "end": 3348,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -30.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Oh"
+    },
+    {
+      "name": "lead-038-w002 my.",
+      "type": "TEXT",
+      "start": 3304,
+      "end": 3348,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 23.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "my."
+    },
+    {
+      "name": "lead-039-w001 They",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -144.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "They"
+    },
+    {
+      "name": "lead-039-w002 can",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -82.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "can"
+    },
+    {
+      "name": "lead-039-w003 shrink",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -12.0,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "shrink"
+    },
+    {
+      "name": "lead-039-w004 down",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 69.25,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "down"
+    },
+    {
+      "name": "lead-039-w005 to",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 124.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "to"
+    },
+    {
+      "name": "lead-039-w006 fit",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 160.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "fit"
+    },
+    {
+      "name": "lead-039-w007 in",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -162.5,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "in"
+    },
+    {
+      "name": "lead-039-w008 any",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -119.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "any"
+    },
+    {
+      "name": "lead-039-w009 scene,",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -47.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "scene,"
+    },
+    {
+      "name": "lead-039-w010 just",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 42,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 26.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "just"
+    },
+    {
+      "name": "lead-039-w011 as",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 44,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 74.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "as"
+    },
+    {
+      "name": "lead-039-w012 mean.",
+      "type": "TEXT",
+      "start": 3368,
+      "end": 3496,
+      "channel": 46,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 136.0,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "mean."
+    },
+    {
+      "name": "lead-040-w001 Grow",
+      "type": "TEXT",
+      "start": 3511,
+      "end": 3627,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -202.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Grow"
+    },
+    {
+      "name": "lead-040-w002 up",
+      "type": "TEXT",
+      "start": 3511,
+      "end": 3627,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -138.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "up"
+    },
+    {
+      "name": "lead-040-w003 to",
+      "type": "TEXT",
+      "start": 3511,
+      "end": 3627,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -96.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "to"
+    },
+    {
+      "name": "lead-040-w004 be",
+      "type": "TEXT",
+      "start": 3511,
+      "end": 3627,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -54.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "be"
+    },
+    {
+      "name": "lead-040-w005 ten",
+      "type": "TEXT",
+      "start": 3511,
+      "end": 3627,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -4.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "ten"
+    },
+    {
+      "name": "lead-040-w006 times",
+      "type": "TEXT",
+      "start": 3511,
+      "end": 3627,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 68.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "times"
+    },
+    {
+      "name": "lead-040-w007 or",
+      "type": "TEXT",
+      "start": 3511,
+      "end": 3627,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 132.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "or"
+    },
+    {
+      "name": "lead-040-w008 more.",
+      "type": "TEXT",
+      "start": 3511,
+      "end": 3627,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 197.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "more."
+    },
+    {
+      "name": "lead-041-w001 Change",
+      "type": "TEXT",
+      "start": 3638,
+      "end": 3713,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -101.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "Change"
+    },
+    {
+      "name": "lead-041-w002 to",
+      "type": "TEXT",
+      "start": 3638,
+      "end": 3713,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -25.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "to"
+    },
+    {
+      "name": "lead-041-w003 smoke",
+      "type": "TEXT",
+      "start": 3638,
+      "end": 3713,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 45.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "smoke"
+    },
+    {
+      "name": "lead-041-w004 and",
+      "type": "TEXT",
+      "start": 3638,
+      "end": 3713,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 127.5,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "and"
+    },
+    {
+      "name": "lead-041-w005 drift",
+      "type": "TEXT",
+      "start": 3638,
+      "end": 3713,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -128.75,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "drift"
+    },
+    {
+      "name": "lead-041-w006 through",
+      "type": "TEXT",
+      "start": 3638,
+      "end": 3713,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -33.75,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "through"
+    },
+    {
+      "name": "lead-041-w007 anything.",
+      "type": "TEXT",
+      "start": 3638,
+      "end": 3713,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 95.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "anything."
+    },
+    {
+      "name": "lead-042-w001 Through",
+      "type": "TEXT",
+      "start": 3713,
+      "end": 3772,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -87.0,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "Through"
+    },
+    {
+      "name": "lead-042-w002 the",
+      "type": "TEXT",
+      "start": 3713,
+      "end": 3772,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 3.75,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-042-w003 keyhole",
+      "type": "TEXT",
+      "start": 3713,
+      "end": 3772,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 90.75,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "keyhole"
+    },
+    {
+      "name": "lead-042-w004 in",
+      "type": "TEXT",
+      "start": 3713,
+      "end": 3772,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -108.75,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "in"
+    },
+    {
+      "name": "lead-042-w005 the",
+      "type": "TEXT",
+      "start": 3713,
+      "end": 3772,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -63.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-042-w006 steel",
+      "type": "TEXT",
+      "start": 3713,
+      "end": 3772,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 4.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "steel"
+    },
+    {
+      "name": "lead-042-w007 door.",
+      "type": "TEXT",
+      "start": 3713,
+      "end": 3772,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 85.25,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "door."
+    },
+    {
+      "name": "lead-044-w001 You're",
+      "type": "TEXT",
+      "start": 3882,
+      "end": 4012,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -133.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "You're"
+    },
+    {
+      "name": "lead-044-w002 right,",
+      "type": "TEXT",
+      "start": 3882,
+      "end": 4012,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -53.25,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "right,"
+    },
+    {
+      "name": "lead-044-w003 just",
+      "type": "TEXT",
+      "start": 3882,
+      "end": 4012,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 12.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "just"
+    },
+    {
+      "name": "lead-044-w004 right",
+      "type": "TEXT",
+      "start": 3882,
+      "end": 4012,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 75.25,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "right"
+    },
+    {
+      "name": "lead-044-w005 now,",
+      "type": "TEXT",
+      "start": 3882,
+      "end": 4012,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 142.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "now,"
+    },
+    {
+      "name": "lead-044-w006 but",
+      "type": "TEXT",
+      "start": 3882,
+      "end": 4012,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -146.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "but"
+    },
+    {
+      "name": "lead-044-w007 you",
+      "type": "TEXT",
+      "start": 3882,
+      "end": 4012,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -95.0,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "you"
+    },
+    {
+      "name": "lead-044-w008 know",
+      "type": "TEXT",
+      "start": 3882,
+      "end": 4012,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -30.5,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "know"
+    },
+    {
+      "name": "lead-044-w009 I",
+      "type": "TEXT",
+      "start": 3882,
+      "end": 4012,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 15.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "I"
+    },
+    {
+      "name": "lead-044-w010 don't",
+      "type": "TEXT",
+      "start": 3882,
+      "end": 4012,
+      "channel": 42,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 59.0,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "don't"
+    },
+    {
+      "name": "lead-044-w011 mind.",
+      "type": "TEXT",
+      "start": 3882,
+      "end": 4012,
+      "channel": 44,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 132.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "mind."
+    },
+    {
+      "name": "lead-045-w001 Spend",
+      "type": "TEXT",
+      "start": 4012,
+      "end": 4139,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -105.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "Spend"
+    },
+    {
+      "name": "lead-045-w002 time",
+      "type": "TEXT",
+      "start": 4012,
+      "end": 4139,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -20.0,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "time"
+    },
+    {
+      "name": "lead-045-w003 watching",
+      "type": "TEXT",
+      "start": 4012,
+      "end": 4139,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 85.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "watching"
+    },
+    {
+      "name": "lead-045-w004 monsters",
+      "type": "TEXT",
+      "start": 4012,
+      "end": 4139,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -102.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "monsters"
+    },
+    {
+      "name": "lead-045-w005 crash",
+      "type": "TEXT",
+      "start": 4012,
+      "end": 4139,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 13.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "crash"
+    },
+    {
+      "name": "lead-045-w006 around.",
+      "type": "TEXT",
+      "start": 4012,
+      "end": 4139,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 115.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "around."
+    },
+    {
+      "name": "lead-046-w001 Got",
+      "type": "TEXT",
+      "start": 4139,
+      "end": 4225,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -170.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Got"
+    },
+    {
+      "name": "lead-046-w002 the",
+      "type": "TEXT",
+      "start": 4139,
+      "end": 4225,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -113.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-046-w003 hang",
+      "type": "TEXT",
+      "start": 4139,
+      "end": 4225,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -46.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "hang"
+    },
+    {
+      "name": "lead-046-w004 of",
+      "type": "TEXT",
+      "start": 4139,
+      "end": 4225,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 11.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "of"
+    },
+    {
+      "name": "lead-046-w005 every",
+      "type": "TEXT",
+      "start": 4139,
+      "end": 4225,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 75.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "every"
+    },
+    {
+      "name": "lead-046-w006 face.",
+      "type": "TEXT",
+      "start": 4139,
+      "end": 4225,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 159.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "face."
+    },
+    {
+      "name": "lead-047-w001 You",
+      "type": "TEXT",
+      "start": 4250,
+      "end": 4295,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -48.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "You"
+    },
+    {
+      "name": "lead-047-w002 made.",
+      "type": "TEXT",
+      "start": 4250,
+      "end": 4295,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 31.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "made."
+    },
+    {
+      "name": "lead-048 [vocal sound]",
+      "type": "TEXT",
+      "start": 4295,
+      "end": 4421,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "[vocal sound]"
+    },
+    {
+      "name": "lead-049-w001 Choose",
+      "type": "TEXT",
+      "start": 4421,
+      "end": 4485,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -207.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Choose"
+    },
+    {
+      "name": "lead-049-w002 your",
+      "type": "TEXT",
+      "start": 4421,
+      "end": 4485,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -115.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "your"
+    },
+    {
+      "name": "lead-049-w003 favorite",
+      "type": "TEXT",
+      "start": 4421,
+      "end": 4485,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -19.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "favorite"
+    },
+    {
+      "name": "lead-049-w004 monster",
+      "type": "TEXT",
+      "start": 4421,
+      "end": 4485,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 103.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "monster"
+    },
+    {
+      "name": "lead-049-w005 beast.",
+      "type": "TEXT",
+      "start": 4421,
+      "end": 4485,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 215.5,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "beast."
+    },
+    {
+      "name": "lead-050-w001 Suit",
+      "type": "TEXT",
+      "start": 4485,
+      "end": 4560,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -221.25,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Suit"
+    },
+    {
+      "name": "lead-050-w002 the",
+      "type": "TEXT",
+      "start": 4485,
+      "end": 4560,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -160.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-050-w003 way",
+      "type": "TEXT",
+      "start": 4485,
+      "end": 4560,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -99.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "way"
+    },
+    {
+      "name": "lead-050-w004 you",
+      "type": "TEXT",
+      "start": 4485,
+      "end": 4560,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -36.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "you"
+    },
+    {
+      "name": "lead-050-w005 wanna",
+      "type": "TEXT",
+      "start": 4485,
+      "end": 4560,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 43.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "wanna"
+    },
+    {
+      "name": "lead-050-w006 be,",
+      "type": "TEXT",
+      "start": 4485,
+      "end": 4560,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 120.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "be,"
+    },
+    {
+      "name": "lead-050-w007 be,",
+      "type": "TEXT",
+      "start": 4485,
+      "end": 4560,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 173.75,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "be,"
+    },
+    {
+      "name": "lead-050-w008 be.",
+      "type": "TEXT",
+      "start": 4485,
+      "end": 4560,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 227.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "be."
+    },
+    {
+      "name": "lead-051-w001 Hunting",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -201.75,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "Hunting"
+    },
+    {
+      "name": "lead-051-w002 Ed,",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -125.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "Ed,"
+    },
+    {
+      "name": "lead-051-w003 head",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -66.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "head"
+    },
+    {
+      "name": "lead-051-w004 hunting",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 19.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "hunting"
+    },
+    {
+      "name": "lead-051-w005 Ted.",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 102.25,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "Ted."
+    },
+    {
+      "name": "lead-052-w001 Hide",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 166.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "Hide"
+    },
+    {
+      "name": "lead-052-w002 and",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 226.5,
+        "offset_y": -242.5
+      },
+      "font_size": 31.0,
+      "text": "and"
+    },
+    {
+      "name": "lead-052-w003 seek's",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -190.5,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "seek's"
+    },
+    {
+      "name": "lead-052-w004 the",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 40,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -122.25,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "the"
+    },
+    {
+      "name": "lead-052-w005 game",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 42,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -58.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "game"
+    },
+    {
+      "name": "lead-052-w006 that",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 44,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 9.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "that"
+    },
+    {
+      "name": "lead-052-w007 monsters",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 46,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 102.5,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "monsters"
+    },
+    {
+      "name": "lead-052-w008 play.",
+      "type": "TEXT",
+      "start": 4560,
+      "end": 4699,
+      "channel": 48,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 199.75,
+        "offset_y": -291.5
+      },
+      "font_size": 31.0,
+      "text": "play."
+    },
+    {
+      "name": "lead-053-w001 And",
+      "type": "TEXT",
+      "start": 4699,
+      "end": 4937,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -106.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "And"
+    },
+    {
+      "name": "lead-053-w002 play,",
+      "type": "TEXT",
+      "start": 4699,
+      "end": 4937,
+      "channel": 26,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -36.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "play,"
+    },
+    {
+      "name": "lead-053-w003 and",
+      "type": "TEXT",
+      "start": 4699,
+      "end": 4937,
+      "channel": 28,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 32.25,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "and"
+    },
+    {
+      "name": "lead-053-w004 play,",
+      "type": "TEXT",
+      "start": 4699,
+      "end": 4937,
+      "channel": 30,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 100.75,
+        "offset_y": -242.5
+      },
+      "font_size": 35.0,
+      "text": "play,"
+    },
+    {
+      "name": "lead-053-w005 and",
+      "type": "TEXT",
+      "start": 4699,
+      "end": 4937,
+      "channel": 32,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -106.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "and"
+    },
+    {
+      "name": "lead-053-w006 play,",
+      "type": "TEXT",
+      "start": 4699,
+      "end": 4937,
+      "channel": 34,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": -38.0,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "play,"
+    },
+    {
+      "name": "lead-053-w007 and",
+      "type": "TEXT",
+      "start": 4699,
+      "end": 4937,
+      "channel": 36,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 30.5,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "and"
+    },
+    {
+      "name": "lead-053-w008 play.",
+      "type": "TEXT",
+      "start": 4699,
+      "end": 4937,
+      "channel": 38,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 99.25,
+        "offset_y": -291.5
+      },
+      "font_size": 35.0,
+      "text": "play."
+    },
+    {
+      "name": "lead-057-w001 Undone.",
+      "type": "TEXT",
+      "start": 4971,
+      "end": 5025,
+      "channel": 24,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": -267.0
+      },
+      "font_size": 35.0,
+      "text": "Undone."
+    },
+    {
+      "name": "LOCKED MASTER \u2014 zero at frame 1",
+      "type": "SOUND",
+      "start": 1,
+      "end": 5290,
+      "channel": 2
+    },
+    {
+      "name": "HARPER-ROPE-PATROL",
+      "type": "MOVIE",
+      "start": 627,
+      "end": 766,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\video-tests\\KLING-PATROL-001\\KLING-PATROL-001-01.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "PA-ANNOUNCEMENT-CLOSEUP",
+      "type": "MOVIE",
+      "start": 766,
+      "end": 874,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\ARCTIC-PA-001\\Arctic-PA-ripples-v002.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HARPER-ARCTIC-REACTION",
+      "type": "MOVIE",
+      "start": 874,
+      "end": 1012,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\ARCTIC-PA-001\\Harper-reaction-eyes-v001.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "ZONE8-GATE-SHAKE",
+      "type": "MOVIE",
+      "start": 1012,
+      "end": 1041,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\ZONE8-GATE-001\\Zone8-gate-rattle-v004.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "LAB-PITCH-001",
+      "type": "MOVIE",
+      "start": 1041,
+      "end": 1103,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\video-tests\\KLING-LAB-PITCH-001\\KLING-LAB-PITCH-001-01.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "TOWN-FIRE-001",
+      "type": "MOVIE",
+      "start": 1103,
+      "end": 1162,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\video-tests\\KLING-TOWN-001\\KLING-TOWN-001-01.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "LAB-MEAN-001",
+      "type": "MOVIE",
+      "start": 1162,
+      "end": 1231,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\video-tests\\KLING-LAB-MEAN-002\\KLING-LAB-MEAN-002-01.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HARPER-TALL-GATE-001",
+      "type": "MOVIE",
+      "start": 1231,
+      "end": 1305,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\video-tests\\KLING-TALL-GATE-001\\KLING-TALL-GATE-001-01.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "OPEN-WIDE",
+      "type": "MOVIE",
+      "start": 1,
+      "end": 90,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\HELI-LIGHTS-001\\KLING-OPEN-001-lights-v002.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SWAMP-FROG-001",
+      "type": "MOVIE",
+      "start": 1305,
+      "end": 1507,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SWAMP-LIGHTS-001\\Swamp-frog-lights-v002.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HARPER-TOUR-001",
+      "type": "MOVIE",
+      "start": 1507,
+      "end": 1625,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\TOUR-LIGHTS-001\\Tour-lights-v001.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HARPER-AQUARIUM-001",
+      "type": "MOVIE",
+      "start": 1625,
+      "end": 1708,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\AQUARIUM-SPEECH-001\\Aquarium-speech-v001.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "OPEN-LANDING",
+      "type": "MOVIE",
+      "start": 90,
+      "end": 207,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\EARLY-BEACONS-001\\OPEN-LANDING\\OPEN-LANDING-beacons-v001.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HARPER-INTRO",
+      "type": "MOVIE",
+      "start": 207,
+      "end": 304,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\EARLY-BEACONS-001\\HARPER-INTRO\\HARPER-INTRO-beacons-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HARPER-BOLT",
+      "type": "MOVIE",
+      "start": 304,
+      "end": 380,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\EARLY-BEACONS-001\\HARPER-BOLT\\HARPER-BOLT-beacons-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "STEALTH-POV",
+      "type": "MOVIE",
+      "start": 380,
+      "end": 504,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\EARLY-BEACONS-001\\STEALTH-POV\\STEALTH-POV-beacons-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HARPER rope demonstration",
+      "type": "MOVIE",
+      "start": 1708,
+      "end": 1768,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\ROPE-DEMO-LIGHTS-001\\Rope-demo-lights-v001.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HARPER STAY001",
+      "type": "MOVIE",
+      "start": 1768,
+      "end": 1893,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\video-tests\\KLING-STAY-001\\KLING-STAY-001-01.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "KID EYEROLL001",
+      "type": "MOVIE",
+      "start": 1893,
+      "end": 2036,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\video-tests\\KLING-EYEROLL-001\\KLING-EYEROLL-001-01.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HARPER-SIGN-SEQUENCE",
+      "type": "MOVIE",
+      "start": 504,
+      "end": 627,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\HARPER-ARCTIC-001\\Harper-arctic-cutaway-v003.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "CREATURE-PORTRAIT-AVIARY-001",
+      "type": "MOVIE",
+      "start": 2092,
+      "end": 2118,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\CREATURE-PORTRAITS-001\\aviary-push-v001.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "CREATURE-PORTRAIT-INSECTARIUM-001",
+      "type": "MOVIE",
+      "start": 2118,
+      "end": 2144,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\PORTRAIT-BEACONS-001\\insectarium\\insectarium-beacon-v001.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "CREATURE-PORTRAIT-EXOBIOLOGY-001",
+      "type": "MOVIE",
+      "start": 2144,
+      "end": 2170,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\PORTRAIT-BEACONS-001\\exobiology\\exobiology-beacon-v001.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HUNT-SEARCH-001",
+      "type": "MOVIE",
+      "start": 2170,
+      "end": 2282,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\HUNT-CLEANPLATE-001\\search-clean-v001.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HUNT-LURCH-001",
+      "type": "MOVIE",
+      "start": 2282,
+      "end": 2302,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\HUNT-CLEANPLATE-001\\lurch-clean-v001.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "NEARMISS-3-001",
+      "type": "MOVIE",
+      "start": 2444,
+      "end": 2510,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\NEARMISS-EDIT-001\\nearmiss-3-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "NEARMISS-2-001",
+      "type": "MOVIE",
+      "start": 2378,
+      "end": 2444,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\NEARMISS-EDIT-002\\nearmiss-2-timed-v002.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "NEARMISS-1-001",
+      "type": "MOVIE",
+      "start": 2302,
+      "end": 2378,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\RABBIT-BLUR-001\\Rabbit-local-motion-blur-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "HABITATS-CHOOSE-001",
+      "type": "MOVIE",
+      "start": 2036,
+      "end": 2092,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\HABITAT-ROAR-002\\Habitat-enclosed-roar-v002.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-008-count5",
+      "type": "MOVIE",
+      "start": 2510,
+      "end": 2537,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\COUNTDOWN-EDIT-001\\count5-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.024999976158142,
+        "scale_y": 1.024999976158142,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-008-count3",
+      "type": "MOVIE",
+      "start": 2548,
+      "end": 2578,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\COUNTDOWN-EDIT-001\\count3-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.024999976158142,
+        "scale_y": 1.024999976158142,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-008-count2",
+      "type": "MOVIE",
+      "start": 2578,
+      "end": 2638,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\COUNTDOWN-EDIT-001\\count2-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.024999976158142,
+        "scale_y": 1.024999976158142,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-008-duel",
+      "type": "MOVIE",
+      "start": 2638,
+      "end": 2791,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\DUEL-ROAR-001\\duel-roar-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.024999976158142,
+        "scale_y": 1.024999976158142,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-008-flight",
+      "type": "MOVIE",
+      "start": 2791,
+      "end": 2828,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\FLIGHT-SNOW-002\\flight-snow-v002.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-008-landing",
+      "type": "MOVIE",
+      "start": 2828,
+      "end": 2906,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\COUNTDOWN-EDIT-001\\landing-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.024999976158142,
+        "scale_y": 1.024999976158142,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Count punch 4",
+      "type": "TEXT",
+      "start": 2537,
+      "end": 2547,
+      "channel": 108,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "font_size": 180.0,
+      "text": "4"
+    },
+    {
+      "name": "Count punch 3",
+      "type": "TEXT",
+      "start": 2548,
+      "end": 2558,
+      "channel": 108,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "font_size": 180.0,
+      "text": "3"
+    },
+    {
+      "name": "Count punch 2",
+      "type": "TEXT",
+      "start": 2603,
+      "end": 2613,
+      "channel": 108,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "font_size": 180.0,
+      "text": "2"
+    },
+    {
+      "name": "SCN-008-count4-motion",
+      "type": "MOVIE",
+      "start": 2537,
+      "end": 2548,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\COUNTDOWN-EDIT-002\\count4-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.024999976158142,
+        "scale_y": 1.024999976158142,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Arm impact ray 0",
+      "type": "COLOR",
+      "start": 2541,
+      "end": 2544,
+      "channel": 85,
+      "transform": {
+        "scale_x": 0.02199999988079071,
+        "scale_y": 0.004999999888241291,
+        "offset_x": -250.0,
+        "offset_y": -180.0
+      }
+    },
+    {
+      "name": "Arm impact ray 1",
+      "type": "COLOR",
+      "start": 2541,
+      "end": 2544,
+      "channel": 86,
+      "transform": {
+        "scale_x": 0.02199999988079071,
+        "scale_y": 0.004999999888241291,
+        "offset_x": -263.1778564453125,
+        "offset_y": -152.63589477539062
+      }
+    },
+    {
+      "name": "Arm impact ray 2",
+      "type": "COLOR",
+      "start": 2541,
+      "end": 2544,
+      "channel": 87,
+      "transform": {
+        "scale_x": 0.02199999988079071,
+        "scale_y": 0.004999999888241291,
+        "offset_x": -292.7882385253906,
+        "offset_y": -145.8775177001953
+      }
+    },
+    {
+      "name": "Arm impact ray 3",
+      "type": "COLOR",
+      "start": 2541,
+      "end": 2544,
+      "channel": 88,
+      "transform": {
+        "scale_x": 0.02199999988079071,
+        "scale_y": 0.004999999888241291,
+        "offset_x": -316.5339050292969,
+        "offset_y": -164.81407165527344
+      }
+    },
+    {
+      "name": "Arm impact ray 4",
+      "type": "COLOR",
+      "start": 2541,
+      "end": 2544,
+      "channel": 89,
+      "transform": {
+        "scale_x": 0.02199999988079071,
+        "scale_y": 0.004999999888241291,
+        "offset_x": -316.5339050292969,
+        "offset_y": -195.18592834472656
+      }
+    },
+    {
+      "name": "Arm impact ray 5",
+      "type": "COLOR",
+      "start": 2541,
+      "end": 2544,
+      "channel": 90,
+      "transform": {
+        "scale_x": 0.02199999988079071,
+        "scale_y": 0.004999999888241291,
+        "offset_x": -292.7882385253906,
+        "offset_y": -214.1224822998047
+      }
+    },
+    {
+      "name": "Arm impact ray 6",
+      "type": "COLOR",
+      "start": 2541,
+      "end": 2544,
+      "channel": 91,
+      "transform": {
+        "scale_x": 0.02199999988079071,
+        "scale_y": 0.004999999888241291,
+        "offset_x": -263.1778564453125,
+        "offset_y": -207.36410522460938
+      }
+    },
+    {
+      "name": "Rear cage halo",
+      "type": "TEXT",
+      "start": 2932,
+      "end": 2974,
+      "channel": 86,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "font_size": 25.0,
+      "text": "\u2022"
+    },
+    {
+      "name": "Rear cage eye",
+      "type": "TEXT",
+      "start": 2932,
+      "end": 2974,
+      "channel": 87,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "font_size": 12.0,
+      "text": "\u2022"
+    },
+    {
+      "name": "Rear cage hot core",
+      "type": "TEXT",
+      "start": 2932,
+      "end": 2974,
+      "channel": 88,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "font_size": 5.0,
+      "text": "\u2022"
+    },
+    {
+      "name": "Schematic blur zoom",
+      "type": "MOVIE",
+      "start": 3088,
+      "end": 3104,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCHEMATIC-ZOOM-002\\schematic-blur-zoom-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Fixed schematic ruler",
+      "type": "IMAGE",
+      "start": 3104,
+      "end": 3223,
+      "channel": 83,
+      "transform": {
+        "scale_x": 0.7651434540748596,
+        "scale_y": 0.7651434540748596,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Fixed schematic header",
+      "type": "IMAGE",
+      "start": 3104,
+      "end": 3223,
+      "channel": 84,
+      "transform": {
+        "scale_x": 0.7651434540748596,
+        "scale_y": 0.7651434540748596,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Living schematic sustained chewing",
+      "type": "MOVIE",
+      "start": 3104,
+      "end": 3223,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCHEMATIC-ACTION-002\\schematic-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Count punch 5 corrected",
+      "type": "TEXT",
+      "start": 2523,
+      "end": 2529,
+      "channel": 108,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "font_size": 180.0,
+      "text": "5"
+    },
+    {
+      "name": "Scene9 discussion motion",
+      "type": "MOVIE",
+      "start": 2906,
+      "end": 2974,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE9-PERFORMANCES-001\\discussion-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Scene9 fire motion",
+      "type": "MOVIE",
+      "start": 2974,
+      "end": 3031,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE9-PERFORMANCES-001\\fire-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Scene9 presentation motion",
+      "type": "MOVIE",
+      "start": 3031,
+      "end": 3088,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE9-PERFORMANCES-001\\presentation-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Approved gate release grip change",
+      "type": "MOVIE",
+      "start": 3301,
+      "end": 3379,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE10-GATE-001\\gate-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Scientist stealth exit performance",
+      "type": "MOVIE",
+      "start": 3223,
+      "end": 3301,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE10-EXIT-001\\exit-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Scene11 shrink-a performance",
+      "type": "MOVIE",
+      "start": 3379,
+      "end": 3425,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE11-TRANSFORMS-001\\shrink-a-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Scene11 shrink-b performance",
+      "type": "MOVIE",
+      "start": 3425,
+      "end": 3515,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE11-POLISH-001\\shrink-b-polished-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Scene11 grow-a performance",
+      "type": "MOVIE",
+      "start": 3515,
+      "end": 3551,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE11-INSECT-002\\grow-a-polished-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Scene11 grow-b performance",
+      "type": "MOVIE",
+      "start": 3551,
+      "end": 3642,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE11-INSECT-002\\grow-b-polished-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Scene11 smoke-a performance",
+      "type": "MOVIE",
+      "start": 3642,
+      "end": 3724,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE11-TRANSFORMS-001\\smoke-a-timed-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Scene11 smoke-b performance",
+      "type": "MOVIE",
+      "start": 3724,
+      "end": 3775,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE11-SMOKE-003\\smoke-b-turbulence-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Scene12 No way / Yes way performances and blur pullback",
+      "type": "MOVIE",
+      "start": 3775,
+      "end": 3883,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE12-EXCHANGE-001\\exchange-composite-v001.mp4",
+      "width": 1280,
+      "height": 720,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Scene13 familiar faces procession performance",
+      "type": "MOVIE",
+      "start": 4126,
+      "end": 4242,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\SCENE13-PROCESSION-001\\procession-timed-v001.mp4",
+      "width": 1916,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-014-APPRAISE",
+      "type": "MOVIE",
+      "start": 4465,
+      "end": 4495,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\OUTRO-001\\APPRAISE-timed-v001.mp4",
+      "width": 1920,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-014-POLITICIAN",
+      "type": "MOVIE",
+      "start": 4495,
+      "end": 4538,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\OUTRO-001\\POLITICIAN-timed-v001.mp4",
+      "width": 1920,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-014-DISPLAY",
+      "type": "MOVIE",
+      "start": 4538,
+      "end": 4568,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\OUTRO-001\\DISPLAY-timed-v001.mp4",
+      "width": 1920,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-014-SCIENTISTS",
+      "type": "MOVIE",
+      "start": 4568,
+      "end": 4624,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\OUTRO-001\\SCIENTISTS-timed-v001.mp4",
+      "width": 1920,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-012-ESCAPE-SHOW blinking facility beacons",
+      "type": "MOVIE",
+      "start": 3883,
+      "end": 4126,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\OUTRO-LIGHTS-001\\SCN-012-ESCAPE-SHOW-beacons-v001.mp4",
+      "width": 1920,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-014-PLAY blinking facility beacons",
+      "type": "MOVIE",
+      "start": 4624,
+      "end": 4719,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\OUTRO-LIGHTS-001\\SCN-014-PLAY-beacons-v001.mp4",
+      "width": 1920,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-014-HARPER-KID blinking facility beacons",
+      "type": "MOVIE",
+      "start": 4793,
+      "end": 4951,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\OUTRO-LIGHTS-001\\SCN-014-HARPER-KID-beacons-v001.mp4",
+      "width": 1920,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-014-BEYOND-FENCE-beacons-v002",
+      "type": "MOVIE",
+      "start": 4242,
+      "end": 4414,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\OUTRO-LIGHTS-002\\SCN-014-BEYOND-FENCE-beacons-v002.mp4",
+      "width": 1920,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "CEO-timed-v001",
+      "type": "MOVIE",
+      "start": 4414,
+      "end": 4465,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\OUTRO-001\\CEO-timed-v001.mp4",
+      "width": 1920,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "INSPECTOR-timed-v001",
+      "type": "MOVIE",
+      "start": 4719,
+      "end": 4793,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\OUTRO-001\\INSPECTOR-timed-v001.mp4",
+      "width": 1920,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "SCN-015-FINALE-beacons-v002",
+      "type": "MOVIE",
+      "start": 4951,
+      "end": 5291,
+      "channel": 1,
+      "path": "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\animatic\\..\\motion-graphics\\OUTRO-LIGHTS-002\\SCN-015-FINALE-beacons-v002.mp4",
+      "width": 1920,
+      "height": 1080,
+      "transform": {
+        "scale_x": 0.6666666865348816,
+        "scale_y": 0.6666666865348816,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      }
+    },
+    {
+      "name": "Final title Monsters Undone",
+      "type": "TEXT",
+      "start": 5279,
+      "end": 5291,
+      "channel": 110,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "font_size": 34.0,
+      "text": "MONSTERS UNDONE"
+    },
+    {
+      "name": "Final credit Arne Gleason",
+      "type": "TEXT",
+      "start": 5279,
+      "end": 5291,
+      "channel": 111,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "font_size": 22.0,
+      "text": "\u00a9 2026 Arne Gleason"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "cli_args": [
+    "image_to_video",
+    "--image",
+    "C:\\audio\\shared\\amtw-runtime\\jobs\\monsters-loose-word-timing-20260913\\assets\\SCN-012-YES-v001.png",
+    "--model",
+    "kling-video-v3_0",
+    "--duration",
+    "5",
+    "--resolution",
+    "1080p",
+    "--imageCount",
+    "1",
+    "--enable_audio",
+    "true",
+    "--prefer_multi_shots",
+    "false",
+    "Preserve the exact illustrated character identities, age, clothing and natural head proportions from the starting image. Rich vintage comic ink and crosshatching, amber practical lighting and teal night. Fixed camera throughout, no cuts or zoom, rigid architecture. No text, captions or speech bubbles. One continuous five-second medium two-shot. Harper is the red-haired woman on screen RIGHT; the boy is on screen LEFT. Harper keeps her gaze on the boy, warm and completely sure these incredible stories are true. At0.4seconds she speaks ONE clear English phrase: \"Yes way!\" A bright deliberate Yes then a confident way, finishing by about1.6seconds. Natural articulated lips, slight eyebrow lift and one small affirmative nod, then a lively knowing smile. No extra words or repeated mouth flapping. Boy silently listens with intrigued delight, mouth closed; he never speaks in this shot. Her arms remain naturally lowered, hands out of frame; no pointing, no large gestures. Preserve both faces and their eyeline. Remain settled with natural breathing through final seconds. Only Harper speaks, no music."
+  ],
+  "purpose": "Two approved exchange performances; generated dialogue is for articulation only, song stays master audio.",
+  "prompt_lock": "Preserve the exact illustrated character identities, age, clothing and natural head proportions from the starting image. Rich vintage comic ink and crosshatching, amber practical lighting and teal night. Fixed camera throughout, no cuts or zoom, rigid architecture. No text, captions or speech bubbles."
+}

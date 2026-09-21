@@ -1,0 +1,22 @@
+[
+  {
+    "id": "SCN-013-FAMILIAR-A",
+    "start_frame": 4126,
+    "end_frame_exclusive": 4184,
+    "source": "assets/ANCH-013-A-v001.png",
+    "source_in_frame": 0,
+    "media_type": "image",
+    "status": "storyboard_for_review",
+    "note": "ANCH-013-A / The sign comes alive"
+  },
+  {
+    "id": "SCN-013-FAMILIAR-B",
+    "start_frame": 4184,
+    "end_frame_exclusive": 4242,
+    "source": "assets/ANCH-013-B-v001.png",
+    "source_in_frame": 0,
+    "media_type": "image",
+    "status": "storyboard_for_review",
+    "note": "ANCH-013-B / Another familiar face"
+  }
+]
