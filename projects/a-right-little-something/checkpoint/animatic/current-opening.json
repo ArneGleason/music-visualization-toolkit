@@ -1,0 +1,51 @@
+{
+  "version": "v03",
+  "fps": 24,
+  "endFrameExclusive": 633,
+  "shots": [
+    {
+      "id": "opening-001",
+      "title": "Space establishes; ship drifts in",
+      "startFrame": 1,
+      "frames": 227,
+      "review": {
+        "selectionVersion": "opening-motion-v03",
+        "status": "best available; pending sequence review",
+        "notes": "Current best establishing take; review the large entrance and recession in context."
+      }
+    },
+    {
+      "id": "opening-002",
+      "title": "Harper's face drifts into foreground",
+      "startFrame": 228,
+      "frames": 125,
+      "review": {
+        "selectionVersion": "opening-motion-v03",
+        "status": "preferred take",
+        "notes": "Preferred locked-camera lines take; user liked its performance and look. Distant background is steadier."
+      }
+    },
+    {
+      "id": "opening-003",
+      "title": "One continuous pullback across both up-above phrases",
+      "startFrame": 353,
+      "frames": 190,
+      "review": {
+        "selectionVersion": "opening-motion-v03",
+        "status": "continuous candidate; pending sequence review",
+        "notes": "One uninterrupted pullback covers both complete up-above phrases, removing the former restart. Ship closer to approved geometry; moon depth and field continuity remain provisional."
+      }
+    },
+    {
+      "id": "opening-005",
+      "title": "Hands on the transparent wall",
+      "startFrame": 543,
+      "frames": 90,
+      "review": {
+        "selectionVersion": "opening-motion-v03",
+        "status": "best available; pending sequence review",
+        "notes": "Current best floating interior take; retained Kling performance and connected field lines."
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\animatic\\A-Right-Little-Something-lyric-timing-v03.mp4",
+  "video": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\animatic\\A-Right-Little-Something-opening-motion-v03.mp4",
+  "fps": 24,
+  "frames": 5265,
+  "openingEndFrameExclusive": 633,
+  "entries": [
+    {
+      "shot": "opening-001",
+      "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\kling-opening\\completion-v01\\opening-001\\opening-001-01-clean.mp4",
+      "sourceWidth": 1916,
+      "sourceHeight": 1080,
+      "startFrame": 1,
+      "frames": 227,
+      "sourceEditStartFrame": 13,
+      "availableLeadOutFrames": 26,
+      "file": "opening-001.mp4"
+    },
+    {
+      "shot": "opening-002",
+      "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\kling-experiments\\depth-field-v01\\depth-lines\\depth-lines-01-clean.mp4",
+      "sourceWidth": 1916,
+      "sourceHeight": 1080,
+      "startFrame": 228,
+      "frames": 125,
+      "sourceEditStartFrame": 13,
+      "availableLeadOutFrames": 32,
+      "file": "opening-002.mp4"
+    },
+    {
+      "shot": "opening-003",
+      "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\kling-opening\\continuous-v01\\opening-003-continuous-tail\\opening-003-continuous-tail-01-clean.mp4",
+      "sourceWidth": 1916,
+      "sourceHeight": 1080,
+      "startFrame": 353,
+      "frames": 190,
+      "sourceEditStartFrame": 13,
+      "availableLeadOutFrames": 15,
+      "file": "opening-003.mp4"
+    },
+    {
+      "shot": "opening-005",
+      "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\kling-tests\\opening-v01\\opening-005\\opening-005-01-clean.mp4",
+      "sourceWidth": 1916,
+      "sourceHeight": 1080,
+      "startFrame": 543,
+      "frames": 90,
+      "sourceEditStartFrame": 13,
+      "availableLeadOutFrames": 19,
+      "file": "opening-005.mp4"
+    }
+  ],
+  "presentation": "Full-frame 1080p generated opening; small word-timed bottom lyrics",
+  "audio": "Original AAC packets copied without retiming",
+  "remainder": "Unplanned dark picture with the same bottom lyric style"
+}

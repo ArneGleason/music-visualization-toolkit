@@ -1,8 +1,395 @@
 {
   "schemaVersion": 1,
   "project": "a-right-little-something",
-  "status": "partial creative plan; nine-zoom shot captured during lyric review",
+  "status": "Partial creative plan; opening note batch plus preserved nine-zoom concept",
   "shots": [
+    {
+      "title": "Space establishes; ship drifts in",
+      "description": "Open on the planet limb, volcanic moon A and icy moon B in open space. The ship drifts into the frame, becoming the destination of the next view. The rest of this source note describes the broader sequence and transition strategy, not extra shots inside this entry.",
+      "id": "opening-001",
+      "batch": "opening-notes-v01",
+      "type": "storyboard",
+      "sourceNoteId": "7660aeb8-e245-4638-8117-a1c962f474e4",
+      "sourceNoteText": "Let's start with a couple establishing shots of space. Maybe it's, and it's going to be drifting. So maybe we start with a borrowed establishing shot of the planet, the moons, and some cosmic stuff, maybe even meteor racing by. And we're going to drift into frame, cut into the interior of the spaceship. The air will fade into, or will drift over into Harper's profile coming in and locking the stars. We're going to do something kind of dramatic here. When we get to her floating, we don't want to see her body out because we want to bounce back out to see that she's floating. I wonder if we can do this. Maybe that we get tiresome as kind of a runner where we connect all the transitions with either a speed zoom or an actual camera movement to the next cut. That would probably be hard. Consistency would probably be tough. Maybe we can do that where we can do that in a few places though. Just be tiring to try and keep it up for the whole thing. Maybe for select scenes and cuts between the scenes we can do that.",
+      "sourceNotesRevision": 9,
+      "start": "Position(bar=2, beat=4, tick=0)",
+      "end": "Position(bar=6, beat=2, tick=88)",
+      "startFrame": 1,
+      "endFrameExclusive": 228,
+      "frames": 227,
+      "startSeconds": 0.0,
+      "endSeconds": 9.458333333333334,
+      "handles": {
+        "leadInFrames": 12,
+        "leadOutFrames": 12,
+        "generatedFrames": 251,
+        "editInLocalFrame": 13,
+        "editOutLocalFrameExclusive": 240,
+        "sourceStartFrame": -11,
+        "sourceEndFrameExclusive": 240
+      },
+      "blocking": {
+        "id": "opening-001",
+        "noteId": "7660aeb8-e245-4638-8117-a1c962f474e4",
+        "title": "Space establishes; ship drifts in",
+        "description": "Open on the planet limb, volcanic moon A and icy moon B in open space. The ship drifts into the frame, becoming the destination of the next view. The rest of this source note describes the broader sequence and transition strategy, not extra shots inside this entry.",
+        "cameraStart": [
+          17,
+          -22,
+          9
+        ],
+        "cameraEnd": [
+          15,
+          -20,
+          8
+        ],
+        "targetStart": [
+          0,
+          0.7,
+          0
+        ],
+        "targetEnd": [
+          0,
+          0.7,
+          0
+        ],
+        "lens": 36,
+        "shipStart": [
+          -25,
+          -17,
+          0
+        ],
+        "shipEnd": [
+          0,
+          0,
+          0
+        ],
+        "figurePose": "float",
+        "transition": "Cut or brief matched drift into opening-002; do not require a single exterior-to-interior generation."
+      },
+      "status": "Blender composition draft; review before image generation",
+      "startingFrameRef": "generated/storyboard/opening-v02/opening-001-starting-frame-v01.png",
+      "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure, detailed but coherent with the approved illustration. Harper is an adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Her ship is a clear spherical cabin, dark satin gray metal equatorial band and upper/lower circular platforms, continuous warm amber rim lights, sparse cyan rectangular lights and one aft vertical engine ring with a cyan inner arc. Moon A is larger charcoal volcanic basalt with orange fissures; Moon B is smaller pale cyan ice with blue fractures. All celestial bodies share an offscreen upper-right sun; lava may self-emit. No extra moons, no text, no logos, no HUD. Broad focus and consistent ship geometry. Shell appearance: ultra-thin transparent technological field with faint cyan spherical geodesic lines; no thick shiny glass, lens distortion or broad refractive streaks. Interior views have no visible glass perimeter; exterior silhouette uses only subtle field glow. Metal bands and platforms keep their full geometry.",
+      "startingFrameStatus": "regenerated with approved field appearance; pending batch review",
+      "shellAppearanceRef": "ship-thin-field-shell-approved-v01",
+      "endingFrameRef": "generated/storyboard/opening-v02/opening-001-ending-frame-v01.png",
+      "motionRef": "generated/kling-opening/completion-v01/opening-001/opening-001-01-clean.mp4",
+      "motionGeneration": {
+        "model": "kling-video-v3_0",
+        "generationId": "AYulPJm936HP6n3htL1DbHz1eE5i1zExh31IIsIQc_cjMYSnUFJ4SnV0gMKbFYhxAVcxFFDz",
+        "creditsConsumed": 88,
+        "requestedDurationSeconds": 11,
+        "resolution": "1080p",
+        "watermark": false,
+        "status": "selected for first sequence review"
+      },
+      "motionReview": {
+        "selectionVersion": "opening-motion-v03",
+        "status": "best available; pending sequence review",
+        "notes": "Current best establishing take; review the large entrance and recession in context."
+      }
+    },
+    {
+      "title": "Harper's face drifts into foreground",
+      "description": "Interior close view. Harper's head drifts across the foreground; a narrow piece of cabin rim provides scale against the distant world. Keep graphic-novel focus broad rather than depending on an extreme rack focus. Proxy face is for blocking only.",
+      "id": "opening-002",
+      "batch": "opening-notes-v01",
+      "type": "storyboard",
+      "sourceNoteId": "889fbd70-0f8a-4df5-855c-bd239edba3e5",
+      "sourceNoteText": "Here is where we should start seeing Harper's face sort of come into frame, drift in. She's floating in, sort of like her face is almost eclipsing the, I don't know, I would get too metaphorical here, but her face is coming in, floating into frame and it's in the foreground. I don't know if we have to do a pole focus, like start with a too far in focus to actually be, maybe a little hard to pull off with a focus with a graphic novel style rendering, yet at the same time, maybe a little confusing to see her face come in, maybe not in front of the foreground, unless there's something in between to give some sense of scale so you can tell that she's not just kind of planet-sized head or anything like that.",
+      "sourceNotesRevision": 9,
+      "start": "Position(bar=6, beat=2, tick=88)",
+      "end": "Position(bar=8, beat=1, tick=782)",
+      "startFrame": 228,
+      "endFrameExclusive": 353,
+      "frames": 125,
+      "startSeconds": 9.458333333333334,
+      "endSeconds": 14.666666666666666,
+      "handles": {
+        "leadInFrames": 12,
+        "leadOutFrames": 12,
+        "generatedFrames": 149,
+        "editInLocalFrame": 13,
+        "editOutLocalFrameExclusive": 138,
+        "sourceStartFrame": 216,
+        "sourceEndFrameExclusive": 365
+      },
+      "blocking": {
+        "id": "opening-002",
+        "noteId": "889fbd70-0f8a-4df5-855c-bd239edba3e5",
+        "title": "Harper's face drifts into foreground",
+        "description": "Interior close view. Harper's head drifts across the foreground; a narrow piece of cabin rim provides scale against the distant world. Keep graphic-novel focus broad rather than depending on an extreme rack focus. Proxy face is for blocking only.",
+        "cameraStart": [
+          -1.3,
+          -1.35,
+          1.15
+        ],
+        "cameraEnd": [
+          -1.3,
+          -1.35,
+          1.15
+        ],
+        "targetStart": [
+          -0.35,
+          0,
+          1.1
+        ],
+        "targetEnd": [
+          -0.13,
+          0,
+          1.04
+        ],
+        "lens": 58,
+        "figureStart": [
+          0.55,
+          0,
+          0.14
+        ],
+        "figureEnd": [
+          0,
+          0,
+          0
+        ],
+        "figurePose": "float",
+        "transition": "End framing matches the start of opening-003."
+      },
+      "status": "Blender composition draft; review before image generation",
+      "startingFrameRef": "generated/storyboard/opening-v02/opening-002-starting-frame-v02.png",
+      "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure, detailed but coherent with the approved illustration. Harper is an adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Her ship is a clear spherical cabin, dark satin gray metal equatorial band and upper/lower circular platforms, continuous warm amber rim lights, sparse cyan rectangular lights and one aft vertical engine ring with a cyan inner arc. Moon A is larger charcoal volcanic basalt with orange fissures; Moon B is smaller pale cyan ice with blue fractures. All celestial bodies share an offscreen upper-right sun; lava may self-emit. No extra moons, no text, no logos, no HUD. Broad focus and consistent ship geometry. Shell appearance: ultra-thin transparent technological field with faint cyan spherical geodesic lines; no thick shiny glass, lens distortion or broad refractive streaks. Interior views have no visible glass perimeter; exterior silhouette uses only subtle field glow. Metal bands and platforms keep their full geometry.",
+      "startingFrameStatus": "regenerated with approved field appearance; pending batch review",
+      "shellAppearanceRef": "ship-thin-field-shell-approved-v01",
+      "motionRef": "generated/kling-experiments/depth-field-v01/depth-lines/depth-lines-01-clean.mp4",
+      "motionGeneration": {
+        "model": "kling-video-v3_0",
+        "generationId": "AfzdB5l6jwzrWyx21hiLEf2L05Rzq2Ek2PbYO_FwK6A8_l28NH48FupxXPfiRKKAQ6TWgzbp",
+        "creditsConsumed": 56,
+        "requestedDurationSeconds": 7,
+        "resolution": "1080p",
+        "watermark": false,
+        "status": "selected for best available opening review",
+        "promptPlan": "kling-depth-field-experiments.json",
+        "promptEntry": "depth-lines"
+      },
+      "motionAlternates": [
+        {
+          "motionRef": "generated/kling-opening/completion-v01/opening-002/opening-002-01-clean.mp4",
+          "motionGeneration": {
+            "model": "kling-video-v3_0",
+            "generationId": "AXG_hblZQjE4aDKzTbLj14XrK-d9A2oQTV8PQTSCfdYEJsJCPYu_yWPp1AmJWD9lKdquGInd",
+            "creditsConsumed": 56,
+            "requestedDurationSeconds": 7,
+            "resolution": "1080p",
+            "watermark": false,
+            "status": "selected for first sequence review"
+          },
+          "reason": "Earlier moving-camera take; superseded by preferred locked-camera lines test"
+        }
+      ],
+      "motionReview": {
+        "selectionVersion": "opening-motion-v03",
+        "status": "preferred take",
+        "notes": "Preferred locked-camera lines take; user liked its performance and look. Distant background is steadier."
+      }
+    },
+    {
+      "title": "One continuous pullback across both up-above phrases",
+      "description": "Pull away from Harper's close view through the clear shell to reveal her full floating figure, both platforms and the engine ring over the planetary horizon. Interpret the transcription's 'not to see' as 'out to see', consistent with the note's reveal intent. A short fast pullback gives more planetary scale while retaining a readable ship and Harper inside. Settle into a hold after the widening. Warm sunlight strengthens slightly for visual activity; stylized zoom blur will be added downstream, not baked into the geometry reference. One uninterrupted pullback replaces the former cut and restart.",
+      "id": "opening-003",
+      "batch": "opening-notes-v01",
+      "type": "storyboard",
+      "sourceNoteId": "7f5da2f3-3bc6-4364-94d3-b2a330baee59",
+      "sourceNoteText": "Here we want to pull out the camera and not to see that she's floating inside her spaceship. And we want to make sure this is really, the scenery is just awesome, just eye catching. We want to set up the blocking and the camera and everything in the scene to be just kind of an awesome in orbit over a planet shot of all this cosmic glory.\n\nHere, on a way up here, up above, we want to do a quick zoom out, like a speed blur zoom out to get a better scene, not so far that we can't make out the exterior of the spaceship clearly, and still seeing Harper inside, but giving us a bigger sense of scale. I wonder if we can have something else going on in the background just to keep things interesting. We wanted to distract from the scale as well. Maybe there's something happening in terms of the sun coming up over the horizon or something, or there's a change that would give us lighting effects, or something that would be interesting in the scene.",
+      "sourceNotesRevision": 9,
+      "start": "Position(bar=8, beat=1, tick=782)",
+      "end": "Position(bar=11, beat=1, tick=458)",
+      "startFrame": 353,
+      "endFrameExclusive": 543,
+      "frames": 190,
+      "startSeconds": 14.666666666666666,
+      "endSeconds": 22.583333333333332,
+      "handles": {
+        "leadInFrames": 12,
+        "leadOutFrames": 12,
+        "generatedFrames": 214,
+        "editInLocalFrame": 13,
+        "editOutLocalFrameExclusive": 203,
+        "sourceStartFrame": 341,
+        "sourceEndFrameExclusive": 555
+      },
+      "blocking": {
+        "id": "opening-003",
+        "noteId": "7f5da2f3-3bc6-4364-94d3-b2a330baee59",
+        "title": "Pull back; reveal her floating ship",
+        "description": "Pull away from Harper's close view through the clear shell to reveal her full floating figure, both platforms and the engine ring over the planetary horizon. Interpret the transcription's 'not to see' as 'out to see', consistent with the note's reveal intent.",
+        "cameraStart": [
+          -1.3,
+          -1.35,
+          1.15
+        ],
+        "cameraEnd": [
+          15,
+          -17,
+          7.8
+        ],
+        "targetStart": [
+          -0.13,
+          0,
+          1.04
+        ],
+        "targetEnd": [
+          0,
+          0.7,
+          0
+        ],
+        "lensStart": 58,
+        "lensEnd": 42,
+        "figurePose": "float",
+        "transition": "One continuous reveal and widening, then cut to opening-005."
+      },
+      "status": "Blender composition draft; review before image generation",
+      "startingFrameRef": "generated/storyboard/opening-v02/opening-003-starting-frame-v01.png",
+      "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure, detailed but coherent with the approved illustration. Harper is an adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Her ship is a clear spherical cabin, dark satin gray metal equatorial band and upper/lower circular platforms, continuous warm amber rim lights, sparse cyan rectangular lights and one aft vertical engine ring with a cyan inner arc. Moon A is larger charcoal volcanic basalt with orange fissures; Moon B is smaller pale cyan ice with blue fractures. All celestial bodies share an offscreen upper-right sun; lava may self-emit. No extra moons, no text, no logos, no HUD. Broad focus and consistent ship geometry. Shell appearance: ultra-thin transparent technological field with faint cyan spherical geodesic lines; no thick shiny glass, lens distortion or broad refractive streaks. Interior views have no visible glass perimeter; exterior silhouette uses only subtle field glow. Metal bands and platforms keep their full geometry.",
+      "startingFrameStatus": "regenerated with approved field appearance; pending batch review",
+      "shellAppearanceRef": "ship-thin-field-shell-approved-v01",
+      "endingFrameRef": "generated/storyboard/opening-v02/opening-004-ending-frame-v01.png",
+      "videoTest": {
+        "model": "kling-video-v3_0",
+        "generationId": "AZIE0zfN5GUZX13KyDUjzv7SwOOsMwbZRz0Vy8imbcGn8-r0AVODZuyVX_JCEnZPORJoNQTi",
+        "creditsConsumed": 40,
+        "rawRef": "generated/kling-tests/opening-v01/opening-003/opening-003-01.mp4",
+        "reviewRef": "generated/storyboard/kling-opening-v01/opening-003-edit.mp4",
+        "status": "generated; pending user review",
+        "assessment": "Continuous pullback reaches the supplied exterior composition. Hexagonal cells rearrange during reveal; character pose/head direction and platform details drift. Useful motion draft, pending creative review."
+      },
+      "motionRef": "generated/kling-opening/continuous-v01/opening-003-continuous-tail/opening-003-continuous-tail-01-clean.mp4",
+      "motionGeneration": {
+        "model": "kling-video-v3_0",
+        "generationId": "ASyyNlerp_CFVcCIsGVvoKEH3GsiaRbhcbegXWTIkZ3sQdHxIM9htRv2JI8oaKPkC6Bvf3zR",
+        "creditsConsumed": 72,
+        "requestedDurationSeconds": 9,
+        "resolution": "1080p",
+        "watermark": false,
+        "status": "selected continuous two-phrase candidate for review",
+        "promptPlan": "kling-opening-continuous.json",
+        "promptEntry": "opening-003-continuous-tail"
+      },
+      "motionReview": {
+        "selectionVersion": "opening-motion-v03",
+        "status": "continuous candidate; pending sequence review",
+        "notes": "One uninterrupted pullback covers both complete up-above phrases, removing the former restart. Ship closer to approved geometry; moon depth and field continuity remain provisional."
+      },
+      "sourceNoteIds": [
+        "7f5da2f3-3bc6-4364-94d3-b2a330baee59",
+        "19ad819c-e819-4b55-9ee1-1696345aed08"
+      ],
+      "mergedFrom": [
+        "opening-003",
+        "opening-004"
+      ]
+    },
+    {
+      "title": "Hands on the transparent wall",
+      "description": "Close interior angle toward the space-facing shell: Harper folds her knees up with both hands on the glass, looking down toward the planet. Show the curved wall, edge lights and a platform fragment to make the sphere's walls/windows legible. Bias the backdrop toward space; exact planetary scale may be art directed.",
+      "id": "opening-005",
+      "batch": "opening-notes-v01",
+      "type": "storyboard",
+      "sourceNoteId": "5f687fa6-342e-470b-aee0-cd6a313d869e",
+      "sourceNoteText": "At this point, we will actually change to a new scene. This is where we're explaining the walls and the windows and stuff. So we'll cut back to the interior. Maybe it's not facing towards the planet anymore. We're doing a space side shot. So we're shooting through and she is and we're seeing her. So she's looking towards the planet. But she's got her hands on the glass. She's folded up close so she can get a closer look even though it's not going to be much of a change perspective from her being in the center or being touching the glass. We just want to come up with something that makes it, illustrates that the walls and windows that we're talking about are this sphere of the spaceship.",
+      "sourceNotesRevision": 9,
+      "start": "Position(bar=11, beat=1, tick=458)",
+      "end": "Position(bar=12, beat=3, tick=7)",
+      "startFrame": 543,
+      "endFrameExclusive": 633,
+      "frames": 90,
+      "startSeconds": 22.583333333333332,
+      "endSeconds": 26.333333333333332,
+      "handles": {
+        "leadInFrames": 12,
+        "leadOutFrames": 12,
+        "generatedFrames": 114,
+        "editInLocalFrame": 13,
+        "editOutLocalFrameExclusive": 103,
+        "sourceStartFrame": 531,
+        "sourceEndFrameExclusive": 645
+      },
+      "blocking": {
+        "id": "opening-005",
+        "noteId": "5f687fa6-342e-470b-aee0-cd6a313d869e",
+        "title": "Hands on the transparent wall",
+        "description": "Close interior angle toward the space-facing shell: Harper folds her knees up with both hands on the glass, looking down toward the planet. Show the curved wall, edge lights and a platform fragment to make the sphere's walls/windows legible. Bias the backdrop toward space; exact planetary scale may be art directed. Keep the continuous equatorial ring visible through the clear inner shell; camera remains at least 0.2 model units inside.",
+        "cameraStart": [
+          2.0,
+          -1.45,
+          1.05
+        ],
+        "cameraEnd": [
+          1.9,
+          -1.5,
+          1.1
+        ],
+        "targetStart": [
+          0,
+          -2.2,
+          0.65
+        ],
+        "targetEnd": [
+          0,
+          -2.2,
+          0.65
+        ],
+        "lens": 22,
+        "figurePose": "window",
+        "transition": "Batch ends provisionally at lyr-008; next shot not yet planned.",
+        "moonScreenPlacement": [
+          {
+            "id": "moon-a",
+            "view": [
+              -0.75,
+              0.66,
+              24
+            ]
+          },
+          {
+            "id": "moon-b",
+            "view": [
+              -0.37,
+              0.73,
+              34
+            ]
+          }
+        ]
+      },
+      "status": "Blender composition draft; review before image generation",
+      "startingFrameRef": "generated/storyboard/opening-v02/opening-005-starting-frame-v01.png",
+      "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure, detailed but coherent with the approved illustration. Harper is an adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Her ship is a clear spherical cabin, dark satin gray metal equatorial band and upper/lower circular platforms, continuous warm amber rim lights, sparse cyan rectangular lights and one aft vertical engine ring with a cyan inner arc. Moon A is larger charcoal volcanic basalt with orange fissures; Moon B is smaller pale cyan ice with blue fractures. All celestial bodies share an offscreen upper-right sun; lava may self-emit. No extra moons, no text, no logos, no HUD. Broad focus and consistent ship geometry. Shell appearance: ultra-thin transparent technological field with faint cyan spherical geodesic lines; no thick shiny glass, lens distortion or broad refractive streaks. Interior views have no visible glass perimeter; exterior silhouette uses only subtle field glow. Metal bands and platforms keep their full geometry.",
+      "startingFrameStatus": "regenerated with approved field appearance; pending batch review",
+      "shellConcept": "Ultra-thin clear active material; optional glowing mostly hexagonal geodesic display",
+      "shellAppearanceRef": "ship-thin-field-shell-approved-v01",
+      "videoTest": {
+        "model": "kling-video-v3_0",
+        "generationId": "AQgBn0es5EKwMjgTIM7mnza2-N4VuWLPAb-hShDSfyEgFx8Vr4NVcPyW_NmasO1yRLzF-7k_",
+        "creditsConsumed": 40,
+        "rawRef": "generated/kling-tests/opening-v01/opening-005/opening-005-01.mp4",
+        "reviewRef": "generated/storyboard/kling-opening-v01/opening-005-edit.mp4",
+        "status": "generated; pending user review",
+        "assessment": "Promising restrained interior motion. Ring, moons and thin field stay recognizable. Palms shift and separate slightly, so exact contact is not locked."
+      },
+      "motionRef": "generated/kling-tests/opening-v01/opening-005/opening-005-01-clean.mp4",
+      "motionGeneration": {
+        "model": "kling-video-v3_0",
+        "generationId": "AQgBn0es5EKwMjgTIM7mnza2-N4VuWLPAb-hShDSfyEgFx8Vr4NVcPyW_NmasO1yRLzF-7k_",
+        "creditsConsumed": 40,
+        "requestedDurationSeconds": 5,
+        "resolution": "1080p",
+        "watermark": false,
+        "status": "selected for first sequence review"
+      },
+      "motionReview": {
+        "selectionVersion": "opening-motion-v03",
+        "status": "best available; pending sequence review",
+        "notes": "Current best floating interior take; retained Kling performance and connected field lines."
+      }
+    },
     {
       "id": "telescope-zoom-nine",
       "section": "section-7",
@@ -33,7 +420,7 @@
             119.67375
           ],
           "vowelPeakSeconds": 119.898,
-          "basis": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+          "basis": "original lead 500Ã¢â‚¬â€œ4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
           "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
         },
         {
@@ -52,7 +439,7 @@
             120.2441875
           ],
           "vowelPeakSeconds": 120.341,
-          "basis": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+          "basis": "original lead 500Ã¢â‚¬â€œ4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
           "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
         },
         {
@@ -71,7 +458,7 @@
             120.43175
           ],
           "vowelPeakSeconds": 120.482,
-          "basis": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+          "basis": "original lead 500Ã¢â‚¬â€œ4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
           "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
         },
         {
@@ -90,7 +477,7 @@
             120.55975
           ],
           "vowelPeakSeconds": 120.67,
-          "basis": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+          "basis": "original lead 500Ã¢â‚¬â€œ4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
           "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
         },
         {
@@ -109,7 +496,7 @@
             120.734375
           ],
           "vowelPeakSeconds": 120.839,
-          "basis": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+          "basis": "original lead 500Ã¢â‚¬â€œ4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
           "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
         },
         {
@@ -128,7 +515,7 @@
             120.90837499999999
           ],
           "vowelPeakSeconds": 120.989,
-          "basis": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+          "basis": "original lead 500Ã¢â‚¬â€œ4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
           "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
         },
         {
@@ -147,7 +534,7 @@
             121.1345625
           ],
           "vowelPeakSeconds": 121.174,
-          "basis": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+          "basis": "original lead 500Ã¢â‚¬â€œ4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
           "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
         },
         {
@@ -166,7 +553,7 @@
             121.290375
           ],
           "vowelPeakSeconds": 121.34,
-          "basis": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+          "basis": "original lead 500Ã¢â‚¬â€œ4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
           "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
         },
         {
@@ -185,7 +572,7 @@
             121.4254375
           ],
           "vowelPeakSeconds": 121.514,
-          "basis": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+          "basis": "original lead 500Ã¢â‚¬â€œ4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
           "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
         }
       ],
@@ -198,6 +585,179 @@
       "transition": {
         "type": "cut",
         "dur_sec": 0.0
+      }
+    }
+  ],
+  "fps": 24,
+  "supersededShots": [
+    {
+      "reason": "Opening v03 merges both source notes into one continuous pullback",
+      "shot": {
+        "title": "Pull back; reveal her floating ship",
+        "description": "Pull away from Harper's close view through the clear shell to reveal her full floating figure, both platforms and the engine ring over the planetary horizon. Interpret the transcription's 'not to see' as 'out to see', consistent with the note's reveal intent.",
+        "id": "opening-003",
+        "batch": "opening-notes-v01",
+        "type": "storyboard",
+        "sourceNoteId": "7f5da2f3-3bc6-4364-94d3-b2a330baee59",
+        "sourceNoteText": "Here we want to pull out the camera and not to see that she's floating inside her spaceship. And we want to make sure this is really, the scenery is just awesome, just eye catching. We want to set up the blocking and the camera and everything in the scene to be just kind of an awesome in orbit over a planet shot of all this cosmic glory.",
+        "sourceNotesRevision": 9,
+        "start": "Position(bar=8, beat=2, tick=446)",
+        "end": "Position(bar=9, beat=3, tick=432)",
+        "startFrame": 364,
+        "endFrameExclusive": 445,
+        "frames": 81,
+        "startSeconds": 15.125,
+        "endSeconds": 18.5,
+        "handles": {
+          "leadInFrames": 12,
+          "leadOutFrames": 12,
+          "generatedFrames": 105,
+          "editInLocalFrame": 13,
+          "editOutLocalFrameExclusive": 94,
+          "sourceStartFrame": 352,
+          "sourceEndFrameExclusive": 457
+        },
+        "blocking": {
+          "id": "opening-003",
+          "noteId": "7f5da2f3-3bc6-4364-94d3-b2a330baee59",
+          "title": "Pull back; reveal her floating ship",
+          "description": "Pull away from Harper's close view through the clear shell to reveal her full floating figure, both platforms and the engine ring over the planetary horizon. Interpret the transcription's 'not to see' as 'out to see', consistent with the note's reveal intent.",
+          "cameraStart": [
+            -1.3,
+            -1.35,
+            1.15
+          ],
+          "cameraEnd": [
+            10,
+            -11.3,
+            5.2
+          ],
+          "targetStart": [
+            -0.13,
+            0,
+            1.04
+          ],
+          "targetEnd": [
+            0,
+            0.7,
+            0
+          ],
+          "lensStart": 58,
+          "lensEnd": 42,
+          "figurePose": "float",
+          "transition": "Match exterior view into opening-004; a cut remains available."
+        },
+        "status": "Blender composition draft; review before image generation",
+        "startingFrameRef": "generated/storyboard/opening-v02/opening-003-starting-frame-v01.png",
+        "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure, detailed but coherent with the approved illustration. Harper is an adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Her ship is a clear spherical cabin, dark satin gray metal equatorial band and upper/lower circular platforms, continuous warm amber rim lights, sparse cyan rectangular lights and one aft vertical engine ring with a cyan inner arc. Moon A is larger charcoal volcanic basalt with orange fissures; Moon B is smaller pale cyan ice with blue fractures. All celestial bodies share an offscreen upper-right sun; lava may self-emit. No extra moons, no text, no logos, no HUD. Broad focus and consistent ship geometry. Shell appearance: ultra-thin transparent technological field with faint cyan spherical geodesic lines; no thick shiny glass, lens distortion or broad refractive streaks. Interior views have no visible glass perimeter; exterior silhouette uses only subtle field glow. Metal bands and platforms keep their full geometry.",
+        "startingFrameStatus": "regenerated with approved field appearance; pending batch review",
+        "shellAppearanceRef": "ship-thin-field-shell-approved-v01",
+        "endingFrameRef": "generated/storyboard/opening-v02/opening-003-ending-frame-v01.png",
+        "videoTest": {
+          "model": "kling-video-v3_0",
+          "generationId": "AZIE0zfN5GUZX13KyDUjzv7SwOOsMwbZRz0Vy8imbcGn8-r0AVODZuyVX_JCEnZPORJoNQTi",
+          "creditsConsumed": 40,
+          "rawRef": "generated/kling-tests/opening-v01/opening-003/opening-003-01.mp4",
+          "reviewRef": "generated/storyboard/kling-opening-v01/opening-003-edit.mp4",
+          "status": "generated; pending user review",
+          "assessment": "Continuous pullback reaches the supplied exterior composition. Hexagonal cells rearrange during reveal; character pose/head direction and platform details drift. Useful motion draft, pending creative review."
+        },
+        "motionRef": "generated/kling-tests/opening-v01/opening-003/opening-003-01-clean.mp4",
+        "motionGeneration": {
+          "model": "kling-video-v3_0",
+          "generationId": "AZIE0zfN5GUZX13KyDUjzv7SwOOsMwbZRz0Vy8imbcGn8-r0AVODZuyVX_JCEnZPORJoNQTi",
+          "creditsConsumed": 40,
+          "requestedDurationSeconds": 5,
+          "resolution": "1080p",
+          "watermark": false,
+          "status": "selected for first sequence review"
+        },
+        "motionReview": {
+          "selectionVersion": "opening-motion-v02",
+          "status": "best available; pending sequence review",
+          "notes": "Current best pullback; provisional because field cells and moon depth can shift during the camera move."
+        }
+      }
+    },
+    {
+      "reason": "Opening v03 merges both source notes into one continuous pullback",
+      "shot": {
+        "title": "Quick widening; orbital scale",
+        "description": "A short fast pullback gives more planetary scale while retaining a readable ship and Harper inside. Settle into a hold after the widening. Warm sunlight strengthens slightly for visual activity; stylized zoom blur will be added downstream, not baked into the geometry reference.",
+        "id": "opening-004",
+        "batch": "opening-notes-v01",
+        "type": "storyboard",
+        "sourceNoteId": "19ad819c-e819-4b55-9ee1-1696345aed08",
+        "sourceNoteText": "Here, on a way up here, up above, we want to do a quick zoom out, like a speed blur zoom out to get a better scene, not so far that we can't make out the exterior of the spaceship clearly, and still seeing Harper inside, but giving us a bigger sense of scale. I wonder if we can have something else going on in the background just to keep things interesting. We wanted to distract from the scale as well. Maybe there's something happening in terms of the sun coming up over the horizon or something, or there's a change that would give us lighting effects, or something that would be interesting in the scene.",
+        "sourceNotesRevision": 9,
+        "start": "Position(bar=9, beat=3, tick=432)",
+        "end": "Position(bar=11, beat=1, tick=458)",
+        "startFrame": 445,
+        "endFrameExclusive": 543,
+        "frames": 98,
+        "startSeconds": 18.5,
+        "endSeconds": 22.583333333333332,
+        "handles": {
+          "leadInFrames": 12,
+          "leadOutFrames": 12,
+          "generatedFrames": 122,
+          "editInLocalFrame": 13,
+          "editOutLocalFrameExclusive": 111,
+          "sourceStartFrame": 433,
+          "sourceEndFrameExclusive": 555
+        },
+        "blocking": {
+          "id": "opening-004",
+          "noteId": "19ad819c-e819-4b55-9ee1-1696345aed08",
+          "title": "Quick widening; orbital scale",
+          "description": "A short fast pullback gives more planetary scale while retaining a readable ship and Harper inside. Settle into a hold after the widening. Warm sunlight strengthens slightly for visual activity; stylized zoom blur will be added downstream, not baked into the geometry reference.",
+          "cameraStart": [
+            10,
+            -11.3,
+            5.2
+          ],
+          "cameraEnd": [
+            15,
+            -17,
+            7.8
+          ],
+          "targetStart": [
+            0,
+            0.7,
+            0
+          ],
+          "targetEnd": [
+            0,
+            0.7,
+            0
+          ],
+          "lens": 42,
+          "moveFrames": 18,
+          "figurePose": "float",
+          "sunStrengthEnd": 2.9,
+          "transition": "Cut into the window-contact interior shot."
+        },
+        "status": "Blender composition draft; review before image generation",
+        "startingFrameRef": "generated/storyboard/opening-v02/opening-004-starting-frame-v01.png",
+        "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure, detailed but coherent with the approved illustration. Harper is an adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Her ship is a clear spherical cabin, dark satin gray metal equatorial band and upper/lower circular platforms, continuous warm amber rim lights, sparse cyan rectangular lights and one aft vertical engine ring with a cyan inner arc. Moon A is larger charcoal volcanic basalt with orange fissures; Moon B is smaller pale cyan ice with blue fractures. All celestial bodies share an offscreen upper-right sun; lava may self-emit. No extra moons, no text, no logos, no HUD. Broad focus and consistent ship geometry. Shell appearance: ultra-thin transparent technological field with faint cyan spherical geodesic lines; no thick shiny glass, lens distortion or broad refractive streaks. Interior views have no visible glass perimeter; exterior silhouette uses only subtle field glow. Metal bands and platforms keep their full geometry.",
+        "startingFrameStatus": "regenerated with approved field appearance; pending batch review",
+        "shellAppearanceRef": "ship-thin-field-shell-approved-v01",
+        "endingFrameRef": "generated/storyboard/opening-v02/opening-004-ending-frame-v01.png",
+        "motionRef": "generated/kling-opening/completion-v01/opening-004/opening-004-01-clean.mp4",
+        "motionGeneration": {
+          "model": "kling-video-v3_0",
+          "generationId": "AVrWtB4LH1YPBpAVdOQh1PdJIvdcdYi10lLdsydqcmQMLFFqLmqhkTMb98wDlw49YjNOZ2CH",
+          "creditsConsumed": 48,
+          "requestedDurationSeconds": 6,
+          "resolution": "1080p",
+          "watermark": false,
+          "status": "selected for first sequence review"
+        },
+        "motionReview": {
+          "selectionVersion": "opening-motion-v02",
+          "status": "best available; pending sequence review",
+          "notes": "Current best exterior take; provisional for depth and continuity through the pullback."
+        }
       }
     }
   ]

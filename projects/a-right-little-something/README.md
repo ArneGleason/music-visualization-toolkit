@@ -1,5 +1,13 @@
 # A Right Little Something — music-video workspace
 
+Current production checkpoint: [PRODUCTION-HANDOFF.md](PRODUCTION-HANDOFF.md).
+The accepted v03 working animatic has four generated opening shots, one
+continuous two-phrase pullback, small bottom lyrics and unchanged master audio.
+`checkpoint/` preserves timing/listening-note JSON; `reference-images/`
+preserves nine curated stills. Video/audio and bulk generated outputs stay local.
+The intake and early timing investigation below are historical; use the handoff
+for the current state and next steps.
+
 Initial intake: 2026-10-04. Goal: review a full-song animatic with the master,
 performed lyrics, word timing and musical/frame indicators before choosing
 scenes or generating footage.
@@ -219,11 +227,28 @@ Review in Chrome:
 - Exact frame stepping/jumping and frame notes: http://127.0.0.1:8767/ .
   Frame numbers are one-based. Use `?frame=1000` for a direct reference.
 
+Retained dictation appears in the listening page's **Recovered recordings**
+queue, with audio playback, transcription retry, and an editable transcript.
+The notes sidebar has previous/next note, nearest-to-playhead, and new-note
+controls. Small timeline stems/dots are clickable and show note text on hover.
+Click the timeline to focus it: Left/Right moves between phrases,
+Shift+Left/Right steps one frame on the timing grid, and Alt+Left/Right moves
+between notes. Space toggles playback. Arrow shortcuts leave text inputs alone.
+Unplaced notes can be saved and edited without assigning a time. Note and
+recording deletion is recoverable through **Show deleted** and **Restore**;
+audio and text remain on disk. Retained-recording retries show elapsed time
+beside the recording and errors remain visible there.
+Identical retry uploads are grouped. New recordings retain their note anchors;
+older recordings without anchors may be saved as unplaced notes until a position
+is chosen or **Anchor at playhead** is used. Saving the note links its source recording
+and removes it from the pending queue. Browser drafts survive refresh.
+
 Listening notes persist under `generated/review/listening-notes.json` with
 bar/beat labels, seconds and frame anchors. Dictation pauses playback, freezes
 the note's anchor, transcribes locally, and lets the user review text before
 saving. Microphone access is requested only after Record dictation is clicked.
-The audio endpoint was tested with generated speech, not the user's microphone.
+The audio endpoint and retained-recording retry were verified with the user's
+recovered browser recording, including its missing duration metadata.
 Frame notes persist separately in `generated/review/frame-notes.json`.
 `generated/review/current-render.json` is the stable frame-review media pointer.
 

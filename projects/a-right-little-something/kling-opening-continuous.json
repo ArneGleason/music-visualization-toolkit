@@ -1,0 +1,40 @@
+{
+  "fps": 24,
+  "output": "generated/kling-opening/continuous-v01",
+  "purpose": "Continuous two-phrase pullback. First single-reference test changed the ship; second test uses approved ending image to constrain the full equatorial band and open engine ring.",
+  "estimatedCredits": 144,
+  "shots": [
+    {
+      "id": "opening-003-continuous",
+      "model": "kling-video-v3_0",
+      "duration": 9,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/opening-v02/opening-003-starting-frame-v01.png",
+      "tailImage": null,
+      "editFrames": 179,
+      "startFrame": 364,
+      "leadInFrames": 12,
+      "leadOutFrames": 12,
+      "prompt": "One single continuous shot, no cuts. Begin with this interior portrait of Harper gazing upward. Keep the first half-second calm. Then make ONE smooth, restrained camera pullback to reveal that she floats inside the complete spherical ship, gradually revealing its full continuous equatorial ring, upper and lower circular platforms and aft engine ring above the planet. Continue the SAME uninterrupted motion through the entire middle of the clip; never jump inward, restart the zoom, change viewpoint, repeat a movement or switch shots. Reach a readable full-ship exterior composition by about 7.95 seconds, then settle through 9 seconds. Harper stays naturally alive: subtle expression, gently drifting curls, relaxed arms and softly bent knees, floating rather than standing. Preserve her identity and body. Treat planet, both enormous moons and stars as a distant astronomical environment: moons remain fixed relative to neighboring stars, do not follow the ship, approach the camera, enlarge, or orbit during this brief shot. Camera translation reveals the local cabin while the astronomical background has negligible parallax. Maintain fine connected cyan field lines without thick glass distortion; the structural metal band remains a complete ring at every point of the move. No extra objects, no morphing, no sudden acceleration, no speech.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure, detailed but coherent with the approved illustration. Harper is an adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Her ship is a clear spherical cabin, dark satin gray metal equatorial band and upper/lower circular platforms, continuous warm amber rim lights, sparse cyan rectangular lights and one aft vertical engine ring with a cyan inner arc. Moon A is larger charcoal volcanic basalt with orange fissures; Moon B is smaller pale cyan ice with blue fractures. All celestial bodies share an offscreen upper-right sun; lava may self-emit. No extra moons, no text, no logos, no HUD. Broad focus and consistent ship geometry. Shell appearance: ultra-thin transparent technological field with faint cyan spherical geodesic lines; no thick shiny glass, lens distortion or broad refractive streaks. Interior views have no visible glass perimeter; exterior silhouette uses only subtle field glow. Metal bands and platforms keep their full geometry."
+    },
+    {
+      "id": "opening-003-continuous-tail",
+      "model": "kling-video-v3_0",
+      "duration": 9,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/opening-v02/opening-003-starting-frame-v01.png",
+      "tailImage": "generated/storyboard/opening-v02/opening-004-ending-frame-v01.png",
+      "editFrames": 190,
+      "startFrame": 353,
+      "leadInFrames": 12,
+      "leadOutFrames": 12,
+      "prompt": "One single continuous shot, no cuts. Begin with this interior portrait of Harper gazing upward. Keep the first half-second calm. Then make ONE smooth, restrained camera pullback to reveal that she floats inside the complete spherical ship, gradually revealing its full continuous equatorial ring, upper and lower circular platforms and aft engine ring above the planet. Continue the SAME uninterrupted motion through the entire middle of the clip; never jump inward, restart the zoom, change viewpoint, repeat a movement or switch shots. Reach a readable full-ship exterior composition by about 7.95 seconds, then settle through 9 seconds. Harper stays naturally alive: subtle expression, gently drifting curls, relaxed arms and softly bent knees, floating rather than standing. Preserve her identity and body. Treat planet, both enormous moons and stars as a distant astronomical environment: moons remain fixed relative to neighboring stars, do not follow the ship, approach the camera, enlarge, or orbit during this brief shot. Camera translation reveals the local cabin while the astronomical background has negligible parallax. Maintain fine connected cyan field lines without thick glass distortion; the structural metal band remains a complete ring at every point of the move. No extra objects, no morphing, no sudden acceleration, no speech. DESIGN CONTINUITY: The supplied final image defines the exact same spacecraft. Preserve its broad complete metal ring at the sphere EQUATOR, midway between the two platforms, throughout the reveal. The aft engine remains a slim OPEN annular ring, never a solid barrel, cylindrical thruster or tube. No additional platforms or hull. Approach the supplied final framing smoothly in the SAME pullback, settling by 8.42 seconds.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure, detailed but coherent with the approved illustration. Harper is an adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Her ship is a clear spherical cabin, dark satin gray metal equatorial band and upper/lower circular platforms, continuous warm amber rim lights, sparse cyan rectangular lights and one aft vertical engine ring with a cyan inner arc. Moon A is larger charcoal volcanic basalt with orange fissures; Moon B is smaller pale cyan ice with blue fractures. All celestial bodies share an offscreen upper-right sun; lava may self-emit. No extra moons, no text, no logos, no HUD. Broad focus and consistent ship geometry. Shell appearance: ultra-thin transparent technological field with faint cyan spherical geodesic lines; no thick shiny glass, lens distortion or broad refractive streaks. Interior views have no visible glass perimeter; exterior silhouette uses only subtle field glow. Metal bands and platforms keep their full geometry."
+    }
+  ]
+}

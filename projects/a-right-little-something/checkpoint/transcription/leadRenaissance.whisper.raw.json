@@ -1,0 +1,3428 @@
+{
+  "text": " We're up here floating, falling perfect, here in orbit up above, way up here up above. The walls keep our world in, our windows to the big, big world below. So much room here up in space While my soul crammed up the windows Face pressed up against the windows Show you just how big you are Stretch your arms wide And change the tide How much can you do with it all? Do something, little something You're something, right? Little something out here in orbit Orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, Fingering out, too tough to think with stars around a stark sky So by a bright night Leaving orbit at the moment Moments count here, just perfect We'll make all all the way to the next channel Turn the channel, I think my movie's on Flip, flip, flip, this one Oh, oh, callin' to the bigger sky beyond Everything so far away It zooms, zooms in To see far things big now So far and so long away That means you did something right Something with it all you did right How much can you do with it all? Do something, little something You're something, right? Little something out here in orbit Out here in orbit That space is for you, not me I'm good with myself on the ground The world's just right with my stuff The things that I need of the natures of creatures Make it right Stars for night I'm just a creature of nature Down here Out there in orbit Thank you.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 9.38,
+      "end": 20.08,
+      "text": " We're up here floating, falling perfect, here in orbit up above, way up here up above.",
+      "tokens": [
+        50365,
+        492,
+        434,
+        493,
+        510,
+        12607,
+        11,
+        7440,
+        2176,
+        11,
+        510,
+        294,
+        13991,
+        493,
+        3673,
+        11,
+        636,
+        493,
+        510,
+        493,
+        3673,
+        13,
+        51370
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.36712507768110797,
+      "compression_ratio": 1.3805309734513274,
+      "no_speech_prob": 3.367285963951083e-11,
+      "words": [
+        {
+          "word": " We're",
+          "start": 9.38,
+          "end": 10.1,
+          "probability": 0.8124120831489563
+        },
+        {
+          "word": " up",
+          "start": 10.1,
+          "end": 10.42,
+          "probability": 0.980295717716217
+        },
+        {
+          "word": " here",
+          "start": 10.42,
+          "end": 10.62,
+          "probability": 0.9974652528762817
+        },
+        {
+          "word": " floating,",
+          "start": 10.62,
+          "end": 11.3,
+          "probability": 0.6491556167602539
+        },
+        {
+          "word": " falling",
+          "start": 11.8,
+          "end": 13.28,
+          "probability": 0.8510501384735107
+        },
+        {
+          "word": " perfect,",
+          "start": 13.28,
+          "end": 14.12,
+          "probability": 0.9890584349632263
+        },
+        {
+          "word": " here",
+          "start": 15.26,
+          "end": 15.94,
+          "probability": 0.8461329936981201
+        },
+        {
+          "word": " in",
+          "start": 15.94,
+          "end": 16.18,
+          "probability": 0.847770094871521
+        },
+        {
+          "word": " orbit",
+          "start": 16.18,
+          "end": 16.58,
+          "probability": 0.9845011234283447
+        },
+        {
+          "word": " up",
+          "start": 16.58,
+          "end": 16.86,
+          "probability": 0.9311951398849487
+        },
+        {
+          "word": " above,",
+          "start": 16.86,
+          "end": 17.4,
+          "probability": 0.9982051849365234
+        },
+        {
+          "word": " way",
+          "start": 18.26,
+          "end": 18.5,
+          "probability": 0.9904569983482361
+        },
+        {
+          "word": " up",
+          "start": 18.5,
+          "end": 18.86,
+          "probability": 0.9992278814315796
+        },
+        {
+          "word": " here",
+          "start": 18.86,
+          "end": 19.22,
+          "probability": 0.9981192946434021
+        },
+        {
+          "word": " up",
+          "start": 19.22,
+          "end": 19.54,
+          "probability": 0.6351284980773926
+        },
+        {
+          "word": " above.",
+          "start": 19.54,
+          "end": 20.08,
+          "probability": 0.9996259212493896
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 20.76,
+      "end": 25.86,
+      "text": " The walls keep our world in, our windows to the big, big world below.",
+      "tokens": [
+        51384,
+        440,
+        7920,
+        1066,
+        527,
+        1002,
+        294,
+        11,
+        527,
+        9309,
+        281,
+        264,
+        955,
+        11,
+        955,
+        1002,
+        2507,
+        13,
+        51663
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.36712507768110797,
+      "compression_ratio": 1.3805309734513274,
+      "no_speech_prob": 3.367285963951083e-11,
+      "words": [
+        {
+          "word": " The",
+          "start": 20.76,
+          "end": 21.0,
+          "probability": 0.9944308400154114
+        },
+        {
+          "word": " walls",
+          "start": 21.0,
+          "end": 21.32,
+          "probability": 0.998615026473999
+        },
+        {
+          "word": " keep",
+          "start": 21.32,
+          "end": 21.52,
+          "probability": 0.9974645376205444
+        },
+        {
+          "word": " our",
+          "start": 21.52,
+          "end": 21.72,
+          "probability": 0.6791243553161621
+        },
+        {
+          "word": " world",
+          "start": 21.72,
+          "end": 22.06,
+          "probability": 0.9856337904930115
+        },
+        {
+          "word": " in,",
+          "start": 22.06,
+          "end": 22.34,
+          "probability": 0.8455199599266052
+        },
+        {
+          "word": " our",
+          "start": 22.58,
+          "end": 22.96,
+          "probability": 0.6955605745315552
+        },
+        {
+          "word": " windows",
+          "start": 22.96,
+          "end": 23.66,
+          "probability": 0.9960947632789612
+        },
+        {
+          "word": " to",
+          "start": 23.66,
+          "end": 24.22,
+          "probability": 0.615188717842102
+        },
+        {
+          "word": " the",
+          "start": 24.22,
+          "end": 24.38,
+          "probability": 0.9987989664077759
+        },
+        {
+          "word": " big,",
+          "start": 24.38,
+          "end": 24.7,
+          "probability": 0.9979814291000366
+        },
+        {
+          "word": " big",
+          "start": 24.86,
+          "end": 24.96,
+          "probability": 0.9990233182907104
+        },
+        {
+          "word": " world",
+          "start": 24.96,
+          "end": 25.36,
+          "probability": 0.9986131191253662
+        },
+        {
+          "word": " below.",
+          "start": 25.36,
+          "end": 25.86,
+          "probability": 0.9948474168777466
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2586,
+      "start": 25.86,
+      "end": 29.2,
+      "text": " So much room here up in space",
+      "tokens": [
+        50365,
+        407,
+        709,
+        1808,
+        510,
+        493,
+        294,
+        1901,
+        50533
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23613766589796686,
+      "compression_ratio": 1.582010582010582,
+      "no_speech_prob": 1.0591744842303186e-10,
+      "words": [
+        {
+          "word": " So",
+          "start": 25.86,
+          "end": 26.56,
+          "probability": 0.5151089429855347
+        },
+        {
+          "word": " much",
+          "start": 26.56,
+          "end": 26.88,
+          "probability": 0.9924817681312561
+        },
+        {
+          "word": " room",
+          "start": 26.88,
+          "end": 27.32,
+          "probability": 0.9807613492012024
+        },
+        {
+          "word": " here",
+          "start": 27.32,
+          "end": 27.8,
+          "probability": 0.966635525226593
+        },
+        {
+          "word": " up",
+          "start": 27.8,
+          "end": 28.08,
+          "probability": 0.9745770692825317
+        },
+        {
+          "word": " in",
+          "start": 28.08,
+          "end": 28.32,
+          "probability": 0.9984486103057861
+        },
+        {
+          "word": " space",
+          "start": 28.32,
+          "end": 29.2,
+          "probability": 0.9665700197219849
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2586,
+      "start": 29.2,
+      "end": 32.34,
+      "text": " While my soul crammed up the windows",
+      "tokens": [
+        50533,
+        3987,
+        452,
+        5133,
+        941,
+        19859,
+        493,
+        264,
+        9309,
+        50699
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23613766589796686,
+      "compression_ratio": 1.582010582010582,
+      "no_speech_prob": 1.0591744842303186e-10,
+      "words": [
+        {
+          "word": " While",
+          "start": 29.2,
+          "end": 30.32,
+          "probability": 0.30727434158325195
+        },
+        {
+          "word": " my",
+          "start": 30.32,
+          "end": 30.52,
+          "probability": 0.9964518547058105
+        },
+        {
+          "word": " soul",
+          "start": 30.52,
+          "end": 30.9,
+          "probability": 0.915619969367981
+        },
+        {
+          "word": " crammed",
+          "start": 30.9,
+          "end": 31.5,
+          "probability": 0.8622643351554871
+        },
+        {
+          "word": " up",
+          "start": 31.5,
+          "end": 31.72,
+          "probability": 0.6394413113594055
+        },
+        {
+          "word": " the",
+          "start": 31.72,
+          "end": 31.84,
+          "probability": 0.9920629858970642
+        },
+        {
+          "word": " windows",
+          "start": 31.84,
+          "end": 32.34,
+          "probability": 0.9953332543373108
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2586,
+      "start": 32.34,
+      "end": 35.06,
+      "text": " Face pressed up against the windows",
+      "tokens": [
+        50699,
+        4047,
+        17355,
+        493,
+        1970,
+        264,
+        9309,
+        50834
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23613766589796686,
+      "compression_ratio": 1.582010582010582,
+      "no_speech_prob": 1.0591744842303186e-10,
+      "words": [
+        {
+          "word": " Face",
+          "start": 32.34,
+          "end": 33.42,
+          "probability": 0.9529131650924683
+        },
+        {
+          "word": " pressed",
+          "start": 33.42,
+          "end": 33.88,
+          "probability": 0.9853824377059937
+        },
+        {
+          "word": " up",
+          "start": 33.88,
+          "end": 34.1,
+          "probability": 0.9771472811698914
+        },
+        {
+          "word": " against",
+          "start": 34.1,
+          "end": 34.4,
+          "probability": 0.9971761703491211
+        },
+        {
+          "word": " the",
+          "start": 34.4,
+          "end": 34.56,
+          "probability": 0.9992985725402832
+        },
+        {
+          "word": " windows",
+          "start": 34.56,
+          "end": 35.06,
+          "probability": 0.9992307424545288
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2586,
+      "start": 35.06,
+      "end": 37.46,
+      "text": " Show you just how big you are",
+      "tokens": [
+        50834,
+        6895,
+        291,
+        445,
+        577,
+        955,
+        291,
+        366,
+        50949
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23613766589796686,
+      "compression_ratio": 1.582010582010582,
+      "no_speech_prob": 1.0591744842303186e-10,
+      "words": [
+        {
+          "word": " Show",
+          "start": 35.06,
+          "end": 36.08,
+          "probability": 0.9847376942634583
+        },
+        {
+          "word": " you",
+          "start": 36.08,
+          "end": 36.24,
+          "probability": 0.9987872242927551
+        },
+        {
+          "word": " just",
+          "start": 36.24,
+          "end": 36.46,
+          "probability": 0.9989616870880127
+        },
+        {
+          "word": " how",
+          "start": 36.46,
+          "end": 36.64,
+          "probability": 0.9995181560516357
+        },
+        {
+          "word": " big",
+          "start": 36.64,
+          "end": 36.84,
+          "probability": 0.9998430013656616
+        },
+        {
+          "word": " you",
+          "start": 36.84,
+          "end": 37.12,
+          "probability": 0.9997996687889099
+        },
+        {
+          "word": " are",
+          "start": 37.12,
+          "end": 37.46,
+          "probability": 0.9990482926368713
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2586,
+      "start": 37.46,
+      "end": 39.78,
+      "text": " Stretch your arms wide",
+      "tokens": [
+        50949,
+        38817,
+        428,
+        5812,
+        4874,
+        51063
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23613766589796686,
+      "compression_ratio": 1.582010582010582,
+      "no_speech_prob": 1.0591744842303186e-10,
+      "words": [
+        {
+          "word": " Stretch",
+          "start": 37.46,
+          "end": 37.8,
+          "probability": 0.913150429725647
+        },
+        {
+          "word": " your",
+          "start": 37.8,
+          "end": 38.1,
+          "probability": 0.9977585077285767
+        },
+        {
+          "word": " arms",
+          "start": 38.1,
+          "end": 38.88,
+          "probability": 0.9996058344841003
+        },
+        {
+          "word": " wide",
+          "start": 38.88,
+          "end": 39.78,
+          "probability": 0.9830460548400879
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2586,
+      "start": 39.78,
+      "end": 42.52,
+      "text": " And change the tide",
+      "tokens": [
+        51063,
+        400,
+        1319,
+        264,
+        24662,
+        51224
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23613766589796686,
+      "compression_ratio": 1.582010582010582,
+      "no_speech_prob": 1.0591744842303186e-10,
+      "words": [
+        {
+          "word": " And",
+          "start": 39.78,
+          "end": 40.56,
+          "probability": 0.5067775249481201
+        },
+        {
+          "word": " change",
+          "start": 40.56,
+          "end": 41.38,
+          "probability": 0.9944255352020264
+        },
+        {
+          "word": " the",
+          "start": 41.38,
+          "end": 41.68,
+          "probability": 0.6339079141616821
+        },
+        {
+          "word": " tide",
+          "start": 41.68,
+          "end": 42.52,
+          "probability": 0.985905110836029
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2586,
+      "start": 43.04,
+      "end": 47.66,
+      "text": " How much can you do with it all?",
+      "tokens": [
+        51224,
+        1012,
+        709,
+        393,
+        291,
+        360,
+        365,
+        309,
+        439,
+        30,
+        51464
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23613766589796686,
+      "compression_ratio": 1.582010582010582,
+      "no_speech_prob": 1.0591744842303186e-10,
+      "words": [
+        {
+          "word": " How",
+          "start": 43.04,
+          "end": 43.7,
+          "probability": 0.992384135723114
+        },
+        {
+          "word": " much",
+          "start": 43.7,
+          "end": 45.04,
+          "probability": 0.9982367753982544
+        },
+        {
+          "word": " can",
+          "start": 45.04,
+          "end": 45.34,
+          "probability": 0.9960963129997253
+        },
+        {
+          "word": " you",
+          "start": 45.34,
+          "end": 45.66,
+          "probability": 0.9993010759353638
+        },
+        {
+          "word": " do",
+          "start": 45.66,
+          "end": 46.26,
+          "probability": 0.9968708157539368
+        },
+        {
+          "word": " with",
+          "start": 46.26,
+          "end": 46.86,
+          "probability": 0.9789819121360779
+        },
+        {
+          "word": " it",
+          "start": 46.86,
+          "end": 47.2,
+          "probability": 0.999237060546875
+        },
+        {
+          "word": " all?",
+          "start": 47.2,
+          "end": 47.66,
+          "probability": 0.9974256157875061
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2586,
+      "start": 48.08,
+      "end": 50.62,
+      "text": " Do something, little something",
+      "tokens": [
+        51497,
+        1144,
+        746,
+        11,
+        707,
+        746,
+        51609
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23613766589796686,
+      "compression_ratio": 1.582010582010582,
+      "no_speech_prob": 1.0591744842303186e-10,
+      "words": [
+        {
+          "word": " Do",
+          "start": 48.08,
+          "end": 48.7,
+          "probability": 0.9812242984771729
+        },
+        {
+          "word": " something,",
+          "start": 48.7,
+          "end": 49.3,
+          "probability": 0.9529665112495422
+        },
+        {
+          "word": " little",
+          "start": 49.84,
+          "end": 50.1,
+          "probability": 0.9627975821495056
+        },
+        {
+          "word": " something",
+          "start": 50.1,
+          "end": 50.62,
+          "probability": 0.9989472031593323
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 2586,
+      "start": 50.62,
+      "end": 52.44,
+      "text": " You're something, right?",
+      "tokens": [
+        51609,
+        509,
+        434,
+        746,
+        11,
+        558,
+        30,
+        51697
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23613766589796686,
+      "compression_ratio": 1.582010582010582,
+      "no_speech_prob": 1.0591744842303186e-10,
+      "words": [
+        {
+          "word": " You're",
+          "start": 50.62,
+          "end": 51.54,
+          "probability": 0.9245074987411499
+        },
+        {
+          "word": " something,",
+          "start": 51.54,
+          "end": 51.96,
+          "probability": 0.9965429902076721
+        },
+        {
+          "word": " right?",
+          "start": 52.3,
+          "end": 52.44,
+          "probability": 0.5121869444847107
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 2586,
+      "start": 52.72,
+      "end": 54.74,
+      "text": " Little something out here in orbit",
+      "tokens": [
+        51697,
+        8022,
+        746,
+        484,
+        510,
+        294,
+        13991,
+        51809
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23613766589796686,
+      "compression_ratio": 1.582010582010582,
+      "no_speech_prob": 1.0591744842303186e-10,
+      "words": [
+        {
+          "word": " Little",
+          "start": 52.72,
+          "end": 52.82,
+          "probability": 0.9768964648246765
+        },
+        {
+          "word": " something",
+          "start": 52.82,
+          "end": 53.3,
+          "probability": 0.9982596039772034
+        },
+        {
+          "word": " out",
+          "start": 53.3,
+          "end": 53.66,
+          "probability": 0.6296750903129578
+        },
+        {
+          "word": " here",
+          "start": 53.66,
+          "end": 54.06,
+          "probability": 0.9997367262840271
+        },
+        {
+          "word": " in",
+          "start": 54.06,
+          "end": 54.32,
+          "probability": 0.9939842820167542
+        },
+        {
+          "word": " orbit",
+          "start": 54.32,
+          "end": 54.74,
+          "probability": 0.9970276951789856
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5586,
+      "start": 56.239999999999995,
+      "end": 71.08,
+      "text": " Orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit, orbit,",
+      "tokens": [
+        50365,
+        1610,
+        5260,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11,
+        13991,
+        11
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.026694011688232423,
+      "compression_ratio": 35.27272727272727,
+      "no_speech_prob": 6.836140681309999e-11,
+      "words": [
+        {
+          "word": " Orbit,",
+          "start": 56.239999999999995,
+          "end": 56.519999999999996,
+          "probability": 0.5250197742134333
+        },
+        {
+          "word": " orbit,",
+          "start": 56.519999999999996,
+          "end": 56.8,
+          "probability": 0.45807763934135437
+        },
+        {
+          "word": " orbit,",
+          "start": 56.8,
+          "end": 57.56,
+          "probability": 0.9956513047218323
+        },
+        {
+          "word": " orbit,",
+          "start": 57.56,
+          "end": 58.22,
+          "probability": 0.9968042373657227
+        },
+        {
+          "word": " orbit,",
+          "start": 58.38,
+          "end": 58.6,
+          "probability": 0.9930983185768127
+        },
+        {
+          "word": " orbit,",
+          "start": 58.6,
+          "end": 58.66,
+          "probability": 0.9877311587333679
+        },
+        {
+          "word": " orbit,",
+          "start": 58.8,
+          "end": 58.8,
+          "probability": 0.9834967851638794
+        },
+        {
+          "word": " orbit,",
+          "start": 59.0,
+          "end": 59.0,
+          "probability": 0.9884601831436157
+        },
+        {
+          "word": " orbit,",
+          "start": 59.26,
+          "end": 59.62,
+          "probability": 0.9958125948905945
+        },
+        {
+          "word": " orbit,",
+          "start": 59.62,
+          "end": 60.22,
+          "probability": 0.9983990788459778
+        },
+        {
+          "word": " orbit,",
+          "start": 60.3,
+          "end": 60.84,
+          "probability": 0.9989495873451233
+        },
+        {
+          "word": " orbit,",
+          "start": 60.84,
+          "end": 63.48,
+          "probability": 0.9990604519844055
+        },
+        {
+          "word": " orbit,",
+          "start": 63.48,
+          "end": 63.58,
+          "probability": 0.9990767240524292
+        },
+        {
+          "word": " orbit,",
+          "start": 63.88,
+          "end": 64.02,
+          "probability": 0.9990723133087158
+        },
+        {
+          "word": " orbit,",
+          "start": 64.08,
+          "end": 64.08,
+          "probability": 0.9990047812461853
+        },
+        {
+          "word": " orbit,",
+          "start": 64.08,
+          "end": 64.08,
+          "probability": 0.998941957950592
+        },
+        {
+          "word": " orbit,",
+          "start": 64.08,
+          "end": 64.08,
+          "probability": 0.9989244341850281
+        },
+        {
+          "word": " orbit,",
+          "start": 64.08,
+          "end": 64.08,
+          "probability": 0.9988647699356079
+        },
+        {
+          "word": " orbit,",
+          "start": 64.6,
+          "end": 64.6,
+          "probability": 0.9988034963607788
+        },
+        {
+          "word": " orbit,",
+          "start": 64.6,
+          "end": 64.6,
+          "probability": 0.9987491369247437
+        },
+        {
+          "word": " orbit,",
+          "start": 64.6,
+          "end": 64.6,
+          "probability": 0.9987316727638245
+        },
+        {
+          "word": " orbit,",
+          "start": 64.6,
+          "end": 64.6,
+          "probability": 0.9987473487854004
+        },
+        {
+          "word": " orbit,",
+          "start": 64.9,
+          "end": 64.9,
+          "probability": 0.9987229704856873
+        },
+        {
+          "word": " orbit,",
+          "start": 64.9,
+          "end": 65.04,
+          "probability": 0.9987416863441467
+        },
+        {
+          "word": " orbit,",
+          "start": 65.16,
+          "end": 65.16,
+          "probability": 0.9987599849700928
+        },
+        {
+          "word": " orbit,",
+          "start": 65.16,
+          "end": 65.16,
+          "probability": 0.9987785220146179
+        },
+        {
+          "word": " orbit,",
+          "start": 65.16,
+          "end": 65.16,
+          "probability": 0.9987970590591431
+        },
+        {
+          "word": " orbit,",
+          "start": 65.16,
+          "end": 65.16,
+          "probability": 0.9988428354263306
+        },
+        {
+          "word": " orbit,",
+          "start": 65.16,
+          "end": 65.16,
+          "probability": 0.9988920092582703
+        },
+        {
+          "word": " orbit,",
+          "start": 65.16,
+          "end": 65.16,
+          "probability": 0.9989456534385681
+        },
+        {
+          "word": " orbit,",
+          "start": 65.46,
+          "end": 65.46,
+          "probability": 0.9989702701568604
+        },
+        {
+          "word": " orbit,",
+          "start": 65.46,
+          "end": 65.46,
+          "probability": 0.9990293979644775
+        },
+        {
+          "word": " orbit,",
+          "start": 65.54,
+          "end": 65.54,
+          "probability": 0.9990718364715576
+        },
+        {
+          "word": " orbit,",
+          "start": 65.94,
+          "end": 65.94,
+          "probability": 0.9990930557250977
+        },
+        {
+          "word": " orbit,",
+          "start": 67.8,
+          "end": 67.8,
+          "probability": 0.9991152882575989
+        },
+        {
+          "word": " orbit,",
+          "start": 67.94,
+          "end": 67.94,
+          "probability": 0.9991355538368225
+        },
+        {
+          "word": " orbit,",
+          "start": 68.1,
+          "end": 68.1,
+          "probability": 0.9991657733917236
+        },
+        {
+          "word": " orbit,",
+          "start": 68.2,
+          "end": 68.2,
+          "probability": 0.9991779923439026
+        },
+        {
+          "word": " orbit,",
+          "start": 68.2,
+          "end": 68.2,
+          "probability": 0.9992091059684753
+        },
+        {
+          "word": " orbit,",
+          "start": 68.28,
+          "end": 68.28,
+          "probability": 0.9992032647132874
+        },
+        {
+          "word": " orbit,",
+          "start": 68.32,
+          "end": 68.32,
+          "probability": 0.9992324113845825
+        },
+        {
+          "word": " orbit,",
+          "start": 68.96,
+          "end": 68.96,
+          "probability": 0.9992425441741943
+        },
+        {
+          "word": " orbit,",
+          "start": 68.96,
+          "end": 68.96,
+          "probability": 0.9992132186889648
+        },
+        {
+          "word": " orbit,",
+          "start": 69.1,
+          "end": 69.1,
+          "probability": 0.9991939663887024
+        },
+        {
+          "word": " orbit,",
+          "start": 69.1,
+          "end": 69.1,
+          "probability": 0.9991551637649536
+        },
+        {
+          "word": " orbit,",
+          "start": 69.18,
+          "end": 69.18,
+          "probability": 0.9991214871406555
+        },
+        {
+          "word": " orbit,",
+          "start": 69.18,
+          "end": 69.18,
+          "probability": 0.9990946054458618
+        },
+        {
+          "word": " orbit,",
+          "start": 69.18,
+          "end": 69.18,
+          "probability": 0.9989953637123108
+        },
+        {
+          "word": " orbit,",
+          "start": 69.26,
+          "end": 69.26,
+          "probability": 0.9989769458770752
+        },
+        {
+          "word": " orbit,",
+          "start": 69.28,
+          "end": 69.28,
+          "probability": 0.9988744854927063
+        },
+        {
+          "word": " orbit,",
+          "start": 69.28,
+          "end": 69.28,
+          "probability": 0.9987700581550598
+        },
+        {
+          "word": " orbit,",
+          "start": 69.32,
+          "end": 69.36,
+          "probability": 0.9986541271209717
+        },
+        {
+          "word": " orbit,",
+          "start": 69.62,
+          "end": 69.62,
+          "probability": 0.9985754489898682
+        },
+        {
+          "word": " orbit,",
+          "start": 69.62,
+          "end": 69.62,
+          "probability": 0.9984251260757446
+        },
+        {
+          "word": " orbit,",
+          "start": 69.7,
+          "end": 69.7,
+          "probability": 0.9983419179916382
+        },
+        {
+          "word": " orbit,",
+          "start": 69.7,
+          "end": 69.7,
+          "probability": 0.9982132911682129
+        },
+        {
+          "word": " orbit,",
+          "start": 69.7,
+          "end": 69.7,
+          "probability": 0.9980818033218384
+        },
+        {
+          "word": " orbit,",
+          "start": 69.7,
+          "end": 69.7,
+          "probability": 0.9979150891304016
+        },
+        {
+          "word": " orbit,",
+          "start": 69.7,
+          "end": 69.7,
+          "probability": 0.9978440999984741
+        },
+        {
+          "word": " orbit,",
+          "start": 69.7,
+          "end": 69.7,
+          "probability": 0.9977686405181885
+        },
+        {
+          "word": " orbit,",
+          "start": 69.7,
+          "end": 69.7,
+          "probability": 0.9976679682731628
+        },
+        {
+          "word": " orbit,",
+          "start": 69.7,
+          "end": 69.7,
+          "probability": 0.997538685798645
+        },
+        {
+          "word": " orbit,",
+          "start": 69.7,
+          "end": 69.7,
+          "probability": 0.997591495513916
+        },
+        {
+          "word": " orbit,",
+          "start": 69.72,
+          "end": 70.1,
+          "probability": 0.9974774718284607
+        },
+        {
+          "word": " orbit,",
+          "start": 70.1,
+          "end": 70.1,
+          "probability": 0.997465968132019
+        },
+        {
+          "word": " orbit,",
+          "start": 70.1,
+          "end": 70.1,
+          "probability": 0.9974912405014038
+        },
+        {
+          "word": " orbit,",
+          "start": 70.28,
+          "end": 70.28,
+          "probability": 0.9975031018257141
+        },
+        {
+          "word": " orbit,",
+          "start": 70.28,
+          "end": 70.28,
+          "probability": 0.9975813627243042
+        },
+        {
+          "word": " orbit,",
+          "start": 70.28,
+          "end": 70.28,
+          "probability": 0.9976047277450562
+        },
+        {
+          "word": " orbit,",
+          "start": 70.28,
+          "end": 70.28,
+          "probability": 0.9976455569267273
+        },
+        {
+          "word": " orbit,",
+          "start": 70.28,
+          "end": 70.28,
+          "probability": 0.9976708292961121
+        },
+        {
+          "word": " orbit,",
+          "start": 70.28,
+          "end": 70.28,
+          "probability": 0.9977664947509766
+        },
+        {
+          "word": " orbit,",
+          "start": 70.28,
+          "end": 70.28,
+          "probability": 0.997715950012207
+        },
+        {
+          "word": " orbit,",
+          "start": 70.3,
+          "end": 70.3,
+          "probability": 0.9978451728820801
+        },
+        {
+          "word": " orbit,",
+          "start": 70.3,
+          "end": 70.3,
+          "probability": 0.9979673027992249
+        },
+        {
+          "word": " orbit,",
+          "start": 70.3,
+          "end": 70.3,
+          "probability": 0.9980193376541138
+        },
+        {
+          "word": " orbit,",
+          "start": 70.3,
+          "end": 70.3,
+          "probability": 0.9980623126029968
+        },
+        {
+          "word": " orbit,",
+          "start": 70.3,
+          "end": 70.3,
+          "probability": 0.998119056224823
+        },
+        {
+          "word": " orbit,",
+          "start": 70.34,
+          "end": 70.36,
+          "probability": 0.9981017708778381
+        },
+        {
+          "word": " orbit,",
+          "start": 70.36,
+          "end": 70.36,
+          "probability": 0.99818354845047
+        },
+        {
+          "word": " orbit,",
+          "start": 70.36,
+          "end": 70.36,
+          "probability": 0.9982044696807861
+        },
+        {
+          "word": " orbit,",
+          "start": 70.36,
+          "end": 70.36,
+          "probability": 0.9982653260231018
+        },
+        {
+          "word": " orbit,",
+          "start": 70.36,
+          "end": 70.36,
+          "probability": 0.99835205078125
+        },
+        {
+          "word": " orbit,",
+          "start": 70.36,
+          "end": 70.36,
+          "probability": 0.9983271956443787
+        },
+        {
+          "word": " orbit,",
+          "start": 70.36,
+          "end": 70.38,
+          "probability": 0.9983539581298828
+        },
+        {
+          "word": " orbit,",
+          "start": 70.38,
+          "end": 70.38,
+          "probability": 0.9983987212181091
+        },
+        {
+          "word": " orbit,",
+          "start": 70.38,
+          "end": 70.38,
+          "probability": 0.9984126091003418
+        },
+        {
+          "word": " orbit,",
+          "start": 70.38,
+          "end": 70.38,
+          "probability": 0.998441755771637
+        },
+        {
+          "word": " orbit,",
+          "start": 70.38,
+          "end": 70.38,
+          "probability": 0.9984649419784546
+        },
+        {
+          "word": " orbit,",
+          "start": 70.38,
+          "end": 70.38,
+          "probability": 0.9985097050666809
+        },
+        {
+          "word": " orbit,",
+          "start": 70.38,
+          "end": 70.42,
+          "probability": 0.9985060691833496
+        },
+        {
+          "word": " orbit,",
+          "start": 70.42,
+          "end": 70.42,
+          "probability": 0.9985432624816895
+        },
+        {
+          "word": " orbit,",
+          "start": 70.42,
+          "end": 70.42,
+          "probability": 0.9985398054122925
+        },
+        {
+          "word": " orbit,",
+          "start": 70.42,
+          "end": 70.42,
+          "probability": 0.9985338449478149
+        },
+        {
+          "word": " orbit,",
+          "start": 70.42,
+          "end": 70.42,
+          "probability": 0.9985295534133911
+        },
+        {
+          "word": " orbit,",
+          "start": 70.42,
+          "end": 70.42,
+          "probability": 0.9985527396202087
+        },
+        {
+          "word": " orbit,",
+          "start": 70.42,
+          "end": 70.42,
+          "probability": 0.9985548853874207
+        },
+        {
+          "word": " orbit,",
+          "start": 70.42,
+          "end": 70.42,
+          "probability": 0.9985617995262146
+        },
+        {
+          "word": " orbit,",
+          "start": 70.42,
+          "end": 70.42,
+          "probability": 0.998534083366394
+        },
+        {
+          "word": " orbit,",
+          "start": 70.42,
+          "end": 70.42,
+          "probability": 0.9985136389732361
+        },
+        {
+          "word": " orbit,",
+          "start": 70.42,
+          "end": 70.64,
+          "probability": 0.9985430240631104
+        },
+        {
+          "word": " orbit,",
+          "start": 70.64,
+          "end": 70.64,
+          "probability": 0.998502254486084
+        },
+        {
+          "word": " orbit,",
+          "start": 70.64,
+          "end": 70.64,
+          "probability": 0.9985185265541077
+        },
+        {
+          "word": " orbit,",
+          "start": 70.64,
+          "end": 70.64,
+          "probability": 0.9984838366508484
+        },
+        {
+          "word": " orbit,",
+          "start": 70.64,
+          "end": 70.64,
+          "probability": 0.9985092282295227
+        },
+        {
+          "word": " orbit,",
+          "start": 70.64,
+          "end": 70.64,
+          "probability": 0.9984721541404724
+        },
+        {
+          "word": " orbit,",
+          "start": 70.64,
+          "end": 70.64,
+          "probability": 0.9984702467918396
+        },
+        {
+          "word": " orbit,",
+          "start": 70.64,
+          "end": 70.66,
+          "probability": 0.9984326958656311
+        },
+        {
+          "word": " orbit,",
+          "start": 70.66,
+          "end": 70.66,
+          "probability": 0.9984496831893921
+        },
+        {
+          "word": " orbit,",
+          "start": 70.66,
+          "end": 70.66,
+          "probability": 0.9984122514724731
+        },
+        {
+          "word": " orbit,",
+          "start": 70.66,
+          "end": 71.08,
+          "probability": 0.9983571171760559
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 7108,
+      "start": 71.08,
+      "end": 75.76,
+      "text": " Fingering out, too tough to think with stars around a stark sky",
+      "tokens": [
+        50365,
+        479,
+        278,
+        1794,
+        484,
+        11,
+        886,
+        4930,
+        281,
+        519,
+        365,
+        6105,
+        926,
+        257,
+        17417,
+        5443,
+        50606
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.26311437707198293,
+      "compression_ratio": 1.5146198830409356,
+      "no_speech_prob": 1.4208312304475612e-10,
+      "words": [
+        {
+          "word": " Fingering",
+          "start": 71.08,
+          "end": 71.68,
+          "probability": 0.766617347796758
+        },
+        {
+          "word": " out,",
+          "start": 71.68,
+          "end": 72.12,
+          "probability": 0.983504056930542
+        },
+        {
+          "word": " too",
+          "start": 72.34,
+          "end": 72.44,
+          "probability": 0.9883559942245483
+        },
+        {
+          "word": " tough",
+          "start": 72.44,
+          "end": 72.86,
+          "probability": 0.9966287016868591
+        },
+        {
+          "word": " to",
+          "start": 72.86,
+          "end": 73.04,
+          "probability": 0.8824753165245056
+        },
+        {
+          "word": " think",
+          "start": 73.04,
+          "end": 73.34,
+          "probability": 0.996457040309906
+        },
+        {
+          "word": " with",
+          "start": 73.34,
+          "end": 73.6,
+          "probability": 0.8496572375297546
+        },
+        {
+          "word": " stars",
+          "start": 73.6,
+          "end": 74.0,
+          "probability": 0.9932369589805603
+        },
+        {
+          "word": " around",
+          "start": 74.0,
+          "end": 74.54,
+          "probability": 0.9527141451835632
+        },
+        {
+          "word": " a",
+          "start": 74.54,
+          "end": 74.84,
+          "probability": 0.41856250166893005
+        },
+        {
+          "word": " stark",
+          "start": 74.84,
+          "end": 75.22,
+          "probability": 0.7675836682319641
+        },
+        {
+          "word": " sky",
+          "start": 75.22,
+          "end": 75.76,
+          "probability": 0.9977980852127075
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 7108,
+      "start": 75.76,
+      "end": 78.6,
+      "text": " So by a bright night",
+      "tokens": [
+        50606,
+        407,
+        538,
+        257,
+        4730,
+        1818,
+        50744
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.26311437707198293,
+      "compression_ratio": 1.5146198830409356,
+      "no_speech_prob": 1.4208312304475612e-10,
+      "words": [
+        {
+          "word": " So",
+          "start": 75.76,
+          "end": 76.48,
+          "probability": 0.44513002038002014
+        },
+        {
+          "word": " by",
+          "start": 76.48,
+          "end": 76.94,
+          "probability": 0.5757265686988831
+        },
+        {
+          "word": " a",
+          "start": 76.94,
+          "end": 77.64,
+          "probability": 0.9142947793006897
+        },
+        {
+          "word": " bright",
+          "start": 77.64,
+          "end": 77.88,
+          "probability": 0.9848308563232422
+        },
+        {
+          "word": " night",
+          "start": 77.88,
+          "end": 78.6,
+          "probability": 0.9956786036491394
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 7108,
+      "start": 80.64000000000001,
+      "end": 83.24,
+      "text": " Leaving orbit at the moment",
+      "tokens": [
+        50744,
+        41253,
+        13991,
+        412,
+        264,
+        1623,
+        50978
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.26311437707198293,
+      "compression_ratio": 1.5146198830409356,
+      "no_speech_prob": 1.4208312304475612e-10,
+      "words": [
+        {
+          "word": " Leaving",
+          "start": 80.64000000000001,
+          "end": 81.24000000000001,
+          "probability": 0.42724791169166565
+        },
+        {
+          "word": " orbit",
+          "start": 81.24000000000001,
+          "end": 81.84,
+          "probability": 0.9711501002311707
+        },
+        {
+          "word": " at",
+          "start": 81.84,
+          "end": 82.56,
+          "probability": 0.8873215913772583
+        },
+        {
+          "word": " the",
+          "start": 82.56,
+          "end": 82.72,
+          "probability": 0.9992220401763916
+        },
+        {
+          "word": " moment",
+          "start": 82.72,
+          "end": 83.24,
+          "probability": 0.9995924830436707
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 7108,
+      "start": 83.24,
+      "end": 85.94,
+      "text": " Moments count here, just perfect",
+      "tokens": [
+        50978,
+        5576,
+        791,
+        1207,
+        510,
+        11,
+        445,
+        2176,
+        51115
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.26311437707198293,
+      "compression_ratio": 1.5146198830409356,
+      "no_speech_prob": 1.4208312304475612e-10,
+      "words": [
+        {
+          "word": " Moments",
+          "start": 83.24,
+          "end": 83.9,
+          "probability": 0.8982093930244446
+        },
+        {
+          "word": " count",
+          "start": 83.9,
+          "end": 84.18,
+          "probability": 0.9976849555969238
+        },
+        {
+          "word": " here,",
+          "start": 84.18,
+          "end": 84.68,
+          "probability": 0.9975860118865967
+        },
+        {
+          "word": " just",
+          "start": 84.84,
+          "end": 85.32,
+          "probability": 0.995660126209259
+        },
+        {
+          "word": " perfect",
+          "start": 85.32,
+          "end": 85.94,
+          "probability": 0.9991115927696228
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 7108,
+      "start": 85.94,
+      "end": 88.64,
+      "text": " We'll make all all the way to the next channel",
+      "tokens": [
+        51115,
+        492,
+        603,
+        652,
+        439,
+        439,
+        264,
+        636,
+        281,
+        264,
+        958,
+        2269,
+        51245
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.26311437707198293,
+      "compression_ratio": 1.5146198830409356,
+      "no_speech_prob": 1.4208312304475612e-10,
+      "words": [
+        {
+          "word": " We'll",
+          "start": 85.94,
+          "end": 86.34,
+          "probability": 0.9310523569583893
+        },
+        {
+          "word": " make",
+          "start": 86.34,
+          "end": 86.62,
+          "probability": 0.9932544827461243
+        },
+        {
+          "word": " all",
+          "start": 86.62,
+          "end": 87.06,
+          "probability": 0.7753074765205383
+        },
+        {
+          "word": " all",
+          "start": 87.06,
+          "end": 87.38,
+          "probability": 0.38969892263412476
+        },
+        {
+          "word": " the",
+          "start": 87.38,
+          "end": 87.5,
+          "probability": 0.9988133907318115
+        },
+        {
+          "word": " way",
+          "start": 87.5,
+          "end": 87.68,
+          "probability": 0.9810133576393127
+        },
+        {
+          "word": " to",
+          "start": 87.68,
+          "end": 87.84,
+          "probability": 0.9515001773834229
+        },
+        {
+          "word": " the",
+          "start": 87.84,
+          "end": 87.98,
+          "probability": 0.9971422553062439
+        },
+        {
+          "word": " next",
+          "start": 87.98,
+          "end": 88.18,
+          "probability": 0.9977816939353943
+        },
+        {
+          "word": " channel",
+          "start": 88.18,
+          "end": 88.64,
+          "probability": 0.9658918976783752
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 7108,
+      "start": 88.64,
+      "end": 90.82,
+      "text": " Turn the channel, I think my movie's on",
+      "tokens": [
+        51245,
+        7956,
+        264,
+        2269,
+        11,
+        286,
+        519,
+        452,
+        3169,
+        311,
+        322,
+        51352
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.26311437707198293,
+      "compression_ratio": 1.5146198830409356,
+      "no_speech_prob": 1.4208312304475612e-10,
+      "words": [
+        {
+          "word": " Turn",
+          "start": 88.64,
+          "end": 89.02,
+          "probability": 0.5344781875610352
+        },
+        {
+          "word": " the",
+          "start": 89.02,
+          "end": 89.18,
+          "probability": 0.6117001175880432
+        },
+        {
+          "word": " channel,",
+          "start": 89.18,
+          "end": 89.5,
+          "probability": 0.9843107461929321
+        },
+        {
+          "word": " I",
+          "start": 89.8,
+          "end": 89.84,
+          "probability": 0.9892885684967041
+        },
+        {
+          "word": " think",
+          "start": 89.84,
+          "end": 90.02,
+          "probability": 0.9967772364616394
+        },
+        {
+          "word": " my",
+          "start": 90.02,
+          "end": 90.22,
+          "probability": 0.9965567588806152
+        },
+        {
+          "word": " movie's",
+          "start": 90.22,
+          "end": 90.66,
+          "probability": 0.8637216091156006
+        },
+        {
+          "word": " on",
+          "start": 90.66,
+          "end": 90.82,
+          "probability": 0.9959081411361694
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 7108,
+      "start": 90.82,
+      "end": 92.26,
+      "text": " Flip, flip, flip, this one",
+      "tokens": [
+        51352,
+        28210,
+        11,
+        7929,
+        11,
+        7929,
+        11,
+        341,
+        472,
+        51427
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.26311437707198293,
+      "compression_ratio": 1.5146198830409356,
+      "no_speech_prob": 1.4208312304475612e-10,
+      "words": [
+        {
+          "word": " Flip,",
+          "start": 90.82,
+          "end": 91.1,
+          "probability": 0.6722236275672913
+        },
+        {
+          "word": " flip,",
+          "start": 91.26,
+          "end": 91.44,
+          "probability": 0.9639129042625427
+        },
+        {
+          "word": " flip,",
+          "start": 91.58,
+          "end": 91.78,
+          "probability": 0.9663772583007812
+        },
+        {
+          "word": " this",
+          "start": 92.06,
+          "end": 92.12,
+          "probability": 0.22808554768562317
+        },
+        {
+          "word": " one",
+          "start": 92.12,
+          "end": 92.26,
+          "probability": 0.31133371591567993
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 10108,
+      "start": 107.9,
+      "end": 114.2,
+      "text": " Oh, oh, callin' to the bigger sky beyond",
+      "tokens": [
+        50365,
+        876,
+        11,
+        1954,
+        11,
+        818,
+        259,
+        6,
+        281,
+        264,
+        3801,
+        5443,
+        4399,
+        51024
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.36884933710098267,
+      "compression_ratio": 1.45,
+      "no_speech_prob": 2.524043127283271e-11,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 107.9,
+          "end": 108.7,
+          "probability": 0.26428744196891785
+        },
+        {
+          "word": " oh,",
+          "start": 109.04,
+          "end": 109.44,
+          "probability": 0.7247235178947449
+        },
+        {
+          "word": " callin'",
+          "start": 109.78,
+          "end": 110.62,
+          "probability": 0.6310235261917114
+        },
+        {
+          "word": " to",
+          "start": 111.68,
+          "end": 111.92,
+          "probability": 0.2439621239900589
+        },
+        {
+          "word": " the",
+          "start": 111.92,
+          "end": 112.26,
+          "probability": 0.9920573830604553
+        },
+        {
+          "word": " bigger",
+          "start": 112.26,
+          "end": 113.0,
+          "probability": 0.9854645133018494
+        },
+        {
+          "word": " sky",
+          "start": 113.0,
+          "end": 113.5,
+          "probability": 0.9987818598747253
+        },
+        {
+          "word": " beyond",
+          "start": 113.5,
+          "end": 114.2,
+          "probability": 0.9335593581199646
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 10108,
+      "start": 114.2,
+      "end": 116.34,
+      "text": " Everything so far away",
+      "tokens": [
+        51024,
+        5471,
+        370,
+        1400,
+        1314,
+        51128
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.36884933710098267,
+      "compression_ratio": 1.45,
+      "no_speech_prob": 2.524043127283271e-11,
+      "words": [
+        {
+          "word": " Everything",
+          "start": 114.2,
+          "end": 114.9,
+          "probability": 0.4831942617893219
+        },
+        {
+          "word": " so",
+          "start": 114.9,
+          "end": 115.28,
+          "probability": 0.509177565574646
+        },
+        {
+          "word": " far",
+          "start": 115.28,
+          "end": 115.76,
+          "probability": 0.9984751343727112
+        },
+        {
+          "word": " away",
+          "start": 115.76,
+          "end": 116.34,
+          "probability": 0.8758458495140076
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 10108,
+      "start": 117.30000000000001,
+      "end": 119.8,
+      "text": " It zooms, zooms in",
+      "tokens": [
+        51128,
+        467,
+        5721,
+        4785,
+        11,
+        5721,
+        4785,
+        294,
+        51303
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.36884933710098267,
+      "compression_ratio": 1.45,
+      "no_speech_prob": 2.524043127283271e-11,
+      "words": [
+        {
+          "word": " It",
+          "start": 117.30000000000001,
+          "end": 118.10000000000001,
+          "probability": 0.4160518944263458
+        },
+        {
+          "word": " zooms,",
+          "start": 118.10000000000001,
+          "end": 118.9,
+          "probability": 0.9681681394577026
+        },
+        {
+          "word": " zooms",
+          "start": 118.9,
+          "end": 119.24,
+          "probability": 0.4413301646709442
+        },
+        {
+          "word": " in",
+          "start": 119.24,
+          "end": 119.8,
+          "probability": 0.9038963913917542
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 10108,
+      "start": 119.8,
+      "end": 122.9,
+      "text": " To see far things big now",
+      "tokens": [
+        51303,
+        1407,
+        536,
+        1400,
+        721,
+        955,
+        586,
+        51459
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.36884933710098267,
+      "compression_ratio": 1.45,
+      "no_speech_prob": 2.524043127283271e-11,
+      "words": [
+        {
+          "word": " To",
+          "start": 119.8,
+          "end": 121.2,
+          "probability": 0.2989213764667511
+        },
+        {
+          "word": " see",
+          "start": 121.2,
+          "end": 121.48,
+          "probability": 0.9980599284172058
+        },
+        {
+          "word": " far",
+          "start": 121.48,
+          "end": 121.84,
+          "probability": 0.6389186382293701
+        },
+        {
+          "word": " things",
+          "start": 121.84,
+          "end": 122.2,
+          "probability": 0.9120780229568481
+        },
+        {
+          "word": " big",
+          "start": 122.2,
+          "end": 122.52,
+          "probability": 0.9339858293533325
+        },
+        {
+          "word": " now",
+          "start": 122.52,
+          "end": 122.9,
+          "probability": 0.990515947341919
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 10108,
+      "start": 122.9,
+      "end": 125.12,
+      "text": " So far and so long away",
+      "tokens": [
+        51459,
+        407,
+        1400,
+        293,
+        370,
+        938,
+        1314,
+        51570
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.36884933710098267,
+      "compression_ratio": 1.45,
+      "no_speech_prob": 2.524043127283271e-11,
+      "words": [
+        {
+          "word": " So",
+          "start": 122.9,
+          "end": 123.44,
+          "probability": 0.6869878172874451
+        },
+        {
+          "word": " far",
+          "start": 123.44,
+          "end": 123.86,
+          "probability": 0.9997904896736145
+        },
+        {
+          "word": " and",
+          "start": 123.86,
+          "end": 124.02,
+          "probability": 0.9800905585289001
+        },
+        {
+          "word": " so",
+          "start": 124.02,
+          "end": 124.22,
+          "probability": 0.9995272159576416
+        },
+        {
+          "word": " long",
+          "start": 124.22,
+          "end": 124.62,
+          "probability": 0.9966245889663696
+        },
+        {
+          "word": " away",
+          "start": 124.62,
+          "end": 125.12,
+          "probability": 0.980541467666626
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 10108,
+      "start": 125.12,
+      "end": 127.86,
+      "text": " That means you did something right",
+      "tokens": [
+        51570,
+        663,
+        1355,
+        291,
+        630,
+        746,
+        558,
+        51708
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.36884933710098267,
+      "compression_ratio": 1.45,
+      "no_speech_prob": 2.524043127283271e-11,
+      "words": [
+        {
+          "word": " That",
+          "start": 125.12,
+          "end": 126.16,
+          "probability": 0.7020659446716309
+        },
+        {
+          "word": " means",
+          "start": 126.16,
+          "end": 126.46,
+          "probability": 0.9982805252075195
+        },
+        {
+          "word": " you",
+          "start": 126.46,
+          "end": 126.7,
+          "probability": 0.993344783782959
+        },
+        {
+          "word": " did",
+          "start": 126.7,
+          "end": 126.96,
+          "probability": 0.9993748068809509
+        },
+        {
+          "word": " something",
+          "start": 126.96,
+          "end": 127.36,
+          "probability": 0.6047194004058838
+        },
+        {
+          "word": " right",
+          "start": 127.36,
+          "end": 127.86,
+          "probability": 0.9842537641525269
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 10108,
+      "start": 127.86,
+      "end": 130.54,
+      "text": " Something with it all you did right",
+      "tokens": [
+        51708,
+        6595,
+        365,
+        309,
+        439,
+        291,
+        630,
+        558,
+        51843
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.36884933710098267,
+      "compression_ratio": 1.45,
+      "no_speech_prob": 2.524043127283271e-11,
+      "words": [
+        {
+          "word": " Something",
+          "start": 127.86,
+          "end": 128.7,
+          "probability": 0.7225868701934814
+        },
+        {
+          "word": " with",
+          "start": 128.7,
+          "end": 129.3,
+          "probability": 0.8393672704696655
+        },
+        {
+          "word": " it",
+          "start": 129.3,
+          "end": 129.58,
+          "probability": 0.9894185662269592
+        },
+        {
+          "word": " all",
+          "start": 129.58,
+          "end": 129.72,
+          "probability": 0.8529855608940125
+        },
+        {
+          "word": " you",
+          "start": 129.72,
+          "end": 129.94,
+          "probability": 0.771668553352356
+        },
+        {
+          "word": " did",
+          "start": 129.94,
+          "end": 130.24,
+          "probability": 0.997632622718811
+        },
+        {
+          "word": " right",
+          "start": 130.24,
+          "end": 130.54,
+          "probability": 0.963104248046875
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 13054,
+      "start": 130.54,
+      "end": 134.9,
+      "text": " How much can you do with it all?",
+      "tokens": [
+        50365,
+        1012,
+        709,
+        393,
+        291,
+        360,
+        365,
+        309,
+        439,
+        30,
+        50597
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.2459511227077908,
+      "compression_ratio": 1.577922077922078,
+      "no_speech_prob": 1.9418088664791e-11,
+      "words": [
+        {
+          "word": " How",
+          "start": 130.54,
+          "end": 131.1,
+          "probability": 0.8242271542549133
+        },
+        {
+          "word": " much",
+          "start": 131.1,
+          "end": 132.16,
+          "probability": 0.9399337768554688
+        },
+        {
+          "word": " can",
+          "start": 132.16,
+          "end": 132.42,
+          "probability": 0.9896859526634216
+        },
+        {
+          "word": " you",
+          "start": 132.42,
+          "end": 132.74,
+          "probability": 0.9965180158615112
+        },
+        {
+          "word": " do",
+          "start": 132.74,
+          "end": 133.22,
+          "probability": 0.9963380098342896
+        },
+        {
+          "word": " with",
+          "start": 133.22,
+          "end": 133.92,
+          "probability": 0.9888273477554321
+        },
+        {
+          "word": " it",
+          "start": 133.92,
+          "end": 134.28,
+          "probability": 0.9963876008987427
+        },
+        {
+          "word": " all?",
+          "start": 134.28,
+          "end": 134.9,
+          "probability": 0.986880898475647
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "seek": 13054,
+      "start": 135.38,
+      "end": 137.72,
+      "text": " Do something, little something",
+      "tokens": [
+        50619,
+        1144,
+        746,
+        11,
+        707,
+        746,
+        50726
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.2459511227077908,
+      "compression_ratio": 1.577922077922078,
+      "no_speech_prob": 1.9418088664791e-11,
+      "words": [
+        {
+          "word": " Do",
+          "start": 135.38,
+          "end": 135.8,
+          "probability": 0.9678922295570374
+        },
+        {
+          "word": " something,",
+          "start": 135.8,
+          "end": 136.42,
+          "probability": 0.8998017907142639
+        },
+        {
+          "word": " little",
+          "start": 136.86,
+          "end": 137.24,
+          "probability": 0.9600474834442139
+        },
+        {
+          "word": " something",
+          "start": 137.24,
+          "end": 137.72,
+          "probability": 0.9966719150543213
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 13054,
+      "start": 137.72,
+      "end": 139.58,
+      "text": " You're something, right?",
+      "tokens": [
+        50726,
+        509,
+        434,
+        746,
+        11,
+        558,
+        30,
+        50819
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.2459511227077908,
+      "compression_ratio": 1.577922077922078,
+      "no_speech_prob": 1.9418088664791e-11,
+      "words": [
+        {
+          "word": " You're",
+          "start": 137.72,
+          "end": 138.62,
+          "probability": 0.8290810883045197
+        },
+        {
+          "word": " something,",
+          "start": 138.62,
+          "end": 139.1,
+          "probability": 0.991969883441925
+        },
+        {
+          "word": " right?",
+          "start": 139.42,
+          "end": 139.58,
+          "probability": 0.7024221420288086
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "seek": 13054,
+      "start": 139.82,
+      "end": 141.96,
+      "text": " Little something out here in orbit",
+      "tokens": [
+        50824,
+        8022,
+        746,
+        484,
+        510,
+        294,
+        13991,
+        50938
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.2459511227077908,
+      "compression_ratio": 1.577922077922078,
+      "no_speech_prob": 1.9418088664791e-11,
+      "words": [
+        {
+          "word": " Little",
+          "start": 139.82,
+          "end": 139.98,
+          "probability": 0.9585476517677307
+        },
+        {
+          "word": " something",
+          "start": 139.98,
+          "end": 140.46,
+          "probability": 0.9983238577842712
+        },
+        {
+          "word": " out",
+          "start": 140.46,
+          "end": 140.84,
+          "probability": 0.4907594323158264
+        },
+        {
+          "word": " here",
+          "start": 140.84,
+          "end": 141.24,
+          "probability": 0.9993571639060974
+        },
+        {
+          "word": " in",
+          "start": 141.24,
+          "end": 141.48,
+          "probability": 0.9955269694328308
+        },
+        {
+          "word": " orbit",
+          "start": 141.48,
+          "end": 141.96,
+          "probability": 0.9909685254096985
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "seek": 13054,
+      "start": 145.2,
+      "end": 147.52,
+      "text": " Out here in orbit",
+      "tokens": [
+        50938,
+        5925,
+        510,
+        294,
+        13991,
+        51216
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.2459511227077908,
+      "compression_ratio": 1.577922077922078,
+      "no_speech_prob": 1.9418088664791e-11,
+      "words": [
+        {
+          "word": " Out",
+          "start": 145.2,
+          "end": 145.95999999999998,
+          "probability": 0.9452573657035828
+        },
+        {
+          "word": " here",
+          "start": 145.95999999999998,
+          "end": 146.72,
+          "probability": 0.9985401630401611
+        },
+        {
+          "word": " in",
+          "start": 146.72,
+          "end": 147.0,
+          "probability": 0.9989579916000366
+        },
+        {
+          "word": " orbit",
+          "start": 147.0,
+          "end": 147.52,
+          "probability": 0.9992703795433044
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seek": 13054,
+      "start": 152.14,
+      "end": 155.14,
+      "text": " That space is for you, not me",
+      "tokens": [
+        51216,
+        663,
+        1901,
+        307,
+        337,
+        291,
+        11,
+        406,
+        385,
+        51598
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.2459511227077908,
+      "compression_ratio": 1.577922077922078,
+      "no_speech_prob": 1.9418088664791e-11,
+      "words": [
+        {
+          "word": " That",
+          "start": 152.14,
+          "end": 152.9,
+          "probability": 0.7200186848640442
+        },
+        {
+          "word": " space",
+          "start": 152.9,
+          "end": 153.46,
+          "probability": 0.9890706539154053
+        },
+        {
+          "word": " is",
+          "start": 153.46,
+          "end": 153.82,
+          "probability": 0.9983794689178467
+        },
+        {
+          "word": " for",
+          "start": 153.82,
+          "end": 154.14,
+          "probability": 0.9960709810256958
+        },
+        {
+          "word": " you,",
+          "start": 154.14,
+          "end": 154.38,
+          "probability": 0.9996280670166016
+        },
+        {
+          "word": " not",
+          "start": 154.5,
+          "end": 154.76,
+          "probability": 0.9991631507873535
+        },
+        {
+          "word": " me",
+          "start": 154.76,
+          "end": 155.14,
+          "probability": 0.999382495880127
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "seek": 13054,
+      "start": 155.14,
+      "end": 157.72,
+      "text": " I'm good with myself on the ground",
+      "tokens": [
+        51598,
+        286,
+        478,
+        665,
+        365,
+        2059,
+        322,
+        264,
+        2727,
+        51728
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.2459511227077908,
+      "compression_ratio": 1.577922077922078,
+      "no_speech_prob": 1.9418088664791e-11,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 155.14,
+          "end": 155.86,
+          "probability": 0.9946389198303223
+        },
+        {
+          "word": " good",
+          "start": 155.86,
+          "end": 156.12,
+          "probability": 0.9994511008262634
+        },
+        {
+          "word": " with",
+          "start": 156.12,
+          "end": 156.36,
+          "probability": 0.9985432624816895
+        },
+        {
+          "word": " myself",
+          "start": 156.36,
+          "end": 156.8,
+          "probability": 0.9964568018913269
+        },
+        {
+          "word": " on",
+          "start": 156.8,
+          "end": 157.08,
+          "probability": 0.9968860745429993
+        },
+        {
+          "word": " the",
+          "start": 157.08,
+          "end": 157.26,
+          "probability": 0.9994169473648071
+        },
+        {
+          "word": " ground",
+          "start": 157.26,
+          "end": 157.72,
+          "probability": 0.9994766116142273
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "seek": 13054,
+      "start": 157.72,
+      "end": 160.04,
+      "text": " The world's just right with my stuff",
+      "tokens": [
+        51728,
+        440,
+        1002,
+        311,
+        445,
+        558,
+        365,
+        452,
+        1507,
+        51844
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.2459511227077908,
+      "compression_ratio": 1.577922077922078,
+      "no_speech_prob": 1.9418088664791e-11,
+      "words": [
+        {
+          "word": " The",
+          "start": 157.72,
+          "end": 158.26,
+          "probability": 0.9663505554199219
+        },
+        {
+          "word": " world's",
+          "start": 158.26,
+          "end": 158.66,
+          "probability": 0.9945130944252014
+        },
+        {
+          "word": " just",
+          "start": 158.66,
+          "end": 158.88,
+          "probability": 0.9992079138755798
+        },
+        {
+          "word": " right",
+          "start": 158.88,
+          "end": 159.24,
+          "probability": 0.9996587038040161
+        },
+        {
+          "word": " with",
+          "start": 159.24,
+          "end": 159.44,
+          "probability": 0.991113007068634
+        },
+        {
+          "word": " my",
+          "start": 159.44,
+          "end": 159.66,
+          "probability": 0.9984608888626099
+        },
+        {
+          "word": " stuff",
+          "start": 159.66,
+          "end": 160.04,
+          "probability": 0.9993472695350647
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "seek": 16004,
+      "start": 160.04,
+      "end": 165.08,
+      "text": " The things that I need of the natures of creatures",
+      "tokens": [
+        50365,
+        440,
+        721,
+        300,
+        286,
+        643,
+        295,
+        264,
+        2249,
+        1303,
+        295,
+        12281,
+        50705
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.37065257582553596,
+      "compression_ratio": 1.3113207547169812,
+      "no_speech_prob": 9.177704429763622e-11,
+      "words": [
+        {
+          "word": " The",
+          "start": 160.04,
+          "end": 160.36,
+          "probability": 0.15055689215660095
+        },
+        {
+          "word": " things",
+          "start": 160.36,
+          "end": 161.04,
+          "probability": 0.9856528043746948
+        },
+        {
+          "word": " that",
+          "start": 161.04,
+          "end": 161.58,
+          "probability": 0.9820297360420227
+        },
+        {
+          "word": " I",
+          "start": 161.58,
+          "end": 161.8,
+          "probability": 0.9244022965431213
+        },
+        {
+          "word": " need",
+          "start": 161.8,
+          "end": 162.4,
+          "probability": 0.9971599578857422
+        },
+        {
+          "word": " of",
+          "start": 162.4,
+          "end": 163.36,
+          "probability": 0.32278209924697876
+        },
+        {
+          "word": " the",
+          "start": 163.36,
+          "end": 163.54,
+          "probability": 0.5852110981941223
+        },
+        {
+          "word": " natures",
+          "start": 163.54,
+          "end": 164.12,
+          "probability": 0.8391985893249512
+        },
+        {
+          "word": " of",
+          "start": 164.12,
+          "end": 164.48,
+          "probability": 0.906654953956604
+        },
+        {
+          "word": " creatures",
+          "start": 164.48,
+          "end": 165.08,
+          "probability": 0.9945005178451538
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "seek": 16004,
+      "start": 166.84,
+      "end": 167.68,
+      "text": " Make it right",
+      "tokens": [
+        50705,
+        4387,
+        309,
+        558,
+        50805
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.37065257582553596,
+      "compression_ratio": 1.3113207547169812,
+      "no_speech_prob": 9.177704429763622e-11,
+      "words": [
+        {
+          "word": " Make",
+          "start": 166.6,
+          "end": 167.1,
+          "probability": 0.657026469707489
+        },
+        {
+          "word": " it",
+          "start": 167.1,
+          "end": 167.3,
+          "probability": 0.9816746115684509
+        },
+        {
+          "word": " right",
+          "start": 167.3,
+          "end": 167.68,
+          "probability": 0.8866196274757385
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "seek": 16004,
+      "start": 168.84,
+      "end": 170.46,
+      "text": " Stars for night",
+      "tokens": [
+        50805,
+        20957,
+        337,
+        1818,
+        51005
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.37065257582553596,
+      "compression_ratio": 1.3113207547169812,
+      "no_speech_prob": 9.177704429763622e-11,
+      "words": [
+        {
+          "word": " Stars",
+          "start": 168.84,
+          "end": 169.38,
+          "probability": 0.6706600189208984
+        },
+        {
+          "word": " for",
+          "start": 169.38,
+          "end": 170.02,
+          "probability": 0.9589447379112244
+        },
+        {
+          "word": " night",
+          "start": 170.02,
+          "end": 170.46,
+          "probability": 0.6947122812271118
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "seek": 16004,
+      "start": 173.64,
+      "end": 175.52,
+      "text": " I'm just a creature of nature",
+      "tokens": [
+        51045,
+        286,
+        478,
+        445,
+        257,
+        12797,
+        295,
+        3687,
+        51305
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.37065257582553596,
+      "compression_ratio": 1.3113207547169812,
+      "no_speech_prob": 9.177704429763622e-11,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 173.46,
+          "end": 173.96,
+          "probability": 0.9572031795978546
+        },
+        {
+          "word": " just",
+          "start": 173.96,
+          "end": 174.26,
+          "probability": 0.9984103441238403
+        },
+        {
+          "word": " a",
+          "start": 174.26,
+          "end": 174.48,
+          "probability": 0.9965317845344543
+        },
+        {
+          "word": " creature",
+          "start": 174.48,
+          "end": 174.78,
+          "probability": 0.9942080974578857
+        },
+        {
+          "word": " of",
+          "start": 174.78,
+          "end": 175.12,
+          "probability": 0.957253098487854
+        },
+        {
+          "word": " nature",
+          "start": 175.12,
+          "end": 175.52,
+          "probability": 0.997096061706543
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "seek": 16004,
+      "start": 178.84,
+      "end": 179.84,
+      "text": " Down here",
+      "tokens": [
+        51305,
+        9506,
+        510,
+        51505
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.37065257582553596,
+      "compression_ratio": 1.3113207547169812,
+      "no_speech_prob": 9.177704429763622e-11,
+      "words": [
+        {
+          "word": " Down",
+          "start": 178.76,
+          "end": 179.26,
+          "probability": 0.9403945207595825
+        },
+        {
+          "word": " here",
+          "start": 179.26,
+          "end": 179.84,
+          "probability": 0.9954491257667542
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "seek": 16004,
+      "start": 182.5,
+      "end": 184.88,
+      "text": " Out there in orbit",
+      "tokens": [
+        51505,
+        5925,
+        456,
+        294,
+        13991,
+        51805
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.37065257582553596,
+      "compression_ratio": 1.3113207547169812,
+      "no_speech_prob": 9.177704429763622e-11,
+      "words": [
+        {
+          "word": " Out",
+          "start": 182.5,
+          "end": 183.5,
+          "probability": 0.9472869038581848
+        },
+        {
+          "word": " there",
+          "start": 183.5,
+          "end": 183.96,
+          "probability": 0.9983798265457153
+        },
+        {
+          "word": " in",
+          "start": 183.96,
+          "end": 184.28,
+          "probability": 0.9755292534828186
+        },
+        {
+          "word": " orbit",
+          "start": 184.28,
+          "end": 184.88,
+          "probability": 0.9950947761535645
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "seek": 19004,
+      "start": 190.64,
+      "end": 192.88,
+      "text": " Thank you.",
+      "tokens": [
+        50365,
+        1044,
+        291,
+        13,
+        51864
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.20964447657267252,
+      "compression_ratio": 0.5555555555555556,
+      "no_speech_prob": 1.1844522584958384e-10,
+      "words": [
+        {
+          "word": " Thank",
+          "start": 190.64,
+          "end": 191.76,
+          "probability": 0.19774606823921204
+        },
+        {
+          "word": " you.",
+          "start": 191.76,
+          "end": 192.88,
+          "probability": 0.9984948635101318
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "provenance": {
+    "source": "C:\\Users\\arneg\\OneDrive\\Documents\\Bitwig Studio\\Projects\\A Right Little Something\\samples\\A Right Little Something (Lead Vocal) - Renaissance.wav",
+    "model": "large-v3-turbo",
+    "prompted": false,
+    "clock": "source_seconds"
+  }
+}

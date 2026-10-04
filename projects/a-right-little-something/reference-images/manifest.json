@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Curated still references only; exact original pixels; videos remain local",
+  "files": [
+    {
+      "source": "generated/refs/harper-established.png",
+      "backup": "reference-images/harper-established.png",
+      "role": "Established Harper identity; wardrobe in current shots differs",
+      "bytes": 2516139,
+      "sha256": "6d901e887f0b82d7a6304cccc533409b69e80116587eb0f0e0843ff0f9b8cf5c"
+    },
+    {
+      "source": "generated/refs/ship-exterior-reference.png",
+      "backup": "reference-images/ship-original-exterior.png",
+      "role": "Original user supplied ship geometry",
+      "bytes": 2405851,
+      "sha256": "7725e0f2c6f0a3268e68c6a0289be7f2a80e589d9074f9b83fa430d03536a008"
+    },
+    {
+      "source": "generated/refs/ship-finish-lighting-approved-v01.png",
+      "backup": "reference-images/ship-finish-approved.png",
+      "role": "Approved metal finish and amber/cyan lights; thick glass superseded",
+      "bytes": 2352495,
+      "sha256": "fab1828600b3b6305ea8d738827f977d3b3bbafa6f94e08abbe1eefe61751806"
+    },
+    {
+      "source": "generated/storyboard/opening-v02/opening-001-starting-frame-v01.png",
+      "backup": "reference-images/opening-space-start.png",
+      "role": "Selected establishing shot starting reference; distant planet and two moons",
+      "bytes": 2641240,
+      "sha256": "fd07668cc25aeea82f5d6adc25df7cde844c9fb49dc5cccf892b7696299c2c07"
+    },
+    {
+      "source": "generated/storyboard/opening-v02/opening-001-ending-frame-v01.png",
+      "backup": "reference-images/opening-space-end.png",
+      "role": "Selected establishing shot ending reference",
+      "bytes": 2678127,
+      "sha256": "6af973cc058b6f6499bca44a07830331dc42813204f90582ac19dd99d96a45b4"
+    },
+    {
+      "source": "generated/storyboard/opening-v02/opening-002-starting-frame-v02.png",
+      "backup": "reference-images/opening-portrait-start.png",
+      "role": "Preferred locked-camera lines take starting reference",
+      "bytes": 2403100,
+      "sha256": "4821179100822b9c1b8a26e0c16019db2df9875905763fef0e9c99416c89859b"
+    },
+    {
+      "source": "generated/storyboard/opening-v02/opening-003-starting-frame-v01.png",
+      "backup": "reference-images/opening-pullback-start.png",
+      "role": "Continuous two-phrase pullback starting reference",
+      "bytes": 2427638,
+      "sha256": "48a8f70419fca6f3486046de3f267ebf4485cb723d597acfe351d84e6d271b4c"
+    },
+    {
+      "source": "generated/storyboard/opening-v02/opening-004-ending-frame-v01.png",
+      "backup": "reference-images/opening-pullback-end.png",
+      "role": "Continuous two-phrase pullback ending reference; full equatorial band",
+      "bytes": 2715319,
+      "sha256": "885811ae1f898459b1600c5408e89ca583c93b0003ac58cd5ffbe2440051ca5a"
+    },
+    {
+      "source": "generated/storyboard/opening-v02/opening-005-starting-frame-v01.png",
+      "backup": "reference-images/opening-window-start.png",
+      "role": "Floating interior shot; thin connected field appearance",
+      "bytes": 2523661,
+      "sha256": "0e1edf9a76838822e7af05935cdf63bf9a81351d8f26701f03219a15246e1b32"
+    }
+  ]
+}

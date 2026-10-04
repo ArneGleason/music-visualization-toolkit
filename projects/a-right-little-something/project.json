@@ -24,6 +24,31 @@
   },
   "visualReferences": [
     {
+      "id": "ship-finish-lighting-approved-v01",
+      "path": "generated/refs/ship-finish-lighting-approved-v01.png",
+      "role": "Approved metal finish, detail and lighting; shell appearance is superseded by ship-thin-field-shell-approved-v01",
+      "status": "approved",
+      "approvedOn": "2026-10-04",
+      "source": "generated/blockout-moon-identities/starting-frame-volcanic-ice-v01.png",
+      "features": [
+        "Clear spherical shell with restrained reflective highlights",
+        "Dark grey satin metal, panel seams and layered platform rims",
+        "Continuous warm amber edge lights around equatorial band and platforms",
+        "Sparse cyan rectangular navigation lights on equatorial band",
+        "Bright cyan inner arc on the vertical rear engine ring"
+      ]
+    },
+    {
+      "id": "ship-exterior-design",
+      "path": "generated/refs/ship-exterior-reference.png",
+      "role": "User supplied spherical spacecraft design; blockout working reference"
+    },
+    {
+      "id": "ship-interior-design",
+      "path": "generated/refs/ship-interior-reference.png",
+      "role": "User supplied interior framing and platform reference"
+    },
+    {
       "id": "orbit-mood",
       "path": "generated/refs/orbit-mood.png",
       "role": "User supplied mood reference; scene and costume direction provisional"
@@ -32,14 +57,42 @@
       "id": "harper-established",
       "path": "generated/refs/harper-established.png",
       "role": "Established main-character identity from Monsters Undone"
+    },
+    {
+      "id": "ship-thin-field-shell-approved-v01",
+      "path": "generated/storyboard/opening-v01/opening-005-starting-frame-v04.png",
+      "role": "User approved shell appearance; governs shell treatment in interior and exterior views",
+      "status": "approved",
+      "approvedOn": "2026-10-04",
+      "features": [
+        "Ultra-thin transparent field-like shell",
+        "Faint mostly hexagonal cyan geodesic network following spherical curvature",
+        "No thick glass wall, bubbly lens effect or broad refractive streaks",
+        "Interior camera sees through the field without an invented bubble perimeter",
+        "Exterior keeps a restrained silhouette with subtle field glow; grid visibility may vary"
+      ]
     }
   ],
   "production": {
-    "stage": "lyric_timing_review",
-    "animatic": "lyrics and timing indicators before scene planning",
+    "stage": "full_song_animatic_with_generated_opening",
+    "animatic": "generated/animatic/A-Right-Little-Something-opening-motion-v03.mp4",
     "videoProvider": "Kling",
     "style": "Graphic novel / illustrated comic; continue Monsters Undone",
     "fpsStatus": "provisional; matches previous Kling/animatic workflow",
-    "timingStatus": "UI-verified repair; 2.196 ms residual accepted by user for animatic"
+    "timingStatus": "UI-verified repair; 2.196 ms residual accepted by user for animatic",
+    "storyboardReview": "http://127.0.0.1:8768/storyboard/opening-v02/",
+    "resolution": "1920x1080",
+    "openingMotionNotes": "Four Kling shots through frame 632. Preferred locked-camera shot 002; continuous shot 003 covers both up-above phrases from frame 353 through 542, replacing former 003/004 restart. Small bottom word-timed sci-fi lyrics throughout. Pending sequence review.",
+    "visualWorkflow": "Kling-first character and scene animation. Prefer locked cameras where depth fails; avoid problematic moves. Blender supports blocking and selective composited effects such as light and blur, rather than replacing character performance with static image cards.",
+    "lyricPresentation": {
+      "enabled": true,
+      "font": "Bahnschrift",
+      "fontFile": "C:/Windows/Fonts/bahnschrift.ttf",
+      "fontSize": 34,
+      "bottomMargin": 45,
+      "placement": "One small centered line across the bottom; word-timed cyan highlight; subtle dark outline and shadow",
+      "textPolicy": "Performed lyrics and original typos preserved",
+      "scope": "Default for the full animatic and future shot assemblies"
+    }
   }
 }

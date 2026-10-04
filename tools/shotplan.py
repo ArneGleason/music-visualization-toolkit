@@ -67,7 +67,16 @@ def main():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--merge", action="store_true",
                     help="keep descriptions/prompts/clips from the existing shotlist")
+    ap.add_argument('--project', type=pathlib.Path, help='Project JSON for a note-driven batch')
+    ap.add_argument('--batch', type=pathlib.Path, help='Note storyboard batch specification')
     a = ap.parse_args()
+
+    if a.batch:
+        if not a.project:
+            ap.error('--batch requires --project')
+        from plan_storyboard_batch import plan
+        plan(a.project, a.batch, a.merge)
+        return
 
     bm = Beatmap.load()
     plan = load(ROOT / "shots" / "plan.json")

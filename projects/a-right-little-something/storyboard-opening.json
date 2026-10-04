@@ -1,0 +1,196 @@
+{
+  "id": "opening-notes-v01",
+  "notesRevision": 9,
+  "baseBlend": "generated/blockout-moon-identities/sphere-ship-blockout.blend",
+  "output": "generated/storyboard/opening-v02",
+  "handlesFrames": 12,
+  "endPhrase": "lyr-008",
+  "shots": [
+    {
+      "id": "opening-001",
+      "noteId": "7660aeb8-e245-4638-8117-a1c962f474e4",
+      "title": "Space establishes; ship drifts in",
+      "description": "Open on the planet limb, volcanic moon A and icy moon B in open space. The ship drifts into the frame, becoming the destination of the next view. The rest of this source note describes the broader sequence and transition strategy, not extra shots inside this entry.",
+      "cameraStart": [
+        17,
+        -22,
+        9
+      ],
+      "cameraEnd": [
+        15,
+        -20,
+        8
+      ],
+      "targetStart": [
+        0,
+        0.7,
+        0
+      ],
+      "targetEnd": [
+        0,
+        0.7,
+        0
+      ],
+      "lens": 36,
+      "shipStart": [
+        -25,
+        -17,
+        0
+      ],
+      "shipEnd": [
+        0,
+        0,
+        0
+      ],
+      "figurePose": "float",
+      "transition": "Cut or brief matched drift into opening-002; do not require a single exterior-to-interior generation."
+    },
+    {
+      "id": "opening-002",
+      "noteId": "889fbd70-0f8a-4df5-855c-bd239edba3e5",
+      "title": "Harper's face drifts into foreground",
+      "description": "Interior close view. Harper's head drifts across the foreground; a narrow piece of cabin rim provides scale against the distant world. Keep graphic-novel focus broad rather than depending on an extreme rack focus. Proxy face is for blocking only.",
+      "cameraStart": [
+        -1.3,
+        -1.35,
+        1.15
+      ],
+      "cameraEnd": [
+        -1.3,
+        -1.35,
+        1.15
+      ],
+      "targetStart": [
+        -0.35,
+        0,
+        1.1
+      ],
+      "targetEnd": [
+        -0.13,
+        0,
+        1.04
+      ],
+      "lens": 58,
+      "figureStart": [
+        0.55,
+        0,
+        0.14
+      ],
+      "figureEnd": [
+        0,
+        0,
+        0
+      ],
+      "figurePose": "float",
+      "transition": "End framing matches the start of opening-003."
+    },
+    {
+      "id": "opening-003",
+      "noteId": "7f5da2f3-3bc6-4364-94d3-b2a330baee59",
+      "title": "Pull back; reveal her floating ship",
+      "description": "Pull away from Harper's close view through the clear shell to reveal her full floating figure, both platforms and the engine ring over the planetary horizon. Interpret the transcription's 'not to see' as 'out to see', consistent with the note's reveal intent.",
+      "cameraStart": [
+        -1.3,
+        -1.35,
+        1.15
+      ],
+      "cameraEnd": [
+        10,
+        -11.3,
+        5.2
+      ],
+      "targetStart": [
+        -0.13,
+        0,
+        1.04
+      ],
+      "targetEnd": [
+        0,
+        0.7,
+        0
+      ],
+      "lensStart": 58,
+      "lensEnd": 42,
+      "figurePose": "float",
+      "transition": "Match exterior view into opening-004; a cut remains available."
+    },
+    {
+      "id": "opening-004",
+      "noteId": "19ad819c-e819-4b55-9ee1-1696345aed08",
+      "title": "Quick widening; orbital scale",
+      "description": "A short fast pullback gives more planetary scale while retaining a readable ship and Harper inside. Settle into a hold after the widening. Warm sunlight strengthens slightly for visual activity; stylized zoom blur will be added downstream, not baked into the geometry reference.",
+      "cameraStart": [
+        10,
+        -11.3,
+        5.2
+      ],
+      "cameraEnd": [
+        15,
+        -17,
+        7.8
+      ],
+      "targetStart": [
+        0,
+        0.7,
+        0
+      ],
+      "targetEnd": [
+        0,
+        0.7,
+        0
+      ],
+      "lens": 42,
+      "moveFrames": 18,
+      "figurePose": "float",
+      "sunStrengthEnd": 2.9,
+      "transition": "Cut into the window-contact interior shot."
+    },
+    {
+      "id": "opening-005",
+      "noteId": "5f687fa6-342e-470b-aee0-cd6a313d869e",
+      "title": "Hands on the transparent wall",
+      "description": "Close interior angle toward the space-facing shell: Harper folds her knees up with both hands on the glass, looking down toward the planet. Show the curved wall, edge lights and a platform fragment to make the sphere's walls/windows legible. Bias the backdrop toward space; exact planetary scale may be art directed. Keep the continuous equatorial ring visible through the clear inner shell; camera remains at least 0.2 model units inside.",
+      "cameraStart": [
+        2.0,
+        -1.45,
+        1.05
+      ],
+      "cameraEnd": [
+        1.9,
+        -1.5,
+        1.1
+      ],
+      "targetStart": [
+        0,
+        -2.2,
+        0.65
+      ],
+      "targetEnd": [
+        0,
+        -2.2,
+        0.65
+      ],
+      "lens": 22,
+      "figurePose": "window",
+      "transition": "Batch ends provisionally at lyr-008; next shot not yet planned.",
+      "moonScreenPlacement": [
+        {
+          "id": "moon-a",
+          "view": [
+            -0.75,
+            0.66,
+            24
+          ]
+        },
+        {
+          "id": "moon-b",
+          "view": [
+            -0.37,
+            0.73,
+            34
+          ]
+        }
+      ]
+    }
+  ]
+}

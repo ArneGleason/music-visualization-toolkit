@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Small metadata checkpoint; no audio, video, fonts or Blender renders",
+  "files": [
+    {
+      "source": "generated/beatmap.json",
+      "backup": "checkpoint/beatmap.json",
+      "sha256": "dc5e2e7e8e48f25a787a6b491cc102d851574123f06edca2e0b11f61ea5a3b3e",
+      "bytes": 149466
+    },
+    {
+      "source": "generated/timeline.compiled.json",
+      "backup": "checkpoint/timeline.compiled.json",
+      "sha256": "94d3dc742529b9c23443eb05e9f97f7823afa0bc372eb167849b9e57d02e1093",
+      "bytes": 370911
+    },
+    {
+      "source": "generated/animatic/animatic-data.json",
+      "backup": "checkpoint/animatic/animatic-data.json",
+      "sha256": "5da010585945a4dcf23186a4962fb5938853d99abf6eb8416ba9ab1e1769463c",
+      "bytes": 333074
+    },
+    {
+      "source": "generated/animatic/current-opening.json",
+      "backup": "checkpoint/animatic/current-opening.json",
+      "sha256": "0d971859578f1ce831dffde0e132dd29f7794435a7f032151a85f7f0cb0786f1",
+      "bytes": 1765
+    },
+    {
+      "source": "generated/animatic/motion-insert-manifest.json",
+      "backup": "checkpoint/animatic/motion-insert-manifest.json",
+      "sha256": "a2396687ab7d809034f98ac483cf6c6595f3e5af668636006d54c8151ec0d025",
+      "bytes": 2613
+    },
+    {
+      "source": "generated/review/listening-notes.json",
+      "backup": "checkpoint/review/listening-notes.json",
+      "sha256": "3560b3cbc288befc5be30198cb5a3cac9c6ad03dec00adf9b2f94752e02a5159",
+      "bytes": 5903
+    },
+    {
+      "source": "generated/transcription/zoom-nine.alignment.json",
+      "backup": "checkpoint/transcription/zoom-nine.alignment.json",
+      "sha256": "5050e3cea95eea201e75c4ef92f305598795b33e72800ec804f15a9ecc1bd4ce",
+      "bytes": 6936
+    },
+    {
+      "source": "generated/transcription/audio.whisper.raw.json",
+      "backup": "checkpoint/transcription/audio.whisper.raw.json",
+      "sha256": "83c0d9ff938be65d41e40e0e2f56a2a037c6922f88a8121148e43f14245be1b7",
+      "bytes": 62682
+    },
+    {
+      "source": "generated/transcription/lead.whisper.raw.json",
+      "backup": "checkpoint/transcription/lead.whisper.raw.json",
+      "sha256": "f8f3cf552306a42692e29d04c709b79379c90bcc4cd1b92b03f6b5937a871c76",
+      "bytes": 66345
+    },
+    {
+      "source": "generated/transcription/leadRenaissance.whisper.raw.json",
+      "backup": "checkpoint/transcription/leadRenaissance.whisper.raw.json",
+      "sha256": "9b32b2ae8e06db2802529b899290ee12c174928638d1412a3e2c2f35d67bb55b",
+      "bytes": 81655
+    }
+  ]
+}
