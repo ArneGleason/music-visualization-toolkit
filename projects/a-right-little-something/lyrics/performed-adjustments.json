@@ -1,0 +1,207 @@
+{
+  "echo-001": {
+    "role": "performed_repeat",
+    "reviewStatus": "User requested full performed repeat; word edges from original lead Whisper",
+    "wordEdges": [
+      {
+        "index": 0,
+        "text": "Out",
+        "start": 58.808757766,
+        "end": 59.508757766,
+        "basis": "original_lead_Whisper"
+      },
+      {
+        "index": 1,
+        "text": "here",
+        "start": 59.508757766,
+        "end": 59.988757766,
+        "basis": "original_lead_Whisper"
+      },
+      {
+        "index": 2,
+        "text": "in",
+        "start": 59.988757766,
+        "end": 60.228757766,
+        "basis": "original_lead_Whisper"
+      },
+      {
+        "index": 3,
+        "text": "orbit.",
+        "start": 60.228757766,
+        "end": 60.668757766,
+        "basis": "original_lead_Whisper"
+      }
+    ]
+  },
+  "echo-002": {
+    "role": "performed_repeat",
+    "reviewStatus": "User requested full performed repeat; word edges from original lead Whisper",
+    "wordEdges": [
+      {
+        "index": 0,
+        "text": "Out",
+        "start": 145.588757766,
+        "end": 146.408757766,
+        "basis": "original_lead_Whisper"
+      },
+      {
+        "index": 1,
+        "text": "here",
+        "start": 146.408757766,
+        "end": 147.228757766,
+        "basis": "original_lead_Whisper"
+      },
+      {
+        "index": 2,
+        "text": "in",
+        "start": 147.228757766,
+        "end": 147.508757766,
+        "basis": "original_lead_Whisper"
+      },
+      {
+        "index": 3,
+        "text": "orbit.",
+        "start": 147.508757766,
+        "end": 147.968757766,
+        "basis": "original_lead_Whisper"
+      }
+    ]
+  },
+  "lyr-044": {
+    "text": "Zoom in, in, in, in, in, in, in, in, in to see far things big now.",
+    "reviewStatus": "Nine in cues approved by user; missing performed tail restored",
+    "recognitionBasis": "User performed wording; original-lead acoustic attacks and processed-stem cross-check, not equal interpolation",
+    "words": [
+      {
+        "text": "Zoom",
+        "start": 119.43,
+        "end": 119.67375,
+        "edgeSource": "localized Whisper; checked against vocal energy"
+      },
+      {
+        "text": "in,",
+        "start": 119.67375,
+        "end": 120.2441875,
+        "edgeSource": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+        "zoomCue": 1
+      },
+      {
+        "text": "in,",
+        "start": 120.2441875,
+        "end": 120.43175,
+        "edgeSource": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+        "zoomCue": 2
+      },
+      {
+        "text": "in,",
+        "start": 120.43175,
+        "end": 120.55975,
+        "edgeSource": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+        "zoomCue": 3
+      },
+      {
+        "text": "in,",
+        "start": 120.55975,
+        "end": 120.734375,
+        "edgeSource": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+        "zoomCue": 4
+      },
+      {
+        "text": "in,",
+        "start": 120.734375,
+        "end": 120.90837499999999,
+        "edgeSource": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+        "zoomCue": 5
+      },
+      {
+        "text": "in,",
+        "start": 120.90837499999999,
+        "end": 121.1345625,
+        "edgeSource": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+        "zoomCue": 6
+      },
+      {
+        "text": "in,",
+        "start": 121.1345625,
+        "end": 121.290375,
+        "edgeSource": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+        "zoomCue": 7
+      },
+      {
+        "text": "in,",
+        "start": 121.290375,
+        "end": 121.4254375,
+        "edgeSource": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+        "zoomCue": 8
+      },
+      {
+        "text": "in",
+        "start": 121.4254375,
+        "end": 121.63,
+        "edgeSource": "original lead 500–4000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+        "zoomCue": 9
+      },
+      {
+        "text": "to",
+        "start": 121.63,
+        "end": 121.74,
+        "edgeSource": "original lead/master localized Whisper"
+      },
+      {
+        "text": "see",
+        "start": 121.74,
+        "end": 121.96,
+        "edgeSource": "original lead/master localized Whisper"
+      },
+      {
+        "text": "far",
+        "start": 121.96,
+        "end": 122.34,
+        "edgeSource": "original lead/master localized Whisper"
+      },
+      {
+        "text": "things",
+        "start": 122.34,
+        "end": 122.7,
+        "edgeSource": "original lead/master localized Whisper and forced-alignment cross-check"
+      },
+      {
+        "text": "big",
+        "start": 122.7,
+        "end": 123.01,
+        "edgeSource": "original lead/master localized Whisper and forced-alignment cross-check"
+      },
+      {
+        "text": "now.",
+        "start": 123.01,
+        "end": 123.39,
+        "edgeSource": "original lead/master localized Whisper and forced-alignment cross-check"
+      }
+    ]
+  },
+  "lyr-040": {
+    "text": "All, all calling.",
+    "reviewStatus": "Performed double All confirmed by songwriter; original lead/master word timing",
+    "recognitionBasis": "Both unprompted Whisper passes recognize Oh, oh, calling; songwriter confirms All, all calling.",
+    "words": [
+      {
+        "text": "All,",
+        "start": 108.09437888301511,
+        "end": 109.13437888301513,
+        "edgeSource": "original lead/master Whisper agreement; Oh relabeled All from songwriter confirmation"
+      },
+      {
+        "text": "all",
+        "start": 109.52437888301512,
+        "end": 109.90437888301511,
+        "edgeSource": "original lead/master Whisper agreement; Oh relabeled All from songwriter confirmation"
+      },
+      {
+        "text": "calling.",
+        "start": 110.25437888301512,
+        "end": 110.99437888301512,
+        "edgeSource": "original lead/master Whisper agreement; Oh relabeled All from songwriter confirmation"
+      }
+    ]
+  }
+}

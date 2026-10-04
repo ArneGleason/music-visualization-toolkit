@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import argparse
 import collections
+import json
 import math
 import pathlib
 import re
@@ -46,14 +47,10 @@ class TempoCurve:
     """Exact beats <-> seconds for a piecewise tempo automation curve."""
 
     def __init__(self, points):
-        # points: [(beat, bpm, interpolation)], sorted, duplicates at the same
-        # beat collapse to the last one (a DAW writes those as a hard jump)
-        pts = []
-        for b, v, interp in sorted(points, key=lambda p: p[0]):
-            if pts and abs(pts[-1][0] - b) < 1e-9:
-                pts[-1] = (b, v, interp)
-            else:
-                pts.append((b, v, interp))
+        # Retain both sides of a same-beat jump: the first value terminates
+        # the incoming ramp and the last starts the outgoing span. _index
+        # selects the last point at an exact beat; zero-width spans add no time.
+        pts = sorted(points, key=lambda p: p[0])
         self.pts = pts
         self.cum = [0.0]
         for (b0, t0, i0), (b1, t1, _) in zip(pts, pts[1:]):
@@ -111,7 +108,7 @@ def read_project_xml(path: pathlib.Path) -> ET.Element:
     return ET.parse(path).getroot()
 
 
-def parse_tempo(root) -> TempoCurve:
+def parse_tempo(root, repairs=None) -> TempoCurve:
     ta = next(iter(root.iter("TempoAutomation")), None)
     if ta is not None:
         unit = ta.get("timeUnit", "beats")
@@ -119,6 +116,12 @@ def parse_tempo(root) -> TempoCurve:
             print(f"  !! tempo timeUnit is '{unit}', not 'beats' — grid may be wrong")
         pts = [(float(e.get("time")), float(e.get("value")), e.get("interpolation", "linear"))
                for e in ta if e.tag == "RealPoint"]
+        for repair in (repairs or {}).get("points", []):
+            index = repair["index"]
+            expected = tuple(repair["expected"])
+            if index >= len(pts) or pts[index] != expected:
+                raise ValueError(f"tempo repair {index} does not match this export")
+            pts[index] = (float(repair["beat"]), expected[1], repair["interpolation"])
         if pts:
             if pts[0][0] > 0:
                 pts.insert(0, (0.0, pts[0][1], "linear"))
@@ -251,6 +254,8 @@ def main():
                     help="substring of the track holding the bounced mix (default: master)")
     ap.add_argument("--zero-at", type=float, default=None,
                     help="beat that is 0:00 in the mix; overrides auto-detection")
+    ap.add_argument("--tempo-repairs", type=pathlib.Path,
+                    help="explicit, verified corrections to exported tempo points")
     ap.add_argument("--no-zero", action="store_true",
                     help="keep project time; do NOT zero the grid at the mix start")
     ap.add_argument("--duration-source", choices=("auto", "clip", "audio"),
@@ -265,7 +270,8 @@ def main():
     a = ap.parse_args()
 
     root = read_project_xml(a.project)
-    curve = parse_tempo(root)
+    repairs = json.loads(a.tempo_repairs.read_text(encoding="utf-8")) if a.tempo_repairs else None
+    curve = parse_tempo(root, repairs)
     num, den = parse_meter(root)
     markers = parse_markers(root)
     notes = parse_notes(root)
@@ -329,6 +335,7 @@ def main():
 
     bm = {
         "source_dawproject": str(a.project),
+        "tempo_repairs": repairs,
         "source_audio": str(a.audio) if audio_sec else None,
         "ppq": 960,
         "duration_sec": round(duration, 6),

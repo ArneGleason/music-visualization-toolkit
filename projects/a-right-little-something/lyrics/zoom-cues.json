@@ -1,0 +1,274 @@
+{
+  "lyric": "Hit zoom. Zoom in, in, in, in, in, in, in, in, in to see far",
+  "fps": 24,
+  "onsetDefinition": "vowel-energy attack; coarticulated word boundaries are not sample-exact",
+  "cues": [
+    {
+      "index": 1,
+      "text": "in",
+      "masterSeconds": 119.67375,
+      "sourceSeconds": 119.18499223396975,
+      "musicalPosition": "46.4.339",
+      "frame": 2873,
+      "frameSeconds": 119.66666666666667,
+      "frameErrorMs": -7.083333333326891,
+      "processedAttackSeconds": 119.7264375,
+      "crossCheckDifferenceMs": 52.68750000000466,
+      "boundaryWindowSeconds": [
+        119.6164375,
+        119.67375
+      ],
+      "vowelPeakSeconds": 119.898,
+      "basis": "original lead 500\u20134000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+      "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
+    },
+    {
+      "index": 2,
+      "text": "in",
+      "masterSeconds": 120.2441875,
+      "sourceSeconds": 119.75542973396975,
+      "musicalPosition": "47.1.174",
+      "frame": 2887,
+      "frameSeconds": 120.25,
+      "frameErrorMs": 5.812500000004661,
+      "processedAttackSeconds": 120.2746875,
+      "crossCheckDifferenceMs": 30.500000000003524,
+      "boundaryWindowSeconds": [
+        120.2423125,
+        120.2441875
+      ],
+      "vowelPeakSeconds": 120.341,
+      "basis": "original lead 500\u20134000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+      "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
+    },
+    {
+      "index": 3,
+      "text": "in",
+      "masterSeconds": 120.43175,
+      "sourceSeconds": 119.94299223396975,
+      "musicalPosition": "47.1.438",
+      "frame": 2891,
+      "frameSeconds": 120.41666666666667,
+      "frameErrorMs": -15.083333333322457,
+      "processedAttackSeconds": 120.4183125,
+      "crossCheckDifferenceMs": -13.437499999994884,
+      "boundaryWindowSeconds": [
+        120.38381249999999,
+        120.43175
+      ],
+      "vowelPeakSeconds": 120.482,
+      "basis": "original lead 500\u20134000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+      "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
+    },
+    {
+      "index": 4,
+      "text": "in",
+      "masterSeconds": 120.55975,
+      "sourceSeconds": 120.07099223396975,
+      "musicalPosition": "47.1.618",
+      "frame": 2894,
+      "frameSeconds": 120.54166666666667,
+      "frameErrorMs": -18.08333333332257,
+      "processedAttackSeconds": 120.566,
+      "crossCheckDifferenceMs": 6.2500000000085265,
+      "boundaryWindowSeconds": [
+        120.5509375,
+        120.55975
+      ],
+      "vowelPeakSeconds": 120.67,
+      "basis": "original lead 500\u20134000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+      "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
+    },
+    {
+      "index": 5,
+      "text": "in",
+      "masterSeconds": 120.734375,
+      "sourceSeconds": 120.24561723396975,
+      "musicalPosition": "47.1.863",
+      "frame": 2899,
+      "frameSeconds": 120.75,
+      "frameErrorMs": 15.625,
+      "processedAttackSeconds": 120.7861875,
+      "crossCheckDifferenceMs": 51.81249999999693,
+      "boundaryWindowSeconds": [
+        120.7216875,
+        120.734375
+      ],
+      "vowelPeakSeconds": 120.839,
+      "basis": "original lead 500\u20134000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+      "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
+    },
+    {
+      "index": 6,
+      "text": "in",
+      "masterSeconds": 120.90837499999999,
+      "sourceSeconds": 120.41961723396975,
+      "musicalPosition": "47.2.148",
+      "frame": 2903,
+      "frameSeconds": 120.91666666666667,
+      "frameErrorMs": 8.29166666667902,
+      "processedAttackSeconds": 120.90875,
+      "crossCheckDifferenceMs": 0.3750000000053433,
+      "boundaryWindowSeconds": [
+        120.89425,
+        120.90837499999999
+      ],
+      "vowelPeakSeconds": 120.989,
+      "basis": "original lead 500\u20134000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+      "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
+    },
+    {
+      "index": 7,
+      "text": "in",
+      "masterSeconds": 121.1345625,
+      "sourceSeconds": 120.64580473396975,
+      "musicalPosition": "47.2.466",
+      "frame": 2908,
+      "frameSeconds": 121.125,
+      "frameErrorMs": -9.56250000000125,
+      "processedAttackSeconds": 121.1084375,
+      "crossCheckDifferenceMs": -26.125000000007503,
+      "boundaryWindowSeconds": [
+        121.1315,
+        121.1345625
+      ],
+      "vowelPeakSeconds": 121.174,
+      "basis": "original lead 500\u20134000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+      "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
+    },
+    {
+      "index": 8,
+      "text": "in",
+      "masterSeconds": 121.290375,
+      "sourceSeconds": 120.80161723396975,
+      "musicalPosition": "47.2.686",
+      "frame": 2912,
+      "frameSeconds": 121.29166666666667,
+      "frameErrorMs": 1.2916666666740184,
+      "processedAttackSeconds": 121.293375,
+      "crossCheckDifferenceMs": 3.0000000000001137,
+      "boundaryWindowSeconds": [
+        121.2814375,
+        121.290375
+      ],
+      "vowelPeakSeconds": 121.34,
+      "basis": "original lead 500\u20134000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+      "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
+    },
+    {
+      "index": 9,
+      "text": "in",
+      "masterSeconds": 121.4254375,
+      "sourceSeconds": 120.93667973396975,
+      "musicalPosition": "47.2.876",
+      "frame": 2915,
+      "frameSeconds": 121.41666666666667,
+      "frameErrorMs": -8.77083333332962,
+      "processedAttackSeconds": 121.4578125,
+      "crossCheckDifferenceMs": 32.37500000000182,
+      "boundaryWindowSeconds": [
+        121.414875,
+        121.4254375
+      ],
+      "vowelPeakSeconds": 121.514,
+      "basis": "original lead 500\u20134000 Hz, 20 ms RMS, first 20% attack above local minimum; spectrogram/processed-stem cross-check",
+      "reviewStatus": "acoustic cue candidate; verify with audible pulse preview"
+    }
+  ],
+  "measurements": {
+    "lead": [
+      {
+        "valley": 119.6164375,
+        "attack": 119.67375,
+        "peak": 119.898
+      },
+      {
+        "valley": 120.2423125,
+        "attack": 120.2441875,
+        "peak": 120.341
+      },
+      {
+        "valley": 120.38381249999999,
+        "attack": 120.43175,
+        "peak": 120.482
+      },
+      {
+        "valley": 120.5509375,
+        "attack": 120.55975,
+        "peak": 120.67
+      },
+      {
+        "valley": 120.7216875,
+        "attack": 120.734375,
+        "peak": 120.839
+      },
+      {
+        "valley": 120.89425,
+        "attack": 120.90837499999999,
+        "peak": 120.989
+      },
+      {
+        "valley": 121.1315,
+        "attack": 121.1345625,
+        "peak": 121.174
+      },
+      {
+        "valley": 121.2814375,
+        "attack": 121.290375,
+        "peak": 121.34
+      },
+      {
+        "valley": 121.414875,
+        "attack": 121.4254375,
+        "peak": 121.514
+      }
+    ],
+    "leadRenaissance": [
+      {
+        "valley": 119.6599375,
+        "attack": 119.7264375,
+        "peak": 119.898
+      },
+      {
+        "valley": 120.242125,
+        "attack": 120.2746875,
+        "peak": 120.341
+      },
+      {
+        "valley": 120.4076875,
+        "attack": 120.4183125,
+        "peak": 120.482
+      },
+      {
+        "valley": 120.557875,
+        "attack": 120.566,
+        "peak": 120.67
+      },
+      {
+        "valley": 120.7758125,
+        "attack": 120.7861875,
+        "peak": 120.839
+      },
+      {
+        "valley": 120.893125,
+        "attack": 120.90875,
+        "peak": 120.989
+      },
+      {
+        "valley": 121.0981875,
+        "attack": 121.1084375,
+        "peak": 121.174
+      },
+      {
+        "valley": 121.279125,
+        "attack": 121.293375,
+        "peak": 121.34
+      },
+      {
+        "valley": 121.446625,
+        "attack": 121.4578125,
+        "peak": 121.514
+      }
+    ]
+  }
+}

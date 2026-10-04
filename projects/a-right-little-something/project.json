@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "title": "A Right Little Something",
+  "slug": "a-right-little-something",
+  "sources": {
+    "dawproject": "generated/source/A Right Little Something.dawproject",
+    "audio": "generated/audio/master.wav",
+    "stems": "generated/source/stems",
+    "lyricsUrl": "https://docs.google.com/document/d/19mydTi8AzFXmam87QFMKWN1E7Zomooo1r1sgITz9588/edit?usp=drivesdk"
+  },
+  "timeline": "timeline.json",
+  "timing": {
+    "masterTrack": "master",
+    "durationSource": "audio",
+    "beatmap": "generated/beatmap.json",
+    "compiledTimeline": "generated/timeline.compiled.json",
+    "zeroBeat": 7,
+    "tempoRepairs": "timing-repairs.json"
+  },
+  "render": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "visualReferences": [
+    {
+      "id": "orbit-mood",
+      "path": "generated/refs/orbit-mood.png",
+      "role": "User supplied mood reference; scene and costume direction provisional"
+    },
+    {
+      "id": "harper-established",
+      "path": "generated/refs/harper-established.png",
+      "role": "Established main-character identity from Monsters Undone"
+    }
+  ],
+  "production": {
+    "stage": "lyric_timing_review",
+    "animatic": "lyrics and timing indicators before scene planning",
+    "videoProvider": "Kling",
+    "style": "Graphic novel / illustrated comic; continue Monsters Undone",
+    "fpsStatus": "provisional; matches previous Kling/animatic workflow",
+    "timingStatus": "UI-verified repair; 2.196 ms residual accepted by user for animatic"
+  }
+}

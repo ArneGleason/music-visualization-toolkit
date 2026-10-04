@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "full_song_reviewed_with_performed_lyric_corrections",
+  "master": {
+    "durationSeconds": 219.378,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitsPerSample": 24
+  },
+  "leadOriginal": {
+    "durationSeconds": 218.32,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitsPerSample": 16
+  },
+  "leadRenaissance": {
+    "durationSeconds": 218.32,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitsPerSample": 32
+  },
+  "exportRange": {
+    "start": "2.4.1.00",
+    "end": "83.1.1.00",
+    "source": "user"
+  },
+  "dawprojectStatus": "located_copied_and_inspected",
+  "liveConnectorStatus": "connected_verified",
+  "liveProject": "A Right Little Something",
+  "observedTransportTempoBpm": 85.4579086303711,
+  "observedTempoIsFullMap": false,
+  "enabledCleanedVocals": [
+    "Lead - Apollo",
+    "Lead - Renaissance",
+    "Backing - Apollo",
+    "Backing - Renaissance"
+  ],
+  "bridgeProvidesArrangementTiming": false,
+  "vocalOffsetMasterSeconds": 0.4887577660302487,
+  "timeSignature": "4/4",
+  "tempo": {
+    "pointCount": 919,
+    "minBpm": 85.457912,
+    "maxBpm": 91.316771
+  },
+  "wordTimingStatus": "user_reviewed; double All, nine ins, and things big now restored",
+  "runtime": {
+    "whisper": "import_verified",
+    "stableTs": "import_verified",
+    "cuda": true,
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER"
+  },
+  "inferences": [
+    "Source/master duration difference does not determine vocal offset.",
+    "Lyric document arrangement bar counts are not a timing grid."
+  ],
+  "timingReviewStatus": "UI_verified_repairs_with_2.196_ms_residual_accepted",
+  "dawLoopDurationSeconds": 219.38019604400142,
+  "masterMinusDawLoopSeconds": -0.0021960440014368,
+  "primaryLinesPlaced": 63,
+  "repeatCandidates": 0,
+  "wordCandidates": 284,
+  "shortWordEdgeFlags": 2,
+  "performedRepeats": 2,
+  "reviewQueueFlags": 13,
+  "zoomCueReviewStatus": "nine cue timings approved by user",
+  "nextStep": "scene and shot planning from reviewed lyric animatic"
+}

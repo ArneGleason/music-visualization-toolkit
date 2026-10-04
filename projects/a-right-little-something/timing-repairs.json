@@ -1,0 +1,75 @@
+{
+  "reason": "Bitwig UI: tempo clip at 71.1.1.00, zero local offset, seven held points; DAWproject exports local times as global and labels Hold as linear. User accepts remaining 2.196 ms.",
+  "points": [
+    {
+      "index": 915,
+      "expected": [
+        0.0,
+        86.931702,
+        "linear"
+      ],
+      "beat": 280.0,
+      "interpolation": "hold"
+    },
+    {
+      "index": 916,
+      "expected": [
+        23.0,
+        86.93145,
+        "linear"
+      ],
+      "beat": 303.0,
+      "interpolation": "hold"
+    },
+    {
+      "index": 917,
+      "expected": [
+        24.0,
+        86.805681,
+        "linear"
+      ],
+      "beat": 304.0,
+      "interpolation": "hold"
+    },
+    {
+      "index": 918,
+      "expected": [
+        32.0,
+        86.804676,
+        "linear"
+      ],
+      "beat": 312.0,
+      "interpolation": "hold"
+    },
+    {
+      "index": 919,
+      "expected": [
+        33.0,
+        86.139074,
+        "linear"
+      ],
+      "beat": 313.0,
+      "interpolation": "hold"
+    },
+    {
+      "index": 920,
+      "expected": [
+        36.0,
+        86.135612,
+        "linear"
+      ],
+      "beat": 316.0,
+      "interpolation": "hold"
+    },
+    {
+      "index": 921,
+      "expected": [
+        37.0,
+        85.544785,
+        "linear"
+      ],
+      "beat": 317.0,
+      "interpolation": "hold"
+    }
+  ]
+}

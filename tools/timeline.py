@@ -375,6 +375,10 @@ def sync_project(project_file: pathlib.Path) -> dict:
            "--audio", str(audio), "--master-track", timing.get("masterTrack", "master"),
            "--duration-source", timing.get("durationSource", "auto"),
            "--beatmap-out", str(beatmap), "--no-lyrics", "--compare"]
+    if "zeroBeat" in timing:
+        cmd += ["--zero-at", str(timing["zeroBeat"])]
+    if timing.get("tempoRepairs"):
+        cmd += ["--tempo-repairs", str(_resolve(project_dir, timing["tempoRepairs"]))]
     subprocess.run(cmd, check=True)
     beatmap_data = load(beatmap)
     if project.get("referenceWaveforms"):
