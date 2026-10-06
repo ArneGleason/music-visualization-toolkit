@@ -1,0 +1,37 @@
+{
+  "fps": 24,
+  "output": "generated/kling-tests/hologram-star-centered-v01",
+  "estimatedCredits": 48,
+  "purpose": "One last Powers of Ten test from the existing middle star-system image; the central star remains the fixed display anchor.",
+  "reviewOutput": "generated/storyboard/kling-hologram-star-centered-v01",
+  "reviewTitle": "Hologram \u00b7 star-centered scale test",
+  "reviewSummary": "One six-second native 1080p test, 48 credits. Existing star-system starting image, first image only, normal half-second handles.",
+  "reviewChecks": "Does the central star stay centered while its planets and orbit paths contract and neighboring stars emerge? Watch diagram coherence and living interaction. The selected v06 animatic remains unchanged unless this alternative is chosen.",
+  "comparisons": [
+    {
+      "title": "Currently selected Powers of Ten take",
+      "src": "../kling-hologram-scale-v02/hologram-powers-ten-edit.mp4",
+      "notes": "Accepted in animatic v06 as an attractive working shot. Retained here to compare the new star-centered starting reference."
+    }
+  ],
+  "shots": [
+    {
+      "id": "hologram-star-centered",
+      "title": "Star-centered continuous scale reveal",
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/hologram-v01/space-007-system-middle-v01.png",
+      "tailImage": null,
+      "startFrame": 633,
+      "editFrames": 104,
+      "leadInFrames": 12,
+      "leadOutFrames": 12,
+      "prompt": "One single continuous six-second illustrated shot, locked film camera, no cuts. Begin with this STAR-CENTERED planetary-system hologram. The bright amber central star is the anchor: keep it at exactly the same center position inside the left-hand display throughout. Harper selects the control then opens her hands, slowly spreading her fingers; her gaze follows the shrinking system, expression changes to wonder, hair and body drift gently, she remains naturally alive. Use the visual grammar of the Eames Powers of Ten journey, one smooth uninterrupted retreat through nested scales, applied ONLY inside the holographic representation. From about 0.5 seconds, ALL planets, satellites, labels and orbital paths move coherently inward toward the central star as the entire system reduces in displayed scale. Planet sizes AND orbital radii diminish together; planetary labels and fine orbit lines fade as the compact system becomes too small to read. The central star also reduces gradually from the large glowing ball to one small amber home-star point, but NEVER moves away from its original center position. As this same continuous zoom-out reveals a wider volume, neighboring stars progressively appear around the anchored home star, as individual cyan and pale-white luminous points at varying depths, with sparse reference lines to an oblique spatial plane. Neighbor stars are separate star points, NOT enlarged concentric orbital rings around the home star. By about 4.5 seconds the original planetary system is one small amber selected point among a readable 3D local-star neighborhood, maintaining the same fixed central location. Settle the view through the final half-second with living micro-movement. The physical display stays in the same cabin volume and the background stars remain fixed. All diagram bodies and labels are parts of one projected display, nothing is a real miniature planet outside the window. No frozen planets, stationary moons, giant orbital rings, explosion, portal, abrupt swap, film-camera zoom, extra hands or lip sync. Retain illustrated material finish, warm sunlight and gentle changing cyan light on her hands and face.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "reviewNotes": "Closer to the intended scale journey: the whole planetary system, satellites and paths contract together, the home star reduces to a small amber point near its original display location, and neighboring star nodes with connecting lines emerge. Harper remains alive. The final star graph spreads broadly across the scene and the anchor drifts slightly; review the exact song edit against the current selected take before choosing."
+    }
+  ]
+}

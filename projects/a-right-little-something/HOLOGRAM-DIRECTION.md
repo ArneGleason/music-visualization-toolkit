@@ -138,6 +138,25 @@ Selected full movie:
 `tools/insert_selected_motion.py` reconstructs this selection from the shot
 register. No more paid generations are pending or planned for this checkpoint.
 
+### Last star-centered alternative
+
+After the checkpoint, the user requested one final alternative starting from
+the existing middle system-level illustration, with its star at the center.
+`kling-hologram-star-centered.json` runs a single six-second 1080p source,
+48 credits, first image only. The home star should reduce to a small point
+while staying at the same center location; all planets, satellites and orbits
+contract toward it, and neighboring star points emerge around it. Normal
+12-frame handles and a 104-frame edit. The v06 selection remains in place.
+Review `/storyboard/kling-hologram-star-centered-v01/` against the selected take.
+
+The star-centered source completed and was collected. It is closer to the
+intended zoom-out: the planetary system, moons and orbit paths contract
+together, the home star becomes a small amber point near its original
+position, and neighboring star nodes/lines emerge. Remaining issues: slight
+anchor drift and a final graph that spreads broadly across the scene. Harper
+remains alive. This is a comparison candidate; v06 remains selected. Total
+Kling spend including this last test: 872 credits. No tasks remain pending.
+
 Prompt-lock revision 2 explicitly permits this authored diegetic display and
 invented glyphs. All active shots and current proposals use the identical new
 lock; the original lock remains in the register history for past generations.

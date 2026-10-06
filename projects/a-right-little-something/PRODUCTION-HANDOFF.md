@@ -7,12 +7,18 @@ working shot despite imperfect scale illustration. Full movie:
 Earlier Kling opening continues, with Blender proxy beats at 581–632 and
 737–911. The small bottom lyrics and exact master AAC packets are retained;
 5265 frames at 24 fps, 1920×1080 presentation. No pending paid tasks. Current
-Kling spend is 824 credits; details, alternate tests and next-step reasoning
+Kling spend is 872 credits; details, alternate tests and next-step reasoning
 are in [HOLOGRAM-DIRECTION.md](HOLOGRAM-DIRECTION.md). Git backs up the new
 notes, source plans, code and four curated hologram stills, excluding videos,
 audio and Blender renders. Remaining task tomorrow: review this selected shot
 in context, then continue the rest of the small batch with illustrated
 references/animation when ready. Further hologram refinement is optional.
+
+One last comparison after the selection: `hologram-star-centered` starts from
+the existing system-level illustration and achieves a more coherent contraction
+to a home-star point with neighboring stars. It cost 48 credits and is complete.
+Review `/storyboard/kling-hologram-star-centered-v01/` against the selected take;
+the user has not yet chosen this alternative, so v06 remains current.
 
 First continuation update: five new active notes were blocked in Blender as a
 proposal after the checkpoint below. See [STORYBOARD-SPACE-NOTES.md](STORYBOARD-SPACE-NOTES.md)
