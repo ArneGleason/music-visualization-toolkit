@@ -5,6 +5,14 @@ import pathlib
 from timeline import MusicalGrid
 
 
+def frame_anchor(item, frame_key, seconds_key, fps):
+    if item.get(frame_key) is not None:
+        return item[frame_key]
+    if item.get(seconds_key) is None:
+        raise ValueError('Batch notes need a frame or second anchor')
+    return round(item[seconds_key]*fps)+1
+
+
 def plan(project_file, batch_file, merge):
     base = pathlib.Path(project_file).resolve().parent
     project = json.loads(pathlib.Path(project_file).read_text(encoding='utf-8'))
@@ -18,12 +26,13 @@ def plan(project_file, batch_file, merge):
     fps = project['render']['fps']
     grid = MusicalGrid(json.loads((base/project['timing']['beatmap']).read_text(encoding='utf-8')))
     preview = json.loads((base/'generated/animatic/animatic-data.json').read_text(encoding='utf-8'))
-    end = next(p['start'] for p in preview['phrases'] if p['id']==spec['endPhrase'])
-    starts = [by_id[s['noteId']]['start'] for s in spec['shots']]
-    if any(t is None for t in starts) or starts != sorted(set(starts)):
+    end_phrase = next(p for p in preview['phrases'] if p['id']==spec['endPhrase'])
+    starts = [frame_anchor(by_id[s['noteId']], 'start_frame', 'start', fps) for s in spec['shots']]
+    if starts != sorted(set(starts)):
         raise ValueError('Batch notes need distinct ascending anchors')
-    edges = [round(t*fps)+1 for t in starts+[end]]
-    previous = {s['id']:s for s in doc['shots']}
+    edges = starts+[frame_anchor(end_phrase, 'startFrame', 'start', fps)]
+    register_key = 'storyboardProposals' if spec.get('proposal') else 'shots'
+    previous = {s['id']:s for s in doc.get(register_key, [])}
     for i, blocking in enumerate(spec['shots']):
         a,b = edges[i:i+2]
         if b<=a:
@@ -44,9 +53,13 @@ def plan(project_file, batch_file, merge):
                              'sourceStartFrame':a-spec['handlesFrames'],
                              'sourceEndFrameExclusive':b+spec['handlesFrames']},
                     blocking=blocking, status=shot.get('status','Blender composition draft; review before image generation'))
+        for key in ('promptLock', 'generationApproach', 'continuity', 'editGroup', 'lyrics'):
+            if key in blocking:
+                shot[key] = blocking[key]
         previous[shot['id']] = shot
-    doc['shots'] = sorted(previous.values(), key=lambda s:s.get('startFrame',0))
-    doc['status'] = 'Partial creative plan; opening note batch plus preserved nine-zoom concept'
+    doc[register_key] = sorted(previous.values(), key=lambda s:s.get('startFrame',0))
+    if not spec.get('proposal'):
+        doc['status'] = 'Partial creative plan; opening note batch plus preserved nine-zoom concept'
     doc['fps'] = fps
     temp = path.with_suffix('.tmp')
     temp.write_text(json.dumps(doc,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')

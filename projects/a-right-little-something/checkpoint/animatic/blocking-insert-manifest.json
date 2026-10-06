@@ -1,0 +1,55 @@
+{
+  "id": "space-blocking-v04",
+  "batch": "space-notes-v01",
+  "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\animatic\\A-Right-Little-Something-opening-motion-v03.mp4",
+  "video": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\animatic\\A-Right-Little-Something-space-blocking-v04.mp4",
+  "startFrame": 581,
+  "endFrameExclusive": 912,
+  "frames": 5265,
+  "fps": 24,
+  "entries": [
+    {
+      "shot": "space-006",
+      "startFrame": 581,
+      "frames": 52,
+      "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\space-notes-v01\\space-006-handles.mp4",
+      "sourceEditStartFrame": 13,
+      "file": "space-006.mp4"
+    },
+    {
+      "shot": "space-007",
+      "startFrame": 633,
+      "frames": 104,
+      "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\space-notes-v01\\space-007-handles.mp4",
+      "sourceEditStartFrame": 13,
+      "file": "space-007.mp4"
+    },
+    {
+      "shot": "space-008",
+      "startFrame": 737,
+      "frames": 52,
+      "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\space-notes-v01\\space-008-handles.mp4",
+      "sourceEditStartFrame": 13,
+      "file": "space-008.mp4"
+    },
+    {
+      "shot": "space-009",
+      "startFrame": 789,
+      "frames": 65,
+      "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\space-notes-v01\\space-009-handles.mp4",
+      "sourceEditStartFrame": 13,
+      "file": "space-009.mp4"
+    },
+    {
+      "shot": "space-010",
+      "startFrame": 854,
+      "frames": 58,
+      "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\space-notes-v01\\space-010-handles.mp4",
+      "sourceEditStartFrame": 13,
+      "file": "space-010.mp4"
+    }
+  ],
+  "presentation": "Accepted Kling opening followed by rough Blender motion; small bottom lyrics",
+  "sourceResolution": "Blender proxies 640x360 scaled to 1080p review canvas; not final footage",
+  "audio": "Original master AAC packets copied without retiming"
+}

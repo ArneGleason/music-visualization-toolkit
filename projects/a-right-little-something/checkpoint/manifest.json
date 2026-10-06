@@ -23,8 +23,20 @@
     {
       "source": "generated/animatic/current-opening.json",
       "backup": "checkpoint/animatic/current-opening.json",
-      "sha256": "0d971859578f1ce831dffde0e132dd29f7794435a7f032151a85f7f0cb0786f1",
-      "bytes": 1765
+      "sha256": "c1db954ba276b21dc4dba4fa2d68308647a39889442a2af00cfa737a70e7970c",
+      "bytes": 2735
+    },
+    {
+      "source": "generated/animatic/current-media.json",
+      "backup": "checkpoint/animatic/current-media.json",
+      "sha256": "d0075802ad9a0d89e27428abc7a3fc80730ecdd52baefe50ee581c48b8e047bf",
+      "bytes": 83
+    },
+    {
+      "source": "generated/animatic/blocking-insert-manifest.json",
+      "backup": "checkpoint/animatic/blocking-insert-manifest.json",
+      "sha256": "0a189449f9083016ed0ebabb9a95815898a3d6b0fd811e77e60c7f5eedaa7882",
+      "bytes": 2588
     },
     {
       "source": "generated/animatic/motion-insert-manifest.json",
@@ -35,8 +47,8 @@
     {
       "source": "generated/review/listening-notes.json",
       "backup": "checkpoint/review/listening-notes.json",
-      "sha256": "3560b3cbc288befc5be30198cb5a3cac9c6ad03dec00adf9b2f94752e02a5159",
-      "bytes": 5903
+      "sha256": "4d1d459baf24f2bc08ca5ab3025958b938b29029e289f748fe56dc51aacb787d",
+      "bytes": 10254
     },
     {
       "source": "generated/transcription/zoom-nine.alignment.json",

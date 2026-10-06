@@ -1,0 +1,48 @@
+{
+  "fps": 24,
+  "output": "generated/kling-tests/hologram-v01",
+  "purpose": "Two single-start-image tests: natural connected performance versus explicitly staged schematic expansion. No intermediate or ending image constraint.",
+  "estimatedCredits": 96,
+  "shots": [
+    {
+      "id": "hologram-performance",
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/hologram-v01/space-007-planet-start-v01.png",
+      "tailImage": null,
+      "startFrame": 633,
+      "editFrames": 104,
+      "leadInFrames": 12,
+      "leadOutFrames": 12,
+      "prompt": "One continuous six-second illustrated shot, locked camera, no cuts. The starting frame is the only image reference. Harper remains naturally alive throughout: soft zero-gravity body drift, gently moving curls, a small blink, changing gaze and expression, natural fingers, relaxed breathing. No frozen character, no held statue pose, no lip sync. Keep the physical holographic display volume in the same place in the cabin; change the represented scale inside it, rather than moving the real spacecraft or celestial background. Oversized diagram icons and compressed schematic distances are intentional. The amber locator preserves her selected home location as the scale changes. Keep the first half-second calm and settle the final half-second. Preserve Harper identity, gray clothing, ship band and lighting, fine transparent field lines. No camera travel, no real moons added behind the cabin, no flat opaque screen, no human text or extra fingers. She touches the amber selection ring, then gently opens her hands and spreads her fingers. In response the model smoothly pulls back from her world and its two satellites to reveal the surrounding planetary system, then to an airy three-dimensional neighborhood of nearby stars. Her eyes follow the reduction of her world; curiosity becomes wonder, with a tiny tilt of her head. Prioritize readable cause-and-effect between her gesture and the widening map. Let the display simplify naturally at each larger scale; keep orbit paths sparse and star points in depth. She eases her hands apart and relaxes when the star neighborhood becomes readable.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "title": "Natural connected performance",
+      "reviewNotes": "Harper has living hand, body and facial movement, but the display mostly shrinks the original globe rather than reaching a clear system and local-star neighborhood. Original satellite icons remain detached. Compare the full source with the exact 104-frame song edit."
+    },
+    {
+      "id": "hologram-staged",
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/hologram-v01/space-007-planet-start-v01.png",
+      "tailImage": null,
+      "startFrame": 633,
+      "editFrames": 104,
+      "leadInFrames": 12,
+      "leadOutFrames": 12,
+      "prompt": "One continuous six-second illustrated shot, locked camera, no cuts. The starting frame is the only image reference. Harper remains naturally alive throughout: soft zero-gravity body drift, gently moving curls, a small blink, changing gaze and expression, natural fingers, relaxed breathing. No frozen character, no held statue pose, no lip sync. Keep the physical holographic display volume in the same place in the cabin; change the represented scale inside it, rather than moving the real spacecraft or celestial background. Oversized diagram icons and compressed schematic distances are intentional. The amber locator preserves her selected home location as the scale changes. Keep the first half-second calm and settle the final half-second. Preserve Harper identity, gray clothing, ship band and lighting, fine transparent field lines. No camera travel, no real moons added behind the cabin, no flat opaque screen, no human text or extra fingers. Use a clear three-stage action. During roughly 0.5\u20131.5 seconds she selects the amber ring with a fingertip and begins a spreading gesture; the big world shrinks into one selected planet. During 1.5\u20133 seconds reveal an enlarged luminous central star and several schematic planet icons along tilted perspective orbit ellipses. During 3\u20134.7 seconds shrink the whole system into a compact amber home-system node, while a sparse local group of neighboring star points emerges in true volumetric depth. At the widest scale fade planetary orbital detail so only the selected tiny system retains a small orbit marker. A few fine cyan route connections and vertical depth cues organize the stars. Her fingertips initiate the first change; her other hand opens to widen the map, her eyes track its changing scale, and her expression shifts to amazement. By about 4.8 seconds settle into the local-star diagram and sustain living micro-movement through the end, no pose freeze.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "title": "Explicit three-stage expansion",
+      "reviewNotes": "The stronger scale test: planet reduction, system/star emergence, then a small spatial star graph. Harper remains expressive. The clearest local-star graph arrives late, toward the end of the full six-second source; the 4.33-second edit catches less of it. Original satellites linger separately and the amber locator is not fully preserved. These are compositing or timing issues to assess before selecting a take."
+    }
+  ],
+  "reviewOutput": "generated/storyboard/kling-hologram-v01",
+  "reviewTitle": "Hologram \u00b7 single-start-image motion tests",
+  "reviewSummary": "Two native 1080p six-second tests, 96 credits total. One starting image only: no middle/end image constraints. Compare natural performance and explicit staged expansion.",
+  "reviewChecks": "Check living performance, gaze and fingertip interaction, legible planet-to-system-to-neighborhood scale changes, amber locator continuity and stable ship geometry. Both edits cover song frames 633\u2013736; the generated sources retain regular half-second handles. The full animatic still uses the illustration references until a take is selected."
+}

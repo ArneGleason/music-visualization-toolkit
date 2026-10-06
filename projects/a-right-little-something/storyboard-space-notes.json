@@ -1,0 +1,248 @@
+{
+  "id": "space-notes-v01",
+  "proposal": true,
+  "notesRevision": 22,
+  "baseBlend": "generated/blockout-moon-identities/sphere-ship-blockout.blend",
+  "output": "generated/storyboard/space-notes-v01",
+  "blendFilename": "space-notes-v01.blend",
+  "handlesFrames": 12,
+  "endPhrase": "lyr-013",
+  "shots": [
+    {
+      "id": "space-006",
+      "noteId": "445511d6-b7c6-478d-ab68-4a193fd90282",
+      "title": "World below",
+      "description": "Proposed replacement for the last 52 frames of opening-005. Cut on To to a wide view: tiny ship at the upper-left, immense planet below. A modest widening settles before the next cut.",
+      "cameraStart": [
+        18,
+        -25,
+        14
+      ],
+      "cameraEnd": [
+        20,
+        -28,
+        16
+      ],
+      "targetStart": [
+        0,
+        2,
+        -3
+      ],
+      "targetEnd": [
+        0,
+        3,
+        -4
+      ],
+      "lens": 36,
+      "figureStart": [
+        0,
+        0,
+        0
+      ],
+      "figureEnd": [
+        0,
+        0,
+        0
+      ],
+      "figurePose": "float",
+      "interior": false,
+      "hologram": false,
+      "transition": "Cut from hands at the boundary to the world below; do not force a two-second trip through the shell.",
+      "generationApproach": "ImageGen wide starting frame from this geometry, then restrained Kling drift. A cut is safer than an ambitious shell-crossing reveal.",
+      "editGroup": "space-006",
+      "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "lyrics": [
+        "To the big, big world below."
+      ]
+    },
+    {
+      "id": "space-007",
+      "noteId": "03dd344a-b2ee-450d-9759-241b2a29a28d",
+      "title": "The map opens outward",
+      "description": "Three-quarter interior medium shot. Harper summons a floating spatial diagram and spreads her fingers. The planet diagram reduces to an orbital system, then a local-star network. Continue across the musical gap to her reaction at frame 737.",
+      "cameraStart": [
+        1.6,
+        -1.6,
+        1.4
+      ],
+      "cameraEnd": [
+        1.6,
+        -1.6,
+        1.4
+      ],
+      "targetStart": [
+        0,
+        0,
+        1
+      ],
+      "targetEnd": [
+        0,
+        0,
+        1
+      ],
+      "lens": 30,
+      "figureStart": [
+        0,
+        0,
+        0
+      ],
+      "figureEnd": [
+        0,
+        0,
+        0
+      ],
+      "figurePose": "float",
+      "interior": true,
+      "hologram": true,
+      "transition": "Hard cut into the interior; fixed camera lets the map carry the movement. Cut to her reaction after the map settles.",
+      "generationApproach": "ImageGen establishes Harper, her hand pose and a faint diagram. Kling handles the performance; Blender supplies an independently composited planet/system/star expansion and stable invented glyphs. Keep diagram labels away from the lyric strip.",
+      "editGroup": "space-007",
+      "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "lyrics": [
+        "So much room here up in space."
+      ]
+    },
+    {
+      "id": "space-008",
+      "noteId": "d7dc0549-71fc-4a74-b30a-087dce980f87",
+      "title": "Small cabin, enormous space",
+      "description": "Medium-close reaction: she glances from the map to the boundary, curiosity becoming restless longing. Let the diagram fade. Begin her gentle approach without a cut on The windows.",
+      "cameraStart": [
+        -0.8,
+        -2,
+        1.4
+      ],
+      "cameraEnd": [
+        -1.5,
+        -2.1,
+        0.95
+      ],
+      "targetStart": [
+        -0.13,
+        0,
+        1.04
+      ],
+      "targetEnd": [
+        -0.13,
+        -1.2,
+        1.04
+      ],
+      "lens": 30,
+      "figureStart": [
+        0,
+        0,
+        0
+      ],
+      "figureEnd": [
+        0,
+        -1.2,
+        0
+      ],
+      "figurePose": "float",
+      "interior": true,
+      "hologram": false,
+      "transition": "Start one continuous reaction-to-window take, shared with space-009. No new starting-frame reset at 789.",
+      "generationApproach": "One six-second Kling take spanning 737–853 with half-second handles. Beginning and ending reference poses constrain the drift. Blender checks the path and boundary clearance.",
+      "editGroup": "reaction-window-continuous",
+      "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "lyrics": [
+        "Why’m I so cramped?",
+        "The windows."
+      ]
+    },
+    {
+      "id": "space-009",
+      "noteId": "8bc938a7-1c99-43c6-a26d-d71b670f2a9f",
+      "title": "Drawn to the boundary",
+      "description": "Continue the same take and screen direction. Harper floats toward the window, face and palms near the field but still inside. Keep one small metal-band cue so she reads as inside her ship, not outside it.",
+      "cameraStart": [
+        -1.5,
+        -2.1,
+        0.95
+      ],
+      "cameraEnd": [
+        -1.5,
+        -2.1,
+        0.95
+      ],
+      "targetStart": [
+        -0.13,
+        -1.2,
+        1.04
+      ],
+      "targetEnd": [
+        -0.13,
+        -2.05,
+        1.04
+      ],
+      "lens": 30,
+      "figureStart": [
+        0,
+        -1.2,
+        0
+      ],
+      "figureEnd": [
+        0,
+        -2.05,
+        0
+      ],
+      "figurePose": "float",
+      "interior": true,
+      "hologram": false,
+      "transition": "Continuation of space-008; this is a blocking beat, not an edit cut. Cut closer at frame 854.",
+      "generationApproach": "Use the same generated source as space-008. This ending composition constrains the single continuous take; add local cyan contact glow only if needed.",
+      "editGroup": "reaction-window-continuous",
+      "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "lyrics": [
+        "Faced pressed up against the windows."
+      ]
+    },
+    {
+      "id": "space-010",
+      "noteId": "c7728db4-049e-49f8-a827-d0f78382784f",
+      "title": "The cosmos in her eyes",
+      "description": "Close portrait at the boundary. Eyes dominate, with restrained reflected stars and a curved planet light. Hold a tiny breathing movement. Never turn the reflection into a second literal miniature planet beside her face.",
+      "cameraStart": [
+        -0.35,
+        -2.6,
+        1.18
+      ],
+      "cameraEnd": [
+        -0.32,
+        -2.6,
+        1.17
+      ],
+      "targetStart": [
+        -0.13,
+        -2.05,
+        1.04
+      ],
+      "targetEnd": [
+        -0.13,
+        -2.05,
+        1.04
+      ],
+      "lens": 30,
+      "figureStart": [
+        0,
+        -2.05,
+        0
+      ],
+      "figureEnd": [
+        0,
+        -2.05,
+        0
+      ],
+      "figurePose": "float",
+      "interior": true,
+      "hologram": false,
+      "transition": "Cut in at Show you just how big you are. End at Stretch your arms wide; no direction beyond that phrase has been assumed.",
+      "generationApproach": "ImageGen close portrait from the approved Harper reference, using Blender only for framing. Kling provides micro-expression; reflected cosmic light can be composited if generation makes it unstable.",
+      "editGroup": "space-010",
+      "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "lyrics": [
+        "Show you just how big you are."
+      ]
+    }
+  ]
+}

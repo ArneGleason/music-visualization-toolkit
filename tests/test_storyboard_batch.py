@@ -61,5 +61,20 @@ class StoryboardBatchTests(unittest.TestCase):
             self.run_plan(False)
         self.assertEqual(self.path.read_bytes(),original)
 
+    def test_proposal_uses_frame_anchors_without_replacing_selected_edit(self):
+        spec_path=self.base/'storyboard-opening.json'
+        spec=json.loads(spec_path.read_text());spec['proposal']=True
+        spec_path.write_text(json.dumps(spec))
+        notes_path=self.base/'generated/review/listening-notes.json'
+        notes=json.loads(notes_path.read_text())
+        notes['notes'][1]['start_frame']=230
+        notes['notes'][1]['start']=None
+        notes_path.write_text(json.dumps(notes))
+        doc=self.run_plan()
+        self.assertEqual(doc['shots'],[self.existing])
+        self.assertEqual(doc['storyboardProposals'][1]['startFrame'],230)
+        self.assertEqual(doc['storyboardProposals'][0]['endFrameExclusive'],230)
+        self.assertEqual(self.run_plan()['storyboardProposals'],doc['storyboardProposals'])
+
 
 if __name__=='__main__':unittest.main()

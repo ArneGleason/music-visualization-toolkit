@@ -9,6 +9,7 @@ import shutil
 METADATA = [
     'generated/beatmap.json', 'generated/timeline.compiled.json',
     'generated/animatic/animatic-data.json', 'generated/animatic/current-opening.json',
+    'generated/animatic/current-media.json', 'generated/animatic/blocking-insert-manifest.json',
     'generated/animatic/motion-insert-manifest.json', 'generated/review/listening-notes.json',
     'generated/transcription/zoom-nine.alignment.json',
     'generated/transcription/audio.whisper.raw.json',

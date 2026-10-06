@@ -1,0 +1,30 @@
+{
+  "fps": 24,
+  "output": "generated/kling-tests/hologram-orbits-v01",
+  "estimatedCredits": 48,
+  "purpose": "Cohesive projected orbital simulation: all displayed bodies move, no nested scale expansion.",
+  "reviewOutput": "generated/storyboard/kling-hologram-orbits-v01",
+  "reviewTitle": "Hologram \u00b7 accelerated orbital simulation",
+  "reviewSummary": "One six-second native 1080p test, 48 credits. Cohesive cyan display with visible moon orbits instead of scale changes.",
+  "reviewChecks": "Watch both moon symbols: do they travel with their labels along their tracks, stay inside the common display, and pass in front of/behind the rotating globe? Judge living performance and fingertip-to-display response. Compare with the prior scale tests. Current full animatic remains v05.",
+  "shots": [
+    {
+      "id": "hologram-orbit-simulation",
+      "title": "Accelerated orbital simulation",
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/hologram-orbits-v01/orbital-simulation-start.png",
+      "tailImage": null,
+      "startFrame": 633,
+      "editFrames": 104,
+      "leadInFrames": 12,
+      "leadOutFrames": 12,
+      "prompt": "One continuous six-second illustrated shot. Locked camera. This entire cyan display, including the large globe, BOTH small moons, their orbit paths, glyph labels and reference plane, is a single projected three-dimensional ORBITAL SIMULATION inside the ship. Keep its overall size and position steady throughout, no zoom out, no new star systems. Harper taps the amber selector then makes a small circular scrubbing gesture to advance simulation time. In response the central planetary globe slowly turns on its axis and BOTH holographic moons visibly travel around it along their existing tilted elliptical orbit tracks. The orange-accented moon sweeps from its upper-left starting position toward the foreground/right of the planet, while the pale cyan moon travels from lower-left toward the back/upper side and briefly passes behind the globe. Each moon changes screen position substantially. This is accelerated simulated time, not physically timed celestial motion. Body symbols keep their own sizes and remain attached to their orbital tracks. Each glyph label and short leader moves with its satellite. Fine flowing scan light follows both paths, projected cyan contours shimmer gently, the entire model has a subtle coherent rotation about its center while the reference plane remains stable. All the cyan moon objects are inside this projected model, not real moons outside the window. Harper follows the moving moons with her eyes, adjusts her hand subtly, smiles with interest, floats gently with breathing and drifting curls. Natural hands and expressive face, no statue pose or lip sync. First half-second establishes; orbital movement is clear through the middle, then Harper relaxes during the final half-second while simulation movement continues gently. Preserve ship geometry, thin field, warm solar light, background stars and her identity; no camera drift, extra bodies, morphing planet or disconnected stationary satellite.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "reviewNotes": "Both satellite symbols now change position around the turning globe, with Harper gesturing and smiling. This better communicates a running orbital simulation. The icy satellite grows toward the end; central terrain morphs toward an Earth-like map, and small extra cyan accents appear near her feet. Assess in motion and at song timing before selecting; no final take is assigned."
+    }
+  ]
+}

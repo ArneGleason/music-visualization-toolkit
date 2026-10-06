@@ -1,7 +1,8 @@
 {
-  "version": "v03",
+  "version": "v06",
+  "mediaLabel": "Kling / Blender beats",
   "fps": 24,
-  "endFrameExclusive": 633,
+  "endFrameExclusive": 912,
   "shots": [
     {
       "id": "opening-001",
@@ -9,9 +10,7 @@
       "startFrame": 1,
       "frames": 227,
       "review": {
-        "selectionVersion": "opening-motion-v03",
-        "status": "best available; pending sequence review",
-        "notes": "Current best establishing take; review the large entrance and recession in context."
+        "notes": "Existing illustrated animation; trimmed at the proposed continuation."
       }
     },
     {
@@ -20,9 +19,7 @@
       "startFrame": 228,
       "frames": 125,
       "review": {
-        "selectionVersion": "opening-motion-v03",
-        "status": "preferred take",
-        "notes": "Preferred locked-camera lines take; user liked its performance and look. Distant background is steadier."
+        "notes": "Existing illustrated animation; trimmed at the proposed continuation."
       }
     },
     {
@@ -31,20 +28,61 @@
       "startFrame": 353,
       "frames": 190,
       "review": {
-        "selectionVersion": "opening-motion-v03",
-        "status": "continuous candidate; pending sequence review",
-        "notes": "One uninterrupted pullback covers both complete up-above phrases, removing the former restart. Ship closer to approved geometry; moon depth and field continuity remain provisional."
+        "notes": "Existing illustrated animation; trimmed at the proposed continuation."
       }
     },
     {
       "id": "opening-005",
       "title": "Hands on the transparent wall",
       "startFrame": 543,
-      "frames": 90,
+      "frames": 38,
       "review": {
-        "selectionVersion": "opening-motion-v03",
-        "status": "best available; pending sequence review",
-        "notes": "Current best floating interior take; retained Kling performance and connected field lines."
+        "notes": "Existing illustrated animation; trimmed at the proposed continuation."
+      }
+    },
+    {
+      "id": "space-006",
+      "title": "World below",
+      "startFrame": 581,
+      "frames": 52,
+      "review": {
+        "notes": "Rough Blender blocking · Cut from hands at the boundary to the world below; do not force a two-second trip through the shell."
+      }
+    },
+    {
+      "id": "space-007",
+      "title": "The map opens outward",
+      "startFrame": 633,
+      "frames": 104,
+      "review": {
+        "notes": "User selected the continuous Powers of Ten take as a visually attractive working shot; literal scale illustration remains imperfect."
+      }
+    },
+    {
+      "id": "space-008",
+      "title": "Small cabin, enormous space",
+      "startFrame": 737,
+      "frames": 52,
+      "review": {
+        "notes": "Rough Blender blocking · Start one continuous reaction-to-window take, shared with space-009. No new starting-frame reset at 789."
+      }
+    },
+    {
+      "id": "space-009",
+      "title": "Drawn to the boundary",
+      "startFrame": 789,
+      "frames": 65,
+      "review": {
+        "notes": "Rough Blender blocking · Continuation of space-008; this is a blocking beat, not an edit cut. Cut closer at frame 854."
+      }
+    },
+    {
+      "id": "space-010",
+      "title": "The cosmos in her eyes",
+      "startFrame": 854,
+      "frames": 58,
+      "review": {
+        "notes": "Rough Blender blocking · Cut in at Show you just how big you are. End at Stretch your arms wide; no direction beyond that phrase has been assumed."
       }
     }
   ]

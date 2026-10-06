@@ -1,0 +1,55 @@
+{
+  "fps": 24,
+  "output": "generated/kling-tests/hologram-scale-v02",
+  "estimatedCredits": 96,
+  "purpose": "Revised cohesive cyan starting image: preferred staged expansion versus continuous Powers of Ten style nested-scale retreat. Both moons contract with the displayed world.",
+  "reviewOutput": "generated/storyboard/kling-hologram-scale-v02",
+  "reviewTitle": "Hologram \u00b7 cohesive scale expansion tests",
+  "reviewSummary": "Two six-second native 1080p tests, 96 credits total. Revised cyan display reference; first image only. Compare staged expansion and a continuous nested-scale reveal.",
+  "reviewChecks": "Do BOTH moon symbols visibly contract and disappear with the planet group? Is the local-star scale reached within the 104-frame edit? Watch living performance, diagram hierarchy, amber marker continuity and physical-display/background separation. Current full animatic remains v05.",
+  "shots": [
+    {
+      "id": "hologram-cyan-staged",
+      "title": "Three-stage expansion with cohesive moons",
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/hologram-orbits-v01/orbital-simulation-start.png",
+      "tailImage": null,
+      "startFrame": 633,
+      "editFrames": 104,
+      "leadInFrames": 12,
+      "leadOutFrames": 12,
+      "prompt": "One continuous six-second illustrated shot, locked camera, no cuts. Only the starting image constrains the shot, no ending pose. Harper is alive throughout: expressive eyes following the model, small head tilt, natural hand and finger movement, gently floating body, curls moving, relaxed breathing. She selects the amber ring then spreads her hands to widen the displayed region. The entire cyan model is one projected hologram INSIDE her ship, including the planet, BOTH moon icons, all orbit tracks, labels and depth guides. Every component belongs to that same hierarchy. As the view expands, the planet AND BOTH moons reduce together, their separation contracts together and their attached labels become small and fade together. The original moon symbols must visibly travel inward with the shrinking planet group, not linger at their original screen positions; they are not physical objects in the cosmic background. Keep the physical display volume steady while changing the representation inside it. Body sizes are enlarged and distances compressed for readability. Keep the selected home location identifiable by a small amber marker. Begin with half a second of calm, finish the scale change by about 4.5 seconds, then settle while Harper retains gentle living movement. Preserve cabin geometry, lighting and character identity. No camera pullback, real background moons, frozen actress, extra fingers or speech. A readable three-stage reveal: around 0.5\u20131.5 seconds the ENTIRE initial planet-and-two-moons group contracts toward its amber selection marker; around 1.5\u20132.8 seconds reveal a compressed planetary system with a central warm star and sparse tilted orbital paths. Both original moons have now become tiny symbols close to their selected planet, and their detailed labels have faded. Around 2.8\u20134.5 seconds the whole system contracts into one amber home-system node while a small volumetric neighborhood of cyan star points appears at several depths. Old planet-scale orbit paths and moon symbols fade as a unit before the star-neighborhood scale becomes dominant. Keep diagram hierarchy clear and allow expressive interaction and delicate changing cyan light on her hands.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "reviewNotes": "Original moons disappear with the old model before the star-field reveal, addressing their previous lingering presence. The transition is a bright implosion/bloom then a compact star-point field, not a clean literal planet-to-system-to-stars contraction. Harper remains alive with gesture and gaze changes. Compare with the earlier preferred take below; this is a review candidate, not a selected final take."
+    },
+    {
+      "id": "hologram-powers-ten",
+      "title": "Continuous nested-scale reveal",
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/hologram-orbits-v01/orbital-simulation-start.png",
+      "tailImage": null,
+      "startFrame": 633,
+      "editFrames": 104,
+      "leadInFrames": 12,
+      "leadOutFrames": 12,
+      "prompt": "One continuous six-second illustrated shot, locked camera, no cuts. Only the starting image constrains the shot, no ending pose. Harper is alive throughout: expressive eyes following the model, small head tilt, natural hand and finger movement, gently floating body, curls moving, relaxed breathing. She selects the amber ring then spreads her hands to widen the displayed region. The entire cyan model is one projected hologram INSIDE her ship, including the planet, BOTH moon icons, all orbit tracks, labels and depth guides. Every component belongs to that same hierarchy. As the view expands, the planet AND BOTH moons reduce together, their separation contracts together and their attached labels become small and fade together. The original moon symbols must visibly travel inward with the shrinking planet group, not linger at their original screen positions; they are not physical objects in the cosmic background. Keep the physical display volume steady while changing the representation inside it. Body sizes are enlarged and distances compressed for readability. Keep the selected home location identifiable by a small amber marker. Begin with half a second of calm, finish the scale change by about 4.5 seconds, then settle while Harper retains gentle living movement. Preserve cabin geometry, lighting and character identity. No camera pullback, real background moons, frozen actress, extra fingers or speech. Use the visual grammar of the Eames Powers of Ten scale journey: one smooth uninterrupted retreat through nested scales, the previous subject becoming a small part of each newly revealed larger context. Apply that retreat ONLY inside the holographic model, not to the film camera. As Harper slowly spreads her hands, continuously reduce the entire planet-plus-two-moons assembly and its labels toward the selected amber location. Surrounding planetary orbits and a warm central star are progressively revealed, then themselves become a small home-system point as a sparse three-dimensional local stellar neighborhood emerges around it. It is one flowing logarithmic scale expansion, not three separate stops or abrupt swaps. Every older-scale component shrinks and fades coherently; both moons stay with the home planet during its contraction. Schematic body icons remain readable through artistic enlargement. Reach the local-star neighborhood by 4.5 seconds and settle with her amazed gaze.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "reviewNotes": "Initial planet and moon group reduces together more coherently. The reveal then becomes oversized concentric orbital rings around a bright center, rather than a legible local-star group. The intended Powers of Ten-like continuous hierarchy is only partly followed. Character and display move, but the endpoint and display bounds drift. Compare exact edit and full source."
+    }
+  ],
+  "comparisons": [
+    {
+      "title": "Earlier preferred three-stage take",
+      "src": "../kling-hologram-v01/hologram-staged-edit.mp4",
+      "notes": "Original starting frame: attractive staged expansion, but original satellite icons remain separate. Retained here for direct comparison with the two revised-reference tests."
+    }
+  ]
+}

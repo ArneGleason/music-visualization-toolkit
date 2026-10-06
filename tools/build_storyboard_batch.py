@@ -22,7 +22,8 @@ def main():
     project = json.loads(project_file.read_text(encoding='utf-8'))
     spec = json.loads(batch_file.read_text(encoding='utf-8'))
     register = json.loads((base/'shots/shotlist.json').read_text(encoding='utf-8'))
-    shots = [s for s in register['shots'] if s.get('batch')==spec['id']]
+    key = 'storyboardProposals' if spec.get('proposal') else 'shots'
+    shots = [s for s in register.get(key, []) if s.get('batch')==spec['id']]
     out = base/spec['output']; out.mkdir(parents=True, exist_ok=True)
     bpy.ops.wm.open_mainfile(filepath=str(base/spec['baseBlend']))
     template = bpy.context.scene
@@ -119,6 +120,29 @@ def main():
             folded_figure(scene,objects)
             # Art-directed planet moves beneath/forward of her gaze; camera sees space.
             objects['PLANET ROOT / independent artistic scale'].location=(0,-18,-36)
+        if blocking.get('hologram'):
+            # Spatial diagram is a separate, editable effect, not real moons.
+            mat=bpy.data.materials['Cyan orientation and engine light']
+            center=Vector((.65,-.65,.85))
+            for radius in (.26,.48,.72):
+                curve=bpy.data.curves.new('Hologram orbit','CURVE');curve.dimensions='3D'
+                curve.bevel_depth=.007
+                spline=curve.splines.new('POLY');spline.points.add(63)
+                for i,p in enumerate(spline.points):
+                    angle=2*math.pi*i/64
+                    p.co=(*(center+Vector((radius*math.cos(angle),radius*math.sin(angle),0))),1)
+                spline.use_cyclic_u=True
+                obj=bpy.data.objects.new('Hologram orbit',curve);scene.collection.objects.link(obj)
+                obj.data.materials.append(mat)
+            coll=bpy.data.collections.new(shot['id']+' hologram');scene.collection.children.link(coll)
+            for i,offset in enumerate(((0,0,0),(.26,0,0),(-.48,0,0),(.45,.56,.10))):
+                proxy_piece('Diagram node '+str(i),center+Vector(offset),(.04,.04,.04),None,coll,mat)
+        if spec.get('proposal'):
+            coll=next(c for c in scene.collection.children if 'FIGURE' in c.name)
+            for x in (-.20,-.06):
+                proxy_piece('Eye position cue',(x,-.195,1.09),(.028,.018,.025),
+                            objects['FIGURE ROOT / floating pose'],coll,
+                            bpy.data.materials['Cyan orientation and engine light'])
         move=blocking.get('moveFrames',shot['frames']-1)
         last_edit=h['editOutLocalFrameExclusive']-1
         keys=sorted(set([1,h['editInLocalFrame'],min(total,h['editInLocalFrame']+move),last_edit,total]))
@@ -141,7 +165,7 @@ def main():
                 sun.keyframe_insert('energy',frame=frame)
         # Check every generated frame of shots intended to remain inside.
         # Shot 003 intentionally crosses the thin shell during its reveal.
-        if blocking['figurePose']=='window':
+        if blocking['figurePose']=='window' or blocking.get('interior'):
             shell=objects['Clear spherical cabin']
             gaps=[]
             for frame in range(1,total+1):
@@ -149,7 +173,8 @@ def main():
                 local=shell.matrix_world.inverted() @ cam.matrix_world.translation
                 gaps.append((1-local.length)*min(shell.scale))
             scene['minimum_camera_shell_clearance']=min(gaps)
-            if min(gaps)<.2:
+            required_clearance=.1 if spec.get('proposal') else .2
+            if min(gaps)<required_clearance:
                 raise ValueError(f"{shot['id']}: interior camera is too close to shell ({min(gaps):.3f})")
             # Explicit art direction: moon identities and the shared sun stay
             # fixed, while positions may be composed for this interior angle.
@@ -161,19 +186,21 @@ def main():
                 offset=Vector((x*half_width,y*half_width*9/16,-distance))
                 root.location=cam.location+cam.rotation_euler.to_quaternion() @ offset
         scene.render.resolution_x=960;scene.render.resolution_y=540
-        scene.cycles.samples=16;scene.render.image_settings.file_format='PNG'
+        scene.cycles.samples=8 if spec.get('proposal') else 16;scene.render.image_settings.file_format='PNG'
         scene.world=template.world.copy()
         scene.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.45
         scene.view_settings.exposure=.3
         scene.frame_set(h['editInLocalFrame'])
         scenes.append((shot,scene))
     bpy.context.window.scene=scenes[0][1]
-    bpy.ops.wm.save_as_mainfile(filepath=str(out/'opening-storyboard-v01.blend'))
+    bpy.ops.wm.save_as_mainfile(filepath=str(out/(spec.get('blendFilename','opening-storyboard-v01.blend'))))
     manifest=[]
     for shot,scene in scenes:
         bpy.context.window.scene=scene
-        stills = [] if '--motion-only' in args or (only and shot['id']!=only) else [('lead-in',1),('edit-in',shot['handles']['editInLocalFrame']),
+        stills = [] if '--motion-only' in args or (only and shot['id']!=only) else [('edit-in',shot['handles']['editInLocalFrame']),
                              ('edit-out',shot['handles']['editOutLocalFrameExclusive']-1)]
+        if stills and not spec.get('proposal'):
+            stills.insert(0,('lead-in',1))
         for label,frame in stills:
             scene.frame_set(frame);scene.render.filepath=str(out/(shot['id']+'-'+label+'.png'))
             bpy.ops.render.render(write_still=True)

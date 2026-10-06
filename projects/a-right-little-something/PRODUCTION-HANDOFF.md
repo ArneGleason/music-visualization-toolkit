@@ -1,10 +1,33 @@
 # A Right Little Something — production checkpoint
 
+Latest checkpoint, 2026-10-05: v06 selects the user-approved continuous
+`hologram-powers-ten` take for frames 633–736. It is accepted as an attractive
+working shot despite imperfect scale illustration. Full movie:
+`generated/animatic/A-Right-Little-Something-selected-motion-v06.mp4`.
+Earlier Kling opening continues, with Blender proxy beats at 581–632 and
+737–911. The small bottom lyrics and exact master AAC packets are retained;
+5265 frames at 24 fps, 1920×1080 presentation. No pending paid tasks. Current
+Kling spend is 824 credits; details, alternate tests and next-step reasoning
+are in [HOLOGRAM-DIRECTION.md](HOLOGRAM-DIRECTION.md). Git backs up the new
+notes, source plans, code and four curated hologram stills, excluding videos,
+audio and Blender renders. Remaining task tomorrow: review this selected shot
+in context, then continue the rest of the small batch with illustrated
+references/animation when ready. Further hologram refinement is optional.
+
+First continuation update: five new active notes were blocked in Blender as a
+proposal after the checkpoint below. See [STORYBOARD-SPACE-NOTES.md](STORYBOARD-SPACE-NOTES.md)
+and `/storyboard/space-notes-v01/` for the timed review. This adds a proposed
+revision at frame 581 and continues through frame 911. The accepted v03 edit
+source shot records remained intact. The full listening viewer temporarily selected v04,
+with Blender proposals inserted at frames 581–911 and the original master
+audio packets preserved. The checkpoint note snapshot below is historical; live
+listening notes reached revision 22 for this continuation.
+
 2026-10-04. The user accepted animatic v03 as a good working edit and requested
 this GitHub checkpoint before continuing. Review locally at
 http://127.0.0.1:8768/ (exact-frame viewer: http://127.0.0.1:8767).
 
-## Current edit
+## October 4 edit (historical)
 
 `shots/shotlist.json` is authoritative. Four Kling takes cover the first
 632 frames / 26.333 seconds. The full animatic has 5265 frames at 24 fps and

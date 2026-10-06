@@ -64,6 +64,34 @@
       "role": "Floating interior shot; thin connected field appearance",
       "bytes": 2523661,
       "sha256": "0e1edf9a76838822e7af05935cdf63bf9a81351d8f26701f03219a15246e1b32"
+    },
+    {
+      "source": "generated/storyboard/hologram-v01/space-007-planet-start-v01.png",
+      "backup": "reference-images/hologram-planet-start.png",
+      "role": "Planet-level hologram look and original test starting frame",
+      "bytes": 2392373,
+      "sha256": "b1811ad8281d63cf4785bc80ec303b26a4cc4b8b455083dee6dafbf8b36b8b64"
+    },
+    {
+      "source": "generated/storyboard/hologram-v01/space-007-system-middle-v01.png",
+      "backup": "reference-images/hologram-system-middle.png",
+      "role": "Representative system-level look reference; held scale state",
+      "bytes": 2250871,
+      "sha256": "37cd6ed21469647f10c5e7827ce853f0a44e9e0037a11698b0289c9ece11ad8c"
+    },
+    {
+      "source": "generated/storyboard/hologram-v01/space-007-stars-end-v01.png",
+      "backup": "reference-images/hologram-stars-end.png",
+      "role": "Local-star volumetric navigation look reference",
+      "bytes": 2125901,
+      "sha256": "dae40f4da0e9b3a0c33107a40d1a65786e0ae17daf0a0c746866969c68a0ac98"
+    },
+    {
+      "source": "generated/storyboard/hologram-orbits-v01/orbital-simulation-start.png",
+      "backup": "reference-images/hologram-cohesive-start.png",
+      "role": "Shared cyan display reference; starting image for selected Powers of Ten motion",
+      "bytes": 2281271,
+      "sha256": "b960b1075eb7bb0e2a3c32a1de3350a1fa2297578c2462d607ca325561b7102a"
     }
   ]
 }
