@@ -157,6 +157,14 @@ anchor drift and a final graph that spreads broadly across the scene. Harper
 remains alive. This is a comparison candidate; v06 remains selected. Total
 Kling spend including this last test: 872 credits. No tasks remain pending.
 
+The user subsequently favored this redo. It is now the working selection in
+animatic v07 at the same frames 633–736, with the same handles, lyrics and
+master audio. V06 retains the prior selection for comparison. Nine native
+resolution samples across the usable take showed no obvious extra limb or
+digit. The pinching hand and partly hidden foot cannot be fully counted from
+all sampled poses; this was a spot check, not exhaustive per-frame anatomy QA.
+Current movie: `generated/animatic/A-Right-Little-Something-selected-motion-v07.mp4`.
+
 Prompt-lock revision 2 explicitly permits this authored diegetic display and
 invented glyphs. All active shots and current proposals use the identical new
 lock; the original lock remains in the register history for past generations.

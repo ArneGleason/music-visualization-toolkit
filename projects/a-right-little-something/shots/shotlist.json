@@ -1032,31 +1032,37 @@
           "leadOutFrames": 12,
           "imageConditioning": "Existing middle star-system image; first image only",
           "plan": "kling-hologram-star-centered.json",
-          "status": "completed; comparison only",
+          "status": "user selected for animatic",
           "reviewNotes": "Closer to the intended scale journey: the whole planetary system, satellites and paths contract together, the home star reduces to a small amber point near its original display location, and neighboring star nodes with connecting lines emerge. Harper remains alive. The final star graph spreads broadly across the scene and the anchor drifts slightly; review the exact song edit against the current selected take before choosing.",
           "motionRef": "generated/kling-tests/hologram-star-centered-v01/hologram-star-centered/hologram-star-centered-01-clean.mp4"
         }
       ],
       "directionNotes": "User prefers the original three-stage expansion over the orbital-simulation alternative. Chaotic but attractive motion is acceptable; the main issue is the original moons staying independent and stationary. Test revised starting reference and cohesive group scaling before investing in a complex deterministic composite.",
-      "motionRef": "generated/kling-tests/hologram-scale-v02/hologram-powers-ten/hologram-powers-ten-01-clean.mp4",
+      "motionRef": "generated/kling-tests/hologram-star-centered-v01/hologram-star-centered/hologram-star-centered-01-clean.mp4",
       "motionSelection": {
-        "id": "hologram-powers-ten",
-        "generationId": "Aev-6bq4amEuPt31M78DZt18ZacP559NiJk9X--ccjGp4DYeaEuzliOFZplS9b_PJZ7m2KF3",
+        "id": "hologram-star-centered",
+        "generationId": "AUeoEhszKO5YLkOxp-2pZ-2XZdp6-63BqoC4oMUZeL88FDUKZLqv5TssZi2nVaYOzjeOYZzG",
         "creditsConsumed": 48,
         "durationSeconds": 6,
         "resolution": "1080p",
         "editFrames": 104,
         "leadInFrames": 12,
         "leadOutFrames": 12,
-        "imageConditioning": "Revised cohesive cyan first image only",
-        "plan": "kling-hologram-scale-v02.json",
-        "status": "completed; comparison only",
-        "reviewNotes": "Initial planet and moon group reduces together more coherently. The reveal then becomes oversized concentric orbital rings around a bright center, rather than a legible local-star group. The intended Powers of Ten-like continuous hierarchy is only partly followed. Character and display move, but the endpoint and display bounds drift. Compare exact edit and full source.",
-        "motionRef": "generated/kling-tests/hologram-scale-v02/hologram-powers-ten/hologram-powers-ten-01-clean.mp4",
+        "imageConditioning": "Existing middle star-system image; first image only",
+        "plan": "kling-hologram-star-centered.json",
+        "status": "user selected for animatic",
+        "reviewNotes": "Closer to the intended scale journey: the whole planetary system, satellites and paths contract together, the home star reduces to a small amber point near its original display location, and neighboring star nodes with connecting lines emerge. Harper remains alive. The final star graph spreads broadly across the scene and the anchor drifts slightly; review the exact song edit against the current selected take before choosing.",
+        "motionRef": "generated/kling-tests/hologram-star-centered-v01/hologram-star-centered/hologram-star-centered-01-clean.mp4",
         "userSelected": true
       },
       "motionReview": {
-        "notes": "User selected the continuous Powers of Ten take as a visually attractive working shot; literal scale illustration remains imperfect."
+        "notes": "Working selection: star-centered zoom-out. System, moons and paths contract together; slight anchor drift and broad final graph remain. Anatomy spot-check found no obvious extra limbs or digits, with some occlusion."
+      },
+      "anatomyReview": {
+        "method": "Nine native-resolution samples spaced approximately half a second across the usable shot",
+        "finding": "No obvious extra limbs or digits in inspected samples",
+        "limitations": "Pinching fingers overlap and one foot is partly hidden; not exhaustive frame-by-frame clearance",
+        "status": "spot checked; user may continue visual review"
       }
     },
     {
@@ -1390,6 +1396,18 @@
       "video": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\animatic\\A-Right-Little-Something-selected-motion-v06.mp4",
       "shot": "space-007",
       "selectedTest": "hologram-powers-ten",
+      "startFrame": 633,
+      "endFrameExclusive": 737,
+      "sourceEditStartFrame": 13,
+      "frames": 5265,
+      "fps": 24,
+      "audio": "Original master AAC packets preserved"
+    },
+    "v07": {
+      "source": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\animatic\\A-Right-Little-Something-selected-motion-v06.mp4",
+      "video": "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\animatic\\A-Right-Little-Something-selected-motion-v07.mp4",
+      "shot": "space-007",
+      "selectedTest": "hologram-star-centered",
       "startFrame": 633,
       "endFrameExclusive": 737,
       "sourceEditStartFrame": 13,

@@ -1,9 +1,9 @@
 # A Right Little Something — production checkpoint
 
-Latest checkpoint, 2026-10-05: v06 selects the user-approved continuous
-`hologram-powers-ten` take for frames 633–736. It is accepted as an attractive
-working shot despite imperfect scale illustration. Full movie:
-`generated/animatic/A-Right-Little-Something-selected-motion-v06.mp4`.
+Latest checkpoint, 2026-10-05: v07 selects the preferred `hologram-star-centered`
+redo for frames 633–736. The whole system contracts together and the home star
+becomes a point in the wider graph. Full movie:
+`generated/animatic/A-Right-Little-Something-selected-motion-v07.mp4`.
 Earlier Kling opening continues, with Blender proxy beats at 581–632 and
 737–911. The small bottom lyrics and exact master AAC packets are retained;
 5265 frames at 24 fps, 1920×1080 presentation. No pending paid tasks. Current
@@ -17,8 +17,9 @@ references/animation when ready. Further hologram refinement is optional.
 One last comparison after the selection: `hologram-star-centered` starts from
 the existing system-level illustration and achieves a more coherent contraction
 to a home-star point with neighboring stars. It cost 48 credits and is complete.
-Review `/storyboard/kling-hologram-star-centered-v01/` against the selected take;
-the user has not yet chosen this alternative, so v06 remains current.
+The user subsequently favored it, and it is now selected in v07. Nine full
+resolution samples show no obvious extra limb/digit, with curled fingers and
+the hidden foot limiting complete counts. V06 preserves the prior selection.
 
 First continuation update: five new active notes were blocked in Blender as a
 proposal after the checkpoint below. See [STORYBOARD-SPACE-NOTES.md](STORYBOARD-SPACE-NOTES.md)

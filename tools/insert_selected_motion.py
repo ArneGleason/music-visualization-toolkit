@@ -59,9 +59,9 @@ def main():
     hashes=[subprocess.check_output(['ffmpeg','-v','error','-i',str(p),'-map','0:a:0','-c','copy','-f','hash','-hash','sha256','-']) for p in (source,pending)]
     assert hashes[0]==hashes[1],'Original master packets changed'
     pending.replace(final)
-    shot['motionRef']=selected['motionRef'];shot['motionSelection']=dict(selected,userSelected=True)
-    shot['motionReview']={'notes':'User selected the continuous Powers of Ten take as a visually attractive working shot; literal scale illustration remains imperfect.'}
     selected['status']='user selected for animatic'
+    shot['motionRef']=selected['motionRef'];shot['motionSelection']=dict(selected,userSelected=True)
+    shot['motionReview']={'notes':f'Current working selection: {selected["id"]}. '+selected.get('reviewNotes','')}
     register.setdefault('reviewEdits',{})[args.version]={'source':str(source),'video':str(final),'shot':shot['id'],'selectedTest':args.test,'startFrame':a+1,'endFrameExclusive':b+1,'sourceEditStartFrame':lead+1,'frames':count,'fps':fps,'audio':'Original master AAC packets preserved'}
     temp=register_path.with_suffix('.tmp');temp.write_text(json.dumps(register,indent=2,ensure_ascii=False)+'\n',encoding='utf-8');temp.replace(register_path)
     (root/'current-media.json').write_text(json.dumps({'video':final.name+f'?v={final.stat().st_mtime_ns}'}),encoding='utf-8')
