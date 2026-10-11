@@ -1,0 +1,62 @@
+{
+  "id": "station-concourse-v04",
+  "output": "generated/storyboard/station-concourse-v04",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v47.mp4",
+  "useMotion": true,
+  "motionShotIds": [
+    "concourse-001",
+    "concourse-002",
+    "concourse-003",
+    "concourse-004",
+    "concourse-005"
+  ],
+  "draftForReview": true,
+  "presentation": "Restored exact original gantry view, followed by new entrance POV close-up.",
+  "mediaLabel": "Original gantry / entrance reverse angle",
+  "continuationNotes": "V48 consolidates frames2425–2556 into the exact annotated original gantry still, then uses a face-on entrance POV at2556–2595. Station is behind Harper in the close-up. No boarding or cabin reveal. Earlier scenes, full timing and master audio retained. Stills for review; no new Kling generation.",
+  "transitions": [
+    {
+      "incomingShot": "concourse-004",
+      "boundaryFrame": 2192,
+      "startFrame": 2190,
+      "endFrameExclusive": 2194,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-005",
+      "boundaryFrame": 2203,
+      "startFrame": 2201,
+      "endFrameExclusive": 2205,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-006",
+      "boundaryFrame": 2211,
+      "startFrame": 2209,
+      "endFrameExclusive": 2213,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "type": "dissolve",
+      "incomingShot": "concourse-008",
+      "startFrame": 2288,
+      "endFrameExclusive": 2300,
+      "frames": 12
+    }
+  ]
+}

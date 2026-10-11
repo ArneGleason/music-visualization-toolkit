@@ -1,0 +1,422 @@
+{
+  "status": "V59 brighter station twinkle; accepted V58 stronger zoom and pullout retained",
+  "fps": 24,
+  "output": "generated/kling-tests/departure-discovery-v01",
+  "reviewOutput": "generated/storyboard/departure-discovery-motion-v01",
+  "estimatedCredits": 280,
+  "priorConfirmedCumulativeCredits": 3104,
+  "authorization": "Explicit user approval: Approve eight Kling uploads and 280 credits. Covers eight accepted stills, seven prepared prompts, existing Harper reference, seven silent1080p videos including immediate rapid pullback; nine zoom views remain stills.",
+  "shots": [
+    {
+      "id": "departure-signing-motion-v01",
+      "shotId": "departure-001",
+      "title": "Sign for the ship",
+      "startFrame": 2595,
+      "editFrames": 70,
+      "leadInFrames": 24,
+      "leadOutFrames": 26,
+      "sourceEditStartFrame": 25,
+      "model": "kling-video-v3_0",
+      "duration": 5,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/departure-discovery-v01/signing.png",
+      "firstImageSha256": "97e758db07bc2dbe78b47d501a83515624d506ebda4643b8e133908332621244",
+      "prompt": "5 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the established adult woman. The starter image controls gray long-sleeved coverall and utility shoes, overriding identity-reference clothes. Medium two-shot at the berth. Harper makes one short fingertip signing gesture on the transfer panel, lifts her hand, and accepts the small control token offered by the existing slate-blue fin-eared owner. Owner releases it naturally. Calm practical agreement; neither speaks or grins. Stable hands, panel and established ship behind them. Camera almost fixed. Perform the clear signing and handover between seconds1 and3.8. Preserve the painted graphic-novel rendering and all approved starter designs. No montage, captions, readable words, watermark, generated audio or lip-sync. Allow one-second editing handles before and after the main action.\n\nDEPARTURE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials, deep indigo space, cyan practical lights and restrained warm amber edges. Adult Harper has established freckled face, hazel-green eyes and short curly auburn hair. She wears the same pod-issued warm-gray long-sleeved survival coverall, gathered cuffs, plain closed collar and fastening, gray belt, loose trousers and graphite utility shoes; tiny unlettered amber arm tab. Reference short-sleeved clothing is superseded. Personal ship is the established transparent spherical technological field, faint cyan geodesic grid, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc. Cabin is the established open spherical volume with curved graphite rail/platform and sparse floating holographic controls, not a conventional airplane cockpit. The newly discovered remote planet has a broad dark-emerald jungle continent, copper-coloured inland seas and ivory storm systems, visibly distinct from the opening turquoise/peach world. Only include subjects required by the specific shot. One uninterrupted full-frame cinematic16:9 image, quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.\n\nMOTION CONTINUITY: Only subjects in the starter and required action appear. The ship has no extra inner cockpit ring; the continuity-lock rail means its established outer equatorial structure. Keep character and ship scale constant in world space.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "estimatedCredits": 40,
+      "placements": [
+        {
+          "shotId": "departure-001",
+          "startFrame": 2595,
+          "editFrames": 70,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "generationId": "AWxzdfz-MUm6Bfj6w5-6p68dQf0NpyEUll71mXHfD6CSm3m9QxNdIl-A_Dfb1ZQTsubXy4oF",
+      "actualCredits": 40,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-signing-motion-v01/departure-signing-motion-v01-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 121,
+      "qaSampleFrames": [
+        1,
+        25,
+        59,
+        94
+      ],
+      "reviewNotes": "Legible signing gesture followed by owner offering and Harper accepting the token. Stable faces, hands and ship backdrop. Source25–94 contains the signature release and handover; slight camera drift is native."
+    },
+    {
+      "id": "departure-departure-motion-v01",
+      "shotId": "departure-002",
+      "title": "Careful undocking into the bigger sky",
+      "startFrame": 2665,
+      "editFrames": 140,
+      "leadInFrames": 6,
+      "leadOutFrames": 46,
+      "sourceEditStartFrame": 1,
+      "model": "kling-video-v3_0",
+      "duration": 8,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": "generated/storyboard/departure-discovery-v01/distant-station.png",
+      "firstImage": "generated/storyboard/departure-discovery-v04/undocking.png",
+      "firstImageSha256": "468cfdbf859d204a85913ba9e981091e03651b5b107bf257239ccae195b36a12",
+      "prompt": "8 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the established adult woman. The starter image controls gray long-sleeved coverall and utility shoes, overriding identity-reference clothes. ONE CONTINUOUS EXTERIOR CAMERA PULLBACK, from provided first image toward the distant-station tail image. Start camera movement IMMEDIATELY, no static opening hold. Within the first0.75 seconds the sphere shrinks to less than half its initial apparent diameter; by1.5 seconds it is a small recognizable ship and Harper is no longer individually readable. Camera rapidly retreats farther through space, settling into enormous cosmic scale by5.5 seconds, then continues very slowly through the last2 seconds near the tail composition. Ship itself moves gently away from station toward camera like a careful new driver, while camera retreats MUCH faster. This is changing camera distance, never the spacecraft physically shrinking, growing, transforming or morphing. Station stays behind ship in depth and both recede together. Harper floats inside throughout; maintain full body, both shoes, gray outfit. Preserve EXACT starting ship model: one outer equatorial band, entry, single aft vertical engine ring, pole plates; no inner cockpit ring. No left-right broadside slide. No cuts, crossfades or dissolves, no blur hiding a geometry transformation. Stable stars, sensible perspective, no added planet. Preserve the painted graphic-novel rendering and all approved starter designs. No montage, captions, readable words, watermark, generated audio or lip-sync. The immediate pullback is essential; do not wait for a one-second static handle.\n\nDEPARTURE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials, deep indigo space, cyan practical lights and restrained warm amber edges. Adult Harper has established freckled face, hazel-green eyes and short curly auburn hair. She wears the same pod-issued warm-gray long-sleeved survival coverall, gathered cuffs, plain closed collar and fastening, gray belt, loose trousers and graphite utility shoes; tiny unlettered amber arm tab. Reference short-sleeved clothing is superseded. Personal ship is the established transparent spherical technological field, faint cyan geodesic grid, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc. Cabin is the established open spherical volume with curved graphite rail/platform and sparse floating holographic controls, not a conventional airplane cockpit. The newly discovered remote planet has a broad dark-emerald jungle continent, copper-coloured inland seas and ivory storm systems, visibly distinct from the opening turquoise/peach world. Only include subjects required by the specific shot. One uninterrupted full-frame cinematic16:9 image, quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.\n\nMOTION CONTINUITY: Only subjects in the starter and required action appear. The ship has no extra inner cockpit ring; the continuity-lock rail means its established outer equatorial structure. Keep character and ship scale constant in world space.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "estimatedCredits": 64,
+      "placements": [
+        {
+          "shotId": "departure-002",
+          "startFrame": 2665,
+          "editFrames": 140,
+          "sourceEditStartFrame": 1
+        }
+      ],
+      "tailImageSha256": "0cd03e541a514c84c5efd1993652dc7c3817c8a3bbbfd51180f1998e5789b342",
+      "generationId": "AUo2X-GsVJgfN_e4KzQYKizmURuv5P_RECTwMka31HKSXfL3-TtpPNLC9QdDgkuQnTzJSFqa",
+      "actualCredits": 64,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-departure-motion-v01/departure-departure-motion-v01-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 193,
+      "qaSampleFrames": [
+        1,
+        1,
+        70,
+        140
+      ],
+      "editMotionRef": "generated/storyboard/departure-discovery-motion-v01/departure-retimed-clean.mp4",
+      "sourceSelectionNote": "Native73–193 retimed to140frames with cubic ease-out; skips unwanted early flare and accelerates departure immediately. Adjacent-frame blends smooth the slow distant tail; no added image translation or cross-shot dissolve.",
+      "retime": {
+        "nativeStartFrame": 73,
+        "nativeEndFrameInclusive": 193,
+        "outputFrames": 140,
+        "curve": "source=73+120*(1-(1-outputIndex/139)^3)",
+        "frameBlending": true
+      },
+      "availableLeadOutFrames": 0,
+      "reviewNotes": "Raw take lingered and introduced a bright flare around1.5s, with a changed viewing angle afterward. Exclude native1–72. Use clean native73–193 with a cubic ease-out retime to140 edit frames: pullback starts immediately, Harper becomes small quickly, and the view settles on tiny ship/station. This begins after the ship has turned, with the engine ring on the opposite side from the starter. Small extra inner edging remains briefly visible in the native model; no large added cockpit ring. Frame blending smooths the distant tail. No dissolve or extra image zoom."
+    },
+    {
+      "id": "departure-target-motion-v01",
+      "shotId": "departure-003",
+      "title": "Select a distant target",
+      "startFrame": 2805,
+      "editFrames": 68,
+      "leadInFrames": 24,
+      "leadOutFrames": 28,
+      "sourceEditStartFrame": 25,
+      "model": "kling-video-v3_0",
+      "duration": 5,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/departure-discovery-v01/target-profile.png",
+      "firstImageSha256": "1d59f78d7cced1a15d43c346d25585f67f05283fb565b7a98868734d8cca21b4",
+      "prompt": "5 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the established adult woman. The starter image controls gray long-sleeved coverall and utility shoes, overriding identity-reference clothes. Interior side-profile medium. Harper floats almost imperceptibly, studies the small distant point, then makes one precise fingertip touch to the existing sparse cyan control between seconds2 and3.5. The tiny target bracket responds with a gentle light pulse. Only stars outside; do not reveal a planet yet. Preserve face, hand anatomy, long sleeves and exact approved framing. Small breathing and eye movement, camera steady, no talking or lip-sync. Preserve the painted graphic-novel rendering and all approved starter designs. No montage, captions, readable words, watermark, generated audio or lip-sync. Allow one-second editing handles before and after the main action.\n\nDEPARTURE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials, deep indigo space, cyan practical lights and restrained warm amber edges. Adult Harper has established freckled face, hazel-green eyes and short curly auburn hair. She wears the same pod-issued warm-gray long-sleeved survival coverall, gathered cuffs, plain closed collar and fastening, gray belt, loose trousers and graphite utility shoes; tiny unlettered amber arm tab. Reference short-sleeved clothing is superseded. Personal ship is the established transparent spherical technological field, faint cyan geodesic grid, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc. Cabin is the established open spherical volume with curved graphite rail/platform and sparse floating holographic controls, not a conventional airplane cockpit. The newly discovered remote planet has a broad dark-emerald jungle continent, copper-coloured inland seas and ivory storm systems, visibly distinct from the opening turquoise/peach world. Only include subjects required by the specific shot. One uninterrupted full-frame cinematic16:9 image, quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.\n\nMOTION CONTINUITY: Only subjects in the starter and required action appear. The ship has no extra inner cockpit ring; the continuity-lock rail means its established outer equatorial structure. Keep character and ship scale constant in world space.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "estimatedCredits": 40,
+      "placements": [
+        {
+          "shotId": "departure-003",
+          "startFrame": 2805,
+          "editFrames": 68,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "generationId": "AQ40ZwV5TftCtWtu_U7bvdgg5zrm1lq65ls_G5SVA6ZJrytvAywQlIHVOpwe8CB2beoBOjgS",
+      "actualCredits": 40,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-target-motion-v01/departure-target-motion-v01-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 121,
+      "qaSampleFrames": [
+        1,
+        25,
+        58,
+        92
+      ],
+      "reviewNotes": "Small raised-hand targeting gesture and return to sparse cyan control; stable adult face and gray outfit, no premature planet. Source25–92 gives target selection and settling hand before the optical cuts; no lip-sync."
+    },
+    {
+      "id": "departure-planet-motion-v01",
+      "shotId": "departure-005",
+      "title": "Reveal the new jungle world",
+      "startFrame": 2946,
+      "editFrames": 48,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "sourceEditStartFrame": 25,
+      "model": "kling-video-v3_0",
+      "duration": 4,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/departure-discovery-v01/planet-reveal.png",
+      "firstImageSha256": "56ea8f8544003ce30a1bee7c671d2c6c58545ec8fa4b6fc266feaad5dae8259e",
+      "prompt": "4 seconds. Clean silent single shot. Clean full-frame remote view of the existing emerald-jungle and copper-sea planet. Very subtle coherent globe rotation and slow ivory cloud drift, with a delicate atmospheric rim. Keep the exact continent geography and framing recognizable; less than two degrees rotation over the take. Stars remain stable. No additional moons, objects, ship or HUD. No camera zoom; this is the resolved big-now reveal after the separate hard-cut magnification sequence. Preserve the painted graphic-novel rendering and all approved starter designs. No montage, captions, readable words, watermark, generated audio or lip-sync. Allow one-second editing handles before and after the main action.\n\nDEPARTURE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials, deep indigo space, cyan practical lights and restrained warm amber edges. Adult Harper has established freckled face, hazel-green eyes and short curly auburn hair. She wears the same pod-issued warm-gray long-sleeved survival coverall, gathered cuffs, plain closed collar and fastening, gray belt, loose trousers and graphite utility shoes; tiny unlettered amber arm tab. Reference short-sleeved clothing is superseded. Personal ship is the established transparent spherical technological field, faint cyan geodesic grid, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc. Cabin is the established open spherical volume with curved graphite rail/platform and sparse floating holographic controls, not a conventional airplane cockpit. The newly discovered remote planet has a broad dark-emerald jungle continent, copper-coloured inland seas and ivory storm systems, visibly distinct from the opening turquoise/peach world. Only include subjects required by the specific shot. One uninterrupted full-frame cinematic16:9 image, quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.\n\nMOTION CONTINUITY: Only subjects in the starter and required action appear. The ship has no extra inner cockpit ring; the continuity-lock rail means its established outer equatorial structure. Keep character and ship scale constant in world space.",
+      "elements": [],
+      "estimatedCredits": 32,
+      "placements": [
+        {
+          "shotId": "departure-005",
+          "startFrame": 2946,
+          "editFrames": 48,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "generationId": "AZVr7fM1uTUgzLINiGBPpde-FxuKWApRPT1C8QNEGCPXu8gQ_B1lENo02dY9nzVPGKzs0sL-",
+      "actualCredits": 32,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-planet-motion-v01/departure-planet-motion-v01-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 97,
+      "qaSampleFrames": [
+        1,
+        25,
+        48,
+        72
+      ],
+      "reviewNotes": "Clean stable globe and coherent cloud/continent rotation. Rotation is more noticeable than the very subtle requested motion, but geography and palette stay recognizable. Select source25–72 for the48-frame reveal on big; do not add zoom."
+    },
+    {
+      "id": "departure-cabin-motion-v01",
+      "shotId": "departure-006",
+      "title": "Distance within the dome",
+      "startFrame": 2994,
+      "editFrames": 45,
+      "leadInFrames": 24,
+      "leadOutFrames": 27,
+      "sourceEditStartFrame": 25,
+      "model": "kling-video-v3_0",
+      "duration": 4,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/departure-discovery-v01/cabin-distance.png",
+      "firstImageSha256": "99f2d7cfbf5ca021462490d982a29eb50659b8d152b45cda76deca57346d25b1",
+      "prompt": "4 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the established adult woman. The starter image controls gray long-sleeved coverall and utility shoes, overriding identity-reference clothes. Wide cabin view. Harper remains a small figure, studying the magnified remote jungle planet on the virtual dome. Existing sparse cyan route line extends smoothly a little farther between seconds1 and2.5, indicating remaining travel distance. Minimal weightless body drift and one tiny hand adjustment. Planet stays a dome display, no arrival, no flying into it, no changing geography, no newly invented inner cockpit ring. Retain approved composition; camera steady. Preserve the painted graphic-novel rendering and all approved starter designs. No montage, captions, readable words, watermark, generated audio or lip-sync. Allow one-second editing handles before and after the main action.\n\nDEPARTURE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials, deep indigo space, cyan practical lights and restrained warm amber edges. Adult Harper has established freckled face, hazel-green eyes and short curly auburn hair. She wears the same pod-issued warm-gray long-sleeved survival coverall, gathered cuffs, plain closed collar and fastening, gray belt, loose trousers and graphite utility shoes; tiny unlettered amber arm tab. Reference short-sleeved clothing is superseded. Personal ship is the established transparent spherical technological field, faint cyan geodesic grid, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc. Cabin is the established open spherical volume with curved graphite rail/platform and sparse floating holographic controls, not a conventional airplane cockpit. The newly discovered remote planet has a broad dark-emerald jungle continent, copper-coloured inland seas and ivory storm systems, visibly distinct from the opening turquoise/peach world. Only include subjects required by the specific shot. One uninterrupted full-frame cinematic16:9 image, quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.\n\nMOTION CONTINUITY: Only subjects in the starter and required action appear. The ship has no extra inner cockpit ring; the continuity-lock rail means its established outer equatorial structure. Keep character and ship scale constant in world space.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "estimatedCredits": 32,
+      "placements": [
+        {
+          "shotId": "departure-006",
+          "startFrame": 2994,
+          "editFrames": 45,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "generationId": "AQjm4inCrirhAWApV1f8YA-6S26BXI_zRJZ0MfPZ8dTz_W_gJQqGOrtPz83-KoJgJnCkNDin",
+      "actualCredits": 32,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-cabin-motion-v01/departure-cabin-motion-v01-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 97,
+      "qaSampleFrames": [
+        1,
+        25,
+        46,
+        69
+      ],
+      "reviewNotes": "Stable wide cabin and remote planet display with gentle character/camera drift and sparse route-line extension. Preserves approved framing. Source25–69; Harper stays at the existing rail as authored in this particular still."
+    },
+    {
+      "id": "departure-affirmation-motion-v01",
+      "shotId": "departure-007",
+      "title": "Quiet affirmation",
+      "startFrame": 3039,
+      "editFrames": 42,
+      "leadInFrames": 24,
+      "leadOutFrames": 30,
+      "sourceEditStartFrame": 25,
+      "model": "kling-video-v3_0",
+      "duration": 4,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/departure-discovery-v01/affirmation.png",
+      "firstImageSha256": "702c53dbc2ea7d0ecbb15c4f53728096485f71debff98b9968a3f501cb8f60fe",
+      "prompt": "4 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the established adult woman. The starter image controls gray long-sleeved coverall and utility shoes, overriding identity-reference clothes. Tight three-quarter reaction. Harper studies the discovery; focused eyes soften into restrained satisfaction, a tiny breath and almost-nod between seconds1 and2.7. Closed relaxed mouth, no broad smile, no speech. Keep mature freckled face, short auburn curls and warm-gray collar. Minimal floating hair movement; camera steady and stable face identity. Preserve the painted graphic-novel rendering and all approved starter designs. No montage, captions, readable words, watermark, generated audio or lip-sync. Allow one-second editing handles before and after the main action.\n\nDEPARTURE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials, deep indigo space, cyan practical lights and restrained warm amber edges. Adult Harper has established freckled face, hazel-green eyes and short curly auburn hair. She wears the same pod-issued warm-gray long-sleeved survival coverall, gathered cuffs, plain closed collar and fastening, gray belt, loose trousers and graphite utility shoes; tiny unlettered amber arm tab. Reference short-sleeved clothing is superseded. Personal ship is the established transparent spherical technological field, faint cyan geodesic grid, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc. Cabin is the established open spherical volume with curved graphite rail/platform and sparse floating holographic controls, not a conventional airplane cockpit. The newly discovered remote planet has a broad dark-emerald jungle continent, copper-coloured inland seas and ivory storm systems, visibly distinct from the opening turquoise/peach world. Only include subjects required by the specific shot. One uninterrupted full-frame cinematic16:9 image, quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.\n\nMOTION CONTINUITY: Only subjects in the starter and required action appear. The ship has no extra inner cockpit ring; the continuity-lock rail means its established outer equatorial structure. Keep character and ship scale constant in world space.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "estimatedCredits": 32,
+      "placements": [
+        {
+          "shotId": "departure-007",
+          "startFrame": 3039,
+          "editFrames": 42,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "generationId": "AT2ujF82P8Y3diko0l-00bk85azrc986Rh2bcdvfe-tahg0bdCaVO-1ziu-mQmtMfXxPOTVK",
+      "actualCredits": 32,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-affirmation-motion-v01/departure-affirmation-motion-v01-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 97,
+      "qaSampleFrames": [
+        1,
+        25,
+        45,
+        66
+      ],
+      "reviewNotes": "Subtle eye shift, breath/blink and small affirmative head movement without a broad smile or speech. Later hair motion and head turn become more pronounced; source25–66 limits that while retaining a quiet reaction."
+    },
+    {
+      "id": "departure-confirm-motion-v01",
+      "shotId": "departure-008",
+      "title": "Confirm the course",
+      "startFrame": 3081,
+      "editFrames": 63,
+      "leadInFrames": 24,
+      "leadOutFrames": 33,
+      "sourceEditStartFrame": 25,
+      "model": "kling-video-v3_0",
+      "duration": 5,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/departure-discovery-v01/confirm-course.png",
+      "firstImageSha256": "8f618936832c0b80bd6148d308e2fb4107059f710226ed74931efc75f95d7916",
+      "prompt": "5 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the established adult woman. The starter image controls gray long-sleeved coverall and utility shoes, overriding identity-reference clothes. Tight hand/control insert. The existing hand makes a single deliberate touch to the amber destination point between seconds1.3 and2.4; the sparse cyan course line settles into a single clear route and gives one restrained confirmation pulse. The hand relaxes and withdraws just a little. Preserve five-finger anatomy and gray sleeve. No additional hands or text, no dense HUD, no camera pan, no planet arrival. Preserve the painted graphic-novel rendering and all approved starter designs. No montage, captions, readable words, watermark, generated audio or lip-sync. Allow one-second editing handles before and after the main action.\n\nDEPARTURE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials, deep indigo space, cyan practical lights and restrained warm amber edges. Adult Harper has established freckled face, hazel-green eyes and short curly auburn hair. She wears the same pod-issued warm-gray long-sleeved survival coverall, gathered cuffs, plain closed collar and fastening, gray belt, loose trousers and graphite utility shoes; tiny unlettered amber arm tab. Reference short-sleeved clothing is superseded. Personal ship is the established transparent spherical technological field, faint cyan geodesic grid, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc. Cabin is the established open spherical volume with curved graphite rail/platform and sparse floating holographic controls, not a conventional airplane cockpit. The newly discovered remote planet has a broad dark-emerald jungle continent, copper-coloured inland seas and ivory storm systems, visibly distinct from the opening turquoise/peach world. Only include subjects required by the specific shot. One uninterrupted full-frame cinematic16:9 image, quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.\n\nMOTION CONTINUITY: Only subjects in the starter and required action appear. The ship has no extra inner cockpit ring; the continuity-lock rail means its established outer equatorial structure. Keep character and ship scale constant in world space.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "estimatedCredits": 40,
+      "placements": [
+        {
+          "shotId": "departure-008",
+          "startFrame": 3081,
+          "editFrames": 63,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "generationId": "AaXRDzmiN5V0XDJiSDTBs70dfRgAmjelL83aykW-tTdsvJf2UTo1HeUTuouL7suDR80ZnXNm",
+      "actualCredits": 40,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-confirm-motion-v01/departure-confirm-motion-v01-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 121,
+      "qaSampleFrames": [
+        1,
+        25,
+        55,
+        87
+      ],
+      "reviewNotes": "One legible touch/release, a restrained amber course pulse and relaxed hand withdrawal. Five-finger anatomy and gray cuff remain stable. Source25–87 carries the confirmation and settling route."
+    }
+  ],
+  "stillShotIds": [
+    "departure-004"
+  ],
+  "stillSegments": [
+    {
+      "startFrame": 2873,
+      "endFrameExclusive": 2946,
+      "reason": "Nine accepted hard-cut magnification stills plus last-view resolving hold"
+    }
+  ],
+  "uploadCount": 8,
+  "promptLock": "DEPARTURE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials, deep indigo space, cyan practical lights and restrained warm amber edges. Adult Harper has established freckled face, hazel-green eyes and short curly auburn hair. She wears the same pod-issued warm-gray long-sleeved survival coverall, gathered cuffs, plain closed collar and fastening, gray belt, loose trousers and graphite utility shoes; tiny unlettered amber arm tab. Reference short-sleeved clothing is superseded. Personal ship is the established transparent spherical technological field, faint cyan geodesic grid, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc. Cabin is the established open spherical volume with curved graphite rail/platform and sparse floating holographic controls, not a conventional airplane cockpit. The newly discovered remote planet has a broad dark-emerald jungle continent, copper-coloured inland seas and ivory storm systems, visibly distinct from the opening turquoise/peach world. Only include subjects required by the specific shot. One uninterrupted full-frame cinematic16:9 image, quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v54.mp4",
+  "assemblyNotes": "Replace departure002 entire140frames with one continuous rapid pullback: no old dissolve or static far-station segment. departure005 begins with26frames of last zoom still then48frames planet native motion. Preserve all exact edit boundaries and master audio. Select actual action after native review; no silent paid retries.",
+  "approvedCredits": 280,
+  "actualCredits": 280,
+  "confirmedCumulativeKlingCredits": 3384,
+  "paidJobsPending": false,
+  "collectedShotIds": [
+    "departure-001",
+    "departure-002",
+    "departure-003",
+    "departure-005",
+    "departure-006",
+    "departure-007",
+    "departure-008"
+  ],
+  "reviewUrl": "http://127.0.0.1:8768/?v=v59",
+  "editorialRevision": {
+    "version": "v56",
+    "shotId": "departure-002",
+    "operation": "reverse",
+    "motionRef": "generated/storyboard/departure-discovery-motion-v02/departure-reversed-clean.mp4",
+    "frames": 140,
+    "newCredits": 0
+  },
+  "editorialRevisions": [
+    {
+      "version": "v57",
+      "shotId": "departure-004",
+      "operation": "one- or two-frame radial zoom overlaps",
+      "transitions": 8,
+      "changedFrames": 14,
+      "newCredits": 0
+    },
+    {
+      "version": "v58",
+      "shots": [
+        "departure-002",
+        "departure-004"
+      ],
+      "operation": "Stronger radial zoom overlaps; Blender 18 percent pullout plus cyan twinkle",
+      "fallbackVersion": "v57",
+      "newCredits": 0
+    },
+    {
+      "version": "v59",
+      "shotId": "departure-002",
+      "operation": "Blender twinkle 2x spatial size and 2.5x linear light intensity",
+      "newCredits": 0
+    }
+  ]
+}

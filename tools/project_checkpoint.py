@@ -23,6 +23,9 @@ METADATA = [
 PRODUCTION_METADATA = {
     'generation-input.json', 'source-verification.json', 'timing-check.json',
     'verification.json', 'review-manifest.json', 'review-options.json',
+    'native-review.json', 'assembly-plan.json', 'pullback-frame-map.json',
+    'reverse-frame-map.json', 'departure-manifest.json',
+    'gallery-manifest.json', 'gallery-options.json', 'concat.txt', 'lyrics.ass',
 }
 
 

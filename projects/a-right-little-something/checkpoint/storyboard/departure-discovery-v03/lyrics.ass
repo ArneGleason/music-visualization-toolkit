@@ -1,0 +1,65 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Bahnschrift,34,&H00F2F1EB,&H00F2F1EB,&H0017100B,&H8017100B,0,0,0,0,100,100,0.6,0,1,1.5,1,2,90,90,45,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.04,Lyrics,,0,0,0,,{\c&HFFE5A3&}All,{\c&HF2F1EB&} all calling.
+Dialogue: 0,0:00:01.04,0:00:01.45,Lyrics,,0,0,0,,All, all calling.
+Dialogue: 0,0:00:01.45,0:00:01.83,Lyrics,,0,0,0,,All, {\c&HFFE5A3&}all{\c&HF2F1EB&} calling.
+Dialogue: 0,0:00:01.83,0:00:02.16,Lyrics,,0,0,0,,All, all calling.
+Dialogue: 0,0:00:02.16,0:00:02.91,Lyrics,,0,0,0,,All, all {\c&HFFE5A3&}calling.{\c&HF2F1EB&}
+Dialogue: 0,0:00:02.91,0:00:04.29,Lyrics,,0,0,0,,{\c&HFFE5A3&}To{\c&HF2F1EB&} the bigger sky beyond.
+Dialogue: 0,0:00:04.29,0:00:04.66,Lyrics,,0,0,0,,To {\c&HFFE5A3&}the{\c&HF2F1EB&} bigger sky beyond.
+Dialogue: 0,0:00:04.66,0:00:05.41,Lyrics,,0,0,0,,To the {\c&HFFE5A3&}bigger{\c&HF2F1EB&} sky beyond.
+Dialogue: 0,0:00:05.41,0:00:05.91,Lyrics,,0,0,0,,To the bigger {\c&HFFE5A3&}sky{\c&HF2F1EB&} beyond.
+Dialogue: 0,0:00:05.91,0:00:06.58,Lyrics,,0,0,0,,To the bigger sky {\c&HFFE5A3&}beyond.{\c&HF2F1EB&}
+Dialogue: 0,0:00:06.58,0:00:07.00,Lyrics,,0,0,0,,{\c&HFFE5A3&}Every{\c&HF2F1EB&} thing so far aways.
+Dialogue: 0,0:00:07.00,0:00:07.29,Lyrics,,0,0,0,,Every {\c&HFFE5A3&}thing{\c&HF2F1EB&} so far aways.
+Dialogue: 0,0:00:07.29,0:00:07.70,Lyrics,,0,0,0,,Every thing {\c&HFFE5A3&}so{\c&HF2F1EB&} far aways.
+Dialogue: 0,0:00:07.70,0:00:08.25,Lyrics,,0,0,0,,Every thing so {\c&HFFE5A3&}far{\c&HF2F1EB&} aways.
+Dialogue: 0,0:00:08.25,0:00:08.75,Lyrics,,0,0,0,,Every thing so far {\c&HFFE5A3&}aways.{\c&HF2F1EB&}
+Dialogue: 0,0:00:10.45,0:00:10.54,Lyrics,,0,0,0,,{\c&HFFE5A3&}Hit{\c&HF2F1EB&} zoom.
+Dialogue: 0,0:00:10.54,0:00:11.33,Lyrics,,0,0,0,,Hit {\c&HFFE5A3&}zoom.{\c&HF2F1EB&}
+Dialogue: 0,0:00:11.33,0:00:11.58,Lyrics,,0,0,0,,{\c&HFFE5A3&}Zoom{\c&HF2F1EB&} in, in, in, in, in, in, in, in, in to see far things big now.
+Dialogue: 0,0:00:11.58,0:00:12.16,Lyrics,,0,0,0,,Zoom {\c&HFFE5A3&}in,{\c&HF2F1EB&} in, in, in, in, in, in, in, in to see far things big now.
+Dialogue: 0,0:00:12.16,0:00:12.33,Lyrics,,0,0,0,,Zoom in, {\c&HFFE5A3&}in,{\c&HF2F1EB&} in, in, in, in, in, in, in to see far things big now.
+Dialogue: 0,0:00:12.33,0:00:12.45,Lyrics,,0,0,0,,Zoom in, in, {\c&HFFE5A3&}in,{\c&HF2F1EB&} in, in, in, in, in, in to see far things big now.
+Dialogue: 0,0:00:12.45,0:00:12.66,Lyrics,,0,0,0,,Zoom in, in, in, {\c&HFFE5A3&}in,{\c&HF2F1EB&} in, in, in, in, in to see far things big now.
+Dialogue: 0,0:00:12.66,0:00:12.83,Lyrics,,0,0,0,,Zoom in, in, in, in, {\c&HFFE5A3&}in,{\c&HF2F1EB&} in, in, in, in to see far things big now.
+Dialogue: 0,0:00:12.83,0:00:13.04,Lyrics,,0,0,0,,Zoom in, in, in, in, in, {\c&HFFE5A3&}in,{\c&HF2F1EB&} in, in, in to see far things big now.
+Dialogue: 0,0:00:13.04,0:00:13.20,Lyrics,,0,0,0,,Zoom in, in, in, in, in, in, {\c&HFFE5A3&}in,{\c&HF2F1EB&} in, in to see far things big now.
+Dialogue: 0,0:00:13.20,0:00:13.33,Lyrics,,0,0,0,,Zoom in, in, in, in, in, in, in, {\c&HFFE5A3&}in,{\c&HF2F1EB&} in to see far things big now.
+Dialogue: 0,0:00:13.33,0:00:13.54,Lyrics,,0,0,0,,Zoom in, in, in, in, in, in, in, in, {\c&HFFE5A3&}in{\c&HF2F1EB&} to see far things big now.
+Dialogue: 0,0:00:13.54,0:00:13.66,Lyrics,,0,0,0,,Zoom in, in, in, in, in, in, in, in, in {\c&HFFE5A3&}to{\c&HF2F1EB&} see far things big now.
+Dialogue: 0,0:00:13.66,0:00:13.87,Lyrics,,0,0,0,,Zoom in, in, in, in, in, in, in, in, in to {\c&HFFE5A3&}see{\c&HF2F1EB&} far things big now.
+Dialogue: 0,0:00:13.87,0:00:14.25,Lyrics,,0,0,0,,Zoom in, in, in, in, in, in, in, in, in to see {\c&HFFE5A3&}far{\c&HF2F1EB&} things big now.
+Dialogue: 0,0:00:14.25,0:00:14.62,Lyrics,,0,0,0,,Zoom in, in, in, in, in, in, in, in, in to see far {\c&HFFE5A3&}things{\c&HF2F1EB&} big now.
+Dialogue: 0,0:00:14.62,0:00:14.91,Lyrics,,0,0,0,,Zoom in, in, in, in, in, in, in, in, in to see far things {\c&HFFE5A3&}big{\c&HF2F1EB&} now.
+Dialogue: 0,0:00:14.91,0:00:15.29,Lyrics,,0,0,0,,Zoom in, in, in, in, in, in, in, in, in to see far things big {\c&HFFE5A3&}now.{\c&HF2F1EB&}
+Dialogue: 0,0:00:15.29,0:00:15.83,Lyrics,,0,0,0,,{\c&HFFE5A3&}So{\c&HF2F1EB&} far and so long aways.
+Dialogue: 0,0:00:15.83,0:00:16.25,Lyrics,,0,0,0,,So {\c&HFFE5A3&}far{\c&HF2F1EB&} and so long aways.
+Dialogue: 0,0:00:16.25,0:00:16.45,Lyrics,,0,0,0,,So far {\c&HFFE5A3&}and{\c&HF2F1EB&} so long aways.
+Dialogue: 0,0:00:16.45,0:00:16.62,Lyrics,,0,0,0,,So far and {\c&HFFE5A3&}so{\c&HF2F1EB&} long aways.
+Dialogue: 0,0:00:16.62,0:00:17.04,Lyrics,,0,0,0,,So far and so {\c&HFFE5A3&}long{\c&HF2F1EB&} aways.
+Dialogue: 0,0:00:17.04,0:00:17.50,Lyrics,,0,0,0,,So far and so long {\c&HFFE5A3&}aways.{\c&HF2F1EB&}
+Dialogue: 0,0:00:18.50,0:00:18.58,Lyrics,,0,0,0,,{\c&HFFE5A3&}That{\c&HF2F1EB&} means you did something right.
+Dialogue: 0,0:00:18.58,0:00:18.91,Lyrics,,0,0,0,,That {\c&HFFE5A3&}means{\c&HF2F1EB&} you did something right.
+Dialogue: 0,0:00:18.91,0:00:19.12,Lyrics,,0,0,0,,That means {\c&HFFE5A3&}you{\c&HF2F1EB&} did something right.
+Dialogue: 0,0:00:19.12,0:00:19.33,Lyrics,,0,0,0,,That means you {\c&HFFE5A3&}did{\c&HF2F1EB&} something right.
+Dialogue: 0,0:00:19.33,0:00:19.79,Lyrics,,0,0,0,,That means you did {\c&HFFE5A3&}something{\c&HF2F1EB&} right.
+Dialogue: 0,0:00:19.79,0:00:20.25,Lyrics,,0,0,0,,That means you did something {\c&HFFE5A3&}right.{\c&HF2F1EB&}
+Dialogue: 0,0:00:20.25,0:00:21.08,Lyrics,,0,0,0,,{\c&HFFE5A3&}Something.{\c&HF2F1EB&}
+Dialogue: 0,0:00:21.08,0:00:21.70,Lyrics,,0,0,0,,{\c&HFFE5A3&}With{\c&HF2F1EB&} it all you did right.
+Dialogue: 0,0:00:21.70,0:00:21.91,Lyrics,,0,0,0,,With {\c&HFFE5A3&}it{\c&HF2F1EB&} all you did right.
+Dialogue: 0,0:00:21.91,0:00:22.12,Lyrics,,0,0,0,,With it {\c&HFFE5A3&}all{\c&HF2F1EB&} you did right.
+Dialogue: 0,0:00:22.12,0:00:22.33,Lyrics,,0,0,0,,With it all {\c&HFFE5A3&}you{\c&HF2F1EB&} did right.
+Dialogue: 0,0:00:22.33,0:00:22.62,Lyrics,,0,0,0,,With it all you {\c&HFFE5A3&}did{\c&HF2F1EB&} right.
+Dialogue: 0,0:00:22.62,0:00:22.87,Lyrics,,0,0,0,,With it all you did {\c&HFFE5A3&}right.{\c&HF2F1EB&}

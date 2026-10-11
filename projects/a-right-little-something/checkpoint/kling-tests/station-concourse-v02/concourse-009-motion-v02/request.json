@@ -1,0 +1,35 @@
+{
+  "id": "concourse-009-motion-v02",
+  "shotId": "concourse-009",
+  "title": "Parts and outfitters walk",
+  "startFrame": 2359,
+  "editFrames": 66,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "sourceEditStartFrame": 25,
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/station-concourse-v02/outfitter-market.png",
+  "firstImageSha256": "5baabc144642d1e70f57105a2b7a39726f0f5538aaf056debe6e7df327279748",
+  "prompt": "5 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the adult woman; the starter image controls her warm-gray survival coverall, overriding identity-reference clothing. Harper continues naturally along the market aisle in her established direction, briefly looking at the parts display while walking past. Smooth side tracking at walking speed. Existing four-armed vendor handles a small part, the broad alien browses garments and background travelers cross slowly. Keep all displayed rings, power cells, outfits and station architecture coherent; no morphing or random new goods. Harper has exactly two arms, no bags and no wardrobe change. Her attention returns along her route. Preserve the approved painted graphic-novel style, adult face, short auburn curls and all starting-frame designs. No montage, transitions, captions, readable words, logos, watermarks, audio or lip-sync. One-second editing handles.\n\nCONCOURSE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure with fine controlled ink contours, rich illustrated material detail, indigo space, cyan practical lights and warm amber edges. Adult Harper has the established freckled face, hazel-green eyes and short curly auburn hair; keep her adult proportions and identity. She has changed offscreen during pod transit into a practical pod-issue survival coverall: soft warm-gray fabric, roomy long sleeves with gathered cuffs, closed simple collar, plain central fastening, adjustable gray waist belt, slightly loose trousers, low graphite slip-on utility shoes, one tiny unlettered amber rescue tab at the upper arm. No helmet, armor, gloves, swimsuit, costume logos or readable lettering. Station is a worn but welcoming interstellar transport interchange built around a broad segmented graphite ring with ivory inset ribs, tall arching windows, amber floor-edge strips, cyan docking lights and branching radial berths. Interior promenade has dark ribbed arches, warm ivory wall panels and a few distant travelers; its quieter outer service walkway retains the same architecture. The small arrival capsule is the established enclosed ivory-and-graphite ovoid one-seat escape pod, without a large external ring. The discovered personal spacecraft is the established transparent spherical technological field with faint cyan geodesic lines, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc; never confuse these two craft. Keep only subjects needed for the shot. Each image is one uninterrupted full-frame 16:9 cinematic composition with a quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.",
+  "estimatedCredits": 40,
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "placements": [
+    {
+      "shotId": "concourse-009",
+      "startFrame": 2359,
+      "editFrames": 66,
+      "sourceEditStartFrame": 25
+    }
+  ]
+}

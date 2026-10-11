@@ -1,0 +1,68 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Bahnschrift,34,&H00F2F1EB,&H00F2F1EB,&H0017100B,&H8017100B,0,0,0,0,100,100,0.6,0,1,1.5,1,2,90,90,45,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.29,Lyrics,,0,0,0,,{\c&HFFE5A3&}Why’m{\c&HF2F1EB&} I so cramped?
+Dialogue: 0,0:00:00.29,0:00:00.41,Lyrics,,0,0,0,,Why’m {\c&HFFE5A3&}I{\c&HF2F1EB&} so cramped?
+Dialogue: 0,0:00:00.41,0:00:00.70,Lyrics,,0,0,0,,Why’m I {\c&HFFE5A3&}so{\c&HF2F1EB&} cramped?
+Dialogue: 0,0:00:00.70,0:00:01.29,Lyrics,,0,0,0,,Why’m I so {\c&HFFE5A3&}cramped?{\c&HF2F1EB&}
+Dialogue: 0,0:00:01.54,0:00:01.66,Lyrics,,0,0,0,,{\c&HFFE5A3&}The{\c&HF2F1EB&} windows.
+Dialogue: 0,0:00:01.66,0:00:02.16,Lyrics,,0,0,0,,The {\c&HFFE5A3&}windows.{\c&HF2F1EB&}
+Dialogue: 0,0:00:02.16,0:00:03.25,Lyrics,,0,0,0,,{\c&HFFE5A3&}Faced{\c&HF2F1EB&} pressed up against the windows.
+Dialogue: 0,0:00:03.25,0:00:03.66,Lyrics,,0,0,0,,Faced {\c&HFFE5A3&}pressed{\c&HF2F1EB&} up against the windows.
+Dialogue: 0,0:00:03.66,0:00:03.91,Lyrics,,0,0,0,,Faced pressed {\c&HFFE5A3&}up{\c&HF2F1EB&} against the windows.
+Dialogue: 0,0:00:03.91,0:00:04.20,Lyrics,,0,0,0,,Faced pressed up {\c&HFFE5A3&}against{\c&HF2F1EB&} the windows.
+Dialogue: 0,0:00:04.20,0:00:04.37,Lyrics,,0,0,0,,Faced pressed up against {\c&HFFE5A3&}the{\c&HF2F1EB&} windows.
+Dialogue: 0,0:00:04.37,0:00:04.87,Lyrics,,0,0,0,,Faced pressed up against the {\c&HFFE5A3&}windows.{\c&HF2F1EB&}
+Dialogue: 0,0:00:04.87,0:00:05.91,Lyrics,,0,0,0,,{\c&HFFE5A3&}Show{\c&HF2F1EB&} you just how big you are.
+Dialogue: 0,0:00:05.91,0:00:06.08,Lyrics,,0,0,0,,Show {\c&HFFE5A3&}you{\c&HF2F1EB&} just how big you are.
+Dialogue: 0,0:00:06.08,0:00:06.29,Lyrics,,0,0,0,,Show you {\c&HFFE5A3&}just{\c&HF2F1EB&} how big you are.
+Dialogue: 0,0:00:06.29,0:00:06.45,Lyrics,,0,0,0,,Show you just {\c&HFFE5A3&}how{\c&HF2F1EB&} big you are.
+Dialogue: 0,0:00:06.45,0:00:06.66,Lyrics,,0,0,0,,Show you just how {\c&HFFE5A3&}big{\c&HF2F1EB&} you are.
+Dialogue: 0,0:00:06.66,0:00:06.95,Lyrics,,0,0,0,,Show you just how big {\c&HFFE5A3&}you{\c&HF2F1EB&} are.
+Dialogue: 0,0:00:06.95,0:00:07.29,Lyrics,,0,0,0,,Show you just how big you {\c&HFFE5A3&}are.{\c&HF2F1EB&}
+Dialogue: 0,0:00:07.29,0:00:07.62,Lyrics,,0,0,0,,{\c&HFFE5A3&}Stretch{\c&HF2F1EB&} your arms wide.
+Dialogue: 0,0:00:07.62,0:00:07.91,Lyrics,,0,0,0,,Stretch {\c&HFFE5A3&}your{\c&HF2F1EB&} arms wide.
+Dialogue: 0,0:00:07.91,0:00:08.70,Lyrics,,0,0,0,,Stretch your {\c&HFFE5A3&}arms{\c&HF2F1EB&} wide.
+Dialogue: 0,0:00:08.70,0:00:09.62,Lyrics,,0,0,0,,Stretch your arms {\c&HFFE5A3&}wide.{\c&HF2F1EB&}
+Dialogue: 0,0:00:09.62,0:00:10.37,Lyrics,,0,0,0,,{\c&HFFE5A3&}And{\c&HF2F1EB&} change the tide.
+Dialogue: 0,0:00:10.37,0:00:11.20,Lyrics,,0,0,0,,And {\c&HFFE5A3&}change{\c&HF2F1EB&} the tide.
+Dialogue: 0,0:00:11.20,0:00:11.45,Lyrics,,0,0,0,,And change {\c&HFFE5A3&}the{\c&HF2F1EB&} tide.
+Dialogue: 0,0:00:11.45,0:00:12.25,Lyrics,,0,0,0,,And change the {\c&HFFE5A3&}tide.{\c&HF2F1EB&}
+Dialogue: 0,0:00:12.87,0:00:13.54,Lyrics,,0,0,0,,{\c&HFFE5A3&}How{\c&HF2F1EB&} much can you do with it all?
+Dialogue: 0,0:00:13.54,0:00:14.87,Lyrics,,0,0,0,,How {\c&HFFE5A3&}much{\c&HF2F1EB&} can you do with it all?
+Dialogue: 0,0:00:14.87,0:00:15.16,Lyrics,,0,0,0,,How much {\c&HFFE5A3&}can{\c&HF2F1EB&} you do with it all?
+Dialogue: 0,0:00:15.16,0:00:15.45,Lyrics,,0,0,0,,How much can {\c&HFFE5A3&}you{\c&HF2F1EB&} do with it all?
+Dialogue: 0,0:00:15.45,0:00:16.04,Lyrics,,0,0,0,,How much can you {\c&HFFE5A3&}do{\c&HF2F1EB&} with it all?
+Dialogue: 0,0:00:16.04,0:00:16.66,Lyrics,,0,0,0,,How much can you do {\c&HFFE5A3&}with{\c&HF2F1EB&} it all?
+Dialogue: 0,0:00:16.66,0:00:17.00,Lyrics,,0,0,0,,How much can you do with {\c&HFFE5A3&}it{\c&HF2F1EB&} all?
+Dialogue: 0,0:00:17.00,0:00:17.50,Lyrics,,0,0,0,,How much can you do with it {\c&HFFE5A3&}all?{\c&HF2F1EB&}
+Dialogue: 0,0:00:18.04,0:00:18.50,Lyrics,,0,0,0,,{\c&HFFE5A3&}Do{\c&HF2F1EB&} something.
+Dialogue: 0,0:00:18.50,0:00:19.16,Lyrics,,0,0,0,,Do {\c&HFFE5A3&}something.{\c&HF2F1EB&}
+Dialogue: 0,0:00:19.62,0:00:19.91,Lyrics,,0,0,0,,{\c&HFFE5A3&}Little{\c&HF2F1EB&} something.
+Dialogue: 0,0:00:19.91,0:00:20.45,Lyrics,,0,0,0,,Little {\c&HFFE5A3&}something.{\c&HF2F1EB&}
+Dialogue: 0,0:00:20.45,0:00:21.29,Lyrics,,0,0,0,,{\c&HFFE5A3&}You’re{\c&HF2F1EB&} something.
+Dialogue: 0,0:00:21.29,0:00:21.79,Lyrics,,0,0,0,,You’re {\c&HFFE5A3&}something.{\c&HF2F1EB&}
+Dialogue: 0,0:00:21.91,0:00:22.08,Lyrics,,0,0,0,,{\c&HFFE5A3&}A{\c&HF2F1EB&} right little something.
+Dialogue: 0,0:00:22.08,0:00:22.12,Lyrics,,0,0,0,,A right little something.
+Dialogue: 0,0:00:22.12,0:00:22.25,Lyrics,,0,0,0,,A {\c&HFFE5A3&}right{\c&HF2F1EB&} little something.
+Dialogue: 0,0:00:22.25,0:00:22.54,Lyrics,,0,0,0,,A right little something.
+Dialogue: 0,0:00:22.54,0:00:22.62,Lyrics,,0,0,0,,A right {\c&HFFE5A3&}little{\c&HF2F1EB&} something.
+Dialogue: 0,0:00:22.62,0:00:23.12,Lyrics,,0,0,0,,A right little {\c&HFFE5A3&}something.{\c&HF2F1EB&}
+Dialogue: 0,0:00:23.12,0:00:23.50,Lyrics,,0,0,0,,{\c&HFFE5A3&}Out{\c&HF2F1EB&} here in orbit.
+Dialogue: 0,0:00:23.50,0:00:23.87,Lyrics,,0,0,0,,Out {\c&HFFE5A3&}here{\c&HF2F1EB&} in orbit.
+Dialogue: 0,0:00:23.87,0:00:24.12,Lyrics,,0,0,0,,Out here {\c&HFFE5A3&}in{\c&HF2F1EB&} orbit.
+Dialogue: 0,0:00:24.12,0:00:24.58,Lyrics,,0,0,0,,Out here in {\c&HFFE5A3&}orbit.{\c&HF2F1EB&}
+Dialogue: 0,0:00:28.12,0:00:28.83,Lyrics,,0,0,0,,{\c&HFFE5A3&}Out{\c&HF2F1EB&} here in orbit.
+Dialogue: 0,0:00:28.83,0:00:29.33,Lyrics,,0,0,0,,Out {\c&HFFE5A3&}here{\c&HF2F1EB&} in orbit.
+Dialogue: 0,0:00:29.33,0:00:29.54,Lyrics,,0,0,0,,Out here {\c&HFFE5A3&}in{\c&HF2F1EB&} orbit.
+Dialogue: 0,0:00:29.54,0:00:30.00,Lyrics,,0,0,0,,Out here in {\c&HFFE5A3&}orbit.{\c&HF2F1EB&}

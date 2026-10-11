@@ -1,0 +1,19 @@
+{
+  "id": "departure-discovery-v01",
+  "output": "generated/storyboard/departure-discovery-motion-v03",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v56.mp4",
+  "useMotion": true,
+  "draftForReview": true,
+  "presentation": "Eight brief radial zoom overlaps connect nine static magnification views",
+  "mediaLabel": "Departure and discovery / clean motion",
+  "continuationNotes": "V57: one- or two-frame outgoing zoom-blur overlaps on eight optical cuts; exact cue frames retained. V56 departure and all other shot selections retained; no new generation.",
+  "motionShotIds": [
+    "departure-001",
+    "departure-002",
+    "departure-003",
+    "departure-005",
+    "departure-006",
+    "departure-007",
+    "departure-008"
+  ]
+}

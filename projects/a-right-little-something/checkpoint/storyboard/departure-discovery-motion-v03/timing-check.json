@@ -1,0 +1,239 @@
+{
+  "operation": "outgoing radial zoom blur over static incoming view",
+  "transitions": [
+    {
+      "fromAsset": "zoom-01",
+      "toAsset": "zoom-02",
+      "startFrame": 2887,
+      "frames": 2,
+      "shutterSamples": 32,
+      "outgoingScaleRanges": [
+        [
+          1.04,
+          1.75
+        ],
+        [
+          1.75,
+          2.8
+        ]
+      ],
+      "outgoingOpacities": [
+        0.62,
+        0.24
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fromAsset": "zoom-02",
+      "toAsset": "zoom-03",
+      "startFrame": 2891,
+      "frames": 1,
+      "shutterSamples": 32,
+      "outgoingScaleRanges": [
+        [
+          1.08,
+          2.0
+        ]
+      ],
+      "outgoingOpacities": [
+        0.48
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fromAsset": "zoom-03",
+      "toAsset": "zoom-04",
+      "startFrame": 2894,
+      "frames": 2,
+      "shutterSamples": 32,
+      "outgoingScaleRanges": [
+        [
+          1.04,
+          1.75
+        ],
+        [
+          1.75,
+          2.8
+        ]
+      ],
+      "outgoingOpacities": [
+        0.62,
+        0.24
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fromAsset": "zoom-04",
+      "toAsset": "zoom-05",
+      "startFrame": 2899,
+      "frames": 2,
+      "shutterSamples": 32,
+      "outgoingScaleRanges": [
+        [
+          1.04,
+          1.75
+        ],
+        [
+          1.75,
+          2.8
+        ]
+      ],
+      "outgoingOpacities": [
+        0.62,
+        0.24
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fromAsset": "zoom-05",
+      "toAsset": "zoom-06",
+      "startFrame": 2903,
+      "frames": 2,
+      "shutterSamples": 32,
+      "outgoingScaleRanges": [
+        [
+          1.04,
+          1.75
+        ],
+        [
+          1.75,
+          2.8
+        ]
+      ],
+      "outgoingOpacities": [
+        0.62,
+        0.24
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fromAsset": "zoom-06",
+      "toAsset": "zoom-07",
+      "startFrame": 2908,
+      "frames": 2,
+      "shutterSamples": 32,
+      "outgoingScaleRanges": [
+        [
+          1.04,
+          1.75
+        ],
+        [
+          1.75,
+          2.8
+        ]
+      ],
+      "outgoingOpacities": [
+        0.62,
+        0.24
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fromAsset": "zoom-07",
+      "toAsset": "zoom-08",
+      "startFrame": 2912,
+      "frames": 1,
+      "shutterSamples": 32,
+      "outgoingScaleRanges": [
+        [
+          1.08,
+          2.0
+        ]
+      ],
+      "outgoingOpacities": [
+        0.48
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fromAsset": "zoom-08",
+      "toAsset": "zoom-09",
+      "startFrame": 2915,
+      "frames": 2,
+      "shutterSamples": 32,
+      "outgoingScaleRanges": [
+        [
+          1.04,
+          1.75
+        ],
+        [
+          1.75,
+          2.8
+        ]
+      ],
+      "outgoingOpacities": [
+        0.62,
+        0.24
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "firstFrame": 2873,
+  "endFrameExclusive": 2946,
+  "frames": 73,
+  "changedFrames": 14,
+  "fps": 24,
+  "cueTiming": "Unchanged; incoming still appears underneath on its original cue",
+  "lyrics": "Composited after transitions; no text blur",
+  "newCredits": 0,
+  "pixelCheck": {
+    "expectedChangedFrames": [
+      15,
+      16,
+      19,
+      22,
+      23,
+      27,
+      28,
+      31,
+      32,
+      36,
+      37,
+      40,
+      43,
+      44
+    ],
+    "actualChangedFrames": [
+      15,
+      16,
+      19,
+      22,
+      23,
+      27,
+      28,
+      31,
+      32,
+      36,
+      37,
+      40,
+      43,
+      44
+    ],
+    "unchangedFrames": 59,
+    "result": "All 59 non-transition frames identical before encoding"
+  }
+}

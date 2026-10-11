@@ -1,0 +1,334 @@
+{
+  "status": "Five clean takes collected and assembled in V50; user playback pending",
+  "fps": 24,
+  "output": "generated/kling-tests/station-concourse-v02",
+  "reviewOutput": "generated/storyboard/station-concourse-motion-v02",
+  "estimatedCredits": 240,
+  "priorConfirmedCumulativeCredits": 2864,
+  "authorization": "Explicit user approval: Approve five Kling uploads and 240 credits. Covers five accepted stills/prompts with existing Harper reference, silent1080p, excluding first two ship flips.",
+  "shots": [
+    {
+      "id": "concourse-006-motion-v02",
+      "shotId": "concourse-006",
+      "title": "The pitch and refusal",
+      "startFrame": 2211,
+      "editFrames": 83,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "sourceEditStartFrame": 13,
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/station-concourse-v02/captain-exchange.png",
+      "firstImageSha256": "f68ca2f368916cf90765767fff2c763f440f9920ed5584a48ae336a4a24a175f",
+      "prompt": "6 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the adult woman; the starter image controls her warm-gray survival coverall, overriding identity-reference clothing. Medium two-shot. The existing suspect captain makes a small persuasive open-hand gesture toward his rusty ferry, then waits. Harper watches him and gently shakes her head once in a quiet clear refusal, lowering her politely raised palm. Complete the readable offer and head-shake during seconds1–4.4; natural small breathing and settling afterward. Both faces remain recognizable, same blocking and ship. Camera locked. No speaking, lip sync or exaggerated gestures. Preserve the approved painted graphic-novel style, adult face, short auburn curls and all starting-frame designs. No montage, transitions, captions, readable words, logos, watermarks, audio or lip-sync. One-second editing handles.\n\nCONCOURSE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure with fine controlled ink contours, rich illustrated material detail, indigo space, cyan practical lights and warm amber edges. Adult Harper has the established freckled face, hazel-green eyes and short curly auburn hair; keep her adult proportions and identity. She has changed offscreen during pod transit into a practical pod-issue survival coverall: soft warm-gray fabric, roomy long sleeves with gathered cuffs, closed simple collar, plain central fastening, adjustable gray waist belt, slightly loose trousers, low graphite slip-on utility shoes, one tiny unlettered amber rescue tab at the upper arm. No helmet, armor, gloves, swimsuit, costume logos or readable lettering. Station is a worn but welcoming interstellar transport interchange built around a broad segmented graphite ring with ivory inset ribs, tall arching windows, amber floor-edge strips, cyan docking lights and branching radial berths. Interior promenade has dark ribbed arches, warm ivory wall panels and a few distant travelers; its quieter outer service walkway retains the same architecture. The small arrival capsule is the established enclosed ivory-and-graphite ovoid one-seat escape pod, without a large external ring. The discovered personal spacecraft is the established transparent spherical technological field with faint cyan geodesic lines, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc; never confuse these two craft. Keep only subjects needed for the shot. Each image is one uninterrupted full-frame 16:9 cinematic composition with a quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.",
+      "estimatedCredits": 48,
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "placements": [
+        {
+          "shotId": "concourse-006",
+          "startFrame": 2211,
+          "editFrames": 83,
+          "sourceEditStartFrame": 13
+        }
+      ],
+      "generationId": "AUWfOW3fXc70hFCYF-b79DvZo6zzDztvAIqdl4L1Q1srJ8HpmNthSRWBUrcnRkK5HOGOKZSD",
+      "actualCredits": 48,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/station-concourse-v02/concourse-006-motion-v02/concourse-006-motion-v02-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 145,
+      "qaSampleFrames": [
+        1,
+        13,
+        53,
+        95
+      ],
+      "sourceSelectionNote": "Select source13–95 to retain the end of the captain offer and Harper refusal. This uses a 12-frame leading handle instead of the planned24; sufficient for the two-frame incoming wipe. Later mouth movement is mostly excluded.",
+      "reviewNotes": "Captain lowers his offering hand while Harper gives a restrained refusal and lowers her palm. Stable ship and blocking. Selected13–95 retains more offer than the planned25 start; 12-frame leading handle. Slight natural mouth movement late in the selection, no generated audio."
+    },
+    {
+      "id": "concourse-008-motion-v02",
+      "shotId": "concourse-008",
+      "title": "Food concourse walk",
+      "startFrame": 2294,
+      "editFrames": 65,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "sourceEditStartFrame": 25,
+      "model": "kling-video-v3_0",
+      "duration": 5,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/station-concourse-v02/food-concourse.png",
+      "firstImageSha256": "a8ae69f5dea449d0093927e549c9768aedd52a00359d079c4a06bced059bfd75",
+      "prompt": "5 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the adult woman; the starter image controls her warm-gray survival coverall, overriding identity-reference clothing. Harper walks steadily through the existing food-concourse aisle, with natural alternating steps in the direction her body is facing in the starter. Camera tracks smoothly to preserve her framing. She glances toward the food counter without stopping. Existing frilled travelers pass, shelled diners eat with restrained gestures, the many-eyed vendor serves a bowl and cooking steam rises. Preserve each alien design and the legible aisle. People do not collide or obscure Harper. No new bags or costume changes. Preserve the approved painted graphic-novel style, adult face, short auburn curls and all starting-frame designs. No montage, transitions, captions, readable words, logos, watermarks, audio or lip-sync. One-second editing handles.\n\nCONCOURSE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure with fine controlled ink contours, rich illustrated material detail, indigo space, cyan practical lights and warm amber edges. Adult Harper has the established freckled face, hazel-green eyes and short curly auburn hair; keep her adult proportions and identity. She has changed offscreen during pod transit into a practical pod-issue survival coverall: soft warm-gray fabric, roomy long sleeves with gathered cuffs, closed simple collar, plain central fastening, adjustable gray waist belt, slightly loose trousers, low graphite slip-on utility shoes, one tiny unlettered amber rescue tab at the upper arm. No helmet, armor, gloves, swimsuit, costume logos or readable lettering. Station is a worn but welcoming interstellar transport interchange built around a broad segmented graphite ring with ivory inset ribs, tall arching windows, amber floor-edge strips, cyan docking lights and branching radial berths. Interior promenade has dark ribbed arches, warm ivory wall panels and a few distant travelers; its quieter outer service walkway retains the same architecture. The small arrival capsule is the established enclosed ivory-and-graphite ovoid one-seat escape pod, without a large external ring. The discovered personal spacecraft is the established transparent spherical technological field with faint cyan geodesic lines, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc; never confuse these two craft. Keep only subjects needed for the shot. Each image is one uninterrupted full-frame 16:9 cinematic composition with a quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.",
+      "estimatedCredits": 40,
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "placements": [
+        {
+          "shotId": "concourse-008",
+          "startFrame": 2294,
+          "editFrames": 65,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "generationId": "AaoP9ZoZ-zLrQLdEUW8SaWzE0B6O0M2ScO5Hh_sfWrg8rSJTGD0EYpw_hSEUtS0Ca8G9AeW5",
+      "actualCredits": 40,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/station-concourse-v02/concourse-008-motion-v02/concourse-008-motion-v02-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 121,
+      "qaSampleFrames": [
+        1,
+        25,
+        56,
+        89
+      ],
+      "reviewNotes": "Harper walks through the populated food court with moving alien diners and servers, steam and warm practical lights. Native tracking maintains her scale and identity. Source25–89, including extra transition handles."
+    },
+    {
+      "id": "concourse-009-motion-v02",
+      "shotId": "concourse-009",
+      "title": "Parts and outfitters walk",
+      "startFrame": 2359,
+      "editFrames": 66,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "sourceEditStartFrame": 25,
+      "model": "kling-video-v3_0",
+      "duration": 5,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/station-concourse-v02/outfitter-market.png",
+      "firstImageSha256": "5baabc144642d1e70f57105a2b7a39726f0f5538aaf056debe6e7df327279748",
+      "prompt": "5 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the adult woman; the starter image controls her warm-gray survival coverall, overriding identity-reference clothing. Harper continues naturally along the market aisle in her established direction, briefly looking at the parts display while walking past. Smooth side tracking at walking speed. Existing four-armed vendor handles a small part, the broad alien browses garments and background travelers cross slowly. Keep all displayed rings, power cells, outfits and station architecture coherent; no morphing or random new goods. Harper has exactly two arms, no bags and no wardrobe change. Her attention returns along her route. Preserve the approved painted graphic-novel style, adult face, short auburn curls and all starting-frame designs. No montage, transitions, captions, readable words, logos, watermarks, audio or lip-sync. One-second editing handles.\n\nCONCOURSE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure with fine controlled ink contours, rich illustrated material detail, indigo space, cyan practical lights and warm amber edges. Adult Harper has the established freckled face, hazel-green eyes and short curly auburn hair; keep her adult proportions and identity. She has changed offscreen during pod transit into a practical pod-issue survival coverall: soft warm-gray fabric, roomy long sleeves with gathered cuffs, closed simple collar, plain central fastening, adjustable gray waist belt, slightly loose trousers, low graphite slip-on utility shoes, one tiny unlettered amber rescue tab at the upper arm. No helmet, armor, gloves, swimsuit, costume logos or readable lettering. Station is a worn but welcoming interstellar transport interchange built around a broad segmented graphite ring with ivory inset ribs, tall arching windows, amber floor-edge strips, cyan docking lights and branching radial berths. Interior promenade has dark ribbed arches, warm ivory wall panels and a few distant travelers; its quieter outer service walkway retains the same architecture. The small arrival capsule is the established enclosed ivory-and-graphite ovoid one-seat escape pod, without a large external ring. The discovered personal spacecraft is the established transparent spherical technological field with faint cyan geodesic lines, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc; never confuse these two craft. Keep only subjects needed for the shot. Each image is one uninterrupted full-frame 16:9 cinematic composition with a quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.",
+      "estimatedCredits": 40,
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "placements": [
+        {
+          "shotId": "concourse-009",
+          "startFrame": 2359,
+          "editFrames": 66,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "generationId": "ARATtWdgao440J_CF9YjucTwSEx9a_HyXsrgxV9Oy3ZnQ9GOb5sEid7SZhdkD4EUOkw-Vrzh",
+      "actualCredits": 40,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/station-concourse-v02/concourse-009-motion-v02/concourse-009-motion-v02-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 121,
+      "qaSampleFrames": [
+        1,
+        25,
+        57,
+        90
+      ],
+      "reviewNotes": "Harper walks past practical parts, outfits and exotic-goods stalls; alien vendor handles merchandise and other travelers move. Native camera follows her past the island display. Source25–90; coherent face, costume and gait across sampled frames."
+    },
+    {
+      "id": "concourse-010-motion-v02",
+      "shotId": "concourse-010",
+      "title": "Gantry walk, pause, continue",
+      "startFrame": 2425,
+      "editFrames": 170,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "sourceEditStartFrame": 25,
+      "model": "kling-video-v3_0",
+      "duration": 10,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/station-concourse-v04/original-gantry.png",
+      "firstImageSha256": "62271a13c4c980be51dfaa81ae2249f5c4bafa5f1256724115a470e085418469",
+      "prompt": "10 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the adult woman; the starter image controls her warm-gray survival coverall, overriding identity-reference clothing. ONE CONTINUOUS LOCKED CAMERA wide take from the exact starter. The station, sphere, engine ring and bridge remain completely fixed relative to each other. Harper is on the existing bridge between both railings. She walks TOWARD the ship in small measured natural steps, along this short bridge only. Timing for editing: by second1 walking is established; through second4.4 she approaches partway then stops STILL OUTSIDE several steps short of doorway. Hold a brief natural considering pause around seconds4.4–5.75. Around second5.75 she resumes from exactly the stopped position and takes the remaining slow steps toward the closed entrance through second8.1. She MUST remain fully visible OUTSIDE the entrance throughout all10seconds; finish just short of the threshold, no boarding, no disappearance behind door rim. Last2seconds settle near entrance. Preserve exact full spherical craft, single aft cyan ring, transparent field and platforms. No camera zoom, pan or dolly; no moving ship/station, invented interior, opening hatch, new door, detached bridge or teleporting. Feet contact the bridge floor, natural gait, no sliding. No generated cutaway; the face insert is added separately. Preserve the approved painted graphic-novel style, adult face, short auburn curls and all starting-frame designs. No montage, transitions, captions, readable words, logos, watermarks, audio or lip-sync. One-second editing handles.\n\nCONCOURSE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure with fine controlled ink contours, rich illustrated material detail, indigo space, cyan practical lights and warm amber edges. Adult Harper has the established freckled face, hazel-green eyes and short curly auburn hair; keep her adult proportions and identity. She has changed offscreen during pod transit into a practical pod-issue survival coverall: soft warm-gray fabric, roomy long sleeves with gathered cuffs, closed simple collar, plain central fastening, adjustable gray waist belt, slightly loose trousers, low graphite slip-on utility shoes, one tiny unlettered amber rescue tab at the upper arm. No helmet, armor, gloves, swimsuit, costume logos or readable lettering. Station is a worn but welcoming interstellar transport interchange built around a broad segmented graphite ring with ivory inset ribs, tall arching windows, amber floor-edge strips, cyan docking lights and branching radial berths. Interior promenade has dark ribbed arches, warm ivory wall panels and a few distant travelers; its quieter outer service walkway retains the same architecture. The small arrival capsule is the established enclosed ivory-and-graphite ovoid one-seat escape pod, without a large external ring. The discovered personal spacecraft is the established transparent spherical technological field with faint cyan geodesic lines, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc; never confuse these two craft. Keep only subjects needed for the shot. Each image is one uninterrupted full-frame 16:9 cinematic composition with a quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.",
+      "estimatedCredits": 80,
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "placements": [
+        {
+          "shotId": "concourse-010",
+          "startFrame": 2425,
+          "editFrames": 82,
+          "sourceEditStartFrame": 25
+        },
+        {
+          "shotId": "concourse-013",
+          "startFrame": 2539,
+          "editFrames": 56,
+          "sourceEditStartFrame": 107
+        }
+      ],
+      "generationId": "AbN23H685nADMZW4UoTfBVcjKUy06d0elRGMz6gmXkrpsX9_3v-cIrNBu9hdXGALHwNBXCJ6",
+      "actualCredits": 80,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/station-concourse-v02/concourse-010-motion-v02/concourse-010-motion-v02-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 241,
+      "qaSampleFrames": [
+        25,
+        65,
+        106,
+        139,
+        165,
+        194
+      ],
+      "sourceSelectionNote": "The model walks continuously rather than pausing on schedule. Use source25–106, then entrance close-up, then immediately consecutive source107–162. The close-up supplies the consideration beat, with no spatial jump, repeat or invented boarding. Unused later source approaches the hatch too far.",
+      "reviewNotes": "One continuous exterior take, with a gentle native camera drift. Source25–106 supplies the first walk and immediately consecutive107–162 supplies the resumed walk after the close-up. Model did not pause at the requested time, so consideration is carried by the close-up without skipping forward in the wide. Ends outside at the hatch; no boarding or cabin. Ship and station remain coherent in sampled frames."
+    },
+    {
+      "id": "concourse-012-motion-v02",
+      "shotId": "concourse-012",
+      "title": "Entrance POV consideration",
+      "startFrame": 2507,
+      "editFrames": 32,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "sourceEditStartFrame": 25,
+      "model": "kling-video-v3_0",
+      "duration": 4,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/station-concourse-v04/entrance-pov-closeup.png",
+      "firstImageSha256": "7225ed69db560b04e169425c07b03573878aecb2a20fe2c8303e7007e2bd58ad",
+      "prompt": "4 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the adult woman; the starter image controls her warm-gray survival coverall, overriding identity-reference clothing. Locked near-frontal close-up from the SHIP ENTRANCE looking back at Harper on the gantry with the STATION PORTAL behind her. Preserve exactly this reverse-angle composition, rails, station doorway and exterior light. Harper is stopped, sizing up her chosen craft. Tiny assessing eye movement then a restrained positive decision: a slight settling of her gaze and minute nod or change in mouth set during seconds1–2.4. Closed lips, calm confidence, no big smile, no teeth, no talking or lip sync. Natural subtle breath only; no walking in this close-up. The sphere is behind camera, never appears behind her. Preserve the approved painted graphic-novel style, adult face, short auburn curls and all starting-frame designs. No montage, transitions, captions, readable words, logos, watermarks, audio or lip-sync. One-second editing handles.\n\nCONCOURSE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure with fine controlled ink contours, rich illustrated material detail, indigo space, cyan practical lights and warm amber edges. Adult Harper has the established freckled face, hazel-green eyes and short curly auburn hair; keep her adult proportions and identity. She has changed offscreen during pod transit into a practical pod-issue survival coverall: soft warm-gray fabric, roomy long sleeves with gathered cuffs, closed simple collar, plain central fastening, adjustable gray waist belt, slightly loose trousers, low graphite slip-on utility shoes, one tiny unlettered amber rescue tab at the upper arm. No helmet, armor, gloves, swimsuit, costume logos or readable lettering. Station is a worn but welcoming interstellar transport interchange built around a broad segmented graphite ring with ivory inset ribs, tall arching windows, amber floor-edge strips, cyan docking lights and branching radial berths. Interior promenade has dark ribbed arches, warm ivory wall panels and a few distant travelers; its quieter outer service walkway retains the same architecture. The small arrival capsule is the established enclosed ivory-and-graphite ovoid one-seat escape pod, without a large external ring. The discovered personal spacecraft is the established transparent spherical technological field with faint cyan geodesic lines, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc; never confuse these two craft. Keep only subjects needed for the shot. Each image is one uninterrupted full-frame 16:9 cinematic composition with a quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.",
+      "estimatedCredits": 32,
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "placements": [
+        {
+          "shotId": "concourse-012",
+          "startFrame": 2507,
+          "editFrames": 32,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "generationId": "AQRao7ZjUEro5ZCrz31ptDFbRtD_RXtE4_k7LbRgjwBMJAFNx3qJuRiFNrrQredmlSW_Ca05",
+      "actualCredits": 32,
+      "collectionStatus": "Collected clean native output",
+      "motionRef": "generated/kling-tests/station-concourse-v02/concourse-012-motion-v02/concourse-012-motion-v02-01-clean.mp4",
+      "nativeWidth": 1916,
+      "nativeHeight": 1080,
+      "nativeFrames": 97,
+      "qaSampleFrames": [
+        1,
+        25,
+        40,
+        56
+      ],
+      "reviewNotes": "Entrance-facing close-up preserves adult identity, gray coverall, rails and station behind her. Subtle eye assessment and composed closed-mouth expression; no broad smile. Source25–56."
+    }
+  ],
+  "transitions": [
+    {
+      "incomingShot": "concourse-004",
+      "boundaryFrame": 2192,
+      "startFrame": 2190,
+      "endFrameExclusive": 2194,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-005",
+      "boundaryFrame": 2203,
+      "startFrame": 2201,
+      "endFrameExclusive": 2205,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-006",
+      "boundaryFrame": 2211,
+      "startFrame": 2209,
+      "endFrameExclusive": 2213,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "type": "dissolve",
+      "incomingShot": "concourse-008",
+      "startFrame": 2288,
+      "endFrameExclusive": 2300,
+      "frames": 12
+    }
+  ],
+  "retainNativeShotIds": [
+    "concourse-001",
+    "concourse-002",
+    "concourse-003"
+  ],
+  "stillShotIds": [
+    "concourse-004",
+    "concourse-005"
+  ],
+  "noNewFlipGeneration": true,
+  "approvedCredits": 240,
+  "actualCredits": 240,
+  "confirmedCumulativeKlingCredits": 3104,
+  "paidJobsPending": false,
+  "collectedShotIds": [
+    "concourse-006",
+    "concourse-008",
+    "concourse-009",
+    "concourse-010",
+    "concourse-012"
+  ],
+  "reviewUrl": "http://127.0.0.1:8768/?v=v50",
+  "passageReviewUrl": "http://127.0.0.1:8768/storyboard/station-concourse-motion-v02/"
+}

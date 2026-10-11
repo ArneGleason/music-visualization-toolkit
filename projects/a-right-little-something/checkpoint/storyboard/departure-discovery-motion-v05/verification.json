@@ -1,0 +1,59 @@
+{
+  "fullFrames": 5265,
+  "passageFrames": 549,
+  "departureFrames": 140,
+  "fps": 24,
+  "changedDepartureFrames": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "unchangedDepartureFrames": 125,
+  "acceptedZoomClip": "V58 zoom-overlap.mp4 reused without modification",
+  "originalMasterAudio": "AAC packets verified identical to V58 by insertion tool",
+  "newCredits": 0,
+  "cumulativeCredits": 3384,
+  "compositor": {
+    "kind": "Blender compositor pullout and cyan station twinkle",
+    "frames": 140,
+    "startFrame": 2665,
+    "pulloutEndFrameInclusive": 2723,
+    "renderedFrames": 59,
+    "sourceSpeed": "Unchanged V56 reversed video",
+    "startScale": 1.18,
+    "endScale": 1.0,
+    "scaleCurve": "1+0.18*(1-(localFrame-1)/58)^1.6",
+    "twinkle": {
+      "sourceAnchorPixels": [
+        960,
+        514
+      ],
+      "localStartFrame": 1,
+      "peakFrame": 6,
+      "localEndFrame": 17,
+      "color": "cyan",
+      "sizeMultiplierVsV58": 2,
+      "linearLightMultiplierVsV58": 2.5
+    },
+    "fullFrameReturnMeanAbsoluteErrorRGB": [
+      0.12980516975308642,
+      0.1456129436728395,
+      0.16463300540123457
+    ],
+    "tail": "Frames 60–140 copied pixel-for-pixel from source PNGs before encoding",
+    "blend": "generated/storyboard/departure-discovery-motion-v05/departure-pullout-twinkle.blend",
+    "newCredits": 0
+  }
+}

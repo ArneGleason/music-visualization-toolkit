@@ -1,5 +1,556 @@
 # A Right Little Something — production checkpoint
 
+## October 11 — accepted V59 save point / break
+
+User accepted V59 as the save point before taking a break: stronger optical zoom overlaps, Blender departure pullout and enlarged cyan twinkle.
+Full edit: 5265 frames, 1080p at24fps, original master audio. No paid jobs
+pending; cumulative spend3384credits. V57 softer zoom and V58 prior twinkle
+remain local fallbacks. New work resumes at frame3144 (2:10.958), the second
+chorus/new jungle world; no new generation or planning is requested during
+the break. Matching intro ship shots to the accepted sphere design is still
+future work. Canonical decisions: `shots/shotlist.json`. Curated exact image
+references: `reference-images/manifest.json`. Small metadata, prompts and
+rebuild scripts: `checkpoint/`. Large footage, audio, frame caches, blends
+and full renders stay local and excluded from Git.
+
+## October 11 — V59 more visible cyan twinkle
+
+User accepts V58 stronger zoom and Blender pullout; requests a more noticeable
+twinkle. Doubled its spatial size and multiplied linear light by2.5 in Blender.
+Same cyan, anchor and pulse timing (peak local6, gone by17). Only pulse picture
+frames differ; accepted pullout and optical overlaps retained. Full5265frames,
+24fps1080p, original master AAC packets verified identical to V58. No new spend.
+V57 and V58 remain available. Review: http://127.0.0.1:8768/?v=v59
+Editable scene and verification: `generated/storyboard/departure-discovery-motion-v05/`.
+
+## October 11 — V58 stronger zoom and Blender departure effects
+
+User accepted V57 blur and explicitly requested keeping it as a fallback.
+V58 uses longer radial trails and greater opacity at the same eight optical
+transitions, still one or two frames each; no timing changes.
+Departure now has an editable Blender compositor pullout: 1.18x at frame2665
+(1:51.0), smoothly reaching 1.0x at frame2723 (1:53.417). Cyan station twinkle
+at source pixel960,514 peaks at localframe6 and fades by17. Source video speed
+is unchanged. Blender renders local1–59;60–140 reuse the original picture.
+Full-frame return differs by less than0.17 average code values per RGB channel.
+Full5265frames,1080p24fps; original master AAC packets verified. No new spend;
+cumulative3384credits. V57 full video and passage remain intact.
+Comparison and editable blend: http://127.0.0.1:8768/storyboard/departure-discovery-motion-v04/
+Current review: http://127.0.0.1:8768/?v=v58
+Frame stepping verified: focus the timeline, then Shift+Left/Right; no app change.
+
+## October 11 — V57 brief optical zoom overlaps
+
+User requested a rapid outgoing zoom blur to connect the static magnification
+steps. Eight transitions now expand the outgoing view toward camera with a
+radial shutter blur, fading over the next static image on its original cue.
+Two frames per overlap; one frame into the shortest three-frame views
+(cues 3 and 8), leaving clear settled views. Fourteen picture frames affected.
+All nine cue frames and the final planet hold/reveal are retained; lyrics
+are composited afterward and stay sharp. V56 reversed departure retained;
+user noted its distant opening might linger but was undecided about changing it.
+Full 5265 frames, 1080p/24fps; master AAC packet hashes match V56.
+No new generation or spend; cumulative 3384 credits. Playback review pending.
+Review: http://127.0.0.1:8768/?v=v57
+Effect manifest and build: `generated/storyboard/departure-discovery-motion-v03/`.
+
+## October 11 — V56 departure reversed
+
+User requested literal reversal of “To the bigger sky beyond” so the ship
+comes out from the station. Reversed the accepted clean 140-frame picture
+ at frames 2665–2805 (exclusive end); forward lyrics and original music retained.
+All other shot selections and timings retained. Full 5265 frames, 1080p/24fps,
+master AAC packets verified identical to V55. No new generation or spending;
+cumulative 3384 credits. V55 retained as prior version.
+Review: http://127.0.0.1:8768/?v=v56
+Clean reversal and provenance: `generated/storyboard/departure-discovery-motion-v02/`.
+
+## October 11 — V55 clean departure/discovery assembled
+
+All seven approved silent1080p Kling takes collected, reviewed and assembled.
+Actual280credits, cumulative3384; no jobs pending or additional spend.
+V55 active: frames2595–3144,549frames at24fps. Full5265frames1920x1080;
+original master AAC packet hashes verified identical to V54. Assembled cut
+samples reviewed; user playback review pending.
+
+Important departure adjustment: raw take lingered and introduced a bright
+flare around1.5s before a changed angle. Exclude native1–72. Native73–193 is
+retimed to140frames using cubic ease-out with adjacent-frame blending:
+immediate brisk pullback into distant ship/station, no old dissolve. Begins
+after the turn with engine ring on opposite side from the starter. Small
+inner edging exists briefly in generated geometry; rapid recession limits
+its visibility. Exact map in `pullback-frame-map.json`; clean retimed take
+`departure-retimed-clean.mp4`. Approved still remains ship design reference.
+
+Other selections: signing25–94, target25–92, planet25–72, cabin25–69,
+affirmation25–66, confirmation25–87. Planet rotation is stronger than prompt
+but coherent; quiet reaction retained before stronger later hair/head turn.
+Nine optical still cuts remain at exact V54 cues through2920, final view
+holds until2946, then native48-frame planet reveal. Full master audio intact.
+Plan/prompts/receipts: `kling-departure-discovery-v01.json`.
+Full: http://127.0.0.1:8768/?v=v55
+Passage/clean takes: http://127.0.0.1:8768/storyboard/departure-discovery-motion-v01/
+
+## October 11 — departure clean-motion batch running
+
+User accepted V54 and requested clean shots/assembly, with a fairly quick
+initial pull-away so simplified Harper is not held large. Explicit approval:
+“Approve eight Kling uploads and 280 credits.” Seven silent1080p Kling3.0
+jobs submitted once; all RUNNING at first query. Actual charge280, confirmed
+cumulative3384. Plan: `kling-departure-discovery-v01.json`; receipts under
+`generated/kling-tests/departure-discovery-v01/`. Do not resubmit these jobs.
+
+Takes: signing5s, immediate departure pullback8s (first/tail stills), target5s,
+planet4s, cabin4s, affirmation4s, course confirmation5s. Nine optical views
+remain stills. Departure should shrink the close ship view immediately,
+with camera moving much faster than ship; no static opening dwell or dissolve.
+Selected native framing and timing require QA before V55. Assembly scripts
+prepared at `generated/storyboard/departure-discovery-motion-v01/`.
+V54 remains active while collection/review proceeds. No further spend approved.
+
+## October 11 — V54 larger Harper; ship continuity reference selected
+
+User prefers the larger Harper from the first floating draft; the smaller
+V53 adjustment was only to expose feet. V54 retains that larger head/torso
+scale and tucks both legs to show complete shoes. One built-in ImageGen edit;
+same ship composition, single outer equatorial band, no inner cockpit ring.
+Exact timing unchanged; no Kling spending.
+
+User explicitly requested this ship design be marked as reference for later
+intro matching. Canonical `continuityReferences.personalSphereShip` now names
+`sphere-ship-continuity-v01`, with userSelectedDesign=true and the reference
+asset `generated/storyboard/departure-discovery-v04/undocking.png`. Original
+empty ship v01 is the geometry source; the preferred larger figure draft is
+preserved as `larger-harper-scale-source.png`. Board tile and app note are
+labeled SHIP CONTINUITY REFERENCE. Intro revisions are future work; when
+undertaken preserve one equatorial band, entry, aft ring, pole plates, field
+and personal scale rather than inventing inner cockpit structures.
+
+Full V54 review: http://127.0.0.1:8768/?v=v54 at1:51. Updated figure review
+pending; selected ship design reference is recorded. Earlier edits retained.
+
+## October 11 — V53 ship geometry and weightless Harper
+
+User rejected V52's extra inner cockpit ring and hidden feet. Original
+`departure-discovery-v01/undocking.png` is the authoritative ship geometry:
+one outer equatorial band, entrance point, one aft engine ring, upper/lower
+technical plates, open transparent volume. V53 removes the invented inner
+ring/railing and places Harper floating in her gray coverall, knees relaxed,
+both complete graphite shoes and entire body visible above the equatorial
+band. V52 camera/station composition and all exact timing are retained.
+
+One replacement still via built-in ImageGen, two attempts; first still hid
+one shoe, second corrected it. Files/prompts/receipt in
+`generated/storyboard/departure-discovery-v03/`. No Kling charges.
+User tentatively prefers updating earlier opening shots to this newer ship
+model later; that broader revision is recorded but not performed here.
+Review pending: http://127.0.0.1:8768/?v=v53 at1:51.
+
+## October 11 — V52 forward departure correction
+
+User identified missing Harper and ambiguous ship/gantry scale in the first
+exterior after signing, departure-002 at frame2665 (“bigger sky beyond”).
+Replaced only this image with a forward three-quarter view: ship already
+clear and turned toward camera, Harper visible inside at controls, station
+and retracted gantry receding behind in depth. Aft ring stays to the side of
+her silhouette. Native action should move gently toward camera, not sideways
+past the gantry. Original V51 and image preserved.
+
+New asset and exact prompt: `generated/storyboard/departure-discovery-v02/`.
+One built-in ImageGen edit; no Kling submission/spending (3104 cumulative).
+Ship fills roughly 77% height rather than requested48%; explicit depth and
+visible Harper now establish personal-craft scale. Same exact V51 timing,
+including dissolve to far station. V52 still review pending; continuous
+pullback remains to be animated. Review: http://127.0.0.1:8768/?v=v52
+
+## October 11 — V51 departure/discovery still animatic
+
+User requested the selected route's stills edited and timed for review. V51 is
+now active: 17 separately generated ImageGen stills in 18 holds, frames
+2595–3144 (549 frames, 22.875 seconds). The nine optical cuts land at 2873,
+2887, 2891, 2894, 2899, 2903, 2908, 2912 and 2915. Final zoom holds through
+2945; the full jungle planet appears on “big” at 2946 for 48 frames, then
+wide cabin at 2994, quiet affirmation at 3039 and course confirmation at 3081.
+
+Gray long-sleeved survival clothes, spherical ship and open dome cabin remain.
+Undocking is represented by two held exterior keyframes with a 12-frame
+dissolve at 2747–2759; continuous camera pullback and native action await
+later motion work. Nine zoom views are distinct generated assets; small
+editorial reframing on 04/05 centers the target and preserves increasing
+disc size. Generated scale differs from prompts: far station remains about
+6% of image height, last zoom about 42%, hero about 87%. These are review
+stills, with prompts, receipts and framing recorded alongside the assets.
+
+Full V51 verified 5265 frames, 1920x1080, 24fps; original master AAC packet
+hashes match V50. Rendered cut samples reviewed. User playback review pending.
+No Kling submissions or charges; cumulative confirmed credits remain 3104.
+Accepted V50 is preserved. Source of truth: `shots/shotlist.json`.
+Full review: http://127.0.0.1:8768/?v=v51
+Stills: http://127.0.0.1:8768/storyboard/departure-discovery-v01/board/index.html
+Passage: http://127.0.0.1:8768/storyboard/departure-discovery-v01/timed-still-board.mp4
+
+## October 11 — V50 accepted; departure/discovery direction selected
+
+User accepted the concourse result and selected the full A/B path:
+1A → 2A → 3A → 4A → 5A → 6B → 7A → 8B, explicitly retaining the nine-step
+4A zoom montage after considering 4B. Direction is recorded in canonical
+`departureDiscoverySequence` and eight `departure-001` through `departure-008`
+proposals, batch `departure-discovery-v01`. Eight timed app notes saved.
+
+Span: frames 2595–3144, 549 frames at 24fps (1:48.083–2:10.958).
+Boundaries: 2595 signing/handover; 2665 careful undock plus continuous camera
+pullback; 2805 interior profile/target control; 2873 nine optical zoom steps;
+2920 resolving target; 2994 wide cabin/distance; 3039 quiet close reaction;
+3081 hand confirms course; 3144 second chorus begins, action still unplanned.
+Nine in cues: 2873, 2887, 2891, 2894, 2899, 2903, 2908, 2912, 2915.
+Full new-planet reveal on big at2946, now at2953; hold until2994.
+
+Preserve gray survival coverall, established spherical ship and accepted cabin.
+Owner is distinct from the rejected ferry captain; boarding is elided between
+handover and departure. Target stays anchored across substantial magnification
+steps. The jungle planet is remote, not an instantaneous arrival. Selected
+planet palette/geography: dark-emerald jungle continent, copper inland seas,
+ivory storm systems; exact appearance awaits still review. Main cuts must
+change viewpoint, subject or scale decisively. Affirmation is discovery and
+commitment, not proof she has already helped the world.
+
+Text planning only: no new stills, footage or charges. V50 remains the accepted
+active render. Next step is first-frame/storyboard development for this route;
+review the animatic before paid motion. Cumulative Kling credits remain3104.
+
+## October 11 — V50 native concourse, still ship flips
+
+User approved five Kling uploads and 240 credits. All five silent 1080p/24fps
+renders are collected; actual charge 240, cumulative confirmed 3104 credits.
+No paid jobs pending. Plan, prompts, receipts and selections are recorded in
+`kling-station-concourse-v02.json`; canonical edit is `shots/shotlist.json`.
+
+V50 retains the arrival, directory and first promising-option native takes.
+The two brief bioship and sailcraft flips now use the exact accepted stills,
+with the existing four-frame right-to-left soft-boundary wipes. No image
+translation or extra light-flash overlay. New native takes cover the captain
+exchange, populated food court, parts/outfit market, gantry walk and restrained
+entrance-view close-up. The 12-frame dissolve into the food court is retained.
+
+The gantry ending preserves V49 timing: wide 2425–2507, close-up 2507–2539,
+resumed wide 2539–2595. Both wides use ONE continuous take: source 25–106 then
+107–162. Kling walked continuously rather than pausing on schedule, so the
+close-up supplies the consideration beat and the wide resumes on the next
+source frame. This avoids a position jump and cuts before boarding. Gentle
+native camera drift remains; there is no added editorial pan or retiming.
+Captain source 13–95 retains more of his offering gesture; this uses a shorter
+12-frame leading handle, sufficient for its incoming wipe. Slight mouth
+movement remains late in the refusal, with no generated audio.
+
+All five takes and assembled transition/ending samples reviewed. Full export
+is 5265 frames, 24fps, 1920x1080; passage is 490 frames. Original master AAC
+packet hashes match V49. User playback review is pending.
+Full review: http://127.0.0.1:8768/?v=v50
+Passage and clean takes: http://127.0.0.1:8768/storyboard/station-concourse-motion-v02/
+Earlier held-still/no-generation statements below are historical.
+
+## October 11 — V49 walk, consider, continue
+
+User accepted V48 stills and requested continuing movement across the long
+gantry scene: walk first, stop and consider in close-up, then resume walking
+in the wide. V49 reuses the approved images, with no new image or video jobs:
+concourse-010 walk2425–2507 (82frames/3.42s), concourse-012 consideration2507–2539
+(32frames/1.33s), new concourse-013 resumed walk2539–2595 (56frames/2.33s).
+Anchors are DAWproject bar40 beat1, bar41 beat2, bar41 beat4 and existing vocal.
+Full5265frame/24fps/1920x1080 export and original master AAC hash verified.
+
+This is a HELD-STILL timing preview. Next native pass must use successive
+parts of ONE continuous wide take, with her pause covered by the close-up,
+then resume at her stopped position. No reset/loop or changing gantry geometry.
+Keep her outside and visible until the next transition. Motion planning in
+`station-concourse-v05/motion-plan.json` and canonical concourseSequence:
+proposed10second wide take (source25–106, pause107–138, resume139–194) and
+4second close-up (source25–56), at least24frame handles. Not submitted.
+The old V45 wide walking take reaches the entrance too soon for this structure;
+it is preserved, not silently retimed into the new draft. No credits spent;
+cumulative2864. Earlier captain/markets unchanged.
+
+Full review http://127.0.0.1:8768/?v=v49 . Passage and three-part blocking:
+http://127.0.0.1:8768/storyboard/station-concourse-v05/ . Canonical shotlist and
+revision-checked app notes include all three beats and updated handoff.
+
+## October 11 — V48 annotated original gantry and entrance POV
+
+User rejected the consecutive altered gantry views for spatial inconsistency
+and annotated the original board item `concourse-011-still-v01`, titled
+Discover the opening ship, with back to using this one. The exact source
+`station-concourse-v01/concourse-011.png` is now restored without edits;
+SHA256 confirms the `station-concourse-v04/original-gantry.png` copy is identical.
+Its original ship scale supersedes the earlier approximate80percent variation.
+
+V48 consolidates frames2425–2556 into this one original exterior composition
+(active shot concourse-010), followed by a new close-up from the SHIP ENTRANCE
+looking BACK toward Harper and the station at2556–2595 (concourse-012).
+Harper is near-frontal, station portal and gantry rails behind her, restrained
+positive decision with closed lips. Sphere is behind camera. No cabin/boarding.
+The superseded concourse-011 approach marker is addressed and its shot archived.
+
+New close-up made with one built-in ImageGen call, exact prompt/receipt and
+source references in `generated/storyboard/station-concourse-v04/`. Original
+board selection retained; new board item concourse-v04-entrance-pov, revision52.
+Review: http://127.0.0.1:8768/storyboard/station-concourse-v04/ . Full V48:
+http://127.0.0.1:8768/?v=v48 . This remains a still/pacing review. Native motion
+will keep exterior camera steady or very slow, stop Harper on gantry, then
+use the distinct entrance POV; no new Kling jobs or charges, cumulative2864.
+Earlier captain/markets retained. Full5265frames,24fps,1920x1080 and original
+master AAC hash preserved; both ending samples visually checked. Canonical
+source `shots/shotlist.json`, active batch station-concourse-v04.
+
+## October 11 — V47 stop outside, then decide
+
+User accepted all V46 shots except the final boarding view because its port
+interior did not match the established sphere cabin. V47 replaces only that
+final 88-frame slot: concourse-011 approaches along the gantry and stops before
+the dark/closed entrance (2507–2556, 49 frames); concourse-012 cuts to a calm
+positive-decision close-up (2556–2595, 39 frames). The split is DAWproject bar42
+beat1. Keep camera fixed or moving very slowly in later motion. Expression is
+quiet and practical, not a broad smile. No boarding or cabin interior is shown.
+
+Two built-in ImageGen stills, exact prompts and receipts are in
+`generated/storyboard/station-concourse-v03/`. The approach used two attempts
+(the first floor-contact error is archived); close-up passed in one. Same
+Creative Production board revision36. The accepted captain, food concourse,
+outfitter market and first gantry pause are retained. Revised ending stills
+await user review; no Kling generation or spending. Cumulative credits2864.
+
+Full V47: http://127.0.0.1:8768/?v=v47 . Ending stills and timed passage:
+http://127.0.0.1:8768/storyboard/station-concourse-v03/ . Source of truth is
+`shots/shotlist.json`, active batch station-concourse-v03. New close-up marker
+and corrected handoff note saved: at frame2595 she has chosen the ship while
+still outside. A later transition into the established cabin remains unplanned.
+Earlier assertions that she has already boarded by this cue are superseded.
+
+Verified 5265 frames at24fps,1920x1080; original master AAC packet hashes match
+V46. Final two sampled frames visually checked. Prior media and versions kept.
+
+## October 11 — V46 interaction, markets and boarding still revision
+
+User reviewed V45 and requested a longer captain exchange, busier alien-populated
+station areas, an approving gantry pause and a roughly 20% smaller ship with a
+closer boarding cut. Stills first: five built-in ImageGen compositions are now
+in `generated/storyboard/station-concourse-v02/`, with exact prompts and receipts.
+Same Creative Production board, revision 33. No new Kling generation or charges;
+cumulative confirmed spend remains 2864 credits. New motion awaits still review.
+
+V46 keeps the first five concourse native takes and all three right-to-left
+flip wipes. The third flip now leads to one continuous captain two-shot at
+frames 2211–2294 (3.46s), replacing the brief rejection/near-duplicate departure.
+A 12-frame dissolve centered at 2294 leads into the food concourse (2294–2359),
+then the parts/outfitter/exotic-goods market (2359–2425). Harper pauses approvingly
+at the gantry (2425–2507), then cuts closer to board (2507–2595). All boundaries
+come from existing lyric cues or the DAWproject beat grid. The old six-frame
+reaction proposal remains archived as superseded; its review note is addressed.
+
+The new five images are HELD STILLS: captain pitch, head-shake, walking and
+boarding are directions for a later motion pass. The two markets contain
+varied alien vendors, diners and travelers. Gray coverall and ship identity
+remain. Gantry first attempt selected for its readable expression and plausible
+staging; the alternative has weaker staging and is retained only as a draft.
+Ship looks more compact, but exact 80% physical scale is not verifiable from
+the changed perspective. Boarding gives a human-sized threshold and tighter
+view; review the amber entry recess against the eventual cabin continuity.
+
+Review five stills and timed passage:
+http://127.0.0.1:8768/storyboard/station-concourse-v02/ . Full V46:
+http://127.0.0.1:8768/?v=v46 . Visual samples, metadata, source frame counts and
+master AAC packet equality checked. Full edit remains 5265 frames, 24fps,
+1920x1080. V45 and all raw/generated media preserved locally, ignored by Git.
+Canonical source remains `shots/shotlist.json`; active batch station-concourse-v02.
+
+## October 11 — V45 clean concourse motion assembled
+
+The user explicitly approved eleven Kling uploads and 392 credits. All eleven
+silent 1080p Kling 3.0 takes completed and were collected exactly once. Actual
+charge: 392 credits; cumulative confirmed spend: 2864. No paid jobs pending.
+The earlier approval-pending section below is historical and superseded.
+
+V45 replaces the accepted concourse stills at frames 2105–2595 with reviewed
+native footage. Source inpoints are frame 25, with at least 24 frames of lead
+and tail handles. Three four-frame vertical reveal wipes are centered on
+frames 2192, 2203 and 2211, moving right to left with a 64px soft boundary and
+restrained 3px pale accent. The images do not slide. The full edit retains
+5265 frames at 24fps, 1920x1080; original master AAC packet hashes match V44.
+
+The two ship-only flip takes invented a foreground figure. Local first-frame
+station plates restore the left 25%, feathering to 30%; generated ship motion
+is retained. No additional paid generation was needed. Raw clips and repaired
+derivatives are both preserved. The brief six-frame rejection uses a blink
+and small head/eye shift; the next shot carries her departure. The final take
+shows Harper crossing the bridge and entering the spherical ship. Existing
+third-flip/Guess timing remains unchanged. All eleven takes and assembled
+wipe samples were visually reviewed; user playback review remains pending.
+
+Full review: http://127.0.0.1:8768/?v=v45 . Passage and individual clean clips:
+http://127.0.0.1:8768/storyboard/station-concourse-motion-v01/ . The same folder
+contains `native-picture.mp4` without lyrics/audio, the timed captioned review,
+authoring scripts, per-shot reviews and verification metadata. Canonical
+selection and transition details are in `shots/shotlist.json`; generation IDs
+and exact prompts are in `kling-station-concourse-v01.json`. Large media stay
+local and ignored by Git. The accepted still gallery remains available.
+
+## October 11 — concourse motion prepared; explicit Kling approval pending
+
+User accepted the latest three-part bioship and the placed still sequence,
+requested clean video and assembly, and specified stationary-image vertical
+reveal wipes traveling right to left on the flips. Eleven silent Kling3.0
+1080p takes are prepared in `kling-station-concourse-v01.json`: durations
+4,4,4,3,3,3,3,5,5,7,8 seconds, 49 seconds total, estimated392credits at the
+previous confirmed8credits/sec. Each includes one-second source handles.
+Live CLI verified duration support3–15seconds and available19793credits.
+The existing Harper element323570155312565 is bound where she appears;
+current starter images control wardrobe. All11 identical prompt locks retained.
+
+Automatic approval review REJECTED submission because the user had not
+explicitly authorized the eleven nonpublic still/prompt uploads to Kling and
+estimated392credit charge. No process ran, no jobs submitted or paid, no
+request receipts created. Async question asks approval of those exact uploads
+and cost. Do not submit until explicit approval arrives. Cumulative confirmed
+spend remains2472credits. V44 remains the active full edit.
+
+Unaffected work completed: a490frame still-based wipe preview with original
+segment audio and word-timed captions. Three4frame wipes centered on frames
+2192,2203,2211;64px soft boundary and3px pale22percent accent at1080p;
+no image translation. Review and exact prepared prompts:
+http://127.0.0.1:8768/storyboard/station-concourse-motion-v01/ .
+`build.py --stills` renders this preview; without the flag it assembles collected
+clean native takes. Native collection, visual QA, selection registration and
+full V45 insertion remain. Existing final-flip/Guess lyric timing caveat retained.
+
+## October 11 — V44 elegant three-part organic craft
+
+The user rejected the nodular appearance of V43 and requested functional ribs
+and bones, then explicitly replaced the U silhouette with three connected
+elements. Only concourse-004 changes: `concourse-004-v05.png` has a compact
+boarding body, tall tilted ribbed shell and smaller offset propulsion body,
+joined by rounded supports with clear negative-space gaps. Smooth jade shell,
+light celadon ribs and narrow plum recesses retain the color direction while
+removing the fleshy/nodular appearance. No hooks, claws or windows.
+Generated with built-in ImageGen; exact prompt and receipt saved alongside
+the image and previous versions. New draft awaits review. Other shots and
+frame timing remain. Review: http://127.0.0.1:8768/?v=v44 .
+Same Creative Production board, revision 27. Earlier U-shape direction is
+superseded. The interrupted U-refinement call produced no observed output;
+the three-part design completed in one call after the user's steering.
+
+## October 11 — V43 compact microbial U-shaped ship
+
+The user approved the jade/plum colors but rejected hooked points and the
+long body. Only concourse-004 is revised, to `concourse-004-v04.png`: compact
+asymmetrical U-shaped personal craft with unequal rounded lobes, compound
+jade shell volumes and plum folds, inspired by enlarged microscopic life.
+There are no claws, hooks, spikes or windows. Its opaque amber-edged hatch
+still joins the station ramp. The source image, exact prompt and receipt are
+preserved alongside earlier versions; the new shape awaits user review.
+All other shots and timings remain. Full review: http://127.0.0.1:8768/?v=v43 .
+Same Creative Production board, revision 24; one built-in ImageGen edit.
+
+## October 11 — V42 windowless craft and color rhythm
+
+The user requested greater bioship asymmetry, no windows on the two flip
+craft, and coherent color variation across the lead-in and three flips.
+Current drafts are `concourse-004-v03.png` and `concourse-005-v03.png` in the
+existing station-concourse-v01 folder, generated with built-in ImageGen.
+The bioship has a single leaning crest, uneven organic masses, a hooked prow,
+desaturated jade shell and plum recesses, with an opaque amber-edged hatch.
+The light-sail craft keeps its gold geometry and now has an opaque ivory cabin.
+Station corridor windows remain. Previous stills and exact prompt histories
+are preserved; new drafts await review.
+
+Color progression: warm ivory at I think my movie's on, cool jade/plum on
+the first flip, warm gold/ivory on the second, then rusty ochre on the ferry.
+The jade body separates from indigo space; shared cyan and amber station
+lighting connects the cuts. Other imagery, timing and master audio remain.
+Review: http://127.0.0.1:8768/?v=v42 . Board revision 22, same board ID.
+
+## October 11 — V41 contrasting ships on the first two flips
+
+User requested changes only to concourse-004 and concourse-005, retaining the
+junk ferry/captain and the rest of the passage. The revised built-in ImageGen
+stills are `concourse-004-v02.png` (grown biomechanical vessel with a bone crest,
+organic ribs and green boarding entrance) and `concourse-005-v02.png` (gold
+diamond light-sail structure with triangular sails and a suspended cabin).
+Both live in `generated/storyboard/station-concourse-v01/`, beside exact
+`.prompt.txt` and `.actual-generation.json` records. Original images remain.
+All prompts retain the same sequence lock. New designs await user review.
+
+The art-direction comparison considered Chris Foss's spacecraft archive
+(https://chrisfossart.com/category/spaceship/), Bruce Pennington's exotic
+paperback-cover imagery (https://www.brucepennington.co.uk/covers.htm), and
+Barsoom's illustrated sailing-vessel tradition
+(https://www.erbzine.com/mag28/2806.html). The original light-sail design was
+chosen for immediate geometric contrast with the biomechanical ship; this is
+an artistic judgment, not a measured claim about style popularity or rarity.
+
+V41 retains the existing frame grid: first flip 2192–2203 (11 frames), second
+2203–2211 (8 frames), both at 24 fps. Other source images remain unchanged.
+Full review: http://127.0.0.1:8768/?v=v41 . Gallery:
+http://127.0.0.1:8768/storyboard/station-concourse-v01/ .
+The existing final-flip/Guess timing caveat remains. No new Kling job ran.
+
+## October 11 — V40 concourse stills and pod-issued survival outfit
+
+The user requested stills for the selected concourse route and allowed Harper
+to change into clothing found aboard the escape pod. Eleven linked built-in
+ImageGen drafts now cover frames 2105–2595 in the full V40 animatic. Draft
+wardrobe is a roomy warm-gray long-sleeve survival coverall, plain adjustable
+belt, graphite utility shoes and a small unlettered amber upper-arm tab. The
+change happens offscreen during transit; she keeps the suit throughout the
+station and ship discovery. A later change into the opening short-sleeve gray
+outfit remains to be staged. Wardrobe and images await user review.
+
+Full movie: http://127.0.0.1:8768/?v=v40 . Still gallery and timed passage:
+http://127.0.0.1:8768/storyboard/station-concourse-v01/ .
+`shots/shotlist.json` contains the image drafts, exact actual prompts, identical
+sequence lock and V40 placements. Files, per-image receipts, review manifest
+and verification are in `generated/storyboard/station-concourse-v01/`.
+Creative Production board: `ce27973e-c009-4d44-8eab-ed01be58c996`, revision 16,
+with all eleven items completed. Source assets are local; generated media stay
+outside Git. Existing production checkpoint tooling preserves authored text.
+
+The review retains the saved 490-frame passage and the full 5265 frames at
+24 fps / 1920x1080. Original master AAC packets verified identical to V39.
+These are held composition stills; boarding is planned motion, not a completed
+action in the stills. No new Kling job ran; confirmed spend remains 2472 credits.
+
+Review points: third flip / Guess not still share the provisional lyric edge;
+the discovery sphere retains a glossier rim than the thin-field intent; the
+directory view has a broad window hex grid while later concourse views are
+clear. Premature sphere reveal and an unintended bag were corrected before
+assembly. Earlier V39 and pre-wardrobe statements below are historical.
+
+## October 11 — concourse route selected and timed directions saved
+
+The user selected the dockside concourse route with a brief directory moment
+for orientation. Arrival at a transport hub leads to real ship options on the
+three flips, a terrible ferry and overly eager captain, rejection, then a quiet
+walk to a remote berth and discovery of the spherical ship from the opening.
+Boarding leads into All, all calling at frame2595 (108.0833seconds).
+
+`shots/shotlist.json` is the authority: `concourseSequence` records the selected
+route and continuity notes; `concourse-001` through `concourse-011` in
+`storyboardProposals` cover frames2105–2595. Twelve timed notes, including the
+handoff cue, are saved in the review app at notes revision25. Prior notes are
+preserved. Frame anchors derive from existing lyric/word timing and musical
+grid markers; these are proposed blocking cues, not locked cuts.
+
+The third flip and Guess share provisional frame2211, and that flip currently
+has a zero-frame compiled span. Review playback before locking those cuts.
+Frame2223 is the current not onset and proposed rejection accent. Let the
+captain/rejection action continue into the instrumental so it reads clearly.
+The remote-berth reveal starts at frame2458 (102.375seconds). Wardrobe continuity
+from the escape silver outfit to the opening gray outfit remains to be staged
+before generating imagery. Arrival uses the ovoid escape pod; the discovered
+ship is the established thin-field spherical craft.
+
+V39 remains the current rendered movie; the additions are direction markers.
+Next: review this passage and develop station/ship starter frames for a still
+animatic. No new generation or paid job ran; confirmed spend remains2472credits.
+
 ## October 10 — accepted V39 save point, files-only GitHub backup
 
 The user accepted V39 and requested a clean commit/push of production files,

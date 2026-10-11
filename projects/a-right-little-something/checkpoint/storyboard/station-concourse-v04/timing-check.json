@@ -1,0 +1,53 @@
+{
+  "mode": "hybrid",
+  "frames": 490,
+  "fps": 24,
+  "startFrame": 2105,
+  "endFrameExclusive": 2595,
+  "transitions": [
+    {
+      "incomingShot": "concourse-004",
+      "boundaryFrame": 2192,
+      "startFrame": 2190,
+      "endFrameExclusive": 2194,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-005",
+      "boundaryFrame": 2203,
+      "startFrame": 2201,
+      "endFrameExclusive": 2205,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-006",
+      "boundaryFrame": 2211,
+      "startFrame": 2209,
+      "endFrameExclusive": 2213,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "type": "dissolve",
+      "incomingShot": "concourse-008",
+      "startFrame": 2288,
+      "endFrameExclusive": 2300,
+      "frames": 12
+    }
+  ],
+  "imageTranslation": false
+}

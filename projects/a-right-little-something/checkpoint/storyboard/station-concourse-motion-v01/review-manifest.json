@@ -1,0 +1,169 @@
+{
+  "animaticVersion": "v45",
+  "status": "Native motion review draft",
+  "cleanPassage": "native-picture.mp4",
+  "timedPassage": "timed-still-board.mp4",
+  "transitions": [
+    {
+      "incomingShot": "concourse-004",
+      "boundaryFrame": 2192,
+      "startFrame": 2190,
+      "endFrameExclusive": 2194,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-005",
+      "boundaryFrame": 2203,
+      "startFrame": 2201,
+      "endFrameExclusive": 2205,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-006",
+      "boundaryFrame": 2211,
+      "startFrame": 2209,
+      "endFrameExclusive": 2213,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    }
+  ],
+  "credits": 392,
+  "cumulativeCredits": 2864,
+  "shots": [
+    {
+      "id": "concourse-001",
+      "motionRef": "generated/kling-tests/station-concourse-v01/concourse-001-motion-v01/concourse-001-motion-v01-01-clean.mp4",
+      "sourceEditStartFrame": 25,
+      "startFrame": 2105,
+      "frames": 34,
+      "review": {
+        "usable": true,
+        "notes": "Native source25–58: pod glides toward the station with gentle camera drift and stable docking geometry. Arrival continues across the short edit; docking itself is elided by the cut to the concourse."
+      }
+    },
+    {
+      "id": "concourse-002",
+      "motionRef": "generated/kling-tests/station-concourse-v01/concourse-002-motion-v01/concourse-002-motion-v01-01-clean.mp4",
+      "sourceEditStartFrame": 25,
+      "startFrame": 2139,
+      "frames": 28,
+      "review": {
+        "usable": true,
+        "notes": "Native source25–52: Harper checks the directory with a small head/eye movement; wardrobe and station remain consistent. The generated action emphasizes reading the directory rather than completing the outward glance, which continues in the next shot."
+      }
+    },
+    {
+      "id": "concourse-003",
+      "motionRef": "generated/kling-tests/station-concourse-v01/concourse-003-motion-v01/concourse-003-motion-v01-01-clean.mp4",
+      "sourceEditStartFrame": 25,
+      "startFrame": 2167,
+      "frames": 25,
+      "review": {
+        "usable": true,
+        "notes": "Native source25–49: Harper looks toward the promising departure with subtle eye/head movement and a settling expression. Character, gray coverall and passenger craft remain stable."
+      }
+    },
+    {
+      "id": "concourse-004",
+      "motionRef": "generated/storyboard/station-concourse-motion-v01/concourse-004-foreground-repaired.mp4",
+      "sourceEditStartFrame": 25,
+      "startFrame": 2192,
+      "frames": 11,
+      "review": {
+        "usable": true,
+        "notes": "Native source25–35: three-part jade craft retains its geometry and locked framing. Kling invented a left-edge figure; a clean first-frame station plate restores left25percent with a feather to30percent. Generated ship region and onboard light movement retained; no image translation."
+      }
+    },
+    {
+      "id": "concourse-005",
+      "motionRef": "generated/storyboard/station-concourse-motion-v01/concourse-005-foreground-repaired.mp4",
+      "sourceEditStartFrame": 25,
+      "startFrame": 2203,
+      "frames": 8,
+      "review": {
+        "usable": true,
+        "notes": "Native source25–32: gold diamond sails and opaque cabin remain stable. Unwanted foreground figure removed with the clean first-frame station plate on the left25percent and feather to30percent. No sliding image; native ship region retained."
+      }
+    },
+    {
+      "id": "concourse-006",
+      "motionRef": "generated/kling-tests/station-concourse-v01/concourse-006-motion-v01/concourse-006-motion-v01-01-clean.mp4",
+      "sourceEditStartFrame": 25,
+      "startFrame": 2211,
+      "frames": 12,
+      "review": {
+        "usable": true,
+        "notes": "Native source25–36: captain continues his eager offer beside the patched ferry; Harper stays in the foreground. Ferry and captain identities stable. Restrained motion under the third wipe."
+      }
+    },
+    {
+      "id": "concourse-007",
+      "motionRef": "generated/kling-tests/station-concourse-v01/concourse-007-motion-v01/concourse-007-motion-v01-01-clean.mp4",
+      "sourceEditStartFrame": 25,
+      "startFrame": 2223,
+      "frames": 6,
+      "review": {
+        "usable": true,
+        "notes": "Native source25–30: short rejection accent with a blink and restrained eye/head shift, followed immediately by walking away. No complete turn occurs within the six-frame insert; departure carries that action."
+      }
+    },
+    {
+      "id": "concourse-008",
+      "motionRef": "generated/kling-tests/station-concourse-v01/concourse-008-motion-v01/concourse-008-motion-v01-01-clean.mp4",
+      "sourceEditStartFrame": 25,
+      "startFrame": 2229,
+      "frames": 65,
+      "review": {
+        "usable": true,
+        "notes": "Native source25–89: Harper walks away along the concourse with natural alternating steps and a slight head turn. The captain and ferry recede to the left; wardrobe remains consistent."
+      }
+    },
+    {
+      "id": "concourse-009",
+      "motionRef": "generated/kling-tests/station-concourse-v01/concourse-009-motion-v01/concourse-009-motion-v01-01-clean.mp4",
+      "sourceEditStartFrame": 25,
+      "startFrame": 2294,
+      "frames": 65,
+      "review": {
+        "usable": true,
+        "notes": "Native source25–89: natural alternating steps along the quiet walkway, with smooth camera tracking and station parallax. Outfit and character remain consistent; no premature spherical-ship reveal."
+      }
+    },
+    {
+      "id": "concourse-010",
+      "motionRef": "generated/kling-tests/station-concourse-v01/concourse-010-motion-v01/concourse-010-motion-v01-01-clean.mp4",
+      "sourceEditStartFrame": 25,
+      "startFrame": 2359,
+      "frames": 99,
+      "review": {
+        "usable": true,
+        "notes": "Native source25–123: Harper follows the railing and notices the cyan ring and amber band behind the pier. The ship stays partially occluded, preserving the next reveal."
+      }
+    },
+    {
+      "id": "concourse-011",
+      "motionRef": "generated/kling-tests/station-concourse-v01/concourse-011-motion-v01/concourse-011-motion-v01-01-clean.mp4",
+      "sourceEditStartFrame": 25,
+      "startFrame": 2458,
+      "frames": 137,
+      "review": {
+        "usable": true,
+        "notes": "Native source25–161: the spherical ship retains its silhouette as Harper crosses the bridge and passes behind the entry rim to board. Gentle camera tracking; the final selected frame completes her entry."
+      }
+    }
+  ]
+}

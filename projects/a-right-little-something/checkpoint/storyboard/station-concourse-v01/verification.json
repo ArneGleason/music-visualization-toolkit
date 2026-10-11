@@ -1,0 +1,62 @@
+{
+  "stills": 11,
+  "frames": 490,
+  "startFrame": 2105,
+  "endFrameExclusive": 2595,
+  "sharedPromptLockIdentical": true,
+  "priorShotsPreserved": true,
+  "userReviewPending": true,
+  "visualReview": "All eleven images inspected. Adult Harper and pod-issued coverall remain consistent. Public berths lead to quieter walkway, partial glimpse and full spherical-ship reveal.",
+  "caveats": [
+    "Final flip and Guess not timing remains provisional on the existing grid.",
+    "Discovery sphere has faint cyan geodesic lines but a glossier outer rim than the thin-field intent.",
+    "Directory view retains a broad window hex grid; closer concourse views have clear windows.",
+    "Discovery still depicts approach to the access bridge; boarding is planned motion, not shown as a completed action."
+  ],
+  "flipRevisionV02": {
+    "revisedShots": [
+      "concourse-004",
+      "concourse-005"
+    ],
+    "unchangedOtherShotRecords": true,
+    "unchangedFrameGrid": true,
+    "exactSharedPromptLock": true,
+    "previousImagesRetained": true,
+    "fullAnimatic": "v41",
+    "originalMasterAudio": "AAC packet hashes verified by assembly tool"
+  },
+  "flipRevisionV03": {
+    "revisedShots": [
+      "concourse-004",
+      "concourse-005"
+    ],
+    "unchangedOtherShotRecords": true,
+    "unchangedFrameGrid": true,
+    "exactSharedPromptLock": true,
+    "previousImagesRetained": true,
+    "fullAnimatic": "v42",
+    "originalMasterAudio": "AAC packet hashes verified by assembly tool"
+  },
+  "flipRevisionV04": {
+    "revisedShots": [
+      "concourse-004"
+    ],
+    "unchangedOtherShotRecords": true,
+    "unchangedFrameGrid": true,
+    "exactSharedPromptLock": true,
+    "previousImagesRetained": true,
+    "fullAnimatic": "v43",
+    "originalMasterAudio": "AAC packet hashes verified by assembly tool"
+  },
+  "flipRevisionV05": {
+    "revisedShots": [
+      "concourse-004"
+    ],
+    "unchangedOtherShotRecords": true,
+    "unchangedFrameGrid": true,
+    "exactSharedPromptLock": true,
+    "previousImagesRetained": true,
+    "fullAnimatic": "v44",
+    "originalMasterAudio": "AAC packet hashes verified by assembly tool"
+  }
+}

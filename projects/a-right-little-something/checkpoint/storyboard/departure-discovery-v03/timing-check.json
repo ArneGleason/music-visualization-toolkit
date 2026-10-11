@@ -1,0 +1,208 @@
+{
+  "fps": 24,
+  "startFrame": 2595,
+  "endFrameExclusive": 3144,
+  "frames": 549,
+  "segments": [
+    {
+      "asset": "signing",
+      "image": "generated/storyboard/departure-discovery-v01/signing.png",
+      "startFrame": 2595,
+      "endFrameExclusive": 2665,
+      "frames": 70
+    },
+    {
+      "asset": "undocking",
+      "image": "generated/storyboard/departure-discovery-v03/undocking.png",
+      "startFrame": 2665,
+      "endFrameExclusive": 2753,
+      "frames": 88
+    },
+    {
+      "asset": "distant-station",
+      "image": "generated/storyboard/departure-discovery-v01/distant-station.png",
+      "startFrame": 2753,
+      "endFrameExclusive": 2805,
+      "frames": 52
+    },
+    {
+      "asset": "target-profile",
+      "image": "generated/storyboard/departure-discovery-v01/target-profile.png",
+      "startFrame": 2805,
+      "endFrameExclusive": 2873,
+      "frames": 68
+    },
+    {
+      "asset": "zoom-01",
+      "image": "generated/storyboard/departure-discovery-v01/zoom-01.png",
+      "startFrame": 2873,
+      "endFrameExclusive": 2887,
+      "frames": 14
+    },
+    {
+      "asset": "zoom-02",
+      "image": "generated/storyboard/departure-discovery-v01/zoom-02.png",
+      "startFrame": 2887,
+      "endFrameExclusive": 2891,
+      "frames": 4
+    },
+    {
+      "asset": "zoom-03",
+      "image": "generated/storyboard/departure-discovery-v01/zoom-03.png",
+      "startFrame": 2891,
+      "endFrameExclusive": 2894,
+      "frames": 3
+    },
+    {
+      "asset": "zoom-04",
+      "image": "generated/storyboard/departure-discovery-v01/zoom-04.png",
+      "startFrame": 2894,
+      "endFrameExclusive": 2899,
+      "frames": 5,
+      "editorialFraming": {
+        "scale": 1.14,
+        "cx": 0.502,
+        "cy": 0.45,
+        "reason": "Small editorial reframe centers the selected green planet across the optical cuts; source image remains unchanged."
+      }
+    },
+    {
+      "asset": "zoom-05",
+      "image": "generated/storyboard/departure-discovery-v01/zoom-05.png",
+      "startFrame": 2899,
+      "endFrameExclusive": 2903,
+      "frames": 4,
+      "editorialFraming": {
+        "scale": 3.4,
+        "cx": 0.5,
+        "cy": 0.5,
+        "reason": "Editorial close crop keeps the selected disc growing after the whole-system view rather than appearing smaller."
+      }
+    },
+    {
+      "asset": "zoom-06",
+      "image": "generated/storyboard/departure-discovery-v01/zoom-06.png",
+      "startFrame": 2903,
+      "endFrameExclusive": 2908,
+      "frames": 5
+    },
+    {
+      "asset": "zoom-07",
+      "image": "generated/storyboard/departure-discovery-v01/zoom-07.png",
+      "startFrame": 2908,
+      "endFrameExclusive": 2912,
+      "frames": 4
+    },
+    {
+      "asset": "zoom-08",
+      "image": "generated/storyboard/departure-discovery-v01/zoom-08.png",
+      "startFrame": 2912,
+      "endFrameExclusive": 2915,
+      "frames": 3
+    },
+    {
+      "asset": "zoom-09",
+      "image": "generated/storyboard/departure-discovery-v01/zoom-09.png",
+      "startFrame": 2915,
+      "endFrameExclusive": 2920,
+      "frames": 5
+    },
+    {
+      "asset": "zoom-09",
+      "image": "generated/storyboard/departure-discovery-v01/zoom-09.png",
+      "startFrame": 2920,
+      "endFrameExclusive": 2946,
+      "frames": 26
+    },
+    {
+      "asset": "planet-reveal",
+      "image": "generated/storyboard/departure-discovery-v01/planet-reveal.png",
+      "startFrame": 2946,
+      "endFrameExclusive": 2994,
+      "frames": 48
+    },
+    {
+      "asset": "cabin-distance",
+      "image": "generated/storyboard/departure-discovery-v01/cabin-distance.png",
+      "startFrame": 2994,
+      "endFrameExclusive": 3039,
+      "frames": 45
+    },
+    {
+      "asset": "affirmation",
+      "image": "generated/storyboard/departure-discovery-v01/affirmation.png",
+      "startFrame": 3039,
+      "endFrameExclusive": 3081,
+      "frames": 42
+    },
+    {
+      "asset": "confirm-course",
+      "image": "generated/storyboard/departure-discovery-v01/confirm-course.png",
+      "startFrame": 3081,
+      "endFrameExclusive": 3144,
+      "frames": 63
+    }
+  ],
+  "zoomCues": [
+    {
+      "cue": 1,
+      "startFrame": 2873,
+      "endFrameExclusive": 2887,
+      "timingBasis": "lyr-044-w02"
+    },
+    {
+      "cue": 2,
+      "startFrame": 2887,
+      "endFrameExclusive": 2891,
+      "timingBasis": "lyr-044-w03"
+    },
+    {
+      "cue": 3,
+      "startFrame": 2891,
+      "endFrameExclusive": 2894,
+      "timingBasis": "lyr-044-w04"
+    },
+    {
+      "cue": 4,
+      "startFrame": 2894,
+      "endFrameExclusive": 2899,
+      "timingBasis": "lyr-044-w05"
+    },
+    {
+      "cue": 5,
+      "startFrame": 2899,
+      "endFrameExclusive": 2903,
+      "timingBasis": "lyr-044-w06"
+    },
+    {
+      "cue": 6,
+      "startFrame": 2903,
+      "endFrameExclusive": 2908,
+      "timingBasis": "lyr-044-w07"
+    },
+    {
+      "cue": 7,
+      "startFrame": 2908,
+      "endFrameExclusive": 2912,
+      "timingBasis": "lyr-044-w08"
+    },
+    {
+      "cue": 8,
+      "startFrame": 2912,
+      "endFrameExclusive": 2915,
+      "timingBasis": "lyr-044-w09"
+    },
+    {
+      "cue": 9,
+      "startFrame": 2915,
+      "endFrameExclusive": 2920,
+      "timingBasis": "lyr-044-w10"
+    }
+  ],
+  "planetRevealFrame": 2946,
+  "pullbackPreviewDissolve": {
+    "startFrame": 2747,
+    "endFrameExclusive": 2759,
+    "frames": 12
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "concourse-007-motion-v01",
+  "shotId": "concourse-007",
+  "title": "Guess not - rejection beat",
+  "startFrame": 2223,
+  "editFrames": 6,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "sourceEditStartFrame": 25,
+  "model": "kling-video-v3_0",
+  "duration": 3,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/station-concourse-v01/concourse-007.png",
+  "firstImageSha256": "23048e10dfe7333367ca0ba2f089e7ffb8de6b8b83043265a1373bd045146cbf",
+  "prompt": "3 seconds, one uninterrupted clean shot. Harper <<<323570155312565>>> is the established adult woman; the starter image controls her warm-gray survival coverall, overriding any clothing in the identity reference. Close reaction. Harper is already unimpressed; a tiny eye shift and restrained change in the set of her mouth make her rejection legible immediately. Begin a small turn away, no exaggerated disgust. Captain and ferry remain behind her. Locked camera. No speaking or lip-sync. Preserve the starting-frame composition and painterly graphic-novel finish. Maintain active subtle motion throughout the usable central portion, with one-second editing handles. No generated transitions, cuts, dissolves, wipes, captions, readable text, watermark, audio or lip-sync. The right-to-left ship wipes will be added later in editing; do not generate them.\n\nCONCOURSE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure with fine controlled ink contours, rich illustrated material detail, indigo space, cyan practical lights and warm amber edges. Adult Harper has the established freckled face, hazel-green eyes and short curly auburn hair; keep her adult proportions and identity. She has changed offscreen during pod transit into a practical pod-issue survival coverall: soft warm-gray fabric, roomy long sleeves with gathered cuffs, closed simple collar, plain central fastening, adjustable gray waist belt, slightly loose trousers, low graphite slip-on utility shoes, one tiny unlettered amber rescue tab at the upper arm. No helmet, armor, gloves, swimsuit, costume logos or readable lettering. Station is a worn but welcoming interstellar transport interchange built around a broad segmented graphite ring with ivory inset ribs, tall arching windows, amber floor-edge strips, cyan docking lights and branching radial berths. Interior promenade has dark ribbed arches, warm ivory wall panels and a few distant travelers; its quieter outer service walkway retains the same architecture. The small arrival capsule is the established enclosed ivory-and-graphite ovoid one-seat escape pod, without a large external ring. The discovered personal spacecraft is the established transparent spherical technological field with faint cyan geodesic lines, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc; never confuse these two craft. Keep only subjects needed for the shot. Each image is one uninterrupted full-frame 16:9 cinematic composition with a quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.",
+  "estimatedCredits": 24,
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ]
+}

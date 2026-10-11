@@ -17,20 +17,410 @@
     {
       "source": "generated/animatic/current-media.json",
       "backup": "checkpoint/animatic/current-media.json",
-      "sha256": "e2f2b7a55f3a9be35de673b2706a28e8e640b3d56b598a0089db3388c1266277",
+      "sha256": "0c17bfa5b9f54f7ea79d6ca6f07276c6aac55b113b2059c56b27820c3639d1fa",
       "bytes": 91
     },
     {
       "source": "generated/animatic/current-opening.json",
       "backup": "checkpoint/animatic/current-opening.json",
-      "sha256": "e4c5d6a3232bc875583fc605047290f095567297bec5d9c63e57ec3055b73180",
-      "bytes": 11476
+      "sha256": "4ed6cbbd517d585a23811201c6174272c1dea582d32649068797e5764a92011f",
+      "bytes": 19806
     },
     {
       "source": "generated/animatic/motion-insert-manifest.json",
       "backup": "checkpoint/animatic/motion-insert-manifest.json",
       "sha256": "a2396687ab7d809034f98ac483cf6c6595f3e5af668636006d54c8151ec0d025",
       "bytes": 2613
+    },
+    {
+      "source": "generated/animatic/motion-opening-work/concat.txt",
+      "backup": "checkpoint/animatic/motion-opening-work/concat.txt",
+      "sha256": "d568740b2d583b893886ac017e3ffe63f114253277794960b6f1e9596fccf542",
+      "bytes": 118
+    },
+    {
+      "source": "generated/animatic/motion-opening-work/lyrics.ass",
+      "backup": "checkpoint/animatic/motion-opening-work/lyrics.ass",
+      "sha256": "ccf11da8740bd5f740da9e9a08cc21b79f3b27256da6295c782e7e11d1e19d8d",
+      "bytes": 31604
+    },
+    {
+      "source": "generated/animatic/selected-motion-v06/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v06/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v06/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v06/lyrics.ass",
+      "sha256": "6dcc8af04d22318fb7bb894f2c7f4b0a7ff22b0c82a66cc507e6b07de4cc9c47",
+      "bytes": 1323
+    },
+    {
+      "source": "generated/animatic/selected-motion-v07/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v07/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v07/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v07/lyrics.ass",
+      "sha256": "6dcc8af04d22318fb7bb894f2c7f4b0a7ff22b0c82a66cc507e6b07de4cc9c47",
+      "bytes": 1323
+    },
+    {
+      "source": "generated/animatic/selected-motion-v08/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v08/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v08/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v08/lyrics.ass",
+      "sha256": "6dcc8af04d22318fb7bb894f2c7f4b0a7ff22b0c82a66cc507e6b07de4cc9c47",
+      "bytes": 1323
+    },
+    {
+      "source": "generated/animatic/selected-motion-v09/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v09/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v09/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v09/lyrics.ass",
+      "sha256": "f24d56edfca28dd20f647b18cd9588b62a4a02922b015f81cdc66eb58168715e",
+      "bytes": 1283
+    },
+    {
+      "source": "generated/animatic/selected-motion-v10/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v10/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v10/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v10/lyrics.ass",
+      "sha256": "f24d56edfca28dd20f647b18cd9588b62a4a02922b015f81cdc66eb58168715e",
+      "bytes": 1283
+    },
+    {
+      "source": "generated/animatic/selected-motion-v13/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v13/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v13/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v13/lyrics.ass",
+      "sha256": "91f85334570b2058fdd01e8c2809206585831f162befe5db11f9498a25edafc9",
+      "bytes": 942
+    },
+    {
+      "source": "generated/animatic/selected-motion-v14/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v14/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v14/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v14/lyrics.ass",
+      "sha256": "199b78b5d0b36c2af46dea907eb5312a5cfd73664fe380cdc3c72c263ffa7727",
+      "bytes": 1326
+    },
+    {
+      "source": "generated/animatic/selected-motion-v15/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v15/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v15/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v15/lyrics.ass",
+      "sha256": "764ded7bfb5a23a5a0eb15ec4acd6eee9b808e2a27d22a9f7d126e6217be1794",
+      "bytes": 954
+    },
+    {
+      "source": "generated/animatic/selected-motion-v16/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v16/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v16/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v16/lyrics.ass",
+      "sha256": "9e1dfe305baea4db229859571ae9bb43139e3f42f54f65fde0da4e35946d996c",
+      "bytes": 1446
+    },
+    {
+      "source": "generated/animatic/selected-motion-v17/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v17/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v17/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v17/lyrics.ass",
+      "sha256": "8de776becb9ec72783b0e0cf7caeb7bcc9f6044f4aa6545545dca3b1d78338d5",
+      "bytes": 954
+    },
+    {
+      "source": "generated/animatic/selected-motion-v18/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v18/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v18/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v18/lyrics.ass",
+      "sha256": "be4f4599f6c5d265140127b6a78e6e72c39479eba948fae23033ca3c55005b24",
+      "bytes": 2007
+    },
+    {
+      "source": "generated/animatic/selected-motion-v19/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v19/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v19/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v19/lyrics.ass",
+      "sha256": "a001453adff2392fc9535ea82ea6d96e86d497e6809f86c3eb4716c3be5afbb7",
+      "bytes": 1144
+    },
+    {
+      "source": "generated/animatic/selected-motion-v20/concat.txt",
+      "backup": "checkpoint/animatic/selected-motion-v20/concat.txt",
+      "sha256": "e10ec50d0f42710f06a51513e9ea108ecb27b7e748c58544813e7e3738ca9e3e",
+      "bytes": 58
+    },
+    {
+      "source": "generated/animatic/selected-motion-v20/lyrics.ass",
+      "backup": "checkpoint/animatic/selected-motion-v20/lyrics.ass",
+      "sha256": "813f53a323c32970053f7c8a90c8a9899e1870c91cb331053269b58e28e1adca",
+      "bytes": 1362
+    },
+    {
+      "source": "generated/animatic/selected-stills-v11/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v11/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v12/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v12/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v26/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v26/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v27/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v27/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v29/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v29/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v30/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v30/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v31/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v31/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v32/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v32/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v33/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v33/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v34/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v34/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v35/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v35/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v36/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v36/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v37/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v37/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v38/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v38/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v39/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v39/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v40/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v40/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v41/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v41/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v42/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v42/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v43/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v43/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v44/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v44/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v45/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v45/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v46/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v46/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v47/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v47/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v48/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v48/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v49/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v49/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v50/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v50/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v51/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v51/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v52/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v52/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v53/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v53/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v54/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v54/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v55/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v55/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v56/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v56/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v57/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v57/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v58/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v58/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/selected-stills-v59/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v59/concat.txt",
+      "sha256": "be0cb1cf24b72bd85a949e4b6aa1d15f3abe97b50fcba8e376c783fd2fbeac0f",
+      "bytes": 56
+    },
+    {
+      "source": "generated/animatic/space-blocking-work/lyrics.ass",
+      "backup": "checkpoint/animatic/space-blocking-work/lyrics.ass",
+      "sha256": "03dae9ad1eeb3ae56389fcfbeb5c5f566cc708214636d4c7f7e7dfe85359c8ea",
+      "bytes": 4035
+    },
+    {
+      "source": "generated/animatic/storyboard-opening-work/concat.txt",
+      "backup": "checkpoint/animatic/storyboard-opening-work/concat.txt",
+      "sha256": "b6fed0cddc90b57fdc232dc6a7ef87702720cda71f2d2248418c00fe310d7dd3",
+      "bytes": 208
     },
     {
       "source": "generated/audit_field_batch.py",
@@ -198,6 +588,90 @@
       "source": "generated/kling-tests/chorus1-motion-v01/chorus1-05-motion-v01/submission.json",
       "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-05-motion-v01/submission.json",
       "sha256": "4fe404ec7985d731ed0db9b2e7cc5b7fac548e76793d2a0e440fedec5207a455",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-affirmation-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-affirmation-motion-v01/request.json",
+      "sha256": "f5ff8fc82a809cef3c1afb122d26b564cf87c4ef0b7898d696fcb2e2143312c2",
+      "bytes": 3295
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-affirmation-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-affirmation-motion-v01/submission.json",
+      "sha256": "7123fb51efe49c6a11944cf3fd944428489b446bc966225d5750b73b95a5d5cb",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-cabin-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-cabin-motion-v01/request.json",
+      "sha256": "5e612530e02865d9a9bfeb38a76e02cbd0550bc9d77477158b3f95c933f7c8a2",
+      "bytes": 3413
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-cabin-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-cabin-motion-v01/submission.json",
+      "sha256": "6bebaaf73fb1c5528a5aa8139bd22da835e1a28c06963ffc325a153e0a1e3ec3",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-confirm-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-confirm-motion-v01/request.json",
+      "sha256": "7aed1c37cdbd664b169e351ad9ce9d899cf839e336df2858385adb769a290273",
+      "bytes": 3353
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-confirm-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-confirm-motion-v01/submission.json",
+      "sha256": "e06abd30595eace5a6bca11fda7f1e0b0d5c1fa1fa1ab64da3c51f6ac9a084e1",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-departure-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-departure-motion-v01/request.json",
+      "sha256": "f5142a2941abb65bbf38d0d5dbb05e94614f3bcf19c7ee7942c0a7c5e9251015",
+      "bytes": 4325
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-departure-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-departure-motion-v01/submission.json",
+      "sha256": "2328f7590176a92a495a0e05b7a7eb76b8d0dbb151f451305fa1cd85af21a8df",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-planet-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-planet-motion-v01/request.json",
+      "sha256": "2ab1a8f6f47405bfee7a351a7fcd67eb593c8e7b9fb4bf8ab4dd96fcc17d425c",
+      "bytes": 3153
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-planet-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-planet-motion-v01/submission.json",
+      "sha256": "b91c439afd4dccd7aa61b7664e7281b27dc67c9142df873245ad89ca77f3977b",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-signing-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-signing-motion-v01/request.json",
+      "sha256": "9cb4e3f53872f4a1c74351bb37975263fa186f485f6b4c1050efd95d4839b467",
+      "bytes": 3359
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-signing-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-signing-motion-v01/submission.json",
+      "sha256": "0d66a33f9ca8c627f19b88f79ba83da0413b870bda5a2fba8ea1c571a70be0e3",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-target-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-target-motion-v01/request.json",
+      "sha256": "3751c0919cbd02a19e26ca7e35f18fdd70f021a7fe8c0fc59671fa792b2eb31c",
+      "bytes": 3396
+    },
+    {
+      "source": "generated/kling-tests/departure-discovery-v01/departure-target-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/departure-discovery-v01/departure-target-motion-v01/submission.json",
+      "sha256": "f8bd88c650d4935393884ca5d8379fe3897af5632f7b960e491753ad1ac4c6c5",
       "bytes": 468
     },
     {
@@ -537,6 +1011,198 @@
       "bytes": 468
     },
     {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-001-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-001-motion-v01/request.json",
+      "sha256": "e7957a34e9ab6087cd074d2909eefc7e49e2b95ef79a88542de52a4d4f00f8fb",
+      "bytes": 3229
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-001-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-001-motion-v01/submission.json",
+      "sha256": "a985814e3e75905192bd018c7c48a34d83a5f2c139a11ae6aecf4ba022c5f656",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-002-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-002-motion-v01/request.json",
+      "sha256": "0a22f641da44d375791edd82f8819b6eef9e9f005c9471f1b6a9ba32dc285b52",
+      "bytes": 3467
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-002-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-002-motion-v01/submission.json",
+      "sha256": "aab6c5ac896a65a2c156a7896d090ec221e27db8130292ac84281c6a142e9276",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-003-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-003-motion-v01/request.json",
+      "sha256": "7ca2e19444dc3f6b5bd0e9deb83bc11ee5c73691007328237a657df45838b968",
+      "bytes": 3374
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-003-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-003-motion-v01/submission.json",
+      "sha256": "04394af830773bab1912f72a78bde80baf567b687fd1f16bc76b0ef6fb396f8d",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-004-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-004-motion-v01/request.json",
+      "sha256": "619fba40ca1c9c32783cec31bf4ef475b2ad4728d735cb0a7534750e2e2f6c2e",
+      "bytes": 3282
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-004-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-004-motion-v01/submission.json",
+      "sha256": "aa942ad56ce4072d1303555a3915755f196efe9f8eaba713151c4fa34350aeac",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-005-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-005-motion-v01/request.json",
+      "sha256": "14947a900416a375c8f5e5de05159f2b41867acb6eb26963370ffcd2e8b164e6",
+      "bytes": 3223
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-005-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-005-motion-v01/submission.json",
+      "sha256": "ec56d5e89696b4086824b5668b0076ea1a32cdfbce9f7e1c1cb37ac87f939f5b",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-006-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-006-motion-v01/request.json",
+      "sha256": "36e8b3ff0aa510c4ef05cf5d7b807b866698fcc15c39ec7d8d2bd8b6ff7e7a79",
+      "bytes": 3489
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-006-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-006-motion-v01/submission.json",
+      "sha256": "2bf8ac67826ee74af593eadb70bec6c998b28a872873f45dddc739ca51ca0fbd",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-007-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-007-motion-v01/request.json",
+      "sha256": "6f3bef208a8c8c27336f851d4a6b1d7c564d5ead4f364b680cc90bfd79fd1bc8",
+      "bytes": 3394
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-007-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-007-motion-v01/submission.json",
+      "sha256": "e0c8b49d4f0b04fdee7f916d6b148c93b271d093fee81a884d6f8e343a3caeba",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-008-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-008-motion-v01/request.json",
+      "sha256": "1756dbbaa7e3f32373bc056621be5a132ac17bd6c619100a1184a86e182e83ba",
+      "bytes": 3491
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-008-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-008-motion-v01/submission.json",
+      "sha256": "716775d041496bae7391dc7f34160e003daeddd1aa733877553189d365058a80",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-009-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-009-motion-v01/request.json",
+      "sha256": "f3a7cac8b256282def27e4303e5c6ef30fb7a8d78433c35acfbdca8c672b7d0a",
+      "bytes": 3389
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-009-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-009-motion-v01/submission.json",
+      "sha256": "14e3ce512eb7a43e183f380bcf7ba8a7fff8b45bd570526ecdfd40d1b042dc67",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-010-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-010-motion-v01/request.json",
+      "sha256": "b49fe61014a0918ff686671552e642bc2819ccd97f4d07a75e72360461300464",
+      "bytes": 3459
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-010-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-010-motion-v01/submission.json",
+      "sha256": "853a5a6cbcf9811c1903674ee3797ec6b56fbc5648246dd65b5ae1d3f9221505",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-011-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-011-motion-v01/request.json",
+      "sha256": "37c51ec9ca2c8b432bbe36c9a5ddd088ccc6cfa013a1e83a564f32527d1b92be",
+      "bytes": 3871
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v01/concourse-011-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v01/concourse-011-motion-v01/submission.json",
+      "sha256": "12f49fd013ae571f37911939d1b4fc56d3d317fed83aa4f20c3640df1e28552d",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v02/concourse-006-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v02/concourse-006-motion-v02/request.json",
+      "sha256": "b3e95261096a6513a3825381da9470a4958bf1206c428526c2edfccfe8bcd2f4",
+      "bytes": 3586
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v02/concourse-006-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v02/concourse-006-motion-v02/submission.json",
+      "sha256": "7580a84b0db628cdf7e76e27d691ed03602b482da47003e71e43e9778accbeb0",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v02/concourse-008-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v02/concourse-008-motion-v02/request.json",
+      "sha256": "e9246b385918391efa949503ec0a28fd773f2157611011614c938c09738f2060",
+      "bytes": 3621
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v02/concourse-008-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v02/concourse-008-motion-v02/submission.json",
+      "sha256": "24c6592d399d679a31067e406e00a5dc1f2352e1e216b0d5e88051af72f23e09",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v02/concourse-009-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v02/concourse-009-motion-v02/request.json",
+      "sha256": "1f14568f5e9fd79cd6f69c768802060e0abfe42f772f5cbe24a3d051bb128d8d",
+      "bytes": 3630
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v02/concourse-009-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v02/concourse-009-motion-v02/submission.json",
+      "sha256": "02201db8cfe6f0670e8ce91a77de5769688dfbb7b450be5ea75c80d11a39a399",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v02/concourse-010-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v02/concourse-010-motion-v02/request.json",
+      "sha256": "f134100860cb663ce48556d3fb6c3aa4ebf2ac3cff32dee6e970d9c772ea80bc",
+      "bytes": 4457
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v02/concourse-010-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v02/concourse-010-motion-v02/submission.json",
+      "sha256": "28f97704b6fb76976f0bc815915097eac8781e052be88f88ad8985f06a6a53ab",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v02/concourse-012-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v02/concourse-012-motion-v02/request.json",
+      "sha256": "429bb9ee944a87c0598d91509beaa7d61f748a5ccfa21d9f73bc974e05f9d426",
+      "bytes": 3736
+    },
+    {
+      "source": "generated/kling-tests/station-concourse-v02/concourse-012-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/station-concourse-v02/concourse-012-motion-v02/submission.json",
+      "sha256": "179533d7add212f0166f3c2f15f5bb93d555ec468bb2cc8b79e2038f059ca1b0",
+      "bytes": 468
+    },
+    {
       "source": "generated/kling-tests/window-coast-v01/inlet-v01/request.json",
       "backup": "checkpoint/kling-tests/window-coast-v01/inlet-v01/request.json",
       "sha256": "f9c70ab78b34732a728de0a48630beb65255a801576022e5f1cbbbea0bae4efb",
@@ -609,6 +1275,12 @@
       "bytes": 468
     },
     {
+      "source": "generated/review/accept_v59_savepoint.py",
+      "backup": "checkpoint/review/accept_v59_savepoint.py",
+      "sha256": "860ae6eac2021f6ef242e4040d6b5547e024abb6212a81ccfb0bf4a4505493fc",
+      "bytes": 5499
+    },
+    {
       "source": "generated/review/add_chorus_ideas.py",
       "backup": "checkpoint/review/add_chorus_ideas.py",
       "sha256": "dc349e2ef24ea4466e8aa054e0b45ac4e09e53664e42e3e521139b1bde48ac7f",
@@ -629,7 +1301,7 @@
     {
       "source": "generated/review/current-render.json",
       "backup": "checkpoint/review/current-render.json",
-      "sha256": "498095fdd75c725fb2d8c4c4e4a218c77079ce7cae7baac1b4539395b3b7ed8b",
+      "sha256": "a267d9d3e95e9b414b345920e27545e2591ad0f4003540f60a651e37c75fd49c",
       "bytes": 225
     },
     {
@@ -707,8 +1379,8 @@
     {
       "source": "generated/review/listening-notes.json",
       "backup": "checkpoint/review/listening-notes.json",
-      "sha256": "85b13d85be9b07e876c88c5051fded84981b47dba27e3fc0011c98d9e2b32ae8",
-      "bytes": 20796
+      "sha256": "cd365105acc9ad85075d53ce9b9f52f9be06a42faf99637ad25caf7b4356deb2",
+      "bytes": 51524
     },
     {
       "source": "generated/review/orbit_v02_proof.py",
@@ -879,6 +1551,18 @@
       "bytes": 1598
     },
     {
+      "source": "generated/review/save_concourse_direction.py",
+      "backup": "checkpoint/review/save_concourse_direction.py",
+      "sha256": "571b6148b81ca352d5cbcd7f8d2dfc787b5869bbdbd0d2a6c3f448baf5c2306d",
+      "bytes": 11698
+    },
+    {
+      "source": "generated/review/save_departure_direction.py",
+      "backup": "checkpoint/review/save_departure_direction.py",
+      "sha256": "20d0f196a0bfc5f3859afe7406594b26c78e67dcad4dbf304e9609693cff80dc",
+      "bytes": 10643
+    },
+    {
       "source": "generated/review/verify_native_orbit_v03.py",
       "backup": "checkpoint/review/verify_native_orbit_v03.py",
       "sha256": "f1e50fd8397583d6e4cd19cbd7ad29e1f0d43d7e13f6b4d8f326e8adad6f5131",
@@ -1035,6 +1719,12 @@
       "bytes": 3762
     },
     {
+      "source": "generated/storyboard/ark-replacement-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
+    },
+    {
       "source": "generated/storyboard/ark-replacement-v01/review-manifest.json",
       "backup": "checkpoint/storyboard/ark-replacement-v01/review-manifest.json",
       "sha256": "ea7d52decaac7305cddcd633c86873aae2de305efffdc8d3126f12b3ac3ff880",
@@ -1059,6 +1749,828 @@
       "bytes": 818
     },
     {
+      "source": "generated/storyboard/chorus-revision-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/chorus-revision-v01/lyrics.ass",
+      "sha256": "664f98b84daf70505b600ca6bc9e9faa3f237ed2cd48130710dbb3eb91f0dc23",
+      "bytes": 5547
+    },
+    {
+      "source": "generated/storyboard/chorus-revision-v02/lyrics.ass",
+      "backup": "checkpoint/storyboard/chorus-revision-v02/lyrics.ass",
+      "sha256": "664f98b84daf70505b600ca6bc9e9faa3f237ed2cd48130710dbb3eb91f0dc23",
+      "bytes": 5547
+    },
+    {
+      "source": "generated/storyboard/chorus-revision-v03/lyrics.ass",
+      "backup": "checkpoint/storyboard/chorus-revision-v03/lyrics.ass",
+      "sha256": "9da507f28529bfd5ea4fad7fd79125e06a26c415ac28477b06f024c12d0b809a",
+      "bytes": 6117
+    },
+    {
+      "source": "generated/storyboard/chorus-revision-v04/lyrics.ass",
+      "backup": "checkpoint/storyboard/chorus-revision-v04/lyrics.ass",
+      "sha256": "9da507f28529bfd5ea4fad7fd79125e06a26c415ac28477b06f024c12d0b809a",
+      "bytes": 6117
+    },
+    {
+      "source": "generated/storyboard/chorus-revision-v05/lyrics.ass",
+      "backup": "checkpoint/storyboard/chorus-revision-v05/lyrics.ass",
+      "sha256": "9da507f28529bfd5ea4fad7fd79125e06a26c415ac28477b06f024c12d0b809a",
+      "bytes": 6117
+    },
+    {
+      "source": "generated/storyboard/chorus1-ideas-v01/concat.txt",
+      "backup": "checkpoint/storyboard/chorus1-ideas-v01/concat.txt",
+      "sha256": "dadcb700b8010ee2e75d7c10bba8e07467dd873dd0bc181b94b96c4e693ab4d1",
+      "bytes": 115
+    },
+    {
+      "source": "generated/storyboard/chorus1-ideas-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/chorus1-ideas-v01/lyrics.ass",
+      "sha256": "4bdd90daf66601fd8156dbbdac518673b8410bc27c4b25ef28d52fad522bcf82",
+      "bytes": 3326
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/assembly-plan.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/assembly-plan.json",
+      "sha256": "033d2c550b07fbf0934d632d8ffa0877b2a40551046da0bfa0f633142aaa9452",
+      "bytes": 1334
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/build.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/build.py",
+      "sha256": "1d03131cba6f526ce6bf60801b57f5cef92f95e2e2924a53077372e3d354855a",
+      "bytes": 6148
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/concat.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/concat.txt",
+      "sha256": "d89327e5ae50f4f8786e609fc5e99f2af075dd57a4d1f3dd52f21acd52f305dc",
+      "bytes": 376
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/finish.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/finish.py",
+      "sha256": "660da75c794af62bb4eb3de9774aefdf7c6f8e8c2d80cbc04b0074b7591f1650",
+      "bytes": 5028
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/inspect_native.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/inspect_native.py",
+      "sha256": "541d77b0d2738b7a14c055037a4aaeac6a97f41717ed103d89e86b980cfff572",
+      "bytes": 2612
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/lyrics.ass",
+      "sha256": "531707eff3099b8b8d6ae19c63df58d7d146bb1a3c3d4280cf50223fda82261c",
+      "bytes": 6461
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/native-review.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/native-review.json",
+      "sha256": "8fc083641db7a88fb7c6e2470c5fd0fc0fb6749d75e98fe1e3ccfc3a6cbb1fd6",
+      "bytes": 2309
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/pullback-frame-map.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/pullback-frame-map.json",
+      "sha256": "f3b0e89e7e90f4df8b89e202fcabedfe05371dce2d27895e2cba008a7bed436c",
+      "bytes": 9798
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/retime_pullback.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/retime_pullback.py",
+      "sha256": "4b52094629b9df1dcdc74056a0cfd7065e239a43ac266c86c350b70858accdb8",
+      "bytes": 2494
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/review-manifest.json",
+      "sha256": "565d75a9b566e8c111aba1de583f66c082e7ba55a63fa9898b53280dbb6f2843",
+      "bytes": 6077
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/review-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/review-options.json",
+      "sha256": "2758f881c5321790c1419a3f17e979ba2768af833b480f19245547ed5a6d07ee",
+      "bytes": 790
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/timing-check.json",
+      "sha256": "4dfadd49094d1b6f728263a7cd0068bf58e39ddb60154708097dea0780e28d60",
+      "bytes": 1202
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v01/verification.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v01/verification.json",
+      "sha256": "2cf03623d7f9841d420e34667fbd7c1ca4dd741d3546c3e4849f0c151d01371b",
+      "bytes": 2688
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v02/concat.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v02/concat.txt",
+      "sha256": "894fad54c3349a85663bb3e5d4906ac8e8de62134c0990ea816943b9f81c3dc4",
+      "bytes": 1609
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v02/finish.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v02/finish.py",
+      "sha256": "6a55d0eff8f1a27afc592da05e5b521f57ba9f0255fc2fee2678a61fab2046b6",
+      "bytes": 2784
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v02/lyrics.ass",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v02/lyrics.ass",
+      "sha256": "531707eff3099b8b8d6ae19c63df58d7d146bb1a3c3d4280cf50223fda82261c",
+      "bytes": 6461
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v02/reverse-frame-map.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v02/reverse-frame-map.json",
+      "sha256": "1233ff8c6c7095ccd70ab68613b8aa8841e9f5fc400ae71bd27235fdb3d53fc6",
+      "bytes": 13610
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v02/reverse_departure.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v02/reverse_departure.py",
+      "sha256": "8529d179f4232b9b42c98c715a1e94cd5b1e509cb050b01d58739d25f88d8113",
+      "bytes": 6271
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v02/review-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v02/review-options.json",
+      "sha256": "400e2e819f35eea6c8ee5d4c8adc7cbcad594409942f7039ebdefea9663b9619",
+      "bytes": 736
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v02/verification.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v02/verification.json",
+      "sha256": "55c65d2655d5589ce59c1391dd99365d234ef9c4aeda45f6ef223b10cc176e8c",
+      "bytes": 281
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v03/build_zoom_overlap.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v03/build_zoom_overlap.py",
+      "sha256": "e1753e4bfccd8b19c83b916af7945806ca2ba8c98b0fd7865b72e4f9b88c64b5",
+      "bytes": 9132
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v03/concat.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v03/concat.txt",
+      "sha256": "2bc283be0ae567e6b9d887848503599de60f22b8f6d30d5d0de5e7a85da7b032",
+      "bytes": 1610
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v03/finish.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v03/finish.py",
+      "sha256": "1714a7b1157c90fe6e877ad2d588d1d6da1c221f82d3a89e96eccdef68020c17",
+      "bytes": 2857
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v03/lyrics.ass",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v03/lyrics.ass",
+      "sha256": "531707eff3099b8b8d6ae19c63df58d7d146bb1a3c3d4280cf50223fda82261c",
+      "bytes": 6461
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v03/review-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v03/review-options.json",
+      "sha256": "a667c5fe01a26eb3a1bf896b95c4b2dddbab708537b19bbe3acf7ba1d19ff365",
+      "bytes": 786
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v03/timing-check.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v03/timing-check.json",
+      "sha256": "1bf69718ad9d49c0ec2956995b2c863dbe1881576efd0d4a2273f15d2c418728",
+      "bytes": 4155
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v03/verification.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v03/verification.json",
+      "sha256": "4b7f091974ab9ded506ae08ad78a799ca3f9cfdecea510dff9c775b1811bd752",
+      "bytes": 295
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v03/verify_frames.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v03/verify_frames.py",
+      "sha256": "b76409594e47d769ba0b614df86db7fe9830555fe5112eb438545234223f412f",
+      "bytes": 1277
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/assemble_departure.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/assemble_departure.py",
+      "sha256": "b637dfc42c29c2220a904736cc2dd7d7db45a19460c164e22358187ae96f7f9e",
+      "bytes": 1668
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/blender_pullout.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/blender_pullout.py",
+      "sha256": "89b28231a19b6c65e03d2b97411bc8faed6f9ffb677e19b30814aff7dba29a04",
+      "bytes": 4105
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/build_zoom_overlap.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/build_zoom_overlap.py",
+      "sha256": "da39949c6daa29fb063e49328b5707b3e745936a53e994ce59c8948cfd505007",
+      "bytes": 9581
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/concat.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/concat.txt",
+      "sha256": "e4c9ba00f6aeaeeee497f379cebc50be8132dfce61db92cfe8cfc62c4831bb69",
+      "bytes": 1611
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/departure-manifest.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/departure-manifest.json",
+      "sha256": "96b56ee57dc83041bef76ee92f47bb18ffc76fec8e92635bf4ed9ffcb3fbe0de",
+      "bytes": 779
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/finish.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/finish.py",
+      "sha256": "19a5bab3bd28252f96ebcd55c2221b5dc4e4923ff91da061454d8c9faaaba616",
+      "bytes": 6668
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/lyrics.ass",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/lyrics.ass",
+      "sha256": "531707eff3099b8b8d6ae19c63df58d7d146bb1a3c3d4280cf50223fda82261c",
+      "bytes": 6461
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/prepare_variant.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/prepare_variant.py",
+      "sha256": "5ddd357bd2a1551aaa6212886f06b097e5d65b1ca7803937b4f635163352ebfc",
+      "bytes": 2241
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/review-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/review-options.json",
+      "sha256": "7adf6436bf5c2a1728d52a77fffc616048b41650cbf2caeda1b2eb73e92f060f",
+      "bytes": 815
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/timing-check.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/timing-check.json",
+      "sha256": "068e00b5e328441b7bad69c19797f01620471d5b07dea375582755c7a4b4095e",
+      "bytes": 4155
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/verification.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/verification.json",
+      "sha256": "e55b84472a7c2b1337ab223f0b594db82b1a4cd91a1a63859c145f1ee637167f",
+      "bytes": 1211
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v04/verify_frames.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v04/verify_frames.py",
+      "sha256": "99809ea840573759178fae66bf9aaac358e03351b42b5c2ffc6434799509f99b",
+      "bytes": 1301
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v05/assemble.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v05/assemble.py",
+      "sha256": "060afecab75cf65b5538e7c04a5d16124eb04bad94678030e99e35f61186d67c",
+      "bytes": 6605
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v05/brighten_twinkle.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v05/brighten_twinkle.py",
+      "sha256": "cfa387a221ef1e1f1d1e7157b99c8c0a5c6bf06fc12b2cb6f467ed4457216d80",
+      "bytes": 1500
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v05/concat.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v05/concat.txt",
+      "sha256": "0b850b81d46b04429001d95b93a98a0b6173754b8fa4a34c74547490a5a3c86b",
+      "bytes": 1611
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v05/finish.py",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v05/finish.py",
+      "sha256": "962148e2519602d599ef184a4b5fb976437ebb7716e399111fc3b46da00ad648",
+      "bytes": 2512
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v05/lyrics.ass",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v05/lyrics.ass",
+      "sha256": "531707eff3099b8b8d6ae19c63df58d7d146bb1a3c3d4280cf50223fda82261c",
+      "bytes": 6461
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v05/review-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v05/review-options.json",
+      "sha256": "361b43372baf7d7bf808587fbad66cccbfcfffbcc28e8737b553a0a598aef029",
+      "bytes": 771
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-motion-v05/verification.json",
+      "backup": "checkpoint/storyboard/departure-discovery-motion-v05/verification.json",
+      "sha256": "07035ad8261f3eedc5de7fc5f69d94a9eac526378ee09ebbe86f7a6f90251b14",
+      "bytes": 1479
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/affirmation.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/affirmation.actual-generation.json",
+      "sha256": "350bca0711e55e5fe5c73b3394df194b4bf46dde79c7c34d220a44e757767895",
+      "bytes": 3398
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/affirmation.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/affirmation.prompt.txt",
+      "sha256": "eb028b75ef5529b15272c0a8935129bcc757c2e3673d8297201d8cccd41d0084",
+      "bytes": 2328
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/build.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/build.py",
+      "sha256": "8a2d787e14f98a2773f672da3c1a688ef9046c12dcaed91455218bf8812731f3",
+      "bytes": 3525
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/cabin-distance.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/cabin-distance.actual-generation.json",
+      "sha256": "92ec64ad470e8f412a2666fcc99749bc599e64dca17442118fef8bede1e2be94",
+      "bytes": 4016
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/cabin-distance.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/cabin-distance.prompt.txt",
+      "sha256": "378f8c06e0b49da25e65293bda26495af87cdd56eb24baa1aaaad2a89855698b",
+      "bytes": 2608
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/check_render.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/check_render.py",
+      "sha256": "8f112ae884fec7d3eb1587741f8c9819b711a15379d9998d96793b1a2e721b2d",
+      "bytes": 990
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/confirm-course.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/confirm-course.actual-generation.json",
+      "sha256": "3e71afd45416ed5cd383e2dbf235dd9867655a264c072cd1dfd9113c95bba7b3",
+      "bytes": 3496
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/confirm-course.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/confirm-course.prompt.txt",
+      "sha256": "3ef6d7f47ee8f5e08828d74deb4ca9768172a2305c7d81e065883c2a60b3756f",
+      "bytes": 2384
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/distant-station.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/distant-station.actual-generation.json",
+      "sha256": "156f2200b06ccd4a1fd632c1e52d7deb8836bff63a2761d6b436b7882a3f9b4b",
+      "bytes": 3245
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/distant-station.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/distant-station.prompt.txt",
+      "sha256": "7ffec3772f6e39c21aa8e692397a32c4d042ba18a2655c06f011e8c30a43fce4",
+      "bytes": 2320
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/finish.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/finish.py",
+      "sha256": "00e33221fa96996495d21a0533e9d2a06b6142b6408fcd94e52bd3029eacdd86",
+      "bytes": 3573
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/gallery-manifest.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/gallery-manifest.json",
+      "sha256": "fa579df993b5dec42af2cdbdd68820cd86528bd5a1737bd65f265d8fce75bad6",
+      "bytes": 48262
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/gallery-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/gallery-options.json",
+      "sha256": "3a67b40a497bb8bd7dc66fe63213dbe4c585d8d2fc09a3dc3e03944db88df19a",
+      "bytes": 129
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/generation-input.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/generation-input.json",
+      "sha256": "e6ea80ef4ece65c8780db1b937b99877abe5f65a402831063117c04a245ce655",
+      "bytes": 39489
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/lyrics.ass",
+      "sha256": "531707eff3099b8b8d6ae19c63df58d7d146bb1a3c3d4280cf50223fda82261c",
+      "bytes": 6461
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/planet-reveal.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/planet-reveal.actual-generation.json",
+      "sha256": "7f587ba173b66d0b8f140f35578bc15bfd5ed17e4c66b5c6a152c966ee2a5911",
+      "bytes": 3720
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/planet-reveal.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/planet-reveal.prompt.txt",
+      "sha256": "105ee2f9eefff7ea24297b4855a38a633af0c905d5e2586a30f18565496afe54",
+      "bytes": 2856
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/prepare.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/prepare.py",
+      "sha256": "35ba785f4b5d236504f88f1ee65ba8ba00cb1d93ae043c6fdfad1e466effeb45",
+      "bytes": 5124
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/review-manifest.json",
+      "sha256": "1c1f75a6bdf80197c4c237341c30679007f2c1519b219b594f9a6d6f9358df3e",
+      "bytes": 85656
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/review-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/review-options.json",
+      "sha256": "ebe3ecbd35eee73102675bcb1ecc16df6e30ce5d82dd673f8d986efc45739ceb",
+      "bytes": 782
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/signing.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/signing.actual-generation.json",
+      "sha256": "74f016291c9fc754bca7b42efe2b97787f2a781cc209d43a5f58c3e6ac569dc1",
+      "bytes": 5491
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/signing.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/signing.prompt.txt",
+      "sha256": "14ffe1769d8339e2f9900fd578831ac5d86fd3bbddf1ff6ea272bfdf7276a802",
+      "bytes": 2187
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/target-profile.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/target-profile.actual-generation.json",
+      "sha256": "424ba027ff346d1275e79f290af9dcaa39884a436195ee77517c3cd06b9074e7",
+      "bytes": 3866
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/target-profile.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/target-profile.prompt.txt",
+      "sha256": "1e3a50b96c4d498e4ef162fc76629159cbffada8362171c82e09bac2e6c8d8a6",
+      "bytes": 2557
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/timing-check.json",
+      "sha256": "de7bb5eea7c7b89e31cab0e3cb0acb8b0df473fa1388a05c14a156496f87e519",
+      "bytes": 5571
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/undocking.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/undocking.actual-generation.json",
+      "sha256": "cc3a2141af184f5c78574c8978fa26a7768f86f08f53e73e5c92846f6775918c",
+      "bytes": 3438
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/undocking.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/undocking.prompt.txt",
+      "sha256": "00f74d92c77c9f1f9e8d4786224eae0e6315870df69f43b5730ed6f958570483",
+      "bytes": 2349
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/verification.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/verification.json",
+      "sha256": "afff8528923d64c8ca206261ab9513bfd9dca9ae5d6a07f85420ccfbe0438c72",
+      "bytes": 1533
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-01.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-01.actual-generation.json",
+      "sha256": "596baddd15746e24041e3cbff450b5fb79e9c297abe077e0d061fe2f916d0a2e",
+      "bytes": 2854
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-01.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-01.prompt.txt",
+      "sha256": "d7b39deab1d99d6ead79c9db1bdc60f2bdd9e03c6fd3cc9f82811c27d2143140",
+      "bytes": 2219
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-02.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-02.actual-generation.json",
+      "sha256": "a4250aaa53e2255176f92df6263bda22813033ede9b3be218a84e7d90aa773cb",
+      "bytes": 2999
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-02.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-02.prompt.txt",
+      "sha256": "2946983d9135165691b0826dc0a926d7331e46544d4b7c13ca02aaf02352ec94",
+      "bytes": 2317
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-03.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-03.actual-generation.json",
+      "sha256": "8f2f7ffd7ff8cb6cecf9366051bb5fdf9526c3db46f4f5dc4bebdba66e4cc57a",
+      "bytes": 3063
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-03.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-03.prompt.txt",
+      "sha256": "70d5ccea73daac2d7baafd76dcfae7346c1749843b2d331e3906478957b3c4f1",
+      "bytes": 2360
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-04.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-04.actual-generation.json",
+      "sha256": "a39d216d4526a9d88c3bbdf8d6391b07d3046b890182138dace4eaeb883b6dd2",
+      "bytes": 3891
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-04.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-04.prompt.txt",
+      "sha256": "6b115433df955358c1a5978df779333fabc29a1d35cd621b11bb1b686efd6083",
+      "bytes": 3057
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-05.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-05.actual-generation.json",
+      "sha256": "03ddfa2ba1abdd295acd5afd740050d51ab6ba8a3ead32ebbc6ad7b5cf3591fc",
+      "bytes": 4092
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-05.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-05.prompt.txt",
+      "sha256": "6bd981555a1d5b97a0e07d427130e855a93dfbc5c6fbf808cd52f2f3d7170a7f",
+      "bytes": 3302
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-06.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-06.actual-generation.json",
+      "sha256": "a7e468b3946fd99052b129db2a5ffbe185b167f90fece0d13cbf8a960b26b9aa",
+      "bytes": 3433
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-06.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-06.prompt.txt",
+      "sha256": "825eb5bce896a36d02dcf2ab2c9914af593b9d56a99bd862901eb16ac6d92f7c",
+      "bytes": 2745
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-07.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-07.actual-generation.json",
+      "sha256": "1d1205d670bbd32d2367fec7a0445c6bdf8c0a6937d3970892644e46ac7a24e3",
+      "bytes": 4132
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-07.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-07.prompt.txt",
+      "sha256": "04ae07e4a43b29c1f7a59858494e1f417bfafedc6f20f8fe48a2f6b928db47f9",
+      "bytes": 3300
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-08.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-08.actual-generation.json",
+      "sha256": "039e830cd83bc115fa0fc6968645f1a6973995e4bcde702315f286d682569307",
+      "bytes": 4290
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-08.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-08.prompt.txt",
+      "sha256": "1ef387682e8a7635f66de05c54e2d35505be54e019a2df396fcde32d2920f750",
+      "bytes": 3458
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-09.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-09.actual-generation.json",
+      "sha256": "0ef781044b3b51ee54de274c484171cd5e3fae4032af5910095762931bccec52",
+      "bytes": 4204
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-09.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v01/zoom-09.prompt.txt",
+      "sha256": "e26f56adc5b364671c94c284edc0eb7785f672ca830f7ed117f75e3bfff2a95b",
+      "bytes": 3003
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v02/build.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v02/build.py",
+      "sha256": "8f4f40864685fa54153e153b972f89d36c285671178d3112232194cd4f5d2bbc",
+      "bytes": 3599
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v02/finish.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v02/finish.py",
+      "sha256": "42a5c6ab7eae9f75cf009d54ab72ce7305cb54ad6a13c2dd809280c98a6e5ccd",
+      "bytes": 3918
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v02/gallery-manifest.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v02/gallery-manifest.json",
+      "sha256": "06c34a54f502d70170166ec2461eefcc4e9e0780614a800d37f748553c606bff",
+      "bytes": 49991
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v02/gallery-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v02/gallery-options.json",
+      "sha256": "885bf3e908eecf7f8af133eb9a8ca04eb4aa4b9a6be59dfdfc503b860f238645",
+      "bytes": 146
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v02/lyrics.ass",
+      "backup": "checkpoint/storyboard/departure-discovery-v02/lyrics.ass",
+      "sha256": "531707eff3099b8b8d6ae19c63df58d7d146bb1a3c3d4280cf50223fda82261c",
+      "bytes": 6461
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v02/review-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v02/review-options.json",
+      "sha256": "ff10a4001b48b9cf0cef3c84f9f64d4dcf310a2f1af976ec9f0e9adcbc0e3a9c",
+      "bytes": 629
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v02/revise.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v02/revise.py",
+      "sha256": "615e6473754ee6c5b7d9e03e4d9cc7f3a3437e16c74dff7bd56809b3c4e89da8",
+      "bytes": 4341
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v02/timing-check.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v02/timing-check.json",
+      "sha256": "e8dd0e4e9da59931920d1bf5f956a2dd9c66d4032af3038a03e1886a5f9691c7",
+      "bytes": 5571
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v02/undocking.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v02/undocking.actual-generation.json",
+      "sha256": "4abbf141c08309e2ca5316b519186f26b61364b80feaf44984ddc8c9880f338e",
+      "bytes": 484
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v02/undocking.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v02/undocking.prompt.txt",
+      "sha256": "f645d350f1cc775d2fd39efbf25712f6f7fae6e4138eca263fdbb097dfb29bd3",
+      "bytes": 3627
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v02/verification.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v02/verification.json",
+      "sha256": "927b9d5a01833f12deb05c196adf603a3af1c5720d491a4c38e5b953163412f2",
+      "bytes": 1533
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/build.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/build.py",
+      "sha256": "1f121d32ac2d07a76e18c1ee9b45b9f5cebe463e8fc9a44b17298abb572b705a",
+      "bytes": 3599
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/finish.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/finish.py",
+      "sha256": "b998b0eac384812c0da1a46957c94917bfba698d00ca654f8a01357a2d5bf01f",
+      "bytes": 3918
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/gallery-manifest.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/gallery-manifest.json",
+      "sha256": "bf656a46641d895ed73bfcbe9738f139297fa50b0921eda066cea858318d6198",
+      "bytes": 50874
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/gallery-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/gallery-options.json",
+      "sha256": "17bab9eada561d5c47cd5f592856c5d7176e71f18e9b4912963f3f04c87d3232",
+      "bytes": 148
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/lyrics.ass",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/lyrics.ass",
+      "sha256": "531707eff3099b8b8d6ae19c63df58d7d146bb1a3c3d4280cf50223fda82261c",
+      "bytes": 6461
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/prepare_revision.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/prepare_revision.py",
+      "sha256": "83e35133f1a5d7570dbe7890b692e9ce9f052e84ca43b761198abbf337b70b8b",
+      "bytes": 3350
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/review-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/review-options.json",
+      "sha256": "d9f3c0dac5fa17b5b59375fa0f5610f2b7423624f0c2f729195718118ca09f5c",
+      "bytes": 630
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/revise.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/revise.py",
+      "sha256": "9733374c78e4e9f10e7f34f9c86ea8b50710ce071efc0703ed2e96ca6d5573b7",
+      "bytes": 4814
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/timing-check.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/timing-check.json",
+      "sha256": "5c03b8e58d6aec812fb11989542924228453c0a4d7c3388e629e1285852a8eb3",
+      "bytes": 5571
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/undocking.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/undocking.actual-generation.json",
+      "sha256": "326a92a5560e09d902250be9101ae6694ca40921760265713be787719a3bcae1",
+      "bytes": 474
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/undocking.attempt-1.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/undocking.attempt-1.prompt.txt",
+      "sha256": "b66b175adb907042b7b129e45746f59d16e6737feefa622e1b4e8fc0ca9f1582",
+      "bytes": 3736
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/undocking.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/undocking.prompt.txt",
+      "sha256": "d7879a3d91232c5e655514a919c2822a382222a276913aee7f45430e79328a03",
+      "bytes": 4497
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v03/verification.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v03/verification.json",
+      "sha256": "ca4f3fd1bd4ae7cd4802eceb1e147613ce77c65145654707270d8b764ecd1146",
+      "bytes": 1533
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/build.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/build.py",
+      "sha256": "79abb10f7e30c51ab08d8236342a83f6bac4871e1bfe99329f1a89f00071f217",
+      "bytes": 3599
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/finish.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/finish.py",
+      "sha256": "6642e4bea2299020740322ee8366feed5db6b44b76593f5472be4304cee25268",
+      "bytes": 4162
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/gallery-manifest.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/gallery-manifest.json",
+      "sha256": "cadfec0be77c0f6d05722e9d4f8202d97c72d7a378a6683cf132b3fa0a441c55",
+      "bytes": 49276
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/gallery-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/gallery-options.json",
+      "sha256": "5707b3ef7ad84f1161358712e84ad9c5f81dcf2d5928752e1ba9a2b846042d08",
+      "bytes": 148
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/lyrics.ass",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/lyrics.ass",
+      "sha256": "531707eff3099b8b8d6ae19c63df58d7d146bb1a3c3d4280cf50223fda82261c",
+      "bytes": 6461
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/prepare_motion.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/prepare_motion.py",
+      "sha256": "2800e70a0bef0cb4d68ead4f0456839d239faebbc8312818f7ae5a6a7842d959",
+      "bytes": 9164
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/prepare_revision.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/prepare_revision.py",
+      "sha256": "aecc2788a0acb62155b7ed67d55f32035f2c9ed14df4d39b4fecd7e94817c6ce",
+      "bytes": 3056
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/review-options.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/review-options.json",
+      "sha256": "2820271bd63c85890b10ce58b47d884a9dd2c52ab8182416eff37fdafcdd8e7e",
+      "bytes": 626
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/revise.py",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/revise.py",
+      "sha256": "e9bf0a01d337ad3bb258355b04cafa2a861d91a8a6e9bb90cbf777cf8691c61e",
+      "bytes": 5809
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/timing-check.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/timing-check.json",
+      "sha256": "3d887b1c7b2ae59fd5b624ec2dc3cd943ac221a0e7ee1ccda9152c46c933351a",
+      "bytes": 5571
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/undocking.actual-generation.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/undocking.actual-generation.json",
+      "sha256": "ed56fad75e244b51540dacb1943d0d2c2d581107ee77eb96bcfd5689eac153f9",
+      "bytes": 430
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/undocking.prompt.txt",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/undocking.prompt.txt",
+      "sha256": "05038a1c28d7a0d586f51eb2ce87bacc5bd7ddc2f5bf94334e39c0491e710373",
+      "bytes": 2909
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/verification.json",
+      "backup": "checkpoint/storyboard/departure-discovery-v04/verification.json",
+      "sha256": "4c2775c0f3fafbb039d86f1190f1086e6abb472bbf89afb0952dbc32849ebde1",
+      "bytes": 1533
+    },
+    {
       "source": "generated/storyboard/depth-field-experiments-v01/inspect-hybrid.py",
       "backup": "checkpoint/storyboard/depth-field-experiments-v01/inspect-hybrid.py",
       "sha256": "fc94efb42286a855fbc06055a31cd2d41b1c3fe8927f555a4f314091b349be6f",
@@ -1069,6 +2581,12 @@
       "backup": "checkpoint/storyboard/escape-approach-motion-v01/accept_full_review.py",
       "sha256": "9c9b469b3abdda9bbd6314e64707c9c55397f1e9a2811cc33a99905712706be2",
       "bytes": 3166
+    },
+    {
+      "source": "generated/storyboard/escape-approach-motion-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/escape-approach-motion-v01/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
     },
     {
       "source": "generated/storyboard/escape-approach-motion-v01/source-verification.json",
@@ -1093,6 +2611,12 @@
       "backup": "checkpoint/storyboard/escape-approach-v01/lab2-08.prompt.txt",
       "sha256": "ec923d39175f9cde1b74eeb99118bcb5aa353501e87fc1d7e97bcb057af7ff6c",
       "bytes": 3141
+    },
+    {
+      "source": "generated/storyboard/escape-approach-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/escape-approach-v01/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
     },
     {
       "source": "generated/storyboard/escape-approach-v01/prepare.py",
@@ -1135,6 +2659,12 @@
       "backup": "checkpoint/storyboard/escape-approach-v01/timing-check.json",
       "sha256": "4a8515ec5a7929b728b50a39a810bdb051e6db38fade4a4659b342b5af575b41",
       "bytes": 1443
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-motion-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/escape-ejection-motion-v01/lyrics.ass",
+      "sha256": "32edbc44958e3e82a1e49fdacfc8704a10e42e294e73c29da88452d95b688144",
+      "bytes": 5940
     },
     {
       "source": "generated/storyboard/escape-ejection-motion-v01/source-verification.json",
@@ -1201,6 +2731,12 @@
       "backup": "checkpoint/storyboard/escape-ejection-v01/generation-input.json",
       "sha256": "b2b7ffba376a3dfe149f5fb97c6c64766c78126896051c7336e8c914bfff39bc",
       "bytes": 12185
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/lyrics.ass",
+      "sha256": "32edbc44958e3e82a1e49fdacfc8704a10e42e294e73c29da88452d95b688144",
+      "bytes": 5940
     },
     {
       "source": "generated/storyboard/escape-ejection-v01/prepare.py",
@@ -1275,6 +2811,24 @@
       "bytes": 2431
     },
     {
+      "source": "generated/storyboard/hologram-v01/work/lyrics.ass",
+      "backup": "checkpoint/storyboard/hologram-v01/work/lyrics.ass",
+      "sha256": "6dcc8af04d22318fb7bb894f2c7f4b0a7ff22b0c82a66cc507e6b07de4cc9c47",
+      "bytes": 1323
+    },
+    {
+      "source": "generated/storyboard/kling-world-below-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/kling-world-below-v01/lyrics.ass",
+      "sha256": "f24d56edfca28dd20f647b18cd9588b62a4a02922b015f81cdc66eb58168715e",
+      "bytes": 1283
+    },
+    {
+      "source": "generated/storyboard/lab-motion-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/lab-motion-v01/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
+    },
+    {
       "source": "generated/storyboard/lab-motion-v01/timing-check.json",
       "backup": "checkpoint/storyboard/lab-motion-v01/timing-check.json",
       "sha256": "a6041fecd256c55e33dacddd5c95b5daaa9e59dedf434645f51cd80ea134cfd8",
@@ -1293,6 +2847,12 @@
       "bytes": 3867
     },
     {
+      "source": "generated/storyboard/lab-robot-cutaway-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/lab-robot-cutaway-v01/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
+    },
+    {
       "source": "generated/storyboard/lab-robot-cutaway-v01/timing-check.json",
       "backup": "checkpoint/storyboard/lab-robot-cutaway-v01/timing-check.json",
       "sha256": "8de6f9b1237ffb78bec7ae40ec8cd05aed2e3e93226503923c98f7084e4b9abe",
@@ -1305,6 +2865,12 @@
       "bytes": 525
     },
     {
+      "source": "generated/storyboard/lab-robot-motion-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/lab-robot-motion-v01/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
+    },
+    {
       "source": "generated/storyboard/lab-robot-motion-v01/timing-check.json",
       "backup": "checkpoint/storyboard/lab-robot-motion-v01/timing-check.json",
       "sha256": "cfea951db29696e611f4e2da44ac80dde9328f305f498ce4f1eff385db1022a5",
@@ -1315,6 +2881,12 @@
       "backup": "checkpoint/storyboard/lab-robot-motion-v01/verification.json",
       "sha256": "3a7c1c89ffcb657f4ab9def2ccedeededee6bbb8db20d24b93df5a451aec364a",
       "bytes": 468
+    },
+    {
+      "source": "generated/storyboard/lab-silver-motion-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/lab-silver-motion-v01/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
     },
     {
       "source": "generated/storyboard/lab-silver-motion-v01/timing-check.json",
@@ -1383,6 +2955,12 @@
       "bytes": 2933
     },
     {
+      "source": "generated/storyboard/lab-silver-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/lab-silver-v01/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
+    },
+    {
       "source": "generated/storyboard/lab-silver-v01/review-manifest.json",
       "backup": "checkpoint/storyboard/lab-silver-v01/review-manifest.json",
       "sha256": "ed9ad772c9e47ba01d2488a07306cccf9e9d9c320fbee6f1ab6ed92491f87646",
@@ -1411,6 +2989,12 @@
       "backup": "checkpoint/storyboard/lab-verse-v01/lab2-03.prompt.json",
       "sha256": "5c3589b873870d056e8052849da95cc53a4ddd6ea1bb4abffff1a6ae45fb3ca7",
       "bytes": 4145
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/lab-verse-v01/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
     },
     {
       "source": "generated/storyboard/lab-verse-v01/review-manifest.json",
@@ -1449,6 +3033,12 @@
       "bytes": 4443
     },
     {
+      "source": "generated/storyboard/lab-verse-v02/lyrics.ass",
+      "backup": "checkpoint/storyboard/lab-verse-v02/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
+    },
+    {
       "source": "generated/storyboard/lab-verse-v02/review-manifest.json",
       "backup": "checkpoint/storyboard/lab-verse-v02/review-manifest.json",
       "sha256": "47115a8d9f781cac75b29e1c7a320b39bb6f0e26b702930830ab589025f2b890",
@@ -1465,6 +3055,12 @@
       "backup": "checkpoint/storyboard/lab-verse-v02/verification.json",
       "sha256": "48824d6528f33fba4bcfd6a4357688f349edf276452a112a46c889cd3162ccd8",
       "bytes": 381
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-motion-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-motion-v01/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
     },
     {
       "source": "generated/storyboard/robot-ship-so-bright-motion-v01/source-verification.json",
@@ -1489,6 +3085,12 @@
       "backup": "checkpoint/storyboard/robot-ship-so-bright-v01/lab2-08.prompt.txt",
       "sha256": "c4e42bae021db5988720b9fe3db03ddad7c2f146e0d00a926645df2b8a78a612",
       "bytes": 2910
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v01/lyrics.ass",
+      "sha256": "6c31bbb43d3cc54c6f0820d21c06d9a5df089d0a11be2c2dc389209a60ca2586",
+      "bytes": 4560
     },
     {
       "source": "generated/storyboard/robot-ship-so-bright-v01/prepare.py",
@@ -1551,10 +3153,880 @@
       "bytes": 3289
     },
     {
+      "source": "generated/storyboard/schematic-fade-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/schematic-fade-v01/lyrics.ass",
+      "sha256": "f2a943e489508764bdf4bd48bf666004585bdc820ef6d41a593b36c211960bf2",
+      "bytes": 868
+    },
+    {
       "source": "generated/storyboard/schematic-fade-v01/verification.json",
       "backup": "checkpoint/storyboard/schematic-fade-v01/verification.json",
       "sha256": "ba35a6f4c4f0daeed1eeab75ea0cbde9714ea980f7af326c5ee566101220c0e9",
       "bytes": 772
+    },
+    {
+      "source": "generated/storyboard/space-notes-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/space-notes-v01/lyrics.ass",
+      "sha256": "1a227f1f72a7e65560bc9e35df40f145d586271ea32dbe1f0ba9bfae3d5a3963",
+      "bytes": 4035
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/build.py",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/build.py",
+      "sha256": "b1bdadcd9a257979ca9b0ed7751a4dbaf62bd48c7bb5d04bf2f293385e6e6a4f",
+      "bytes": 7673
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/concourse-001.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/concourse-001.prompt.txt",
+      "sha256": "02a5cefc966cf6cc0322bdc9a479eb665ec69b71d7344324d7485bcc6571011c",
+      "bytes": 2601
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/concourse-002.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/concourse-002.prompt.txt",
+      "sha256": "2e2313b6488d5e093ebf535b0e873b0ab55009c2281df7b916e171917ac113ab",
+      "bytes": 2739
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/concourse-003.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/concourse-003.prompt.txt",
+      "sha256": "7a051b0d58227a85c78fdf4bed39dd8f2a405ba151d0438fbf65497ea08f0e08",
+      "bytes": 2656
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/concourse-004.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/concourse-004.prompt.txt",
+      "sha256": "f2b29ee69b61635cfa26de1ff0d19acfb8a257dbf32df2a89eaedc41b6a3e40b",
+      "bytes": 2638
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/concourse-005.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/concourse-005.prompt.txt",
+      "sha256": "4aade0517e8cae244f6c52573405e1878e33718336650a083e491478bc5e4ef5",
+      "bytes": 2585
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/concourse-006.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/concourse-006.prompt.txt",
+      "sha256": "7f7c6ddf8fb03199f31c4907dd4cdfe5ab774f9645e064719eb73c612d72a210",
+      "bytes": 2749
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/concourse-007.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/concourse-007.prompt.txt",
+      "sha256": "025df5d0f8662a50b7619336b9a028b99a17be44ce4fa2f557ccd868c4a4532d",
+      "bytes": 2672
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/concourse-008.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/concourse-008.prompt.txt",
+      "sha256": "31462a4a5ff0d09c9ee18f86f798e491b7db6bb6b551bdc68f13e982588b3724",
+      "bytes": 2771
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/concourse-009.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/concourse-009.prompt.txt",
+      "sha256": "e4bcef49ccbd57506def2af61cea7b13fe76a4e60732c8b45060f81742e7f2db",
+      "bytes": 2669
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/concourse-010.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/concourse-010.prompt.txt",
+      "sha256": "ffef65d6c5edebcc9e5326b1ece040489c14b011ce8da87578e7da5bd3885c9f",
+      "bytes": 2724
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/concourse-011.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/concourse-011.prompt.txt",
+      "sha256": "908103705d008eaffcfc43da3508122d1403590362f9c6dcf7ca5490e676da41",
+      "bytes": 3138
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/finish.py",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/finish.py",
+      "sha256": "2d347fc58f9170d86fce5bf83530752c482237deda118742ce5e1158d773c01e",
+      "bytes": 3767
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/inspect_native.py",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/inspect_native.py",
+      "sha256": "983774af6a2602b8766d7b268bb8e29fb8fd5043b7a0e64c65ae970ec89021bd",
+      "bytes": 2384
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/lyrics.ass",
+      "sha256": "2a3ce68a5f4b4b6061b243e175e1bf7628b419ff945f662b5bc3b7802883edd1",
+      "bytes": 2849
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/native-review.json",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/native-review.json",
+      "sha256": "e46bcfd9d877bfc49cc113f864dd1672d091bc8db4bb056e38b6e2246004fa0e",
+      "bytes": 3049
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/register_native.py",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/register_native.py",
+      "sha256": "2ff147c113cb7abf93ad1c56163211c6e151c866227f0e9958fbb3f85109fae7",
+      "bytes": 2384
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/repair_flip_foreground.py",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/repair_flip_foreground.py",
+      "sha256": "e28dbf35f5b5dd38cc26ed65870fa83a30848fbc0385f289d33b263ee87fb60b",
+      "bytes": 1630
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/review-manifest.json",
+      "sha256": "4edbafb4761a43163ec56d453b6a4a27656d282ee5a4258fc2f07156451afe55",
+      "bytes": 7203
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/review-options.json",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/review-options.json",
+      "sha256": "6a3322ba5dca5359b1bffea756f968eb437f55f1bccb3fadce290e142d24a08f",
+      "bytes": 980
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/timing-check.json",
+      "sha256": "2e74e25911a2004ae235cf29590bbee277f184295fe0943a605fd8a7b9981355",
+      "bytes": 1183
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v01/verification.json",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v01/verification.json",
+      "sha256": "c28c7d19459b4eb5b67280597672354de3f4a7fb80bed6fb8d75fa89942db582",
+      "bytes": 4463
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/build.py",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/build.py",
+      "sha256": "002bd89a998db728c79410cc1af032989b03b123fac817bdee5b78767352333b",
+      "bytes": 7708
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/concourse-006.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/concourse-006.prompt.txt",
+      "sha256": "c384d98f94c9e9d1837358106f0a833865d222c43de75933744f09e38a123e32",
+      "bytes": 2703
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/concourse-008.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/concourse-008.prompt.txt",
+      "sha256": "6be916dfa58e8e418f94e8b3be8e5f6d534ba31d9320bc0d27b77af201d4233f",
+      "bytes": 2745
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/concourse-009.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/concourse-009.prompt.txt",
+      "sha256": "d83225a500965ef166e13268e95d4c34b57ca896870c872237594a54cdf4f9e4",
+      "bytes": 2746
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/concourse-010.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/concourse-010.prompt.txt",
+      "sha256": "9335b9dfc382c6bb5f9b362e0ee030cfcdeedd5692fe293807551d9ba3af6cd6",
+      "bytes": 3430
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/concourse-012.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/concourse-012.prompt.txt",
+      "sha256": "03a22d8c557cde28832264aa8dc740499917d9579598421c7a16ee7e8f10bc3a",
+      "bytes": 2844
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/finish.py",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/finish.py",
+      "sha256": "7a11c2ca2f6954a240a276342ca8a9d688114a4be15ff90776ce17025954b6c4",
+      "bytes": 4761
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/inspect_native.py",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/inspect_native.py",
+      "sha256": "1791bdc2056e2482af2e51b231ec1e3833c54a4cf0f2ca798a91d7db6a8b7a5f",
+      "bytes": 2610
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/lyrics.ass",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/lyrics.ass",
+      "sha256": "2a3ce68a5f4b4b6061b243e175e1bf7628b419ff945f662b5bc3b7802883edd1",
+      "bytes": 2849
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/native-review.json",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/native-review.json",
+      "sha256": "ae3c64c995a7458d2f6a0d1f08e096bb6dab637d504d42a1e589f7ed1b4f8774",
+      "bytes": 1693
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/register_native.py",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/register_native.py",
+      "sha256": "bc00b2a739c4d13ed6846789fcd9c4ad07f137591c310792ed17d743615d40be",
+      "bytes": 2956
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/review-manifest.json",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/review-manifest.json",
+      "sha256": "ab7fc1b5b42ab20498c6a8da98b18f3d9cf27f6cf4ac63e87749d434fb5cb6bd",
+      "bytes": 5177
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/review-options.json",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/review-options.json",
+      "sha256": "d3ac4471e62f359e2a22382c2f985e139d09a0ee161eae8dd66f28df8a9a3e77",
+      "bytes": 2191
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/timing-check.json",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/timing-check.json",
+      "sha256": "1825df7a93bb2271ddf0166f0c65c5c35cab8697f037503283863311ae849f3e",
+      "bytes": 1346
+    },
+    {
+      "source": "generated/storyboard/station-concourse-motion-v02/verification.json",
+      "backup": "checkpoint/storyboard/station-concourse-motion-v02/verification.json",
+      "sha256": "7f414de46396663f93e6e7743ef6f3e7963618ee25a38f140cffd4143b55379c",
+      "bytes": 2053
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concat.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concat.txt",
+      "sha256": "55e3e6572e48bb43be6f52f67fe6650c0994eaf6268fb9b4eca5abc4fccfd171",
+      "bytes": 286
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-001.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-001.actual-generation.json",
+      "sha256": "7fa0122549610a69e41d9270560bf4e6b8fb49533f5afc838ee3437a008d4559",
+      "bytes": 3659
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-001.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-001.prompt.txt",
+      "sha256": "cf467338694536ff35fa76e6272d917a5a84d8bad729320d53303bb61bba5194",
+      "bytes": 2722
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-002.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-002.prompt.txt",
+      "sha256": "bb19fdc33843ae81ed7bdf793aa63e57f60a573872b8c9c34f3f1e5084f5dec4",
+      "bytes": 3820
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-003.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-003.prompt.txt",
+      "sha256": "e6d88b9552feeedc7bb1d991d1d932cdee0ce093da6d2c860698dd906e13efb9",
+      "bytes": 2945
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-004-v02.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-004-v02.actual-generation.json",
+      "sha256": "af83940b6acec6d5f00e81e2294502e2de248a1f9b1f19e84a66ebb55ab5cbea",
+      "bytes": 4783
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-004-v02.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-004-v02.prompt.txt",
+      "sha256": "8374018c9e90a2160a0efbf6c4f49547a51b6714dbe64232bf99869e833ced03",
+      "bytes": 3718
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-004-v03.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-004-v03.actual-generation.json",
+      "sha256": "ecf1679235469ba0adcd684828140be9ff41992114c4b81f198bcd5707b491b1",
+      "bytes": 5574
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-004-v03.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-004-v03.prompt.txt",
+      "sha256": "3465caf12f280fe40e8c15cb9b02e581dc36936b44881ab3477c64f347545f6f",
+      "bytes": 4443
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-004-v04.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-004-v04.actual-generation.json",
+      "sha256": "9d0355d16b06251979298e2c2908e0ce6b0729f9e6075d969676bdfefa3beaff",
+      "bytes": 5031
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-004-v04.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-004-v04.prompt.txt",
+      "sha256": "4c1c5530442b6ced1c74287fcec7b281959fd7753fff11a2fb7b0b081025fd5d",
+      "bytes": 4433
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-004-v05.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-004-v05.actual-generation.json",
+      "sha256": "8b5def2f44e28a7b8e6d09a5b591c4e385aa86d4d911d81681be2c26ff75ccee",
+      "bytes": 5844
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-004-v05.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-004-v05.prompt.txt",
+      "sha256": "c6d33c3f3eef8ed61db21e6fea43087c5c4d1b1bad7ef8091cc87d014f1157e5",
+      "bytes": 5021
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-004.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-004.actual-generation.json",
+      "sha256": "e16ddd24b621a05e4f0a4867df4f2d5ea1243804f5d86132ac0bbd71407bc82a",
+      "bytes": 3914
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-004.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-004.prompt.txt",
+      "sha256": "983346eb515310b74a3a2c8606ce48209ecb29cd654e3b58ef17c185d7024813",
+      "bytes": 2956
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-005-v02.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-005-v02.actual-generation.json",
+      "sha256": "fc1c94b1d261740c7b7e717e16c1c0b74f17f8f429f7ff196977b5f6d62780bd",
+      "bytes": 5181
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-005-v02.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-005-v02.prompt.txt",
+      "sha256": "37e10435cae1bd890c20ec71212b031e6abb0a65ebf156a07b7f48d6828c04a3",
+      "bytes": 4137
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-005-v03.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-005-v03.actual-generation.json",
+      "sha256": "a679cf9085151a52dda45fee47a8bec9c8f00ed3586153103d338fb1e2bd3789",
+      "bytes": 4599
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-005-v03.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-005-v03.prompt.txt",
+      "sha256": "61a8632cf07dac262bff56aeacca4d7b7881a90879868706e7908533596a814e",
+      "bytes": 3606
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-005.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-005.actual-generation.json",
+      "sha256": "b79eff087bc188057f1d70ebdd54f0331e580bea9cf93c297fad740dc1fcc2a3",
+      "bytes": 4216
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-005.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-005.prompt.txt",
+      "sha256": "83aed2964148055f81e5c758013ada7af288d7e63525399cea5df442a40e7e2c",
+      "bytes": 3044
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-006-first-draft.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-006-first-draft.actual-generation.json",
+      "sha256": "2f27251a6b1166d3078282b4486c37c488a5ee1a4e19ec6a4e2bcfb9cf5216dc",
+      "bytes": 4092
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-006.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-006.actual-generation.json",
+      "sha256": "13f97c9b0ba15eb2ee92b9260900d82eb9334ea0339a125f5ecacbd615e52a85",
+      "bytes": 3711
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-006.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-006.prompt.txt",
+      "sha256": "d3cf51aed6ce34fcbf89ba06b3fdac2182b7f5c18a34f7be322546e11a1b595d",
+      "bytes": 2846
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-007.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-007.prompt.txt",
+      "sha256": "1118c79cf185bd1677e48c647e74a451a2770d3f5dfcd095e70bf1d04e87953b",
+      "bytes": 3195
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-008.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-008.prompt.txt",
+      "sha256": "4934ad24a8e4d7486bcd831c6aaff1f91e9c46207934c55407f5f171272b9f8b",
+      "bytes": 3075
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-009.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-009.actual-generation.json",
+      "sha256": "31b95a610733494b7954decea7bf22a1e6513be81074a0b9be191cdabf1d7618",
+      "bytes": 3907
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-009.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-009.prompt.txt",
+      "sha256": "ba11dbafa554943269e6a0dfb14c9ae1b57e547cc979b6db4e4237b073bf8eb7",
+      "bytes": 2882
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-010.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-010.actual-generation.json",
+      "sha256": "d6b59d472874e5298baccd9c528eefd599b1ae48b2789bde80399bf0d9585d14",
+      "bytes": 4116
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-010.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-010.prompt.txt",
+      "sha256": "078286546c21455b82271f9b09e22cdf2db4f131f71fe72e436d3bb8cdbde2d7",
+      "bytes": 2916
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-011.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-011.actual-generation.json",
+      "sha256": "796c8a2a4ea95a37645e0e73798e405ab22c893cd494dc05f643d259108856b6",
+      "bytes": 4662
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-011.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v01/concourse-011.prompt.txt",
+      "sha256": "17f2ce863055b2491f530f41e70f9a8e38cade4f28f0a57b76c8437e458c3c31",
+      "bytes": 3322
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/finish.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/finish.py",
+      "sha256": "85ff891b86599fd16db0d56e40a5825cf156f86f7d1878854774ca0434ca2d64",
+      "bytes": 2903
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/generation-input.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/generation-input.json",
+      "sha256": "c16b55a7e3f2764ea998000b009191d39b61a9eeb230f6273db8a1f3cf29b082",
+      "bytes": 42642
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/station-concourse-v01/lyrics.ass",
+      "sha256": "2a3ce68a5f4b4b6061b243e175e1bf7628b419ff945f662b5bc3b7802883edd1",
+      "bytes": 2849
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/prepare.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/prepare.py",
+      "sha256": "9c48bba3565acf556b8ff1558b401953e60fb65d53c755f3d07435867fedbec1",
+      "bytes": 12013
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/prepare_motion.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/prepare_motion.py",
+      "sha256": "829bc9cc16d73c475ac5193b71e50f36b4bd5fa6661b4624a870bfe7a154c50a",
+      "bytes": 8314
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/register.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/register.py",
+      "sha256": "3d1dfb16db7f41107afa851eee620f5fdde7b018aa536f41df0150f1c705c958",
+      "bytes": 4724
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/review-manifest.json",
+      "sha256": "b0a74b4267a1ad2d5acc0759705534fe3930b136c155c994b53897a97a111208",
+      "bytes": 39745
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/review-options.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/review-options.json",
+      "sha256": "2f23f37282e2c933eaf7362eaf491223ff9db07bec2176a19a6a732012093652",
+      "bytes": 1193
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/revise_flip_color.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/revise_flip_color.py",
+      "sha256": "892291bf9977d36050e2f8c793ed588ebee3d66480ac8967e98f0b7610dea6a5",
+      "bytes": 6327
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/revise_flips.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/revise_flips.py",
+      "sha256": "ac2f769046ffee5f5fbf4720ee530a448ae03ac3533693d48df7921b952e54b9",
+      "bytes": 5977
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/revise_microbe.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/revise_microbe.py",
+      "sha256": "6dc6a4275873a14626ce4a2e23ae26298e3bd9052942eb05a67fc05b47b30057",
+      "bytes": 6083
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/revise_ribbed_craft.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/revise_ribbed_craft.py",
+      "sha256": "6ea4fe314e127ebd510dcac229a52544f636e10c1a34e7e0a0b596c336fb61b1",
+      "bytes": 6243
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/update_flip_color_notes.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/update_flip_color_notes.py",
+      "sha256": "3bed20422c00fd69899ec1e4c8ac7e922e7c0e02e05b7c18a030f11fbed4b45f",
+      "bytes": 1641
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/update_flip_notes.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/update_flip_notes.py",
+      "sha256": "c9401b59cde1c68058a7ea91e57411131f19158e8573c146b22364804aa7b0de",
+      "bytes": 1610
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/update_microbe_note.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/update_microbe_note.py",
+      "sha256": "852e3ffb1d2db3f315a1a4e5fa35a2c164cfd1884c57f13b2f24b51af082c473",
+      "bytes": 1631
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/update_ribbed_craft_note.py",
+      "backup": "checkpoint/storyboard/station-concourse-v01/update_ribbed_craft_note.py",
+      "sha256": "fad58c9462f68302734f8a61f8eded9182a11420b7b89e4f949caf4b41d2847a",
+      "bytes": 1631
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/verification.json",
+      "backup": "checkpoint/storyboard/station-concourse-v01/verification.json",
+      "sha256": "802c60dd4b5fafca90402d255df44016464dd0b3723076586f5ce96314e032fc",
+      "bytes": 2197
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/boarding-cut-in.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v02/boarding-cut-in.actual-generation.json",
+      "sha256": "25acc4642b7db92fd2b332d38ce53066ecfe8eb75f6349c652213eac8b2c506c",
+      "bytes": 5055
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/boarding-cut-in.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v02/boarding-cut-in.prompt.txt",
+      "sha256": "822b1bac0673892cd4204f043a273e8dd388d6795e6e75e6e61d0777f020641b",
+      "bytes": 3522
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/build.py",
+      "backup": "checkpoint/storyboard/station-concourse-v02/build.py",
+      "sha256": "eb70a61bb472cf620476108af14c2c91485469e62a485f09efb2d490c629ec24",
+      "bytes": 7821
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/captain-exchange.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v02/captain-exchange.actual-generation.json",
+      "sha256": "c3f936a1c88defc335e856fb25f7d7457b1e0b69ee55c944520f7ccbc277d913",
+      "bytes": 4042
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/captain-exchange.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v02/captain-exchange.prompt.txt",
+      "sha256": "9e00733007ed3ce27cd2cccf3a1237ef7c571ae3e9d44ab499970b28767de0b4",
+      "bytes": 2788
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/executed.prompt.json",
+      "backup": "checkpoint/storyboard/station-concourse-v02/executed.prompt.json",
+      "sha256": "df8375a12d92f91e27cd4b36b978c57b804edc534dcc5e2151c205a8c1c61fbf",
+      "bytes": 16985
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/finish.py",
+      "backup": "checkpoint/storyboard/station-concourse-v02/finish.py",
+      "sha256": "729422acfaac0ea93d0ed2ecb1df03715aea481adf4aed9a3667d7300a8daa06",
+      "bytes": 4345
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/food-concourse.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v02/food-concourse.actual-generation.json",
+      "sha256": "499e4af965e675973ad4235ed0f44bead8aa16ae848e12efdc6e2fa708b93111",
+      "bytes": 4250
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/food-concourse.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v02/food-concourse.prompt.txt",
+      "sha256": "fbc6edb4522744c5ed918e7cc7b3054ac17211c9f7b86e834c011ed37c3f9b29",
+      "bytes": 3128
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/gantry-pause.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v02/gantry-pause.actual-generation.json",
+      "sha256": "6d4759411ebcd79ff6bc61798088a8238b6bdc40bcc77cd35ac5343ba67f070e",
+      "bytes": 9281
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/gantry-pause.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v02/gantry-pause.prompt.txt",
+      "sha256": "5f70309e68d027ef1c96e0de81e86e321ccdddf6a151d2e28223f47d1adbf773",
+      "bytes": 3061
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/generation-input.json",
+      "backup": "checkpoint/storyboard/station-concourse-v02/generation-input.json",
+      "sha256": "6d216522a2443107adbe5d7482195156d099a9432d23d45253b761c38205d860",
+      "bytes": 20533
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/lyrics.ass",
+      "backup": "checkpoint/storyboard/station-concourse-v02/lyrics.ass",
+      "sha256": "2a3ce68a5f4b4b6061b243e175e1bf7628b419ff945f662b5bc3b7802883edd1",
+      "bytes": 2849
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/outfitter-market.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v02/outfitter-market.actual-generation.json",
+      "sha256": "94be3477af3cb7cbd058532e18bdf50d6d9a9bfd9823dd55448d3147e206e04b",
+      "bytes": 4335
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/outfitter-market.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v02/outfitter-market.prompt.txt",
+      "sha256": "1d594c0507e4aca26a2a55885d08811848f3c4606cb7665ab47468423c7e1102",
+      "bytes": 3104
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/register.py",
+      "backup": "checkpoint/storyboard/station-concourse-v02/register.py",
+      "sha256": "94d5c03a50ac91260dca07e580fe54033f51e8dfac1aa2d266355c8cc662f9bc",
+      "bytes": 6065
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/review-manifest.json",
+      "backup": "checkpoint/storyboard/station-concourse-v02/review-manifest.json",
+      "sha256": "c54725331a4fd8445b388690c944e438be1916144fac10b0ca6665902b61e895",
+      "bytes": 2496
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/review-options.json",
+      "backup": "checkpoint/storyboard/station-concourse-v02/review-options.json",
+      "sha256": "e9f5153724d5782dc68ae9f8d5ecf0d0573de66fac86ac8a6b577f8c67440b8f",
+      "bytes": 2177
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/timing-check.json",
+      "backup": "checkpoint/storyboard/station-concourse-v02/timing-check.json",
+      "sha256": "1825df7a93bb2271ddf0166f0c65c5c35cab8697f037503283863311ae849f3e",
+      "bytes": 1346
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/verification.json",
+      "backup": "checkpoint/storyboard/station-concourse-v02/verification.json",
+      "sha256": "ae5e17b06e447e38cd901507cec7378cc5737e9b55ecb52ff48fd45e9aeb4a31",
+      "bytes": 1711
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/build.py",
+      "backup": "checkpoint/storyboard/station-concourse-v03/build.py",
+      "sha256": "c3a20f11557c65e52b206dee51aa6bf4d58491002f1942e14128bbc6e087b64e",
+      "bytes": 7653
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/decision-closeup.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v03/decision-closeup.actual-generation.json",
+      "sha256": "4fb2b242c4df1e9f77ddbfa1d8ec7c0f486e64afaa4704f0d0b1f6d97e7c15f6",
+      "bytes": 4280
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/decision-closeup.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v03/decision-closeup.prompt.txt",
+      "sha256": "77b77a22c30974edbff8e2666f68f5af8d757c5bab40e8fb1b27915b2d12a51d",
+      "bytes": 3013
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/executed.prompt.json",
+      "backup": "checkpoint/storyboard/station-concourse-v03/executed.prompt.json",
+      "sha256": "d5b906d9430a898b48f231cedf0cecb602def2de6f9c0e4e8d61d63bb3a9187f",
+      "bytes": 7828
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/finish.py",
+      "backup": "checkpoint/storyboard/station-concourse-v03/finish.py",
+      "sha256": "5b0403febc3990b4143da38f91c7ec0929e13f626cca35cbc41146ea789e7867",
+      "bytes": 4314
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/gantry-approach.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v03/gantry-approach.actual-generation.json",
+      "sha256": "3d952c5b4409d6e943d7180e88d24db75a7ef1941a6b1359c573459b0e4eda6b",
+      "bytes": 5920
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/gantry-approach.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v03/gantry-approach.prompt.txt",
+      "sha256": "5da79f172eb84b9a6bafa9eb6b6a44bbef5edf5ef8880975f7156344651278fc",
+      "bytes": 4223
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/generation-input.json",
+      "backup": "checkpoint/storyboard/station-concourse-v03/generation-input.json",
+      "sha256": "94165c9aa81c33d7931ce5287f6a960a5f786ac61f10e86610081ee873fe3880",
+      "bytes": 9794
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/lyrics.ass",
+      "backup": "checkpoint/storyboard/station-concourse-v03/lyrics.ass",
+      "sha256": "2a3ce68a5f4b4b6061b243e175e1bf7628b419ff945f662b5bc3b7802883edd1",
+      "bytes": 2849
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/register.py",
+      "backup": "checkpoint/storyboard/station-concourse-v03/register.py",
+      "sha256": "55141f4db963bad4bb54c5a3f17f9e09114b954ea32b428e2cacb24050dba65b",
+      "bytes": 5101
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/review-manifest.json",
+      "backup": "checkpoint/storyboard/station-concourse-v03/review-manifest.json",
+      "sha256": "c785d443fc3eed194e31d9d0f4603961e3f7f009435dc16e3d3604e3c7c94128",
+      "bytes": 1156
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/review-options.json",
+      "backup": "checkpoint/storyboard/station-concourse-v03/review-options.json",
+      "sha256": "c38026ceebf9838771e4df188fc47ec0b6b3b14df7e9c062f776a7dd06f23de2",
+      "bytes": 2075
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/timing-check.json",
+      "backup": "checkpoint/storyboard/station-concourse-v03/timing-check.json",
+      "sha256": "1825df7a93bb2271ddf0166f0c65c5c35cab8697f037503283863311ae849f3e",
+      "bytes": 1346
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v03/verification.json",
+      "backup": "checkpoint/storyboard/station-concourse-v03/verification.json",
+      "sha256": "d3b34c06b6951241c029f77f0fd0daa8687dd472688fdfb640024629191ad5cb",
+      "bytes": 335
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/build.py",
+      "backup": "checkpoint/storyboard/station-concourse-v04/build.py",
+      "sha256": "83b89fc642e51d8b96dceb2695ae7e7ab1d595f627cb91762056002759b0571f",
+      "bytes": 7728
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/entrance-pov-closeup.actual-generation.json",
+      "backup": "checkpoint/storyboard/station-concourse-v04/entrance-pov-closeup.actual-generation.json",
+      "sha256": "7e3af5727ff1a1c3c80e1fb0119fa620b8df42ffb67513feb367f657e6738b1c",
+      "bytes": 5160
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/entrance-pov-closeup.prompt.txt",
+      "backup": "checkpoint/storyboard/station-concourse-v04/entrance-pov-closeup.prompt.txt",
+      "sha256": "a5816c7f4dc53f78f9c180f075a2cedb34b52bf8ac4880f7ed9fc600c074d11e",
+      "bytes": 4151
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/executed.prompt.json",
+      "backup": "checkpoint/storyboard/station-concourse-v04/executed.prompt.json",
+      "sha256": "9b9d0276901092b92867d45a2c91a4869eb16c648957f4c74f9159bce4c212ff",
+      "bytes": 5746
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/finish.py",
+      "backup": "checkpoint/storyboard/station-concourse-v04/finish.py",
+      "sha256": "388e313bffd92a28ec13094fa34bde4f211050c6d4042567baa9e63ba57377b9",
+      "bytes": 4664
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/generation-input.json",
+      "backup": "checkpoint/storyboard/station-concourse-v04/generation-input.json",
+      "sha256": "9a736ffbfa7cfd404a9eb4ccce16f10c39a19262f6facc2be1d0545e5bc019bf",
+      "bytes": 6659
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/lyrics.ass",
+      "backup": "checkpoint/storyboard/station-concourse-v04/lyrics.ass",
+      "sha256": "2a3ce68a5f4b4b6061b243e175e1bf7628b419ff945f662b5bc3b7802883edd1",
+      "bytes": 2849
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/register.py",
+      "backup": "checkpoint/storyboard/station-concourse-v04/register.py",
+      "sha256": "aaf966c985d53242468f7b6541ccabc7da7072d24d7b29a4289424007440f8eb",
+      "bytes": 5227
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/review-manifest.json",
+      "backup": "checkpoint/storyboard/station-concourse-v04/review-manifest.json",
+      "sha256": "1389c70d3715febcdd782ceed0bed43392f6dbd375d9122ac38d47888451eee5",
+      "bytes": 1313
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/review-options.json",
+      "backup": "checkpoint/storyboard/station-concourse-v04/review-options.json",
+      "sha256": "463aa88e2a584f483f5fee5f869d66cf553d58ea25a5cd8d48f02cd1d61a860e",
+      "bytes": 2068
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/timing-check.json",
+      "backup": "checkpoint/storyboard/station-concourse-v04/timing-check.json",
+      "sha256": "1825df7a93bb2271ddf0166f0c65c5c35cab8697f037503283863311ae849f3e",
+      "bytes": 1346
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/verification.json",
+      "backup": "checkpoint/storyboard/station-concourse-v04/verification.json",
+      "sha256": "ce77949ecf7c48c41828db50776fe0ea571d7e6202ab5bb739cb460fc23929f4",
+      "bytes": 335
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v05/build.py",
+      "backup": "checkpoint/storyboard/station-concourse-v05/build.py",
+      "sha256": "242b5d7e30ce66a4390ebe05355729e97d5d5f5199bf2dd541acc2ea438e9fb1",
+      "bytes": 7726
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v05/finish.py",
+      "backup": "checkpoint/storyboard/station-concourse-v05/finish.py",
+      "sha256": "70c824f599414351a964974a45f3f9c47b498cfa60f18a12df62ed0f34b75b0e",
+      "bytes": 4786
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v05/lyrics.ass",
+      "backup": "checkpoint/storyboard/station-concourse-v05/lyrics.ass",
+      "sha256": "2a3ce68a5f4b4b6061b243e175e1bf7628b419ff945f662b5bc3b7802883edd1",
+      "bytes": 2849
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v05/register.py",
+      "backup": "checkpoint/storyboard/station-concourse-v05/register.py",
+      "sha256": "649d8e8f632ac1254098fd980b892b246e1785696eb68e496ba2735c18de426e",
+      "bytes": 5453
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v05/review-manifest.json",
+      "backup": "checkpoint/storyboard/station-concourse-v05/review-manifest.json",
+      "sha256": "d1a47e395dba751fff9743b181352bb9b922f1da1b47044bbb5b4f33d2aa1fd8",
+      "bytes": 2899
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v05/review-options.json",
+      "backup": "checkpoint/storyboard/station-concourse-v05/review-options.json",
+      "sha256": "0a632cea5415c41333c732fb8a58b93c27306ea5ed45dceffe21ff3250964ca6",
+      "bytes": 2101
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v05/timing-check.json",
+      "backup": "checkpoint/storyboard/station-concourse-v05/timing-check.json",
+      "sha256": "1825df7a93bb2271ddf0166f0c65c5c35cab8697f037503283863311ae849f3e",
+      "bytes": 1346
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v05/verification.json",
+      "backup": "checkpoint/storyboard/station-concourse-v05/verification.json",
+      "sha256": "9bbf3ff111ecc5c9f94db258c3aef71aa44f673887f2a83638ea67a737cfb2ce",
+      "bytes": 346
+    },
+    {
+      "source": "generated/storyboard/window-coast-v01/concat.txt",
+      "backup": "checkpoint/storyboard/window-coast-v01/concat.txt",
+      "sha256": "b243f9ed8fccfd96aa55a07715a2ff73ae31d9aa4b7daac12d0e5eade5b0fabb",
+      "bytes": 66
+    },
+    {
+      "source": "generated/storyboard/window-coast-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/window-coast-v01/lyrics.ass",
+      "sha256": "a8763f2f81db57a3b15114365ff99c43a04eda9546fbf4b87acd2a867fca8ff9",
+      "bytes": 4237
+    },
+    {
+      "source": "generated/storyboard/world-below-v02/lyrics.ass",
+      "backup": "checkpoint/storyboard/world-below-v02/lyrics.ass",
+      "sha256": "f24d56edfca28dd20f647b18cd9588b62a4a02922b015f81cdc66eb58168715e",
+      "bytes": 1283
     },
     {
       "source": "generated/timeline.compiled.json",

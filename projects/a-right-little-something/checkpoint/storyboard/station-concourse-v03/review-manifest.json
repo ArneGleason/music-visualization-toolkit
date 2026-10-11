@@ -1,0 +1,23 @@
+{
+  "boardId": "ce27973e-c009-4d44-8eab-ed01be58c996",
+  "animaticVersion": "v47",
+  "status": "Two revised ending stills; user review pending",
+  "generationMode": "built-in ImageGen",
+  "newKlingCredits": 0,
+  "items": [
+    {
+      "id": "concourse-011",
+      "image": "generated/storyboard/station-concourse-v03/gantry-approach.png",
+      "startFrame": 2507,
+      "endFrameExclusive": 2556,
+      "direction": "Keep the exterior camera in the same place or use a very slow restrained move. Harper approaches along the gantry and stops one or two paces before the entrance, still outside. Keep the entry closed or visually opaque; no cabin reveal or threshold crossing."
+    },
+    {
+      "id": "concourse-012",
+      "image": "generated/storyboard/station-concourse-v03/decision-closeup.png",
+      "startFrame": 2556,
+      "endFrameExclusive": 2595,
+      "direction": "Cut to a shoulders-up close-up looking screen right toward the ship. A quiet practical positive decision: yes, I think that will do. Relaxed brow and closed lips; no broad smile or excited performance. End on her decision, before boarding."
+    }
+  ]
+}

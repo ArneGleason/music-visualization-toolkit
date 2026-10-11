@@ -94,7 +94,7 @@
   ],
   "production": {
     "stage": "full_song_animatic_with_generated_opening",
-    "animatic": "generated/animatic/A-Right-Little-Something-selected-motion-v39.mp4",
+    "animatic": "generated/animatic/A-Right-Little-Something-selected-motion-v59.mp4",
     "videoProvider": "Kling",
     "style": "Graphic novel / illustrated comic; continue Monsters Undone",
     "fpsStatus": "provisional; matches previous Kling/animatic workflow",
@@ -115,7 +115,7 @@
     },
     "animaticReview": "http://127.0.0.1:8768/",
     "hologramOverlayReview": "http://127.0.0.1:8768/storyboard/hologram-overlay-v03/",
-    "continuationNotes": "V39 replaces two escape stills with native Kling footage at1897–2010 and2010–2105. Interior starts1:19; exterior1:23.71. Nine previous prepared native chunks are reused. Native action and limitations recorded in shot notes. Exact timing, fades and original master audio preserved. Next channel begins2105.",
+    "continuationNotes": "User accepted V59 as the save point before taking a break: stronger optical zoom overlaps, Blender departure pullout and enlarged cyan twinkle. Next planned work starts at frame3144 (130.958s), the second chorus/new jungle world. V57 is preserved as the softer-zoom fallback. Matching opening ship shots to the new ship reference remains future work.",
     "windowCoastReview": "http://127.0.0.1:8768/storyboard/window-coast-v01/",
     "klingCharacterReferences": {
       "harper-gray-v01": {

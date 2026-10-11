@@ -1,0 +1,41 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Bahnschrift,34,&H00F2F1EB,&H00F2F1EB,&H0017100B,&H8017100B,0,0,0,0,100,100,0.6,0,1,1.5,1,2,90,90,45,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.66,Lyrics,,0,0,0,,{\c&HFFE5A3&}How{\c&HF2F1EB&} much can you do with it all?
+Dialogue: 0,0:00:00.66,0:00:02.00,Lyrics,,0,0,0,,How {\c&HFFE5A3&}much{\c&HF2F1EB&} can you do with it all?
+Dialogue: 0,0:00:02.00,0:00:02.29,Lyrics,,0,0,0,,How much {\c&HFFE5A3&}can{\c&HF2F1EB&} you do with it all?
+Dialogue: 0,0:00:02.29,0:00:02.58,Lyrics,,0,0,0,,How much can {\c&HFFE5A3&}you{\c&HF2F1EB&} do with it all?
+Dialogue: 0,0:00:02.58,0:00:03.16,Lyrics,,0,0,0,,How much can you {\c&HFFE5A3&}do{\c&HF2F1EB&} with it all?
+Dialogue: 0,0:00:03.16,0:00:03.79,Lyrics,,0,0,0,,How much can you do {\c&HFFE5A3&}with{\c&HF2F1EB&} it all?
+Dialogue: 0,0:00:03.79,0:00:04.12,Lyrics,,0,0,0,,How much can you do with {\c&HFFE5A3&}it{\c&HF2F1EB&} all?
+Dialogue: 0,0:00:04.12,0:00:04.62,Lyrics,,0,0,0,,How much can you do with it {\c&HFFE5A3&}all?{\c&HF2F1EB&}
+Dialogue: 0,0:00:05.16,0:00:05.62,Lyrics,,0,0,0,,{\c&HFFE5A3&}Do{\c&HF2F1EB&} something.
+Dialogue: 0,0:00:05.62,0:00:06.29,Lyrics,,0,0,0,,Do {\c&HFFE5A3&}something.{\c&HF2F1EB&}
+Dialogue: 0,0:00:06.75,0:00:07.04,Lyrics,,0,0,0,,{\c&HFFE5A3&}Little{\c&HF2F1EB&} something.
+Dialogue: 0,0:00:07.04,0:00:07.58,Lyrics,,0,0,0,,Little {\c&HFFE5A3&}something.{\c&HF2F1EB&}
+Dialogue: 0,0:00:07.58,0:00:08.41,Lyrics,,0,0,0,,{\c&HFFE5A3&}You’re{\c&HF2F1EB&} something.
+Dialogue: 0,0:00:08.41,0:00:08.91,Lyrics,,0,0,0,,You’re {\c&HFFE5A3&}something.{\c&HF2F1EB&}
+Dialogue: 0,0:00:09.04,0:00:09.20,Lyrics,,0,0,0,,{\c&HFFE5A3&}A{\c&HF2F1EB&} right little something.
+Dialogue: 0,0:00:09.20,0:00:09.25,Lyrics,,0,0,0,,A right little something.
+Dialogue: 0,0:00:09.25,0:00:09.37,Lyrics,,0,0,0,,A {\c&HFFE5A3&}right{\c&HF2F1EB&} little something.
+Dialogue: 0,0:00:09.37,0:00:09.66,Lyrics,,0,0,0,,A right little something.
+Dialogue: 0,0:00:09.66,0:00:09.75,Lyrics,,0,0,0,,A right {\c&HFFE5A3&}little{\c&HF2F1EB&} something.
+Dialogue: 0,0:00:09.75,0:00:10.25,Lyrics,,0,0,0,,A right little {\c&HFFE5A3&}something.{\c&HF2F1EB&}
+Dialogue: 0,0:00:10.25,0:00:10.62,Lyrics,,0,0,0,,{\c&HFFE5A3&}Out{\c&HF2F1EB&} here in orbit.
+Dialogue: 0,0:00:10.62,0:00:11.00,Lyrics,,0,0,0,,Out {\c&HFFE5A3&}here{\c&HF2F1EB&} in orbit.
+Dialogue: 0,0:00:11.00,0:00:11.25,Lyrics,,0,0,0,,Out here {\c&HFFE5A3&}in{\c&HF2F1EB&} orbit.
+Dialogue: 0,0:00:11.25,0:00:11.70,Lyrics,,0,0,0,,Out here in {\c&HFFE5A3&}orbit.{\c&HF2F1EB&}
+Dialogue: 0,0:00:15.25,0:00:15.95,Lyrics,,0,0,0,,{\c&HFFE5A3&}Out{\c&HF2F1EB&} here in orbit.
+Dialogue: 0,0:00:15.95,0:00:16.45,Lyrics,,0,0,0,,Out {\c&HFFE5A3&}here{\c&HF2F1EB&} in orbit.
+Dialogue: 0,0:00:16.45,0:00:16.66,Lyrics,,0,0,0,,Out here {\c&HFFE5A3&}in{\c&HF2F1EB&} orbit.
+Dialogue: 0,0:00:16.66,0:00:17.12,Lyrics,,0,0,0,,Out here in {\c&HFFE5A3&}orbit.{\c&HF2F1EB&}

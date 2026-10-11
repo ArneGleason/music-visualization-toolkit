@@ -1,0 +1,62 @@
+{
+  "id": "station-concourse-v02",
+  "output": "generated/storyboard/station-concourse-v02",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v45.mp4",
+  "useMotion": true,
+  "motionShotIds": [
+    "concourse-001",
+    "concourse-002",
+    "concourse-003",
+    "concourse-004",
+    "concourse-005"
+  ],
+  "draftForReview": true,
+  "presentation": "Accepted native arrival and first two flips followed by five revised still compositions; motion beats are directions, not new animation.",
+  "mediaLabel": "Native opening / revised concourse stills",
+  "continuationNotes": "V46 retains the accepted arrival and ship choices, extends captain exchange and replaces empty walkways with food and resource markets. Five new stills preview the gantry pause, approximately 80 percent ship scale and boarding cut-in. No replacement Kling generation; review stills and pacing first. Original music and 5265-frame timing preserved.",
+  "transitions": [
+    {
+      "incomingShot": "concourse-004",
+      "boundaryFrame": 2192,
+      "startFrame": 2190,
+      "endFrameExclusive": 2194,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-005",
+      "boundaryFrame": 2203,
+      "startFrame": 2201,
+      "endFrameExclusive": 2205,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-006",
+      "boundaryFrame": 2211,
+      "startFrame": 2209,
+      "endFrameExclusive": 2213,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "type": "dissolve",
+      "incomingShot": "concourse-008",
+      "startFrame": 2288,
+      "endFrameExclusive": 2300,
+      "frames": 12
+    }
+  ]
+}

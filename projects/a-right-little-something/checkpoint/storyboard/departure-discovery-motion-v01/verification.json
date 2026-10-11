@@ -1,0 +1,42 @@
+{
+  "fullFrames": 5265,
+  "passageFrames": 549,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "originalMasterAudio": "AAC packets verified identical to V54",
+  "newNativeTakes": 7,
+  "newCredits": 280,
+  "cumulativeCredits": 3384,
+  "departureDissolve": false,
+  "review": {
+    "departure-003": {
+      "usable": true,
+      "notes": "Small raised-hand targeting gesture and return to sparse cyan control; stable adult face and gray outfit, no premature planet. Source25–92 gives target selection and settling hand before the optical cuts; no lip-sync."
+    },
+    "departure-001": {
+      "usable": true,
+      "notes": "Legible signing gesture followed by owner offering and Harper accepting the token. Stable faces, hands and ship backdrop. Source25–94 contains the signature release and handover; slight camera drift is native."
+    },
+    "departure-002": {
+      "usable": true,
+      "notes": "Raw take lingered and introduced a bright flare around1.5s, with a changed viewing angle afterward. Exclude native1–72. Use clean native73–193 with a cubic ease-out retime to140 edit frames: pullback starts immediately, Harper becomes small quickly, and the view settles on tiny ship/station. This begins after the ship has turned, with the engine ring on the opposite side from the starter. Small extra inner edging remains briefly visible in the native model; no large added cockpit ring. Frame blending smooths the distant tail. No dissolve or extra image zoom."
+    },
+    "departure-006": {
+      "usable": true,
+      "notes": "Stable wide cabin and remote planet display with gentle character/camera drift and sparse route-line extension. Preserves approved framing. Source25–69; Harper stays at the existing rail as authored in this particular still."
+    },
+    "departure-007": {
+      "usable": true,
+      "notes": "Subtle eye shift, breath/blink and small affirmative head movement without a broad smile or speech. Later hair motion and head turn become more pronounced; source25–66 limits that while retaining a quiet reaction."
+    },
+    "departure-005": {
+      "usable": true,
+      "notes": "Clean stable globe and coherent cloud/continent rotation. Rotation is more noticeable than the very subtle requested motion, but geography and palette stay recognizable. Select source25–72 for the48-frame reveal on big; do not add zoom."
+    },
+    "departure-008": {
+      "usable": true,
+      "notes": "One legible touch/release, a restrained amber course pulse and relaxed hand withdrawal. Five-finger anatomy and gray cuff remain stable. Source25–87 carries the confirmation and settling route."
+    }
+  }
+}

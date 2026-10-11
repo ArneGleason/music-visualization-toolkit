@@ -1,0 +1,62 @@
+{
+  "id": "station-concourse-v03",
+  "output": "generated/storyboard/station-concourse-v03",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v46.mp4",
+  "useMotion": true,
+  "motionShotIds": [
+    "concourse-001",
+    "concourse-002",
+    "concourse-003",
+    "concourse-004",
+    "concourse-005"
+  ],
+  "draftForReview": true,
+  "presentation": "Approved prior shots with two revised ending stills: stop outside, then a quiet positive decision.",
+  "mediaLabel": "Approved concourse / revised decision ending",
+  "continuationNotes": "V47 replaces only V46 final boarding still at 2507–2595: gantry approach and stop outside (2507–2556), restrained decision close-up (2556–2595). No interior or boarding shown. Other shots, original master audio and full frame count preserved. New motion awaits still review.",
+  "transitions": [
+    {
+      "incomingShot": "concourse-004",
+      "boundaryFrame": 2192,
+      "startFrame": 2190,
+      "endFrameExclusive": 2194,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-005",
+      "boundaryFrame": 2203,
+      "startFrame": 2201,
+      "endFrameExclusive": 2205,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-006",
+      "boundaryFrame": 2211,
+      "startFrame": 2209,
+      "endFrameExclusive": 2213,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "type": "dissolve",
+      "incomingShot": "concourse-008",
+      "startFrame": 2288,
+      "endFrameExclusive": 2300,
+      "frames": 12
+    }
+  ]
+}

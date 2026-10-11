@@ -1,0 +1,63 @@
+{
+  "fullFrames": 5265,
+  "passageFrames": 490,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "masterAudio": "Original AAC packet hashes verified equal to V45 by insertion tool",
+  "transitions": [
+    {
+      "incomingShot": "concourse-004",
+      "boundaryFrame": 2192,
+      "startFrame": 2190,
+      "endFrameExclusive": 2194,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-005",
+      "boundaryFrame": 2203,
+      "startFrame": 2201,
+      "endFrameExclusive": 2205,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-006",
+      "boundaryFrame": 2211,
+      "startFrame": 2209,
+      "endFrameExclusive": 2213,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "type": "dissolve",
+      "incomingShot": "concourse-008",
+      "startFrame": 2288,
+      "endFrameExclusive": 2300,
+      "frames": 12
+    }
+  ],
+  "nativeRetained": [
+    "concourse-001",
+    "concourse-002",
+    "concourse-003",
+    "concourse-004",
+    "concourse-005"
+  ],
+  "newStillCount": 5,
+  "noEditorialImageTranslation": true,
+  "reviewStatus": "Composition and pacing draft; static poses do not demonstrate head-shake or walking motion"
+}

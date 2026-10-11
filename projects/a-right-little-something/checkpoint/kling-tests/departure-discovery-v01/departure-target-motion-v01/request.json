@@ -1,0 +1,35 @@
+{
+  "id": "departure-target-motion-v01",
+  "shotId": "departure-003",
+  "title": "Select a distant target",
+  "startFrame": 2805,
+  "editFrames": 68,
+  "leadInFrames": 24,
+  "leadOutFrames": 28,
+  "sourceEditStartFrame": 25,
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/departure-discovery-v01/target-profile.png",
+  "firstImageSha256": "1d59f78d7cced1a15d43c346d25585f67f05283fb565b7a98868734d8cca21b4",
+  "prompt": "5 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the established adult woman. The starter image controls gray long-sleeved coverall and utility shoes, overriding identity-reference clothes. Interior side-profile medium. Harper floats almost imperceptibly, studies the small distant point, then makes one precise fingertip touch to the existing sparse cyan control between seconds2 and3.5. The tiny target bracket responds with a gentle light pulse. Only stars outside; do not reveal a planet yet. Preserve face, hand anatomy, long sleeves and exact approved framing. Small breathing and eye movement, camera steady, no talking or lip-sync. Preserve the painted graphic-novel rendering and all approved starter designs. No montage, captions, readable words, watermark, generated audio or lip-sync. Allow one-second editing handles before and after the main action.\n\nDEPARTURE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials, deep indigo space, cyan practical lights and restrained warm amber edges. Adult Harper has established freckled face, hazel-green eyes and short curly auburn hair. She wears the same pod-issued warm-gray long-sleeved survival coverall, gathered cuffs, plain closed collar and fastening, gray belt, loose trousers and graphite utility shoes; tiny unlettered amber arm tab. Reference short-sleeved clothing is superseded. Personal ship is the established transparent spherical technological field, faint cyan geodesic grid, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc. Cabin is the established open spherical volume with curved graphite rail/platform and sparse floating holographic controls, not a conventional airplane cockpit. The newly discovered remote planet has a broad dark-emerald jungle continent, copper-coloured inland seas and ivory storm systems, visibly distinct from the opening turquoise/peach world. Only include subjects required by the specific shot. One uninterrupted full-frame cinematic16:9 image, quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.\n\nMOTION CONTINUITY: Only subjects in the starter and required action appear. The ship has no extra inner cockpit ring; the continuity-lock rail means its established outer equatorial structure. Keep character and ship scale constant in world space.",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "estimatedCredits": 40,
+  "placements": [
+    {
+      "shotId": "departure-003",
+      "startFrame": 2805,
+      "editFrames": 68,
+      "sourceEditStartFrame": 25
+    }
+  ]
+}

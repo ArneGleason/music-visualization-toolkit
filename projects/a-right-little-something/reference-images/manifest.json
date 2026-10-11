@@ -92,6 +92,211 @@
       "role": "Shared cyan display reference; starting image for selected Powers of Ten motion",
       "bytes": 2281271,
       "sha256": "b960b1075eb7bb0e2a3c32a1de3350a1fa2297578c2462d607ca325561b7102a"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/affirmation.png",
+      "backup": "reference-images/departure-discovery-v01/affirmation.png",
+      "role": "Accepted optical magnification view / affirmation",
+      "bytes": 2212064,
+      "sha256": "702c53dbc2ea7d0ecbb15c4f53728096485f71debff98b9968a3f501cb8f60fe"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/cabin-distance.png",
+      "backup": "reference-images/departure-discovery-v01/cabin-distance.png",
+      "role": "Accepted optical magnification view / cabin-distance",
+      "bytes": 2714176,
+      "sha256": "99f2d7cfbf5ca021462490d982a29eb50659b8d152b45cda76deca57346d25b1"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/confirm-course.png",
+      "backup": "reference-images/departure-discovery-v01/confirm-course.png",
+      "role": "Accepted optical magnification view / confirm-course",
+      "bytes": 1996965,
+      "sha256": "8f618936832c0b80bd6148d308e2fb4107059f710226ed74931efc75f95d7916"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/distant-station.png",
+      "backup": "reference-images/departure-discovery-v01/distant-station.png",
+      "role": "Accepted optical magnification view / distant-station",
+      "bytes": 2412542,
+      "sha256": "0cd03e541a514c84c5efd1993652dc7c3817c8a3bbbfd51180f1998e5789b342"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/planet-reveal.png",
+      "backup": "reference-images/departure-discovery-v01/planet-reveal.png",
+      "role": "Accepted optical magnification view / planet-reveal",
+      "bytes": 2559847,
+      "sha256": "56ea8f8544003ce30a1bee7c671d2c6c58545ec8fa4b6fc266feaad5dae8259e"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/signing.png",
+      "backup": "reference-images/departure-discovery-v01/signing.png",
+      "role": "Accepted optical magnification view / signing",
+      "bytes": 2517064,
+      "sha256": "97e758db07bc2dbe78b47d501a83515624d506ebda4643b8e133908332621244"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/target-profile.png",
+      "backup": "reference-images/departure-discovery-v01/target-profile.png",
+      "role": "Accepted optical magnification view / target-profile",
+      "bytes": 2319606,
+      "sha256": "1d59f78d7cced1a15d43c346d25585f67f05283fb565b7a98868734d8cca21b4"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/undocking.png",
+      "backup": "reference-images/departure-discovery-v01/undocking.png",
+      "role": "Personal sphere ship continuity / geometrySource; use for future opening match",
+      "bytes": 2823477,
+      "sha256": "db1600a34214c6f3b0a87e891596ff31eb7b397edabcc4558c47cbb16c122dee"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-01.png",
+      "backup": "reference-images/departure-discovery-v01/zoom-01.png",
+      "role": "Accepted optical magnification view / zoom-01",
+      "bytes": 2451815,
+      "sha256": "4009a1414cb1d7d3af54ee027f9d1723fb283c72bf246380ed3fdbd5a49166ee"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-02.png",
+      "backup": "reference-images/departure-discovery-v01/zoom-02.png",
+      "role": "Accepted optical magnification view / zoom-02",
+      "bytes": 2021986,
+      "sha256": "d81f986328ae435f47f8492ac6a2b8218a774d24fc10bebb6f6223ba5ef32234"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-03.png",
+      "backup": "reference-images/departure-discovery-v01/zoom-03.png",
+      "role": "Accepted optical magnification view / zoom-03",
+      "bytes": 1561203,
+      "sha256": "ca0aa1857140a00f0b27f73d972d335ee4d6b24aa31a1437461d28f69ddc31b9"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-04.png",
+      "backup": "reference-images/departure-discovery-v01/zoom-04.png",
+      "role": "Accepted optical magnification view / zoom-04",
+      "bytes": 1903146,
+      "sha256": "704f2ddf956aa2a5b6cd7d9207ba54b697cde10866239e30d45d7f2ed1ddf20e"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-05.png",
+      "backup": "reference-images/departure-discovery-v01/zoom-05.png",
+      "role": "Accepted optical magnification view / zoom-05",
+      "bytes": 1707860,
+      "sha256": "3005a8c8be0641e142c5a2aa9b9a62b993a5149f97719e67af4410c89665d72a"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-06.png",
+      "backup": "reference-images/departure-discovery-v01/zoom-06.png",
+      "role": "Accepted optical magnification view / zoom-06",
+      "bytes": 1557335,
+      "sha256": "8664bae6927081143941869336f7da23e4aec4b1f1e8a37fb4e8a03c35b78656"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-07.png",
+      "backup": "reference-images/departure-discovery-v01/zoom-07.png",
+      "role": "Accepted optical magnification view / zoom-07",
+      "bytes": 1779159,
+      "sha256": "abfded5eea8cb7d550ea46ba32d92ee9d89634602e5d51c6ca3b6540ed8c6783"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-08.png",
+      "backup": "reference-images/departure-discovery-v01/zoom-08.png",
+      "role": "Accepted optical magnification view / zoom-08",
+      "bytes": 1938933,
+      "sha256": "093bf18ebad5941b009f1e0debbbf783094a4f06cb470dc1a57f9b679b7d4217"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v01/zoom-09.png",
+      "backup": "reference-images/departure-discovery-v01/zoom-09.png",
+      "role": "Accepted optical magnification view / zoom-09",
+      "bytes": 2118376,
+      "sha256": "59d7462142b59b921a2a22b0955a3cc7d1047d750ab929035ed2a96d75ad24ee"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/larger-harper-scale-source.png",
+      "backup": "reference-images/departure-discovery-v04/larger-harper-scale-source.png",
+      "role": "Personal sphere ship continuity / scaleSource; use for future opening match",
+      "bytes": 2497364,
+      "sha256": "6d9e596356e789ae6e6886124cc056168ce542f1ae9a1aea0b227936870e8cd8"
+    },
+    {
+      "source": "generated/storyboard/departure-discovery-v04/undocking.png",
+      "backup": "reference-images/departure-discovery-v04/undocking.png",
+      "role": "Accepted optical magnification view / undocking",
+      "bytes": 2357877,
+      "sha256": "468cfdbf859d204a85913ba9e981091e03651b5b107bf257239ccae195b36a12"
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-001.png",
+      "backup": "reference-images/station-concourse-v01/concourse-001.png",
+      "role": "concourse-001 / Arrival at the transport hub; accepted V59 visual reference",
+      "bytes": 2938813,
+      "sha256": "63906b2f01af9764f8e36bde1c0ddc3399359b8f9bbfa8e86fbd705259eb78f0"
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-002.png",
+      "backup": "reference-images/station-concourse-v01/concourse-002.png",
+      "role": "concourse-002 / Concourse and a brief directory; accepted V59 visual reference",
+      "bytes": 2391487,
+      "sha256": "4002977cf4abe928c268361b47c69fa8581b7287526b5c5729b1fee1818743c4"
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-003.png",
+      "backup": "reference-images/station-concourse-v01/concourse-003.png",
+      "role": "concourse-003 / A promising departure; accepted V59 visual reference",
+      "bytes": 2313694,
+      "sha256": "af237ef49153a5f57772691af6930e0c8ec49949559770f4f2f22d91df23819c"
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-004-v05.png",
+      "backup": "reference-images/station-concourse-v01/concourse-004-v05.png",
+      "role": "concourse-004 / Flip 1 - three-part ribbed organic craft; accepted V59 visual reference",
+      "bytes": 2626858,
+      "sha256": "e8857a5a73569b038058aa89d8a0fedea66e4a0857746d44a7ce18aaf22301fa"
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v01/concourse-005-v03.png",
+      "backup": "reference-images/station-concourse-v01/concourse-005-v03.png",
+      "role": "concourse-005 / Flip 2 - geometric light-sail craft; accepted V59 visual reference",
+      "bytes": 2689619,
+      "sha256": "2dd7f23457fd5fb889b6a0314fef722ff44d034e939c93db7d362827732ff236"
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/captain-exchange.png",
+      "backup": "reference-images/station-concourse-v02/captain-exchange.png",
+      "role": "concourse-006 / The pitch and the refusal; accepted V59 visual reference",
+      "bytes": 2799563,
+      "sha256": "f68ca2f368916cf90765767fff2c763f440f9920ed5584a48ae336a4a24a175f"
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/food-concourse.png",
+      "backup": "reference-images/station-concourse-v02/food-concourse.png",
+      "role": "concourse-008 / Through the food concourse; accepted V59 visual reference",
+      "bytes": 2677682,
+      "sha256": "a8ae69f5dea449d0093927e549c9768aedd52a00359d079c4a06bced059bfd75"
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v02/outfitter-market.png",
+      "backup": "reference-images/station-concourse-v02/outfitter-market.png",
+      "role": "concourse-009 / The parts and outfitters arcade; accepted V59 visual reference",
+      "bytes": 2969019,
+      "sha256": "5baabc144642d1e70f57105a2b7a39726f0f5538aaf056debe6e7df327279748"
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/entrance-pov-closeup.png",
+      "backup": "reference-images/station-concourse-v04/entrance-pov-closeup.png",
+      "role": "concourse-012 / Pause and size it up; accepted V59 visual reference",
+      "bytes": 2282519,
+      "sha256": "7225ed69db560b04e169425c07b03573878aecb2a20fe2c8303e7007e2bd58ad"
+    },
+    {
+      "source": "generated/storyboard/station-concourse-v04/original-gantry.png",
+      "backup": "reference-images/station-concourse-v04/original-gantry.png",
+      "role": "concourse-013 / Continue along the gantry; accepted V59 visual reference",
+      "bytes": 2614403,
+      "sha256": "62271a13c4c980be51dfaa81ae2249f5c4bafa5f1256724115a470e085418469"
     }
-  ]
+  ],
+  "acceptedVersion": "v59",
+  "updatedAt": "2026-10-11T19:30:48.657165+00:00"
 }

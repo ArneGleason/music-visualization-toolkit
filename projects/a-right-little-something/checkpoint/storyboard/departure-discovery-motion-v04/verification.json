@@ -1,0 +1,44 @@
+{
+  "fullFrames": 5265,
+  "passageFrames": 549,
+  "zoomFrames": 73,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "originalMasterAudio": "AAC packets verified identical to V56",
+  "affectedOpticalFrames": 14,
+  "transitions": 8,
+  "newCredits": 0,
+  "cumulativeCredits": 3384,
+  "departureComposite": {
+    "kind": "Blender compositor pullout and cyan station twinkle",
+    "frames": 140,
+    "startFrame": 2665,
+    "pulloutEndFrameInclusive": 2723,
+    "renderedFrames": 59,
+    "sourceSpeed": "Unchanged V56 reversed video",
+    "startScale": 1.18,
+    "endScale": 1.0,
+    "scaleCurve": "1+0.18*(1-(localFrame-1)/58)^1.6",
+    "twinkle": {
+      "sourceAnchorPixels": [
+        960,
+        514
+      ],
+      "localStartFrame": 1,
+      "peakFrame": 6,
+      "localEndFrame": 17,
+      "color": "cyan"
+    },
+    "fullFrameReturnMeanAbsoluteErrorRGB": [
+      0.12980516975308642,
+      0.1456129436728395,
+      0.16463300540123457
+    ],
+    "tail": "Frames 60–140 copied pixel-for-pixel from source PNGs before encoding",
+    "blend": "departure-pullout-twinkle.blend",
+    "newCredits": 0
+  },
+  "fallbackVersion": "v57",
+  "fallbackPreserved": true
+}

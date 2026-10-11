@@ -1,0 +1,23 @@
+{
+  "boardId": "ce27973e-c009-4d44-8eab-ed01be58c996",
+  "animaticVersion": "v48",
+  "status": "Original gantry and new reverse-angle still; user review pending",
+  "generationMode": "built-in ImageGen",
+  "newKlingCredits": 0,
+  "items": [
+    {
+      "id": "concourse-010",
+      "image": "generated/storyboard/station-concourse-v04/original-gantry.png",
+      "startFrame": 2425,
+      "endFrameExclusive": 2556,
+      "direction": "Use the exact user-annotated Discover the opening ship original. One continuous exterior view: Harper approaches a little and stops midway on the gantry. Fixed camera or restrained slow move; preserve ship, station and gantry relationship. Stop outside; no boarding or cabin reveal."
+    },
+    {
+      "id": "concourse-012",
+      "image": "generated/storyboard/station-concourse-v04/entrance-pov-closeup.png",
+      "startFrame": 2556,
+      "endFrameExclusive": 2595,
+      "direction": "Cut decisively to the reverse angle from the ship entrance, looking back along the gantry toward the station. Harper remains midway on the gantry, nearly face-on, looking toward the entrance. Quiet practical positive decision, relaxed face and closed lips; no big smile. Station portal and railings behind her; sphere behind camera and out of frame."
+    }
+  ]
+}

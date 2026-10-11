@@ -1,0 +1,51 @@
+{
+  "boardId": "ce27973e-c009-4d44-8eab-ed01be58c996",
+  "animaticVersion": "v46",
+  "status": "Five revised stills; user review pending",
+  "generationMode": "built-in ImageGen",
+  "newKlingJobs": 0,
+  "newKlingCredits": 0,
+  "cumulativeKlingCredits": 2864,
+  "items": [
+    {
+      "id": "concourse-006",
+      "title": "The pitch and the refusal",
+      "image": "generated/storyboard/station-concourse-v02/captain-exchange.png",
+      "startFrame": 2211,
+      "endFrameExclusive": 2294,
+      "direction": "Third flip through Guess not and instrumental: hold one two-shot. Captain makes his pitch; Harper calmly shakes her head. Replace the abrupt reaction and near-duplicate departure cuts. Dissolve into the food concourse."
+    },
+    {
+      "id": "concourse-008",
+      "title": "Through the food concourse",
+      "image": "generated/storyboard/station-concourse-v02/food-concourse.png",
+      "startFrame": 2294,
+      "endFrameExclusive": 2359,
+      "direction": "Harper threads left to right through a lively food concourse. Alien vendors, diners and passing travelers animate the space while she continues her search."
+    },
+    {
+      "id": "concourse-009",
+      "title": "The parts and outfitters arcade",
+      "image": "generated/storyboard/station-concourse-v02/outfitter-market.png",
+      "startFrame": 2359,
+      "endFrameExclusive": 2425,
+      "direction": "Continue left to right through a distinct parts, travel-outfit and exotic-goods arcade. Keep movement purposeful and the aisle legible; no shopping detour."
+    },
+    {
+      "id": "concourse-010",
+      "title": "An approving pause at the gantry",
+      "image": "generated/storyboard/station-concourse-v02/gantry-pause.png",
+      "startFrame": 2425,
+      "endFrameExclusive": 2507,
+      "direction": "At the gantry entrance Harper pauses, looks toward her ship and gives a small approving smile. Sphere and engine assembly are approximately 80 percent of prior physical size relative to Harper, with a human-sized entrance."
+    },
+    {
+      "id": "concourse-011",
+      "title": "Cut closer as she boards",
+      "image": "generated/storyboard/station-concourse-v02/boarding-cut-in.png",
+      "startFrame": 2507,
+      "endFrameExclusive": 2595,
+      "direction": "Cut closer to the entry as Harper steps aboard. Omit the long wide approach; preserve the smaller ship scale and left-to-right travel. Settle inside by the next vocal."
+    }
+  ]
+}

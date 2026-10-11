@@ -1,0 +1,41 @@
+{
+  "id": "concourse-010-motion-v02",
+  "shotId": "concourse-010",
+  "title": "Gantry walk, pause, continue",
+  "startFrame": 2425,
+  "editFrames": 170,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "sourceEditStartFrame": 25,
+  "model": "kling-video-v3_0",
+  "duration": 10,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/station-concourse-v04/original-gantry.png",
+  "firstImageSha256": "62271a13c4c980be51dfaa81ae2249f5c4bafa5f1256724115a470e085418469",
+  "prompt": "10 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the adult woman; the starter image controls her warm-gray survival coverall, overriding identity-reference clothing. ONE CONTINUOUS LOCKED CAMERA wide take from the exact starter. The station, sphere, engine ring and bridge remain completely fixed relative to each other. Harper is on the existing bridge between both railings. She walks TOWARD the ship in small measured natural steps, along this short bridge only. Timing for editing: by second1 walking is established; through second4.4 she approaches partway then stops STILL OUTSIDE several steps short of doorway. Hold a brief natural considering pause around seconds4.4\u20135.75. Around second5.75 she resumes from exactly the stopped position and takes the remaining slow steps toward the closed entrance through second8.1. She MUST remain fully visible OUTSIDE the entrance throughout all10seconds; finish just short of the threshold, no boarding, no disappearance behind door rim. Last2seconds settle near entrance. Preserve exact full spherical craft, single aft cyan ring, transparent field and platforms. No camera zoom, pan or dolly; no moving ship/station, invented interior, opening hatch, new door, detached bridge or teleporting. Feet contact the bridge floor, natural gait, no sliding. No generated cutaway; the face insert is added separately. Preserve the approved painted graphic-novel style, adult face, short auburn curls and all starting-frame designs. No montage, transitions, captions, readable words, logos, watermarks, audio or lip-sync. One-second editing handles.\n\nCONCOURSE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure with fine controlled ink contours, rich illustrated material detail, indigo space, cyan practical lights and warm amber edges. Adult Harper has the established freckled face, hazel-green eyes and short curly auburn hair; keep her adult proportions and identity. She has changed offscreen during pod transit into a practical pod-issue survival coverall: soft warm-gray fabric, roomy long sleeves with gathered cuffs, closed simple collar, plain central fastening, adjustable gray waist belt, slightly loose trousers, low graphite slip-on utility shoes, one tiny unlettered amber rescue tab at the upper arm. No helmet, armor, gloves, swimsuit, costume logos or readable lettering. Station is a worn but welcoming interstellar transport interchange built around a broad segmented graphite ring with ivory inset ribs, tall arching windows, amber floor-edge strips, cyan docking lights and branching radial berths. Interior promenade has dark ribbed arches, warm ivory wall panels and a few distant travelers; its quieter outer service walkway retains the same architecture. The small arrival capsule is the established enclosed ivory-and-graphite ovoid one-seat escape pod, without a large external ring. The discovered personal spacecraft is the established transparent spherical technological field with faint cyan geodesic lines, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc; never confuse these two craft. Keep only subjects needed for the shot. Each image is one uninterrupted full-frame 16:9 cinematic composition with a quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.",
+  "estimatedCredits": 80,
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "placements": [
+    {
+      "shotId": "concourse-010",
+      "startFrame": 2425,
+      "editFrames": 82,
+      "sourceEditStartFrame": 25
+    },
+    {
+      "shotId": "concourse-013",
+      "startFrame": 2539,
+      "editFrames": 56,
+      "sourceEditStartFrame": 139
+    }
+  ]
+}

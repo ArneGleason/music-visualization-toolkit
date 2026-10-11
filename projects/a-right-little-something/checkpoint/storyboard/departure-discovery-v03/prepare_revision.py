@@ -1,0 +1,25 @@
+from pathlib import Path
+
+out=Path(__file__).resolve().parent
+previous=out.with_name('departure-discovery-v02')
+script=(previous/'revise.py').read_text(encoding='utf-8')
+script=script.replace("assert register['activeReviewEdit']=='v51'", "assert register['activeReviewEdit']=='v52'")
+script=script.replace('departure-v02-undocking','departure-v03-undocking')
+script=script.replace('exec-90ff0933-5c7a-432a-9eb6-23cb5f9b9ea5.png','exec-64cc12e5-3fc3-431f-bc1c-9a5d444eb127.png')
+script=script.replace('attempts=1','attempts=2')
+script=script.replace('with Harper visibly inside at the controls','with Harper visibly floating weightless inside in her gray long-sleeved coverall, both complete shoes and her whole body clear of the metal band')
+script=script.replace('Keep compact personal-craft scale grounded by visible Harper.', 'Keep exactly one outer equatorial structural band and no internal cockpit ring or railing. Preserve entry point, single aft engine ring and upper/lower technical plates from the original empty-ship reference. Harper floats gently with bent knees, never standing; preserve both complete shoes with clearance above the band.')
+script=script.replace('Ship fills', 'Ship fills')
+start=script.index("qa='Harper visible;")
+end=script.index("'))",start)
+script=script[:start]+"qa='Extra internal ring removed. Harper floats with bent knees; both complete shoes visible above the band. Ship and station framing retained. First attempt hid one shoe; second corrected it."+script[end:]
+script=script.replace("sourceAnimatic='generated/animatic/A-Right-Little-Something-selected-motion-v51.mp4'", "sourceAnimatic='generated/animatic/A-Right-Little-Something-selected-motion-v52.mp4'")
+script=script.replace("continuationNotes='V52 replaces departure-002 first still with a front three-quarter view, visible Harper and station receding behind. Exact V51 timing retained. No Kling spending.'", "continuationNotes='V53 removes the invented interior ring and floats Harper with both feet fully visible; original ship reference preserved. V52 timing unchanged. No Kling spending.'")
+script=script.replace(".replace('selected-motion-v50.mp4','selected-motion-v51.mp4')", ".replace('selected-motion-v50.mp4','selected-motion-v52.mp4')")
+script=script.replace(".replace('V51','V52').replace('v51','v52').replace('equal to V50','equal to V51').replace('departure-discovery-v01/board/index.html','departure-discovery-v02/board/index.html')", ".replace('V51','V53').replace('v51','v53').replace('equal to V50','equal to V52').replace('departure-discovery-v01/board/index.html','departure-discovery-v03/board/index.html')")
+script=script.replace("'Generated stills timed in V51; user review pending. Native action not yet generated.'", "'Generated stills timed in V52; user review pending. Native action not yet generated.'")
+script=script.replace('V52 still preview','V53 still preview')
+script=script.replace('Toward camera — Harper aboard, station behind','One equatorial band — Harper floating, both feet visible')
+script=script.replace("save(OUT/'gallery-options.json',read(OLD/'gallery-options.json'))", "save(OUT/'gallery-options.json',{**read(OLD/'gallery-options.json'),'title':'Departure and jungle discovery — V53 stills'})")
+(out/'revise.py').write_text(script,encoding='utf-8')
+print('Prepared V53 correction registration')

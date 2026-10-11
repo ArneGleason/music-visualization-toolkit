@@ -1,0 +1,36 @@
+{
+  "id": "departure-departure-motion-v01",
+  "shotId": "departure-002",
+  "title": "Careful undocking into the bigger sky",
+  "startFrame": 2665,
+  "editFrames": 140,
+  "leadInFrames": 6,
+  "leadOutFrames": 46,
+  "sourceEditStartFrame": 7,
+  "model": "kling-video-v3_0",
+  "duration": 8,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": "generated/storyboard/departure-discovery-v01/distant-station.png",
+  "firstImage": "generated/storyboard/departure-discovery-v04/undocking.png",
+  "firstImageSha256": "468cfdbf859d204a85913ba9e981091e03651b5b107bf257239ccae195b36a12",
+  "prompt": "8 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the established adult woman. The starter image controls gray long-sleeved coverall and utility shoes, overriding identity-reference clothes. ONE CONTINUOUS EXTERIOR CAMERA PULLBACK, from provided first image toward the distant-station tail image. Start camera movement IMMEDIATELY, no static opening hold. Within the first0.75 seconds the sphere shrinks to less than half its initial apparent diameter; by1.5 seconds it is a small recognizable ship and Harper is no longer individually readable. Camera rapidly retreats farther through space, settling into enormous cosmic scale by5.5 seconds, then continues very slowly through the last2 seconds near the tail composition. Ship itself moves gently away from station toward camera like a careful new driver, while camera retreats MUCH faster. This is changing camera distance, never the spacecraft physically shrinking, growing, transforming or morphing. Station stays behind ship in depth and both recede together. Harper floats inside throughout; maintain full body, both shoes, gray outfit. Preserve EXACT starting ship model: one outer equatorial band, entry, single aft vertical engine ring, pole plates; no inner cockpit ring. No left-right broadside slide. No cuts, crossfades or dissolves, no blur hiding a geometry transformation. Stable stars, sensible perspective, no added planet. Preserve the painted graphic-novel rendering and all approved starter designs. No montage, captions, readable words, watermark, generated audio or lip-sync. The immediate pullback is essential; do not wait for a one-second static handle.\n\nDEPARTURE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials, deep indigo space, cyan practical lights and restrained warm amber edges. Adult Harper has established freckled face, hazel-green eyes and short curly auburn hair. She wears the same pod-issued warm-gray long-sleeved survival coverall, gathered cuffs, plain closed collar and fastening, gray belt, loose trousers and graphite utility shoes; tiny unlettered amber arm tab. Reference short-sleeved clothing is superseded. Personal ship is the established transparent spherical technological field, faint cyan geodesic grid, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc. Cabin is the established open spherical volume with curved graphite rail/platform and sparse floating holographic controls, not a conventional airplane cockpit. The newly discovered remote planet has a broad dark-emerald jungle continent, copper-coloured inland seas and ivory storm systems, visibly distinct from the opening turquoise/peach world. Only include subjects required by the specific shot. One uninterrupted full-frame cinematic16:9 image, quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.\n\nMOTION CONTINUITY: Only subjects in the starter and required action appear. The ship has no extra inner cockpit ring; the continuity-lock rail means its established outer equatorial structure. Keep character and ship scale constant in world space.",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "estimatedCredits": 64,
+  "placements": [
+    {
+      "shotId": "departure-002",
+      "startFrame": 2665,
+      "editFrames": 140,
+      "sourceEditStartFrame": 7
+    }
+  ],
+  "tailImageSha256": "0cd03e541a514c84c5efd1993652dc7c3817c8a3bbbfd51180f1998e5789b342"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "station-concourse-v05",
+  "output": "generated/storyboard/station-concourse-motion-v02",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v49.mp4",
+  "useMotion": true,
+  "motionShotIds": [
+    "concourse-001",
+    "concourse-002",
+    "concourse-003",
+    "concourse-006",
+    "concourse-008",
+    "concourse-009",
+    "concourse-010",
+    "concourse-013",
+    "concourse-012"
+  ],
+  "draftForReview": true,
+  "presentation": "Clean replacement motion with still bioship/sailcraft flips; walk, consider, resume uses the same native wide take.",
+  "mediaLabel": "Concourse native motion / still ship flips",
+  "continuationNotes": "V50 uses five new native takes for captain, food, market, gantry and entrance close-up. Two sequential gantry excerpts surround consideration. First two ship flips stay approved stills with reveal wipes. Original master audio and full frame count retained. User playback review pending.",
+  "transitions": [
+    {
+      "incomingShot": "concourse-004",
+      "boundaryFrame": 2192,
+      "startFrame": 2190,
+      "endFrameExclusive": 2194,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-005",
+      "boundaryFrame": 2203,
+      "startFrame": 2201,
+      "endFrameExclusive": 2205,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-006",
+      "boundaryFrame": 2211,
+      "startFrame": 2209,
+      "endFrameExclusive": 2213,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "type": "dissolve",
+      "incomingShot": "concourse-008",
+      "startFrame": 2288,
+      "endFrameExclusive": 2300,
+      "frames": 12
+    }
+  ]
+}

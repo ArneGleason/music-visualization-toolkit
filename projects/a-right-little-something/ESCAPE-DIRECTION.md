@@ -1,13 +1,130 @@
 # Escape from the robot laboratory ship
 
+## October 11 — accepted V59 save point / break
+
+User accepted V59 as the save point before taking a break: stronger optical zoom overlaps, Blender departure pullout and enlarged cyan twinkle.
+Full edit: 5265 frames, 1080p at24fps, original master audio. No paid jobs
+pending; cumulative spend3384credits. V57 softer zoom and V58 prior twinkle
+remain local fallbacks. New work resumes at frame3144 (2:10.958), the second
+chorus/new jungle world; no new generation or planning is requested during
+the break. Matching intro ship shots to the accepted sphere design is still
+future work. Canonical decisions: `shots/shotlist.json`. Curated exact image
+references: `reference-images/manifest.json`. Small metadata, prompts and
+rebuild scripts: `checkpoint/`. Large footage, audio, frame caches, blends
+and full renders stay local and excluded from Git.
+
+## October 11 — V59 more visible cyan twinkle
+
+User accepts V58 stronger zoom and Blender pullout; requests a more noticeable
+twinkle. Doubled its spatial size and multiplied linear light by2.5 in Blender.
+Same cyan, anchor and pulse timing (peak local6, gone by17). Only pulse picture
+frames differ; accepted pullout and optical overlaps retained. Full5265frames,
+24fps1080p, original master AAC packets verified identical to V58. No new spend.
+V57 and V58 remain available. Review: http://127.0.0.1:8768/?v=v59
+Editable scene and verification: `generated/storyboard/departure-discovery-motion-v05/`.
+
+## October 11 — V58 stronger zoom and Blender departure effects
+
+User accepted V57 blur and explicitly requested keeping it as a fallback.
+V58 uses longer radial trails and greater opacity at the same eight optical
+transitions, still one or two frames each; no timing changes.
+Departure now has an editable Blender compositor pullout: 1.18x at frame2665
+(1:51.0), smoothly reaching 1.0x at frame2723 (1:53.417). Cyan station twinkle
+at source pixel960,514 peaks at localframe6 and fades by17. Source video speed
+is unchanged. Blender renders local1–59;60–140 reuse the original picture.
+Full-frame return differs by less than0.17 average code values per RGB channel.
+Full5265frames,1080p24fps; original master AAC packets verified. No new spend;
+cumulative3384credits. V57 full video and passage remain intact.
+Comparison and editable blend: http://127.0.0.1:8768/storyboard/departure-discovery-motion-v04/
+Current review: http://127.0.0.1:8768/?v=v58
+Frame stepping verified: focus the timeline, then Shift+Left/Right; no app change.
+
+## October 11 — V57 brief optical zoom overlaps
+
+User requested a rapid outgoing zoom blur to connect the static magnification
+steps. Eight transitions now expand the outgoing view toward camera with a
+radial shutter blur, fading over the next static image on its original cue.
+Two frames per overlap; one frame into the shortest three-frame views
+(cues 3 and 8), leaving clear settled views. Fourteen picture frames affected.
+All nine cue frames and the final planet hold/reveal are retained; lyrics
+are composited afterward and stay sharp. V56 reversed departure retained;
+user noted its distant opening might linger but was undecided about changing it.
+Full 5265 frames, 1080p/24fps; master AAC packet hashes match V56.
+No new generation or spend; cumulative 3384 credits. Playback review pending.
+Review: http://127.0.0.1:8768/?v=v57
+Effect manifest and build: `generated/storyboard/departure-discovery-motion-v03/`.
+
+## October 11 — V56 departure reversed
+
+User requested literal reversal of “To the bigger sky beyond” so the ship
+comes out from the station. Reversed the accepted clean 140-frame picture
+ at frames 2665–2805 (exclusive end); forward lyrics and original music retained.
+All other shot selections and timings retained. Full 5265 frames, 1080p/24fps,
+master AAC packets verified identical to V55. No new generation or spending;
+cumulative 3384 credits. V55 retained as prior version.
+Review: http://127.0.0.1:8768/?v=v56
+Clean reversal and provenance: `generated/storyboard/departure-discovery-motion-v02/`.
+
 ## Accepted save point
 
 The user accepted full V39 as a clean save point on October10. Both native
 escape selections and placements are user accepted; earlier playback-pending
 notes below are historical. Next development starts at frame2105,87.6667seconds,
-“All the way to the next channel.” No further flight path or paid job is planned.
-Files-only checkpoint preserves directions, prompts, timing and authoring code;
-new media remain local. Confirmed Kling spend2472credits.
+“All the way to the next channel.” On October 11 the user selected the station
+concourse route through frame 2595: brief directory orientation, real ship
+options, suspect ferry captain, then discovery of the opening spherical ship
+at a remote berth. See `concourseSequence` and `concourse-001` through
+`concourse-011` in `shots/shotlist.json`; timed directions are in the review app.
+V50 animates the accepted captain, food court, parts/outfit market, original
+gantry and entrance-view close-up. The ending remains walk–consider–continue:
+wide 2425–2507, close-up 2507–2539, resumed wide 2539–2595. Both wides are
+consecutive excerpts from one continuous native take (source 25–106 and
+107–162), with consideration carried by the close-up. She remains outside;
+no boarding or invented cabin. The first two ship flips use approved stills
+with right-to-left reveal wipes. Earlier arrival/directory motion is retained.
+
+Five approved Kling jobs completed for exactly 240 credits; cumulative 3104.
+No paid jobs pending. User accepted V50 on October 11. Full edit:
+http://127.0.0.1:8768/?v=v50 ; passage and individual clean takes:
+http://127.0.0.1:8768/storyboard/station-concourse-motion-v02/ . Original music,
+full 5265-frame timing and 1080p/24fps output verified. See the Kling v02 plan
+and PRODUCTION-HANDOFF.md for source selection adjustments and QA notes.
+
+## Selected continuation — signing, departure and discovery
+
+User chose 1A → 2A → 3A → 4A → 5A → 6B → 7A → 8B through the second-chorus
+boundary at frame3144. Eight selected direction notes and nine exact zoom cues
+are saved in `shots/shotlist.json` under `departureDiscoverySequence`.
+Owner handover → careful undock/camera pullback → interior target control →
+nine anchored magnification steps → new jungle planet → wide cabin/distance →
+quiet close affirmation → hand confirms course.
+V51 now places 17 generated stills in 18 holds across frames 2595–3144.
+Nine separate optical images cut on the performed “in” cues; the full planet
+reveals at 2946 and holds for two seconds. Undocking/pullback currently uses
+two held keyframes with a 12-frame dissolve. Native action is not generated.
+V52 corrects the first departure exterior at2665: visible Harper inside,
+front three-quarter view from open space, station receding behind rather
+than alongside. Gently approach camera after clearing and turning from berth;
+keep engine ring off her silhouette. Same timing; V51 retained.
+V53 removes the extra inner cockpit ring and floats Harper in her gray outfit,
+with both feet fully visible. Original v01 undocking still defines ship
+geometry: single outer equatorial band, entry, aft engine and pole plates.
+User mentioned possibly revising the opening to this ship later; pending.
+V54 restores the preferred larger Harper scale while tucking her legs to
+retain both visible shoes. User explicitly selected this ship design as the
+continuity reference for later intro matching: `sphere-ship-continuity-v01`
+in canonical `continuityReferences.personalSphereShip`. App note and board
+tile are marked SHIP CONTINUITY REFERENCE. Opening updates remain future work.
+V55 now assembles seven native clean takes for this section, with the nine
+zoom images retained as exact still cuts. Departure uses clean native73–193
+retimed to140frames: quick initial pullback, slow distant tail; unwanted early
+flare removed. It starts after the ship's turn, so aft ring appears on the
+opposite side. Approved V54 still remains the design reference. Seven approved
+jobs cost280credits, cumulative3384; none pending. Full frame count and original
+master AAC packets verified. Active motion review:
+http://127.0.0.1:8768/?v=v55 ; user playback pending.
+Full timing and original master audio verified; no Kling spending.
+See the current PRODUCTION-HANDOFF.md entry for exact boundaries and staging.
 
 ## V39 — approved native motion completed
 

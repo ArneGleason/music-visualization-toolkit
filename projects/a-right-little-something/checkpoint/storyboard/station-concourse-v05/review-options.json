@@ -1,0 +1,62 @@
+{
+  "id": "station-concourse-v05",
+  "output": "generated/storyboard/station-concourse-v05",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v48.mp4",
+  "useMotion": true,
+  "motionShotIds": [
+    "concourse-001",
+    "concourse-002",
+    "concourse-003",
+    "concourse-004",
+    "concourse-005"
+  ],
+  "draftForReview": true,
+  "presentation": "Approved stills reblocked as walk, consider, resumed walk; new movement is not yet generated.",
+  "mediaLabel": "Gantry walk / consider / continue",
+  "continuationNotes": "V49 reblocks approved gantry stills at2425–2595: walk82frames, consideration32frames, resumed walk56frames. Use two sequential selections from one continuous wide native take around the close-up; never loop the approach. This is a still timing preview. No new generation or spending. Original audio/full timing retained.",
+  "transitions": [
+    {
+      "incomingShot": "concourse-004",
+      "boundaryFrame": 2192,
+      "startFrame": 2190,
+      "endFrameExclusive": 2194,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-005",
+      "boundaryFrame": 2203,
+      "startFrame": 2201,
+      "endFrameExclusive": 2205,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-006",
+      "boundaryFrame": 2211,
+      "startFrame": 2209,
+      "endFrameExclusive": 2213,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "type": "dissolve",
+      "incomingShot": "concourse-008",
+      "startFrame": 2288,
+      "endFrameExclusive": 2300,
+      "frames": 12
+    }
+  ]
+}

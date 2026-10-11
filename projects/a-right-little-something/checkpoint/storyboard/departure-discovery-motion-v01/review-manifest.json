@@ -1,0 +1,145 @@
+{
+  "animaticVersion": "v55",
+  "status": "Native playback review draft",
+  "takes": [
+    {
+      "id": "departure-signing-motion-v01",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-signing-motion-v01/departure-signing-motion-v01-01-clean.mp4",
+      "editMotionRef": null,
+      "retime": null,
+      "placements": [
+        {
+          "shotId": "departure-001",
+          "startFrame": 2595,
+          "editFrames": 70,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "Legible signing gesture followed by owner offering and Harper accepting the token. Stable faces, hands and ship backdrop. Source25–94 contains the signature release and handover; slight camera drift is native."
+      }
+    },
+    {
+      "id": "departure-departure-motion-v01",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-departure-motion-v01/departure-departure-motion-v01-01-clean.mp4",
+      "editMotionRef": "generated/storyboard/departure-discovery-motion-v01/departure-retimed-clean.mp4",
+      "retime": {
+        "nativeStartFrame": 73,
+        "nativeEndFrameInclusive": 193,
+        "outputFrames": 140,
+        "curve": "source=73+120*(1-(1-outputIndex/139)^3)",
+        "frameBlending": true
+      },
+      "placements": [
+        {
+          "shotId": "departure-002",
+          "startFrame": 2665,
+          "editFrames": 140,
+          "sourceEditStartFrame": 1
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "Raw take lingered and introduced a bright flare around1.5s, with a changed viewing angle afterward. Exclude native1–72. Use clean native73–193 with a cubic ease-out retime to140 edit frames: pullback starts immediately, Harper becomes small quickly, and the view settles on tiny ship/station. This begins after the ship has turned, with the engine ring on the opposite side from the starter. Small extra inner edging remains briefly visible in the native model; no large added cockpit ring. Frame blending smooths the distant tail. No dissolve or extra image zoom."
+      }
+    },
+    {
+      "id": "departure-target-motion-v01",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-target-motion-v01/departure-target-motion-v01-01-clean.mp4",
+      "editMotionRef": null,
+      "retime": null,
+      "placements": [
+        {
+          "shotId": "departure-003",
+          "startFrame": 2805,
+          "editFrames": 68,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "Small raised-hand targeting gesture and return to sparse cyan control; stable adult face and gray outfit, no premature planet. Source25–92 gives target selection and settling hand before the optical cuts; no lip-sync."
+      }
+    },
+    {
+      "id": "departure-planet-motion-v01",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-planet-motion-v01/departure-planet-motion-v01-01-clean.mp4",
+      "editMotionRef": null,
+      "retime": null,
+      "placements": [
+        {
+          "shotId": "departure-005",
+          "startFrame": 2946,
+          "editFrames": 48,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "Clean stable globe and coherent cloud/continent rotation. Rotation is more noticeable than the very subtle requested motion, but geography and palette stay recognizable. Select source25–72 for the48-frame reveal on big; do not add zoom."
+      }
+    },
+    {
+      "id": "departure-cabin-motion-v01",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-cabin-motion-v01/departure-cabin-motion-v01-01-clean.mp4",
+      "editMotionRef": null,
+      "retime": null,
+      "placements": [
+        {
+          "shotId": "departure-006",
+          "startFrame": 2994,
+          "editFrames": 45,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "Stable wide cabin and remote planet display with gentle character/camera drift and sparse route-line extension. Preserves approved framing. Source25–69; Harper stays at the existing rail as authored in this particular still."
+      }
+    },
+    {
+      "id": "departure-affirmation-motion-v01",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-affirmation-motion-v01/departure-affirmation-motion-v01-01-clean.mp4",
+      "editMotionRef": null,
+      "retime": null,
+      "placements": [
+        {
+          "shotId": "departure-007",
+          "startFrame": 3039,
+          "editFrames": 42,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "Subtle eye shift, breath/blink and small affirmative head movement without a broad smile or speech. Later hair motion and head turn become more pronounced; source25–66 limits that while retaining a quiet reaction."
+      }
+    },
+    {
+      "id": "departure-confirm-motion-v01",
+      "motionRef": "generated/kling-tests/departure-discovery-v01/departure-confirm-motion-v01/departure-confirm-motion-v01-01-clean.mp4",
+      "editMotionRef": null,
+      "retime": null,
+      "placements": [
+        {
+          "shotId": "departure-008",
+          "startFrame": 3081,
+          "editFrames": 63,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "One legible touch/release, a restrained amber course pulse and relaxed hand withdrawal. Five-finger anatomy and gray cuff remain stable. Source25–87 carries the confirmation and settling route."
+      }
+    }
+  ],
+  "stillSegments": [
+    {
+      "startFrame": 2873,
+      "endFrameExclusive": 2946,
+      "reason": "Nine accepted hard-cut magnification stills plus last-view resolving hold"
+    }
+  ]
+}

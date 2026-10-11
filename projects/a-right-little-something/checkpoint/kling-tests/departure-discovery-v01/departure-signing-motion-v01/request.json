@@ -1,0 +1,35 @@
+{
+  "id": "departure-signing-motion-v01",
+  "shotId": "departure-001",
+  "title": "Sign for the ship",
+  "startFrame": 2595,
+  "editFrames": 70,
+  "leadInFrames": 24,
+  "leadOutFrames": 26,
+  "sourceEditStartFrame": 25,
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/departure-discovery-v01/signing.png",
+  "firstImageSha256": "97e758db07bc2dbe78b47d501a83515624d506ebda4643b8e133908332621244",
+  "prompt": "5 seconds. Clean silent single shot. Harper <<<323570155312565>>> is the established adult woman. The starter image controls gray long-sleeved coverall and utility shoes, overriding identity-reference clothes. Medium two-shot at the berth. Harper makes one short fingertip signing gesture on the transfer panel, lifts her hand, and accepts the small control token offered by the existing slate-blue fin-eared owner. Owner releases it naturally. Calm practical agreement; neither speaks or grins. Stable hands, panel and established ship behind them. Camera almost fixed. Perform the clear signing and handover between seconds1 and3.8. Preserve the painted graphic-novel rendering and all approved starter designs. No montage, captions, readable words, watermark, generated audio or lip-sync. Allow one-second editing handles before and after the main action.\n\nDEPARTURE SEQUENCE LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials, deep indigo space, cyan practical lights and restrained warm amber edges. Adult Harper has established freckled face, hazel-green eyes and short curly auburn hair. She wears the same pod-issued warm-gray long-sleeved survival coverall, gathered cuffs, plain closed collar and fastening, gray belt, loose trousers and graphite utility shoes; tiny unlettered amber arm tab. Reference short-sleeved clothing is superseded. Personal ship is the established transparent spherical technological field, faint cyan geodesic grid, graphite equatorial band, upper/lower circular platforms, amber rim lights, sparse cyan rectangular lamps and one vertical open aft engine ring with cyan inner arc. Cabin is the established open spherical volume with curved graphite rail/platform and sparse floating holographic controls, not a conventional airplane cockpit. The newly discovered remote planet has a broad dark-emerald jungle continent, copper-coloured inland seas and ivory storm systems, visibly distinct from the opening turquoise/peach world. Only include subjects required by the specific shot. One uninterrupted full-frame cinematic16:9 image, quiet bottom strip for later lyrics; no captions, readable words, watermarks, panels or collage.\n\nMOTION CONTINUITY: Only subjects in the starter and required action appear. The ship has no extra inner cockpit ring; the continuity-lock rail means its established outer equatorial structure. Keep character and ship scale constant in world space.",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "estimatedCredits": 40,
+  "placements": [
+    {
+      "shotId": "departure-001",
+      "startFrame": 2595,
+      "editFrames": 70,
+      "sourceEditStartFrame": 25
+    }
+  ]
+}

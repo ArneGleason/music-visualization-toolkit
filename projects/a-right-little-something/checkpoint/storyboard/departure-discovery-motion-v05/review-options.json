@@ -1,0 +1,19 @@
+{
+  "id": "departure-discovery-v01",
+  "output": "generated/storyboard/departure-discovery-motion-v05",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v58.mp4",
+  "useMotion": true,
+  "draftForReview": true,
+  "presentation": "Accepted stronger zoom and Blender pullout, with brighter and larger cyan station twinkle",
+  "mediaLabel": "Departure and discovery / clean motion",
+  "continuationNotes": "V59: cyan twinkle doubled in size and 2.5x linear light intensity. V58 pullout, stronger zoom overlaps, all timing and master music retained.",
+  "motionShotIds": [
+    "departure-001",
+    "departure-002",
+    "departure-003",
+    "departure-005",
+    "departure-006",
+    "departure-007",
+    "departure-008"
+  ]
+}

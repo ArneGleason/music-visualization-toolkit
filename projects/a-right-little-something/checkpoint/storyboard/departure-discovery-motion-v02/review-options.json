@@ -1,0 +1,19 @@
+{
+  "id": "departure-discovery-v01",
+  "output": "generated/storyboard/departure-discovery-motion-v02",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v55.mp4",
+  "useMotion": true,
+  "draftForReview": true,
+  "presentation": "Departure shot reversed; all other shots and timing retained",
+  "mediaLabel": "Departure and discovery / clean motion",
+  "continuationNotes": "V56: departure-002 reversed over the same 140 frames. Lyrics run forward; original master audio retained. No new generation or credits.",
+  "motionShotIds": [
+    "departure-001",
+    "departure-002",
+    "departure-003",
+    "departure-005",
+    "departure-006",
+    "departure-007",
+    "departure-008"
+  ]
+}

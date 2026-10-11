@@ -1,0 +1,66 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Bahnschrift,34,&H00F2F1EB,&H00F2F1EB,&H0017100B,&H8017100B,0,0,0,0,100,100,0.6,0,1,1.5,1,2,90,90,45,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.70,Lyrics,,0,0,0,,{\c&HFFE5A3&}I’m{\c&HF2F1EB&} just a creature of nature.
+Dialogue: 0,0:00:00.70,0:00:00.87,Lyrics,,0,0,0,,I’m {\c&HFFE5A3&}just{\c&HF2F1EB&} a creature of nature.
+Dialogue: 0,0:00:00.87,0:00:01.04,Lyrics,,0,0,0,,I’m just {\c&HFFE5A3&}a{\c&HF2F1EB&} creature of nature.
+Dialogue: 0,0:00:01.04,0:00:01.29,Lyrics,,0,0,0,,I’m just a {\c&HFFE5A3&}creature{\c&HF2F1EB&} of nature.
+Dialogue: 0,0:00:01.29,0:00:01.58,Lyrics,,0,0,0,,I’m just a creature {\c&HFFE5A3&}of{\c&HF2F1EB&} nature.
+Dialogue: 0,0:00:01.58,0:00:01.91,Lyrics,,0,0,0,,I’m just a creature of {\c&HFFE5A3&}nature.{\c&HF2F1EB&}
+Dialogue: 0,0:00:01.91,0:00:02.37,Lyrics,,0,0,0,,{\c&HFFE5A3&}Can’t{\c&HF2F1EB&} loose it.
+Dialogue: 0,0:00:02.37,0:00:02.70,Lyrics,,0,0,0,,Can’t {\c&HFFE5A3&}loose{\c&HF2F1EB&} it.
+Dialogue: 0,0:00:02.70,0:00:03.08,Lyrics,,0,0,0,,Can’t loose {\c&HFFE5A3&}it.{\c&HF2F1EB&}
+Dialogue: 0,0:00:03.08,0:00:03.58,Lyrics,,0,0,0,,{\c&HFFE5A3&}Loose{\c&HF2F1EB&} the buttons that the robots push.
+Dialogue: 0,0:00:03.58,0:00:03.75,Lyrics,,0,0,0,,Loose {\c&HFFE5A3&}the{\c&HF2F1EB&} buttons that the robots push.
+Dialogue: 0,0:00:03.75,0:00:04.08,Lyrics,,0,0,0,,Loose the {\c&HFFE5A3&}buttons{\c&HF2F1EB&} that the robots push.
+Dialogue: 0,0:00:04.08,0:00:04.29,Lyrics,,0,0,0,,Loose the buttons {\c&HFFE5A3&}that{\c&HF2F1EB&} the robots push.
+Dialogue: 0,0:00:04.29,0:00:04.41,Lyrics,,0,0,0,,Loose the buttons that {\c&HFFE5A3&}the{\c&HF2F1EB&} robots push.
+Dialogue: 0,0:00:04.41,0:00:05.00,Lyrics,,0,0,0,,Loose the buttons that the {\c&HFFE5A3&}robots{\c&HF2F1EB&} push.
+Dialogue: 0,0:00:05.00,0:00:05.62,Lyrics,,0,0,0,,Loose the buttons that the robots {\c&HFFE5A3&}push.{\c&HF2F1EB&}
+Dialogue: 0,0:00:06.16,0:00:06.25,Lyrics,,0,0,0,,{\c&HFFE5A3&}Win{\c&HF2F1EB&} the day by fingurin’ out.
+Dialogue: 0,0:00:06.25,0:00:06.29,Lyrics,,0,0,0,,Win the day by fingurin’ out.
+Dialogue: 0,0:00:06.29,0:00:06.45,Lyrics,,0,0,0,,Win {\c&HFFE5A3&}the{\c&HF2F1EB&} day by fingurin’ out.
+Dialogue: 0,0:00:06.45,0:00:06.70,Lyrics,,0,0,0,,Win the {\c&HFFE5A3&}day{\c&HF2F1EB&} by fingurin’ out.
+Dialogue: 0,0:00:06.70,0:00:06.95,Lyrics,,0,0,0,,Win the day {\c&HFFE5A3&}by{\c&HF2F1EB&} fingurin’ out.
+Dialogue: 0,0:00:06.95,0:00:07.04,Lyrics,,0,0,0,,Win the day by fingurin’ out.
+Dialogue: 0,0:00:07.04,0:00:07.50,Lyrics,,0,0,0,,Win the day by {\c&HFFE5A3&}fingurin’{\c&HF2F1EB&} out.
+Dialogue: 0,0:00:07.50,0:00:07.62,Lyrics,,0,0,0,,Win the day by fingurin’ out.
+Dialogue: 0,0:00:07.62,0:00:08.04,Lyrics,,0,0,0,,Win the day by fingurin’ {\c&HFFE5A3&}out.{\c&HF2F1EB&}
+Dialogue: 0,0:00:08.04,0:00:08.37,Lyrics,,0,0,0,,{\c&HFFE5A3&}Too{\c&HF2F1EB&} tough,.
+Dialogue: 0,0:00:08.37,0:00:08.83,Lyrics,,0,0,0,,Too {\c&HFFE5A3&}tough,.{\c&HF2F1EB&}
+Dialogue: 0,0:00:08.83,0:00:09.00,Lyrics,,0,0,0,,{\c&HFFE5A3&}To{\c&HF2F1EB&} think with stars around us.
+Dialogue: 0,0:00:09.00,0:00:09.25,Lyrics,,0,0,0,,To {\c&HFFE5A3&}think{\c&HF2F1EB&} with stars around us.
+Dialogue: 0,0:00:09.25,0:00:09.58,Lyrics,,0,0,0,,To think {\c&HFFE5A3&}with{\c&HF2F1EB&} stars around us.
+Dialogue: 0,0:00:09.58,0:00:10.00,Lyrics,,0,0,0,,To think with {\c&HFFE5A3&}stars{\c&HF2F1EB&} around us.
+Dialogue: 0,0:00:10.00,0:00:10.50,Lyrics,,0,0,0,,To think with stars {\c&HFFE5A3&}around{\c&HF2F1EB&} us.
+Dialogue: 0,0:00:10.50,0:00:10.79,Lyrics,,0,0,0,,To think with stars around {\c&HFFE5A3&}us.{\c&HF2F1EB&}
+Dialogue: 0,0:00:10.79,0:00:11.12,Lyrics,,0,0,0,,{\c&HFFE5A3&}Dark{\c&HF2F1EB&} sky.
+Dialogue: 0,0:00:11.12,0:00:11.79,Lyrics,,0,0,0,,Dark {\c&HFFE5A3&}sky.{\c&HF2F1EB&}
+Dialogue: 0,0:00:12.00,0:00:12.41,Lyrics,,0,0,0,,{\c&HFFE5A3&}So{\c&HF2F1EB&} bright.
+Dialogue: 0,0:00:12.41,0:00:13.00,Lyrics,,0,0,0,,So {\c&HFFE5A3&}bright.{\c&HF2F1EB&}
+Dialogue: 0,0:00:13.29,0:00:13.83,Lyrics,,0,0,0,,{\c&HFFE5A3&}Bright{\c&HF2F1EB&} night.
+Dialogue: 0,0:00:13.83,0:00:14.58,Lyrics,,0,0,0,,Bright {\c&HFFE5A3&}night.{\c&HF2F1EB&}
+Dialogue: 0,0:00:17.00,0:00:17.08,Lyrics,,0,0,0,,Leaving {\c&HFFE5A3&}orbit{\c&HF2F1EB&} at the moment.
+Dialogue: 0,0:00:17.08,0:00:17.12,Lyrics,,0,0,0,,{\c&HFFE5A3&}Leaving{\c&HF2F1EB&} orbit at the moment.
+Dialogue: 0,0:00:17.12,0:00:17.75,Lyrics,,0,0,0,,Leaving {\c&HFFE5A3&}orbit{\c&HF2F1EB&} at the moment.
+Dialogue: 0,0:00:17.75,0:00:18.50,Lyrics,,0,0,0,,Leaving orbit {\c&HFFE5A3&}at{\c&HF2F1EB&} the moment.
+Dialogue: 0,0:00:18.50,0:00:18.66,Lyrics,,0,0,0,,Leaving orbit at {\c&HFFE5A3&}the{\c&HF2F1EB&} moment.
+Dialogue: 0,0:00:18.66,0:00:19.16,Lyrics,,0,0,0,,Leaving orbit at the {\c&HFFE5A3&}moment.{\c&HF2F1EB&}
+Dialogue: 0,0:00:19.16,0:00:19.83,Lyrics,,0,0,0,,{\c&HFFE5A3&}Moments{\c&HF2F1EB&} count here.
+Dialogue: 0,0:00:19.83,0:00:20.12,Lyrics,,0,0,0,,Moments {\c&HFFE5A3&}count{\c&HF2F1EB&} here.
+Dialogue: 0,0:00:20.12,0:00:20.54,Lyrics,,0,0,0,,Moments count {\c&HFFE5A3&}here.{\c&HF2F1EB&}
+Dialogue: 0,0:00:20.54,0:00:21.25,Lyrics,,0,0,0,,{\c&HFFE5A3&}Just{\c&HF2F1EB&} perfect.
+Dialogue: 0,0:00:21.25,0:00:21.91,Lyrics,,0,0,0,,Just {\c&HFFE5A3&}perfect.{\c&HF2F1EB&}
+Dialogue: 0,0:00:22.08,0:00:22.29,Lyrics,,0,0,0,,{\c&HFFE5A3&}We’ll{\c&HF2F1EB&} make all.
+Dialogue: 0,0:00:22.29,0:00:22.58,Lyrics,,0,0,0,,We’ll {\c&HFFE5A3&}make{\c&HF2F1EB&} all.
+Dialogue: 0,0:00:22.58,0:00:23.00,Lyrics,,0,0,0,,We’ll make {\c&HFFE5A3&}all.{\c&HF2F1EB&}

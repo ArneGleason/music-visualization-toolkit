@@ -1,0 +1,71 @@
+{
+  "version": "v53",
+  "fullFrames": 5265,
+  "passageFrames": 549,
+  "fps": 24,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "audio": "Original master AAC packet hashes verified equal to V52 by insertion tool",
+  "uniqueStills": 17,
+  "zoomCues": [
+    {
+      "cue": 1,
+      "startFrame": 2873,
+      "endFrameExclusive": 2887,
+      "timingBasis": "lyr-044-w02"
+    },
+    {
+      "cue": 2,
+      "startFrame": 2887,
+      "endFrameExclusive": 2891,
+      "timingBasis": "lyr-044-w03"
+    },
+    {
+      "cue": 3,
+      "startFrame": 2891,
+      "endFrameExclusive": 2894,
+      "timingBasis": "lyr-044-w04"
+    },
+    {
+      "cue": 4,
+      "startFrame": 2894,
+      "endFrameExclusive": 2899,
+      "timingBasis": "lyr-044-w05"
+    },
+    {
+      "cue": 5,
+      "startFrame": 2899,
+      "endFrameExclusive": 2903,
+      "timingBasis": "lyr-044-w06"
+    },
+    {
+      "cue": 6,
+      "startFrame": 2903,
+      "endFrameExclusive": 2908,
+      "timingBasis": "lyr-044-w07"
+    },
+    {
+      "cue": 7,
+      "startFrame": 2908,
+      "endFrameExclusive": 2912,
+      "timingBasis": "lyr-044-w08"
+    },
+    {
+      "cue": 8,
+      "startFrame": 2912,
+      "endFrameExclusive": 2915,
+      "timingBasis": "lyr-044-w09"
+    },
+    {
+      "cue": 9,
+      "startFrame": 2915,
+      "endFrameExclusive": 2920,
+      "timingBasis": "lyr-044-w10"
+    }
+  ],
+  "planetRevealFrame": 2946,
+  "noKlingSubmission": true,
+  "confirmedCumulativeKlingCredits": 3104
+}

@@ -1,0 +1,61 @@
+{
+  "frames": 549,
+  "fps": 24,
+  "startFrame": 2595,
+  "endFrameExclusive": 3144,
+  "segments": [
+    {
+      "start": 2595,
+      "end": 2665,
+      "file": "departure-signing-motion-v01-selected.mp4"
+    },
+    {
+      "start": 2665,
+      "end": 2805,
+      "file": "departure-departure-motion-v01-selected.mp4"
+    },
+    {
+      "start": 2805,
+      "end": 2873,
+      "file": "departure-target-motion-v01-selected.mp4"
+    },
+    {
+      "start": 2873,
+      "end": 2946,
+      "file": "zoom-stills.mp4"
+    },
+    {
+      "start": 2946,
+      "end": 2994,
+      "file": "departure-planet-motion-v01-selected.mp4"
+    },
+    {
+      "start": 2994,
+      "end": 3039,
+      "file": "departure-cabin-motion-v01-selected.mp4"
+    },
+    {
+      "start": 3039,
+      "end": 3081,
+      "file": "departure-affirmation-motion-v01-selected.mp4"
+    },
+    {
+      "start": 3081,
+      "end": 3144,
+      "file": "departure-confirm-motion-v01-selected.mp4"
+    }
+  ],
+  "nineZoomCues": [
+    2873,
+    2887,
+    2891,
+    2894,
+    2899,
+    2903,
+    2908,
+    2912,
+    2915
+  ],
+  "planetRevealFrame": 2946,
+  "departureDissolve": false
+}

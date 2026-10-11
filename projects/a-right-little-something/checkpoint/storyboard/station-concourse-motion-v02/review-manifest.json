@@ -1,0 +1,143 @@
+{
+  "animaticVersion": "v50",
+  "status": "Native playback review draft",
+  "credits": 240,
+  "cumulativeCredits": 3104,
+  "stillShotIds": [
+    "concourse-004",
+    "concourse-005"
+  ],
+  "transitions": [
+    {
+      "incomingShot": "concourse-004",
+      "boundaryFrame": 2192,
+      "startFrame": 2190,
+      "endFrameExclusive": 2194,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-005",
+      "boundaryFrame": 2203,
+      "startFrame": 2201,
+      "endFrameExclusive": 2205,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "incomingShot": "concourse-006",
+      "boundaryFrame": 2211,
+      "startFrame": 2209,
+      "endFrameExclusive": 2213,
+      "frames": 4,
+      "type": "right-to-left vertical reveal",
+      "featherPixels": 64,
+      "edgeAccentPixels": 3,
+      "edgeAccentOpacity": 0.22,
+      "imageTranslation": false
+    },
+    {
+      "type": "dissolve",
+      "incomingShot": "concourse-008",
+      "startFrame": 2288,
+      "endFrameExclusive": 2300,
+      "frames": 12
+    }
+  ],
+  "takes": [
+    {
+      "id": "concourse-006-motion-v02",
+      "motionRef": "generated/kling-tests/station-concourse-v02/concourse-006-motion-v02/concourse-006-motion-v02-01-clean.mp4",
+      "placements": [
+        {
+          "shotId": "concourse-006",
+          "startFrame": 2211,
+          "editFrames": 83,
+          "sourceEditStartFrame": 13
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "Captain lowers his offering hand while Harper gives a restrained refusal and lowers her palm. Stable ship and blocking. Selected13–95 retains more offer than the planned25 start; 12-frame leading handle. Slight natural mouth movement late in the selection, no generated audio."
+      }
+    },
+    {
+      "id": "concourse-008-motion-v02",
+      "motionRef": "generated/kling-tests/station-concourse-v02/concourse-008-motion-v02/concourse-008-motion-v02-01-clean.mp4",
+      "placements": [
+        {
+          "shotId": "concourse-008",
+          "startFrame": 2294,
+          "editFrames": 65,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "Harper walks through the populated food court with moving alien diners and servers, steam and warm practical lights. Native tracking maintains her scale and identity. Source25–89, including extra transition handles."
+      }
+    },
+    {
+      "id": "concourse-009-motion-v02",
+      "motionRef": "generated/kling-tests/station-concourse-v02/concourse-009-motion-v02/concourse-009-motion-v02-01-clean.mp4",
+      "placements": [
+        {
+          "shotId": "concourse-009",
+          "startFrame": 2359,
+          "editFrames": 66,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "Harper walks past practical parts, outfits and exotic-goods stalls; alien vendor handles merchandise and other travelers move. Native camera follows her past the island display. Source25–90; coherent face, costume and gait across sampled frames."
+      }
+    },
+    {
+      "id": "concourse-010-motion-v02",
+      "motionRef": "generated/kling-tests/station-concourse-v02/concourse-010-motion-v02/concourse-010-motion-v02-01-clean.mp4",
+      "placements": [
+        {
+          "shotId": "concourse-010",
+          "startFrame": 2425,
+          "editFrames": 82,
+          "sourceEditStartFrame": 25
+        },
+        {
+          "shotId": "concourse-013",
+          "startFrame": 2539,
+          "editFrames": 56,
+          "sourceEditStartFrame": 107
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "One continuous exterior take, with a gentle native camera drift. Source25–106 supplies the first walk and immediately consecutive107–162 supplies the resumed walk after the close-up. Model did not pause at the requested time, so consideration is carried by the close-up without skipping forward in the wide. Ends outside at the hatch; no boarding or cabin. Ship and station remain coherent in sampled frames."
+      }
+    },
+    {
+      "id": "concourse-012-motion-v02",
+      "motionRef": "generated/kling-tests/station-concourse-v02/concourse-012-motion-v02/concourse-012-motion-v02-01-clean.mp4",
+      "placements": [
+        {
+          "shotId": "concourse-012",
+          "startFrame": 2507,
+          "editFrames": 32,
+          "sourceEditStartFrame": 25
+        }
+      ],
+      "review": {
+        "usable": true,
+        "notes": "Entrance-facing close-up preserves adult identity, gray coverall, rails and station behind her. Subtle eye assessment and composed closed-mouth expression; no broad smile. Source25–56."
+      }
+    }
+  ]
+}

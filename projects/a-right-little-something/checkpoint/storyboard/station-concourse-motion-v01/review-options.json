@@ -1,0 +1,23 @@
+{
+  "id": "station-concourse-v01",
+  "output": "generated/storyboard/station-concourse-motion-v01",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v44.mp4",
+  "useMotion": true,
+  "motionShotIds": [
+    "concourse-001",
+    "concourse-002",
+    "concourse-003",
+    "concourse-004",
+    "concourse-005",
+    "concourse-006",
+    "concourse-007",
+    "concourse-008",
+    "concourse-009",
+    "concourse-010",
+    "concourse-011"
+  ],
+  "draftForReview": true,
+  "presentation": "Clean native concourse motion with stationary-image right-to-left flip wipes.",
+  "mediaLabel": "Native motion / concourse flip wipes",
+  "continuationNotes": "V45 replaces eleven concourse stills with reviewed clean Kling motion, frames2105–2595. Three four-frame right-to-left vertical reveal wipes on the flips, no image translation. Original master audio and full frame count retained. Native takes remain user playback review drafts."
+}

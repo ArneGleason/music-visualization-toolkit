@@ -1,0 +1,59 @@
+{
+  "sourceVersion": "v54",
+  "targetVersion": "v55",
+  "startFrame": 2595,
+  "endFrameExclusive": 3144,
+  "totalFrames": 549,
+  "placements": [
+    {
+      "shotId": "departure-001",
+      "startFrame": 2595,
+      "editFrames": 70,
+      "sourceEditStartFrame": 25
+    },
+    {
+      "shotId": "departure-002",
+      "startFrame": 2665,
+      "editFrames": 140,
+      "sourceEditStartFrame": 7
+    },
+    {
+      "shotId": "departure-003",
+      "startFrame": 2805,
+      "editFrames": 68,
+      "sourceEditStartFrame": 25
+    },
+    {
+      "shotId": "departure-005",
+      "startFrame": 2946,
+      "editFrames": 48,
+      "sourceEditStartFrame": 25
+    },
+    {
+      "shotId": "departure-006",
+      "startFrame": 2994,
+      "editFrames": 45,
+      "sourceEditStartFrame": 25
+    },
+    {
+      "shotId": "departure-007",
+      "startFrame": 3039,
+      "editFrames": 42,
+      "sourceEditStartFrame": 25
+    },
+    {
+      "shotId": "departure-008",
+      "startFrame": 3081,
+      "editFrames": 63,
+      "sourceEditStartFrame": 25
+    }
+  ],
+  "stillSegments": [
+    {
+      "startFrame": 2873,
+      "endFrameExclusive": 2946,
+      "reason": "Nine accepted hard-cut magnification stills plus last-view resolving hold"
+    }
+  ],
+  "noDissolveInDeparture": true
+}
