@@ -1,0 +1,38 @@
+{
+  "status": "Completed and collected; 48 credits actual",
+  "fps": 24,
+  "output": "generated/kling-tests/scale-motion-v01",
+  "reviewOutput": "generated/storyboard/scale-motion-v01",
+  "estimatedCredits": 48,
+  "authorization": "User answered: Approve the Kling upload and 48-credit animation, 2026-10-10",
+  "timingSource": "Existing DAWproject-derived phrase starts: 854-912, 58 frames at 24fps, with 24-frame source handles.",
+  "reviewChecks": "Cloud motion and water light; subtle ship/Harper motion; coherent metal platforms, thin field and engine ring. Camera move is editorial. No geometry morph or new sky object.",
+  "shots": [
+    {
+      "id": "scale-reveal-motion-v01",
+      "shotId": "scale-reveal-new",
+      "title": "Show you just how big you are / living scale reveal",
+      "startFrame": 854,
+      "editFrames": 58,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/chorus-revision-v02/scale-reveal-v02.png",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "prompt": "One uninterrupted six-second exterior wide illustrated shot from this exact starting image. Keep the immense turquoise/peach living world's curved horizon and dark spires filling the lower-left, with the ONE small spherical spacecraft in the upper-right. Preserve the original geography, composition, tiny human scale and the precise ship silhouette throughout. Motion is already present in the first frame: cloud banks drift slowly along the existing coast, small cloud edges curl, and light glides subtly over the cloud tops. Fine highlights shimmer on the distant turquoise water without redrawing its channels or changing the terrain. The whole ship drifts very gently toward the upper-right by only about two percent of frame width over six seconds, without turning, spinning or banking. Its upper and lower platforms, continuous equatorial metal band and aft open engine ring remain solid and coherent. Harper <<<323570155312565>>> stays the same tiny auburn-haired adult in gray clothing floating inside: quiet breathing, a small floating weight shift and slight hair movement, no large gesture, no foreground face, no growth or pose change. The ultra-thin cyan geodesic field has faint flowing light, not thick glass or bubble refraction. The cyan engine arc has restrained living energy, steady amber rim lamps and gentle illustrated bloom; no flashing or thrust plume. The upper-right light source, stars and violet nebula stay anchored. The world feels enormous and alive around this small observer. LOCKED camera: no pan, zoom, pullback, jiggle, shake, cut, internal fade, zoom blur or reframing. We will apply one deliberate Ken Burns opening move in the edit afterwards. Keep generous room across the entire original frame for that crop. No added moons, planets, ships, navigation lines, labels, text, audio, HUD or new equipment. Preserve the painterly graphic-novel finish.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "reviewNotes": "Stable ship platforms, equatorial band and thin field. Cloud formations and illumination evolve; camera reveal remains an editorial transform."
+    }
+  ],
+  "actualCredits": 48
+}

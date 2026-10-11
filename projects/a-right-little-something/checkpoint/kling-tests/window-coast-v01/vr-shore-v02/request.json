@@ -1,0 +1,26 @@
+{
+  "id": "vr-shore-v02",
+  "shotId": "space-011",
+  "title": "A shore she can inhabit",
+  "model": "kling-video-v3_0",
+  "duration": 8,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/window-coast-v01/space-011-starting-frame-v01.png",
+  "tailImage": null,
+  "startFrame": 912,
+  "editFrames": 134,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "prompt": "One uninterrupted eight-second animation of the supplied alien-coast painting. The entire visible scene contains ONLY Harper and the coastal geography, water, small shelled animals and fan-fronds already present in this starting image. Harper <<<323570155312565>>> preserves her adult freckled face, auburn curls, gray short-sleeve tee, gray trousers and bare feet. The Element supplies ONLY her appearance and outfit; ALL surroundings must follow the coastal starting image exclusively. Full adult body, two natural arms and hands, stable size throughout. Camera stays almost locked at the supplied wide three-quarter view. During the first second curls, gray clothes, fronds, animals and water already move gently. From source 1.0 to 3.3 seconds she opens both arms wide in a welcoming gesture, shoulders relaxed, gaze over the sea. From source 3.3 to 6.6 seconds broad SHALLOW curving tide fronts advance across the peach flats, shifting the wet/dry shoreline and revealing thin reflective channels in response to the open gesture. She remains standing in ankle-deep shallows; the water is never a large wave. Keep continuous breeze, water, life and expressive breathing through the final second. Preserve turquoise water, peach clouds, dark blue spires, violet ribbed fans, pearlescent six-legged shell creatures, warm upper-right sun and painterly graphic-novel finish. The space above and behind Harper stays an empty coastal sky from beginning to end. No new large object or subject appears anywhere at any time. No cut, changing scenery, pose reset, size change, deformation, text, logos or audio.",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "reviewNotes": "Scene-only shore correction: remove shared off-screen ship/planet descriptions from active motion prompt; identical canonical identity block retained as metadata.",
+  "canonicalIdentityLock": " Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing."
+}

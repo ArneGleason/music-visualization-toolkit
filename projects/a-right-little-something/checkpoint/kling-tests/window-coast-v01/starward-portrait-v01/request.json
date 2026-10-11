@@ -1,0 +1,24 @@
+{
+  "id": "starward-portrait-v01",
+  "shotId": "space-009",
+  "title": "Harper looking toward the stars",
+  "model": "kling-video-v3_0",
+  "duration": 8,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/window-coast-v01/space-009-starting-frame-v03.png",
+  "tailImage": null,
+  "startFrame": 789,
+  "editFrames": 123,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "prompt": "Cinematic painterly graphic-novel animation matching the illustrated starting frame. One continuous shot, no cuts or pose resets, natural living movement from beginning through the tail. Native 1080p, preserve the established palette and upper-right lighting. Eight-second tight three-quarter portrait of Harper, the established adult freckled auburn-haired woman in a gray short-sleeve tee. Use the starting frame for her exact face, upward-left starward gaze, hair silhouette, gray tee, framing, warm amber rim light and subtle cyan face light. Use Harper <<<323570155312565>>> only for consistent identity and outfit. She floats quietly in the ship, looking with wistful wonder toward the distant stars. Animate small expressive eye and brow changes, a natural occasional blink, breathing and lightly moving curls. Her lips are softly parted but there is no lip sync. Keep the camera almost locked with a very slight living drift, no dramatic push-in. The solid blurred dark ship band and amber rail at the bottom remain the only visible interior cue. No hand or forearm enters this tight crop. No window, glass, geodesic/hexagonal lines, force-field edge, adhesion, foreground membrane, projected display or moon appears. The starfield remains distant and coherent. Preserve face proportions and avoid warping, new body parts or equipment. The shared lock describes the canonical ship but its transparent field is invisible in this close crop.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ]
+}

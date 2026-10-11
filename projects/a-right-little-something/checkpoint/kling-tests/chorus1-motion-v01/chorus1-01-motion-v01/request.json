@@ -1,0 +1,24 @@
+{
+  "id": "chorus1-01-motion-v01",
+  "shotId": "chorus1-01",
+  "title": "Chorus 1 / What is her mission?",
+  "model": "kling-video-v3_0",
+  "duration": 8,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/chorus1-ideas-v01/chorus1-01-starting-frame-v01.png",
+  "tailImage": null,
+  "startFrame": 1046,
+  "editFrames": 124,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "prompt": "Eight-second continuous intimate interior mission shot. Harper <<<323570155312565>>> floats attentively beside THREE luminous volumetric ecosystem globes as in the starting still. The turquoise coast with violet ribbed fan-fronds and pearlescent shelled tidal animals matches the shore; ochre fungal terrain and indigo luminous reef remain distinct. Keep their arrangement, scale and identity stable; very gentle rotation and tiny ecological movement within globes, no swapping or merging. During first second maintain living hair/face/projection motion. From source 1.0 to 3.2 seconds her already extended hand makes a small deliberate selecting gesture at the turquoise globe. From 3.0 to 6.2 seconds its rim gently brightens and the living water pattern subtly responds; she focuses on it with care and thoughtful responsibility. Continue float and soft motion through tail. Almost locked camera, warm upper-right rim light, only the existing dark metal amber/cyan rail for cabin context. Globe contents are projections, not literal neighboring planets. Preserve anatomy; no new equipment, dense dashboard, English labels, dialogue, audio, automatic cut or inter-scene transition.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ]
+}

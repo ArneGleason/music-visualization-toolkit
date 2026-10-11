@@ -1,0 +1,20 @@
+{
+  "id": "escape-001-ejection-motion-v01",
+  "shotId": "escape-001",
+  "title": "Leaving orbit \u2014 secured inside the escape pod",
+  "startFrame": 1897,
+  "editFrames": 113,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "model": "kling-video-v3_0",
+  "duration": 8,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/escape-ejection-v01/escape-001.png",
+  "prompt": "Eight seconds, one continuous interior shot. Camera remains inside the compact escape cabin with a small smooth, purposeful lateral drift from Harper toward the side viewport. First about 3.5 seconds: Harper is already seated in the fixed cushioned chair, held by ordinary padded flight shoulder restraints; quiet breathing and a brief alert glance toward the window, hands below frame. Cabin structure and harness stay fixed. At about 3.5 seconds the cradle releases with one small believable inertial settling of her shoulders, without shake or violent recoil. The external graphite mother-ship hull, cyan gallery and docking lip begin sliding and receding across the side viewport as the capsule moves away. By about 5.7 seconds much more open starfield is visible and the mother ship is distinctly farther away. Keep the glass, ivory cabin, silver halter top, face and hairstyle unchanged. No lip-sync, strap fastening, finger gestures, suit change, tank, robots, interior transformation, cut, dissolve, zoom blur, audio or readable text. Release occurs during Leaving orbit in the planned edit, not before the interior is established.\n\nESCAPE SEQUENCE LOCK: Painted cinematic graphic-novel style matching the approved robot laboratory and escape doorway. Adult Harper has freckles, short curly auburn hair and hazel-green eyes; retain the same opaque silver halter top, modest framing and adult proportions. Headquarters is the original massive elongated dark graphite laboratory ark with tapering oval cyan culture galleries, amber longitudinal seams, asymmetric branching service spars and a restrained circular cyan aft drive. Escape pod is a DIFFERENT small enclosed one-person craft derived from its ivory-and-graphite boarding cabin: compact elongated ovoid hull, graphite structural ribs and seams, warm ivory cabin panels, one dark cushioned flight seat, cyan instruments, rounded boarding hatch, curved clear forward/side viewport and two small recessed cyan aft propulsion ports. No spherical bubble ship, biosphere domes or large external drive ring on the escape pod. Palette: graphite/ivory/cyan/amber, deep indigo-black cosmic background. Ship, cabin and pod design must remain coherent across views. No new characters, readable words, captions, watermark, panel divisions or collision-course solar framing.",
+  "reviewNotes": "Prepared for first-frame/timing review. Preserve at least24sourceframes each side; final native window chosen after animation QA.",
+  "estimatedCredits": 64
+}

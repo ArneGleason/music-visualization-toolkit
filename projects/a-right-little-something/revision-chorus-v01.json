@@ -1,0 +1,128 @@
+{
+  "id": "chorus-revision-v01",
+  "status": "Composition and transition draft from October 10 feedback",
+  "output": "generated/storyboard/chorus-revision-v01",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v20.mp4",
+  "fps": 24,
+  "startFrame": 789,
+  "endFrameExclusive": 1550,
+  "transitionFrames": 10,
+  "transitionTypes": [
+    "fade",
+    "zoom-blur"
+  ],
+  "images": [
+    {
+      "id": "creature-view",
+      "startFrame": 1228,
+      "endFrameExclusive": 1263,
+      "output": "creature-view-v01.png",
+      "prompt": "Use case: illustration-story. One 16:9 painterly graphic-novel storyboard still, no collage or text. Use the supplied coastal image for exact fauna, flora, palette and Harper identity/outfit, but make a radically different camera view. Camera is at the eye level of a tiny pearlescent six-legged shelled tidal animal. One of these creatures dominates the low foreground, partly side-on with its iridescent domed shell and clearly readable small front legs beside a blue stone and a thin stream of turquoise water. Violet ribbed fan-fronds arch over the channel like a large translucent forest. In the middle/background Harper's adult freckled face and auburn curls lean into view, curious and attentive, gray tee visible; she is recognizable but distant/soft, large compared to the little creature, with natural human proportions, no giant body transformation. The creature's world has agency; it observes the person who changed the flow. Strong intimate foreground scale, warm upper-right rim light, peach tidal sand, dark blue stone banks. This is the setup for You're something, followed by a dramatic wide ecosystem reveal. No spacecraft, moons, interface, equipment, seed capsule, printed words, lyric lettering, borders or watermark. Keep sophisticated illustrated finish and leave bottom 8 percent quiet for later captions. Preserve the original shell species rather than inventing an Earth crab. Two natural human hands at most if visible."
+    },
+    {
+      "id": "right-little-something",
+      "startFrame": 1263,
+      "endFrameExclusive": 1292,
+      "output": "right-little-something-v01.png",
+      "prompt": "Use case: illustration-story. One 16:9 cinematic painterly graphic-novel storyboard still, no collage or text. Use the supplied alien-coast frame for world/organism design and Harper identity/outfit, but make a dramatic change of camera and scale. Very high oblique wide view along an immense peach/turquoise tidal basin between distant dark-blue spires. Harper is a SMALL recognizable auburn-haired adult in a gray tee and gray trousers, kneeling near the origin of a tiny water opening, her figure only about 6 percent of image height. From that modest opening a broad beautiful living branching pattern radiates across the foreground and middle distance: winding turquoise streams, colonies of violet translucent ribbed fan-fronds opening like an organic constellation, and many small pearlescent six-legged shelled tidal creatures following the new channels. The effect reaches much farther than her body or gesture. One nearby side patch sits in shadow with a thinner water supply, a subtle unresolved consequence rather than devastation. This is the key A right little something image: her small action has a much larger independent living response, wonder and uncertain responsibility. Strong depth and sweeping luminous curves, warmth from upper-right sun, peach clouds, richly detailed illustration consistent with the original. Do not draw literal navigation lines or a schematic. Normal human proportions, no giant Harper, no floating ship, moons, HUD, text, labels, border or watermark. Reserve a quiet bottom strip for later lyrics."
+    },
+    {
+      "id": "orbit-clean",
+      "startFrame": 1412,
+      "endFrameExclusive": 1550,
+      "output": "orbit-clean-v01.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied three-world cosmic illustration only to remove ALL route markings. Keep exactly the same planet/world silhouettes, positions, ecology, clouds, warm upper-right sunlight, stars, nebula, palette, resolution, framing and illustrated texture. Remove every cyan/amber/white orbital arc, path line, ribbon, traveling light, glowing navigation trail and curved ring connecting or looping around the worlds. Restore uninterrupted natural starfield/nebula underneath. On the turquoise world's surface, preserve natural rivers/coastlines but remove artificial bright drawn route traces, restoring natural water/terrain. On the ochre and blue worlds preserve natural ecological detail, without new glowing schematic lines. This should be a beautiful CLEAN BACKGROUND PLATE ready for a gentle camera pullback and later deterministic route animation. No new planets, stars, character, spacecraft, circles, text, labels, borders or watermark. Do not change camera or redesign any world. No motion graphics are baked into this still."
+    }
+  ],
+  "orbitMotion": "generated/kling-tests/orbit-pullback-v01/orbit-pullback-v01/orbit-pullback-v01-01-clean.mp4",
+  "scaleMotion": "generated/kling-opening/continuous-v01/opening-003-continuous-tail/opening-003-continuous-tail-01-clean.mp4",
+  "cameraTrack": [
+    {
+      "frame": 0,
+      "anchors": [
+        [
+          0.29,
+          0.64
+        ],
+        [
+          0.48,
+          0.32
+        ],
+        [
+          0.81,
+          0.62
+        ]
+      ]
+    },
+    {
+      "frame": 24,
+      "anchors": [
+        [
+          0.3,
+          0.65
+        ],
+        [
+          0.48,
+          0.33
+        ],
+        [
+          0.8,
+          0.62
+        ]
+      ]
+    },
+    {
+      "frame": 96,
+      "anchors": [
+        [
+          0.33,
+          0.66
+        ],
+        [
+          0.48,
+          0.35
+        ],
+        [
+          0.78,
+          0.62
+        ]
+      ]
+    },
+    {
+      "frame": 161,
+      "anchors": [
+        [
+          0.35,
+          0.67
+        ],
+        [
+          0.48,
+          0.37
+        ],
+        [
+          0.75,
+          0.62
+        ]
+      ]
+    },
+    {
+      "frame": 192,
+      "anchors": [
+        [
+          0.36,
+          0.68
+        ],
+        [
+          0.48,
+          0.39
+        ],
+        [
+          0.74,
+          0.62
+        ]
+      ]
+    }
+  ],
+  "cameraTrackNotes": "Approximate world-position anchors reviewed at source frames 0, 24, 96, 161 and 192. Curves and craft share the same authored coordinates. Foreground surface rotation is independent of the conceptual departure point.",
+  "timingSource": "Existing DAWproject-derived animatic-data.json phrase starts; all frame spans are half-open and one-based."
+}

@@ -22,12 +22,21 @@ def main():
     parser.add_argument('project',type=pathlib.Path)
     parser.add_argument('--shot',required=True);parser.add_argument('--test',required=True)
     parser.add_argument('--version',required=True)
+    parser.add_argument('--draft',action='store_true',help='Insert a review draft without recording user approval')
+    parser.add_argument('--composite',action='store_true',help='Select an accepted compositing test')
+    parser.add_argument('--variant',default='rich',choices=['rich','restrained'])
+    parser.add_argument('--source-start-frame',type=int,help='One-based source in-point; retains shot frame count')
     args=parser.parse_args();base=args.project.resolve().parent
     project=json.loads(args.project.read_text(encoding='utf-8'))
     register_path=base/'shots/shotlist.json';register=json.loads(register_path.read_text(encoding='utf-8'))
     shot=next(s for s in register['storyboardProposals'] if s['id']==args.shot)
-    selected=next(t for t in shot['motionTests'] if t['id']==args.test)
-    raw=base/selected['motionRef'];root=base/'generated/animatic'
+    selected=next(t for t in shot['compositingTests' if args.composite else 'motionTests'] if t['id']==args.test)
+    if args.composite:
+        plan=json.loads((base/selected['plan']).read_text(encoding='utf-8'))
+        motion_ref=str(pathlib.PurePosixPath(plan['output'])/(args.variant+'-handles.mp4'))
+    else:
+        motion_ref=selected['motionRef']
+    raw=base/motion_ref;root=base/'generated/animatic'
     current=json.loads((root/'current-media.json').read_text(encoding='utf-8'))
     source=root/current['video'].split('?',1)[0]
     final=root/f'A-Right-Little-Something-selected-motion-{args.version}.mp4'
@@ -35,7 +44,10 @@ def main():
         source=pathlib.Path(register['reviewEdits'][args.version]['source'])
     data=json.loads((root/'animatic-data.json').read_text(encoding='utf-8'))
     fps=data['fps'];count=data['frames'];a=shot['startFrame']-1;b=shot['endFrameExclusive']-1
-    lead=shot['handles']['leadInFrames'];work=root/('selected-motion-'+args.version);work.mkdir(exist_ok=True)
+    lead=(args.source_start_frame-1 if args.source_start_frame is not None
+          else shot['handles']['leadInFrames'])
+    assert lead>=shot['handles']['leadInFrames'],'Source trim loses the minimum lead-in handle'
+    work=root/('selected-motion-'+args.version);work.mkdir(exist_ok=True)
     info=probe(raw)
     assert info['height']==1080 and info['width']<=1920
     assert int(info['nb_frames'])>=lead+(b-a)+shot['handles']['leadOutFrames']
@@ -56,13 +68,26 @@ def main():
     pending=final.with_name(final.stem+'.rendering.mp4')
     run(['-i',str(work/'picture.mp4'),'-i',str(source),'-map','0:v:0','-map','1:a:0','-c','copy','-movflags','+faststart',str(pending)])
     result=probe(pending);assert int(result['nb_frames'])==count and result['r_frame_rate']==f'{fps}/1'
+    assert (result['width'],result['height'])==(1920,1080)
     hashes=[subprocess.check_output(['ffmpeg','-v','error','-i',str(p),'-map','0:a:0','-c','copy','-f','hash','-hash','sha256','-']) for p in (source,pending)]
     assert hashes[0]==hashes[1],'Original master packets changed'
     pending.replace(final)
-    selected['status']='user selected for animatic'
-    shot['motionRef']=selected['motionRef'];shot['motionSelection']=dict(selected,userSelected=True)
+    selected['status']='Review draft in animatic' if args.draft else 'user selected for animatic'
+    selected['motionRef']=motion_ref
+    shot['motionRef']=motion_ref
+    if args.composite:
+        shot['compositeSelection']=dict(selected,userSelected=True,variant=args.variant,
+            sourceEditStartFrame=lead+1,sourceLeadInFrames=lead,
+            availableLeadOutFrames=int(info['nb_frames'])-lead-(b-a))
+        shot['status']='Accepted generated motion with Blender composite'
+    else:
+        shot['motionSelection']=dict(selected,userSelected=not args.draft,draftForReview=args.draft)
     shot['motionReview']={'notes':f'Current working selection: {selected["id"]}. '+selected.get('reviewNotes','')}
     register.setdefault('reviewEdits',{})[args.version]={'source':str(source),'video':str(final),'shot':shot['id'],'selectedTest':args.test,'startFrame':a+1,'endFrameExclusive':b+1,'sourceEditStartFrame':lead+1,'frames':count,'fps':fps,'audio':'Original master AAC packets preserved'}
+    register['reviewEdits'][args.version]['draftForReview']=args.draft
+    if args.composite:
+        register['reviewEdits'][args.version].update(compositeVariant=args.variant,
+            baseMotionTest=shot['motionSelection']['id'],availableLeadOutFrames=int(info['nb_frames'])-lead-(b-a))
     temp=register_path.with_suffix('.tmp');temp.write_text(json.dumps(register,indent=2,ensure_ascii=False)+'\n',encoding='utf-8');temp.replace(register_path)
     (root/'current-media.json').write_text(json.dumps({'video':final.name+f'?v={final.stat().st_mtime_ns}'}),encoding='utf-8')
     pointer=base/'generated/review/current-render.json';temp=pointer.with_suffix('.tmp');temp.write_text(json.dumps({'video':str(final),'master_start':1}),encoding='utf-8');temp.replace(pointer)
@@ -70,6 +95,8 @@ def main():
     opening['version']=args.version;opening['mediaLabel']='Kling / Blender beats'
     next(s for s in opening['shots'] if s['id']==shot['id'])['review']=shot['motionReview']
     opening_path.write_text(json.dumps(opening,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+    project['production']['animatic']=final.relative_to(base).as_posix()
+    temp=args.project.with_suffix('.tmp');temp.write_text(json.dumps(project,indent=2,ensure_ascii=False)+'\n',encoding='utf-8');temp.replace(args.project)
     print('Ready:',final,'·',count,'frames · master audio verified')
 
 

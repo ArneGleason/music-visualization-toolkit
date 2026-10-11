@@ -1,0 +1,30 @@
+{
+  "id": "chorus1-03-motion-v01",
+  "shotId": "chorus1-03",
+  "title": "You\u2019re something / A right little something: agency and uncertainty",
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/kling-tests/chorus1-motion-v01/chorus1-02-motion-v01/tail.png",
+  "tailImage": "generated/storyboard/chorus1-ideas-v01/chorus1-03-starting-frame-v01.png",
+  "startFrame": 1228,
+  "editFrames": 64,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "prompt": "Begin from the supplied previous-take state: retain its living water, shells, fronds and kneeling Harper. End reference defines the desired modest branched channels and observational pose; reach it through small creature actions and coherent water flow, never by morphing the land. Five-second continuous follow-up on the same living alien coast. Harper <<<323570155312565>>> kneels left and observes, hands withdrawn and resting, subtle breathing, gaze and curls. Keep the water-channel intervention in place. From source 1.0 to 2.6 seconds two foreground pearlescent six-legged shelled animals use their forelegs to roll one or two tiny blue stones along the edge of the already existing low banks, opening small side gaps. From 2.2 to 3.7 seconds turquoise water visibly takes those side channels in a beautiful branching flow among violet ribbed fan-fronds. Harper responds with fascination and a hint of thoughtful uncertainty. All life and water continue through the tail. Keep structures low and tidal, not dams appearing from nowhere. No instant cities, seed device, duplicated limbs, deformed shells, time-lapse landscape replacement, ship, HUD, text, audio, automatic cuts or transition. Almost locked camera, natural consistent scale. If a tiny stone motion is subtle, flowing water and purposeful organism interaction must still clearly show the response.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "approvedCompositionImage": "generated/storyboard/chorus1-ideas-v01/chorus1-03-starting-frame-v01.png",
+  "continuitySource": {
+    "take": "chorus1-02-motion-v01",
+    "sourceFrame": 121,
+    "basis": "Agent sampled-frame review: usable character/ecology/water state; user motion review pending"
+  }
+}

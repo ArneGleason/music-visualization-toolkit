@@ -1,0 +1,25 @@
+{
+  "id": "chorus1-01-motion-v02",
+  "shotId": "chorus1-01",
+  "title": "Chorus 1 / What is her mission?",
+  "model": "kling-video-v3_0",
+  "duration": 8,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/chorus1-ideas-v01/chorus1-01-starting-frame-v01.png",
+  "tailImage": null,
+  "startFrame": 1046,
+  "editFrames": 124,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "prompt": "One continuous eight-second cinematic illustrated mission shot matching the starting still. Almost locked camera. There are EXACTLY THREE projected ecosystem spheres and they stay in their original positions: large turquoise coastal sphere on the left, ochre fungal sphere above, smaller blue reef sphere low center. Background is ONLY the existing distant stars and faint original ship field lines, plus the existing thin metal amber rail. NO other planet, moon, sphere, target ring, blue HUD circle or new interface may appear anywhere. Harper <<<323570155312565>>> keeps the same adult freckled face, auburn curls, gray outfit and barefoot floating pose. Her RIGHT arm remains extended to the LEFT TURQUOISE sphere for the entire shot; fingertips always beside that turquoise sphere, do not shift either hand toward the blue reef or ochre sphere. Her other hand stays relaxed close to her torso and away from all spheres. During source 1.0 to 2.6 seconds make only a small natural finger curl/pinch beside the turquoise sphere. From 2.6 to 5.8 seconds the turquoise rim slowly brightens and a gentle water ripple travels across its existing miniature coast; the sphere does not relocate, duplicate or expand. Tiny frond movement inside turquoise sphere, quiet ecological motion inside the two other spheres. She gazes thoughtfully at the turquoise world with caring responsibility, occasional blink and subtle breathing/curls; no dramatic arm sweep. Natural slow float, no pose restart or collapse. No scene change, camera cut, audio, lip sync, text or added hardware.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.\nSHOT SCOPE: The moons in the general identity lock are OFF SCREEN. No new world, planet, moon or circular interface is visible beyond the THREE supplied ecosystem projections. Never touch or select the blue sphere.",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "reviewNotes": "Tighter single-action mission correction: choose turquoise, retain exactly three ecosystem globes."
+}

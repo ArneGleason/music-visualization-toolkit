@@ -1,0 +1,24 @@
+{
+  "id": "chorus1-02-motion-v01",
+  "shotId": "chorus1-02",
+  "title": "Do something / Little something: a modest intervention",
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/chorus1-ideas-v01/chorus1-02-starting-frame-v01.png",
+  "tailImage": null,
+  "startFrame": 1170,
+  "editFrames": 58,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "prompt": "Five-second continuous alien-coast action, almost locked low three-quarter camera. Harper <<<323570155312565>>> is kneeling as in the starting frame. During the first second water, curls, fans and small pearlescent shelled animals already move naturally. From source 1.0 to 1.9 seconds she carefully nudges one small loose dark-blue stone outward with the hand already beside the water gap, slightly widening the opening. From 1.7 to 3.3 seconds a visibly stronger thin turquoise stream flows through that gap toward the violet ribbed fan-frond colony; one frond gently opens in response. Harper watches with a warm curious expression and withdraws the acting hand slightly. Water and fauna continue moving through the final second. Keep the act modest and causal, not magical. Do not invent a new bank, change the coastline, multiply hands or make her rise. One stone moved, one little flow response; fauna wander but do not build elaborate channels yet. No ship, projection grid, tools, text, audio, camera cut, morph, blur transition or sudden zoom.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ]
+}

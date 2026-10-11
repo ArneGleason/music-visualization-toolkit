@@ -1,0 +1,16 @@
+{
+  "id": "opening-005",
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/opening-v02/opening-005-starting-frame-v01.png",
+  "tailImage": null,
+  "editFrames": 90,
+  "startFrame": 543,
+  "leadInFrames": 12,
+  "leadOutFrames": 12,
+  "prompt": "One continuous interior shot. Maintain the source composition with a nearly locked camera and only a very slow slight lateral drift. Harper stays floating with folded knees and both palms resting at their existing positions on the transparent spherical field. Subtle natural breathing, one soft blink, very gentle free-floating curls; no speaking. She keeps looking out to the left at the distant world. Her hands remain planted, her fingers and limbs retain their anatomy. The cyan hexagonal field stays attached to the same spherical surface, faint and steady, not drawn across her body. Keep the full metal equatorial ring continuous, its width and amber/cyan lights unchanged. Two distinct moons and the planet remain stable. First 0.5 second is a quiet lead-in; sustain gentle motion through 4.25 seconds; final 0.75 second is a quiet lead-out. No cuts, sudden turn, camera zoom or new action.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure, detailed but coherent with the approved illustration. Harper is an adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Her ship is a clear spherical cabin, dark satin gray metal equatorial band and upper/lower circular platforms, continuous warm amber rim lights, sparse cyan rectangular lights and one aft vertical engine ring with a cyan inner arc. Moon A is larger charcoal volcanic basalt with orange fissures; Moon B is smaller pale cyan ice with blue fractures. All celestial bodies share an offscreen upper-right sun; lava may self-emit. No extra moons, no text, no logos, no HUD. Broad focus and consistent ship geometry. Shell appearance: ultra-thin transparent technological field with faint cyan spherical geodesic lines; no thick shiny glass, lens distortion or broad refractive streaks. Interior views have no visible glass perimeter; exterior silhouette uses only subtle field glow. Metal bands and platforms keep their full geometry."
+}

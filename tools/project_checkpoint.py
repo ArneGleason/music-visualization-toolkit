@@ -11,11 +11,39 @@ METADATA = [
     'generated/animatic/animatic-data.json', 'generated/animatic/current-opening.json',
     'generated/animatic/current-media.json', 'generated/animatic/blocking-insert-manifest.json',
     'generated/animatic/motion-insert-manifest.json', 'generated/review/listening-notes.json',
+    'generated/review/current-render.json',
     'generated/transcription/zoom-nine.alignment.json',
     'generated/transcription/audio.whisper.raw.json',
     'generated/transcription/lead.whisper.raw.json',
     'generated/transcription/leadRenaissance.whisper.raw.json',
 ]
+
+# Preserve authored text from ignored production folders, without copying media,
+# provider result URLs, account captures, caches or nested historical checkpoints.
+PRODUCTION_METADATA = {
+    'generation-input.json', 'source-verification.json', 'timing-check.json',
+    'verification.json', 'review-manifest.json', 'review-options.json',
+}
+
+
+def checkpoint_sources(base):
+    names = {name for name in METADATA if (base/name).is_file()}
+    generated = base/'generated'
+    for source in generated.rglob('*'):
+        if not source.is_file():
+            continue
+        relative = source.relative_to(generated)
+        if {'__pycache__', 'checkpoints'} & set(relative.parts):
+            continue
+        authored = (source.suffix == '.py' or source.name.endswith('.prompt.txt')
+                    or source.name.endswith('.prompt.json')
+                    or source.name.endswith('.actual-generation.json'))
+        metadata = source.name in PRODUCTION_METADATA
+        receipt = (relative.parts[0] == 'kling-tests'
+                   and source.name in {'request.json', 'submission.json'})
+        if (authored or metadata or receipt) and source.stat().st_size <= 1024*1024:
+            names.add(source.relative_to(base).as_posix())
+    return sorted(names)
 
 
 def digest(path):
@@ -45,7 +73,7 @@ def main():
     else:
         folder.mkdir(exist_ok=True)
         entries = []
-        for name in METADATA:
+        for name in checkpoint_sources(base):
             source = base/name
             if not source.exists():
                 continue
@@ -56,7 +84,7 @@ def main():
             entries.append({'source': name, 'backup': backup.relative_to(base).as_posix(),
                             'sha256': digest(backup), 'bytes': backup.stat().st_size})
         (folder/'manifest.json').write_text(json.dumps({'schemaVersion': 1,
-            'purpose': 'Small metadata checkpoint; no audio, video, fonts or Blender renders',
+            'purpose': 'Small metadata, authored scripts, exact prompts and job receipts; no new media, fonts, models or provider result URLs',
             'files': entries}, indent=2)+'\n', encoding='utf-8')
         print('CHECKPOINT', len(entries), 'metadata files')
 

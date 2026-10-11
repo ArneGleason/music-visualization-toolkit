@@ -1,0 +1,44 @@
+{
+  "id": "robot-ship-so-bright-motion-v01",
+  "output": "generated/storyboard/robot-ship-so-bright-motion-v01",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v34.mp4",
+  "fadeFrames": 4,
+  "entryFadeFrames": 8,
+  "entryPlate": "generated/storyboard/orbit-blender-v03/hybrid/orbit-composite-handles.mp4",
+  "entryPlateFrame": 162,
+  "draftForReview": true,
+  "presentation": "Original robot headquarters ship restored; So bright is now a native no-streak Kling replacement.",
+  "mediaLabel": "Kling / Blender / original robot ship with revised So bright motion",
+  "continuationNotes": "V35 keeps the restored original robot ship exteriors and five lab takes; only So bright changes from the staged still to its approved 48-credit native replacement. Exact phrase grid, fades, schematic dissolve and original master audio retained.",
+  "status": "All nine lab/ark shots animated; redesigned So bright native replacement, user playback pending",
+  "reviewUrl": "http://127.0.0.1:8768/storyboard/robot-ship-so-bright-motion-v01/animatic-through-bright-night.mp4",
+  "stillReviewUrl": "http://127.0.0.1:8768/storyboard/robot-ship-so-bright-v01/lab2-08.png",
+  "useMotion": true,
+  "motionShotIds": [
+    "lab2-01",
+    "lab2-02",
+    "lab2-03",
+    "lab2-04",
+    "lab2-05",
+    "lab2-06",
+    "lab2-07",
+    "lab2-08",
+    "lab2-09"
+  ],
+  "cameraMoves": {
+    "lab2-07": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

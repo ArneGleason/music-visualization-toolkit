@@ -10,6 +10,7 @@ import sys
 
 import bpy
 from mathutils import Vector
+from bpy_extras.object_utils import world_to_camera_view
 sys.path.insert(0,str(pathlib.Path(__file__).resolve().parent))
 from shell_field import add_shell_field
 
@@ -146,6 +147,18 @@ def main():
         move=blocking.get('moveFrames',shot['frames']-1)
         last_edit=h['editOutLocalFrameExclusive']-1
         keys=sorted(set([1,h['editInLocalFrame'],min(total,h['editInLocalFrame']+move),last_edit,total]))
+        # Optional acting cue for the exterior preceding the navigation shot.
+        # Copy the arm curves before editing; other scenes share the template.
+        arms = {}
+        palms = {}
+        if blocking.get('prepareDisplay'):
+            coll=next(c for c in scene.collection.children if 'FIGURE' in c.name)
+            for name in ('Left arm','Right arm'):
+                arm=objects[name];arm.data=arm.data.copy()
+                arms[name]=[Vector(p.co[:3]) for p in arm.data.splines[0].points]
+                palms[name]=proxy_piece(name+' preparing palm',arms[name][-1],
+                    (.09,.055,.10),objects['FIGURE ROOT / floating pose'],coll,
+                    bpy.data.materials['Warm figure proxy'])
         for frame in keys:
             t=(frame-h['editInLocalFrame'])/max(1,move)
             if 'moveFrames' in blocking:t=min(1,t)
@@ -163,6 +176,21 @@ def main():
                 sun=objects['Shared distant sun'].data
                 sun.energy=2.5+(blocking['sunStrengthEnd']-2.5)*max(0,min(1,t))
                 sun.keyframe_insert('energy',frame=frame)
+            if arms:
+                phase=max(0,min(1,t));phase=phase*phase*(3-2*phase)
+                for name,start in arms.items():
+                    end=blocking['prepareDisplay'][name]
+                    for i,point in enumerate(objects[name].data.splines[0].points):
+                        at=start[i].lerp(Vector(end[i]),phase)
+                        point.co=(*at,1);point.keyframe_insert('co',frame=frame)
+                        joint=objects.get(name+f' joint {i}')
+                        if joint:
+                            joint.location=at;joint.keyframe_insert('location',frame=frame)
+                    palms[name].location=start[-1].lerp(Vector(end[-1]),phase)
+                    palms[name].keyframe_insert('location',frame=frame)
+                root=objects['FIGURE ROOT / floating pose']
+                root.rotation_euler.z=math.radians(-8)*phase
+                root.keyframe_insert('rotation_euler',frame=frame)
         # Check every generated frame of shots intended to remain inside.
         # Shot 003 intentionally crosses the thin shell during its reveal.
         if blocking['figurePose']=='window' or blocking.get('interior'):
@@ -185,7 +213,28 @@ def main():
                 half_width=distance*math.tan(camdata.angle_x/2)
                 offset=Vector((x*half_width,y*half_width*9/16,-distance))
                 root.location=cam.location+cam.rotation_euler.to_quaternion() @ offset
-        scene.render.resolution_x=960;scene.render.resolution_y=540
+        scene.render.resolution_x=spec.get('stillWidth',960)
+        scene.render.resolution_y=spec.get('stillHeight',540)
+        if blocking.get('moonsOutsideFrame'):
+            # Check the actual world-space moon geometry, including its full
+            # silhouette, over the camera move and both handles. Do not hide it.
+            visibility=[]
+            for frame in range(1,total+1):
+                scene.frame_set(frame)
+                for obj in objects.values():
+                    if obj.type!='MESH' or not obj.get('celestial_id'):continue
+                    points=[world_to_camera_view(scene,cam,obj.matrix_world @ Vector(corner))
+                            for corner in obj.bound_box]
+                    outside=(all(p.z<=0 for p in points) or
+                             all(p.x<0 for p in points) or all(p.x>1 for p in points) or
+                             all(p.y<0 for p in points) or all(p.y>1 for p in points))
+                    if not outside:
+                        raise ValueError(f"{shot['id']}: {obj.name} enters frame {frame}")
+                    visibility.append({'frame':frame,'moon':obj['celestial_id'],
+                        'xBounds':[min(p.x for p in points),max(p.x for p in points)]})
+            (out/(shot['id']+'-moon-clearance.json')).write_text(
+                json.dumps({'moonsHidden':False,'framesChecked':total,
+                            'bounds':visibility},indent=2)+'\n',encoding='utf-8')
         scene.cycles.samples=8 if spec.get('proposal') else 16;scene.render.image_settings.file_format='PNG'
         scene.world=template.world.copy()
         scene.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.45
@@ -210,7 +259,8 @@ def main():
         for shot,scene in scenes:
             if only and shot['id']!=only:continue
             bpy.context.window.scene=scene
-            scene.render.resolution_x=640;scene.render.resolution_y=360;scene.cycles.samples=4
+            scene.render.resolution_x=spec.get('motionWidth',640)
+            scene.render.resolution_y=spec.get('motionHeight',360);scene.cycles.samples=4
             scene.render.engine='BLENDER_EEVEE'
             if hasattr(scene.eevee,'taa_render_samples'):scene.eevee.taa_render_samples=8
             scene.render.image_settings.media_type='VIDEO';scene.render.image_settings.file_format='FFMPEG'

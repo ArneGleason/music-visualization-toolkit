@@ -1,0 +1,58 @@
+{
+  "id": "lab-silver-motion-v01",
+  "output": "generated/storyboard/lab-silver-motion-v01",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v29.mp4",
+  "fadeFrames": 4,
+  "entryFadeFrames": 8,
+  "entryPlate": "generated/storyboard/orbit-blender-v03/hybrid/orbit-composite-handles.mp4",
+  "entryPlateFrame": 162,
+  "draftForReview": true,
+  "presentation": "Five native silver-swimwear laboratory takes and four native ark exterior takes, with purposeful editorial moves and phrase-centered fades.",
+  "mediaLabel": "Kling / Blender / nine native lab and ark shots",
+  "continuationNotes": "V30 replaces all five remaining lab stills with approved-budget native Kling takes. All nine lab/ark shots now have native motion. Sealed upper tank, silver bikini and internal hand/interface geography retained. V28 schematic tail dissolve, earlier Kling/Blender footage, original master AAC and5265frame grid preserved. So bright remains a star-pan interlude between ark views.",
+  "status": "Nine native lab/ark shots assembled; user motion playback pending",
+  "reviewUrl": "http://127.0.0.1:8768/storyboard/lab-silver-motion-v01/animatic-through-bright-night.mp4",
+  "stillReviewUrl": "http://127.0.0.1:8768/storyboard/lab-silver-v01/review-board.html",
+  "useMotion": true,
+  "motionShotIds": [
+    "lab2-01",
+    "lab2-02",
+    "lab2-03",
+    "lab2-04",
+    "lab2-05",
+    "lab2-06",
+    "lab2-07",
+    "lab2-08",
+    "lab2-09"
+  ],
+  "cameraMoves": {
+    "lab2-07": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    },
+    "lab2-08": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

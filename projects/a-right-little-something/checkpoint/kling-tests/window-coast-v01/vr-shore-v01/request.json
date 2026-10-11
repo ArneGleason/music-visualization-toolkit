@@ -1,0 +1,24 @@
+{
+  "id": "vr-shore-v01",
+  "shotId": "space-011",
+  "title": "A shore she can inhabit",
+  "model": "kling-video-v3_0",
+  "duration": 8,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/window-coast-v01/space-011-starting-frame-v01.png",
+  "tailImage": null,
+  "startFrame": 912,
+  "editFrames": 134,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "prompt": "One continuous eight-second illustrated alien-coast performance matching the approved starting still. Harper <<<323570155312565>>> keeps her adult face, auburn curls, gray tee/trousers and bare feet. First second: breeze, curls, fronds and water already living. From source 1.0 to 3.3 seconds she opens both arms wide naturally, shoulders relaxed. From about 3.3 to 6.6 seconds broad shallow tide fronts draw across the peach flats, changing the wet/dry shoreline in response; no towering wave. Continue living movement through the last second. Stable human proportions and scale, two arms/two feet, face readable. Almost locked three-quarter camera. Preserve turquoise sea, dark blue spires, violet ribbed fans and small pearlescent six-legged shelled animals. No ship, field grid, headset, equipment, text, audio, automatic cuts or scene transitions.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ]
+}

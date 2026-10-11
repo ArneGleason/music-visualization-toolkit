@@ -1,0 +1,20 @@
+{
+  "id": "lab2-08-motion-v01",
+  "shotId": "lab2-08",
+  "title": "So bright",
+  "startFrame": 1838,
+  "editFrames": 31,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "model": "kling-video-v3_0",
+  "duration": 6,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/lab-verse-v01/lab2-08.png",
+  "prompt": "So-bright cosmic-light interlude. From this exact starting composition, gently pan toward the bright star in the upper-right; let the unchanged laboratory ark gradually slip toward and partly beyond the lower-left edge. The visual attention passes from the hull to the luminous star and textured violet/cyan dust. Warm illustrated star bloom and subtle long luminous streaks evolve slowly, never strobing or becoming a blown-out white screen. Smooth functional motion, not a repeated ship zoom. Keep the same coherent ark while visible. No new spacecraft, planets or geometry changes. One uninterrupted six-second exterior shot. Motion established at the start and continuous throughout. Preserve exact illustrated painterly graphic-novel rendering and source geometry. No cuts, internal dissolves, readable text, captions, generated audio or new objects.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved laboratory-ark stills. The headquarters ark is the same massive elongated graphite submarine-like vessel with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and restrained cyan aft drive. Preserve complete hull geometry and lighting design across exterior views. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Exterior views only: do not introduce human figures or interior views. No readable text, captions, logos, watermark, panel divisions, camera shake or zoom blur.",
+  "reviewNotes": "Starlight blooms gently across the hull and dust; measured lateral drift. Hold through the 7-frame gap.",
+  "estimatedCredits": 48
+}

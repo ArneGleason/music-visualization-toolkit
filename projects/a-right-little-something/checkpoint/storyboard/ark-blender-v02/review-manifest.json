@@ -1,0 +1,62 @@
+[
+  {
+    "index": 1,
+    "id": "ark-3d-review-1",
+    "src": "reference.png",
+    "output": "reference.png",
+    "href": "reference.png",
+    "title": "Approved illustration anchor",
+    "label": "Approved illustration anchor",
+    "prompt": "Native Blender geometry and material study from the approved illustration. Six mirrored pod positions remain fixed across views."
+  },
+  {
+    "index": 2,
+    "id": "ark-3d-review-2",
+    "src": "clay.png",
+    "output": "clay.png",
+    "href": "clay.png",
+    "title": "First geometry blockout",
+    "label": "First geometry blockout",
+    "prompt": "Native Blender geometry and material study from the approved illustration. Six mirrored pod positions remain fixed across views."
+  },
+  {
+    "index": 3,
+    "id": "ark-3d-review-3",
+    "src": "01-forward-quarter.png",
+    "output": "01-forward-quarter.png",
+    "href": "01-forward-quarter.png",
+    "title": "Refined forward quarter",
+    "label": "Refined forward quarter",
+    "prompt": "Native Blender geometry and material study from the approved illustration. Six mirrored pod positions remain fixed across views."
+  },
+  {
+    "index": 4,
+    "id": "ark-3d-review-4",
+    "src": "02-aft-quarter.png",
+    "output": "02-aft-quarter.png",
+    "href": "02-aft-quarter.png",
+    "title": "Same model — aft quarter",
+    "label": "Same model — aft quarter",
+    "prompt": "Native Blender geometry and material study from the approved illustration. Six mirrored pod positions remain fixed across views."
+  },
+  {
+    "index": 5,
+    "id": "ark-3d-review-5",
+    "src": "03-top-plan.png",
+    "output": "03-top-plan.png",
+    "href": "03-top-plan.png",
+    "title": "Same model — top plan",
+    "label": "Same model — top plan",
+    "prompt": "Native Blender geometry and material study from the approved illustration. Six mirrored pod positions remain fixed across views."
+  },
+  {
+    "index": 6,
+    "id": "ark-3d-review-6",
+    "src": "04-side-profile.png",
+    "output": "04-side-profile.png",
+    "href": "04-side-profile.png",
+    "title": "Same model — low side view",
+    "label": "Same model — low side view",
+    "prompt": "Native Blender geometry and material study from the approved illustration. Six mirrored pod positions remain fixed across views."
+  }
+]

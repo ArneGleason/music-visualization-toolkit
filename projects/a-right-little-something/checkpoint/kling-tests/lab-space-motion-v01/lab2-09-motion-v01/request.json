@@ -1,0 +1,20 @@
+{
+  "id": "lab2-09-motion-v01",
+  "shotId": "lab2-09",
+  "title": "Bright night",
+  "startFrame": 1869,
+  "editFrames": 89,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "model": "kling-video-v3_0",
+  "duration": 6,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/lab-verse-v01/lab2-09.png",
+  "prompt": "Bright-night vastness. The same tiny laboratory ark continues its slow diagonal journey toward the upper-right through the richly painted cyan/violet nebula. A very slow broad camera opening move, around eight percent over six seconds, makes cosmic space feel immense; faint layered dust parallax, steady far stars, softly breathing illustrated warm bloom. Ship remains small and fully coherent, with unchanged submarine-like hull, spars, oval cyan galleries, amber seams and cyan aft drive. No fast zoom, hard banking, warp trail or new objects. One uninterrupted six-second exterior shot. Motion established at the start and continuous throughout. Preserve exact illustrated painterly graphic-novel rendering and source geometry. No cuts, internal dissolves, readable text, captions, generated audio or new objects.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved laboratory-ark stills. The headquarters ark is the same massive elongated graphite submarine-like vessel with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and restrained cyan aft drive. Preserve complete hull geometry and lighting design across exterior views. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Exterior views only: do not introduce human figures or interior views. No readable text, captions, logos, watermark, panel divisions, camera shake or zoom blur.",
+  "reviewNotes": "Calm pullback, layered nebula parallax, ark continues toward the stars; hold to the next phrase at 81.54s.",
+  "estimatedCredits": 48
+}

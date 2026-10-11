@@ -1,0 +1,20 @@
+{
+  "id": "inlet-v02",
+  "shotId": "space-008",
+  "title": "The narrow inlet",
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/window-coast-v01/space-008-starting-frame-v01.png",
+  "tailImage": null,
+  "startFrame": 737,
+  "editFrames": 52,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "prompt": "Animate the supplied landscape painting as one uninterrupted five-second low aerial shot. Only the geography, water, mist and vegetation already present in the source image occupy the entire view. Fly gently forward along the narrow turquoise inlet between tall dark blue basalt cliffs toward open sea. Smooth modest foreground rock parallax, coherent solid cliffs, continuous flowing small foam trails and rising mist. Warm peach-gold sunlight and watercolor graphic-novel texture remain exactly as shown. The small violet ribbed plants sway gently without changing design. No other object enters or materializes at any time, including the beginning and ending. Keep the open air above the water completely unobstructed. No cut, scene change, terrain morph, caption, logo, generated audio or zoom transition. Natural landscape motion continues through both one-second handles.",
+  "reviewNotes": "Landscape-only retry after shared off-screen identities contaminated the first take. Canonical identity block retained as metadata; no altered prompt lock introduced.",
+  "canonicalIdentityLock": " Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing."
+}

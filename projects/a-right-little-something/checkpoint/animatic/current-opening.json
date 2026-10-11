@@ -1,8 +1,8 @@
 {
-  "version": "v07",
-  "mediaLabel": "Kling / Blender beats",
+  "version": "v39",
+  "mediaLabel": "Kling / Blender / native escape sequence",
   "fps": 24,
-  "endFrameExclusive": 912,
+  "endFrameExclusive": 2105,
   "shots": [
     {
       "id": "opening-001",
@@ -42,11 +42,11 @@
     },
     {
       "id": "space-006",
-      "title": "World below",
+      "title": "The big world below / planet-only cutaway",
       "startFrame": 581,
       "frames": 52,
       "review": {
-        "notes": "Rough Blender blocking · Cut from hands at the boundary to the world below; do not force a two-second trip through the shell."
+        "notes": "Current working selection: planet-orbit-v01. Actual Kling orbital take: terrain/clouds and curved horizon travel against a nearly stationary distant star field. Movement is more apparent than the v09 image-plane drift. Sampled edit frames preserve mountain silhouettes, warm light and the alien palette; no ship, Harper, moons or HUD appears. User review of motion strength and cut flow is still pending."
       }
     },
     {
@@ -55,34 +55,196 @@
       "startFrame": 633,
       "frames": 104,
       "review": {
-        "notes": "Working selection: star-centered zoom-out. System, moons and paths contract together; slight anchor drift and broad final graph remain. Anatomy spot-check found no obvious extra limbs or digits, with some occlusion."
+        "notes": "Accepted larger colored systems with five alien identity/index glyph pairs and growing outer particle clouds. Brighter foreground-masked Blender composite over the accepted star-centered Kling performance. Animatic v08 uses source frames 29–132 at song frames 633–736, so all five systems appear; 28 source lead-in frames and 12 trailing frames remain. Normal speed, small bottom lyrics and original master audio. V28 uses all12 outgoing tail frames in a centered24frame dissolve into inlet, no lyric timing shift. V28 uses all12 outgoing tail frames in a centered24frame dissolve into inlet, no lyric timing shift. V28 uses all12 outgoing tail frames in a centered24frame dissolve into inlet, no lyric timing shift."
       }
     },
     {
-      "id": "space-008",
-      "title": "Small cabin, enormous space",
+      "id": "inlet-before-portrait",
+      "title": "inlet before portrait",
       "startFrame": 737,
       "frames": 52,
       "review": {
-        "notes": "Rough Blender blocking · Start one continuous reaction-to-window take, shared with space-009. No new starting-frame reset at 789."
+        "notes": "Existing inlet footage retained; fade into the approved portrait centered at frame 789."
       }
     },
     {
-      "id": "space-009",
-      "title": "Drawn to the boundary",
+      "id": "portrait-short",
+      "title": "portrait short",
       "startFrame": 789,
       "frames": 65,
       "review": {
-        "notes": "Rough Blender blocking · Continuation of space-008; this is a blocking beat, not an edit cut. Cut closer at frame 854."
+        "notes": "Established v24 edit retained; final orbit speed, blur and trail balance revised."
       }
     },
     {
-      "id": "space-010",
-      "title": "The cosmos in her eyes",
+      "id": "scale-reveal",
+      "title": "scale reveal",
       "startFrame": 854,
       "frames": 58,
       "review": {
-        "notes": "Rough Blender blocking · Cut in at Show you just how big you are. End at Stretch your arms wide; no direction beyond that phrase has been assumed."
+        "notes": "Actual drifting/curling cloud formations and living illumination, small Harper movement; native ship rings and thin cyan field remain stable across reviewed source frames. Source frames 25-82 supply the 58-frame lyric edit, with the same editorial Ken Burns reveal and fade handles."
+      }
+    },
+    {
+      "id": "arms-tide",
+      "title": "arms tide",
+      "startFrame": 912,
+      "frames": 134,
+      "review": {
+        "notes": "Established v24 edit retained; final orbit speed, blur and trail balance revised."
+      }
+    },
+    {
+      "id": "mission-drift",
+      "title": "mission drift",
+      "startFrame": 1046,
+      "frames": 124,
+      "review": {
+        "notes": "Established v24 edit retained; final orbit speed, blur and trail balance revised."
+      }
+    },
+    {
+      "id": "small-intervention",
+      "title": "small intervention",
+      "startFrame": 1170,
+      "frames": 58,
+      "review": {
+        "notes": "Established v24 edit retained; final orbit speed, blur and trail balance revised."
+      }
+    },
+    {
+      "id": "creature-view",
+      "title": "creature view",
+      "startFrame": 1228,
+      "frames": 35,
+      "review": {
+        "notes": "Actual body translation and sequential stepping; strongest walking starts later than first source second. Source zero-index 35 starts the 35-frame edit, preserving >=24 frames of handles."
+      }
+    },
+    {
+      "id": "right-little-something",
+      "title": "right little something",
+      "startFrame": 1263,
+      "frames": 29,
+      "review": {
+        "notes": "Moving downstream ripples, progressively opening violet fronds and wading animals; static key-wide is replaced with actual animated ecology."
+      }
+    },
+    {
+      "id": "orbit-first",
+      "title": "orbit first",
+      "startFrame": 1292,
+      "frames": 120,
+      "review": {
+        "notes": "Established v24 edit retained; final orbit speed, blur and trail balance revised."
+      }
+    },
+    {
+      "id": "orbit-pullback",
+      "title": "orbit pullback",
+      "startFrame": 1412,
+      "frames": 138,
+      "review": {
+        "notes": "Slightly eccentric authored loops. Vis-viva speed as a function of distance within each loop, with smooth authored approach/transfer timing and a global song time scale. Actual Cycles shutter blur, 8 transform key samples per frame and 16 motion intervals. Bright tracking core and rapid exponential wake falloff into a faint long tail. Not a full gravitational simulation."
+      }
+    },
+    {
+      "id": "lab2-01",
+      "title": "I'm just a creature of nature",
+      "startFrame": 1550,
+      "frames": 46,
+      "review": {
+        "notes": "Actual eye/face expression and floating hair/bubble motion inside the sealed silver-swimwear tank. Kling also introduces external ivory service arms at the right edge, consistent with the following caretaker reveal. Editorial pan retained."
+      }
+    },
+    {
+      "id": "lab2-02",
+      "title": "Can't lose it",
+      "startFrame": 1596,
+      "frames": 28,
+      "review": {
+        "notes": "Actual caretaker service-arm motion and floating Harper in the growth chamber; opaque lower armor and silver swimwear retained. Editorial reveal retained."
+      }
+    },
+    {
+      "id": "lab2-03",
+      "title": "Loose the buttons that the robots push",
+      "startFrame": 1624,
+      "frames": 74,
+      "review": {
+        "notes": "Native source contains moving cyan projected input tendrils and aiming emitters, amber confirmation targets and evolving data-ring feedback. The small ivory/graphite robot and exterior chamber/display remain coherent in reviewed source frames. No human anatomy, physical keycaps or humanoid finger hands appear. Source25–98 covers the74-frame phrase with24leading and47trailing frames available. Later source100–145 develops larger amber rings; the selected central window keeps feedback restrained. Editorial pan and existing phrase fades retained; returns to Harper's separate internal calculation shot."
+      }
+    },
+    {
+      "id": "lab2-04",
+      "title": "Win the day by fingurin' out",
+      "startFrame": 1698,
+      "frames": 45,
+      "review": {
+        "notes": "Actual finger/ring calculation inside culture fluid, face tracks gesture, uninterrupted glass and silver wardrobe retained."
+      }
+    },
+    {
+      "id": "lab2-05",
+      "title": "Too tough",
+      "startFrame": 1743,
+      "frames": 19,
+      "review": {
+        "notes": "Actual concentrating expression and living curls/fluid with geometric glints; brief phrase coverage selected from central source."
+      }
+    },
+    {
+      "id": "lab2-06",
+      "title": "To think with stars around us",
+      "startFrame": 1762,
+      "frames": 47,
+      "review": {
+        "notes": "Native original graphite robot laboratory ship footage. Native hull/light motion is restrained; existing editorial opening move supplies a clear reveal. Sampled hull, galleries and spars remain coherent."
+      }
+    },
+    {
+      "id": "lab2-07",
+      "title": "Dark sky",
+      "startFrame": 1809,
+      "frames": 29,
+      "review": {
+        "notes": "Native original graphite robot laboratory ship footage. Actual lateral ship travel and camera drift through dark sky, distinct from the preceding reveal. Sampled hull remains coherent."
+      }
+    },
+    {
+      "id": "lab2-08",
+      "title": "So bright",
+      "startFrame": 1838,
+      "frames": 31,
+      "review": {
+        "notes": "User accepted the escape setup. Native glance/turn beside the lit pod hatch; the new interior cut is at1:19. Sampled source frames25,49,73 and121 retain adult Harper identity, silver top, graphite passage and bright hatch/seat. The most readable short beat is a backward glance turning toward the passage; hair has pronounced natural motion blur during the turn. Selected source37–67 shows that early turn, with fade handles35–69. Later body motion proceeds down the passage rather than completing boarding, so no full boarding action is claimed. Full pod exterior remains hidden. Native1916x1080,145frames at24fps; no time stretch. Agent-reviewed escape setup for user playback."
+      }
+    },
+    {
+      "id": "lab2-09",
+      "title": "Bright night",
+      "startFrame": 1869,
+      "frames": 28,
+      "review": {
+        "notes": "Native original graphite robot laboratory ship footage. Tiny ark crosses richly painted broad nebula, with faint native drift; a restrained editorial opening move maintains the vast-space ending."
+      }
+    },
+    {
+      "id": "escape-001",
+      "title": "Leaving orbit — secured inside the escape pod",
+      "startFrame": 1897,
+      "frames": 113,
+      "review": {
+        "notes": "User accepted V39 as clean save point. Native source25-137: secured Harper and fixed cabin hold while she glances toward the window. The external robot-ship hull starts falling away around Leaving orbit and is visibly farther away by the exterior cut. Face, silver top and practical harness remain stable; hands cropped. Later handle simplifies the distant ship; main edit ends before the late handle. No added editorial pan or retiming."
+      }
+    },
+    {
+      "id": "escape-002",
+      "title": "Clear, bank and accelerate",
+      "startFrame": 2010,
+      "frames": 95,
+      "review": {
+        "notes": "User accepted V39 as clean save point. Native source25-119: pod first extends clearance from the original robot ship, then makes a broad rolling curve and accelerates along a changed heading. Camera follows smoothly; mother ship recedes. Twin aft drives, hull panels and canopy remain legible through the rotation; underside becomes visible near the end. Wake follows the curve, though the near-pod plume is broader/brighter than the thin-mist intent. Bank is wider and roll more pronounced than the small-bank prompt. No extra editorial pan or retiming; user playback pending."
       }
     }
   ]

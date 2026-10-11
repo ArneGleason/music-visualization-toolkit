@@ -1,0 +1,20 @@
+{
+  "id": "lab2-08-original-ship-motion-v02",
+  "shotId": "lab2-08",
+  "title": "So bright",
+  "startFrame": 1838,
+  "editFrames": 31,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "model": "kling-video-v3_0",
+  "duration": 6,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/robot-ship-so-bright-v01/lab2-08.png",
+  "prompt": "So bright: original laboratory ark beneath the warm curved limb of the sun. Begin a gentle smooth camera pan toward the upper-right sun immediately; the complete unchanged ship glides subtly toward the right and slightly slips down-left in the camera frame. Solar surface has slow restrained granular convection; the diffuse corona moves gently close to the star limb. The visual action is illumination: steady gold rimlight grazes the graphite hull while cyan culture galleries show faint internal activity. Preserve clear star surface detail, dark space, the exact ship geometry and all service spars. No streams or lines connecting the ship and sun, no luminous streaks, beams, flare spokes, ribbons, trails, warp effects, added exhaust or high-speed travel. No pulsing/strobing bloom or exposure washout. Motion is restrained and continuous from the first frame. One uninterrupted six-second shot with no internal cuts or dissolves, no text and no audio.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved laboratory-ark stills. The headquarters ark is the same massive elongated graphite submarine-like vessel with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and restrained cyan aft drive. Preserve complete hull geometry and lighting design across exterior views. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Exterior views only: do not introduce human figures or interior views. No readable text, captions, logos, watermark, panel divisions, camera shake or zoom blur.",
+  "reviewNotes": "Redesigned sun-dominant interlude. Track toward the star without new streaks. Keep whole ship coherent, preserve subtle illumination and intentional motion.",
+  "estimatedCredits": 48
+}

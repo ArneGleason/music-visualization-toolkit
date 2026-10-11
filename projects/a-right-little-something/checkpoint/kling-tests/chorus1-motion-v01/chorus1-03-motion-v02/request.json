@@ -1,0 +1,32 @@
+{
+  "id": "chorus1-03-motion-v02",
+  "shotId": "chorus1-03",
+  "title": "You\u2019re something / A right little something: agency and uncertainty",
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/chorus1-ideas-v01/chorus1-03-starting-frame-v01.png",
+  "tailImage": null,
+  "startFrame": 1228,
+  "editFrames": 64,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "prompt": "Five-second continuous illustrated alien-coast performance matching this starting still exactly. Harper <<<323570155312565>>> remains kneeling to the left in gray tee/trousers and bare feet, with both hands resting and watching the animals. Camera locked from the very first frame to the last, absolutely no cut or new view. Water already flows through the low blue-stone channels; keep all banks, pools, fans and rock spires fixed in place. Continuous water current and ripples, living violet fan-fronds, moving curls and subtle breathing. During source 1.0\u20133.7 seconds two foreground pearlescent six-legged shelled animals walk along the existing low channel edges; one nudges a tiny loose pebble a short distance with its front legs while another turns and climbs the bank. The thin water stream gently changes direction through an ALREADY PRESENT side gap beside them; no new dams, waterfalls or channel network materializes. Harper leans her attention toward them with curious thoughtful wonder and a tiny brow change. The animals respond independently to the opportunity she offered. Continue life through the tail; no frozen opening or closing hold. Keep natural anatomy and ecology. No second scene, jump cut, dissolving geometry, terrain morph, camera move, seed device, ship, HUD, text or audio.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "approvedCompositionImage": "generated/storyboard/chorus1-ideas-v01/chorus1-03-starting-frame-v01.png",
+  "continuitySource": {
+    "take": "chorus1-02-motion-v01",
+    "sourceFrame": 121,
+    "basis": "Agent sampled-frame review: usable character/ecology/water state; user motion review pending",
+    "use": "Observed previous take establishes ecological state; approved response still anchors new camera. No forced start/end transition."
+  },
+  "reviewNotes": "Simplified continuous response retry after v01 inserted an internal cut."
+}

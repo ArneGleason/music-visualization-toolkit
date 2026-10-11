@@ -1,0 +1,193 @@
+{
+  "status": "All submitted tasks collected; working motion selections in v20 await user review",
+  "fps": 24,
+  "output": "generated/kling-tests/chorus1-motion-v01",
+  "reviewOutput": "generated/storyboard/kling-chorus1-motion-v01",
+  "estimatedCredits": 368,
+  "estimateBasis": "Last observed eight credits per second at native 1080p without audio; live CLI has no quotation endpoint. Actual charge recorded on submission.",
+  "reviewTitle": "Chorus 1 · Kling motion review",
+  "reviewSummary": "7 collected takes, 368 credits including comparisons. Working choices are assembled in full animatic v20; user motion review pending.",
+  "reviewChecks": "Check causal hand/water action, purposeful animal response, stable Harper/organisms, ecological continuity, globe identity and sparse cosmic paths.",
+  "shots": [
+    {
+      "id": "chorus1-02-motion-v01",
+      "shotId": "chorus1-02",
+      "title": "Do something / Little something: a modest intervention",
+      "model": "kling-video-v3_0",
+      "duration": 5,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/chorus1-ideas-v01/chorus1-02-starting-frame-v01.png",
+      "tailImage": null,
+      "startFrame": 1170,
+      "editFrames": 58,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "prompt": "Five-second continuous alien-coast action, almost locked low three-quarter camera. Harper <<<323570155312565>>> is kneeling as in the starting frame. During the first second water, curls, fans and small pearlescent shelled animals already move naturally. From source 1.0 to 1.9 seconds she carefully nudges one small loose dark-blue stone outward with the hand already beside the water gap, slightly widening the opening. From 1.7 to 3.3 seconds a visibly stronger thin turquoise stream flows through that gap toward the violet ribbed fan-frond colony; one frond gently opens in response. Harper watches with a warm curious expression and withdraws the acting hand slightly. Water and fauna continue moving through the final second. Keep the act modest and causal, not magical. Do not invent a new bank, change the coastline, multiply hands or make her rise. One stone moved, one little flow response; fauna wander but do not build elaborate channels yet. No ship, projection grid, tools, text, audio, camera cut, morph, blur transition or sudden zoom.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ]
+    },
+    {
+      "id": "chorus1-03-motion-v01",
+      "shotId": "chorus1-03",
+      "title": "You’re something / A right little something: agency and uncertainty",
+      "model": "kling-video-v3_0",
+      "duration": 5,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/kling-tests/chorus1-motion-v01/chorus1-02-motion-v01/tail.png",
+      "tailImage": "generated/storyboard/chorus1-ideas-v01/chorus1-03-starting-frame-v01.png",
+      "startFrame": 1228,
+      "editFrames": 64,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "prompt": "Begin from the supplied previous-take state: retain its living water, shells, fronds and kneeling Harper. End reference defines the desired modest branched channels and observational pose; reach it through small creature actions and coherent water flow, never by morphing the land. Five-second continuous follow-up on the same living alien coast. Harper <<<323570155312565>>> kneels left and observes, hands withdrawn and resting, subtle breathing, gaze and curls. Keep the water-channel intervention in place. From source 1.0 to 2.6 seconds two foreground pearlescent six-legged shelled animals use their forelegs to roll one or two tiny blue stones along the edge of the already existing low banks, opening small side gaps. From 2.2 to 3.7 seconds turquoise water visibly takes those side channels in a beautiful branching flow among violet ribbed fan-fronds. Harper responds with fascination and a hint of thoughtful uncertainty. All life and water continue through the tail. Keep structures low and tidal, not dams appearing from nowhere. No instant cities, seed device, duplicated limbs, deformed shells, time-lapse landscape replacement, ship, HUD, text, audio, automatic cuts or transition. Almost locked camera, natural consistent scale. If a tiny stone motion is subtle, flowing water and purposeful organism interaction must still clearly show the response.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "approvedCompositionImage": "generated/storyboard/chorus1-ideas-v01/chorus1-03-starting-frame-v01.png",
+      "continuitySource": {
+        "take": "chorus1-02-motion-v01",
+        "sourceFrame": 121,
+        "basis": "Agent sampled-frame review: usable character/ecology/water state; user motion review pending"
+      },
+      "reviewNotes": "Rejected for selected edit: generation inserted an internal cut between start/end references near source frame 39 and literal stone work is weak. Preserve for comparison."
+    },
+    {
+      "id": "chorus1-03-motion-v02",
+      "shotId": "chorus1-03",
+      "title": "You’re something / A right little something: agency and uncertainty",
+      "model": "kling-video-v3_0",
+      "duration": 5,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/chorus1-ideas-v01/chorus1-03-starting-frame-v01.png",
+      "tailImage": null,
+      "startFrame": 1228,
+      "editFrames": 64,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "prompt": "Five-second continuous illustrated alien-coast performance matching this starting still exactly. Harper <<<323570155312565>>> remains kneeling to the left in gray tee/trousers and bare feet, with both hands resting and watching the animals. Camera locked from the very first frame to the last, absolutely no cut or new view. Water already flows through the low blue-stone channels; keep all banks, pools, fans and rock spires fixed in place. Continuous water current and ripples, living violet fan-fronds, moving curls and subtle breathing. During source 1.0–3.7 seconds two foreground pearlescent six-legged shelled animals walk along the existing low channel edges; one nudges a tiny loose pebble a short distance with its front legs while another turns and climbs the bank. The thin water stream gently changes direction through an ALREADY PRESENT side gap beside them; no new dams, waterfalls or channel network materializes. Harper leans her attention toward them with curious thoughtful wonder and a tiny brow change. The animals respond independently to the opportunity she offered. Continue life through the tail; no frozen opening or closing hold. Keep natural anatomy and ecology. No second scene, jump cut, dissolving geometry, terrain morph, camera move, seed device, ship, HUD, text or audio.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "approvedCompositionImage": "generated/storyboard/chorus1-ideas-v01/chorus1-03-starting-frame-v01.png",
+      "continuitySource": {
+        "take": "chorus1-02-motion-v01",
+        "sourceFrame": 121,
+        "basis": "Agent sampled-frame review: usable character/ecology/water state; user motion review pending",
+        "use": "Observed previous take establishes ecological state; approved response still anchors new camera. No forced start/end transition."
+      },
+      "reviewNotes": "Simplified continuous response retry after v01 inserted an internal cut."
+    },
+    {
+      "id": "chorus1-01-motion-v01",
+      "shotId": "chorus1-01",
+      "title": "Chorus 1 / What is her mission?",
+      "model": "kling-video-v3_0",
+      "duration": 8,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/chorus1-ideas-v01/chorus1-01-starting-frame-v01.png",
+      "tailImage": null,
+      "startFrame": 1046,
+      "editFrames": 124,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "prompt": "Eight-second continuous intimate interior mission shot. Harper <<<323570155312565>>> floats attentively beside THREE luminous volumetric ecosystem globes as in the starting still. The turquoise coast with violet ribbed fan-fronds and pearlescent shelled tidal animals matches the shore; ochre fungal terrain and indigo luminous reef remain distinct. Keep their arrangement, scale and identity stable; very gentle rotation and tiny ecological movement within globes, no swapping or merging. During first second maintain living hair/face/projection motion. From source 1.0 to 3.2 seconds her already extended hand makes a small deliberate selecting gesture at the turquoise globe. From 3.0 to 6.2 seconds its rim gently brightens and the living water pattern subtly responds; she focuses on it with care and thoughtful responsibility. Continue float and soft motion through tail. Almost locked camera, warm upper-right rim light, only the existing dark metal amber/cyan rail for cabin context. Globe contents are projections, not literal neighboring planets. Preserve anatomy; no new equipment, dense dashboard, English labels, dialogue, audio, automatic cut or inter-scene transition.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "reviewNotes": "Comparison: expressive Harper but switches toward blue globe and adds background ring/globe graphics. Not selected for mission-to-turquoise-coast continuity."
+    },
+    {
+      "id": "chorus1-01-motion-v02",
+      "shotId": "chorus1-01",
+      "title": "Chorus 1 / What is her mission?",
+      "model": "kling-video-v3_0",
+      "duration": 8,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/chorus1-ideas-v01/chorus1-01-starting-frame-v01.png",
+      "tailImage": null,
+      "startFrame": 1046,
+      "editFrames": 124,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "prompt": "One continuous eight-second cinematic illustrated mission shot matching the starting still. Almost locked camera. There are EXACTLY THREE projected ecosystem spheres and they stay in their original positions: large turquoise coastal sphere on the left, ochre fungal sphere above, smaller blue reef sphere low center. Background is ONLY the existing distant stars and faint original ship field lines, plus the existing thin metal amber rail. NO other planet, moon, sphere, target ring, blue HUD circle or new interface may appear anywhere. Harper <<<323570155312565>>> keeps the same adult freckled face, auburn curls, gray outfit and barefoot floating pose. Her RIGHT arm remains extended to the LEFT TURQUOISE sphere for the entire shot; fingertips always beside that turquoise sphere, do not shift either hand toward the blue reef or ochre sphere. Her other hand stays relaxed close to her torso and away from all spheres. During source 1.0 to 2.6 seconds make only a small natural finger curl/pinch beside the turquoise sphere. From 2.6 to 5.8 seconds the turquoise rim slowly brightens and a gentle water ripple travels across its existing miniature coast; the sphere does not relocate, duplicate or expand. Tiny frond movement inside turquoise sphere, quiet ecological motion inside the two other spheres. She gazes thoughtfully at the turquoise world with caring responsibility, occasional blink and subtle breathing/curls; no dramatic arm sweep. Natural slow float, no pose restart or collapse. No scene change, camera cut, audio, lip sync, text or added hardware.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.\nSHOT SCOPE: The moons in the general identity lock are OFF SCREEN. No new world, planet, moon or circular interface is visible beyond the THREE supplied ecosystem projections. Never touch or select the blue sphere.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ],
+      "reviewNotes": "Tighter single-action mission correction: choose turquoise, retain exactly three ecosystem globes."
+    },
+    {
+      "id": "chorus1-04-motion-v01",
+      "shotId": "chorus1-04",
+      "title": "Out here in orbit / first cosmic expansion",
+      "model": "kling-video-v3_0",
+      "duration": 7,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/chorus1-ideas-v01/chorus1-04-starting-frame-v01.png",
+      "tailImage": null,
+      "startFrame": 1292,
+      "editFrames": 120,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "prompt": "Seven-second continuous cosmic wide matching the illustrated starting frame. Turquoise and peach living world below-left with dark blue rock islands and branching coastal light patterns; deep indigo-violet stars remain distant. Very gentle coherent orbital camera drift with visible slow surface/cloud movement, planet remains round and stable. From source 1.0 to 3.0 seconds a soft cyan/amber pulse travels outward along the existing sparse curves from the branching coast around the planetary limb. From 3.0 through 6.0 seconds a tiny bright traveling point continues outward along the long arc into space. Keep line paths sparse, elegant and stable rather than stretching planet geography. Background stars almost stationary at astronomical distance. Natural ongoing motion through handles. No newly invented ship, person, moons, HUD, text, audio, hard cut, zoom blur or wormhole. Keep the graphic-novel texture and beautiful warm upper-right light.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing."
+    },
+    {
+      "id": "chorus1-05-motion-v01",
+      "shotId": "chorus1-05",
+      "title": "Orbit echo / exploration and interference",
+      "model": "kling-video-v3_0",
+      "duration": 8,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/chorus1-ideas-v01/chorus1-05-starting-frame-v01.png",
+      "tailImage": null,
+      "startFrame": 1412,
+      "editFrames": 138,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "prompt": "Match the preceding accepted orbital shot: one small cyan-white traveling light with a fine warm amber companion trail, steady gentle motion along sparse stable curves. Preserve all three worlds rather than merging them or crossing to a new scene. Eight-second continuous abstract cosmic echo composition matching the illustrated starting frame. Three distinct living worlds at different depths retain turquoise branching coast lower-left, ochre organic ridges upper-middle and indigo luminous reef at right. Distant stars and violet nebula retain their scale. Sparse cyan/amber route arcs remain as shown; do not add a dense network or uniform rings. First second: gentle cloud/surface drift and quiet path glow. From source 1.0 to 2.7 seconds an amber/cyan pulse leaves the turquoise world and opens its coastal pattern. From 2.7 to 4.3 seconds the pulse curves around the ochre world and its local pattern bends the path. From 4.3 to 6.7 seconds a cooler pulse reaches the indigo reef world and disperses into a diffuse luminous glow. Continue subtle motion through final second. No geography melting, explosive colonization, planets merging, character, ship, HUD, text, audio or automatic cut. Almost locked wide camera; this is poetic exploration and uncertain influence, not literal rapid physical planet travel.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "motionContinuity": {
+        "take": "chorus1-04-motion-v01",
+        "sourceFrame": 144,
+        "image": "generated/kling-tests/chorus1-motion-v01/chorus1-04-motion-v01/edit-out.png",
+        "use": "Reviewed pulse color, scale and gentle camera behavior carried in prompt; approved five still remains first image for the wider view."
+      }
+    }
+  ],
+  "actualCredits": 368
+}

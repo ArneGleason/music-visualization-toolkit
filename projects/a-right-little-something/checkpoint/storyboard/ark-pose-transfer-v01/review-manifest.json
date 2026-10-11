@@ -1,0 +1,52 @@
+[
+  {
+    "index": 1,
+    "id": "ark-pose-transfer-review-1",
+    "title": "Approved illustration \u2014 finish target",
+    "label": "Approved illustration \u2014 finish target",
+    "src": "01-reference.png",
+    "href": "01-reference.png",
+    "output": "01-reference.png",
+    "prompt": "Experiment: native Blender pose guide plus approved painted ship reference. Quality and structure require review; no shot replacement yet."
+  },
+  {
+    "index": 2,
+    "id": "ark-pose-transfer-review-2",
+    "title": "Forward pose \u2014 Blender guide",
+    "label": "Forward pose \u2014 Blender guide",
+    "src": "02-forward-guide.png",
+    "href": "02-forward-guide.png",
+    "output": "02-forward-guide.png",
+    "prompt": "Experiment: native Blender pose guide plus approved painted ship reference. Quality and structure require review; no shot replacement yet."
+  },
+  {
+    "index": 3,
+    "id": "ark-pose-transfer-review-3",
+    "title": "Forward pose \u2014 ImageGen experiment",
+    "label": "Forward pose \u2014 ImageGen experiment",
+    "src": "03-forward-painted.png",
+    "href": "03-forward-painted.png",
+    "output": "03-forward-painted.png",
+    "prompt": "Experiment: native Blender pose guide plus approved painted ship reference. Quality and structure require review; no shot replacement yet."
+  },
+  {
+    "index": 4,
+    "id": "ark-pose-transfer-review-4",
+    "title": "Aft pose \u2014 Blender guide",
+    "label": "Aft pose \u2014 Blender guide",
+    "src": "04-aft-guide.png",
+    "href": "04-aft-guide.png",
+    "output": "04-aft-guide.png",
+    "prompt": "Experiment: native Blender pose guide plus approved painted ship reference. Quality and structure require review; no shot replacement yet."
+  },
+  {
+    "index": 5,
+    "id": "ark-pose-transfer-review-5",
+    "title": "Aft pose \u2014 ImageGen experiment",
+    "label": "Aft pose \u2014 ImageGen experiment",
+    "src": "05-aft-painted.png",
+    "href": "05-aft-painted.png",
+    "output": "05-aft-painted.png",
+    "prompt": "Experiment: native Blender pose guide plus approved painted ship reference. Quality and structure require review; no shot replacement yet."
+  }
+]

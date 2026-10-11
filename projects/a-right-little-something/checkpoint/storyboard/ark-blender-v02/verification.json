@@ -1,0 +1,94 @@
+{
+  "podCount": 6,
+  "pairCenters": [
+    [
+      -6.0,
+      4.7
+    ],
+    [
+      0.0,
+      7.2
+    ],
+    [
+      6.0,
+      4.7
+    ]
+  ],
+  "podRadius": 2.8,
+  "sameBaseLevel": true,
+  "mirroredStructuralLayout": true,
+  "habitatOrder": [
+    {
+      "name": "POD_PORT_1 / Branching groves",
+      "center": [
+        -6.0,
+        4.699999809265137,
+        0.0
+      ],
+      "kind": "Branching groves"
+    },
+    {
+      "name": "POD_PORT_2 / Fungal wetland",
+      "center": [
+        0.0,
+        7.199999809265137,
+        0.0
+      ],
+      "kind": "Fungal wetland"
+    },
+    {
+      "name": "POD_PORT_3 / Dry spirals",
+      "center": [
+        6.0,
+        4.699999809265137,
+        0.0
+      ],
+      "kind": "Dry spirals"
+    },
+    {
+      "name": "POD_STARBOARD_1 / Water fronds",
+      "center": [
+        -6.0,
+        -4.699999809265137,
+        0.0
+      ],
+      "kind": "Water fronds"
+    },
+    {
+      "name": "POD_STARBOARD_2 / Membrane marsh",
+      "center": [
+        0.0,
+        -7.199999809265137,
+        0.0
+      ],
+      "kind": "Membrane marsh"
+    },
+    {
+      "name": "POD_STARBOARD_3 / Curled plains",
+      "center": [
+        6.0,
+        -4.699999809265137,
+        0.0
+      ],
+      "kind": "Curled plains"
+    }
+  ],
+  "objectCount": 892,
+  "actual3DGeometry": true,
+  "referenceMatch": "Proportion study, not a pixel-exact or measured reconstruction.",
+  "cameraSweepFrames": 120,
+  "cameraSweepFPS": 24,
+  "cameraSweepSeconds": 5,
+  "cameraSweepWidth": 960,
+  "cameraSweepHeight": 540,
+  "pairTransformsCheckedAtFrames": [
+    1,
+    60,
+    120
+  ],
+  "geometryAnimated": false,
+  "onlyCameraOrbitAnimated": true,
+  "newCredits": 0,
+  "cumulativeConfirmedCredits": 2264,
+  "animaticChanged": false
+}

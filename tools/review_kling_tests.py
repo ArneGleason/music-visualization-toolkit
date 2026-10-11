@@ -17,8 +17,8 @@ def main():
     args = parser.parse_args()
     project = args.plan.resolve().parent
     plan = json.loads(args.plan.read_text(encoding='utf-8'))
-    shots = {s['id']: s for s in json.loads(
-        (project / 'shots/shotlist.json').read_text(encoding='utf-8'))['shots']}
+    register = json.loads((project / 'shots/shotlist.json').read_text(encoding='utf-8'))
+    shots = {s['id']: s for s in register['shots']+register.get('storyboardProposals', [])}
     fps = plan['fps']
     dest = project / plan.get('reviewOutput','generated/storyboard/kling-opening-v01')
     dest.mkdir(parents=True, exist_ok=True)
@@ -27,7 +27,7 @@ def main():
     manifest = []
     for entry in plan['shots']:
         sid = entry['id']
-        shot = shots.get(sid, {'title': entry.get('title',sid),
+        shot = shots.get(entry.get('shotId',sid), {'title': entry.get('title',sid),
             'startFrame':entry.get('startFrame'), 'frames':entry.get('editFrames'),
             'handles':{'leadInFrames':entry.get('leadInFrames',12),
                        'leadOutFrames':entry.get('leadOutFrames',12)}})
@@ -48,7 +48,7 @@ def main():
             ('handles', 0, full_frames, shot['startFrame'] - 1 - lead)):
             movie = dest / f'{sid}-{mode}.mp4'
             filters = (f'fps={fps},trim=start_frame={start}:end_frame={start+count},'
-                       'setpts=PTS-STARTPTS,setsar=1')
+                       'setpts=PTS-STARTPTS,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1')
             run(['-i', str(raw), '-ss', str(song_frame / fps), '-i', str(master),
                  '-map', '0:v:0', '-map', '1:a:0', '-vf', filters,
                  '-t', str(count / fps), '-c:v', 'libx264', '-preset', 'fast',

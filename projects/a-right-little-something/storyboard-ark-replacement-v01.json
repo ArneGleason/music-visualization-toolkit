@@ -1,0 +1,25 @@
+{
+  "id": "ark-replacement-v01",
+  "output": "generated/storyboard/ark-replacement-v01",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v32.mp4",
+  "fadeFrames": 4,
+  "entryFadeFrames": 8,
+  "entryPlate": "generated/storyboard/orbit-blender-v03/hybrid/orbit-composite-handles.mp4",
+  "entryPlateFrame": 162,
+  "draftForReview": true,
+  "presentation": "Five native lab takes followed by four new six-biopod field-drive ark stills with purposeful editorial movement.",
+  "mediaLabel": "Kling / Blender / new biopod ark still preview",
+  "continuationNotes": "V33 replaces only the four old ark exterior compositions with new v04 design starter-frame drafts. Five native lab takes, including robot cutaway, remain. All phrase timing, fades, schematic dissolve and original master audio are retained. Kling directions prepared; no replacement video submitted until user go-ahead after still review.",
+  "status": "Four new ark starting frames in phrase slots; user still review before Kling go-ahead",
+  "reviewUrl": "http://127.0.0.1:8768/storyboard/ark-replacement-v01/animatic-through-bright-night.mp4",
+  "stillReviewUrl": "http://127.0.0.1:8768/storyboard/ark-replacement-v01/review-board.html",
+  "useMotion": true,
+  "motionShotIds": [
+    "lab2-01",
+    "lab2-02",
+    "lab2-03",
+    "lab2-04",
+    "lab2-05"
+  ],
+  "cameraMoves": {}
+}

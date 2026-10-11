@@ -17,10 +17,17 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('plan', type=Path)
     parser.add_argument('--submit', action='store_true')
+    parser.add_argument('--only', action='append', help='Run only this take ID; repeat to select several')
     args = parser.parse_args()
     project = args.plan.resolve().parent
     plan = json.loads(args.plan.read_text(encoding='utf-8'))
+    if args.only:
+        unknown = set(args.only)-{s['id'] for s in plan['shots']}
+        if unknown:
+            parser.error('Unknown take IDs: '+', '.join(sorted(unknown)))
     for shot in plan['shots']:
+        if args.only and shot['id'] not in args.only:
+            continue
         out = project / plan['output'] / shot['id']
         out.mkdir(parents=True, exist_ok=True)
         submission = out / 'submission.json'
@@ -36,6 +43,10 @@ def main():
                         'enable_audio', 'prefer_multi_shots'):
                 value = shot[key]
                 argv += ['--' + key, str(value).lower() if isinstance(value, bool) else str(value)]
+            if shot.get('elementBindingPending'):
+                raise SystemExit(f'{shot["id"]}: character reference is not bound yet; no submission.')
+            if shot.get('elements'):
+                argv += ['--elements', json.dumps(shot['elements'])]
             argv.append(shot['prompt'])
             save(out / 'request.json', shot)
         else:

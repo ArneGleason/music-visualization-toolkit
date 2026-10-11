@@ -1,36 +1,12 @@
 {
   "schemaVersion": 1,
-  "purpose": "Small metadata checkpoint; no audio, video, fonts or Blender renders",
+  "purpose": "Small metadata, authored scripts, exact prompts and job receipts; no new media, fonts, models or provider result URLs",
   "files": [
-    {
-      "source": "generated/beatmap.json",
-      "backup": "checkpoint/beatmap.json",
-      "sha256": "dc5e2e7e8e48f25a787a6b491cc102d851574123f06edca2e0b11f61ea5a3b3e",
-      "bytes": 149466
-    },
-    {
-      "source": "generated/timeline.compiled.json",
-      "backup": "checkpoint/timeline.compiled.json",
-      "sha256": "94d3dc742529b9c23443eb05e9f97f7823afa0bc372eb167849b9e57d02e1093",
-      "bytes": 370911
-    },
     {
       "source": "generated/animatic/animatic-data.json",
       "backup": "checkpoint/animatic/animatic-data.json",
       "sha256": "5da010585945a4dcf23186a4962fb5938853d99abf6eb8416ba9ab1e1769463c",
       "bytes": 333074
-    },
-    {
-      "source": "generated/animatic/current-opening.json",
-      "backup": "checkpoint/animatic/current-opening.json",
-      "sha256": "a31195a006815e82a82b4b762269c6c77fb2475c11be0dcd9245bfe5207c7099",
-      "bytes": 2818
-    },
-    {
-      "source": "generated/animatic/current-media.json",
-      "backup": "checkpoint/animatic/current-media.json",
-      "sha256": "830d1541f80c6fb52a8763dec56c0254fc98bd77ff42f49d15e81b5c640908fb",
-      "bytes": 83
     },
     {
       "source": "generated/animatic/blocking-insert-manifest.json",
@@ -39,28 +15,1576 @@
       "bytes": 2588
     },
     {
+      "source": "generated/animatic/current-media.json",
+      "backup": "checkpoint/animatic/current-media.json",
+      "sha256": "e2f2b7a55f3a9be35de673b2706a28e8e640b3d56b598a0089db3388c1266277",
+      "bytes": 91
+    },
+    {
+      "source": "generated/animatic/current-opening.json",
+      "backup": "checkpoint/animatic/current-opening.json",
+      "sha256": "e4c5d6a3232bc875583fc605047290f095567297bec5d9c63e57ec3055b73180",
+      "bytes": 11476
+    },
+    {
       "source": "generated/animatic/motion-insert-manifest.json",
       "backup": "checkpoint/animatic/motion-insert-manifest.json",
       "sha256": "a2396687ab7d809034f98ac483cf6c6595f3e5af668636006d54c8151ec0d025",
       "bytes": 2613
     },
     {
-      "source": "generated/review/listening-notes.json",
-      "backup": "checkpoint/review/listening-notes.json",
-      "sha256": "4d1d459baf24f2bc08ca5ab3025958b938b29029e289f748fe56dc51aacb787d",
-      "bytes": 10254
+      "source": "generated/audit_field_batch.py",
+      "backup": "checkpoint/audit_field_batch.py",
+      "sha256": "df85ba47a49ce434af34dd3033a48ecbff8cdc2aed5d9b081fb98a6748929a9a",
+      "bytes": 1564
     },
     {
-      "source": "generated/transcription/zoom-nine.alignment.json",
-      "backup": "checkpoint/transcription/zoom-nine.alignment.json",
-      "sha256": "5050e3cea95eea201e75c4ef92f305598795b33e72800ec804f15a9ecc1bd4ce",
-      "bytes": 6936
+      "source": "generated/audit_storyboard_shell.py",
+      "backup": "checkpoint/audit_storyboard_shell.py",
+      "sha256": "250e3fccb1515e1679ebbf7b29d54f22feb6b3242f4ec979823e55a773d9533b",
+      "bytes": 1018
+    },
+    {
+      "source": "generated/beatmap.json",
+      "backup": "checkpoint/beatmap.json",
+      "sha256": "dc5e2e7e8e48f25a787a6b491cc102d851574123f06edca2e0b11f61ea5a3b3e",
+      "bytes": 149466
+    },
+    {
+      "source": "generated/design/ark-blender-v01/build_ark.py",
+      "backup": "checkpoint/design/ark-blender-v01/build_ark.py",
+      "sha256": "c970f88c2f89eacfe48f90d57e67d2621f8201f26c15bdac18b327636155ab24",
+      "bytes": 25357
+    },
+    {
+      "source": "generated/design/ark-blender-v02/build_ark.py",
+      "backup": "checkpoint/design/ark-blender-v02/build_ark.py",
+      "sha256": "3883b9ee28e798a36bdd37f891b156042b2c1513da0e1a58ea3dbef38a8310d7",
+      "bytes": 27275
+    },
+    {
+      "source": "generated/design/ark-blender-v02/check_lighting.py",
+      "backup": "checkpoint/design/ark-blender-v02/check_lighting.py",
+      "sha256": "1be73ad64704a8dec29e5a8d26ee57570c7e40514a5540b341629cbcf8c5c224",
+      "bytes": 1144
+    },
+    {
+      "source": "generated/design/ark-blender-v02/finalize_model.py",
+      "backup": "checkpoint/design/ark-blender-v02/finalize_model.py",
+      "sha256": "7b794af02184a8f1ccb5c99879939adda113c0b79b8e36ab4571c2f6596fb6d0",
+      "bytes": 1584
+    },
+    {
+      "source": "generated/design/ark-blender-v02/render_sweep.py",
+      "backup": "checkpoint/design/ark-blender-v02/render_sweep.py",
+      "sha256": "c4b47d126f849a8e620075c1bc5eab15e320745e8246ef6bd39408eb12c7bc7a",
+      "bytes": 1090
+    },
+    {
+      "source": "generated/design/ark-blender-v03/style_ark.py",
+      "backup": "checkpoint/design/ark-blender-v03/style_ark.py",
+      "sha256": "416ddd6fcda78aeaa35ab4f0f072aaf68808f3d1f4fa197a7bbf19a6aeedda0f",
+      "bytes": 18777
+    },
+    {
+      "source": "generated/design/ark-blender-v04/finish_look.py",
+      "backup": "checkpoint/design/ark-blender-v04/finish_look.py",
+      "sha256": "bf278dc6efc365ee76e72cd5e1c4272ba8ef95422396787d1daab11af71cf7a1",
+      "bytes": 7182
+    },
+    {
+      "source": "generated/design/ark-blender-v04/polish_ark.py",
+      "backup": "checkpoint/design/ark-blender-v04/polish_ark.py",
+      "sha256": "d1f41c8297a3260ae8fb327c7dc5c6a9e9041fd286f0dd6ad8d82874fc5bd66b",
+      "bytes": 9319
+    },
+    {
+      "source": "generated/design/ark-blender-v04/register_review.py",
+      "backup": "checkpoint/design/ark-blender-v04/register_review.py",
+      "sha256": "5d8cd6adbfb0a80ce21d054fe58606790f07a866c4262a6901b1e70b72b93e32",
+      "bytes": 3968
+    },
+    {
+      "source": "generated/design/ark-blender-v04/render_views.py",
+      "backup": "checkpoint/design/ark-blender-v04/render_views.py",
+      "sha256": "75ceb763f5cbb032f71d46c73e6f90523e6138847ed87599db05d39b54e48543",
+      "bytes": 1737
+    },
+    {
+      "source": "generated/design/ark-blender-v04/verify_model.py",
+      "backup": "checkpoint/design/ark-blender-v04/verify_model.py",
+      "sha256": "c42940345838f9743306123511e1d286d0703e3ce1fcea56a6bcebd789db364c",
+      "bytes": 1851
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-01-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-01-motion-v01/request.json",
+      "sha256": "ac7af51ef25a88212457631e6f2191f32c6c75a8d558d9d4be236239bd78aef3",
+      "bytes": 2731
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-01-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-01-motion-v01/submission.json",
+      "sha256": "86f4e6909b53cddb202aca045fcc85c5f136bd9879eb21ae29e6a462ce9a73e3",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-01-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-01-motion-v02/request.json",
+      "sha256": "4c0e282ff11498b83e1e637fcf630ac2f59c3b1110bd8b40605d0c4682baadc1",
+      "bytes": 3455
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-01-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-01-motion-v02/submission.json",
+      "sha256": "65c303ac022de64f0b7db8cf091cbfde74037346c1dcb6f177d9f391e0d2b2f4",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-02-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-02-motion-v01/request.json",
+      "sha256": "b5e92d4f838ca1ad2e8edc528ee7300b06a62d3213e8bd6ee77bdece160e262f",
+      "bytes": 2622
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-02-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-02-motion-v01/submission.json",
+      "sha256": "0fe3218eb23a6d696d64d8d818e1a790c8364f9ecf566ba7cbf49e63555ce236",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-03-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-03-motion-v01/request.json",
+      "sha256": "8522d1cfe1f3c25a9d7d7ff4f8f6862afeab92c9720bd2823e73802156bc9279",
+      "bytes": 3334
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-03-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-03-motion-v01/submission.json",
+      "sha256": "10f5f887e52038072cf8bf885bc39d35c56e602a82784b96fee3be8c39ba872d",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-03-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-03-motion-v02/request.json",
+      "sha256": "8a9e286828959576e69113c94dfae92faad046b01d3a335451e0b25b34e01c32",
+      "bytes": 3446
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-03-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-03-motion-v02/submission.json",
+      "sha256": "de5ac15d287611cd9500ec28288a8a464645238a1e4c3088d1b4b013778606fa",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-04-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-04-motion-v01/request.json",
+      "sha256": "9a19b8118abe07f7fe9e36d6255bba58eaa78eb664326fe893df0edc731a5333",
+      "bytes": 2414
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-04-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-04-motion-v01/submission.json",
+      "sha256": "0c18a9f988124ac5a2237cbc6ad992dbdac68584f04a0aae15ed17dff48d209f",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-05-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-05-motion-v01/request.json",
+      "sha256": "11ec87c607f9f30ec958e06d95c40382c5fd9ae0da798ec92d62219227e95edb",
+      "bytes": 3114
+    },
+    {
+      "source": "generated/kling-tests/chorus1-motion-v01/chorus1-05-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/chorus1-motion-v01/chorus1-05-motion-v01/submission.json",
+      "sha256": "4fe404ec7985d731ed0db9b2e7cc5b7fac548e76793d2a0e440fedec5207a455",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/ecology-motion-v01/creature-walking-v01/request.json",
+      "backup": "checkpoint/kling-tests/ecology-motion-v01/creature-walking-v01/request.json",
+      "sha256": "c575a2de8200b80d0d74f9fbf9d9ebb9f585d086b141653ae3b0449066559c0a",
+      "bytes": 1947
+    },
+    {
+      "source": "generated/kling-tests/ecology-motion-v01/creature-walking-v01/submission.json",
+      "backup": "checkpoint/kling-tests/ecology-motion-v01/creature-walking-v01/submission.json",
+      "sha256": "67998cba6a4aa50cd957f09efc847e3fc83c289ebab5ba1f4d6894b17711b38a",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/ecology-motion-v01/living-channels-v01/request.json",
+      "backup": "checkpoint/kling-tests/ecology-motion-v01/living-channels-v01/request.json",
+      "sha256": "43d3fc2a25fd16cb90ab4fc5836c7a2c0f2e4d2e39669ad809d99355958b9bc1",
+      "bytes": 2093
+    },
+    {
+      "source": "generated/kling-tests/ecology-motion-v01/living-channels-v01/submission.json",
+      "backup": "checkpoint/kling-tests/ecology-motion-v01/living-channels-v01/submission.json",
+      "sha256": "da2a930b4af42eaa9508f0c1c4b201ff876bc0c2bc584d2c1ddef68ceda8c3af",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/escape-approach-v01/lab2-08-escape-approach-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/escape-approach-v01/lab2-08-escape-approach-motion-v01/request.json",
+      "sha256": "a543623857e246e747e0703c1e7d458d04e5b6432e8594972dc5573241ab3a7e",
+      "bytes": 3771
+    },
+    {
+      "source": "generated/kling-tests/escape-approach-v01/lab2-08-escape-approach-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/escape-approach-v01/lab2-08-escape-approach-motion-v01/submission.json",
+      "sha256": "799a3003752d8101475908e6daa584a57f4de5c53dc014ce60b5dc774b01c063",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/escape-ejection-v01/escape-001-ejection-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/escape-ejection-v01/escape-001-ejection-motion-v01/request.json",
+      "sha256": "67c259b21235594996f5bc02c06f6a80c5fc8809424b4a7150ab9f9e938c7c2e",
+      "bytes": 3008
+    },
+    {
+      "source": "generated/kling-tests/escape-ejection-v01/escape-001-ejection-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/escape-ejection-v01/escape-001-ejection-motion-v01/submission.json",
+      "sha256": "f2b08c0cdfaa4541e72660e171de2828d900e13ccf7b8ec6d49e5ac48d333d06",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/escape-ejection-v01/escape-002-ejection-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/escape-ejection-v01/escape-002-ejection-motion-v01/request.json",
+      "sha256": "c6eb856a3a743921e08151e3cd6def8ad68e05a0146d849be923acf2e7ca56f4",
+      "bytes": 3090
+    },
+    {
+      "source": "generated/kling-tests/escape-ejection-v01/escape-002-ejection-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/escape-ejection-v01/escape-002-ejection-motion-v01/submission.json",
+      "sha256": "f98be8d660f6aa1a52e204777aacc27eb6024c898a058b1b983be0867805f750",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/hologram-orbits-v01/hologram-orbit-simulation/request.json",
+      "backup": "checkpoint/kling-tests/hologram-orbits-v01/hologram-orbit-simulation/request.json",
+      "sha256": "4f3804f8db5e9b016a87cae6f55249aa127c198e47e91ab8184202d9e75e8a78",
+      "bytes": 3368
+    },
+    {
+      "source": "generated/kling-tests/hologram-orbits-v01/hologram-orbit-simulation/submission.json",
+      "backup": "checkpoint/kling-tests/hologram-orbits-v01/hologram-orbit-simulation/submission.json",
+      "sha256": "d61d7b3ff9e66152f15e7db8481c93a7d9b32246e6af4df36298dcde583e3921",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/hologram-scale-v02/hologram-cyan-staged/request.json",
+      "backup": "checkpoint/kling-tests/hologram-scale-v02/hologram-cyan-staged/request.json",
+      "sha256": "b91934066b8b917452b22bb9f5b6e1e0e41417db393431abb4db9fd0f94f4af9",
+      "bytes": 3638
+    },
+    {
+      "source": "generated/kling-tests/hologram-scale-v02/hologram-cyan-staged/submission.json",
+      "backup": "checkpoint/kling-tests/hologram-scale-v02/hologram-cyan-staged/submission.json",
+      "sha256": "b18e8dc63800f753c795c0b78ec7af240417d90cd8c60bc7a4c7261e1f1a56df",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/hologram-scale-v02/hologram-powers-ten/request.json",
+      "backup": "checkpoint/kling-tests/hologram-scale-v02/hologram-powers-ten/request.json",
+      "sha256": "2c69036ab83af2290f8ab63d93eb904c10f7f723742ca440491e2002b7440893",
+      "bytes": 3832
+    },
+    {
+      "source": "generated/kling-tests/hologram-scale-v02/hologram-powers-ten/submission.json",
+      "backup": "checkpoint/kling-tests/hologram-scale-v02/hologram-powers-ten/submission.json",
+      "sha256": "5e3e8bb9ccb129c958b6cb791961a51e7fd2e81e64606145a15940e813bf6ee6",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/hologram-star-centered-v01/hologram-star-centered/request.json",
+      "backup": "checkpoint/kling-tests/hologram-star-centered-v01/hologram-star-centered/request.json",
+      "sha256": "e57830148577055fb28b230707e8fb0a8a0be90d11524cc59e5de2190ec4edc5",
+      "bytes": 3585
+    },
+    {
+      "source": "generated/kling-tests/hologram-star-centered-v01/hologram-star-centered/submission.json",
+      "backup": "checkpoint/kling-tests/hologram-star-centered-v01/hologram-star-centered/submission.json",
+      "sha256": "e97911ea2aaf4ebceb8b6dc87069cbbc35240ac2a3d99c42be6151d2fed84d7f",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/hologram-v01/hologram-performance/request.json",
+      "backup": "checkpoint/kling-tests/hologram-v01/hologram-performance/request.json",
+      "sha256": "63967ba11f357e8586500895579dd37105a90f0dea55aed6363f8b3be9845ca9",
+      "bytes": 2966
+    },
+    {
+      "source": "generated/kling-tests/hologram-v01/hologram-performance/submission.json",
+      "backup": "checkpoint/kling-tests/hologram-v01/hologram-performance/submission.json",
+      "sha256": "7aa0fb9f6aebdafe0f67ce2fc7b97997d147f4c2ead98342a32bf8f7384a4cce",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/hologram-v01/hologram-staged/request.json",
+      "backup": "checkpoint/kling-tests/hologram-v01/hologram-staged/request.json",
+      "sha256": "d552f3830e06afa8bab6791760cc81307dce99e3c706b6ab118000a2cd657fdb",
+      "bytes": 3295
+    },
+    {
+      "source": "generated/kling-tests/hologram-v01/hologram-staged/submission.json",
+      "backup": "checkpoint/kling-tests/hologram-v01/hologram-staged/submission.json",
+      "sha256": "4c29416f8956646fd4c28d1a5041ae0252e0a36f0b7be89d6ef66e7bdbdc6e0d",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/lab-motion-v01/lab2-01-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/lab-motion-v01/lab2-01-motion-v01/request.json",
+      "sha256": "b17dc675f8f27bb2cd29b5dd903327c6e72c40834552d1c997433f7b98f30030",
+      "bytes": 3259
+    },
+    {
+      "source": "generated/kling-tests/lab-motion-v01/lab2-01-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/lab-motion-v01/lab2-01-motion-v01/submission.json",
+      "sha256": "c0e340004d0e90b07e05898bfe0346c7a5586d1b3d74e154bc412742e4661db8",
+      "bytes": 214
+    },
+    {
+      "source": "generated/kling-tests/lab-robot-cutaway-v01/lab2-03-robot-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/lab-robot-cutaway-v01/lab2-03-robot-motion-v01/request.json",
+      "sha256": "7f25e0a729c8e1b2a029bf0496fed3ce59e08d1f6a38e0e13036354b95b2a612",
+      "bytes": 3439
+    },
+    {
+      "source": "generated/kling-tests/lab-robot-cutaway-v01/lab2-03-robot-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/lab-robot-cutaway-v01/lab2-03-robot-motion-v01/submission.json",
+      "sha256": "90a5039793747898ca86657e433511806f49e719b12036ee937f3e4633a7676a",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/lab-silver-motion-v01/lab2-01-silver-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/lab-silver-motion-v01/lab2-01-silver-motion-v01/request.json",
+      "sha256": "4d6e729b5c04190dfd391f528af00dda284d35a915ea72b042175fe49d39dfd7",
+      "bytes": 3625
+    },
+    {
+      "source": "generated/kling-tests/lab-silver-motion-v01/lab2-01-silver-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/lab-silver-motion-v01/lab2-01-silver-motion-v01/submission.json",
+      "sha256": "9dbd7114909b5700dac346d1ec23d7dbbd40b83134f6cc4426bfd6bfd5e2a2c5",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/lab-silver-motion-v01/lab2-02-silver-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/lab-silver-motion-v01/lab2-02-silver-motion-v01/request.json",
+      "sha256": "0407aa779b3cd4846a4fc5c6c111c4b1b8fc8a79b0279500a64a6f21b6fd69d7",
+      "bytes": 3723
+    },
+    {
+      "source": "generated/kling-tests/lab-silver-motion-v01/lab2-02-silver-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/lab-silver-motion-v01/lab2-02-silver-motion-v01/submission.json",
+      "sha256": "78ed762a97b178b0e84ac7a8250d23dc4c31ca10b808f60246bca47dba751fac",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/lab-silver-motion-v01/lab2-03-silver-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/lab-silver-motion-v01/lab2-03-silver-motion-v01/request.json",
+      "sha256": "7f6c0ac4bc1918e086110c1a575d3f493e0a9336b5955b1ef40e1d2846cb5709",
+      "bytes": 4073
+    },
+    {
+      "source": "generated/kling-tests/lab-silver-motion-v01/lab2-03-silver-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/lab-silver-motion-v01/lab2-03-silver-motion-v01/submission.json",
+      "sha256": "7facf697c93dc6359a39af336e52603af5b71217e9151161373a0ca4c16a8161",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/lab-silver-motion-v01/lab2-04-silver-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/lab-silver-motion-v01/lab2-04-silver-motion-v01/request.json",
+      "sha256": "764dbe4719deb81b1f1603469a414557826441fb095d3ade49f2ba6532aafe3a",
+      "bytes": 4070
+    },
+    {
+      "source": "generated/kling-tests/lab-silver-motion-v01/lab2-04-silver-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/lab-silver-motion-v01/lab2-04-silver-motion-v01/submission.json",
+      "sha256": "f452dd46187e9d148dc5011e206a35692ca80eec79bddadf193362a89aafd73e",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/lab-silver-motion-v01/lab2-05-silver-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/lab-silver-motion-v01/lab2-05-silver-motion-v01/request.json",
+      "sha256": "86b82219c39636b1c76837038406c28c8be7e451dadbb05c1ec8f8516f32f26a",
+      "bytes": 3711
+    },
+    {
+      "source": "generated/kling-tests/lab-silver-motion-v01/lab2-05-silver-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/lab-silver-motion-v01/lab2-05-silver-motion-v01/submission.json",
+      "sha256": "464f5c2d5bf461dea8ca6fd7252992539da32b345aec3aedc1458d8bd73dadff",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/lab-space-motion-v01/lab2-06-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/lab-space-motion-v01/lab2-06-motion-v01/request.json",
+      "sha256": "c72969beb7da6bc76404bdf078e67722d628341bba6c8b6e932ed953fec2d38f",
+      "bytes": 2099
+    },
+    {
+      "source": "generated/kling-tests/lab-space-motion-v01/lab2-06-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/lab-space-motion-v01/lab2-06-motion-v01/submission.json",
+      "sha256": "a6c593db41cfc495b7405edf4e957689bcdfab2c514ce4faf7d39c343f03f70d",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/lab-space-motion-v01/lab2-07-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/lab-space-motion-v01/lab2-07-motion-v01/request.json",
+      "sha256": "b0b080ef2aa7bfac527e01523ce364404ffa5fb5e19a8bd4384c819af86255ab",
+      "bytes": 1990
+    },
+    {
+      "source": "generated/kling-tests/lab-space-motion-v01/lab2-07-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/lab-space-motion-v01/lab2-07-motion-v01/submission.json",
+      "sha256": "ad55591d51a5378067d6d34e53fdcef3d5f53b6cc721dfc02fdb5583234b9a5c",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/lab-space-motion-v01/lab2-08-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/lab-space-motion-v01/lab2-08-motion-v01/request.json",
+      "sha256": "09d5186c77ff8d9ff1829f9b793014a0a3c9dcd7d821fdfe58ffad8712f78222",
+      "bytes": 2110
+    },
+    {
+      "source": "generated/kling-tests/lab-space-motion-v01/lab2-08-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/lab-space-motion-v01/lab2-08-motion-v01/submission.json",
+      "sha256": "ab871d8f2c4f0b5f031e77a727b15ec9bbce7d2bbfd14d80c74daace95884f2b",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/lab-space-motion-v01/lab2-09-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/lab-space-motion-v01/lab2-09-motion-v01/request.json",
+      "sha256": "502e19c6004490f947733a1e3610d46128f2ef3c5075caf1b1e9c518be38cd8e",
+      "bytes": 2078
+    },
+    {
+      "source": "generated/kling-tests/lab-space-motion-v01/lab2-09-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/lab-space-motion-v01/lab2-09-motion-v01/submission.json",
+      "sha256": "cdd23c17fddd2a168e27b09bd51731e653b95b44b63503fcec42d942f7b554f1",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/opening-v01/opening-003/request.json",
+      "backup": "checkpoint/kling-tests/opening-v01/opening-003/request.json",
+      "sha256": "a8050db8c2ef711d0edd32a670fff37ccf1cf59069cf75aec37913aef099b245",
+      "bytes": 2608
+    },
+    {
+      "source": "generated/kling-tests/opening-v01/opening-003/submission.json",
+      "backup": "checkpoint/kling-tests/opening-v01/opening-003/submission.json",
+      "sha256": "66d606f535e26d6db1a115555122e8a157d060b9d1d2b25f751e71ff22e2d61e",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/opening-v01/opening-005/request.json",
+      "backup": "checkpoint/kling-tests/opening-v01/opening-005/request.json",
+      "sha256": "5692b4873389f7fa7d5f4d125bb51792ebe4ef3bad92f5cc2ca31335fa7c28dd",
+      "bytes": 2359
+    },
+    {
+      "source": "generated/kling-tests/opening-v01/opening-005/submission.json",
+      "backup": "checkpoint/kling-tests/opening-v01/opening-005/submission.json",
+      "sha256": "f580de0ef2d7978b41bc376bea8a56383cfafb0a8af43132f66c42f9996d4fc3",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/orbit-pullback-v01/orbit-pullback-v01/request.json",
+      "backup": "checkpoint/kling-tests/orbit-pullback-v01/orbit-pullback-v01/request.json",
+      "sha256": "8092fe21dcdfc4523988cd1259709b164907ea74b367ef1e3c22b4fc20161267",
+      "bytes": 1625
+    },
+    {
+      "source": "generated/kling-tests/orbit-pullback-v01/orbit-pullback-v01/submission.json",
+      "backup": "checkpoint/kling-tests/orbit-pullback-v01/orbit-pullback-v01/submission.json",
+      "sha256": "4b5c3744a045f9a27516ad3a9f3c6d4241e4f5c4bea414cbd026a6feccb3c38d",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/planet-cutaway-v01/planet-orbit-v01/request.json",
+      "backup": "checkpoint/kling-tests/planet-cutaway-v01/planet-orbit-v01/request.json",
+      "sha256": "a905b917add2e0f6bdb26eb5ff3280dfeb51e07103ae0717bf00f0ad565fb500",
+      "bytes": 3397
+    },
+    {
+      "source": "generated/kling-tests/planet-cutaway-v01/planet-orbit-v01/submission.json",
+      "backup": "checkpoint/kling-tests/planet-cutaway-v01/planet-orbit-v01/submission.json",
+      "sha256": "91728170a6ad043e39a33eff1afd6a397788feae740ef55717e4bf3eeb4d674d",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/robot-ship-so-bright-v01/lab2-08-original-ship-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/robot-ship-so-bright-v01/lab2-08-original-ship-motion-v02/request.json",
+      "sha256": "adc9efa54cfff001dbc27fc1ee96167564ca26d03d5c0bf47147331c37fe64c7",
+      "bytes": 2291
+    },
+    {
+      "source": "generated/kling-tests/robot-ship-so-bright-v01/lab2-08-original-ship-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/robot-ship-so-bright-v01/lab2-08-original-ship-motion-v02/submission.json",
+      "sha256": "cb5dab8caa73fe7babb082d3d61b033f7ebe48bce190eecd7ec72da9a3d54019",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/scale-motion-v01/scale-reveal-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/scale-motion-v01/scale-reveal-motion-v01/request.json",
+      "sha256": "e65b2abdd56d5f8c184879f6a8cf12ca94df52c1f94144733bbfefb7a1a70c4a",
+      "bytes": 3452
+    },
+    {
+      "source": "generated/kling-tests/scale-motion-v01/scale-reveal-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/scale-motion-v01/scale-reveal-motion-v01/submission.json",
+      "sha256": "cb2ff25f3eb0d498d8ec0e2abb1c3fcd533e3d203b0160473518319622a53edd",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/window-coast-v01/inlet-v01/request.json",
+      "backup": "checkpoint/kling-tests/window-coast-v01/inlet-v01/request.json",
+      "sha256": "f9c70ab78b34732a728de0a48630beb65255a801576022e5f1cbbbea0bae4efb",
+      "bytes": 2474
+    },
+    {
+      "source": "generated/kling-tests/window-coast-v01/inlet-v01/submission.json",
+      "backup": "checkpoint/kling-tests/window-coast-v01/inlet-v01/submission.json",
+      "sha256": "417a136e71d031448e5efd26d5c8b7a19fbe89b9c2196105dfe67b086766bd08",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/window-coast-v01/inlet-v02/request.json",
+      "backup": "checkpoint/kling-tests/window-coast-v01/inlet-v02/request.json",
+      "sha256": "dd1c15977af1879b02e5f89fb8f68223169c54d6195c89c66ab465bf549bcdd0",
+      "bytes": 2500
+    },
+    {
+      "source": "generated/kling-tests/window-coast-v01/inlet-v02/submission.json",
+      "backup": "checkpoint/kling-tests/window-coast-v01/inlet-v02/submission.json",
+      "sha256": "bda6975b2b7786dc721623a3f1fe64a2adf5e7106078b52e10b89d7b9526dc85",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/window-coast-v01/starward-portrait-v01/request.json",
+      "backup": "checkpoint/kling-tests/window-coast-v01/starward-portrait-v01/request.json",
+      "sha256": "de199d2ee9f8b2360a42f97f5306b3cb02d5e85ce60bbb898ca269caa0ffd3cd",
+      "bytes": 2991
+    },
+    {
+      "source": "generated/kling-tests/window-coast-v01/starward-portrait-v01/submission.json",
+      "backup": "checkpoint/kling-tests/window-coast-v01/starward-portrait-v01/submission.json",
+      "sha256": "e8c0f8f3ed36f8eb336ce646aa3092ed98fe08423cee3c99608c17b2741e1e27",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/window-coast-v01/vr-shore-v01/request.json",
+      "backup": "checkpoint/kling-tests/window-coast-v01/vr-shore-v01/request.json",
+      "sha256": "fb39d00208077245a1179b7a6ae3b5e498b9dd7b6e9c2146a1238488bab9cb55",
+      "bytes": 2379
+    },
+    {
+      "source": "generated/kling-tests/window-coast-v01/vr-shore-v01/submission.json",
+      "backup": "checkpoint/kling-tests/window-coast-v01/vr-shore-v01/submission.json",
+      "sha256": "0a79f666302eeddf00f92ca4d25d897ce3669004436dfcd5509295983616f403",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/window-coast-v01/vr-shore-v02/request.json",
+      "backup": "checkpoint/kling-tests/window-coast-v01/vr-shore-v02/request.json",
+      "sha256": "810e0a60d59696343819e28278848b093ee23a5ea4b9baecf5afe61149e21789",
+      "bytes": 3332
+    },
+    {
+      "source": "generated/kling-tests/window-coast-v01/vr-shore-v02/submission.json",
+      "backup": "checkpoint/kling-tests/window-coast-v01/vr-shore-v02/submission.json",
+      "sha256": "d6e22dbfd3a67fbd14937d9a5bd4cbe186561a2034952b316599376de884108b",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/world-below-v01/world-below-ref-v01/request.json",
+      "backup": "checkpoint/kling-tests/world-below-v01/world-below-ref-v01/request.json",
+      "sha256": "04f1190ac523eda672e2fdb1b6dacead2ca91746eddb279b1eaa3c7a2ff9a344",
+      "bytes": 3659
+    },
+    {
+      "source": "generated/kling-tests/world-below-v01/world-below-ref-v01/submission.json",
+      "backup": "checkpoint/kling-tests/world-below-v01/world-below-ref-v01/submission.json",
+      "sha256": "71e3abc3418a3d753a0fdf8ac972da8f7642910bdeb8076c79411df4515f426b",
+      "bytes": 468
+    },
+    {
+      "source": "generated/review/add_chorus_ideas.py",
+      "backup": "checkpoint/review/add_chorus_ideas.py",
+      "sha256": "dc349e2ef24ea4466e8aa054e0b45ac4e09e53664e42e3e521139b1bde48ac7f",
+      "bytes": 7127
+    },
+    {
+      "source": "generated/review/build_schematic_fade.py",
+      "backup": "checkpoint/review/build_schematic_fade.py",
+      "sha256": "fb92ecf1ea247c4b5cf831fff1cd5567aa75090585cfa891c8ce16b2e984600c",
+      "bytes": 6100
+    },
+    {
+      "source": "generated/review/check_orbit_v03.py",
+      "backup": "checkpoint/review/check_orbit_v03.py",
+      "sha256": "48b267edd66282255548c65d24100a507a7ecd71098256ea8192e8b637cfa236",
+      "bytes": 1537
+    },
+    {
+      "source": "generated/review/current-render.json",
+      "backup": "checkpoint/review/current-render.json",
+      "sha256": "498095fdd75c725fb2d8c4c4e4a218c77079ce7cae7baac1b4539395b3b7ed8b",
+      "bytes": 225
+    },
+    {
+      "source": "generated/review/finish_ark_model_review.py",
+      "backup": "checkpoint/review/finish_ark_model_review.py",
+      "sha256": "16bf9f7aa4644377ac05337ca490cb1d6229a083f95a29210655a4f5a7e8a202",
+      "bytes": 1714
+    },
+    {
+      "source": "generated/review/finish_ark_still_review.py",
+      "backup": "checkpoint/review/finish_ark_still_review.py",
+      "sha256": "b7ca0f47260d2479b57eb82efebad4b7544ebab715b6850dc97ea07548be8da5",
+      "bytes": 4108
+    },
+    {
+      "source": "generated/review/finish_kling_sequence.py",
+      "backup": "checkpoint/review/finish_kling_sequence.py",
+      "sha256": "807578d6abd5073d94090b0e207dd11976cad4b5ca7abd389b9b475e4f349915",
+      "bytes": 4000
+    },
+    {
+      "source": "generated/review/finish_lab_verse.py",
+      "backup": "checkpoint/review/finish_lab_verse.py",
+      "sha256": "800b96e16f7bd59b87db8898c5d8dcce386a50e69fcda42bae94f36e5a7bc230",
+      "bytes": 4931
+    },
+    {
+      "source": "generated/review/finish_lab_verse_v02.py",
+      "backup": "checkpoint/review/finish_lab_verse_v02.py",
+      "sha256": "a32d3b06e86ea1706c6d4e16fdbdbc38006f8e0b7173ce1b0d570ecb5c0d9a1f",
+      "bytes": 5964
+    },
+    {
+      "source": "generated/review/finish_orbit_v02.py",
+      "backup": "checkpoint/review/finish_orbit_v02.py",
+      "sha256": "89f0273947a4c0d6af20d5879474879e4397daa406fb3acfcdbe09f53b8402b0",
+      "bytes": 1082
+    },
+    {
+      "source": "generated/review/finish_orbit_v03.py",
+      "backup": "checkpoint/review/finish_orbit_v03.py",
+      "sha256": "c08b0e1c8ed3ceaf2ea8f68ab1a32fae524c17d4b1396df4d16849720f976449",
+      "bytes": 1100
+    },
+    {
+      "source": "generated/review/finish_robot_cutaway.py",
+      "backup": "checkpoint/review/finish_robot_cutaway.py",
+      "sha256": "7354dd51d1bedb9b794ffdf003c424ac966e8411bcd518bb74eb321f9ba4ff73",
+      "bytes": 3426
+    },
+    {
+      "source": "generated/review/finish_robot_motion.py",
+      "backup": "checkpoint/review/finish_robot_motion.py",
+      "sha256": "4a29487d9fd7d594f4203fac78e43f7c7ba72318728d86e1471dcfeb74f3b440",
+      "bytes": 3218
+    },
+    {
+      "source": "generated/review/finish_silver_motion.py",
+      "backup": "checkpoint/review/finish_silver_motion.py",
+      "sha256": "ad7cf8ad107732dd5e78a4abcb0a0a7ac4521a40816e5ecf4ef82f25aedc1bde",
+      "bytes": 3155
+    },
+    {
+      "source": "generated/review/finish_silver_review.py",
+      "backup": "checkpoint/review/finish_silver_review.py",
+      "sha256": "2041a747c9314266af907e28a75a371846accb4d8c7d935c3fa1154be8e7ad72",
+      "bytes": 3421
+    },
+    {
+      "source": "generated/review/inspect_motion_blur.py",
+      "backup": "checkpoint/review/inspect_motion_blur.py",
+      "sha256": "62cd9c2550473d5596f1cc0a2ee09e90f9ec64dbb56463a4307a5ea5864c1195",
+      "bytes": 414
+    },
+    {
+      "source": "generated/review/listening-notes.json",
+      "backup": "checkpoint/review/listening-notes.json",
+      "sha256": "85b13d85be9b07e876c88c5051fded84981b47dba27e3fc0011c98d9e2b32ae8",
+      "bytes": 20796
+    },
+    {
+      "source": "generated/review/orbit_v02_proof.py",
+      "backup": "checkpoint/review/orbit_v02_proof.py",
+      "sha256": "c0a2df656523abc6e07bf27970912953fe5d3ab5c6ef8c441ed4eea8bf938a8e",
+      "bytes": 1922
+    },
+    {
+      "source": "generated/review/orbit_v03_profile.py",
+      "backup": "checkpoint/review/orbit_v03_profile.py",
+      "sha256": "799084f1a7aac1b506b651bac68847c1562c3af84934f6e43717711fff70bdcd",
+      "bytes": 2084
+    },
+    {
+      "source": "generated/review/orbit_v03_proof.py",
+      "backup": "checkpoint/review/orbit_v03_proof.py",
+      "sha256": "298f3345dcd25497bc21e2a3df39e5a2d0bcac457eaa4cbe9d42e97082efd1fd",
+      "bytes": 1959
+    },
+    {
+      "source": "generated/review/precache_silver_motion.py",
+      "backup": "checkpoint/review/precache_silver_motion.py",
+      "sha256": "fd8b9c9a1a6752245a72aa28ddb71fedf06ee69f6da8193a81d340721e25b13d",
+      "bytes": 1415
+    },
+    {
+      "source": "generated/review/prepare_ark_model_review.py",
+      "backup": "checkpoint/review/prepare_ark_model_review.py",
+      "sha256": "06ea58163c11dee004592d2fe2ec0ae1f4a538138c9d6e6ed8c8575070020a16",
+      "bytes": 3721
+    },
+    {
+      "source": "generated/review/prepare_ark_replacement.py",
+      "backup": "checkpoint/review/prepare_ark_replacement.py",
+      "sha256": "e0d4c80dfee94e1213a75a437121c93083ca451c2f441637b8b64c852156ef60",
+      "bytes": 7368
+    },
+    {
+      "source": "generated/review/prepare_chorus_camera.py",
+      "backup": "checkpoint/review/prepare_chorus_camera.py",
+      "sha256": "414a510de99679ba81e66dca88d0b2f46bcb23b7ee084bc4a414cdccd0f0d6f2",
+      "bytes": 1508
+    },
+    {
+      "source": "generated/review/prepare_chorus_stills.py",
+      "backup": "checkpoint/review/prepare_chorus_stills.py",
+      "sha256": "a3f36b5480d08a0092012448c66d836dde7523241b4dfd5d5b373f1d3c40134a",
+      "bytes": 6593
+    },
+    {
+      "source": "generated/review/prepare_kling_sequence.py",
+      "backup": "checkpoint/review/prepare_kling_sequence.py",
+      "sha256": "6967de1ed0a7f059b53857b810109dc702e0ecf96121b5393b4d82810e7d63ff",
+      "bytes": 10288
+    },
+    {
+      "source": "generated/review/prepare_lab_kling.py",
+      "backup": "checkpoint/review/prepare_lab_kling.py",
+      "sha256": "a71d269168e41bf23547cc8aa453dc426b6d4cae05d07d01513df7da53f5a678",
+      "bytes": 7576
+    },
+    {
+      "source": "generated/review/prepare_lab_verse.py",
+      "backup": "checkpoint/review/prepare_lab_verse.py",
+      "sha256": "b08ee084c4ae4f8e966126441e1ac00054400cd11dee6e05aa269e6270c4e706",
+      "bytes": 3982
+    },
+    {
+      "source": "generated/review/prepare_lab_verse_v02.py",
+      "backup": "checkpoint/review/prepare_lab_verse_v02.py",
+      "sha256": "1edc187bd8bb4f4ce2ff3ee31d43c969cf674382a37417f98b4209fa325a16d2",
+      "bytes": 5051
+    },
+    {
+      "source": "generated/review/prepare_orbit_v03.py",
+      "backup": "checkpoint/review/prepare_orbit_v03.py",
+      "sha256": "9c70579c90e3c1a465451384415e9fcc99f7f4a809f172f946d690f4a99b0293",
+      "bytes": 3621
+    },
+    {
+      "source": "generated/review/prepare_robot_cutaway.py",
+      "backup": "checkpoint/review/prepare_robot_cutaway.py",
+      "sha256": "6cfb6c803e13c977a522c46a97cffa983acf7871cc918d6cb389ca778ce5aee6",
+      "bytes": 6111
+    },
+    {
+      "source": "generated/review/prepare_robot_motion_insert.py",
+      "backup": "checkpoint/review/prepare_robot_motion_insert.py",
+      "sha256": "0259bc4c80589c435751177b2968db18d0de04289ad2a6923001785c000cc394",
+      "bytes": 3212
+    },
+    {
+      "source": "generated/review/prepare_scale_motion_v01.py",
+      "backup": "checkpoint/review/prepare_scale_motion_v01.py",
+      "sha256": "a8c7778928adc3a39718d0c2acbe1f7dd2677a968f5f74230d88391e94d3cf8b",
+      "bytes": 3656
+    },
+    {
+      "source": "generated/review/prepare_silver_insert.py",
+      "backup": "checkpoint/review/prepare_silver_insert.py",
+      "sha256": "28b5970ecf93602ccd93911a9f8c21328a6342175ea533c0193b46f400f00f8a",
+      "bytes": 2716
+    },
+    {
+      "source": "generated/review/prepare_silver_kling.py",
+      "backup": "checkpoint/review/prepare_silver_kling.py",
+      "sha256": "b5db9f94e903f371cd99ecd2fd07aa767eb3ac7bc9c1f42f11ea944b376cc820",
+      "bytes": 2368
+    },
+    {
+      "source": "generated/review/prepare_silver_motion_insert.py",
+      "backup": "checkpoint/review/prepare_silver_motion_insert.py",
+      "sha256": "06e3b7d2c03a7b71fd3e3987d1b7126bcd4b7083238a4111ed67b6cb0bf7ee5a",
+      "bytes": 4493
+    },
+    {
+      "source": "generated/review/prepare_space_insert.py",
+      "backup": "checkpoint/review/prepare_space_insert.py",
+      "sha256": "7129bef6b99c857bcdefade7312b69459b8942c4fc1c9e30fcb03550a8990f7c",
+      "bytes": 4359
+    },
+    {
+      "source": "generated/review/register_ark_v04.py",
+      "backup": "checkpoint/review/register_ark_v04.py",
+      "sha256": "3f45f3509f10078da4caac4c5c4de1b51ae3d5a01e4d3df846f4331925b6c516",
+      "bytes": 1920
+    },
+    {
+      "source": "generated/review/register_chorus_stills.py",
+      "backup": "checkpoint/review/register_chorus_stills.py",
+      "sha256": "4a09af80258c4b666de707f805da6e5cff27e04db7df4dc570961791639e7ad0",
+      "bytes": 1969
+    },
+    {
+      "source": "generated/review/register_kling_sequence.py",
+      "backup": "checkpoint/review/register_kling_sequence.py",
+      "sha256": "af6fa10d4e67c991652d6004a799510ed1d2df4023f8b3a122b74423f08b66e1",
+      "bytes": 2588
+    },
+    {
+      "source": "generated/review/register_scale_motion_v01.py",
+      "backup": "checkpoint/review/register_scale_motion_v01.py",
+      "sha256": "6d2c2eea52d80d8df2fe86ce8e07e36ccdbe51902c797abe25ab38d536a7a171",
+      "bytes": 3108
+    },
+    {
+      "source": "generated/review/review_lab_space.py",
+      "backup": "checkpoint/review/review_lab_space.py",
+      "sha256": "a4a68583aa15870393695ac3116d85fd219344650bd4141c9ffc8993c4075c32",
+      "bytes": 1532
+    },
+    {
+      "source": "generated/review/review_robot_motion.py",
+      "backup": "checkpoint/review/review_robot_motion.py",
+      "sha256": "bdd7ddc819d997e5570c70a5ef9b453052c32816670d8eb1c4c35af800a10a76",
+      "bytes": 1437
+    },
+    {
+      "source": "generated/review/review_scale_motion_v01.py",
+      "backup": "checkpoint/review/review_scale_motion_v01.py",
+      "sha256": "adb479373169e2117634b66638a9b4eca802f54b2ea9b206ae7d684ea0a0e61b",
+      "bytes": 1444
+    },
+    {
+      "source": "generated/review/review_silver_motion.py",
+      "backup": "checkpoint/review/review_silver_motion.py",
+      "sha256": "f0a72c0d31fbd778b194a00d3e1cd8c5920654d12c14fafeaa229cb3bb63bc32",
+      "bytes": 1598
+    },
+    {
+      "source": "generated/review/verify_native_orbit_v03.py",
+      "backup": "checkpoint/review/verify_native_orbit_v03.py",
+      "sha256": "f1e50fd8397583d6e4cd19cbd7ad29e1f0d43d7e13f6b4d8f326e8adad6f5131",
+      "bytes": 1284
+    },
+    {
+      "source": "generated/review/verify_v23.py",
+      "backup": "checkpoint/review/verify_v23.py",
+      "sha256": "56bb4d0a5c0c1b941231d69365a7602545f9dd42b5d67256efb69118ffdd597e",
+      "bytes": 2175
+    },
+    {
+      "source": "generated/review/verify_v24.py",
+      "backup": "checkpoint/review/verify_v24.py",
+      "sha256": "5cb68dd5dda2f4262674b08ef71beead8281f2c4f8ce1268116eb558d855d9ee",
+      "bytes": 2103
+    },
+    {
+      "source": "generated/review/verify_v25.py",
+      "backup": "checkpoint/review/verify_v25.py",
+      "sha256": "ffe0efb362378cc8d182635e06483e0885f8eed3caf0e762b09e2656bd1f5dec",
+      "bytes": 2886
+    },
+    {
+      "source": "generated/storyboard/ark-blender-v02/review-manifest.json",
+      "backup": "checkpoint/storyboard/ark-blender-v02/review-manifest.json",
+      "sha256": "bc3865b7cf8bbd0b364233762ef2dec3a596a54e9f76c502c8f8a67512e43ef8",
+      "bytes": 2344
+    },
+    {
+      "source": "generated/storyboard/ark-blender-v02/review-options.json",
+      "backup": "checkpoint/storyboard/ark-blender-v02/review-options.json",
+      "sha256": "27a58f124a33d161e6728780a1089ec6f840f3cd9fd7066f07aa40f5d20c2239",
+      "bytes": 248
+    },
+    {
+      "source": "generated/storyboard/ark-blender-v02/verification.json",
+      "backup": "checkpoint/storyboard/ark-blender-v02/verification.json",
+      "sha256": "54abf179cf27c6458e00773026ae691acb25e041ee22f9e4957b65292ff5f3a1",
+      "bytes": 1850
+    },
+    {
+      "source": "generated/storyboard/ark-illustrated-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/ark-illustrated-v01/review-manifest.json",
+      "sha256": "b986c8ba38862c007a9cfa749b4066f5f0b68bf8edaedf5b693e2a3765934508",
+      "bytes": 2922
+    },
+    {
+      "source": "generated/storyboard/ark-illustrated-v01/review-options.json",
+      "backup": "checkpoint/storyboard/ark-illustrated-v01/review-options.json",
+      "sha256": "99ae58e77c1221f4c248ab992c9d8200b8e2fa329a6221fd4396d48dfdbd34d6",
+      "bytes": 268
+    },
+    {
+      "source": "generated/storyboard/ark-pose-transfer-v01/aft.prompt.txt",
+      "backup": "checkpoint/storyboard/ark-pose-transfer-v01/aft.prompt.txt",
+      "sha256": "8cb61224fd792c82c4b3dcc910d30c40166209a4eaebd09c2729b606059b4b57",
+      "bytes": 2878
+    },
+    {
+      "source": "generated/storyboard/ark-pose-transfer-v01/build_review.py",
+      "backup": "checkpoint/storyboard/ark-pose-transfer-v01/build_review.py",
+      "sha256": "b11bc610e20779676dcdf92d20510b426d991073aa3e37bb2468ef906c338c48",
+      "bytes": 1653
+    },
+    {
+      "source": "generated/storyboard/ark-pose-transfer-v01/forward.prompt.txt",
+      "backup": "checkpoint/storyboard/ark-pose-transfer-v01/forward.prompt.txt",
+      "sha256": "5192dd04a6ff7cd5d2bb5b7b0a628d65b51d32672ddb8ca708f01cda0af4dc33",
+      "bytes": 2882
+    },
+    {
+      "source": "generated/storyboard/ark-pose-transfer-v01/prepare_experiment.py",
+      "backup": "checkpoint/storyboard/ark-pose-transfer-v01/prepare_experiment.py",
+      "sha256": "005cb39638775513ff218b3301edb7a83b3108d6618eb91b290ae39310b39032",
+      "bytes": 4019
+    },
+    {
+      "source": "generated/storyboard/ark-pose-transfer-v01/register_results.py",
+      "backup": "checkpoint/storyboard/ark-pose-transfer-v01/register_results.py",
+      "sha256": "6b42f1db5c715d28d03c626b235b3362e6a791fed1d06d4c0fc5ad03baf8ac36",
+      "bytes": 2642
+    },
+    {
+      "source": "generated/storyboard/ark-pose-transfer-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/ark-pose-transfer-v01/review-manifest.json",
+      "sha256": "7be9e31c144f591f1651d983ff5fb9cf468a7cf2ab9341ab1874159a57b8c3ba",
+      "bytes": 2200
+    },
+    {
+      "source": "generated/storyboard/ark-pose-transfer-v01/review-options.json",
+      "backup": "checkpoint/storyboard/ark-pose-transfer-v01/review-options.json",
+      "sha256": "ac993a94a7c205bc31772f30598636c40a3b4ddcb8fe23762c87be63e2ff5919",
+      "bytes": 276
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/lab2-06.prompt.json",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/lab2-06.prompt.json",
+      "sha256": "8f0dd9d18d6718c9e4385c93c2576b607433dce75c58e211ab9bac3475e261fd",
+      "bytes": 4676
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/lab2-06.prompt.txt",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/lab2-06.prompt.txt",
+      "sha256": "f81700ba2de5404c656ddda1042941eae52b193a69b64ec4088e5f716b23d710",
+      "bytes": 3917
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/lab2-07.prompt.json",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/lab2-07.prompt.json",
+      "sha256": "f42662016b587e9680e2fec389208fa6e0d089fa6e9bbd23482cae4b4a8072fc",
+      "bytes": 9437
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/lab2-07.prompt.txt",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/lab2-07.prompt.txt",
+      "sha256": "5a4d36d4e80d706e3a07657549e3be855061363daf312dab3b9137047e3b47ed",
+      "bytes": 4189
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/lab2-08-first-draft.prompt.json",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/lab2-08-first-draft.prompt.json",
+      "sha256": "8fa5af1d3975b40fcc3c297a8ccaf52caf037a79f31702fee5cea77f60ea01af",
+      "bytes": 4373
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/lab2-08-first-draft.prompt.txt",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/lab2-08-first-draft.prompt.txt",
+      "sha256": "1d9070864a8e002221a10a66b9240c41daecb3d084042a01b12480e93051184e",
+      "bytes": 4213
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/lab2-08.prompt.json",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/lab2-08.prompt.json",
+      "sha256": "bf9baeb80f6c4ba870a68af729708430ab42cd2996c2dfab3320e841e518068c",
+      "bytes": 3445
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/lab2-08.prompt.txt",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/lab2-08.prompt.txt",
+      "sha256": "fcd40d1fe21211118ca46b98e66f793f1d21ae4ac09abc13b2a5053e3d38a52b",
+      "bytes": 3215
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/lab2-09.prompt.json",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/lab2-09.prompt.json",
+      "sha256": "7036f5f802a60f4e2815d4aac324c0dde7e5efaecfb1ace280cc013b8098f35a",
+      "bytes": 4798
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/lab2-09.prompt.txt",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/lab2-09.prompt.txt",
+      "sha256": "e1c67a8c984e2a711e3be160948c37285a387fce3ff27d9d317ba1fb7b13cefa",
+      "bytes": 3762
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/review-manifest.json",
+      "sha256": "ea7d52decaac7305cddcd633c86873aae2de305efffdc8d3126f12b3ac3ff880",
+      "bytes": 14631
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/review-options.json",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/review-options.json",
+      "sha256": "78d4e4cfe5826000a0aa8da4ec1169339b3b7a437124107b81979ccbc04a8bee",
+      "bytes": 127
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/timing-check.json",
+      "sha256": "1bc9b6d02ab35bcf77e984c74649fe5e4e024c915c7d8cca504de12b6cc485ba",
+      "bytes": 1449
+    },
+    {
+      "source": "generated/storyboard/ark-replacement-v01/verification.json",
+      "backup": "checkpoint/storyboard/ark-replacement-v01/verification.json",
+      "sha256": "0ef9d666c3942238127e4aca1ab59734ce0d20f7b489a3f6ddb28ed881e0515b",
+      "bytes": 818
+    },
+    {
+      "source": "generated/storyboard/depth-field-experiments-v01/inspect-hybrid.py",
+      "backup": "checkpoint/storyboard/depth-field-experiments-v01/inspect-hybrid.py",
+      "sha256": "fc94efb42286a855fbc06055a31cd2d41b1c3fe8927f555a4f314091b349be6f",
+      "bytes": 571
+    },
+    {
+      "source": "generated/storyboard/escape-approach-motion-v01/accept_full_review.py",
+      "backup": "checkpoint/storyboard/escape-approach-motion-v01/accept_full_review.py",
+      "sha256": "9c9b469b3abdda9bbd6314e64707c9c55397f1e9a2811cc33a99905712706be2",
+      "bytes": 3166
+    },
+    {
+      "source": "generated/storyboard/escape-approach-motion-v01/source-verification.json",
+      "backup": "checkpoint/storyboard/escape-approach-motion-v01/source-verification.json",
+      "sha256": "bc73740e5b8068c8ab7cbf95e40d47fabeda46f655c1297dfad199c8a3d2267c",
+      "bytes": 3096
+    },
+    {
+      "source": "generated/storyboard/escape-approach-motion-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/escape-approach-motion-v01/timing-check.json",
+      "sha256": "cfea951db29696e611f4e2da44ac80dde9328f305f498ce4f1eff385db1022a5",
+      "bytes": 1441
+    },
+    {
+      "source": "generated/storyboard/escape-approach-v01/generation-input.json",
+      "backup": "checkpoint/storyboard/escape-approach-v01/generation-input.json",
+      "sha256": "64cb80c7cd0c7fab4fb1a58999f4dd4e0f631dae60472fe12b8e52f1271e9db1",
+      "bytes": 4478
+    },
+    {
+      "source": "generated/storyboard/escape-approach-v01/lab2-08.prompt.txt",
+      "backup": "checkpoint/storyboard/escape-approach-v01/lab2-08.prompt.txt",
+      "sha256": "ec923d39175f9cde1b74eeb99118bcb5aa353501e87fc1d7e97bcb057af7ff6c",
+      "bytes": 3141
+    },
+    {
+      "source": "generated/storyboard/escape-approach-v01/prepare.py",
+      "backup": "checkpoint/storyboard/escape-approach-v01/prepare.py",
+      "sha256": "9659bc45367f529d30d40b792930b6eb7beec03e9a36ced3fa1ab137d7f45949",
+      "bytes": 3991
+    },
+    {
+      "source": "generated/storyboard/escape-approach-v01/prepare_motion_handoff.py",
+      "backup": "checkpoint/storyboard/escape-approach-v01/prepare_motion_handoff.py",
+      "sha256": "30822a1b1a8df8980d8efe47d542d0685b92f0fbe482d82f5238783e4cee452a",
+      "bytes": 3088
+    },
+    {
+      "source": "generated/storyboard/escape-approach-v01/register.py",
+      "backup": "checkpoint/storyboard/escape-approach-v01/register.py",
+      "sha256": "d894c7095423ed4a5db9897b74d0ace99a7b7e833d3f7a44a031741398a071dd",
+      "bytes": 10486
+    },
+    {
+      "source": "generated/storyboard/escape-approach-v01/register_motion.py",
+      "backup": "checkpoint/storyboard/escape-approach-v01/register_motion.py",
+      "sha256": "58925c0130cb5b70361fb9d85b4c773f3052ad9dca267382c024fa80a1a36d25",
+      "bytes": 4568
+    },
+    {
+      "source": "generated/storyboard/escape-approach-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/escape-approach-v01/review-manifest.json",
+      "sha256": "eebef123945714c8845baf8997a6a7dcd9ae19cbfed3ff80d5fa92aee59ceaa2",
+      "bytes": 462
+    },
+    {
+      "source": "generated/storyboard/escape-approach-v01/review-options.json",
+      "backup": "checkpoint/storyboard/escape-approach-v01/review-options.json",
+      "sha256": "02a67c8cc9675819b692fec10d4b406f23f3c37dc9110636118bc1efdee8576f",
+      "bytes": 126
+    },
+    {
+      "source": "generated/storyboard/escape-approach-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/escape-approach-v01/timing-check.json",
+      "sha256": "4a8515ec5a7929b728b50a39a810bdb051e6db38fade4a4659b342b5af575b41",
+      "bytes": 1443
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-motion-v01/source-verification.json",
+      "backup": "checkpoint/storyboard/escape-ejection-motion-v01/source-verification.json",
+      "sha256": "82a1724653b1c283a1e586164e9adaf951bb52e0ad28ff46f0f9ba0a0967a41d",
+      "bytes": 6409
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-motion-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/escape-ejection-motion-v01/timing-check.json",
+      "sha256": "e8f1aec44ad6601f0fb5cf501e3099c5e28081836eb0562bd097cc205cda6e20",
+      "bytes": 1734
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-motion-v01/verification.json",
+      "backup": "checkpoint/storyboard/escape-ejection-motion-v01/verification.json",
+      "sha256": "9a544105aa36574566d8b18fe465e022fd65833f09a8f89649e267d7b920610f",
+      "bytes": 513
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/check_durations.py",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/check_durations.py",
+      "sha256": "69d3dc84771678942aed69e89c28ed2897e06cabee83be5bd501adf25e015c2e",
+      "bytes": 817
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/escape-001.prompt.txt",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/escape-001.prompt.txt",
+      "sha256": "c2477077fc192c3e87fdec3fbd038b91bb38b74105e3716cd552a1ba955ee925",
+      "bytes": 3879
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/escape-002-first-draft.actual-generation.json",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/escape-002-first-draft.actual-generation.json",
+      "sha256": "28503d9d0089fe583ae1766b971ac6fa7c5fbdd32244d16c345aad58eca9b16e",
+      "bytes": 5274
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/escape-002.actual-generation.json",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/escape-002.actual-generation.json",
+      "sha256": "409220b85438c7026bda313f43f94b9a04cd13c73672698544cc386b02656331",
+      "bytes": 6277
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/escape-002.prompt.txt",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/escape-002.prompt.txt",
+      "sha256": "0dd9cf9242c6ece5abe9fa2c8bf78cf1c6b7d5ed9bf0028a9c3ee46615bed594",
+      "bytes": 4250
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/finish.py",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/finish.py",
+      "sha256": "2e5e5d359c7f8a838a4dfc381dfddb6f9e440d3a5d37971a79e1d9b83dbc6dec",
+      "bytes": 3206
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/finish_motion.py",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/finish_motion.py",
+      "sha256": "100e4eb11f59069dc6b4e2578fb1c86bd4366a6fea7541c663e83d96831a083d",
+      "bytes": 3106
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/generation-input.json",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/generation-input.json",
+      "sha256": "b2b7ffba376a3dfe149f5fb97c6c64766c78126896051c7336e8c914bfff39bc",
+      "bytes": 12185
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/prepare.py",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/prepare.py",
+      "sha256": "08dac33d7e894d8bd91a9a3075b2f2645818606b3f84ec615988abb85c23a6f3",
+      "bytes": 8074
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/register.py",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/register.py",
+      "sha256": "c53e00cb548ee65f5447b140155a2f4af956e2d94aa7995635184a45ef13562c",
+      "bytes": 11858
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/register_motion.py",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/register_motion.py",
+      "sha256": "fab3ebf418adf369cb54c9e87271cca78067d703e04fbb6175f15c4046e09664",
+      "bytes": 6285
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/review-manifest.json",
+      "sha256": "2f32ad489519b4ff06a1825bafd9366cabb550f11e49e10117d6d5056f1b8e61",
+      "bytes": 433
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/review-options.json",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/review-options.json",
+      "sha256": "72ad4909eb10d9a3033e372175733874fb8dfd16413d731c53ef7cbde04ee0ec",
+      "bytes": 154
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/sample_motion.py",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/sample_motion.py",
+      "sha256": "e4398d7c448dddb77de35f8407717ff4461ad986464edd339aa499b5b3f2e1fa",
+      "bytes": 1516
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/timing-check.json",
+      "sha256": "c7fdc74a2743c5b1ca7955dddff5f18450bd37450a1302068ef8ea596bd1f6ce",
+      "bytes": 1738
+    },
+    {
+      "source": "generated/storyboard/escape-ejection-v01/verification.json",
+      "backup": "checkpoint/storyboard/escape-ejection-v01/verification.json",
+      "sha256": "faf7780b6b32b39f7c36f8bfa4f67c61506cdb4876b0ec8b4606596aafda845c",
+      "bytes": 499
+    },
+    {
+      "source": "generated/storyboard/hologram-overlay-v01/check_projection.py",
+      "backup": "checkpoint/storyboard/hologram-overlay-v01/check_projection.py",
+      "sha256": "680925215acef81e075a01ca8c75d0903045df47f728a4aab5407a35792a38a3",
+      "bytes": 1127
+    },
+    {
+      "source": "generated/storyboard/hologram-overlay-v01/inspect_blender.py",
+      "backup": "checkpoint/storyboard/hologram-overlay-v01/inspect_blender.py",
+      "sha256": "b7ec0d28a84ae8fd12ec264f12357ebb3e4a521fcca71eded82f5add6e143180",
+      "bytes": 500
+    },
+    {
+      "source": "generated/storyboard/hologram-overlay-v02/check_scene.py",
+      "backup": "checkpoint/storyboard/hologram-overlay-v02/check_scene.py",
+      "sha256": "7f6684965d413a9fa99d45068fc72e1a67a0139a67b56f7613f09e56fe2d18cf",
+      "bytes": 1765
+    },
+    {
+      "source": "generated/storyboard/hologram-overlay-v03/check-scene.py",
+      "backup": "checkpoint/storyboard/hologram-overlay-v03/check-scene.py",
+      "sha256": "c843d5ccbdbe1354a88189e2a47281434a0667084a5affe910d478af94440d3c",
+      "bytes": 2431
+    },
+    {
+      "source": "generated/storyboard/lab-motion-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/lab-motion-v01/timing-check.json",
+      "sha256": "a6041fecd256c55e33dacddd5c95b5daaa9e59dedf434645f51cd80ea134cfd8",
+      "bytes": 1451
+    },
+    {
+      "source": "generated/storyboard/lab-robot-cutaway-v01/lab2-03.prompt.json",
+      "backup": "checkpoint/storyboard/lab-robot-cutaway-v01/lab2-03.prompt.json",
+      "sha256": "c034b14f1c0e69692bf342b0657d111350d9bbd4db959cfb2bae6c84f36fcdde",
+      "bytes": 4076
+    },
+    {
+      "source": "generated/storyboard/lab-robot-cutaway-v01/lab2-03.prompt.txt",
+      "backup": "checkpoint/storyboard/lab-robot-cutaway-v01/lab2-03.prompt.txt",
+      "sha256": "15c44af169ae1c7cc44f431748230594500e23b35ecae07516302fa9261563ef",
+      "bytes": 3867
+    },
+    {
+      "source": "generated/storyboard/lab-robot-cutaway-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/lab-robot-cutaway-v01/timing-check.json",
+      "sha256": "8de6f9b1237ffb78bec7ae40ec8cd05aed2e3e93226503923c98f7084e4b9abe",
+      "bytes": 1443
+    },
+    {
+      "source": "generated/storyboard/lab-robot-cutaway-v01/verification.json",
+      "backup": "checkpoint/storyboard/lab-robot-cutaway-v01/verification.json",
+      "sha256": "2195847000f3a19b4b7c6df96d53981a8a839da60245a1a052c01cc5bd5cadc3",
+      "bytes": 525
+    },
+    {
+      "source": "generated/storyboard/lab-robot-motion-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/lab-robot-motion-v01/timing-check.json",
+      "sha256": "cfea951db29696e611f4e2da44ac80dde9328f305f498ce4f1eff385db1022a5",
+      "bytes": 1441
+    },
+    {
+      "source": "generated/storyboard/lab-robot-motion-v01/verification.json",
+      "backup": "checkpoint/storyboard/lab-robot-motion-v01/verification.json",
+      "sha256": "3a7c1c89ffcb657f4ab9def2ccedeededee6bbb8db20d24b93df5a451aec364a",
+      "bytes": 468
+    },
+    {
+      "source": "generated/storyboard/lab-silver-motion-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/lab-silver-motion-v01/timing-check.json",
+      "sha256": "cfea951db29696e611f4e2da44ac80dde9328f305f498ce4f1eff385db1022a5",
+      "bytes": 1441
+    },
+    {
+      "source": "generated/storyboard/lab-silver-motion-v01/verification.json",
+      "backup": "checkpoint/storyboard/lab-silver-motion-v01/verification.json",
+      "sha256": "fcc99aeb6bbf01239680c79cedebaee8de623c4851dd3b40c5a8113251ea0d37",
+      "bytes": 402
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/05.prompt.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/05.prompt.json",
+      "sha256": "5d64cf5294bd85d4fcbc4d6490bd28becf79f977ec95e585604f3ec22c16620b",
+      "bytes": 2933
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/failed-03.prompt.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/failed-03.prompt.json",
+      "sha256": "82cf5d7163be96a99c02f44b626538183b56a99aa3f36dc7ff2a75f8c70abb59",
+      "bytes": 3090
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/failed-04.prompt.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/failed-04.prompt.json",
+      "sha256": "7daf08ea4bb5fbe16b42160ef056f5d71f11941189b345a4b64bcd040004d31b",
+      "bytes": 3081
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/lab2-01.prompt.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/lab2-01.prompt.json",
+      "sha256": "6b58202c1453bfc3ae390ed31c2919184188d3eadb41a80fb7b6db0798bf1bf7",
+      "bytes": 2932
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/lab2-01.rejected-edit.prompt.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/lab2-01.rejected-edit.prompt.json",
+      "sha256": "ab1a8557707234291d1aae0d9cbe0d7d3f940388a45ab984eb275045f7980b0e",
+      "bytes": 3608
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/lab2-02.prompt.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/lab2-02.prompt.json",
+      "sha256": "f4871d7ecba684fe8f4f0b7e00dbb98aceb4e9b333e88e15db6ede88d4823632",
+      "bytes": 3282
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/lab2-03.prompt.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/lab2-03.prompt.json",
+      "sha256": "b0854b675c80cfadda82a179c6b641072cd6cdeecca00d53b75eb55040e51e24",
+      "bytes": 3068
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/lab2-04.prompt.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/lab2-04.prompt.json",
+      "sha256": "4de54f52ade0de79f4fa1c82b374354209c727cc9944d490f3b4627e6c6cae24",
+      "bytes": 3186
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/lab2-05.prompt.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/lab2-05.prompt.json",
+      "sha256": "5d64cf5294bd85d4fcbc4d6490bd28becf79f977ec95e585604f3ec22c16620b",
+      "bytes": 2933
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/review-manifest.json",
+      "sha256": "ed9ad772c9e47ba01d2488a07306cccf9e9d9c320fbee6f1ab6ed92491f87646",
+      "bytes": 16075
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/timing-check.json",
+      "sha256": "a6041fecd256c55e33dacddd5c95b5daaa9e59dedf434645f51cd80ea134cfd8",
+      "bytes": 1451
+    },
+    {
+      "source": "generated/storyboard/lab-silver-v01/verification.json",
+      "backup": "checkpoint/storyboard/lab-silver-v01/verification.json",
+      "sha256": "fe259bf8fe958e83e0ae4f8b8d50046852b8a9f6c6dc2ea2403dd1f3bec1e874",
+      "bytes": 373
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v01/lab2-01.prompt.json",
+      "backup": "checkpoint/storyboard/lab-verse-v01/lab2-01.prompt.json",
+      "sha256": "50892f90949e1aa000f67e26722e0b34cccd6e4830f5dc63b83df066c82206a5",
+      "bytes": 3289
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v01/lab2-03.prompt.json",
+      "backup": "checkpoint/storyboard/lab-verse-v01/lab2-03.prompt.json",
+      "sha256": "5c3589b873870d056e8052849da95cc53a4ddd6ea1bb4abffff1a6ae45fb3ca7",
+      "bytes": 4145
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/lab-verse-v01/review-manifest.json",
+      "sha256": "7fb74db0de51f7e5e001b53a27c14bec9442c5d6d87520b14f2411938aa18ee5",
+      "bytes": 28880
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/lab-verse-v01/timing-check.json",
+      "sha256": "0362c6b5f58fdf2db2c96867960af74ce27860ffd12f8cde006bc29055f8f601",
+      "bytes": 1459
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v01/verification.json",
+      "backup": "checkpoint/storyboard/lab-verse-v01/verification.json",
+      "sha256": "48824d6528f33fba4bcfd6a4357688f349edf276452a112a46c889cd3162ccd8",
+      "bytes": 381
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v02/lab2-01.prompt.json",
+      "backup": "checkpoint/storyboard/lab-verse-v02/lab2-01.prompt.json",
+      "sha256": "50892f90949e1aa000f67e26722e0b34cccd6e4830f5dc63b83df066c82206a5",
+      "bytes": 3289
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v02/lab2-03.prompt.json",
+      "backup": "checkpoint/storyboard/lab-verse-v02/lab2-03.prompt.json",
+      "sha256": "2455f726ede61e7321c2665d7ae39df4d9dfc7551abace798d8d21c913f01052",
+      "bytes": 4399
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v02/lab2-04.prompt.json",
+      "backup": "checkpoint/storyboard/lab-verse-v02/lab2-04.prompt.json",
+      "sha256": "a2ac6a1eba868e85f833eaa67df2341f87ac6e44f3194871e06e3881f14ca740",
+      "bytes": 4443
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v02/review-manifest.json",
+      "backup": "checkpoint/storyboard/lab-verse-v02/review-manifest.json",
+      "sha256": "47115a8d9f781cac75b29e1c7a320b39bb6f0e26b702930830ab589025f2b890",
+      "bytes": 30149
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v02/timing-check.json",
+      "backup": "checkpoint/storyboard/lab-verse-v02/timing-check.json",
+      "sha256": "0362c6b5f58fdf2db2c96867960af74ce27860ffd12f8cde006bc29055f8f601",
+      "bytes": 1459
+    },
+    {
+      "source": "generated/storyboard/lab-verse-v02/verification.json",
+      "backup": "checkpoint/storyboard/lab-verse-v02/verification.json",
+      "sha256": "48824d6528f33fba4bcfd6a4357688f349edf276452a112a46c889cd3162ccd8",
+      "bytes": 381
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-motion-v01/source-verification.json",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-motion-v01/source-verification.json",
+      "sha256": "c21a11a6ccedc153662fe6455b5b5f9b4b91574d114bd691298136e6c34a4b21",
+      "bytes": 3015
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-motion-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-motion-v01/timing-check.json",
+      "sha256": "cfea951db29696e611f4e2da44ac80dde9328f305f498ce4f1eff385db1022a5",
+      "bytes": 1441
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v01/generation-input.json",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v01/generation-input.json",
+      "sha256": "247a69a67a5770e60a6378b5fa95de934ff56ce8e923ed77968e48081ae58e58",
+      "bytes": 3968
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v01/lab2-08.prompt.txt",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v01/lab2-08.prompt.txt",
+      "sha256": "c4e42bae021db5988720b9fe3db03ddad7c2f146e0d00a926645df2b8a78a612",
+      "bytes": 2910
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v01/prepare.py",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v01/prepare.py",
+      "sha256": "df8a22d168ad6f2656c4b624ae7f2f056ce59529f76550ce5542cace613424b3",
+      "bytes": 3046
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v01/record_submission.py",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v01/record_submission.py",
+      "sha256": "f42a33680e3a520df186cf9337144f7322b74d9982487287f1f515617c63cd51",
+      "bytes": 1372
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v01/register.py",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v01/register.py",
+      "sha256": "ec8ea490ec13105c05e6ca1d6ac693f72faf8b154d4ea89a943808cdd1ed61f4",
+      "bytes": 8748
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v01/register_motion.py",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v01/register_motion.py",
+      "sha256": "ae7322a22c9f96d2bf127eb30172314ad2e70193db269645b50be07c965ee95d",
+      "bytes": 4374
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v01/review-manifest.json",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v01/review-manifest.json",
+      "sha256": "5bf7725a28b2790c357e0c1dd2073851f989f1fb9efaa2ec7f5e9e6d1b0aa045",
+      "bytes": 707
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v01/review-options.json",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v01/review-options.json",
+      "sha256": "f369795b43d8bdbe6193942ea798d49c264cf47182d9c6d35d5044197880a8ba",
+      "bytes": 250
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v01/timing-check.json",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v01/timing-check.json",
+      "sha256": "4a8515ec5a7929b728b50a39a810bdb051e6db38fade4a4659b342b5af575b41",
+      "bytes": 1443
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v02/generation-input.json",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v02/generation-input.json",
+      "sha256": "0f131b899a431bd5cb9a6fe74a6cd88d990fe0901730787c4a7cbcacafe060c3",
+      "bytes": 3885
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v02/lab2-08.prompt.txt",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v02/lab2-08.prompt.txt",
+      "sha256": "f68460dedf62ce08ce7e3ba5f23131108390dc5b9d0ca9d1cf0fc69c0faa4f05",
+      "bytes": 3100
+    },
+    {
+      "source": "generated/storyboard/robot-ship-so-bright-v02/prepare.py",
+      "backup": "checkpoint/storyboard/robot-ship-so-bright-v02/prepare.py",
+      "sha256": "8ff3bc7792362f7c1535baef31fe0c922ad50dcb30afb725a4d30e9190a7a84b",
+      "bytes": 3289
+    },
+    {
+      "source": "generated/storyboard/schematic-fade-v01/verification.json",
+      "backup": "checkpoint/storyboard/schematic-fade-v01/verification.json",
+      "sha256": "ba35a6f4c4f0daeed1eeab75ea0cbde9714ea980f7af326c5ee566101220c0e9",
+      "bytes": 772
+    },
+    {
+      "source": "generated/timeline.compiled.json",
+      "backup": "checkpoint/timeline.compiled.json",
+      "sha256": "94d3dc742529b9c23443eb05e9f97f7823afa0bc372eb167849b9e57d02e1093",
+      "bytes": 370911
+    },
+    {
+      "source": "generated/transcription/align_zoom_nine.py",
+      "backup": "checkpoint/transcription/align_zoom_nine.py",
+      "sha256": "03272605c78422d3f19fca8c3de1f837b033dc1e206e623e15881bbda1e0d7a7",
+      "bytes": 1258
+    },
+    {
+      "source": "generated/transcription/apply_zoom_nine.py",
+      "backup": "checkpoint/transcription/apply_zoom_nine.py",
+      "sha256": "181d94751fbe5528b8abb6979a218688627fd81833c88336c7f9008e6fe961b6",
+      "bytes": 3589
     },
     {
       "source": "generated/transcription/audio.whisper.raw.json",
       "backup": "checkpoint/transcription/audio.whisper.raw.json",
       "sha256": "83c0d9ff938be65d41e40e0e2f56a2a037c6922f88a8121148e43f14245be1b7",
       "bytes": 62682
+    },
+    {
+      "source": "generated/transcription/check_zoom.py",
+      "backup": "checkpoint/transcription/check_zoom.py",
+      "sha256": "05cd00c6a0c72933e2da0e49c602f0824a4f935624b35b945653d17f3b7132d8",
+      "bytes": 1257
     },
     {
       "source": "generated/transcription/lead.whisper.raw.json",
@@ -73,6 +1597,42 @@
       "backup": "checkpoint/transcription/leadRenaissance.whisper.raw.json",
       "sha256": "9b32b2ae8e06db2802529b899290ee12c174928638d1412a3e2c2f35d67bb55b",
       "bytes": 81655
+    },
+    {
+      "source": "generated/transcription/make_performed_reference.py",
+      "backup": "checkpoint/transcription/make_performed_reference.py",
+      "sha256": "d9bfaca71534cae0335cac3eeee5d55a116a2cf304ca35dfc5cb1346c8a63a53",
+      "bytes": 1071
+    },
+    {
+      "source": "generated/transcription/make_zoom_clicks.py",
+      "backup": "checkpoint/transcription/make_zoom_clicks.py",
+      "sha256": "c5ab59c68d9282e6af9d2e89eb4696b05bbf4c70925d68dec6546de1ff7989e5",
+      "bytes": 1137
+    },
+    {
+      "source": "generated/transcription/measure_zoom_cues.py",
+      "backup": "checkpoint/transcription/measure_zoom_cues.py",
+      "sha256": "77c8fbffa7a2ea7a11b8a3ef2a840069667cce259c76aaf60454edc8bcd42010",
+      "bytes": 2821
+    },
+    {
+      "source": "generated/transcription/plot_zoom.py",
+      "backup": "checkpoint/transcription/plot_zoom.py",
+      "sha256": "7a3e41ec51051fd9782aa5f4616fa6ce4595b2de0e70c6244fb6f08ec9096aba",
+      "bytes": 1209
+    },
+    {
+      "source": "generated/transcription/plot_zoom_energy.py",
+      "backup": "checkpoint/transcription/plot_zoom_energy.py",
+      "sha256": "33510603ab1c31f6a98a611b8b4d604d7d09a68146f5dd3552ea4c299c5477a4",
+      "bytes": 1758
+    },
+    {
+      "source": "generated/transcription/zoom-nine.alignment.json",
+      "backup": "checkpoint/transcription/zoom-nine.alignment.json",
+      "sha256": "5050e3cea95eea201e75c4ef92f305598795b33e72800ec804f15a9ecc1bd4ce",
+      "bytes": 6936
     }
   ]
 }

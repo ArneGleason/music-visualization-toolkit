@@ -1,6 +1,7 @@
 """Merge a note-driven storyboard batch into a project's authoritative shotlist."""
 import json
 import pathlib
+import copy
 
 from timeline import MusicalGrid
 
@@ -27,22 +28,44 @@ def plan(project_file, batch_file, merge):
     grid = MusicalGrid(json.loads((base/project['timing']['beatmap']).read_text(encoding='utf-8')))
     preview = json.loads((base/'generated/animatic/animatic-data.json').read_text(encoding='utf-8'))
     end_phrase = next(p for p in preview['phrases'] if p['id']==spec['endPhrase'])
-    starts = [frame_anchor(by_id[s['noteId']], 'start_frame', 'start', fps) for s in spec['shots']]
+    phrases = {p['id']:p for p in preview['phrases']}
+    starts = [frame_anchor(phrases[s['startPhrase']], 'startFrame', 'start', fps)
+              if s.get('startPhrase') else
+              frame_anchor(by_id[s['noteId']], 'start_frame', 'start', fps)
+              for s in spec['shots']]
     if starts != sorted(set(starts)):
         raise ValueError('Batch notes need distinct ascending anchors')
     edges = starts+[frame_anchor(end_phrase, 'startFrame', 'start', fps)]
     register_key = 'storyboardProposals' if spec.get('proposal') else 'shots'
     previous = {s['id']:s for s in doc.get(register_key, [])}
+    for sid in spec.get('supersedes', []):
+        if sid in previous:
+            retired = previous.pop(sid)
+            retired['supersededByBatch'] = spec['id']
+            doc.setdefault('supersededStoryboardProposals', []).append(retired)
     for i, blocking in enumerate(spec['shots']):
         a,b = edges[i:i+2]
         if b<=a:
             raise ValueError('Shot has no frames')
-        note = by_id[blocking['noteId']]
+        note = by_id.get(blocking.get('noteId'))
+        if note is None and not blocking.get('sourceDirection'):
+            raise ValueError('A phrase-anchored shot needs its authored source direction')
         shot = dict(previous.get(blocking['id'], {}))
+        if blocking.get('replaceCreative') and shot and shot.get('batch') != spec['id']:
+            shot.setdefault('directionHistory', []).append({
+                'supersededByBatch':spec['id'],
+                **{k:copy.deepcopy(shot[k]) for k in
+                   ('title','description','blocking','generationApproach','editGroup',
+                    'startFrame','endFrameExclusive') if k in shot}})
         for key in ('title','description'):
-            shot.setdefault(key, blocking[key])
+            if blocking.get('replaceCreative'):
+                shot[key] = blocking[key]
+            else:
+                shot.setdefault(key, blocking[key])
         shot.update(id=blocking['id'], batch=spec['id'], type='storyboard',
-                    sourceNoteId=note['id'], sourceNoteText=note['text'], sourceNotesRevision=notes['revision'],
+                    sourceNoteId=note['id'] if note else None,
+                    sourceNoteText=note['text'] if note else None,
+                    sourceNotesRevision=notes['revision'] if note else None,
                     start=str(grid.position((a-1)/fps)), end=str(grid.position((b-1)/fps)),
                     startFrame=a, endFrameExclusive=b, frames=b-a,
                     startSeconds=(a-1)/fps, endSeconds=(b-1)/fps,
@@ -53,6 +76,9 @@ def plan(project_file, batch_file, merge):
                              'sourceStartFrame':a-spec['handlesFrames'],
                              'sourceEndFrameExclusive':b+spec['handlesFrames']},
                     blocking=blocking, status=shot.get('status','Blender composition draft; review before image generation'))
+        if blocking.get('sourceDirection'):
+            shot['sourceDirection'] = blocking['sourceDirection']
+            shot['directionSource'] = 'User conversation; phrase anchors from existing timing grid'
         for key in ('promptLock', 'generationApproach', 'continuity', 'editGroup', 'lyrics'):
             if key in blocking:
                 shot[key] = blocking[key]

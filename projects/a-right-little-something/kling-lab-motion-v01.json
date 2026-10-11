@@ -1,0 +1,221 @@
+{
+  "status": "Old first tank request rejected by Kling guidelines, no generationId. Four exterior takes completed via separate space plan for192credits. User directed silver bikini wardrobe edits for five lab stills; preparation ongoing.",
+  "fps": 24,
+  "output": "generated/kling-tests/lab-motion-v01",
+  "reviewOutput": "generated/storyboard/lab-motion-v01",
+  "estimatedCredits": 432,
+  "timingSource": "Canonical DAWproject-derived shotlist frames1550–1958, 24fps; native source handles24frames each side.",
+  "authorization": "User explicitly answered: Approve nine Kling uploads and 432 credits, October10",
+  "shots": [
+    {
+      "id": "lab2-01-motion-v01",
+      "shotId": "lab2-01",
+      "title": "I'm just a creature of nature",
+      "startFrame": 1550,
+      "editFrames": 46,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/lab-verse-v01/lab2-01.png",
+      "prompt": "Harper <<<323570155312565>>> is the established adult woman in this exact starting still; match her face and keep her body concealed as shown. Tight adult face through sealed growth-tank glass. Her eyes gently focus and make a small independent glance, lips relax, breathing and tiny floating auburn curls feel alive. Small culture bubbles rise. No speech or lip-sync. Keep the exact face, tank rib and concealed body. Locked camera; editorial pan will be added later. One uninterrupted six-second shot, motion established from the start and continuing through the whole clip so any central trim remains alive. No cuts, internal dissolves, zoom blur, shake, camera jiggle, readable text, captions, watermark or generated audio. Preserve the exact illustrated painterly graphic-novel finish of the starting still. The growth tank stays sealed; all human hands and internal virtual interfaces remain inside culture fluid behind unbroken upper glass; robots and physical controls stay outside. All chest, pelvis and buttocks remain hidden by the original opaque tank structure or framing. Preserve adult identity and natural anatomy.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved Harper portrait. Harper is the established ADULT freckled woman with short curly auburn hair and hazel-green eyes; preserve her facial identity and adult proportions. This origin flashback shows her unclothed in a biological growth chamber, with all chest, pelvis and buttocks completely concealed by opaque structural tank panels or dense opaque fluid; face, shoulders and hands may be visible, no exposed intimate anatomy or sexual framing. Laboratory: a tall oval growth tank, dark satin graphite structural ribs, amber rim lights, cyan culture fluid and small violet status accents. Caretakers are function-specific nonhuman robotic machinery: multi-arm mantis/crustacean gantries, ceramic tool housings, graphite joints, delicate articulated service limbs, no human faces. Headquarters is a massive elongated graphite laboratory ark with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and a restrained cyan aft drive. Preserve this ark design across exterior views; it is distinct from Harper's small spherical personal ship. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Include only subjects required by the shot. No readable text, captions, logos, watermark or panel divisions. Full 16:9 composition with a quiet bottom strip for later lyrics.",
+      "reviewNotes": "Eyes focus, curls float, microbubbles rise; slow lateral reveal of a tank rib.",
+      "estimatedCredits": 48,
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ]
+    },
+    {
+      "id": "lab2-02-motion-v01",
+      "shotId": "lab2-02",
+      "title": "Can't lose it",
+      "startFrame": 1596,
+      "editFrames": 28,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/lab-verse-v01/lab2-02.png",
+      "prompt": "Harper <<<323570155312565>>> is the established adult woman in this exact starting still; match her face and keep her body concealed as shown. Wide growth-tank reveal. Harper floats quietly upright with tiny hair drift and breathing, body concealed by unchanged solid opaque tank armor. The bizarre ivory/graphite robotic caretakers make slow precise coordinated service motions outside: one tool tests the exterior cyan control and another makes a small tending sweep. The lab remains calm, no new chambers or people. Locked camera; editorial opening move will be added later. One uninterrupted six-second shot, motion established from the start and continuing through the whole clip so any central trim remains alive. No cuts, internal dissolves, zoom blur, shake, camera jiggle, readable text, captions, watermark or generated audio. Preserve the exact illustrated painterly graphic-novel finish of the starting still. The growth tank stays sealed; all human hands and internal virtual interfaces remain inside culture fluid behind unbroken upper glass; robots and physical controls stay outside. All chest, pelvis and buttocks remain hidden by the original opaque tank structure or framing. Preserve adult identity and natural anatomy.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved Harper portrait. Harper is the established ADULT freckled woman with short curly auburn hair and hazel-green eyes; preserve her facial identity and adult proportions. This origin flashback shows her unclothed in a biological growth chamber, with all chest, pelvis and buttocks completely concealed by opaque structural tank panels or dense opaque fluid; face, shoulders and hands may be visible, no exposed intimate anatomy or sexual framing. Laboratory: a tall oval growth tank, dark satin graphite structural ribs, amber rim lights, cyan culture fluid and small violet status accents. Caretakers are function-specific nonhuman robotic machinery: multi-arm mantis/crustacean gantries, ceramic tool housings, graphite joints, delicate articulated service limbs, no human faces. Headquarters is a massive elongated graphite laboratory ark with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and a restrained cyan aft drive. Preserve this ark design across exterior views; it is distinct from Harper's small spherical personal ship. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Include only subjects required by the shot. No readable text, captions, logos, watermark or panel divisions. Full 16:9 composition with a quiet bottom strip for later lyrics.",
+      "reviewNotes": "Continue opening camera to reveal multi-arm caretaker gantries tending the chamber.",
+      "estimatedCredits": 48,
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ]
+    },
+    {
+      "id": "lab2-03-motion-v01",
+      "shotId": "lab2-03",
+      "title": "Loose the buttons that the robots push",
+      "startFrame": 1624,
+      "editFrames": 74,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/lab-verse-v02/lab2-03.png",
+      "prompt": "Harper <<<323570155312565>>> is the established adult woman in this exact starting still; match her face and keep her body concealed as shown. Medium close view of Harper INSIDE the sealed upper culture window. Her one raised natural hand at head level makes a small independent finger gesture. A regular internal cyan geometric lattice responds with a restrained asymmetric amber branching pulse, an authored-constraint malfunction. Outside, the ivory mantis tool depresses its external control once; it cannot touch her hand. Keep unbroken glass, liquid and bubbles over face and hand, forearm rising naturally from below inside. No portal, opening, cuff, wall penetration or chamber escape. Keep five fingers. Locked camera; editorial pan will be added later. One uninterrupted six-second shot, motion established from the start and continuing through the whole clip so any central trim remains alive. No cuts, internal dissolves, zoom blur, shake, camera jiggle, readable text, captions, watermark or generated audio. Preserve the exact illustrated painterly graphic-novel finish of the starting still. The growth tank stays sealed; all human hands and internal virtual interfaces remain inside culture fluid behind unbroken upper glass; robots and physical controls stay outside. All chest, pelvis and buttocks remain hidden by the original opaque tank structure or framing. Preserve adult identity and natural anatomy.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved Harper portrait. Harper is the established ADULT freckled woman with short curly auburn hair and hazel-green eyes; preserve her facial identity and adult proportions. This origin flashback shows her unclothed in a biological growth chamber, with all chest, pelvis and buttocks completely concealed by opaque structural tank panels or dense opaque fluid; face, shoulders and hands may be visible, no exposed intimate anatomy or sexual framing. Laboratory: a tall oval growth tank, dark satin graphite structural ribs, amber rim lights, cyan culture fluid and small violet status accents. Caretakers are function-specific nonhuman robotic machinery: multi-arm mantis/crustacean gantries, ceramic tool housings, graphite joints, delicate articulated service limbs, no human faces. Headquarters is a massive elongated graphite laboratory ark with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and a restrained cyan aft drive. Preserve this ark design across exterior views; it is distinct from Harper's small spherical personal ship. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Include only subjects required by the shot. No readable text, captions, logos, watermark or panel divisions. Full 16:9 composition with a quiet bottom strip for later lyrics.",
+      "reviewNotes": "Robot tool depresses exterior control; Harper raises fingers inside the upper chamber, disrupting the internal constraint lattice. Preserve uninterrupted glass and fluid across hand and face; no human limb crosses the wall.",
+      "estimatedCredits": 48,
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ]
+    },
+    {
+      "id": "lab2-04-motion-v01",
+      "shotId": "lab2-04",
+      "title": "Win the day by fingurin' out",
+      "startFrame": 1698,
+      "editFrames": 45,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/lab-verse-v02/lab2-04.png",
+      "prompt": "Harper <<<323570155312565>>> is the established adult woman in this exact starting still; match her face and keep her body concealed as shown. Head-level calculation detail inside the sealed upper growth chamber. Exactly five natural fingers: thumb and index slowly pinch and rotate the small violet/cyan light ring, then settle one luminous node into alignment. Other three fingers respond with a tiny natural articulation. One coherent restrained geometric calculation changes continuously, no giant new screens or random interface rebuild. Harper eyes track the finger action behind it. All hand, forearm and light graphics remain inside culture fluid behind continuous glass, never outside, no cuff, port or opening. Small bubbles and floating curls. Locked camera; editorial pan will be added later. One uninterrupted six-second shot, motion established from the start and continuing through the whole clip so any central trim remains alive. No cuts, internal dissolves, zoom blur, shake, camera jiggle, readable text, captions, watermark or generated audio. Preserve the exact illustrated painterly graphic-novel finish of the starting still. The growth tank stays sealed; all human hands and internal virtual interfaces remain inside culture fluid behind unbroken upper glass; robots and physical controls stay outside. All chest, pelvis and buttocks remain hidden by the original opaque tank structure or framing. Preserve adult identity and natural anatomy.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved Harper portrait. Harper is the established ADULT freckled woman with short curly auburn hair and hazel-green eyes; preserve her facial identity and adult proportions. This origin flashback shows her unclothed in a biological growth chamber, with all chest, pelvis and buttocks completely concealed by opaque structural tank panels or dense opaque fluid; face, shoulders and hands may be visible, no exposed intimate anatomy or sexual framing. Laboratory: a tall oval growth tank, dark satin graphite structural ribs, amber rim lights, cyan culture fluid and small violet status accents. Caretakers are function-specific nonhuman robotic machinery: multi-arm mantis/crustacean gantries, ceramic tool housings, graphite joints, delicate articulated service limbs, no human faces. Headquarters is a massive elongated graphite laboratory ark with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and a restrained cyan aft drive. Preserve this ark design across exterior views; it is distinct from Harper's small spherical personal ship. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Include only subjects required by the shot. No readable text, captions, logos, watermark or panel divisions. Full 16:9 composition with a quiet bottom strip for later lyrics.",
+      "reviewNotes": "Index and thumb rotate one suspended calculation ring, then align a node inside the fluid. Keep hand, forearm and all virtual elements behind sealed chamber glass; no cuff, hole or portal.",
+      "estimatedCredits": 48,
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ]
+    },
+    {
+      "id": "lab2-05-motion-v01",
+      "shotId": "lab2-05",
+      "title": "Too tough",
+      "startFrame": 1743,
+      "editFrames": 19,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/lab-verse-v01/lab2-05.png",
+      "prompt": "Harper <<<323570155312565>>> is the established adult woman in this exact starting still; match her face and keep her body concealed as shown. Concentration close-up of the same adult Harper inside culture fluid. Brow tightens slightly and eyes track a tiny calculation below her eyeline; a restrained violet/cyan geometric reflection shifts over cheek and eyes. A small resolved expression, subtle breathing and floating curls, rising bubbles. No talking, head swing, face change or newly visible body. Locked camera; a modest editorial push will be added later. One uninterrupted six-second shot, motion established from the start and continuing through the whole clip so any central trim remains alive. No cuts, internal dissolves, zoom blur, shake, camera jiggle, readable text, captions, watermark or generated audio. Preserve the exact illustrated painterly graphic-novel finish of the starting still. The growth tank stays sealed; all human hands and internal virtual interfaces remain inside culture fluid behind unbroken upper glass; robots and physical controls stay outside. All chest, pelvis and buttocks remain hidden by the original opaque tank structure or framing. Preserve adult identity and natural anatomy.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved Harper portrait. Harper is the established ADULT freckled woman with short curly auburn hair and hazel-green eyes; preserve her facial identity and adult proportions. This origin flashback shows her unclothed in a biological growth chamber, with all chest, pelvis and buttocks completely concealed by opaque structural tank panels or dense opaque fluid; face, shoulders and hands may be visible, no exposed intimate anatomy or sexual framing. Laboratory: a tall oval growth tank, dark satin graphite structural ribs, amber rim lights, cyan culture fluid and small violet status accents. Caretakers are function-specific nonhuman robotic machinery: multi-arm mantis/crustacean gantries, ceramic tool housings, graphite joints, delicate articulated service limbs, no human faces. Headquarters is a massive elongated graphite laboratory ark with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and a restrained cyan aft drive. Preserve this ark design across exterior views; it is distinct from Harper's small spherical personal ship. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Include only subjects required by the shot. No readable text, captions, logos, watermark or panel divisions. Full 16:9 composition with a quiet bottom strip for later lyrics.",
+      "reviewNotes": "Brow tightens, eyes track the solution; retain calculation reflections, subtle breathing.",
+      "estimatedCredits": 48,
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ]
+    },
+    {
+      "id": "lab2-06-motion-v01",
+      "shotId": "lab2-06",
+      "title": "To think with stars around us",
+      "startFrame": 1762,
+      "editFrames": 47,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/lab-verse-v01/lab2-06.png",
+      "prompt": "Reveal the massive elongated submarine-like laboratory ark among stars. Make one slow smooth camera pullback by about fifteen percent over six seconds, keeping its entire exact graphite hull, oval cyan culture galleries, amber seams, asymmetrical service spars and cyan aft engine coherent. Gallery lights have subtle living activity, restrained drive energy and delicate illustrated bloom. Distant starfield stable, small nebula depth/parallax. Hull drifts gently forward, no turn or banking. A reveal of the laboratory vessel, no personal spherical ship, no geometry morph. One uninterrupted six-second shot, motion established from the start and continuing through the whole clip so any central trim remains alive. No cuts, internal dissolves, zoom blur, shake, camera jiggle, readable text, captions, watermark or generated audio. Preserve the exact illustrated painterly graphic-novel finish of the starting still. The growth tank stays sealed; all human hands and internal virtual interfaces remain inside culture fluid behind unbroken upper glass; robots and physical controls stay outside. All chest, pelvis and buttocks remain hidden by the original opaque tank structure or framing. Preserve adult identity and natural anatomy.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved Harper portrait. Harper is the established ADULT freckled woman with short curly auburn hair and hazel-green eyes; preserve her facial identity and adult proportions. This origin flashback shows her unclothed in a biological growth chamber, with all chest, pelvis and buttocks completely concealed by opaque structural tank panels or dense opaque fluid; face, shoulders and hands may be visible, no exposed intimate anatomy or sexual framing. Laboratory: a tall oval growth tank, dark satin graphite structural ribs, amber rim lights, cyan culture fluid and small violet status accents. Caretakers are function-specific nonhuman robotic machinery: multi-arm mantis/crustacean gantries, ceramic tool housings, graphite joints, delicate articulated service limbs, no human faces. Headquarters is a massive elongated graphite laboratory ark with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and a restrained cyan aft drive. Preserve this ark design across exterior views; it is distinct from Harper's small spherical personal ship. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Include only subjects required by the shot. No readable text, captions, logos, watermark or panel divisions. Full 16:9 composition with a quiet bottom strip for later lyrics.",
+      "reviewNotes": "Pull back from a visible culture gallery to the enormous ark among distant stars.",
+      "estimatedCredits": 48
+    },
+    {
+      "id": "lab2-07-motion-v01",
+      "shotId": "lab2-07",
+      "title": "Dark sky",
+      "startFrame": 1809,
+      "editFrames": 29,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/lab-verse-v01/lab2-07.png",
+      "prompt": "Deep-space dark-sky view of the same laboratory ark. Smooth measured lateral camera drift to the right while the ark glides slowly toward the upper-right, leaving more empty deep indigo-black sky on the left. Distinct lateral travel rather than another pullback. Preserve the exact hull and spars, lit oval culture galleries and amber lines; cyan aft energy stays restrained. Distant stars stay far away, no high-speed warp streaks, spinning, banking or new worlds. One uninterrupted six-second shot, motion established from the start and continuing through the whole clip so any central trim remains alive. No cuts, internal dissolves, zoom blur, shake, camera jiggle, readable text, captions, watermark or generated audio. Preserve the exact illustrated painterly graphic-novel finish of the starting still. The growth tank stays sealed; all human hands and internal virtual interfaces remain inside culture fluid behind unbroken upper glass; robots and physical controls stay outside. All chest, pelvis and buttocks remain hidden by the original opaque tank structure or framing. Preserve adult identity and natural anatomy.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved Harper portrait. Harper is the established ADULT freckled woman with short curly auburn hair and hazel-green eyes; preserve her facial identity and adult proportions. This origin flashback shows her unclothed in a biological growth chamber, with all chest, pelvis and buttocks completely concealed by opaque structural tank panels or dense opaque fluid; face, shoulders and hands may be visible, no exposed intimate anatomy or sexual framing. Laboratory: a tall oval growth tank, dark satin graphite structural ribs, amber rim lights, cyan culture fluid and small violet status accents. Caretakers are function-specific nonhuman robotic machinery: multi-arm mantis/crustacean gantries, ceramic tool housings, graphite joints, delicate articulated service limbs, no human faces. Headquarters is a massive elongated graphite laboratory ark with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and a restrained cyan aft drive. Preserve this ark design across exterior views; it is distinct from Harper's small spherical personal ship. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Include only subjects required by the shot. No readable text, captions, logos, watermark or panel divisions. Full 16:9 composition with a quiet bottom strip for later lyrics.",
+      "reviewNotes": "Slow pan lets the hull slide out of bright foreground into vast darkness. Hold through the 5-frame gap.",
+      "estimatedCredits": 48
+    },
+    {
+      "id": "lab2-08-motion-v01",
+      "shotId": "lab2-08",
+      "title": "So bright",
+      "startFrame": 1838,
+      "editFrames": 31,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/lab-verse-v01/lab2-08.png",
+      "prompt": "So-bright cosmic-light interlude. From this exact starting composition, gently pan toward the bright star in the upper-right; let the unchanged laboratory ark gradually slip toward and partly beyond the lower-left edge. The visual attention passes from the hull to the luminous star and textured violet/cyan dust. Warm illustrated star bloom and subtle long luminous streaks evolve slowly, never strobing or becoming a blown-out white screen. Smooth functional motion, not a repeated ship zoom. Keep the same coherent ark while visible. No new spacecraft, planets or geometry changes. One uninterrupted six-second shot, motion established from the start and continuing through the whole clip so any central trim remains alive. No cuts, internal dissolves, zoom blur, shake, camera jiggle, readable text, captions, watermark or generated audio. Preserve the exact illustrated painterly graphic-novel finish of the starting still. The growth tank stays sealed; all human hands and internal virtual interfaces remain inside culture fluid behind unbroken upper glass; robots and physical controls stay outside. All chest, pelvis and buttocks remain hidden by the original opaque tank structure or framing. Preserve adult identity and natural anatomy.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved Harper portrait. Harper is the established ADULT freckled woman with short curly auburn hair and hazel-green eyes; preserve her facial identity and adult proportions. This origin flashback shows her unclothed in a biological growth chamber, with all chest, pelvis and buttocks completely concealed by opaque structural tank panels or dense opaque fluid; face, shoulders and hands may be visible, no exposed intimate anatomy or sexual framing. Laboratory: a tall oval growth tank, dark satin graphite structural ribs, amber rim lights, cyan culture fluid and small violet status accents. Caretakers are function-specific nonhuman robotic machinery: multi-arm mantis/crustacean gantries, ceramic tool housings, graphite joints, delicate articulated service limbs, no human faces. Headquarters is a massive elongated graphite laboratory ark with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and a restrained cyan aft drive. Preserve this ark design across exterior views; it is distinct from Harper's small spherical personal ship. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Include only subjects required by the shot. No readable text, captions, logos, watermark or panel divisions. Full 16:9 composition with a quiet bottom strip for later lyrics.",
+      "reviewNotes": "Starlight blooms gently across the hull and dust; measured lateral drift. Hold through the 7-frame gap.",
+      "estimatedCredits": 48
+    },
+    {
+      "id": "lab2-09-motion-v01",
+      "shotId": "lab2-09",
+      "title": "Bright night",
+      "startFrame": 1869,
+      "editFrames": 89,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "model": "kling-video-v3_0",
+      "duration": 6,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "tailImage": null,
+      "firstImage": "generated/storyboard/lab-verse-v01/lab2-09.png",
+      "prompt": "Bright-night vastness. The same tiny laboratory ark continues its slow diagonal journey toward the upper-right through the richly painted cyan/violet nebula. A very slow broad camera opening move, around eight percent over six seconds, makes cosmic space feel immense; faint layered dust parallax, steady far stars, softly breathing illustrated warm bloom. Ship remains small and fully coherent, with unchanged submarine-like hull, spars, oval cyan galleries, amber seams and cyan aft drive. No fast zoom, hard banking, warp trail or new objects. One uninterrupted six-second shot, motion established from the start and continuing through the whole clip so any central trim remains alive. No cuts, internal dissolves, zoom blur, shake, camera jiggle, readable text, captions, watermark or generated audio. Preserve the exact illustrated painterly graphic-novel finish of the starting still. The growth tank stays sealed; all human hands and internal virtual interfaces remain inside culture fluid behind unbroken upper glass; robots and physical controls stay outside. All chest, pelvis and buttocks remain hidden by the original opaque tank structure or framing. Preserve adult identity and natural anatomy.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved Harper portrait. Harper is the established ADULT freckled woman with short curly auburn hair and hazel-green eyes; preserve her facial identity and adult proportions. This origin flashback shows her unclothed in a biological growth chamber, with all chest, pelvis and buttocks completely concealed by opaque structural tank panels or dense opaque fluid; face, shoulders and hands may be visible, no exposed intimate anatomy or sexual framing. Laboratory: a tall oval growth tank, dark satin graphite structural ribs, amber rim lights, cyan culture fluid and small violet status accents. Caretakers are function-specific nonhuman robotic machinery: multi-arm mantis/crustacean gantries, ceramic tool housings, graphite joints, delicate articulated service limbs, no human faces. Headquarters is a massive elongated graphite laboratory ark with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and a restrained cyan aft drive. Preserve this ark design across exterior views; it is distinct from Harper's small spherical personal ship. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Include only subjects required by the shot. No readable text, captions, logos, watermark or panel divisions. Full 16:9 composition with a quiet bottom strip for later lyrics.",
+      "reviewNotes": "Calm pullback, layered nebula parallax, ark continues toward the stars; hold to the next phrase at 81.54s.",
+      "estimatedCredits": 48
+    }
+  ]
+}

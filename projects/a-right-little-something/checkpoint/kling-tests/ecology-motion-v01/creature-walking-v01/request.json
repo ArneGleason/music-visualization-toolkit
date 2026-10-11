@@ -1,0 +1,24 @@
+{
+  "model": "kling-video-v3_0",
+  "duration": 6,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "shotId": "chorus1-03",
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "id": "creature-walking-v01",
+  "title": "Creature-level grounded locomotion",
+  "startFrame": 1228,
+  "editFrames": 35,
+  "firstImage": "generated/storyboard/chorus-revision-v01/creature-view-v01.png",
+  "prompt": "One continuous six-second low creature-eye-level illustrated shot from this exact starting frame. Preserve the iridescent six-legged shell animals, violet ribbed fan-fronds, peach coast, water channel and distant Harper <<<323570155312565>>> in her gray tee, auburn curls and freckled adult face. The prominent shelled animal is ALREADY walking from the first frame. Clear purposeful locomotion along the bank toward camera-right: alternating groups of three legs plant their feet on the stones and sand, push the body forward, lift, swing and replant. The shell translates continuously relative to fixed stones, with small weight shifts and distinct foot contacts; it does not hover, slide, paddle in place or merely wave legs. Advance about two shell lengths over the six seconds. A foot touching shallow water makes tiny concentric ripples; the water flows steadily around feet. Smaller animals follow distinct nearby routes at different speeds. Keep creatures substantial and coherent, unchanged shell shape and number of legs. Harper observes quietly with a blink, breathing, small curls, no talking or large gesture, and remains in the background. Violet fronds sway gently in the flowing water. Locked low camera, no pan, shake, zoom, cut, internal dissolve, text, audio, ship, new sky object or new equipment. We will apply one smooth editorial pan afterwards."
+}

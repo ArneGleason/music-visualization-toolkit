@@ -1,0 +1,53 @@
+{
+  "id": "lab-silver-v01",
+  "output": "generated/storyboard/lab-silver-v01",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v28.mp4",
+  "fadeFrames": 4,
+  "entryFadeFrames": 8,
+  "entryPlate": "generated/storyboard/orbit-blender-v03/hybrid/orbit-composite-handles.mp4",
+  "entryPlateFrame": 162,
+  "draftForReview": true,
+  "presentation": "Four native Kling ark exterior takes replace their accepted stills; five lab shots remain accepted stills following provider rejection of the first tank request.",
+  "mediaLabel": "Kling / Blender / four native ark shots / silver bikini lab drafts",
+  "continuationNotes": "V29 preserves v28 schematic dissolve and exact grid/master, adds four completed native ark takes and five wardrobe-revised lab stills with silver bikini. All hand/interface actions stay sealed inside at head level. Five lab native takes are next, within original approved432credit total; new images must be reviewed before upload. Exterior star pan provides a ship-free visual interlude near the bright-night ending.",
+  "status": "Five silver bikini wardrobe still drafts plus four native ark clips",
+  "reviewUrl": "http://127.0.0.1:8768/storyboard/lab-silver-v01/animatic-through-bright-night.mp4",
+  "stillReviewUrl": "http://127.0.0.1:8768/storyboard/lab-verse-v02/review-board.html",
+  "useMotion": true,
+  "motionShotIds": [
+    "lab2-06",
+    "lab2-07",
+    "lab2-08",
+    "lab2-09"
+  ],
+  "cameraMoves": {
+    "lab2-07": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    },
+    "lab2-08": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

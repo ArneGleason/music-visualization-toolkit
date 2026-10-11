@@ -1,0 +1,29 @@
+{
+  "status": "User feedback pullback test; no route animation requested from model",
+  "fps": 24,
+  "output": "generated/kling-tests/orbit-pullback-v01",
+  "reviewOutput": "generated/storyboard/kling-orbit-pullback-v01",
+  "estimatedCredits": 64,
+  "reviewTitle": "Orbit background \u00b7 simple Kling pullback",
+  "reviewSummary": "One eight-second clean-background pullback test; paths and traveling ship will be composited separately.",
+  "shots": [
+    {
+      "id": "orbit-pullback-v01",
+      "shotId": "chorus1-05",
+      "title": "Clean cosmic pullback",
+      "model": "kling-video-v3_0",
+      "duration": 8,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/chorus-revision-v01/orbit-clean-v01.png",
+      "tailImage": null,
+      "startFrame": 1412,
+      "editFrames": 138,
+      "leadInFrames": 24,
+      "leadOutFrames": 24,
+      "prompt": "One uninterrupted eight-second cinematic camera pullback from the supplied clean illustrated cosmic scene. Only the THREE existing worlds, their natural clouds/ecological surfaces, distant stars and nebula occupy the view. Preserve the relative arrangement, silhouettes, world identities, turquoise/peach coast, ochre terrain and indigo reef. The camera smoothly dollies BACKWARD from first frame through last, gently revealing more surrounding space and making all three worlds moderately smaller, roughly 15 to 20 percent over the take. Maintain three-dimensional depth with subtle coherent differential parallax; the near turquoise world recedes most visibly. Keep starfield distant, illustrated textures and warm upper-right light. Very gentle natural world/cloud motion only; camera pullback is the main action. No zoom pulse or abrupt restart. The space between worlds stays completely CLEAR: do not create any line, arc, ring, path, moving light, energy ribbon, vehicle, character, interface, lettering, extra world, audio, cut or scene transition. No navigation graphics are present anywhere. Smooth living motion throughout the lead and tail handles."
+    }
+  ]
+}

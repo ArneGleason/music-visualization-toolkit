@@ -1,0 +1,172 @@
+{
+  "output": "generated/storyboard/orbit-blender-v02",
+  "source": "generated/kling-tests/orbit-pullback-v01/orbit-pullback-v01/orbit-pullback-v01-01-clean.mp4",
+  "shipLibrary": "generated/storyboard/hybrid-ship-v01/hybrid-ship-v01.blend",
+  "width": 1920,
+  "height": 1080,
+  "nativeWidth": 1280,
+  "fps": 24,
+  "sourceFrames": 193,
+  "songStartFrame": 1412,
+  "editFrames": 138,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "worlds": [
+    {
+      "name": "Turquoise coast",
+      "centre": [
+        -11.75,
+        -8.8125,
+        -32
+      ],
+      "radius": 11.5625,
+      "keys": [
+        [
+          1,
+          [
+            -11.75,
+            -8.8125,
+            -32
+          ],
+          11.5625
+        ],
+        [
+          97,
+          [
+            -11.7,
+            -8.75,
+            -32
+          ],
+          11.4375
+        ],
+        [
+          193,
+          [
+            -11.625,
+            -8.625,
+            -32
+          ],
+          11.25
+        ]
+      ]
+    },
+    {
+      "name": "Ochre nascent world",
+      "centre": [
+        0.5,
+        2.9625,
+        -18
+      ],
+      "radius": 1.85,
+      "keys": [
+        [
+          1,
+          [
+            0.5,
+            3.425,
+            -18
+          ],
+          2.05
+        ],
+        [
+          25,
+          [
+            0.5,
+            3.25,
+            -18
+          ],
+          1.975
+        ],
+        [
+          97,
+          [
+            0.5,
+            2.9625,
+            -18
+          ],
+          1.85
+        ],
+        [
+          162,
+          [
+            0.5,
+            2.65,
+            -18
+          ],
+          1.7375
+        ],
+        [
+          193,
+          [
+            0.5,
+            2.5,
+            -18
+          ],
+          1.65
+        ]
+      ]
+    },
+    {
+      "name": "Indigo reef world",
+      "centre": [
+        8.375,
+        -1.25,
+        -18
+      ],
+      "radius": 1.775,
+      "keys": [
+        [
+          1,
+          [
+            9.25,
+            -1.5625,
+            -18
+          ],
+          1.9125
+        ],
+        [
+          25,
+          [
+            9.0,
+            -1.4375,
+            -18
+          ],
+          1.875
+        ],
+        [
+          97,
+          [
+            8.375,
+            -1.25,
+            -18
+          ],
+          1.775
+        ],
+        [
+          162,
+          [
+            7.6875,
+            -1.25,
+            -18
+          ],
+          1.6875
+        ],
+        [
+          193,
+          [
+            7.5,
+            -1.25,
+            -18
+          ],
+          1.575
+        ]
+      ]
+    }
+  ],
+  "method": "Illustrative full loops with curvature-matched quintic approaches, transfer and exit. Age-based luminous trail decay. Inspired by NASA flyby diagrams; not a physical gravity-assist solution. Original hand-matched depth occluders and native ship retained.",
+  "flightLanguage": "continuous-loops",
+  "travelFrames": 108,
+  "trailLifetimeFrames": 30,
+  "trajectoryReference": "https://science.nasa.gov/learn/basics-of-space-flight/primer/",
+  "travelStartFrame": 25
+}

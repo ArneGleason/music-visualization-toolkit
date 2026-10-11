@@ -1,0 +1,44 @@
+{
+  "id": "escape-ejection-v01",
+  "output": "generated/storyboard/escape-ejection-v01",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v37.mp4",
+  "fadeFrames": 4,
+  "entryFadeFrames": 8,
+  "entryPlate": "generated/storyboard/orbit-blender-v03/hybrid/orbit-composite-handles.mp4",
+  "entryPlateFrame": 162,
+  "draftForReview": true,
+  "presentation": "Accepted native laboratory/ship passage, shortened Bright night, then two ejection starter frames in full-song timing.",
+  "mediaLabel": "Kling / Blender / ejection starter-frame timing draft",
+  "continuationNotes": "V38 cuts into the secured escape cabin at1:19 (frame1897), carries Leaving orbit through2010, then an exterior clearance/bank/acceleration starter through2105. Both new shots are stills with editorial pans; native ejection motion is prepared but not generated. Earlier native footage, exact lyric timing, fades and original audio retained.",
+  "status": "Two new starter stills staged for review; no paid departure jobs submitted",
+  "reviewUrl": "http://127.0.0.1:8768/?v=v38",
+  "stillReviewUrl": "http://127.0.0.1:8768/storyboard/escape-ejection-v01/review-board.html",
+  "useMotion": true,
+  "motionShotIds": [
+    "lab2-01",
+    "lab2-02",
+    "lab2-03",
+    "lab2-04",
+    "lab2-05",
+    "lab2-06",
+    "lab2-07",
+    "lab2-08",
+    "lab2-09"
+  ],
+  "cameraMoves": {
+    "lab2-07": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

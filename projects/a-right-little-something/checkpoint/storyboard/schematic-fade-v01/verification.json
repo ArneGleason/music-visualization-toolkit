@@ -1,0 +1,29 @@
+{
+  "id": "schematic-fade-v01",
+  "boundaryFrame": 737,
+  "frames": 24,
+  "startFrame": 725,
+  "endFrameExclusive": 749,
+  "outgoingSourceFrames": [
+    121,
+    144
+  ],
+  "incomingSourceFrames": [
+    13,
+    36
+  ],
+  "recoveredOutgoingFrames": 12,
+  "timing": "Centered at unchanged Why am I so cramped phrase start; no held or retimed frames",
+  "status": "Agent checked transition draft; user playback pending",
+  "fullFrames": 5265,
+  "reviewFrames": 1957,
+  "masterAudioHash": "SHA256=29fa51608bc4d3b5937841dbcced1676a38721c5572ecd92e064e4c08a8e1017",
+  "audioPreserved": true,
+  "extraKlingCredits": 0,
+  "fadeEndMeanRgbError": [
+    2.721161265432099,
+    2.433928915895062,
+    2.9663165509259257
+  ],
+  "fadeWeightClamped": true
+}

@@ -1,0 +1,76 @@
+{
+  "startFrame": 1550,
+  "endFrameExclusive": 2105,
+  "frames": 555,
+  "fps": 24,
+  "fadeFrames": 4,
+  "entryFadeFrames": 8,
+  "shots": [
+    {
+      "id": "lab2-01",
+      "startFrame": 1550,
+      "frames": 46,
+      "sourceKind": "native motion with editorial pan"
+    },
+    {
+      "id": "lab2-02",
+      "startFrame": 1596,
+      "frames": 28,
+      "sourceKind": "native motion with editorial pan"
+    },
+    {
+      "id": "lab2-03",
+      "startFrame": 1624,
+      "frames": 74,
+      "sourceKind": "native motion with editorial pan"
+    },
+    {
+      "id": "lab2-04",
+      "startFrame": 1698,
+      "frames": 45,
+      "sourceKind": "native motion with editorial pan"
+    },
+    {
+      "id": "lab2-05",
+      "startFrame": 1743,
+      "frames": 19,
+      "sourceKind": "native motion with editorial pan"
+    },
+    {
+      "id": "lab2-06",
+      "startFrame": 1762,
+      "frames": 47,
+      "sourceKind": "native motion with editorial pan"
+    },
+    {
+      "id": "lab2-07",
+      "startFrame": 1809,
+      "frames": 29,
+      "sourceKind": "native motion with editorial pan"
+    },
+    {
+      "id": "lab2-08",
+      "startFrame": 1838,
+      "frames": 31,
+      "sourceKind": "native motion with editorial pan"
+    },
+    {
+      "id": "lab2-09",
+      "startFrame": 1869,
+      "frames": 28,
+      "sourceKind": "native motion with editorial pan"
+    },
+    {
+      "id": "escape-001",
+      "startFrame": 1897,
+      "frames": 113,
+      "sourceKind": "native motion with editorial pan"
+    },
+    {
+      "id": "escape-002",
+      "startFrame": 2010,
+      "frames": 95,
+      "sourceKind": "native motion with editorial pan"
+    }
+  ]
+}

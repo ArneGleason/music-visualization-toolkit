@@ -1,0 +1,58 @@
+{
+  "status": "Completed; superseded by user request for planet-only cutaway",
+  "fps": 24,
+  "output": "generated/kling-tests/world-below-v01",
+  "reviewOutput": "generated/storyboard/kling-world-below-v01",
+  "estimatedCredits": 32,
+  "purpose": "Moon-free exterior with small Harper, reference-backed identity and anticipation of the next navigation shot.",
+  "characterReference": {
+    "bindName": "Harper",
+    "image": "generated/storyboard/hybrid-ship-v01/harper-cutout-v01.png",
+    "attachmentMethod": "Kling image Element; gray full-body cover and detailed current-outfit face secondary",
+    "elementId": "323570155312565",
+    "secondaryImage": "generated/refs/ship-interior-reference.png"
+  },
+  "shots": [
+    {
+      "id": "world-below-ref-v01",
+      "title": "World below - Harper prepares the display",
+      "model": "kling-video-v3_0",
+      "duration": 4,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/world-below-v02/space-006-starting-frame-v04.png",
+      "tailImage": null,
+      "startFrame": 581,
+      "editFrames": 52,
+      "leadInFrames": 12,
+      "leadOutFrames": 12,
+      "prompt": "One continuous four-second cinematic illustrated exterior shot, no cuts. Use the starting image for the exact camera angle, spacecraft geometry, planet framing and small character-to-cabin scale. Use the separate Harper <<<323570155312565>>> character reference for her adult face, auburn curls, gray T-shirt, gray trousers and bare feet; do not enlarge her to show facial detail.\n\nThe tiny spherical spacecraft floats high above an immense alien world. The turquoise surface, mountain archipelagos and peach-gold clouds stretch beneath it. A rich distant star field and blue-violet nebula fill the surrounding sky. There are no visible moons in this camera angle.\n\nKeep the first half-second calm. From about 0.5 to 2.5 seconds, Harper gently floats and raises both hands in front of her, beginning the gesture that will summon her navigation display. Her gaze follows her hands; her curls, clothing and bent legs respond with subtle natural free-fall movement. No light gathers between her hands: there is no projected display, hologram, central star dot, orbit diagram or scale expansion in this generated take. Keep the cabin clear for a separately composited display later. Let the gesture settle naturally through the remaining footage, with living micro-movement rather than a frozen pose.\n\nUse only a very gentle widening, with the spacecraft shrinking by no more than about eight percent. No camera orbit, abrupt zoom or move through the sphere. The distant planet, nebula and stars remain coherent and stable; they do not slide with the ship or become nearby objects. Keep the full equatorial band, both circular platforms and left-side aft engine ring intact. Preserve the ultra-thin clear field with faint connected cyan geodesic lines, warm amber rims and cyan lamps. No extra limbs or digits, detached hands, body duplication, character growth, new celestial bodies, thick glass, text or lip sync.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "elementBindingPending": false,
+      "reviewNotes": "The gray-outfit reference and small character-to-ship scale are retained, with no visible moons. Kling pushes in substantially instead of the requested slight widening, and adds cyan glow near Harper's torso despite the no-display direction. Review these deviations and the cut to the interior before selecting the take. No additional generation has been submitted.",
+      "elements": [
+        {
+          "id": "323570155312565",
+          "bindName": "Harper"
+        }
+      ]
+    }
+  ],
+  "compositingIntent": "User deferred the interior display to a later Blender motion-graphics inset, potentially just a glowing central dot. Generate no display or hand light.",
+  "creditsConsumed": 32,
+  "generationId": "ASRH0a7wEMGzXALpj6lCkDTWln9NW5HTM9CuBXdwxGOYUEDQqTR1X7g5COSgTxt1SHyVBzSU",
+  "reviewTitle": "World below - Harper character-reference test",
+  "reviewSummary": "One four-second native 1080p take, 32 credits. Gray-outfit character reference plus the approved small-Harper starting frame. No generated display; exact 52-frame song edit with half-second handles.",
+  "reviewChecks": "The gray-outfit reference and small character-to-ship scale are retained, with no visible moons. Kling pushes in substantially instead of the requested slight widening, and adds cyan glow near Harper's torso despite the no-display direction. Review these deviations and the cut to the interior before selecting the take. No additional generation has been submitted.",
+  "sourceResult": {
+    "width": 1916,
+    "height": 1080,
+    "fps": 24,
+    "frames": 97,
+    "sourceEditStartFrame": 13,
+    "editFrames": 52,
+    "availableLeadOutFrames": 33,
+    "reviewPresentation": "1920x1080 with two pixels of side padding per edge, no upscaling or retiming"
+  }
+}

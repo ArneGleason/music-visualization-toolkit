@@ -1,0 +1,24 @@
+{
+  "id": "chorus1-05-motion-v01",
+  "shotId": "chorus1-05",
+  "title": "Orbit echo / exploration and interference",
+  "model": "kling-video-v3_0",
+  "duration": 8,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/chorus1-ideas-v01/chorus1-05-starting-frame-v01.png",
+  "tailImage": null,
+  "startFrame": 1412,
+  "editFrames": 138,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "prompt": "Match the preceding accepted orbital shot: one small cyan-white traveling light with a fine warm amber companion trail, steady gentle motion along sparse stable curves. Preserve all three worlds rather than merging them or crossing to a new scene. Eight-second continuous abstract cosmic echo composition matching the illustrated starting frame. Three distinct living worlds at different depths retain turquoise branching coast lower-left, ochre organic ridges upper-middle and indigo luminous reef at right. Distant stars and violet nebula retain their scale. Sparse cyan/amber route arcs remain as shown; do not add a dense network or uniform rings. First second: gentle cloud/surface drift and quiet path glow. From source 1.0 to 2.7 seconds an amber/cyan pulse leaves the turquoise world and opens its coastal pattern. From 2.7 to 4.3 seconds the pulse curves around the ochre world and its local pattern bends the path. From 4.3 to 6.7 seconds a cooler pulse reaches the indigo reef world and disperses into a diffuse luminous glow. Continue subtle motion through final second. No geography melting, explosive colonization, planets merging, character, ship, HUD, text, audio or automatic cut. Almost locked wide camera; this is poetic exploration and uncertain influence, not literal rapid physical planet travel.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+  "motionContinuity": {
+    "take": "chorus1-04-motion-v01",
+    "sourceFrame": 144,
+    "image": "generated/kling-tests/chorus1-motion-v01/chorus1-04-motion-v01/edit-out.png",
+    "use": "Reviewed pulse color, scale and gentle camera behavior carried in prompt; approved five still remains first image for the wider view."
+  }
+}

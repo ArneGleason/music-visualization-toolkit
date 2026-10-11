@@ -1,0 +1,57 @@
+{
+  "id": "lab-robot-cutaway-v01",
+  "output": "generated/storyboard/lab-robot-cutaway-v01",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v30.mp4",
+  "fadeFrames": 4,
+  "entryFadeFrames": 8,
+  "entryPlate": "generated/storyboard/orbit-blender-v03/hybrid/orbit-composite-handles.mp4",
+  "entryPlateFrame": 162,
+  "draftForReview": true,
+  "presentation": "Eight native lab/ark takes with a new robot-only holographic control cutaway still.",
+  "mediaLabel": "Kling / Blender / robot control cutaway preview",
+  "continuationNotes": "V31 replaces lab2-03 completely with a small robot working projected controls outside the sealed pod. Harper returns in lab2-04. Native replacement is not generated yet. All phrase frames, earlier edits and original master audio are preserved. Six alien biosphere ship design remains a separate reference proposal.",
+  "status": "Robot control cutaway still replaces rejected hand shot; native replacement approval pending",
+  "reviewUrl": "http://127.0.0.1:8768/storyboard/lab-robot-cutaway-v01/animatic-through-bright-night.mp4",
+  "stillReviewUrl": "http://127.0.0.1:8768/storyboard/lab-robot-cutaway-v01/lab2-03.png",
+  "useMotion": true,
+  "motionShotIds": [
+    "lab2-01",
+    "lab2-02",
+    "lab2-04",
+    "lab2-05",
+    "lab2-06",
+    "lab2-07",
+    "lab2-08",
+    "lab2-09"
+  ],
+  "cameraMoves": {
+    "lab2-07": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    },
+    "lab2-08": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

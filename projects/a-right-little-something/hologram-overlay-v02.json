@@ -1,0 +1,1493 @@
+{
+  "schemaVersion": 1,
+  "shotId": "space-007",
+  "sourceTestId": "hologram-star-centered",
+  "output": "generated/storyboard/hologram-overlay-v02",
+  "source": "generated/kling-tests/hologram-star-centered-v01/hologram-star-centered/hologram-star-centered-01-clean.mp4",
+  "sourceFrames": 144,
+  "renderStartFrame": 89,
+  "width": 1920,
+  "height": 1080,
+  "camera": {
+    "lensMm": 45,
+    "sensorWidthMm": 36
+  },
+  "depthMethod": "Artist-assigned depth and orbit tilt; measured image-space anchors. This is not a recovered physical camera solve.",
+  "composite": {
+    "restrainedGain": 0.55,
+    "richGain": 1.0,
+    "matteFeatherPx": 2.5
+  },
+  "systems": [
+    {
+      "id": "home",
+      "color": "amber",
+      "radiusPx": 46,
+      "depth": 10,
+      "tiltDegrees": [
+        57,
+        -10,
+        -8
+      ],
+      "birthFrame": 89,
+      "unfoldFrames": 17,
+      "trackingColor": "amber",
+      "searchRadiusPx": 10,
+      "guides": [
+        [
+          89,
+          588,
+          486
+        ],
+        [
+          109,
+          587,
+          486
+        ],
+        [
+          144,
+          586,
+          485
+        ]
+      ],
+      "displayColor": [
+        1,
+        0.38,
+        0.075
+      ],
+      "starSizePx": 3.6,
+      "bearingTicks": 6,
+      "asteroidBelts": [],
+      "planets": [
+        {
+          "radiusRatio": 0.2,
+          "inclinationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "eccentricity": 0.02,
+          "sizePx": 3.4000000000000004,
+          "speedRadiansPerFrame": 0.03393686244960052,
+          "phaseDegrees": 108
+        },
+        {
+          "radiusRatio": 0.35,
+          "inclinationDegrees": [
+            6,
+            -5,
+            18
+          ],
+          "eccentricity": 0.07,
+          "sizePx": 1.8,
+          "speedRadiansPerFrame": 0.02293744573298199,
+          "phaseDegrees": 241
+        },
+        {
+          "radiusRatio": 0.54,
+          "inclinationDegrees": [
+            -4,
+            10,
+            40
+          ],
+          "eccentricity": 0.0,
+          "sizePx": 2.6,
+          "speedRadiansPerFrame": 0.016932342838142968,
+          "phaseDegrees": 14
+        },
+        {
+          "radiusRatio": 0.76,
+          "inclinationDegrees": [
+            15,
+            4,
+            65
+          ],
+          "eccentricity": 0.12,
+          "sizePx": 3.4000000000000004,
+          "speedRadiansPerFrame": 0.013329785796605539,
+          "phaseDegrees": 147,
+          "moonCount": 1
+        },
+        {
+          "radiusRatio": 1.0,
+          "inclinationDegrees": [
+            -10,
+            -12,
+            105
+          ],
+          "eccentricity": 0.06,
+          "sizePx": 1.8,
+          "speedRadiansPerFrame": 0.011,
+          "phaseDegrees": 280
+        }
+      ]
+    },
+    {
+      "id": "upper-left",
+      "color": "ice-blue",
+      "radiusPx": 92,
+      "depth": 11.5,
+      "tiltDegrees": [
+        58,
+        -8,
+        -9
+      ],
+      "birthFrame": 98,
+      "unfoldFrames": 15,
+      "trackingColor": "cyan",
+      "searchRadiusPx": 25,
+      "guides": [
+        [
+          98,
+          442,
+          376
+        ],
+        [
+          101,
+          375,
+          330
+        ],
+        [
+          105,
+          277,
+          257
+        ],
+        [
+          109,
+          185,
+          192
+        ],
+        [
+          113,
+          112,
+          131
+        ],
+        [
+          117,
+          100,
+          127
+        ],
+        [
+          121,
+          100,
+          126
+        ],
+        [
+          144,
+          102,
+          126
+        ]
+      ],
+      "displayColor": [
+        0.16,
+        0.58,
+        1
+      ],
+      "starSizePx": 4.8,
+      "bearingTicks": 4,
+      "asteroidBelts": [],
+      "planets": [
+        {
+          "radiusRatio": 0.44,
+          "inclinationDegrees": [
+            4,
+            -8,
+            15
+          ],
+          "eccentricity": 0.06,
+          "sizePx": 3.4000000000000004,
+          "speedRadiansPerFrame": 0.019542306102913257,
+          "phaseDegrees": 270
+        },
+        {
+          "radiusRatio": 0.92,
+          "inclinationDegrees": [
+            25,
+            10,
+            -25
+          ],
+          "eccentricity": 0.18,
+          "sizePx": 4.1,
+          "speedRadiansPerFrame": 0.011661145279677671,
+          "phaseDegrees": 43,
+          "moonCount": 2,
+          "ringed": true
+        }
+      ]
+    },
+    {
+      "id": "upper-right",
+      "color": "coral",
+      "radiusPx": 93,
+      "depth": 12.5,
+      "tiltDegrees": [
+        52,
+        -12,
+        -6
+      ],
+      "birthFrame": 110,
+      "unfoldFrames": 17,
+      "trackingColor": "cyan",
+      "searchRadiusPx": 25,
+      "guides": [
+        [
+          110,
+          736,
+          381
+        ],
+        [
+          113,
+          834,
+          314
+        ],
+        [
+          117,
+          994,
+          211
+        ],
+        [
+          121,
+          1036,
+          181
+        ],
+        [
+          125,
+          1073,
+          158
+        ],
+        [
+          129,
+          1095,
+          140
+        ],
+        [
+          133,
+          1109,
+          130
+        ],
+        [
+          144,
+          1128,
+          114
+        ]
+      ],
+      "displayColor": [
+        1,
+        0.19,
+        0.105
+      ],
+      "starSizePx": 7.5,
+      "bearingTicks": 8,
+      "asteroidBelts": [
+        {
+          "radiusRatio": 0.54,
+          "widthRatio": 0.08,
+          "count": 190,
+          "inclinationDegrees": [
+            11,
+            -8,
+            20
+          ],
+          "rotationRadiansPerFrame": 0.009
+        }
+      ],
+      "planets": [
+        {
+          "radiusRatio": 0.22,
+          "inclinationDegrees": [
+            5,
+            -6,
+            18
+          ],
+          "eccentricity": 0.09,
+          "sizePx": 2.6,
+          "speedRadiansPerFrame": 0.03174656992483676,
+          "phaseDegrees": 297
+        },
+        {
+          "radiusRatio": 0.38,
+          "inclinationDegrees": [
+            21,
+            10,
+            -12
+          ],
+          "eccentricity": 0.0,
+          "sizePx": 3.4000000000000004,
+          "speedRadiansPerFrame": 0.02165430091241632,
+          "phaseDegrees": 70
+        },
+        {
+          "radiusRatio": 0.72,
+          "inclinationDegrees": [
+            -13,
+            18,
+            65
+          ],
+          "eccentricity": 0.15,
+          "sizePx": 1.8,
+          "speedRadiansPerFrame": 0.013843947308530755,
+          "phaseDegrees": 203
+        },
+        {
+          "radiusRatio": 1.0,
+          "inclinationDegrees": [
+            37,
+            -10,
+            35
+          ],
+          "eccentricity": 0.2,
+          "sizePx": 2.6,
+          "speedRadiansPerFrame": 0.011,
+          "phaseDegrees": 336
+        }
+      ]
+    },
+    {
+      "id": "middle-left",
+      "color": "violet",
+      "radiusPx": 105,
+      "depth": 9.5,
+      "tiltDegrees": [
+        60,
+        -6,
+        -9
+      ],
+      "birthFrame": 113,
+      "unfoldFrames": 17,
+      "trackingColor": "cyan",
+      "searchRadiusPx": 25,
+      "guides": [
+        [
+          113,
+          391,
+          426
+        ],
+        [
+          117,
+          331,
+          408
+        ],
+        [
+          121,
+          243,
+          381
+        ],
+        [
+          125,
+          170,
+          360
+        ],
+        [
+          129,
+          120,
+          345
+        ],
+        [
+          133,
+          77,
+          336
+        ],
+        [
+          137,
+          50,
+          326
+        ],
+        [
+          141,
+          32,
+          320
+        ],
+        [
+          144,
+          20,
+          318
+        ]
+      ],
+      "displayColor": [
+        0.57,
+        0.23,
+        1
+      ],
+      "starSizePx": 3.1,
+      "bearingTicks": 0,
+      "asteroidBelts": [
+        {
+          "radiusRatio": 0.71,
+          "widthRatio": 0.05,
+          "count": 130,
+          "inclinationDegrees": [
+            -14,
+            15,
+            12
+          ],
+          "rotationRadiansPerFrame": 0.007
+        },
+        {
+          "radiusRatio": 1.11,
+          "widthRatio": 0.08,
+          "count": 140,
+          "inclinationDegrees": [
+            9,
+            -7,
+            30
+          ],
+          "rotationRadiansPerFrame": 0.004
+        }
+      ],
+      "planets": [
+        {
+          "radiusRatio": 0.2,
+          "inclinationDegrees": [
+            -5,
+            10,
+            5
+          ],
+          "eccentricity": 0.03,
+          "sizePx": 1.8,
+          "speedRadiansPerFrame": 0.03393686244960052,
+          "phaseDegrees": 297
+        },
+        {
+          "radiusRatio": 0.32,
+          "inclinationDegrees": [
+            10,
+            -12,
+            70
+          ],
+          "eccentricity": 0.09,
+          "sizePx": 2.6,
+          "speedRadiansPerFrame": 0.024422364027749905,
+          "phaseDegrees": 70
+        },
+        {
+          "radiusRatio": 0.47,
+          "inclinationDegrees": [
+            20,
+            10,
+            -10
+          ],
+          "eccentricity": 0.0,
+          "sizePx": 3.4000000000000004,
+          "speedRadiansPerFrame": 0.018660539027520264,
+          "phaseDegrees": 203
+        },
+        {
+          "radiusRatio": 0.61,
+          "inclinationDegrees": [
+            -19,
+            6,
+            110
+          ],
+          "eccentricity": 0.12,
+          "sizePx": 1.8,
+          "speedRadiansPerFrame": 0.015547544218284883,
+          "phaseDegrees": 336
+        },
+        {
+          "radiusRatio": 0.81,
+          "inclinationDegrees": [
+            30,
+            16,
+            5
+          ],
+          "eccentricity": 0.06,
+          "sizePx": 4.1,
+          "speedRadiansPerFrame": 0.012748326329574398,
+          "phaseDegrees": 109,
+          "ringed": true
+        },
+        {
+          "radiusRatio": 1.0,
+          "inclinationDegrees": [
+            -8,
+            -16,
+            30
+          ],
+          "eccentricity": 0.17,
+          "sizePx": 3.4000000000000004,
+          "speedRadiansPerFrame": 0.011,
+          "phaseDegrees": 242
+        }
+      ]
+    },
+    {
+      "id": "beside-hand",
+      "color": "mint",
+      "radiusPx": 119,
+      "depth": 8.8,
+      "tiltDegrees": [
+        55,
+        -14,
+        -7
+      ],
+      "birthFrame": 117,
+      "unfoldFrames": 17,
+      "trackingColor": "cyan",
+      "searchRadiusPx": 25,
+      "guides": [
+        [
+          117,
+          1046,
+          408
+        ],
+        [
+          121,
+          1092,
+          401
+        ],
+        [
+          125,
+          1105,
+          400
+        ],
+        [
+          129,
+          1116,
+          398
+        ],
+        [
+          133,
+          1127,
+          397
+        ],
+        [
+          144,
+          1143,
+          394
+        ]
+      ],
+      "displayColor": [
+        0.11,
+        1,
+        0.47
+      ],
+      "starSizePx": 5.4,
+      "bearingTicks": 5,
+      "asteroidBelts": [],
+      "planets": [
+        {
+          "radiusRatio": 0.29,
+          "inclinationDegrees": [
+            0,
+            0,
+            0
+          ],
+          "eccentricity": 0.04,
+          "sizePx": 1.8,
+          "speedRadiansPerFrame": 0.026164599212187153,
+          "phaseDegrees": 297
+        },
+        {
+          "radiusRatio": 0.59,
+          "inclinationDegrees": [
+            -22,
+            7,
+            35
+          ],
+          "eccentricity": 0.13,
+          "sizePx": 2.6,
+          "speedRadiansPerFrame": 0.01591462013770561,
+          "phaseDegrees": 70
+        },
+        {
+          "radiusRatio": 1.0,
+          "inclinationDegrees": [
+            16,
+            -21,
+            -16
+          ],
+          "eccentricity": 0.06,
+          "sizePx": 3.4000000000000004,
+          "speedRadiansPerFrame": 0.011,
+          "phaseDegrees": 203,
+          "moonCount": 1
+        }
+      ]
+    }
+  ],
+  "holdouts": [
+    {
+      "id": "Harper left silhouette",
+      "purpose": "Coarse animated foreground holdout for new light only; original footage is untouched",
+      "keys": [
+        {
+          "frame": 89,
+          "points": [
+            [
+              1220,
+              85
+            ],
+            [
+              1340,
+              75
+            ],
+            [
+              1630,
+              164
+            ],
+            [
+              1750,
+              480
+            ],
+            [
+              1919,
+              850
+            ],
+            [
+              1390,
+              1060
+            ],
+            [
+              1080,
+              850
+            ],
+            [
+              1165,
+              590
+            ],
+            [
+              1058,
+              480
+            ],
+            [
+              1020,
+              410
+            ],
+            [
+              992,
+              430
+            ],
+            [
+              970,
+              428
+            ],
+            [
+              950,
+              407
+            ],
+            [
+              948,
+              365
+            ],
+            [
+              925,
+              350
+            ],
+            [
+              925,
+              328
+            ],
+            [
+              939,
+              301
+            ],
+            [
+              965,
+              275
+            ],
+            [
+              993,
+              281
+            ],
+            [
+              1020,
+              316
+            ],
+            [
+              1054,
+              363
+            ],
+            [
+              1090,
+              397
+            ],
+            [
+              1128,
+              360
+            ],
+            [
+              1160,
+              410
+            ],
+            [
+              1135,
+              330
+            ],
+            [
+              1135,
+              270
+            ],
+            [
+              1125,
+              215
+            ],
+            [
+              1155,
+              166
+            ],
+            [
+              1190,
+              117
+            ]
+          ]
+        },
+        {
+          "frame": 101,
+          "points": [
+            [
+              1260,
+              110
+            ],
+            [
+              1340,
+              75
+            ],
+            [
+              1630,
+              164
+            ],
+            [
+              1810,
+              480
+            ],
+            [
+              1919,
+              850
+            ],
+            [
+              1430,
+              1080
+            ],
+            [
+              1220,
+              900
+            ],
+            [
+              1280,
+              730
+            ],
+            [
+              1180,
+              625
+            ],
+            [
+              1160,
+              530
+            ],
+            [
+              1090,
+              504
+            ],
+            [
+              1040,
+              467
+            ],
+            [
+              995,
+              463
+            ],
+            [
+              966,
+              442
+            ],
+            [
+              958,
+              427
+            ],
+            [
+              952,
+              400
+            ],
+            [
+              957,
+              377
+            ],
+            [
+              957,
+              365
+            ],
+            [
+              979,
+              349
+            ],
+            [
+              1007,
+              350
+            ],
+            [
+              1035,
+              372
+            ],
+            [
+              1062,
+              411
+            ],
+            [
+              1120,
+              445
+            ],
+            [
+              1155,
+              410
+            ],
+            [
+              1178,
+              421
+            ],
+            [
+              1160,
+              335
+            ],
+            [
+              1139,
+              289
+            ],
+            [
+              1127,
+              238
+            ],
+            [
+              1165,
+              181
+            ],
+            [
+              1210,
+              140
+            ]
+          ]
+        },
+        {
+          "frame": 109,
+          "points": [
+            [
+              1270,
+              112
+            ],
+            [
+              1340,
+              75
+            ],
+            [
+              1630,
+              164
+            ],
+            [
+              1830,
+              520
+            ],
+            [
+              1919,
+              840
+            ],
+            [
+              1480,
+              1070
+            ],
+            [
+              1240,
+              890
+            ],
+            [
+              1300,
+              730
+            ],
+            [
+              1235,
+              585
+            ],
+            [
+              1164,
+              532
+            ],
+            [
+              1090,
+              537
+            ],
+            [
+              1035,
+              520
+            ],
+            [
+              990,
+              503
+            ],
+            [
+              964,
+              490
+            ],
+            [
+              950,
+              464
+            ],
+            [
+              950,
+              445
+            ],
+            [
+              951,
+              431
+            ],
+            [
+              956,
+              413
+            ],
+            [
+              975,
+              407
+            ],
+            [
+              995,
+              412
+            ],
+            [
+              1015,
+              423
+            ],
+            [
+              1040,
+              469
+            ],
+            [
+              1110,
+              480
+            ],
+            [
+              1150,
+              445
+            ],
+            [
+              1190,
+              420
+            ],
+            [
+              1160,
+              335
+            ],
+            [
+              1140,
+              290
+            ],
+            [
+              1140,
+              240
+            ],
+            [
+              1170,
+              185
+            ],
+            [
+              1210,
+              144
+            ]
+          ]
+        },
+        {
+          "frame": 117,
+          "points": [
+            [
+              1270,
+              114
+            ],
+            [
+              1340,
+              75
+            ],
+            [
+              1630,
+              164
+            ],
+            [
+              1815,
+              520
+            ],
+            [
+              1919,
+              840
+            ],
+            [
+              1480,
+              1070
+            ],
+            [
+              1240,
+              890
+            ],
+            [
+              1290,
+              730
+            ],
+            [
+              1240,
+              602
+            ],
+            [
+              1177,
+              528
+            ],
+            [
+              1090,
+              560
+            ],
+            [
+              1040,
+              568
+            ],
+            [
+              1005,
+              579
+            ],
+            [
+              970,
+              580
+            ],
+            [
+              949,
+              572
+            ],
+            [
+              934,
+              560
+            ],
+            [
+              936,
+              538
+            ],
+            [
+              934,
+              529
+            ],
+            [
+              950,
+              511
+            ],
+            [
+              974,
+              508
+            ],
+            [
+              1000,
+              516
+            ],
+            [
+              1042,
+              533
+            ],
+            [
+              1100,
+              532
+            ],
+            [
+              1148,
+              493
+            ],
+            [
+              1169,
+              429
+            ],
+            [
+              1155,
+              337
+            ],
+            [
+              1138,
+              291
+            ],
+            [
+              1132,
+              240
+            ],
+            [
+              1167,
+              185
+            ],
+            [
+              1210,
+              144
+            ]
+          ]
+        },
+        {
+          "frame": 125,
+          "points": [
+            [
+              1270,
+              112
+            ],
+            [
+              1340,
+              75
+            ],
+            [
+              1630,
+              164
+            ],
+            [
+              1810,
+              490
+            ],
+            [
+              1919,
+              845
+            ],
+            [
+              1490,
+              1070
+            ],
+            [
+              1250,
+              895
+            ],
+            [
+              1300,
+              740
+            ],
+            [
+              1240,
+              610
+            ],
+            [
+              1170,
+              512
+            ],
+            [
+              1115,
+              562
+            ],
+            [
+              1070,
+              573
+            ],
+            [
+              1030,
+              608
+            ],
+            [
+              1000,
+              627
+            ],
+            [
+              977,
+              640
+            ],
+            [
+              964,
+              642
+            ],
+            [
+              953,
+              628
+            ],
+            [
+              950,
+              606
+            ],
+            [
+              945,
+              595
+            ],
+            [
+              966,
+              567
+            ],
+            [
+              995,
+              555
+            ],
+            [
+              1040,
+              559
+            ],
+            [
+              1097,
+              535
+            ],
+            [
+              1136,
+              485
+            ],
+            [
+              1179,
+              422
+            ],
+            [
+              1154,
+              337
+            ],
+            [
+              1138,
+              290
+            ],
+            [
+              1131,
+              240
+            ],
+            [
+              1167,
+              185
+            ],
+            [
+              1210,
+              145
+            ]
+          ]
+        },
+        {
+          "frame": 133,
+          "points": [
+            [
+              1270,
+              115
+            ],
+            [
+              1340,
+              75
+            ],
+            [
+              1630,
+              164
+            ],
+            [
+              1810,
+              490
+            ],
+            [
+              1919,
+              845
+            ],
+            [
+              1490,
+              1070
+            ],
+            [
+              1250,
+              890
+            ],
+            [
+              1300,
+              737
+            ],
+            [
+              1240,
+              603
+            ],
+            [
+              1170,
+              486
+            ],
+            [
+              1118,
+              553
+            ],
+            [
+              1078,
+              580
+            ],
+            [
+              1040,
+              618
+            ],
+            [
+              1021,
+              650
+            ],
+            [
+              1005,
+              664
+            ],
+            [
+              990,
+              665
+            ],
+            [
+              984,
+              650
+            ],
+            [
+              986,
+              630
+            ],
+            [
+              986,
+              611
+            ],
+            [
+              1008,
+              587
+            ],
+            [
+              1030,
+              579
+            ],
+            [
+              1080,
+              570
+            ],
+            [
+              1110,
+              526
+            ],
+            [
+              1150,
+              476
+            ],
+            [
+              1200,
+              414
+            ],
+            [
+              1165,
+              333
+            ],
+            [
+              1140,
+              285
+            ],
+            [
+              1140,
+              240
+            ],
+            [
+              1168,
+              182
+            ],
+            [
+              1205,
+              146
+            ]
+          ]
+        },
+        {
+          "frame": 144,
+          "points": [
+            [
+              1268,
+              111
+            ],
+            [
+              1340,
+              75
+            ],
+            [
+              1630,
+              164
+            ],
+            [
+              1800,
+              487
+            ],
+            [
+              1919,
+              844
+            ],
+            [
+              1490,
+              1070
+            ],
+            [
+              1250,
+              888
+            ],
+            [
+              1300,
+              737
+            ],
+            [
+              1240,
+              600
+            ],
+            [
+              1175,
+              443
+            ],
+            [
+              1115,
+              510
+            ],
+            [
+              1093,
+              550
+            ],
+            [
+              1073,
+              592
+            ],
+            [
+              1040,
+              620
+            ],
+            [
+              1030,
+              648
+            ],
+            [
+              1012,
+              656
+            ],
+            [
+              1004,
+              637
+            ],
+            [
+              1008,
+              619
+            ],
+            [
+              995,
+              626
+            ],
+            [
+              1001,
+              600
+            ],
+            [
+              1018,
+              577
+            ],
+            [
+              1050,
+              570
+            ],
+            [
+              1092,
+              546
+            ],
+            [
+              1128,
+              486
+            ],
+            [
+              1185,
+              408
+            ],
+            [
+              1180,
+              335
+            ],
+            [
+              1143,
+              290
+            ],
+            [
+              1134,
+              243
+            ],
+            [
+              1162,
+              188
+            ],
+            [
+              1209,
+              143
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "version": "v02",
+  "previousReviewPath": "../hologram-overlay-v01",
+  "bearingTicks": 6,
+  "starSizePx": 3.5,
+  "reviewDescription": "Five distinct schematic systems: amber home with five planets; ice-blue with two; coral with four and an asteroid belt; violet with six and a dusty outer belt; mint with three. Different star sizes, inclined and eccentric planetary paths, moons and ringed planets. Colors identify display systems, not a literal stellar-temperature scale.",
+  "tintSourceStarCores": true
+}

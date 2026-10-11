@@ -1,0 +1,28 @@
+{
+  "id": "planet-cutaway-v01",
+  "shot": "space-006",
+  "status": "Composition and motion draft for animatic review",
+  "output": "generated/storyboard/planet-cutaway-v01",
+  "image": "generated/storyboard/planet-cutaway-v01/planet-starting-frame-v01.png",
+  "blendFilename": "planet-cutaway-v01.blend",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "startFrame": 581,
+  "endFrameExclusive": 633,
+  "editFrames": 52,
+  "leadInFrames": 12,
+  "leadOutFrames": 12,
+  "sourceFrames": 76,
+  "promptLock": "PROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+  "imagegen": {
+    "mode": "built-in edit",
+    "reference": "generated/storyboard/world-below-v02/space-006-starting-frame-v04.png",
+    "prompt": "Use case: precise-object-edit\nAsset type: 16:9 widescreen starting frame for an illustrated music-video planet-only orbital cutaway, ideally 3840x2160.\nInput image 1 is the edit target and continuity reference for this exact alien planet and lighting. Remove the ENTIRE spacecraft, force-field sphere, all metal rings and platforms, engine ring and human. Fill that region naturally with distant space and the planet below. No trace of any foreground spacecraft structure or character. The camera is freely looking at the world from orbit, not through a window.\nThe immense curved world below is the hero of the shot: turquoise seas, rugged dark blue mountainous island chains and richly illuminated peach-gold clouds; narrow cool cyan atmospheric limb. Preserve these distinctive existing terrain forms, expressive painterly detail, orange seam-like lights and the large sense of scale. Emphasize a huge expanse of this planet beneath the camera rather than a small full globe. Retain the existing graceful diagonal curved horizon and upper-right warm sunlight, deep star field and blue-violet nebula at astronomical distance. No moons in frame. The surface fills most of the lower frame and a portion of the middle frame. This will be a very short continuous orbital-glide cutaway with slowly drifting terrain, so keep composition open and legible. Match the prior cinematic graphic-novel illustration finish, not a NASA photo. No text, labels, HUD, telescope reticle, grids, hands or artificial new foreground objects.\nContinuity lock (applies to established objects only; ship and Harper are wholly outside this shot):\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing."
+  },
+  "direction": "Planet-only orbital point of view: immense turquoise alien world, peach-gold clouds, rugged dark archipelagos, narrow cyan atmospheric limb and rich distant stars/nebula. No ship, Harper, moons, foreground window or hologram. A slow lateral orbital glide carries terrain gently under the camera; steady altitude, no rapid spin, no zoom reset. Cut from hands at the boundary into this world insert, then to the accepted interior display.",
+  "draftMotion": "Blender unlit image-plane projection with a small continuous camera drift. Composition blocking only: stars and terrain move together, not physically correct orbital parallax. No paid motion generation.",
+  "nextStep": "Review v09 animatic before a four-second native 1080p Kling planet-only orbital take; use exact 52-frame edit and minimum half-second handles.",
+  "fullAnimaticVersion": "v09",
+  "previousAnimaticVersion": "v08"
+}

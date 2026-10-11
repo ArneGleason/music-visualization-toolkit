@@ -1,5 +1,54 @@
 # Space continuation — first blocking proposal
 
+Current continuation direction is [WINDOW-COAST-DIRECTION.md](WINDOW-COAST-DIRECTION.md)
+and `storyboard-window-coast-v01.json`. Three ImageGen composition drafts now
+cover 737–1169: ship-free narrow inlet, one close field-boundary portrait
+through both face/window and scale phrases, and one continuous VR coast for
+arms/tide/experience. `space-010` is retired; no cut remains at frame 854.
+Existing source notes are preserved, and the new chat direction is explicitly
+recorded in the register. The user accepted the actual Kling planet take in
+v10. That full animatic remains current while the new still storyboard is
+reviewed at `/storyboard/window-coast-v01/`. The older blocking description
+and table below are historical; do not re-run their old batch over this plan.
+
+Latest clean motion: v10 now inserts `planet-orbit-v01`, an actual four-second
+native 1080p Kling take from `kling-planet-cutaway-v01.json`. The user requested
+more motion after recognizing v09 as a moving still. The world/terrain/clouds
+travel beneath the orbital point of view while the star field stays nearly
+stationary. Exact edit remains frames 581–632, source 13–64, cut to the
+accepted hologram at 633. Full lyrics/master audio and notes remain intact.
+No ship or moons were introduced. Current take awaits creative review;
+v09 retains the still-image comparison. No paid tasks are pending.
+
+Latest October 9 direction: `space-006` is now a planet-only cutaway in
+animatic v09. The user rejected the short ship exterior because its style and
+continuity differences were conspicuous between interior shots. Cut from
+the hands/window shot to the immense curved alien world, with gentle orbital
+drift, then back to the accepted interior display at frame 633. No ship,
+Harper, moons or foreground window are included in this insert.
+`planet-cutaway-v01.json` stores the new direction and exact ImageGen prompt.
+The current 52-frame review uses an editable Blender image-plane drift,
+with 12-frame handles; actual orbital parallax awaits clean generation after
+review. The full notes player at http://127.0.0.1:8768/ selects v09.
+Prior exterior blocking and its paid Kling test remain archived experiments;
+do not rebuild those plans over the new canonical direction.
+
+Earlier October 9 revision (superseded): `space-006` used the opposite-side exterior camera,
+with both world moons outside the frame and the original ship/planet distance
+preserved. Harper raises her hands and floats slightly to anticipate the
+navigation display at frame 633. Review the new Blender motion with the
+selected v08 shots on either side at
+http://127.0.0.1:8768/storyboard/world-below-v02/ .
+The 52-frame edit and 12-frame handles remain unchanged. Stills are 1920×1080;
+motion is a 1280×720 blocking proxy. The full animatic still selects v08;
+this revision has not yet been illustrated or generated as clean footage.
+
+Rebuild this revision only:
+
+    python tools/shotplan.py --merge --project projects/a-right-little-something/project.json --batch projects/a-right-little-something/storyboard-world-below-v02.json
+    blender -b --python tools/build_storyboard_batch.py -- projects/a-right-little-something/project.json projects/a-right-little-something/storyboard-world-below-v02.json --shot space-006 --motion
+    python tools/review_world_below.py projects/a-right-little-something/project.json projects/a-right-little-something/storyboard-world-below-v02.json
+
 Source: listening-notes revision 22. Five active new notes at frames 581, 633,
 737, 789 and 854. The deleted eye-reflection note at 789 is superseded by the
 active close-up at 854. Original notes are preserved verbatim in the register.
@@ -27,7 +76,7 @@ to leave the frame naturally.
 
 | Beat | Song frames inclusive | Cinematography / transition |
 | --- | --- | --- |
-| space-006 | 581–632 | Cut on “To” to the immense world below; small ship, restrained widening |
+| space-006 | 581–632 | Cut on “To” to the immense world below; planet-only gentle orbital glide |
 | space-007 | 633–736 | Cut to three-quarter interior and holographic map; locked camera, expansion in the diagram |
 | space-008 | 737–788 | Cut to reaction: wonder becomes longing; start continuous approach |
 | space-009 | 789–853 | Continue that same take toward the boundary; no cut or starting-frame reset |

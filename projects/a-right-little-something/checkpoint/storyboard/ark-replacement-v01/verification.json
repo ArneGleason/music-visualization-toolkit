@@ -1,0 +1,37 @@
+{
+  "fullFrames": 5265,
+  "reviewFrames": 1957,
+  "arkPassageFrames": 196,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "masterAudioHash": "SHA256=29fa51608bc4d3b5937841dbcced1676a38721c5572ecd92e064e4c08a8e1017",
+  "audioPreserved": true,
+  "nativeLabShots": 5,
+  "newArkStills": 4,
+  "newCredits": 0,
+  "cumulativeConfirmedCredits": 2264,
+  "klingStatus": "Prepared directions only; user still review before video go-ahead",
+  "phraseFrames": [
+    {
+      "id": "lab2-06",
+      "startFrame": 1762,
+      "frames": 47
+    },
+    {
+      "id": "lab2-07",
+      "startFrame": 1809,
+      "frames": 29
+    },
+    {
+      "id": "lab2-08",
+      "startFrame": 1838,
+      "frames": 31
+    },
+    {
+      "id": "lab2-09",
+      "startFrame": 1869,
+      "frames": 89
+    }
+  ]
+}

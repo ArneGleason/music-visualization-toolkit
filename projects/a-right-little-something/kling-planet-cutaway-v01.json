@@ -1,0 +1,44 @@
+{
+  "status": "Completed; user accepted in animatic v10",
+  "fps": 24,
+  "output": "generated/kling-tests/planet-cutaway-v01",
+  "reviewOutput": "generated/storyboard/kling-planet-cutaway-v01",
+  "estimatedCredits": 32,
+  "purpose": "Replace image-plane drift with a dimensional planet-only orbital take at the same 52 song frames.",
+  "reviewTitle": "The big world below / Kling orbital take",
+  "reviewSummary": "One four-second native 1080p orbital cutaway. Exact 52-frame lyric edit with half-second handles; no spacecraft or Harper.",
+  "reviewChecks": "Actual Kling orbital take: terrain/clouds and curved horizon travel against a nearly stationary distant star field. Movement is more apparent than the v09 image-plane drift. Sampled edit frames preserve mountain silhouettes, warm light and the alien palette; no ship, Harper, moons or HUD appears. User review of motion strength and cut flow is still pending.",
+  "shots": [
+    {
+      "id": "planet-orbit-v01",
+      "title": "The big world below / orbital glide",
+      "model": "kling-video-v3_0",
+      "duration": 4,
+      "resolution": "1080p",
+      "imageCount": 1,
+      "enable_audio": false,
+      "prefer_multi_shots": false,
+      "firstImage": "generated/storyboard/planet-cutaway-v01/planet-starting-frame-v01.png",
+      "tailImage": null,
+      "startFrame": 581,
+      "editFrames": 52,
+      "leadInFrames": 12,
+      "leadOutFrames": 12,
+      "prompt": "One continuous four-second cinematic illustrated orbital shot of an immense alien planet. Use the starting image for the world, its turquoise seas, rugged dark mountainous archipelagos, peach-gold clouds, narrow cyan atmosphere, warm sunlight from upper right and blue-violet nebula. The planet is the entire subject. The camera is freely flying in orbit, with no spacecraft or character visible.\n\nMake the motion clearly dimensional and appreciable within the middle two seconds. The camera cruises forward and sideways along a shallow orbital arc at steady high altitude, looking down across the curved horizon. Near mountain ridges, islands and cloud banks travel distinctly across the lower frame, while more distant terrain near the horizon moves less. Reveal a little new terrain beyond the foreground as we advance. This is an accelerated cinematic orbital passage; maintain the monumental planetary scale. Add subtle evolving cloud volume, fine sunlit mist and gentle changing highlights as we pass. The stars and nebula remain effectively fixed at astronomical distance, with no nearby star particles. The world remains solid and coherent, with real perspective change rather than moving a flat photograph or warping terrain.\n\nEstablish continuous movement from the first frame and carry it naturally through the last frame, with no cuts, stops or resets. Keep the broad curved horizon and roughly the starting planet framing throughout; no zoom-out to a small globe, no fast spinning ball, no whip pan. Across two seconds the closest visible terrain should move by roughly a tenth of the frame width, enough to register motion without rushing. Retain the painterly graphic-novel finish and rich illustrated detail. No ship, person, cabin, force-field lines, moons, hologram, text, logos or watermark. The following continuity lock defines off-screen characters/ship and the shared visual style; do not introduce those off-screen subjects into this planet-only shot.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure. Harper is the established adult freckled woman with curly auburn hair, gray short-sleeve tee, gray trousers and bare feet. Ship: ultra-thin clear spherical technological field with faint curved cyan geodesic lines, dark satin metal equatorial band and upper/lower circular platforms, continuous amber rim lights, sparse rectangular cyan lamps, one aft vertical open engine ring with cyan inner arc when visible. Background Moon A is charcoal volcanic basalt/orange fissures and Moon B pale cyan ice/blue fractures when the angle includes them; neither is attached to the cabin or camera. Upper-right sunlight. Preserve complete metal geometry, no thick glass, bubble refraction, unrelated HUD, English text, logos or watermark. The authored navigation shot may contain a diegetic volumetric schematic and sparse invented glyphs, with enlarged celestial icons and compressed schematic spacing.",
+      "reviewNotes": "Actual Kling orbital take: terrain/clouds and curved horizon travel against a nearly stationary distant star field. Movement is more apparent than the v09 image-plane drift. Sampled edit frames preserve mountain silhouettes, warm light and the alien palette; no ship, Harper, moons or HUD appears. User review of motion strength and cut flow is still pending."
+    }
+  ],
+  "creditsConsumed": 32,
+  "generationId": "AS_j5dBO_1IKghqNbCojw99ZhQ4oBysFgSTuQC_C518liRnAOLHZYpxQ4XI303_S82UwR2p7",
+  "sourceResult": {
+    "width": 1916,
+    "height": 1080,
+    "fps": 24,
+    "frames": 97,
+    "sourceEditStartFrame": 13,
+    "editFrames": 52,
+    "availableLeadOutFrames": 33,
+    "reviewPresentation": "1920x1080 with two-pixel side padding; no upscaling or retiming"
+  },
+  "userSelected": true
+}

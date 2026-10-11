@@ -1,0 +1,43 @@
+{
+  "id": "escape-approach-v01",
+  "output": "generated/storyboard/escape-approach-v01",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v35.mp4",
+  "fadeFrames": 4,
+  "entryFadeFrames": 8,
+  "entryPlate": "generated/storyboard/orbit-blender-v03/hybrid/orbit-composite-handles.mp4",
+  "entryPlateFrame": 162,
+  "draftForReview": true,
+  "presentation": "Original robot ship exteriors with a new interior escape-approach intercut at So bright.",
+  "mediaLabel": "Kling / Blender / Harper escape-approach still draft",
+  "continuationNotes": "V36 replaces only So bright with Harper approaching a lit escape-pod hatch, preserving its31frame slot and surrounding native footage. Bright night remains the original ark exterior. Departure is planned for Leaving orbit at1958 after Bright night; pod design undecided. Exact timings, fades and master audio retained.",
+  "status": "Escape approach still in phrase timing review; no new native motion yet",
+  "reviewUrl": "http://127.0.0.1:8768/storyboard/escape-approach-v01/animatic-through-bright-night.mp4",
+  "stillReviewUrl": "http://127.0.0.1:8768/storyboard/escape-approach-v01/lab2-08.png",
+  "useMotion": true,
+  "motionShotIds": [
+    "lab2-01",
+    "lab2-02",
+    "lab2-03",
+    "lab2-04",
+    "lab2-05",
+    "lab2-06",
+    "lab2-07",
+    "lab2-09"
+  ],
+  "cameraMoves": {
+    "lab2-07": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

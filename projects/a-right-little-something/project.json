@@ -71,11 +71,30 @@
         "Interior camera sees through the field without an invented bubble perimeter",
         "Exterior keeps a restrained silhouette with subtle field glow; grid visibility may vary"
       ]
+    },
+    {
+      "id": "headquarters-alien-biopod-ark-v03",
+      "path": "generated/design/ark-biopods-v03/ark-biopods-design-v03.png",
+      "role": "New headquarters design reference: six lateral alien biopods and vertical field-drive ring; not yet applied to exterior animatic shots",
+      "status": "Superseded color/organism-scale draft; user requested muted variation and smaller organisms",
+      "directionFile": "ARK-BIOPOD-DESIGN.md",
+      "currentUse": false,
+      "supersededReason": "User returned to original robot headquarters ship"
+    },
+    {
+      "id": "headquarters-alien-biopod-ark-v04",
+      "path": "generated/design/ark-biopods-v04/ark-biopods-design-v04.png",
+      "role": "Latest headquarters ship reference: six lateral terrain-scale habitats with restrained color variation and a vertical field-drive ring",
+      "status": "User approved reference for replacement starter frames",
+      "directionFile": "ARK-BIOPOD-DESIGN.md",
+      "approvedOn": "2026-10-10",
+      "currentUse": false,
+      "supersededReason": "User returned to original robot headquarters ship"
     }
   ],
   "production": {
     "stage": "full_song_animatic_with_generated_opening",
-    "animatic": "generated/animatic/A-Right-Little-Something-opening-motion-v03.mp4",
+    "animatic": "generated/animatic/A-Right-Little-Something-selected-motion-v39.mp4",
     "videoProvider": "Kling",
     "style": "Graphic novel / illustrated comic; continue Monsters Undone",
     "fpsStatus": "provisional; matches previous Kling/animatic workflow",
@@ -93,6 +112,99 @@
       "placement": "One small centered line across the bottom; word-timed cyan highlight; subtle dark outline and shadow",
       "textPolicy": "Performed lyrics and original typos preserved",
       "scope": "Default for the full animatic and future shot assemblies"
+    },
+    "animaticReview": "http://127.0.0.1:8768/",
+    "hologramOverlayReview": "http://127.0.0.1:8768/storyboard/hologram-overlay-v03/",
+    "continuationNotes": "V39 replaces two escape stills with native Kling footage at1897–2010 and2010–2105. Interior starts1:19; exterior1:23.71. Nine previous prepared native chunks are reused. Native action and limitations recorded in shot notes. Exact timing, fades and original master audio preserved. Next channel begins2105.",
+    "windowCoastReview": "http://127.0.0.1:8768/storyboard/window-coast-v01/",
+    "klingCharacterReferences": {
+      "harper-gray-v01": {
+        "bindName": "Harper",
+        "image": "generated/storyboard/hybrid-ship-v01/harper-cutout-v01.png",
+        "attachmentMethod": "Kling image Element; gray full-body cover and detailed current-outfit face secondary",
+        "elementId": "323570155312565",
+        "secondaryImage": "generated/refs/ship-interior-reference.png"
+      }
+    },
+    "chorus1StillReview": "http://127.0.0.1:8768/storyboard/chorus1-ideas-v01/",
+    "chorus1MotionReview": "http://127.0.0.1:8768/storyboard/kling-chorus1-motion-v01/",
+    "windowCoastMotionReview": "http://127.0.0.1:8768/storyboard/kling-window-coast-v01/",
+    "chorusRevisionReview": "http://127.0.0.1:8768/storyboard/chorus-revision-v05/",
+    "labVerseReview": "http://127.0.0.1:8768/storyboard/escape-approach-motion-v01/animatic-through-bright-night.mp4",
+    "schematicFadeReview": "http://127.0.0.1:8768/storyboard/schematic-fade-v01/fade-review.mp4",
+    "headquartersArkModel": {
+      "model": "generated/design/ark-blender-v04/headquarters-ark-v04.blend",
+      "builder": "generated/design/ark-blender-v02/build_ark.py",
+      "firstBlockout": "generated/design/ark-blender-v01/headquarters-ark-v01.blend",
+      "status": "Shelved experiment; user chose original graphite submarine-like robot laboratory ship",
+      "review": "http://127.0.0.1:8768/storyboard/ark-illustrated-v01/review-board.html",
+      "cameraSweep": "http://127.0.0.1:8768/storyboard/ark-blender-v02/camera-sweep.mp4",
+      "animaticReplacement": false,
+      "newPaidGenerations": 0,
+      "styleSource": "generated/design/ark-blender-v03/style_ark.py",
+      "geometryPolishSource": "generated/design/ark-blender-v04/polish_ark.py",
+      "renderFinishSource": "generated/design/ark-blender-v04/finish_look.py",
+      "previousModel": "generated/design/ark-blender-v02/headquarters-ark-v02.blend",
+      "previousReview": "http://127.0.0.1:8768/storyboard/ark-blender-v02/review-board.html",
+      "cameraSweepNote": "Existing V02 sweep demonstrates fixed geometry; it does not show the updated V04 style.",
+      "renderSettings": {
+        "engine": "Cycles",
+        "device": "OptiX",
+        "samples": 96,
+        "viewTransform": "AgX",
+        "look": "Medium High Contrast",
+        "exposure": 0.25,
+        "proofSize": [
+          1600,
+          900
+        ],
+        "brushRadiusPixels": 3,
+        "brushBlend": 0.35
+      },
+      "animationStyleReviewPending": true,
+      "poseTransferExperiment": {
+        "manifest": "generated/storyboard/ark-pose-transfer-v01/experiment.json",
+        "review": "http://127.0.0.1:8768/storyboard/ark-pose-transfer-v01/review-board.html",
+        "status": "Experiment reviewed; user chose original ship instead",
+        "poses": [
+          "forward",
+          "aft"
+        ],
+        "animaticReplacement": false,
+        "klingSubmissions": 0
+      }
+    },
+    "headquartersShipDesignSelection": {
+      "reference": "generated/storyboard/lab-verse-v01/lab2-06.png",
+      "status": "User returned to original robot headquarters ship",
+      "changedOn": "2026-10-10",
+      "notes": "Retain original exterior motion except replace So bright without starward streaks."
+    },
+    "escapeSetup": {
+      "approachShot": "lab2-08",
+      "departureShot": "escape-001",
+      "exteriorShot": "escape-002",
+      "departureStartFrame": 1897,
+      "exteriorStartFrame": 2010,
+      "endFrameExclusive": 2105,
+      "timingDecision": "Latest user direction: cut inside at1:19, then exterior after Leaving orbit",
+      "podDesign": "User approved two cabin-derived ivory/graphite ovoid pod starter frames for Kling; native coherence awaits playback review",
+      "status": "User accepted both native takes in V39; clean save point",
+      "review": "http://127.0.0.1:8768/storyboard/escape-ejection-v01/review-board.html",
+      "motionReview": "http://127.0.0.1:8768/?v=v39",
+      "nativeMotionPlan": "kling-escape-ejection-v01.json",
+      "confirmedCumulativeKlingCredits": 2472
+    },
+    "checkpoint": {
+      "id": "2026-10-10-v39",
+      "acceptedAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v39.mp4",
+      "frames": 5265,
+      "fps": 24,
+      "developedThroughFrameExclusive": 2105,
+      "nextPhrase": "All the way to the next channel.",
+      "confirmedCumulativeKlingCredits": 2472,
+      "backupScope": "Plans, prompts, notes, timing metadata and production code; no new media",
+      "restoreCommand": "python tools/project_checkpoint.py projects/a-right-little-something/project.json --restore"
     }
   }
 }

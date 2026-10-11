@@ -1,0 +1,7 @@
+{
+  "route": "Built-in ImageGen",
+  "input": "generated/storyboard/chorus-revision-v02/scale-reveal-v01.png",
+  "reference": "generated/storyboard/opening-v01/opening-005-starting-frame-v04.png",
+  "output": "generated/storyboard/chorus-revision-v02/scale-reveal-v02.png",
+  "prompt": "Use case precise-object-edit. Edit ONLY the spherical FIELD appearance of the spacecraft in image 1, scale-reveal-v01. Image 2 is the approved ultra-thin field appearance reference. Keep the NEW image 1 composition, exact ship pose/position/size, Harper, all metal equatorial band geometry, platform ellipses, aft open engine ring, every amber/cyan lamp, terrain, clouds, spires, water, nebula, stars, star bloom, resolution, illustrated texture and palette unchanged. Replace the shiny glass bubble treatment with an ultra-thin nearly invisible clear technological energy field. REMOVE the broad warm/white specular bands and mirrored glare streaks on the upper-right shell, remove any thick glass perimeter or refraction. Preserve faint thin curved cyan mostly hexagonal geodesic lines following the existing sphere and a very restrained cyan silhouette. Space and Harper are seen clearly through this field without distortion. Metal rim highlights and warm star light stay luminous. This is a precise local field-surface correction, not a camera or ship redesign. No text, new objects or other changes."
+}

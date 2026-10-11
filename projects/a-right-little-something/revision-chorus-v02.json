@@ -1,0 +1,240 @@
+{
+  "id": "chorus-revision-v02",
+  "status": "V22 agent-reviewed working draft; full edit published, user review pending",
+  "output": "generated/storyboard/chorus-revision-v02",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v21.mp4",
+  "fps": 24,
+  "startFrame": 789,
+  "endFrameExclusive": 1550,
+  "transitionFrames": 10,
+  "transitionTypes": [
+    "fade",
+    "zoom-blur"
+  ],
+  "images": [
+    {
+      "id": "scale-reveal-new",
+      "startFrame": 854,
+      "endFrameExclusive": 912,
+      "output": "scale-reveal-v02.png",
+      "path": "generated/storyboard/chorus-revision-v02/scale-reveal-v02.png",
+      "route": "Built-in ImageGen, reference-guided fresh composition",
+      "prompt": "Use case illustration-story. Generate one new 16:9 cinematic painterly graphic-novel storyboard composition, no text. Reference 1 is ONLY the approved spacecraft geometry, warm rim lighting and immense turquoise/peach cloud-and-spire world design. Reference 2 governs the ultra-thin technological field appearance and Harper's identity/gray outfit. Create a FRESH EXTERIOR WIDE ANGLE, not the same shot or copied layout: a tiny complete spherical spacecraft floats in the upper-right quadrant beside an immense sweeping world occupying the lower-left two-thirds, with the curved horizon climbing diagonally toward the left edge. The ship occupies about 13 percent of image WIDTH, clearly readable dark satin metal equatorial band, upper/lower circular platforms, continuous amber rim lamps, sparse cyan rectangles, one aft open vertical engine ring with a bright cyan inner arc. Its field is ultra-thin clear with faint hexagonal cyan geodesic lines and no thick glass/refraction. Harper is a tiny auburn-haired adult gray-clothed barefoot silhouette floating inside, natural human proportions. New camera from slightly above and a little behind the port side, enough to see the platform ellipses and rear ring. Vast richly illustrated cloud banks, branching turquoise shallow water, peach coast and dark spires below make the ship/person feel SMALL against this living world. Warm upper-right star light, subtle illustrated golden bloom and long delicate light streaks in deep indigo/violet nebula starfield. No moons or other worlds, no arrows or paths, no labels, no borders or watermark. Preserve exactly one complete coherent ship, don't turn it into a flying saucer or cylinder. Compose with generous overscan room and detail across the whole frame so a slow editorial pan can begin near the ship and drift down-left across the enormous horizon. Bottom strip quiet for lyrics. Match the project's beautiful hand-painted detailed illustrated finish.",
+      "fieldCorrection": "scale-field-edit-v02.json"
+    },
+    {
+      "id": "creature-view",
+      "startFrame": 1228,
+      "endFrameExclusive": 1263,
+      "output": "creature-view-v01.png",
+      "prompt": "Use case: illustration-story. One 16:9 painterly graphic-novel storyboard still, no collage or text. Use the supplied coastal image for exact fauna, flora, palette and Harper identity/outfit, but make a radically different camera view. Camera is at the eye level of a tiny pearlescent six-legged shelled tidal animal. One of these creatures dominates the low foreground, partly side-on with its iridescent domed shell and clearly readable small front legs beside a blue stone and a thin stream of turquoise water. Violet ribbed fan-fronds arch over the channel like a large translucent forest. In the middle/background Harper's adult freckled face and auburn curls lean into view, curious and attentive, gray tee visible; she is recognizable but distant/soft, large compared to the little creature, with natural human proportions, no giant body transformation. The creature's world has agency; it observes the person who changed the flow. Strong intimate foreground scale, warm upper-right rim light, peach tidal sand, dark blue stone banks. This is the setup for You're something, followed by a dramatic wide ecosystem reveal. No spacecraft, moons, interface, equipment, seed capsule, printed words, lyric lettering, borders or watermark. Keep sophisticated illustrated finish and leave bottom 8 percent quiet for later captions. Preserve the original shell species rather than inventing an Earth crab. Two natural human hands at most if visible.",
+      "path": "generated/storyboard/chorus-revision-v01/creature-view-v01.png"
+    },
+    {
+      "id": "right-little-something",
+      "startFrame": 1263,
+      "endFrameExclusive": 1292,
+      "output": "right-little-something-v01.png",
+      "prompt": "Use case: illustration-story. One 16:9 cinematic painterly graphic-novel storyboard still, no collage or text. Use the supplied alien-coast frame for world/organism design and Harper identity/outfit, but make a dramatic change of camera and scale. Very high oblique wide view along an immense peach/turquoise tidal basin between distant dark-blue spires. Harper is a SMALL recognizable auburn-haired adult in a gray tee and gray trousers, kneeling near the origin of a tiny water opening, her figure only about 6 percent of image height. From that modest opening a broad beautiful living branching pattern radiates across the foreground and middle distance: winding turquoise streams, colonies of violet translucent ribbed fan-fronds opening like an organic constellation, and many small pearlescent six-legged shelled tidal creatures following the new channels. The effect reaches much farther than her body or gesture. One nearby side patch sits in shadow with a thinner water supply, a subtle unresolved consequence rather than devastation. This is the key A right little something image: her small action has a much larger independent living response, wonder and uncertain responsibility. Strong depth and sweeping luminous curves, warmth from upper-right sun, peach clouds, richly detailed illustration consistent with the original. Do not draw literal navigation lines or a schematic. Normal human proportions, no giant Harper, no floating ship, moons, HUD, text, labels, border or watermark. Reserve a quiet bottom strip for later lyrics.",
+      "path": "generated/storyboard/chorus-revision-v01/right-little-something-v01.png"
+    },
+    {
+      "id": "orbit-clean",
+      "startFrame": 1412,
+      "endFrameExclusive": 1550,
+      "output": "orbit-clean-v01.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied three-world cosmic illustration only to remove ALL route markings. Keep exactly the same planet/world silhouettes, positions, ecology, clouds, warm upper-right sunlight, stars, nebula, palette, resolution, framing and illustrated texture. Remove every cyan/amber/white orbital arc, path line, ribbon, traveling light, glowing navigation trail and curved ring connecting or looping around the worlds. Restore uninterrupted natural starfield/nebula underneath. On the turquoise world's surface, preserve natural rivers/coastlines but remove artificial bright drawn route traces, restoring natural water/terrain. On the ochre and blue worlds preserve natural ecological detail, without new glowing schematic lines. This should be a beautiful CLEAN BACKGROUND PLATE ready for a gentle camera pullback and later deterministic route animation. No new planets, stars, character, spacecraft, circles, text, labels, borders or watermark. Do not change camera or redesign any world. No motion graphics are baked into this still.",
+      "path": "generated/storyboard/chorus-revision-v01/orbit-clean-v01.png"
+    }
+  ],
+  "orbitMotion": "generated/kling-tests/orbit-pullback-v01/orbit-pullback-v01/orbit-pullback-v01-01-clean.mp4",
+  "scaleMotion": "generated/kling-opening/continuous-v01/opening-003-continuous-tail/opening-003-continuous-tail-01-clean.mp4",
+  "cameraTrackNotes": "Native orbit-blender-v01.json uses hand-matched orthographic world positions and assumed depths. Planet spheres occlude 3D flight curves; this is not a recovered physical scene or precise feature track.",
+  "timingSource": "Existing DAWproject-derived animatic-data.json phrase starts; all frame spans are half-open and one-based.",
+  "orbitComposite": "generated/storyboard/orbit-blender-v01/hybrid/orbit-composite-handles.mp4",
+  "nativeOrbitPlan": "orbit-blender-v01.json",
+  "workingTransition": "fade",
+  "reviewTitle": "Purposeful camera pans and Blender orbit flight",
+  "reviewIntro": "Camera moves travel smoothly across the composition: the mission moves from Harper toward the worlds, and the key wide opens from her small action onto the living channels. A fresh scale illustration replaces the reused footage. The creature now walks across the bank, and the key wide has flowing water, opening fronds and moving animals. Blender renders two actual 3D orbital loops, a native ship, layered filament wakes, sparks and bloom over the clean Kling plate. The separate fully native world images are an early procedural look study, visibly simpler than the target. Timings and original master audio are retained.",
+  "continuationNotes": "V22 working review: Ken Burns-style purposeful pans, fresh scale illustration with thin field correction, actual creature walking and animated living wide, Blender orbital loops and layered luminous wakes over the clean background. Both approved Kling tasks collected, 96 credits. Native procedural worlds are an unfinished separate look study. Exact master and phrase boundaries preserved; V21 retained.",
+  "entryOverrides": {
+    "scale-reveal": {
+      "path": "generated/storyboard/chorus-revision-v02/scale-reveal-v02.png",
+      "still": true,
+      "lead": 0
+    },
+    "creature-view": {
+      "path": "generated/kling-tests/ecology-motion-v01/creature-walking-v01/creature-walking-v01-01-clean.mp4",
+      "still": false,
+      "lead": 35,
+      "reviewNotes": "Actual body translation and sequential stepping; strongest walking starts later than first source second. Source zero-index 35 starts the 35-frame edit, preserving >=24 frames of handles."
+    },
+    "right-little-something": {
+      "path": "generated/kling-tests/ecology-motion-v01/living-channels-v01/living-channels-v01-01-clean.mp4",
+      "still": false,
+      "lead": 24,
+      "reviewNotes": "Moving downstream ripples, progressively opening violet fronds and wading animals; static key-wide is replaced with actual animated ecology."
+    }
+  },
+  "cameraMoves": {
+    "scale-reveal": {
+      "zoom": [
+        1.3,
+        1.035
+      ],
+      "panX": [
+        1,
+        0.45
+      ],
+      "panY": [
+        0.15,
+        0.7
+      ],
+      "purpose": "Begin near the ship; open down-left across the vast horizon."
+    },
+    "mission-drift": {
+      "zoom": [
+        1.22,
+        1.16
+      ],
+      "panX": [
+        1,
+        0
+      ],
+      "panY": [
+        0.35,
+        0.45
+      ],
+      "purpose": "Travel from Harper toward the chosen ecosystem; a single monotonic pan."
+    },
+    "creature-view": {
+      "zoom": [
+        1.12,
+        1.12
+      ],
+      "panX": [
+        0,
+        0.65
+      ],
+      "panY": [
+        0.75,
+        0.7
+      ],
+      "purpose": "Follow the foreground creature along its bank."
+    },
+    "right-little-something": {
+      "zoom": [
+        1.28,
+        1.035
+      ],
+      "panX": [
+        0,
+        0.52
+      ],
+      "panY": [
+        0.42,
+        0.72
+      ],
+      "purpose": "Open from Harper to the branching foreground response."
+    }
+  },
+  "reviewLinks": [
+    {
+      "href": "/storyboard/orbit-blender-v01/review-board.html",
+      "title": "Compare the Blender effects and the fully native world look study"
+    },
+    {
+      "href": "/storyboard/chorus-revision-v01/",
+      "title": "Previous v21 transition review"
+    }
+  ],
+  "previous2DAnchors": [
+    {
+      "frame": 0,
+      "anchors": [
+        [
+          0.29,
+          0.64
+        ],
+        [
+          0.48,
+          0.32
+        ],
+        [
+          0.81,
+          0.62
+        ]
+      ]
+    },
+    {
+      "frame": 24,
+      "anchors": [
+        [
+          0.3,
+          0.65
+        ],
+        [
+          0.48,
+          0.33
+        ],
+        [
+          0.8,
+          0.62
+        ]
+      ]
+    },
+    {
+      "frame": 96,
+      "anchors": [
+        [
+          0.33,
+          0.66
+        ],
+        [
+          0.48,
+          0.35
+        ],
+        [
+          0.78,
+          0.62
+        ]
+      ]
+    },
+    {
+      "frame": 161,
+      "anchors": [
+        [
+          0.35,
+          0.67
+        ],
+        [
+          0.48,
+          0.37
+        ],
+        [
+          0.75,
+          0.62
+        ]
+      ]
+    },
+    {
+      "frame": 192,
+      "anchors": [
+        [
+          0.36,
+          0.68
+        ],
+        [
+          0.48,
+          0.39
+        ],
+        [
+          0.74,
+          0.62
+        ]
+      ]
+    }
+  ],
+  "mediaLabel": "Kling / purposeful camera pans / Blender orbital flight",
+  "entryReviewNotes": "V22 working review: purposeful camera move, actual ecology motion and native 3D orbit effects; user review pending."
+}

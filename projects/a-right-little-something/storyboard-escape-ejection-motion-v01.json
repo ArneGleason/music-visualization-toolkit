@@ -1,0 +1,75 @@
+{
+  "id": "escape-ejection-motion-v01",
+  "output": "generated/storyboard/escape-ejection-motion-v01",
+  "sourceAnimatic": "generated/animatic/A-Right-Little-Something-selected-motion-v38.mp4",
+  "fadeFrames": 4,
+  "entryFadeFrames": 8,
+  "entryPlate": "generated/storyboard/orbit-blender-v03/hybrid/orbit-composite-handles.mp4",
+  "entryPlateFrame": 162,
+  "draftForReview": false,
+  "presentation": "Accepted robot-lab footage followed by native secured-cabin release and exterior pod departure, in the full song.",
+  "mediaLabel": "Kling / Blender / native escape sequence",
+  "continuationNotes": "V39 replaces two escape stills with native Kling footage at1897–2010 and2010–2105. Interior starts1:19; exterior1:23.71. Nine previous prepared native chunks are reused. Native action and limitations recorded in shot notes. Exact timing, fades and original master audio preserved. Next channel begins2105.",
+  "status": "User accepted native escape sequence in full V39; clean save point",
+  "reviewUrl": "http://127.0.0.1:8768/?v=v39",
+  "stillReviewUrl": "http://127.0.0.1:8768/storyboard/escape-ejection-v01/review-board.html",
+  "useMotion": true,
+  "motionShotIds": [
+    "lab2-01",
+    "lab2-02",
+    "lab2-03",
+    "lab2-04",
+    "lab2-05",
+    "lab2-06",
+    "lab2-07",
+    "lab2-08",
+    "lab2-09",
+    "escape-001",
+    "escape-002"
+  ],
+  "cameraMoves": {
+    "lab2-07": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    },
+    "escape-001": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    },
+    "escape-002": {
+      "zoom": [
+        1,
+        1
+      ],
+      "panX": [
+        0.5,
+        0.5
+      ],
+      "panY": [
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "userAccepted": true
+}

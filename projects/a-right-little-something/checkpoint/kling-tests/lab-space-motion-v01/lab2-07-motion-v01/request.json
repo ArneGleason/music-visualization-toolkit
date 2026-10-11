@@ -1,0 +1,20 @@
+{
+  "id": "lab2-07-motion-v01",
+  "shotId": "lab2-07",
+  "title": "Dark sky",
+  "startFrame": 1809,
+  "editFrames": 29,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "model": "kling-video-v3_0",
+  "duration": 6,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/lab-verse-v01/lab2-07.png",
+  "prompt": "Deep-space dark-sky view of the same laboratory ark. Smooth measured lateral camera drift to the right while the ark glides slowly toward the upper-right, leaving more empty deep indigo-black sky on the left. Distinct lateral travel rather than another pullback. Preserve the exact hull and spars, lit oval culture galleries and amber lines; cyan aft energy stays restrained. Distant stars stay far away, no high-speed warp streaks, spinning, banking or new worlds. One uninterrupted six-second exterior shot. Motion established at the start and continuous throughout. Preserve exact illustrated painterly graphic-novel rendering and source geometry. No cuts, internal dissolves, readable text, captions, generated audio or new objects.\n\nPROMPT LOCK: Cinematic painterly graphic-novel space adventure matching the approved laboratory-ark stills. The headquarters ark is the same massive elongated graphite submarine-like vessel with oval cyan-lit culture galleries, amber longitudinal lights, asymmetric branching service spars and restrained cyan aft drive. Preserve complete hull geometry and lighting design across exterior views. Cosmic space is deep indigo-black with richly painted cyan/violet nebulae and warm illustrated star bloom. Exterior views only: do not introduce human figures or interior views. No readable text, captions, logos, watermark, panel divisions, camera shake or zoom blur.",
+  "reviewNotes": "Slow pan lets the hull slide out of bright foreground into vast darkness. Hold through the 5-frame gap.",
+  "estimatedCredits": 48
+}
