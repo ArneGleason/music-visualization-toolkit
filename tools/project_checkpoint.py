@@ -26,6 +26,9 @@ PRODUCTION_METADATA = {
     'native-review.json', 'assembly-plan.json', 'pullback-frame-map.json',
     'reverse-frame-map.json', 'departure-manifest.json',
     'gallery-manifest.json', 'gallery-options.json', 'concat.txt', 'lyrics.ass',
+    'generation-plan.json', 'still-validation.json',
+    'selection-overrides.json', 'media-manifest.json', 'qa-observations.json',
+    'source-manifest.json', 'star-tracks.json', 'title.ass',
 }
 
 

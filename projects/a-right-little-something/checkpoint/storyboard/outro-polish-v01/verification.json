@@ -1,0 +1,42 @@
+{
+  "fullFrames": 5265,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "sectionFrames": 820,
+  "newPaidCredits": 0,
+  "systemStartFrame": 4484,
+  "systemFirstFullFrame": 4488,
+  "harperFadeStartFrame": 5137,
+  "harperFadeEndFrame": 5185,
+  "titleFirstFrame": 5185,
+  "titleFullyVisibleFrame": 5197,
+  "reversedShot": "contact-028-travel",
+  "v63Preserved": true,
+  "audio": "V63 original AAC packets verified identical by insertion tool",
+  "reviewStatus": "Pending user review",
+  "sampledFullFrames": [
+    4488,
+    4558,
+    4666,
+    4764,
+    4781,
+    4815,
+    4907,
+    4998,
+    5137,
+    5161,
+    5185,
+    5210,
+    5265
+  ],
+  "browserPlayback": {
+    "version": "v64",
+    "startedAt": 182.844378,
+    "reachedEndAt": 219.392,
+    "readyState": 4,
+    "mediaError": null,
+    "cuedAt": 182.844378
+  },
+  "proofScreenshot": "v64-review-ready.png"
+}

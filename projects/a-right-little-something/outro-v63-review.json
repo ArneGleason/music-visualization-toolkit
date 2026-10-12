@@ -1,0 +1,27 @@
+{
+  "sourceVersion": "v63",
+  "targetVersion": "v64",
+  "newPaidCredits": 0,
+  "directions": [
+    "Leave Harper World by 3:07; advance System View to bar 71 beat 2 / frame 4484 and add motion.",
+    "Reverse Travel 28 at 3:17.833, using the same selected source interval.",
+    "Add a stronger push to Stellar Nursery, a pan/push to Red Star System moon, and a restrained move on Galactic Possibilities.",
+    "Travel 27 gets a subtle dark cyan transparent sphere and mild spherical refraction, affecting background only.",
+    "Preserve the accepted finale entry. Fade Harper from 3:34 to 3:36, leaving cosmic background.",
+    "Final title A Right Little Something; smaller copyright © 2026 Arne Gleason underneath."
+  ],
+  "title": "A Right Little Something",
+  "copyright": "© 2026 Arne Gleason",
+  "copyrightNameEvidence": "Existing Monsters Undone title credits in the same workspace and Git identity.",
+  "harperFade": {
+    "startFrame": 5137,
+    "endFrame": 5185,
+    "startSeconds": 214,
+    "endSeconds": 216
+  },
+  "titleFade": {
+    "startFrame": 5185,
+    "endFrame": 5197
+  },
+  "preservedVersion": "v63"
+}

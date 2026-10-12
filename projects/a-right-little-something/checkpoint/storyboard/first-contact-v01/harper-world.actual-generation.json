@@ -1,0 +1,15 @@
+{
+  "shot": "contact-026",
+  "route": "built-in image_gen",
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Wide rear three-quarter interior Harper floating full body with both feet visible, looking at great curved emerald planet through dome. Hands relaxed, very sparse inactive cyan controls. Contemplative pause before wider exploration, one outer ship equator only, no inner rings. Composition different from earlier frontal cabin analysis.\nREFERENCE ROLES: harper, cabin, planet; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n\nSCENE EXCLUSION: Harper alone aboard, NO creatures, pets, other people, settlements, homes or projections. Both feet fully visible.",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\affirmation.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\target-profile.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ]
+    }
+  ]
+}

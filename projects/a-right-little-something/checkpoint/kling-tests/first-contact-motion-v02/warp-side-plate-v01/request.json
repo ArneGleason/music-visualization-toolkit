@@ -1,0 +1,27 @@
+{
+  "id": "warp-side-plate-v01",
+  "shotId": "contact-027-travel",
+  "title": "Ship and Harper / outro separate plate",
+  "startFrame": 4649,
+  "editFrames": 34,
+  "sourceEditStartFrame": 25,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "model": "kling-video-v3_0",
+  "duration": 4,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/first-contact-motion-v02/ship-side-chroma.png",
+  "firstImageSha256": "dde2ac9a65ef4c7f4aa17ba18f044fa23e57bf222b209134b1cd26d3fa000c5b",
+  "prompt": "4 seconds. Silent native 1080p. A locked effects-source plate. Keep the whole sphere and engine absolutely fixed in screen space. Only Harper floats a few centimeters gently inside, bends one knee a little, and lets her arms settle, with small natural curly-hair movement. She stays entirely visible and looks in her current forward direction away from camera throughout; no turn toward camera or speech. All empty background and transparent dome spaces stay perfectly flat vivid magenta. No warp streaks, stars, exhaust, floor, moving ship, shadows or reflections. Preserve the exact ship silhouette and hexagonal dome lines. One second lead-in and lead-out.\n\nMOTION CONTINUITY LOCK: Preserve the exact visible subjects, proportions, materials, fine illustrated linework, palette and camera framing of the input. A single continuous silent full-frame 16:9 shot. Do not invent subjects absent from the image. No cuts, transitions, text, logos, new objects, extra limbs or transformations. Keep facial identity and anatomy stable. Only perform the specifically requested small motion.",
+  "estimatedCredits": 32,
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "tailImage": "generated/storyboard/first-contact-motion-v02/ship-side-chroma.png"
+}

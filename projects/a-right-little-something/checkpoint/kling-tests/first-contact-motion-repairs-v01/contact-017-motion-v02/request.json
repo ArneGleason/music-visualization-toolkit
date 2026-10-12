@@ -1,0 +1,23 @@
+{
+  "id": "contact-017-motion-v02",
+  "shotId": "contact-017",
+  "plate": "main",
+  "title": "Tidal Life",
+  "startFrame": 3937,
+  "editFrames": 33,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "sourceEditStartFrame": 25,
+  "model": "kling-video-v3_0",
+  "duration": 4,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/first-contact-v01/tidal-life.png",
+  "firstImageSha256": "53b95d9526f4f5d1b94a95e384a12b0c83f15b5821b5babc0118ea8949437338",
+  "prompt": "4 seconds. Silent native1080p. LANDSCAPE AND SHELLED FAN-FEEDERS ONLY. Low tidal-flat view of copper water channels, mineral mud, reed growth and the existing original shelled filter-feeders. Shallow water ripples slowly; feeding fans make small opening and closing motions. Fixed camera, stable shoreline and distant cloud banks. The sky and horizon stay empty except for the existing weather. Nothing materializes. No visitor, floating object, person, projection, sphere, spacecraft or reflection of any such object. Continuous restrained motion with one-second lead-in and lead-out.\n\nMOTION REPAIR LOCK: Preserve exactly the subjects, composition, illustration style and physical setting visible in the input image. Fine controlled ink contours and detailed painterly materials. One continuous full-frame16:9 shot. Do not invent or reveal any subject absent from the input. No people, faces, holograms, spacecraft, symbols, text, montage, cuts or transitions. The shot-specific instructions are the full subject list; no wider story is depicted.",
+  "estimatedCredits": 32,
+  "editorialNotes": "Corrected native take: excludes unrelated characters or spacecraft introduced by the first pass."
+}

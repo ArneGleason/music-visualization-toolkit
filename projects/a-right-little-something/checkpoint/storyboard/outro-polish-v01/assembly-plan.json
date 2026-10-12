@@ -1,0 +1,221 @@
+{
+  "version": "v64",
+  "source": "v63",
+  "fps": 24,
+  "startFrame": 4446,
+  "endFrameExclusive": 5266,
+  "frames": 820,
+  "entries": [
+    {
+      "shot": "contact-026",
+      "startFrame": 4446,
+      "frames": 38,
+      "endFrameExclusive": 4484,
+      "kind": "Replacement native Kling motion",
+      "take": "contact-026-motion-v02",
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-026-motion-v02/contact-026-motion-v02-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-026.mp4"
+    },
+    {
+      "shot": "contact-027",
+      "startFrame": 4484,
+      "frames": 165,
+      "endFrameExclusive": 4649,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-027-motion-v01/contact-027-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-027.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 4,
+        "startFrame": 4484,
+        "outgoingHandles": true
+      },
+      "retiming": {
+        "sourceStartFrame": 1,
+        "sourceFrames": 121,
+        "speed": 0.6666666666666666,
+        "interpolation": "motion compensated 24fps"
+      },
+      "effect": "contact-027",
+      "revisedSource": "generated/storyboard/outro-polish-v01/contact-027-effect.mp4",
+      "compositor": "generated/storyboard/outro-polish-v01/contact-027.blend"
+    },
+    {
+      "shot": "contact-027-travel",
+      "startFrame": 4649,
+      "frames": 34,
+      "endFrameExclusive": 4683,
+      "kind": "Blender composite",
+      "compositor": "generated/storyboard/outro-polish-v01/travel.blend",
+      "source": "generated/storyboard/first-contact-motion-v02/travel-effect.mp4",
+      "sourceIn": 0,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-027-travel.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4649,
+        "outgoingHandles": true
+      },
+      "effect": "travel",
+      "revisedSource": "generated/storyboard/outro-polish-v01/travel-effect.mp4"
+    },
+    {
+      "shot": "contact-028",
+      "startFrame": 4683,
+      "frames": 66,
+      "endFrameExclusive": 4749,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-repairs-v01/contact-028-motion-v02/contact-028-motion-v02-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-028.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4683,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-028-travel",
+      "startFrame": 4749,
+      "frames": 33,
+      "endFrameExclusive": 4782,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-028-travel-motion-v01/contact-028-travel-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-028-travel.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4749,
+        "outgoingHandles": true
+      },
+      "reverse": true,
+      "reverseFrameMap": {
+        "sourceFirstFrame": 57,
+        "sourceLastFrame": 25,
+        "editFrames": 33,
+        "outgoingHandleFrames": [
+          24,
+          23,
+          22,
+          21,
+          20,
+          19,
+          18,
+          17
+        ]
+      }
+    },
+    {
+      "shot": "contact-029",
+      "startFrame": 4782,
+      "frames": 66,
+      "endFrameExclusive": 4848,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-029-motion-v01/contact-029-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-029.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4782,
+        "outgoingHandles": true
+      },
+      "effect": "contact-029",
+      "revisedSource": "generated/storyboard/outro-polish-v01/contact-029-effect.mp4",
+      "compositor": "generated/storyboard/outro-polish-v01/contact-029.blend"
+    },
+    {
+      "shot": "contact-029-travel",
+      "startFrame": 4848,
+      "frames": 33,
+      "endFrameExclusive": 4881,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-029-travel-motion-v01/contact-029-travel-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-029-travel.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4848,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-030",
+      "startFrame": 4881,
+      "frames": 50,
+      "endFrameExclusive": 4931,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-030-motion-v01/contact-030-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-030.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4881,
+        "outgoingHandles": true
+      },
+      "effect": "contact-030",
+      "revisedSource": "generated/storyboard/outro-polish-v01/contact-030-effect.mp4",
+      "compositor": "generated/storyboard/outro-polish-v01/contact-030.blend"
+    },
+    {
+      "shot": "contact-030-travel",
+      "startFrame": 4931,
+      "frames": 33,
+      "endFrameExclusive": 4964,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-030-travel-motion-v01/contact-030-travel-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-030-travel.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4931,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-031",
+      "startFrame": 4964,
+      "frames": 67,
+      "endFrameExclusive": 5031,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-031-motion-v01/contact-031-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-031.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4964,
+        "outgoingHandles": true
+      },
+      "effect": "contact-031",
+      "revisedSource": "generated/storyboard/outro-polish-v01/contact-031-effect.mp4",
+      "compositor": "generated/storyboard/outro-polish-v01/contact-031.blend"
+    },
+    {
+      "shot": "contact-032",
+      "startFrame": 5031,
+      "frames": 235,
+      "endFrameExclusive": 5266,
+      "kind": "Retained Blender finale",
+      "source": "generated/storyboard/first-contact-motion-v01/finale-composite.mp4",
+      "sourceIn": 0,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-032.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 4,
+        "startFrame": 5031,
+        "outgoingHandles": true
+      },
+      "effect": "finale",
+      "revisedSource": "generated/storyboard/outro-polish-v01/finale-effect.mp4",
+      "compositor": "generated/storyboard/outro-polish-v01/finale.blend"
+    }
+  ]
+}

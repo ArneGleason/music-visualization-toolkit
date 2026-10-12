@@ -1,0 +1,26 @@
+{
+  "id": "contact-026-motion-v02",
+  "shotId": "contact-026",
+  "title": "Harper keeps watching the planet",
+  "startFrame": 4446,
+  "editFrames": 137,
+  "sourceEditStartFrame": 25,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "model": "kling-video-v3_0",
+  "duration": 8,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/first-contact-v03/harper-world.png",
+  "firstImageSha256": "15611a34bc4e583afd9e880a0219aa60e891158e0eac239986216bae29e85d4e",
+  "prompt": "8 seconds. Silent native 1080p. Rear over-shoulder view of Harper watching the planet. Keep the BACK of her curly head toward camera for ALL eight seconds. She never turns around, never reveals her face, and never looks toward camera. Gentle weightless breathing and tiny hair motion, her existing hand makes only a small settling movement and then rests. Her attention stays on the correctly round planet. Preserve hexagonal dome lines and shoulder framing; no speech, new interface, additional ring, cockpit furniture or body change. Fixed camera. One second lead-in and lead-out.\n\nMOTION CONTINUITY LOCK: Preserve the exact visible subjects, proportions, materials, fine illustrated linework, palette and camera framing of the input. A single continuous silent full-frame 16:9 shot. Do not invent subjects absent from the image. No cuts, transitions, text, logos, new objects, extra limbs or transformations. Keep facial identity and anatomy stable. Only perform the specifically requested small motion.",
+  "estimatedCredits": 64,
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ]
+}

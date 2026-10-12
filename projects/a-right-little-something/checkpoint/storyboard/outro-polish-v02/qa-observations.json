@@ -1,0 +1,72 @@
+{
+  "timelineComparedToV64": "All storyboard placement boundaries identical",
+  "reversedTravel28": "Exact V64 selection preserved",
+  "foregroundInteriorPixelChecks": {
+    "Harper suit": {
+      "maxDifference": 8,
+      "meanDifference": [
+        0.6657986111111112,
+        0.6614583333333334,
+        0.6666666666666666
+      ]
+    },
+    "Harper face": {
+      "maxDifference": 5,
+      "meanDifference": [
+        0.9688581314878892,
+        0.9515570934256056,
+        0.9896193771626297
+      ]
+    },
+    "Ship hull": {
+      "maxDifference": 21,
+      "meanDifference": [
+        0.5258333333333334,
+        0.66375,
+        0.7795833333333333
+      ]
+    },
+    "Engine core": {
+      "maxDifference": 1,
+      "meanDifference": [
+        0.17045454545454544,
+        0.11363636363636363,
+        0.1893939393939394
+      ]
+    }
+  },
+  "assembledSampleFrames": [
+    3173,
+    4446,
+    4483,
+    4567,
+    4620,
+    4666,
+    4764,
+    5035,
+    5137,
+    5161,
+    5185,
+    5210,
+    5265
+  ],
+  "visualReview": {
+    "sphereOptics": "Both spheres read visibly darker; Harper, hull and lights retain their original foreground graph. Background is radially refracted and attenuated only inside the tracked sphere.",
+    "foregroundPixelNote": "Interior differences average under one code value per channel against V63; keyed alpha allows minor background contribution. Source foreground pixels and node path are not processed by the new optical layer.",
+    "systemDeparture": "Clear cyan twinkle at upper-right limb; separate small light follows a curved accelerating path outwards.",
+    "planetPush": "Start/end comparison shows continuous planet-side push with no exposed image border.",
+    "ending": "Harper uses source frame73, 48 frames later. She fades from 3:34 to fully absent at3:36. Bahnschrift title and smaller copyright remain legible through final frame.",
+    "assembledSamples": "Thirteen full-edit frames inspected, including both sphere shots, departure, reversed travel, portrait fade and title."
+  },
+  "browserPlayback": {
+    "version": "v65",
+    "earlyWarp": "Played from 2:11 beyond the revised shot",
+    "outro": "Played from 3:02.8 through end",
+    "ended": true,
+    "readyState": 4,
+    "mediaError": null,
+    "endTime": 219.392,
+    "leftCuedAt": "2:11",
+    "proof": "v65-review-ready.png"
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "status": "Ready for user motion review; all selected source ranges and assembled spot checks completed",
+  "method": "Visual contact sheets at exact selected source ranges; frame count, resolution and fps checked for every source. Not a claim of human approval.",
+  "observations": [
+    {
+      "id": "contact-001-motion-v01",
+      "selectedTake": "contact-001-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Single warp pulse and forward streaks; ship geometry retained.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 18
+    },
+    {
+      "id": "contact-002-motion-v01",
+      "selectedTake": "contact-002-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Rear warp travel remains clear within the brief cut.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 42
+    },
+    {
+      "id": "contact-003-motion-v01",
+      "selectedTake": "contact-003-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Stable orbital drift and single sunrise flare.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 58
+    },
+    {
+      "id": "contact-004-motion-v01",
+      "selectedTake": "contact-004-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Readable fingertip selection in large volumetric terrain map.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 33
+    },
+    {
+      "id": "contact-005-motion-v01",
+      "selectedTake": "contact-005-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Use clean source frames 1-25, before unwanted holographic figure appears later. No extra generation cost.",
+      "sourceEditStartFrame": 1,
+      "editFrames": 25
+    },
+    {
+      "id": "contact-006-motion-v01",
+      "selectedTake": "contact-006-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Companions look upward and gesture with recognizable bodies.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 64
+    },
+    {
+      "id": "contact-007-motion-v01",
+      "selectedTake": "contact-007-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Hands sweep then settle; large terrain map and hexagonal dome remain readable.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 111
+    },
+    {
+      "id": "contact-008-motion-v01",
+      "selectedTake": "contact-008-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Smooth aerial valley drift with subtle water movement.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 57
+    },
+    {
+      "id": "contact-009-motion-v01",
+      "selectedTake": "contact-009-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Restrained expression and hand action inside hexagonal dome.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 58
+    },
+    {
+      "id": "contact-010-motion-v01",
+      "selectedTake": "contact-010-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Cyan contact haze moves while the creatures watch.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 55
+    },
+    {
+      "id": "contact-011-motion-v01",
+      "selectedTake": "contact-011-motion-v02",
+      "result": "ready-for-user-motion-review",
+      "notes": "Corrected take retains creature head turn/blink and tiny sky point without adding a ship or Harper.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 35
+    },
+    {
+      "id": "contact-012-motion-v01",
+      "selectedTake": "contact-012-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Cyan transparent Harper projection and creature gesture remain clear.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 36
+    },
+    {
+      "id": "contact-013-motion-v01",
+      "selectedTake": "contact-013-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Valley camera drift with stable landscape.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 63
+    },
+    {
+      "id": "contact-014-motion-v01",
+      "selectedTake": "contact-014-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Creature lifts its soil-working tool with consistent forefeet.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 56
+    },
+    {
+      "id": "contact-015-motion-v01",
+      "selectedTake": "contact-015-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Fruit passes between the two creatures.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 56
+    },
+    {
+      "id": "contact-016-motion-v01",
+      "selectedTake": "contact-016-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Gliders cross the valley in the brief insert.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 26
+    },
+    {
+      "id": "contact-017-motion-v01",
+      "selectedTake": "contact-017-motion-v02",
+      "result": "ready-for-user-motion-review",
+      "notes": "Corrected take contains water and fan-feeders, with no invented visitors or spacecraft.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 33
+    },
+    {
+      "id": "contact-018-motion-v01",
+      "selectedTake": "contact-018-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Highland grazers retain their forms during subtle movement.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 34
+    },
+    {
+      "id": "contact-019-motion-v01",
+      "selectedTake": "contact-019-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Two creatures work on the bridge railing.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 51
+    },
+    {
+      "id": "contact-020-motion-v01",
+      "selectedTake": "contact-020-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Night settlement pan and creature movement preserve atmosphere.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 114
+    },
+    {
+      "id": "contact-021-motion-v01",
+      "selectedTake": "contact-021-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Creature portrait remains stable as the forefoot settles.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 120
+    },
+    {
+      "id": "contact-022-motion-v01",
+      "selectedTake": "contact-022-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Ground-contact insert maintains foot and surface contact.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 63
+    },
+    {
+      "id": "contact-023-motion-v01",
+      "selectedTake": "contact-023-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Translucent Harper nods toward the creature.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 37
+    },
+    {
+      "id": "contact-024-motion-v01",
+      "selectedTake": "contact-024-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Macro eye opens from a blink, retaining the small cyan point.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 27
+    },
+    {
+      "id": "contact-025-motion-v01",
+      "selectedTake": "contact-025-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Quiet night orbit retains planet and distant ship.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 30
+    },
+    {
+      "id": "contact-026-motion-v01",
+      "selectedTake": "contact-026-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Harper turns and raises her hand inside the hexagonal dome.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 137
+    },
+    {
+      "id": "contact-027-motion-v01",
+      "selectedTake": "contact-027-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "System view retains its stars and planets.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 66
+    },
+    {
+      "id": "contact-027-travel-motion-v01",
+      "selectedTake": "contact-027-travel-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Short forward travel with visible Harper and consistent sphere.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 34
+    },
+    {
+      "id": "contact-028-motion-v01",
+      "selectedTake": "contact-028-motion-v02",
+      "result": "ready-for-user-motion-review",
+      "notes": "Corrected binary-star shot retains an opaque planet throughout; no hole or landscape cutaway.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 66
+    },
+    {
+      "id": "contact-028-travel-motion-v01",
+      "selectedTake": "contact-028-travel-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Side travel with colored streaks and visible Harper.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 33
+    },
+    {
+      "id": "contact-029-motion-v01",
+      "selectedTake": "contact-029-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Stellar nursery movement retains the cloud shapes.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 66
+    },
+    {
+      "id": "contact-029-travel-motion-v01",
+      "selectedTake": "contact-029-travel-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Rear travel insert retains ship and passenger.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 33
+    },
+    {
+      "id": "contact-030-motion-v01",
+      "selectedTake": "contact-030-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Red-star destination retains planet shape and lighting.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 50
+    },
+    {
+      "id": "contact-030-travel-motion-v01",
+      "selectedTake": "contact-030-travel-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Ship arcs toward the galaxy, creating a clear travel beat before the wide destination.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 33
+    },
+    {
+      "id": "contact-031-motion-v01",
+      "selectedTake": "contact-031-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Galactic network lights move without introducing unrelated subjects.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 67
+    },
+    {
+      "id": "contact-032-cosmic-background-motion-v01",
+      "selectedTake": "contact-032-cosmic-background-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Cosmic route camera movement remains independent of portrait.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 235
+    },
+    {
+      "id": "contact-032-harper-portrait-motion-v01",
+      "selectedTake": "contact-032-harper-portrait-motion-v01",
+      "result": "ready-for-user-motion-review",
+      "notes": "Portrait retains quiet awe on black; eyes and head move without a broad smile.",
+      "sourceEditStartFrame": 25,
+      "editFrames": 235
+    }
+  ],
+  "assembledReview": {
+    "browserPlayback": "V62 played from 130.964 to 153.945 seconds without loading error, then paused and recued at 2:11.",
+    "spotCheckFrames": [
+      3144,
+      3262,
+      3665,
+      3937,
+      4683,
+      5030,
+      5031,
+      5148,
+      5265
+    ],
+    "finale": "Frame 5030 is galaxy; 5031 is the Blender composite. Both video layers change through the ending.",
+    "proof": "v62-review-ready.png"
+  }
+}

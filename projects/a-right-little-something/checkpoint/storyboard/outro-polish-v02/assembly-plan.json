@@ -1,0 +1,430 @@
+{
+  "version": "v65",
+  "source": "v64",
+  "fps": 24,
+  "startFrame": 3144,
+  "endFrameExclusive": 5266,
+  "frames": 2122,
+  "entries": [
+    {
+      "shot": "contact-001",
+      "startFrame": 3144,
+      "endFrameExclusive": 3162,
+      "frames": 18,
+      "clip": "generated/storyboard/outro-polish-v02/clips/contact-001.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-001.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments",
+      "effect": "opening",
+      "effectSourceIn": 0,
+      "compositor": "generated/storyboard/outro-polish-v02/opening.blend"
+    },
+    {
+      "shot": "contact-002",
+      "startFrame": 3162,
+      "endFrameExclusive": 3204,
+      "frames": 42,
+      "clip": "generated/storyboard/outro-polish-v02/clips/contact-002.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-002.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments",
+      "effect": "opening",
+      "effectSourceIn": 18,
+      "compositor": "generated/storyboard/outro-polish-v02/opening.blend"
+    },
+    {
+      "shot": "contact-003",
+      "startFrame": 3204,
+      "endFrameExclusive": 3262,
+      "frames": 58,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-003.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-003.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-004",
+      "startFrame": 3262,
+      "endFrameExclusive": 3295,
+      "frames": 33,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-004.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-004.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-005",
+      "startFrame": 3295,
+      "endFrameExclusive": 3320,
+      "frames": 25,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-005.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-005.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-006",
+      "startFrame": 3320,
+      "endFrameExclusive": 3384,
+      "frames": 64,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-006.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-006.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-007",
+      "startFrame": 3384,
+      "endFrameExclusive": 3495,
+      "frames": 111,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-007.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-007.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-008",
+      "startFrame": 3495,
+      "endFrameExclusive": 3552,
+      "frames": 57,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-008.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-008.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-009",
+      "startFrame": 3552,
+      "endFrameExclusive": 3610,
+      "frames": 58,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-009.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-009.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-010",
+      "startFrame": 3610,
+      "endFrameExclusive": 3665,
+      "frames": 55,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-010.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-010.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-011",
+      "startFrame": 3665,
+      "endFrameExclusive": 3700,
+      "frames": 35,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-011.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-011.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-012",
+      "startFrame": 3700,
+      "endFrameExclusive": 3736,
+      "frames": 36,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-012.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-012.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-013",
+      "startFrame": 3736,
+      "endFrameExclusive": 3799,
+      "frames": 63,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-013.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-013.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-014",
+      "startFrame": 3799,
+      "endFrameExclusive": 3855,
+      "frames": 56,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-014.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-014.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-015",
+      "startFrame": 3855,
+      "endFrameExclusive": 3911,
+      "frames": 56,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-015.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-015.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-016",
+      "startFrame": 3911,
+      "endFrameExclusive": 3937,
+      "frames": 26,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-016.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-016.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 4,
+        "startFrame": 3911,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-017",
+      "startFrame": 3937,
+      "endFrameExclusive": 3970,
+      "frames": 33,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-017.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-017.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 4,
+        "startFrame": 3937,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-018",
+      "startFrame": 3970,
+      "endFrameExclusive": 4004,
+      "frames": 34,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-018.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-018.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 4,
+        "startFrame": 3970,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-019",
+      "startFrame": 4004,
+      "endFrameExclusive": 4055,
+      "frames": 51,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-019.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-019.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-020",
+      "startFrame": 4055,
+      "endFrameExclusive": 4169,
+      "frames": 114,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-020.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-020.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-021",
+      "startFrame": 4169,
+      "endFrameExclusive": 4289,
+      "frames": 120,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-021.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-021.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-022",
+      "startFrame": 4289,
+      "endFrameExclusive": 4334,
+      "frames": 45,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-022.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-022.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-023",
+      "startFrame": 4334,
+      "endFrameExclusive": 4371,
+      "frames": 37,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-023.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-023.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-024",
+      "startFrame": 4371,
+      "endFrameExclusive": 4416,
+      "frames": 45,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-024.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-024.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-025",
+      "startFrame": 4416,
+      "endFrameExclusive": 4446,
+      "frames": 30,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-025.mp4",
+      "priorClip": "generated/storyboard/first-contact-motion-v02/clips/contact-025.mp4",
+      "priorSegmentsRoot": "generated/storyboard/first-contact-motion-v02/segments"
+    },
+    {
+      "shot": "contact-026",
+      "startFrame": 4446,
+      "endFrameExclusive": 4484,
+      "frames": 38,
+      "clip": "generated/storyboard/outro-polish-v02/clips/contact-026.mp4",
+      "priorClip": "generated/storyboard/outro-polish-v01/clips/contact-026.mp4",
+      "priorSegmentsRoot": "generated/storyboard/outro-polish-v01/segments",
+      "effect": "planet-push",
+      "effectSourceIn": 0,
+      "compositor": "generated/storyboard/outro-polish-v02/planet-push.blend"
+    },
+    {
+      "shot": "contact-027",
+      "startFrame": 4484,
+      "endFrameExclusive": 4649,
+      "frames": 165,
+      "clip": "generated/storyboard/outro-polish-v02/clips/contact-027.mp4",
+      "priorClip": "generated/storyboard/outro-polish-v01/clips/contact-027.mp4",
+      "priorSegmentsRoot": "generated/storyboard/outro-polish-v01/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 4,
+        "startFrame": 4484,
+        "outgoingHandles": true
+      },
+      "effect": "system-departure",
+      "effectSourceIn": 0,
+      "compositor": "generated/storyboard/outro-polish-v02/system-departure.blend"
+    },
+    {
+      "shot": "contact-027-travel",
+      "startFrame": 4649,
+      "endFrameExclusive": 4683,
+      "frames": 34,
+      "clip": "generated/storyboard/outro-polish-v02/clips/contact-027-travel.mp4",
+      "priorClip": "generated/storyboard/outro-polish-v01/clips/contact-027-travel.mp4",
+      "priorSegmentsRoot": "generated/storyboard/outro-polish-v01/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4649,
+        "outgoingHandles": true
+      },
+      "effect": "travel",
+      "effectSourceIn": 0,
+      "compositor": "generated/storyboard/outro-polish-v02/travel.blend"
+    },
+    {
+      "shot": "contact-028",
+      "startFrame": 4683,
+      "endFrameExclusive": 4749,
+      "frames": 66,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-028.mp4",
+      "priorClip": "generated/storyboard/outro-polish-v01/clips/contact-028.mp4",
+      "priorSegmentsRoot": "generated/storyboard/outro-polish-v01/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4683,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-028-travel",
+      "startFrame": 4749,
+      "endFrameExclusive": 4782,
+      "frames": 33,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-028-travel.mp4",
+      "priorClip": "generated/storyboard/outro-polish-v01/clips/contact-028-travel.mp4",
+      "priorSegmentsRoot": "generated/storyboard/outro-polish-v01/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4749,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-029",
+      "startFrame": 4782,
+      "endFrameExclusive": 4848,
+      "frames": 66,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-029.mp4",
+      "priorClip": "generated/storyboard/outro-polish-v01/clips/contact-029.mp4",
+      "priorSegmentsRoot": "generated/storyboard/outro-polish-v01/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4782,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-029-travel",
+      "startFrame": 4848,
+      "endFrameExclusive": 4881,
+      "frames": 33,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-029-travel.mp4",
+      "priorClip": "generated/storyboard/outro-polish-v01/clips/contact-029-travel.mp4",
+      "priorSegmentsRoot": "generated/storyboard/outro-polish-v01/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4848,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-030",
+      "startFrame": 4881,
+      "endFrameExclusive": 4931,
+      "frames": 50,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-030.mp4",
+      "priorClip": "generated/storyboard/outro-polish-v01/clips/contact-030.mp4",
+      "priorSegmentsRoot": "generated/storyboard/outro-polish-v01/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4881,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-030-travel",
+      "startFrame": 4931,
+      "endFrameExclusive": 4964,
+      "frames": 33,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-030-travel.mp4",
+      "priorClip": "generated/storyboard/outro-polish-v01/clips/contact-030-travel.mp4",
+      "priorSegmentsRoot": "generated/storyboard/outro-polish-v01/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4931,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-031",
+      "startFrame": 4964,
+      "endFrameExclusive": 5031,
+      "frames": 67,
+      "clip": "generated/storyboard/outro-polish-v01/clips/contact-031.mp4",
+      "priorClip": "generated/storyboard/outro-polish-v01/clips/contact-031.mp4",
+      "priorSegmentsRoot": "generated/storyboard/outro-polish-v01/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4964,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-032",
+      "startFrame": 5031,
+      "endFrameExclusive": 5266,
+      "frames": 235,
+      "clip": "generated/storyboard/outro-polish-v02/clips/contact-032.mp4",
+      "priorClip": "generated/storyboard/outro-polish-v01/clips/contact-032.mp4",
+      "priorSegmentsRoot": "generated/storyboard/outro-polish-v01/segments",
+      "transition": {
+        "type": "dissolve",
+        "frames": 4,
+        "startFrame": 5031,
+        "outgoingHandles": true
+      },
+      "effect": "finale",
+      "effectSourceIn": 0,
+      "compositor": "generated/storyboard/outro-polish-v02/finale.blend"
+    }
+  ]
+}

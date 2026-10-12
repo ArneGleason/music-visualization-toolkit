@@ -1,0 +1,458 @@
+{
+  "version": "v63",
+  "source": "v62",
+  "fps": 24,
+  "startFrame": 3144,
+  "endFrameExclusive": 5266,
+  "frames": 2122,
+  "entries": [
+    {
+      "shot": "contact-001",
+      "startFrame": 3144,
+      "frames": 18,
+      "endFrameExclusive": 3162,
+      "kind": "Blender composite",
+      "compositor": "generated/storyboard/first-contact-motion-v02/opening.blend",
+      "source": "generated/storyboard/first-contact-motion-v02/opening-effect.mp4",
+      "sourceIn": 0,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-001.mp4"
+    },
+    {
+      "shot": "contact-002",
+      "startFrame": 3162,
+      "frames": 42,
+      "endFrameExclusive": 3204,
+      "kind": "Blender composite",
+      "compositor": "generated/storyboard/first-contact-motion-v02/opening.blend",
+      "source": "generated/storyboard/first-contact-motion-v02/opening-effect.mp4",
+      "sourceIn": 18,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-002.mp4"
+    },
+    {
+      "shot": "contact-003",
+      "startFrame": 3204,
+      "frames": 58,
+      "endFrameExclusive": 3262,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-003-motion-v01/contact-003-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-003.mp4"
+    },
+    {
+      "shot": "contact-004",
+      "startFrame": 3262,
+      "frames": 33,
+      "endFrameExclusive": 3295,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-004-motion-v01/contact-004-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-004.mp4"
+    },
+    {
+      "shot": "contact-005",
+      "startFrame": 3295,
+      "frames": 25,
+      "endFrameExclusive": 3320,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-005-motion-v01/contact-005-motion-v01-01-clean.mp4",
+      "sourceIn": 0,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-005.mp4"
+    },
+    {
+      "shot": "contact-006",
+      "startFrame": 3320,
+      "frames": 64,
+      "endFrameExclusive": 3384,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-006-motion-v01/contact-006-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-006.mp4"
+    },
+    {
+      "shot": "contact-007",
+      "startFrame": 3384,
+      "frames": 111,
+      "endFrameExclusive": 3495,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-007-motion-v01/contact-007-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-007.mp4"
+    },
+    {
+      "shot": "contact-008",
+      "startFrame": 3495,
+      "frames": 57,
+      "endFrameExclusive": 3552,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-008-motion-v01/contact-008-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-008.mp4"
+    },
+    {
+      "shot": "contact-009",
+      "startFrame": 3552,
+      "frames": 58,
+      "endFrameExclusive": 3610,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-009-motion-v01/contact-009-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-009.mp4"
+    },
+    {
+      "shot": "contact-010",
+      "startFrame": 3610,
+      "frames": 55,
+      "endFrameExclusive": 3665,
+      "kind": "Replacement native Kling motion",
+      "take": "contact-010-motion-v02",
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-010-motion-v02/contact-010-motion-v02-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-010.mp4"
+    },
+    {
+      "shot": "contact-011",
+      "startFrame": 3665,
+      "frames": 35,
+      "endFrameExclusive": 3700,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-repairs-v01/contact-011-motion-v02/contact-011-motion-v02-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-011.mp4"
+    },
+    {
+      "shot": "contact-012",
+      "startFrame": 3700,
+      "frames": 36,
+      "endFrameExclusive": 3736,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-012-motion-v01/contact-012-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-012.mp4"
+    },
+    {
+      "shot": "contact-013",
+      "startFrame": 3736,
+      "frames": 63,
+      "endFrameExclusive": 3799,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-013-motion-v01/contact-013-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-013.mp4"
+    },
+    {
+      "shot": "contact-014",
+      "startFrame": 3799,
+      "frames": 56,
+      "endFrameExclusive": 3855,
+      "kind": "Replacement native Kling motion",
+      "take": "contact-014-motion-v02",
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-014-motion-v02/contact-014-motion-v02-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-014.mp4"
+    },
+    {
+      "shot": "contact-015",
+      "startFrame": 3855,
+      "frames": 56,
+      "endFrameExclusive": 3911,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-015-motion-v01/contact-015-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-015.mp4"
+    },
+    {
+      "shot": "contact-016",
+      "startFrame": 3911,
+      "frames": 26,
+      "endFrameExclusive": 3937,
+      "kind": "Replacement native Kling motion",
+      "take": "contact-016-motion-v02",
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-016-motion-v02/contact-016-motion-v02-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-016.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 4,
+        "startFrame": 3911,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-017",
+      "startFrame": 3937,
+      "frames": 33,
+      "endFrameExclusive": 3970,
+      "kind": "Blender motion graphics",
+      "compositor": "generated/storyboard/first-contact-motion-v02/tidal.blend",
+      "source": "generated/storyboard/first-contact-motion-v02/tidal-effect.mp4",
+      "sourceIn": 0,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-017.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 4,
+        "startFrame": 3937,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-018",
+      "startFrame": 3970,
+      "frames": 34,
+      "endFrameExclusive": 4004,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-018-motion-v01/contact-018-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-018.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 4,
+        "startFrame": 3970,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-019",
+      "startFrame": 4004,
+      "frames": 51,
+      "endFrameExclusive": 4055,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-019-motion-v01/contact-019-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-019.mp4"
+    },
+    {
+      "shot": "contact-020",
+      "startFrame": 4055,
+      "frames": 114,
+      "endFrameExclusive": 4169,
+      "kind": "Blender motion graphics",
+      "compositor": "generated/storyboard/first-contact-motion-v02/stars.blend",
+      "source": "generated/storyboard/first-contact-motion-v02/stars-effect.mp4",
+      "sourceIn": 0,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-020.mp4"
+    },
+    {
+      "shot": "contact-021",
+      "startFrame": 4169,
+      "frames": 120,
+      "endFrameExclusive": 4289,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-021-motion-v01/contact-021-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-021.mp4"
+    },
+    {
+      "shot": "contact-022",
+      "startFrame": 4289,
+      "frames": 45,
+      "endFrameExclusive": 4334,
+      "kind": "Blender motion graphics",
+      "compositor": "generated/storyboard/first-contact-motion-v02/ground.blend",
+      "source": "generated/storyboard/first-contact-motion-v02/ground-effect.mp4",
+      "sourceIn": 0,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-022.mp4"
+    },
+    {
+      "shot": "contact-023",
+      "startFrame": 4334,
+      "frames": 37,
+      "endFrameExclusive": 4371,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-023-motion-v01/contact-023-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-023.mp4"
+    },
+    {
+      "shot": "contact-024",
+      "startFrame": 4371,
+      "frames": 45,
+      "endFrameExclusive": 4416,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-024-motion-v01/contact-024-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-024.mp4"
+    },
+    {
+      "shot": "contact-025",
+      "startFrame": 4416,
+      "frames": 30,
+      "endFrameExclusive": 4446,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-025-motion-v01/contact-025-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-025.mp4"
+    },
+    {
+      "shot": "contact-026",
+      "startFrame": 4446,
+      "frames": 137,
+      "endFrameExclusive": 4583,
+      "kind": "Replacement native Kling motion",
+      "take": "contact-026-motion-v02",
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-026-motion-v02/contact-026-motion-v02-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-026.mp4"
+    },
+    {
+      "shot": "contact-027",
+      "startFrame": 4583,
+      "frames": 66,
+      "endFrameExclusive": 4649,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-027-motion-v01/contact-027-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-027.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4583,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-027-travel",
+      "startFrame": 4649,
+      "frames": 34,
+      "endFrameExclusive": 4683,
+      "kind": "Blender composite",
+      "compositor": "generated/storyboard/first-contact-motion-v02/travel.blend",
+      "source": "generated/storyboard/first-contact-motion-v02/travel-effect.mp4",
+      "sourceIn": 0,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-027-travel.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4649,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-028",
+      "startFrame": 4683,
+      "frames": 66,
+      "endFrameExclusive": 4749,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-repairs-v01/contact-028-motion-v02/contact-028-motion-v02-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-028.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4683,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-028-travel",
+      "startFrame": 4749,
+      "frames": 33,
+      "endFrameExclusive": 4782,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-028-travel-motion-v01/contact-028-travel-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-028-travel.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4749,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-029",
+      "startFrame": 4782,
+      "frames": 66,
+      "endFrameExclusive": 4848,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-029-motion-v01/contact-029-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-029.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4782,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-029-travel",
+      "startFrame": 4848,
+      "frames": 33,
+      "endFrameExclusive": 4881,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-029-travel-motion-v01/contact-029-travel-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-029-travel.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4848,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-030",
+      "startFrame": 4881,
+      "frames": 50,
+      "endFrameExclusive": 4931,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-030-motion-v01/contact-030-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-030.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4881,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-030-travel",
+      "startFrame": 4931,
+      "frames": 33,
+      "endFrameExclusive": 4964,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-030-travel-motion-v01/contact-030-travel-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-030-travel.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4931,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-031",
+      "startFrame": 4964,
+      "frames": 67,
+      "endFrameExclusive": 5031,
+      "kind": "Retained native Kling motion",
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-031-motion-v01/contact-031-motion-v01-01-clean.mp4",
+      "sourceIn": 24,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-031.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 6,
+        "startFrame": 4964,
+        "outgoingHandles": true
+      }
+    },
+    {
+      "shot": "contact-032",
+      "startFrame": 5031,
+      "frames": 235,
+      "endFrameExclusive": 5266,
+      "kind": "Retained Blender finale",
+      "source": "generated/storyboard/first-contact-motion-v01/finale-composite.mp4",
+      "sourceIn": 0,
+      "clip": "generated/storyboard/first-contact-motion-v02/clips/contact-032.mp4",
+      "transition": {
+        "type": "dissolve",
+        "frames": 4,
+        "startFrame": 5031,
+        "outgoingHandles": true
+      }
+    }
+  ]
+}

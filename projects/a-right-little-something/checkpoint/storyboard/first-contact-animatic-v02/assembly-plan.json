@@ -1,0 +1,96 @@
+{
+  "version": "v61",
+  "sourceVersion": "v60",
+  "fps": 24,
+  "startFrame": 4583,
+  "endFrameExclusive": 5266,
+  "frames": 683,
+  "entries": [
+    {
+      "shot": "contact-027",
+      "image": "generated/storyboard/first-contact-v01/system-view.png",
+      "beat": "72.4",
+      "startFrame": 4583,
+      "endFrameExclusive": 4649,
+      "frames": 66
+    },
+    {
+      "shot": "contact-027-travel",
+      "image": "generated/storyboard/first-contact-v03/travel-27.png",
+      "beat": "73.4",
+      "startFrame": 4649,
+      "endFrameExclusive": 4683,
+      "frames": 34
+    },
+    {
+      "shot": "contact-028",
+      "image": "generated/storyboard/first-contact-v01/binary-suns.png",
+      "beat": "74.2",
+      "startFrame": 4683,
+      "endFrameExclusive": 4749,
+      "frames": 66
+    },
+    {
+      "shot": "contact-028-travel",
+      "image": "generated/storyboard/first-contact-v03/travel-28.png",
+      "beat": "75.2",
+      "startFrame": 4749,
+      "endFrameExclusive": 4782,
+      "frames": 33
+    },
+    {
+      "shot": "contact-029",
+      "image": "generated/storyboard/first-contact-v01/stellar-nursery.png",
+      "beat": "75.4",
+      "startFrame": 4782,
+      "endFrameExclusive": 4848,
+      "frames": 66
+    },
+    {
+      "shot": "contact-029-travel",
+      "image": "generated/storyboard/first-contact-v03/travel-29.png",
+      "beat": "76.4",
+      "startFrame": 4848,
+      "endFrameExclusive": 4881,
+      "frames": 33
+    },
+    {
+      "shot": "contact-030",
+      "image": "generated/storyboard/first-contact-v01/red-star-system.png",
+      "beat": "77.2",
+      "startFrame": 4881,
+      "endFrameExclusive": 4931,
+      "frames": 50
+    },
+    {
+      "shot": "contact-030-travel",
+      "image": "generated/storyboard/first-contact-v03/travel-30.png",
+      "beat": "78.1",
+      "startFrame": 4931,
+      "endFrameExclusive": 4964,
+      "frames": 33
+    },
+    {
+      "shot": "contact-031",
+      "image": "generated/storyboard/first-contact-v01/galactic-possibilities.png",
+      "beat": "78.3",
+      "startFrame": 4964,
+      "endFrameExclusive": 5031,
+      "frames": 67
+    },
+    {
+      "shot": "contact-032",
+      "image": "generated/storyboard/first-contact-v01/next-destination.png",
+      "beat": "79.3",
+      "startFrame": 5031,
+      "endFrameExclusive": 5266,
+      "frames": 235
+    }
+  ],
+  "removedShotIds": [
+    "contact-031-travel"
+  ],
+  "direction": "Cut from galaxy directly to Harper superimposition at 3:29.583, holding to song end.",
+  "finaleBlender": "finale-two-plates.blend",
+  "separateVideoSources": true
+}

@@ -1,0 +1,172 @@
+{
+  "expected": 32,
+  "present": 32,
+  "missing": [],
+  "dimensions": {
+    "warp-pulse.png": [
+      1672,
+      941
+    ],
+    "warp-tunnel.png": [
+      1672,
+      941
+    ],
+    "darkside-arrival.png": [
+      1672,
+      941
+    ],
+    "surface-selection.png": [
+      1672,
+      941
+    ],
+    "creature-notices.png": [
+      1672,
+      941
+    ],
+    "community-sky.png": [
+      1672,
+      941
+    ],
+    "cabin-analysis.png": [
+      1672,
+      941
+    ],
+    "surface-survey.png": [
+      1672,
+      941
+    ],
+    "harper-recognizes.png": [
+      1672,
+      941
+    ],
+    "contact-light.png": [
+      1672,
+      941
+    ],
+    "creature-addresses.png": [
+      1672,
+      941
+    ],
+    "projection-reveal.png": [
+      1672,
+      941
+    ],
+    "grounded-conversation.png": [
+      1672,
+      941
+    ],
+    "favorite-things.png": [
+      1672,
+      941
+    ],
+    "things-needed.png": [
+      1672,
+      941
+    ],
+    "canopy-life.png": [
+      1672,
+      941
+    ],
+    "tidal-life.png": [
+      1672,
+      941
+    ],
+    "highland-life.png": [
+      1672,
+      941
+    ],
+    "tending-home.png": [
+      1672,
+      941
+    ],
+    "stars-for-night.png": [
+      1672,
+      941
+    ],
+    "creature-of-nature.png": [
+      1672,
+      941
+    ],
+    "down-here.png": [
+      1672,
+      941
+    ],
+    "harper-listens.png": [
+      1672,
+      941
+    ],
+    "eye-reflection.png": [
+      1672,
+      941
+    ],
+    "night-orbit.png": [
+      1672,
+      941
+    ],
+    "harper-world.png": [
+      1672,
+      941
+    ],
+    "system-view.png": [
+      1672,
+      941
+    ],
+    "binary-suns.png": [
+      1672,
+      941
+    ],
+    "stellar-nursery.png": [
+      1672,
+      941
+    ],
+    "red-star-system.png": [
+      1672,
+      941
+    ],
+    "galactic-possibilities.png": [
+      1672,
+      941
+    ],
+    "next-destination.png": [
+      1672,
+      941
+    ]
+  },
+  "sha256": {
+    "warp-pulse.png": "48c564cf9a348da9ace58851ccfd08eee114de35f3058596c7811d75acad8a68",
+    "warp-tunnel.png": "93e11d1b992dd2e3ba2b010d0a3e13fa34b0f7922d049668072889cc27cb58fd",
+    "darkside-arrival.png": "d902f7f5187754b0b070102ecd610436ca81b6c86f5dce2f50da23e829404517",
+    "surface-selection.png": "01388e383ea994f785610e7c528349b8d2355ab2fd557ca2134e1adcddd9178a",
+    "creature-notices.png": "357af7933cd4b5eb31e0e759b076848f88e708085b3bd59c00ad195fa9fb8a7c",
+    "community-sky.png": "ef27ec093bc2853506b9676c7757d05aa5549719308137ae70eb661f7e1973f4",
+    "cabin-analysis.png": "ab791e8f83e4a0522fc41d6c6a03df80aff0ff0b6b2c33d2afee24b47b0d6f09",
+    "surface-survey.png": "4c22d32b28db40e7ae94dc1321195efa58f1defef39649e342d782a01d1e9d12",
+    "harper-recognizes.png": "e649a05977ae89f7dcdae3c46298a508dc62cf992796b3eee5820c9a2c075d05",
+    "contact-light.png": "ea157fe145fa1023ff5d5707db402b8394c0356af8dfe292e79377c15e3890e6",
+    "creature-addresses.png": "7cba78590956381909d9442b09437e6e74e987220a0b710201ee8fd92150923e",
+    "projection-reveal.png": "4e34c88436a6d7efb4c545f62cfc48701e4a72ee5fdebe143cc1a06f09a27956",
+    "grounded-conversation.png": "259dc3d4816981becfbefa089199357c4002f486e426d5af46548edbf4ecdae6",
+    "favorite-things.png": "d6072e76894602f9661c54119ba4fc8aeb516520813d7da7e86b6000dc9a6823",
+    "things-needed.png": "7094fefbca8adb6b87fd9b4f26091d96f0feb3c9f0c5b02be665cc8f6a4a66d9",
+    "canopy-life.png": "303587d22dcc1569591babd6fb9ec1c0329919a3fdede2beb303b85e503f394a",
+    "tidal-life.png": "53b95d9526f4f5d1b94a95e384a12b0c83f15b5821b5babc0118ea8949437338",
+    "highland-life.png": "c3e2a9ecb8d871229579d9c3e08fca05e36e12640861ba405819978be3377be8",
+    "tending-home.png": "75411f4142ffdca523008cda5f01ab2921bcd8e853d978f3abd1eb1086d603e3",
+    "stars-for-night.png": "84222bd2d44e4443704c95182a33ca60831fbf647bf92eee6a80ac66bef70fa1",
+    "creature-of-nature.png": "5ba15459cf688329b071aabdaee6abaf6b5caff2d6c4d88a960ac39c600417d4",
+    "down-here.png": "14fb7611155e231f9db8c3d15c9a2135baee64e59fde717871e347a963f480a7",
+    "harper-listens.png": "53148497e22ffe2e9f6698f7dddd7b5342af1b5425dddb5027d5253ee5306eac",
+    "eye-reflection.png": "50c7d371203834ae58c4b9a0c4ca6da8f9e30c1b9a17e4a68d307164176f43b1",
+    "night-orbit.png": "1fff802200ee5899059108b2f424b7a7dfd5bbf6c5666912461eca8781e782e2",
+    "harper-world.png": "a88b5b157548a0cc21870574da859eabcb144443843fbdb0bc7f598a33c31526",
+    "system-view.png": "f913cb819a0d7fd55583801cb46c2bc4bb38d56aa32ef1d7df5050afe9134479",
+    "binary-suns.png": "3a4ce7010053a1ec3a2b001fa6c4189eedb0a6813b379a52ebfca0ca75fed3d5",
+    "stellar-nursery.png": "765bc1519195c9c9ad48953c29d4ae9ea40a468136779e312878667bc1b2d5a8",
+    "red-star-system.png": "3d09d9c6722d68e305179114d2e368b95eb08fa39b38024f54b9f28ed2c78275",
+    "galactic-possibilities.png": "0b90b2a8caf1be252309ca49872bf936f01813231507a9640b3b386e07ff46cb",
+    "next-destination.png": "cb16054d87f05420d0e62da1940421fa64ce06693456f6edec0c4154089c5d9a"
+  },
+  "frameCoverageContiguous": true,
+  "missingReceipts": [],
+  "identicalBasePromptLock": true
+}

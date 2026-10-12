@@ -1,0 +1,264 @@
+{
+  "id": "first-contact-v62-review",
+  "sourceVersion": "v62",
+  "entries": [
+    {
+      "shotId": "contact-001",
+      "startFrame": 3144,
+      "endFrameExclusive": 3162,
+      "version": "v62",
+      "status": "replace",
+      "notes": "Side-on warp pulse fails. Replace first two cuts with one continuous rear-oblique departure composite.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-002",
+      "startFrame": 3162,
+      "endFrameExclusive": 3204,
+      "version": "v62",
+      "status": "replace",
+      "notes": "Rear direction works but Harper disappears. Separate passenger/ship animation from the warp background.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-003",
+      "startFrame": 3204,
+      "endFrameExclusive": 3262,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Dark-side arrival works.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-004",
+      "startFrame": 3262,
+      "endFrameExclusive": 3295,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Surface-selection image works.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-005",
+      "startFrame": 3295,
+      "endFrameExclusive": 3320,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Little-something creature reaction is great.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-006",
+      "startFrame": 3320,
+      "endFrameExclusive": 3384,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Community reaction works.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-007",
+      "startFrame": 3384,
+      "endFrameExclusive": 3495,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Analysis works. Speaking can read as a voice interface; do not regenerate only to remove speech.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-008",
+      "startFrame": 3495,
+      "endFrameExclusive": 3552,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Surface survey retained.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-009",
+      "startFrame": 3552,
+      "endFrameExclusive": 3610,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Finger interaction works.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-010",
+      "startFrame": 3610,
+      "endFrameExclusive": 3665,
+      "version": "v62",
+      "status": "replace",
+      "notes": "Cyan wisp lacks context. Replace with creatures walking toward a canopy clearing, looking around/up.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-012",
+      "startFrame": 3700,
+      "endFrameExclusive": 3736,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Ground projection two-shot works.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-013",
+      "startFrame": 3736,
+      "endFrameExclusive": 3799,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Homes through the trees work.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-014",
+      "startFrame": 3799,
+      "endFrameExclusive": 3855,
+      "version": "v62",
+      "status": "replace",
+      "notes": "Tool pickup is not functional enough. Proposed replacement: creature lowers a woven home awning over its familiar belongings.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-015",
+      "startFrame": 3855,
+      "endFrameExclusive": 3911,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Seedfruit exchange works with things that I need.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-016",
+      "startFrame": 3911,
+      "endFrameExclusive": 3937,
+      "version": "v62",
+      "status": "replace-motion",
+      "notes": "Both gliders must travel; one follows the other along the same path, no stationary flapping.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-017",
+      "startFrame": 3937,
+      "endFrameExclusive": 3970,
+      "version": "v62",
+      "status": "local-polish",
+      "notes": "Keep native tidal footage, add a slight smooth Blender pan and pullout.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-018",
+      "startFrame": 3970,
+      "endFrameExclusive": 4004,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Highland creatures are great.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-019",
+      "startFrame": 4004,
+      "endFrameExclusive": 4055,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Useful bridge repair illustrates the lyric and moves well.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-020",
+      "startFrame": 4055,
+      "endFrameExclusive": 4169,
+      "version": "v62",
+      "status": "local-polish",
+      "notes": "Keep night settlement and add restrained star twinkles in Blender.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-021",
+      "startFrame": 4169,
+      "endFrameExclusive": 4289,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Creature portrait works.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-022",
+      "startFrame": 4289,
+      "endFrameExclusive": 4352,
+      "version": "v62",
+      "status": "local-polish",
+      "notes": "Down-here insert feels long; subtle Blender camera movement and a shorter hold.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-023",
+      "startFrame": 4352,
+      "endFrameExclusive": 4389,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Projection and creature pairing works.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-024",
+      "startFrame": 4389,
+      "endFrameExclusive": 4416,
+      "version": "v62",
+      "status": "extend",
+      "notes": "Eye glint is excellent; give it longer without moving the night-orbit or finale cues.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-025",
+      "startFrame": 4416,
+      "endFrameExclusive": 4446,
+      "version": "v62",
+      "status": "keep",
+      "notes": "Ship back in orbit works.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-026",
+      "startFrame": 4446,
+      "endFrameExclusive": 4583,
+      "version": "v62",
+      "status": "replace-motion",
+      "notes": "Avoid generating her face from a rear view. Keep her head facing the planet throughout.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-027",
+      "startFrame": 4583,
+      "endFrameExclusive": 4649,
+      "version": "v62",
+      "status": "keep",
+      "notes": "First outro system vista works.",
+      "source": "User playback review and composite clarification"
+    },
+    {
+      "shotId": "contact-027-travel",
+      "startFrame": 4649,
+      "endFrameExclusive": 4683,
+      "version": "v62",
+      "status": "composite-test",
+      "notes": "Preserve current take as fallback. Separate ship plus Harper gently floating from warp trails; try simple composite first. Reflections deferred until this works.",
+      "source": "User playback review and composite clarification"
+    }
+  ],
+  "globalDirections": [
+    "Use short fade transitions through the outro; preserve exact musical section timing.",
+    "Simple two-plate warp composite first; defer synthesized reflected streaks on the ship.",
+    "Keep earlier accepted footage and V62 as comparison."
+  ],
+  "eyeTiming": {
+    "downHereEnd": 4334,
+    "harperListensStart": 4334,
+    "harperListensEnd": 4371,
+    "eyeStart": 4371,
+    "eyeEnd": 4416,
+    "basis": "Frame 4334 is DAW bar 69 beat 1. Retain 37-frame Harper projection; give the eye 45 frames instead of 27. Night orbit remains at 4416."
+  },
+  "tentativeEcologyFades": true,
+  "reviewedThrough": "contact-027-travel"
+}

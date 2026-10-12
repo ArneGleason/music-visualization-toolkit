@@ -1,0 +1,20 @@
+{
+  "id": "contact-010-motion-v02",
+  "shotId": "contact-010",
+  "title": "Creatures approach clearing",
+  "startFrame": 3610,
+  "editFrames": 55,
+  "sourceEditStartFrame": 25,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/first-contact-motion-v02/creatures-clearing.png",
+  "firstImageSha256": "9aff78037d319395ce58eb17664616cf7a997df4656f114ac4b6766454009350",
+  "prompt": "5 seconds. Silent native 1080p. Both existing creatures walk naturally forward on all fours along the root path into the canopy clearing, taking two or three small coordinated steps. The nearer creature follows the farther one, each briefly looks toward the open sky. Gentle attentive curiosity, not running or panic. Camera remains almost locked and low. Keep four limbs per animal, fan crests, tail and facial proportions unchanged. Background homes and foliage remain stable. No cyan effects, light wisp, hologram, human, spacecraft or new animal. One second lead-in and lead-out.\n\nMOTION CONTINUITY LOCK: Preserve the exact visible subjects, proportions, materials, fine illustrated linework, palette and camera framing of the input. A single continuous silent full-frame 16:9 shot. Do not invent subjects absent from the image. No cuts, transitions, text, logos, new objects, extra limbs or transformations. Keep facial identity and anatomy stable. Only perform the specifically requested small motion.",
+  "estimatedCredits": 40
+}

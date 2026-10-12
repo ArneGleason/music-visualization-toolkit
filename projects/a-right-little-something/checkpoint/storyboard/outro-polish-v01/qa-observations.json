@@ -1,0 +1,35 @@
+{
+  "reviewed": "Full assembled frames and Blender first/mid/last comparisons",
+  "reverseChecks": [
+    {
+      "reversedIndex": 0,
+      "originalIndex": 56,
+      "meanChannelError": [
+        2.232906539351852,
+        2.1350569058641975,
+        2.5560570987654323
+      ]
+    },
+    {
+      "reversedIndex": 32,
+      "originalIndex": 24,
+      "meanChannelError": [
+        2.4678206983024693,
+        2.242237654320988,
+        2.802363522376543
+      ]
+    }
+  ],
+  "fadeCompleteMeanChannelError": [
+    0.15904320987654322,
+    0.1633082561728395,
+    0.16373456790123456
+  ],
+  "observations": [
+    "Planet-system view fully replaces Harper at 3:06.958, on the four-frame dissolve after grid frame4484.",
+    "Continuous camera moves on the system, nebula, moon and galaxy; no exposed image borders in inspected frames.",
+    "Sphere tint and refraction limited to warp background behind the dome. Independent Harper and hull detail retained.",
+    "Harper fades from 3:34 to 3:36; sampled 3:36 frame contains cosmic background only.",
+    "Closing title and © 2026 Arne Gleason legible in sampled 3:37 and final frames."
+  ]
+}

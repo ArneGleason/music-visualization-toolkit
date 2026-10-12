@@ -1,0 +1,23 @@
+{
+  "id": "contact-011-motion-v02",
+  "shotId": "contact-011",
+  "plate": "main",
+  "title": "Creature Addresses",
+  "startFrame": 3665,
+  "editFrames": 35,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "sourceEditStartFrame": 25,
+  "model": "kling-video-v3_0",
+  "duration": 4,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/first-contact-v02/creature-addresses.png",
+  "firstImageSha256": "ce08c4c8fcd98b0cd8b21e36bb9465861ec21d3bdfb21f795100d973d7df8258",
+  "prompt": "4 seconds. Silent native1080p. ONE SUBJECT ONLY: the small teal-and-ochre fan-crested quadruped at lower left. Fixed camera. It makes a very small curious head tilt and one restrained natural blink. The open blue sky and treetops remain exactly as in the input. The tiny distant cyan point stays a tiny unresolved point at constant size; it never becomes an object, orb, person, sphere or projection. Do not show what the creature is looking at. No speech, no human gesture. Background must remain unchanged. Continuous restrained motion with one-second lead-in and lead-out.\n\nMOTION REPAIR LOCK: Preserve exactly the subjects, composition, illustration style and physical setting visible in the input image. Fine controlled ink contours and detailed painterly materials. One continuous full-frame16:9 shot. Do not invent or reveal any subject absent from the input. No people, faces, holograms, spacecraft, symbols, text, montage, cuts or transitions. The shot-specific instructions are the full subject list; no wider story is depicted.",
+  "estimatedCredits": 32,
+  "editorialNotes": "Corrected native take: excludes unrelated characters or spacecraft introduced by the first pass."
+}

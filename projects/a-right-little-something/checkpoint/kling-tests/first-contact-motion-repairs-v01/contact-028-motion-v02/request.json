@@ -1,0 +1,23 @@
+{
+  "id": "contact-028-motion-v02",
+  "shotId": "contact-028",
+  "plate": "main",
+  "title": "Binary Suns",
+  "startFrame": 4683,
+  "editFrames": 66,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "sourceEditStartFrame": 25,
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/first-contact-v01/binary-suns.png",
+  "firstImageSha256": "3a4ce7010053a1ec3a2b001fa6c4189eedb0a6813b379a52ebfca0ca75fed3d5",
+  "prompt": "5 seconds. Silent native1080p. ASTRONOMICAL VISTA ONLY: the intact opaque rust-colored planet crescent and two distant suns, one amber and one blue-white, amid stars. Nearly locked camera with only an extremely slow lateral drift. Faint stellar coronal light changes; solid planet surface and silhouette remain intact throughout. No zoom toward or into the planet. No cutaway, opening, window, portal, hole, inset, landscape reveal or scene inside the planet. No people, spacecraft, settlement, plants, buildings or hologram. All bodies retain size, shape and astronomical separation. Continuous restrained motion with one-second lead-in and lead-out.\n\nMOTION REPAIR LOCK: Preserve exactly the subjects, composition, illustration style and physical setting visible in the input image. Fine controlled ink contours and detailed painterly materials. One continuous full-frame16:9 shot. Do not invent or reveal any subject absent from the input. No people, faces, holograms, spacecraft, symbols, text, montage, cuts or transitions. The shot-specific instructions are the full subject list; no wider story is depicted.",
+  "estimatedCredits": 40,
+  "editorialNotes": "Corrected native take: excludes unrelated characters or spacecraft introduced by the first pass."
+}

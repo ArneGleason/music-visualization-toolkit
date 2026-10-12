@@ -1,0 +1,692 @@
+{
+  "batch": "first-contact-v03",
+  "status": "ready-for-review",
+  "fps": 24,
+  "frameConvention": "one-based half-open",
+  "selectedPath": [
+    "1A",
+    "2A",
+    "3B",
+    "4B",
+    "5A",
+    "6A",
+    "7B",
+    "8B",
+    "9A",
+    "10B",
+    "11A",
+    "12A",
+    "13B",
+    "ending A"
+  ],
+  "timingStatus": "Proposed coverage anchored to approved lyric frames; instrumental subdivisions provisional until animatic review.",
+  "promptLock": "FIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.",
+  "items": [
+    {
+      "id": "contact-001",
+      "name": "warp-pulse",
+      "option": "1A",
+      "startFrame": 3144,
+      "endFrameExclusive": 3162,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v04\\undocking.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Wide SIDE silhouette of the whole sphere in deep space, Harper faintly visible floating inside. Compact cyan space-distortion pulse gathered around its single aft drive ring, dark space bends into a compressed lens. Ship small enough to read the surrounding distortion. This is the instant before departure; no station or planet.\nREFERENCE ROLES: ship; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "warp-pulse.png",
+      "direction": "Wide SIDE silhouette of the whole sphere in deep space, Harper faintly visible floating inside. Compact cyan space-distortion pulse gathered around its single aft drive ring, dark space bends into a compressed lens. Ship small enough to read the surrounding distortion. This is the instant before departure; no station or planet.",
+      "image": "generated/storyboard/first-contact-v01/warp-pulse.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 1
+    },
+    {
+      "id": "contact-002",
+      "name": "warp-tunnel",
+      "option": "1A",
+      "startFrame": 3162,
+      "endFrameExclusive": 3204,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v04\\undocking.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Decisive REAR chase view from outside behind the small sphere, single aft drive ring foreground on ship and globe beyond. Long elegant cyan/ivory light tunnel converges forward, ship traveling away from us. Suggest Harper through transparent sphere, no large portrait. Strong forward perspective, no portal shaped like an additional ship ring.\nREFERENCE ROLES: ship; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "warp-tunnel.png",
+      "direction": "Decisive REAR chase view from outside behind the small sphere, single aft drive ring foreground on ship and globe beyond. Long elegant cyan/ivory light tunnel converges forward, ship traveling away from us. Suggest Harper through transparent sphere, no large portrait. Strong forward perspective, no portal shaped like an additional ship ring.",
+      "image": "generated/storyboard/first-contact-v01/warp-tunnel.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 2
+    },
+    {
+      "id": "contact-003",
+      "name": "darkside-arrival",
+      "option": "2A",
+      "startFrame": 3204,
+      "endFrameExclusive": 3262,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v04\\undocking.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Extremely wide arrival from night side of target planet. Planet dominates right two thirds, mostly dark, thin glowing atmospheric limb and ONE brilliant sun peeking over edge as diamond-ring sunrise. Tiny recognizable sphere in left foreground approaching orbit; vast scale, no second planet. No sun on the near night-facing surface.\nREFERENCE ROLES: ship, planet; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "darkside-arrival.png",
+      "direction": "Extremely wide arrival from night side of target planet. Planet dominates right two thirds, mostly dark, thin glowing atmospheric limb and ONE brilliant sun peeking over edge as diamond-ring sunrise. Tiny recognizable sphere in left foreground approaching orbit; vast scale, no second planet. No sun on the near night-facing surface.",
+      "image": "generated/storyboard/first-contact-v01/darkside-arrival.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 3
+    },
+    {
+      "id": "contact-004",
+      "name": "surface-selection",
+      "option": "3B",
+      "startFrame": 3262,
+      "endFrameExclusive": 3295,
+      "worker": "harper",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\affirmation.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\target-profile.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. One 16:9 cinematic illustration. Dynamic extreme close view of Harper freckled hand and gray coverall sleeve entering from left to interact with LARGE luminous VOLUMETRIC 3D TERRAIN relief. Tall mountain ridges and deep valleys physically rising into air, copper river channels, layered floating elevation contours, emerald translucent land geometry. Terrain fills most frame, visibly projected light, NO flat tablet, no globe. Dark starfield behind, sparse faint cyan hexagonal far shell. Tiny blurred amber equatorial edge low background only. No face, no body, no planet, no busy futuristic walls/panels. Reference1 hand/outfit style, reference2 exterior sphere hexagonal geometry only.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n\nGRID OVERRIDE: perspective-correct HEXAGONAL honeycomb dome mesh, never rectangular panes. Thin faint cyan hexagons only on far transparent shell, behind hand and hologram. No creatures or other people.",
+      "output": "surface-selection.png",
+      "direction": "Replace double planet with a small flat terrain control; no real planet in this insert.",
+      "image": "generated/storyboard/first-contact-v03/surface-selection.png",
+      "reviewStatus": "revision-for-review",
+      "galleryIndex": 4
+    },
+    {
+      "id": "contact-005",
+      "name": "creature-notices",
+      "option": "4B",
+      "startFrame": 3295,
+      "endFrameExclusive": 3320,
+      "worker": "community",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Intimate close three-quarter creature face looking UP with curiosity, tiny cyan orbital glint reflected in amber eye. Warm forest light and soft root background. No visible spaceship in eye, just a light point; no Harper. Calm intelligent interest, not fear.\nREFERENCE ROLES: community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "creature-notices.png",
+      "direction": "Intimate close three-quarter creature face looking UP with curiosity, tiny cyan orbital glint reflected in amber eye. Warm forest light and soft root background. No visible spaceship in eye, just a light point; no Harper. Calm intelligent interest, not fear.",
+      "image": "generated/storyboard/first-contact-v01/creature-notices.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 5
+    },
+    {
+      "id": "contact-006",
+      "name": "community-sky",
+      "option": "5A",
+      "startFrame": 3320,
+      "endFrameExclusive": 3384,
+      "worker": "community",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Wide OVER-SHOULDER from behind main creature, foreground fan crest and shoulder frame companions looking to a canopy opening over their root-and-seedpod settlement. Small cyan point high in sky; two companions exchange inquisitive forefoot gestures. Warm early evening, readable spatial relation between home and sky. No Harper.\nREFERENCE ROLES: community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "community-sky.png",
+      "direction": "Wide OVER-SHOULDER from behind main creature, foreground fan crest and shoulder frame companions looking to a canopy opening over their root-and-seedpod settlement. Small cyan point high in sky; two companions exchange inquisitive forefoot gestures. Warm early evening, readable spatial relation between home and sky. No Harper.",
+      "image": "generated/storyboard/first-contact-v01/community-sky.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 6
+    },
+    {
+      "id": "contact-007",
+      "name": "cabin-analysis",
+      "option": "6A",
+      "startFrame": 3384,
+      "endFrameExclusive": 3495,
+      "worker": "harper",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\affirmation.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\target-profile.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v04\\undocking.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. Single16:9 still. New image matching reference1 Harper face/outfit and medium framing. CAMERA INSIDE CABIN: waist-up three-quarter Harper left foreground, working with both hands toward luminous floating LARGE 3D terrain relief right. Tall emerald mountain ridges, copper rivers, cyan elevation contours rise up in the air. No flat tablet. Beyond her ONLY black starfield through transparent shell, absolutely NO planet or globe anywhere. Thin amber far equator behind her lower waist. No foreground thickrails, panels, solid walls, extra rings. Harper alone. Reference2 precise hexagonal dome geometry. Reference3 terrain hologram style.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n\nGRID OVERRIDE: all dome mesh perspective-correct HEXAGONAL honeycomb, never rectangular window panes; sparse thin cyan hexagons ONLY behind Harper on far transparent shell. Never cross her body. NO real planet, NO globe, NO animals.",
+      "output": "cabin-analysis.png",
+      "direction": "Medium interior framing with Harper clearly in front of the far dome boundary.",
+      "image": "generated/storyboard/first-contact-v03/cabin-analysis.png",
+      "reviewStatus": "revision-for-review",
+      "galleryIndex": 7
+    },
+    {
+      "id": "contact-008",
+      "name": "surface-survey",
+      "option": "7B",
+      "startFrame": 3495,
+      "endFrameExclusive": 3552,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Oblique aerial survey of emerald jungle valleys, copper river and tiny woven root settlement revealed between trees. Camera well above canopy, terrain fills frame, no globe, no spaceship, no Harper or HUD. Specific inhabited clearing amid much larger ecosystem, not a city.\nREFERENCE ROLES: planet, community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "surface-survey.png",
+      "direction": "Oblique aerial survey of emerald jungle valleys, copper river and tiny woven root settlement revealed between trees. Camera well above canopy, terrain fills frame, no globe, no spaceship, no Harper or HUD. Specific inhabited clearing amid much larger ecosystem, not a city.",
+      "image": "generated/storyboard/first-contact-v01/surface-survey.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 8
+    },
+    {
+      "id": "contact-009",
+      "name": "harper-recognizes",
+      "option": "7B",
+      "startFrame": 3552,
+      "endFrameExclusive": 3610,
+      "worker": "harper",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\affirmation.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\target-profile.png"
+      ],
+      "prompt": "Precise edit reference1 only: preserve Harper face, freckles, hair, pose, hand, clothing, lighting, camera framing, ship band exactly. ONLY replace the existing rectangular/quadrilateral cyan window grid behind her with perspective-correct HEXAGONAL honeycomb mesh of faint thin cyan lines on transparent far shell. Reference2 shows required hexagons geometry. All grid remains strictly behind Harper, never crossing her skin/hair/body. No planet, new objects, creatures, projections, or extra rings. Keep everything else identical.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n\nGRID OVERRIDE: honeycomb HEXAGONS, six sides per cell, not rectangular window panes.",
+      "output": "harper-recognizes.png",
+      "direction": "Close Harper face in cabin, quiet recognition and interest, eyes directed down-right toward small offscreen survey. A sparse cyan reflected light on freckles, dark space background. One raised hand at lower edge beginning contact gesture, no giant planet filling this portrait and no readable UI.",
+      "image": "generated/storyboard/first-contact-v03/harper-recognizes.png",
+      "reviewStatus": "revision-for-review",
+      "galleryIndex": 9
+    },
+    {
+      "id": "contact-010",
+      "name": "contact-light",
+      "option": "7B",
+      "startFrame": 3610,
+      "endFrameExclusive": 3665,
+      "worker": "community",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Ground-level medium wide settlement path: main creature turns toward a faint cyan glow beginning above a root at frame right, companions pause nearby. Glow is only a delicate vertical haze and particles, NOT a human silhouette, NOT Harper yet. Warm natural environment, contact is inviting not alarming.\nREFERENCE ROLES: community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "contact-light.png",
+      "direction": "Ground-level medium wide settlement path: main creature turns toward a faint cyan glow beginning above a root at frame right, companions pause nearby. Glow is only a delicate vertical haze and particles, NOT a human silhouette, NOT Harper yet. Warm natural environment, contact is inviting not alarming.",
+      "image": "generated/storyboard/first-contact-v01/contact-light.png",
+      "reviewStatus": "retained",
+      "galleryIndex": 10
+    },
+    {
+      "id": "contact-011",
+      "name": "creature-addresses",
+      "option": "8B",
+      "startFrame": 3665,
+      "endFrameExclusive": 3700,
+      "worker": "community",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: replacement storyboard composition for gallery frame 11, one full-frame 16:9 still.\nSHOT: LOW-ANGLE TIGHT SIDE PROFILE of the main intelligent teal/ochre creature's face at the LEFT occupying only about 35 percent of the frame, looking up and right into a LARGE COOL BLUE-GREEN CANOPY OPENING and airy sky negative space. A single extremely tiny distant cyan glint overhead, no discernible spacecraft shape. Thoughtful friendly conversational attitude, a quiet intelligent adult. ONLY head, paired fan crests and a little shoulder, body cropped out. Camera looks upward from below cheek level. Deliberately COOL SHADED palette, turquoise reflected leaf light, soft restrained ochre rim along crest, no golden front lighting. No houses behind face, no full-body golden path, no Harper, no projection, no sphere ship. The first reference is creature identity and rendering/material style only; invent a wholly different tight profile composition and cooler lighting.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "creature-addresses.png",
+      "direction": "Cool low-angle side profile against open sky, contrasting with frame 10.",
+      "image": "generated/storyboard/first-contact-v02/creature-addresses.png",
+      "reviewStatus": "revision-for-review",
+      "galleryIndex": 11
+    },
+    {
+      "id": "contact-012",
+      "name": "projection-reveal",
+      "option": "8B",
+      "startFrame": 3700,
+      "endFrameExclusive": 3736,
+      "worker": "harper",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\affirmation.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Reverse medium two-shot: translucent cyan Harper holographic projection on right, warm-gray suit visible through cyan transparency, kneeling/hovering down to small quadruped creature eye level at left. She offers a tiny simple luminous sphere-ship icon hovering over open palm. Ground roots visible THROUGH her entire figure and legs. Creature gently declines with a forefoot. Friendly conversation, no physical human, no opaque skin.\nREFERENCE ROLES: harper, community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "projection-reveal.png",
+      "direction": "Reverse medium two-shot: translucent cyan Harper holographic projection on right, warm-gray suit visible through cyan transparency, kneeling/hovering down to small quadruped creature eye level at left. She offers a tiny simple luminous sphere-ship icon hovering over open palm. Ground roots visible THROUGH her entire figure and legs. Creature gently declines with a forefoot. Friendly conversation, no physical human, no opaque skin.",
+      "image": "generated/storyboard/first-contact-v01/projection-reveal.png",
+      "reviewStatus": "retained",
+      "galleryIndex": 12
+    },
+    {
+      "id": "contact-013",
+      "name": "grounded-conversation",
+      "option": "9A",
+      "startFrame": 3736,
+      "endFrameExclusive": 3799,
+      "worker": "harper",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\affirmation.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: replacement storyboard composition for gallery frame 13, one full-frame 16:9 still.\nSHOT: Creature's POV LANDSCAPE across its beloved home world. Wide river valley viewed from a shaded high root terrace. HUGE dark cool emerald mossy roots frame the foreground and a small section of root terrace at the bottom; beyond opens a deep expansive warm sunlit valley with a winding copper-colored river, waterfalls, enormous alien forest canopy, woven seedpod village far below. Exactly TWO very tiny same-species companions cross a far footbridge, integrated at natural distant scale. No main foreground character, no body parts framing view, no Harper, no human, no hologram, no ship. Emphasize COOL EMERALD SHADE foreground against WARM SUNLIT HOME VALLEY in distance. Landscape is the clear subject; this is a visual declaration of belonging to the ground and a decisive cutaway from a conversational two-shot. Reference only for same-world materials, dwelling design, illustrative style and distant creature identity; do NOT replicate reference framing or large foreground character.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "grounded-conversation.png",
+      "direction": "Creature POV across its home valley, interrupting the repeated conversation framing.",
+      "image": "generated/storyboard/first-contact-v02/grounded-conversation.png",
+      "reviewStatus": "revision-for-review",
+      "galleryIndex": 13
+    },
+    {
+      "id": "contact-014",
+      "name": "favorite-things",
+      "option": "10B",
+      "startFrame": 3799,
+      "endFrameExclusive": 3855,
+      "worker": "community",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Tight tactile detail of main creature forefeet picking up its familiar small carved wooden gardening tool beside woven basket and treasured smooth river stone. Ochre/teal forearms identify it; garden seedlings and worn root workbench, daily-use patina. No full face or human or hologram, no metal modern machines.\nREFERENCE ROLES: community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "favorite-things.png",
+      "direction": "Tight tactile detail of main creature forefeet picking up its familiar small carved wooden gardening tool beside woven basket and treasured smooth river stone. Ochre/teal forearms identify it; garden seedlings and worn root workbench, daily-use patina. No full face or human or hologram, no metal modern machines.",
+      "image": "generated/storyboard/first-contact-v01/favorite-things.png",
+      "reviewStatus": "retained",
+      "galleryIndex": 14
+    },
+    {
+      "id": "contact-015",
+      "name": "things-needed",
+      "option": "10B",
+      "startFrame": 3855,
+      "endFrameExclusive": 3911,
+      "worker": "community",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Medium wide home garden: main quadruped receives a ripe alien seedfruit from a companion, simple warm greeting with forefeet, root dwelling and tended edible plants around them. Everyday abundance and belonging, not a feast or ceremony. No human, no hologram.\nREFERENCE ROLES: community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "things-needed.png",
+      "direction": "Medium wide home garden: main quadruped receives a ripe alien seedfruit from a companion, simple warm greeting with forefeet, root dwelling and tended edible plants around them. Everyday abundance and belonging, not a feast or ceremony. No human, no hologram.",
+      "image": "generated/storyboard/first-contact-v01/things-needed.png",
+      "reviewStatus": "retained",
+      "galleryIndex": 15
+    },
+    {
+      "id": "contact-016",
+      "name": "canopy-life",
+      "option": "11A",
+      "startFrame": 3911,
+      "endFrameExclusive": 3937,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Wide humid emerald canopy ecosystem with small original membrane-gliding animals and flowering epiphytes, copper river far below. No community creatures, humans, buildings or ship. Illustrated natural-history wonder, one planet with rich ecology.\nREFERENCE ROLES: planet, community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "canopy-life.png",
+      "direction": "Wide humid emerald canopy ecosystem with small original membrane-gliding animals and flowering epiphytes, copper river far below. No community creatures, humans, buildings or ship. Illustrated natural-history wonder, one planet with rich ecology.",
+      "image": "generated/storyboard/first-contact-v01/canopy-life.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 16
+    },
+    {
+      "id": "contact-017",
+      "name": "tidal-life",
+      "option": "11A",
+      "startFrame": 3937,
+      "endFrameExclusive": 3970,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Low sweeping tidal-flat ecosystem on same world: copper water channels, pale mineral mud, strange fan-feeding shelled animals and dark reed-like growth, distant cloud banks. Cool silver/peach light contrasting jungle greens. No humanoids, ship, buildings or UI.\nREFERENCE ROLES: planet; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "tidal-life.png",
+      "direction": "Low sweeping tidal-flat ecosystem on same world: copper water channels, pale mineral mud, strange fan-feeding shelled animals and dark reed-like growth, distant cloud banks. Cool silver/peach light contrasting jungle greens. No humanoids, ship, buildings or UI.",
+      "image": "generated/storyboard/first-contact-v01/tidal-life.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 17
+    },
+    {
+      "id": "contact-018",
+      "name": "highland-life",
+      "option": "11A",
+      "startFrame": 3970,
+      "endFrameExclusive": 4004,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Expansive cold highland on same planet: blue-gray mountains, pale frost, red-gold low cushion plants, small original shaggy six-legged grazing animals with broad blunt heads. Crisp cool air and distant ivory clouds. No humans, settlement, spaceship or UI. Clear climate contrast with jungle and coast.\nREFERENCE ROLES: planet; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "highland-life.png",
+      "direction": "Expansive cold highland on same planet: blue-gray mountains, pale frost, red-gold low cushion plants, small original shaggy six-legged grazing animals with broad blunt heads. Crisp cool air and distant ivory clouds. No humans, settlement, spaceship or UI. Clear climate contrast with jungle and coast.",
+      "image": "generated/storyboard/first-contact-v01/highland-life.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 18
+    },
+    {
+      "id": "contact-019",
+      "name": "tending-home",
+      "option": "11A",
+      "startFrame": 4004,
+      "endFrameExclusive": 4055,
+      "worker": "community",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Medium community scene main creature and neighbor collaboratively repair a woven footbridge edge above stream, dexterous forefeet doing useful work. Calm everyday tending of home, not industrial construction. Warm root settlement light, no human or projection.\nREFERENCE ROLES: community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "tending-home.png",
+      "direction": "Medium community scene main creature and neighbor collaboratively repair a woven footbridge edge above stream, dexterous forefeet doing useful work. Calm everyday tending of home, not industrial construction. Warm root settlement light, no human or projection.",
+      "image": "generated/storyboard/first-contact-v01/tending-home.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 19
+    },
+    {
+      "id": "contact-020",
+      "name": "stars-for-night",
+      "option": "12A",
+      "startFrame": 4055,
+      "endFrameExclusive": 4169,
+      "worker": "community",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Very wide ground-up view twilight settlement, tiny community silhouettes on rooted terrace at bottom, enormous darkening indigo sky and first stars above canopy. Warm seedpod-home lights, restful place to live. No orbit routes or ship looming overhead, no human projection.\nREFERENCE ROLES: community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "stars-for-night.png",
+      "direction": "Very wide ground-up view twilight settlement, tiny community silhouettes on rooted terrace at bottom, enormous darkening indigo sky and first stars above canopy. Warm seedpod-home lights, restful place to live. No orbit routes or ship looming overhead, no human projection.",
+      "image": "generated/storyboard/first-contact-v01/stars-for-night.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 20
+    },
+    {
+      "id": "contact-021",
+      "name": "creature-of-nature",
+      "option": "12A",
+      "startFrame": 4169,
+      "endFrameExclusive": 4289,
+      "worker": "community",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Quiet close portrait main creature under night canopy, familiar amber eyes and ochre fan crests, calm self-assured expression. Gentle warm home light one side, blue starlight other. Leaf and bark shapes around, simple intimate dignity. No human or ship.\nREFERENCE ROLES: community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "creature-of-nature.png",
+      "direction": "Quiet close portrait main creature under night canopy, familiar amber eyes and ochre fan crests, calm self-assured expression. Gentle warm home light one side, blue starlight other. Leaf and bark shapes around, simple intimate dignity. No human or ship.",
+      "image": "generated/storyboard/first-contact-v01/creature-of-nature.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 21
+    },
+    {
+      "id": "contact-022",
+      "name": "down-here",
+      "option": "12A",
+      "startFrame": 4289,
+      "endFrameExclusive": 4352,
+      "worker": "community",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Extreme low tactile insert creature forefoot resting on mossy root and living soil, tiny native luminous organisms among leaf litter. Teal skin and ochre wrist identify creature, stars only faint bokeh beyond. Earthbound belonging, no human, no ship or UI.\nREFERENCE ROLES: community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "down-here.png",
+      "direction": "Extreme low tactile insert creature forefoot resting on mossy root and living soil, tiny native luminous organisms among leaf litter. Teal skin and ochre wrist identify creature, stars only faint bokeh beyond. Earthbound belonging, no human, no ship or UI.",
+      "image": "generated/storyboard/first-contact-v01/down-here.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 22
+    },
+    {
+      "id": "contact-023",
+      "name": "harper-listens",
+      "option": "12A",
+      "startFrame": 4352,
+      "endFrameExclusive": 4389,
+      "worker": "harper",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\affirmation.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Close cyan translucent Harper projection at creature eye height in nighttime root settlement. Thoughtful accepting expression, small nod implied, restrained closed mouth, never patronizing or overly smiling. Trees and warm seedpod lights visibly pass THROUGH face and shoulders, making holographic status unmistakable. No physical human.\nREFERENCE ROLES: harper, community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "harper-listens.png",
+      "direction": "Close cyan translucent Harper projection at creature eye height in nighttime root settlement. Thoughtful accepting expression, small nod implied, restrained closed mouth, never patronizing or overly smiling. Trees and warm seedpod lights visibly pass THROUGH face and shoulders, making holographic status unmistakable. No physical human.",
+      "image": "generated/storyboard/first-contact-v01/harper-listens.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 23
+    },
+    {
+      "id": "contact-024",
+      "name": "eye-reflection",
+      "option": "13B",
+      "startFrame": 4389,
+      "endFrameExclusive": 4416,
+      "worker": "community",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\first-contact-v01\\community-reference.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Extreme macro of creature amber eye framed by teal/ochre skin and a little fan crest edge. One tiny cyan point reflected high in pupil, same light as ship, no detailed miniature spacecraft or planet reflected. Intimate night lighting, no tears, calm wonder.\nREFERENCE ROLES: community; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "eye-reflection.png",
+      "direction": "Extreme macro of creature amber eye framed by teal/ochre skin and a little fan crest edge. One tiny cyan point reflected high in pupil, same light as ship, no detailed miniature spacecraft or planet reflected. Intimate night lighting, no tears, calm wonder.",
+      "image": "generated/storyboard/first-contact-v01/eye-reflection.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 24
+    },
+    {
+      "id": "contact-025",
+      "name": "night-orbit",
+      "option": "13B",
+      "startFrame": 4416,
+      "endFrameExclusive": 4446,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v04\\undocking.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Very wide actual sphere in orbit above curved night planet and thin cyan atmospheric edge. Ship a tiny clear luminous point with faint identifiable single-ring geometry, vast dark emerald surface and soft cloud shadows. Deep indigo stars. No station; open quiet scale after eye macro.\nREFERENCE ROLES: ship, planet; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "night-orbit.png",
+      "direction": "Very wide actual sphere in orbit above curved night planet and thin cyan atmospheric edge. Ship a tiny clear luminous point with faint identifiable single-ring geometry, vast dark emerald surface and soft cloud shadows. Deep indigo stars. No station; open quiet scale after eye macro.",
+      "image": "generated/storyboard/first-contact-v01/night-orbit.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 25
+    },
+    {
+      "id": "contact-026",
+      "name": "harper-world",
+      "option": "ending A",
+      "startFrame": 4446,
+      "endFrameExclusive": 4583,
+      "worker": "harper",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\affirmation.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\target-profile.png",
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Precise edit reference1 only. Preserve Harper over-shoulder pose, hair, outfit, face sliver, exact framing and spherical emerald planet. ONLY replace the rectangular cyan background dome grid with faint thin perspective-correct HEXAGONAL honeycomb mesh as reference2 exterior geometry. Mesh is transparent far shell BETWEEN interior camera and distant planet, behind Harper, NEVER across her body. Keep planet perfectly spherical with smooth circular limb, not distorted or undulating. Maintain same geography and clouds. Thin far amber rim bottom background only. No new objects, no creatures or extra rings. Interior camera.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n\nGRID OVERRIDE: six-sided HEXAGONAL cells, never rectangles.",
+      "output": "harper-world.png",
+      "direction": "Close rear-over-shoulder inside the sphere; exclude ambiguous full-body rail geometry.",
+      "image": "generated/storyboard/first-contact-v03/harper-world.png",
+      "reviewStatus": "revision-for-review",
+      "galleryIndex": 26
+    },
+    {
+      "id": "contact-027",
+      "name": "system-view",
+      "option": "ending A",
+      "startFrame": 4583,
+      "endFrameExclusive": 4683,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Great pullback destination frame: warm sun with previously visited emerald planet now a small world and two other distant worlds at different depths in natural starfield. No graphic orbit tracks, no UI, no huge ship. Astronomical scale opens outward.\nREFERENCE ROLES: planet; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "system-view.png",
+      "direction": "Great pullback destination frame: warm sun with previously visited emerald planet now a small world and two other distant worlds at different depths in natural starfield. No graphic orbit tracks, no UI, no huge ship. Astronomical scale opens outward.",
+      "image": "generated/storyboard/first-contact-v01/system-view.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 27
+    },
+    {
+      "id": "contact-027-travel",
+      "name": "travel-27",
+      "galleryIndex": "27T",
+      "option": "ending A travel bridge",
+      "startFrame": 4683,
+      "endFrameExclusive": 4716,
+      "image": "generated/storyboard/first-contact-v03/travel-27.png",
+      "prompt": "Use case: illustration-story. Asset: one standalone full-frame 16:9 music-video travel bridge still.\nSHOT: Medium wide three-quarter REAR view of sphere at left-center accelerating forward toward upper-right into an amber and blue warp stream. Two tiny differently colored lights far ahead hint at a binary system, not large suns. Harper visible from behind floating wholly inside. Full ship occupies about one third frame height. Strong depth and forward journey, elegant cinematic motion streaks. No destination vista or planets.\nREFERENCE ROLES: image1 accepted spacecraft design and Harper scale; image2 motion-light language only. Preserve exact sphere technical geometry, no added structure. Transparent sphere uses faint cyan HEXAGONAL facets. Physical adult Harper must remain inside the sphere.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n\nFINAL EXCLUSIONS: No creatures, no settlement, no station, no people outside the sphere, no superimposed faces, no montage, no duplicated ship, no extra inner equatorial ring. Do not include reference station. Only one ship with one outer equatorial band and one aft drive ring. Keep polar plates small and unobtrusive.\n",
+      "reviewStatus": "new-for-review"
+    },
+    {
+      "id": "contact-028",
+      "name": "binary-suns",
+      "option": "ending A",
+      "startFrame": 4716,
+      "endFrameExclusive": 4815,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Cosmic exploration vista of distant binary suns, one amber and one blue-white, above a dark rust planet crescent. Natural astronomical composition, dramatic but quiet, not a literal map. No ship, human, UI or text.\nREFERENCE ROLES: planet; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "binary-suns.png",
+      "direction": "Cosmic exploration vista of distant binary suns, one amber and one blue-white, above a dark rust planet crescent. Natural astronomical composition, dramatic but quiet, not a literal map. No ship, human, UI or text.",
+      "image": "generated/storyboard/first-contact-v01/binary-suns.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 28
+    },
+    {
+      "id": "contact-028-travel",
+      "name": "travel-28",
+      "galleryIndex": "28T",
+      "option": "ending A travel bridge",
+      "startFrame": 4815,
+      "endFrameExclusive": 4848,
+      "image": "generated/storyboard/first-contact-v03/travel-28.png",
+      "prompt": "Use case: illustration-story. Asset: one standalone full-frame 16:9 music-video travel bridge still.\nSHOT: SIDE three-quarter view of sphere gliding left to right through compressed violet and copper light ribbons. Ship occupies half frame height; Harper clearly visible in side profile entirely inside, adult full body including BOTH FEET in gray utility shoes. Curled relaxed floating pose. Ribbons trail behind to left, coherent travel to right. Not rear chase, no planets, no big nebula vista.\nREFERENCE ROLES: image1 accepted spacecraft design and Harper scale; image2 motion-light language only. Preserve exact sphere technical geometry, no added structure. Transparent sphere uses faint cyan HEXAGONAL facets. Physical adult Harper must remain inside the sphere.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n\nFINAL EXCLUSIONS: No creatures, no settlement, no station, no people outside the sphere, no superimposed faces, no montage, no duplicated ship, no extra inner equatorial ring. Do not include reference station. Only one ship with one outer equatorial band and one aft drive ring. Keep polar plates small and unobtrusive.\n",
+      "reviewStatus": "new-for-review"
+    },
+    {
+      "id": "contact-029",
+      "name": "stellar-nursery",
+      "option": "ending A",
+      "startFrame": 4848,
+      "endFrameExclusive": 4948,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Enormous dusty stellar nursery with violet/copper cloud pillars and tiny newborn blue stars, black negative space, cinematic illustrated depth. Distinctly different spatial composition from binary system. No planets close up, no people, no ship, no diagram.\nREFERENCE ROLES: planet; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "stellar-nursery.png",
+      "direction": "Enormous dusty stellar nursery with violet/copper cloud pillars and tiny newborn blue stars, black negative space, cinematic illustrated depth. Distinctly different spatial composition from binary system. No planets close up, no people, no ship, no diagram.",
+      "image": "generated/storyboard/first-contact-v01/stellar-nursery.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 29
+    },
+    {
+      "id": "contact-029-travel",
+      "name": "travel-29",
+      "galleryIndex": "29T",
+      "option": "ending A travel bridge",
+      "startFrame": 4948,
+      "endFrameExclusive": 4981,
+      "image": "generated/storyboard/first-contact-v03/travel-29.png",
+      "prompt": "Use case: illustration-story. Asset: one standalone full-frame 16:9 music-video travel bridge still.\nSHOT: TIGHT REAR chase perspective of sphere, slightly below and off to one side. Single aft drive ring prominent on near ship surface, open transparent sphere beyond, Harper inside seen from behind. Ship in lower-right foreground with fast tapered cyan streaks converging toward small distant red glow high center-left. Different angle and scale from previous medium-wide rear shot. Entire sphere remains within frame. No red planet and no destination vista.\nREFERENCE ROLES: image1 accepted spacecraft design and Harper scale; image2 motion-light language only. Preserve exact sphere technical geometry, no added structure. Transparent sphere uses faint cyan HEXAGONAL facets. Physical adult Harper must remain inside the sphere.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n\nFINAL EXCLUSIONS: No creatures, no settlement, no station, no people outside the sphere, no superimposed faces, no montage, no duplicated ship, no extra inner equatorial ring. Do not include reference station. Only one ship with one outer equatorial band and one aft drive ring. Keep polar plates small and unobtrusive.\n",
+      "reviewStatus": "new-for-review"
+    },
+    {
+      "id": "contact-030",
+      "name": "red-star-system",
+      "option": "ending A",
+      "startFrame": 4981,
+      "endFrameExclusive": 5048,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Quiet distant red star glowing above a small slate-colored ringless rocky world, sparse starfield and faint dust. Understated serene alternative system after luminous nursery. No Earth, no ship, no people, no diagram.\nREFERENCE ROLES: planet; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "red-star-system.png",
+      "direction": "Quiet distant red star glowing above a small slate-colored ringless rocky world, sparse starfield and faint dust. Understated serene alternative system after luminous nursery. No Earth, no ship, no people, no diagram.",
+      "image": "generated/storyboard/first-contact-v01/red-star-system.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 30
+    },
+    {
+      "id": "contact-030-travel",
+      "name": "travel-30",
+      "galleryIndex": "30T",
+      "option": "ending A travel bridge",
+      "startFrame": 5048,
+      "endFrameExclusive": 5081,
+      "image": "generated/storyboard/first-contact-v03/travel-30.png",
+      "prompt": "Use case: illustration-story. Asset: one standalone full-frame 16:9 music-video travel bridge still.\nSHOT: HIGH WIDE OBLIQUE view of a tiny but recognizable single-ring transparent sphere, cyan wake curving from bottom-left toward upper-right into great distant starcloud. Vast depth; ship only about one tenth frame height, Harper only faint silhouette inside at this scale. A travel bridge across space, no giant planet, no map UI. Cyan travel line clear but delicate.\nREFERENCE ROLES: image1 accepted spacecraft design and Harper scale; image2 motion-light language only. Preserve exact sphere technical geometry, no added structure. Transparent sphere uses faint cyan HEXAGONAL facets. Physical adult Harper must remain inside the sphere.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n\nFINAL EXCLUSIONS: No creatures, no settlement, no station, no people outside the sphere, no superimposed faces, no montage, no duplicated ship, no extra inner equatorial ring. Do not include reference station. Only one ship with one outer equatorial band and one aft drive ring. Keep polar plates small and unobtrusive.\n",
+      "reviewStatus": "new-for-review"
+    },
+    {
+      "id": "contact-031",
+      "name": "galactic-possibilities",
+      "option": "ending A",
+      "startFrame": 5081,
+      "endFrameExclusive": 5165,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Wide luminous spiral galactic region obliquely viewed, countless soft points and deep indigo void. A FEW delicate cyan branching paths suggested between selected star points, subtle luminous threads in actual space, not dense UI or labels. Open sense of possible journeys, no literal map frame.\nREFERENCE ROLES: planet; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "galactic-possibilities.png",
+      "direction": "Wide luminous spiral galactic region obliquely viewed, countless soft points and deep indigo void. A FEW delicate cyan branching paths suggested between selected star points, subtle luminous threads in actual space, not dense UI or labels. Open sense of possible journeys, no literal map frame.",
+      "image": "generated/storyboard/first-contact-v01/galactic-possibilities.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 31
+    },
+    {
+      "id": "contact-031-travel",
+      "name": "travel-31",
+      "galleryIndex": "31T",
+      "option": "ending A travel bridge",
+      "startFrame": 5165,
+      "endFrameExclusive": 5199,
+      "image": "generated/storyboard/first-contact-v03/travel-31.png",
+      "prompt": "Use case: illustration-story. Asset: one standalone full-frame 16:9 music-video travel bridge still.\nSHOT: SIDE/FRONT three-quarter medium-wide sphere on RIGHT traveling toward distant warm-white star at LEFT, calm deceleration. Single aft drive ring on trailing RIGHT side, not on left. Harper clearly visible floating entirely INSIDE transparent hex-geodesic sphere, auburn hair, adult scale gray coverall, both feet contained. Sparse subtle light paths trail toward right. Ship occupies about half frame height, no enormous face or superimposition. Dark open space permits destination vista as separate subsequent cut.\nREFERENCE ROLES: image1 accepted spacecraft design and Harper scale; image2 motion-light language only. Preserve exact sphere technical geometry, no added structure. Transparent sphere uses faint cyan HEXAGONAL facets. Physical adult Harper must remain inside the sphere.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n\nFINAL EXCLUSIONS: No creatures, no settlement, no station, no people outside the sphere, no superimposed faces, no montage, no duplicated ship, no extra inner equatorial ring. Do not include reference station. Only one ship with one outer equatorial band and one aft drive ring. Keep polar plates small and unobtrusive.\n",
+      "reviewStatus": "new-for-review"
+    },
+    {
+      "id": "contact-032",
+      "name": "next-destination",
+      "option": "ending A",
+      "startFrame": 5199,
+      "endFrameExclusive": 5266,
+      "worker": "cosmic",
+      "referencePaths": [
+        "C:\\Users\\arneg\\OneDrive\\Documents\\ChatGPT\\music-visualization-toolkit\\projects\\a-right-little-something\\generated\\storyboard\\departure-discovery-v01\\planet-reveal.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one clean cinematic 16:9 music-video storyboard still.\nSHOT: Ending image: one distant warm-white star ahead within layered deep indigo/copper cosmic dust, a single faint cyan path of light approaches it from foreground then disappears into depth. Open invitation to unexplored destination, restrained luminous focal point, no text, arrow, ship or characters.\nREFERENCE ROLES: planet; use them for identity/design/style, not to duplicate their framing.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\n",
+      "output": "next-destination.png",
+      "direction": "Ending image: one distant warm-white star ahead within layered deep indigo/copper cosmic dust, a single faint cyan path of light approaches it from foreground then disappears into depth. Open invitation to unexplored destination, restrained luminous focal point, no text, arrow, ship or characters.",
+      "image": "generated/storyboard/first-contact-v01/next-destination.png",
+      "reviewStatus": "user-approved",
+      "galleryIndex": 32
+    }
+  ],
+  "sourceBatch": "first-contact-v02",
+  "revisedGalleryNumbers": [
+    4,
+    7,
+    9,
+    26
+  ],
+  "userApprovedGalleryNumbers": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    8,
+    9,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "auxiliaryPlates": [
+    {
+      "id": "contact-032-portrait",
+      "name": "ending-harper-portrait",
+      "galleryIndex": "32P",
+      "image": "generated/storyboard/first-contact-v03/ending-harper-portrait.png",
+      "prompt": "Use case: illustration-story. Asset: SEPARATE HARPER PORTRAIT SOURCE PLATE for later independently generated facial-reaction video and Blender compositing. Create one clean full-frame 16:9 cinematic painted graphic-novel still, NOT a finished composite.\nSHOT: Tight close-up head and upper shoulders of the SAME adult Harper in the two identity references, placed at the LEFT of this wide frame. Her short voluminous curly auburn hair fully within frame, recognizable freckles, hazel-green eyes, warm-gray closed-collar coverall just visible at shoulders. Looking gently up and RIGHT with quiet awe and wonder, lips relaxed slightly parted, absolutely no big grin. Warm gentle amber edge light on hair and soft cyan face catchlight. Preserve recognizable adult identity, sophisticated controlled ink detail and painterly dimensional finish.\nBACKGROUND MUST BE PURE DEEP NEAR-BLACK SEAMLESS OPAQUE BLACK. Right TWO THIRDS mostly empty black negative space. No stars, planets, nebula, cosmic imagery, ship geometry, hex grid, holograms, flares, text, decorative elements. Do not bake any cosmic scene into the face, hair or background. NO DOUBLE EXPOSURE. This is the PORTRAIT PLATE ONLY, separately animated later and combined with a separately generated cosmic end plate. References are character identity/style ONLY; exclude all reference backgrounds. Subject floats only implied by crop; no extra limbs, hands or ship need appear.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.\nTARGETED SECOND PASS: First reference is the generated portrait to correct; second reference is identity. Keep her exact facial identity, expression, lighting and feature detail. Reframe smaller to fit her entire head and curls inside the LEFT THIRD of the wide image, with visible black clearance above and left of all hair. Her head should occupy about 65 percent image height, not full height. Right two thirds entirely near-black seamless empty space. Upper shoulders can end at bottom edge. NO hair clipping on top or left. No new objects, stars or cosmic background.\n",
+      "startFrame": 5199,
+      "endFrameExclusive": 5266,
+      "role": "concurrent portrait source plate, not an additional sequential shot"
+    }
+  ],
+  "travelInserts": [
+    "27T",
+    "28T",
+    "29T",
+    "30T",
+    "31T"
+  ],
+  "numberingNote": "Original contact-sheet indices 1\u201332 stay fixed. T denotes an inserted travel shot; 32P is a concurrent source plate for shot 32, not the next shot."
+}

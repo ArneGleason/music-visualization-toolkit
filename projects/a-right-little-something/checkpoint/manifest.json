@@ -17,14 +17,14 @@
     {
       "source": "generated/animatic/current-media.json",
       "backup": "checkpoint/animatic/current-media.json",
-      "sha256": "0c17bfa5b9f54f7ea79d6ca6f07276c6aac55b113b2059c56b27820c3639d1fa",
+      "sha256": "b7661eda0c3c62b1ab124f28f3f52ff5196c6cb1d875fe8c81e904d112f62815",
       "bytes": 91
     },
     {
       "source": "generated/animatic/current-opening.json",
       "backup": "checkpoint/animatic/current-opening.json",
-      "sha256": "4ed6cbbd517d585a23811201c6174272c1dea582d32649068797e5764a92011f",
-      "bytes": 19806
+      "sha256": "664aebc8e6e38a065adba45bfa59a86648bd170c07fe47286463d895b69076c6",
+      "bytes": 30410
     },
     {
       "source": "generated/animatic/motion-insert-manifest.json",
@@ -411,6 +411,42 @@
       "bytes": 56
     },
     {
+      "source": "generated/animatic/selected-stills-v60/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v60/concat.txt",
+      "sha256": "78c6b79d14b6ff052ff264fbf5d645578bba05670e5e16ae74ee4c125a9d388c",
+      "bytes": 38
+    },
+    {
+      "source": "generated/animatic/selected-stills-v61/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v61/concat.txt",
+      "sha256": "78c6b79d14b6ff052ff264fbf5d645578bba05670e5e16ae74ee4c125a9d388c",
+      "bytes": 38
+    },
+    {
+      "source": "generated/animatic/selected-stills-v62/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v62/concat.txt",
+      "sha256": "78c6b79d14b6ff052ff264fbf5d645578bba05670e5e16ae74ee4c125a9d388c",
+      "bytes": 38
+    },
+    {
+      "source": "generated/animatic/selected-stills-v63/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v63/concat.txt",
+      "sha256": "78c6b79d14b6ff052ff264fbf5d645578bba05670e5e16ae74ee4c125a9d388c",
+      "bytes": 38
+    },
+    {
+      "source": "generated/animatic/selected-stills-v64/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v64/concat.txt",
+      "sha256": "78c6b79d14b6ff052ff264fbf5d645578bba05670e5e16ae74ee4c125a9d388c",
+      "bytes": 38
+    },
+    {
+      "source": "generated/animatic/selected-stills-v65/concat.txt",
+      "backup": "checkpoint/animatic/selected-stills-v65/concat.txt",
+      "sha256": "78c6b79d14b6ff052ff264fbf5d645578bba05670e5e16ae74ee4c125a9d388c",
+      "bytes": 38
+    },
+    {
       "source": "generated/animatic/space-blocking-work/lyrics.ass",
       "backup": "checkpoint/animatic/space-blocking-work/lyrics.ass",
       "sha256": "03dae9ad1eeb3ae56389fcfbeb5c5f566cc708214636d4c7f7e7dfe85359c8ea",
@@ -732,6 +768,558 @@
       "source": "generated/kling-tests/escape-ejection-v01/escape-002-ejection-motion-v01/submission.json",
       "backup": "checkpoint/kling-tests/escape-ejection-v01/escape-002-ejection-motion-v01/submission.json",
       "sha256": "f98be8d660f6aa1a52e204777aacc27eb6024c898a058b1b983be0867805f750",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-repairs-v01/contact-011-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-repairs-v01/contact-011-motion-v02/request.json",
+      "sha256": "adb334dad4807a957f62e81c3a7f8cb791c1ce1b905d087d58514f8724caf61b",
+      "bytes": 1798
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-repairs-v01/contact-011-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-repairs-v01/contact-011-motion-v02/submission.json",
+      "sha256": "871035793a3e52d974af4c1ef040df33a3ce525be8572aff3af72249a421b71d",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-repairs-v01/contact-017-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-repairs-v01/contact-017-motion-v02/request.json",
+      "sha256": "5abac1b2fa00b7fb94244c9b1bf1dbd6fc7c26055cfdaed615ee44c9320062c7",
+      "bytes": 1792
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-repairs-v01/contact-017-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-repairs-v01/contact-017-motion-v02/submission.json",
+      "sha256": "cea63fc16a5ff696cc93ba9dc5d1eb7eabc0f37c488dcd295dd2e005c6d50f58",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-repairs-v01/contact-028-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-repairs-v01/contact-028-motion-v02/request.json",
+      "sha256": "8945f2b873a517f90e0f5c3d1739c2d4bf0a0609a768d84c1b938b87c77d8551",
+      "bytes": 1860
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-repairs-v01/contact-028-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-repairs-v01/contact-028-motion-v02/submission.json",
+      "sha256": "aec6a80b63b528a05581bcba88d8306a46aadde680bfbb1f2267499f19568783",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-001-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-001-motion-v01/request.json",
+      "sha256": "91ec326aef66f20aadda6005b27fd1ee62903389ce0ae10dbec7f388f1d2fb0d",
+      "bytes": 3137
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-001-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-001-motion-v01/submission.json",
+      "sha256": "3e4354784faca3ef6c437caf3798da103f003bff8926eaa217a9e8d76ff2f23a",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-002-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-002-motion-v01/request.json",
+      "sha256": "93529cbf6fbf45c3000d9d654da0dc9fafc052799a00e221331cde38c13f8cbb",
+      "bytes": 3119
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-002-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-002-motion-v01/submission.json",
+      "sha256": "cc009ec84f4ebe3c53ad40597a7ec3d00e8e663cf4f660084c1d113bf3ec4345",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-003-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-003-motion-v01/request.json",
+      "sha256": "187089c78c5c04a70a2714adeef1d12f7ee46b91a10617e58b4a35ca8e39471f",
+      "bytes": 2896
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-003-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-003-motion-v01/submission.json",
+      "sha256": "afa31459d2a3281784c7d343ac983b0e3f8d94e8835701563592bc051839a0a8",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-004-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-004-motion-v01/request.json",
+      "sha256": "92333c24bcae63f484f33ef9500f59f7e0e64472a4f575b5e6551aac049f5f8e",
+      "bytes": 2935
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-004-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-004-motion-v01/submission.json",
+      "sha256": "882396cb7ad72ab7f5164208a8bb8dac770b60827c4b36972ef501edcde1b4ee",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-005-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-005-motion-v01/request.json",
+      "sha256": "7d36810de0cafb7910a4d1c9da2ae896f9e02539d407b9e614ee271d0071404c",
+      "bytes": 2851
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-005-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-005-motion-v01/submission.json",
+      "sha256": "7b1d07da91ee3f3b206ccb3072af303b24bb84838df8039dec671e9e0d210670",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-006-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-006-motion-v01/request.json",
+      "sha256": "5931d865d95929159d9570bf724e6c1188166359d60a6c8da9a99751a915afbd",
+      "bytes": 2896
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-006-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-006-motion-v01/submission.json",
+      "sha256": "1b5db1e75fbe4e8e45a09c52623868389bf3886d27a1d27ca85f6b1726bb6618",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-007-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-007-motion-v01/request.json",
+      "sha256": "bedf1c38803955f3807a4bb85ecf92ee702200b6a4f661b44ebb7143ab6d8b2c",
+      "bytes": 3172
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-007-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-007-motion-v01/submission.json",
+      "sha256": "d653ce155bd0cff1966b21c49ae774f65187971f1efbf46ef9c677c014d73628",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-008-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-008-motion-v01/request.json",
+      "sha256": "2bf055955ffef2bd20057540a40138751518f4bff8f5ec7f3c35545d8166ac93",
+      "bytes": 2854
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-008-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-008-motion-v01/submission.json",
+      "sha256": "a0b0fa8f04ef9cc5fb977c5160cf3cb56b25286de796c70fdede68658ac1027b",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-009-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-009-motion-v01/request.json",
+      "sha256": "5d9005db6dfd219ac614b299a2b3032032674824fe9b69d0a762ca8041faea18",
+      "bytes": 3146
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-009-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-009-motion-v01/submission.json",
+      "sha256": "df0e25157e800cda648428cfe0e61f51912837feb62c0c9d55459501ff2917bb",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-010-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-010-motion-v01/request.json",
+      "sha256": "3b6fbb014c42bc96feeda44102a9258a0cfbeca61fec283cb4029402c0135827",
+      "bytes": 2877
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-010-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-010-motion-v01/submission.json",
+      "sha256": "ec7323ec3484225c425a7f5814697fc127a14fc3c38d5194819ad3c390bfd87d",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-011-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-011-motion-v01/request.json",
+      "sha256": "518d2392f899f34ef9bb877a4a1b1eb52765fac76d5d9b0c535a2e35f2bb8077",
+      "bytes": 2898
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-011-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-011-motion-v01/submission.json",
+      "sha256": "d6e87e5c5094a4e2c2d86d8392cb59bb5c78020e6b6cd9919509a766ed340082",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-012-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-012-motion-v01/request.json",
+      "sha256": "023f0e6149742755ecab5c1a3257d1589193563d520f6c18153b18e3022e7a56",
+      "bytes": 3185
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-012-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-012-motion-v01/submission.json",
+      "sha256": "f0bb367646d9c0ac595d391b0d0c79a25098078f12f503d514bf44227ad8092f",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-013-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-013-motion-v01/request.json",
+      "sha256": "dab7e3b5dc7ae5ffdd765aa32d5b7e134463619a9c6bd9470aeabc26add01d2a",
+      "bytes": 2866
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-013-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-013-motion-v01/submission.json",
+      "sha256": "88092d452de03333e36446a136e9ae22e55e244b151a955a4cc398a27c05fc7f",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-014-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-014-motion-v01/request.json",
+      "sha256": "2054e2d63ed6f81f348d58a1ab7212a84e5fcc28750e3937c4755773d4ab7d5e",
+      "bytes": 2878
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-014-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-014-motion-v01/submission.json",
+      "sha256": "1d5818ce37052600457fbe35e352af6900495de4583d9717cb0b42c5921394dc",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-015-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-015-motion-v01/request.json",
+      "sha256": "eb4ac64714bb01794adaec13face3b23a8051343ae7deddea35f6a0d6310ccf1",
+      "bytes": 2868
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-015-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-015-motion-v01/submission.json",
+      "sha256": "eee024b62bb3138035c0782b7a86fbe44539676464f4e4d31dfd3312ce135649",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-016-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-016-motion-v01/request.json",
+      "sha256": "6434d38c658685e272e7697d0751ee4316378833dc5bdb15980ae8485c778b8b",
+      "bytes": 2857
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-016-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-016-motion-v01/submission.json",
+      "sha256": "a0c8d8e33e04278551e0ab518408f72eefa5fb465b30cbfaf52415ec2577882d",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-017-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-017-motion-v01/request.json",
+      "sha256": "f5bb5a7302c21a8d576121f7e0a1cec7a015091ea48a961f47fc2713a84c87a4",
+      "bytes": 2841
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-017-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-017-motion-v01/submission.json",
+      "sha256": "b576dc0fb662ec4398fc2ce05bf3453f50c76d90c6ccbbf516a7740aba0958f3",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-018-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-018-motion-v01/request.json",
+      "sha256": "23157a4ec74a4ad8748b135d276ee1a79f089e19e942df670ad53063d97af64d",
+      "bytes": 2856
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-018-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-018-motion-v01/submission.json",
+      "sha256": "e9fbf60de07c39c25c3d17113ec7bdeabc7a52662661cf268d4d29fb44ef3ee9",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-019-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-019-motion-v01/request.json",
+      "sha256": "9e6f4302a11bab98f03c8ddc33062388e1779f66bf4e06f5649ab21b74eef3ee",
+      "bytes": 2861
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-019-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-019-motion-v01/submission.json",
+      "sha256": "ac00db9f403f9023376398811455a8e2e22f2ad36c05360e79958d23af4a3f85",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-020-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-020-motion-v01/request.json",
+      "sha256": "ebb77425e62a6a3c1993ab03cf9ab8282cccd207ba68f1884f404fc38e512dd1",
+      "bytes": 2895
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-020-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-020-motion-v01/submission.json",
+      "sha256": "c959f63bd3b1769fb3e15f2f582b558a514a2e8bc3a9b98de076b403ddab618a",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-021-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-021-motion-v01/request.json",
+      "sha256": "28a6d117f9e7088c052176d26807afe5d31d3881648ff019db829d7e93e88666",
+      "bytes": 2886
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-021-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-021-motion-v01/submission.json",
+      "sha256": "c7637d710b657ac119a73d07ce988535660c99e618fbb4a1b495bf485012e2c7",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-022-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-022-motion-v01/request.json",
+      "sha256": "a3941bdd970ae71efe370cbf242cefc4eeb80e64549730c7b2c917ecb53cce55",
+      "bytes": 2828
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-022-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-022-motion-v01/submission.json",
+      "sha256": "f526fc6860e5aa1afa35a2857276897193ed7a965f96e2aaa913387aba875c66",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-023-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-023-motion-v01/request.json",
+      "sha256": "c8851fbbb9be17d9fab5dcd9a7c6ed19d46d21e5b6316fbb41264ec339f7a002",
+      "bytes": 3134
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-023-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-023-motion-v01/submission.json",
+      "sha256": "158182acbd1f30db76617733c0cb727e75b5f525a8c89bc66c447426c71d3635",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-024-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-024-motion-v01/request.json",
+      "sha256": "218fbc29966124ea750eb7c45fa40923ab154af3ad86aa0199f81ce7d8bd5ba0",
+      "bytes": 2854
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-024-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-024-motion-v01/submission.json",
+      "sha256": "ae15d0043a974f5d07b99d1f32016a1a4b3a2eb62b0c7d613598009271b62195",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-025-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-025-motion-v01/request.json",
+      "sha256": "7be352322246ed02b9a3bf13b9f21ab65cbed6921df42596d1396196753ab170",
+      "bytes": 2841
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-025-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-025-motion-v01/submission.json",
+      "sha256": "6543c0a280a27a757f31b5b050a0ad2b76099e103e7d246f177cbe0605b550bf",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-026-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-026-motion-v01/request.json",
+      "sha256": "d6db54ec451b441005a15b7f2f950732e4c97c527be9fd0b70166de63e57d8b4",
+      "bytes": 3160
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-026-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-026-motion-v01/submission.json",
+      "sha256": "3ebc7c5bae686114603972ec742232532ed4e7e0592e9dc6fbdf7434c8fb9ac6",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-027-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-027-motion-v01/request.json",
+      "sha256": "34a42422048b562f056381fceaa5797947be03c0272e565f1a049a00530e34c6",
+      "bytes": 2825
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-027-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-027-motion-v01/submission.json",
+      "sha256": "055e3661fac5b5b15acb18f4e75a21619616be932a57d0e2956ea2d54b680e4b",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-027-travel-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-027-travel-motion-v01/request.json",
+      "sha256": "b37241e3cdaa08a7318618c8ad0e363c215f151d2cf4abfc9144be818a614bd4",
+      "bytes": 3121
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-027-travel-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-027-travel-motion-v01/submission.json",
+      "sha256": "bedeec15b1f046b6a0b65884db56999f8733297d05c13c5b9315dac9d82991cc",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-028-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-028-motion-v01/request.json",
+      "sha256": "6edd9fbd9c65694ff435da5a371240deea2cdf8f3e085a30acdc3d0faf947b76",
+      "bytes": 2815
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-028-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-028-motion-v01/submission.json",
+      "sha256": "a5f3d0fb8beeef88a706ba72a306108563800484184c5729a9dd0f963fb1a302",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-028-travel-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-028-travel-motion-v01/request.json",
+      "sha256": "fe174451cbcae63c31b40d035f6248e43b777ab01e0b06c00be43d920d7c8222",
+      "bytes": 3120
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-028-travel-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-028-travel-motion-v01/submission.json",
+      "sha256": "d58228280cb1509c488c5ec16db162b55913024ad2c713c18db1e9af3929cdaf",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-029-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-029-motion-v01/request.json",
+      "sha256": "cb134778cd7d82b00f2597b4066b97565ea8ab967e0b145e73965616b2c92837",
+      "bytes": 2850
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-029-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-029-motion-v01/submission.json",
+      "sha256": "a51b8dd4c9c5763a54317d95d57ac6e3cfe172b1d413b546f73cfe1a6730ec67",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-029-travel-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-029-travel-motion-v01/request.json",
+      "sha256": "c1f28a457f13981d38cc2ae1af0179a83127006869c414683a6289da5ac23cd2",
+      "bytes": 3086
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-029-travel-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-029-travel-motion-v01/submission.json",
+      "sha256": "a118b4a09d27c4dea56d3c0abb487dc0d07dfefc034e2aacf78bbdd9da605fed",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-030-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-030-motion-v01/request.json",
+      "sha256": "9e2d9fd6fec4e5dd98622698607e2d1c2839b0ef84a79e63ac3372e626aeffa9",
+      "bytes": 2838
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-030-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-030-motion-v01/submission.json",
+      "sha256": "a35cfa5aed0f0c405576a2c2c1a5c8f04978d9bae1091c47fbf845872856d008",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-030-travel-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-030-travel-motion-v01/request.json",
+      "sha256": "c8b44a4117b91fc83c89f05d06fbd2366a798da1d333c27a5489e61555092721",
+      "bytes": 3104
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-030-travel-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-030-travel-motion-v01/submission.json",
+      "sha256": "c85c3ba6744190f8ce3acc9eca08c382ac033d81debe3fb3aa703294b79bfab3",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-031-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-031-motion-v01/request.json",
+      "sha256": "7c8b2b703ab21fac8fb35daca7e52a28d91a7dced85ce2610f30da8bb15b4e05",
+      "bytes": 2928
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-031-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-031-motion-v01/submission.json",
+      "sha256": "02a422b38ed0aadff77b75dbe25e3b521e507e73e699ea24fc8ee496b3308f65",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-032-cosmic-background-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-032-cosmic-background-motion-v01/request.json",
+      "sha256": "95621ff20f02f2971a480b7aa3953c9741cc6454c2984c9d297464c19b071324",
+      "bytes": 3020
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-032-cosmic-background-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-032-cosmic-background-motion-v01/submission.json",
+      "sha256": "5bb21d17feeb5124002699ca43d57fd70bf9fe738280a8f7dcf9139527bf04c7",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-032-harper-portrait-motion-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-032-harper-portrait-motion-v01/request.json",
+      "sha256": "66aef2bbf46e64068dffc9d72a07b61c3b71e4c730a031f4b2c68ef4a457e6f7",
+      "bytes": 3359
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v01/contact-032-harper-portrait-motion-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v01/contact-032-harper-portrait-motion-v01/submission.json",
+      "sha256": "fc1b40a7fffe0406974e7e3e6570c73c496fc7db6181fba25ec7605c7033de0f",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-010-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/contact-010-motion-v02/request.json",
+      "sha256": "40679b1e8688259788245eeadbc4653255833634c5e28ac819d4da0cb9f16c46",
+      "bytes": 1620
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-010-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/contact-010-motion-v02/submission.json",
+      "sha256": "372c38d7aabdd4050b8bae4b9c78f2b2f743a58cf25616e5f8badc0f7ff5b9e2",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-014-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/contact-014-motion-v02/request.json",
+      "sha256": "e1a9d2657ce328d87e55f0c45a8e273111abfc36e381d79811ff5412d1480f0f",
+      "bytes": 1617
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-014-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/contact-014-motion-v02/submission.json",
+      "sha256": "30855b81e23542bee6f5285bc38e234c45149fa393dc57c772cb304dd5853a5c",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-016-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/contact-016-motion-v02/request.json",
+      "sha256": "0e783d35a839e0adfbec01cf6addf08b5ff4a29451f23becc77c94db90565dfd",
+      "bytes": 1609
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-016-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/contact-016-motion-v02/submission.json",
+      "sha256": "035dad5c290ca87248af3202949f8adb60a7efb44f7e6d3e9eca9e68de80c74e",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-026-motion-v02/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/contact-026-motion-v02/request.json",
+      "sha256": "c04cfdccb8bf94044db3a0bf4e471b79b337c29219c1e5e7e6e0f0eb31d43d59",
+      "bytes": 1709
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/contact-026-motion-v02/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/contact-026-motion-v02/submission.json",
+      "sha256": "d3180dbfffbafe6a12e60f6b821daa5030c656da67fbd3f6ede6523976061bc3",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/warp-rear-plate-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/warp-rear-plate-v01/request.json",
+      "sha256": "8d241e701c6160dc35987ff6a917561a172a4aa30da1217ffea3a7f120943766",
+      "bytes": 1985
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/warp-rear-plate-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/warp-rear-plate-v01/submission.json",
+      "sha256": "be14770d98289f0ee6808dfbf4f7b2f648b8b02eaaf720a02d35ab51d93216f4",
+      "bytes": 468
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/warp-side-plate-v01/request.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/warp-side-plate-v01/request.json",
+      "sha256": "e10c9270d834ba1629ed7a691aeffa02aa1d4b78baec8e682df806f77832ca6a",
+      "bytes": 1892
+    },
+    {
+      "source": "generated/kling-tests/first-contact-motion-v02/warp-side-plate-v01/submission.json",
+      "backup": "checkpoint/kling-tests/first-contact-motion-v02/warp-side-plate-v01/submission.json",
+      "sha256": "268718942d31fc03e558ca822a833d77123cfb05ea0b109baf7cad2a6ab539c2",
       "bytes": 468
     },
     {
@@ -1301,7 +1889,7 @@
     {
       "source": "generated/review/current-render.json",
       "backup": "checkpoint/review/current-render.json",
-      "sha256": "a267d9d3e95e9b414b345920e27545e2591ad0f4003540f60a651e37c75fd49c",
+      "sha256": "65fd1ebad47b70d140c9978b750431404c60ebc82fdcfc84e3d36331fa57baca",
       "bytes": 225
     },
     {
@@ -2787,6 +3375,1008 @@
       "bytes": 499
     },
     {
+      "source": "generated/storyboard/first-contact-animatic-v01/assembly-plan.json",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v01/assembly-plan.json",
+      "sha256": "664c04f87caaddaf9e31c08f04c24b29b8a1b518a25f8094ef8479663fee868d",
+      "bytes": 10706
+    },
+    {
+      "source": "generated/storyboard/first-contact-animatic-v01/blender_finale.py",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v01/blender_finale.py",
+      "sha256": "8b29eacb3681ad04fd6115a4980e5f828e502d1129c0150c76402727ab984f0b",
+      "bytes": 3815
+    },
+    {
+      "source": "generated/storyboard/first-contact-animatic-v01/build.py",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v01/build.py",
+      "sha256": "40d1c6551a4f9d2a847a09c3ee004df0b4df47d13f6c38765d30c6fb9fba5887",
+      "bytes": 6446
+    },
+    {
+      "source": "generated/storyboard/first-contact-animatic-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v01/lyrics.ass",
+      "sha256": "8f0c95d29635eec203a3e013fd83a3b7991255b1164164d870957e747dcf7277",
+      "bytes": 8501
+    },
+    {
+      "source": "generated/storyboard/first-contact-animatic-v01/review-options.json",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v01/review-options.json",
+      "sha256": "719b41ec7651ccb62eaa60ad0fb03d44294d0259854b9095e141125ef79acdf2",
+      "bytes": 744
+    },
+    {
+      "source": "generated/storyboard/first-contact-animatic-v01/verification.json",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v01/verification.json",
+      "sha256": "ce3abdbc84518d8ae7c65e46d7155a0c358bd46c2a122d81f460871ffd756a11",
+      "bytes": 345
+    },
+    {
+      "source": "generated/storyboard/first-contact-animatic-v02/assembly-plan.json",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v02/assembly-plan.json",
+      "sha256": "0e0b131bf206112bf359178227fb717a25fdb7bb3fa9f92986c71db8317c31d5",
+      "bytes": 2673
+    },
+    {
+      "source": "generated/storyboard/first-contact-animatic-v02/blender_finale.py",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v02/blender_finale.py",
+      "sha256": "9031b6a41d79b8742cf55568497cfe7beb05eb309026f18d3098e4d31a9df6aa",
+      "bytes": 3868
+    },
+    {
+      "source": "generated/storyboard/first-contact-animatic-v02/build.py",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v02/build.py",
+      "sha256": "9d33ad3b8762517501254ed2429e81071863e5e879eaa69eb1ed1b41c38aaa51",
+      "bytes": 3791
+    },
+    {
+      "source": "generated/storyboard/first-contact-animatic-v02/prepare.py",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v02/prepare.py",
+      "sha256": "6f30b595c2a80afad927e1c1115b846b2f6971a25029c241043305aaacab01e9",
+      "bytes": 4262
+    },
+    {
+      "source": "generated/storyboard/first-contact-animatic-v02/review-options.json",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v02/review-options.json",
+      "sha256": "49bd994180574f4a801f0f4f209cb57bce71ba884b315fd75a010004b6b30c75",
+      "bytes": 889
+    },
+    {
+      "source": "generated/storyboard/first-contact-animatic-v02/verification.json",
+      "backup": "checkpoint/storyboard/first-contact-animatic-v02/verification.json",
+      "sha256": "00ec800df67577106bb656b0f6f5d3e8e35df6fd35470d86fe0c97ec747672ff",
+      "bytes": 507
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/assembly-plan.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/assembly-plan.json",
+      "sha256": "f6b2878c3d48f86e554180791005a586b1c8bd2e1c08d451ebd4b7f0cde8794e",
+      "bytes": 6139
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/blender_finale.py",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/blender_finale.py",
+      "sha256": "02e422852eb5df8517b0a684508498535ac47ee73f899b97955856d08a9b38e6",
+      "bytes": 3075
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/build.py",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/build.py",
+      "sha256": "df9661a0821b9bb604eb52f4f59d97b70bc8fe7099dedf43028430b0fc28113a",
+      "bytes": 10378
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/concat.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/concat.txt",
+      "sha256": "e3f2d88590d53238631fa2a07b52a9509cbaf30736efe82b771960db99058052",
+      "bytes": 6900
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-001-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-001-motion-v01.prompt.txt",
+      "sha256": "4835bee79f0864948fb8b3edf3b53ef00700eab994461ad00d0ef70d9af2c2f7",
+      "bytes": 2421
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-002-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-002-motion-v01.prompt.txt",
+      "sha256": "2deb8b2bbce85d4108329926cde610c8f4cc21bb620ab1a3d04e551d938cf649",
+      "bytes": 2401
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-003-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-003-motion-v01.prompt.txt",
+      "sha256": "4e4bc7bbb1ef48cbb8c51e13919dadc47bf7dad5d3ae1e921afae80c9780ad96",
+      "bytes": 2265
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-004-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-004-motion-v01.prompt.txt",
+      "sha256": "2caccbd8c5a5beadf6a877658f94ba9b7921dce1fb341dfa261ad79c5121bf30",
+      "bytes": 2302
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-005-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-005-motion-v01.prompt.txt",
+      "sha256": "6b566e786f760ee9d178bc28f547973b49ded85d2c17bb17ae36f458393e7746",
+      "bytes": 2220
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-006-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-006-motion-v01.prompt.txt",
+      "sha256": "faf1315463086c2509084531a7824f6d5fa42021aa75c695710688ccf82ee98d",
+      "bytes": 2271
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-007-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-007-motion-v01.prompt.txt",
+      "sha256": "fc5fc72782c52f24352263b140d58373baa315125733731b32762b3b5f6c1fc7",
+      "bytes": 2447
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-008-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-008-motion-v01.prompt.txt",
+      "sha256": "adc81e6abd0c4b59d56b4bc7f46626b2e4c42985f36b369bd3465d8fb592af9d",
+      "bytes": 2227
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-009-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-009-motion-v01.prompt.txt",
+      "sha256": "17c89e63405d9fe340768d51bab2ce4ca8413ee981f9e7cb61f97609dbcdfc21",
+      "bytes": 2416
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-010-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-010-motion-v01.prompt.txt",
+      "sha256": "b87b4218830f0441ddd636896a882461d74eeb1227c495bdd4fa9eaadf4f57f7",
+      "bytes": 2252
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-011-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-011-motion-v01.prompt.txt",
+      "sha256": "506e7e43706c17555a8c9be0f51f6b48ebf03648aba3433130faa0b8c13b6ca8",
+      "bytes": 2263
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-012-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-012-motion-v01.prompt.txt",
+      "sha256": "eef9b47e187d8f2c60b4e871b967f26ea5334f4c8e4b810c9dffdf816d461e09",
+      "bytes": 2455
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-013-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-013-motion-v01.prompt.txt",
+      "sha256": "d4a212010496c99ceb330b762cf916a34716afaf3722717c1a2b696ce1ab98d6",
+      "bytes": 2225
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-014-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-014-motion-v01.prompt.txt",
+      "sha256": "4a4f05b5db86ea28687164392bfc8248cf76a692eef6ffc9ce4469b94b7862bf",
+      "bytes": 2249
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-015-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-015-motion-v01.prompt.txt",
+      "sha256": "31d70b334f66dfe16db6cec1ae220b8a39cd9bccc94cba5f36a7fa48fa8e7770",
+      "bytes": 2243
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-016-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-016-motion-v01.prompt.txt",
+      "sha256": "d8bab0b18a76ec3b994b0a79414a65ee43b1a397ca95e9793b2c024ba03534b9",
+      "bytes": 2236
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-017-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-017-motion-v01.prompt.txt",
+      "sha256": "65e0ce8fece108ece518344cb11553a2adf92751c9d0fd55663828899970e4c9",
+      "bytes": 2222
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-018-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-018-motion-v01.prompt.txt",
+      "sha256": "4797eff1a3f680957692a580f856b88ce5b709d32028a4652752810b3aa46ff0",
+      "bytes": 2231
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-019-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-019-motion-v01.prompt.txt",
+      "sha256": "ef5f0778046b58991723630efc8af038b6ab454f633c29cad1b46ceff9c85066",
+      "bytes": 2238
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-020-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-020-motion-v01.prompt.txt",
+      "sha256": "58693bf7209aa470c8da67c5481d26a92b753409d4b7c7ecca2130c50238c4b9",
+      "bytes": 2265
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-021-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-021-motion-v01.prompt.txt",
+      "sha256": "4836e3ce6d57bdfdeca78742106a3484694770c0f11d87fa7ef60f5c4f9594da",
+      "bytes": 2250
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-022-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-022-motion-v01.prompt.txt",
+      "sha256": "b560daefea87ab76343aebca6560741e65d4c307ee02999b474fd1618a937e64",
+      "bytes": 2211
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-023-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-023-motion-v01.prompt.txt",
+      "sha256": "c3fc763d90af148c87ccdc772f2377ad248bcf967af416084ac708ceb1f72487",
+      "bytes": 2410
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-024-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-024-motion-v01.prompt.txt",
+      "sha256": "934490198c44ed8fefd4f84bdb0e1e3f0d198800824b4d2c4ce45675651bd239",
+      "bytes": 2227
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-025-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-025-motion-v01.prompt.txt",
+      "sha256": "b8b4861b64f2adc7c5ea5f64654d679dfbda6f6e7476dd3dd11ab52db2236897",
+      "bytes": 2220
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-026-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-026-motion-v01.prompt.txt",
+      "sha256": "d7ccf0586970c7e9d156b9d08d4adfea17f17818d039565037380e8533d909ce",
+      "bytes": 2439
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-027-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-027-motion-v01.prompt.txt",
+      "sha256": "6373c2df4a5054bc5c8b74e1189cb330a7656d8eeb7afb5389dcbfd481014619",
+      "bytes": 2204
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-027-travel-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-027-travel-motion-v01.prompt.txt",
+      "sha256": "18d092a2b40f902e76799a4c4f885a8db6426ddf8b83fa8cf8af6ef21997119b",
+      "bytes": 2393
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-028-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-028-motion-v01.prompt.txt",
+      "sha256": "9c693ce0f09e49e3518ca7f94999c2ef9d329b008d6f58d9ef3c8f341241fe09",
+      "bytes": 2194
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-028-travel-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-028-travel-motion-v01.prompt.txt",
+      "sha256": "2cb40c15e9c8711040cb012d02d4630b48ec3d7e293a762dade3b1b7fb6ef29c",
+      "bytes": 2392
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-029-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-029-motion-v01.prompt.txt",
+      "sha256": "53cae661929f0a4eda5f16b80680aa7d3c8c3f36a49c13414767c2a63db91f68",
+      "bytes": 2221
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-029-travel-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-029-travel-motion-v01.prompt.txt",
+      "sha256": "587b1657c63834664917b25ed7cdf2335b72942c977ffc4cd7a697cc252a80a9",
+      "bytes": 2358
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-030-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-030-motion-v01.prompt.txt",
+      "sha256": "f4ef7da9c38eed59f7a976312c411f2bea390292f6bec2022c816bcdc69391c3",
+      "bytes": 2209
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-030-travel-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-030-travel-motion-v01.prompt.txt",
+      "sha256": "a01e7601e6f0e9cd544a685859e034f14612b1ec079d71b32242d8e9c0eba2bb",
+      "bytes": 2376
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-031-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-031-motion-v01.prompt.txt",
+      "sha256": "d9c6d55199a5b709a9dfabbdcca6bf017b71fc57825855e427734c52de28a968",
+      "bytes": 2285
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-032-cosmic-background-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-032-cosmic-background-motion-v01.prompt.txt",
+      "sha256": "acec1ec04af4ccbefda85d22af20753aa9695536587e35a3d6329099c764be99",
+      "bytes": 2356
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/contact-032-harper-portrait-motion-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/contact-032-harper-portrait-motion-v01.prompt.txt",
+      "sha256": "e8da84aa48d19717d269c1a9b79c1eb8c1bf9104a5f19dcceefa7fac5ed5c4a0",
+      "bytes": 2596
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/lyrics.ass",
+      "sha256": "8f0c95d29635eec203a3e013fd83a3b7991255b1164164d870957e747dcf7277",
+      "bytes": 8501
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/media-manifest.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/media-manifest.json",
+      "sha256": "c87919234a72da4ff2ae7fd46f9bc7d1c256bf14262fe05c99690a86df0bcfde",
+      "bytes": 43505
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/prepare.py",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/prepare.py",
+      "sha256": "0a543eda4f2dd4336ec19c16af1eb4bafb7f20a644f7242da3030d1324a2484d",
+      "bytes": 16247
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/prepare_media.py",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/prepare_media.py",
+      "sha256": "32db63d99f941d82d4000648d2088b5a3d0ac4c69d209db8afc42f3f734286f4",
+      "bytes": 4498
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/qa-observations.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/qa-observations.json",
+      "sha256": "3b711abdccefe6ace7f614fe59e123ad5b9f91b98462ff83d7ff4d2261d3581f",
+      "bytes": 11690
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/review-options.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/review-options.json",
+      "sha256": "105a01fbea73211ff40ed7e1fa4b68bebdd0219733e5539aa159d85070cb86bb",
+      "bytes": 1546
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/run_batch.py",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/run_batch.py",
+      "sha256": "6441274a343f2e6ea2e13875c1ca6d11fe9e9ab6bf10422eef4c239c06112c8a",
+      "bytes": 5409
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/selection-overrides.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/selection-overrides.json",
+      "sha256": "9fa17c7e5c06b20f7a9f301d42445330b4b67c28e66ed04d20472bc0e32b3b5b",
+      "bytes": 410
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v01/verification.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v01/verification.json",
+      "sha256": "9e5f993195c2b2e45d91325d9de989fca9762780df4b70f3165f185092c3c7bd",
+      "bytes": 624
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/assembly-plan.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/assembly-plan.json",
+      "sha256": "1ee50afe01935e2714b80336039bf3ef604d1670bbab87a2ad9cbc380736f88f",
+      "bytes": 17181
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/blender_effects.py",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/blender_effects.py",
+      "sha256": "4316868e46cb2566ae3d7d36963358016e2a81526e44b0d1932b1506c7e1b955",
+      "bytes": 9283
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/build.py",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/build.py",
+      "sha256": "f9bc02656b9cb7e8c9c914bfe469a3f6af5b3def2364e557512b21ef2597a6b7",
+      "bytes": 12770
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/collect.py",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/collect.py",
+      "sha256": "97f93521e687ac326db491010cd0bec55e0761e8d1fd974801c4703cb6ee4cbe",
+      "bytes": 1543
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/concat.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/concat.txt",
+      "sha256": "9e3f2aea69b176bcb2dc99e46f768897915aa3421a7ec6afb500289d62ae697c",
+      "bytes": 9320
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/contact-010-motion-v02.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/contact-010-motion-v02.prompt.txt",
+      "sha256": "dbfb122507f06426d90a04478d6796beac93fdd379c5f38632a8058591898de5",
+      "bytes": 1011
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/contact-014-motion-v02.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/contact-014-motion-v02.prompt.txt",
+      "sha256": "0055547525cd2a74f423de0c20d2595bb3822b8d9b9786c590a06f9f19484cc6",
+      "bytes": 1024
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/contact-016-motion-v02.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/contact-016-motion-v02.prompt.txt",
+      "sha256": "50f38bb3918b9e5ec7d1de4015d275c51954f6b2200f4cf18bcafce2bdb528e6",
+      "bytes": 1020
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/contact-026-motion-v02.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/contact-026-motion-v02.prompt.txt",
+      "sha256": "d76393be7c9cf857b867b3fa3b2f597314516439cd29c49066e3cfebb461317e",
+      "bytes": 1010
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/image-requests.prompt.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/image-requests.prompt.json",
+      "sha256": "e51cdb139031a3e61d55f05fef9fca88b9ee2beaf9c7a71c4fafb4737d2a048e",
+      "bytes": 7731
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/lyrics.ass",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/lyrics.ass",
+      "sha256": "8f0c95d29635eec203a3e013fd83a3b7991255b1164164d870957e747dcf7277",
+      "bytes": 8501
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/prepare.py",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/prepare.py",
+      "sha256": "c8e9c801016854ca39af0de7be97df5711038c47afd28126758526c310362837",
+      "bytes": 10742
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/prepare_sources.py",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/prepare_sources.py",
+      "sha256": "a9d3a43a2d787b335777ba5e6970a2f534bc59edbbd215ffa3615969f67ad02a",
+      "bytes": 3728
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/qa-observations.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/qa-observations.json",
+      "sha256": "a8d7a862216d5029f10922f00f563dbadbddb0b27a6d26131b86d334adc97b2c",
+      "bytes": 1451
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/review-options.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/review-options.json",
+      "sha256": "2caad683f3eeb50dcad69a8d0f03b9619256baf81a039359b6abdd2f2942d5d3",
+      "bytes": 2309
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/source-manifest.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/source-manifest.json",
+      "sha256": "62d969afbfe9e2767a548fe10f1661f694600e8b4208e74ec9a78a19ff21ae30",
+      "bytes": 4081
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/star-tracks.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/star-tracks.json",
+      "sha256": "71a41d9de7cfb539b47cbc5742e8eac81a5254dfb86f6c4331b4c866b34d0847",
+      "bytes": 9444
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/verification.json",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/verification.json",
+      "sha256": "8fcdc65891ed6a02101bb508601d2c0e21d9746c79a24ecf904201949a780478",
+      "bytes": 995
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/warp-rear-plate-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/warp-rear-plate-v01.prompt.txt",
+      "sha256": "8fa0c10443eec8eff08435bc051f06fa141504fb69ede75ffd7aef95dcdb548a",
+      "bytes": 1189
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/warp-side-plate-v01.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-motion-v02/warp-side-plate-v01.prompt.txt",
+      "sha256": "89b2d116508affe08b82262f985ee4767219ce029953f59b36f533bea83ee21b",
+      "bytes": 1087
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/binary-suns.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/binary-suns.prompt.txt",
+      "sha256": "06178e7699e90ac8d6698ccd23725c32c6d236ae56fbff4a3b7dfe8886d7283d",
+      "bytes": 2031
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/cabin-analysis.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/cabin-analysis.actual-generation.json",
+      "sha256": "5aa241820011af630bf41704010ba7f94fbe875819953d99e1e5d49cef83bdad",
+      "bytes": 5544
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/cabin-analysis.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/cabin-analysis.prompt.txt",
+      "sha256": "ad94cb07cdd137a0a2ee4b4e148d961ecd0494a78a6eac27cbfc46d9c02f42e4",
+      "bytes": 1999
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/canopy-life.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/canopy-life.actual-generation.json",
+      "sha256": "66db4a2e3119ad3c688160728a81397ebc34e37754c913ce09256e0298244184",
+      "bytes": 5141
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/canopy-life.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/canopy-life.prompt.txt",
+      "sha256": "611b9ae644b0c1265f3a54785c664212d50ae1bb81946a597b0a45921bbd5848",
+      "bytes": 1902
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/community-reference.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/community-reference.prompt.txt",
+      "sha256": "e73e98220a251ec17c4f5ac66b3c9e65e2793aece3e6e04ce4e760eaf27831a5",
+      "bytes": 1689
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/community-sky.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/community-sky.prompt.txt",
+      "sha256": "44ffdd653e61ed95bb37dfe11dc947bc52eb559a4bd1cf22974f79a7e3a9a69d",
+      "bytes": 1976
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/community-sky.retry.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/community-sky.retry.prompt.txt",
+      "sha256": "181392e31085a40e370fe3fe7387f4e47fd6d989a9286599ef8e9232c6529fe2",
+      "bytes": 2501
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/contact-light.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/contact-light.prompt.txt",
+      "sha256": "2dcbad7f6facf93a7999d8ae44d8cfe52b0de06973554a5119354a02b4c26235",
+      "bytes": 1951
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/creature-addresses.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/creature-addresses.prompt.txt",
+      "sha256": "4502764be62c9a1c0cb82889140df4122aafaf29245211dafcb1793b2dceeccc",
+      "bytes": 1909
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/creature-notices.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/creature-notices.prompt.txt",
+      "sha256": "d72b9eeb92dedefd7aae327b95d83e3ffdb6a1676484ec8cfaece536e78b6878",
+      "bytes": 1906
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/creature-of-nature.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/creature-of-nature.prompt.txt",
+      "sha256": "098beff14f5191cd06ca8f49870a02c08c322524ae3c95c538a7edd9fedbf34a",
+      "bytes": 1901
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/darkside-arrival.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/darkside-arrival.prompt.txt",
+      "sha256": "e4d5b2cd82b6284199d344f402a4c3f8708664966445d21628ba6aebbcf37af0",
+      "bytes": 1984
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/down-here.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/down-here.prompt.txt",
+      "sha256": "ce4403f075afba71d28388fc797818f3cae0955c7707b08a2827648108553186",
+      "bytes": 1904
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/eye-reflection.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/eye-reflection.prompt.txt",
+      "sha256": "a149edeab5ebb39fe61043fc3681d3b25ebfb43f0f18e5fc1776d0e840d62d32",
+      "bytes": 1905
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/favorite-things.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/favorite-things.prompt.txt",
+      "sha256": "fa9605d91c3d877a3b62b91fc38d5a0a5dac82612beb57934afa961bb51377a6",
+      "bytes": 1961
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/galactic-possibilities.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/galactic-possibilities.prompt.txt",
+      "sha256": "d7bfcd977c9eb036e75feb62b5843e517fd31c73cf60b670368f2425799725f2",
+      "bytes": 2074
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/gallery-manifest.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/gallery-manifest.json",
+      "sha256": "51d01b2b7e6d5256a8fdf10e013f474e2a508a799c385db75a20b436bda15244",
+      "bytes": 83586
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/gallery-options.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/gallery-options.json",
+      "sha256": "e2c04e745b4f2a524a2598b546e5e23bbcd409a2e0160c68aea5942925ef5deb",
+      "bytes": 158
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/generation-plan.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/generation-plan.json",
+      "sha256": "6cc232feb8ae427fe699dabc0a132fcedca4970bc596a78beb7afb6455c8821d",
+      "bytes": 92131
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/grounded-conversation.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/grounded-conversation.actual-generation.json",
+      "sha256": "b528cdf08354d5170a4816240478ffea02a7603fc83b7a1c6db3e3344011ff73",
+      "bytes": 5504
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/grounded-conversation.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/grounded-conversation.prompt.txt",
+      "sha256": "ed4e14ed33f6ba3655b787bf41469643c31798daf82efbd93663f88f39bee1e6",
+      "bytes": 2011
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/harper-listens.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/harper-listens.actual-generation.json",
+      "sha256": "b3756bffc51284bc587842344fdd2f4cf6042a058b05336df0d0e7c352b06471",
+      "bytes": 2539
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/harper-listens.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/harper-listens.prompt.txt",
+      "sha256": "040c1803b34e1eec222be043a61cb8989708bc4ef5232ff1791692fe7c2c69f4",
+      "bytes": 1993
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/harper-recognizes.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/harper-recognizes.actual-generation.json",
+      "sha256": "ff698396168c1fb02ad50ec67ad79ffc0bfc25fca29c92f10711a0f81ea478a4",
+      "bytes": 2583
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/harper-recognizes.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/harper-recognizes.prompt.txt",
+      "sha256": "57974efd22fe52788b7963bdf833546acffc740aa758181ecc2a9cbbb984a524",
+      "bytes": 1948
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/harper-world.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/harper-world.actual-generation.json",
+      "sha256": "1daaa78eb99cb4c6535a710424d29ff3d68a5fcf796f71355185079cded4ffc8",
+      "bytes": 2866
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/harper-world.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/harper-world.prompt.txt",
+      "sha256": "051192b4cae43105bf670d31846531a2ccc9290e288fcab5b0bc08976723bab0",
+      "bytes": 1996
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/highland-life.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/highland-life.prompt.txt",
+      "sha256": "f4a11aae060b2612086d3b99e5f07e6512227b66bfc5757c66e87779d1fe1f39",
+      "bytes": 2245
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/next-destination.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/next-destination.prompt.txt",
+      "sha256": "44b6bec3ed511d4cf5e5f4606677851c21f5b531dde043246939b8298eca5cda",
+      "bytes": 2073
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/night-orbit.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/night-orbit.prompt.txt",
+      "sha256": "d71f7843c0a8cfdfbd32055cf6a8d14bc0eb548ca6e587a5d103f32ca0a63e02",
+      "bytes": 2050
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/prepare.py",
+      "backup": "checkpoint/storyboard/first-contact-v01/prepare.py",
+      "sha256": "73b8a4711008d0b56f3d983eb324571d511a74f0bec7e749cb0b77efc0665fcc",
+      "bytes": 15301
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/projection-reveal.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/projection-reveal.actual-generation.json",
+      "sha256": "9a9f528b84f43dcaeb2c2709a799e64b6f657f4af1dccfde654e5f073c851ac9",
+      "bytes": 2636
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/projection-reveal.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/projection-reveal.prompt.txt",
+      "sha256": "a624030a9a84c036cc42f6d2c16f748d3f823069e8d2a06e802e2c39776fc617",
+      "bytes": 2090
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/red-star-system.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/red-star-system.prompt.txt",
+      "sha256": "08473d451972344b7fecc8bd1ff230b6b3c85b8972ae7e57da34cc8d9e87c859",
+      "bytes": 2031
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/review_batch.py",
+      "backup": "checkpoint/storyboard/first-contact-v01/review_batch.py",
+      "sha256": "02fc7a91c27a35d0995fb0a14c73ec95e1eb63ea095a589091e602d3c92bf9cf",
+      "bytes": 6032
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/stars-for-night.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/stars-for-night.prompt.txt",
+      "sha256": "920361226a03757272fe072007a4de2f116ed3ddf11b9d04724383d95bd5ad47",
+      "bytes": 1921
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/stellar-nursery.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/stellar-nursery.prompt.txt",
+      "sha256": "cad7ec357fdc1a9f762cb5e11d910c2898a8afb884f64556fa66f07fe4f4de17",
+      "bytes": 2032
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/still-validation.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/still-validation.json",
+      "sha256": "e72e327ab742d26a5555b8775673dc1a39287006231693cee25583a9cb1a2d3d",
+      "bytes": 5204
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/surface-selection.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/surface-selection.actual-generation.json",
+      "sha256": "bd0a3201551a567de8e371dbb4919db5047f0caa227852767456fdf0f6a6af67",
+      "bytes": 2661
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/surface-selection.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/surface-selection.prompt.txt",
+      "sha256": "392d30391ab37261eda2407c15663fc5d9d7367ca13c4c922057555166b322bc",
+      "bytes": 1924
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/surface-survey.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/surface-survey.prompt.txt",
+      "sha256": "fbf7a2aa632053b8e98d570e300f081ec53f290b267dd611e097631826e9a404",
+      "bytes": 2130
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/system-view.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/system-view.prompt.txt",
+      "sha256": "6f8d272cdf6535509156795339d94b83c974985bbd78d8b1584d473bb6dca5f8",
+      "bytes": 2031
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/tending-home.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/tending-home.prompt.txt",
+      "sha256": "fcf5a010793cf9b7c2ee51e732551c0949ba638682cd3dfb41b5fa6a483a0b39",
+      "bytes": 1908
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/things-needed.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/things-needed.prompt.txt",
+      "sha256": "16ea0a041afbf36681abf91159574ca90aad55c4277f89e3c07133f1f624ebd9",
+      "bytes": 1907
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/tidal-life.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v01/tidal-life.actual-generation.json",
+      "sha256": "1a2aa7edcbcfb111366648855b5d20da9595ecc6335f0b19754cc9751aafec8b",
+      "bytes": 2264
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/tidal-life.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/tidal-life.prompt.txt",
+      "sha256": "946f781a55a298952db1b9899329c33fe13dd7b44d47d390d15356f468e86b72",
+      "bytes": 1906
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/warp-pulse.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/warp-pulse.prompt.txt",
+      "sha256": "7af18e3545e84d23b69b3c3876de0d7ddd39101831a31a194a6ecdcf69f2853e",
+      "bytes": 1972
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/warp-tunnel.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/warp-tunnel.prompt.txt",
+      "sha256": "3880a1bfbb191d877667d5d8f2863a6ed9a4778b56f20c8d18af5ef4496a7beb",
+      "bytes": 1986
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/warp-tunnel.retry.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v01/warp-tunnel.retry.prompt.txt",
+      "sha256": "c66014478d263e4790dfb09280d7f4e77a7d87b7271ca8ff8122da6553ea1450",
+      "bytes": 2254
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/cabin-analysis.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v02/cabin-analysis.actual-generation.json",
+      "sha256": "b2fdee7805f01375fa6ca50db22b3a275146bf73ec727cd075876c2c51144c48",
+      "bytes": 3614
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/cabin-analysis.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v02/cabin-analysis.prompt.txt",
+      "sha256": "77abdd1bef912412bf21c3c5dbed70d41707c853393978d8ee5e93d58e659737",
+      "bytes": 2444
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/creature-addresses.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v02/creature-addresses.prompt.txt",
+      "sha256": "287705709f58d2f2084160aa6df9bfa839004fd81b6714c25a67a613578f54b1",
+      "bytes": 2450
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/gallery-manifest.json",
+      "backup": "checkpoint/storyboard/first-contact-v02/gallery-manifest.json",
+      "sha256": "d6ddbba342179cd0167f9f842183593c6e55e0e9183bf4a91efb2b1a8ebcd155",
+      "bytes": 84860
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/gallery-options.json",
+      "backup": "checkpoint/storyboard/first-contact-v02/gallery-options.json",
+      "sha256": "3d0b9ec7751aa552b5f297600c76aee0aed101f612ec551c9a3aaa79cb8c082c",
+      "bytes": 155
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/generation-plan.json",
+      "backup": "checkpoint/storyboard/first-contact-v02/generation-plan.json",
+      "sha256": "630fa57eb206d03a8df404b54b18dd3a2fea47d80ac0d656b42968f0afbca509",
+      "bytes": 97852
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/grounded-conversation.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v02/grounded-conversation.prompt.txt",
+      "sha256": "cf30c9ac528d4d53260b4c2614ae1a58e377e809f6f33ef9a4642600b345e1d7",
+      "bytes": 2567
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/harper-world.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v02/harper-world.actual-generation.json",
+      "sha256": "2e051000e0968a2be841db874aea10d5cca78bfca9b7879b6089426c163e965f",
+      "bytes": 3670
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/harper-world.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v02/harper-world.prompt.txt",
+      "sha256": "fd6fcdd014caa0beb6d0bfcc021bbd2f38ba7671ff1628a0feb75eb72d02b36f",
+      "bytes": 2502
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/review-manifest.json",
+      "backup": "checkpoint/storyboard/first-contact-v02/review-manifest.json",
+      "sha256": "3adb20044c80978b09332c08b97402fdc73313750f9733726adea5f45d49ce14",
+      "bytes": 28323
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/review_batch.py",
+      "backup": "checkpoint/storyboard/first-contact-v02/review_batch.py",
+      "sha256": "814be4cdb463b98dcc604a552524e0f5fe8673fc2e4bab0db435c075d8dc942d",
+      "bytes": 6179
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/still-validation.json",
+      "backup": "checkpoint/storyboard/first-contact-v02/still-validation.json",
+      "sha256": "b78fd7727efb2dc171d58c55d71b06660896e15d3dcfe08ccc09bf6f636108b9",
+      "bytes": 138
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/surface-selection.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v02/surface-selection.prompt.txt",
+      "sha256": "c055603eb21c30864fe15310484d2a36c6af5326d18e7b97ad6de6163ec51b3d",
+      "bytes": 2599
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/assembly-plan.json",
+      "backup": "checkpoint/storyboard/first-contact-v03/assembly-plan.json",
+      "sha256": "12431901670866ebd466a058722d8ddd8f771b5bc5a049ff17da62086119de62",
+      "bytes": 4055
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/cabin-analysis.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v03/cabin-analysis.actual-generation.json",
+      "sha256": "17ebab0452e96c1187efc92b1a8ee2955da3b149dc0fbe356c1d7b88ead8eb43",
+      "bytes": 3290
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/cabin-analysis.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v03/cabin-analysis.prompt.txt",
+      "sha256": "e405db97c61b5a35010c89147aa5c67f86d7a3c2b9c7a48cef778684e685a6d9",
+      "bytes": 2352
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/ending-harper-portrait.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v03/ending-harper-portrait.prompt.txt",
+      "sha256": "56a6c8a6e633171114959cdc7b3808ed612bb9dc2ad680de8dac17adceb262b5",
+      "bytes": 2881
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/ending-harper-portrait.retry.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v03/ending-harper-portrait.retry.prompt.txt",
+      "sha256": "88e80b511b9156887fb902625eb2b0a3f53637d836fd5ca634851c6f9638abf5",
+      "bytes": 3454
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/gallery-manifest.json",
+      "backup": "checkpoint/storyboard/first-contact-v03/gallery-manifest.json",
+      "sha256": "b4f0751edee0f3105f238b4bd1b772ed99bb74d9b79797d15f50a5ab9beead73",
+      "bytes": 90414
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/gallery-options.json",
+      "backup": "checkpoint/storyboard/first-contact-v03/gallery-options.json",
+      "sha256": "8664f59859555e09602c41a6c6e65e0cf6a76213dad2d411007a44be621610c0",
+      "bytes": 159
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/generation-plan.json",
+      "backup": "checkpoint/storyboard/first-contact-v03/generation-plan.json",
+      "sha256": "2a2a3b4465d63409b9ee4a47a53395b84c8237ce1c365e1d48a5c46bb1d0c7a0",
+      "bytes": 116902
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/harper-recognizes.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v03/harper-recognizes.actual-generation.json",
+      "sha256": "58f18e11dbcc8a501c0459326841481c78bd0e52f76c37c4b3bfd5c0d3e98854",
+      "bytes": 2840
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/harper-recognizes.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v03/harper-recognizes.prompt.txt",
+      "sha256": "c2206dc06d09cb40c8805539fb8e193a706f8feb1468b97a54a3dd050bb89348",
+      "bytes": 2068
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/harper-world.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v03/harper-world.actual-generation.json",
+      "sha256": "8f749030d73aea27f00e15a3d26c72eae40619b9f1cc884dc5aff27fc909f7b4",
+      "bytes": 2899
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/harper-world.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v03/harper-world.prompt.txt",
+      "sha256": "3291cc3dc44b37055341aff2173820f100ad2dbad42e08591cf72e0467c5ee5b",
+      "bytes": 2137
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/review-manifest.json",
+      "backup": "checkpoint/storyboard/first-contact-v03/review-manifest.json",
+      "sha256": "55bbe8f479667fb0858f3694a6086f6627cb844ddaa3e8908ed7d33ee894403d",
+      "bytes": 28113
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/review_batch.py",
+      "backup": "checkpoint/storyboard/first-contact-v03/review_batch.py",
+      "sha256": "d6daf9e8436b680a10111a6ddb79b2ec674264508011d6340ee60eec71aeb439",
+      "bytes": 9862
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/still-validation.json",
+      "backup": "checkpoint/storyboard/first-contact-v03/still-validation.json",
+      "sha256": "ee3087e66718252700561ee68a7ad37662acb089ca4a2c8c8f29e64f291327ea",
+      "bytes": 205
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/surface-selection.actual-generation.json",
+      "backup": "checkpoint/storyboard/first-contact-v03/surface-selection.actual-generation.json",
+      "sha256": "eb40f76acbcae7da512d8aef1f7fb98ebae5923931c88c4427538c721a92d31a",
+      "bytes": 3145
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/surface-selection.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v03/surface-selection.prompt.txt",
+      "sha256": "69f93bfc32f4e62f28cc4716bbe184986359a34a5748cbbf597cc18bcb62b772",
+      "bytes": 2373
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/travel-27.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v03/travel-27.prompt.txt",
+      "sha256": "524219d14d7d0b2d1ca71721f087f14ae29f378202341e6f567cf21dfd7060fa",
+      "bytes": 2573
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/travel-28.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v03/travel-28.prompt.txt",
+      "sha256": "47d350a1e95e818a594502177762bb3845e7fed3a5458bfbaa8658fca4c15251",
+      "bytes": 2539
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/travel-29.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v03/travel-29.prompt.txt",
+      "sha256": "3fa7641883ef741c59cb59a317383e849c46404a2d5f43a64bf6fcf83647b103",
+      "bytes": 2602
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/travel-30.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v03/travel-30.prompt.txt",
+      "sha256": "de078c72ea7f1ed1a9534da3d00cc62e18e9c75debfdf5e4f115e3890b92e3e7",
+      "bytes": 2512
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/travel-31.prompt.txt",
+      "backup": "checkpoint/storyboard/first-contact-v03/travel-31.prompt.txt",
+      "sha256": "05704b3f71b0cd315c3a2ff503bd16a915ad5811a2a4069eab4b9dac987f8fe4",
+      "bytes": 2663
+    },
+    {
       "source": "generated/storyboard/hologram-overlay-v01/check_projection.py",
       "backup": "checkpoint/storyboard/hologram-overlay-v01/check_projection.py",
       "sha256": "680925215acef81e075a01ca8c75d0903045df47f728a4aab5407a35792a38a3",
@@ -3055,6 +4645,138 @@
       "backup": "checkpoint/storyboard/lab-verse-v02/verification.json",
       "sha256": "48824d6528f33fba4bcfd6a4357688f349edf276452a112a46c889cd3162ccd8",
       "bytes": 381
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v01/assembly-plan.json",
+      "backup": "checkpoint/storyboard/outro-polish-v01/assembly-plan.json",
+      "sha256": "ccbf4190da2e0cf81521a5c9e2b566bc6759dd4e322f89f94ea1b51c9cd0b5e0",
+      "bytes": 7738
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v01/build.py",
+      "backup": "checkpoint/storyboard/outro-polish-v01/build.py",
+      "sha256": "ec873a4f882094b764914b53fc64554e6aea0fb98acacaee24af4936d94813dc",
+      "bytes": 10350
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v01/concat.txt",
+      "backup": "checkpoint/storyboard/outro-polish-v01/concat.txt",
+      "sha256": "44b8085057413b4ff7657167a1ccca2a263b35daae2a3f00459c50c5b052ef1d",
+      "bytes": 3876
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v01/effects.py",
+      "backup": "checkpoint/storyboard/outro-polish-v01/effects.py",
+      "sha256": "18f433a04086a5603560732cd0c116f709859b738f9292032e39b5f0c70780a7",
+      "bytes": 7966
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v01/lyrics.ass",
+      "backup": "checkpoint/storyboard/outro-polish-v01/lyrics.ass",
+      "sha256": "71fecefd1f61c0f5e49086917bd3c961fd32fcc2f55307ea43ca1617902a7520",
+      "bytes": 576
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v01/prepare.py",
+      "backup": "checkpoint/storyboard/outro-polish-v01/prepare.py",
+      "sha256": "795ec9e85a0d6984edd9849248d4097b26a57510adcbe8f7e44a063fc54b1896",
+      "bytes": 3858
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v01/qa-observations.json",
+      "backup": "checkpoint/storyboard/outro-polish-v01/qa-observations.json",
+      "sha256": "ba1e578aad23825ffca21230673b77fc23046d164e67cf694ab3f12535a779d0",
+      "bytes": 1176
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v01/review-options.json",
+      "backup": "checkpoint/storyboard/outro-polish-v01/review-options.json",
+      "sha256": "42c2c6968429a32a9ac146c8e28adc01feb2ae264a415649ebc5ac08270980b4",
+      "bytes": 1248
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v01/title.ass",
+      "backup": "checkpoint/storyboard/outro-polish-v01/title.ass",
+      "sha256": "04d7115815ac075bcb607f3819dc0632532e60a2775ed5202d36f248c1a866e1",
+      "bytes": 855
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v01/verification.json",
+      "backup": "checkpoint/storyboard/outro-polish-v01/verification.json",
+      "sha256": "ee2301aca02faf46bade0115ecd6056baf14c2039cb22d6f4b0e1421d49276f8",
+      "bytes": 908
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/assembly-plan.json",
+      "backup": "checkpoint/storyboard/outro-polish-v02/assembly-plan.json",
+      "sha256": "ba0fdd2a6f0ee91fa2376420f4df17e3daf415a4edfe57c12ba1aee5a525d95c",
+      "bytes": 16679
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/build.py",
+      "backup": "checkpoint/storyboard/outro-polish-v02/build.py",
+      "sha256": "fbcdbbf5a12fa17081be1741f40e45887c26a019c49a95723a82545462ba99e0",
+      "bytes": 10536
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/concat.txt",
+      "backup": "checkpoint/storyboard/outro-polish-v02/concat.txt",
+      "sha256": "e5e85c8bd72cd95c303b31b334200c6ac7fb9d0f4e0f8612d8da342fd9a6dfce",
+      "bytes": 9136
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/effects.py",
+      "backup": "checkpoint/storyboard/outro-polish-v02/effects.py",
+      "sha256": "cde97ff00d366bdd066520d66218cd64d410a20584c368d54af3bbd236db5a26",
+      "bytes": 10898
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/lyrics.ass",
+      "backup": "checkpoint/storyboard/outro-polish-v02/lyrics.ass",
+      "sha256": "8f0c95d29635eec203a3e013fd83a3b7991255b1164164d870957e747dcf7277",
+      "bytes": 8501
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/prepare.py",
+      "backup": "checkpoint/storyboard/outro-polish-v02/prepare.py",
+      "sha256": "667a10243419f04abeb6e991960ffe26409d3e7458554557af7c4e24549bc90b",
+      "bytes": 4544
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/qa-observations.json",
+      "backup": "checkpoint/storyboard/outro-polish-v02/qa-observations.json",
+      "sha256": "c74f7073d73b0036105f03c353211da18886c8e2545f9aa4619d4573145d92a5",
+      "bytes": 2421
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/qa.py",
+      "backup": "checkpoint/storyboard/outro-polish-v02/qa.py",
+      "sha256": "0a79115d90b3cff0ac2fec4ed76491963abe4fdce531fd526e6a293f6faae249",
+      "bytes": 3344
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/review-options.json",
+      "backup": "checkpoint/storyboard/outro-polish-v02/review-options.json",
+      "sha256": "8ea6b5c6637f1e75059fa2f32071d665d5a7ba23b53008adc5d2520239522be6",
+      "bytes": 2416
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/source-manifest.json",
+      "backup": "checkpoint/storyboard/outro-polish-v02/source-manifest.json",
+      "sha256": "7c4af64bf521c137c9880ffe19516d15962c29214c3d81ac4a6f508ffa80e60f",
+      "bytes": 22056
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/title.ass",
+      "backup": "checkpoint/storyboard/outro-polish-v02/title.ass",
+      "sha256": "16edd18d2ce18a1886008224cc7e34b2a25c35fa50ea5a232b97d9221fb014eb",
+      "bytes": 863
+    },
+    {
+      "source": "generated/storyboard/outro-polish-v02/verification.json",
+      "backup": "checkpoint/storyboard/outro-polish-v02/verification.json",
+      "sha256": "6f425a61f31b098c8bcce055647e44815355e09a53da97cc5d4b7d0f79371ef3",
+      "bytes": 1233
     },
     {
       "source": "generated/storyboard/robot-ship-so-bright-motion-v01/lyrics.ass",

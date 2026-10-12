@@ -1,0 +1,20 @@
+{
+  "id": "contact-014-motion-v02",
+  "shotId": "contact-014",
+  "title": "Useful home awning",
+  "startFrame": 3799,
+  "editFrames": 56,
+  "sourceEditStartFrame": 25,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/first-contact-motion-v02/home-awning.png",
+  "firstImageSha256": "da1996088c5f8b728cdebdccc95e306e524b6d8612247c265898e57b05e41e26",
+  "prompt": "5 seconds. Silent native 1080p. The existing creature performs ONE small useful action: gently pulls the existing vine cord down with its raised forefoot, causing the attached woven leaf awning to unroll downward by a small amount over its home nook. Other three feet stay planted. The cord remains attached and taut, the hand keeps its grip. The bedding, basket and hanging tools remain stationary and recognizable beneath the shade. No tool pickup, fruit exchange, new object, human gesture, mouth movement or speech. Quiet practical familiarity, locked camera. One second lead-in and lead-out.\n\nMOTION CONTINUITY LOCK: Preserve the exact visible subjects, proportions, materials, fine illustrated linework, palette and camera framing of the input. A single continuous silent full-frame 16:9 shot. Do not invent subjects absent from the image. No cuts, transitions, text, logos, new objects, extra limbs or transformations. Keep facial identity and anatomy stable. Only perform the specifically requested small motion.",
+  "estimatedCredits": 40
+}

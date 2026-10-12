@@ -1,0 +1,13 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Georgia,72,&H00E9F2FF,&H00E9F2FF,&H00201610,&H80201610,0,0,0,0,100,100,0,0,1,1.5,2,8,50,50,50,1
+Style: Credit,Georgia,30,&H00E9F2FF,&H00E9F2FF,&H00201610,&H80201610,0,0,0,0,100,100,0,0,1,1,1,8,50,50,50,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:30.79,0:00:34.17,Title,,0,0,0,,{\pos(960,850)\fad(500,0)}A Right Little Something
+Dialogue: 0,0:00:30.79,0:00:34.17,Credit,,0,0,0,,{\pos(960,945)\fad(500,0)}© 2026 Arne Gleason

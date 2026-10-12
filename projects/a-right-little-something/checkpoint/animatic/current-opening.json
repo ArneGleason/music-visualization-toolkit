@@ -1,8 +1,8 @@
 {
-  "version": "v59",
-  "mediaLabel": "Departure and discovery / clean motion",
+  "version": "v65",
+  "mediaLabel": "Sphere optics / departure light and refined ending",
   "fps": 24,
-  "endFrameExclusive": 3144,
+  "endFrameExclusive": 5266,
   "shots": [
     {
       "id": "opening-001",
@@ -429,6 +429,384 @@
       "review": {
         "usable": true,
         "notes": "One legible touch/release, a restrained amber course pulse and relaxed hand withdrawal. Five-finger anatomy and gray cuff remain stable. Source25–87 carries the confirmation and settling route."
+      }
+    },
+    {
+      "id": "contact-001",
+      "title": "Warp Departure / Initiation",
+      "startFrame": 3144,
+      "frames": 18,
+      "review": {
+        "notes": "Side-on warp pulse fails. Replace first two cuts with one continuous rear-oblique departure composite.",
+        "reviewStatus": "replace",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-002",
+      "title": "Warp Departure / Forward Travel",
+      "startFrame": 3162,
+      "frames": 42,
+      "review": {
+        "notes": "Rear direction works but Harper disappears. Separate passenger/ship animation from the warp background.",
+        "reviewStatus": "replace",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-003",
+      "title": "Darkside Arrival",
+      "startFrame": 3204,
+      "frames": 58,
+      "review": {
+        "notes": "Dark-side arrival works.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-004",
+      "title": "Surface Selection",
+      "startFrame": 3262,
+      "frames": 33,
+      "review": {
+        "notes": "Surface-selection image works.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-005",
+      "title": "Creature Notices",
+      "startFrame": 3295,
+      "frames": 25,
+      "review": {
+        "notes": "Little-something creature reaction is great.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-006",
+      "title": "Community Sky",
+      "startFrame": 3320,
+      "frames": 64,
+      "review": {
+        "notes": "Community reaction works.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-007",
+      "title": "Cabin Analysis",
+      "startFrame": 3384,
+      "frames": 111,
+      "review": {
+        "notes": "Analysis works. Speaking can read as a voice interface; do not regenerate only to remove speech.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-008",
+      "title": "Surface Survey",
+      "startFrame": 3495,
+      "frames": 57,
+      "review": {
+        "notes": "Surface survey retained.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-009",
+      "title": "Harper Recognizes",
+      "startFrame": 3552,
+      "frames": 58,
+      "review": {
+        "notes": "Finger interaction works.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-010",
+      "title": "Toward the Clearing",
+      "startFrame": 3610,
+      "frames": 55,
+      "review": {
+        "notes": "Cyan wisp lacks context. Replace with creatures walking toward a canopy clearing, looking around/up.",
+        "reviewStatus": "replace",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-011",
+      "title": "Creature Addresses",
+      "startFrame": 3665,
+      "frames": 35,
+      "review": {
+        "notes": "Native Kling motion with exact V61 timing; user motion review pending."
+      }
+    },
+    {
+      "id": "contact-012",
+      "title": "Projection Reveal",
+      "startFrame": 3700,
+      "frames": 36,
+      "review": {
+        "notes": "Ground projection two-shot works.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-013",
+      "title": "Grounded Conversation",
+      "startFrame": 3736,
+      "frames": 63,
+      "review": {
+        "notes": "Homes through the trees work.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-014",
+      "title": "Making Home Comfortable",
+      "startFrame": 3799,
+      "frames": 56,
+      "review": {
+        "notes": "Tool pickup is not functional enough. Proposed replacement: creature lowers a woven home awning over its familiar belongings.",
+        "reviewStatus": "replace",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-015",
+      "title": "Things Needed",
+      "startFrame": 3855,
+      "frames": 56,
+      "review": {
+        "notes": "Seedfruit exchange works with things that I need.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-016",
+      "title": "Canopy Life",
+      "startFrame": 3911,
+      "frames": 26,
+      "review": {
+        "notes": "Both gliders must travel; one follows the other along the same path, no stationary flapping.",
+        "reviewStatus": "replace-motion",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-017",
+      "title": "Tidal Life",
+      "startFrame": 3937,
+      "frames": 33,
+      "review": {
+        "notes": "Keep native tidal footage, add a slight smooth Blender pan and pullout.",
+        "reviewStatus": "local-polish",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-018",
+      "title": "Highland Life",
+      "startFrame": 3970,
+      "frames": 34,
+      "review": {
+        "notes": "Highland creatures are great.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-019",
+      "title": "Tending Home",
+      "startFrame": 4004,
+      "frames": 51,
+      "review": {
+        "notes": "Useful bridge repair illustrates the lyric and moves well.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-020",
+      "title": "Stars For Night",
+      "startFrame": 4055,
+      "frames": 114,
+      "review": {
+        "notes": "Keep night settlement and add restrained star twinkles in Blender.",
+        "reviewStatus": "local-polish",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-021",
+      "title": "Creature Of Nature",
+      "startFrame": 4169,
+      "frames": 120,
+      "review": {
+        "notes": "Creature portrait works.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-022",
+      "title": "Down Here",
+      "startFrame": 4289,
+      "frames": 45,
+      "review": {
+        "notes": "Down-here insert feels long; subtle Blender camera movement and a shorter hold.",
+        "reviewStatus": "local-polish",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-023",
+      "title": "Harper Listens",
+      "startFrame": 4334,
+      "frames": 37,
+      "review": {
+        "notes": "Projection and creature pairing works.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-024",
+      "title": "Eye Reflection",
+      "startFrame": 4371,
+      "frames": 45,
+      "review": {
+        "notes": "Eye glint is excellent; give it longer without moving the night-orbit or finale cues.",
+        "reviewStatus": "extend",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-025",
+      "title": "Night Orbit",
+      "startFrame": 4416,
+      "frames": 30,
+      "review": {
+        "notes": "Ship back in orbit works.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-026",
+      "title": "Harper World",
+      "startFrame": 4446,
+      "frames": 38,
+      "review": {
+        "notes": "Avoid generating her face from a rear view. Keep her head facing the planet throughout.",
+        "reviewStatus": "replace-motion",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-027",
+      "title": "System View",
+      "startFrame": 4484,
+      "frames": 165,
+      "review": {
+        "notes": "First outro system vista works.",
+        "reviewStatus": "keep",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-027-travel",
+      "title": "Travel 27",
+      "startFrame": 4649,
+      "frames": 34,
+      "review": {
+        "notes": "Preserve current take as fallback. Separate ship plus Harper gently floating from warp trails; try simple composite first. Reflections deferred until this works.",
+        "reviewStatus": "composite-test",
+        "reviewVersion": "v62"
+      }
+    },
+    {
+      "id": "contact-028",
+      "title": "Binary Suns",
+      "startFrame": 4683,
+      "frames": 66,
+      "review": {
+        "notes": "Native Kling motion with exact V61 timing; user motion review pending."
+      }
+    },
+    {
+      "id": "contact-028-travel",
+      "title": "Travel 28",
+      "startFrame": 4749,
+      "frames": 33,
+      "review": {
+        "notes": "Native Kling motion with exact V61 timing; user motion review pending."
+      }
+    },
+    {
+      "id": "contact-029",
+      "title": "Stellar Nursery",
+      "startFrame": 4782,
+      "frames": 66,
+      "review": {
+        "notes": "Native Kling motion with exact V61 timing; user motion review pending."
+      }
+    },
+    {
+      "id": "contact-029-travel",
+      "title": "Travel 29",
+      "startFrame": 4848,
+      "frames": 33,
+      "review": {
+        "notes": "Native Kling motion with exact V61 timing; user motion review pending."
+      }
+    },
+    {
+      "id": "contact-030",
+      "title": "Red Star System",
+      "startFrame": 4881,
+      "frames": 50,
+      "review": {
+        "notes": "Native Kling motion with exact V61 timing; user motion review pending."
+      }
+    },
+    {
+      "id": "contact-030-travel",
+      "title": "Travel 30",
+      "startFrame": 4931,
+      "frames": 33,
+      "review": {
+        "notes": "Native Kling motion with exact V61 timing; user motion review pending."
+      }
+    },
+    {
+      "id": "contact-031",
+      "title": "Galactic Possibilities",
+      "startFrame": 4964,
+      "frames": 67,
+      "review": {
+        "notes": "Native Kling motion with exact V61 timing; user motion review pending."
+      }
+    },
+    {
+      "id": "contact-032",
+      "title": "Next Destination",
+      "startFrame": 5031,
+      "frames": 235,
+      "review": {
+        "notes": "Two independently generated twelve-second video plates, each trimmed to235frames and superimposed in Blender. Direct cut from galaxy at3:29.583; Harper visible immediately. User review pending."
       }
     }
   ]

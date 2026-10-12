@@ -1,0 +1,27 @@
+{
+  "id": "warp-rear-plate-v01",
+  "shotId": "contact-001",
+  "title": "Ship and Harper / opening rear plate",
+  "startFrame": 3144,
+  "editFrames": 60,
+  "sourceEditStartFrame": 25,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/first-contact-motion-v02/ship-rear-chroma.png",
+  "firstImageSha256": "e7618f9f319822334e934666bde8f09ad1d387ff0bbadcd6c8afacc1a5df1ac8",
+  "prompt": "5 seconds. Silent native 1080p. A locked effects-source plate. The entire spacecraft silhouette stays absolutely fixed in screen space: no flight, scaling, camera movement or rotation. Only Harper moves: gentle weightless body drift, a small relaxed knee bend and natural hair motion while continuously visible above and to the right of the engine. Her head remains facing forward away from camera for the entire take. No face reveal, no talking. The uniform magenta background remains perfectly uniform, including through all empty dome areas. Preserve thin cyan hexagonal lines and metal geometry. Do not add stars, trails, exhaust, scenery, floor, shadow or reflections. Keep the magenta key color unchanged and unlit. One second steady lead-in and lead-out.\n\nMOTION CONTINUITY LOCK: Preserve the exact visible subjects, proportions, materials, fine illustrated linework, palette and camera framing of the input. A single continuous silent full-frame 16:9 shot. Do not invent subjects absent from the image. No cuts, transitions, text, logos, new objects, extra limbs or transformations. Keep facial identity and anatomy stable. Only perform the specifically requested small motion.",
+  "estimatedCredits": 40,
+  "elements": [
+    {
+      "id": "323570155312565",
+      "bindName": "Harper"
+    }
+  ],
+  "tailImage": "generated/storyboard/first-contact-motion-v02/ship-rear-chroma.png"
+}

@@ -25,8 +25,12 @@ def main():
     spec = json.loads(args.batch.read_text(encoding='utf-8'))
     register_path = base/'shots/shotlist.json'
     register = json.loads(register_path.read_text(encoding='utf-8'))
-    shots = sorted([s for s in register['storyboardProposals'] if s.get('batch') == spec['id']],
+    selected_ids = set(spec['shotIds']) if spec.get('shotIds') else None
+    shots = sorted([s for s in register['storyboardProposals'] if s.get('batch') == spec['id']
+                    and (selected_ids is None or s['id'] in selected_ids)],
                    key=lambda s:s['startFrame'])
+    if selected_ids is not None:
+        assert {s['id'] for s in shots} == selected_ids, 'Unknown shot IDs in insert'
     assert all(a['endFrameExclusive'] == b['startFrame'] for a,b in zip(shots,shots[1:]))
     start, end = shots[0]['startFrame'], shots[-1]['endFrameExclusive']
     root = base/'generated/animatic'
@@ -45,12 +49,19 @@ def main():
     work.mkdir(exist_ok=True)
     # The reviewed board already contains the exact word-timed bottom lyrics.
     run(['-i',str(board),'-map','0:v:0','-an','-c:v','copy',str(work/'stills.mp4')])
+    pieces = ['stills.mp4']
     for name,a,b in [('before',0,start-1),('after',end-1,count)]:
+        if b <= a:
+            continue
         run(['-reinit_filter','0','-i',str(source),'-vf',
              f'trim=start_frame={a}:end_frame={b},setpts=N/({fps}*TB),setsar=1',
              '-frames:v',str(b-a),'-r',str(fps),'-an','-c:v','libx264',
              '-preset','fast','-crf','18',str(work/(name+'.mp4'))])
-    (work/'concat.txt').write_text("file 'before.mp4'\nfile 'stills.mp4'\nfile 'after.mp4'\n",encoding='utf-8')
+        if name == 'before':
+            pieces.insert(0, name+'.mp4')
+        else:
+            pieces.append(name+'.mp4')
+    (work/'concat.txt').write_text(''.join(f"file '{name}'\n" for name in pieces),encoding='utf-8')
     run(['-f','concat','-safe','0','-i','concat.txt','-c','copy','picture.mp4'],cwd=work)
     pending = final.with_name(final.stem+'.rendering.mp4')
     run(['-i',str(work/'picture.mp4'),'-i',str(source),'-map','0:v:0','-map','1:a:0',

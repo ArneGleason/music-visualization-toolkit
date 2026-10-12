@@ -1,0 +1,40 @@
+{
+  "mode": "built-in ImageGen",
+  "transparent_background": false,
+  "requests": [
+    {
+      "output": "ship-side-chroma.png",
+      "reference": "../first-contact-v03/travel-27.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied music-video illustration into a clean chroma-key animation plate. Preserve the EXACT ship, Harper, their pose, their size and screen position, camera angle, graphite outer equatorial band, amber lights, cyan hexagonal dome lines, single aft engine ring, upper/lower technical plates, and fine painted graphic-novel style. CHANGE ONLY the surrounding environment and anything seen through the transparent dome: remove every star, warp streak, route, planet, background texture and long engine exhaust beam. Replace all space outside the ship AND all empty transparent areas inside the dome with one perfectly flat uniform vivid magenta chroma-key background (#ff00ff), all the way to the image edges. The magenta should be visible THROUGH the empty dome around Harper, while Harper, metal parts and cyan dome network remain fully recognizable. No magenta spill or colored reflection on the character or ship. Retain the short cyan glow inside the engine only, no long exhaust. Harper remains in her warm-gray survival suit floating fully inside; no change to her body or character design. Ship silhouette stationary, clean full sphere uncut. One 16:9 image, no borders, captions, labels or collage. This is an effects source layer, not the final scene."
+    },
+    {
+      "output": "creatures-clearing.png",
+      "reference": "../first-contact-v01/contact-light.png",
+      "prompt": "Use case: illustration-story, edit an established music-video scene. The reference establishes the EXACT small intelligent teal-and-ochre quadruped species with amber eyes and paired fan crests, its woven seedpod/root settlement, and detailed painted graphic-novel style. Replace the contact-light scene with a NEW camera composition: an inviting ground-level medium-wide view looking along a root path INTO a small open canopy clearing. TWO of these same quadrupeds are already walking naturally on all fours toward the clearing, with one closer at left and the other several paces ahead at center right, both attentive, heads angled subtly toward the open patch of blue sky. Show readable space ahead of them and soft seedpod homes among foliage at the sides. No front-on pose matched to reference, no crowd standing still. Warm afternoon copper-gold light, lush detailed forest. Completely REMOVE every cyan wisp, particle, glow, projection, hologram and spacecraft. No humans at all. Only the two creatures and their ordinary home. Four limbs each, no anthropomorphic costumes. This will animate as a short approach to the open clearing before a low-angle creature looking up. Cinematic 16:9 single full-frame composition, no panels, text or captions."
+    },
+    {
+      "output": "home-awning.png",
+      "references": [
+        "../first-contact-v01/favorite-things.png",
+        "../first-contact-v01/contact-light.png"
+      ],
+      "prompt": "Use case: illustration-story. New shot replacing a meaningless tool pickup in a music video. Reference 1 establishes the tactile carved-wood/woven-fiber objects and teal/ochre limbs. Reference 2 establishes the EXACT small intelligent quadruped's design and seedpod root home. Medium-close side view of ONE of this species at the entrance of its cozy root dwelling. It is on three feet with one dexterous forefoot gripping a simple thick vine pull-cord, about to tug a woven leaf awning over its own familiar little home nook. The shade hangs visibly partly rolled above, mechanically connected to this one simple cord; the action will lower the shade a short distance. Inside the nook are a comfortable woven nest mat, a practical basket, and two familiar carved tools hanging neatly on the root wall. Convey useful everyday belongings and making one's world just right, affectionate and functional, without performing several actions at once. Show the creature's profile and the readable connection between cord and awning. Same detailed painted graphic-novel illustration, warm late-day forest light, earthy copper and emerald colors. No gardening spoon, no fruit handoff, no human, no hologram, no cyan magic, no spacecraft, no costumes. Four limbs total, amber eye and ochre fan crest. 16:9 single cinematic shot, no lettering, panels or labels."
+    },
+    {
+      "output": "ship-rear-chroma.png",
+      "reference": "../first-contact-v01/warp-tunnel.png",
+      "prompt": "Use case: precise-object-edit. Turn this exact rear-three-quarter spacecraft illustration into a clean chroma-key animation source plate. Keep the ship, passenger Harper, exact camera orientation and screen placement, size, proportions, graphite outer equatorial band, amber rims, small upper/lower plates, single aft engine ring and fine cyan geodesic dome network. Change ONLY its surroundings: remove all warp trails, stars, particles, lens flares, long engine beam and cosmic background, including everything seen THROUGH the transparent sphere. Replace every empty space both outside the sphere and THROUGH the empty dome around Harper with one perfectly flat vivid magenta (#ff00ff), uniform edge-to-edge. Preserve Harper fully visible floating inside, gray survival suit and auburn curls, head looking forward away from camera, anatomy unchanged. Retain a short glow within the engine only, no long exhaust. No magenta spill on the actual subject. All ship and character surfaces remain original color. Dome empty areas magenta, thin cyan hexagon edges retained. One intact sphere; no added rings. 16:9 full frame, no text or collage. An effects source layer, not a final scene."
+    },
+    {
+      "output": "warp-side-background.png",
+      "reference": "../first-contact-v03/travel-27.png",
+      "prompt": "Use case: precise-object-edit. Produce a clean background plate for this exact warp-travel shot. Remove the entire spacecraft, dome, engine, exhaust, Harper and all parts of their silhouettes. Seamlessly reconstruct the warp tunnel and star/light streaks that would naturally be BEHIND the deleted subject. Keep the exact right-side vanishing point and amber/cyan/ivory trail palette, tiny twin sun point upper right. Preserve the original beautifully illustrated lighting, linework and rich dark blue space; continue trails with natural perspective through the cleared region. No visible vessel, no passenger, no sphere, no disc or ring shape where the ship was, no outlines or ghost of the removed subject. Full 16:9 image without borders, text or collage. Only the illustrated warp environment. This will be animated separately in Blender."
+    },
+    {
+      "output": "warp-rear-background.png",
+      "reference": "../first-contact-v01/warp-tunnel.png",
+      "prompt": "Use case: precise-object-edit. Produce a clean background plate for this exact warp-travel shot. Remove the entire spacecraft, dome, engine, exhaust, Harper and all parts of their silhouettes. Seamlessly reconstruct the warp tunnel and star/light streaks that would naturally be BEHIND the deleted subject. Keep the exact forward tunnel vanishing point slightly right of center and above midline, cyan/ivory trail palette. Preserve the original beautifully illustrated lighting, linework and rich dark blue space; continue trails with natural perspective through the cleared region. No visible vessel, no passenger, no sphere, no disc or ring shape where the ship was, no outlines or ghost of the removed subject. Full 16:9 image without borders, text or collage. Only the illustrated warp environment. This will be animated separately in Blender."
+    }
+  ]
+}
+

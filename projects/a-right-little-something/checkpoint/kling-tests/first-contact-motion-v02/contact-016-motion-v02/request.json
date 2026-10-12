@@ -1,0 +1,20 @@
+{
+  "id": "contact-016-motion-v02",
+  "shotId": "contact-016",
+  "title": "Two gliders following",
+  "startFrame": 3911,
+  "editFrames": 26,
+  "sourceEditStartFrame": 25,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "model": "kling-video-v3_0",
+  "duration": 4,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "firstImage": "generated/storyboard/first-contact-v01/canopy-life.png",
+  "firstImageSha256": "303587d22dcc1569591babd6fb9ec1c0329919a3fdede2beb303b85e503f394a",
+  "prompt": "4 seconds. Silent native 1080p. Both existing membrane-winged animals MOVE FORWARD across the valley. The nearer glider follows the leading glider along the same gently curving path from left toward right and into depth, like one chasing the other playfully. Their bodies translate smoothly through the air from the beginning; no hovering or stationary wing flapping. Mostly extended gliding wings with only a small corrective flex. Stable species, wing count and anatomy. Background canopy and valley retain their form, camera almost locked. No extra animal. One second lead-in and lead-out.\n\nMOTION CONTINUITY LOCK: Preserve the exact visible subjects, proportions, materials, fine illustrated linework, palette and camera framing of the input. A single continuous silent full-frame 16:9 shot. Do not invent subjects absent from the image. No cuts, transitions, text, logos, new objects, extra limbs or transformations. Keep facial identity and anatomy stable. Only perform the specifically requested small motion.",
+  "estimatedCredits": 32
+}

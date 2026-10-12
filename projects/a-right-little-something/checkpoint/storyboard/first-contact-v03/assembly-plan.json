@@ -1,0 +1,124 @@
+{
+  "status": "still review; future separate video generation and Blender compositing",
+  "fps": 24,
+  "frameConvention": "one-based half-open",
+  "endingTimeline": [
+    {
+      "id": "contact-026",
+      "galleryIndex": 26,
+      "image": "generated/storyboard/first-contact-v03/harper-world.png",
+      "startFrame": 4446,
+      "endFrameExclusive": 4583,
+      "frames": 137
+    },
+    {
+      "id": "contact-027",
+      "galleryIndex": 27,
+      "image": "generated/storyboard/first-contact-v01/system-view.png",
+      "startFrame": 4583,
+      "endFrameExclusive": 4683,
+      "frames": 100
+    },
+    {
+      "id": "contact-027-travel",
+      "galleryIndex": "27T",
+      "image": "generated/storyboard/first-contact-v03/travel-27.png",
+      "startFrame": 4683,
+      "endFrameExclusive": 4716,
+      "frames": 33
+    },
+    {
+      "id": "contact-028",
+      "galleryIndex": 28,
+      "image": "generated/storyboard/first-contact-v01/binary-suns.png",
+      "startFrame": 4716,
+      "endFrameExclusive": 4815,
+      "frames": 99
+    },
+    {
+      "id": "contact-028-travel",
+      "galleryIndex": "28T",
+      "image": "generated/storyboard/first-contact-v03/travel-28.png",
+      "startFrame": 4815,
+      "endFrameExclusive": 4848,
+      "frames": 33
+    },
+    {
+      "id": "contact-029",
+      "galleryIndex": 29,
+      "image": "generated/storyboard/first-contact-v01/stellar-nursery.png",
+      "startFrame": 4848,
+      "endFrameExclusive": 4948,
+      "frames": 100
+    },
+    {
+      "id": "contact-029-travel",
+      "galleryIndex": "29T",
+      "image": "generated/storyboard/first-contact-v03/travel-29.png",
+      "startFrame": 4948,
+      "endFrameExclusive": 4981,
+      "frames": 33
+    },
+    {
+      "id": "contact-030",
+      "galleryIndex": 30,
+      "image": "generated/storyboard/first-contact-v01/red-star-system.png",
+      "startFrame": 4981,
+      "endFrameExclusive": 5048,
+      "frames": 67
+    },
+    {
+      "id": "contact-030-travel",
+      "galleryIndex": "30T",
+      "image": "generated/storyboard/first-contact-v03/travel-30.png",
+      "startFrame": 5048,
+      "endFrameExclusive": 5081,
+      "frames": 33
+    },
+    {
+      "id": "contact-031",
+      "galleryIndex": 31,
+      "image": "generated/storyboard/first-contact-v01/galactic-possibilities.png",
+      "startFrame": 5081,
+      "endFrameExclusive": 5165,
+      "frames": 84
+    },
+    {
+      "id": "contact-031-travel",
+      "galleryIndex": "31T",
+      "image": "generated/storyboard/first-contact-v03/travel-31.png",
+      "startFrame": 5165,
+      "endFrameExclusive": 5199,
+      "frames": 34
+    },
+    {
+      "id": "contact-032",
+      "galleryIndex": 32,
+      "image": "generated/storyboard/first-contact-v01/next-destination.png",
+      "startFrame": 5199,
+      "endFrameExclusive": 5266,
+      "frames": 67
+    }
+  ],
+  "finale": {
+    "startFrame": 5199,
+    "endFrameExclusive": 5266,
+    "frames": 67,
+    "videoInputs": [
+      {
+        "id": "cosmic-background",
+        "still": "generated/storyboard/first-contact-v01/next-destination.png",
+        "direction": "Slow forward cosmic drift toward the light. No Harper, portrait, face or double exposure."
+      },
+      {
+        "id": "harper-portrait",
+        "still": "generated/storyboard/first-contact-v03/ending-harper-portrait.png",
+        "direction": "Harper close-up with subtle breath, eye movement and quiet awe. Keep near-black background clean. No cosmic scenery or double exposure."
+      }
+    ],
+    "separateVideoGenerations": true,
+    "compositingApplication": "Blender",
+    "compositingDirection": "Animate both clean inputs separately, trim to the same exact frame range, then layer Harper over the cosmic plate with a controlled matte and opacity. Adjust framing, blend and fade in Blender. Never bake the superimposition into either still or ask Kling to generate the composite.",
+    "generatedCompositeStill": false
+  }
+}

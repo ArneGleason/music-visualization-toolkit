@@ -11,3 +11,7 @@ with the repository Python environment to restore missing local metadata and ima
 references. Existing local files are not overwritten. Audio, generated videos,
 Blender scenes, full frame sequences and final renders remain on the production
 machine under ignored folders; Git does not contain a complete media backup.
+
+The accepted V65 checkpoint adds selected first-contact and cosmic-tour stills,
+the community design reference, independent ship/Harper and warp background
+plates, and the separate closing portrait. Rejected variants stay local.

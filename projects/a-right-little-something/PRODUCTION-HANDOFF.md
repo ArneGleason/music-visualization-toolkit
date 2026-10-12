@@ -1,4 +1,153 @@
+## Accepted V65 save point — October 12, 2026
+
+User accepted V65 and requested a complete commit/push before ending the session.
+This is the baseline for the next review. Planned next-session work: improve
+beginning shots to match the accepted sphere ship design, then selectively retry
+other shots. No new generations or spending are requested during the break.
+
+Canonical decisions and frame timings remain in `shots/shotlist.json`. Curated
+first-contact, community, cosmic destination and independent composite reference
+images are now included in `reference-images/manifest.json`. Small metadata,
+prompts, generation receipts and reproducible Blender/assembly scripts are saved
+in `checkpoint/`. Audio, videos, renders, Blender scenes and frame caches remain
+local under ignored `generated/`; GitHub is not a full media backup.
+
+Resume with the repository Python environment:
+`tools/listening_review.py projects/a-right-little-something/project.json --port 8768`
+and open `http://127.0.0.1:8768/?v=v65`.
+
+## V65 — separated sphere optics and ending refinements, 2026-10-11
+
+Current review: `http://127.0.0.1:8768/?v=v65`. V64 preserved. No new generation credits.
+Full movie remains 5265 frames at 24 fps / 1920x1080; original V64 AAC packets verified identical. All canonical shot boundaries are unchanged.
+
+- Both early rear warp (frames3144–3204 exclusive) and Travel27 (4649–4683) now use a stronger dark cyan optical middle layer. Stack: warp background, sphere-masked refraction/transmission, original keyed ship-and-Harper foreground. Only the underplate is refracted and attenuated; the foreground source and its compositor path remain untouched. Native keyed alpha retains normal slight background contribution around partially transparent pixels.
+- Sphere transmission uses linear RGB absorption .90/.77/.60, with mild local radial refraction (roughly4px maximum). The mask tracks the sphere in each shot. Separate editable maps and Blender nodes are retained.
+- Central-world departure light swells from4550, peaks4567 (3:10.25), then accelerates along a curved escape path from4583 through4648. The base system camera move remains intact.
+- Harper's rear/profile planet shot (4446–4484) now pushes and pans toward the planet side. Reversed Travel28 at3:18 is unchanged.
+- Final Harper video is slipped48 source frames forward: native frame73 instead of25. The final composite still enters at5031; fade starts5137 (3:34), reaches zero5185 (3:36). Padded portrait tail occurs only after she is already invisible.
+- Ending type uses clean sans serif Bahnschrift: uppercase title68px with3px tracking, copyright30px. Enters5185 and reaches full opacity5197.
+
+Reproduction: `generated/storyboard/outro-polish-v02/prepare.py`, Blender5.2 `effects.py -- --shot <opening|travel|system-departure|planet-push|finale>`, then `build.py`. `qa.py` compares timings and samples the assembled edit. No re-plan required. Review notes: `outro-v64-review.json`; exact plans, source offsets and QA live in that storyboard directory. Large media remains outside Git.
+
+## V64 — outro editorial polish, 2026-10-11
+
+Current review: `http://127.0.0.1:8768/?v=v64`. V63 preserved. No new generation credits.
+Full movie remains 5265 frames at 24 fps / 1920x1080; original V63 AAC packets verified identical.
+
+- Harper World shortened to frames4446–4484. System View now begins on DAW bar71 beat2, frame4484 (3:06.792), fully visible by3:06.958. Next travel cue stays4649. Existing system footage smoothly retimed and given a Blender camera move.
+- Travel28 at3:17.833 reversed using exactly original selected frames57 through25; reverse handles follow from24 through17.
+- Stronger Blender movement on Stellar Nursery, Red Star System moon, and Galactic Possibilities.
+- Travel27 plated sphere: mild radial refraction (approximately4px maximum) and subtle dark cyan transmission, applied only to background under the transparent dome. Harper and hull remain independent. No reflected-streak generation.
+- Finale retains its accepted entry at5031. Harper fade begins5137 (3:34), reaches zero5185 (3:36). Cosmic source continues. Title A Right Little Something and smaller © 2026 Arne Gleason enter at5185 and are fully visible by5197 (3:36.5).
+
+Reproduction: `generated/storyboard/outro-polish-v01/prepare.py`, `effects.py -- --shot <contact-027|contact-029|contact-030|contact-031|travel|finale>`, then `build.py`. Run effects through installed Blender5.2. The prepare script preserves the original V63 shotlist snapshot; do not re-plan existing creative work.
+Review notes: `outro-v63-review.json`. Exact media choices and time map: `assembly-plan.json`; visual/timing QA: `verification.json` and `qa-observations.json`. Title overlay source `title.ass` is included in metadata checkpoints. Large media and renders remain outside Git.
+
 # A Right Little Something — production checkpoint
+
+## October 11 — V63 targeted motion revisions and simple warp composites
+
+V62 review is recorded in `first-contact-v62-review.json`. The side-on warp
+start was rejected; the rear warp take lost Harper. V63 replaces both with
+one continuous 60-frame rear-oblique departure, retaining their existing
+18/42-frame metadata split. Independent native ship/Harper video is keyed over
+a separately animated illustrated warp background in Blender. The first outro
+travel insert uses the same two-layer approach with its own side-oblique plate.
+Harper has visible weightless motion. The user explicitly wants the simple
+composite tested first; synthesized reflections from warp streaks are deferred.
+The previous single-generation travel is preserved in V62 for comparison.
+
+Other replacements: creatures walk into a canopy clearing instead of the
+unexplained cyan wisp; a creature lowers its home awning instead of merely
+picking up a gardening tool; both gliders travel across the valley; Harper
+watches the planet in profile/turned away without turning toward the viewer.
+Existing tidal and grounded-foot shots gain gentle Blender moves. Six existing
+stars receive tracked, independent twinkles. Ecology transitions use four-frame
+dissolves; outro transitions use six, with four into the finale. These use
+outgoing source handles and do not shorten the song or move the final cue.
+
+Down-here now ends at DAW bar 69 beat 1, frame 4334. Harper's projection retains
+37 frames, followed by a 45-frame eye glint (previously 27). Night orbit remains
+at frame 4416. The Harper finale still starts at 5031 (3:29.583), becoming fully
+visible before 3:30. Full edit: 5265 frames, 1920x1080 at 24 fps; original V62
+AAC packets verified identical. V62 remains intact.
+
+Review: http://127.0.0.1:8768/?v=v63
+Composite comparison: http://127.0.0.1:8768/storyboard/first-contact-motion-v02/
+Six new Kling takes cost 248 credits. First-contact total is 1880, project
+cumulative 5264, and the verified remaining balance is 17001. All jobs are
+collected. Both isolated plates use source frame 1; the side plate's later
+unwanted scenery is excluded. Magenta padding and a custom Blender key remove
+background and edge contamination while retaining the cyan engine and dome.
+Source stills were made with built-in ImageGen; exact prompts, plans, frame
+sources, QA and editable Blender scenes are in
+`generated/storyboard/first-contact-motion-v02/`. V63 is pending user review.
+
+## October 11 — V62 clean first-contact motion ready for review
+
+User approved the V61 timing and authorized Kling generation after the credit
+estimate. V62 replaces the first-contact still section from frame 3144 through
+5266 exclusive with 36 timed shots using 37 selected silent 1080p Kling sources.
+All V61 shot boundaries are retained. The full edit is 5265 frames at 24 fps,
+1920x1080, with original V61 AAC packets verified identical. V61 remains intact.
+
+Review: http://127.0.0.1:8768/?v=v62
+Clean takes: http://127.0.0.1:8768/storyboard/first-contact-motion-v01/
+The direct galaxy-to-Harper cut remains at frame 5031 (3:29.583). Independent
+cosmic and portrait video plates are trimmed to 235 frames and superimposed
+in Blender; the overlay was not generated by Kling. Editable compositor:
+`generated/storyboard/first-contact-motion-v01/finale-two-videos.blend`.
+
+Actual spend: 1528 credits for the first 37 generations, plus 104 for three
+targeted corrections (creature profile 011, tidal life 017, binary suns 028).
+Total for this pass: 1632 credits; project cumulative spend: 5016. Live balance
+after completion: 17249 credits. All 40 paid jobs are collected; none pending.
+Shot 005 uses clean source frames 1–25 to avoid an unwanted later hologram,
+without another generation. Original and corrected sources remain available.
+
+Every selected source was checked at its edit in/middle/out, with native frame
+counts and format validated. Motion remains pending the user's review. Assembly
+scripts, selected-take overrides, QA notes and verification are in
+`generated/storyboard/first-contact-motion-v01/`. Caption export disables filter
+reinitialization so the finale boundary does not drop one frame. Small metadata,
+prompts and receipts are checkpointed; large media and Blender sequences stay
+local and excluded from Git. Intro ship matching remains future work.
+
+## October 11 — V61 earlier Harper finale
+
+User requested the final Harper superimposition by 3:30 and removal of the
+last ship insert. The galaxy now cuts directly to the two-plate Blender
+composite at frame5031, DAW beat79.3 (3:29.583). Harper is visible immediately;
+the finale continues for235frames to the unchanged song end. Earlier destination
+holds are tightened on the DAW beat grid to make room. Four travel inserts
+remain; `contact-031-travel` is archived in superseded storyboard proposals.
+The sequence now contains36shots. V60 remains available as a fallback.
+
+Active review: http://127.0.0.1:8768/?v=v61
+Full5265frames, 1080p24; original V60 AAC packets verified identical. No new
+paid generation. Scripts, timing plan, verification and editable Blender file:
+`generated/storyboard/first-contact-animatic-v02/`. Next: review the earlier
+galaxy-to-Harper cut before preparing clean footage; keep the two finale
+video sources separate and composite them in Blender.
+
+## October 11 — V60 first-contact still animatic ready for timing review
+
+The approved first-contact V03 board is assembled from frame3144 (2:10.958)
+through the end, frame5266 exclusive. All 37 shots follow the canonical timing
+grid, including five travel inserts alternating with the ending destinations.
+The finale previews the separate cosmic and Harper portrait plates composited
+in Blender. Keep those sources separate for two future clean video generations;
+the overlay belongs in the Blender edit. The editable compositor is
+`generated/storyboard/first-contact-animatic-v01/finale-two-plates.blend`.
+
+V60 is the active review: http://127.0.0.1:8768/?v=v60
+The full edit remains 5265 frames, 1920x1080 at24fps. Original V59 AAC packets
+verified identical; V59 remains available. Picture spot checks cover the new
+section start, revised interfaces, projection, travel inserts and final overlay.
+Assembly scripts, frame plan and verification are in
+`generated/storyboard/first-contact-animatic-v01/`. No new paid generation.
+Next: review pacing in the animatic before preparing clean footage.
 
 ## October 11 — accepted V59 save point / break
 

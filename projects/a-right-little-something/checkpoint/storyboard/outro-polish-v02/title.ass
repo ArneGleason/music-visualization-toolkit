@@ -1,0 +1,13 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Bahnschrift,68,&H00FFF3E4,&H00FFF3E4,&H00201610,&H80201610,0,0,0,0,100,100,3,0,1,1.5,2,8,50,50,50,1
+Style: Credit,Bahnschrift,30,&H00FFF3E4,&H00FFF3E4,&H00201610,&H80201610,0,0,0,0,100,100,1,0,1,1,1,8,50,50,50,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:25.04,0:01:28.42,Title,,0,0,0,,{\pos(960,850)\fad(500,0)}A RIGHT LITTLE SOMETHING
+Dialogue: 0,0:01:25.04,0:01:28.42,Credit,,0,0,0,,{\pos(960,945)\fad(500,0)}© 2026 Arne Gleason

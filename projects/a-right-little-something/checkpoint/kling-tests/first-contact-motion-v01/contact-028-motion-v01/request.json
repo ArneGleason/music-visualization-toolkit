@@ -1,0 +1,22 @@
+{
+  "id": "contact-028-motion-v01",
+  "shotId": "contact-028",
+  "plate": "main",
+  "title": "Binary Suns",
+  "startFrame": 4683,
+  "editFrames": 66,
+  "leadInFrames": 24,
+  "leadOutFrames": 24,
+  "sourceEditStartFrame": 25,
+  "model": "kling-video-v3_0",
+  "duration": 5,
+  "resolution": "1080p",
+  "imageCount": 1,
+  "enable_audio": false,
+  "prefer_multi_shots": false,
+  "tailImage": null,
+  "firstImage": "generated/storyboard/first-contact-v01/binary-suns.png",
+  "firstImageSha256": "3a4ce7010053a1ec3a2b001fa6c4189eedb0a6813b379a52ebfca0ca75fed3d5",
+  "prompt": "5 seconds. One clean silent continuous illustrated shot at native1080p. Serene binary-sun vista. Gentle camera drift past the dark rust planet crescent; amber and blue-white suns retain their exact separation and astronomical depth. A little restrained coronal light motion, no rapid star orbit, new spacecraft or explosion. Keep one second of usable lead-in and at least one second of lead-out; the main readable motion occurs between seconds1 and3.750. Preserve the approved starter composition, subjects, anatomy, materials and painted graphic-novel style. Natural small motion continues through the handles; no static title hold, montage, cuts, captions, lettering, watermark, audio or lip-sync. Only subjects explicitly requested appear.\n\nFIRST CONTACT CONTINUITY LOCK: Cinematic painted graphic-novel space adventure, fine controlled ink contours, detailed illustrated materials rather than live-action photography. Full-frame 16:9, no captions, lettering, watermarks, borders, panels or collage. Adult Harper has freckles, hazel-green eyes, short voluminous curly auburn hair, warm-gray long-sleeved survival coverall with closed collar, gray belt and graphite closed utility shoes, tiny unlettered amber arm tab. She floats weightlessly aboard the open sphere. Planet-side Harper is ONLY a translucent cyan holographic projection, never a physical visitor. Ship: transparent faint cyan geodesic sphere, ONE graphite OUTER equatorial band with amber lights, small upper/lower technical plates, entry port and ONE vertical aft engine ring; NO extra inner cockpit ring or conventional airplane cockpit. Planet: emerald continental forests, copper inland seas and ivory weather systems, cyan atmosphere. Community: original small intelligent nonhuman quadrupeds matching the creature reference, teal textured skin, ochre face/throat and paired fan crests, amber eyes, short blunt muzzle, dexterous forefeet and short balancing tail. Four limbs total, no humanoid bodies or Earth tribal costume. Woven seedpod dwellings, root paths, gardens and local tools. Include ONLY subjects explicitly required by the shot; reference objects must not leak into unrelated landscapes or cosmic views.",
+  "estimatedCredits": 40
+}

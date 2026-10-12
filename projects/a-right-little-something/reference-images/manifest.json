@@ -295,6 +295,279 @@
       "role": "concourse-013 / Continue along the gantry; accepted V59 visual reference",
       "bytes": 2614403,
       "sha256": "62271a13c4c980be51dfaa81ae2249f5c4bafa5f1256724115a470e085418469"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/darkside-arrival.png",
+      "backup": "reference-images/first-contact-v65/darkside-arrival.png",
+      "role": "Darkside Arrival — accepted first-contact/outro still",
+      "bytes": 2407781,
+      "sha256": "d902f7f5187754b0b070102ecd610436ca81b6c86f5dce2f50da23e829404517"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/surface-selection.png",
+      "backup": "reference-images/first-contact-v65/surface-selection.png",
+      "role": "Surface Selection — accepted first-contact/outro still",
+      "bytes": 3125585,
+      "sha256": "415975b038ecbfa93565a9ca0b910cc67edb684a91cb0dc7649c0ee5859ec663"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/creature-notices.png",
+      "backup": "reference-images/first-contact-v65/creature-notices.png",
+      "role": "Creature Notices — accepted first-contact/outro still",
+      "bytes": 2690730,
+      "sha256": "357af7933cd4b5eb31e0e759b076848f88e708085b3bd59c00ad195fa9fb8a7c"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/community-sky.png",
+      "backup": "reference-images/first-contact-v65/community-sky.png",
+      "role": "Community Sky — accepted first-contact/outro still",
+      "bytes": 2766393,
+      "sha256": "ef27ec093bc2853506b9676c7757d05aa5549719308137ae70eb661f7e1973f4"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/cabin-analysis.png",
+      "backup": "reference-images/first-contact-v65/cabin-analysis.png",
+      "role": "Cabin Analysis — accepted first-contact/outro still",
+      "bytes": 2989148,
+      "sha256": "4004067f2b568b2d5ba2bc06a09d4e9add1fba4e56c6a6a6b6c408e4a796be0f"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/surface-survey.png",
+      "backup": "reference-images/first-contact-v65/surface-survey.png",
+      "role": "Surface Survey — accepted first-contact/outro still",
+      "bytes": 3538702,
+      "sha256": "4c22d32b28db40e7ae94dc1321195efa58f1defef39649e342d782a01d1e9d12"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/harper-recognizes.png",
+      "backup": "reference-images/first-contact-v65/harper-recognizes.png",
+      "role": "Harper Recognizes — accepted first-contact/outro still",
+      "bytes": 2311482,
+      "sha256": "0df5541aca94498a14dbc4f749e42fe136e0b497a5bcd7ca58cec8da03eec22a"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/creature-addresses.png",
+      "backup": "reference-images/first-contact-v65/creature-addresses.png",
+      "role": "Creature Addresses — accepted first-contact/outro still",
+      "bytes": 2877391,
+      "sha256": "ce08c4c8fcd98b0cd8b21e36bb9465861ec21d3bdfb21f795100d973d7df8258"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/projection-reveal.png",
+      "backup": "reference-images/first-contact-v65/projection-reveal.png",
+      "role": "Projection Reveal — accepted first-contact/outro still",
+      "bytes": 3188890,
+      "sha256": "4e34c88436a6d7efb4c545f62cfc48701e4a72ee5fdebe143cc1a06f09a27956"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v02/grounded-conversation.png",
+      "backup": "reference-images/first-contact-v65/grounded-conversation.png",
+      "role": "Grounded Conversation — accepted first-contact/outro still",
+      "bytes": 3328398,
+      "sha256": "8cd5fb129ba09f0768a0bac3b13c328549f783d74e547f4be0f18fb8c41eaad3"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/things-needed.png",
+      "backup": "reference-images/first-contact-v65/things-needed.png",
+      "role": "Things Needed — accepted first-contact/outro still",
+      "bytes": 3389735,
+      "sha256": "7094fefbca8adb6b87fd9b4f26091d96f0feb3c9f0c5b02be665cc8f6a4a66d9"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/canopy-life.png",
+      "backup": "reference-images/first-contact-v65/canopy-life.png",
+      "role": "Canopy Life — accepted first-contact/outro still",
+      "bytes": 3306607,
+      "sha256": "303587d22dcc1569591babd6fb9ec1c0329919a3fdede2beb303b85e503f394a"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/tidal-life.png",
+      "backup": "reference-images/first-contact-v65/tidal-life.png",
+      "role": "Tidal Life — accepted first-contact/outro still",
+      "bytes": 3545190,
+      "sha256": "53b95d9526f4f5d1b94a95e384a12b0c83f15b5821b5babc0118ea8949437338"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/highland-life.png",
+      "backup": "reference-images/first-contact-v65/highland-life.png",
+      "role": "Highland Life — accepted first-contact/outro still",
+      "bytes": 3638184,
+      "sha256": "c3e2a9ecb8d871229579d9c3e08fca05e36e12640861ba405819978be3377be8"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/tending-home.png",
+      "backup": "reference-images/first-contact-v65/tending-home.png",
+      "role": "Tending Home — accepted first-contact/outro still",
+      "bytes": 3311847,
+      "sha256": "75411f4142ffdca523008cda5f01ab2921bcd8e853d978f3abd1eb1086d603e3"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/stars-for-night.png",
+      "backup": "reference-images/first-contact-v65/stars-for-night.png",
+      "role": "Stars For Night — accepted first-contact/outro still",
+      "bytes": 3161727,
+      "sha256": "84222bd2d44e4443704c95182a33ca60831fbf647bf92eee6a80ac66bef70fa1"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/creature-of-nature.png",
+      "backup": "reference-images/first-contact-v65/creature-of-nature.png",
+      "role": "Creature Of Nature — accepted first-contact/outro still",
+      "bytes": 2735820,
+      "sha256": "5ba15459cf688329b071aabdaee6abaf6b5caff2d6c4d88a960ac39c600417d4"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/down-here.png",
+      "backup": "reference-images/first-contact-v65/down-here.png",
+      "role": "Down Here — accepted first-contact/outro still",
+      "bytes": 2786874,
+      "sha256": "14fb7611155e231f9db8c3d15c9a2135baee64e59fde717871e347a963f480a7"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/harper-listens.png",
+      "backup": "reference-images/first-contact-v65/harper-listens.png",
+      "role": "Harper Listens — accepted first-contact/outro still",
+      "bytes": 3028181,
+      "sha256": "53148497e22ffe2e9f6698f7dddd7b5342af1b5425dddb5027d5253ee5306eac"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/eye-reflection.png",
+      "backup": "reference-images/first-contact-v65/eye-reflection.png",
+      "role": "Eye Reflection — accepted first-contact/outro still",
+      "bytes": 2386023,
+      "sha256": "50c7d371203834ae58c4b9a0c4ca6da8f9e30c1b9a17e4a68d307164176f43b1"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/night-orbit.png",
+      "backup": "reference-images/first-contact-v65/night-orbit.png",
+      "role": "Night Orbit — accepted first-contact/outro still",
+      "bytes": 2589389,
+      "sha256": "1fff802200ee5899059108b2f424b7a7dfd5bbf6c5666912461eca8781e782e2"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/harper-world.png",
+      "backup": "reference-images/first-contact-v65/harper-world.png",
+      "role": "Harper World — accepted first-contact/outro still",
+      "bytes": 2667135,
+      "sha256": "15611a34bc4e583afd9e880a0219aa60e891158e0eac239986216bae29e85d4e"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/system-view.png",
+      "backup": "reference-images/first-contact-v65/system-view.png",
+      "role": "System View — accepted first-contact/outro still",
+      "bytes": 2301353,
+      "sha256": "f913cb819a0d7fd55583801cb46c2bc4bb38d56aa32ef1d7df5050afe9134479"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/binary-suns.png",
+      "backup": "reference-images/first-contact-v65/binary-suns.png",
+      "role": "Binary Suns — accepted first-contact/outro still",
+      "bytes": 2447531,
+      "sha256": "3a4ce7010053a1ec3a2b001fa6c4189eedb0a6813b379a52ebfca0ca75fed3d5"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/stellar-nursery.png",
+      "backup": "reference-images/first-contact-v65/stellar-nursery.png",
+      "role": "Stellar Nursery — accepted first-contact/outro still",
+      "bytes": 2551348,
+      "sha256": "765bc1519195c9c9ad48953c29d4ae9ea40a468136779e312878667bc1b2d5a8"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/red-star-system.png",
+      "backup": "reference-images/first-contact-v65/red-star-system.png",
+      "role": "Red Star System — accepted first-contact/outro still",
+      "bytes": 2064619,
+      "sha256": "3d09d9c6722d68e305179114d2e368b95eb08fa39b38024f54b9f28ed2c78275"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/galactic-possibilities.png",
+      "backup": "reference-images/first-contact-v65/galactic-possibilities.png",
+      "role": "Galactic Possibilities — accepted first-contact/outro still",
+      "bytes": 2671340,
+      "sha256": "0b90b2a8caf1be252309ca49872bf936f01813231507a9640b3b386e07ff46cb"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/next-destination.png",
+      "backup": "reference-images/first-contact-v65/next-destination.png",
+      "role": "Next Destination — accepted first-contact/outro still",
+      "bytes": 2390417,
+      "sha256": "cb16054d87f05420d0e62da1940421fa64ce06693456f6edec0c4154089c5d9a"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/travel-28.png",
+      "backup": "reference-images/first-contact-v65/travel-28.png",
+      "role": "Travel 28 — accepted first-contact/outro still",
+      "bytes": 2499870,
+      "sha256": "fd351c70241ded2292290f66b59bbc8ff5814a204434773810531c78267d7917"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/travel-29.png",
+      "backup": "reference-images/first-contact-v65/travel-29.png",
+      "role": "Travel 29 — accepted first-contact/outro still",
+      "bytes": 3025415,
+      "sha256": "7c92fc372dc0c3fc503663783b99421893a4cb3d2541360dc6bc68920833092d"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/travel-30.png",
+      "backup": "reference-images/first-contact-v65/travel-30.png",
+      "role": "Travel 30 — accepted first-contact/outro still",
+      "bytes": 2752140,
+      "sha256": "a0331b35aed41ee45c8a788168a22542f8b35ea8bec790fe4cd9adbced34c30c"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v01/community-reference.png",
+      "backup": "reference-images/first-contact-v65/community-reference.png",
+      "role": "Established intelligent jungle-community design",
+      "bytes": 3341692,
+      "sha256": "ebfdc906ec64b7a0455a13fa1157b5c692fb5af50cc94e779ce0f45401b50367"
+    },
+    {
+      "source": "generated/storyboard/first-contact-v03/ending-harper-portrait.png",
+      "backup": "reference-images/first-contact-v65/ending-harper-portrait.png",
+      "role": "Independent Harper portrait plate for final composite",
+      "bytes": 1300298,
+      "sha256": "638d200e6c8348d329f7da4496875502de17402803f4ff829ab24421bce2c3aa"
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/creatures-clearing.png",
+      "backup": "reference-images/first-contact-v65/creatures-clearing.png",
+      "role": "Accepted creatures approaching the clearing",
+      "bytes": 3174300,
+      "sha256": "9aff78037d319395ce58eb17664616cf7a997df4656f114ac4b6766454009350"
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/home-awning.png",
+      "backup": "reference-images/first-contact-v65/home-awning.png",
+      "role": "Accepted functional home awning replacement",
+      "bytes": 2961914,
+      "sha256": "da1996088c5f8b728cdebdccc95e306e524b6d8612247c265898e57b05e41e26"
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/ship-rear-chroma.png",
+      "backup": "reference-images/first-contact-v65/ship-rear-chroma.png",
+      "role": "Independent rear ship and Harper foreground starter",
+      "bytes": 1531151,
+      "sha256": "e7618f9f319822334e934666bde8f09ad1d387ff0bbadcd6c8afacc1a5df1ac8"
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/ship-side-chroma.png",
+      "backup": "reference-images/first-contact-v65/ship-side-chroma.png",
+      "role": "Independent side ship and Harper foreground starter",
+      "bytes": 1519091,
+      "sha256": "dde2ac9a65ef4c7f4aa17ba18f044fa23e57bf222b209134b1cd26d3fa000c5b"
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/warp-rear-background.png",
+      "backup": "reference-images/first-contact-v65/warp-rear-background.png",
+      "role": "Rear warp background plate",
+      "bytes": 2851100,
+      "sha256": "91ba17d2c3c033108a680d521f14c233dd8b948f36ac0fc9e48e878aaeb4b769"
+    },
+    {
+      "source": "generated/storyboard/first-contact-motion-v02/warp-side-background.png",
+      "backup": "reference-images/first-contact-v65/warp-side-background.png",
+      "role": "Side warp background plate",
+      "bytes": 2810489,
+      "sha256": "45e2e38baf95540211ce32dc4f0be6bd50903823d8d71cffb8c9225911406be3"
     }
   ],
   "acceptedVersion": "v59",
