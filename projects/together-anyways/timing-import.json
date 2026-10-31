@@ -1,0 +1,24 @@
+{
+  "sourceTimingSha256": "2e9e09590f33bf91e7613aded83ef7b70b0ea52b16f9ad40e7b376ac00bc1639",
+  "sourceMasterSha256": "ae1538d432b2070ed2d276f2c1c6bdfbbeefd4da9cd9910b58dd4f0a31c72ff0",
+  "tempoPoints": 932,
+  "zeroBeat": 7.5,
+  "durationFrames": 5190,
+  "fps": 24,
+  "lyrics": 57,
+  "words": 220,
+  "sceneSuggestions": 14,
+  "wordSecondsUnchanged": true,
+  "phraseAndWordFrameParity": true,
+  "maxWordMusicalPositionRoundingMs": 0.5634437499963951,
+  "acceptedBoundary": {
+    "source": "Explicit user reply: Lines up now",
+    "date": "2026-10-30",
+    "phrase_id": "line-024-repeat-02",
+    "boundary": "with → me",
+    "master_seconds": 87.04,
+    "with_start": 84.66,
+    "me_end_candidate": 88.36,
+    "scope": "Accepted with/me transition and supplied quick-versus-held phrasing; not whole-song listening certification."
+  }
+}

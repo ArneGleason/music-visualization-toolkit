@@ -312,7 +312,9 @@ def main():
     bars, bar_no, beat = [], 1, 0.0
     while sec(beat) <= duration + 0.5 and bar_no < 4000:
         beats = [round(sec(beat + i), 6) for i in range(num)]
-        if beats[-1] >= -1e-6:
+        # A mix may begin between the bar's last beat and the next downbeat.
+        # Retain that partial bar so video frame zero remains addressable.
+        if sec(beat + num) > 1e-6:
             bars.append({"bar": bar_no, "beat": beat, "sec": beats[0],
                          "num": num, "den": den, "beats": beats})
         beat += num

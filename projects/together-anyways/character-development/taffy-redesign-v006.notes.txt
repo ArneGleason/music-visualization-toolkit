@@ -1,0 +1,30 @@
+TAFFY v006 — MATCH TURNED FACE TO STRAIGHT-ON IDENTITY
+30 October 2026. Built-in ImageGen edit of v005.
+Source: ../generated/character-development/taffy-front-back-v005.png
+Output: ../generated/character-development/taffy-front-back-v006.png
+Status: facial-continuity revision for user review; not an approved final lock.
+
+User likes the clothes and says the body is coming along, but the two views look
+like different children. The turned view retained a narrower, smiling face from
+earlier development, despite changes to the front view. Do not propagate that
+identity mismatch into shot references.
+
+Working decision: use the v005 straight-on boy as the sole facial identity anchor,
+and reconstruct the right head as a rotation of those facial volumes. This is
+an implementation choice, not a separate user approval of every frontal detail.
+Match skull width, full cheeks/lower face, short rounded chin, broad rounded
+nose, eye shape and spacing, flatter brows, mouth shape, large ears and hairline.
+Use the same watchful resting expression for this comparison.
+
+Edit scope: right head/face and necessary neck connection. Keep left figure,
+clothing, body design, improvised sack, rope belt, sandals and sheet composition.
+Harper not regenerated. Keep scarwork as mirrored three curves on both cheeks,
+with perspective wrapping rather than reinventing the visible-side pattern.
+
+Visual review: left identity and overall design closely retained. Right face now
+has a fuller cheek/jaw/chin, lower and more relaxed eyelids, flatter brows and a
+closed near-horizontal mouth; the previous overt smile is removed. Head tilt is
+slightly reduced. Right ear and curly hair mass remain visible. Clothing, sack,
+belt and feet stay closely consistent with v005. Identity similarity is improved
+on inspection, but cross-angle identity approval remains with the user. Do not
+mark the sheet final solely because both views share colors and markings.

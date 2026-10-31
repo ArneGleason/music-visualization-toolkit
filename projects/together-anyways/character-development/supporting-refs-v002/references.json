@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "supporting-refs-v002",
+  "date": "2026-10-31",
+  "status": "biological_proposals_for_review",
+  "requestedIds": [
+    "A3",
+    "A6",
+    "C4",
+    "D6"
+  ],
+  "review": "generated/character-development/supporting-refs-v002/review-board.html",
+  "comparison": "generated/character-development/supporting-refs-v002/comparison-board.html",
+  "currentCastReview": "generated/character-development/supporting-refs-v002/cast-board.html",
+  "references": [
+    {
+      "id": "support-A3-v002",
+      "candidateId": "A3",
+      "index": "A3",
+      "title": "The Scrap Appraiser · Biological precision appraisal",
+      "name": "The Scrap Appraiser",
+      "adaptationTitle": "Biological precision appraisal",
+      "fictionalAdaptation": "An enlarged precision eye and tactile fingertip pads suggest an inherited or engineered ability to inspect and judge salvaged parts.",
+      "imagePath": "generated/character-development/supporting-refs-v002/A3-scrap-appraiser-v002.png",
+      "parentReferenceId": "support-A3-v001",
+      "promptFile": "character-development/supporting-refs-v002/A3.prompt.txt",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2266232,
+      "sha256": "63011d9970d7e492195265effc67406e9c25ce6d20728b26361fe171a3a67db0",
+      "status": "biological_proposal_for_review",
+      "generation": "built-in ImageGen",
+      "adaptationsActuallyVisible": [
+        "Strongly enlarged anatomical left eye (viewer right), amber iris and living orbital/eyelid contour",
+        "Smaller ordinary opposite eye remains visible",
+        "Round widened tactile fingertip pads with fine ridges on scrap-holding hand",
+        "Subtle mottling along temple and forearms"
+      ],
+      "qaNotes": "Role, age, stooped silhouette, pocket tabard, trousers/shoes, fitting and magnifier preserved. Magnifier lowered away from large eye. The precision eye is strongly exaggerated but integrated with living skin; no hardware or wound. Full head/hands/feet framed, one person. Concentric focusing-ring detail is subtle at full-body scale.",
+      "attempts": 1
+    },
+    {
+      "id": "support-A6-v002",
+      "candidateId": "A6",
+      "index": "A6",
+      "title": "The Quiet Stallholder · Four-armed trader lineage",
+      "name": "The Quiet Stallholder",
+      "adaptationTitle": "Four-armed trader lineage",
+      "fictionalAdaptation": "Two pairs of hands and wider peripheral vision let this quietly observant trader sort stock while monitoring the street.",
+      "imagePath": "generated/character-development/supporting-refs-v002/A6-quiet-stallholder-v002.png",
+      "parentReferenceId": "support-A6-v001",
+      "promptFile": "character-development/supporting-refs-v002/A6.prompt.txt",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2455852,
+      "sha256": "9db9546832b096d273ee0a742cf8392cc0385001cf1487256cb759ac9708137f",
+      "status": "biological_proposal_for_review",
+      "generation": "built-in ImageGen",
+      "adaptationsActuallyVisible": [
+        "Four distinct organic arms with sleeves adapted into same wrap garment",
+        "Upper arms reach opposite outer stand points, lower pair separately sorts items on counter",
+        "All four hands, separate elbows and garment-covered arm roots readable"
+      ],
+      "qaNotes": "Mature identity, watchful mood, dark hair, clay-pink top, charcoal skirt, trading stand and footwear strongly preserved. Four-arm adaptation clear at glance, no mechanical parts, no duplicate torso/head. Lower arm girdle implied under garment at waist/lower ribs; precise skeletal attachment would need turnaround if selected. Secondary eye/pupil and skin-marbling changes are not clearly resolved at full-body scale; main biological role adaptation succeeds. Full head/hands/feet visible.",
+      "attempts": 1
+    },
+    {
+      "id": "support-C4-v002",
+      "candidateId": "C4",
+      "index": "C4",
+      "title": "The Pressure Warden · Vibration-sensitive infrastructure inspector",
+      "name": "The Pressure Warden",
+      "adaptationTitle": "Vibration-sensitive infrastructure inspector",
+      "fictionalAdaptation": "Broad contact pads and recessed ear membranes suggest sensitivity to mechanical vibration and pressure changes in gates and pipes.",
+      "imagePath": "generated/character-development/supporting-refs-v002/C4-pressure-warden-v002.png",
+      "parentReferenceId": "support-C4-v001",
+      "promptFile": "character-development/supporting-refs-v002/C4.prompt.txt",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2352827,
+      "sha256": "ba2fea5abdb793aff8d2ab7a6f34b4dbfda1307507bff448fe7be4fb02e52a6d",
+      "status": "biological_proposal_for_review",
+      "generation": "built-in ImageGen",
+      "adaptationsActuallyVisible": [
+        "Large oval organic tympanic ear membrane with concentric folds and protective cartilage rim",
+        "Broad softly rounded sensing fingertips with dense dermal ridges",
+        "Hand resting in light contact on latch to sense vibration"
+      ],
+      "qaNotes": "Selected second attempt. Visible ear replaced by a large oval living rimmed membrane with concentric organic folds, no hardware, screws or glow. Checking hand has broad contact pads and conspicuous fine dermal ridges, resting against latch top instead of gripping. Body, cape, board, work pose and salt-and-pepper hair/beard retained. Head remains fairly human and skin stays warmer brown than specified slate/tan; broad/low skull shift is subtle. Ear membrane is prominent rather than deeply recessed. Healthy non-graphic result. First attempt had weaker sensing pads; no further retries permitted in this task.",
+      "attempts": 2
+    },
+    {
+      "id": "support-D6-v002",
+      "candidateId": "D6",
+      "index": "D6",
+      "title": "The Port Messenger · Endurance-runner messenger",
+      "name": "The Port Messenger",
+      "adaptationTitle": "Endurance-runner messenger",
+      "fictionalAdaptation": "Springy digitigrade lower legs and protective eye membranes make the courier's movement and wind exposure visibly specialized.",
+      "imagePath": "generated/character-development/supporting-refs-v002/D6-port-messenger-v002.png",
+      "parentReferenceId": "support-D6-v001",
+      "promptFile": "character-development/supporting-refs-v002/D6.prompt.txt",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2096565,
+      "sha256": "3cc8e53f28672e3159bfa8372238974b75f601f96f3836bdb665886c8a99307c",
+      "status": "biological_proposal_for_review",
+      "generation": "built-in ImageGen",
+      "adaptationsActuallyVisible": [
+        "Both lower legs visibly restructured with raised rear heel/hock forms, long slim forefoot segments and prominent taut tendon relief.",
+        "Three broad divided toe-cap segments in low strapped footwear, clearly visible in the front foot.",
+        "Calf/tendon silhouette clearly differs from the human-legged v001; cropped trousers expose the anatomy."
+      ],
+      "qaNotes": "Single full-body adult, face/hair/tube and blue-gray outfit closely preserved; no extra characters, labels or mechanical limbs.; Knees remain at garment/thigh-shin junction; raised bulges farther down read as heel/hock anatomy rather than an extra reversed knee.; Secondary wind-protective eye membrane and nasal-valve detail are too subtle to confidently verify at this scale; do not describe them as confirmed visible traits.; Feet, head and tube remain fully within frame; primary leg modification succeeds.",
+      "attempts": 1
+    }
+  ],
+  "currentByCandidate": {
+    "A1": "support-A1-v001",
+    "A3": "support-A3-v002",
+    "A6": "support-A6-v002",
+    "B1": "support-B1-v001",
+    "B4": "support-B4-v001",
+    "B6": "support-B6-v001",
+    "C1": "support-C1-v001",
+    "C4": "support-C4-v002",
+    "C6": "support-C6-v001",
+    "D2": "support-D2-v001",
+    "D3": "support-D3-v001",
+    "D6": "support-D6-v002"
+  }
+}

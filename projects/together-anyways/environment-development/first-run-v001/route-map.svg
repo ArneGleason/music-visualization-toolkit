@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="930" viewBox="0 0 1600 930" role="img" aria-labelledby="title desc">
+<title id="title">Together Anyways — first-run route proposal</title>
+<desc id="desc">Market approach to water broker, separate decoy and covert exits converging at the pipe court, then one controlled door into a freight relay hall with an interior broadcast screen.</desc>
+<defs>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#b6aa8f" stroke-width=".6" opacity=".35"/></pattern>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#2b6867" stroke-width="2"/></marker>
+ <marker id="decoy" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#a94e2f" stroke-width="2"/></marker>
+ <marker id="quiet" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#316d94" stroke-width="2"/></marker>
+</defs>
+<rect width="1600" height="930" fill="#f2e8d0"/><rect x="35" y="130" width="1530" height="670" rx="10" fill="url(#grid)" stroke="#b5a688"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#263d3e">
+<text x="55" y="59" font-size="32" font-weight="700">Together Anyways · the first run</text>
+<text x="55" y="96" font-size="20">Working geography · not to scale · stop at the wanted-broadcast reveal</text>
+<text x="1500" y="177" text-anchor="middle" font-size="20">N ↑</text>
+<rect x="80" y="240" width="300" height="210" rx="12" fill="#ddc9a7" stroke="#786f58" stroke-width="3"/>
+<rect x="97" y="255" width="109" height="48" fill="#547e7b"/>
+<text x="110" y="286" fill="#fff6e4" font-size="20">alcove</text>
+<text x="110" y="345" font-size="23" font-weight="700">A · market approach</text>
+<text x="110" y="380" font-size="18">Read displays; plan the split.</text>
+<text x="110" y="411" font-size="18">Teal shade and tanks ahead.</text>
+<path d="M380 335H500" stroke="#2b6867" stroke-width="6" marker-end="url(#arrow)"/>
+<rect x="530" y="190" width="360" height="235" rx="12" fill="#dcc29c" stroke="#786f58" stroke-width="3"/>
+<path d="M550 205H864L832 245H575Z" fill="#387a7e" opacity=".85"/>
+<circle cx="832" cy="279" r="22" fill="#5d8da5" stroke="#3b6475" stroke-width="3"/><circle cx="832" cy="331" r="22" fill="#5d8da5" stroke="#3b6475" stroke-width="3"/>
+<rect x="695" y="257" width="46" height="57" rx="7" fill="#7e6140"/><path d="M694 263H681V304H694" fill="none" stroke="#7e6140" stroke-width="5"/>
+<text x="550" y="359" font-size="23" font-weight="700">B · water broker’s depot</text>
+<text x="550" y="390" font-size="18">Chair faces public approach ←</text>
+<text x="633" y="172" font-size="17">private house / barred storage</text>
+<path d="M715 330Q638 430 504 475T435 600Q548 717 789 678" fill="none" stroke="#a94e2f" stroke-width="6" stroke-dasharray="15 8" marker-end="url(#decoy)"/>
+<text x="165" y="553" font-size="21" fill="#8e4128" font-weight="700">Harper · public decoy exit</text>
+<text x="165" y="585" font-size="18" fill="#8e4128">Draw pursuit away; lose it at the dogleg.</text>
+<path d="M865 365H951V530Q951 600 917 625" fill="none" stroke="#316d94" stroke-width="6" stroke-dasharray="7 7" marker-end="url(#quiet)"/>
+<text x="970" y="330" font-size="21" fill="#316d94" font-weight="700">Taffy · quiet exit</text>
+<text x="970" y="360" font-size="18" fill="#316d94">Screened maintenance ledge.</text>
+<path d="M695 455H785V566M800 455H865V566" fill="none" stroke="#b59e77" stroke-width="22"/>
+<text x="684" y="494" font-size="16">piers break</text><text x="684" y="518" font-size="16">the sightline</text>
+<rect x="780" y="625" width="312" height="130" rx="14" fill="#c8ded5" stroke="#4c7774" stroke-width="3"/>
+<path d="M815 643V676H866" fill="none" stroke="#518098" stroke-width="16"/>
+<text x="886" y="667" font-size="23" font-weight="700">C · pipe court</text>
+<text x="812" y="709" font-size="19">First refrain: check, reunite.</text>
+<text x="812" y="737" font-size="17">Same chipped blue elbow landmark.</text>
+<path d="M1092 688H1151V539H1202" fill="none" stroke="#2b6867" stroke-width="6" marker-end="url(#arrow)"/>
+<text x="1044" y="787" font-size="18">Together toward the next entrance →</text>
+<rect x="1225" y="235" width="300" height="455" rx="9" fill="#ced6cf" stroke="#647d79" stroke-width="3"/>
+<path d="M1225 235V493M1225 581V690" stroke="#5c6e69" stroke-width="15"/>
+<rect x="1198" y="494" width="30" height="85" fill="#4c8586" stroke="#325758" stroke-width="3"/>
+<path d="M1182 490V477Q1191 464 1201 477V483" fill="none" stroke="#a28043" stroke-width="6"/>
+<text x="1260" y="286" font-size="24" font-weight="700">D · relay hall</text>
+<text x="1260" y="321" font-size="18">One controlled entrance.</text>
+<rect x="1275" y="361" width="202" height="99" fill="#2d6265" stroke="#b08a42" stroke-width="5"/>
+<text x="1376" y="401" text-anchor="middle" fill="#f4e9d1" font-size="20">WANTED BROADCAST</text>
+<text x="1376" y="431" text-anchor="middle" fill="#e1e5ce" font-size="17">revealed after entry</text>
+<text x="1260" y="545" font-size="18">Use / orient the key.</text>
+<text x="1260" y="577" font-size="18">Walk in. Then look up.</text>
+<path d="M1405 635V698" fill="none" stroke="#2b6867" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="1284" y="732" font-size="17">Onward route toward freight / port</text>
+<text x="55" y="846" font-size="19"><tspan fill="#2b6867" font-weight="700">Solid teal:</tspan> shared route     <tspan fill="#a94e2f" font-weight="700">Rust dashes:</tspan> visible diversion     <tspan fill="#316d94" font-weight="700">Blue dots:</tspan> covert withdrawal</text>
+<text x="55" y="886" font-size="18">Stable places and connections for staging; concept images still need matching angles before shot production.</text>
+</g></svg>

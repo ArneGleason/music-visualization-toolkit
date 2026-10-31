@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "id": "supporting-refs-v003",
+  "date": "2026-10-31",
+  "status": "new_proposals_pending_review",
+  "requestedIds": [
+    "A1",
+    "B4",
+    "B6",
+    "C1",
+    "C6",
+    "D2",
+    "D3",
+    "B5"
+  ],
+  "favoriteNewId": "B5",
+  "approvedBiologicalIds": [
+    "A3",
+    "A6",
+    "C4",
+    "D6"
+  ],
+  "retainedExistingAlienId": "B1",
+  "review": "generated/character-development/supporting-refs-v003/review-board.html",
+  "currentCastReview": "generated/character-development/supporting-refs-v003/cast-board.html",
+  "comparison": "generated/character-development/supporting-refs-v003/comparison-board.html",
+  "references": [
+    {
+      "id": "support-A1-v002",
+      "candidateId": "A1",
+      "index": "A1",
+      "name": "The Shade Stitcher",
+      "title": "The Shade Stitcher · grip study, anatomy unresolved",
+      "adaptationTitle": "Twin-thumb grip",
+      "fictionalAdaptation": "Paired opposable thumb tips let the stitcher tension cord and manipulate pegs with unusually secure precision.",
+      "imagePath": "generated/character-development/supporting-refs-v003/A1-shade-stitcher-v002.png",
+      "parentReferenceId": "support-A1-v001",
+      "promptFile": "character-development/supporting-refs-v003/A1.prompt.txt",
+      "bytes": 2290749,
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "12761ef4a10955521ce5abb18aa766973dd105e6f94387682919011ff77b6146",
+      "status": "proposal_trait_unresolved",
+      "adaptationsActuallyVisible": [
+        "Changed opposing-pad grip and knot-bracing pose"
+      ],
+      "qaNotes": "Best of two exact-prompt attempts selected for identity/wardrobe retention and clear opposing rope grip. Full figure, age, props and graphic-novel rendering retained. Hand pose changes are visible, but each thumb branching into TWO terminal tips with a single root is NOT unambiguously resolved; it can still read as ordinary thumb/index opposition. Friction ridges also remain too fine to confirm at full-body scale. Record adaptation as unresolved rather than claim deliberate mirrored anatomy achieved. No further retries in this task.",
+      "attempts": 2,
+      "generation": "built-in ImageGen"
+    },
+    {
+      "id": "support-B4-v002",
+      "candidateId": "B4",
+      "index": "B4",
+      "name": "Fast Coat",
+      "title": "Fast Coat · Counterbalancing tail",
+      "adaptationTitle": "Counterbalancing tail",
+      "fictionalAdaptation": "A compact muscular balancing tail helps the enforcer change direction quickly while pursuing people through tight lanes.",
+      "imagePath": "generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png",
+      "parentReferenceId": "support-B4-v001",
+      "promptFile": "character-development/supporting-refs-v003/B4.prompt.txt",
+      "bytes": 2153504,
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "03a1e5528223d09de473dbd655bed39837943a9cf27f9979595a4488b56675b3",
+      "status": "biological_proposal_for_review",
+      "adaptationsActuallyVisible": [
+        "One short tapered smooth organic tail curving behind hip",
+        "Tail color/material matches biological skin and contrasts with cloth coat tails"
+      ],
+      "qaNotes": "One short smooth taupe muscular tail curves behind the hips with a shallow upturn, distinct from both long cloth coat tails. Root appears behind pelvic/coat region rather than between legs, but exact sacral insertion remains hidden by garment and needs a rear-view continuity check if chosen. Face, stance, two arms/legs and boots retained. No powers, implants or added decoration. Clear integrated biological proposal.",
+      "attempts": 1,
+      "generation": "built-in ImageGen"
+    },
+    {
+      "id": "support-B6-v002",
+      "candidateId": "B6",
+      "index": "B6",
+      "name": "Valve Hand",
+      "title": "Valve Hand · Heat-tolerant handling skin",
+      "adaptationTitle": "Heat-tolerant handling skin",
+      "fictionalAdaptation": "Dense organic contact skin and flexible mineral-like hand plates suit repeated work on hot, abrasive pump hardware.",
+      "imagePath": "generated/character-development/supporting-refs-v003/B6-valve-hand-v002.png",
+      "parentReferenceId": "support-B6-v001",
+      "promptFile": "character-development/supporting-refs-v003/B6.prompt.txt",
+      "bytes": 2660252,
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "4ff8583272125be487894cab78146376410d598247ca229308022c33595fc964",
+      "status": "biological_proposal_for_review",
+      "adaptationsActuallyVisible": [
+        "Bare cup-hand with organic matte scutes on hand and forearm",
+        "Continuous biological wrist/forearm skin and articulated fingers",
+        "Other hand retains padded work glove"
+      ],
+      "qaNotes": "Cup-moving hand and forearm now visibly bare, with connected matte rounded copper-tan scutes across knuckles/back of hand continuing into forearm skin. Normal joints, creases and nail edges distinguish it from remaining padded glove at valve handle. Removed glove tucked into apron. Original adult identity, build, clothing and pump/cup pose retained. Healthy organic material, no artificial hardware or graphic injury. Heat tolerance is fictional intended function, not visually proven.",
+      "attempts": 1,
+      "generation": "built-in ImageGen"
+    },
+    {
+      "id": "support-C1-v002",
+      "candidateId": "C1",
+      "index": "C1",
+      "name": "The Pipe Fitter",
+      "title": "The Pipe Fitter · Valved breathing folds",
+      "adaptationTitle": "Valved breathing folds",
+      "fictionalAdaptation": "Small protected breathing valves and a throat reserve suggest a lineage adapted to confined, humid pipework and brief breath-holding.",
+      "imagePath": "generated/character-development/supporting-refs-v003/C1-pipe-fitter-v002.png",
+      "parentReferenceId": "support-C1-v001",
+      "promptFile": "character-development/supporting-refs-v003/C1.prompt.txt",
+      "bytes": 2281766,
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "da90799092e3db04153e30a2fd4b261cadf7c385b89720031560013246e0bb33",
+      "status": "biological_proposal_for_review",
+      "adaptationsActuallyVisible": [
+        "Two rounded overlapping skin-covered valved lamellae on near-side lower neck, under jaw and above collar.",
+        "Neck outline subtly fuller beneath jaw, blending organically into original skin."
+      ],
+      "qaNotes": "Face, tied hair, pressure gauge, glove, outfit, stool and pose closely preserved.; Neck structures have smooth healthy closed edges, not wounds or implanted hoses.; Far-side pair is occluded by head/collar angle; nostril closing rims are not clearly distinguishable. Do not claim bilateral anatomy visually verified from this view.; Single fully framed adult; no text or extra characters.",
+      "attempts": 1,
+      "generation": "built-in ImageGen"
+    },
+    {
+      "id": "support-C6-v002",
+      "candidateId": "C6",
+      "index": "C6",
+      "name": "The Scrap Sweeper",
+      "title": "The Scrap Sweeper · Field-sensitive cheek filaments",
+      "adaptationTitle": "Field-sensitive cheek filaments",
+      "fictionalAdaptation": "Short organic sensory filaments supplement the sweeper's listening and handling when locating and sorting metal scrap.",
+      "imagePath": "generated/character-development/supporting-refs-v003/C6-scrap-sweeper-v002.png",
+      "parentReferenceId": "support-C6-v001",
+      "promptFile": "character-development/supporting-refs-v003/C6.prompt.txt",
+      "bytes": 2375582,
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "b37edd8ed3dd8e857876a96922e46b123dd2765286915a7ed919b9a068dba53f",
+      "status": "biological_proposal_for_review",
+      "adaptationsActuallyVisible": [
+        "One paired set of short flexible curling cheek/temple filaments with flattened darker receptive ends.",
+        "Near-side filament curves toward the tiny scrap held beside the ear; far-side filament visible against background."
+      ],
+      "qaNotes": "Original wiry worker, expression, clothing, pole and scrap sled closely retained.; Second attempt resolves the first attempt's unwanted branching/three visible receptive tips.; Filament roots have rounded skin-pad bases that can look somewhat ring-like at full-body scale; close-up should keep them biological. No visible metal fittings or field effects.; Single fully framed adult and occupational props.",
+      "attempts": 2,
+      "generation": "built-in ImageGen"
+    },
+    {
+      "id": "support-D2-v002",
+      "candidateId": "D2",
+      "index": "D2",
+      "name": "The Pass Clerk",
+      "title": "The Pass Clerk · Dual-focus eye pairs",
+      "adaptationTitle": "Dual-focus eye pairs",
+      "fictionalAdaptation": "A small near-focus eye pair can follow permits while the main eyes keep attention on arrivals.",
+      "imagePath": "generated/character-development/supporting-refs-v003/D2-pass-clerk-v002.png",
+      "parentReferenceId": "support-D2-v001",
+      "promptFile": "character-development/supporting-refs-v003/D2.prompt.txt",
+      "bytes": 2227517,
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "6413cba3a9a31cc47a551ca2c10fd5fa946c6ce98c85330b9afe3653a9e107ac",
+      "status": "biological_proposal_for_review",
+      "adaptationsActuallyVisible": [
+        "Exactly four organic eyes: original upper pair plus a smaller lower/outside pair on upper cheeks.",
+        "Individual eyelids and dark irises sit naturally in matching skin; cheeks slightly broadened to accommodate them."
+      ],
+      "qaNotes": "Original composed mouth, round helmet, smock, permits, stylus, desk and full-body pose closely retained.; Four-eye count clear on inspection, no forehead eyes, third row, implants, glow or printed marks.; Lower pair is visibly secondary but independent downward focus on the permits is not unambiguously demonstrated in this still. Treat that gaze behavior as intended capability rather than verified action.; Single full-length adult, complete tools/desk and feet framed.",
+      "attempts": 1,
+      "generation": "built-in ImageGen"
+    },
+    {
+      "id": "support-D3-v002",
+      "candidateId": "D3",
+      "index": "D3",
+      "name": "The Relay Electrician",
+      "title": "The Relay Electrician · Electrosensitive contact fingertips",
+      "adaptationTitle": "Electrosensitive contact fingertips",
+      "fictionalAdaptation": "Specialized contact skin on the working fingers supports delicate circuit checks while tougher wrist skin protects repeated handling.",
+      "imagePath": "generated/character-development/supporting-refs-v003/D3-relay-electrician-v002.png",
+      "parentReferenceId": "support-D3-v001",
+      "promptFile": "character-development/supporting-refs-v003/D3.prompt.txt",
+      "bytes": 2187616,
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "e04fb05d8022f77f6d9996209cc52f985af7803ebd00ae6a9a8ed722af8af4ef",
+      "status": "biological_proposal_for_review",
+      "adaptationsActuallyVisible": [
+        "Wider ridged organic contact skin along testing index/middle fingertips",
+        "Overlapping flexible keratin micro-scale patch across inner testing wrist",
+        "Natural warm brown skin transitions, no mechanical nodes, sparks or glow"
+      ],
+      "qaNotes": "Older silver-haired electrician's face, pose, clothing, cables, tester/display and full framing closely retained. Biological wrist/finger differences are readable but restrained; thumb pad partly hidden by grip and horizontal iris detail not resolved. Normal two arms/five-fingered hands; suitable subtle first revision.",
+      "attempts": 1,
+      "generation": "built-in ImageGen"
+    },
+    {
+      "id": "support-B5-v001",
+      "candidateId": "B5",
+      "index": "B5",
+      "name": "Stillwater",
+      "title": "Stillwater · first vision study",
+      "adaptationTitle": "Panoramic peripheral vision",
+      "fictionalAdaptation": "Wraparound eyes make the watcher's attention difficult to read while they monitor hands and reflections.",
+      "imagePath": "generated/character-development/supporting-refs-v003/B5-stillwater-v001-take02.png",
+      "parentReferenceId": null,
+      "promptFile": "character-development/supporting-refs-v003/B5.prompt.txt",
+      "bytes": 2152381,
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "96c1b53e90263586fa17845545f57207f3a6b20a390125ce4db945445c047589",
+      "status": "proposal_adaptation_strength_caveat",
+      "adaptationsActuallyVisible": [
+        "Longer pale lateral ocular surface and continuous eyelid line extending from near eye toward temple",
+        "Near-eye outer contour is broader and more obviously elongated than first take",
+        "Two eyes total, exactly two arms, unchanged ordinary adult body/wardrobe/pose"
+      ],
+      "qaNotes": "Second take is chosen as stronger than first for side-eye extension; clothing/identity/props closely retained. However main requested low three-dimensional lateral ocular bulge is still restrained/weak: reads mainly as an extended eye surface/eyelid, not a clearly rounded wraparound orbital cup. Divided pupil unresolved. Flag for user/root review rather than claiming fully achieved anatomy. Two attempts exhausted; no third generation performed.",
+      "attempts": 2,
+      "generation": "built-in ImageGen"
+    }
+  ],
+  "currentByCandidate": {
+    "A1": "support-A1-v002",
+    "A3": "support-A3-v002",
+    "A6": "support-A6-v002",
+    "B1": "support-B1-v001",
+    "B4": "support-B4-v002",
+    "B5": "support-B5-v001",
+    "B6": "support-B6-v002",
+    "C1": "support-C1-v002",
+    "C4": "support-C4-v002",
+    "C6": "support-C6-v002",
+    "D2": "support-D2-v002",
+    "D3": "support-D3-v002",
+    "D6": "support-D6-v002"
+  },
+  "unresolvedTraitIds": [
+    "A1"
+  ],
+  "understatedTraitStrengthIds": [
+    "B5"
+  ]
+}

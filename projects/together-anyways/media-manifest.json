@@ -1,0 +1,590 @@
+{
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/together-anyways/generated",
+    "projects/desert-colony/generated"
+  ],
+  "schemaVersion": 1,
+  "tag": "together-anyways-20261031-v001",
+  "archive": "together-anyways-20261031-v001.zip",
+  "sha256": "d6441e66ccfff6085d7d25217415706d1215ca8bb003ad390cd17a6b72e9b831",
+  "bytes": 469849480,
+  "files": [
+    {
+      "path": "projects/desert-colony/generated/character-development/harper-and-partner-v001.png",
+      "bytes": 2912419,
+      "sha256": "7a860152d04e484c6624eb5fdfec23806e65f36f022e346005d451de8bbb1c64"
+    },
+    {
+      "path": "projects/desert-colony/generated/scene-development/diversion-theft-v001.png",
+      "bytes": 3194887,
+      "sha256": "80773645ee1868eb7cc7305447d108968d833a217203fec913d8326fd0bc8c2a"
+    },
+    {
+      "path": "projects/desert-colony/generated/scene-development/diversion-theft-v002.png",
+      "bytes": 3246351,
+      "sha256": "39646b395e575cb658f4d18bf90910753a3d4f5cf4b7ae3b4649015a6a9424e8"
+    },
+    {
+      "path": "projects/desert-colony/generated/scene-development/diversion-theft-v003.png",
+      "bytes": 2978819,
+      "sha256": "41968b56abcc402b590026cc021884362eb037d3ad9e1f14794c721784676d14"
+    },
+    {
+      "path": "projects/desert-colony/generated/scene-development/diversion-theft-v004.png",
+      "bytes": 2828487,
+      "sha256": "00a054ddb1f5785d30d4cfa1409afd7ec36f67e8877a7f6ce3d0018f6dd78e71"
+    },
+    {
+      "path": "projects/desert-colony/generated/scene-development/diversion-theft-v005.png",
+      "bytes": 2764762,
+      "sha256": "97e5f3d6433a4ff022f682f93d8b463341e347b7c63ac899847ed7ae126bf644"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/Open in EffectCraft.cmd",
+      "bytes": 243,
+      "sha256": "97c1725939566328272cf192c7d3cf04b481cd8d4c70475c678f58f830406f71"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/Together-Anyways-lyric-animatic-v04-validation.json",
+      "bytes": 1157,
+      "sha256": "3c8d8cf6d5d05235a47dc0b96d27da5e68eb4fa40781696b8d90437c44a2f30c"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/Together-Anyways-lyric-animatic-v04-windows-original.ecproj",
+      "bytes": 32087326,
+      "sha256": "a5a20ab3d6ed03aa3ef36a01974dee9436af554e29a22bb6730e4f04523758cf"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/Together-Anyways-lyric-animatic-v04.ecproj",
+      "bytes": 32888863,
+      "sha256": "1250477921399177062bce3f113cfda21fa3ade83e59a29b1d74896444fe056b"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/Together-Anyways-lyric-animatic-v04.mp4",
+      "bytes": 23239217,
+      "sha256": "890a139ef5e6fe64364fcb27671dc4b09ebb8d677048ff0a564876e1b99e987a"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/accepted-boundary.json",
+      "bytes": 352,
+      "sha256": "b1d1bf0eb9b385321fc8faceb5d106f4579933c94b6fd8626c6dc12c0fe54291"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/assets/BarlowSemiCondensed-SemiBold.ttf",
+      "bytes": 109772,
+      "sha256": "bd299f4bc5b44d30be8d42e9bad3a5df7d66af1cd55d0ed72a8b8916360a1424"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/assets/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/assets/animatic-data.json",
+      "bytes": 235677,
+      "sha256": "6037ef7c33a2db258d8cb92ec44990d4172376f7bc0440d005a5d59cae454805"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/assets/lyric-timing.json",
+      "bytes": 346557,
+      "sha256": "2e9e09590f33bf91e7613aded83ef7b70b0ea52b16f9ad40e7b376ac00bc1639"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/assets/master.wav",
+      "bytes": 62292066,
+      "sha256": "ae1538d432b2070ed2d276f2c1c6bdfbbeefd4da9cd9910b58dd4f0a31c72ff0"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/assets/timing-overview.png",
+      "bytes": 18843,
+      "sha256": "7f0a3d9ad2dd89a06cc41a69ffc57512356fc1ce15f190936895572c3d41557c"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/change-verification.json",
+      "bytes": 529,
+      "sha256": "2655e53db947312d3ceba12a4af4f7e7f10ce1b6cdc529305dbffbbd701adede"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/layout.json",
+      "bytes": 80538,
+      "sha256": "5d55c31b30a26a768bf6238fe381615c453aac1553091395e8dffc4c78e8d9ca"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/native-validation.json",
+      "bytes": 1075,
+      "sha256": "7c335c90b19a923bea3a72b2e6dee466b2b5e1763f8db305839b63902dc5408c"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/portable-paths.json",
+      "bytes": 500,
+      "sha256": "3159b328571f3825f3aa09cba3fff91fa0629c6d3e04350e6573dc0a62aeae06"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/refrain-check-v04.mp4",
+      "bytes": 1274192,
+      "sha256": "03b953d1fd0968a97dc15fb1dd4d0905e62b7ea54860a11e0d85f81822a9987e"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/render-timing.json",
+      "bytes": 348,
+      "sha256": "6dd22a5646aebad12bb4b49df0a7cd1a0baa4579417ff33223c8d23c9907fb35"
+    },
+    {
+      "path": "projects/together-anyways/generated/animatic/timing.json",
+      "bytes": 346557,
+      "sha256": "2e9e09590f33bf91e7613aded83ef7b70b0ea52b16f9ad40e7b376ac00bc1639"
+    },
+    {
+      "path": "projects/together-anyways/generated/beatmap.json",
+      "bytes": 148779,
+      "sha256": "ea89ce501e544240f9d3b7175aff2d41f9105a94ef9f2be394222e54adc54d3a"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/harper-taffy-redesign-v001.png",
+      "bytes": 2593413,
+      "sha256": "91d05857d2a49698806ca18ae8b95b2ea2eeead4033a86ffe09f2d6ac42264d4"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/harper-taffy-redesign-v002.png",
+      "bytes": 2495942,
+      "sha256": "07246933cb1ff54c20ffb2e2a4d1641a3f80fc41016f4ce3f19c3d2a7ebddb8c"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/A1-shade-stitcher-v001.png",
+      "bytes": 2521196,
+      "sha256": "52b7c5ade38a790c4876c3e7787fb7b274ea6a5527504065a552ec06261b615c"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/A1.result.json",
+      "bytes": 925,
+      "sha256": "dd6fbfcbd3b7c2a53f8b5ced62f273b9861ce9159787f0411afeb674b1fb5174"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/A3-scrap-appraiser-v001.png",
+      "bytes": 2393326,
+      "sha256": "cc66a47d9bdbbf7e85c6c8eb5c65fc69fdc3c1c70a0f8ed937a3920dd8d3889b"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/A3.result.json",
+      "bytes": 917,
+      "sha256": "88bb6e231e46dc9f42a1c34d38452ea22264a379698ce7bc2cd75cadf56b17dd"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/A6-quiet-stallholder-v001.png",
+      "bytes": 2613832,
+      "sha256": "bcdc16bf561f5d83c461b533c9d22d7de882a724a4dbc51336297903a7841cd6"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/A6.result.json",
+      "bytes": 1106,
+      "sha256": "fd998a8785667daaf966bb7cbd211b65f114bb130bfb535862ff1106540f067c"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+      "bytes": 2635412,
+      "sha256": "5e428dcd7cd1864d08f992c51176d5166b7a67bfd1ed839dd772e1360aa8bc12"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/B1.result.json",
+      "bytes": 1028,
+      "sha256": "0ca0831ad9d14fb3aa73b7faffd2fd1f97b23a59df75c255afbd5bb54589b554"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/B4-fast-coat-v001.png",
+      "bytes": 2262668,
+      "sha256": "0ae20543c293400a923d8b4c257342dd6846ffdd3900c79db2cc3d11e669a005"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/B4.result.json",
+      "bytes": 992,
+      "sha256": "bf73420ae7ce624fa3c659cbc719871d72cd2d12db59530e5d9524ffa96e29df"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/B6-valve-hand-v001.png",
+      "bytes": 2849545,
+      "sha256": "d578804323669503acd44850aa1777b453647cf163478a7d127663cabb23092e"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/B6.result.json",
+      "bytes": 1084,
+      "sha256": "ce168b5b9b4394f105ff9250c1c7dacfb128f2fd2eff649dd38ea14b1f693508"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/C1-pipe-fitter-v001.png",
+      "bytes": 2514638,
+      "sha256": "83954f8c074d98e162679e47a342844a31c7c30f3cb7cafa728dc5a0fb57be83"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/C1.result.json",
+      "bytes": 1124,
+      "sha256": "bb1c3ea337247a8cf1a06ed899b1916b5d018a43e4ae94515229dc694347e05b"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/C4-pressure-warden-v001.png",
+      "bytes": 2558289,
+      "sha256": "68a049c57a6aaa49fac4d681ce4973e19153caee0d0f7afe1672d20a2a5a833e"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/C4.result.json",
+      "bytes": 1031,
+      "sha256": "a21677ce5de8e97febbc44003fc9f1f692654e89e7ff12b9a84478df669f12b6"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/C6-scrap-sweeper-v001.png",
+      "bytes": 2673590,
+      "sha256": "c36afe5ba77ccc3bd016ad3fd7fab67d63039f680b34e6a23ef5a3417f5c382d"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/C6.result.json",
+      "bytes": 987,
+      "sha256": "108860d2fe9459c21eaca3d4a5554a2a9f3c3182aa1c893f8c67ef1892d2d085"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/D2-pass-clerk-v001.png",
+      "bytes": 2497704,
+      "sha256": "802c303d9440955624e0f2dd0960e837fdf65fbf900f9ab1c8475c2785e966df"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/D2.result.json",
+      "bytes": 996,
+      "sha256": "5452b30c04d3bff7616ecb23f7bc73869e0d2df074640e9f5a1cffc9766ad1f7"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/D3-relay-electrician-v001.png",
+      "bytes": 2433810,
+      "sha256": "8a9c19deb4364b20ffbd437301840680396cb689cfbf79ae83f30712c30566bd"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/D3.result.json",
+      "bytes": 1019,
+      "sha256": "344e9cabc060c4e9bd2c99b67ad894a2d4a11cdc2cd4ee5d8bdf7656b7945ce2"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/D6-port-messenger-v001.png",
+      "bytes": 2238193,
+      "sha256": "8223cded9418b3b0307abff4e584bdb8c4a4ab7128008c4c14d4a4d23a598a48"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/D6.result.json",
+      "bytes": 1088,
+      "sha256": "9e7481b9f8e34cc6c2f6bf60b4c7c20bc80fb0c6e86e168706cfd59dfa610aee"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/build-cast-review.py",
+      "bytes": 7211,
+      "sha256": "aa9e3d6998e562ced49f24087a8ee7785140220a0bdd6593a6a0b2201736558f"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/manifest.json",
+      "bytes": 68623,
+      "sha256": "c6ed8822c0b5befe7e4f31870e6e7643b6ca7921d4d7845ca269e84e0849685b"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/review-board.html",
+      "bytes": 3149,
+      "sha256": "04a5f765eaeb93bd53df27f11c9391c557fb721bf9f4dc29c773bbac08847a13"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/review-options.json",
+      "bytes": 237,
+      "sha256": "51f522b88423a352cba99cb64df68b1c97418e692f950340f19782edf778943e"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v001/validation.json",
+      "bytes": 719,
+      "sha256": "5b5fa22ef9843497c35314e65182f47c3e09fa1bba0721744cdf509b41853686"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/A3-scrap-appraiser-v002.png",
+      "bytes": 2266232,
+      "sha256": "63011d9970d7e492195265effc67406e9c25ce6d20728b26361fe171a3a67db0"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/A3.result.json",
+      "bytes": 1442,
+      "sha256": "47b079c007b0978a4d1a44f4cf5b5506af6bc27bd04db731806b5d7d4d610b4d"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/A6-quiet-stallholder-v002.png",
+      "bytes": 2455852,
+      "sha256": "9db9546832b096d273ee0a742cf8392cc0385001cf1487256cb759ac9708137f"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/A6.result.json",
+      "bytes": 1567,
+      "sha256": "8113322abf4c368df316bbc406a0523ad1a9736915900e625607605ebfba0f4f"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/C4-pressure-warden-v002.png",
+      "bytes": 2352827,
+      "sha256": "ba2fea5abdb793aff8d2ab7a6f34b4dbfda1307507bff448fe7be4fb02e52a6d"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/C4.result.json",
+      "bytes": 1838,
+      "sha256": "e73a99eac19a57471c60eaaff3f6ae13a906aca1cdbf90789429b4aa5357a92a"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/D6-port-messenger-v002.png",
+      "bytes": 2096565,
+      "sha256": "3cc8e53f28672e3159bfa8372238974b75f601f96f3836bdb665886c8a99307c"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/D6.result.json",
+      "bytes": 1777,
+      "sha256": "adfb4ce81c7d412bdb2debde1e5bd89e477770f403007d101e7399ea71c1d5cb"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/build-biological-review.py",
+      "bytes": 9215,
+      "sha256": "a2155637c698dec112237a46ea5e25c78fcaa6aabc7ce160aec5f0fecc32e1d4"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/cast-board.html",
+      "bytes": 3818,
+      "sha256": "7c56ca7391c4fa83c0c8ea0be3330db7665151ca48bb7da85bf7b0239963e184"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/comparison-board.html",
+      "bytes": 3294,
+      "sha256": "f18ccb7aaa4b7997c5d1e890feb074412cdbe06a3d86d1690a870d84e10d7313"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/comparison-manifest.json",
+      "bytes": 44818,
+      "sha256": "df8da59011439b5772349b83269c64f42eff8d1d4c6fcdc0cf75473df8a19cbb"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/current-cast-manifest.json",
+      "bytes": 67578,
+      "sha256": "46b1985756db892123d0be5e97e68f2c44873ab8df611a18d9c5dd7ef5db6602"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/manifest.json",
+      "bytes": 21529,
+      "sha256": "34f7b872873dc130aff7a1dc3572712e6fed3d3a038149a3f2e038220eff1850"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/review-board.html",
+      "bytes": 2181,
+      "sha256": "734e9df000470db4ae8ced01435b2a977b31873d730548050329938ad4385a5a"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v002/validation.json",
+      "bytes": 480,
+      "sha256": "fc9e348b293aa7d75e08c953db8ebc16c762be9ac12ea21b558287cee2fa8caf"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/A1-shade-stitcher-v002.png",
+      "bytes": 2290749,
+      "sha256": "12761ef4a10955521ce5abb18aa766973dd105e6f94387682919011ff77b6146"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/A1.result.json",
+      "bytes": 1556,
+      "sha256": "f362f807689beca1428d59963962cf08aae2246f9c28db2a33d432ff35ad3dd1"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png",
+      "bytes": 2153504,
+      "sha256": "03a1e5528223d09de473dbd655bed39837943a9cf27f9979595a4488b56675b3"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/B4.result.json",
+      "bytes": 1502,
+      "sha256": "038d307c4d7d0a31d4d1d345ae9c459a221e1a7d8563e9c99ce84c8e2d485fbb"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/B5-stillwater-v001-take02.png",
+      "bytes": 2152381,
+      "sha256": "96c1b53e90263586fa17845545f57207f3a6b20a390125ce4db945445c047589"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/B5-stillwater-v001.png",
+      "bytes": 2316403,
+      "sha256": "744af5c07ce61fb21baa7516f58c7159f88407784a5224aacd602838a85903ed"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/B5.result.json",
+      "bytes": 2032,
+      "sha256": "717651c76fa302c8acfd6890be5c4ec29f547c0bf73651ecea58b741be854ca7"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/B6-valve-hand-v002.png",
+      "bytes": 2660252,
+      "sha256": "4ff8583272125be487894cab78146376410d598247ca229308022c33595fc964"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/B6.result.json",
+      "bytes": 1605,
+      "sha256": "f039a697feb60b67bbc19bd4c27b78d3d8edd4016e1c337bed098422434c83dc"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/C1-pipe-fitter-v002.png",
+      "bytes": 2281766,
+      "sha256": "da90799092e3db04153e30a2fd4b261cadf7c385b89720031560013246e0bb33"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/C1.result.json",
+      "bytes": 1533,
+      "sha256": "0f03c950f8f0537f2a056b9eeaeec853b384558d2dbed3f4346dd2c953b309d3"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/C6-scrap-sweeper-v002.png",
+      "bytes": 2375582,
+      "sha256": "b37edd8ed3dd8e857876a96922e46b123dd2765286915a7ed919b9a068dba53f"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/C6.result.json",
+      "bytes": 1857,
+      "sha256": "6da03c8bfa7f47c90d07b9f59713fc6488425a21a89022096c91e004c3af5b65"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/D2-pass-clerk-v002.png",
+      "bytes": 2227517,
+      "sha256": "6413cba3a9a31cc47a551ca2c10fd5fa946c6ce98c85330b9afe3653a9e107ac"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/D2.result.json",
+      "bytes": 1639,
+      "sha256": "62290e0fec66ba308e366e0be0a6e5ebed29531e8edf1d47e955a5796f487f83"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/D3-relay-electrician-v002.png",
+      "bytes": 2187616,
+      "sha256": "e04fb05d8022f77f6d9996209cc52f985af7803ebd00ae6a9a8ed722af8af4ef"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/D3.result.json",
+      "bytes": 1426,
+      "sha256": "4ec650b709d159582208f0d00e5b893bcf69041f40fd6f362ce2f3370be27824"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/build-integrated-review.py",
+      "bytes": 10970,
+      "sha256": "13c1c9eaeb9b03eccb4de6322f15dcdd554166f8cc4fff999a917d0a6d3c77d2"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/cast-board.html",
+      "bytes": 4307,
+      "sha256": "0fe2d88892a810f624e11b690065c59db4601db620c0cc31094ea9e0cf0db05c"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/comparison-board.html",
+      "bytes": 4676,
+      "sha256": "9e8c321cc956d5762f1ec4d169e5a88e9038abd63ef04301bc604d5082160d05"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/comparison-manifest.json",
+      "bytes": 77886,
+      "sha256": "77d495343275e5063553f4268b6c3212b5d5bbf6cb7212304371a7ceaf20614c"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/current-cast-manifest.json",
+      "bytes": 65205,
+      "sha256": "ac109d351b815fcea98be5842ef5a52584c408e598cffea2ffd7c08029412f66"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/manifest.json",
+      "bytes": 37547,
+      "sha256": "612350f9252c6aa5696d5c7a2b31f29514d4cc4b102ee884065622bcf10b32b3"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/review-board.html",
+      "bytes": 2946,
+      "sha256": "86719348541f2f3c737788c204c10db520101f8274f37023439e912013ead827"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/supporting-refs-v003/validation.json",
+      "bytes": 481,
+      "sha256": "255c5b378074b1e368e1d5e93549c41ea4e0da30a07df13228040cd2ce5a723a"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/taffy-front-back-v003.png",
+      "bytes": 2341257,
+      "sha256": "ffa1a6085c7728eeb5fac1bdd2f7bcbcb910192936893a60726411d4f99b0508"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/taffy-front-back-v004.png",
+      "bytes": 2229605,
+      "sha256": "1b0c2ad71947a8ea7b7cd1c093dd8b8edde8f5576765d9f3b698b76e9863b152"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/taffy-front-back-v005.png",
+      "bytes": 2178199,
+      "sha256": "492a33bbf02108a31fe06485899b1987ae0334f327328bfd38a22ec0ac30ff98"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/taffy-front-back-v006.png",
+      "bytes": 2115158,
+      "sha256": "f06a8065208c6a1deca897ca30777e06e32675d5201007986ee48ca4660d6d32"
+    },
+    {
+      "path": "projects/together-anyways/generated/environment-development/first-run-v001/access-relay-hall-v001.png",
+      "bytes": 2884944,
+      "sha256": "33f4364dd8eb1c88d828846ea84c34788427f2bd29c97919dc4ac52158ab4d78"
+    },
+    {
+      "path": "projects/together-anyways/generated/environment-development/first-run-v001/build-review.py",
+      "bytes": 15373,
+      "sha256": "4d3ad4ebcf8bc4161a769e68274a100499028d1630d8b6f449291e15a08ec6f2"
+    },
+    {
+      "path": "projects/together-anyways/generated/environment-development/first-run-v001/index.html",
+      "bytes": 7933,
+      "sha256": "78776c213f630eac2959baf69e6d18f6d4a9a1ad87132caa7e123e51e53665fe"
+    },
+    {
+      "path": "projects/together-anyways/generated/environment-development/first-run-v001/market-approach-v001.png",
+      "bytes": 3093464,
+      "sha256": "050f8dc4922081cd15eaa1215d5309e61bd40e71d829c437f979303018cd882b"
+    },
+    {
+      "path": "projects/together-anyways/generated/environment-development/first-run-v001/project.before-first-run-v001.json",
+      "bytes": 5317,
+      "sha256": "92c79778262ac98bd89517e1c97040802e71ae052b2b2a41f38a3241e50820db"
+    },
+    {
+      "path": "projects/together-anyways/generated/environment-development/first-run-v001/split-reunion-court-v001.png",
+      "bytes": 3392417,
+      "sha256": "c58e59a90e4c84f9659da15d17aff48aac5bea622647d6c2d7dbef4a72756c6b"
+    },
+    {
+      "path": "projects/together-anyways/generated/environment-development/first-run-v001/timeline.before-first-run-v001.json",
+      "bytes": 209672,
+      "sha256": "de8764308fa3bce19120b043107bb96204609ec9777d8dc6697fbab15fc90338"
+    },
+    {
+      "path": "projects/together-anyways/generated/environment-development/first-run-v001/validation.json",
+      "bytes": 923,
+      "sha256": "a612e537f0d0a178bbf94a6405bd16a75a08cde099ddb4d16e97b7a8a7c0609a"
+    },
+    {
+      "path": "projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+      "bytes": 3364471,
+      "sha256": "be200f97cf0f613a8c5a84a56417be6da2c78de00433d69f8faf2eca0845fd67"
+    },
+    {
+      "path": "projects/together-anyways/generated/source/Together-Anyways-current.dawproject",
+      "bytes": 274396684,
+      "sha256": "5a097233219f4ee6151af040be87faac03c3ef7658fd89c06df0406472477124"
+    },
+    {
+      "path": "projects/together-anyways/generated/source/harper-original-input.png",
+      "bytes": 2611063,
+      "sha256": "7d09edd80d7619b08be489c8b5014c74c298e08b31467c5a4bcf618ce1c1a3fa"
+    },
+    {
+      "path": "projects/together-anyways/generated/source/together-anyways-cover.png",
+      "bytes": 2764762,
+      "sha256": "97e5f3d6433a4ff022f682f93d8b463341e347b7c63ac899847ed7ae126bf644"
+    },
+    {
+      "path": "projects/together-anyways/generated/timeline.compiled.json",
+      "bytes": 372060,
+      "sha256": "e016ed8c454673b7c749c17f29aa89cd7abf32e43cd4565beb8a8492724d7307"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/together-anyways-20261031-v001/together-anyways-20261031-v001.zip"
+}

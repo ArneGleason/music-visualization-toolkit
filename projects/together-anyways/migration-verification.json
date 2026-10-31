@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-31",
+  "mediaFilesRestored": 115,
+  "mediaArchiveBytes": 469849480,
+  "freshLocation": "Separate checkout exported from the Git index; no project.local.json",
+  "allFileHashesMatch": true,
+  "portableProjectSourcesPresent": true,
+  "galleryPagesChecked": 8,
+  "brokenGalleryImages": 0,
+  "timelineValidate": "81 items valid",
+  "freshDawprojectSync": "Compiled timing unchanged from accepted register",
+  "nativeEffectcraft": "0.18.0, fresh-location native frame at 87.125s and 2-second WAV rendered",
+  "audioCheck": {
+    "channels": 2,
+    "sampleRate": 48000,
+    "durationSeconds": 2,
+    "meanDbfs": -14.7,
+    "peakDbfs": -1.5
+  },
+  "automatedTests": {
+    "mediaRestore": 3,
+    "tempoImporter": 2,
+    "timeline": 14,
+    "result": "all passed"
+  },
+  "macCliArchiveSha256Verified": "e47937e21c060c1f7435669526e44ebb458ef3c762e904d701b733212bd8584d",
+  "macLaunchAndRender": "Pending execution on the Mac; not tested on Windows"
+}

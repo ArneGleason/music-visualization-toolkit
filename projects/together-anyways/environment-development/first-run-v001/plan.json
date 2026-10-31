@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "id": "first-run-v001",
+  "status": "user_accepted_setting_direction",
+  "scope": "First run only: approach to wanted-broadcast reaction",
+  "endPhraseId": "line-023",
+  "endMasterSeconds": 81.48,
+  "baseReference": "../desert-colony/generated/scene-development/diversion-theft-v005.png",
+  "routeMap": "environment-development/first-run-v001/route-map.svg",
+  "notes": "environment-development/first-run-v001/story-route.notes.txt",
+  "route": [
+    [
+      "loc-market-approach",
+      "loc-water-broker"
+    ],
+    [
+      "loc-water-broker",
+      "harper-public-dogleg",
+      "loc-reunion-court"
+    ],
+    [
+      "loc-water-broker",
+      "taffy-screened-ledge",
+      "loc-reunion-court"
+    ],
+    [
+      "loc-reunion-court",
+      "loc-relay-gate",
+      "loc-relay-hall"
+    ]
+  ],
+  "assets": [
+    {
+      "id": "env-market-approach-v001",
+      "placeIds": [
+        "loc-market-approach"
+      ],
+      "image": "market-approach-v001.png",
+      "title": "A · Market approach",
+      "cue": "Opening premise and the plan to split",
+      "purpose": "A shaded planning alcove beside a public lane. Ordinary information display, twin blue tanks and teal shade point toward the target; cargo cranes plant the distant objective.",
+      "watch": "Place the pair in the cool alcove, watching the lane. The first display carries useful local information, not their wanted alert.",
+      "imagePath": "generated/environment-development/first-run-v001/market-approach-v001.png",
+      "promptPath": "environment-development/first-run-v001/market-approach-v001.prompt.txt",
+      "sha256": "050f8dc4922081cd15eaa1215d5309e61bd40e71d829c437f979303018cd882b",
+      "status": "user_accepted_setting_direction"
+    },
+    {
+      "id": "env-water-broker-v001",
+      "placeIds": [
+        "loc-water-broker"
+      ],
+      "image": "water-broker-forecourt-v001.png",
+      "title": "B · Water broker’s forecourt",
+      "cue": "Hang on back → all attention → grab the thing → fade away",
+      "purpose": "A public stall attached to the criminal’s private house. Chair, private tanks and storage gate express control of water; open public space and screened service cover support the theft.",
+      "watch": "Harper works the conspicuous side and draws pursuit into the left passage. Taffy uses cover beside the chair and withdraws through the right service gap. Chair eyelines need blocking.",
+      "imagePath": "generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+      "promptPath": "environment-development/first-run-v001/water-broker-forecourt-v001.prompt.txt",
+      "sha256": "be200f97cf0f613a8c5a84a56417be6da2c78de00433d69f8faf2eca0845fd67",
+      "status": "user_accepted_setting_direction"
+    },
+    {
+      "id": "env-reunion-court-v001",
+      "placeIds": [
+        "loc-reunion-court"
+      ],
+      "image": "split-reunion-court-v001.png",
+      "title": "C · Blue-pipe reunion court",
+      "cue": "First Are you with me? → Together anyways",
+      "purpose": "Two approaches meet on a pump-service landing under a chipped blue pipe elbow. A higher screened ledge and lower dogleg let them arrive separately; right stairs lead onward.",
+      "watch": "Reunite here before the next entrance. The study has more running water than the sparse trickle proposed; flow can be reduced during location refinement.",
+      "imagePath": "generated/environment-development/first-run-v001/split-reunion-court-v001.png",
+      "promptPath": "environment-development/first-run-v001/split-reunion-court-v001.prompt.txt",
+      "sha256": "c58e59a90e4c84f9659da15d17aff48aac5bea622647d6c2d7dbef4a72756c6b",
+      "status": "user_accepted_setting_direction"
+    },
+    {
+      "id": "env-relay-hall-v001",
+      "placeIds": [
+        "loc-relay-gate",
+        "loc-relay-hall"
+      ],
+      "image": "access-relay-hall-v001.png",
+      "title": "D · Service entrance and relay hall",
+      "cue": "We use that / This like that → walk on in → News!",
+      "purpose": "A controlled entrance into a port-serving utility/freight hall. Door-jamb reader outside, large broadcast screen inside, and onward cargo ramp beyond.",
+      "watch": "The screen is blank for a later wanted-broadcast overlay using the selected identities. Refine the reader in a prop close-up: the concept renders a rounded C/P recess, not a precise horseshoe socket.",
+      "imagePath": "generated/environment-development/first-run-v001/access-relay-hall-v001.png",
+      "promptPath": "environment-development/first-run-v001/access-relay-hall-v001.prompt.txt",
+      "sha256": "33f4364dd8eb1c88d828846ea84c34788427f2bd29c97919dc4ac52158ab4d78",
+      "status": "user_accepted_setting_direction"
+    }
+  ],
+  "lyricCues": [
+    {
+      "id": "first-run-premise",
+      "label": "Observe and brief",
+      "text": "Adventure premise and plan to split. They deliberately read useful information. Harper explains the separate roles before presenting herself alone.",
+      "start": "8.4.871",
+      "end": "14.4.889",
+      "sourcePhraseIds": [
+        "line-001",
+        "line-005"
+      ],
+      "sourceStart": 17.081,
+      "sourceEnd": 33.919,
+      "placeIds": [
+        "loc-market-approach"
+      ],
+      "timingStatus": "existing_lyric_anchors",
+      "ai": {
+        "status": "suggestion"
+      },
+      "origin": "user_story_direction_2026-10-30_with_proposed_staging"
+    },
+    {
+      "id": "first-run-instructions",
+      "label": "Stay behind; she acts alone",
+      "text": "Harper moves into the public forecourt; Taffy hangs back in screened cover. Criminal associates must not see that they arrived together.",
+      "start": "16.3.938",
+      "end": "19.3.387",
+      "sourcePhraseIds": [
+        "line-006",
+        "line-010"
+      ],
+      "sourceStart": 38.881,
+      "sourceEnd": 46.889,
+      "placeIds": [
+        "loc-market-approach",
+        "loc-water-broker"
+      ],
+      "timingStatus": "existing_lyric_anchors",
+      "ai": {
+        "status": "suggestion"
+      },
+      "origin": "user_story_direction_2026-10-30_with_proposed_staging"
+    },
+    {
+      "id": "first-run-attention",
+      "label": "All attention on Harper",
+      "text": "The jewel presentation catches racketeer, associates and shoulder lookout. Keep their sightlines away from Taffy and the device.",
+      "start": "19.4.222",
+      "end": "20.4.76",
+      "sourcePhraseIds": [
+        "line-011"
+      ],
+      "sourceStart": 47.47,
+      "sourceEnd": 50.173,
+      "placeIds": [
+        "loc-water-broker"
+      ],
+      "timingStatus": "existing_lyric_anchors",
+      "ai": {
+        "status": "suggestion"
+      },
+      "origin": "user_story_direction_2026-10-30_with_proposed_staging"
+    },
+    {
+      "id": "first-run-theft",
+      "label": "Take the override key",
+      "text": "Taffy lifts the asymmetric horseshoe device while attention is held elsewhere. Make object identity readable without interrupting the concealment.",
+      "start": "20.4.213",
+      "end": "21.3.705",
+      "sourcePhraseIds": [
+        "line-012"
+      ],
+      "sourceStart": 50.273,
+      "sourceEnd": 52.735,
+      "placeIds": [
+        "loc-water-broker"
+      ],
+      "timingStatus": "existing_lyric_anchors",
+      "ai": {
+        "status": "suggestion"
+      },
+      "origin": "user_story_direction_2026-10-30_with_proposed_staging"
+    },
+    {
+      "id": "first-run-withdraw",
+      "label": "Separate disappearances",
+      "text": "Harper takes the visible public exit and loses pursuit in the lower dogleg. Taffy vanishes along the screened service ledge. Both head to the blue-pipe court.",
+      "start": "21.4.211",
+      "end": "23.2.456",
+      "sourcePhraseIds": [
+        "line-013",
+        "line-014"
+      ],
+      "sourceStart": 53.076,
+      "sourceEnd": 57.48,
+      "placeIds": [
+        "loc-water-broker",
+        "loc-reunion-court"
+      ],
+      "timingStatus": "existing_lyric_anchors",
+      "ai": {
+        "status": "suggestion"
+      },
+      "origin": "user_story_direction_2026-10-30_with_proposed_staging"
+    },
+    {
+      "id": "first-run-reunion",
+      "label": "Check and reunite",
+      "text": "First refrain: is he there, did it work? A discreet glimpse of the key and reunion under the blue pipe elbow. They leave together.",
+      "start": "24.4.303",
+      "end": "26.4.916",
+      "sourcePhraseIds": [
+        "line-015",
+        "line-016"
+      ],
+      "sourceStart": 61.604,
+      "sourceEnd": 67.732,
+      "placeIds": [
+        "loc-reunion-court"
+      ],
+      "timingStatus": "existing_lyric_anchors",
+      "ai": {
+        "status": "suggestion"
+      },
+      "origin": "user_story_direction_2026-10-30_with_proposed_staging"
+    },
+    {
+      "id": "first-run-next-stop",
+      "label": "A different entrance",
+      "text": "Arrive at a controlled freight/utility entrance beyond the market. This is one step toward the port, not the ship itself.",
+      "start": "28.4.239",
+      "end": "29.2.454",
+      "sourcePhraseIds": [
+        "line-017"
+      ],
+      "sourceStart": 72.875,
+      "sourceEnd": 74.436,
+      "placeIds": [
+        "loc-relay-gate"
+      ],
+      "timingStatus": "existing_lyric_anchors",
+      "ai": {
+        "status": "suggestion"
+      },
+      "origin": "user_story_direction_2026-10-30_with_proposed_staging"
+    },
+    {
+      "id": "first-run-use-key",
+      "label": "Learn the device",
+      "text": "Match and orient the stolen asymmetric device in the door-jamb reader. Proposed action: initial wrong orientation, then turn it to fit. No second theft.",
+      "start": "29.2.508",
+      "end": "30.1.53",
+      "sourcePhraseIds": [
+        "line-018",
+        "line-019"
+      ],
+      "sourceStart": 74.476,
+      "sourceEnd": 76.257,
+      "placeIds": [
+        "loc-relay-gate"
+      ],
+      "timingStatus": "existing_lyric_anchors",
+      "ai": {
+        "status": "suggestion"
+      },
+      "origin": "user_story_direction_2026-10-30_with_proposed_staging"
+    },
+    {
+      "id": "first-run-walk-in",
+      "label": "Cross the threshold",
+      "text": "Use the opened door and enter the relay hall. The wanted display belongs inside, so the reveal follows the access success.",
+      "start": "30.1.244",
+      "end": "30.3.840",
+      "sourcePhraseIds": [
+        "line-020"
+      ],
+      "sourceStart": 76.397,
+      "sourceEnd": 78.238,
+      "placeIds": [
+        "loc-relay-gate",
+        "loc-relay-hall"
+      ],
+      "timingStatus": "existing_lyric_anchors",
+      "ai": {
+        "status": "suggestion"
+      },
+      "origin": "user_story_direction_2026-10-30_with_proposed_staging"
+    },
+    {
+      "id": "first-run-news",
+      "label": "The broadcast is about them",
+      "text": "They notice the wanted broadcast after entry. News / Big news / I never watch the news carries discovery and reaction. Exact portraits and text are a later controlled overlay.",
+      "start": "30.4.451",
+      "end": "31.4.442",
+      "sourcePhraseIds": [
+        "line-021",
+        "line-023"
+      ],
+      "sourceStart": 78.658,
+      "sourceEnd": 81.48,
+      "placeIds": [
+        "loc-relay-hall"
+      ],
+      "timingStatus": "existing_lyric_anchors",
+      "ai": {
+        "status": "suggestion"
+      },
+      "origin": "user_story_direction_2026-10-30_with_proposed_staging"
+    }
+  ],
+  "continuity": "Stable topological connections; camera-specific geometry and reader insert remain development work",
+  "userReview": {
+    "date": "2026-10-30",
+    "source": "User reviewed the images and plan in their browser and said both are good.",
+    "scope": "Setting designs and overall first-run plan; detailed camera matching, reader insert and cast selection remain development work."
+  }
+}
