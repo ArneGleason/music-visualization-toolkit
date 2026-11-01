@@ -1,0 +1,54 @@
+{
+  "scope": "ta-019 through ta-024",
+  "policy": "Four fingers plus one thumb; do not infer defect from occlusion, grip, edge-on view or tiny background figures.",
+  "shots": [
+    {
+      "shotId": "ta-019",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-019.png",
+      "status": "occluded",
+      "findings": "Harper lowered hands edge-on with grouped fingers; Taffy hand downward viewed obliquely; Electrician and Messenger hands tiny/partly screened. No clear extra or missing digit.",
+      "countCertainty": "Low-to-moderate; full five-digit counts not available for each hand.",
+      "repair": "No hand repair justified by visible evidence; screen edits only for019/022/023."
+    },
+    {
+      "shotId": "ta-020",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-020.png",
+      "status": "occluded",
+      "findings": "Taffy key grip shows stacked curled fingers and opposing thumb consistent with five; other hand grips sack strap with tips hidden. Harper relaxed hand partly edge-on. No clear defect.",
+      "countCertainty": "Moderate for key grip; limited for remaining hands.",
+      "repair": "No hand repair justified by visible evidence; screen edits only for019/022/023."
+    },
+    {
+      "shotId": "ta-021",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-021.png",
+      "status": "clear",
+      "findings": "Close key grip shows four curled finger surfaces/nails and separate opposing thumb: five digits. No correction required.",
+      "countCertainty": "High for depicted close hand.",
+      "repair": "No hand repair justified by visible evidence; screen edits only for019/022/023."
+    },
+    {
+      "shotId": "ta-022",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-022.png",
+      "status": "occluded",
+      "findings": "Leads relaxed hands have partly overlapping fingers. Clerk pen grip and board support naturally conceal digits; Electrician small prop grip cannot be fully counted. No clear defect.",
+      "countCertainty": "Limited for background hands; moderate foreground.",
+      "repair": "No hand repair justified by visible evidence; screen edits only for019/022/023."
+    },
+    {
+      "shotId": "ta-023",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-023.png",
+      "status": "occluded",
+      "findings": "Harper lowered hands and Messenger hand show grouped/edge-on fingers; Taffy grips straps, Electrician grips tool. No definite missing/extra digits; output display edit preserves these.",
+      "countCertainty": "Moderate/limited, no claim all hands individually counted.",
+      "repair": "No hand repair justified by visible evidence; screen edits only for019/022/023."
+    },
+    {
+      "shotId": "ta-024",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-024.png",
+      "status": "occluded",
+      "findings": "Taffy two strap grips show curled knuckles and thumbs with tips naturally occluded; Harper hands outside frame. No clear anomaly. Screen edge contains only border/blue field, no recognizable portraits.",
+      "countCertainty": "Limited by grips and crop; unchanged shot sufficient.",
+      "repair": "No hand repair justified by visible evidence; screen edits only for019/022/023."
+    }
+  ]
+}

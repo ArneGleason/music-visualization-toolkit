@@ -1,0 +1,35 @@
+{
+  "candidateId": "C6",
+  "name": "The Scrap Sweeper",
+  "heightCm": 183,
+  "crownY": 0.055,
+  "groundY": 0.903,
+  "sourceImage": "generated/character-development/supporting-refs-v003/C6-scrap-sweeper-v002.png",
+  "outputImage": "generated/character-development/supporting-refs-v004/C6-silhouette-v004.png",
+  "promptFile": "character-development/supporting-refs-v004/C6.prompt.txt",
+  "changesActuallyVisible": [
+    "Clearly narrow lanky build and elongated limb silhouette.",
+    "Long asymmetrical dun/rust garment panels replace blouse/trouser emphasis; narrow trousers remain.",
+    "Same recognizable face, coarse curls, two short organic cheek filaments and listening gesture.",
+    "Magnetic collecting pole and bundled scrap sled retained."
+  ],
+  "caveats": [
+    "Long panel extends below calf to near ankle, exceeding requested calf length but strengthening distinctive silhouette.",
+    "Head remains slightly tilted; height is an assigned design specification, with approximate visual calibration rather than a measurement.",
+    "Use front boot sole as ground, not magnetic collector or scattered scrap lower in the image.",
+    "Cheek filament roots retain source's somewhat ring-like bases, but no added mechanical fittings."
+  ],
+  "status": "silhouette_and_height_proposal_for_review",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "calibration": {
+    "coordinateSystem": "normalized image Y from top; anatomical crown excludes hair, ground is footwear sole contact",
+    "crownY": 0.055,
+    "groundY": 0.903,
+    "approximate": true
+  },
+  "dimensions": [
+    1086,
+    1448
+  ]
+}

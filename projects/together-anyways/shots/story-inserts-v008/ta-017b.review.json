@@ -1,0 +1,14 @@
+{
+  "shotId": "ta-017b",
+  "status": "ready-for-review",
+  "tool": "builtin-imagegen",
+  "attempts": 1,
+  "image": "generated/storyboard/story-inserts-v008/ta-017b.png",
+  "prompt": "shots/story-inserts-v008/ta-017b.prompt.txt",
+  "review": "Preserved reverse composition and Taffy identity. Replaced threaded/undersized grip with closed hand over solid upper grip; horseshoe opening below remains clear. Ivory/red/squared metal design now closely matches ta013. No fingers visibly clipping through solid parts.",
+  "caveats": [
+    "Closed grip occludes thumb and some digits; full five-digit count cannot be certified from pose, no clear extra digit.",
+    "Credential is proximity access device passed near scanner, never mechanically inserted. Exact close alignment of internal greebles is approximate.",
+    "No shotlist or animatic changes made by this worker."
+  ]
+}

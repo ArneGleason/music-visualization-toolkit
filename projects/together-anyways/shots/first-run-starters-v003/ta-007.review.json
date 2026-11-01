@@ -1,0 +1,27 @@
+{
+  "shotId": "ta-007",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/environment-development/first-run-v001/market-approach-v001.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/character-development/supporting-refs-v004/A1-silhouette-v004.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "selectedPrompt": "ta-007-take02.prompt.txt",
+  "visibleResult": "Three intended people only: Harper left ready for public lane, Taffy concealed separately right, A1 rope worker at left.",
+  "caveats": [
+    "First take invalid extra human broker and guard retained separately.",
+    "Harper already has one foot slightly lifted; use as onset of first step rather than wholly still stance.",
+    "A1 standing on work crate makes apparent stature taller; no literal height comparison."
+  ],
+  "status": "starter_for_review",
+  "output": "generated/storyboard/first-run-starters-v003/ta-007.png",
+  "promptFile": "shots/first-run-starters-v003/ta-007-take02.prompt.txt",
+  "promptLockVerifiedExact": true,
+  "referenceFrameMode": "source_start_with_1sec_in_handle"
+}

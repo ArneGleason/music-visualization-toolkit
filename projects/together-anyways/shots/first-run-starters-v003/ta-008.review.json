@@ -1,0 +1,25 @@
+{
+  "shotId": "ta-008",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/character-development/core-threat-refs-v001/BROKER.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "visibleResult": "Over Harper shoulder, seated broker center with one lookout and own belt-held key; Taffy waits in far-right screened tank/pipe strip.",
+  "caveats": [
+    "Taffy partly concealed; portly torso less emphatic at distance than close shots but full cheeks/large ears retained.",
+    "Screening uses tanks/pipes more than cloth; ensure lookout eyeline remains directed left during motion."
+  ],
+  "status": "starter_for_review",
+  "output": "generated/storyboard/first-run-starters-v003/ta-008.png",
+  "promptFile": "shots/first-run-starters-v003/ta-008.prompt.txt",
+  "promptLockVerifiedExact": true,
+  "referenceFrameMode": "source_start_with_1sec_in_handle"
+}

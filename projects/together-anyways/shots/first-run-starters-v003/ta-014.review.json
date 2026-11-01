@@ -1,0 +1,30 @@
+{
+  "shotId": "ta-014",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sourceReferences": [
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/BROKER.png"
+  ],
+  "output": "generated/storyboard/first-run-starters-v003/ta-014.png",
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "status": "review_needed",
+  "visible": [
+    "Harper turning left with jewel palmed",
+    "Fast Coat follows, tail visible",
+    "True broker seated with exactly one lookout; Doorpost standing distinctly behind",
+    "Broker holder appears empty; no exposed stolen key"
+  ],
+  "caveats": [
+    "Harper and Fast Coat already in first stride; motion should begin from this phase",
+    "Right edge slightly crops Doorpost"
+  ],
+  "selectedPrompt": "shots/first-run-starters-v003/ta-014.take02.prompt.txt",
+  "correction": "Replaced wrongly seated Doorpost with true broker and restored standing guard"
+}

@@ -10,13 +10,37 @@ import threading
 from urllib.parse import urlparse, parse_qs
 
 
+def load_shots(path, master_start, count, frame_base):
+    """Return shots intersecting this preview, in the player's master numbering."""
+    if path is None:
+        return []
+    document = json.loads(path.read_text(encoding="utf-8"))
+    offset = frame_base - document.get("frameIndexBase", frame_base)
+    shots = []
+    for shot in document.get("shots", []):
+        start, end = shot["startFrame"] + offset, shot["endFrameExclusive"] + offset
+        if end <= master_start or start >= master_start + count or end <= start:
+            continue
+        shots.append(dict(id=shot.get("id", shot.get("shotId")),
+            title=shot.get("title", shot.get("id", "Shot")),
+            sceneId=shot.get("sceneId", ""), sceneName=shot.get("sceneName", ""),
+            shotNumber=shot.get("shotNumber", len(shots) + 1),
+            startFrame=start, endFrameExclusive=end,
+            sourceInFrame=shot.get('videoEdit', {}).get('sourceInFrame', document.get('fps')) if shot.get('videoSource') else None,
+            sourceFps=document.get('fps'),
+            mediaType='video' if shot.get('videoSource') else 'still'))
+    return sorted(shots, key=lambda shot: shot["startFrame"])
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--video", type=Path, required=True)
     parser.add_argument("--notes", type=Path, required=True)
     parser.add_argument("--master-start", type=int, default=1)
+    parser.add_argument("--master-frame-base", type=int, choices=(0, 1), default=1)
     parser.add_argument("--port", type=int, default=8767)
     parser.add_argument("--state", type=Path, help="JSON pointer to current video and master_start")
+    parser.add_argument("--shotlist", type=Path, help="Shot index for scene/shot navigation")
     args = parser.parse_args()
     @lru_cache(maxsize=16)
     def inspect(path, stamp):
@@ -79,8 +103,15 @@ def main():
             if route.path == "/api":
                 with lock:
                     notes = read_notes()
+                try:
+                    shots = load_shots(args.shotlist, master_start, count, args.master_frame_base)
+                    shot_revision = str(args.shotlist.stat().st_mtime_ns) if args.shotlist else ""
+                except (OSError, ValueError, KeyError, TypeError):
+                    shots, shot_revision = [], "unavailable"
                 self.send(json.dumps(dict(name=video.name, fps=fps, count=count,
-                    masterStart=master_start, revision=revision, notes=notes)).encode())
+                    masterStart=master_start, masterFrameBase=args.master_frame_base,
+                    revision=revision, notes=notes, shots=shots,
+                    shotRevision=shot_revision)).encode())
             elif route.path == "/frame":
                 try:
                     frame = int(parse_qs(route.query)["n"][0])
@@ -147,7 +178,7 @@ def main():
                     raise ValueError()
                 note = dict(video=video.name, preview_frame=frame,
                     master_frame=master_start+frame-1,
-                    master_seconds=(master_start+frame-2)/fps,
+                    master_seconds=(master_start+frame-1-args.master_frame_base)/fps,
                     fps=fps, text=str(item.get("text", ""))[:2000])
                 with lock:
                     notes = read_notes()

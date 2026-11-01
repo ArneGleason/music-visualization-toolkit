@@ -1,0 +1,63 @@
+{
+  "id": "ta-004b",
+  "startAnchor": "11.1.767",
+  "title": "Back to the job",
+  "location": "market",
+  "camera": "Side/reverse medium two-shot",
+  "description": "Harper cues Taffy away from the celebrity panel; he reluctantly returns his attention to their heist.",
+  "cast": [
+    "HARPER",
+    "TAFFY"
+  ],
+  "continuity": "Same frivolous celebrity panel as preceding shot. Fresh head orientation and sleeve cue advance the action.",
+  "promptLock": "FIRST RUN SHOT LOCK v002: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. The news is already playing inside the relay hall when the partners reach Scene 5; its presenter and distant aerial theft inset do not clearly identify their faces. Humanoid hands have four fingers and one thumb; preserve established subtle biological adaptations without inventing missing or extra digits. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+  "generationApproach": "Kling4.0 active staging v003 selected for review",
+  "status": "starter_frame_batch_pending_review",
+  "batch": "door-grip-v009",
+  "startFrame": 559,
+  "endFrameExclusive": 637,
+  "frames": 78,
+  "startSeconds": 23.291666666666668,
+  "endSeconds": 26.541666666666668,
+  "start": "11.1.767",
+  "end": "12.2.451",
+  "sceneId": "S01",
+  "sceneName": "Planet to market",
+  "shotNumber": 6,
+  "displayId": "S01-SH06",
+  "referenceFrameMode": "start",
+  "videoHandles": {
+    "inFrames": 24,
+    "outFrames": 24,
+    "fps": 24,
+    "requestedSourceFrames": 126,
+    "editInSourceFrame": 0,
+    "editOutSourceFrameExclusive": 78,
+    "sourceStartMasterFrame": 535,
+    "sourceEndMasterFrameExclusive": 661,
+    "status": "opening_handle_consumed_for_hair_review",
+    "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later.",
+    "availableInFrames": 0,
+    "availableOutFrames": 67
+  },
+  "starterImage": "generated/storyboard/style-news-v010/ta-004b.png",
+  "starterRevision": "v010",
+  "starterReview": "shots/style-news-v010/ta-004b.review.json",
+  "renderingReference": "generated/storyboard/first-run-starters-v003/ta-003.png",
+  "styleDirection": "Match the realistic illustrative facial proportions, modeled shading and material detail of ta-003. Preserve this shot\u2019s own acting and pose.",
+  "videoSource": "generated/kling-action-v003/ta-004b.mp4",
+  "videoEdit": {
+    "sourceInFrame": 0,
+    "zoomStart": 1,
+    "zoomEnd": 1,
+    "focusStart": [
+      0.5,
+      0.5
+    ],
+    "focusEnd": [
+      0.5,
+      0.5
+    ]
+  },
+  "motionReviewNote": "Slip source one second earlier (0\u201378 vs24\u2013102) to reduce late wide-view hair drift. Music cut remains559\u2013637. Uses all opening handle; no pre-roll available. Does not fully correct rendering drift; retain original source for comparison."
+}

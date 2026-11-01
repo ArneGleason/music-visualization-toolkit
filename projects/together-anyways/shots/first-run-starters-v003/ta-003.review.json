@@ -1,0 +1,24 @@
+{
+  "shotId": "ta-003",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/environment-development/first-run-v001/market-approach-v001.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "visibleResult": "Medium two-shot, Harper beginning low cue, Taffy rounded torso/full cheeks/large ears reading clearly, matching costumes, market tanks behind.",
+  "caveats": [
+    "Far cheek scar pattern partially obscured by angle.",
+    "Still image does not validate planned motion."
+  ],
+  "status": "starter_for_review",
+  "output": "generated/storyboard/first-run-starters-v003/ta-003.png",
+  "promptFile": "shots/first-run-starters-v003/ta-003.prompt.txt",
+  "promptLockVerifiedExact": true,
+  "referenceFrameMode": "source_start_with_1sec_in_handle"
+}

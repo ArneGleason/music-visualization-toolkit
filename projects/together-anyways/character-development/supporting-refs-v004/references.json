@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "status": "silhouette_and_height_proposals_pending_review",
+  "generation": "built-in ImageGen; six individual identity-preserving edits",
+  "heightRegister": "character-development/supporting-refs-v004/height-register.json",
+  "review": "generated/character-development/supporting-refs-v004/review/cast-board.html",
+  "comparison": "generated/character-development/supporting-refs-v004/review/comparison-board.html",
+  "lineup": "generated/character-development/supporting-refs-v004/cast-lineup.png",
+  "characters": [
+    {
+      "id": "A1",
+      "name": "The Shade Stitcher",
+      "heightCm": 190,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v003/A1-shade-stitcher-v002.png",
+      "image": "generated/character-development/supporting-refs-v004/A1-silhouette-v004.png",
+      "revised": true,
+      "change": "Very tall angular silhouette, long torso and narrow apron; upright battens.",
+      "crownY": 0.042,
+      "groundY": 0.965,
+      "poseFactor": 1,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-A1-v002",
+      "priorBiologyNotes": "Best of two exact-prompt attempts selected for identity/wardrobe retention and clear opposing rope grip. Full figure, age, props and graphic-novel rendering retained. Hand pose changes are visible, but each thumb branching into TWO terminal tips with a single root is NOT unambiguously resolved; it can still read as ordinary thumb/index opposition. Friction ridges also remain too fine to confirm at full-body scale. Record adaptation as unresolved rather than claim deliberate mirrored anatomy achieved. No further retries in this task.",
+      "reviewNotes": [
+        "Twin-thumb biology remains unresolved; do not claim verified anatomy",
+        "Rope extends beyond top edge as in source",
+        "Crown and sole landmarks are approximate illustration registration points, not measured anatomy"
+      ]
+    },
+    {
+      "id": "A3",
+      "name": "The Scrap Appraiser",
+      "heightCm": 137,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v002/A3-scrap-appraiser-v002.png",
+      "image": "generated/character-development/supporting-refs-v002/A3-scrap-appraiser-v002.png",
+      "revised": false,
+      "change": "Existing artwork retained; proposed height reference added.",
+      "crownY": 0.035,
+      "groundY": 0.97,
+      "poseFactor": 0.91,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-A3-v002",
+      "priorBiologyNotes": "Role, age, stooped silhouette, pocket tabard, trousers/shoes, fitting and magnifier preserved. Magnifier lowered away from large eye. The precision eye is strongly exaggerated but integrated with living skin; no hardware or wound. Full head/hands/feet framed, one person. Concentric focusing-ring detail is subtle at full-body scale."
+    },
+    {
+      "id": "A6",
+      "name": "The Quiet Stallholder",
+      "heightCm": 148,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v002/A6-quiet-stallholder-v002.png",
+      "image": "generated/character-development/supporting-refs-v004/A6-silhouette-v004.png",
+      "revised": true,
+      "change": "Short, substantially fuller body, broad skirt and four-arm wrap; low gathered curls.",
+      "crownY": 0.055,
+      "groundY": 0.94,
+      "poseFactor": 1,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-A6-v002",
+      "priorBiologyNotes": "Mature identity, watchful mood, dark hair, clay-pink top, charcoal skirt, trading stand and footwear strongly preserved. Four-arm adaptation clear at glance, no mechanical parts, no duplicate torso/head. Lower arm girdle implied under garment at waist/lower ribs; precise skeletal attachment would need turnaround if selected. Secondary eye/pupil and skin-marbling changes are not clearly resolved at full-body scale; main biological role adaptation succeeds. Full head/hands/feet visible.",
+      "reviewNotes": [
+        "Body fullness increased moderately; wide skirt supplies strongest silhouette distinction",
+        "Trading table partly cropped at left",
+        "Eye biology not independently resolved at reference scale",
+        "Crown and sole landmarks approximate illustration registration points, not measured anatomy"
+      ]
+    },
+    {
+      "id": "B1",
+      "name": "Doorpost",
+      "heightCm": 211,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+      "image": "generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+      "revised": false,
+      "change": "Existing artwork retained; proposed height reference added.",
+      "crownY": 0.015,
+      "groundY": 0.975,
+      "poseFactor": 1,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-B1-v001",
+      "priorBiologyNotes": "One imposing broad wedge-shaped adult humanoid, empty hands, thick repaired work boots, charcoal coat and one large blue-gray shoulder pad clear, full figure framed. Head/skin are more pebbled and heavy-browed than the requested smooth gray-olive biology, leaning toward broker-family/ape-like geometry. This is an unapproved species design caveat for review, not a locked identity. No weapon, text, extra character or panel."
+    },
+    {
+      "id": "B4",
+      "name": "Fast Coat",
+      "heightCm": 181,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png",
+      "image": "generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png",
+      "revised": false,
+      "change": "Existing artwork retained; proposed height reference added.",
+      "crownY": 0.035,
+      "groundY": 0.97,
+      "poseFactor": 0.98,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-B4-v002",
+      "priorBiologyNotes": "One short smooth taupe muscular tail curves behind the hips with a shallow upturn, distinct from both long cloth coat tails. Root appears behind pelvic/coat region rather than between legs, but exact sacral insertion remains hidden by garment and needs a rear-view continuity check if chosen. Face, stance, two arms/legs and boots retained. No powers, implants or added decoration. Clear integrated biological proposal."
+    },
+    {
+      "id": "B5",
+      "name": "Stillwater",
+      "heightCm": 166,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v003/B5-stillwater-v001-take02.png",
+      "image": "generated/character-development/supporting-refs-v003/B5-stillwater-v001-take02.png",
+      "revised": false,
+      "change": "Existing artwork retained; proposed height reference added.",
+      "crownY": 0.035,
+      "groundY": 0.97,
+      "poseFactor": 1,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-B5-v001",
+      "priorBiologyNotes": "Second take is chosen as stronger than first for side-eye extension; clothing/identity/props closely retained. However main requested low three-dimensional lateral ocular bulge is still restrained/weak: reads mainly as an extended eye surface/eyelid, not a clearly rounded wraparound orbital cup. Divided pupil unresolved. Flag for user/root review rather than claiming fully achieved anatomy. Two attempts exhausted; no third generation performed."
+    },
+    {
+      "id": "B6",
+      "name": "Valve Hand",
+      "heightCm": 160,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v003/B6-valve-hand-v002.png",
+      "image": "generated/character-development/supporting-refs-v003/B6-valve-hand-v002.png",
+      "revised": false,
+      "change": "Existing artwork retained; proposed height reference added.",
+      "crownY": 0.08,
+      "groundY": 0.95,
+      "poseFactor": 0.97,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-B6-v002",
+      "priorBiologyNotes": "Cup-moving hand and forearm now visibly bare, with connected matte rounded copper-tan scutes across knuckles/back of hand continuing into forearm skin. Normal joints, creases and nail edges distinguish it from remaining padded glove at valve handle. Removed glove tucked into apron. Original adult identity, build, clothing and pump/cup pose retained. Healthy organic material, no artificial hardware or graphic injury. Heat tolerance is fictional intended function, not visually proven."
+    },
+    {
+      "id": "C1",
+      "name": "The Pipe Fitter",
+      "heightCm": 158,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v003/C1-pipe-fitter-v002.png",
+      "image": "generated/character-development/supporting-refs-v004/C1-silhouette-v004.png",
+      "revised": true,
+      "change": "Short stocky muscular build; blue bib workwear and exposed neck folds.",
+      "crownY": 0.025,
+      "groundY": 0.966,
+      "poseFactor": 1,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-C1-v002",
+      "priorBiologyNotes": "Face, tied hair, pressure gauge, glove, outfit, stool and pose closely preserved.; Neck structures have smooth healthy closed edges, not wounds or implanted hoses.; Far-side pair is occluded by head/collar angle; nostril closing rims are not clearly distinguishable. Do not claim bilateral anatomy visually verified from this view.; Single fully framed adult; no text or extra characters.",
+      "reviewNotes": [
+        "Legs remain relatively long in individual framing; assigned height requires shared-scale presentation",
+        "Neck remains comparatively slender rather than strongly thickened",
+        "Far-side neck folds remain occluded; breath reserve and nostril function not verified"
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "The Pressure Warden",
+      "heightCm": 174,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v002/C4-pressure-warden-v002.png",
+      "image": "generated/character-development/supporting-refs-v002/C4-pressure-warden-v002.png",
+      "revised": false,
+      "change": "Existing artwork retained; proposed height reference added.",
+      "crownY": 0.035,
+      "groundY": 0.97,
+      "poseFactor": 1,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-C4-v002",
+      "priorBiologyNotes": "Selected second attempt. Visible ear replaced by a large oval living rimmed membrane with concentric organic folds, no hardware, screws or glow. Checking hand has broad contact pads and conspicuous fine dermal ridges, resting against latch top instead of gripping. Body, cape, board, work pose and salt-and-pepper hair/beard retained. Head remains fairly human and skin stays warmer brown than specified slate/tan; broad/low skull shift is subtle. Ear membrane is prominent rather than deeply recessed. Healthy non-graphic result. First attempt had weaker sensing pads; no further retries permitted in this task."
+    },
+    {
+      "id": "C6",
+      "name": "The Scrap Sweeper",
+      "heightCm": 183,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v003/C6-scrap-sweeper-v002.png",
+      "image": "generated/character-development/supporting-refs-v004/C6-silhouette-v004.png",
+      "revised": true,
+      "change": "Lanky narrow silhouette, asymmetrical long garment panels and listening posture.",
+      "crownY": 0.055,
+      "groundY": 0.903,
+      "poseFactor": 0.98,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-C6-v002",
+      "priorBiologyNotes": "Original wiry worker, expression, clothing, pole and scrap sled closely retained.; Second attempt resolves the first attempt's unwanted branching/three visible receptive tips.; Filament roots have rounded skin-pad bases that can look somewhat ring-like at full-body scale; close-up should keep them biological. No visible metal fittings or field effects.; Single fully framed adult and occupational props.",
+      "reviewNotes": [
+        "Long panel extends below calf to near ankle, exceeding requested calf length but strengthening distinctive silhouette.",
+        "Head remains slightly tilted; height is an assigned design specification, with approximate visual calibration rather than a measurement.",
+        "Use front boot sole as ground, not magnetic collector or scattered scrap lower in the image.",
+        "Cheek filament roots retain source's somewhat ring-like bases, but no added mechanical fittings."
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "The Pass Clerk",
+      "heightCm": 154,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v003/D2-pass-clerk-v002.png",
+      "image": "generated/character-development/supporting-refs-v003/D2-pass-clerk-v002.png",
+      "revised": false,
+      "change": "Existing artwork retained; proposed height reference added.",
+      "crownY": 0.05,
+      "groundY": 0.97,
+      "poseFactor": 1,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-D2-v002",
+      "priorBiologyNotes": "Original composed mouth, round helmet, smock, permits, stylus, desk and full-body pose closely retained.; Four-eye count clear on inspection, no forehead eyes, third row, implants, glow or printed marks.; Lower pair is visibly secondary but independent downward focus on the permits is not unambiguously demonstrated in this still. Treat that gaze behavior as intended capability rather than verified action.; Single full-length adult, complete tools/desk and feet framed."
+    },
+    {
+      "id": "D3",
+      "name": "The Relay Electrician",
+      "heightCm": 151,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v003/D3-relay-electrician-v002.png",
+      "image": "generated/character-development/supporting-refs-v004/D3-silhouette-v004.png",
+      "revised": true,
+      "change": "Short broad torso and sturdy legs; cropped cape and wider lower garment.",
+      "crownY": 0.041,
+      "groundY": 0.952,
+      "poseFactor": 1,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-D3-v002",
+      "priorBiologyNotes": "Older silver-haired electrician's face, pose, clothing, cables, tester/display and full framing closely retained. Biological wrist/finger differences are readable but restrained; thumb pad partly hidden by grip and horizontal iris detail not resolved. Normal two arms/five-fingered hands; suitable subtle first revision.",
+      "reviewNotes": [
+        "Clothing produces the strongest width change; underlying torso remains moderately lean rather than markedly broad",
+        "Rolled-looking short sleeve remains despite request for simple underlayer",
+        "Thumb contact pad partly obscured; sensory function and iris detail unverified"
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "The Port Messenger",
+      "heightCm": 178,
+      "heightStatus": "proposed_pending_review",
+      "source": "generated/character-development/supporting-refs-v002/D6-port-messenger-v002.png",
+      "image": "generated/character-development/supporting-refs-v004/D6-silhouette-v004.png",
+      "revised": true,
+      "change": "Long digitigrade legs, short torso and streamlined blue-gray upper garment.",
+      "crownY": 0.03,
+      "groundY": 0.952,
+      "poseFactor": 1,
+      "calibration": "Manual visual estimate; design scale, not a measured anatomical turnaround.",
+      "priorReferenceId": "support-D6-v002",
+      "priorBiologyNotes": "Single full-body adult, face/hair/tube and blue-gray outfit closely preserved; no extra characters, labels or mechanical limbs.; Knees remain at garment/thigh-shin junction; raised bulges farther down read as heel/hock anatomy rather than an extra reversed knee.; Secondary wind-protective eye membrane and nasal-valve detail are too subtle to confidently verify at this scale; do not describe them as confirmed visible traits.; Feet, head and tube remain fully within frame; primary leg modification succeeds.",
+      "reviewNotes": [
+        "Secondary eye membrane and nasal valves remain too small to verify and are not claimed visible.",
+        "Crown is estimated beneath gathered hair; height is proposed design metadata, not inferred from pixels.",
+        "Waist belt remains, but the overall garment construction is visibly simplified and distinct."
+      ]
+    }
+  ],
+  "reviews": {
+    "A1": {
+      "candidateId": "A1",
+      "source": "generated/character-development/supporting-refs-v003/A1-shade-stitcher-v002.png",
+      "output": "generated/character-development/supporting-refs-v004/A1-silhouette-v004.png",
+      "heightCm": 190,
+      "heightStatus": "proposed creative reference",
+      "crownY": 0.042,
+      "groundY": 0.965,
+      "visibleTraits": [
+        "Very narrow long apron and lean elongated silhouette",
+        "Upright batten bundle, teal roll, rope and pegs retained",
+        "Same mature face, gray hair/headband and palette"
+      ],
+      "caveats": [
+        "Twin-thumb biology remains unresolved; do not claim verified anatomy",
+        "Rope extends beyond top edge as in source",
+        "Crown and sole landmarks are approximate illustration registration points, not measured anatomy"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "promptFile": "character-development/supporting-refs-v004/A1.prompt.txt",
+      "status": "silhouette_proposal_for_review",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    "A6": {
+      "candidateId": "A6",
+      "source": "generated/character-development/supporting-refs-v002/A6-quiet-stallholder-v002.png",
+      "output": "generated/character-development/supporting-refs-v004/A6-silhouette-v004.png",
+      "heightCm": 148,
+      "heightStatus": "proposed creative reference",
+      "crownY": 0.055,
+      "groundY": 0.94,
+      "visibleTraits": [
+        "Four organic arms each clearly readable and garment accommodated",
+        "Broader waist and upper body, wide charcoal skirt, rounded shoulders",
+        "Low gathered dark curls, same mature watchful face and clay-pink palette",
+        "Body visible beside stand instead of hidden behind counter"
+      ],
+      "caveats": [
+        "Body fullness increased moderately; wide skirt supplies strongest silhouette distinction",
+        "Trading table partly cropped at left",
+        "Eye biology not independently resolved at reference scale",
+        "Crown and sole landmarks approximate illustration registration points, not measured anatomy"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "promptFile": "character-development/supporting-refs-v004/A6.prompt.txt",
+      "status": "silhouette_proposal_for_review",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    "C1": {
+      "candidateId": "C1",
+      "source": "generated/character-development/supporting-refs-v003/C1-pipe-fitter-v002.png",
+      "output": "generated/character-development/supporting-refs-v004/C1-silhouette-v004.png",
+      "heightCm": 158,
+      "status": "silhouette_proposal_for_review",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "visibleChanges": [
+        "Broader shoulders, substantial muscular exposed upper arm and forearm, stronger torso",
+        "Blue-gray bib work overalls and ochre short-sleeve underlayer replace belted shirt",
+        "Same recognizable freckled face and dark tied curls, gauge and long protective glove",
+        "Near-side pair of smooth organic neck lamellae remains clearly visible"
+      ],
+      "caveats": [
+        "Legs remain relatively long in individual framing; assigned height requires shared-scale presentation",
+        "Neck remains comparatively slender rather than strongly thickened",
+        "Far-side neck folds remain occluded; breath reserve and nostril function not verified"
+      ],
+      "crownY": 0.025,
+      "groundY": 0.966,
+      "landmarkNotes": "Approximate scalp crown under hair; bottom of forward shoe sole. Back foot sits slightly higher due to perspective. Proposed standing height excludes hair; boot sole thickness cannot be exactly subtracted from this artwork."
+    },
+    "C6": {
+      "candidateId": "C6",
+      "name": "The Scrap Sweeper",
+      "heightCm": 183,
+      "crownY": 0.055,
+      "groundY": 0.903,
+      "sourceImage": "generated/character-development/supporting-refs-v003/C6-scrap-sweeper-v002.png",
+      "outputImage": "generated/character-development/supporting-refs-v004/C6-silhouette-v004.png",
+      "promptFile": "character-development/supporting-refs-v004/C6.prompt.txt",
+      "changesActuallyVisible": [
+        "Clearly narrow lanky build and elongated limb silhouette.",
+        "Long asymmetrical dun/rust garment panels replace blouse/trouser emphasis; narrow trousers remain.",
+        "Same recognizable face, coarse curls, two short organic cheek filaments and listening gesture.",
+        "Magnetic collecting pole and bundled scrap sled retained."
+      ],
+      "caveats": [
+        "Long panel extends below calf to near ankle, exceeding requested calf length but strengthening distinctive silhouette.",
+        "Head remains slightly tilted; height is an assigned design specification, with approximate visual calibration rather than a measurement.",
+        "Use front boot sole as ground, not magnetic collector or scattered scrap lower in the image.",
+        "Cheek filament roots retain source's somewhat ring-like bases, but no added mechanical fittings."
+      ],
+      "status": "silhouette_and_height_proposal_for_review",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "calibration": {
+        "coordinateSystem": "normalized image Y from top; anatomical crown excludes hair, ground is footwear sole contact",
+        "crownY": 0.055,
+        "groundY": 0.903,
+        "approximate": true
+      },
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    "D3": {
+      "candidateId": "D3",
+      "source": "generated/character-development/supporting-refs-v003/D3-relay-electrician-v002.png",
+      "output": "generated/character-development/supporting-refs-v004/D3-silhouette-v004.png",
+      "heightCm": 151,
+      "status": "silhouette_proposal_for_review",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "visibleChanges": [
+        "Broad cropped trouser silhouette with large patch pockets and exposed lower shins",
+        "Cropped smoke-blue cape, low shoes and shirt without prominent waist belt",
+        "Same older angular face, brown skin and silver curls",
+        "Organic wrist scale patch and fingertip pad texture retained beside tester and cables"
+      ],
+      "caveats": [
+        "Clothing produces the strongest width change; underlying torso remains moderately lean rather than markedly broad",
+        "Rolled-looking short sleeve remains despite request for simple underlayer",
+        "Thumb contact pad partly obscured; sensory function and iris detail unverified"
+      ],
+      "crownY": 0.041,
+      "groundY": 0.952,
+      "landmarkNotes": "Approximate scalp crown beneath curls; bottom of forward shoe sole. Perspective puts rear sole slightly higher. Proposed height excludes hair; exact barefoot measurement is not inferable from artwork."
+    },
+    "D6": {
+      "candidateId": "D6",
+      "name": "The Port Messenger",
+      "heightCm": 178,
+      "crownY": 0.03,
+      "groundY": 0.952,
+      "sourceImage": "generated/character-development/supporting-refs-v002/D6-port-messenger-v002.png",
+      "outputImage": "generated/character-development/supporting-refs-v004/D6-silhouette-v004.png",
+      "promptFile": "character-development/supporting-refs-v004/D6.prompt.txt",
+      "changesActuallyVisible": [
+        "Sleeveless blue-gray cross-wrap travel top and small shoulder drape replace rolled white sleeves and long tabard.",
+        "Shorter torso garment and long exposed digitigrade legs produce clear runner silhouette.",
+        "Same face, gathered hair, skin palette and single delivery tube preserved.",
+        "Both raised hocks, living tendon structures and strapped divided toe caps retained; both feet grounded."
+      ],
+      "caveats": [
+        "Secondary eye membrane and nasal valves remain too small to verify and are not claimed visible.",
+        "Crown is estimated beneath gathered hair; height is proposed design metadata, not inferred from pixels.",
+        "Waist belt remains, but the overall garment construction is visibly simplified and distinct."
+      ],
+      "status": "silhouette_and_height_proposal_for_review",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "calibration": {
+        "coordinateSystem": "normalized image Y from top; anatomical crown excludes hair, ground is footwear sole contact",
+        "crownY": 0.03,
+        "groundY": 0.952,
+        "approximate": true
+      },
+      "dimensions": [
+        1086,
+        1448
+      ]
+    }
+  },
+  "unresolvedBiology": [
+    "A1 twin-thumb anatomy remains unresolved",
+    "B5 lateral ocular shape remains understated; divided pupil unresolved"
+  ]
+}

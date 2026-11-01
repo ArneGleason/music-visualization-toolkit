@@ -1,0 +1,29 @@
+{
+  "candidateId": "BROKER",
+  "name": "Water Broker / Racketeer with Shoulder Lookout",
+  "source": "../desert-colony/generated/scene-development/diversion-theft-v005.png",
+  "output": "generated/character-development/core-threat-refs-v001/BROKER.png",
+  "heightCm": 198,
+  "heightStatus": "proposed standing design height excluding lookout",
+  "lookoutScale": "Approximately 30 cm crouched perch/body height in prompt; not established independent standing height",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "status": "standing_reference_proposal_for_review",
+  "visible": [
+    "One full-body upright powerful broker with complete feet and two normally attached arms",
+    "Recognizable ridged skull, folded face, matte ash-gray living skin, pushed-up glasses and red iris",
+    "Cream linen and indigo vest, rings and brown shoes retained",
+    "Exactly one stone-teal shoulder lookout with amber eye, listening frills and curled tail",
+    "Asymmetric horseshoe key with ivory grip and one red inset seated in belt holster"
+  ],
+  "caveats": [
+    "Broker now standing; hidden torso/garment construction reconstructed from seated scene and needs user review",
+    "Red iris reads bright but no emitted light or red spill; black pupil detail limited at full-body scale",
+    "Lookout has both front paws and near hind foot visible, far hind foot occluded rather than independently verified",
+    "Key now seated in holster as a pre-theft reference; scene source shows it already stolen, and holster obscures lower key geometry",
+    "Proposed height and approximate crown/sole calibration are design metadata, not measured from original scene"
+  ],
+  "crownY": 0.021,
+  "groundY": 0.973,
+  "landmarkNotes": "Crown is top of broker's biological skull ridge, not glasses or lookout; ground is lowest right-side shoe sole. Foot perspective makes opposite sole higher."
+}

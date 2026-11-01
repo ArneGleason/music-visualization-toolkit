@@ -1,0 +1,46 @@
+{
+  "batch": "door-grip-v009",
+  "status": "review_pending",
+  "totalShots": 29,
+  "newOrRevised": 2,
+  "reviews": [
+    {
+      "shotId": "ta-020",
+      "status": "ready_for_review",
+      "image": "generated/storyboard/door-grip-v009/ta-020.png",
+      "prompt": "shots/door-grip-v009/ta-020.prompt.txt",
+      "tool": "built-in image_gen",
+      "attempts": 1,
+      "review": {
+        "anatomy": "Original palm-facing-camera LEFT hand restored: thumb on image-left side, four curled fingers staggered on right, palm then wrist continuous with raised left forearm. No reversed overhand fist. On tight021 all five digits discernible. Root independently checked020 before021.",
+        "receiver": "Bronze backward-C recessed receiver retained on stone jamb; no flat panel. Same proportions and mounting motif as original shots.",
+        "proximity": "Visible air gap between casing and receiver, device not inserted or touching.",
+        "composition": "Original medium two-shot retained in020;021 tightly excludes head and face, showing hand, wrist, credential and receiver only.",
+        "effects": "Green geometric glyph/status strip along right receiver edge; upper indicators lit and lower dots dark, early handshake state. Full sequence reserved for future motion.",
+        "caveats": [
+          "Green glyph strip is more legible/brighter in021 due to insert scale; exact display content differs from020 and should evolve during the handshake.",
+          "Perimeter light animation is a future-motion requirement; these stills mostly depict right-edge indicator feedback."
+        ]
+      }
+    },
+    {
+      "shotId": "ta-021",
+      "status": "ready_for_review",
+      "image": "generated/storyboard/door-grip-v009/ta-021.png",
+      "prompt": "shots/door-grip-v009/ta-021.prompt.txt",
+      "tool": "built-in image_gen",
+      "attempts": 1,
+      "review": {
+        "anatomy": "Original palm-facing-camera LEFT hand restored: thumb on image-left side, four curled fingers staggered on right, palm then wrist continuous with raised left forearm. No reversed overhand fist. On tight021 all five digits discernible. Root independently checked020 before021.",
+        "receiver": "Bronze backward-C recessed receiver retained on stone jamb; no flat panel. Same proportions and mounting motif as original shots.",
+        "proximity": "Visible air gap between casing and receiver, device not inserted or touching.",
+        "composition": "Original medium two-shot retained in020;021 tightly excludes head and face, showing hand, wrist, credential and receiver only.",
+        "effects": "Green geometric glyph/status strip along right receiver edge; upper indicators lit and lower dots dark, early handshake state. Full sequence reserved for future motion.",
+        "caveats": [
+          "Green glyph strip is more legible/brighter in021 due to insert scale; exact display content differs from020 and should evolve during the handshake.",
+          "Perimeter light animation is a future-motion requirement; these stills mostly depict right-edge indicator feedback."
+        ]
+      }
+    }
+  ]
+}

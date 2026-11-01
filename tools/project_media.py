@@ -5,6 +5,7 @@ Restore refuses conflicting local edits before writing anything. Use a new tag
 for each handoff, so an older checkout can always restore its matching snapshot.
 """
 import argparse
+from fnmatch import fnmatchcase
 import hashlib
 import json
 from pathlib import Path, PurePosixPath
@@ -41,8 +42,12 @@ def pack(manifest_path, spec, tag):
         folder = target(ROOT, name)
         if not folder.is_dir():
             raise ValueError(f'Missing media directory: {name}')
-        names.update(p.relative_to(ROOT).as_posix() for p in folder.rglob('*')
-                     if p.is_file() and '__pycache__' not in p.parts)
+        for path in folder.rglob('*'):
+            name = path.relative_to(ROOT).as_posix()
+            if (path.is_file() and '__pycache__' not in path.parts
+                    and not any(fnmatchcase(name, pattern)
+                                for pattern in spec.get('exclude', []))):
+                names.add(name)
     archive = ROOT / 'out' / 'transfer' / f'{tag}.zip'
     archive.parent.mkdir(parents=True, exist_ok=True)
     if archive.exists():

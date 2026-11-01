@@ -1,0 +1,23 @@
+{
+  "shotId": "ta-019",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/environment-development/first-run-v001/access-relay-hall-v001.png",
+    "generated/character-development/supporting-refs-v004/D3-silhouette-v004.png",
+    "generated/character-development/supporting-refs-v004/D6-silhouette-v004.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "visibleResult": "Closed blue door with low left jamb reader, leads outside, Electrician at blank screen and Messenger visible through right-leaf window.",
+  "caveats": [
+    "Window appears clear; glazing is not strongly reflective but there is no open door route.",
+    "Messenger lower-body biology occluded by window framing."
+  ],
+  "outputImage": "generated/storyboard/first-run-starters-v003/ta-019.png",
+  "status": "starter_proposal_for_review"
+}

@@ -1,0 +1,183 @@
+{
+  "scope": "All25 adjacent transitions in current26-shot selected sequence, source selection snapshotted separately",
+  "method": "Read-only visual review of selected starter frames. This compares static starts, not animated outgoing endpoints; no claim that an actual motion cut has been evaluated.",
+  "summary": "One high-confidence problematic pose reset ta014c→ta015, already assigned repair. No additional unambiguous immediate-cut pose-copy defect.",
+  "secondaryObservation": "ta002→ta003 repeats rightward scanning but changes hand cue/crop; watch in motion rather than automatically regenerate. ta006→ta007 is an acceptable wide/blocking change. Close key and reaction coverage is purposeful.",
+  "transitions": [
+    {
+      "from": "ta-001",
+      "to": "ta-002",
+      "assessment": "clear",
+      "evidence": "Establishing workers to hidden leads; no repeated lead pose.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-002",
+      "to": "ta-003",
+      "assessment": "watch_not_defect",
+      "evidence": "Both leads scan right, Harper retains similar head inclination; shot3 changes crop and adds low hand signal, Taffy strap grip and gaze change.",
+      "recommendation": "Review in motion; no regeneration justified by stills"
+    },
+    {
+      "from": "ta-003",
+      "to": "ta-004",
+      "assessment": "clear",
+      "evidence": "Frontal three-quarter planning changes to rear/side screen inspection.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-004",
+      "to": "ta-005",
+      "assessment": "clear",
+      "evidence": "Children looking at information cuts to target-group view; no duplicated lead pose.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-005",
+      "to": "ta-006",
+      "assessment": "clear",
+      "evidence": "Target group cuts to intimate lead mutual glance.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-006",
+      "to": "ta-007",
+      "assessment": "intentional_scale_and_blocking_change",
+      "evidence": "Close seated/crouched mutual look changes to wide standing separation; Harper moves toward lane and Taffy holds curtain. Similar facial identity is not a pasted full pose.",
+      "recommendation": "Retain per user distinction; avoid overflagging"
+    },
+    {
+      "from": "ta-007",
+      "to": "ta-008",
+      "assessment": "clear",
+      "evidence": "Wide separation changes to Harper rear shoulder with Taffy distant behind tank.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-008",
+      "to": "ta-009",
+      "assessment": "clear",
+      "evidence": "Lead approach cuts away to enforcers.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-009",
+      "to": "ta-010",
+      "assessment": "clear",
+      "evidence": "Enforcers cut to Harper hand flourish beside broker; different action.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-010",
+      "to": "ta-011",
+      "assessment": "intentional_action_and_scale_change",
+      "evidence": "Harper poised covering hand/bright jewel changes to single presentation palm/dull jewel; broker chin rest changes to dismissive palm. Close view reinforces failure beat.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-011",
+      "to": "ta-012",
+      "assessment": "intentional_insert",
+      "evidence": "Dismissal cuts to broker belt and reaching Taffy hand.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-012",
+      "to": "ta-013",
+      "assessment": "intentional_action_progression",
+      "evidence": "Key seated/hand approaching changes to key in Taffy grip outside lifted wrap, waist framing shifts.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-013",
+      "to": "ta-014",
+      "assessment": "clear",
+      "evidence": "Taffy waist insert cuts to Harper shrug/pocketing jewel; different lead/action.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-014",
+      "to": "ta-014b",
+      "assessment": "clear",
+      "evidence": "Harper shrug cuts to broker command; no repeated lead pose.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-014b",
+      "to": "ta-014c",
+      "assessment": "clear",
+      "evidence": "Boss pointing cuts to Harper low dodge/Fast Coat reach.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-014c",
+      "to": "ta-015",
+      "assessment": "high_confidence_pose_reset",
+      "evidence": "Harper stays left of frame with body angled left and face turned back over right shoulder in both. Her trailing arm low beside satchel and forward-left escape line repeat; background and opposing enforcer change while her characteristic head tilt/body diagonal feel re-staged. The second image resets escape readiness instead of advancing it.",
+      "recommendation": "Already assigned repair: ta015 should progress Harper beyond duck into distinct lower/forward escape phase or clearly changed camera; keep left direction and identity"
+    },
+    {
+      "from": "ta-015",
+      "to": "ta-016",
+      "assessment": "clear",
+      "evidence": "Harper escape cuts to Taffy high route and worker; no same lead.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-016",
+      "to": "ta-017",
+      "assessment": "intentional_scale_and_eyeline_change",
+      "evidence": "Taffy above railing leaning forward changes to standing full body at stair top with key glimpse; Harper low foreground enters.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-017",
+      "to": "ta-018",
+      "assessment": "clear",
+      "evidence": "Vertical separated eyeline becomes side-by-side relaxed walking reunion; arms/height positions and expressions differ.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-018",
+      "to": "ta-019",
+      "assessment": "clear",
+      "evidence": "Front walking reunion changes to rear three-quarter pause at shut blue door.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-019",
+      "to": "ta-020",
+      "assessment": "intentional_camera_and_action_change",
+      "evidence": "Rear full pair outside door changes to closer three-quarter Taffy studying key; Harper looks outward.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-020",
+      "to": "ta-021",
+      "assessment": "intentional_insert",
+      "evidence": "Same raised key action continues at tighter scale to explain asymmetric fit; repetition is purposeful object coverage, not changed-scene pose copying.",
+      "recommendation": "Retain; later motion should advance orientation"
+    },
+    {
+      "from": "ta-021",
+      "to": "ta-022",
+      "assessment": "clear",
+      "evidence": "Key insert cuts to wide rear walking across opened threshold.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-022",
+      "to": "ta-023",
+      "assessment": "clear",
+      "evidence": "Rear threshold crossing changes to frontal interior halt and upward screen attention; no pasted pose.",
+      "recommendation": "Retain"
+    },
+    {
+      "from": "ta-023",
+      "to": "ta-024",
+      "assessment": "intentional_reaction_insert",
+      "evidence": "Medium-wide upward screen look changes to close sideways mutual glance. Taffy retains both sack-strap grips, but gaze, crop and emotional beat change; Harper head turn changes substantially.",
+      "recommendation": "Retain, not an additional defect"
+    }
+  ]
+}

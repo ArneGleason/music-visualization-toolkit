@@ -5,13 +5,34 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 import zipfile
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'tools'))
-from project_media import digest, restore, target
+from project_media import digest, pack, restore, target
 
 
 class MediaRestoreTests(unittest.TestCase):
+    def test_filtered_snapshot_restores_artwork_without_video_cache(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            folder = root / 'projects/demo/generated'
+            (folder / 'ta-001-frames').mkdir(parents=True)
+            for name in ['starter.png', 'clip.mp4', 'ta-001-frames/00000.png']:
+                (folder / name).write_bytes(b'example media')
+            spec = {'repository': 'owner/repo',
+                    'roots': ['projects/demo/generated'],
+                    'exclude': ['*.mp4', '*/ta-*-frames/*']}
+            with patch('project_media.ROOT', root):
+                pack(root / 'manifest.json', spec, 'filtered-test')
+            self.assertEqual([e['path'] for e in spec['files']],
+                             ['projects/demo/generated/starter.png'])
+            checkout = root / 'restored'
+            checkout.mkdir()
+            restore(checkout, spec, root / 'out/transfer/filtered-test.zip')
+            self.assertTrue((checkout / spec['files'][0]['path']).exists())
+            self.assertFalse((checkout / 'projects/demo/generated/clip.mp4').exists())
+
     def fixture(self, root, name='projects/demo/generated/frame.png'):
         archive = root / 'media.zip'
         data = b'original media'

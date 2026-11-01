@@ -1,0 +1,27 @@
+{
+  "shotId": "ta-012",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sourceReferences": [
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/taffy-front-back-v006.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/BROKER.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/desert-colony/generated/scene-development/diversion-theft-v005.png"
+  ],
+  "output": "generated/storyboard/first-run-starters-v003/ta-012.png",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "status": "review_needed",
+  "visible": [
+    "Key still seated on broker belt with ivory grip/red inset, Taffy hand just approaching",
+    "Plum wrap rope and sack confirm current costume",
+    "Single lookout partially visible at crop top"
+  ],
+  "caveats": [
+    "Two belt buckles visible on broker; costume construction varies",
+    "Taffy head intentionally out of insert, physique partly cropped",
+    "Lower key geometry obscured by holster as expected"
+  ]
+}

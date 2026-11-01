@@ -1,0 +1,28 @@
+{
+  "shotId": "ta-010",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sourceReferences": [
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/BROKER.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/desert-colony/generated/scene-development/diversion-theft-v005.png"
+  ],
+  "output": "generated/storyboard/first-run-starters-v003/ta-010.png",
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "status": "review_needed",
+  "visible": [
+    "Harper alone facing seated broker in medium frame",
+    "Jewel supported by hand; key correctly on broker belt",
+    "Established faces and costume recognizable",
+    "Exactly one lookout restored on broker shoulder"
+  ],
+  "caveats": [
+    "Jewel fully displayed rather than only initial glimpse; hold precedes next action"
+  ],
+  "selectedPrompt": "shots/first-run-starters-v003/ta-010.take02.prompt.txt",
+  "correction": "Restored missing shoulder lookout preserving composition and key ownership"
+}

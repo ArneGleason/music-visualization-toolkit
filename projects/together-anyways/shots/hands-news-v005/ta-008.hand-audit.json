@@ -1,0 +1,30 @@
+{
+  "shotId": "ta-008",
+  "originalPath": "generated/storyboard/first-run-starters-v003/ta-008.png",
+  "status": "clear",
+  "findings": "Broker prominent resting hand shows four fingers and thumb with rings, no surplus digits. Opposite resting hand partly hidden by lap and sleeve. Harper hand near bottom edge out of frame; Taffy hand behind pipe.",
+  "countCertainty": "High visible broker hand, low occluded others",
+  "repair": {
+    "needed": false,
+    "reason": "No clear digit defect distinguishable from normal overlap/occlusion. Preserve selected art.",
+    "generationAttempts": 0
+  },
+  "evidence": {
+    "method": "Original image inspection and 2x enlarged inspection-only crops, no generative enhancement",
+    "cropBoxesPx": [
+      [
+        890,
+        440,
+        1110,
+        620
+      ],
+      [
+        1450,
+        505,
+        1545,
+        580
+      ]
+    ]
+  },
+  "standard": "Four fingers plus one thumb; preserve deliberate biological adaptations. clear means no issue in assessable hands, not certification of occluded digits."
+}

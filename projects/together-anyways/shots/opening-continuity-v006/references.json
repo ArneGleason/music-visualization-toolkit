@@ -1,0 +1,87 @@
+{
+  "batch": "opening-continuity-v006",
+  "status": "review_pending",
+  "totalShots": 27,
+  "newOrRevised": 2,
+  "reviews": [
+    {
+      "shotId": "ta-000",
+      "output": "generated/storyboard/opening-continuity-v006/ta-000.png",
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selectedPrompt": "shots/opening-continuity-v006/ta-000.take2.prompt.txt",
+      "sources": [
+        "generated/environment-development/first-run-v001/market-approach-v001.png",
+        "generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+        "generated/environment-development/first-run-v001/access-relay-hall-v001.png"
+      ],
+      "visible": "Pulled-back broad desert region with city left of center, full oval terraced pit right, extensive regional freight roads, canyon/bridge and twin mesas. Nearly straight horizon with slim sky; no curvature, globe, ship or text.",
+      "caveats": [
+        "Pullback is substantial but city remains roughly20–25%frame width rather than requested8–12%; high regional altitude rather than convincingly near-suborbital.",
+        "No exact compass directions or measured distances established."
+      ],
+      "callbackGeography": [
+        {
+          "feature": "Hero city",
+          "position": "center-left, backed by long stepped escarpment",
+          "recognition": "Tight warm sandstone cluster with several thin blue-capped towers."
+        },
+        {
+          "feature": "Blue utility/cargo district",
+          "position": "right edge of city toward frame center",
+          "recognition": "Several large blue tanks beside cargo gantries."
+        },
+        {
+          "feature": "Dry winding canyon and bridge",
+          "position": "lower-left/foreground to city left edge",
+          "recognition": "Single narrow elevated bridge crosses deep dark canyon toward city."
+        },
+        {
+          "feature": "Y freight-road junction",
+          "position": "lower-middle-right southeast of city in image",
+          "recognition": "Branching pale road connects city, right mine, foreground industrial cluster."
+        },
+        {
+          "feature": "Oval terraced mine",
+          "position": "right midground",
+          "recognition": "Large concentric excavation benches, conveyor routes to processing yards."
+        },
+        {
+          "feature": "Twin flat-topped mesas",
+          "position": "far upper-right horizon",
+          "recognition": "Paired broad isolated mesas above dust bank."
+        }
+      ],
+      "priorTake": "generated/storyboard/opening-continuity-v006/ta-000.take01.png"
+    },
+    {
+      "shotId": "ta-015",
+      "output": "generated/storyboard/opening-continuity-v006/ta-015.png",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selectedPrompt": "ta-015.prompt.txt",
+      "visible": [
+        "Distinct rear-three-quarter/back view of Harper running diagonally away-left with forward gaze and no repeated lookback face",
+        "Extended uneven running stride with raised trailing sole, clear progression from crouched014c",
+        "Wedge large foreground right reaches behind Harper with clear no-contact gap",
+        "A1 routine rope work right background; no Fast Coat or extra cast",
+        "Same water-lane sandstone/teal shade/blue infrastructure, key and jewel invisible",
+        "Wedge open reaching hand reads four fingers plus thumb; relaxed other hand consistent5"
+      ],
+      "caveats": [
+        "Harper is already a stride beyond Wedge, so this frame reads progressed escape more than preparing to squeeze through gap.",
+        "Strong foreground perspective makes Wedge appear much larger than Harper; not a literal height comparison.",
+        "A1 rope grip remains occluded and cannot certify exact thumb-tip anatomy.",
+        "Native near16:9 output1672x941 preserved."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "batch": "story-inserts-v007",
+  "status": "review_pending",
+  "totalShots": 27,
+  "newOrRevised": 1,
+  "reviews": [
+    {
+      "shotId": "ta-004",
+      "output": "generated/storyboard/story-inserts-v007/ta-004.png",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selectedPrompt": "ta-004.prompt.txt",
+      "visible": [
+        "Three lavishly dressed adult panelists on studio broadcast replace plumbing diagram.",
+        "Taffy attention remains on screen; Harper gives impatient side-eye.",
+        "Market architecture, monitor casing, depot view and light preserved.",
+        "Taffy broad torso, large ear, plum wrap and patched sack retained."
+      ],
+      "caveats": [
+        "Chin hand partly occluded; cannot certify every digit.",
+        "Small screen panelist hands are too small for reliable digit audit.",
+        "Taffy belly largely obscured by sack in original rear angle.",
+        "Native near16:9 output preserved."
+      ]
+    }
+  ]
+}

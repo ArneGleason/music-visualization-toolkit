@@ -1,0 +1,63 @@
+{
+  "fps": 24,
+  "frameIndexBase": 0,
+  "status": "user_reviewed",
+  "activeReplacement": "ta-004",
+  "unchangedTotalFrames": 1956,
+  "proposals": [
+    {
+      "id": "ta-004b",
+      "parentShot": "ta-004",
+      "title": "Back to the job",
+      "splitFrame": 559,
+      "startFrame": 559,
+      "endFrameExclusive": 637,
+      "frames": 78,
+      "durationSeconds": 3.25,
+      "description": "Distinct side/reverse angle: Harper cues Taffy away from the celebrity panel, and he reluctantly returns his attention to the heist.",
+      "reason": "Separate distraction and correction; split at the end of news in the accepted lyric timing.",
+      "status": "accepted_selected_in_v008",
+      "starterImage": "generated/storyboard/story-inserts-v007/ta-004b.png",
+      "inHandleFrames": 24,
+      "outHandleFrames": 24,
+      "transition": "cut",
+      "promptLock": "FIRST RUN SHOT LOCK v002: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. The news is already playing inside the relay hall when the partners reach Scene 5; its presenter and distant aerial theft inset do not clearly identify their faces. Humanoid hands have four fingers and one thumb; preserve established subtle biological adaptations without inventing missing or extra digits. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK."
+    },
+    {
+      "id": "ta-005b",
+      "parentShot": "ta-005",
+      "title": "The prize at his belt",
+      "splitFrame": 704,
+      "startFrame": 704,
+      "endFrameExclusive": 777,
+      "frames": 73,
+      "durationSeconds": 3.0416666666666665,
+      "description": "Tight insert of the broker’s holstered asymmetric key, with his hand nearby. It stays on him until the theft.",
+      "reason": "Give the audience a concrete objective during Not things we do, after reading the guarded depot.",
+      "status": "dropped_arm_continuity_concern",
+      "starterImage": "generated/storyboard/story-inserts-v007/ta-005b.png",
+      "inHandleFrames": 24,
+      "outHandleFrames": 24,
+      "transition": "cut",
+      "promptLock": "FIRST RUN SHOT LOCK v002: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. The news is already playing inside the relay hall when the partners reach Scene 5; its presenter and distant aerial theft inset do not clearly identify their faces. Humanoid hands have four fingers and one thumb; preserve established subtle biological adaptations without inventing missing or extra digits. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK."
+    },
+    {
+      "id": "ta-017b",
+      "parentShot": "ta-017",
+      "title": "Got it",
+      "splitFrame": 1549,
+      "startFrame": 1549,
+      "endFrameExclusive": 1587,
+      "frames": 38,
+      "durationSeconds": 1.5833333333333333,
+      "description": "Reverse close angle: Taffy discreetly shows Harper the stolen key at his waist, relieved and quietly proud.",
+      "reason": "Answer Are you with me? visually and pay off the theft before their reunion walk.",
+      "status": "accepted_with_grip_revision_v008",
+      "starterImage": "generated/storyboard/story-inserts-v007/ta-017b.png",
+      "inHandleFrames": 24,
+      "outHandleFrames": 24,
+      "transition": "cut",
+      "promptLock": "FIRST RUN SHOT LOCK v002: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. The news is already playing inside the relay hall when the partners reach Scene 5; its presenter and distant aerial theft inset do not clearly identify their faces. Humanoid hands have four fingers and one thumb; preserve established subtle biological adaptations without inventing missing or extra digits. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK."
+    }
+  ]
+}

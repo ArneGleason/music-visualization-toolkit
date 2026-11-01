@@ -1,0 +1,24 @@
+{
+  "shotId": "ta-021",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/storyboard/first-run-starters-v003/ta-021.take1.png",
+    "generated/storyboard/first-run-starters-v003/ta-020.png",
+    "generated/storyboard/first-run-starters-v003/ta-013.png",
+    "generated/character-development/taffy-front-back-v006.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "selectedPrompt": "ta-021.take2.prompt.txt",
+  "visibleResult": "Close insert corrected fixed sandstone jamb, Taffy grips ivory/red key outside socket with gap ready to orient.",
+  "caveats": [
+    "Key retains rounder U inner opening rather than source squared C; source13 lower-limb slot present.",
+    "Socket is substantially taller than key span; physical fit requires prop mechanism pass before video.",
+    "Take1 preserved; no third generation."
+  ],
+  "outputImage": "generated/storyboard/first-run-starters-v003/ta-021.png",
+  "status": "starter_proposal_for_review"
+}

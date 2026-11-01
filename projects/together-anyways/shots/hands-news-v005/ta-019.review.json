@@ -1,0 +1,26 @@
+{
+  "shotId": "ta-019",
+  "output": "generated/storyboard/hands-news-v005/ta-019.png",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "selectedPrompt": "shots/hands-news-v005/ta-019.prompt.txt",
+  "sources": [
+    "generated/storyboard/first-run-starters-v003/ta-019.png",
+    "generated/storyboard/hands-news-v005/ta-023.png"
+  ],
+  "visible": [
+    "Interior monitor already playing matching slate-jacket mature presenter on left and high aerial depot inset on right",
+    "Closed locked double door and children outside maintained",
+    "Inset people tiny and not identifiable; no mugshots or generated text",
+    "Hands retain prior relaxed/partly occluded forms, no new clear digit defects"
+  ],
+  "caveats": [
+    "Electrician lowered slightly behind controls relative to original, making screen more visible; not a pixel-isolated monitor-only change",
+    "Tiny surveillance detail and presenter's exact facial details cannot be resolved at this monitor scale",
+    "Fingers in window are too small/overlapped to count independently"
+  ]
+}

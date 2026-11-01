@@ -1,0 +1,90 @@
+{
+  "batch": "hands-news-v005",
+  "status": "review_pending",
+  "totalShots": 26,
+  "newOrRevised": 4,
+  "reviews": [
+    {
+      "shotId": "ta-011",
+      "output": "generated/storyboard/hands-news-v005/ta-011.png",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selectedPrompt": "shots/hands-news-v005/ta-011.prompt.txt",
+      "visible": [
+        "Broker dismissive hand now shows four distinct long fingers plus one separate thumb, five total",
+        "Annoyed face, dull failed-light jewel, single lookout and Fast Coat retained"
+      ],
+      "caveats": [
+        "Ring distribution gained an additional gold band on restored finger; count fixed but exact jewelry placement differs",
+        "Harper supporting palm fingers overlap naturally and cannot all be individually counted"
+      ]
+    },
+    {
+      "shotId": "ta-019",
+      "output": "generated/storyboard/hands-news-v005/ta-019.png",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selectedPrompt": "shots/hands-news-v005/ta-019.prompt.txt",
+      "sources": [
+        "generated/storyboard/first-run-starters-v003/ta-019.png",
+        "generated/storyboard/hands-news-v005/ta-023.png"
+      ],
+      "visible": [
+        "Interior monitor already playing matching slate-jacket mature presenter on left and high aerial depot inset on right",
+        "Closed locked double door and children outside maintained",
+        "Inset people tiny and not identifiable; no mugshots or generated text",
+        "Hands retain prior relaxed/partly occluded forms, no new clear digit defects"
+      ],
+      "caveats": [
+        "Electrician lowered slightly behind controls relative to original, making screen more visible; not a pixel-isolated monitor-only change",
+        "Tiny surveillance detail and presenter's exact facial details cannot be resolved at this monitor scale",
+        "Fingers in window are too small/overlapped to count independently"
+      ]
+    },
+    {
+      "shotId": "ta-022",
+      "output": "generated/storyboard/hands-news-v005/ta-022.png",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selectedPrompt": "shots/hands-news-v005/ta-022.prompt.txt",
+      "sources": [
+        "generated/storyboard/first-run-starters-v003/ta-022.png",
+        "generated/storyboard/hands-news-v005/ta-023.png"
+      ],
+      "visible": "Same already-playing presenter left/distant aerial inset right on interior display; threshold actors, hands, doorway and fixed reader retained.",
+      "caveats": [
+        "Inset tiny theft action not resolved at this scale, as intended.",
+        "Hands checked: foreground edge-on relaxed hands and background pen/tool grips naturally occluded; no clear digit defect."
+      ]
+    },
+    {
+      "shotId": "ta-023",
+      "output": "generated/storyboard/hands-news-v005/ta-023.png",
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "selectedPrompt": "shots/hands-news-v005/ta-023.take2.prompt.txt",
+      "visible": "Already-playing adult presenter with substantially wider soft high aerial depot inset; tiny rust/plum/seated figures with no identifiable faces; hall characters preserved.",
+      "caveats": [
+        "Exact tiny theft hand/holder action cannot be resolved at this intentionally distant scale.",
+        "Presenter slate jacket is contemporary-looking but retained consistently.",
+        "Hands preserved; natural grip/edge occlusion prevents complete counts, no definite defect."
+      ],
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ]
+}

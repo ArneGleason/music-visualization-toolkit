@@ -330,7 +330,7 @@
       "path": "generated/character-development/supporting-refs-v002/A6-quiet-stallholder-v002.png",
       "role": "The Quiet Stallholder — Two pairs of hands and wider peripheral vision let this quietly observant trader sort stock while monitoring the street.",
       "status": "user_accepted_reference_direction",
-      "currentUse": true,
+      "currentUse": false,
       "parentReferenceId": "support-A6-v001",
       "prompt": "character-development/supporting-refs-v002/A6.prompt.txt",
       "userReview": {
@@ -358,7 +358,7 @@
       "path": "generated/character-development/supporting-refs-v002/D6-port-messenger-v002.png",
       "role": "The Port Messenger — Springy digitigrade lower legs and protective eye membranes make the courier's movement and wind exposure visibly specialized.",
       "status": "user_accepted_reference_direction",
-      "currentUse": true,
+      "currentUse": false,
       "parentReferenceId": "support-D6-v001",
       "prompt": "character-development/supporting-refs-v002/D6.prompt.txt",
       "userReview": {
@@ -445,13 +445,118 @@
       "currentUse": false,
       "parentReferenceId": null,
       "prompt": "character-development/supporting-refs-v003/B5.prompt.txt"
+    },
+    {
+      "id": "support-A1-v004",
+      "candidateId": "A1",
+      "path": "generated/character-development/supporting-refs-v004/A1-silhouette-v004.png",
+      "role": "The Shade Stitcher — silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-A1-v002",
+      "prompt": "character-development/supporting-refs-v004/A1.prompt.txt"
+    },
+    {
+      "id": "support-A6-v004",
+      "candidateId": "A6",
+      "path": "generated/character-development/supporting-refs-v004/A6-silhouette-v004.png",
+      "role": "The Quiet Stallholder — silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-A6-v002",
+      "prompt": "character-development/supporting-refs-v004/A6.prompt.txt"
+    },
+    {
+      "id": "support-C1-v004",
+      "candidateId": "C1",
+      "path": "generated/character-development/supporting-refs-v004/C1-silhouette-v004.png",
+      "role": "The Pipe Fitter — silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-C1-v002",
+      "prompt": "character-development/supporting-refs-v004/C1.prompt.txt"
+    },
+    {
+      "id": "support-C6-v004",
+      "candidateId": "C6",
+      "path": "generated/character-development/supporting-refs-v004/C6-silhouette-v004.png",
+      "role": "The Scrap Sweeper — silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-C6-v002",
+      "prompt": "character-development/supporting-refs-v004/C6.prompt.txt"
+    },
+    {
+      "id": "support-D3-v004",
+      "candidateId": "D3",
+      "path": "generated/character-development/supporting-refs-v004/D3-silhouette-v004.png",
+      "role": "The Relay Electrician — silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-D3-v002",
+      "prompt": "character-development/supporting-refs-v004/D3.prompt.txt"
+    },
+    {
+      "id": "support-D6-v004",
+      "candidateId": "D6",
+      "path": "generated/character-development/supporting-refs-v004/D6-silhouette-v004.png",
+      "role": "The Port Messenger — silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-D6-v002",
+      "prompt": "character-development/supporting-refs-v004/D6.prompt.txt"
+    },
+    {
+      "id": "core-threat-HARPER-v001",
+      "candidateId": "HARPER",
+      "path": "generated/character-development/core-threat-refs-v001/HARPER.png",
+      "role": "Harper",
+      "status": "proposal_pending_review",
+      "currentUse": false,
+      "prompt": "character-development/core-threat-refs-v001/HARPER.prompt.txt"
+    },
+    {
+      "id": "core-threat-TAFFY-v001",
+      "candidateId": "TAFFY",
+      "path": "generated/character-development/core-threat-refs-v001/TAFFY.png",
+      "role": "Taffy",
+      "status": "proposal_pending_review",
+      "currentUse": false,
+      "prompt": "character-development/core-threat-refs-v001/TAFFY.prompt.txt"
+    },
+    {
+      "id": "core-threat-BROKER-v001",
+      "candidateId": "BROKER",
+      "path": "generated/character-development/core-threat-refs-v001/BROKER.png",
+      "role": "Water broker + shoulder lookout",
+      "status": "proposal_pending_review",
+      "currentUse": false,
+      "prompt": "character-development/core-threat-refs-v001/BROKER.prompt.txt"
+    },
+    {
+      "id": "core-threat-E1-v001",
+      "candidateId": "E1",
+      "path": "generated/character-development/core-threat-refs-v001/E1.png",
+      "role": "Wedge",
+      "status": "proposal_pending_review",
+      "currentUse": false,
+      "prompt": "character-development/core-threat-refs-v001/E1.prompt.txt"
+    },
+    {
+      "id": "core-threat-E2-v001",
+      "candidateId": "E2",
+      "path": "generated/character-development/core-threat-refs-v001/E2.png",
+      "role": "Long Reach",
+      "status": "proposal_pending_review",
+      "currentUse": false,
+      "prompt": "character-development/core-threat-refs-v001/E2.prompt.txt"
     }
   ],
   "production": {
-    "stage": "supporting-cast-development",
+    "stage": "opening-and-continuity-review",
     "style": "Painted graphic novel with controlled ink contours and tactile scavenged materials",
     "timingStatus": "Import accepted EffectCraft lyric draft v04 without re-alignment; preserve the explicitly accepted with/me boundary at 87.04 master seconds",
-    "sceneStatus": "AI story suggestions for discussion; no approved shot edit yet",
+    "sceneStatus": "24 clean starter frames across six scenes through wanted broadcast; review in audio animatic before motion",
     "worldBrief": "development-brief.txt",
     "inheritedWorld": "../desert-colony/character-development/README.md",
     "previousWorkflow": "../a-right-little-something/project.json",
@@ -468,7 +573,7 @@
     "supportingCast": {
       "pool": "character-development/supporting-cast-pool-v001.json",
       "notes": "character-development/supporting-cast-pool-v001.txt",
-      "status": "five_directions_retained_eight_new_studies_pending",
+      "status": "user_accepted_working_silhouette_direction",
       "candidateCount": 24,
       "suggestedShortlist": [
         "A1",
@@ -493,32 +598,84 @@
         "D6"
       ],
       "referenceCatalog": "character-development/supporting-refs-v001/references.json",
-      "review": "generated/character-development/supporting-refs-v003/cast-board.html",
+      "review": "generated/character-development/supporting-refs-v004/review/cast-board.html",
       "promptSet": "character-development/supporting-refs-v001/generation-prompts.txt",
       "biologicalCatalog": "character-development/supporting-refs-v003/references.json",
       "biologicalReview": "generated/character-development/supporting-refs-v003/review-board.html",
       "comparison": "generated/character-development/supporting-refs-v003/comparison-board.html",
       "currentByCandidate": {
-        "A1": "support-A1-v002",
+        "A1": "support-A1-v004",
         "A3": "support-A3-v002",
-        "A6": "support-A6-v002",
+        "A6": "support-A6-v004",
         "B1": "support-B1-v001",
         "B4": "support-B4-v002",
         "B5": "support-B5-v001",
         "B6": "support-B6-v002",
-        "C1": "support-C1-v002",
+        "C1": "support-C1-v004",
         "C4": "support-C4-v002",
-        "C6": "support-C6-v002",
+        "C6": "support-C6-v004",
         "D2": "support-D2-v002",
-        "D3": "support-D3-v002",
-        "D6": "support-D6-v002"
+        "D3": "support-D3-v004",
+        "D6": "support-D6-v004"
       },
       "favoriteNewCandidateId": "B5",
       "biologyDirection": "character-development/biology-direction.txt",
       "unresolvedTraitIds": [
         "A1"
-      ]
+      ],
+      "silhouetteCatalog": "character-development/supporting-refs-v004/references.json",
+      "heightRegister": "character-development/supporting-refs-v004/height-register.json",
+      "silhouetteComparison": "generated/character-development/supporting-refs-v004/review/comparison-board.html",
+      "scaleLineup": "generated/character-development/supporting-refs-v004/cast-lineup.png",
+      "acceptanceNote": "User: Okay, this seems good. Retain anatomy caveats; not an all-angle final lock."
     },
-    "nextWork": "Explore supporting-cast diversity in body size and clothing systems; preserve the subtle integrated biological direction."
+    "nextWork": "Review opening altitude and adjacent escape cut with new shot navigation. Preserve geography for later ship-flight callback. Key-reader020/021 remains unresolved before motion; no Kling until requested.",
+    "coreThreatCast": {
+      "status": "proposals_pending_review",
+      "heightRegister": "character-development/core-threat-refs-v001/height-register.json",
+      "review": "generated/character-development/core-threat-refs-v001/review/cast-board.html",
+      "referenceCatalog": "character-development/core-threat-refs-v001/references.json"
+    },
+    "firstRunShots": {
+      "shotlist": "shots/shotlist.json",
+      "batch": "shots/opening-continuity-v006/batch.json",
+      "review": "generated/storyboard/first-run-v001/review/shot-board.html",
+      "animatic": "generated/storyboard/first-run-v001/first-run-planning-animatic.mp4",
+      "frames": 1956,
+      "fps": 24,
+      "status": "complete_starter_batch_pending_review",
+      "stagedShotImagesGenerated": true,
+      "sceneIndex": "shots/scene-index.json",
+      "workflow": "shots/video-reference-workflow.txt",
+      "starterBatch": "shots/opening-continuity-v006",
+      "cleanAnimatic": "generated/storyboard/first-run-starters-v001/first-run-clean-animatic-v001.mp4",
+      "annotationNotes": "shots/first-run-frame-notes.json",
+      "stagedShotImageCount": 27,
+      "starterReview": "generated/storyboard/opening-continuity-v006/review/starter-board.html",
+      "animaticLayout": {
+        "picture": "primary",
+        "footer": "Scene number and name | shot number and name",
+        "lyrics": "small, bottom center",
+        "counter": "master seconds and zero-based frame, bottom right",
+        "annotations": "http://127.0.0.1:8767/",
+        "navigation": "Previous/next shot buttons, scene/shot selector, [ and ] shortcuts, current-shot tracking during playback"
+      },
+      "referenceCatalog": "shots/opening-continuity-v006/references.json",
+      "reviewNotes": "shots/opening-continuity-v006/review-notes.txt",
+      "motionBlockers": [
+        "ta-020",
+        "ta-021"
+      ],
+      "distractionReview": "generated/storyboard/distraction-starters-v004/review/distraction-board.html",
+      "latestChangesReview": "generated/storyboard/opening-continuity-v006/review/changes-board.html",
+      "handAudit": "shots/hands-news-v005/hand-audit.json",
+      "poseAudit": "shots/opening-continuity-v006/adjacent-pose-audit.json"
+    },
+    "taffyIdentity": {
+      "authority": "generated/character-development/taffy-front-back-v006.png",
+      "direction": "Portly soft broad torso and belly, full cheeks and conspicuously large rounded projecting ears; user reaffirmed this direction. Do not inherit the slim silhouette from ta-002 v001.",
+      "latestShot": "generated/storyboard/first-run-starters-v003/ta-002.png",
+      "status": "user_accepted_v002_shot_direction"
+    }
   }
 }

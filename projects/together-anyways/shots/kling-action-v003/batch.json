@@ -1,0 +1,145 @@
+{
+  "model": "Kling4.0",
+  "resolution": "1080p",
+  "status": "six_selected_corrected_planning_pending",
+  "estimatedCredits": 750,
+  "shots": [
+    {
+      "shotId": "ta-001",
+      "displayId": "S01-SH02",
+      "starterImage": "generated/storyboard/first-run-starters-v001/ta-001.png",
+      "seconds": 7,
+      "credits": 105,
+      "prompt": "The supplied first frame is the starting composition. Animate the action away from this pose. 7-second continuous 16:9 shot.\n\nThe water supply stutters and the market reacts. From 0\u20131s the shade stitcher is already hauling down her rope with a full-body pull while the four-armed stall holder moves a metal cup under the existing spout. During 1\u20135s the stream sputters; the stall holder checks the cup, sharply turns toward the distant tanks and extends one frustrated open palm toward them, while her other hands keep hold of her goods. The stitcher stops work, follows that gesture toward the depot, then secures the rope. During 5\u20137s their work resumes with urgency. Track briskly forward down the lane, using the gesture to direct attention to the water tanks. Exactly two arms for the stitcher and four for the stall holder. Keep this an everyday supply interruption, with no violence or disaster.\n\nThe edit uses source time 1 second onward; deliver the central action promptly within that section, with moving lead-in and continuation for editorial handles.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.",
+      "status": "selected_for_motion_review",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      },
+      "localVideo": "generated/kling-action-v003/ta-001.mp4",
+      "reviewNote": "Workers make larger purposeful gestures; supply-failure story is less explicit than prompt. Four-arm continuity needs closer review.",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945574682765049921&materialId=325442572524235"
+    },
+    {
+      "shotId": "ta-002",
+      "displayId": "S01-SH03",
+      "starterImage": "generated/storyboard/first-run-starters-v003/ta-002.png",
+      "seconds": 11,
+      "credits": 165,
+      "prompt": "The supplied first frame is the starting composition. Animate the action away from this pose. 11-second continuous 16:9 shot.\n\nThe partners nearly expose themselves while scouting the guarded depot. Action starts immediately: Taffy edges one step out from the shaded wall to inspect the seated broker across the lane. During 1\u20133s Harper catches his upper sleeve and draws him bodily back behind cover as the tall guard pivots toward their side of the lane. During 3\u20136s both flatten against the wall, Harper raises a firm wait palm and Taffy tightens his sack strap, holding still only while the guard looks. During 6\u20139s the guard turns away; Harper drops to a low crouch and leans out around the edge, Taffy follows half a step behind her. During 9\u201311s continue their scouting movement. A responsive lateral tracking camera follows their retreat into cover, then edges out with Harper. Clear cause, reaction and recovery at normal speed. The broker stays seated, his possessions untouched; the guard does not discover them.\n\nThe edit uses source time 1 second onward; deliver the central action promptly within that section, with moving lead-in and continuation for editorial handles.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.",
+      "status": "selected_for_motion_review",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "11.041667",
+        "nb_frames": "265"
+      },
+      "localVideo": "generated/kling-action-v003/ta-002.mp4",
+      "reviewNote": "Clear reach/pull back, wait, crouch sequence. Maintains cast; cut into next planning pose needs review.",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945574773236170767&materialId=325442593533836"
+    },
+    {
+      "shotId": "ta-003",
+      "displayId": "S01-SH04",
+      "starterImage": "generated/storyboard/first-run-starters-v003/ta-003.png",
+      "seconds": 7,
+      "credits": 105,
+      "prompt": "The supplied first frame is the starting composition. Animate the action away from this pose. 7-second continuous 16:9 shot.\n\nHarper actively lays out their two-route plan. She is already crouching into cover as the shot begins. During 1\u20133s she sweeps her open palm low toward the public lane, touches her own chest, then points with her other hand toward the narrow screened side route for Taffy. Taffy immediately leans across to check that route and pulls his sack securely behind his hip. During 3\u20135s Harper draws him a step deeper behind the pipe, and both turn their bodies toward the indicated paths, preparing to move. During 5\u20137s they continue repositioning along the wall. Track laterally with their bodies, keeping the two distinct indicated directions legible. Purposeful quick planning, conspiratorial energy, not leisurely gazing. No approach to the broker yet; no new props or people.\n\nThe edit uses source time 1 second onward; deliver the central action promptly within that section, with moving lead-in and continuation for editorial handles.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.",
+      "status": "rejected_missing_starter_attachment",
+      "reviewNote": "Submitted before starter upload finished. Wrong cast from first frame; assistant error. Corrected take being prepared.",
+      "correctedTakeStatus": "submitted",
+      "correctionCredits": 105
+    },
+    {
+      "shotId": "ta-004",
+      "displayId": "S01-SH05",
+      "starterImage": "generated/storyboard/style-news-v010/ta-004.png",
+      "seconds": 4,
+      "credits": 60,
+      "prompt": "The supplied first frame is the starting composition. Animate the action away from this pose. 4-second continuous 16:9 shot.\n\nTaffy is abruptly captivated by the celebrity broadcast. At 0\u20131s he takes a quick half-step toward the monitor. During 1\u20133s a richly dressed panelist throws both arms wide in a self-important flourish; Taffy leans forward, breaks into a delighted grin and lifts a hand toward the screen, forgetting the job. Harper immediately turns back toward him, stops with impatient disbelief, and reaches toward his upper sleeve. During 3\u20134s her reaching arm continues toward the sleeve to motivate the next cut. A brisk motivated push toward Taffy and the screen, then hold both children in view. This is a quick comic distraction inside an urgent caper, not a prolonged watching pose. No speech balloons or written captions.\n\nThe edit uses source time 1 second onward; deliver the central action promptly within that section, with moving lead-in and continuation for editorial handles.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.",
+      "status": "selected_for_motion_review",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "4.041667",
+        "nb_frames": "97"
+      },
+      "localVideo": "generated/kling-action-v003/ta-004.mp4",
+      "reviewNote": "TV panel flourishes; Taffy visibly reacts and Harper turns impatiently. Some face stylization.",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945575007458050070&materialId=325442649301647"
+    },
+    {
+      "shotId": "ta-004b",
+      "displayId": "S01-SH06",
+      "starterImage": "generated/storyboard/style-news-v010/ta-004b.png",
+      "seconds": 6,
+      "credits": 90,
+      "prompt": "The supplied first frame is the starting composition. Animate the action away from this pose. 6-second continuous 16:9 shot.\n\nHarper interrupts the distraction and gets Taffy moving. Begin with her hand already touching his sleeve. During 0\u20131s she plants her foot and gives one firm, nonviolent tug. During 1\u20133s Taffy turns his whole torso away from the monitor, stumbles one recovery step toward her, and catches his sack strap; Harper releases the sleeve and briskly points down their route with a sharp come-on arm sweep. During 3\u20135s she takes two purposeful steps away from the screen, Taffy hustles after her with one reluctant backward glance. Continue their stride through 6s. Track sideways with them, allowing their full body positions to change visibly. Energetic affectionate impatience, no aggression, no endless repeated tug.\n\nThe edit uses source time 1 second onward; deliver the central action promptly within that section, with moving lead-in and continuation for editorial handles.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.",
+      "status": "selected_for_motion_review",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "6.041667",
+        "nb_frames": "145"
+      },
+      "localVideo": "generated/kling-action-v003/ta-004b.mp4",
+      "reviewNote": "Clear tug, recovery, directional gesture and walking. Wider view invents boots on Taffy rather than established sandals; flagged for later polish.",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945575099607547930&materialId=325442671536642"
+    },
+    {
+      "shotId": "ta-005",
+      "displayId": "S01-SH07",
+      "starterImage": "generated/storyboard/first-run-starters-v003/ta-005.png",
+      "seconds": 8,
+      "credits": 120,
+      "prompt": "The supplied first frame is the starting composition. Animate the action away from this pose. 8-second continuous 16:9 shot.\n\nThe broker actively controls access to the water depot. At 0\u20131s he leans forward in his chair. During 1\u20133s he thrusts a decisive open palm toward the left side of the lane, directing the large standing guard to block it. The guard immediately strides two paces into the lane and plants himself broadside. During 3\u20136s the broker turns and sweeps his other hand toward the opposite side; the crouched guard gets up from the crate and steps into a flanking position. During 6\u20138s the broker settles back while both guards scan their assigned directions. A purposeful forward dolly shifts slightly to keep the broker visible between the moving guards. Their organized control should feel like an obstacle our heroes must outwit. The broker remains seated; his holstered credential stays attached and untouched. Keep exactly one shoulder creature; no children enter.\n\nThe edit uses source time 1 second onward; deliver the central action promptly within that section, with moving lead-in and continuation for editorial handles.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.",
+      "status": "selected_for_motion_review",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "8.041667",
+        "nb_frames": "193"
+      },
+      "localVideo": "generated/kling-action-v003/ta-005.mp4",
+      "reviewNote": "Broker gestures, guards reposition; stronger obstacle-setting action.",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945575189234987038&materialId=325442693531027"
+    },
+    {
+      "shotId": "ta-006",
+      "displayId": "S01-SH08",
+      "starterImage": "generated/storyboard/first-run-starters-v003/ta-006.png",
+      "seconds": 7,
+      "credits": 105,
+      "prompt": "The supplied first frame is the starting composition. Animate the action away from this pose. 7-second continuous 16:9 shot.\n\nHarper and Taffy commit to the plan and set off. Only these two characters appear. During 0\u20131s Harper closes her fingers around the existing blue jewel. During 1\u20133s she slips it securely into her own vest pocket, plants her free hand on her knee and rises decisively from the crouch; Taffy simultaneously swings his sack snugly behind his back and pushes up to stand. During 3\u20135s Harper steps toward the public lane on screen left while Taffy turns toward the screened route on screen right, both purposeful and alert. During 5\u20137s continue those separating strides. The camera rises with them and widens enough to keep both moving bodies visible. Their departure is the action, not a nod. Absolutely no third person enters, no object is handed to Taffy, and no new object appears. Taffy carries only his existing sack.\n\nThe edit uses source time 1 second onward; deliver the central action promptly within that section, with moving lead-in and continuation for editorial handles.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.",
+      "status": "selected_for_motion_review",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      },
+      "localVideo": "generated/kling-action-v003/ta-006.mp4",
+      "reviewNote": "Pockets jewel, rises, splits routes. No invented man or credential handoff. Some facial simplification and footwear drift.",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945575267483926610&materialId=325442711303641"
+    }
+  ],
+  "creditsSpent": 855,
+  "mode": "Keyframes / approved first frame only",
+  "rejectedAttempts": [
+    {
+      "shotId": "ta-003",
+      "credits": 105,
+      "localVideo": "generated/kling-action-v003/ta-003-rejected-no-starter.mp4",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945574881163358253&materialId=325442619313537",
+      "reason": "Assistant submitted before image attachment finished; wrong cast and setting from initial frame."
+    }
+  ]
+}

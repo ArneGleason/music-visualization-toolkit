@@ -1,0 +1,72 @@
+{
+  "batch": "story-inserts-v008",
+  "status": "review_pending",
+  "totalShots": 29,
+  "newOrRevised": 4,
+  "reviews": [
+    {
+      "shotId": "ta-017",
+      "status": "ready-for-review",
+      "tool": "builtin-imagegen",
+      "attempts": 1,
+      "image": "generated/storyboard/story-inserts-v008/ta-017.png",
+      "prompt": "shots/story-inserts-v008/ta-017.prompt.txt",
+      "review": "Preserved wide composition, identity and stair geography. Previously tiny waist prop now hangs visibly below gripping hand with ivory upperpiece, red inset and squared metallic curved lowerleg. Device matches hand-relative approximate scale of ta013.",
+      "caveats": [
+        "Closed grip occludes thumb and some digits; full five-digit count cannot be certified from pose, no clear extra digit.",
+        "Credential is proximity access device passed near scanner, never mechanically inserted. Exact close alignment of internal greebles is approximate.",
+        "No shotlist or animatic changes made by this worker."
+      ]
+    },
+    {
+      "shotId": "ta-017b",
+      "status": "ready-for-review",
+      "tool": "builtin-imagegen",
+      "attempts": 1,
+      "image": "generated/storyboard/story-inserts-v008/ta-017b.png",
+      "prompt": "shots/story-inserts-v008/ta-017b.prompt.txt",
+      "review": "Preserved reverse composition and Taffy identity. Replaced threaded/undersized grip with closed hand over solid upper grip; horseshoe opening below remains clear. Ivory/red/squared metal design now closely matches ta013. No fingers visibly clipping through solid parts.",
+      "caveats": [
+        "Closed grip occludes thumb and some digits; full five-digit count cannot be certified from pose, no clear extra digit.",
+        "Credential is proximity access device passed near scanner, never mechanically inserted. Exact close alignment of internal greebles is approximate.",
+        "No shotlist or animatic changes made by this worker."
+      ]
+    },
+    {
+      "shotId": "ta-020",
+      "status": "ready_for_review",
+      "image": "generated/storyboard/story-inserts-v008/ta-020.png",
+      "prompt": "shots/story-inserts-v008/ta-020.prompt.txt",
+      "tool": "built-in image_gen",
+      "attempts": 2,
+      "review": {
+        "scanner": "Flat teal ceramic contactless scanner within bronze plate on fixed stone jamb; no shaped socket or insertion. Clear air gap.",
+        "credential": "Ivory top grip held overhand, asymmetrical C/horseshoe metal body hangs down with red indicator, scale consistent with ta013 relative to child hand.",
+        "anatomy": "Four curled finger forms; opposing thumb normally hidden under overhand grip. No obvious extra digits.",
+        "identity": "Taffy broad torso, cheeks, large rounded ears, cheek lines and costume preserved; Harper retained in medium shot, excluded by close crop.",
+        "caveats": [
+          "Scanner bronze mounting trim and bottom fasteners vary slightly between wide and close; teal face and amber indicator stay consistent.",
+          "These are starter stills, not proof of completed waving motion or scanner response."
+        ]
+      }
+    },
+    {
+      "shotId": "ta-021",
+      "status": "ready_for_review",
+      "image": "generated/storyboard/story-inserts-v008/ta-021.png",
+      "prompt": "shots/story-inserts-v008/ta-021.prompt.txt",
+      "tool": "built-in image_gen",
+      "attempts": 1,
+      "review": {
+        "scanner": "Flat teal ceramic contactless scanner within bronze plate on fixed stone jamb; no shaped socket or insertion. Clear air gap.",
+        "credential": "Ivory top grip held overhand, asymmetrical C/horseshoe metal body hangs down with red indicator, scale consistent with ta013 relative to child hand.",
+        "anatomy": "Four curled finger forms; opposing thumb normally hidden under overhand grip. No obvious extra digits.",
+        "identity": "Taffy broad torso, cheeks, large rounded ears, cheek lines and costume preserved; Harper retained in medium shot, excluded by close crop.",
+        "caveats": [
+          "Scanner bronze mounting trim and bottom fasteners vary slightly between wide and close; teal face and amber indicator stay consistent.",
+          "These are starter stills, not proof of completed waving motion or scanner response."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "shotId": "ta-002",
+  "status": "taffy_identity_correction_for_review",
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "source": "generated/character-development/taffy-front-back-v006.png",
+  "output": "generated/storyboard/first-run-starters-v002/ta-002.png",
+  "visibleChanges": [
+    "Wider rounder torso and belly",
+    "Fuller cheek and lower face",
+    "Larger rounded projecting visible ear"
+  ],
+  "caveats": [
+    "Key ownership on Doorpost remains a separate motion blocker",
+    "Minor image-wide regeneration variation; not pixel-identical outside Taffy"
+  ]
+}

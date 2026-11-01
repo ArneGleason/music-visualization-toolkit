@@ -1,0 +1,30 @@
+{
+  "shotId": "ta-003",
+  "originalPath": "generated/storyboard/first-run-starters-v003/ta-003.png",
+  "status": "occluded",
+  "findings": "Harper palm-down cue shows one thumb and three distinct finger silhouettes; fourth may lie behind the others in strongly edge-on overlapping pose. This is not sufficient evidence of missing finger. Taffy strap grip shows four curled finger segments with thumb partly behind strap; other hand partly against hip.",
+  "countCertainty": "Medium; exact Harper count uncertain because overlap",
+  "repair": {
+    "needed": false,
+    "reason": "No clear digit defect distinguishable from normal overlap/occlusion. Preserve selected art.",
+    "generationAttempts": 0
+  },
+  "evidence": {
+    "method": "Original image inspection and 2x enlarged inspection-only crops, no generative enhancement",
+    "cropBoxesPx": [
+      [
+        480,
+        670,
+        660,
+        795
+      ],
+      [
+        635,
+        510,
+        1030,
+        790
+      ]
+    ]
+  },
+  "standard": "Four fingers plus one thumb; preserve deliberate biological adaptations. clear means no issue in assessable hands, not certification of occluded digits."
+}

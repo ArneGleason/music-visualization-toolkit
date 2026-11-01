@@ -1,0 +1,466 @@
+{
+  "fps": 24,
+  "shots": [
+    {
+      "id": "ta-001",
+      "startFrame": 0,
+      "endFrameExclusive": 209,
+      "frames": 209,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 257,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 233,
+        "sourceStartMasterFrame": -24,
+        "sourceEndMasterFrameExclusive": 233,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-002",
+      "startFrame": 209,
+      "endFrameExclusive": 410,
+      "frames": 201,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 249,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 225,
+        "sourceStartMasterFrame": 185,
+        "sourceEndMasterFrameExclusive": 434,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-003",
+      "startFrame": 410,
+      "endFrameExclusive": 511,
+      "frames": 101,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 149,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 125,
+        "sourceStartMasterFrame": 386,
+        "sourceEndMasterFrameExclusive": 535,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-004",
+      "startFrame": 511,
+      "endFrameExclusive": 637,
+      "frames": 126,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 174,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 150,
+        "sourceStartMasterFrame": 487,
+        "sourceEndMasterFrameExclusive": 661,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-005",
+      "startFrame": 637,
+      "endFrameExclusive": 777,
+      "frames": 140,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 188,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 164,
+        "sourceStartMasterFrame": 613,
+        "sourceEndMasterFrameExclusive": 801,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-006",
+      "startFrame": 777,
+      "endFrameExclusive": 883,
+      "frames": 106,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 154,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 130,
+        "sourceStartMasterFrame": 753,
+        "sourceEndMasterFrameExclusive": 907,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-007",
+      "startFrame": 883,
+      "endFrameExclusive": 933,
+      "frames": 50,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 98,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 74,
+        "sourceStartMasterFrame": 859,
+        "sourceEndMasterFrameExclusive": 957,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-008",
+      "startFrame": 933,
+      "endFrameExclusive": 988,
+      "frames": 55,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 103,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 79,
+        "sourceStartMasterFrame": 909,
+        "sourceEndMasterFrameExclusive": 1012,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-009",
+      "startFrame": 988,
+      "endFrameExclusive": 1093,
+      "frames": 105,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 153,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 129,
+        "sourceStartMasterFrame": 964,
+        "sourceEndMasterFrameExclusive": 1117,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-010",
+      "startFrame": 1093,
+      "endFrameExclusive": 1139,
+      "frames": 46,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 94,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 70,
+        "sourceStartMasterFrame": 1069,
+        "sourceEndMasterFrameExclusive": 1163,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-011",
+      "startFrame": 1139,
+      "endFrameExclusive": 1207,
+      "frames": 68,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 116,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 92,
+        "sourceStartMasterFrame": 1115,
+        "sourceEndMasterFrameExclusive": 1231,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-012",
+      "startFrame": 1207,
+      "endFrameExclusive": 1274,
+      "frames": 67,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 115,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 91,
+        "sourceStartMasterFrame": 1183,
+        "sourceEndMasterFrameExclusive": 1298,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-013",
+      "startFrame": 1274,
+      "endFrameExclusive": 1303,
+      "frames": 29,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 77,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 53,
+        "sourceStartMasterFrame": 1250,
+        "sourceEndMasterFrameExclusive": 1327,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-014",
+      "startFrame": 1303,
+      "endFrameExclusive": 1388,
+      "frames": 85,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 133,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 109,
+        "sourceStartMasterFrame": 1279,
+        "sourceEndMasterFrameExclusive": 1412,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-015",
+      "startFrame": 1388,
+      "endFrameExclusive": 1422,
+      "frames": 34,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 82,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 58,
+        "sourceStartMasterFrame": 1364,
+        "sourceEndMasterFrameExclusive": 1446,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-016",
+      "startFrame": 1422,
+      "endFrameExclusive": 1478,
+      "frames": 56,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 104,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 80,
+        "sourceStartMasterFrame": 1398,
+        "sourceEndMasterFrameExclusive": 1502,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-017",
+      "startFrame": 1478,
+      "endFrameExclusive": 1587,
+      "frames": 109,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 157,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 133,
+        "sourceStartMasterFrame": 1454,
+        "sourceEndMasterFrameExclusive": 1611,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-018",
+      "startFrame": 1587,
+      "endFrameExclusive": 1694,
+      "frames": 107,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 155,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 131,
+        "sourceStartMasterFrame": 1563,
+        "sourceEndMasterFrameExclusive": 1718,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-019",
+      "startFrame": 1694,
+      "endFrameExclusive": 1749,
+      "frames": 55,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 103,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 79,
+        "sourceStartMasterFrame": 1670,
+        "sourceEndMasterFrameExclusive": 1773,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-020",
+      "startFrame": 1749,
+      "endFrameExclusive": 1787,
+      "frames": 38,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 86,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 62,
+        "sourceStartMasterFrame": 1725,
+        "sourceEndMasterFrameExclusive": 1811,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-021",
+      "startFrame": 1787,
+      "endFrameExclusive": 1834,
+      "frames": 47,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 95,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 71,
+        "sourceStartMasterFrame": 1763,
+        "sourceEndMasterFrameExclusive": 1858,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-022",
+      "startFrame": 1834,
+      "endFrameExclusive": 1888,
+      "frames": 54,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 102,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 78,
+        "sourceStartMasterFrame": 1810,
+        "sourceEndMasterFrameExclusive": 1912,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-023",
+      "startFrame": 1888,
+      "endFrameExclusive": 1928,
+      "frames": 40,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 88,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 64,
+        "sourceStartMasterFrame": 1864,
+        "sourceEndMasterFrameExclusive": 1952,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    },
+    {
+      "id": "ta-024",
+      "startFrame": 1928,
+      "endFrameExclusive": 1956,
+      "frames": 28,
+      "promptLock": "FIRST RUN SHOT LOCK v001: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. Wanted broadcast appears inside after entry. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "videoHandles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 76,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 52,
+        "sourceStartMasterFrame": 1904,
+        "sourceEndMasterFrameExclusive": 1980,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      }
+    }
+  ],
+  "timingHashes": {
+    "timeline.json": "2342ec1b434cfe31cd35fb83895fcf3a584a92d09b22e04e6766685a4d9841ed",
+    "generated/beatmap.json": "ea89ce501e544240f9d3b7175aff2d41f9105a94ef9f2be394222e54adc54d3a",
+    "generated/timeline.compiled.json": "e016ed8c454673b7c749c17f29aa89cd7abf32e43cd4565beb8a8492724d7307"
+  }
+}

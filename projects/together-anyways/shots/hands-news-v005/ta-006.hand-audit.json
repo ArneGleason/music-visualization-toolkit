@@ -1,0 +1,24 @@
+{
+  "shotId": "ta-006",
+  "originalPath": "generated/storyboard/first-run-starters-v003/ta-006.png",
+  "status": "clear",
+  "findings": "Prominent Harper low cue hand unambiguously has four fingers plus one thumb. Taffy hands outside lower crop. No repair required.",
+  "countCertainty": "High visible Harper hand",
+  "repair": {
+    "needed": false,
+    "reason": "No clear digit defect distinguishable from normal overlap/occlusion. Preserve selected art.",
+    "generationAttempts": 0
+  },
+  "evidence": {
+    "method": "Original image inspection and 2x enlarged inspection-only crops, no generative enhancement",
+    "cropBoxesPx": [
+      [
+        850,
+        760,
+        1120,
+        941
+      ]
+    ]
+  },
+  "standard": "Four fingers plus one thumb; preserve deliberate biological adaptations. clear means no issue in assessable hands, not certification of occluded digits."
+}

@@ -1,0 +1,23 @@
+{
+  "candidateId": "D3",
+  "source": "generated/character-development/supporting-refs-v003/D3-relay-electrician-v002.png",
+  "output": "generated/character-development/supporting-refs-v004/D3-silhouette-v004.png",
+  "heightCm": 151,
+  "status": "silhouette_proposal_for_review",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "visibleChanges": [
+    "Broad cropped trouser silhouette with large patch pockets and exposed lower shins",
+    "Cropped smoke-blue cape, low shoes and shirt without prominent waist belt",
+    "Same older angular face, brown skin and silver curls",
+    "Organic wrist scale patch and fingertip pad texture retained beside tester and cables"
+  ],
+  "caveats": [
+    "Clothing produces the strongest width change; underlying torso remains moderately lean rather than markedly broad",
+    "Rolled-looking short sleeve remains despite request for simple underlayer",
+    "Thumb contact pad partly obscured; sensory function and iris detail unverified"
+  ],
+  "crownY": 0.041,
+  "groundY": 0.952,
+  "landmarkNotes": "Approximate scalp crown beneath curls; bottom of forward shoe sole. Perspective puts rear sole slightly higher. Proposed height excludes hair; exact barefoot measurement is not inferable from artwork."
+}

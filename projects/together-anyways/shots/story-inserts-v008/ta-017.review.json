@@ -1,0 +1,14 @@
+{
+  "shotId": "ta-017",
+  "status": "ready-for-review",
+  "tool": "builtin-imagegen",
+  "attempts": 1,
+  "image": "generated/storyboard/story-inserts-v008/ta-017.png",
+  "prompt": "shots/story-inserts-v008/ta-017.prompt.txt",
+  "review": "Preserved wide composition, identity and stair geography. Previously tiny waist prop now hangs visibly below gripping hand with ivory upperpiece, red inset and squared metallic curved lowerleg. Device matches hand-relative approximate scale of ta013.",
+  "caveats": [
+    "Closed grip occludes thumb and some digits; full five-digit count cannot be certified from pose, no clear extra digit.",
+    "Credential is proximity access device passed near scanner, never mechanically inserted. Exact close alignment of internal greebles is approximate.",
+    "No shotlist or animatic changes made by this worker."
+  ]
+}

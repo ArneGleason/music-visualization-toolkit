@@ -1,0 +1,23 @@
+{
+  "shotId": "ta-014c",
+  "output": "generated/storyboard/distraction-starters-v004/ta-014c.png",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/storyboard/first-run-starters-v003/ta-014.png",
+    "generated/storyboard/first-run-starters-v003/ta-015.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png"
+  ],
+  "promptFile": "shots/distraction-starters-v004/ta-014c.prompt.txt",
+  "visible": "Youthful Harper at left lowers shoulder and flexes knee toward hanging teal shade, Fast Coat behind right reaches with clear no-contact gap; two figures only, blue tanks/gate depot continuity; jewel concealed.",
+  "caveats": [
+    "Stance is already an active step rather than completely calm poised hold; video should start at this early dodge and continue left behind cloth.",
+    "Fast Coat hand remains well short of shoulder, making onset readable without grab.",
+    "Organic tail appears longer/more outstretched than resting reference; no additional anatomy."
+  ]
+}

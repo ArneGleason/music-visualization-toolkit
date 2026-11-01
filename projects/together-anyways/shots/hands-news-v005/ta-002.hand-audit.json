@@ -1,0 +1,24 @@
+{
+  "shotId": "ta-002",
+  "originalPath": "generated/storyboard/first-run-starters-v003/ta-002.png",
+  "status": "occluded",
+  "findings": "Harper relaxed near hand has curled overlapping fingertips; far hand behind foliage. Taffy relaxed hand curls against trousers. Doorpost and broker hands distant. No clear malformed count.",
+  "countCertainty": "Medium foreground, low background",
+  "repair": {
+    "needed": false,
+    "reason": "No clear digit defect distinguishable from normal overlap/occlusion. Preserve selected art.",
+    "generationAttempts": 0
+  },
+  "evidence": {
+    "method": "Original image inspection and 2x enlarged inspection-only crops, no generative enhancement",
+    "cropBoxesPx": [
+      [
+        0,
+        400,
+        800,
+        941
+      ]
+    ]
+  },
+  "standard": "Four fingers plus one thumb; preserve deliberate biological adaptations. clear means no issue in assessable hands, not certification of occluded digits."
+}

@@ -1,0 +1,24 @@
+{
+  "shotId": "ta-022",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/storyboard/first-run-starters-v003/ta-022.png",
+    "generated/storyboard/first-run-starters-v003/ta-021.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/supporting-refs-v004/D3-silhouette-v004.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "visibleResult": "Leads at opened threshold, clerk pen and blank display, corrected rectangular bronze reader on fixed sandstone jamb.",
+  "caveats": [
+    "Electrician full-length trouser silhouette differs from v004 cropped wide legs.",
+    "Clerk eye count difficult to verify at scale."
+  ],
+  "selectedPrompt": "ta-022.take2.prompt.txt",
+  "outputImage": "generated/storyboard/first-run-starters-v003/ta-022.png",
+  "status": "starter_proposal_for_review"
+}

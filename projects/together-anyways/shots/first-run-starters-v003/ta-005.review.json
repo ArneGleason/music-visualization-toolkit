@@ -1,0 +1,26 @@
+{
+  "shotId": "ta-005",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+    "generated/character-development/core-threat-refs-v001/BROKER.png",
+    "generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+    "generated/character-development/core-threat-refs-v001/E1.png",
+    "generated/character-development/core-threat-refs-v001/E2.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "visibleResult": "Observed wide through alcove foreground; three distinct guards and seated broker with one shoulder lookout. Ivory/red key visible in broker belt only. Wedge poised at crate.",
+  "caveats": [
+    "Long Reach stands deeper by storage gate rather than foreground emphasis.",
+    "Exact key prong lengths hidden in holder; no claim complete prop geometry verified."
+  ],
+  "status": "starter_for_review",
+  "output": "generated/storyboard/first-run-starters-v003/ta-005.png",
+  "promptFile": "shots/first-run-starters-v003/ta-005.prompt.txt",
+  "promptLockVerifiedExact": true,
+  "referenceFrameMode": "source_start_with_1sec_in_handle"
+}

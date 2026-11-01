@@ -1,0 +1,20 @@
+{
+  "shotId": "ta-022",
+  "output": "generated/storyboard/hands-news-v005/ta-022.png",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "selectedPrompt": "shots/hands-news-v005/ta-022.prompt.txt",
+  "sources": [
+    "generated/storyboard/first-run-starters-v003/ta-022.png",
+    "generated/storyboard/hands-news-v005/ta-023.png"
+  ],
+  "visible": "Same already-playing presenter left/distant aerial inset right on interior display; threshold actors, hands, doorway and fixed reader retained.",
+  "caveats": [
+    "Inset tiny theft action not resolved at this scale, as intended.",
+    "Hands checked: foreground edge-on relaxed hands and background pen/tool grips naturally occluded; no clear digit defect."
+  ]
+}

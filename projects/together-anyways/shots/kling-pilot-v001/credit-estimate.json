@@ -1,0 +1,156 @@
+{
+  "creditsPerGeneratedSecond": 15,
+  "model": "Kling4.0",
+  "resolution": "1080p",
+  "fullEditSeconds": 216.25,
+  "plannedEditSeconds": 81.5,
+  "plannedShots": 27,
+  "plannedSourceSeconds": 149,
+  "plannedBaseCredits": 2235,
+  "plannedWith10PercentRedoCredits": 2459,
+  "projectedFullWith10PercentRedoCredits": 6524,
+  "assumptions": [
+    "Remaining video has same shot density and duration-rounding overhead as current81.5second edit.",
+    "One second handle at each end; each clip rounded up to whole seconds,minimum3seconds.",
+    "Redo allowance means10percent extra generated duration.",
+    "Single output per shot; no separate generated transition jobs or paid extensions.",
+    "Includes current pilot, not added on top. Estimate is not authorization to generate beyond375credit trial."
+  ],
+  "shots": [
+    {
+      "shot": "ta-000",
+      "editFrames": 109,
+      "sourceSeconds": 7
+    },
+    {
+      "shot": "ta-001",
+      "editFrames": 100,
+      "sourceSeconds": 7
+    },
+    {
+      "shot": "ta-002",
+      "editFrames": 201,
+      "sourceSeconds": 11
+    },
+    {
+      "shot": "ta-003",
+      "editFrames": 101,
+      "sourceSeconds": 7
+    },
+    {
+      "shot": "ta-004",
+      "editFrames": 126,
+      "sourceSeconds": 8
+    },
+    {
+      "shot": "ta-005",
+      "editFrames": 140,
+      "sourceSeconds": 8
+    },
+    {
+      "shot": "ta-006",
+      "editFrames": 106,
+      "sourceSeconds": 7
+    },
+    {
+      "shot": "ta-007",
+      "editFrames": 50,
+      "sourceSeconds": 5
+    },
+    {
+      "shot": "ta-008",
+      "editFrames": 55,
+      "sourceSeconds": 5
+    },
+    {
+      "shot": "ta-009",
+      "editFrames": 105,
+      "sourceSeconds": 7
+    },
+    {
+      "shot": "ta-010",
+      "editFrames": 46,
+      "sourceSeconds": 4
+    },
+    {
+      "shot": "ta-011",
+      "editFrames": 68,
+      "sourceSeconds": 5
+    },
+    {
+      "shot": "ta-012",
+      "editFrames": 67,
+      "sourceSeconds": 5
+    },
+    {
+      "shot": "ta-013",
+      "editFrames": 29,
+      "sourceSeconds": 4
+    },
+    {
+      "shot": "ta-014",
+      "editFrames": 19,
+      "sourceSeconds": 3
+    },
+    {
+      "shot": "ta-014b",
+      "editFrames": 18,
+      "sourceSeconds": 3
+    },
+    {
+      "shot": "ta-014c",
+      "editFrames": 48,
+      "sourceSeconds": 4
+    },
+    {
+      "shot": "ta-015",
+      "editFrames": 34,
+      "sourceSeconds": 4
+    },
+    {
+      "shot": "ta-016",
+      "editFrames": 56,
+      "sourceSeconds": 5
+    },
+    {
+      "shot": "ta-017",
+      "editFrames": 109,
+      "sourceSeconds": 7
+    },
+    {
+      "shot": "ta-018",
+      "editFrames": 107,
+      "sourceSeconds": 7
+    },
+    {
+      "shot": "ta-019",
+      "editFrames": 55,
+      "sourceSeconds": 5
+    },
+    {
+      "shot": "ta-020",
+      "editFrames": 38,
+      "sourceSeconds": 4
+    },
+    {
+      "shot": "ta-021",
+      "editFrames": 47,
+      "sourceSeconds": 4
+    },
+    {
+      "shot": "ta-022",
+      "editFrames": 54,
+      "sourceSeconds": 5
+    },
+    {
+      "shot": "ta-023",
+      "editFrames": 40,
+      "sourceSeconds": 4
+    },
+    {
+      "shot": "ta-024",
+      "editFrames": 28,
+      "sourceSeconds": 4
+    }
+  ]
+}

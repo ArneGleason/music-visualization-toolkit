@@ -1,0 +1,30 @@
+{
+  "shotId": "ta-001",
+  "originalPath": "generated/storyboard/first-run-starters-v001/ta-001.png",
+  "status": "occluded",
+  "findings": "A1 both rope-gripping hands have curled/overlapping fingers and rope occlusion. A6 four arms remain distinct; clasp grips and overlapping forearms prevent full counts. No exposed extra digit or conclusively missing digit.",
+  "countCertainty": "Low for exact counts; medium for no clear defect",
+  "repair": {
+    "needed": false,
+    "reason": "No clear digit defect distinguishable from normal overlap/occlusion. Preserve selected art.",
+    "generationAttempts": 0
+  },
+  "evidence": {
+    "method": "Original image inspection and 2x enlarged inspection-only crops, no generative enhancement",
+    "cropBoxesPx": [
+      [
+        200,
+        240,
+        460,
+        440
+      ],
+      [
+        1280,
+        390,
+        1580,
+        615
+      ]
+    ]
+  },
+  "standard": "Four fingers plus one thumb; preserve deliberate biological adaptations. clear means no issue in assessable hands, not certification of occluded digits."
+}

@@ -1,0 +1,22 @@
+{
+  "shotId": "ta-011",
+  "output": "generated/storyboard/distraction-starters-v004/ta-011.png",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "source": "generated/storyboard/first-run-starters-v003/ta-011.png",
+  "visible": [
+    "Same single jewel shell intact and markedly duller/darker blue than bright ta010",
+    "Small low pale-blue patch near base; no luminous white core or palm spill",
+    "Broker annoyed with raised dismissive palm, face unobscured",
+    "Single shoulder lookout and Fast Coat retained"
+  ],
+  "caveats": [
+    "Temporal sputter/flicker cannot be shown by still; motion must animate internal light failing without disappearance",
+    "Broker dismissive palm already lifted; animation begins with short hold before completing wave",
+    "Jewel maintains normal daylight facet highlights, which should not be animated as internal illumination"
+  ]
+}

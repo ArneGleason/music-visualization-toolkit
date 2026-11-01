@@ -1,0 +1,36 @@
+{
+  "shotId": "ta-007",
+  "originalPath": "generated/storyboard/first-run-starters-v003/ta-007.png",
+  "status": "occluded",
+  "findings": "A1 rope grips overlap and preserve unresolved one-thumb branching concept without inventing extra digits. Harper near strap grip shows four curled fingers with thumb around strap; hanging hand curled/edge-on. Taffy curtain grip partly behind cloth. No clear count defect.",
+  "countCertainty": "Medium foreground, low A1/curtain grip",
+  "repair": {
+    "needed": false,
+    "reason": "No clear digit defect distinguishable from normal overlap/occlusion. Preserve selected art.",
+    "generationAttempts": 0
+  },
+  "evidence": {
+    "method": "Original image inspection and 2x enlarged inspection-only crops, no generative enhancement",
+    "cropBoxesPx": [
+      [
+        55,
+        30,
+        260,
+        290
+      ],
+      [
+        480,
+        425,
+        700,
+        620
+      ],
+      [
+        1470,
+        300,
+        1560,
+        460
+      ]
+    ]
+  },
+  "standard": "Four fingers plus one thumb; preserve deliberate biological adaptations. clear means no issue in assessable hands, not certification of occluded digits."
+}

@@ -1,0 +1,22 @@
+{
+  "shotId": "ta-017",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/environment-development/first-run-v001/split-reunion-court-v001.png",
+    "generated/character-development/core-threat-refs-v001/BROKER.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "visibleResult": "Medium Harper foreground left checks Taffy already visible right upper ledge, discreet ivory/red key at waist.",
+  "caveats": [
+    "Pipe leak remains stronger than requested minimal trickle.",
+    "Perspective prevents literal height comparison; identities recognizable."
+  ],
+  "outputImage": "generated/storyboard/first-run-starters-v003/ta-017.png",
+  "status": "starter_proposal_for_review"
+}

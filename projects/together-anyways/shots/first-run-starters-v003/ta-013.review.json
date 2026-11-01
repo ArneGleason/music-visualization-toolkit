@@ -1,0 +1,25 @@
+{
+  "shotId": "ta-013",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sourceReferences": [
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/taffy-front-back-v006.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/desert-colony/generated/scene-development/diversion-theft-v005.png"
+  ],
+  "output": "generated/storyboard/first-run-starters-v003/ta-013.png",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "status": "review_needed",
+  "visible": [
+    "Rounded Taffy torso, plum wrap rope waist sack and small hands",
+    "Single asymmetric key partly outside garment held ready to conceal",
+    "Ivory grip red inset and unequal open tips recognizable"
+  ],
+  "caveats": [
+    "Face deliberately cropped for waist insert",
+    "Fine key edges differ slightly from scene reference; overall form/scale retained"
+  ]
+}

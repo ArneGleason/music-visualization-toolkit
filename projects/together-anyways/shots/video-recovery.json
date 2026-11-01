@@ -1,0 +1,278 @@
+{
+  "policy": "MP4s intentionally not in this GitHub media snapshot. Existing Mac files stay local. Download original selected takes from Kling into these project-relative paths, then render animatic. Do not regenerate or spend credits to restore. Empty resultUrls require the matching receipt/prompt and Kling creation history.",
+  "klingProject": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657",
+  "shots": [
+    {
+      "shotId": "ta-000",
+      "displayId": "S01-SH01",
+      "localVideo": "generated/kling-pilot-v001/ta-000.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 109,
+      "resultUrls": [],
+      "receiptFiles": [
+        "shots/kling-pilot-v001/batch.json"
+      ],
+      "lookupHint": "Opening regional aerial, 7-second Kling4 source; match the first pilot entry and starter. Local original download named kling_20261101_VIDEO_One_contin_112_0.mp4."
+    },
+    {
+      "shotId": "ta-001",
+      "displayId": "S01-SH02",
+      "localVideo": "generated/kling-action-v003/ta-001.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 100,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945574682765049921&materialId=325442572524235"
+      ],
+      "receiptFiles": [
+        "shots/kling-action-v003/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-002",
+      "displayId": "S01-SH03",
+      "localVideo": "generated/kling-action-v003/ta-002.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 201,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945574773236170767&materialId=325442593533836"
+      ],
+      "receiptFiles": [
+        "shots/kling-action-v003/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-003",
+      "displayId": "S01-SH04",
+      "localVideo": "generated/storyboard/boss-whisper-v004/ta-003.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 101,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945648510572048416&materialId=325460174300063"
+      ],
+      "receiptFiles": [
+        "shots/boss-whisper-v004/receipt.json"
+      ]
+    },
+    {
+      "shotId": "ta-004",
+      "displayId": "S01-SH05",
+      "localVideo": "generated/kling-action-v003/ta-004.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 48,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945575007458050070&materialId=325442649301647"
+      ],
+      "receiptFiles": [
+        "shots/kling-action-v003/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-004b",
+      "displayId": "S01-SH06",
+      "localVideo": "generated/storyboard/shot6-new-starter-v008/ta-004b.mp4",
+      "sourceInFrame": 12,
+      "editFrames": 78,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945657447653048382&materialId=325462304315869"
+      ],
+      "receiptFiles": [
+        "shots/shot6-new-starter-v008/receipt.json"
+      ]
+    },
+    {
+      "shotId": "ta-005",
+      "displayId": "S01-SH07",
+      "localVideo": "generated/kling-action-v003/ta-005.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 140,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945575189234987038&materialId=325442693531027"
+      ],
+      "receiptFiles": [
+        "shots/kling-action-v003/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-006",
+      "displayId": "S01-SH08",
+      "localVideo": "generated/kling-action-v003/ta-006.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 106,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945575267483926610&materialId=325442711303641"
+      ],
+      "receiptFiles": [
+        "shots/kling-action-v003/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-007",
+      "displayId": "S02-SH01",
+      "localVideo": "generated/kling-scene02-v013/ta-007.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 50,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945670818309226582&materialId=325465492307670"
+      ],
+      "receiptFiles": [
+        "shots/kling-scene02-v013/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-008",
+      "displayId": "S02-SH02",
+      "localVideo": "generated/kling-scene02-v013/ta-008.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 55,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945671069645144091&materialId=325465552312649"
+      ],
+      "receiptFiles": [
+        "shots/kling-scene02-v013/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-009",
+      "displayId": "S02-SH03",
+      "localVideo": "generated/kling-scene02-v013/ta-009.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 52,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945671268224483361&materialId=325465600537027"
+      ],
+      "receiptFiles": [
+        "shots/kling-scene02-v013/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-009b",
+      "displayId": "S02-SH03B",
+      "localVideo": "generated/kling-scene02-v013/ta-009b.mp4",
+      "sourceInFrame": 0,
+      "editFrames": 53,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945671442711064668&materialId=325465641535628"
+      ],
+      "receiptFiles": [
+        "shots/kling-scene02-v013/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-010",
+      "displayId": "S02-SH04",
+      "localVideo": "generated/kling-scene02-v013/ta-010.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 46,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945671611356299275&materialId=325465681536830"
+      ],
+      "receiptFiles": [
+        "shots/kling-scene02-v013/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-011",
+      "displayId": "S02-SH05",
+      "localVideo": "generated/kling-scene02-v013/ta-011.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 68,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945671810161459278&materialId=325465729520230"
+      ],
+      "receiptFiles": [
+        "shots/kling-scene02-v013/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-012",
+      "displayId": "S02-SH06",
+      "localVideo": "generated/kling-scene02-v013/ta-012.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 67,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945671987135918090&materialId=325465771317406"
+      ],
+      "receiptFiles": [
+        "shots/kling-scene02-v013/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-013",
+      "displayId": "S02-SH07",
+      "localVideo": "generated/kling-scene02-v013/ta-013.mp4",
+      "sourceInFrame": 24,
+      "editFrames": 29,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945672175900569688&materialId=325465816524433"
+      ],
+      "receiptFiles": [
+        "shots/kling-scene02-v013/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-014",
+      "displayId": "S03-SH01",
+      "localVideo": "generated/kling-scene03-v016/ta-014.mp4",
+      "sourceInFrame": 60,
+      "editFrames": 19,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945683598358364178&materialId=325468539308675"
+      ],
+      "receiptFiles": [
+        "shots/scene03-motion-direction-v016/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-014b",
+      "displayId": "S03-SH02",
+      "localVideo": "generated/kling-scene03-v016/ta-014b.mp4",
+      "sourceInFrame": 54,
+      "editFrames": 18,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945683739786100779&materialId=325468573306449"
+      ],
+      "receiptFiles": [
+        "shots/scene03-motion-direction-v016/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-014c",
+      "displayId": "S03-SH03",
+      "localVideo": "generated/kling-scene03-v016/ta-014c.mp4",
+      "sourceInFrame": 0,
+      "editFrames": 48,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945683913475764290&materialId=325468614313843"
+      ],
+      "receiptFiles": [
+        "shots/scene03-motion-direction-v016/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-015",
+      "displayId": "S03-SH04",
+      "localVideo": "generated/kling-scene03-v016/ta-015.mp4",
+      "sourceInFrame": 0,
+      "editFrames": 34,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945684084553035795&materialId=325468655307652"
+      ],
+      "receiptFiles": [
+        "shots/scene03-motion-direction-v016/batch.json"
+      ]
+    },
+    {
+      "shotId": "ta-016",
+      "displayId": "S03-SH05",
+      "localVideo": "generated/kling-scene03-v016/ta-016.mp4",
+      "sourceInFrame": 0,
+      "editFrames": 56,
+      "resultUrls": [
+        "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945684281480462349&materialId=325468702531624"
+      ],
+      "receiptFiles": [
+        "shots/scene03-motion-direction-v016/batch.json"
+      ]
+    }
+  ]
+}

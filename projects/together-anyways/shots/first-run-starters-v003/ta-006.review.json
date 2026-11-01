@@ -1,0 +1,24 @@
+{
+  "shotId": "ta-006",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/environment-development/first-run-v001/market-approach-v001.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "visibleResult": "Close two-shot confirming eyelines, portly Taffy with full cheeks and large ears, three scars each side, Harper beginning small hand cue beside chipped blue pipe.",
+  "caveats": [
+    "Leads appear seated/crouched in alcove, requiring movement lead-out before subsequent standing shot.",
+    "Pipe landmark is foreground here, a staging proposal rather than surveyed location."
+  ],
+  "status": "starter_for_review",
+  "output": "generated/storyboard/first-run-starters-v003/ta-006.png",
+  "promptFile": "shots/first-run-starters-v003/ta-006.prompt.txt",
+  "promptLockVerifiedExact": true,
+  "referenceFrameMode": "source_start_with_1sec_in_handle"
+}

@@ -1,0 +1,24 @@
+{
+  "shotId": "ta-020",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/storyboard/first-run-starters-v003/ta-020.png",
+    "generated/storyboard/first-run-starters-v003/ta-019.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "../desert-colony/generated/scene-development/diversion-theft-v005.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "visibleResult": "Corrected fixed sandstone left-jamb reader; Taffy holds key outside, Harper behind.",
+  "caveats": [
+    "Key remains rounder/thinner than exact source; square lower limb needs production continuity pass.",
+    "Harper glances toward key instead of exterior approach."
+  ],
+  "selectedPrompt": "ta-020.take2.prompt.txt",
+  "outputImage": "generated/storyboard/first-run-starters-v003/ta-020.png",
+  "status": "starter_proposal_for_review"
+}

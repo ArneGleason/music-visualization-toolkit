@@ -1,0 +1,38 @@
+{
+  "shotId": "ta-015",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sourceReferences": [
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/E1.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/supporting-refs-v004/A1-silhouette-v004.png"
+  ],
+  "output": "generated/storyboard/first-run-starters-v003/ta-015.png",
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "status": "corrected_starter_for_review",
+  "visible": [
+    "Harper moves left with open gap",
+    "Wedge broad blocking stance, distinct ochre vest and cropped trousers",
+    "Shade Stitcher tending rope in background"
+  ],
+  "caveats": [
+    "Wedge blocking hand faces away from Harper; eyeline/action needs review",
+    "Wedge reads taller than154cm relative to Harper despite similar depth",
+    "Pose more advanced than calm pre-step handle; shade edge not at Harper's immediate turn"
+  ],
+  "coordinatorCorrection": {
+    "prompt": "shots/first-run-starters-v003/ta-015-refinement.prompt.txt",
+    "visible": [
+      "Wedge now clearly compact short figure below Harper head height",
+      "Wedge turns toward Harper and blocks her route instead of facing away"
+    ],
+    "remaining": [
+      "Exact standing height cannot be measured from bent moving pose"
+    ],
+    "original": "generated/storyboard/first-run-starters-v003/ta-015-take01.png"
+  }
+}

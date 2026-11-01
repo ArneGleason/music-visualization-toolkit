@@ -1,0 +1,22 @@
+{
+  "shotId": "ta-023",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/storyboard/first-run-starters-v003/ta-023.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "visibleResult": "First interior wanted portrait activation, recognizable leads, electrician/messenger; exposed jewel removed in targeted correction.",
+  "caveats": [
+    "Portraits fully legible at starter rather than partly faded activation.",
+    "Wanted text absent by design; deterministic overlay if desired."
+  ],
+  "outputImage": "generated/storyboard/first-run-starters-v003/ta-023.png",
+  "status": "starter_proposal_for_review",
+  "selectedPrompt": "ta-023.take2.prompt.txt"
+}

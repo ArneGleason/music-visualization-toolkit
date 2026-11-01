@@ -1,0 +1,44 @@
+{
+  "shotId": "ta-002",
+  "shotLabel": "S01-SH02",
+  "title": "Find the target",
+  "output": "generated/storyboard/first-run-starters-v001/ta-002.png",
+  "promptFile": "shots/first-run-starters-v001/ta-002.prompt.txt",
+  "references": [
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/TAFFY.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/BROKER.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/supporting-refs-v001/B1-doorpost-v001.png"
+  ],
+  "generation": "built-in ImageGen",
+  "successfulGenerations": 1,
+  "preflightNote": "Six-reference call rejected before generation; five-reference call succeeded, retaining forecourt and all four cast references. Market approach inspected for context.",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "status": "pilot_for_review_continuity_correction_required_before_motion",
+  "timing": {
+    "editStartFrame": 209,
+    "editEndFrameExclusive": 410,
+    "fps": 24,
+    "starterRole": "Source clip first frame one-second lead-in before edit in-point; calm observation already staged"
+  },
+  "visible": [
+    "Harper and Taffy already present in shaded left foreground, readable faces and established costumes",
+    "Harper taller than Taffy; youthful faces retained",
+    "Three healed curved marks visible on Taffy's near cheek",
+    "Broker seated beneath blue shade at depot, exactly one stone-teal lookout perched on shoulder",
+    "Doorpost controls frontage beside broker, recognizable coat and broad bald gray head",
+    "Two chipped blue tanks, barred entry and sunlit lane establish target",
+    "Jewel concealed, no wanted broadcast, text or overlays"
+  ],
+  "caveats": [
+    "MATERIAL PROP CONTINUITY ERROR: ivory horseshoe-like device appears on Doorpost belt, rather than securely established on broker; must correct before motion generation or acceptance as continuity frame.",
+    "Taffy face closer to profile than three-quarter; far cheek marks cannot be verified.",
+    "Detailed broker iris, key geometry and lookout anatomy are small at this framing and not fully verifiable.",
+    "Source delivered 1672x941, approximately16:9, not native1920x1080; keep original and normalize in editorial pipeline if needed.",
+    "Only one generation retained for pilot review; no subjective retry."
+  ]
+}

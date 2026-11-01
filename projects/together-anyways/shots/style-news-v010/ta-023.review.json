@@ -1,0 +1,15 @@
+{
+  "shotId": "ta-023",
+  "status": "ready-for-review",
+  "tool": "builtin-imagegen",
+  "attempts": 1,
+  "image": "generated/storyboard/style-news-v010/ta-023.png",
+  "prompt": "shots/style-news-v010/ta-023.prompt.txt",
+  "review": "Tight nearly frontal monitor insert retains same grey-haired slate-jacket newsreader and cyan split-screen graphics. Enlarged right aerial panel clearly shows blue-tank depot, seated white-robed broker, rust-clad Harper offering small blue glint, plum-clad Taffy reaching at broker side. Camera elevated, partners' facial features remain indistinct. Scene identity clearer without mugshots/text. Warm casing/pipes preserve relay location.",
+  "caveats": [
+    "Broker face silhouette is readable more than partners; Harper/Taffy faces remain small and non-identifying.",
+    "High aerial geometry includes several tanks; exact depot geometry is interpretive, consistent visual landmarks retained.",
+    "Tiny action hand details cannot be anatomically counted at surveillance scale.",
+    "No timing or shotlist changes by worker."
+  ]
+}

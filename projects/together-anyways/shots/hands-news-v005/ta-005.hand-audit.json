@@ -1,0 +1,42 @@
+{
+  "shotId": "ta-005",
+  "originalPath": "generated/storyboard/first-run-starters-v003/ta-005.png",
+  "status": "clear",
+  "findings": "Broker two resting ringed hands consistent with four fingers and thumb; Doorpost relaxed hand consistent five with curled fingertips. Wedge crate contact occludes lower fingertips; Long Reach distant small hands coherent. No definite error.",
+  "countCertainty": "Medium broker/Doorpost, low distant/contact hands",
+  "repair": {
+    "needed": false,
+    "reason": "No clear digit defect distinguishable from normal overlap/occlusion. Preserve selected art.",
+    "generationAttempts": 0
+  },
+  "evidence": {
+    "method": "Original image inspection and 2x enlarged inspection-only crops, no generative enhancement",
+    "cropBoxesPx": [
+      [
+        110,
+        315,
+        430,
+        560
+      ],
+      [
+        860,
+        430,
+        1130,
+        570
+      ],
+      [
+        1220,
+        490,
+        1490,
+        580
+      ],
+      [
+        520,
+        360,
+        670,
+        510
+      ]
+    ]
+  },
+  "standard": "Four fingers plus one thumb; preserve deliberate biological adaptations. clear means no issue in assessable hands, not certification of occluded digits."
+}

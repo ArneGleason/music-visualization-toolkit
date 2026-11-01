@@ -1,0 +1,214 @@
+[
+  {
+    "id": "ta-014",
+    "startAnchor": "line-014:start",
+    "title": "Fine, never mind",
+    "location": "depot",
+    "camera": "Medium on Harper, broker in background",
+    "description": "Harper walks nonchalantly toward the public-left exit with a dry dismissive shrug and fake jewel pocketed. Broker, Fast Coat and Doorpost all watch her suspiciously; no command or pursuit yet.",
+    "cast": [
+      "HARPER",
+      "BROKER",
+      "B4",
+      "B1"
+    ],
+    "continuity": "Acting intention only: no new spoken dialogue or text. Key is with Taffy offscreen. Fast Coat has not reached for her yet. Broker remains seated with one lookout and Doorpost guarding him. Eyeline revision v015: all three men track Harper/public-left; slim Fast Coat stays screen-left of seated broker, Doorpost behind/right. Preserve single shoulder companion and progression from suspicion to command.",
+    "promptLock": "FIRST RUN SHOT LOCK v002: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. The news is already playing inside the relay hall when the partners reach Scene 5; its presenter and distant aerial theft inset do not clearly identify their faces. Humanoid hands have four fingers and one thumb; preserve established subtle biological adaptations without inventing missing or extra digits. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+    "generationApproach": "Kling4 Keyframes1080p generated from approved starter; selected for user motion review.",
+    "status": "motion_review_candidate",
+    "batch": "door-grip-v009",
+    "startFrame": 1303,
+    "endFrameExclusive": 1322,
+    "frames": 19,
+    "startSeconds": 54.291666666666664,
+    "endSeconds": 55.083333333333336,
+    "start": "22.1.914",
+    "end": "22.3.75",
+    "sceneId": "S03",
+    "sceneName": "Separate escapes",
+    "shotNumber": 1,
+    "displayId": "S03-SH01",
+    "referenceFrameMode": "start",
+    "videoHandles": {
+      "inFrames": 24,
+      "outFrames": 24,
+      "fps": 24,
+      "requestedSourceFrames": 67,
+      "editInSourceFrame": 24,
+      "editOutSourceFrameExclusive": 43,
+      "sourceStartMasterFrame": 1279,
+      "sourceEndMasterFrameExclusive": 1346,
+      "status": "generated",
+      "note": "Shrug resolves into departure; three men keep watching. Later source has more facial/hair simplification, outside selected cut.",
+      "availableInFrames": 24,
+      "availableOutFrames": 54
+    },
+    "starterImage": "generated/storyboard/scene03-eyelines-v015/ta-014.png",
+    "starterRevision": "v015",
+    "starterReview": "shots/scene03-eyelines-v015/ta-014.review.json",
+    "blockingRevision": "scene03-eyelines-v015",
+    "motionDirection": {
+      "revision": "scene03-motion-direction-v016",
+      "status": "generated_for_review",
+      "promptFile": "shots/scene03-motion-direction-v016/ta-014.prompt.txt",
+      "generationSeconds": 4,
+      "plannedSourceInFrame": 24,
+      "intent": "Nonchalant departure; three suspicious observers, still hesitating.",
+      "acting": "Harper wants to leave without admitting that anything mattered. Already moving screen-left, she finishes one small dismissive shrug, lets her raised hand drop and turns her attention forward with a dry, unconcerned half-smile: forget this ever happened. Her pace stays casual and purposeful. The seated broker and both henchmen track her with their eyes, suspicious and briefly uncertain whether to intervene. Keep the fake jewel pocketed. During source 1.00\u20131.79s, make the shrug resolve into a definite departing step; nobody pursues yet. A short restrained lateral camera follow favors Harper while keeping the three watching faces readable. Continue her departure naturally through the tail."
+    },
+    "videoSource": "generated/kling-scene03-v016/ta-014.mp4",
+    "videoEdit": {
+      "sourceInFrame": 24,
+      "zoomStart": 1,
+      "zoomEnd": 1,
+      "focusStart": [
+        0.5,
+        0.5
+      ],
+      "focusEnd": [
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "id": "ta-015",
+    "startAnchor": "23.3",
+    "title": "Through the gap",
+    "location": "depot",
+    "camera": "Rear three-quarter pursuit angle, forward gaze into leftward route",
+    "description": "Wedge intercepts from the side alley too late. Harper is already through the gap and accelerates away; he turns to follow, slower. Rear three-quarter running pose advances the previous chase beat.",
+    "cast": [
+      "HARPER",
+      "E1",
+      "A1"
+    ],
+    "continuity": "Preserve leftward escape direction while advancing action, not repeating the same corner/face pose. Show rear-three-quarter head and forward gaze, different stride/shoulder angle from014c. Jewel/key concealed; four fingers plus thumb on countable hands. Shade worker is not deliberately helping.",
+    "promptLock": "FIRST RUN SHOT LOCK v002: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. The news is already playing inside the relay hall when the partners reach Scene 5; its presenter and distant aerial theft inset do not clearly identify their faces. Humanoid hands have four fingers and one thumb; preserve established subtle biological adaptations without inventing missing or extra digits. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+    "generationApproach": "Kling4 Keyframes1080p generated from approved starter; selected for user motion review.",
+    "status": "motion_review_candidate",
+    "batch": "door-grip-v009",
+    "startFrame": 1388,
+    "endFrameExclusive": 1422,
+    "frames": 34,
+    "startSeconds": 57.833333333333336,
+    "endSeconds": 59.25,
+    "start": "23.2.938",
+    "end": "23.4.943",
+    "sceneId": "S03",
+    "sceneName": "Separate escapes",
+    "shotNumber": 4,
+    "displayId": "S03-SH04",
+    "referenceFrameMode": "start",
+    "videoHandles": {
+      "inFrames": 24,
+      "outFrames": 24,
+      "fps": 24,
+      "requestedSourceFrames": 82,
+      "editInSourceFrame": 24,
+      "editOutSourceFrameExclusive": 58,
+      "sourceStartMasterFrame": 1364,
+      "sourceEndMasterFrameExclusive": 1446,
+      "status": "generated",
+      "note": "Harper gains distance; Wedge misses and recovers, with a pronounced low stumble. User motion review required.",
+      "availableInFrames": 24,
+      "availableOutFrames": 39
+    },
+    "starterImage": "generated/storyboard/opening-continuity-v006/ta-015.png",
+    "starterRevision": "v006",
+    "starterReview": "shots/opening-continuity-v006/ta-015.review.json",
+    "blockingRevision": "distraction-v004",
+    "motionDirection": {
+      "revision": "scene03-motion-direction-v016",
+      "status": "generated_for_review",
+      "promptFile": "shots/scene03-motion-direction-v016/ta-015.prompt.txt",
+      "generationSeconds": 4,
+      "plannedSourceInFrame": 24,
+      "intent": "Side-route interception misses; Harper accelerates away, Wedge recovers too late.",
+      "acting": "Moments later, Harper is already entering the next alley, seen from behind in a different running stride. Wedge, the stocky mustard-vest man in the foreground, has tried to intercept from the side route on camera-right. He lunges across her path a fraction too late: she drives through the remaining gap, pumps her arms and accelerates down the alley before he can close it. During source 1.00\u20132.42s show the near interception turning decisively into a widening gap. He plants, turns and takes a heavy recovery step after her, visibly slower; he does not fall or catch her. The shade worker stays absorbed in ordinary work and does not help either side. Follow Harper from the rear three-quarter angle with a brief forward camera move; retain Wedge at the frame edge long enough to read his failure, then let her gain distance. Preserve screen-left/depth escape direction. Do not repeat the previous shot\u2019s look-back pose, deke or fall. Continue her running through the tail."
+    },
+    "videoSource": "generated/kling-scene03-v016/ta-015.mp4",
+    "videoEdit": {
+      "sourceInFrame": 24,
+      "zoomStart": 1,
+      "zoomEnd": 1,
+      "focusStart": [
+        0.5,
+        0.5
+      ],
+      "focusEnd": [
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "id": "ta-016",
+    "startAnchor": "24.1",
+    "title": "Waiting above the water",
+    "location": "court",
+    "camera": "Wide on screened upper approach",
+    "description": "Taffy waits partly concealed above the water, discreetly watching for Harper. The Pipe Fitter adjusts a leaking joint, annoyed by a small spurt, while runoff bubbles below.",
+    "cast": [
+      "TAFFY",
+      "C1"
+    ],
+    "continuity": "Taffy stays on the screened upper ledge, separate from Harper\u2019s lower route. Credential concealed. Fitter is occupied with maintenance and does not help or notice him.",
+    "promptLock": "FIRST RUN SHOT LOCK v002: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. The news is already playing inside the relay hall when the partners reach Scene 5; its presenter and distant aerial theft inset do not clearly identify their faces. Humanoid hands have four fingers and one thumb; preserve established subtle biological adaptations without inventing missing or extra digits. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+    "generationApproach": "Kling4 Keyframes1080p generated from approved starter; selected for user motion review.",
+    "status": "motion_review_candidate",
+    "batch": "door-grip-v009",
+    "startFrame": 1422,
+    "endFrameExclusive": 1478,
+    "frames": 56,
+    "startSeconds": 59.25,
+    "endSeconds": 61.583333333333336,
+    "start": "23.4.943",
+    "end": "24.4.275",
+    "sceneId": "S03",
+    "sceneName": "Separate escapes",
+    "shotNumber": 5,
+    "displayId": "S03-SH05",
+    "referenceFrameMode": "start",
+    "videoHandles": {
+      "inFrames": 24,
+      "outFrames": 24,
+      "fps": 24,
+      "requestedSourceFrames": 104,
+      "editInSourceFrame": 24,
+      "editOutSourceFrameExclusive": 80,
+      "sourceStartMasterFrame": 1398,
+      "sourceEndMasterFrameExclusive": 1502,
+      "status": "generated",
+      "note": "Watchful Taffy and pipe-maintenance beat; review source for leakage and identity continuity.",
+      "availableInFrames": 24,
+      "availableOutFrames": 41
+    },
+    "starterImage": "generated/storyboard/first-run-starters-v003/ta-016.png",
+    "starterRevision": "v003",
+    "starterReview": "shots/first-run-starters-v003/ta-016.review.json",
+    "motionDirection": {
+      "revision": "scene03-motion-direction-v016",
+      "status": "generated_for_review",
+      "promptFile": "shots/scene03-motion-direction-v016/ta-016.prompt.txt",
+      "generationSeconds": 5,
+      "plannedSourceInFrame": 24,
+      "intent": "Taffy keeps lookout from cover; fitter battles a small irritating leak.",
+      "acting": "Taffy waits for Harper, watchful rather than idle. Keep his portly build, large ears and plum clothing. Behind the upper ledge screen, he lowers his head and shoulders a little, keeps most of his body concealed and peers around the blue pipe toward the approach; one small glance checks the other direction, then he settles back into cover without leaving. Below, the pipe fitter concentrates on a stubborn fitting. Water visibly bubbles through the existing runoff channel. A small intermittent jet spits from the joint she is adjusting; she recoils just a little, gives the leak an annoyed look and deliberately tightens the fitting with her tool. The spray diminishes to a dribble as she checks her work. During source 1.00\u20133.33s overlap Taffy\u2019s discreet lookout with her spray\u2013irritation\u2013adjustment beat. Keep the frame quiet and spatially clear: steady wide composition with only a very slight inward drift. She is attending to maintenance, not helping or noticing Taffy. The stolen credential remains concealed; Harper and pursuers do not enter. Continue water flow and her work naturally through the tail."
+    },
+    "videoSource": "generated/kling-scene03-v016/ta-016.mp4",
+    "videoEdit": {
+      "sourceInFrame": 24,
+      "zoomStart": 1,
+      "zoomEnd": 1,
+      "focusStart": [
+        0.5,
+        0.5
+      ],
+      "focusEnd": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+]

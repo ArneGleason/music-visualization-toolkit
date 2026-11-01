@@ -1,0 +1,22 @@
+{
+  "shotId": "ta-018",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/environment-development/first-run-v001/split-reunion-court-v001.png",
+    "generated/storyboard/first-run-starters-v003/ta-017.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "visibleResult": "Medium two-shot of reunited leads beneath blue elbow, relieved eyeline, right staircase visible.",
+  "caveats": [
+    "Figures have begun closing gap rather than static separated stance; usable initial reunion beat.",
+    "Key concealed; Taffy portly torso and large ears clearly visible."
+  ],
+  "outputImage": "generated/storyboard/first-run-starters-v003/ta-018.png",
+  "status": "starter_proposal_for_review"
+}

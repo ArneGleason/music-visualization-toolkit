@@ -89,7 +89,8 @@ def main():
     env = os.environ.copy()
     fonts = str(PROJECT.parent / 'assets')
     env['EFFECTCRAFT_FONT_DIRS'] = fonts + (os.pathsep + env['EFFECTCRAFT_FONT_DIRS'] if env.get('EFFECTCRAFT_FONT_DIRS') else '')
-    command = [executable, '--project', str(PROJECT)]
+    # The native app takes a positional project; --project is CLI-only.
+    command = [executable, str(PROJECT)] if args.command == 'gui' else [executable, '--project', str(PROJECT)]
     if args.command != 'gui':
         command += [args.command, *args.arguments]
         raise SystemExit(subprocess.run(command, cwd=PROJECT.parent, env=env).returncode)

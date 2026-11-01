@@ -1,0 +1,31 @@
+{
+  "candidateId": "HARPER",
+  "sources": [
+    "../desert-colony/generated/character-development/harper-and-partner-v001.png",
+    "../desert-colony/generated/scene-development/diversion-theft-v005.png"
+  ],
+  "source": "../desert-colony/generated/character-development/harper-and-partner-v001.png",
+  "output": "generated/character-development/core-threat-refs-v001/HARPER.png",
+  "heightCm": 158,
+  "heightStatus": "proposed creative scale",
+  "crownY": 0.04,
+  "groundY": 0.96,
+  "visibleTraits": [
+    "Copper curls, uneven fringe, youthful freckled facial identity retained",
+    "Rust patched vest, scarf, pale shirt, olive trousers, boots, satchel and flask retained",
+    "Full-body relaxed upright figure alone"
+  ],
+  "caveats": [
+    "Near-frontal face remains a new generated interpretation pending user continuity review",
+    "Crown estimates head top under voluminous hair; landmark is approximate",
+    "Front/right boot lower than rear/left boot due to mild perspective"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "promptFile": "character-development/core-threat-refs-v001/HARPER.prompt.txt",
+  "status": "identity_reference_for_review",
+  "dimensions": [
+    1024,
+    1536
+  ]
+}

@@ -1,0 +1,23 @@
+OPENING AND ADJACENT CONTINUITY v006
+27cuts,1956frames/81.5s at24fps. New openingta000 occupies0–109frames
+(4.542seconds, grid4.3); retained marketta001 now109–209. All later cuts,
+lyrics and timing sources unchanged. Scene01 renumbered1–7; stableids retained.
+Opening geography: escarpment city at left, blue utility district, foreground
+canyon/bridge, branching roads to large terraced mine at right, twin distant
+mesas. Retain these anchors for ship ascent/failure/return callback, whose cause
+is still undecided. Second take chosen; altitude limitation: city remains20–25%
+of frame, high regional aerial rather than truly near-suborbital. Needs user
+altitude review. Previous take retained as closer geography study.
+
+TA015 now rear-facing Harper running away-left, forwardgaze/extendedstride,
+Wedgeforegroundright, A1ordinarywork. Strongly distinguishes prior014c lookback
+dodge. Starts a stride past Wedge; motion should continue escape rather than
+resetting her before the gap. Adjacent audit25pairs found014c→015 only clear
+pose-copy defect.002→003 watch in motion; other cut-ins justified. New review
+rule saved in AGENTS.md and video-reference-workflow.txt.
+
+Navigator: previous/next shot, scene/shot dropdown, [/] shortcuts; current shot
+tracks playback. --shotlist supplies authoritative frame-boundary metadata.
+Backend unit tests cover partial-preview/exclusive edges and frame-base mapping;
+browser checks confirm next/previous, shortcut, dropdown, last-shot disabling,
+and live playback selection. Saved notes unchanged. Previous render retained.

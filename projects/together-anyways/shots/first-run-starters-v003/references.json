@@ -1,0 +1,596 @@
+{
+  "batch": "first-run-starters-v003",
+  "status": "review_pending",
+  "totalShots": 24,
+  "newOrRevised": 23,
+  "reviews": [
+    {
+      "shotId": "ta-002",
+      "status": "prop_ownership_corrected_for_review",
+      "output": "generated/storyboard/first-run-starters-v003/ta-002.png",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "sources": [
+        "generated/storyboard/first-run-starters-v002/ta-002.png",
+        "generated/character-development/core-threat-refs-v001/BROKER.png"
+      ],
+      "visibleChanges": [
+        "Doorpost belt now clear of ivory device and holster",
+        "Device in holster on seated broker hip",
+        "Portly Taffy and large ear retained"
+      ],
+      "caveats": [
+        "Minor image-wide regeneration variation",
+        "Lower key geometry remains hidden in holster"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shotId": "ta-003",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/environment-development/first-run-v001/market-approach-v001.png",
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "generated/character-development/taffy-front-back-v006.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "visibleResult": "Medium two-shot, Harper beginning low cue, Taffy rounded torso/full cheeks/large ears reading clearly, matching costumes, market tanks behind.",
+      "caveats": [
+        "Far cheek scar pattern partially obscured by angle.",
+        "Still image does not validate planned motion."
+      ],
+      "status": "starter_for_review",
+      "output": "generated/storyboard/first-run-starters-v003/ta-003.png",
+      "promptFile": "shots/first-run-starters-v003/ta-003.prompt.txt",
+      "promptLockVerifiedExact": true,
+      "referenceFrameMode": "source_start_with_1sec_in_handle"
+    },
+    {
+      "shotId": "ta-004",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/environment-development/first-run-v001/market-approach-v001.png",
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "generated/character-development/taffy-front-back-v006.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "selectedPrompt": "ta-004-take02.prompt.txt",
+      "visibleResult": "Information display with schematic only, both leads observing at left, empty route beyond.",
+      "caveats": [
+        "First invalid take introduced unrelated guards and broker; preserved as ta-004-take01-invalid.png.",
+        "Screen location reframed to left-side corner rather than original right wall; geography proposal needs shot continuity review.",
+        "Rear angle limits frontal identity assessment."
+      ],
+      "status": "starter_for_review",
+      "output": "generated/storyboard/first-run-starters-v003/ta-004.png",
+      "promptFile": "shots/first-run-starters-v003/ta-004-take02.prompt.txt",
+      "promptLockVerifiedExact": true,
+      "referenceFrameMode": "source_start_with_1sec_in_handle"
+    },
+    {
+      "shotId": "ta-005",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+        "generated/character-development/core-threat-refs-v001/BROKER.png",
+        "generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+        "generated/character-development/core-threat-refs-v001/E1.png",
+        "generated/character-development/core-threat-refs-v001/E2.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "visibleResult": "Observed wide through alcove foreground; three distinct guards and seated broker with one shoulder lookout. Ivory/red key visible in broker belt only. Wedge poised at crate.",
+      "caveats": [
+        "Long Reach stands deeper by storage gate rather than foreground emphasis.",
+        "Exact key prong lengths hidden in holder; no claim complete prop geometry verified."
+      ],
+      "status": "starter_for_review",
+      "output": "generated/storyboard/first-run-starters-v003/ta-005.png",
+      "promptFile": "shots/first-run-starters-v003/ta-005.prompt.txt",
+      "promptLockVerifiedExact": true,
+      "referenceFrameMode": "source_start_with_1sec_in_handle"
+    },
+    {
+      "shotId": "ta-006",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/environment-development/first-run-v001/market-approach-v001.png",
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "generated/character-development/taffy-front-back-v006.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "visibleResult": "Close two-shot confirming eyelines, portly Taffy with full cheeks and large ears, three scars each side, Harper beginning small hand cue beside chipped blue pipe.",
+      "caveats": [
+        "Leads appear seated/crouched in alcove, requiring movement lead-out before subsequent standing shot.",
+        "Pipe landmark is foreground here, a staging proposal rather than surveyed location."
+      ],
+      "status": "starter_for_review",
+      "output": "generated/storyboard/first-run-starters-v003/ta-006.png",
+      "promptFile": "shots/first-run-starters-v003/ta-006.prompt.txt",
+      "promptLockVerifiedExact": true,
+      "referenceFrameMode": "source_start_with_1sec_in_handle"
+    },
+    {
+      "shotId": "ta-007",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/environment-development/first-run-v001/market-approach-v001.png",
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "generated/character-development/taffy-front-back-v006.png",
+        "generated/character-development/supporting-refs-v004/A1-silhouette-v004.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "selectedPrompt": "ta-007-take02.prompt.txt",
+      "visibleResult": "Three intended people only: Harper left ready for public lane, Taffy concealed separately right, A1 rope worker at left.",
+      "caveats": [
+        "First take invalid extra human broker and guard retained separately.",
+        "Harper already has one foot slightly lifted; use as onset of first step rather than wholly still stance.",
+        "A1 standing on work crate makes apparent stature taller; no literal height comparison."
+      ],
+      "status": "starter_for_review",
+      "output": "generated/storyboard/first-run-starters-v003/ta-007.png",
+      "promptFile": "shots/first-run-starters-v003/ta-007-take02.prompt.txt",
+      "promptLockVerifiedExact": true,
+      "referenceFrameMode": "source_start_with_1sec_in_handle"
+    },
+    {
+      "shotId": "ta-008",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "generated/character-development/taffy-front-back-v006.png",
+        "generated/character-development/core-threat-refs-v001/BROKER.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "visibleResult": "Over Harper shoulder, seated broker center with one lookout and own belt-held key; Taffy waits in far-right screened tank/pipe strip.",
+      "caveats": [
+        "Taffy partly concealed; portly torso less emphatic at distance than close shots but full cheeks/large ears retained.",
+        "Screening uses tanks/pipes more than cloth; ensure lookout eyeline remains directed left during motion."
+      ],
+      "status": "starter_for_review",
+      "output": "generated/storyboard/first-run-starters-v003/ta-008.png",
+      "promptFile": "shots/first-run-starters-v003/ta-008.prompt.txt",
+      "promptLockVerifiedExact": true,
+      "referenceFrameMode": "source_start_with_1sec_in_handle"
+    },
+    {
+      "shotId": "ta-009",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+        "generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+        "generated/character-development/core-threat-refs-v001/E1.png",
+        "generated/character-development/core-threat-refs-v001/E2.png",
+        "generated/character-development/supporting-refs-v003/B5-stillwater-v001-take02.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "visibleResult": "Doorpost dominant medium/full framing with empty hands/belt; Wedge poised at crate, Long Reach near storage gate, Stillwater watches behind. Exactly intended four guards, no key or creature.",
+      "caveats": [
+        "Stillwater gaze goes toward public approach rather than explicitly down at hands.",
+        "Crate already occupies much of lane; animate a short closing shift rather than large relocation.",
+        "Doorpost feet partly cropped as allowed medium framing."
+      ],
+      "status": "starter_for_review",
+      "output": "generated/storyboard/first-run-starters-v003/ta-009.png",
+      "promptFile": "shots/first-run-starters-v003/ta-009.prompt.txt",
+      "promptLockVerifiedExact": true,
+      "referenceFrameMode": "source_start_with_1sec_in_handle"
+    },
+    {
+      "shotId": "ta-010",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sourceReferences": [
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/BROKER.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/desert-colony/generated/scene-development/diversion-theft-v005.png"
+      ],
+      "output": "generated/storyboard/first-run-starters-v003/ta-010.png",
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "status": "review_needed",
+      "visible": [
+        "Harper alone facing seated broker in medium frame",
+        "Jewel supported by hand; key correctly on broker belt",
+        "Established faces and costume recognizable",
+        "Exactly one lookout restored on broker shoulder"
+      ],
+      "caveats": [
+        "Jewel fully displayed rather than only initial glimpse; hold precedes next action"
+      ],
+      "selectedPrompt": "shots/first-run-starters-v003/ta-010.take02.prompt.txt",
+      "correction": "Restored missing shoulder lookout preserving composition and key ownership"
+    },
+    {
+      "shotId": "ta-011",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sourceReferences": [
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/BROKER.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/desert-colony/generated/scene-development/diversion-theft-v005.png"
+      ],
+      "output": "generated/storyboard/first-run-starters-v003/ta-011.png",
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "status": "review_needed",
+      "visible": [
+        "Jewel hand and broker gaze close-up",
+        "Harper and Fast Coat recognizable; organic tail visible",
+        "Exactly one lookout restored beside broker head, looking at jewel"
+      ],
+      "caveats": [
+        "Insert remains face-inclusive rather than very tight jewel-only",
+        "Lookout fin shape more elaborate than full-body source; review continuity"
+      ],
+      "selectedPrompt": "shots/first-run-starters-v003/ta-011.take02.prompt.txt",
+      "correction": "Restored missing shoulder lookout preserving close composition"
+    },
+    {
+      "shotId": "ta-012",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sourceReferences": [
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/taffy-front-back-v006.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/BROKER.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/desert-colony/generated/scene-development/diversion-theft-v005.png"
+      ],
+      "output": "generated/storyboard/first-run-starters-v003/ta-012.png",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "status": "review_needed",
+      "visible": [
+        "Key still seated on broker belt with ivory grip/red inset, Taffy hand just approaching",
+        "Plum wrap rope and sack confirm current costume",
+        "Single lookout partially visible at crop top"
+      ],
+      "caveats": [
+        "Two belt buckles visible on broker; costume construction varies",
+        "Taffy head intentionally out of insert, physique partly cropped",
+        "Lower key geometry obscured by holster as expected"
+      ]
+    },
+    {
+      "shotId": "ta-013",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sourceReferences": [
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/taffy-front-back-v006.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/desert-colony/generated/scene-development/diversion-theft-v005.png"
+      ],
+      "output": "generated/storyboard/first-run-starters-v003/ta-013.png",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "status": "review_needed",
+      "visible": [
+        "Rounded Taffy torso, plum wrap rope waist sack and small hands",
+        "Single asymmetric key partly outside garment held ready to conceal",
+        "Ivory grip red inset and unequal open tips recognizable"
+      ],
+      "caveats": [
+        "Face deliberately cropped for waist insert",
+        "Fine key edges differ slightly from scene reference; overall form/scale retained"
+      ]
+    },
+    {
+      "shotId": "ta-014",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sourceReferences": [
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/BROKER.png"
+      ],
+      "output": "generated/storyboard/first-run-starters-v003/ta-014.png",
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "status": "review_needed",
+      "visible": [
+        "Harper turning left with jewel palmed",
+        "Fast Coat follows, tail visible",
+        "True broker seated with exactly one lookout; Doorpost standing distinctly behind",
+        "Broker holder appears empty; no exposed stolen key"
+      ],
+      "caveats": [
+        "Harper and Fast Coat already in first stride; motion should begin from this phase",
+        "Right edge slightly crops Doorpost"
+      ],
+      "selectedPrompt": "shots/first-run-starters-v003/ta-014.take02.prompt.txt",
+      "correction": "Replaced wrongly seated Doorpost with true broker and restored standing guard"
+    },
+    {
+      "shotId": "ta-015",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sourceReferences": [
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/E1.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/supporting-refs-v004/A1-silhouette-v004.png"
+      ],
+      "output": "generated/storyboard/first-run-starters-v003/ta-015.png",
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "status": "corrected_starter_for_review",
+      "visible": [
+        "Harper moves left with open gap",
+        "Wedge broad blocking stance, distinct ochre vest and cropped trousers",
+        "Shade Stitcher tending rope in background"
+      ],
+      "caveats": [
+        "Wedge blocking hand faces away from Harper; eyeline/action needs review",
+        "Wedge reads taller than154cm relative to Harper despite similar depth",
+        "Pose more advanced than calm pre-step handle; shade edge not at Harper's immediate turn"
+      ],
+      "coordinatorCorrection": {
+        "prompt": "shots/first-run-starters-v003/ta-015-refinement.prompt.txt",
+        "visible": [
+          "Wedge now clearly compact short figure below Harper head height",
+          "Wedge turns toward Harper and blocks her route instead of facing away"
+        ],
+        "remaining": [
+          "Exact standing height cannot be measured from bent moving pose"
+        ],
+        "original": "generated/storyboard/first-run-starters-v003/ta-015-take01.png"
+      }
+    },
+    {
+      "shotId": "ta-016",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sourceReferences": [
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/split-reunion-court-v001.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/taffy-front-back-v006.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/supporting-refs-v004/C1-silhouette-v004.png"
+      ],
+      "output": "generated/storyboard/first-run-starters-v003/ta-016.png",
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "status": "review_needed",
+      "visible": [
+        "Taffy already present on elevated screened right ledge",
+        "Pipe Fitter muscular in bib overalls working gauge below left",
+        "Blue elbow landmark and distinct elevated route; no exposed key or handoff"
+      ],
+      "caveats": [
+        "Taffy lower torso hidden behind screen; portly silhouette cannot fully be verified",
+        "Pipe Fitter neck folds tiny/partly occluded",
+        "Worker is below ledge rather than directly occupying it; path-obstruction motivation weaker"
+      ]
+    },
+    {
+      "shotId": "ta-017",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "generated/character-development/taffy-front-back-v006.png",
+        "generated/environment-development/first-run-v001/split-reunion-court-v001.png",
+        "generated/character-development/core-threat-refs-v001/BROKER.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "visibleResult": "Medium Harper foreground left checks Taffy already visible right upper ledge, discreet ivory/red key at waist.",
+      "caveats": [
+        "Pipe leak remains stronger than requested minimal trickle.",
+        "Perspective prevents literal height comparison; identities recognizable."
+      ],
+      "outputImage": "generated/storyboard/first-run-starters-v003/ta-017.png",
+      "status": "starter_proposal_for_review"
+    },
+    {
+      "shotId": "ta-018",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "generated/character-development/taffy-front-back-v006.png",
+        "generated/environment-development/first-run-v001/split-reunion-court-v001.png",
+        "generated/storyboard/first-run-starters-v003/ta-017.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "visibleResult": "Medium two-shot of reunited leads beneath blue elbow, relieved eyeline, right staircase visible.",
+      "caveats": [
+        "Figures have begun closing gap rather than static separated stance; usable initial reunion beat.",
+        "Key concealed; Taffy portly torso and large ears clearly visible."
+      ],
+      "outputImage": "generated/storyboard/first-run-starters-v003/ta-018.png",
+      "status": "starter_proposal_for_review"
+    },
+    {
+      "shotId": "ta-019",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "generated/character-development/taffy-front-back-v006.png",
+        "generated/environment-development/first-run-v001/access-relay-hall-v001.png",
+        "generated/character-development/supporting-refs-v004/D3-silhouette-v004.png",
+        "generated/character-development/supporting-refs-v004/D6-silhouette-v004.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "visibleResult": "Closed blue door with low left jamb reader, leads outside, Electrician at blank screen and Messenger visible through right-leaf window.",
+      "caveats": [
+        "Window appears clear; glazing is not strongly reflective but there is no open door route.",
+        "Messenger lower-body biology occluded by window framing."
+      ],
+      "outputImage": "generated/storyboard/first-run-starters-v003/ta-019.png",
+      "status": "starter_proposal_for_review"
+    },
+    {
+      "shotId": "ta-020",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/storyboard/first-run-starters-v003/ta-020.png",
+        "generated/storyboard/first-run-starters-v003/ta-019.png",
+        "generated/character-development/taffy-front-back-v006.png",
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "../desert-colony/generated/scene-development/diversion-theft-v005.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "visibleResult": "Corrected fixed sandstone left-jamb reader; Taffy holds key outside, Harper behind.",
+      "caveats": [
+        "Key remains rounder/thinner than exact source; square lower limb needs production continuity pass.",
+        "Harper glances toward key instead of exterior approach."
+      ],
+      "selectedPrompt": "ta-020.take2.prompt.txt",
+      "outputImage": "generated/storyboard/first-run-starters-v003/ta-020.png",
+      "status": "starter_proposal_for_review"
+    },
+    {
+      "shotId": "ta-021",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/storyboard/first-run-starters-v003/ta-021.take1.png",
+        "generated/storyboard/first-run-starters-v003/ta-020.png",
+        "generated/storyboard/first-run-starters-v003/ta-013.png",
+        "generated/character-development/taffy-front-back-v006.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "selectedPrompt": "ta-021.take2.prompt.txt",
+      "visibleResult": "Close insert corrected fixed sandstone jamb, Taffy grips ivory/red key outside socket with gap ready to orient.",
+      "caveats": [
+        "Key retains rounder U inner opening rather than source squared C; source13 lower-limb slot present.",
+        "Socket is substantially taller than key span; physical fit requires prop mechanism pass before video.",
+        "Take1 preserved; no third generation."
+      ],
+      "outputImage": "generated/storyboard/first-run-starters-v003/ta-021.png",
+      "status": "starter_proposal_for_review"
+    },
+    {
+      "shotId": "ta-022",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/storyboard/first-run-starters-v003/ta-022.png",
+        "generated/storyboard/first-run-starters-v003/ta-021.png",
+        "generated/character-development/taffy-front-back-v006.png",
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "generated/character-development/supporting-refs-v004/D3-silhouette-v004.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "visibleResult": "Leads at opened threshold, clerk pen and blank display, corrected rectangular bronze reader on fixed sandstone jamb.",
+      "caveats": [
+        "Electrician full-length trouser silhouette differs from v004 cropped wide legs.",
+        "Clerk eye count difficult to verify at scale."
+      ],
+      "selectedPrompt": "ta-022.take2.prompt.txt",
+      "outputImage": "generated/storyboard/first-run-starters-v003/ta-022.png",
+      "status": "starter_proposal_for_review"
+    },
+    {
+      "shotId": "ta-023",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/storyboard/first-run-starters-v003/ta-023.png",
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "generated/character-development/taffy-front-back-v006.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 2,
+      "visibleResult": "First interior wanted portrait activation, recognizable leads, electrician/messenger; exposed jewel removed in targeted correction.",
+      "caveats": [
+        "Portraits fully legible at starter rather than partly faded activation.",
+        "Wanted text absent by design; deterministic overlay if desired."
+      ],
+      "outputImage": "generated/storyboard/first-run-starters-v003/ta-023.png",
+      "status": "starter_proposal_for_review",
+      "selectedPrompt": "ta-023.take2.prompt.txt"
+    },
+    {
+      "shotId": "ta-024",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        "generated/character-development/core-threat-refs-v001/HARPER.png",
+        "generated/character-development/taffy-front-back-v006.png",
+        "generated/storyboard/first-run-starters-v003/ta-023.png"
+      ],
+      "generation": "built-in ImageGen",
+      "attempts": 1,
+      "visibleResult": "Tight uneasy reaction two-shot, exact recognizable children, broad Taffy/full cheeks/ears, cargo background.",
+      "caveats": [
+        "Glance already exchanged in still; use held start before onward eyeline motion.",
+        "No exposed jewel. No escape resolution."
+      ],
+      "outputImage": "generated/storyboard/first-run-starters-v003/ta-024.png",
+      "status": "starter_proposal_for_review"
+    }
+  ]
+}

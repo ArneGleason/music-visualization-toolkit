@@ -1,0 +1,54 @@
+{
+  "shotId": "ta-000",
+  "output": "generated/storyboard/opening-continuity-v006/ta-000.png",
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "selectedPrompt": "shots/opening-continuity-v006/ta-000.take2.prompt.txt",
+  "sources": [
+    "generated/environment-development/first-run-v001/market-approach-v001.png",
+    "generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+    "generated/environment-development/first-run-v001/access-relay-hall-v001.png"
+  ],
+  "visible": "Pulled-back broad desert region with city left of center, full oval terraced pit right, extensive regional freight roads, canyon/bridge and twin mesas. Nearly straight horizon with slim sky; no curvature, globe, ship or text.",
+  "caveats": [
+    "Pullback is substantial but city remains roughly20\u201325%frame width rather than requested8\u201312%; high regional altitude rather than convincingly near-suborbital.",
+    "No exact compass directions or measured distances established."
+  ],
+  "callbackGeography": [
+    {
+      "feature": "Hero city",
+      "position": "center-left, backed by long stepped escarpment",
+      "recognition": "Tight warm sandstone cluster with several thin blue-capped towers."
+    },
+    {
+      "feature": "Blue utility/cargo district",
+      "position": "right edge of city toward frame center",
+      "recognition": "Several large blue tanks beside cargo gantries."
+    },
+    {
+      "feature": "Dry winding canyon and bridge",
+      "position": "lower-left/foreground to city left edge",
+      "recognition": "Single narrow elevated bridge crosses deep dark canyon toward city."
+    },
+    {
+      "feature": "Y freight-road junction",
+      "position": "lower-middle-right southeast of city in image",
+      "recognition": "Branching pale road connects city, right mine, foreground industrial cluster."
+    },
+    {
+      "feature": "Oval terraced mine",
+      "position": "right midground",
+      "recognition": "Large concentric excavation benches, conveyor routes to processing yards."
+    },
+    {
+      "feature": "Twin flat-topped mesas",
+      "position": "far upper-right horizon",
+      "recognition": "Paired broad isolated mesas above dust bank."
+    }
+  ],
+  "priorTake": "generated/storyboard/opening-continuity-v006/ta-000.take01.png"
+}

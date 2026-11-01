@@ -1,0 +1,39 @@
+{
+  "candidateId": "E2",
+  "name": "Long Reach",
+  "heightCm": 196,
+  "crownY": 0.014,
+  "groundY": 0.976,
+  "role": "Water-syndicate patient interceptor",
+  "changesActuallyVisible": [
+    "Tall rangy mature shaved-headed woman with angular distinct face, long bare arms and large hands.",
+    "Long straight indigo sleeveless coat with ochre repaired hem, charcoal trousers, boots and flask.",
+    "Lowered hand shows widened darker finger-pad surfaces; no added limbs or mechanical anatomy.",
+    "Calm hip-resting stance contrasts with Wedge's broad raised-palm stance."
+  ],
+  "caveats": [
+    "Trouser cut is looser below knees than requested close-cut workwear.",
+    "Grip pads are subtle and mostly seen obliquely; do not treat detailed palm anatomy as verified.",
+    "Height is proposed design metadata; front boot sole establishes approximate ground."
+  ],
+  "status": "new_character_proposal_for_review",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "dimensions": [
+    1086,
+    1448
+  ],
+  "sourceImages": [
+    "generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+    "generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png"
+  ],
+  "sourceRole": "World/style reference only; new identity, no face cloning",
+  "outputImage": "generated/character-development/core-threat-refs-v001/E2.png",
+  "promptFile": "character-development/core-threat-refs-v001/E2.prompt.txt",
+  "calibration": {
+    "crownY": 0.014,
+    "groundY": 0.976,
+    "coordinateSystem": "normalized image Y, anatomical scalp crown excluding hair to front footwear sole",
+    "approximate": true
+  }
+}

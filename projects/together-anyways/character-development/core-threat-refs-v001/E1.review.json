@@ -1,0 +1,39 @@
+{
+  "candidateId": "E1",
+  "name": "Wedge",
+  "heightCm": 154,
+  "crownY": 0.024,
+  "groundY": 0.967,
+  "role": "Water-syndicate lane blocker",
+  "changesActuallyVisible": [
+    "Compact thick-bodied adult with broad hips, soft middle, short sturdy limbs and close cropped hair.",
+    "Ochre quilted jerkin with indigo repairs, cropped charcoal trousers, wide sandaled feet and flask.",
+    "Raised open palm shows darker organic gripping patches across palm and finger pads.",
+    "New face distinct from source references; threatening stance with no weapons."
+  ],
+  "caveats": [
+    "Palm is raised to shoulder rather than requested low position; useful blocker silhouette but gesture echoes Fast Coat.",
+    "Grip pads read as broad darker skin patches; fine ridges are subtle at full-body scale.",
+    "Height is a proposed design specification rather than measured anatomy."
+  ],
+  "status": "new_character_proposal_for_review",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "dimensions": [
+    1086,
+    1448
+  ],
+  "sourceImages": [
+    "generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+    "generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png"
+  ],
+  "sourceRole": "World/style reference only; new identity, no face cloning",
+  "outputImage": "generated/character-development/core-threat-refs-v001/E1.png",
+  "promptFile": "character-development/core-threat-refs-v001/E1.prompt.txt",
+  "calibration": {
+    "crownY": 0.024,
+    "groundY": 0.967,
+    "coordinateSystem": "normalized image Y, anatomical scalp crown excluding hair to front footwear sole",
+    "approximate": true
+  }
+}

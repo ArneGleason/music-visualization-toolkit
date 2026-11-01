@@ -1,0 +1,90 @@
+{
+  "frameIndexBase": 0,
+  "fps": 24,
+  "scenes": [
+    {
+      "id": "S01",
+      "name": "Planet to market",
+      "description": "A broad desert-region view establishes the settlement, roads and mine before cutting into marketplace life and the partners\u2019 plan.",
+      "shotIds": [
+        "ta-000",
+        "ta-001",
+        "ta-002",
+        "ta-003",
+        "ta-004",
+        "ta-004b",
+        "ta-005",
+        "ta-006"
+      ],
+      "startFrame": 0,
+      "endFrameExclusive": 883
+    },
+    {
+      "id": "S02",
+      "name": "The diversion and theft",
+      "description": "Harper draws attention while Taffy takes the key.",
+      "shotIds": [
+        "ta-007",
+        "ta-008",
+        "ta-009",
+        "ta-009b",
+        "ta-010",
+        "ta-011",
+        "ta-012",
+        "ta-013"
+      ],
+      "startFrame": 883,
+      "endFrameExclusive": 1303
+    },
+    {
+      "id": "S03",
+      "name": "Separate escapes",
+      "description": "Harper casually withdraws; broker orders pursuit; she dodges behind shade past Wedge while Taffy takes the high route.",
+      "shotIds": [
+        "ta-014",
+        "ta-014b",
+        "ta-014c",
+        "ta-015",
+        "ta-016"
+      ],
+      "startFrame": 1303,
+      "endFrameExclusive": 1478
+    },
+    {
+      "id": "S04",
+      "name": "Blue-pipe reunion",
+      "description": "The partners reconnect beneath the blue pipe.",
+      "shotIds": [
+        "ta-017",
+        "ta-017b",
+        "ta-018"
+      ],
+      "startFrame": 1478,
+      "endFrameExclusive": 1694
+    },
+    {
+      "id": "S05",
+      "name": "Relay entrance",
+      "description": "They use the key at the controlled entrance while an ongoing news report is visible inside.",
+      "shotIds": [
+        "ta-019",
+        "ta-020",
+        "ta-021",
+        "ta-022"
+      ],
+      "startFrame": 1694,
+      "endFrameExclusive": 1888
+    },
+    {
+      "id": "S06",
+      "name": "The news report",
+      "description": "The partners recognize the distant depot theft footage and realize they were observed; bystanders cannot clearly identify their faces.",
+      "shotIds": [
+        "ta-023",
+        "ta-024"
+      ],
+      "startFrame": 1888,
+      "endFrameExclusive": 1956
+    }
+  ]
+}

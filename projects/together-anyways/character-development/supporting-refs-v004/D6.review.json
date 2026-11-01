@@ -1,0 +1,34 @@
+{
+  "candidateId": "D6",
+  "name": "The Port Messenger",
+  "heightCm": 178,
+  "crownY": 0.03,
+  "groundY": 0.952,
+  "sourceImage": "generated/character-development/supporting-refs-v002/D6-port-messenger-v002.png",
+  "outputImage": "generated/character-development/supporting-refs-v004/D6-silhouette-v004.png",
+  "promptFile": "character-development/supporting-refs-v004/D6.prompt.txt",
+  "changesActuallyVisible": [
+    "Sleeveless blue-gray cross-wrap travel top and small shoulder drape replace rolled white sleeves and long tabard.",
+    "Shorter torso garment and long exposed digitigrade legs produce clear runner silhouette.",
+    "Same face, gathered hair, skin palette and single delivery tube preserved.",
+    "Both raised hocks, living tendon structures and strapped divided toe caps retained; both feet grounded."
+  ],
+  "caveats": [
+    "Secondary eye membrane and nasal valves remain too small to verify and are not claimed visible.",
+    "Crown is estimated beneath gathered hair; height is proposed design metadata, not inferred from pixels.",
+    "Waist belt remains, but the overall garment construction is visibly simplified and distinct."
+  ],
+  "status": "silhouette_and_height_proposal_for_review",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "calibration": {
+    "coordinateSystem": "normalized image Y from top; anatomical crown excludes hair, ground is footwear sole contact",
+    "crownY": 0.03,
+    "groundY": 0.952,
+    "approximate": true
+  },
+  "dimensions": [
+    1086,
+    1448
+  ]
+}

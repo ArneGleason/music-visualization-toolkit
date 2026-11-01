@@ -1,0 +1,27 @@
+{
+  "shotId": "ta-009",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+    "generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+    "generated/character-development/core-threat-refs-v001/E1.png",
+    "generated/character-development/core-threat-refs-v001/E2.png",
+    "generated/character-development/supporting-refs-v003/B5-stillwater-v001-take02.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "visibleResult": "Doorpost dominant medium/full framing with empty hands/belt; Wedge poised at crate, Long Reach near storage gate, Stillwater watches behind. Exactly intended four guards, no key or creature.",
+  "caveats": [
+    "Stillwater gaze goes toward public approach rather than explicitly down at hands.",
+    "Crate already occupies much of lane; animate a short closing shift rather than large relocation.",
+    "Doorpost feet partly cropped as allowed medium framing."
+  ],
+  "status": "starter_for_review",
+  "output": "generated/storyboard/first-run-starters-v003/ta-009.png",
+  "promptFile": "shots/first-run-starters-v003/ta-009.prompt.txt",
+  "promptLockVerifiedExact": true,
+  "referenceFrameMode": "source_start_with_1sec_in_handle"
+}

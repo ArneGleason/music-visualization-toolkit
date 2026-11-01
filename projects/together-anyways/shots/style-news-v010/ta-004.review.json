@@ -1,0 +1,24 @@
+{
+  "shotId": "ta-004",
+  "output": "generated/storyboard/style-news-v010/ta-004.png",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "selectedPrompt": "ta-004.prompt.txt",
+  "styleAuthority": "generated/storyboard/first-run-starters-v003/ta-003.png",
+  "editSource": "generated/storyboard/story-inserts-v007/ta-004.png",
+  "visible": [
+    "Harper eye size reduced, natural nose and cheek modeling and finer skin texture closer to ta003.",
+    "Compositions, eyelines, acting, costumes and three-adult celebrity panel retained.",
+    "Warm illustrated graphic-novel environment retained, not converted to live action.",
+    "Taffy fullness and large ears retained."
+  ],
+  "caveats": [
+    "Rendering remains stylized illustration; final style match is subjective.",
+    "Existing partly occluded grips/curls do not permit independent five-digit count.",
+    "No shotlist or timing edited."
+  ]
+}

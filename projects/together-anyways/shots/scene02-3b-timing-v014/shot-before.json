@@ -1,0 +1,61 @@
+{
+  "id": "ta-009b",
+  "startAnchor": "18.2.327",
+  "title": "Beside the cover crate",
+  "location": "depot",
+  "camera": "Medium view of chair and crate cover",
+  "description": "Taffy crouches at the right end of the low cloth-draped crate beside the broker\u2019s chair, preparing to creep behind it. Credential remains untouched.",
+  "cast": [
+    "TAFFY",
+    "BROKER"
+  ],
+  "continuity": "Scene2 Shot2 governs geography: low cloth-draped crate in front-right of chair, small cup on its left top, taller crate behind, blue pipe farther right, bucket on ground. Taffy stays behind low crate; no disappearance or rearrangement of cover. Same single credential; theft happens only in ta012.",
+  "promptLock": "FIRST RUN SHOT LOCK v002: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. The news is already playing inside the relay hall when the partners reach Scene 5; its presenter and distant aerial theft inset do not clearly identify their faces. Humanoid hands have four fingers and one thumb; preserve established subtle biological adaptations without inventing missing or extra digits. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+  "generationApproach": "Kling4 Keyframes1080p; motivated acting v013.",
+  "status": "motion_review",
+  "batch": "taffy-approach-v010",
+  "startFrame": 1040,
+  "endFrameExclusive": 1093,
+  "frames": 53,
+  "startSeconds": 43.333333333333336,
+  "endSeconds": 45.541666666666664,
+  "start": "18.2.327",
+  "end": "19.1.457",
+  "sceneId": "S02",
+  "sceneName": "The diversion and theft",
+  "shotNumber": "3B",
+  "displayId": "S02-SH03B",
+  "referenceFrameMode": "start",
+  "videoHandles": {
+    "inFrames": 24,
+    "outFrames": 24,
+    "fps": 24,
+    "requestedSourceFrames": 101,
+    "editInSourceFrame": 24,
+    "editOutSourceFrameExclusive": 77,
+    "sourceStartMasterFrame": 1016,
+    "sourceEndMasterFrameExclusive": 1117,
+    "status": "generated",
+    "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later.",
+    "availableInFrames": 24,
+    "availableOutFrames": 44
+  },
+  "starterImage": "generated/storyboard/box-continuity-v011/ta-009b.png",
+  "starterRevision": "box-continuity-v011",
+  "starterReview": "shots/box-continuity-v011/review.json",
+  "videoSource": "generated/kling-scene02-v013/ta-009b.mp4",
+  "videoEdit": {
+    "sourceInFrame": 24,
+    "zoomStart": 1,
+    "zoomEnd": 1,
+    "focusStart": [
+      0.5,
+      0.5
+    ],
+    "focusEnd": [
+      0.5,
+      0.5
+    ]
+  },
+  "motionReview": "shots/kling-scene02-v013/batch.json"
+}

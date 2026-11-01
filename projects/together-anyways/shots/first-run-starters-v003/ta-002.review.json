@@ -1,0 +1,24 @@
+{
+  "shotId": "ta-002",
+  "status": "prop_ownership_corrected_for_review",
+  "output": "generated/storyboard/first-run-starters-v003/ta-002.png",
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "sources": [
+    "generated/storyboard/first-run-starters-v002/ta-002.png",
+    "generated/character-development/core-threat-refs-v001/BROKER.png"
+  ],
+  "visibleChanges": [
+    "Doorpost belt now clear of ivory device and holster",
+    "Device in holster on seated broker hip",
+    "Portly Taffy and large ear retained"
+  ],
+  "caveats": [
+    "Minor image-wide regeneration variation",
+    "Lower key geometry remains hidden in holster"
+  ],
+  "dimensions": [
+    1672,
+    941
+  ]
+}

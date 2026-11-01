@@ -1,0 +1,21 @@
+{
+  "shotId": "ta-024",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/storyboard/first-run-starters-v003/ta-023.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "visibleResult": "Tight uneasy reaction two-shot, exact recognizable children, broad Taffy/full cheeks/ears, cargo background.",
+  "caveats": [
+    "Glance already exchanged in still; use held start before onward eyeline motion.",
+    "No exposed jewel. No escape resolution."
+  ],
+  "outputImage": "generated/storyboard/first-run-starters-v003/ta-024.png",
+  "status": "starter_proposal_for_review"
+}

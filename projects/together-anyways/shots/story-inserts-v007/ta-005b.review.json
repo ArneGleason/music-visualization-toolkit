@@ -1,0 +1,19 @@
+{
+  "shotId": "ta-005b",
+  "status": "proposal_ready_for_review",
+  "image": "generated/storyboard/story-inserts-v007/ta-005b.png",
+  "prompt": "shots/story-inserts-v007/ta-005b.prompt.txt",
+  "tool": "built-in image_gen",
+  "attempts": 1,
+  "review": {
+    "composition": "Low-oblique seated belt insert; visible key still holstered, no thief; head/shoulder lookout excluded. Soft guard in far left background.",
+    "keyContinuity": "Asymmetric metal C/horseshoe frame, ivory top grip with two small dark fittings, red circular inset match ta-012; leather holster attached to broker belt.",
+    "identity": "Cream robe, embroidered navy trim, mottled grey skin, rings and scuffed blue chair preserved.",
+    "hands": "Visible resting hand has four fingers and one thumb. No extra hands.",
+    "adjacentCut": "Distinct close insert after wide ta-005; no repeated face/pose recognition. Later ta-012 is separated by multiple shots.",
+    "caveats": [
+      "Key shape is visually consistent with theft reference but not a dimensioned prop sheet; exact reader fit remains a later-motion blocker.",
+      "Proposed timing supplied by parent: 704\u2013777 exclusive (73 frames). Not applied to shotlist here."
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "candidateId": "A6",
+  "source": "generated/character-development/supporting-refs-v002/A6-quiet-stallholder-v002.png",
+  "output": "generated/character-development/supporting-refs-v004/A6-silhouette-v004.png",
+  "heightCm": 148,
+  "heightStatus": "proposed creative reference",
+  "crownY": 0.055,
+  "groundY": 0.94,
+  "visibleTraits": [
+    "Four organic arms each clearly readable and garment accommodated",
+    "Broader waist and upper body, wide charcoal skirt, rounded shoulders",
+    "Low gathered dark curls, same mature watchful face and clay-pink palette",
+    "Body visible beside stand instead of hidden behind counter"
+  ],
+  "caveats": [
+    "Body fullness increased moderately; wide skirt supplies strongest silhouette distinction",
+    "Trading table partly cropped at left",
+    "Eye biology not independently resolved at reference scale",
+    "Crown and sole landmarks approximate illustration registration points, not measured anatomy"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "promptFile": "character-development/supporting-refs-v004/A6.prompt.txt",
+  "status": "silhouette_proposal_for_review",
+  "dimensions": [
+    1086,
+    1448
+  ]
+}

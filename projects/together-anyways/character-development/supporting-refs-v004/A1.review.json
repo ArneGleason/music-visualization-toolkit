@@ -1,0 +1,27 @@
+{
+  "candidateId": "A1",
+  "source": "generated/character-development/supporting-refs-v003/A1-shade-stitcher-v002.png",
+  "output": "generated/character-development/supporting-refs-v004/A1-silhouette-v004.png",
+  "heightCm": 190,
+  "heightStatus": "proposed creative reference",
+  "crownY": 0.042,
+  "groundY": 0.965,
+  "visibleTraits": [
+    "Very narrow long apron and lean elongated silhouette",
+    "Upright batten bundle, teal roll, rope and pegs retained",
+    "Same mature face, gray hair/headband and palette"
+  ],
+  "caveats": [
+    "Twin-thumb biology remains unresolved; do not claim verified anatomy",
+    "Rope extends beyond top edge as in source",
+    "Crown and sole landmarks are approximate illustration registration points, not measured anatomy"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "promptFile": "character-development/supporting-refs-v004/A1.prompt.txt",
+  "status": "silhouette_proposal_for_review",
+  "dimensions": [
+    1086,
+    1448
+  ]
+}

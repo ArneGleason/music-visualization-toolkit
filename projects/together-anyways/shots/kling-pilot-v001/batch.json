@@ -1,0 +1,112 @@
+{
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "aspectRatio": "16:9",
+  "outputsPerShot": 1,
+  "shots": [
+    {
+      "shotId": "ta-000",
+      "displayId": "S01-SH01",
+      "starterImage": "generated/storyboard/opening-continuity-v006/ta-000.png",
+      "requestedSeconds": 7,
+      "editStartMasterFrame": 0,
+      "editEndMasterFrameExclusive": 109,
+      "handles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 157,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 133,
+        "sourceStartMasterFrame": -24,
+        "sourceEndMasterFrameExclusive": 133,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      },
+      "prompt": "One continuous 7-second shot starting exactly from the supplied aerial frame. Slow, steady forward aerial drift toward the sandstone settlement on the left, with a very gentle descent. Keep the canyon bridge, linked roads, terraced mine on the right and twin distant mesas geographically fixed. Subtle atmospheric haze drifts; tiny distant traffic only. Maintain the immense regional scale, warm light and painted graphic-novel texture. No spaceship, globe curvature, sudden zoom, camera shake, cuts or landscape morphing. Movement is already smooth during the first second and continues through the final second; do not fade in or out.\n\nFIRST RUN SHOT LOCK v002: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. The news is already playing inside the relay hall when the partners reach Scene 5; its presenter and distant aerial theft inset do not clearly identify their faces. Humanoid hands have four fingers and one thumb; preserve established subtle biological adaptations without inventing missing or extra digits. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "status": "downloaded",
+      "credits": 105,
+      "referenceMode": "Keyframes",
+      "localVideo": "generated/kling-pilot-v001/ta-000.mp4"
+    },
+    {
+      "shotId": "ta-001",
+      "displayId": "S01-SH02",
+      "starterImage": "generated/storyboard/first-run-starters-v001/ta-001.png",
+      "requestedSeconds": 7,
+      "editStartMasterFrame": 109,
+      "editEndMasterFrameExclusive": 209,
+      "handles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 148,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 124,
+        "sourceStartMasterFrame": 85,
+        "sourceEndMasterFrameExclusive": 233,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      },
+      "prompt": "One continuous 7-second shot starting exactly from the supplied market frame. A restrained slow forward dolly along the open lane toward the twin blue water tanks. The shade stitcher on the left gently tightens the existing rope, then checks the shade; the four-armed stall holder on the right makes a small purposeful adjustment to an existing item while the other hands remain naturally occupied. Preserve exactly four arms for the stall holder and two for the stitcher. Cloth edges ripple lightly, water runs continuously, distant market life remains understated. Preserve faces, clothing, scale, architecture, ink contours and warm light. No new foreground people, cuts, facial morphing, sweeping gestures or camera shake. Smooth motion throughout, including a full second at each end for editorial handles.\n\nFIRST RUN SHOT LOCK v002: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. The news is already playing inside the relay hall when the partners reach Scene 5; its presenter and distant aerial theft inset do not clearly identify their faces. Humanoid hands have four fingers and one thumb; preserve established subtle biological adaptations without inventing missing or extra digits. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "status": "downloaded",
+      "credits": 105,
+      "referenceMode": "Keyframes",
+      "localVideo": "generated/kling-pilot-v001/ta-001.mp4"
+    },
+    {
+      "shotId": "ta-002",
+      "displayId": "S01-SH03",
+      "starterImage": "generated/storyboard/first-run-starters-v003/ta-002.png",
+      "requestedSeconds": 11,
+      "editStartMasterFrame": 209,
+      "editEndMasterFrameExclusive": 410,
+      "handles": {
+        "inFrames": 24,
+        "outFrames": 24,
+        "fps": 24,
+        "requestedSourceFrames": 249,
+        "editInSourceFrame": 24,
+        "editOutSourceFrameExclusive": 225,
+        "sourceStartMasterFrame": 185,
+        "sourceEndMasterFrameExclusive": 434,
+        "status": "planned_not_generated",
+        "note": "Generate one second before and after the edit. Negative opening master time is pre-roll, not extra song duration. Starter image represents the source handle start; ending-frame mode may be selected per shot later."
+      },
+      "prompt": "One continuous 11-second shot starting exactly from the supplied frame. Slow subtle push toward Harper and Taffy in the left shaded alcove while retaining the seated broker and tall Doorpost guard across the lane. They quietly study the depot: Taffy glances briefly toward Harper, Harper gives a tiny knowing nod without speaking, then both return their attention to the broker. Keep movements small and advance their expressions naturally rather than freezing or looping a head tilt. Harper remains a copper-curled freckled teenage girl in rust vest and pale scarf. Taffy remains the younger portly boy with broad soft torso, rounded belly, full cheeks, very large projecting rounded ears and three healed curved lines on each cheek, plum wrap and rope belt. Preserve the established references exactly; never slim him down. The guard shifts his weight slightly, the broker remains seated and unaware. Key stays with broker; no theft yet. Preserve any existing single shoulder lookout without duplication. No dialogue, cuts, costume changes, new props, exaggerated gestures, camera shake or anatomy drift. All humanoid hands have four fingers and one thumb. Maintain graphic-novel drawing style and warm lighting. One second of smooth lead-in and at least one second of continuing action at the end.\n\nFIRST RUN SHOT LOCK v002: Same established Harper, Taffy, water broker and one shoulder lookout; latest selected character references and height register govern identity and scale. Painted graphic-novel desert colony: warm sandstone, worn teal-blue infrastructure and repaired cloth. The asymmetric horseshoe key stays with the broker until Taffy takes it. Harper draws attention with the blue jewel; no magic is implied. Public left exit and screened right exit stay distinct. The stolen key opens the relay entrance, not a ship. The news is already playing inside the relay hall when the partners reach Scene 5; its presenter and distant aerial theft inset do not clearly identify their faces. Humanoid hands have four fingers and one thumb; preserve established subtle biological adaptations without inventing missing or extra digits. No extra shoulder creatures, invented powers, identity substitutions or generated text. END LOCK.",
+      "status": "downloaded",
+      "credits": 165,
+      "referenceMode": "Omni reference",
+      "identityReferences": [
+        "generated/character-development/taffy-front-back-v006.png",
+        "generated/character-development/core-threat-refs-v001/HARPER.png"
+      ],
+      "referenceInstructions": "Image1 = exact opening composition; Image2 = Taffy identity; Image3 = Harper identity. Reference sheets never shown as frames.",
+      "localVideo": "generated/kling-pilot-v001/ta-002.mp4"
+    }
+  ],
+  "transition": {
+    "type": "editorial dissolve trial",
+    "boundaryMasterFrame": 109,
+    "frames": 12,
+    "note": "Compare a 12-frame dissolve centered on frame109 against a straight cut. Use source handles, preserve total duration and musical boundaries. No fourth generation requested."
+  },
+  "status": "assembled_for_music_review",
+  "creditsSpent": 375,
+  "quotedCost": {
+    "firstShotCredits": 105,
+    "observedCreditsPerSecond": 15,
+    "estimatedBatchCredits": 375,
+    "requestedBudgetCredits": 375
+  },
+  "note": "User reviewed clean clips positively. Downloaded all3; native24fps169/169/265frames. Music replaces generated audio. Initial editorial pass:12frame centered dissolve aerial\u2192market,cut market\u2192partners; subtle1\u20135percent eased reframing. No additional credits spent.",
+  "animatic": "generated/storyboard/first-run-starters-v001/first-run-clean-animatic-v001.mp4",
+  "validation": {
+    "frames": 1956,
+    "fps": 24,
+    "videoSeconds": 81.5,
+    "audioSeconds": 81.5,
+    "timingUnchanged": true,
+    "transitionTestsPassed": 2
+  }
+}

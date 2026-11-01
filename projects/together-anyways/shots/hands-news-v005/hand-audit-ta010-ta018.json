@@ -1,0 +1,95 @@
+{
+  "scope": "ta-010 through ta-018 plus ta-014b/ta-014c;11 selected shots",
+  "method": "Visual inspection of full-resolution supplied local image outputs; repair only unambiguous anatomy defects, not naturally hidden fingers",
+  "finding": "One clear defect, broker raised hand in ta-011, repaired. No additional clear defect in remaining ten shots.",
+  "shots": [
+    {
+      "shotId": "ta-010",
+      "originalPath": "generated/storyboard/distraction-starters-v004/ta-010.png",
+      "status": "occluded",
+      "findings": "Harper cover hand seen edge-on with overlapping long fingers; supporting fingers curl around base. Broker chin hand curled, resting hand partly overlaps holder. No clear count defect.",
+      "countCertainty": "Limited by overlap, grip, distance or crop; not asserted five visible",
+      "repair": "No repair"
+    },
+    {
+      "shotId": "ta-011",
+      "originalPath": "generated/storyboard/distraction-starters-v004/ta-011.png",
+      "status": "issue_repaired",
+      "findings": "Original raised broker palm clearly only three long fingers plus thumb. New output clearly four long fingers plus one thumb. Harper supporting fingers overlap naturally; background Fast Coat too small for precise count.",
+      "countCertainty": "High for repaired broker palm; other hands limited",
+      "repair": "Targeted builtin ImageGen one attempt, hands-news-v005/ta-011.png"
+    },
+    {
+      "shotId": "ta-012",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-012.png",
+      "status": "occluded",
+      "findings": "Taffy reaching hand seen obliquely with curled/overlapping fingers; thumb/far fingers not independently countable. Broker relaxed draped hand shows adjacent finger ends with thumb partly occluded. No clear extra digit or unambiguous missing digit.",
+      "countCertainty": "Limited by overlap, grip, distance or crop; not asserted five visible",
+      "repair": "No repair"
+    },
+    {
+      "shotId": "ta-013",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-013.png",
+      "status": "occluded",
+      "findings": "Both Taffy hands form closed grips around key and wrap. Visible knuckle contours and thumb relationships plausible; hidden fingertips cannot be counted.",
+      "countCertainty": "Limited by overlap, grip, distance or crop; not asserted five visible",
+      "repair": "No repair"
+    },
+    {
+      "shotId": "ta-014",
+      "originalPath": "generated/storyboard/distraction-starters-v004/ta-014.png",
+      "status": "occluded",
+      "findings": "Harper shrug palm side-on with curled fingertips and thumb; pocket hand partly occluded by garment. Broker and goon hands are relaxed/overlapping and distant. No clear defect.",
+      "countCertainty": "Limited by overlap, grip, distance or crop; not asserted five visible",
+      "repair": "No repair"
+    },
+    {
+      "shotId": "ta-014b",
+      "originalPath": "generated/storyboard/distraction-starters-v004/ta-014b.png",
+      "status": "occluded",
+      "findings": "Broker pointing index plus folded digits and thumb; folded fingers partially obscure each other, not proof of missing digits. Resting broker fingers and Fast Coat hanging hands plausible, thumb partly hidden.",
+      "countCertainty": "Limited by overlap, grip, distance or crop; not asserted five visible",
+      "repair": "No repair"
+    },
+    {
+      "shotId": "ta-014c",
+      "originalPath": "generated/storyboard/distraction-starters-v004/ta-014c.png",
+      "status": "clear_and_occluded",
+      "findings": "Fast Coat reaching hand shows four long finger rays plus separate thumb. Harper trailing hand fingers close together with plausible thumb; leading hand partly behind curtain. Other goon hand curled.",
+      "countCertainty": "High only for specified spread hand; limited elsewhere",
+      "repair": "No repair"
+    },
+    {
+      "shotId": "ta-015",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-015.png",
+      "status": "clear_and_occluded",
+      "findings": "Wedge raised palm supports four finger rays plus thumb at distance; other hand relaxed. Harper curled fingers and Stitcher rope grips partly overlap/occlude; twin-thumb detail not independently verified.",
+      "countCertainty": "High only for specified spread hand; limited elsewhere",
+      "repair": "No repair"
+    },
+    {
+      "shotId": "ta-016",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-016.png",
+      "status": "occluded",
+      "findings": "Fitter gloves grip gauge/piping with digits hidden behind tools. Taffy fingers overlap rail and each other at distance. Cannot certify five per hand, no clear defect.",
+      "countCertainty": "Limited by overlap, grip, distance or crop; not asserted five visible",
+      "repair": "No repair"
+    },
+    {
+      "shotId": "ta-017",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-017.png",
+      "status": "occluded",
+      "findings": "Harper hands below crop. Taffy hands small/distant, one grips clothing/key at waist and one relaxed. No robust digit count, no obvious extra/missing digit.",
+      "countCertainty": "Limited by overlap, grip, distance or crop; not asserted five visible",
+      "repair": "No repair"
+    },
+    {
+      "shotId": "ta-018",
+      "originalPath": "generated/storyboard/first-run-starters-v003/ta-018.png",
+      "status": "occluded",
+      "findings": "Both children's relaxed hands have overlapping curled fingers seen edge-on; thumb separations plausible. No clear extra fingertip or structural missing digit.",
+      "countCertainty": "Limited by overlap, grip, distance or crop; not asserted five visible",
+      "repair": "No repair"
+    }
+  ]
+}

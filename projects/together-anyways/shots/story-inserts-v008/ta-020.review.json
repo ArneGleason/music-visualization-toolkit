@@ -1,0 +1,18 @@
+{
+  "shotId": "ta-020",
+  "status": "ready_for_review",
+  "image": "generated/storyboard/story-inserts-v008/ta-020.png",
+  "prompt": "shots/story-inserts-v008/ta-020.prompt.txt",
+  "tool": "built-in image_gen",
+  "attempts": 2,
+  "review": {
+    "scanner": "Flat teal ceramic contactless scanner within bronze plate on fixed stone jamb; no shaped socket or insertion. Clear air gap.",
+    "credential": "Ivory top grip held overhand, asymmetrical C/horseshoe metal body hangs down with red indicator, scale consistent with ta013 relative to child hand.",
+    "anatomy": "Four curled finger forms; opposing thumb normally hidden under overhand grip. No obvious extra digits.",
+    "identity": "Taffy broad torso, cheeks, large rounded ears, cheek lines and costume preserved; Harper retained in medium shot, excluded by close crop.",
+    "caveats": [
+      "Scanner bronze mounting trim and bottom fasteners vary slightly between wide and close; teal face and amber indicator stay consistent.",
+      "These are starter stills, not proof of completed waving motion or scanner response."
+    ]
+  }
+}

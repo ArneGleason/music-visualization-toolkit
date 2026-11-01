@@ -1,0 +1,13 @@
+VIDEO REFERENCE WORKFLOW
+
+Stable ta-### IDs remain the edit keys. S##-SH## provides scene-local indexing; scene names/descriptions live in scene-index.json and shotlist.json.
+
+Default is a clean starter image at the beginning of the source clip, one second before the edit in-point. At 24 fps each source has 24-frame in and out handles: source length = edit frames + 48; usable edit is [24, 24 + edit frames). Handles do not extend or shift musical cuts. The opening has virtual pre-roll before master zero. Exact provider clip durations and conforming are deferred until video production. No Kling actions yet.
+
+Switch referenceFrameMode to end for shots where a late-entering character must be anchored at the ending pose. Decide per shot during motion work.
+
+Current image pilot is ta-001 and ta-002 only. Review these before generating additional shots. Clean animatic keeps small scene/shot metadata and lyrics in a footer; later shots use explicitly marked location studies. Frame annotation tool: tools/frame_review.py with --master-start 0 --master-frame-base 0. Preview frame numbering inside the player remains one-based; master frames match zero-based shotlist.
+
+Adjacent-cut continuity check: inspect each pair with shared characters for copied head tilt, expression, torso angle and stance against altered surroundings. A same-pose reset can be more jarring than mild face variation. Keep identity references, but explicitly author a new action phase/pose for adjacent frames. Preserve screen direction and distinguish intentional inserts/match cuts. Current concrete repair:014c to015.
+
+Editorial transitions: prefer cuts for quick action and continuous geography. Use brief crossfades selectively for changes of scene, scale or elapsed time when there is room to preserve comprehension. Evaluate against music; never shift shot timing to accommodate a dissolve. Build overlaps from source handles. Restrained post reframing may guide attention; preserve faces, hands, spatial relationships and avoid duplicating strong generated camera motion.

@@ -1,0 +1,36 @@
+{
+  "shotId": "ta-001",
+  "shotLabel": "S01-SH01",
+  "title": "The district and its water",
+  "output": "generated/storyboard/first-run-starters-v001/ta-001.png",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "status": "starter_for_review",
+  "promptFile": "shots/first-run-starters-v001/ta-001.prompt.txt",
+  "promptLockVerifiedExact": true,
+  "sources": [
+    "generated/environment-development/first-run-v001/market-approach-v001.png",
+    "generated/character-development/supporting-refs-v004/A1-silhouette-v004.png",
+    "generated/character-development/supporting-refs-v004/A6-silhouette-v004.png"
+  ],
+  "visibleTraits": [
+    "Wide market with clear central forward tracking lane",
+    "Twin blue tanks right of center and distant cargo gantry preserved",
+    "A1 at left rope support, recognizable gray hair, olive apron and upright battens",
+    "A6 at right stall, clay-pink wrap and dark skirt, four working arms with one lower hand partly occluded",
+    "Only two intended supporting people present",
+    "Calm routine work suitable for lead-in before forward tracking"
+  ],
+  "caveats": [
+    "Characters rendered foreground-edge at around two-thirds and one-half frame height, larger than requested one-third; central environmental route remains open",
+    "A6 lower left arm and hand partially overlapped by upper forearm; four-arm arrangement readable but less clean than isolated reference",
+    "Relative height difference reads correctly but scene perspective is not a metric guarantee of 190cm and148cm",
+    "Output near16:9 native1672x941 rather than exact1920x1080; no stretching applied",
+    "A1 precise twin-thumb anatomy remains unresolved at this scale"
+  ],
+  "handleConvention": "Source clip opening, intended 1 second lead-in before edit in-point; this still does not validate motion or duration."
+}

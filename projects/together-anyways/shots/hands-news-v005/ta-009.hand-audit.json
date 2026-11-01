@@ -1,0 +1,36 @@
+{
+  "shotId": "ta-009",
+  "originalPath": "generated/storyboard/first-run-starters-v003/ta-009.png",
+  "status": "clear",
+  "findings": "Doorpost both relaxed hands consistent with four curled fingers and thumb; all fingers overlap in curl but no conflicting anatomy. Wedge fingertips obscured by crate edge. Long Reach hand at gate is edge-on/partially closed. Stillwater hands small/occluded.",
+  "countCertainty": "Medium Doorpost; low distant/contact hands",
+  "repair": {
+    "needed": false,
+    "reason": "No clear digit defect distinguishable from normal overlap/occlusion. Preserve selected art.",
+    "generationAttempts": 0
+  },
+  "evidence": {
+    "method": "Original image inspection and 2x enlarged inspection-only crops, no generative enhancement",
+    "cropBoxesPx": [
+      [
+        115,
+        380,
+        750,
+        665
+      ],
+      [
+        1060,
+        485,
+        1330,
+        590
+      ],
+      [
+        825,
+        390,
+        955,
+        490
+      ]
+    ]
+  },
+  "standard": "Four fingers plus one thumb; preserve deliberate biological adaptations. clear means no issue in assessable hands, not certification of occluded digits."
+}

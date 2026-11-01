@@ -16,6 +16,51 @@ $('jump').min = config.masterStart;
 
 $('jump').max = config.masterStart + config.count - 1;
 
+function currentShotIndex() {
+  const master = config.masterStart + frame - 1;
+  return (config.shots || []).findIndex(s => s.startFrame <= master && master < s.endFrameExclusive);
+}
+
+function showShots() {
+  const shots = config.shots || [];
+  $('shot-nav').hidden = !shots.length;
+  $('shot-select').replaceChildren();
+  shots.forEach((shot, index) => {
+    const option = document.createElement('option');
+    option.value = index;
+    const scene = shot.sceneId ? `Scene ${shot.sceneId.replace(/^S/, '')} · ${shot.sceneName} / ` : '';
+    option.textContent = `${scene}Shot ${String(shot.shotNumber).padStart(2, '0')} · ${shot.title}`;
+    $('shot-select').append(option);
+  });
+  shotCounters();
+}
+
+function shotCounters() {
+  const index = currentShotIndex();
+  $('shot-select').value = index < 0 ? '' : String(index);
+  $('previous-shot').disabled = index <= 0;
+  $('next-shot').disabled = index < 0 || index >= (config.shots || []).length - 1;
+  const shot = (config.shots || [])[index];
+  $('shot-timing').hidden = !shot;
+  if (shot) {
+    const frames = shot.endFrameExclusive - shot.startFrame;
+    $('shot-duration').textContent = `Play length: ${(frames / config.fps).toFixed(3)}s · ${frames} frames`;
+    $('source-start').textContent = shot.mediaType === 'video' && shot.sourceInFrame != null
+      ? `Clip start: ${(shot.sourceInFrame / (shot.sourceFps || config.fps)).toFixed(3)}s · frame ${shot.sourceInFrame}`
+      : 'Clip start: — (still image)';
+  }
+}
+
+function seekShot(index) {
+  const shot = (config.shots || [])[index];
+  if (shot) seek(shot.startFrame - config.masterStart + 1);
+}
+
+showShots();
+$('previous-shot').onclick = () => seekShot(currentShotIndex() - 1);
+$('next-shot').onclick = () => seekShot(currentShotIndex() + 1);
+$('shot-select').onchange = () => seekShot(Number($('shot-select').value));
+
 function reference() {
 
   return config.name + ' — master frame ' + (config.masterStart + frame - 1) +
@@ -32,12 +77,13 @@ function counters() {
 
   $('preview').textContent = 'Preview ' + frame + ' / ' + config.count;
 
-  const seconds = (master - 1) / config.fps;
+  const seconds = (master - (config.masterFrameBase ?? 1)) / config.fps;
 
   $('time').textContent = Math.floor(seconds / 60) + ':' + (seconds % 60).toFixed(3).padStart(6, '0');
 
   scrub.value = frame;
   if (!jumpDirty) $('jump').value = master;
+  shotCounters();
 
 }
 
@@ -163,6 +209,10 @@ document.addEventListener('keydown', e => {
 
   if (e.code === 'Space') { e.preventDefault(); if (!e.repeat) toggle(); }
 
+  if (e.key === '[' || e.key === ']') {
+    e.preventDefault(); seekShot(currentShotIndex() + (e.key === '[' ? -1 : 1));
+  }
+
   if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
 
     e.preventDefault(); seek(frame + (e.key === 'ArrowLeft' ? -1 : 1) * (e.shiftKey ? 10 : 1));
@@ -227,7 +277,13 @@ setInterval(async () => {
 
     const next = await (await fetch('/api')).json();
 
-    if (next.revision === config.revision) return;
+    if (next.revision === config.revision) {
+      if (next.shotRevision !== config.shotRevision) {
+        config.shots = next.shots; config.shotRevision = next.shotRevision;
+        showShots();
+      }
+      return;
+    }
 
     if (starting || !video.paused || $('note').value) {
 
@@ -240,6 +296,7 @@ setInterval(async () => {
     const master = config.masterStart + frame - 1;
 
     config = next;
+    showShots();
 
     scrub.max = config.count;
 

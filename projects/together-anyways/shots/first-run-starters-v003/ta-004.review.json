@@ -1,0 +1,26 @@
+{
+  "shotId": "ta-004",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sources": [
+    "generated/environment-development/first-run-v001/market-approach-v001.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "selectedPrompt": "ta-004-take02.prompt.txt",
+  "visibleResult": "Information display with schematic only, both leads observing at left, empty route beyond.",
+  "caveats": [
+    "First invalid take introduced unrelated guards and broker; preserved as ta-004-take01-invalid.png.",
+    "Screen location reframed to left-side corner rather than original right wall; geography proposal needs shot continuity review.",
+    "Rear angle limits frontal identity assessment."
+  ],
+  "status": "starter_for_review",
+  "output": "generated/storyboard/first-run-starters-v003/ta-004.png",
+  "promptFile": "shots/first-run-starters-v003/ta-004-take02.prompt.txt",
+  "promptLockVerifiedExact": true,
+  "referenceFrameMode": "source_start_with_1sec_in_handle"
+}

@@ -1,0 +1,29 @@
+{
+  "shotId": "ta-011",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sourceReferences": [
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/BROKER.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/desert-colony/generated/scene-development/diversion-theft-v005.png"
+  ],
+  "output": "generated/storyboard/first-run-starters-v003/ta-011.png",
+  "generation": "built-in ImageGen",
+  "attempts": 2,
+  "status": "review_needed",
+  "visible": [
+    "Jewel hand and broker gaze close-up",
+    "Harper and Fast Coat recognizable; organic tail visible",
+    "Exactly one lookout restored beside broker head, looking at jewel"
+  ],
+  "caveats": [
+    "Insert remains face-inclusive rather than very tight jewel-only",
+    "Lookout fin shape more elaborate than full-body source; review continuity"
+  ],
+  "selectedPrompt": "shots/first-run-starters-v003/ta-011.take02.prompt.txt",
+  "correction": "Restored missing shoulder lookout preserving close composition"
+}

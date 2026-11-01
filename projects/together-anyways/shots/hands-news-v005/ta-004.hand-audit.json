@@ -1,0 +1,24 @@
+{
+  "shotId": "ta-004",
+  "originalPath": "generated/storyboard/first-run-starters-v003/ta-004.png",
+  "status": "occluded",
+  "findings": "Taffy thinking hand against chin has curled fingers naturally obscured by face/palm; Harper hands out of frame. No count repair can be justified.",
+  "countCertainty": "Low exact count, high occlusion explanation",
+  "repair": {
+    "needed": false,
+    "reason": "No clear digit defect distinguishable from normal overlap/occlusion. Preserve selected art.",
+    "generationAttempts": 0
+  },
+  "evidence": {
+    "method": "Original image inspection and 2x enlarged inspection-only crops, no generative enhancement",
+    "cropBoxesPx": [
+      [
+        525,
+        450,
+        720,
+        730
+      ]
+    ]
+  },
+  "standard": "Four fingers plus one thumb; preserve deliberate biological adaptations. clear means no issue in assessable hands, not certification of occluded digits."
+}

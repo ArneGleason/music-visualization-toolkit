@@ -1,0 +1,31 @@
+{
+  "candidateId": "TAFFY",
+  "sources": [
+    "generated/character-development/taffy-front-back-v006.png"
+  ],
+  "source": "generated/character-development/taffy-front-back-v006.png",
+  "output": "generated/character-development/core-threat-refs-v001/TAFFY.png",
+  "heightCm": 146,
+  "heightStatus": "proposed creative scale",
+  "crownY": 0.07,
+  "groundY": 0.928,
+  "visibleTraits": [
+    "Youthful broad rounded face, large ears, short curls, full cheeks and watchful expression match frontal anchor",
+    "Exactly three curved cheek marks visible on each cheek",
+    "Plum patterned wrap, rope/braid belt, charcoal trousers, open-toe sandals and sack on cords retained",
+    "Soft fuller torso and arms retained without adultification"
+  ],
+  "caveats": [
+    "Single near-frontal interpretation pending user continuity review",
+    "Crown estimates anatomical head top under curls; landmark is approximate",
+    "Sack visible to side more than only glimpse; still improvised patched bag"
+  ],
+  "generation": "built-in ImageGen",
+  "attempts": 1,
+  "promptFile": "character-development/core-threat-refs-v001/TAFFY.prompt.txt",
+  "status": "identity_reference_for_review",
+  "dimensions": [
+    1024,
+    1536
+  ]
+}

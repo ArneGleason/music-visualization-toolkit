@@ -1,0 +1,28 @@
+{
+  "shotId": "ta-003",
+  "displayId": "S01-SH04",
+  "title": "The voice behind the boss",
+  "starterImage": "generated/storyboard/boss-whisper-v004/ta-003.png",
+  "imageTool": "built-in image_gen",
+  "imageSource": "/Users/arnegleason/.codex/generated_images/01a1924f-3471-7311-ad3d-cb411cd4cd4c/exec-4c5fab7f-6f89-48d5-a0a5-07b015c84716.png",
+  "videoPrompt": "shots/boss-whisper-v004/video-prompt.txt",
+  "model": "Kling4.0",
+  "seconds": 7,
+  "credits": 105,
+  "status": "downloaded_reviewed_selected",
+  "shot6Slip": {
+    "oldSourceInFrame": 24,
+    "newSourceInFrame": 0,
+    "frames": 78,
+    "reason": "Later slip would include more of the late hair drift; earlier slip reduces it and preserves tug."
+  },
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945648510572048416&materialId=325460174300063",
+  "localVideo": "generated/storyboard/boss-whisper-v004/ta-003.mp4",
+  "media": {
+    "width": 1916,
+    "height": 1080,
+    "fps": 24,
+    "frames": 169
+  },
+  "review": "Sampled sequence shows single shoulder companion at ear, broker listening then leaning forward and pointing threateningly at minion; minion responds with widened eyes. Cut uses source frames24\u2013124. User motion review pending."
+}

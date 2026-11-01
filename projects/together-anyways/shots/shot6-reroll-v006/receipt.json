@@ -1,0 +1,21 @@
+{
+  "shotId": "ta-004b",
+  "model": "Kling4.0",
+  "resolution": "1080p",
+  "seconds": 6,
+  "credits": 90,
+  "starterImage": "generated/storyboard/style-news-v010/ta-004b.png",
+  "promptSource": "shots/kling-action-v003/batch.json",
+  "promptUnchanged": true,
+  "status": "downloaded_selected_for_comparison",
+  "acceptedEditSourceInFrame": 36,
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945653332696252471&materialId=325461323534839",
+  "localVideo": "generated/storyboard/shot6-reroll-v006/ta-004b.mp4",
+  "media": {
+    "width": 1916,
+    "height": 1080,
+    "frames": 145,
+    "fps": 24
+  },
+  "review": "Same prompt and starter as v003. Sampled frames show more compact hair silhouette; tug/recovery/departure retained with slightly different timing. Keep accepted sourceIn36 and78-frame edit for user review. Previous v003 source preserved. Boots remain a continuity caveat."
+}
