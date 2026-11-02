@@ -1,0 +1,45 @@
+{
+  "title": "TOGETHER ANYWAYS / PORT CAST / HEIGHT PROPOSALS v025",
+  "status": "proposals_pending_review",
+  "characters": [
+    {
+      "id": "SCR",
+      "name": "The Scrapper",
+      "image": "generated/world-development/port-ship-v025/scrapper.png",
+      "heightCm": 164,
+      "crownY": 0.03,
+      "groundY": 0.963,
+      "poseFactor": 0.99,
+      "revised": false,
+      "newReference": true,
+      "heightStatus": "proposed_pending_review",
+      "calibration": "Manual approximate crown and sole positions; helmet crown estimates exclude headgear."
+    },
+    {
+      "id": "GUA",
+      "name": "Yard Guard A",
+      "image": "generated/world-development/port-ship-v025/guard-a.png",
+      "heightCm": 186,
+      "crownY": 0.028,
+      "groundY": 0.97,
+      "poseFactor": 1,
+      "revised": false,
+      "newReference": true,
+      "heightStatus": "proposed_pending_review",
+      "calibration": "Manual approximate crown and sole positions; helmet crown estimates exclude headgear."
+    },
+    {
+      "id": "GUB",
+      "name": "Yard Guard B",
+      "image": "generated/world-development/port-ship-v025/guard-b.png",
+      "heightCm": 171,
+      "crownY": 0.03,
+      "groundY": 0.95,
+      "poseFactor": 0.995,
+      "revised": false,
+      "newReference": true,
+      "heightStatus": "proposed_pending_review",
+      "calibration": "Manual approximate crown and sole positions; helmet crown estimates exclude headgear."
+    }
+  ]
+}

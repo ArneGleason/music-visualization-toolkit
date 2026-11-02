@@ -1,0 +1,3 @@
+# Metallic-knit scrapper v030
+
+User likes garment shape, requests exotic worn/tarnished metallic knit rather than ordinary fiber. Built-in ImageGen edit of v029; inspected output shows braided wire knit with dull metal sheen, oxidized recesses, rubbed highlights, broken strands and small upper-torso hole exposing chitin. Same sleeveless short one-piece shape. Canvas tool belt stays canvas; three powered repair tools, beak, antennae, six limbs and bare feet preserved. Prior image retained. Height plate reuses approximate164cm crown excluding antennae. Fine metallic loops/fraying remain untested in motion. Pending user review; no animatic/shotlist/video edits.

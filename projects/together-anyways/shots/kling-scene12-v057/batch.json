@@ -1,0 +1,173 @@
+{
+  "version": "v057",
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "status": "partial_motion_selected_for_review",
+  "shots": [
+    {
+      "shotId": "S12-SH01",
+      "displayId": "S12-SH01",
+      "starter": "generated/storyboard/rest-of-song-starters-v036/S12-SH01.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 5-second shot at natural real-time speed.\n\nAt the outdoor port terminal, Harper turns her attention from the lane to the existing controls, presses two deliberate inputs and studies the responding glyphs. Taffy keeps watch down the open yard, shifts behind the crate and gives a discreet all-clear nod. She is focused and resourceful; he is alert, trying to be brave. A short lateral camera move into their cover keeps the open port and distant unaware passing guards visible. Establish physical work outside the ship. Screen updates within its bezel, no floating graphics. Main access test happens promptly during source1\u20133.4s.\n\nThe musical cut is 58 frames at24fps (2.417s). Main action belongs within source1.000\u20133.417s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 5,
+      "credits": 75,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946073630915166246&materialId=325561530310674",
+      "reviewNote": "Harper actively tests the controls while Taffy ducks into cover; screen responds and distant guards remain unaware.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667",
+        "nb_frames": "121"
+      },
+      "localVideo": "generated/kling-scene12-v057/S12-SH01.mp4"
+    },
+    {
+      "shotId": "S12-SH02",
+      "displayId": "S12-SH02",
+      "starter": "generated/storyboard/rest-of-song-starters-v036/S12-SH02.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 6-second shot at natural real-time speed.\n\nClose on Harper at the same terminal. She tries a quick sequence of existing buttons, frowns at repeated amber glyph responses, then pauses when the display responds on its own. During source2\u20134s the existing central symbol pulses twice with purposeful rhythm, rearranges the glyphs into a simple green directional route, and highlights the next node. She notices the helpful pattern, raises an eyebrow in surprised recognition and gives a tiny conspiratorial smile before confirming with one tap. Taffy remains lookout behind her. Nearly fixed close camera; slight push emphasizes her realization. The machine has a helpful personality expressed only through its existing screen graphics, no face or new robot. Keep all information inside the screen and the machinery physically still.\n\nThe musical cut is 96 frames at24fps (4.000s). Main action belongs within source1.000\u20135.000s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 6,
+      "credits": 90,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946073758623334487&materialId=325561561527227",
+      "reviewNote": "Trial inputs give way to a green directional display and surprised recognition. Helper personality is subtle rather than a literal face.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "6.041667",
+        "nb_frames": "145"
+      },
+      "localVideo": "generated/kling-scene12-v057/S12-SH02.mp4"
+    },
+    {
+      "shotId": "S12-SH03",
+      "displayId": "S12-SH03",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S12-SH03.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 5-second shot at natural real-time speed.\n\nAt this second outdoor terminal Harper follows the highlighted path with quick assured button inputs. The existing amber helper symbol answers with a pulse and a green route segment advances. She nods in understanding, confidently completing another step. Taffy scans the open yard from behind the cart, keeping low and focused on lookout duty; he never works the controls. A modest lateral slide links his watch position with her hand and responding screen without changing sides. Main exchange source1\u20133.5s. Preserve the parked ship and terminal location; no travel or port shutdown yet.\n\nThe musical cut is 60 frames at24fps (2.500s). Main action belongs within source1.000\u20133.500s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 5,
+      "credits": 75,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946073893108854861&materialId=325561593300250",
+      "reviewNote": "Lateral move accompanies confident terminal inputs while Taffy scans the port.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667",
+        "nb_frames": "121"
+      },
+      "localVideo": "generated/kling-scene12-v057/S12-SH03.mp4"
+    },
+    {
+      "shotId": "S12-SH04",
+      "displayId": "S12-SH04",
+      "starter": "generated/storyboard/rest-of-song-starters-v039/S12-SH04.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 7-second shot at natural real-time speed.\n\nThe large foreground cream-and-blue guard is unaware of the pair. Almost immediately he turns his head and shoulders AWAY from their terminal, then walks casually off toward the LEFT along another patrol route, naturally leaving the foreground by source4s. He never establishes eye contact or approaches them. In the right background Taffy notices the guard, gives Harper a quick quiet warning gesture and lowers behind cover. Harper briefly acknowledges the risk, keeps her body inconspicuous and makes one final deliberate input. Camera mostly locked on the geography, no zoom onto the guard's face. Tension comes from the pair noticing him, not him discovering them. Keep the terminal illuminated and working. Departure and warning must read during source1\u20135.4s.\n\nThe musical cut is 106 frames at24fps (4.417s). Main action belongs within source1.000\u20135.417s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 7,
+      "credits": 105,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946074037363552280&materialId=325561627316649",
+      "reviewNote": "Guard turns away and exits left by about2.5s; Taffy warns Harper and lowers behind cover. Terminal remains live.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      },
+      "localVideo": "generated/kling-scene12-v057/S12-SH04.mp4"
+    },
+    {
+      "shotId": "S12-SH05",
+      "displayId": "S12-SH05",
+      "starter": "generated/storyboard/rest-of-song-starters-v039/S12-SH05.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 5-second shot at natural real-time speed.\n\nHarper begins in the supplied worried look-back pose. She quietly mouths a short anxious plea toward the still-active terminal, then turns FORWARD toward Taffy's escape route. Both slip low to the RIGHT past the existing foreground cover and out of this work area. Camera makes a short rightward following move, keeping the live terminal in the background briefly. Preserve the starting face while she turns away; no later look back to reconstruct her face. The guard continues his own unaware patrol and does not touch the screen. No magical effect or stop gesture. Her hope is that their work stays running; Taffy leads their covert withdrawal. Real purposeful steps within source1\u20133.6s.\n\nThe musical cut is 62 frames at24fps (2.583s). Main action belongs within source1.000\u20133.583s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 5,
+      "credits": 75,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946074134667853866&materialId=325561650300848",
+      "reviewNote": "Harper looks toward the live terminal, then both crouch and hurry right out of cover. Camera follows their withdrawal.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667",
+        "nb_frames": "121"
+      },
+      "localVideo": "generated/kling-scene12-v057/S12-SH05.mp4"
+    },
+    {
+      "shotId": "S12-SH06",
+      "displayId": "S12-SH06",
+      "starter": "generated/storyboard/rest-of-song-starters-v036/S12-SH06.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 5-second shot at natural real-time speed.\n\nHarper and Taffy immediately hurry toward the ship's EXISTING OPEN SIDE DOOR and its stairs, away from camera. Harper turns her initially visible profile forward once, then both keep facing their destination. Smooth forward tracking camera follows behind their backs, preserving the compact aircraft geometry. Harper leads up the existing steps, Taffy close behind; by source3s they are reaching or beginning the doorway crossing. Urgent controlled movement, not hesitation or a look back. Enter the side door reached by stairs, never the circular engine intake or nose bowl. Ship stays stationary on the ground. Continue boarding through the tail.\n\nThe musical cut is 50 frames at24fps (2.083s). Main action belongs within source1.000\u20133.083s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 5,
+      "credits": 75,
+      "sourceInFrame": 46,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946074258777325598&materialId=325561680318441",
+      "reviewNote": "Later source46 trim reaches the side-door stairs and boarding action. Forward tracking preserves rear-facing likeness and correct entrance;25-frame tail retained.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667",
+        "nb_frames": "121"
+      },
+      "localVideo": "generated/kling-scene12-v057/S12-SH06.mp4"
+    },
+    {
+      "shotId": "S12-SH07",
+      "displayId": "S12-SH07",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S12-SH07.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 4-second shot at natural real-time speed.\n\nThe existing heavy demolition vehicle advances immediately toward the foreground debris, its tracks rolling with visible weight. Its low front tool pushes and crushes the loose scrap directly ahead, plates folding and rubble sliding with a small dust puff during source1\u20132.4s. Fixed low exterior camera emphasizes mass and impending danger. Preserve this exact vehicle design, scale, working arm and yard; no transformation or explosion. Background port indicator lamps briefly flicker and go dark while the machine keeps moving. No characters appear in the path. Continue advancing through the tail.\n\nThe musical cut is 35 frames at24fps (1.458s). Main action belongs within source1.000\u20132.458s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 4,
+      "credits": 60,
+      "sourceInFrame": 24,
+      "status": "failed_refunded_still_retained",
+      "attempts": [
+        {
+          "status": "failed_refunded",
+          "credits": 60,
+          "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946074395574550576&materialId=325561713302049",
+          "reason": "Generated content flagged as sensitive by Kling."
+        },
+        {
+          "status": "failed_refunded",
+          "credits": 60,
+          "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946076264601894928&materialId=325562158312649",
+          "reason": "Generated content flagged as sensitive by Kling."
+        }
+      ]
+    },
+    {
+      "shotId": "S12-SH07B",
+      "displayId": "S12-SH07B",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S12-SH07B.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 5-second shot at natural real-time speed.\n\nIn the two occupied side-by-side cockpit seats, Taffy on the LEFT tugs his existing harness securely and braces his hands on the controls. Harper on the RIGHT pulls her harness snug, quickly presses two existing startup switches and calls a short urgent instruction, then grips her control. Their faces show committed determination and nervous excitement, ready to go. Existing dashboard lamps brighten in sequence and the cabin begins a light uneven vibration. Gentle short camera push toward the two faces and controls, no orbit. Clear physical preparation during source1\u20133.8s. Preserve seating, faces and cabin size. Ship remains grounded throughout this shot; no takeoff yet.\n\nThe musical cut is 67 frames at24fps (2.792s). Main action belongs within source1.000\u20133.792s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 5,
+      "credits": 75,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946074514465636367&materialId=325561741527431",
+      "reviewNote": "Harness adjustment, switch inputs, urgent instruction and bracing read clearly. Grounded cockpit and both occupied seats preserved.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667",
+        "nb_frames": "121"
+      },
+      "localVideo": "generated/kling-scene12-v057/S12-SH07B.mp4"
+    }
+  ],
+  "creditsSpent": 570
+}

@@ -1,0 +1,20 @@
+{
+  "shotId": "S12-SH07",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v036/S12-SH07.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: illustration-story. Only ONE clearance machine operator, no Harper/Taffy/scrapper. Cause-and-effect starter single medium-wide shot on worn ochre low tracked industrial clearance tug broad front dozer/grapple, amber lamps. Operator in faded cream work coveralls and cobalt helmet seated at side control console, hand poised over guarded amber start lever, BEFORE activation. In same depth behind machine see port's upper rim tower lit amber, departure barrier control green indicators still ON. Circular port dusty sun with shadowed salvage gallery to right. No explosion or blackout yet. Clear machinery geography and readable hand/control for video motion. Operator looks focused on beginning clearance, no protagonists necessary. No split screen or montage.\nLast reference shows exact clearance tug on broadcast, use its tracked silhouette and broad front grapple assembly, but this shot shows real machine and operator outside, not a monitor. Crop medium to operator and console with enough track/front attachment visible to identify vehicle.",
+  "referenceImages": [
+    "generated/world-development/port-ship-v028/guard-a.png",
+    "generated/world-development/port-ship-v028/port-overview.png",
+    "generated/storyboard/first-run-starters-v003/ta-003.png",
+    "generated/storyboard/rest-of-song-starters-v036/S11-SH02.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-aef56faf-bb71-4155-abb9-caca0654b5c7.png",
+  "attempts": 1,
+  "qa": {
+    "inspected": true,
+    "notes": "Clearance machine identity follows bulletin. Operator same cream/cobalt visual class, start control present, tower/barriers still lit before outage. Subsequent cockpit confirmation is motion/edit follow-up, not another image crammed into starter.",
+    "starterIntent": "Setup before primary shot action; preserve forward motion in video direction."
+  }
+}

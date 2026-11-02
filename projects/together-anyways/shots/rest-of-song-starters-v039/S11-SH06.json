@@ -1,0 +1,20 @@
+{
+  "shotId": "S11-SH06",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v039/S11-SH06.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: illustration-story. NEW radically restaged onboard sabotage planning starter: wide high oblique camera from aft-right inside powered approvedship cabin. Entire recognizable space visible: two worn pilot seats and cockpit ahead, port workbench LEFT, starboard side door RIGHT, curved ivoryteal ceiling and exposed conduits. Harper foregroundLEFT bends over small HORIZONTAL foldout tabletop navigation panel resting flat on port workbench, both hands on rim and one indexfinger poised above map. She studies an amber circularport diagram with TWO squareterminal icons and thin route toward rimtower, green suggestions/alienglyphs, no readabletext. This is a FLAT TABLE map seen from above, absolutely NOT wallmountedterminal and not large verticalscreen. Taffy SMALLER farther away in middle-right background near pilotseat still doing practical work fastening a loose storage strap on seatback; his head turned down to work, not adjacent or watching Harper. Natural wrists and grips. Only two actors, no scrapper, no guards. Cabin warm powered practicallights, windows show dark dense salvage immediatelyoutside. Stage before Harper commits route or calls Taffy, not finishedplan. Dramatically different camera/actorpositions from next portterminalshot. Keep Harper's real freckled face dimensional and Taffy portly largeears. No cushion in arms, no cartridgefiddling in foreground.",
+  "referenceImages": [
+    "generated/world-development/port-ship-v034/cabin-forward.png",
+    "generated/world-development/port-ship-v034/cockpit-reverse.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/storyboard/first-run-starters-v003/ta-003.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-9d7685b1-11dc-4e51-8e91-82da47b86e3d.png",
+  "attempts": 1,
+  "qa": {
+    "inspected": true,
+    "notes": "Distinct horizontal tabletop planning composition inside ship; Harper foregroundleft, Taffy fartherbackright working strap. Benchleft/entryright/two pilotseats preserved. Model includes auxiliary small side seatback for strapwork; no wallterminal pose match with nextshot. Hands natural, powered cabin."
+  }
+}

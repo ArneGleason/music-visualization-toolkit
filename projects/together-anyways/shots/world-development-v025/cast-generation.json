@@ -1,0 +1,37 @@
+{
+  "method": "built-in image_gen",
+  "status": "design proposals; heights not canon",
+  "prompts": {
+    "scrapper": "Use case: illustration-story. Generate a new clean production character reference for Together Anyways. Realistic illustrated face and anatomy, fine dimensional material detail, warm muted sandstone, oxidized teal and worn leather, painterly light with finely controlled lines, neither photoreal nor cartoon/cel shaded. One single full-body figure in relaxed upright three-quarter standing pose, complete head and both boots within image, plain offwhite studio background, soft grounding shadow. Hands at sides clearly natural with four fingers plus thumb each, realistic wrist/elbow articulation. No text, labels, rulers, panels, weapons or scenery. An older compact wiry male scrapyard owner, proposed standing height164cm, lean body and broad weathered olive-brown face, sparse silver cropped hair, wary kind eyes, subtly enlarged low-light pupils, ordinary humanlike ears with a tiny folded inner ridge. Asymmetric patched work apron, rolled cream sleeves, weathered ochre and teal repair patches, practical dark trousers and sturdy worn boots, belt with modest salvaging tools. Distinct warm capable presence, sympathetic but shrewd; no fantasy wizard styling.",
+    "guard-a": "Use case: illustration-story. Generate a new clean production character reference for Together Anyways. Realistic illustrated face and anatomy, fine dimensional material detail, warm muted sandstone, oxidized teal and worn leather, painterly light with finely controlled lines, neither photoreal nor cartoon/cel shaded. One single full-body figure in relaxed upright three-quarter standing pose, complete head and both boots within image, plain offwhite studio background, soft grounding shadow. Hands at sides clearly natural with four fingers plus thumb each, realistic wrist/elbow articulation. No text, labels, rulers, panels, weapons or scenery. A tall broad heavyset woman private transport-yard security worker, proposed height186cm, warm dark skin, visible mature realistic face, steady observant expression, subtle protective translucent inner eyelid and otherwise human proportions. Partial open charcoal protective helmet leaves face fully visible. Plain charcoal and muted ochre private facility security workwear: short padded ochre vest with one small original emblem of a split circle and horizontal bar, dark heavy trousers, asymmetric shoulder padding, practical belt radio and boots. Broad substantial silhouette with full waist and strong legs, no military armour, no white armour. Render in an unmistakably hand-painted illustrated cinematic style, softly defined ink contours, expressive realistic facial structure, surface marks described by brush strokes, same visual treatment as the earlier warm desert-market illustration. Not a photographic person.",
+    "guard-b": "Use case: illustration-story. Generate a new clean production character reference for Together Anyways. Realistic illustrated face and anatomy, fine dimensional material detail, warm muted sandstone, oxidized teal and worn leather, painterly light with finely controlled lines, neither photoreal nor cartoon/cel shaded. One single full-body figure in relaxed upright three-quarter standing pose, complete head and both boots within image, plain offwhite studio background, soft grounding shadow. Hands at sides clearly natural with four fingers plus thumb each, realistic wrist/elbow articulation. No text, labels, rulers, panels, weapons or scenery. A lean older male private transport-yard security worker, proposed height171cm, cool brown skin, lined narrow face, trimmed greying moustache, clearly visible face and subtle folded ear ridges. Short open charcoal helmet exposes his face. Same plain charcoal and muted ochre private facility security workwear with small original emblem of a split circle and horizontal bar. Long narrow charcoal utility coat with ochre yoke, rolled cuffs, different equipment silhouette from broad female guard: compact chest radio, hip inspection scanner, narrow work trousers and scuffed boots. Alert weary professional, not a faceless soldier; no military armour or white armour. Render in an unmistakably hand-painted illustrated cinematic style, softly defined ink contours, expressive realistic facial structure, surface marks described by brush strokes, same visual treatment as the earlier warm desert-market illustration. Not a photographic person."
+  },
+  "scrapperStyleRevision": "Edit reference 1, the full-body scrapper. Preserve his exact identity, proportions, outfit, standing pose, five-digit hands and complete feet on offwhite background. Change ONLY rendering to match reference 2 (desert characters) as a detailed realistic cinematic ILLUSTRATION: subtle drawn contour, warm dimensional painted shading, illustrated skin not photographic skin, material marks rather than photo grain. Keep him older with subtle enlarged lowlight pupils. No scenery or extra people, no text/rulers. Maintain full-body framing.",
+  "scaleAssumptions": [
+    {
+      "id": "scrapper",
+      "heightCm": 164,
+      "crownY": 0.03,
+      "groundY": 0.963,
+      "poseFactor": 0.99,
+      "note": "Crown excludes silver hair; small weight shift/lean allowance. Natural hands; initial overly photographic variant superseded."
+    },
+    {
+      "id": "guard-a",
+      "heightCm": 186,
+      "crownY": 0.028,
+      "groundY": 0.97,
+      "poseFactor": 1,
+      "note": "Crown estimated inside helmet, excludes helmet. Upright substantial build. Digits naturally relaxed; no conspicuous wrist defects."
+    },
+    {
+      "id": "guard-b",
+      "heightCm": 171,
+      "crownY": 0.03,
+      "groundY": 0.95,
+      "poseFactor": 0.995,
+      "note": "Crown estimated inside helmet. Slight relaxed lean. Natural arms/hands, complete boots."
+    }
+  ],
+  "review": "Distinct scrapper, broad female security and lean male security silhouettes. Faces visible, common split-circle/bar emblem and ochre/charcoal uniform family, individual equipment. Ear/eyelid adaptation is not distinctly readable at this full-body scale and must not be treated as established visible canon yet. Guard B chest includes a second partial emblem near radio, avoid propagating duplicate emblems. Guards use slightly subdued painterly rendering versus warmer scrapper. No labels or generated scales."
+}

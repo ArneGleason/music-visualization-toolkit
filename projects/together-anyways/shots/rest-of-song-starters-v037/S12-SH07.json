@@ -1,0 +1,18 @@
+{
+  "shotId": "S12-SH07",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v037/S12-SH07.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: illustration-story. Clean cinematic shot of exact clearance-demolition machine in input1 poised to begin clearing old salvage area. Preserve enclosed armored box cabin, broad multi-rib hydraulic front grapple, TWO continuous tracks, substantial large bulldozer scale, worn ochre paint. Machine threequarter front view approaching low scrap pile on ground in foreground, grapple just raised ready to bite but not demolishing yet. Through large left cabin window one operator in cream work uniform cobalt helmet visible at controls hand poised over start lever, no outside driver pedestal, no open roll cage replacement. Circular port upper rim tower and active green departure lights background, salvage gallery to right, daytime sun. This is starter before operator activates machinery and interrupts control network. No protagonists or scrapper in this shot. Image2 port geography, image3 guard uniform palette only. Brief1.458sec impending demolition cue, do not clutter with multiple actions. No UI overlay.",
+  "referenceImages": [
+    "generated/storyboard/rest-of-song-starters-v037/demolition-machine-reference.png",
+    "generated/world-development/port-ship-v028/port-overview.png",
+    "generated/world-development/port-ship-v028/guard-a.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-b76f2bbc-5e08-40c2-a5a6-4ff2040c1bdd.png",
+  "attempts": 1,
+  "qa": {
+    "inspected": true,
+    "notes": "Same enclosed-cabin tracked demolition machine as standalone reference. Operator in cabin ready, grapple poised above scrap; no blackout yet. 35frame slot per parent timing."
+  }
+}

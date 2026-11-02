@@ -1,0 +1,19 @@
+{
+  "shotId": "S12-SH03",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v037/S12-SH03.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: illustration-story. Only characters actually shown in edit target, no additional lock cast. EDIT first image preserving exact second-terminal location, parked cover vehicle, screen hardware and Harper identity. Change Taffy from pushing bin/watching Harper to actively keeping lookout: standing behind same stationary bin but head and torso turned LEFT toward distant possible patrol approach, intent eyes scanning, one hand resting naturally on bin, other on backpack strap. Harper remains working at screen. Add quiet assistance UI: tiny AMBER helper symbol made of SIX small connected nodes in hexagonal loop at top right of screen; beneath it orderly GREEN suggested glyph route through existing amber port-ring/two-square diagram. No readable Earth text. Natural proportioned hands. Keep clean full16:9 scene, not annotated design board. Input1 is edit target; next references are direct Harper/Taffy identities and dimensional illustrationstyle.",
+  "referenceImages": [
+    "generated/storyboard/rest-of-song-starters-v036/S12-SH03.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/storyboard/first-run-starters-v003/ta-003.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-f7f4b71c-565f-4615-88f8-322057aa134c.png",
+  "attempts": 1,
+  "qa": {
+    "inspected": true,
+    "notes": "Taffy actively looks LEFT to patrol approach with hand on stationary bin, no bin-moving action. Harper terminal, tiny amber six-node motif and green suggestions established."
+  }
+}

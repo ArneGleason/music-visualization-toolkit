@@ -1,0 +1,23 @@
+{
+  "shot": "S09-SH07",
+  "status": "review_pending_not_selected",
+  "credits": 75,
+  "durationSeconds": 5,
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "starter": "generated/kling-scene09-scale-v054/S09-SH07-starter.png",
+  "selected": false,
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946054794085544017&materialId=325557039537698",
+  "reviewNotes": "Scale improved, but cartridge lands on foreground outside slot. Do not select. Prepare both-frame constrained take.",
+  "take2": {
+    "status": "downloaded_review_pending",
+    "credits": 75,
+    "mode": "first_and_last_frames",
+    "endFrame": "generated/kling-scene09-scale-v054/S09-SH07-end.png",
+    "prompt": "S09-SH07-take2.prompt.txt",
+    "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946056975849242634&materialId=325557559302838",
+    "video": "generated/kling-scene09-scale-v054/S09-SH07-take2.mp4",
+    "reviewNotes": "Larger relative to hands; lands inside opening. Still unnatural upward rebound around1.25\u20131.5s and subtle settling/pose drift. Not selected. No further spend before user review."
+  },
+  "totalCredits": 150
+}

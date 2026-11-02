@@ -5,10 +5,10 @@
     "projects/desert-colony/generated"
   ],
   "schemaVersion": 1,
-  "tag": "together-anyways-20261031-v002-stills",
-  "archive": "together-anyways-20261031-v002-stills.zip",
-  "sha256": "8b2f55839170d6a66bfaf0185ece53afe06116e081bc1331275865da9a214670",
-  "bytes": 1191718952,
+  "tag": "together-anyways-20261102-v003-stills",
+  "archive": "together-anyways-20261102-v003-stills.zip",
+  "sha256": "b44af8c2abd71febf3841f52010bcf528975d4ebe216b86ae86eac356bcac9fb",
+  "bytes": 1725104628,
   "files": [
     {
       "path": "projects/desert-colony/generated/character-development/harper-and-partner-v001.png",
@@ -776,6 +776,11 @@
       "sha256": "be200f97cf0f613a8c5a84a56417be6da2c78de00433d69f8faf2eca0845fd67"
     },
     {
+      "path": "projects/together-anyways/generated/full-song-listening-v023/review-proof.png",
+      "bytes": 51031,
+      "sha256": "b277eb85288f6285deefcd3808e612d4e96b0c9a9b970b961a89cf9cc3fc7295"
+    },
+    {
       "path": "projects/together-anyways/generated/kling-action-v003/animatic-review.png",
       "bytes": 122220,
       "sha256": "3297b8a5469b54890002e9ced5c7d586a654adcf0596cb1a90c8f62d81590b18"
@@ -1154,6 +1159,76 @@
       "path": "projects/together-anyways/generated/kling-action-v003/ta-006-sample-7.png",
       "bytes": 2877770,
       "sha256": "00f8c6bda673c1fb3b780c3f450755530da6bb03878667459973f8c9253b0645"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/S13-SH01-contact.jpg",
+      "bytes": 464598,
+      "sha256": "f354b7547c6ed325069d8acccaf5f21e1629208918d67fb20e235f44a5c71aef"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/S13-SH02-contact.jpg",
+      "bytes": 473973,
+      "sha256": "eee82305f18d4cf2ef88f26197e872baddaf3a88494cc2a69a92e22ddecb2635"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/S13-SH03-contact.jpg",
+      "bytes": 314739,
+      "sha256": "f0c7085eb64331c140873d9b0fa111f034dca68aedf22e16e40c95d033f379e6"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/S13-SH04-contact.jpg",
+      "bytes": 389476,
+      "sha256": "ea8788a31bd67b7a406ecdd77bfe24dad3bec678eede5eb0f25e0fd175b33ad8"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/S13-SH05-contact.jpg",
+      "bytes": 354204,
+      "sha256": "5cd87eae7659cb47f776fa7f7bd632d13b1f6636745b74ae4271247ae9ef09c4"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/S14-SH01-contact.jpg",
+      "bytes": 254762,
+      "sha256": "02b34f5b48af83bfd5c6f55607dd81a37008afd0316a99a7c1798d39fc2c4208"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/S14-SH02-contact.jpg",
+      "bytes": 367716,
+      "sha256": "90fbf29db2dbf74c6e113997204278df9ba01c0d1a35585ca1d2be88fa792bb8"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/S14-SH03-contact.jpg",
+      "bytes": 305683,
+      "sha256": "b76a6e5789d7c4cfbafb81a143028e8d467ad90e11529939a7926b7c2efaa80c"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/S14-SH04-contact.jpg",
+      "bytes": 328363,
+      "sha256": "07796484bceabca96dc032b9b1af9452f7d620a5bb0a25bfbc44de8b86d04a53"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/animatic-proof.png",
+      "bytes": 72799,
+      "sha256": "1c02eb0960d4eabefef531d3b05430911d42cf6784c0f777d579bc3f052b20f0"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/review-proof.png",
+      "bytes": 86746,
+      "sha256": "b2e8ad181cab8b34db7044c4120b2b2f6c2dc4594b3446b22b452d261046d3d1"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/review.html",
+      "bytes": 17336,
+      "sha256": "b7c8d190c76fa57f0f6791d0815e56ac4c297a61a0bf077ab66ed0e3a7cdf37f"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/starters-contact.jpg",
+      "bytes": 208922,
+      "sha256": "3a51494be5e02cd1eb432442e7f984f5246a0860f6b1c599b031f1a050995386"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/submission-proof.png",
+      "bytes": 92912,
+      "sha256": "62c54367329dff644dfbd6d6c8bd519228a079f88282a6639f3ac588f8cf375d"
     },
     {
       "path": "projects/together-anyways/generated/kling-pilot-v001/animatic-ready.png",
@@ -1631,6 +1706,781 @@
       "sha256": "e317df318254ad3b8cdaf81501ae3661c005804feb4f68558a5ed602d4aa4b9e"
     },
     {
+      "path": "projects/together-anyways/generated/kling-scene04-v018/review-proof.png",
+      "bytes": 108830,
+      "sha256": "9c7986900ea51dce07019a59f1591e6e78513dad0ae1ca10558acf8929ffab44"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene04-v018/review.html",
+      "bytes": 1422,
+      "sha256": "213326db222cc41958ba7680b3c8ec716d868ac04ccdd909d7c5eb0fad9e70ed"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene04-v019/review-proof.png",
+      "bytes": 112067,
+      "sha256": "b256737a0458d3727afcae7063134abc1c939ea476659986cf9bb241bc6027d2"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene04-v020/animatic-proof.png",
+      "bytes": 112220,
+      "sha256": "8a478aa5c021c26c93646bd0afec6b74a6c0cdab1854b6a8cc269055656d8c8a"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene05-v022/animatic-proof.png",
+      "bytes": 118176,
+      "sha256": "45d83f7022f68b17cc582ecefe22eebd418949364e29e4009aec6dc1819ca9dd"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene05-v022/review.html",
+      "bytes": 1825,
+      "sha256": "6abc81977e108d0db5c01a0e46d2ed2b362cb5e3bf9656222cca9c06a292abb3"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene05-v022/wipe-midpoint.jpg",
+      "bytes": 320097,
+      "sha256": "3513c4f2a3bc0a2b1b6bbfa7903177c7e0e2ba7f0c67c2620cfe64778723ec9d"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene06-v042/kling-result-proof.png",
+      "bytes": 204716,
+      "sha256": "7bf0c8ca3791530003f59d837714942d8ef51040571895e61707d27a5f093a52"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene06-v042/review.html",
+      "bytes": 4413,
+      "sha256": "5d55570dbb2fc80e09e6b0be6ffd86f3b870c8666afb618e0a21f73f7114957a"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene06-v042/ta-023-contact.png",
+      "bytes": 3309967,
+      "sha256": "52dcf7205d5b696dfb92132401ed5f4b271e4e39ed542f3f8aed05585feba7d0"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene06-v042/ta-024-contact.png",
+      "bytes": 4994924,
+      "sha256": "dda781aafa180f048a959273eacd05e2bd8785e7a6dccf80e4c59ffc1cbde4ac"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene06-v043/timing-proof.png",
+      "bytes": 2631303,
+      "sha256": "7a1373eeb22381f76bb40b3d10eb4f7a1132aac1f65d956a6b3c028fdc0d6fb2"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene07-v044/approach-contact.png",
+      "bytes": 2593948,
+      "sha256": "bc7489e4cb1cf2e734301e38883ee24e22c320845b7438c07315531c70f2c954"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene07-v044/crossing-contact.png",
+      "bytes": 3519323,
+      "sha256": "ac628fff85cf4b3702d0b49be2cf09e5613ca260f7ea966367b5ace5f592ab06"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene07-v044/kling-result-proof.png",
+      "bytes": 201801,
+      "sha256": "c648704c3f0e55f007a88201d718dfd1d89028a9c6ec50f4886745ab2a61a870"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene07-v044/review.html",
+      "bytes": 5887,
+      "sha256": "50fc6adbf0060cf494b1932fc25a45f2ac132f9d81493c52dae85d5b7affb474"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene07-v045/S07-SH01.png",
+      "bytes": 2532615,
+      "sha256": "b171b581e46c3c430853c434efdf62e696308dee07819ef50b5426cebe971e6a"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene07-v046/contact.png",
+      "bytes": 3394289,
+      "sha256": "c35b37517b5a45c7f38bdd26d2d52a0d14e79b69623f0e4fd46bae0e7b0d8fcd"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene07-v046/kling-result-proof.png",
+      "bytes": 208507,
+      "sha256": "b59ef3adcdfdefcea9e781da3b4ff55645e776d00b5e43015b3795bad6ca1344"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene07-v046/review.html",
+      "bytes": 2921,
+      "sha256": "2f34f6e846e1e079acb69c7a3c67ee2ace62145d9e16b29218e5f3a878d5afa2"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene08-v047/handoff-contact.png",
+      "bytes": 4238567,
+      "sha256": "3af32abff545522757b5f9cad75de76344d92c87cc306ef0df2c9084aaddd357"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene08-v047/kling-result-proof.png",
+      "bytes": 205203,
+      "sha256": "ea0b295ee448def940d8f482fa2f605cdac983574296b77be70f6c4cf08ed7e7"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene08-v047/reveal-contact.png",
+      "bytes": 3719413,
+      "sha256": "4fb8ab8f82152f1bb48eb9567292c49542affb19744c34919b7613f876bc816f"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene08-v047/review.html",
+      "bytes": 6159,
+      "sha256": "f2bd83dadc8d506d9f05996d81116260e89ba3a58854d2f64694908ad2cb6107"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene08-v048/arm-check.png",
+      "bytes": 2603477,
+      "sha256": "7d28acd12a5777589b90b7dd672da0ec761f67e042d1b4794d7bd649596f37e8"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene08-v048/contact.png",
+      "bytes": 3640049,
+      "sha256": "aabbf9d0db04b281c918641869c8ca5c6a5e24cfd93b1c5c5a2ae6f613fe9f57"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene08-v048/review.html",
+      "bytes": 3954,
+      "sha256": "937cc86e2aadb13f24700dac2b4808195d616baed980e2ad6bf600cff17fe89e"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/contact.jpg",
+      "bytes": 466345,
+      "sha256": "2a9010aff3f7ed0d04a1a7d1d93273cbf3ffffd4843f309cc616e5b45a1af001"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/001.jpg",
+      "bytes": 22990,
+      "sha256": "cff1b29239db8b8b7e26710f047f5a066a8403340e6227941e2ac6ab21155635"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/002.jpg",
+      "bytes": 32544,
+      "sha256": "41792a793f0163ed43d2a1f585098c573feebab993541aa294e5c0cfe67d6455"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/003.jpg",
+      "bytes": 38979,
+      "sha256": "36c9dbe9efe3400dd6b61e8aa06ad2cea5e5028d361bf1da3f182e503ed1c790"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/004.jpg",
+      "bytes": 42125,
+      "sha256": "7be3e71616c0285e525c3b08012e6387f8cd909172fc70ab87b925f2d3b524f4"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/005.jpg",
+      "bytes": 38658,
+      "sha256": "95f3fa18bd6ba085fda2f9b35bb74cb31eb351325db6c097e311c3406dd5b891"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/006.jpg",
+      "bytes": 25368,
+      "sha256": "a70480190973a025e59b330a188a2f0d9d802d0a9ec00df824b6347f6f74d0b3"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/007.jpg",
+      "bytes": 21551,
+      "sha256": "65bb7fb0b304a6246710ac8ff5206e1fef5b8f771f7c250cad6d84e39ec91f51"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/008.jpg",
+      "bytes": 16115,
+      "sha256": "f81001f147fd789e1e236645da283dfe03ccd819b51d4da3a4c0ccab79584b62"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/009.jpg",
+      "bytes": 14671,
+      "sha256": "05c8ff671e0b5705c7e36443d28493cf7e919327bc5bf8fb46c162a4f37a703c"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/010.jpg",
+      "bytes": 12272,
+      "sha256": "a2d3e4cb322d90dda10c957d41d1b8ed4490273cdfa6cddc1ebb1454892e1424"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/011.jpg",
+      "bytes": 10954,
+      "sha256": "f482980047bb1952d2274752108e1f06bad11e64c4481a86e0c5f1d12be3088a"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/012.jpg",
+      "bytes": 9430,
+      "sha256": "7f182e5b859ddd2bb87cdaae1bdd5e61603595c45fcbffcab2496dca21eb7b5e"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/013.jpg",
+      "bytes": 8631,
+      "sha256": "c0d656cfeade1bb19e51312748101128e84aa4b2618f952b6c88aed290948436"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/014.jpg",
+      "bytes": 8029,
+      "sha256": "df2b3474ac44375169bbeadd3f29874817a91c369ac39de90089ba96a3560236"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/015.jpg",
+      "bytes": 7739,
+      "sha256": "886cccca00835804b72884b51d7f677fd01b2c0aa2c267777ea0ee829dd8872b"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/016.jpg",
+      "bytes": 7262,
+      "sha256": "2e154bdc70faa2cbefe2934b1656817103f5c90bd57c2a757279e9ecceec2af4"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/017.jpg",
+      "bytes": 7268,
+      "sha256": "30a4437565fda548357fffcdf68385e398e227c58b9b90e3203f25ef753d377f"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/018.jpg",
+      "bytes": 7276,
+      "sha256": "561a27b5e573ab3014ad446d469b70f62c6493deef1a4c1d8a7a8958d5d00c36"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/019.jpg",
+      "bytes": 7281,
+      "sha256": "2761a2e6823dda4f4b74007be4f18c3bde80e213ab7c7890750ae4a80e015d7b"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/frames/020.jpg",
+      "bytes": 7256,
+      "sha256": "43a0d2da3b70c0bf8f0189e6e59751fdaec9242d16bb3759f44cbe882ba7451e"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/kling-result-proof.png",
+      "bytes": 188646,
+      "sha256": "3341eeec0606faa841f3685620e925799108328d4f3e5df17d96b1d897b30545"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-endframe-v052/review.html",
+      "bytes": 940,
+      "sha256": "6b4325edc63a49519b5706b17864f799b2295fca9bb8d4b4234d425e52541586"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/S09-SH07-end.png",
+      "bytes": 2236858,
+      "sha256": "d72325b36026236118d9184a2b67cf2e6a6b576db9bf858f4bf12863fce51cbf"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/S09-SH07-starter.png",
+      "bytes": 2228296,
+      "sha256": "5cf82b536d50f1156ac4d8e14d33f81780545ddef0f69e1c3eb2e23af7edf48d"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/S10-SH01.png",
+      "bytes": 2257723,
+      "sha256": "cf649a40df7b6299e204f6d26d0d6fa7d5db5fb9e7dd4d4638db07d226c8b232"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/contact.jpg",
+      "bytes": 501041,
+      "sha256": "50f7f2499d5a54a7ca0cc4b26a6c6c3adbd8d89e085ccf6cbda5f2a6acdbdff9"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/contact2.jpg",
+      "bytes": 528962,
+      "sha256": "d8d99eb05eba8f8a9bb46d47d21ebed31563edacb16df8da202d82cf5ba50639"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/001.jpg",
+      "bytes": 28436,
+      "sha256": "6212985578ebf7afc27015ab18d94d4a5038dd952a69c9d477b56d44b30daa3c"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/002.jpg",
+      "bytes": 40153,
+      "sha256": "5362f02a3a2c282b003eb76df2664c76d7dfc015bf1fe5fbd07c0af32980ebae"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/003.jpg",
+      "bytes": 51897,
+      "sha256": "6e31fffd9ff58cde89c3a87215272600a3c2ef7eb19eb66c8ec5bb99c940e8ec"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/004.jpg",
+      "bytes": 51931,
+      "sha256": "7202b4584636baa66e4d232d336e3e488e59ffd26efe97645b4ed7aa4c87b17d"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/005.jpg",
+      "bytes": 40182,
+      "sha256": "e1b98e5ccb6e55d3d523b2886f3d1764fddd1abbe2d865bf851cb2c58ee660ab"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/006.jpg",
+      "bytes": 28462,
+      "sha256": "ffca08d6634a68042e4b57f2f98b229f280576bd43fd8ba3d4f60c1a73d1f398"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/007.jpg",
+      "bytes": 21929,
+      "sha256": "6b2ba234e9759df95aac596bb746e34e682d45389b68c131da74129d1e6633a4"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/008.jpg",
+      "bytes": 16216,
+      "sha256": "256518c8f5f70777b71b1f84d2ce804bf5eb193cd2b3d36f4e6634d11f9a462f"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/009.jpg",
+      "bytes": 12333,
+      "sha256": "fc489a2ce6d35b729f5f6a8089b689da9eca5e7fb834ff338d02a2079d4fb3d1"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/010.jpg",
+      "bytes": 10634,
+      "sha256": "15b5caf128c87438f61d17ff00491c92c573e185b99006972b35af36dae43d25"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/011.jpg",
+      "bytes": 9428,
+      "sha256": "9532ea1055089267ecc41561d739bda1418b1b48e090f48cda1ef874c4d5ed76"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/012.jpg",
+      "bytes": 8384,
+      "sha256": "1f2f2e81855f8bf9401153b21a0da337a64a637c5ffc64017ca7e82a3e0cb537"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/013.jpg",
+      "bytes": 7541,
+      "sha256": "c78161745403a4b5d48e3fdfff12cc321bd4590a6bf6ea5f96c19f6ced52b7ec"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/014.jpg",
+      "bytes": 7511,
+      "sha256": "4205dfce2894c12320152c9b5bf44804121f3d74cb9dc18f0106ac934a7b366d"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/015.jpg",
+      "bytes": 7340,
+      "sha256": "13a9b2eb6092f2c46cbebf4ed4e6c9ed9c243acc7ace8c9945664741b68db02e"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/016.jpg",
+      "bytes": 7222,
+      "sha256": "c72ee94022536a1c405f54d47022981215ef611dc544717634fea68fc936ac61"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/017.jpg",
+      "bytes": 7078,
+      "sha256": "2b0dae0c9d84e05580cad2566e36a64e8818c5880a6cd6ce8113b2d32e732fbf"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/018.jpg",
+      "bytes": 6940,
+      "sha256": "3c8a30b6beeba03e6e594e942a6784f2761b9fa9300281203c4425d83178ad17"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/019.jpg",
+      "bytes": 6875,
+      "sha256": "94d46271c5b32a6d0b53069d802da3712c369feb7db8951bf1f693084b9a19b8"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames/020.jpg",
+      "bytes": 6805,
+      "sha256": "9996f0baf815bb26d5d94a0dabface34fd73f483d6fb0073b341eb9d2ce815fa"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/001.jpg",
+      "bytes": 28898,
+      "sha256": "b102bf2009d131655b2a4e07ce7c4177dd6acd8ac5f945b45b47c0208163d657"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/002.jpg",
+      "bytes": 40667,
+      "sha256": "b90250730ecbb4ebe04e9c2302dac61580791e81555a8e361cf4805c32d249a3"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/003.jpg",
+      "bytes": 52488,
+      "sha256": "e71c14ab04ef6be83308d8ab2580d7e65c7b9d894ad37f1c6e7245625feefd00"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/004.jpg",
+      "bytes": 50647,
+      "sha256": "d4a5cbff396c8cf33abf136fb19e0d7fbbef543190e079e777eaabf13209ed62"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/005.jpg",
+      "bytes": 37733,
+      "sha256": "5c5a4f608fc94c0ef364e9b26412aef3dd19824d0b51eea01c0e331a240d798d"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/006.jpg",
+      "bytes": 25079,
+      "sha256": "1cd10997c28100998b73e40391611655a519f27d8d13fd24629bee35ef1f4b45"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/007.jpg",
+      "bytes": 21439,
+      "sha256": "bfc62f6da93ea7a48ad0c1e988c48797162b33420b030a0b2f965443128865e0"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/008.jpg",
+      "bytes": 16706,
+      "sha256": "c90abacafcb6687595eb5fc227dc185f6f3c4e09543d876e6c48f8d93af1af4e"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/009.jpg",
+      "bytes": 13853,
+      "sha256": "ec62f9201ef75bd7e4a463088953eacb95c59cf5c7cdcaa4229dee146896b979"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/010.jpg",
+      "bytes": 11600,
+      "sha256": "621ffb051b9e7e42a004f051b8db323221cf3de721e1ebbe7c3460d5994affe4"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/011.jpg",
+      "bytes": 10080,
+      "sha256": "2c77ce46232243744a61dc4d7a3072c609514406301326415667cd5efd490541"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/012.jpg",
+      "bytes": 8954,
+      "sha256": "c1f37463b2015889b2d5ab67ff45eeae72e52ce699e144f3c6dbfff9b1d85479"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/013.jpg",
+      "bytes": 8079,
+      "sha256": "df2d6e7766b565bfbd6b97f87f19fe87090ff51600e8b650b8b1589607b25e9e"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/014.jpg",
+      "bytes": 8101,
+      "sha256": "235c61618a13cacf55baa91193a2273893784e82bdc4e79814a947edf01012a3"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/015.jpg",
+      "bytes": 8101,
+      "sha256": "cc229290d90dc0e406cf0be826f8473f9be4ac661a204ae93df58fb6e936d41e"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/016.jpg",
+      "bytes": 8142,
+      "sha256": "866a0ca6be411886f37348d734694018791b87aed4536b65fb02df16f84c8d46"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/017.jpg",
+      "bytes": 8056,
+      "sha256": "f27c17a4b8257132c0c22cc9826f8e727911768cfd25b5a32c58fa9a9033aa66"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/018.jpg",
+      "bytes": 8102,
+      "sha256": "323a8e93e3ad1c9ababf0b62ac6ddbbab51e2e68b6616411da67a89c5c19b5b3"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/019.jpg",
+      "bytes": 8107,
+      "sha256": "bae4c3a61fdbfdebd8316ade5d35e23d1dbe92fa750b2ccc017739f69c58a63f"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/frames2/020.jpg",
+      "bytes": 8118,
+      "sha256": "403c5426b9a06b450bf6edba708d3d787f73fddfa087556b1f504f62f617f083"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/kling-result-proof.png",
+      "bytes": 190521,
+      "sha256": "b04a99e7c6e5d3c3728b4ff27612df6ae1942c356fec0aab090a7b73619bc97b"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/kling-take2-proof.png",
+      "bytes": 249285,
+      "sha256": "ccf1fd0429ac702564fac67896e09ae2a54701c11e2f905fa44516b8780325c5"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-scale-v054/review.html",
+      "bytes": 975,
+      "sha256": "4738daac07b8dbd9dde2ad608822d30582982bcce3b5e25e16be7a6cac987b67"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-v049/S09-SH01-contact.jpg",
+      "bytes": 217307,
+      "sha256": "a4357fc1e7392812018e2d0e72ef83f5afe59331f981cf748189f2d89c7f42eb"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-v049/S09-SH02-contact.jpg",
+      "bytes": 221268,
+      "sha256": "3b5eea55422802a4d8f5acec861689e460026181d0220afd40659b7122562eb8"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-v049/S09-SH03-contact.jpg",
+      "bytes": 359187,
+      "sha256": "3a94a07b4b66e2800a328222fc1a14bf6dd4a8e0a8fcd83a808845eadcee3cd2"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-v049/S09-SH04-contact.jpg",
+      "bytes": 297290,
+      "sha256": "9e7da3356757aacf0fe53a354ac9c62a9396d7c3ade2a3123d7189f0bcc06da8"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-v049/S09-SH05-contact.jpg",
+      "bytes": 281265,
+      "sha256": "d734939905d185dbf5ffeb5c3b792ad8a1cf2e2103424d5b6107f5bba3ea721b"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-v049/S09-SH06-contact.jpg",
+      "bytes": 310799,
+      "sha256": "db7f21826e36c75e1f7070aa7152a1a060989b879fbb47a7641c1f3b37766863"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-v049/S09-SH07-contact.jpg",
+      "bytes": 280392,
+      "sha256": "cd90103032ef28a8dfb58d763d464a22d1acd62bad042537d99421ac6a0c9b9f"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-v049/kling-results-proof.png",
+      "bytes": 250721,
+      "sha256": "ee76bc535f6597697d1f213479a9374c0f1b8d79c8b02ceffbd3d0c176fa5386"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-v049/kling-submission-proof.png",
+      "bytes": 141996,
+      "sha256": "db3fed47dbae1a7a028bccc8aad83009379a56aea1e415b091972ad20497c0b6"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-v049/review.html",
+      "bytes": 15320,
+      "sha256": "5708c638d9c1fca3dd7f0615cad908d8ab50f7bd8267dc8f0ae4a938f943bb07"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene09-v049/starters-contact.jpg",
+      "bytes": 230521,
+      "sha256": "af1da2d894dd8176fdeffc9985ecc8a9b249741868ef9b5f883390efac558b2e"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/S10-SH01-contact.jpg",
+      "bytes": 376087,
+      "sha256": "74537a50342b341e384a0d1b3f62f4cd3c0b734525cad1304095ae90ec4cb086"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/S10-SH02-contact.jpg",
+      "bytes": 467570,
+      "sha256": "126e01ab27fa736f702622b63204f255243ff605a3679de603d6873ddfb23f3c"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/S10-SH03-contact.jpg",
+      "bytes": 482840,
+      "sha256": "37431d5b9955b61d3dcdfedbd482cb3292fc96d8aa65692c16d98c32b426c8da"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/S10-SH04-contact.jpg",
+      "bytes": 415322,
+      "sha256": "a2803d80720fc2609b695a4ea21e444eb0e441e4d5db943cf33e768080427a4c"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/S10-SH05-contact.jpg",
+      "bytes": 524756,
+      "sha256": "1e62962b0579c9b33aba8376cbdc543ae0f8a9f7371947fc0064b03938dea8dd"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/animatic-proof.png",
+      "bytes": 72107,
+      "sha256": "ea70c1a6c5636d27b11d2ac2b278a0e104a426b717efebd01297e54699a62d08"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/approach-result-proof.png",
+      "bytes": 258036,
+      "sha256": "938e1a94a140f5defea213ec306f5129b08bc3a53dc5df9390239ca9c3d7547b"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/crush-result-proof.png",
+      "bytes": 226390,
+      "sha256": "7b19239ba902b7a5a332abde9291812cff62945a73c2056524329cb472c7c6a2"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/extraction-result-proof.png",
+      "bytes": 256036,
+      "sha256": "abc28b1c59d8f6a1bc8eb29b5a0dc03c863cc8bea3ae3e93b1e8a7a60ae5efe4"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/installation-result-proof.png",
+      "bytes": 227506,
+      "sha256": "06082f15e930eb647d4404fbc29da79f6941441748fbf8cb4c91d19a020e189c"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/review.html",
+      "bytes": 11155,
+      "sha256": "09731feae076fc642d73bc792b8a81c826de1d2faa98f0d7d4b08cfdc70da8a0"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/startup-result-proof.png",
+      "bytes": 237792,
+      "sha256": "56167abe42e0a846e18e89e63d5d8cf07d5c774374e37a3763a2262ac38ced0b"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene10-v055/submission-proof.png",
+      "bytes": 218004,
+      "sha256": "a910818a6f9424bd48150b2b1f523058f6e3314b3a2f7c26b02db4e2c30d9419"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/S11-SH01-contact.jpg",
+      "bytes": 468767,
+      "sha256": "b4e050ecc7baf0c633a106850389faffa86f63a2d7502b62071742321fb86520"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/S11-SH02-contact.jpg",
+      "bytes": 402915,
+      "sha256": "3a832f849a018f34369cd7462fd657264a3c5e6eaee291ae4722ca98465cfed8"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/S11-SH03-contact.jpg",
+      "bytes": 359324,
+      "sha256": "1091ab25e440a1371ff7e2de42f9dfbda766ecaafd33ea173b8a068601f45877"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/S11-SH03B-contact.jpg",
+      "bytes": 292623,
+      "sha256": "02d76b17add91cb1615ba787fe972dfcb152e508990fe958d388f37890680e11"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/S11-SH04-contact.jpg",
+      "bytes": 440330,
+      "sha256": "07b8e2545420486d0f9b51fa73b6becb0f1833ea71dbb09c692c16869c6b7175"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/S11-SH05-contact.jpg",
+      "bytes": 505608,
+      "sha256": "00acdd47a5c257966d533cb68e71c9ebf18eec5f0b314174f6df8d40cab18416"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/S11-SH06-contact.jpg",
+      "bytes": 368155,
+      "sha256": "5fec227efd2fa07e3c12cf7314377a07b16809046e053e5f1daaeb5b0aa46f89"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/SH01-proof.png",
+      "bytes": 255680,
+      "sha256": "71c6a971bdb2036e952d1c0fc4a436783569268a9afb67c5f59b69cd4d70b61a"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/SH02-proof.png",
+      "bytes": 244165,
+      "sha256": "b35fea5fa8a2dfa7b4d5398133c59126e926e3d225bae9b7034e201c1ed9ddbd"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/SH03-proof.png",
+      "bytes": 251190,
+      "sha256": "5955abede95e750d72da21745c7c3f0777e7179cd6378f200169a6e4cb59ad01"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/SH03B-proof.png",
+      "bytes": 250818,
+      "sha256": "c0408ecfe6fdbdb41ddd098446dddfe284ee1157fd48be0b5e0cdd86f181327b"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/SH04-proof.png",
+      "bytes": 255817,
+      "sha256": "e6288523a7dfe05b36e9419a02842496ead7b335fca98a8c2f7ed76cc53abe34"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/SH05-proof.png",
+      "bytes": 250237,
+      "sha256": "10769bb2307a91f3efccf37a78cfb2f916ca597e754d25e669e5f4bb4947fdb1"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/SH06-proof.png",
+      "bytes": 270351,
+      "sha256": "b291fb6aea2806d3d6f71be1d38629f682387536c5ff3f8c9c184bc6bd0ceee4"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/animatic-proof.png",
+      "bytes": 80017,
+      "sha256": "5045c078f24f4831313b51c4ae2d4004b55b7253bc5e15303663934b9f71ec48"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/review.html",
+      "bytes": 14068,
+      "sha256": "7c3bb3cf68d060d77c184b74d449d4bde1c190b3b0532a878921813c79df6f79"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene11-v056/submission-proof.png",
+      "bytes": 155373,
+      "sha256": "427f3a80c58e4144d28ec9db5e5b00a520da3a2d1e12c34c10368be484a8bfc8"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/S12-SH01-contact.jpg",
+      "bytes": 366873,
+      "sha256": "554675361ab795d70516eab8b98203aef0c6f7705b320edb1fbb7e8d3f045983"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/S12-SH02-contact.jpg",
+      "bytes": 430241,
+      "sha256": "0c15d2cd1f2c7d06f30ebb29adf42c6e096ec1db9b707063379c18cda60b112d"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/S12-SH03-contact.jpg",
+      "bytes": 378970,
+      "sha256": "965d8ee132e9f8532072639476356ce8b47acea5327d63dd8e77483d017377d9"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/S12-SH04-contact.jpg",
+      "bytes": 501329,
+      "sha256": "eca91eb99537154903dbb906b804e8ac5bd1b93425b9c8cf7b7d3ba0b20300f2"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/S12-SH05-contact.jpg",
+      "bytes": 337750,
+      "sha256": "79dc01a1e703581504ba66888501545ab5aa7d58d82e446e2e8f399f4c54bdc2"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/S12-SH06-contact.jpg",
+      "bytes": 277183,
+      "sha256": "a46e45fe204e5a9468cd2aa80d2fb3d320b7c0baa23f008cae7de23c9be145a5"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/S12-SH07B-contact.jpg",
+      "bytes": 352068,
+      "sha256": "ae5f212c1f4e8a5d433875f5e1291b7837e18bb6795c1bacd1da88e6cd89a645"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/animatic-proof.png",
+      "bytes": 80944,
+      "sha256": "c805034ba5967139b876077ee7948e9586855f5fa0d773f6231711318e4af3c3"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/demolition-failure.png",
+      "bytes": 102985,
+      "sha256": "258fc1e7dd40cab3c22e0e4c529c8c4f6852256915a248335975244913e70004"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/review-proof.png",
+      "bytes": 92145,
+      "sha256": "974b174da9c3778436ebf4ec1bc010dce6a730c721835148d5933f10365b804c"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/review.html",
+      "bytes": 14038,
+      "sha256": "9d5e38cb71d7b88c528975ae6d5380266595e236829c36cb0bf3d8235d696552"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-scene12-v057/submission-proof.png",
+      "bytes": 168169,
+      "sha256": "89de000178cdc087fe5e451584afedb6cfa4b28af0c482b1e1d5c7e0be6ce2ab"
+    },
+    {
+      "path": "projects/together-anyways/generated/lyric-navigation/instrumental-proof.png",
+      "bytes": 55177,
+      "sha256": "d59e3b3e273d45ccd66b3a358c5b9825dd5d09fdeed43003903c6189e7de99c2"
+    },
+    {
+      "path": "projects/together-anyways/generated/lyric-navigation/review-proof.png",
+      "bytes": 55340,
+      "sha256": "76dcc2e5f409b0a706cfbd96f0e39af10af98e360b150361d165ecb7e1ab0e31"
+    },
+    {
+      "path": "projects/together-anyways/generated/lyric-navigation/story-overlay-proof.png",
+      "bytes": 69302,
+      "sha256": "588a706920e14256b92d9cff022f24dcb46e694c3058e577ae077b5ed9834b02"
+    },
+    {
+      "path": "projects/together-anyways/generated/scene-crossfades-v021/animatic-proof.png",
+      "bytes": 118479,
+      "sha256": "9ccd395052bde1e1493d8e7d87ed071d03d61dac4476b1636fa9e99c537b8329"
+    },
+    {
       "path": "projects/together-anyways/generated/source/Together-Anyways-current.dawproject",
       "bytes": 274396684,
       "sha256": "5a097233219f4ee6151af040be87faac03c3ef7658fd89c06df0406472477124"
@@ -1806,9 +2656,209 @@
       "sha256": "08597dfa5b711c5b0e52f9206257ec626b1c1779dfba7342726c3c991108092e"
     },
     {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S07-SH01-review.png",
+      "bytes": 2780754,
+      "sha256": "555dc66e32351b207681249adec9252e5ba4ac95945b1675ae40f7722f2c5887"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S07-SH02-review.png",
+      "bytes": 2811893,
+      "sha256": "4be0ebb8f002a1d1bd4c1ef06bb7c3e1735af4fdf78ea3a0830a8b79706bd03d"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S08-SH01-review.png",
+      "bytes": 2619766,
+      "sha256": "534b49a18f5dcd689288c56dde918ad94caa328f9596c82eb0208473854cde23"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S08-SH02-review.png",
+      "bytes": 2650474,
+      "sha256": "2796954452b298d4807bbe79b356e946fdd919cfca31d8dcb1e83be1968d2497"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S09-SH01-review.png",
+      "bytes": 2512396,
+      "sha256": "1e6bf53594ec92053b6c1b21b49b2d89c75c57b398309593c0e4a991742c5931"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S09-SH02-review.png",
+      "bytes": 2528399,
+      "sha256": "e2f261e0db996d874fefb755b2be88cf02a5d816ceeefe5f592f31f6352fdd92"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S09-SH03-review.png",
+      "bytes": 2899012,
+      "sha256": "2e9ebdba60d0ba062f5e4bf13e2332a997c53e23f844605ce90f514b10bfdcfc"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S09-SH04-review.png",
+      "bytes": 2540676,
+      "sha256": "f4d6ed26d32487dc6dde4ac053390e824ea848d4c171266a138fa3784dd10205"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S09-SH05-review.png",
+      "bytes": 2580570,
+      "sha256": "217220eba4fff5016ca0e8b3d1266bc9150fd14d518a5f7cda3d4f751f9ae164"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S09-SH06-review.png",
+      "bytes": 2593864,
+      "sha256": "bcfff14ac239e23e8e47556447ae63607949e4b97866a9eabfa01281651c7397"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S09-SH07-review.png",
+      "bytes": 2273884,
+      "sha256": "8012cf96deb2f181778a49138e3fd12cd998e7199dd6b4e64f713f46fc952547"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S10-SH01-review.png",
+      "bytes": 2383293,
+      "sha256": "3e6068bad59a34610acec532d9d90c31be55de7928024da16378eba2e4e3070f"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S10-SH02-review.png",
+      "bytes": 2413413,
+      "sha256": "cb9e37399035f46869025456aba50d091125f0b85d6fdd35fcfbeb952bc8a112"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S10-SH03-review.png",
+      "bytes": 2918620,
+      "sha256": "13a3e24ccf84e0774add0037974edcd654c0796a9afc9aa73f92ca6dae6a113b"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S10-SH04-review.png",
+      "bytes": 2885057,
+      "sha256": "92e5bd54f38069d3c3317cf3abcc3d6abfe146bc2d92a8dfefd21f43e5b4a5ad"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S10-SH05-review.png",
+      "bytes": 2790517,
+      "sha256": "7d7772e55caa8622597b1efd4ccba2b4252d28562a524d27642bc4a3bd64e648"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S11-SH01-review.png",
+      "bytes": 2875840,
+      "sha256": "16e40bf5b15cdebf65c4e03aadbb8197934dc28e968b7f413fb143968b8a5074"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S11-SH02-review.png",
+      "bytes": 2715711,
+      "sha256": "a69d515b6cb87b668d7a0e1c5e36d31dde572560314fa6bbaa105f6660dc1993"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S11-SH03-review.png",
+      "bytes": 2760913,
+      "sha256": "635c2a373484e6f033e4b7df8ea170505c82a8a9254b7d31f680d5114f516a82"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S11-SH03B-review.png",
+      "bytes": 2812322,
+      "sha256": "ed5bfcea80342ec7d9c7c37475d5839b3070c0b5957d352f731f90dd66288743"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S11-SH04-review.png",
+      "bytes": 2729277,
+      "sha256": "5863cf96049b4cf92d0ca8c6b66d1cf204c25b07d87fc334dc5efeb7a931e24e"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S11-SH05-review.png",
+      "bytes": 2946407,
+      "sha256": "ab4f5879da07bdbc2678c225ebf7db377b9d3efcd27005b10fed2dcb3d6c53d5"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S11-SH06-review.png",
+      "bytes": 3007654,
+      "sha256": "d56dc4cd5f7c99b6c08b31d9bc5136cbcdc185d7e8031e06e59a12ed7dd06414"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S12-SH01-review.png",
+      "bytes": 3067446,
+      "sha256": "4c3cc236d4f32cf179d14ea750dcd8e8985b5ce472f012323c5d417943f61386"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S12-SH02-review.png",
+      "bytes": 2964065,
+      "sha256": "88c9c271f9e00dfc570c93a9a6f2785ed0da4c7a5cf7fcf09641ee80e2cf7436"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S12-SH03-review.png",
+      "bytes": 2869289,
+      "sha256": "eb90a6fb77d76f552a53e272220610589bd612a3ecb235d3c53fb30a662b5eda"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S12-SH04-review.png",
+      "bytes": 2760699,
+      "sha256": "032b92b11bba09749f3741047c466c7297b0bbeefd4770e03b7bb8e64add605f"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S12-SH05-review.png",
+      "bytes": 2972504,
+      "sha256": "362a7f9bbf9b2c4834a1acd129a35d93f8c780a8f15e398e07b26ff3bb6bcf34"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S12-SH06-review.png",
+      "bytes": 2361136,
+      "sha256": "0b3a3e07b539e3d6c36fb0a6586dd0440faef232ebdce7f95a527a6a5bbb55df"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S12-SH07-review.png",
+      "bytes": 3134273,
+      "sha256": "25545ad9d60e8837beac114cb3682fac7c744f08b8bc98d5dfc8d13e6032f783"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S12-SH07B-review.png",
+      "bytes": 2711333,
+      "sha256": "b5d3f8de53f60b4f2bf5eb0cd0034ff2ec28ddf4a865bbdaf5eb3b36e7bba8f9"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S13-SH01-review.png",
+      "bytes": 2555644,
+      "sha256": "eca44f4cf5c49a3e5c26bff4c4d50b2d1ca4988d1178af0757738cb7a179f2d4"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S13-SH02-review.png",
+      "bytes": 2726301,
+      "sha256": "07dc8e2105f485c52b00be1dcc3cb78d0fbfdbe2dd0735aa06c8d65772488f72"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S13-SH03-review.png",
+      "bytes": 2398302,
+      "sha256": "205c7f4e91167075c451293901684310f4a51d5dac51cb5405db46950c4f9e6b"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S13-SH04-review.png",
+      "bytes": 2884582,
+      "sha256": "0bf1aff0a59c70abad7e8edc8ffe7c157db3bb377451b94ab3a1cc7f5ec3a5b5"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S13-SH05-review.png",
+      "bytes": 3212914,
+      "sha256": "705dda134671b68985291a44b9f2fe90124cc69bd680587d6d392c65fd09457d"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S14-SH01-review.png",
+      "bytes": 2276618,
+      "sha256": "fcecca01a5640568e70c1f0157e1a0abf9950a142526ec573352d8fb79a6eca9"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S14-SH02-review.png",
+      "bytes": 2802331,
+      "sha256": "90c0a8257468f5250eb228c6f7ac204ec0728daad14df343d660fdccccd2216e"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S14-SH03-review.png",
+      "bytes": 2639026,
+      "sha256": "ba80418b404b9c08df601dd0ca501115509088a3535e685bbe8996783a22fc21"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/S14-SH04-review.png",
+      "bytes": 2766936,
+      "sha256": "33f18c3e8ea85f9300c8cb305aa14766fde7eddfbc51d9e5871b92ae8413e2b5"
+    },
+    {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/animatic-manifest.json",
-      "bytes": 12833,
-      "sha256": "0e1456f0f8bc8e238a33cd5b463be6704bcfa1b8723118b2e7c900e5b58c461f"
+      "bytes": 30220,
+      "sha256": "bbb8f7a85f54dc45f91eeae762cd948e181a83ba9c5f46e57ec7ece629cf01bc"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/review/starter-board.html",
@@ -1867,8 +2917,8 @@
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-007-review.png",
-      "bytes": 2963953,
-      "sha256": "417c5b721fc7580445e237bc8ac05f2ffe31e25da1767d8d7e7f0aa5ac7cdfee"
+      "bytes": 2827734,
+      "sha256": "f51ada6b640dbf41cb0ecdd3f84e08edbe932dcf05f4bb19e9c68cc2268bf46e"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-008-review.png",
@@ -1907,8 +2957,8 @@
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-014-review.png",
-      "bytes": 3068894,
-      "sha256": "e7053f6d6676ca75202138fc31e4adc74cec216dc39464a224e607301fa35e69"
+      "bytes": 2912679,
+      "sha256": "ca2fe7c761914b31f5849411a9af87200af58c1b32046a7ab9208a03cc3627db"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-014b-review.png",
@@ -1927,53 +2977,53 @@
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-016-review.png",
-      "bytes": 3328874,
-      "sha256": "35f8cc699a724d4069dc4abc0ea75dc0a420df560ffd71db3f701f710e02b67b"
+      "bytes": 3319788,
+      "sha256": "3640ca31b6b5c0bce2e8b1e387a62fc6287e176a42aab50378e663cf8160b6c7"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-017-review.png",
-      "bytes": 3303622,
-      "sha256": "e30b079d4e9b38d48e0ecc470c1e184c03a3ecdf7c29a13e311c98f1810bb412"
+      "bytes": 3236140,
+      "sha256": "0baa114c0e7e1d9885c5b854d81caefd4a974bf259bdfabc06d1dad782773a66"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-017b-review.png",
-      "bytes": 2778369,
-      "sha256": "45d2b74f5a1436a5facf25727cf6e70ba2b5bb4cd929b512392cdbbcd290c993"
+      "bytes": 2778031,
+      "sha256": "78696ac4ef9a292cce9d00aeff32c3f8e57bce4a3630094dadce51c859244b7c"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-018-review.png",
-      "bytes": 3290381,
-      "sha256": "4e1fe56ece4491a4dab6be4f18ebe5f3f3556318737278ecfb3c871e215fe985"
+      "bytes": 2741325,
+      "sha256": "293f2469db384f0cb988989d504cdac5bc19a56fff8eccddd2757cb02daa707f"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-019-review.png",
-      "bytes": 3242958,
-      "sha256": "1678d1fdfb3aaf35cd4d7f6ac5d35f006f8c7860310ab36d275546075b3f3ebb"
+      "bytes": 3047521,
+      "sha256": "1bc0ff9a099427f88c1bbe4a6dc7b4a05fcef2330c7e5438fff540b4cadf6acc"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-020-review.png",
-      "bytes": 3325717,
-      "sha256": "3f9258e9f7329af2a1f0c5b6efcc05025dc06f3342e8afdf6a7d620bfd76dc53"
+      "bytes": 3192909,
+      "sha256": "dd4880a3f87fe27c15ee1c00409acf9a6ac862fab55c9dc9a2bcc641c4a71b1b"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-021-review.png",
-      "bytes": 2779532,
-      "sha256": "df9bf7d5435abc9a84bfb20a6f2c7eac7bf57450085e38bb853742ca3977b348"
+      "bytes": 2716534,
+      "sha256": "31385aea9d781b25deff18a0f91fcaf8376f481e6b1f4fa26e0c44ed0b557c4f"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-022-review.png",
-      "bytes": 3098384,
-      "sha256": "5a445f56fc32359f04b4a974ab15e1b01375a022d33a408e424cc8b2e194a4a3"
+      "bytes": 2999012,
+      "sha256": "67f32fd0521f4332202bed8b7956c7ccbb72bb9f5860db27d282279741722d3f"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-023-review.png",
-      "bytes": 2830348,
-      "sha256": "4bad7eb0a829fd5886924bc419824a0f355d2db261fa7f6a375d7720d36e0407"
+      "bytes": 2689654,
+      "sha256": "021ddb54c7ba206af954e08d7cfc9784af4b206b9fb448ca12d8415d9ae81f41"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/ta-024-review.png",
-      "bytes": 3024494,
-      "sha256": "8710a7a41e3c92dc6bee33f83fd5d8127a8ec810bcd3a5586dd0f25d1a23aa9e"
+      "bytes": 2843154,
+      "sha256": "51c33544ab8877f95c7373bdeff30e58f5ff8a2a9705a7c4e824822db2ddd8e5"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v002/ta-002-take01.png",
@@ -2291,6 +3341,16 @@
       "sha256": "80e9dda0e3c2a9fb4123c07d9522af610103623feb5652cd86e78fb688e58665"
     },
     {
+      "path": "projects/together-anyways/generated/storyboard/full-song-starters-v041/ending-render-proof.png",
+      "bytes": 2963659,
+      "sha256": "41ac2c36444cc7011493b51f0d20c730fd0d237338eaab708d0a4dfd0d57c3f3"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/full-song-starters-v041/taffy-render-proof.png",
+      "bytes": 2951932,
+      "sha256": "903c77497ac0ea7d2ee9fef2615f4c239a34361c58a3c4bb69ad4d2ad3bfc25c"
+    },
+    {
       "path": "projects/together-anyways/generated/storyboard/hands-news-v005/review-manifest.json",
       "bytes": 5635,
       "sha256": "ad16628b963f6f7eb101e4e64a587249247708486b243253d4bfa5cd8f1f94c6"
@@ -2411,6 +3471,451 @@
       "sha256": "70444e403fd1bfca49666c653d4b6c8d39275571de19d23151c886a006c31b45"
     },
     {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S07-SH01.png",
+      "bytes": 2852793,
+      "sha256": "df86345a1f4406d9e026987c076084fd38ff1475c3012c2b013a9a6434b4864e"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S07-SH02.png",
+      "bytes": 2726189,
+      "sha256": "cfd50c2c59ea1496667bf6185d9c52d498df0c686303d9dd3dd6b51d5f63cc33"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S08-SH01.png",
+      "bytes": 2746996,
+      "sha256": "038a47f74f69e63f9b7bd43d36bb31f57fe98ffe91ba87a1b2981d572d20f333"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S08-SH02-before-lighting.png",
+      "bytes": 2766022,
+      "sha256": "5fe206fafa3110aece679cff56ac608b2f028d9f8b31fcd63a99c5b7deb0189e"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S08-SH02.png",
+      "bytes": 2471129,
+      "sha256": "98f4b83f5e46a8be7b803541fb9d8cec7dbf8053762ae8e08a25b8d479da9026"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S09-SH01.png",
+      "bytes": 2468729,
+      "sha256": "7323a54bd371bddd26fcd408b8f2f69d5af92ed1bc2e86d3b7e8228e39ded6e1"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S09-SH02.png",
+      "bytes": 2594517,
+      "sha256": "e9c082105d27427493b8f419329d86150eb6e9ac9a43217bd1e2106ad91f797d"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S09-SH03.png",
+      "bytes": 2568722,
+      "sha256": "ea381d7cf06ccb51c4ba4aa18968fd6cb259d3b8d5f1e138787d4d3787a5617b"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S09-SH04.png",
+      "bytes": 2263530,
+      "sha256": "ec61f8d07b636875fa93f9f387e370f8abcd97150f2b70e8584cb471ae4c2cc5"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S09-SH05.png",
+      "bytes": 2618039,
+      "sha256": "6400d1305985da3df413fcd8420a4051aa43a59bb4ca15b0605bbb2067d2c503"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S09-SH06.png",
+      "bytes": 2667204,
+      "sha256": "ae369483d404a4e78c3a2539fe9ab44975f0b27da0c93c7efbfa5f6f5635e082"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S09-SH07.png",
+      "bytes": 2299076,
+      "sha256": "925a659aa09e7c775f1f66e27f2ebb523d8ce185784999a72e51e6e5d5546f2f"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S10-SH01.png",
+      "bytes": 2554527,
+      "sha256": "54c59a74aac7d1cb0d431d513b9c61d5ae30ecfa2e8446ccade108dc5fde370a"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S10-SH02.png",
+      "bytes": 2745410,
+      "sha256": "7694ab504f262bd3014fee37d28ac74aee46577fb66a0e632210aa55933de3ae"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S10-SH03.png",
+      "bytes": 2878231,
+      "sha256": "960e77cdbee88612e964c51e1560fab6a5d5cc03cd1ed71804514828721dd1e8"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S10-SH04.png",
+      "bytes": 2551284,
+      "sha256": "9f0eab979e1cc70d6ac9449858175033a35aadca45612957f6b3459f4cc8d786"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S10-SH05.png",
+      "bytes": 2832719,
+      "sha256": "4b09ce1cbfe144a7450d1e6e1c3a1828104dbefc1f189d47bac7455fbd79b019"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S11-SH01.png",
+      "bytes": 2648594,
+      "sha256": "79d7b849f1d03a929aeb9ce2ed67acd567a3bf91a3c91c41f1b0da8282a9c971"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S11-SH02.png",
+      "bytes": 2435993,
+      "sha256": "d623af16eb76dc5bbb9d0f3ddb0bbd7e476d830eb7442118d96220d89303fde3"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S11-SH03.png",
+      "bytes": 2672399,
+      "sha256": "870ce792bc1814b0586c401f9fcec5a5191206ce9b430a8ebad44ab969e7ccf6"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S11-SH04.png",
+      "bytes": 2626617,
+      "sha256": "30fa3df802005854b0172cf1639217e5c5cf7057327f91db90147d7394c68471"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S11-SH05.png",
+      "bytes": 2842072,
+      "sha256": "972c8f739b5e2cd9f317ddafb35a98e878d8c292dc2b87c691b71f4f12ab8d8b"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S11-SH06.png",
+      "bytes": 2560771,
+      "sha256": "6bb1ae8b359d86db7f6417695db105ad6834e8a0250a7e2f9edfa084e4da7f65"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S12-SH01.png",
+      "bytes": 2705372,
+      "sha256": "f6f1b3dc9ccfec21086c2ad5af591baf5f648cf5ca92157c66af914294b4a6f7"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S12-SH02.png",
+      "bytes": 2741604,
+      "sha256": "740129a531e82ee04af1d53b0b5a00ee56189850a33bb0b9a40e7e869f071a58"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S12-SH03.png",
+      "bytes": 2839769,
+      "sha256": "8f9357c983adb0d8dd6ceb788c7913318a11e1ae0f048e1585cdf7457eb1e51b"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S12-SH04.png",
+      "bytes": 2772179,
+      "sha256": "1e2df052fddb1c1bb02eb48e0db411ca9c83c41620abc0ab404e433418fb36fd"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S12-SH05.png",
+      "bytes": 2774630,
+      "sha256": "5b66357275b6afcc00e91ca48306654982ad3bf4cd5e307099053442e9402e5e"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S12-SH06.png",
+      "bytes": 2636695,
+      "sha256": "34788baa39969447f7319e2e9f1b30926fa62cc47ef761ca0b31f3fc1186c675"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S12-SH07.png",
+      "bytes": 2782974,
+      "sha256": "bf75e337e8b43c3ea2e16b3bd79c9b8380567219652c6759700bdb7f07276ef6"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S13-SH01.png",
+      "bytes": 2523484,
+      "sha256": "3c2eee01156787b0273dfc7c0847be22d4c2f4619d03c0dc35bb727dff5a7107"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S13-SH02.png",
+      "bytes": 2646181,
+      "sha256": "cd4d6fae7f66401dc741c55214e4d80b86fa93c425ba323336329e59be6b4874"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S13-SH03.png",
+      "bytes": 2659134,
+      "sha256": "93d0e1ba7d20adf44a29842f614d7b05a0fd58329e491f162f03451af220cc61"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S13-SH04.png",
+      "bytes": 2365296,
+      "sha256": "00abe1b66afc53916b38f7f19f0102678978bca14525d299abb524bcce657edd"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S13-SH05.png",
+      "bytes": 2948844,
+      "sha256": "e17da85f90e7f8569425fc88b4f2cd6e97706506d468c21e87b140d01075f681"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S14-SH01.png",
+      "bytes": 2559173,
+      "sha256": "db206c50b18bf20b4c6998715a03e0eb93b650304f303aaf2110c9bcf1368171"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S14-SH02.png",
+      "bytes": 2713619,
+      "sha256": "52ee26413fd2a37079738bd8cd758949ec0667cc476513c4beb8b78c091118c7"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S14-SH03.png",
+      "bytes": 2749137,
+      "sha256": "81edf3f976566f86ac04ea8fff0e2d7dbb9231a4ffb32ba4cd2b3151d8d5d436"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S14-SH04.png",
+      "bytes": 2483839,
+      "sha256": "1fe76c5cb917d3c4fb1d03a1a22639992ffe080ac17f5c6f5a395560c3b2fe04"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/rejected/S13-SH01-not-selected.png",
+      "bytes": 2640507,
+      "sha256": "7ac8a26cf1fd1221db4252496c2073b4ddbfd9ea2397affe1894b9e5bc728c20"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/rejected/S13-SH02-not-selected.png",
+      "bytes": 2852133,
+      "sha256": "ad96dd5448c27f576e4cdb8ff1d7618a405e906455cd7b646b3cbfc1474ae218"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/rejected/S13-SH05-not-selected.png",
+      "bytes": 3204756,
+      "sha256": "491183f1dd1354cffde0161de1b13724488498fcafa63d179656b43c57728127"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/rejected/S14-SH01-not-selected.png",
+      "bytes": 2681310,
+      "sha256": "3e0c6016a36c4736c811643b47c35be925b96794d01e28d1afa34d8fe7f46fa5"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/rejected/S14-SH03-not-selected.png",
+      "bytes": 2608321,
+      "sha256": "e133048f30c5ada1f7eed855e6dae6c909db09213e2114ebc55132c569297583"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/review/qa-contact.png",
+      "bytes": 2273367,
+      "sha256": "ca626f53a46bfbe66e52adda59121a3b3babf691f0fac061927d5a8d17a3debd"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/review/review-board-proof.png",
+      "bytes": 160956,
+      "sha256": "1db68fb4386295103a4492e1a6a4c983ec4666c510bcc58d1041105474228f76"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/review/shot-board.html",
+      "bytes": 56829,
+      "sha256": "25b8d3d0197fc1a928a261b2a2d5ab93e9b98140ceaf20d7d6285e9b0271dab8"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S07-SH01.png",
+      "bytes": 2734100,
+      "sha256": "a56cc269b391a4fe61d2d2575b72899d7d7c9af9f2d49558fc7d2bf01c959999"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S08-SH01.png",
+      "bytes": 2524377,
+      "sha256": "b14c87675396ffe165e85919a4a6b533df64d897b921a7da9fa294ee1f2a5595"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S08-SH02.png",
+      "bytes": 2291573,
+      "sha256": "eadb6cfb76204020d47b2361a432397bd683ed5ba24c69d3eac50bc6018d28cc"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S09-SH07.png",
+      "bytes": 2234179,
+      "sha256": "eddfc714f9fcbf7871a5654f530ea89c71b6c735bba59ce05c19fe922bda42ed"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S10-SH01.png",
+      "bytes": 2342542,
+      "sha256": "c47bf555c4a0149cd21e9f0558b79107d22d50c05bff413bf12755505e3d3145"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S10-SH02.png",
+      "bytes": 2578284,
+      "sha256": "be76e67ad44e2941e20a30342d6dafd202355c67c075daef08aad96761bc8116"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S10-SH03.png",
+      "bytes": 2722297,
+      "sha256": "56ed181f031d503e1da9e0272fcadae53d229b1da154f9355436778a6a7896df"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S10-SH04.png",
+      "bytes": 2513130,
+      "sha256": "6ebd6909da6a53e493659d154d2bc164cb4735dfde749e530366ba460b47e4c1"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S11-SH05.png",
+      "bytes": 2803067,
+      "sha256": "366332bb8b043db4c5216a6a6e3e406aaba333c04e853c08ccb0cbb86e9c295e"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S12-SH03.png",
+      "bytes": 2717321,
+      "sha256": "3a1d66485405f41ced6ed09d990d2915c9ced1a061be6d7d22a029d4dfaa52b0"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S12-SH04.png",
+      "bytes": 2698558,
+      "sha256": "8357e02418eacc57ac3a59f67febbce12f82cba74b4824b1a378535089f4ab50"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S12-SH05.png",
+      "bytes": 2701835,
+      "sha256": "e1bacb8e1f4b9c4574eb8b8c91d60cc848a4b9e0048301e31650cb5e500bd2bb"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S12-SH07.png",
+      "bytes": 2811561,
+      "sha256": "90021a219dc84acd46b9b812221a0748093522286bff7e79336f46f5c1b97121"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S12-SH07B.png",
+      "bytes": 2627992,
+      "sha256": "e0bd6751ea801e7e17f116e50bd45f7ab378f9de78f3835da543c32664776f93"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S13-SH04.png",
+      "bytes": 2724115,
+      "sha256": "0078494857ab37dfef96015923d68184e4843b48a38e331e332ad4891b3f009a"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH01.png",
+      "bytes": 2706887,
+      "sha256": "4f091bbf4e219fc904d6d2baedd745d50227da4fb0760b9a02830080f5ea0775"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH02.png",
+      "bytes": 2595458,
+      "sha256": "f5c8059e3774465943f0b42089af6b433ae8d2bf4680799af4fe836ba001e210"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH03.png",
+      "bytes": 2823208,
+      "sha256": "42583569c9d366d89826f6881f831ca80fa606900b2a8e526493977186550a22"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH04.png",
+      "bytes": 2890994,
+      "sha256": "74154c17317f1aa54fd5cdb9eb6f93a6f91af63daa6f58a1b18e97868379e83e"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/attempts/S11-SH05-attempt1.png",
+      "bytes": 2806389,
+      "sha256": "ca5c99ea994d7058b65387e1284a108b1c51473f5c5cf08473d6106597253abd"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/demolition-machine-reference.png",
+      "bytes": 2885984,
+      "sha256": "9d6bd77879bb52584999263b3141801c1bf8937a3bbfdea0f0bba04aefba6db9"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/review/review-board-proof.png",
+      "bytes": 161299,
+      "sha256": "1b2d361f40c9e173c4eb241292d594c1cc883453c5ca17b4d7b006cc8507a289"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/review/shot-board.html",
+      "bytes": 64950,
+      "sha256": "6781127b5e3dffa1e6654f21b98599643371e2964f1091c38c6f355a6b5de159"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S07-SH01.png",
+      "bytes": 2645762,
+      "sha256": "c85a632b7829397c4f5b2c97dd4da812d371515f86529ec6c42dd0fa9054f0cc"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S08-SH01.png",
+      "bytes": 2454599,
+      "sha256": "0ef3acb0a58fd3951f66f6af014e4944e7fc246674dd242ec34787027d6b4114"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S09-SH02.png",
+      "bytes": 2342883,
+      "sha256": "b54db11a3a738a3d74026cd403a31347278bba38137f4df2ebf9bdc1860192eb"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S09-SH03.png",
+      "bytes": 2812270,
+      "sha256": "f0421dc59b19c1e974bb9ccff41e8f5ea0fd3b1d674ddbd112caf9c0f3ad28a3"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S09-SH04.png",
+      "bytes": 2356382,
+      "sha256": "89b3d6ce417e26847e47a5a544060c620e8793de3afce2ed2218bf9a27f0ae7f"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S09-SH05.png",
+      "bytes": 2548979,
+      "sha256": "7303bd4cf117e51d09f7d487c4ef77f43fcf2273d13675b61bdb22593a3c2f59"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S10-SH01.png",
+      "bytes": 2172771,
+      "sha256": "1e7687a40ec971309423c8e54db172e541f93ec6244ef047f3f49e3e7c6524b8"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/attempts/S09-SH02-attempt1.png",
+      "bytes": 2637628,
+      "sha256": "2f7841d7384991ea8711e02b552c1c2e73a5cf596c8b29c8025d9654d2ebcc04"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/review/shot-board.html",
+      "bytes": 66213,
+      "sha256": "cdb5a46cc1e7d13a1f398517445ff91ca4ae68c9421dcf582b19dd30b932ee61"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v039/S07-SH02.png",
+      "bytes": 2598529,
+      "sha256": "1582df73c43ea6344a4db8ee95a02e47e87e7bff07b8e2eb5105465ba633d4d5"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v039/S08-SH02.png",
+      "bytes": 2542789,
+      "sha256": "c11976d8093e658b87aa0eac9a2bcd9976a61315fe931c8b04a11b1098b6d0fa"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v039/S11-SH03B.png",
+      "bytes": 2647707,
+      "sha256": "38498368794292451679f73c2f362afbbfa1c56c78db6d7833095d74204557c6"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v039/S11-SH06.png",
+      "bytes": 3014677,
+      "sha256": "c969900e19b7f672e4ef933875723633c7ed7982ef644ea46a3bc6eff9e56a72"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v039/S12-SH04.png",
+      "bytes": 2576068,
+      "sha256": "a344703c66893a3a421d41474593863f3327d45e23b059afb2e5ae1dffd5b08c"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v039/S12-SH05.png",
+      "bytes": 2758581,
+      "sha256": "f792235e4d8c3b3579c5df0586afbbd08f8717baeac4acae964923666ed57a66"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v039/rejected/S12-SH05-opposite-wall.png",
+      "bytes": 2811545,
+      "sha256": "e322eaae0db800667d3540fd55960469f981aee36b6328eb5b8c19c53defb85d"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v039/review/shot-board.html",
+      "bytes": 76523,
+      "sha256": "e184c990c45ce84c59082989d1ff4498295ec1dc302cd9183aa39f000f28e26b"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v040/S11-SH05.png",
+      "bytes": 2688740,
+      "sha256": "6100a0c8b7ee3511f56bff23696274701c4423221e0c703e4ceb29c94c67333a"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v040/review/comparison.html",
+      "bytes": 1587,
+      "sha256": "09d9313490413ff7987cf6ecacf5f81310fe153aeff29f5eb060cfd148329d1a"
+    },
+    {
       "path": "projects/together-anyways/generated/storyboard/scene03-eyelines-v015/review.html",
       "bytes": 535,
       "sha256": "c438f620bdd9190a35f5e972d39568f5b2925c6bb25e4dd59c17c930c1dcdd8c"
@@ -2429,6 +3934,41 @@
       "path": "projects/together-anyways/generated/storyboard/scene03-eyelines-v015/ta-014b.png",
       "bytes": 2841853,
       "sha256": "fc903790944713b64529b19eaefcd589ea2dcf96ad1527785b2378b8717de752"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/scene09-endframe-v050/S09-SH07-end.png",
+      "bytes": 2139689,
+      "sha256": "df99e4c766a349e8900b7b26f8ca847c31ac5a14375a97126d01752ed950522d"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/scene09-endframe-v050/review.html",
+      "bytes": 856,
+      "sha256": "3ff694fc3c6db58e7d5abb3452dc358bba0e4dc94239dbfbd8da99483ef0f5f5"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/scene09-endframe-v051/S09-SH07-end.png",
+      "bytes": 2056628,
+      "sha256": "58b8160547e1824fe4b365c74b512cb2c87db7dffb27891d9b5a841d3ed2c292"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/scene09-endframe-v051/review.html",
+      "bytes": 727,
+      "sha256": "c611db038300cb6182b79cd8c712fdf596f835ee4de8513aa12a1df46e6c62b9"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/scene10-crush-continuity-v053/S10-SH01.png",
+      "bytes": 2298858,
+      "sha256": "8d4b85a46ee81e702980adc46c8ecf2aa6e8e4355d77079b9af35ec7db8e38d5"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/scene10-crush-continuity-v053/review.html",
+      "bytes": 848,
+      "sha256": "bc8257a180b53dee71a5ac99108833d54875b0b2a3b7d2dfc6932c9a0cb690c3"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/scene10-crush-continuity-v053/user-continuity-reference.png",
+      "bytes": 3435504,
+      "sha256": "01c30c2f80bc2d38485740a60f8238018e500ea0460f5c55f5d293bf94c1f8b8"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/shot6-new-starter-v008/action-review.jpg",
@@ -2704,14 +4244,574 @@
       "path": "projects/together-anyways/generated/timeline.compiled.json",
       "bytes": 372060,
       "sha256": "e016ed8c454673b7c749c17f29aa89cd7abf32e43cd4565beb8a8492724d7307"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/cartridge-comparison.png",
+      "bytes": 2202482,
+      "sha256": "6df90f5c92e126127944849e967d31db66a36e0302b444c02fd507695a52ec6b"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/guard-a.png",
+      "bytes": 2067450,
+      "sha256": "ce9c84d567d9fbbfc0b95dedb28015e8c8b43f71e27a8baec7245010f848375f"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/guard-b.png",
+      "bytes": 2072477,
+      "sha256": "5c0ddbe54a24acf47686b2a9e8edb6ada5552dc219e19b95affc82fea04a47dd"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/port-overview.png",
+      "bytes": 3140752,
+      "sha256": "f32b5ffe5ba985ae3e16796847aad3d91bd2583e19b25c81996d59337d3102b0"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/review-manifest.json",
+      "bytes": 2223,
+      "sha256": "ee6142ac6da8afbdd51f6319b05e357bcc35daf4e3f51aae0640b4aff193e288"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/review-proof.png",
+      "bytes": 83075,
+      "sha256": "6486e1b3b0c63d9f3e22711c328b038d608a3acca493642d7024e4657281bbc8"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/review/reference-board.html",
+      "bytes": 3734,
+      "sha256": "f80953ae2ae4542adb25371888c803126efcccde3cc3f9dafe5e1222aef46564"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/scale/cast-lineup-preview.png",
+      "bytes": 758031,
+      "sha256": "50e664207659f863d09be01c9a286fe333d742e2c0077c26ab5720b460d01f82"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/scale/cast-lineup.png",
+      "bytes": 1483074,
+      "sha256": "6ddf0837b0c524ec32a465a4fd401ccb848fa758df1994919af5d3c3601d2a6f"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/scale/plates/GUA-height-reference.png",
+      "bytes": 1362872,
+      "sha256": "9af5f2b3afeb77dfde1fd22039a6e4de0b2d3539c5c8e83840fd73a5ba511793"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/scale/plates/GUB-height-reference.png",
+      "bytes": 1188148,
+      "sha256": "91897805e6871862a01a96ccddf9e8d16b3ffd2076b4c2889111a82efe918e24"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/scale/plates/SCR-height-reference.png",
+      "bytes": 1052879,
+      "sha256": "ce9683c4dc229fbf545e544d55551e52524c7ae838889e172cfabbc23b353c4f"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/scale/review-manifest.json",
+      "bytes": 852,
+      "sha256": "5832e19c3dd387c3a0c4d6213707c9b94c86e47e84130c976a0d55c4cc1a3830"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/scale/validation.json",
+      "bytes": 467,
+      "sha256": "f2ecdb4d91c7fcff3201159caaa4da107e129196e178b869bb53243b8d709bd3"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/scrapper-photographic-superseded.png",
+      "bytes": 2087684,
+      "sha256": "7fb798b0f25da60f646fe9e2f8398470735280a0c1d4e35b65800dc4b147b62d"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/scrapper.png",
+      "bytes": 2011216,
+      "sha256": "b34fd44b2977bcd4f1504188cf4f8958c4ef34af2f35e3dfe40fd63b32df9ca2"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/ship-exterior.png",
+      "bytes": 2913744,
+      "sha256": "6048ebdf211338ec17f75a678e5587b79130be2e7fafa1fe1e3ee7e856f342a0"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v025/ship-interior.png",
+      "bytes": 3110270,
+      "sha256": "90499bc3502b85c3968a7a5af4b8677b886f86b0cb9bac49010d3e3df721d27a"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/guard-a.png",
+      "bytes": 2069715,
+      "sha256": "d195de786db1a7bfa768bd2ad7b343c7398acbce466f336ed5533aa3bc7cc144"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/guard-b.png",
+      "bytes": 2138443,
+      "sha256": "654dcb359b78559b9abc83fcab7b421473583034cf369fc5e8f33df98eb98032"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/port-overview.png",
+      "bytes": 3012766,
+      "sha256": "1804bfc8e194488c4d8ac304e462f520c653b99c2ee2689c3e499fc70c1238ee"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/review-manifest.json",
+      "bytes": 2303,
+      "sha256": "9ea729d553507ccd81a7aa2bdf056661a28bf35954e1046a53f4bb807934c7d6"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/review-proof.png",
+      "bytes": 77664,
+      "sha256": "a981e0e9018b3ff1535c05fa4e8565cf60d81bdbb318a04d1d405902ce3a7080"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/review/reference-board.html",
+      "bytes": 3808,
+      "sha256": "056412a91e7a7328bd5e4a6341a2b2f97a85a9058ef7f036787d0cb15e86d457"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/scale/cast-lineup-preview.png",
+      "bytes": 798724,
+      "sha256": "00f26453c43290d0938054e4fdf6d634170daca2a10324c3cbb138dc8eb7f429"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/scale/cast-lineup.png",
+      "bytes": 1525503,
+      "sha256": "0bbe52a87cbc983aacb230055bf3d71b45edad0a5a745cfa193ca18048c6fea2"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/scale/plates/GUA-height-reference.png",
+      "bytes": 1331871,
+      "sha256": "db8e632a062c4efcc537e012df80062d49fef87eb370ce6d134f1d1df467414f"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/scale/plates/GUB-height-reference.png",
+      "bytes": 1271565,
+      "sha256": "8ce9280ae5891b3cc6fc8705ad905245833334cafaa1382943b5c2e8c0b6820a"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/scale/plates/SCR-height-reference.png",
+      "bytes": 1074704,
+      "sha256": "5df9c311780ece799bc243393b29d84132094207786735d1cad5c261e6407d3d"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/scale/review-manifest.json",
+      "bytes": 858,
+      "sha256": "06ac7aec389d1da4987188ee079ff67d79219eb9bde17b6bae6c37aefa37f004"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/scale/validation.json",
+      "bytes": 467,
+      "sha256": "92520b85fca3d9b22f1c34708ac32f7afc2d880f0a61888978ce306a997b6b4f"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v026/scrapper.png",
+      "bytes": 2147026,
+      "sha256": "988c80715f3b600ce6eae97ea8f0b8895bce6855eb3b007109e873b05fe30b94"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/guard-a.png",
+      "bytes": 1959520,
+      "sha256": "71cc23bbca6a122b69dac3f2fe65b91d4efc624209101634307144c947393556"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/guard-b.png",
+      "bytes": 2061737,
+      "sha256": "064b5916f3a9f5561b63a4cce12b6ff3dbc201532a08eec041a8a8429de0ae23"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/review-manifest.json",
+      "bytes": 2298,
+      "sha256": "fab3998c28af797b62635a1fd747aa3822472761687d5edb24e392669da003d3"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/review-proof.png",
+      "bytes": 59100,
+      "sha256": "39fe9dd04623b59053e8f2f62e3edb27f11e12cf4e18a04711c2afd6ea08c6a6"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/review/reference-board.html",
+      "bytes": 3759,
+      "sha256": "f90cac1bae8b329d67ecb5eb9fa8377aeae39b20fb37d1cf264a72fb0fc27429"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/scale/cast-lineup-preview.png",
+      "bytes": 818804,
+      "sha256": "51cd81b340f4f883e79c00d31a3543cb117585b7201c83d28150eb7150f827e5"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/scale/cast-lineup.png",
+      "bytes": 1550581,
+      "sha256": "f5817d13e8c06eaed000653d44a8324d65325f4a2b4e46e68a9db6422fe4e1f4"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/scale/plates/GUA-height-reference.png",
+      "bytes": 1280383,
+      "sha256": "323821f256ba16ba5b43aca790f7756f76694a8eb37907bc291cdb7489465d97"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/scale/plates/GUB-height-reference.png",
+      "bytes": 1241553,
+      "sha256": "5572903f0010a7845368e33f069214cd0612eee5e8e91d50b85c26bc15cafe17"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/scale/plates/SCR-height-reference.png",
+      "bytes": 1166470,
+      "sha256": "5de3117326bbf7b56797cbe63b3f8e64f03cbe61f97c220cf3e6418d1a7ebe2f"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/scale/review-manifest.json",
+      "bytes": 856,
+      "sha256": "248cf324b4ef6687b18407b07ddb222dc29b4c156bbc042ff98689d683af004a"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/scale/validation.json",
+      "bytes": 467,
+      "sha256": "50af0940e6d97453faea0cc06168a51f5ae50cb1a3d8aa96fcd76013e853a58e"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v027/scrapper.png",
+      "bytes": 2108755,
+      "sha256": "2d90b74087316269f3b3b1ce4bdb83e614aa1416b00f95bcbbc221873deb940c"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/guard-a.png",
+      "bytes": 2015973,
+      "sha256": "311e201b4d64909ee766631768e32b6e02949898dd445aaf708fd8b2e20614bc"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/guard-b.png",
+      "bytes": 2081882,
+      "sha256": "252f67b5dfad2fa683baddbb0d0535c4464bf1415e18032326fbcb2912f22acd"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/port-overview.png",
+      "bytes": 2748382,
+      "sha256": "926879f287fe473d23232d2a1d4b9e2cbdbe877c9ac83abb1f51f49d4a437438"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/review-manifest.json",
+      "bytes": 2733,
+      "sha256": "393c51ca66b78a9fa3d76a90b6c49c9f9c694677fb57cc7b15d5f001734a15b8"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/review-proof.png",
+      "bytes": 93132,
+      "sha256": "7fc7ae2bcb9a5d50dc597ee735e21814c19bf8fce0a7fe687b29f04efb0a5a90"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/review/reference-board.html",
+      "bytes": 4247,
+      "sha256": "1c48ec809cb4c0821eccdacf68e8bfdec73edcafc2efb0e7271f8c621a4f3e53"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/salvage-ship-exterior.png",
+      "bytes": 2366627,
+      "sha256": "c78e74634f19a5c503ae6225081d9707bafad3c252b2da9c8b81f8bfef104b90"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/scale/cast-lineup-preview.png",
+      "bytes": 828800,
+      "sha256": "c161a66bf78f2e35c753c63e9cf14bc6fbdb3d88bedc3e5ef9b7d7d0bf1ace63"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/scale/cast-lineup.png",
+      "bytes": 1557262,
+      "sha256": "a44b78310d58325e7189405f2900853df0dcc304afaf5b0ac97dfa5c7ced0594"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/scale/plates/GUA-height-reference.png",
+      "bytes": 1311058,
+      "sha256": "f4032ee99de72a30f569772374f03ca6bd7e0cab0d8cfa3adb1862416e78ff08"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/scale/plates/GUB-height-reference.png",
+      "bytes": 1249876,
+      "sha256": "46212ffd801785e03a882d74cf69928ede041b87b02166902f3d2d8f095373b6"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/scale/plates/SCR-height-reference.png",
+      "bytes": 1105598,
+      "sha256": "494797e3cd21d1976271ba75481e1f07d5cc45e68f0122476d0ed17c73a08813"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/scale/review-manifest.json",
+      "bytes": 856,
+      "sha256": "248cf324b4ef6687b18407b07ddb222dc29b4c156bbc042ff98689d683af004a"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/scale/validation.json",
+      "bytes": 467,
+      "sha256": "f12f0da95c8fd5e10bb338110d4225a7d5ed597de5e5bc9d27a5f07a88406ce3"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/scrapper.png",
+      "bytes": 1960804,
+      "sha256": "23d8026efc9f8fae71cb2c02eccbcaab4b36758302606ff6519b26299451fea0"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v028/ship-interior-grounded.png",
+      "bytes": 2359819,
+      "sha256": "65af4ef718aca028e063b30c933361149cd22f735bae59e579e7c04ffebaf9ea"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v029/review-manifest.json",
+      "bytes": 2937,
+      "sha256": "caba01a492fddf06105da2ef936b23276a68079c4c63d5dbeb3e42619aedf8e5"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v029/review-proof.png",
+      "bytes": 75861,
+      "sha256": "465da22d564ab38f96f5f1071cdb9e6e808cd9d12e9ab63f1f634a374b870cb1"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v029/review/reference-board.html",
+      "bytes": 4483,
+      "sha256": "018da5c0cf8ccb7420141120960f18ec89c2a2d216ffadee23cf1057cee0c0fd"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v029/scale/cast-lineup-preview.png",
+      "bytes": 826584,
+      "sha256": "26159f28cf1a2cf8a6cfbe9ae5b2ab3f98addfe40fe6e5fd8ff239fc4cfc46bd"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v029/scale/cast-lineup.png",
+      "bytes": 1552868,
+      "sha256": "0a3379c18371792c81fb6131cb10f580fb2df62ecb37dead85c3c8cb3df737be"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v029/scale/plates/GUA-height-reference.png",
+      "bytes": 1311058,
+      "sha256": "f4032ee99de72a30f569772374f03ca6bd7e0cab0d8cfa3adb1862416e78ff08"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v029/scale/plates/GUB-height-reference.png",
+      "bytes": 1249876,
+      "sha256": "46212ffd801785e03a882d74cf69928ede041b87b02166902f3d2d8f095373b6"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v029/scale/plates/SCR-height-reference.png",
+      "bytes": 1102114,
+      "sha256": "a27e37ec543eb2016cad66a0ea6080e8ec927828f5a64f06a75a5b8d721a6032"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v029/scale/review-manifest.json",
+      "bytes": 856,
+      "sha256": "248cf324b4ef6687b18407b07ddb222dc29b4c156bbc042ff98689d683af004a"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v029/scale/validation.json",
+      "bytes": 467,
+      "sha256": "b257b4feed75c43fff0de70ab0114eb8b5f73a2c966ed6ac7d2a9ebd01193ac8"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v029/scrapper.png",
+      "bytes": 1987235,
+      "sha256": "60e6377c6fe832ec7d6a412da4e00cb18ccc23890186c94df4c32abd77930304"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v030/review-manifest.json",
+      "bytes": 2943,
+      "sha256": "f698d11ae78903f1a15d05c32c421aba477c3892672c372386e67cc56a4b9641"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v030/review-proof.png",
+      "bytes": 76713,
+      "sha256": "2358d812e0bc4de8ae2bc3b866bb58a5bf035a72ed802b1c1585cdcc17ef9a95"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v030/review/reference-board.html",
+      "bytes": 4498,
+      "sha256": "8ac986fe676473e3586bd83e2060aeb6d71741b039502968e02b5aa2b40eba79"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v030/scale/cast-lineup-preview.png",
+      "bytes": 829931,
+      "sha256": "8040654e9c5de0004d408655222ad25f3befe965deb631556ef29bac90a32806"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v030/scale/cast-lineup.png",
+      "bytes": 1556398,
+      "sha256": "0d38b7979a5913793e3ffd416f68a3d67c871fde8f3392409d4e0ef85c475a8b"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v030/scale/plates/GUA-height-reference.png",
+      "bytes": 1311058,
+      "sha256": "f4032ee99de72a30f569772374f03ca6bd7e0cab0d8cfa3adb1862416e78ff08"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v030/scale/plates/GUB-height-reference.png",
+      "bytes": 1249876,
+      "sha256": "46212ffd801785e03a882d74cf69928ede041b87b02166902f3d2d8f095373b6"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v030/scale/plates/SCR-height-reference.png",
+      "bytes": 1102239,
+      "sha256": "b56d93e36b40bac6703dad9c279969f017a70ac63416481f9ef58c3e1b88ebfd"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v030/scale/review-manifest.json",
+      "bytes": 856,
+      "sha256": "248cf324b4ef6687b18407b07ddb222dc29b4c156bbc042ff98689d683af004a"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v030/scale/validation.json",
+      "bytes": 467,
+      "sha256": "a50d6fbb0f76159c5e2c50612bcfdc7edac175043ff908a6387ebaf096d6fffd"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v030/scrapper.png",
+      "bytes": 1970945,
+      "sha256": "9f9e9ef270cacf79abfaae96ce7714090e889056fba1e1b8aeb933e876107492"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/review-manifest.json",
+      "bytes": 2941,
+      "sha256": "b96fbaf718f9970e313c8e44b29674cc36fe390f885d43056fce07b775b4d4f0"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/review/reference-board.html",
+      "bytes": 4493,
+      "sha256": "dd74f43d00cdfd4a0be83133eaa5cf43a22431964ebde249bffaaccbd2cb582d"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/scale/cast-lineup-preview.png",
+      "bytes": 827865,
+      "sha256": "2472b16ea8d443c10b9277c1b406244590918ae1b8534787990b5a36730bac80"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/scale/cast-lineup.png",
+      "bytes": 1552168,
+      "sha256": "a61f90a937c9f86e18dd496ec1caba785c6145bace7fdaa6f0c5b77182c8c509"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/scale/plates/GUA-height-reference.png",
+      "bytes": 1311058,
+      "sha256": "f4032ee99de72a30f569772374f03ca6bd7e0cab0d8cfa3adb1862416e78ff08"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/scale/plates/GUB-height-reference.png",
+      "bytes": 1249876,
+      "sha256": "46212ffd801785e03a882d74cf69928ede041b87b02166902f3d2d8f095373b6"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/scale/plates/SCR-height-reference.png",
+      "bytes": 1086645,
+      "sha256": "426d03eadf1773988e6e2af7b683e659766cc4e59e18a9a31dc248b308692c95"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/scale/review-manifest.json",
+      "bytes": 856,
+      "sha256": "248cf324b4ef6687b18407b07ddb222dc29b4c156bbc042ff98689d683af004a"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/scale/validation.json",
+      "bytes": 467,
+      "sha256": "5c973fd03ba8901b534075e4a70a5a17086c65e9940a57442d50aefd045381ca"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/scrapper.png",
+      "bytes": 1922371,
+      "sha256": "bc8015ecbbb8eacb510252a6ab4f3244932ab62a42b965113ec2d8f8b2c85a74"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v032/cockpit-reverse.png",
+      "bytes": 2903426,
+      "sha256": "6c7c109c869262546858fa28052c11e8ae132982b8d525f220895719614dd5c4"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v032/rejected-angle-sheet.png",
+      "bytes": 2810414,
+      "sha256": "90745092d5c8009657cc432b2d59a4f585ee0fd48cbb98ce9c3305d85102a4eb"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v032/review/reference-board.html",
+      "bytes": 5433,
+      "sha256": "c48d4dc93b33befeeb46bc78b5e54803bc27462ec9ba268fa0fa64890309b7e7"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v032/ship-rear.png",
+      "bytes": 2525349,
+      "sha256": "e563f7b8d1f32d35e59c99ed73b87f75f17b42846a7a91784ea3225e41cb0788"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v032/ship-underside.png",
+      "bytes": 2433542,
+      "sha256": "c64098c0c7e7c03c91e470c811fff0820e0dfe769984916abda1a4f3c2826c48"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v032/superseded-underside.png",
+      "bytes": 2602047,
+      "sha256": "5c9fc3c078bd3c3e12c0d2a53abb6b9a85dbc1fe3e0a63211e71e3c909f50faa"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v033/harrier-motorhome.png",
+      "bytes": 2608096,
+      "sha256": "fcd342337c46308752e8ce56752ae6dd83b2d7b9c160f52f41c98da484d14db8"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v033/review/reference-board.html",
+      "bytes": 1161,
+      "sha256": "c6ce6449e0e3c0b8559ddcc0a3ae906ef7ed9c51b6d2af1ef1b17901351f43e6"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v033/sources/harrier-museum-side.jpg",
+      "bytes": 1037338,
+      "sha256": "7c6871e11773e2bea2a09105dda5d3f9a444bb94ec2a58a905239850ae5137f8"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v033/sources/harrier-museum.jpg",
+      "bytes": 1168973,
+      "sha256": "821cf7d232490b9bff0469c25bb1532093257f03b4e1ce7235e699c065eaae5b"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v034/cabin-forward.png",
+      "bytes": 2967359,
+      "sha256": "ea266a1fea7474402db884827bce5263af1e5ee570680c687af1eb56d2e2beff"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v034/cabin-grounded.png",
+      "bytes": 2326342,
+      "sha256": "f40914c976b591e2c8076b2143af185d6675e0d158d76dbb1a4b5b2e8de0b736"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v034/cockpit-reverse.png",
+      "bytes": 2878961,
+      "sha256": "494512d58ff0f4a8d694eb616164d61ce362240c85bd997a4db2500494675006"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v034/review/reference-board.html",
+      "bytes": 1986,
+      "sha256": "6eab976ed46232334319c9ee882c96af17f9991f0f005c0755e4b039b765cbe5"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v034/ship-front.png",
+      "bytes": 2459884,
+      "sha256": "34c49c0d368ed06ef240dc1904ebfd5c3897652354236521e768c501e90df2b6"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v034/ship-rear.png",
+      "bytes": 2476794,
+      "sha256": "36dc81bbced3ba3ee21ac959ae4e1bf3212ee88c6ec290c52cf49d70e3c586cd"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v035/review/reference-board.html",
+      "bytes": 2218,
+      "sha256": "e36ea3aed10bed199c9c6e06c3c03da128552de7b6b20f5d96cf53d5632b94bb"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v035/ship-front.png",
+      "bytes": 2422470,
+      "sha256": "dce2864f6fcdc9146e226b10d1532a9a1931f22087acab83d0f1568cb3847d5d"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v035/ship-rear.png",
+      "bytes": 2295467,
+      "sha256": "5643b8e0f2964a8389e0032718cbb0dc4134fee405052d9e356c08133f1f958b"
     }
   ],
-  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/together-anyways-20261031-v002-stills/together-anyways-20261031-v002-stills.zip",
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/together-anyways-20261102-v003-stills/together-anyways-20261102-v003-stills.zip",
   "exclude": [
     "*.mp4",
-    "*/ta-*-frames/*",
     "*/__pycache__/*",
-    "*/.DS_Store"
+    "*/.DS_Store",
+    "*/*-frames/*"
   ],
   "scope": "Reference stills, review boards, audio and project assets. Generated MP4s and decoded video-frame caches intentionally excluded; recover selected source videos from Kling using shots/video-recovery.json."
 }

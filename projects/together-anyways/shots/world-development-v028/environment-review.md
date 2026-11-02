@@ -1,0 +1,9 @@
+# Dark salvage environment revision v028
+
+Generated with built-in ImageGen, one call per asset, using approved local references. Previous versions retained. These are reference proposals, not new shot starters or animatic edits.
+
+- **port-overview.png**: retained circular court, upper-rim tower, perimeter turrets and open sky. Expanded foreground/right junkyard with stacked stripped hulls, engine rings and opaque scrap partitions. Right gallery recess is now deeply shaded and unlit except one portable lamp. The working central court remains sunlit, making the concealed sector legible. Some fixed fixtures remain on in the active court, outside the hidden recess.
+- **salvage-ship-exterior.png**: same cream/teal shuttle, cockpit nose, twin aft engine rings, stub pods, thrusters, feet and door preserved. Placed beneath opaque gallery, shielded by junk with one warm portable lamp and weak bounced light. Near-left opening shows daylight at a distance. No people added; no ship redesign.
+- **ship-interior-grounded.png**: exact aft-to-forward view, two cockpit seats, right hatch, left cabinet and floor grilles preserved. Screens and ceiling lights off; dark nearby scrap visible through glazing/hatch. Small warm caged work lamp on left cabinet and weak flashlight-like pool on foreground floor keep it readable. Lamp occupies approximately the old beacon position but is drawn as a portable caged task light; treat it as temporary lighting, not a powered ship system. No characters. Bright v025 interior remains separate for flight/powered-state reference.
+
+Continuity caveat: lighting/reference illustrations establish hidden/dormant state; exact placement of every scrap object is not a surveyed spatial model. Keep principal ship geometry and port sector relationship when generating later shots.

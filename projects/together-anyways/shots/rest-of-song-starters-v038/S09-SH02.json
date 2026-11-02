@@ -1,0 +1,25 @@
+{
+  "shotId": "S09-SH02",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v038/S09-SH02.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: precise-object-edit. EDIT input1 ONLY replace bright open desert/light coming through LEFT doorway with deep shaded dense salvage junk beneath solid metal gallery roof immediately outside; weak cool reflected ambient only. Interior lit by Taffy's portable lamp only. Preserve every character, pose, hand, cabinet, camera and facial detail unchanged. This is still concealed remote salvagebay not outdoor desert. No newpeople, cartridge or controls. Input2 grounded lightingauthority.",
+  "referenceImages": [
+    "generated/storyboard/rest-of-song-starters-v038/S09-SH02.png",
+    "generated/world-development/port-ship-v034/cabin-grounded.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-b9e07d95-6c7e-48bd-95cc-f596df7f5d37.png",
+  "attempts": 2,
+  "initialPrompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: illustration-story. Only Harper and Taffy, no other characters. Medium view from cockpit looking aft into cabin, same groundedinterior. Harper near port shelves imageRIGHT examines dusty useful storage with one empty hand lifting small cabinetdoor; Taffy imageLEFT beside her holds warm portable cagedlight and looks around with pleased curiosity. Closed aftbulkhead behind, short cabin practical space, worn fittings. No cartridge in view, no repair actions. Camera oppositeboarding; faces threequarter different orientations. All ship lamps/screens OFF, only carriedlamp and dim reflecteddaylight from starboard side entrance imageLEFT.",
+  "initialReferences": [
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/character-development/taffy-front-back-v006.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-003.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/world-development/port-ship-v034/cockpit-reverse.png",
+    "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/world-development/port-ship-v034/cabin-grounded.png"
+  ],
+  "qa": {
+    "inspected": true,
+    "notes": "Cabin storage exploration; no cartridge. Second targeted edit corrected bright doorway to shaded junk/gallery. First attempt retained. Reverse geometry consistent."
+  }
+}

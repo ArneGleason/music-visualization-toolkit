@@ -1,0 +1,45 @@
+{
+  "title": "TOGETHER ANYWAYS / PORT CAST / HEIGHT PROPOSALS v030",
+  "status": "proposals_pending_review",
+  "characters": [
+    {
+      "id": "SCR",
+      "name": "The Ant Scrapper",
+      "image": "generated/world-development/port-ship-v030/scrapper.png",
+      "heightCm": 164,
+      "crownY": 0.06705729166666667,
+      "groundY": 0.9674479166666666,
+      "poseFactor": 0.98,
+      "revised": false,
+      "newReference": true,
+      "heightStatus": "proposed_pending_review",
+      "calibration": "Manual approximate crown excludes antennae; bare tarsal contact plane,2% relaxed pose allowance."
+    },
+    {
+      "id": "GUA",
+      "name": "Yard Guard A",
+      "image": "generated/world-development/port-ship-v028/guard-a.png",
+      "heightCm": 186,
+      "crownY": 0.024,
+      "groundY": 0.972,
+      "poseFactor": 0.99,
+      "revised": false,
+      "newReference": true,
+      "heightStatus": "proposed_pending_review",
+      "calibration": "Manual approximate crown/sole registration; excludes helmets and lateral sensory folds."
+    },
+    {
+      "id": "GUB",
+      "name": "Yard Guard B",
+      "image": "generated/world-development/port-ship-v028/guard-b.png",
+      "heightCm": 178,
+      "crownY": 0.026,
+      "groundY": 0.972,
+      "poseFactor": 0.99,
+      "revised": false,
+      "newReference": true,
+      "heightStatus": "proposed_pending_review",
+      "calibration": "Manual approximate crown/sole registration; excludes helmets and lateral sensory folds."
+    }
+  ]
+}

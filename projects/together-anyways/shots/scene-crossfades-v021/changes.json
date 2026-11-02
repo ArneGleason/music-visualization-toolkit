@@ -1,0 +1,26 @@
+{
+  "ta-007": {
+    "type": "crossfade",
+    "frames": 12,
+    "alignment": "center",
+    "reason": "Scene1 to Scene2: change of scene as the partners separate and Harper approaches."
+  },
+  "ta-014": {
+    "type": "crossfade",
+    "frames": 6,
+    "alignment": "center",
+    "reason": "Scene2 to Scene3: quick transition from theft to departure and suspicion."
+  },
+  "ta-016": {
+    "type": "crossfade",
+    "frames": 6,
+    "alignment": "start",
+    "reason": "Quick chase-to-waiting location change; start alignment preserves incoming source0 without a freeze."
+  },
+  "ta-017": {
+    "type": "crossfade",
+    "frames": 12,
+    "alignment": "center",
+    "reason": "Scene3 to Scene4: elapsed time and reunion location change."
+  }
+}

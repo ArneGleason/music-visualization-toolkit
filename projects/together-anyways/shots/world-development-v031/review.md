@@ -1,0 +1,3 @@
+# Separate top and wrap v031
+
+User likes metallic top, wants no pants and a different-material loincloth/skirt. Built-in ImageGen edit of v030. Visually checked: metallic knit ends at waist; lower garment is one asymmetric dusty-teal worn reinforced-sheet/sailcloth wrap, not shorts or two leg tubes. Bare chitin thighs/legs/claws retained. Canvas belt and three powered tools unchanged. Ant/beak/antennae, six limbs and pose preserved. Wrap reads as reinforced weathered sheet material; its precise fictional material remains a design proposal.164cm approximate height excludes antennae. Previous variants retained. No shotlist/animatic/video changes; Approved by user after viewing generated revision.

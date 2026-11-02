@@ -1,0 +1,28 @@
+{
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "file": "port-overview.png",
+      "references": [
+        "port-ship-v026/port-overview.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit image1, the approved circular port overview. Preserve camera position, circular high walls, upper-rim control tower, defensive perimeter turrets, open blue sky, architectural scale, and realistic detailed illustration. Change the foreground/right salvage sector into a much denser and deeply shaded junkyard. The central active court may retain sunlight, but the entire right-hand deep recessed workshop beneath the broad gallery must be genuinely dark and abandoned, with ALL fixed facility lights off there. Fill foreground/right with layered scrapped machinery, stripped hulls, stacked engine rings, broken vehicles and metal partitions that screen sightlines and form narrow hidden paths. Extend the opaque gallery canopy deeper over this recess, not a dome. No sunlight hits the hidden working bay. One faint portable task light deep within is enough, not a luminous workshop; a person would need a flashlight to find things there. Hide the cream-and-teal old shuttle well back in that recess behind scrap, not proudly displayed in sunshine. Readable cool dark shadows with restrained reflected light; strong clear contrast between active sunlit center and concealed shaded salvage region. No new people required. No text or annotations. Landscape wide composition."
+    },
+    {
+      "file": "salvage-ship-exterior.png",
+      "references": [
+        "port-ship-v025/ship-exterior.png",
+        "port-ship-v028/port-overview.png"
+      ],
+      "prompt": "Use case: compositing. Asset: grounded hidden-ship environment reference, realistic detailed illustration, landscape. Input1 is the EXACT approved ship design: preserve cream and worn teal panels, broad flattened rounded fuselage, blunt angular many-window cockpit nose facing right, two circular aft engine housings, short side pods with down-thrusters, articulated landing feet, visible side door with steps, pipes and exposed side service panel. Input2 is the port/environment authority. Place this same old shuttle deep inside the unlit salvage recess under the right-hand gallery of input2. Camera now at ground level within that recess, three-quarter side view similar to input1, whole ship recognizable, surrounded by stripped hulls, scrap engine rings and tall stacks of junk screening it from the active court. Opaque low industrial canopy and tall walls block direct sunlight. This is concealed and dormant, not an operating lit maintenance hangar. All permanent overhead/wall lights and ship screens off. Only ONE small portable warm task lamp near the steps, plus weak cool ambient reflected light from far-away court and one subtle off-camera flashlight stroke across nearby scrap. Interior through hatch dark. Deep readable shadow, dim but ship geometry visible after eyes adjust, minimal local light, no large luminous pools or atmospheric sunbeams. No people, no new equipment on the ship, no labels. Match exact ship proportions and geometry; change surrounding location and illumination, not vehicle design."
+    },
+    {
+      "file": "ship-interior-grounded.png",
+      "references": [
+        "port-ship-v025/ship-interior.png",
+        "port-ship-v028/salvage-ship-exterior.png"
+      ],
+      "prompt": "Use case: lighting-weather. Asset: dormant grounded ship interior reference. EDIT INPUT1, preserving EXACT room geometry, framing and every layout landmark: camera aft looking forward along central aisle at two worn cockpit chairs and angular cockpit glazing; open side hatch camera RIGHT; exposed service cabinet and tools camera LEFT, overhead pipes, teal/cream metal panels, floor access grilles. Input2 is location and lighting context only, the same ship hidden deep in scrap recess. Change illumination and views through windows only; no room redesign. The ship is completely powered down in that dark covered salvage recess. ALL cockpit screens BLACK and OFF, all ceiling fixtures OFF and dark, amber cabinet beacon OFF, no illuminated buttons. Through the cockpit windows and open right hatch show dark nearby scrap stacks, old engine parts and the shaded enclosing walls, no sunlit desert or sky. Interior has just one SMALL temporary portable warm task lamp low near the left service cabinet, not mounted facility lighting; one weak narrow cool flashlight beam entering from off-camera aft grazes the floor/service panel. Deep dark but readable shadow, enough subtle reflected light to resolve seats, cabinet and worn materials, not daylight flooded. Keep the floor and bulkheads predominantly in shadow. Realistic illustrated cinematic rendering, no people, no text, landscape aspect matching input1."
+    }
+  ]
+}

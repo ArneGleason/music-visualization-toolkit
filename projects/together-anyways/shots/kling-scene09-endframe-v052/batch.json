@@ -1,0 +1,19 @@
+{
+  "shot": "S09-SH07",
+  "status": "rejected_physics",
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "durationSeconds": 5,
+  "credits": 75,
+  "mode": "last-frame-only",
+  "endFrame": "generated/storyboard/scene09-endframe-v051/S09-SH07-end.png",
+  "prompt": "S09-SH07.prompt.txt",
+  "selected": false,
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946047473112465498&materialId=325555294525235",
+  "video": "generated/kling-scene09-endframe-v052/S09-SH07.mp4",
+  "width": 1916,
+  "height": 1080,
+  "fps": 24,
+  "sourceFrames": 121,
+  "reviewNotes": "Quarter-second samples show roll off upper edge, drop to lower rail around1s, substantial rebound around1.5\u20131.75s, then settling around2.25s. Intact single cartridge, no hands or crushing. Camera drifts/pushes despite fixed request. User review pending; not selected in edit. User rejected bounce/roll upward as unnatural. Keep original v049; revise S10 starter to actual diagonal landing instead."
+}

@@ -29,7 +29,51 @@ def load_shots(path, master_start, count, frame_base):
             sourceInFrame=shot.get('videoEdit', {}).get('sourceInFrame', document.get('fps')) if shot.get('videoSource') else None,
             sourceFps=document.get('fps'),
             mediaType='video' if shot.get('videoSource') else 'still'))
+    tail = document.get('reviewTail')
+    if tail:
+        start, end = tail['startFrame'] + offset, min(tail['endFrameExclusive'] + offset, master_start + count)
+        if end > max(start, master_start):
+            shots.append(dict(id='story-to-plan', title='Story to plan · lyrics on black',
+                              sceneId='', sceneName='', shotNumber='', startFrame=start,
+                              endFrameExclusive=end, sourceInFrame=None,
+                              sourceFps=document.get('fps'), mediaType='planning'))
     return sorted(shots, key=lambda shot: shot["startFrame"])
+
+
+def load_lyrics(path, master_start, count, frame_base, fps):
+    """Index performed lines before filtering, retaining numbers in partial previews."""
+    if path is None:
+        return []
+    document = json.loads(path.read_text(encoding="utf-8"))
+    if abs(float(document['timing']['fps']) - fps) > 0.001:
+        raise ValueError("Lyric timing and review frame rates differ")
+    items = sorted((item for track in document.get('tracks', [])
+                    if track.get('id') == 'lyrics' for item in track.get('items', [])),
+                   key=lambda item: item['startFrame'])
+    result = []
+    cursor, gap_index = frame_base, 0
+    duration = document['timing']['durationFrames'] + frame_base
+
+    def add_gap(start, end, title):
+        nonlocal gap_index
+        if end <= start:
+            return
+        gap_index += 1
+        label = f"I{gap_index:02d}"
+        result.append(dict(index=label, label=label, id=f"instrumental-{gap_index:02d}",
+                           kind='instrumental', text=title,
+                           startFrame=start, endFrameExclusive=end))
+
+    for index, item in enumerate(items, 1):
+        start, end = item['startFrame'] + frame_base, item['endFrame'] + frame_base
+        title = 'Instrumental intro' if index == 1 else f"Instrumental / lyric gap · L{index-1:02d} → L{index:02d}"
+        add_gap(cursor, start, title)
+        result.append(dict(index=index, label=f"L{index:02d}", id=item['id'],
+                           kind='lyric', text=item['text'], startFrame=start, endFrameExclusive=end))
+        cursor = max(cursor, end)
+    add_gap(cursor, duration, 'Instrumental outro' if items else 'Instrumental')
+    return [line for line in result if line['endFrameExclusive'] > master_start
+            and line['startFrame'] < master_start + count]
 
 
 def main():
@@ -41,6 +85,7 @@ def main():
     parser.add_argument("--port", type=int, default=8767)
     parser.add_argument("--state", type=Path, help="JSON pointer to current video and master_start")
     parser.add_argument("--shotlist", type=Path, help="Shot index for scene/shot navigation")
+    parser.add_argument("--lyrics", type=Path, help="Compiled timeline for numbered lyric navigation")
     args = parser.parse_args()
     @lru_cache(maxsize=16)
     def inspect(path, stamp):
@@ -108,10 +153,17 @@ def main():
                     shot_revision = str(args.shotlist.stat().st_mtime_ns) if args.shotlist else ""
                 except (OSError, ValueError, KeyError, TypeError):
                     shots, shot_revision = [], "unavailable"
+                try:
+                    lyrics = load_lyrics(args.lyrics, master_start, count, args.master_frame_base, fps)
+                    lyric_revision = str(args.lyrics.stat().st_mtime_ns) if args.lyrics else ""
+                    lyric_error = ""
+                except (OSError, ValueError, KeyError, TypeError) as error:
+                    lyrics, lyric_revision, lyric_error = [], "unavailable", str(error)
                 self.send(json.dumps(dict(name=video.name, fps=fps, count=count,
                     masterStart=master_start, masterFrameBase=args.master_frame_base,
                     revision=revision, notes=notes, shots=shots,
-                    shotRevision=shot_revision)).encode())
+                    shotRevision=shot_revision, lyrics=lyrics, lyricRevision=lyric_revision,
+                    lyricError=lyric_error)).encode())
             elif route.path == "/frame":
                 try:
                     frame = int(parse_qs(route.query)["n"][0])
@@ -180,6 +232,11 @@ def main():
                     master_frame=master_start+frame-1,
                     master_seconds=(master_start+frame-1-args.master_frame_base)/fps,
                     fps=fps, text=str(item.get("text", ""))[:2000])
+                try:
+                    lyrics = load_lyrics(args.lyrics, master_start, count, args.master_frame_base, fps)
+                    note['lyric'] = next((line for line in lyrics if line['startFrame'] <= note['master_frame'] < line['endFrameExclusive']), None)
+                except (OSError, ValueError, KeyError, TypeError):
+                    pass
                 with lock:
                     notes = read_notes()
                     notes.append(note)

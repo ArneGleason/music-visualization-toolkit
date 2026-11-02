@@ -1,0 +1,51 @@
+{
+  "model": "Kling4.0",
+  "resolution": "1080p",
+  "status": "complete_selected_for_review",
+  "shots": [
+    {
+      "shotId": "S07-SH01",
+      "displayId": "S07-SH01",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v038/S07-SH01.png",
+      "seconds": 5,
+      "sourceInFrame": 24,
+      "editFrames": 65,
+      "prompt": "The supplied first frame is the starting composition. Animate one continuous 5-second 16:9 shot at natural walking speed.\n\nHarper leads Taffy away from camera along the existing service lane toward the distant open port entrance. They want to reach cover without drawing the guard's attention. Start already walking; during source 1.0\u20133.7s they advance several purposeful steps beside the crates. Harper glances briefly back toward Taffy and murmurs a short reassuring remark while continuing forward, then checks the distant guard and refocuses on the route. Taffy answers with a small tense nod, grips his sack strap and catches up, keeping close to the equipment. Their bodies make clear forward progress rather than shuffling in place. The distant cream-and-blue guard remains occupied facing into the port, unaware of them. A restrained forward tracking move follows the pair without overtaking them, preserving the deep lane, distant entrance, machinery and fixed background ship. They remain well short of the entrance at the end; do not attempt the guarded crossing in this shot. Continue their purposeful approach through the tail.\n\nThe musical edit uses source 1.000\u20133.708s (65 frames at 24fps). Keep the main action inside that interval, with one second of moving lead-in and at least one second of continuation. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "status": "selected_for_review",
+      "credits": 75,
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945978154756227156&materialId=325538767523461",
+      "reviewNote": "Clear sustained forward walking, Harper looks back to Taffy then returns attention ahead. Distant guard remains unaware. Camera widens slightly rather than following forward; preserves geography and useful progress.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667",
+        "nb_frames": "121"
+      },
+      "localVideo": "generated/kling-scene07-v044/S07-SH01.mp4"
+    },
+    {
+      "shotId": "S07-SH02",
+      "displayId": "S07-SH02",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v039/S07-SH02.png",
+      "seconds": 7,
+      "sourceInFrame": 24,
+      "editFrames": 110,
+      "prompt": "The supplied first frame is the starting composition. Animate one continuous 7-second 16:9 shot at natural speed.\n\nHarper is sheltered at the screen-right jamb; short portly Taffy crouches behind the screen-left equipment. The adult cream-and-blue guard between them is distracted, not aware of either intruder. During source 0\u20131s the guard turns her head and upper body away from camera toward the busy port behind her, attending to routine activity, keeping her weapon lowered. During 1.0\u20131.8s Harper makes one urgent low beckoning gesture to Taffy with a reassuring look: now, come on. Taffy checks the guard, takes a breath and commits. During 1.8\u20134.2s he pushes out of his crouch and scurries low from left to right across the foreground, nearer the camera than the guard, his sack moving with his body. The guard keeps watching the port and never notices him. Harper shifts back into the right-hand shelter to give him room. During 4.2\u20135.5s Taffy reaches Harper, they exchange a quick relieved glance and immediately turn together into the sheltered route around the right-hand structure, away from the guarded central opening. Continue their departure through the final second. His fear becomes decisive action; her patient urgency becomes relief and onward purpose. A small rightward camera follow retains his complete crossing and their joining; no orbit or reverse angle. Preserve his short stature relative to the adult guard, the fixed entrance and crate geography. No confrontation or pursuit, no duplicate characters, no newly displayed prop.\n\nThe musical edit uses source 1.000\u20135.583s (110 frames at 24fps). Place beckon, decision, crossing and joining within this interval. One second of moving lead-in and at least one second of continued departure afterward provide editorial handles. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "status": "selected_for_review",
+      "credits": 105,
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945978269534011476&materialId=325538794530838",
+      "reviewNote": "Guard turns fully away into the port; Harper beckons, Taffy scurries across foreground and joins her at right-hand cover. Clear relief then departure into side route. Main action fits source1\u20135.583s; exit continues in tail. No confrontation.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      },
+      "localVideo": "generated/kling-scene07-v044/S07-SH02.mp4"
+    }
+  ],
+  "creditsCommitted": 180,
+  "creditsSpent": 180
+}

@@ -1,0 +1,51 @@
+{
+  "model": "Kling4.0",
+  "resolution": "1080p",
+  "status": "complete_selected_for_review",
+  "creditsCommitted": 180,
+  "shots": [
+    {
+      "shotId": "S08-SH01",
+      "displayId": "S08-SH01",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v038/S08-SH01.png",
+      "seconds": 4,
+      "sourceInFrame": 36,
+      "editFrames": 35,
+      "prompt": "Animate the supplied first frame as one continuous four-second close shot. Harper wants to make a quiet bargain; the beaked ant scrapper recognizes something valuable in her blue jewel that she does not understand. Keep the existing dark workshop, lantern light, framing and positions.\n\nDuring source0\u20131s his existing outstretched receiving hand moves just beneath the brass base in Harper's open palm. During1.0\u20131.7s his fingers close securely around that base and Harper releases it, drawing her empty hand back. One simple physical handoff of the same jewel; no duplication or floating. During1.7\u20132.4s he lifts it slightly, its blue internal light brightens, and his head inclines with warm pleased recognition, antennae lifting slightly. Harper catches his acceptance with a small relieved smile; Taffy's guarded expression softens. Continue his appreciative inspection through the tail, holding the jewel himself. Keep the other three arms quietly in their original positions, with only natural settling: exactly four separate arms, two on each side, and the original beak and compound eyes. Avoid new mouth shapes or human facial anatomy. No new bargain objects or large gestures. Nearly locked camera with a very slight push toward the handoff.\n\nThe musical cut uses source1.000\u20132.458s,35frames at24fps. Put the handoff and blue-light response inside this short window. One second of moving lead-in and at least one second of continuing inspection after it provide editorial handles. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "status": "selected_for_review",
+      "credits": 60,
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945985431937220608&materialId=325540502314443",
+      "reviewNote": "Single jewel physically transfers, blue light brightens, four arms retained. Handoff lands later than prompt: select source1.500\u20132.958s (frames36\u201370), preserving26frame tail and showing clean release before next shot.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "4.041667",
+        "nb_frames": "97"
+      },
+      "localVideo": "generated/kling-scene08-v047/S08-SH01.mp4"
+    },
+    {
+      "shotId": "S08-SH02",
+      "displayId": "S08-SH02",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v039/S08-SH02.png",
+      "seconds": 8,
+      "sourceInFrame": 24,
+      "editFrames": 121,
+      "prompt": "Animate the supplied first frame as one continuous eight-second wide shot. The beaked ant scrapper already holds the received blue jewel in the same hand as supplied; the transaction is complete. He is quietly generous, pleased with his find. Harper and Taffy see an unexpected opportunity in the battered ship.\n\nDuring source0\u20131s the scrapper gives a small approving nod, keeps the jewel close to his chest and begins opening his already raised free hand toward the ship. During1\u20132.2s that hand makes one welcoming sweep through the clear aisle toward the aircraft, giving them permission. His two lower arms stay relaxed by his belt. Exactly four arms, two per side, two bare clawed legs; preserve his kind beaked insect face, metallic-knit top and teal wrap. During2.2\u20133s Harper and Taffy orient toward the ship with eager forward posture. During3\u20136s they walk together along the open aisle past him toward the ship's existing steps, moving away from camera, heads staying toward the aircraft. Harper leads slightly, Taffy catches up. Their delight reads through their quickened purposeful stride, not turning back to show faces. The scrapper stays beside the partition holding his jewel, watching them go. Continue the pair's approach through the tail; they need not enter or climb the stairs yet.\n\nThe camera gently trucks right and eases wider to reveal the parked aircraft, retaining the pair as small moving figures. Preserve its fixed ivory-and-teal broad hull, recessed nose radar bowl, stubby wings, single fin, intakes and missing panels. The ship stays stationary and unpowered, doorway open, interior dark. Keep the hideaway deeply shaded with localized warm lamps; no daylight flood, active security walkway or new people. The table and crates do not obstruct the existing clear route. No jewel hand transfer or extra gestures.\n\nThe musical cut uses source1.000\u20136.042s,121frames at24fps. Make permission, orientation and substantial progress toward the ship readable within that interval. Keep moving lead-in and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "status": "selected_for_review",
+      "credits": 120,
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945985717028274256&materialId=325540570533431",
+      "reviewNote": "Scrapper keeps jewel and gestures welcome; pair eagerly hurry/jog toward ship along clear aisle. Camera eases wider, dark hideaway and unpowered hull remain coherent. More eager than a measured walk, but readable opportunity and destination. Source1\u20136.042s selected.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "8.041667",
+        "nb_frames": "193"
+      },
+      "localVideo": "generated/kling-scene08-v047/S08-SH02.mp4"
+    }
+  ],
+  "creditsSpent": 180
+}

@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 1,
+  "title": "Together Anyways",
+  "slug": "together-anyways",
+  "sources": {
+    "dawproject": "generated/source/Together-Anyways-current.dawproject",
+    "audio": "generated/animatic/assets/master.wav",
+    "acceptedLyrics": "generated/animatic/timing.json",
+    "acceptedBoundary": "generated/animatic/accepted-boundary.json",
+    "timingAnimatic": "generated/animatic/Together-Anyways-lyric-animatic-v04.mp4",
+    "effectcraftProject": "generated/animatic/Together-Anyways-lyric-animatic-v04.ecproj",
+    "suppliedCover": "generated/source/together-anyways-cover.png"
+  },
+  "timeline": "timeline.json",
+  "timing": {
+    "masterTrack": "master",
+    "durationSource": "audio",
+    "zeroBeat": 7.5,
+    "beatmap": "generated/beatmap.json",
+    "compiledTimeline": "generated/timeline.compiled.json"
+  },
+  "render": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "reviewFullSong": true,
+    "reviewStoryProposal": "shots/rest-of-song-v024/proposal.json"
+  },
+  "visualReferences": [
+    {
+      "id": "taffy-front-back-v006",
+      "path": "generated/character-development/taffy-front-back-v006.png",
+      "role": "Facial-continuity revision: turned head reconstructed from straight-on boy identity, retaining the clothing/body direction, improvised sack, rope belt, symmetrical scarwork and sandals",
+      "status": "identity_consistency_review_pending",
+      "currentUse": false,
+      "notes": "character-development/taffy-redesign-v006.notes.txt",
+      "prompt": "character-development/taffy-redesign-v006.prompt.txt"
+    },
+    {
+      "id": "taffy-front-back-v005",
+      "path": "generated/character-development/taffy-front-back-v005.png",
+      "role": "Latest partner proposal: worn sack with improvised shoulder cords and mismatched braided waist belt; retained patterned top, larger ears, fuller build, symmetrical scarwork and sandals",
+      "status": "clothing_body_direction_liked_facial_views_inconsistent",
+      "currentUse": false,
+      "notes": "character-development/taffy-redesign-v005.notes.txt",
+      "prompt": "character-development/taffy-redesign-v005.prompt.txt"
+    },
+    {
+      "id": "taffy-front-back-v004",
+      "path": "generated/character-development/taffy-front-back-v004.png",
+      "role": "Latest partner proposal: larger rounded ears, fuller soft build and less cute facial presentation, retaining v003 costume, symmetrical scarwork, sandals and knapsack",
+      "status": "gear_revision_requested_too_coordinated",
+      "currentUse": false,
+      "notes": "character-development/taffy-redesign-v004.notes.txt",
+      "prompt": "character-development/taffy-redesign-v004.prompt.txt"
+    },
+    {
+      "id": "taffy-front-back-v003",
+      "path": "generated/character-development/taffy-front-back-v003.png",
+      "role": "Front/rear reference proposal: symmetrical healed cheek markings, retained culture-of-origin clothing, secure open-toe sandals and closed compact knapsack",
+      "status": "appearance_revision_requested_too_cute",
+      "currentUse": false,
+      "notes": "character-development/taffy-redesign-v003.notes.txt",
+      "prompt": "character-development/taffy-redesign-v003.prompt.txt"
+    },
+    {
+      "id": "taffy-redesign-v002",
+      "path": "generated/character-development/harper-taffy-redesign-v002.png",
+      "role": "Original boy identity restored, with proposed traditional healed cheek scarwork and a distinct culture-of-origin wrap outfit; Harper retained",
+      "status": "user_likes_basic_clothing_direction_revisions_requested",
+      "currentUse": false,
+      "notes": "character-development/taffy-redesign-v002.notes.txt",
+      "prompt": "character-development/taffy-redesign-v002.prompt.txt"
+    },
+    {
+      "id": "taffy-redesign-v001",
+      "path": "generated/character-development/harper-taffy-redesign-v001.png",
+      "role": "Exploratory scruffier partner with pale temple birthmark and ivory curls; Harper retained from original pair",
+      "status": "rejected_by_user",
+      "currentUse": false,
+      "notes": "character-development/taffy-redesign-v001.notes.txt",
+      "prompt": "character-development/taffy-redesign-v001.prompt.txt"
+    },
+    {
+      "id": "harper-taffy-development-v001",
+      "path": "../desert-colony/generated/character-development/harper-and-partner-v001.png",
+      "role": "Original youthful Harper and boy identities, pair proportions; boy's former workwear is superseded by the user's culture-of-origin clothing direction; not an approved turnaround"
+    },
+    {
+      "id": "diversion-theft-v005",
+      "path": "../desert-colony/generated/scene-development/diversion-theft-v005.png",
+      "role": "Existing scene reference for Harper, racketeer, shoulder lookout, jewel and access override device; same scene as supplied cover. Boy's costume predates the latest redesign direction"
+    },
+    {
+      "id": "env-market-approach-v001",
+      "path": "generated/environment-development/first-run-v001/market-approach-v001.png",
+      "role": "A shaded planning alcove beside a public lane. Ordinary information display, twin blue tanks and teal shade point toward the target; cargo cranes plant the distant objective.",
+      "status": "user_accepted_setting_direction",
+      "currentUse": true,
+      "placeIds": [
+        "loc-market-approach"
+      ],
+      "prompt": "environment-development/first-run-v001/market-approach-v001.prompt.txt",
+      "approval": {
+        "date": "2026-10-30",
+        "source": "User reviewed the images and plan in their browser and said both are good.",
+        "scope": "Setting designs and overall first-run plan; detailed camera matching, reader insert and cast selection remain development work."
+      }
+    },
+    {
+      "id": "env-water-broker-v001",
+      "path": "generated/environment-development/first-run-v001/water-broker-forecourt-v001.png",
+      "role": "A public stall attached to the criminal\u2019s private house. Chair, private tanks and storage gate express control of water; open public space and screened service cover support the theft.",
+      "status": "user_accepted_setting_direction",
+      "currentUse": true,
+      "placeIds": [
+        "loc-water-broker"
+      ],
+      "prompt": "environment-development/first-run-v001/water-broker-forecourt-v001.prompt.txt",
+      "approval": {
+        "date": "2026-10-30",
+        "source": "User reviewed the images and plan in their browser and said both are good.",
+        "scope": "Setting designs and overall first-run plan; detailed camera matching, reader insert and cast selection remain development work."
+      }
+    },
+    {
+      "id": "env-reunion-court-v001",
+      "path": "generated/environment-development/first-run-v001/split-reunion-court-v001.png",
+      "role": "Two approaches meet on a pump-service landing under a chipped blue pipe elbow. A higher screened ledge and lower dogleg let them arrive separately; right stairs lead onward.",
+      "status": "user_accepted_setting_direction",
+      "currentUse": true,
+      "placeIds": [
+        "loc-reunion-court"
+      ],
+      "prompt": "environment-development/first-run-v001/split-reunion-court-v001.prompt.txt",
+      "approval": {
+        "date": "2026-10-30",
+        "source": "User reviewed the images and plan in their browser and said both are good.",
+        "scope": "Setting designs and overall first-run plan; detailed camera matching, reader insert and cast selection remain development work."
+      }
+    },
+    {
+      "id": "env-relay-hall-v001",
+      "path": "generated/environment-development/first-run-v001/access-relay-hall-v001.png",
+      "role": "A controlled entrance into a port-serving utility/freight hall. Door-jamb reader outside, large broadcast screen inside, and onward cargo ramp beyond.",
+      "status": "user_accepted_setting_direction",
+      "currentUse": true,
+      "placeIds": [
+        "loc-relay-gate",
+        "loc-relay-hall"
+      ],
+      "prompt": "environment-development/first-run-v001/access-relay-hall-v001.prompt.txt",
+      "approval": {
+        "date": "2026-10-30",
+        "source": "User reviewed the images and plan in their browser and said both are good.",
+        "scope": "Setting designs and overall first-run plan; detailed camera matching, reader insert and cast selection remain development work."
+      }
+    },
+    {
+      "id": "support-A1-v001",
+      "candidateId": "A1",
+      "path": "generated/character-development/supporting-refs-v001/A1-shade-stitcher-v001.png",
+      "role": "The Shade Stitcher \u2014 Her routine lowering and raising of a cloth panel gives Harper a visible escape opportunity to plan for.",
+      "status": "baseline_retained_in_history_biological_revision_requested",
+      "currentUse": false,
+      "prompt": "character-development/supporting-refs-v001/A1.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Initial single-view reference direction; four role-related biological revisions requested."
+      }
+    },
+    {
+      "id": "support-A3-v001",
+      "candidateId": "A3",
+      "path": "generated/character-development/supporting-refs-v001/A3-scrap-appraiser-v001.png",
+      "role": "The Scrap Appraiser \u2014 Takes an interest in what Taffy is carrying; the boy has to conceal the newly stolen device while appearing ordinary.",
+      "status": "baseline_liked_biological_revision_requested",
+      "currentUse": false,
+      "prompt": "character-development/supporting-refs-v001/A3.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Initial single-view reference direction; four role-related biological revisions requested."
+      }
+    },
+    {
+      "id": "support-A6-v001",
+      "candidateId": "A6",
+      "path": "generated/character-development/supporting-refs-v001/A6-quiet-stallholder-v001.png",
+      "role": "The Quiet Stallholder \u2014 Notices the children arrive together, then separately; can choose to continue a sale rather than inform the broker. A small decision with moral weight.",
+      "status": "baseline_liked_biological_revision_requested",
+      "currentUse": false,
+      "prompt": "character-development/supporting-refs-v001/A6.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Initial single-view reference direction; four role-related biological revisions requested."
+      }
+    },
+    {
+      "id": "support-B1-v001",
+      "candidateId": "B1",
+      "path": "generated/character-development/supporting-refs-v001/B1-doorpost-v001.png",
+      "role": "Doorpost \u2014 His turns open and close the line of sight to Taffy. He can become the visible pursuer Harper draws into the public passage.",
+      "status": "user_accepted_reference_direction",
+      "currentUse": true,
+      "prompt": "character-development/supporting-refs-v001/B1.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Integrated subtle biological character direction; Doorpost retained. Single-view design direction, not a complete anatomical turnaround."
+      }
+    },
+    {
+      "id": "support-B4-v001",
+      "candidateId": "B4",
+      "path": "generated/character-development/supporting-refs-v001/B4-fast-coat-v001.png",
+      "role": "Fast Coat \u2014 A fast, committed pursuer makes Harper's decoy route dangerous; she needs concealment and a planned turn to lose him.",
+      "status": "baseline_retained_in_history_biological_revision_requested",
+      "currentUse": false,
+      "prompt": "character-development/supporting-refs-v001/B4.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Initial single-view reference direction; four role-related biological revisions requested."
+      }
+    },
+    {
+      "id": "support-B6-v001",
+      "candidateId": "B6",
+      "path": "generated/character-development/supporting-refs-v001/B6-valve-hand-v001.png",
+      "role": "Valve Hand \u2014 Can interrupt the jewel exchange to reach a control beside the chair, briefly threatening Taffy's cover without having noticed him.",
+      "status": "baseline_retained_in_history_biological_revision_requested",
+      "currentUse": false,
+      "prompt": "character-development/supporting-refs-v001/B6.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Initial single-view reference direction; four role-related biological revisions requested."
+      }
+    },
+    {
+      "id": "support-C1-v001",
+      "candidateId": "C1",
+      "path": "generated/character-development/supporting-refs-v001/C1-pipe-fitter-v001.png",
+      "role": "The Pipe Fitter \u2014 A valve release masks a few footsteps, while the fitter's work position closes one route. The children must read and time that routine.",
+      "status": "baseline_retained_in_history_biological_revision_requested",
+      "currentUse": false,
+      "prompt": "character-development/supporting-refs-v001/C1.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Initial single-view reference direction; four role-related biological revisions requested."
+      }
+    },
+    {
+      "id": "support-C4-v001",
+      "candidateId": "C4",
+      "path": "generated/character-development/supporting-refs-v001/C4-pressure-warden-v001.png",
+      "role": "The Pressure Warden \u2014 Closes the obvious maintenance gate on schedule, forcing a choice of path. Needs an early glimpse of the routine so the obstacle feels earned.",
+      "status": "baseline_liked_biological_revision_requested",
+      "currentUse": false,
+      "prompt": "character-development/supporting-refs-v001/C4.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Initial single-view reference direction; four role-related biological revisions requested."
+      }
+    },
+    {
+      "id": "support-C6-v001",
+      "candidateId": "C6",
+      "path": "generated/character-development/supporting-refs-v001/C6-scrap-sweeper-v001.png",
+      "role": "The Scrap Sweeper \u2014 The pole sweeps across Taffy's path; a metal click from the stolen device could expose him. Creates a small precise obstacle rather than another chase.",
+      "status": "baseline_retained_in_history_biological_revision_requested",
+      "currentUse": false,
+      "prompt": "character-development/supporting-refs-v001/C6.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Initial single-view reference direction; four role-related biological revisions requested."
+      }
+    },
+    {
+      "id": "support-D2-v001",
+      "candidateId": "D2",
+      "path": "generated/character-development/supporting-refs-v001/D2-pass-clerk-v001.png",
+      "role": "The Pass Clerk \u2014 Adds a human inspection after the key opens the electronic boundary. A raised pen or held stare creates uncertainty without demanding another stolen object.",
+      "status": "baseline_retained_in_history_biological_revision_requested",
+      "currentUse": false,
+      "prompt": "character-development/supporting-refs-v001/D2.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Initial single-view reference direction; four role-related biological revisions requested."
+      }
+    },
+    {
+      "id": "support-D3-v001",
+      "candidateId": "D3",
+      "path": "generated/character-development/supporting-refs-v001/D3-relay-electrician-v001.png",
+      "role": "The Relay Electrician \u2014 Can bring the screen back at exactly the wrong moment for the children: the successful repair reveals their wanted broadcast. Establish the repair before the reveal.",
+      "status": "baseline_retained_in_history_biological_revision_requested",
+      "currentUse": false,
+      "prompt": "character-development/supporting-refs-v001/D3.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Initial single-view reference direction; four role-related biological revisions requested."
+      }
+    },
+    {
+      "id": "support-D6-v001",
+      "candidateId": "D6",
+      "path": "generated/character-development/supporting-refs-v001/D6-port-messenger-v001.png",
+      "role": "The Port Messenger \u2014 Their purposeful exit toward the cargo ramp plants the onward route to the port. When the alert appears, a stopped step and turned head raise the stakes.",
+      "status": "baseline_liked_biological_revision_requested",
+      "currentUse": false,
+      "prompt": "character-development/supporting-refs-v001/D6.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Initial single-view reference direction; four role-related biological revisions requested."
+      }
+    },
+    {
+      "id": "support-A3-v002",
+      "candidateId": "A3",
+      "path": "generated/character-development/supporting-refs-v002/A3-scrap-appraiser-v002.png",
+      "role": "The Scrap Appraiser \u2014 An enlarged precision eye and tactile fingertip pads suggest an inherited or engineered ability to inspect and judge salvaged parts.",
+      "status": "user_accepted_reference_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-A3-v001",
+      "prompt": "character-development/supporting-refs-v002/A3.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Integrated subtle biological character direction; Doorpost retained. Single-view design direction, not a complete anatomical turnaround."
+      }
+    },
+    {
+      "id": "support-A6-v002",
+      "candidateId": "A6",
+      "path": "generated/character-development/supporting-refs-v002/A6-quiet-stallholder-v002.png",
+      "role": "The Quiet Stallholder \u2014 Two pairs of hands and wider peripheral vision let this quietly observant trader sort stock while monitoring the street.",
+      "status": "user_accepted_reference_direction",
+      "currentUse": false,
+      "parentReferenceId": "support-A6-v001",
+      "prompt": "character-development/supporting-refs-v002/A6.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Integrated subtle biological character direction; Doorpost retained. Single-view design direction, not a complete anatomical turnaround."
+      }
+    },
+    {
+      "id": "support-C4-v002",
+      "candidateId": "C4",
+      "path": "generated/character-development/supporting-refs-v002/C4-pressure-warden-v002.png",
+      "role": "The Pressure Warden \u2014 Broad contact pads and recessed ear membranes suggest sensitivity to mechanical vibration and pressure changes in gates and pipes.",
+      "status": "user_accepted_reference_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-C4-v001",
+      "prompt": "character-development/supporting-refs-v002/C4.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Integrated subtle biological character direction; Doorpost retained. Single-view design direction, not a complete anatomical turnaround."
+      }
+    },
+    {
+      "id": "support-D6-v002",
+      "candidateId": "D6",
+      "path": "generated/character-development/supporting-refs-v002/D6-port-messenger-v002.png",
+      "role": "The Port Messenger \u2014 Springy digitigrade lower legs and protective eye membranes make the courier's movement and wind exposure visibly specialized.",
+      "status": "user_accepted_reference_direction",
+      "currentUse": false,
+      "parentReferenceId": "support-D6-v001",
+      "prompt": "character-development/supporting-refs-v002/D6.prompt.txt",
+      "userReview": {
+        "date": "2026-10-31",
+        "scope": "Integrated subtle biological character direction; Doorpost retained. Single-view design direction, not a complete anatomical turnaround."
+      }
+    },
+    {
+      "id": "support-A1-v002",
+      "candidateId": "A1",
+      "path": "generated/character-development/supporting-refs-v003/A1-shade-stitcher-v002.png",
+      "role": "The Shade Stitcher \u2014 Paired opposable thumb tips let the stitcher tension cord and manipulate pegs with unusually secure precision.",
+      "status": "proposal_trait_unresolved",
+      "currentUse": false,
+      "parentReferenceId": "support-A1-v001",
+      "prompt": "character-development/supporting-refs-v003/A1.prompt.txt"
+    },
+    {
+      "id": "support-B4-v002",
+      "candidateId": "B4",
+      "path": "generated/character-development/supporting-refs-v003/B4-fast-coat-v002.png",
+      "role": "Fast Coat \u2014 A compact muscular balancing tail helps the enforcer change direction quickly while pursuing people through tight lanes.",
+      "status": "biological_proposal_for_review",
+      "currentUse": false,
+      "parentReferenceId": "support-B4-v001",
+      "prompt": "character-development/supporting-refs-v003/B4.prompt.txt"
+    },
+    {
+      "id": "support-B6-v002",
+      "candidateId": "B6",
+      "path": "generated/character-development/supporting-refs-v003/B6-valve-hand-v002.png",
+      "role": "Valve Hand \u2014 Dense organic contact skin and flexible mineral-like hand plates suit repeated work on hot, abrasive pump hardware.",
+      "status": "biological_proposal_for_review",
+      "currentUse": false,
+      "parentReferenceId": "support-B6-v001",
+      "prompt": "character-development/supporting-refs-v003/B6.prompt.txt"
+    },
+    {
+      "id": "support-C1-v002",
+      "candidateId": "C1",
+      "path": "generated/character-development/supporting-refs-v003/C1-pipe-fitter-v002.png",
+      "role": "The Pipe Fitter \u2014 Small protected breathing valves and a throat reserve suggest a lineage adapted to confined, humid pipework and brief breath-holding.",
+      "status": "biological_proposal_for_review",
+      "currentUse": false,
+      "parentReferenceId": "support-C1-v001",
+      "prompt": "character-development/supporting-refs-v003/C1.prompt.txt"
+    },
+    {
+      "id": "support-C6-v002",
+      "candidateId": "C6",
+      "path": "generated/character-development/supporting-refs-v003/C6-scrap-sweeper-v002.png",
+      "role": "The Scrap Sweeper \u2014 Short organic sensory filaments supplement the sweeper's listening and handling when locating and sorting metal scrap.",
+      "status": "biological_proposal_for_review",
+      "currentUse": false,
+      "parentReferenceId": "support-C6-v001",
+      "prompt": "character-development/supporting-refs-v003/C6.prompt.txt"
+    },
+    {
+      "id": "support-D2-v002",
+      "candidateId": "D2",
+      "path": "generated/character-development/supporting-refs-v003/D2-pass-clerk-v002.png",
+      "role": "The Pass Clerk \u2014 A small near-focus eye pair can follow permits while the main eyes keep attention on arrivals.",
+      "status": "biological_proposal_for_review",
+      "currentUse": false,
+      "parentReferenceId": "support-D2-v001",
+      "prompt": "character-development/supporting-refs-v003/D2.prompt.txt"
+    },
+    {
+      "id": "support-D3-v002",
+      "candidateId": "D3",
+      "path": "generated/character-development/supporting-refs-v003/D3-relay-electrician-v002.png",
+      "role": "The Relay Electrician \u2014 Specialized contact skin on the working fingers supports delicate circuit checks while tougher wrist skin protects repeated handling.",
+      "status": "biological_proposal_for_review",
+      "currentUse": false,
+      "parentReferenceId": "support-D3-v001",
+      "prompt": "character-development/supporting-refs-v003/D3.prompt.txt"
+    },
+    {
+      "id": "support-B5-v001",
+      "candidateId": "B5",
+      "path": "generated/character-development/supporting-refs-v003/B5-stillwater-v001-take02.png",
+      "role": "Stillwater \u2014 Wraparound eyes make the watcher's attention difficult to read while they monitor hands and reflections.",
+      "status": "proposal_adaptation_strength_caveat",
+      "currentUse": false,
+      "parentReferenceId": null,
+      "prompt": "character-development/supporting-refs-v003/B5.prompt.txt"
+    },
+    {
+      "id": "support-A1-v004",
+      "candidateId": "A1",
+      "path": "generated/character-development/supporting-refs-v004/A1-silhouette-v004.png",
+      "role": "The Shade Stitcher \u2014 silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-A1-v002",
+      "prompt": "character-development/supporting-refs-v004/A1.prompt.txt"
+    },
+    {
+      "id": "support-A6-v004",
+      "candidateId": "A6",
+      "path": "generated/character-development/supporting-refs-v004/A6-silhouette-v004.png",
+      "role": "The Quiet Stallholder \u2014 silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-A6-v002",
+      "prompt": "character-development/supporting-refs-v004/A6.prompt.txt"
+    },
+    {
+      "id": "support-C1-v004",
+      "candidateId": "C1",
+      "path": "generated/character-development/supporting-refs-v004/C1-silhouette-v004.png",
+      "role": "The Pipe Fitter \u2014 silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-C1-v002",
+      "prompt": "character-development/supporting-refs-v004/C1.prompt.txt"
+    },
+    {
+      "id": "support-C6-v004",
+      "candidateId": "C6",
+      "path": "generated/character-development/supporting-refs-v004/C6-silhouette-v004.png",
+      "role": "The Scrap Sweeper \u2014 silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-C6-v002",
+      "prompt": "character-development/supporting-refs-v004/C6.prompt.txt"
+    },
+    {
+      "id": "support-D3-v004",
+      "candidateId": "D3",
+      "path": "generated/character-development/supporting-refs-v004/D3-silhouette-v004.png",
+      "role": "The Relay Electrician \u2014 silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-D3-v002",
+      "prompt": "character-development/supporting-refs-v004/D3.prompt.txt"
+    },
+    {
+      "id": "support-D6-v004",
+      "candidateId": "D6",
+      "path": "generated/character-development/supporting-refs-v004/D6-silhouette-v004.png",
+      "role": "The Port Messenger \u2014 silhouette and clothing revision",
+      "status": "accepted_working_direction",
+      "currentUse": true,
+      "parentReferenceId": "support-D6-v002",
+      "prompt": "character-development/supporting-refs-v004/D6.prompt.txt"
+    },
+    {
+      "id": "core-threat-HARPER-v001",
+      "candidateId": "HARPER",
+      "path": "generated/character-development/core-threat-refs-v001/HARPER.png",
+      "role": "Harper",
+      "status": "proposal_pending_review",
+      "currentUse": false,
+      "prompt": "character-development/core-threat-refs-v001/HARPER.prompt.txt"
+    },
+    {
+      "id": "core-threat-TAFFY-v001",
+      "candidateId": "TAFFY",
+      "path": "generated/character-development/core-threat-refs-v001/TAFFY.png",
+      "role": "Taffy",
+      "status": "proposal_pending_review",
+      "currentUse": false,
+      "prompt": "character-development/core-threat-refs-v001/TAFFY.prompt.txt"
+    },
+    {
+      "id": "core-threat-BROKER-v001",
+      "candidateId": "BROKER",
+      "path": "generated/character-development/core-threat-refs-v001/BROKER.png",
+      "role": "Water broker + shoulder lookout",
+      "status": "proposal_pending_review",
+      "currentUse": false,
+      "prompt": "character-development/core-threat-refs-v001/BROKER.prompt.txt"
+    },
+    {
+      "id": "core-threat-E1-v001",
+      "candidateId": "E1",
+      "path": "generated/character-development/core-threat-refs-v001/E1.png",
+      "role": "Wedge",
+      "status": "proposal_pending_review",
+      "currentUse": false,
+      "prompt": "character-development/core-threat-refs-v001/E1.prompt.txt"
+    },
+    {
+      "id": "core-threat-E2-v001",
+      "candidateId": "E2",
+      "path": "generated/character-development/core-threat-refs-v001/E2.png",
+      "role": "Long Reach",
+      "status": "proposal_pending_review",
+      "currentUse": false,
+      "prompt": "character-development/core-threat-refs-v001/E2.prompt.txt"
+    }
+  ],
+  "production": {
+    "stage": "opening-and-continuity-review",
+    "style": "Painted graphic novel with controlled ink contours and tactile scavenged materials",
+    "timingStatus": "Import accepted EffectCraft lyric draft v04 without re-alignment; preserve the explicitly accepted with/me boundary at 87.04 master seconds",
+    "sceneStatus": "24 clean starter frames across six scenes through wanted broadcast; review in audio animatic before motion",
+    "worldBrief": "development-brief.txt",
+    "inheritedWorld": "../desert-colony/character-development/README.md",
+    "previousWorkflow": "../a-right-little-something/project.json",
+    "shotPolicy": "When shots are authored, shots/shotlist.json is the edit authority; derive frames from the imported timing grid and preserve work with shotplan --merge",
+    "renderer": "EffectCraft retained for the current timing animatic; renderer choice does not alter timing or character references",
+    "resolutionStatus": "1920x1080 planned for new picture work; existing accepted timing preview is 1280x720 and is not upscaled by this setup",
+    "environmentDevelopment": {
+      "currentPass": "first-run-v001",
+      "plan": "environment-development/first-run-v001/plan.json",
+      "review": "generated/environment-development/first-run-v001/index.html",
+      "scopeEndPhrase": "line-023",
+      "status": "user_accepted_setting_direction"
+    },
+    "supportingCast": {
+      "pool": "character-development/supporting-cast-pool-v001.json",
+      "notes": "character-development/supporting-cast-pool-v001.txt",
+      "status": "user_accepted_working_silhouette_direction",
+      "candidateCount": 24,
+      "suggestedShortlist": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "D1"
+      ],
+      "requestedReferenceIds": [
+        "A1",
+        "A3",
+        "A6",
+        "B1",
+        "B4",
+        "B6",
+        "C1",
+        "C4",
+        "C6",
+        "D2",
+        "D3",
+        "D6"
+      ],
+      "referenceCatalog": "character-development/supporting-refs-v001/references.json",
+      "review": "generated/character-development/supporting-refs-v004/review/cast-board.html",
+      "promptSet": "character-development/supporting-refs-v001/generation-prompts.txt",
+      "biologicalCatalog": "character-development/supporting-refs-v003/references.json",
+      "biologicalReview": "generated/character-development/supporting-refs-v003/review-board.html",
+      "comparison": "generated/character-development/supporting-refs-v003/comparison-board.html",
+      "currentByCandidate": {
+        "A1": "support-A1-v004",
+        "A3": "support-A3-v002",
+        "A6": "support-A6-v004",
+        "B1": "support-B1-v001",
+        "B4": "support-B4-v002",
+        "B5": "support-B5-v001",
+        "B6": "support-B6-v002",
+        "C1": "support-C1-v004",
+        "C4": "support-C4-v002",
+        "C6": "support-C6-v004",
+        "D2": "support-D2-v002",
+        "D3": "support-D3-v004",
+        "D6": "support-D6-v004"
+      },
+      "favoriteNewCandidateId": "B5",
+      "biologyDirection": "character-development/biology-direction.txt",
+      "unresolvedTraitIds": [
+        "A1"
+      ],
+      "silhouetteCatalog": "character-development/supporting-refs-v004/references.json",
+      "heightRegister": "character-development/supporting-refs-v004/height-register.json",
+      "silhouetteComparison": "generated/character-development/supporting-refs-v004/review/comparison-board.html",
+      "scaleLineup": "generated/character-development/supporting-refs-v004/cast-lineup.png",
+      "acceptanceNote": "User: Okay, this seems good. Retain anatomy caveats; not an all-angle final lock."
+    },
+    "nextWork": "Review opening altitude and adjacent escape cut with new shot navigation. Preserve geography for later ship-flight callback. Key-reader020/021 remains unresolved before motion; no Kling until requested.",
+    "coreThreatCast": {
+      "status": "proposals_pending_review",
+      "heightRegister": "character-development/core-threat-refs-v001/height-register.json",
+      "review": "generated/character-development/core-threat-refs-v001/review/cast-board.html",
+      "referenceCatalog": "character-development/core-threat-refs-v001/references.json"
+    },
+    "firstRunShots": {
+      "shotlist": "shots/shotlist.json",
+      "batch": "shots/opening-continuity-v006/batch.json",
+      "review": "generated/storyboard/first-run-v001/review/shot-board.html",
+      "animatic": "generated/storyboard/first-run-v001/first-run-planning-animatic.mp4",
+      "frames": 1956,
+      "fps": 24,
+      "status": "complete_starter_batch_pending_review",
+      "stagedShotImagesGenerated": true,
+      "sceneIndex": "shots/scene-index.json",
+      "workflow": "shots/video-reference-workflow.txt",
+      "starterBatch": "shots/opening-continuity-v006",
+      "cleanAnimatic": "generated/storyboard/first-run-starters-v001/first-run-clean-animatic-v001.mp4",
+      "annotationNotes": "shots/first-run-frame-notes.json",
+      "stagedShotImageCount": 27,
+      "starterReview": "generated/storyboard/opening-continuity-v006/review/starter-board.html",
+      "animaticLayout": {
+        "picture": "primary",
+        "footer": "Scene number and name | shot number and name",
+        "lyrics": "small, bottom center",
+        "counter": "master seconds and zero-based frame, bottom right",
+        "annotations": "http://127.0.0.1:8767/",
+        "navigation": "Previous/next shot buttons, scene/shot selector, [ and ] shortcuts, current-shot tracking during playback"
+      },
+      "referenceCatalog": "shots/opening-continuity-v006/references.json",
+      "reviewNotes": "shots/opening-continuity-v006/review-notes.txt",
+      "motionBlockers": [
+        "ta-020",
+        "ta-021"
+      ],
+      "distractionReview": "generated/storyboard/distraction-starters-v004/review/distraction-board.html",
+      "latestChangesReview": "generated/storyboard/opening-continuity-v006/review/changes-board.html",
+      "handAudit": "shots/hands-news-v005/hand-audit.json",
+      "poseAudit": "shots/opening-continuity-v006/adjacent-pose-audit.json"
+    },
+    "taffyIdentity": {
+      "authority": "generated/character-development/taffy-front-back-v006.png",
+      "direction": "Portly soft broad torso and belly, full cheeks and conspicuously large rounded projecting ears; user reaffirmed this direction. Do not inherit the slim silhouette from ta-002 v001.",
+      "latestShot": "generated/storyboard/first-run-starters-v003/ta-002.png",
+      "status": "user_accepted_v002_shot_direction"
+    }
+  }
+}

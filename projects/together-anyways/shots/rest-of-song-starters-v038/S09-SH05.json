@@ -1,0 +1,19 @@
+{
+  "shotId": "S09-SH05",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v038/S09-SH05.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: illustration-story. Only Harper and Taffy. Mediumwide cabin exploration: Harper standing securely with BOTH FEET flat on cabin floor, reaching ONE arm up to overhead ventilation inspectioncover latch within reach; other hand lightly braced on nearby wallrib. Taffy beside her raises ONE portable cagedtasklamp to shoulder/headheight so warm light catches latch, other hand at backpackstrap, watching helpfully. Clearly exactlytwoarmsperperson, natural stableposes. PortbenchLEFT lookingforward, starboardentryRIGHT, two empty pilotseats behind. All ceilingfixtures OFF, screensdark. No cartridge or repairmodule visible/held. Setup before latchopens, no cover alreadyremoved. Distinct upward gaze and bodypose frompreviouscockpitcloseup.\nKeep overhead cover in uppercenter image, humanaccessible height around2metres. Lamp clearly supported from Taffy's hand by handle, not floating. Both soles on floor. Outside doorway remains dark densely stacked junk under shadedmetaloverhang.",
+  "referenceImages": [
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/storyboard/first-run-starters-v003/ta-003.png",
+    "generated/world-development/port-ship-v034/cabin-grounded.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-0f4c2db1-91e9-441a-a67b-a7c077b057cd.png",
+  "attempts": 1,
+  "qa": {
+    "inspected": true,
+    "notes": "Overhead latch exploration, both actors feet supported, exactly two arms each, Taffy physically holds portable lamp; no cartridge, fixtures off. Different upward gaze."
+  }
+}

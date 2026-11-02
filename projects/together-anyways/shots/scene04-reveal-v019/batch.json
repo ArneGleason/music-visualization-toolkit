@@ -1,0 +1,30 @@
+{
+  "model": "Kling4.0",
+  "resolution": "1080p",
+  "status": "complete_selected_for_review",
+  "shots": [
+    {
+      "shotId": "ta-017",
+      "displayId": "S04-SH01",
+      "title": "Are you there?",
+      "starterImage": "generated/storyboard/story-inserts-v008/ta-017.png",
+      "seconds": 7,
+      "sourceInFrame": 36,
+      "editFrames": 71,
+      "prompt": "Animate the supplied first frame into one continuous 7-second shot. Taffy is the short boy on the upper-right landing. Harper is the red-haired woman below at left. Keep this clear separation and the existing blue-pipe and stair geography.\n\nOne physical credential exists in this scene, the horseshoe device already gripped by Taffy. Its sole owner and holder throughout this shot is Taffy. Harper is empty-handed throughout; her action is entirely a facial reaction while looking up at him.\n\n0\u20131s: Taffy moves his LEFT hand, still firmly gripping the credential, behind HIS OWN lower back. His body conceals it. Harper finds him and meets his eyes.\n1\u20132s: Taffy gives her a small teasing smile with that hand still concealed. Harper briefly knits her brows, silently asking whether he succeeded. Her hands remain relaxed and empty at her sides.\n2\u20133.5s: Taffy brings that SAME LEFT hand around his own hip and lifts the held credential to his own waist where she can see it. He stays on the upper landing, showing his success privately. Keep the device attached to his natural secure grip throughout this single arm movement.\n3.5\u20135s: Harper looks UP at the credential IN TAFFY'S HAND, then meets his eyes and smiles with relief. Taffy answers with quiet pride, still holding it close to his own torso in the same left hand.\n5\u20137s: continue the shared relieved look, Taffy retaining the credential. Restrained camera drift keeps both characters and his hand readable.\n\nNo hand transfer or passing between characters. No pocket retrieval. Preserve the existing asymmetric metallic horseshoe casing, ivory grip and red inset. Natural real-time acting, not slow motion. The planned musical cut uses source1.5\u20134.458s; keep recognition, reveal and relief legible there, with moving editorial handles either side. Music replaces audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "status": "motion_review_candidate",
+      "credits": 105,
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945866254999502898&materialId=325512088314453",
+      "localVideo": "generated/kling-scene04-v019/ta-017.mp4",
+      "reviewNote": "Sampled review: one credential remains with Taffy; Harper hands empty. Conceal/reveal present, followed by relieved reaction. Source36 selected; hand change across next cut accepted by user. Playback review pending.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      }
+    }
+  ],
+  "totalCredits": 105
+}

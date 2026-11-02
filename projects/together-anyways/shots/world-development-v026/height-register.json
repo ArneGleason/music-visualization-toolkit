@@ -1,0 +1,45 @@
+{
+  "title": "TOGETHER ANYWAYS / PORT CAST / HEIGHT PROPOSALS v026",
+  "status": "proposals_pending_review",
+  "characters": [
+    {
+      "id": "SCR",
+      "name": "The Alien Scrapper",
+      "image": "generated/world-development/port-ship-v026/scrapper.png",
+      "heightCm": 164,
+      "crownY": 0.014973958333333334,
+      "groundY": 0.9661458333333334,
+      "poseFactor": 0.98,
+      "revised": false,
+      "newReference": true,
+      "heightStatus": "proposed_pending_review",
+      "calibration": "Manual approximate crown/sole registration; excludes helmets and lateral sensory folds."
+    },
+    {
+      "id": "GUA",
+      "name": "Yard Guard A",
+      "image": "generated/world-development/port-ship-v026/guard-a.png",
+      "heightCm": 186,
+      "crownY": 0.024,
+      "groundY": 0.972,
+      "poseFactor": 0.99,
+      "revised": false,
+      "newReference": true,
+      "heightStatus": "proposed_pending_review",
+      "calibration": "Manual approximate crown/sole registration; excludes helmets and lateral sensory folds."
+    },
+    {
+      "id": "GUB",
+      "name": "Yard Guard B",
+      "image": "generated/world-development/port-ship-v026/guard-b.png",
+      "heightCm": 178,
+      "crownY": 0.026,
+      "groundY": 0.972,
+      "poseFactor": 0.99,
+      "revised": false,
+      "newReference": true,
+      "heightStatus": "proposed_pending_review",
+      "calibration": "Manual approximate crown/sole registration; excludes helmets and lateral sensory folds."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "fps": 24,
+  "shots": 70,
+  "retained_original_shots": 30,
+  "integrated_starters": 40,
+  "total_frames": 5190,
+  "duration_seconds": 216.25,
+  "original_shot_objects_unchanged": true,
+  "contiguous": true,
+  "starter_placement": "edit_startFrame",
+  "source_handles_each_side": 24,
+  "selected_taffy": "v040",
+  "unit_tests": "4 animatic media +6 frame review passed",
+  "render_status": "complete",
+  "render_video_frames": 5190,
+  "render_video_seconds": 216.25,
+  "render_audio_seconds": 216.239021,
+  "visual_checks": [
+    "S11SH05 smaller Taffy, scene/shot labels and lyric at152s",
+    "S14SH04 ending statue at215s"
+  ],
+  "player_verified": {
+    "count": 5190,
+    "shots": 70,
+    "revision": "1793565128600600818"
+  }
+}

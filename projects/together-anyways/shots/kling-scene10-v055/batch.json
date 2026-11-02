@@ -1,0 +1,109 @@
+{
+  "version": "v055",
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "status": "complete_selected_for_review",
+  "shots": [
+    {
+      "shotId": "S10-SH01",
+      "displayId": "S10-SH01",
+      "starter": "generated/storyboard/scene10-crush-continuity-v053/S10-SH01.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 7-second shot at natural real-time speed.\n\nBegin exactly from the supplied first frame: the small ivory cartridge is already lodged diagonally inside the open mechanism, left end low and hollow right end raised. The fall is over. Harper and Taffy pull their hands fully clear. Taffy tries the nearby release control with a quick confident press. The existing heavy right-hand jaw slides LEFT along its rails and visibly compresses the trapped cartridge: its ivory casing buckles and splits, brass bands deform, a few small fragments fall inside the channel and the amber indicator dies. Show real mechanical crushing, not merely lights or smoke. No explosion. Both hands stay above and outside the opening. Taffy jerks back in guilty surprise; Harper recoils, looks at him and briefly presses her empty hand to her forehead in exasperated disbelief. Keep the crushing visible in the lower half while both reactions remain readable above. Almost locked wide camera. Finish crushing by source3.5s and show their reactions through5s. No change of cartridge size, location or shape before pressure starts.\n\nThe musical cut is 97 frames at24fps (4.042s). Plan the main action within source1.000\u20135.042s, with moving lead-in and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 7,
+      "credits": 105,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946060146898255919&materialId=325558315304852",
+      "reviewNote": "Release press, jaw movement, visible buckling around source4.3s and Harper forehead reaction retained.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      },
+      "localVideo": "generated/kling-scene10-v055/S10-SH01.mp4"
+    },
+    {
+      "shotId": "S10-SH02",
+      "displayId": "S10-SH02",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S10-SH02.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 7-second shot at natural real-time speed.\n\nThe ordinary human mechanic continues walking AWAY from the donor vehicle, pushing the existing cart down the sunlit lane. He does not turn back. Harper and Taffy remain low behind the left crates, watching him leave. Harper glances at the exposed blue module on the vehicle, gives Taffy a discreet chin cue and whispers a short practical plan; he looks from the worker to the module and nods. As the worker clears the bay they rise into a crouch and begin slipping toward the vehicle on the RIGHT, alert and opportunistic. A slow short lateral camera move toward the donor bay shifts attention from concealment to their target while keeping the departing worker visible. No theft yet. No scrapper or confrontation. Keep the donor vehicle stationary and panel open. Main action source1\u20135.25s; continue their cautious approach afterward.\n\nThe musical cut is 102 frames at24fps (4.250s). Plan the main action within source1.000\u20135.250s, with moving lead-in and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 7,
+      "credits": 105,
+      "sourceInFrame": 42,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946060422753431638&materialId=325558381316657",
+      "reviewNote": "Later source in includes mechanic departure, whispered decision and beginning of crouched move; 25-frame tail retained.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      },
+      "localVideo": "generated/kling-scene10-v055/S10-SH02.mp4"
+    },
+    {
+      "shotId": "S10-SH03",
+      "displayId": "S10-SH03",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S10-SH03.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 7-second shot at natural real-time speed.\n\nAt the same exposed donor bay, Harper uses her existing powered driver to release the remaining fastener while Taffy supports the blue rectangular module with BOTH hands. They are quick and deliberate. Harper briefly checks the departed worker\u2019s direction, returns to the fastening, finishes loosening it and lifts the driver safely clear. Taffy then pulls the SAME module straight out from its mounts toward his chest, keeping a secure two-handed grip and leaning back under its weight. Harper steadies one edge with her free hand. A quick satisfied glance: they have what they need. Fixed close camera keeps hands, mount and faces visible. Extraction and reaction during source1\u20135.3s. No new component, duplication, dropped object or reinstallation.\n\nThe musical cut is 103 frames at24fps (4.292s). Plan the main action within source1.000\u20135.292s, with moving lead-in and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 7,
+      "credits": 105,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946060807656325157&materialId=325558473304443",
+      "reviewNote": "Fastener release and secure two-handed extraction complete within edit.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      },
+      "localVideo": "generated/kling-scene10-v055/S10-SH03.mp4"
+    },
+    {
+      "shotId": "S10-SH04",
+      "displayId": "S10-SH04",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S10-SH04.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 7-second shot at natural real-time speed.\n\nBack inside their dark ship, Taffy supports the existing blue rectangular substitute module with both hands while Harper aligns the existing adapter cable and connector. She pushes the connector firmly into the module\u2019s matching left socket; then together they lower the module a short distance into the existing mounting cradle immediately below it. He keeps its weight steady while she seats the connection and closes the retaining latch. Their concentration eases into a small relieved smile when it holds. A modest lateral slide and slight downward camera move favors their hands and the original cradle while retaining both faces. Installation and reaction occur during source1\u20135.25s. Preserve the single module\u2019s blue casing, brass bands, scale and connector geometry. Do not invent a different compartment, make it vanish into the hull, or power up the whole ship yet.\n\nThe musical cut is 102 frames at24fps (4.250s). Plan the main action within source1.000\u20135.250s, with moving lead-in and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 7,
+      "credits": 105,
+      "sourceInFrame": 42,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946060903366144042&materialId=325558496315255",
+      "reviewNote": "Later source in retains connector engagement, lowering into cradle and closing retaining cover.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      },
+      "localVideo": "generated/kling-scene10-v055/S10-SH04.mp4"
+    },
+    {
+      "shotId": "S10-SH05",
+      "displayId": "S10-SH05",
+      "starter": "generated/storyboard/rest-of-song-starters-v036/S10-SH05.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 9-second shot at natural real-time speed.\n\nHarper is already seated at the left cockpit controls; Taffy stands behind the right seat. She turns forward from her supplied profile, studies the controls and deliberately pushes the existing power lever. Across source1\u20134s the existing dark dashboard displays and indicator clusters wake in a staggered sequence, briefly flicker, then stabilize. A gentle uneven vibration travels through loose fittings and their bodies as the old ship comes alive. Harper leans in with an increasingly pleased smile, testing one control; Taffy straightens with excited relief and points once toward the working displays, then rests his hands on the seat. From source3\u20137.3s the camera slowly dollies forward between the seats, keeping Harper\u2019s profile and Taffy\u2019s side/rear silhouette and revealing more of the awakened dashboard and windshield. No turn back toward camera, no recreated reverse face. The ship remains parked on the ground; outside yard and machinery remain in place. The ant scrapper outside the right doorway stays in his existing position and passes naturally out of camera framing as we advance. No takeoff, travel, arrest or alarm in this shot. Continue the hopeful inspection through the tail.\n\nThe musical cut is 153 frames at24fps (6.375s). Plan the main action within source1.000\u20137.375s, with moving lead-in and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 9,
+      "credits": 135,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946060995612114967&materialId=325558518313251",
+      "reviewNote": "Dashboard wakes and forward camera reveals controls; ship remains grounded. Subtle startup, no premature takeoff.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "9.041667",
+        "nb_frames": "217"
+      },
+      "localVideo": "generated/kling-scene10-v055/S10-SH05.mp4"
+    }
+  ],
+  "creditsSpent": 555
+}

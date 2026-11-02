@@ -1,0 +1,25 @@
+{
+  "changedShots": [
+    "S08-SH01",
+    "S08-SH02"
+  ],
+  "shotCount": 70,
+  "totalFrames": 5190,
+  "timingUnchanged": true,
+  "otherShotsUnchanged": true,
+  "promptLockIdentical": true,
+  "credits": 180,
+  "sourceInFrames": [
+    36,
+    24
+  ],
+  "sourceTailFrames": [
+    26,
+    48
+  ],
+  "render": {
+    "r_frame_rate": "24/1",
+    "duration": "216.250000",
+    "nb_frames": "5190"
+  }
+}

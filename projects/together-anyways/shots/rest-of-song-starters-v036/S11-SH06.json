@@ -1,0 +1,20 @@
+{
+  "shotId": "S11-SH06",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v036/S11-SH06.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: illustration-story. Only Harper and Taffy in cabin, no scrapper/guards. Over Harper's shoulder at cockpit chart display, Taffy's large-eared face in threequarter beyond her at frame right. Harper index finger hovers over a luminous simple circular port schematic on physical monitor, linking TWO square terminals to an ochre clearance machine icon and rim tower. Amber path, green power indicators, alien glyphs only. She is about to trace the link, focused dawning idea; Taffy watches attentively. Cabin still grounded dark salvage outside, warmed lamps, no empty third pilot seat. Tight composition shifted viewpoint from previous workbench.",
+  "referenceImages": [
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/storyboard/first-run-starters-v003/ta-003.png",
+    "generated/world-development/port-ship-v034/cabin-forward.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-e5f1fe53-e4ab-49ae-99b5-8621b663ec3e.png",
+  "attempts": 1,
+  "qa": {
+    "inspected": true,
+    "notes": "Simple ring map/two terminals, pointing hand natural, Taffy attentive. Planning occurs before exit; no premature sabotage success.",
+    "starterIntent": "Setup before primary shot action; preserve forward motion in video direction."
+  }
+}

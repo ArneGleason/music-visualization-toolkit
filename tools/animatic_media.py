@@ -55,11 +55,30 @@ class Artwork:
     def at(self, shot, master_frame):
         for before,after in zip(self.shots,self.shots[1:]):
             tr = after.get('transitionIn',{})
-            if tr.get('type') != 'crossfade':
+            if tr.get('type') not in ('crossfade', 'soft_wipe'):
                 continue
             count = tr['frames']
-            start = after['startFrame']-count//2
+            alignment = tr.get('alignment', 'center')
+            if alignment not in ('center', 'start'):
+                raise ValueError(f"Unsupported transition alignment: {alignment}")
+            start = after['startFrame'] - (count//2 if alignment == 'center' else 0)
             if start <= master_frame < start+count:
                 alpha = (master_frame-start)/max(1,count-1)
-                return Image.blend(self.frame(before,master_frame),self.frame(after,master_frame),alpha)
+                outgoing = self.frame(before,master_frame)
+                incoming = self.frame(after,master_frame)
+                if tr['type'] == 'crossfade':
+                    return Image.blend(outgoing, incoming, alpha)
+                direction = tr.get('direction', 'left_to_right')
+                if direction not in ('left_to_right', 'right_to_left'):
+                    raise ValueError(f"Unsupported wipe direction: {direction}")
+                width, height = incoming.size
+                feather = max(1, width * tr.get('featherFraction', .1))
+                edge = -feather/2 + alpha * (width + feather)
+                values = [round(255 * max(0, min(1, (edge-x)/feather + .5)))
+                          for x in range(width)]
+                if direction == 'right_to_left':
+                    values.reverse()
+                mask = Image.new('L', (width, 1))
+                mask.putdata(values)
+                return Image.composite(incoming, outgoing, mask.resize((width, height)))
         return self.frame(shot,master_frame)

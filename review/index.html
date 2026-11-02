@@ -18,6 +18,12 @@
 <div class="bar" id="shot-timing" aria-label="Shot timing" hidden>
 <span class="counter" id="shot-duration"></span><span class="counter" id="source-start"></span>
 </div>
+<div class="bar shot-nav" id="lyric-nav" hidden aria-label="Lyric and instrumental navigation">
+<button id="previous-lyric" aria-label="Previous lyric">← Section</button>
+<label><select id="lyric-select" aria-label="Jump to lyric line"></select></label>
+<button id="next-lyric" aria-label="Next lyric">Section →</button>
+</div>
+<div class="help" id="lyric-context"></div>
 <div class="bar">
 <button id="back" aria-label="Previous frame">← Frame</button><button id="play">Play</button><button id="next" aria-label="Next frame">Frame →</button>
 <span class="counter" id="master"></span><span class="counter" id="preview"></span><span class="counter" id="time"></span>

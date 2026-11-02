@@ -1,0 +1,20 @@
+{
+  "model": "Kling4.0",
+  "resolution": "1080p",
+  "status": "superseded_while_generating",
+  "shots": [
+    {
+      "shotId": "S07-SH01",
+      "displayId": "S07-SH01",
+      "starterImage": "generated/kling-scene07-v045/S07-SH01.png",
+      "seconds": 5,
+      "sourceInFrame": 24,
+      "editFrames": 65,
+      "prompt": "The supplied first frame is the starting composition. One continuous 5-second 16:9 shot at natural walking speed.\n\nHarper already looks back over her left shoulder toward Taffy in this exact starter frame, finishing a quiet reassuring remark while both keep walking away from camera toward the distant port. Preserve the visible face exactly as supplied. During source 0\u20131.2s she finishes that brief remark and smoothly turns her head FORWARD toward the entrance, bringing her head into alignment with her walking body. This is her only head turn. From then until the end she stays facing away from camera toward the port, and neither character looks back again. Taffy stays facing along their route throughout, following her with purposeful cautious steps. During source1\u20133.7s they make clear forward progress alongside the existing crates, walking several paces toward the distant entrance. Harper leads with quiet confidence, Taffy follows closely and holds his sack strap securely. Keep the rear-view camera nearly steady with a gentle forward drift, allowing the pair to become smaller as they walk away. The distant cream-and-blue guard remains occupied facing into the port, unaware. Preserve the complete lane, crates, overhead pipes, doorway scale and parked background ship. They remain short of the guarded crossing, continuing along the lane through the tail. No additional conversation, backward glance or reveal of either face after Harper has turned forward.\n\nThe musical edit uses source1.000\u20133.708s,65frames at24fps. The initial face and single turn are lead-in, followed by sustained forward walking within the edit. Keep at least one second of natural continued walking after the edit for the tail. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "status": "rejected_starter_after_submission",
+      "credits": 75,
+      "reviewNote": "User rejected extreme neck rotation. Do not select result; return to original v038 starter with forward-facing walk only."
+    }
+  ],
+  "creditsCommitted": 75
+}

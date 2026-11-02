@@ -1,0 +1,20 @@
+{
+  "shotId": "S12-SH04",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v037/S12-SH04.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: illustration-story. Create revised starter from first image terminalB geography. ONLY Harper and Taffy. Harper actively collaborates with terminal, focused at screen, left profile/over shoulder standing at ivory pedestal teal screen three buttons. Screen shows tiny amber six-node helper icon at upper right matching second reference, orderly GREEN suggested glyph route through amber circular port/two square nodes, trigger being armed but not yet completed. Taffy MUST NOT be beside powerplug: move him into middle-right background beyond terminal behind stacked cases, standing as LOOKOUT facing the service lane away from Harper, one hand on case edge and other on backpack strap. Orange power cable remains completely connected, unattended and without any hand near it. Last references direct Harper and Taffy identities plus style. Preserve short hair, portly boy. Frame prior to final confirm action, cinematic16:9.",
+  "referenceImages": [
+    "generated/storyboard/rest-of-song-starters-v036/S12-SH04.png",
+    "generated/storyboard/rest-of-song-starters-v037/S12-SH03.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/storyboard/first-run-starters-v003/ta-003.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-83d37272-fc8b-444c-a15e-16553f8df716.png",
+  "attempts": 1,
+  "qa": {
+    "inspected": true,
+    "notes": "Taffy separated to lookout background, hands on case/backpack not cable. Harper collaborating with screen, cable connected unattended. Same helper and glyph route."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "shotId": "S11-SH05",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v037/S11-SH05.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: illustration-story. Camera medium-wide from aft toward forward cockpit of exact cabinreference image2. Port workbench LEFT, starboardhatch RIGHT. ONLY Harper/Taffy. Taffy kneels by LEFT port bench rectangular machinery bay beneath tabletop, now securing smaller teal two-band substitute INSIDE fixed open bay (not projecting drawer); module supported by two Ubrackets at bottom of cavity, braided right-angle adapter plugged into socket at bay RIGHT wall. Image1 is precise bay/part authority, evolve installation to connected. Taffy hands naturally gripping a loose strap to cinch module, one action. Harper stands by right-side hatch empty-handed, one hand on jamb naturally, looking cautiously OUT at escape route. No cushion, bag in arms, or comfort objects; her normal shoulder satchel can remain on hip. Powered warm cabin lamps; dark salvage machinery immediately outside all windows. Two cockpitseats forward background. Preserve the exact bay ABOVE lower service-closure mechanism not an unrelated wall unit. Setup before Taffy finishes securing, Harper purposeful not smiling at camera.\nCRITICAL object correction: ONE compact rectangular teal module, its long axis HORIZONTAL LEFT TO RIGHT, width about22cm (~two Taffy hand lengths), height8cm. NEVER tall upright suitcase, doubled or vertical. Module lies horizontally in its Ubrackets in middle of bay with free space above/below. Exactly TWO copper collar bands wrap its short axis. Cable exits RIGHT end into rectangular socket at RIGHT wall of bay. Securing strap over horizontal top. Keep Harper emptyhands onRIGHT, benchLEFT, cabinpowered. Do not enlarge module to fill bay.",
+  "referenceImages": [
+    "generated/storyboard/rest-of-song-starters-v037/S10-SH04.png",
+    "generated/world-development/port-ship-v034/cabin-forward.png",
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/storyboard/first-run-starters-v003/ta-003.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-1d3a4502-bce8-42a0-9a4c-1570f4406313.png",
+  "attempts": 2,
+  "qa": {
+    "inspected": true,
+    "notes": "Second attempt corrected vertical oversized module to compact horizontal teal module in fixed left port bench bay with right braided adapter. Taffy secures strap, Harper empty hands checking route. First attempt preserved. No projecting drawer."
+  }
+}

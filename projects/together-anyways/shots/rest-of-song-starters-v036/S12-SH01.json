@@ -1,0 +1,21 @@
+{
+  "shotId": "S12-SH01",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v036/S12-SH01.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: illustration-story. Only Harper, Taffy and one distant guard. Medium two-shot at terminal A edge of shaded salvage walkway. Terminal repeatable design: chest-high ivory industrial pedestal bolted to wall rib, recessed teal rectangular screen, three chunky circular buttons beneath, orange heavy power cable plugged into lower side. Screen circular port ring with two square terminals, amber paths and green power dot, alien glyphs. Harper at left front of terminal leans to inspect, hand poised to enter code; Taffy right of her glances over shoulder at distant cream/cobalt female guard walking in sunny central court. Deep scrap and gallery shadows around partners; upper rim tower small in distance. This is covert hacking, not confrontation; guard does not see them.",
+  "referenceImages": [
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/storyboard/first-run-starters-v003/ta-003.png",
+    "generated/world-development/port-ship-v028/port-overview.png",
+    "generated/world-development/port-ship-v028/guard-a.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-26097500-01e5-447b-955b-70c9bd167592.png",
+  "attempts": 1,
+  "qa": {
+    "inspected": true,
+    "notes": "Terminal A established at shaded walkway edge, actors hidden from one distant guard. Model used cloth shade detail from style reference atop gallery; acceptable location variation.",
+    "starterIntent": "Setup before primary shot action; preserve forward motion in video direction."
+  }
+}

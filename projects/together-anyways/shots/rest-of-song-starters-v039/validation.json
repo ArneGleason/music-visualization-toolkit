@@ -1,0 +1,23 @@
+{
+  "shots": 40,
+  "new_or_revised_images": 6,
+  "retained_images": 34,
+  "total_frames": 3234,
+  "scene_boundaries_unchanged": true,
+  "new_grid_boundaries": {
+    "S09SH04": {
+      "frame": 2474,
+      "position": "39.3",
+      "seconds": 103.097663
+    },
+    "S11SH03B": {
+      "frame": 3500,
+      "position": "54.3",
+      "seconds": 145.819212
+    }
+  },
+  "all_images_present_landscape": true,
+  "shared_image_lock_identical": true,
+  "active_edit_unchanged": true,
+  "kling_submissions": 0
+}

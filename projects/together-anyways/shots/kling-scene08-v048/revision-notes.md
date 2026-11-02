@@ -1,0 +1,3 @@
+User found disappearing lower scrapper arm in v047 Shot2. Retain starter and Shot1; retry with both lower hands distinctly resting on belt and brief welcome. Camera follows pair forward toward ship, allowing scrapper to leave left edge naturally. No new stills. Existing121frame cut and source24 initial selection retained.
+
+Result downloaded and sampled: four arms retained before scrapper exits left with camera movement. Select source48 (2.000s) rather than initial24 to shorten welcome and emphasize departure/follow. Existing121frame musical slot remains; source193frames leaves24frame tail. Shot1 remains v047/source36. Retry120credits; cumulative Scene8 spend300credits. User playback review pending.

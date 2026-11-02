@@ -1,0 +1,193 @@
+{
+  "version": "v058",
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "status": "motion_selected_for_review",
+  "estimatedCredits": 855,
+  "shots": [
+    {
+      "shotId": "S13-SH01",
+      "displayId": "S13-SH01",
+      "starter": "generated/storyboard/rest-of-song-starters-v036/S13-SH01.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 8-second shot at natural real-time speed.\n\nThe battered ivory-and-teal ship urgently lurches forward out of the dark salvage recess and lifts clear of the ground. Its side vector jets kick dust and loose scraps outward; one small loose cover shakes free. During source1\u20136.5s it gains several metres of height while accelerating forward, rocking once as the thrust steadies. Low tracking camera travels alongside and tilts upward with the rising ship, keeping the entire airframe readable and the port wall receding behind it. A determined but rough getaway, with real weight and forward progress. Preserve the exact broad hull, short wings, one tail fin, recessed fixed nose bowl and exposed machinery; only minor loose scrap detaches.\n\nThe musical cut is 132 frames at24fps (5.500s). Main action belongs within source1.000\u20136.500s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 8,
+      "credits": 120,
+      "sourceInFrame": 36,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946080425238855722&materialId=325563150301636",
+      "reviewNote": "Forward tracking takeoff, dust and loose panel release. Later source1.5s trim carries the lift higher before the cut; airframe remains recognizable.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "8.041667",
+        "nb_frames": "193"
+      },
+      "localVideo": "generated/kling-ending-v058/S13-SH01.mp4"
+    },
+    {
+      "shotId": "S13-SH02",
+      "displayId": "S13-SH02",
+      "starter": "generated/storyboard/rest-of-song-starters-v036/S13-SH02.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 9-second shot at natural real-time speed.\n\nThe same battered ship climbs decisively above the city. Track up and forward alongside its rear quarter, keeping the vessel at a readable size as the port and roads sink away below. An intermittent dark exhaust puff and brief shudder interrupt the ascent, then it recovers and keeps gaining height throughout source1\u20137s. One tiny loose fragment drops away. Engines remain operating. The flight feels strained but hopeful, with sustained travel rather than hovering. Preserve the exact supplied aircraft geometry and desert settlement geography.\n\nThe musical cut is 146 frames at24fps (6.083s). Main action belongs within source1.000\u20137.083s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 9,
+      "credits": 135,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946080541743398934&materialId=325563178531433",
+      "reviewNote": "Sustained climb and lateral follow, exhaust puff then a loose underside panel falls away. Panel is larger than the tiny fragment requested; retain for first-pass review.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "9.041667",
+        "nb_frames": "217"
+      },
+      "localVideo": "generated/kling-ending-v058/S13-SH02.mp4"
+    },
+    {
+      "shotId": "S13-SH03",
+      "displayId": "S13-SH03",
+      "starter": "generated/storyboard/rest-of-song-starters-v036/S13-SH03.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 6-second shot at natural real-time speed.\n\nA quiet moment of apparent success: the small ship travels steadily forward above the vast desert settlement, roads and mine. The climb levels into smooth confident flight during source1\u20134.6s. A gentle wide aerial follow lets the landscape glide beneath while keeping the ship small and showing the distance already gained. Clear air, steadier motion, a sense of relief and open possibility. Preserve the supplied airframe silhouette and opening-shot landscape. Remain in this high wide composition.\n\nThe musical cut is 86 frames at24fps (3.583s). Main action belongs within source1.000\u20134.583s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 6,
+      "credits": 90,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946080631695097892&materialId=325563199307853",
+      "reviewNote": "Steady wide flight and landscape travel provide a pause before failure. Airframe silhouette simplifies during the side-on move; flag geometry consistency for the second pass.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "6.041667",
+        "nb_frames": "145"
+      },
+      "localVideo": "generated/kling-ending-v058/S13-SH03.mp4"
+    },
+    {
+      "shotId": "S13-SH04",
+      "displayId": "S13-SH04",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S13-SH04.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 6-second shot at natural real-time speed.\n\nIn the existing cabin, Taffy kneels at the LEFT open repair housing and turns back to concentrate on the installed substitute module. He grips an existing control and urgently tries to steady its flickering indicator. Around source2s the module coughs a concentrated burst of grey smoke into the aisle and its lamps go dark. He flinches back, then looks urgently toward Harper. Harper sees the failure over her shoulder, her concern sharpens, and she pivots back to the cockpit controls to act immediately. A short controlled push toward the failed housing and their reactions keeps BOTH characters visible; cabin shudders briefly. Main effort, failure and reaction occur during source1\u20134.6s. Preserve the module location and size, cabin proportions, faces and clothing.\n\nThe musical cut is 86 frames at24fps (3.583s). Main action belongs within source1.000\u20134.583s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 6,
+      "credits": 90,
+      "sourceInFrame": 34,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946080708731863060&materialId=325563218304230",
+      "reviewNote": "Taffy works the housing, smoke appears around2.5s, then alarm and Harper turns back to controls. Smoke is subtler than requested; later1.417s trim includes emergency response.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "6.041667",
+        "nb_frames": "145"
+      },
+      "localVideo": "generated/kling-ending-v058/S13-SH04.mp4"
+    },
+    {
+      "shotId": "S13-SH05",
+      "displayId": "S13-SH05",
+      "starter": "generated/storyboard/rest-of-song-starters-v036/S13-SH05.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 5-second shot at natural real-time speed.\n\nThe ship has lost thrust and is gliding steeply downward toward the mine region with strong forward momentum. Its nose lowers slightly and one intermittent smoke trail streams rearward. Track beside and slightly above it as the mine and ground grow closer during source1\u20133.8s. Maintain a coherent continuous descending trajectory; the ship is still intact and airborne for this entire shot. Preserve the exact airframe and supplied mine geography. The camera follows the weight and speed of the descent rather than making an orbit.\n\nThe musical cut is 68 frames at24fps (2.833s). Main action belongs within source1.000\u20133.833s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 5,
+      "credits": 75,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946080767405338716&materialId=325563232521241",
+      "reviewNote": "Coherent nose-down flight over mine with trailing smoke. Descent is measured rather than a violent fall; review urgency in sequence.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667",
+        "nb_frames": "121"
+      },
+      "localVideo": "generated/kling-ending-v058/S13-SH05.mp4"
+    },
+    {
+      "shotId": "S14-SH01",
+      "displayId": "S14-SH01",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S14-SH01.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 5-second shot at natural real-time speed.\n\nThe airborne ship descends forward, banks only slightly and levels just enough for a hard ground contact around source1.5s. It strikes the dusty ground and keeps sliding fast forward for the rest of the shot, throwing a low broad dust wake and scattering small stones. Low lateral camera tracks the ship, showing substantial forward travel during source1\u20133.9s. Preserve the whole recognizable aircraft, nose shape and mine surroundings. This shot ends while it is STILL SKIDDING; do not show a final stop, cave breakthrough or final impact. Weight, momentum and roughness at natural speed.\n\nThe musical cut is 69 frames at24fps (2.875s). Main action belongs within source1.000\u20133.875s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 5,
+      "credits": 75,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946080859793277010&materialId=325563254316239",
+      "reviewNote": "Ground contact around1s, bounce/settle and sustained forward slide. No final collision shown; default source1s begins at touchdown.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667",
+        "nb_frames": "121"
+      },
+      "localVideo": "generated/kling-ending-v058/S14-SH01.mp4"
+    },
+    {
+      "shotId": "S14-SH02",
+      "displayId": "S14-SH02",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S14-SH02.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 6-second shot at natural real-time speed.\n\nInside the dusty stationary cabin, Taffy is slumped with eyes closed. Harper leans toward him with real fear, gently but urgently shakes his shoulder once, and searches his face. During source2\u20133s his eyes open; he lifts his head, blinks and looks at her, giving a small reassuring response. Her tense expression visibly softens with relief and she keeps a steadying hand on his shoulder. Nearly fixed intimate two-shot with slight settling camera vibration at the start, dust drifting through the existing light. Keep both faces and the cabin layout coherent. Complete the waking and relieved reaction by source4.5s.\n\nThe musical cut is 86 frames at24fps (3.583s). Main action belongs within source1.000\u20134.583s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 6,
+      "credits": 90,
+      "sourceInFrame": 34,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946080979603570727&materialId=325563282524829",
+      "reviewNote": "Harper rouses Taffy; he looks up around3s and both visibly relax. Later1.417s trim includes relieved response.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "6.041667",
+        "nb_frames": "145"
+      },
+      "localVideo": "generated/kling-ending-v058/S14-SH02.mp4"
+    },
+    {
+      "shotId": "S14-SH03",
+      "displayId": "S14-SH03",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S14-SH03.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 6-second shot at natural real-time speed.\n\nHarper and Taffy take several cautious steps away from the resting wreck toward the immense underground entrance. They look upward ahead in shared wonder, staying close together; Taffy sweeps his flashlight along the path. A slow purposeful crane up and slight pull back reveals more of the towering carved city and ancestor statue while retaining the damaged ship at the left as a scale anchor. During source1\u20134.6s their urgent escape gives way to awe and caution. Preserve the supplied wreck orientation, side entry door, architecture and statue. The wreck remains still, lights mostly dormant.\n\nThe musical cut is 86 frames at24fps (3.583s). Main action belongs within source1.000\u20134.583s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 6,
+      "credits": 90,
+      "sourceInFrame": 24,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946081107069124699&materialId=325563313523229",
+      "reviewNote": "Pair walk away from wreck as camera cranes up/back to reveal the tall underground entrance. Wreck stays fixed.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "6.041667",
+        "nb_frames": "145"
+      },
+      "localVideo": "generated/kling-ending-v058/S14-SH03.mp4"
+    },
+    {
+      "shotId": "S14-SH04",
+      "displayId": "S14-SH04",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S14-SH04.png",
+      "prompt": "Animate the supplied FIRST frame as one continuous 6-second shot at natural real-time speed.\n\nThe tiny pair approach the base of the monumental four-armed beaked-ant statue. Taffy raises his existing flashlight beam from the base up the torso toward the face. As the beam reaches the upper carving around source2.5s, a few dormant lights wake sequentially around the statue and then along the nearby doorway grooves, responding to their presence. Harper stops and looks up; Taffy freezes with the beam raised, both curious and suddenly alert. Slow upward camera tilt follows the beam while retaining the pair near the bottom of frame. Main activation by source4.2s, then hold the unresolved illuminated discovery with natural small motion. The ancient statue stays stone and completely motionless; only surrounding built-in systems illuminate. Preserve its beaked insectoid head and four arms.\n\nThe musical cut is 78 frames at24fps (3.250s). Main action belongs within source1.000\u20134.250s, with a moving one-second lead and at least one second of continuation afterward. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "durationSeconds": 6,
+      "credits": 90,
+      "sourceInFrame": 36,
+      "status": "selected_for_review",
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=946081232025169940&materialId=325563343535025",
+      "reviewNote": "Flashlight sweeps upward; base and doorway lamps activate in sequence while statue remains still. Source1.5s trim retains beam rise and illuminated arch.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "6.041667",
+        "nb_frames": "145"
+      },
+      "localVideo": "generated/kling-ending-v058/S14-SH04.mp4"
+    }
+  ],
+  "creditsSpent": 855,
+  "balanceBefore": 4287,
+  "expectedBalanceAfter": 3432,
+  "verifiedBalanceAfter": 3432
+}

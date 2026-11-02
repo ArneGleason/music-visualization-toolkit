@@ -1,0 +1,15 @@
+{
+  "status": "proposal_pending_user_review",
+  "method": "built-in image_gen",
+  "source": "generated/world-development/port-ship-v026/scrapper.png",
+  "image": "generated/world-development/port-ship-v027/scrapper.png",
+  "design": "Kind ant-like humanoid; compound eyes, elbowed antennae, relaxed mandibles, russet chitin, abdomen, two primary and two smaller secondary arms, two legs. Apron and tools retained.",
+  "heightCm": 164,
+  "crownY": 0.06705729166666667,
+  "groundY": 0.9661458333333334,
+  "poseFactor": 0.98,
+  "caveats": [
+    "Digit counts on partly curled small hands not fully verifiable; recheck closeups.",
+    "Standing height excludes antennae; poses and scale registration are approximate."
+  ]
+}

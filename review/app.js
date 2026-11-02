@@ -29,7 +29,7 @@ function showShots() {
     const option = document.createElement('option');
     option.value = index;
     const scene = shot.sceneId ? `Scene ${shot.sceneId.replace(/^S/, '')} · ${shot.sceneName} / ` : '';
-    option.textContent = `${scene}Shot ${String(shot.shotNumber).padStart(2, '0')} · ${shot.title}`;
+    option.textContent = shot.mediaType === 'planning' ? shot.title : `${scene}Shot ${String(shot.shotNumber).padStart(2, '0')} · ${shot.title}`;
     $('shot-select').append(option);
   });
   shotCounters();
@@ -47,7 +47,7 @@ function shotCounters() {
     $('shot-duration').textContent = `Play length: ${(frames / config.fps).toFixed(3)}s · ${frames} frames`;
     $('source-start').textContent = shot.mediaType === 'video' && shot.sourceInFrame != null
       ? `Clip start: ${(shot.sourceInFrame / (shot.sourceFps || config.fps)).toFixed(3)}s · frame ${shot.sourceInFrame}`
-      : 'Clip start: — (still image)';
+      : shot.mediaType === 'planning' ? 'Lyrics on black · scenes not planned' : 'Clip start: — (still image)';
   }
 }
 
@@ -61,11 +61,64 @@ $('previous-shot').onclick = () => seekShot(currentShotIndex() - 1);
 $('next-shot').onclick = () => seekShot(currentShotIndex() + 1);
 $('shot-select').onchange = () => seekShot(Number($('shot-select').value));
 
+function lyricTime(master) {
+  const seconds = (master - (config.masterFrameBase ?? 1)) / config.fps;
+  return Math.floor(seconds / 60) + ':' + (seconds % 60).toFixed(3).padStart(6, '0');
+}
+
+function activeLyric() {
+  const master = config.masterStart + frame - 1;
+  return (config.lyrics || []).find(line => line.startFrame <= master && master < line.endFrameExclusive);
+}
+
+function adjacentLyric(direction) {
+  const master = config.masterStart + frame - 1, lines = config.lyrics || [];
+  const active = activeLyric();
+  return direction < 0
+    ? [...lines].reverse().find(line => line.startFrame < (active ? active.startFrame : master))
+    : lines.find(line => line.startFrame > master);
+}
+
+function seekLyric(line) {
+  if (line) seek(line.startFrame - config.masterStart + 1);
+}
+
+function lyricCounters() {
+  const line = activeLyric(), previous = adjacentLyric(-1), next = adjacentLyric(1);
+  $('lyric-select').value = line ? line.label : '';
+  $('previous-lyric').disabled = !previous;
+  $('next-lyric').disabled = !next;
+  $('lyric-context').textContent = line
+    ? `${line.label} · ${lyricTime(line.startFrame)} · master frame ${line.startFrame} · length ${((line.endFrameExclusive - line.startFrame) / config.fps).toFixed(3)}s`
+    : config.lyricError ? `Lyric index unavailable: ${config.lyricError}`
+    : (config.lyrics || []).length ? `Instrumental / lyric gap${previous ? ' · after ' + previous.label : ''}${next ? ' · next ' + next.label + ' at ' + lyricTime(next.startFrame) : ''}` : '';
+}
+
+function showLyrics() {
+  const lines = config.lyrics || [];
+  $('lyric-nav').hidden = !lines.length;
+  const gap = document.createElement('option');
+  gap.value = ''; gap.textContent = '— Instrumental / between lyric lines —'; gap.disabled = true;
+  $('lyric-select').replaceChildren(gap);
+  for (const line of lines) {
+    const option = document.createElement('option');
+    option.value = line.label;
+    option.textContent = `${line.label} · ${lyricTime(line.startFrame)} · ${line.text}`;
+    $('lyric-select').append(option);
+  }
+  lyricCounters();
+}
+showLyrics();
+$('previous-lyric').onclick = () => seekLyric(adjacentLyric(-1));
+$('next-lyric').onclick = () => seekLyric(adjacentLyric(1));
+$('lyric-select').onchange = () => seekLyric((config.lyrics || []).find(line => line.label === $('lyric-select').value));
+
 function reference() {
 
   return config.name + ' — master frame ' + (config.masterStart + frame - 1) +
 
-    ', preview frame ' + frame + ', ' + config.fps + ' fps';
+    ', preview frame ' + frame + ', ' + config.fps + ' fps' +
+    (activeLyric() ? ` · ${activeLyric().label}: ${activeLyric().text}` : ' · lyric gap / instrumental');
 
 }
 
@@ -84,6 +137,7 @@ function counters() {
   scrub.value = frame;
   if (!jumpDirty) $('jump').value = master;
   shotCounters();
+  lyricCounters();
 
 }
 
@@ -239,7 +293,7 @@ function showMarks(notes) {
 
     b.onclick = () => seek(note.preview_frame);
 
-    text.textContent = note.text || 'Marked frame'; li.append(b, text); $('marks').append(li);
+    text.textContent = (note.lyric ? `${note.lyric.label} · ${note.lyric.text} — ` : '') + (note.text || 'Marked frame'); li.append(b, text); $('marks').append(li);
 
   }
 
@@ -282,6 +336,10 @@ setInterval(async () => {
         config.shots = next.shots; config.shotRevision = next.shotRevision;
         showShots();
       }
+      if (next.lyricRevision !== config.lyricRevision) {
+        config.lyrics = next.lyrics; config.lyricRevision = next.lyricRevision;
+        config.lyricError = next.lyricError; showLyrics();
+      }
       return;
     }
 
@@ -297,6 +355,7 @@ setInterval(async () => {
 
     config = next;
     showShots();
+    showLyrics();
 
     scrub.max = config.count;
 

@@ -1,0 +1,82 @@
+{
+  "model": "Kling4.0",
+  "resolution": "1080p",
+  "status": "complete_two_selected_one_rejected",
+  "shots": [
+    {
+      "shotId": "ta-017",
+      "displayId": "S04-SH01",
+      "title": "Are you there?",
+      "starterImage": "generated/storyboard/story-inserts-v008/ta-017.png",
+      "seconds": 7,
+      "sourceInFrame": 36,
+      "editFrames": 71,
+      "intent": "Find him, worry, then relief",
+      "prompt": "The supplied first frame is the starting composition. Animate away from this pose in one continuous 7-second 16:9 shot.\n\nHarper has just arrived at the expected meeting place and wants reassurance that Taffy succeeded. Taffy enjoys a small private moment of suspense. The starting image shows the single horseshoe credential in HIS LEFT HAND, on screen-right. During source0\u20130.8s, he smoothly moves that same hand and device behind HIS OWN lower back, keeping a continuous firm grip. This initial concealment is editorial lead-in, not the intended start of the musical cut. Harper finishes a quick searching glance, then finds him on the raised landing. During1.5\u20132.4s she meets his eyes, checks his hidden hand and tightens her brows with a brief questioning, worried look; he holds a quietly teasing, reassuring expression. During2.4\u20133.3s he brings the same left hand from behind his own back and shows her the credential low and close to his torso, a private reveal rather than a public trophy. During3.3\u20133.8s his right hand takes a secure grip on the same object, then his left hand releases: one clean physical transfer at waist level. During3.8\u20134.45s Harper sees proof, lets out a small relieved breath and smiles; Taffy answers with understated pride. Hold the device in his RIGHT hand for the following close-up. A restrained lateral push keeps Harper's changing expression, Taffy and his hands legible within the blue-pipe/stair geography. No pocket or bag retrieval, no toss, no duplicated device, no mirrored or transplanted hands. The prop retains the supplied asymmetric horseshoe casing, ivory grip and red inset. Keep them in their established places through the reveal; continue their quiet shared relief through the tail.\n\nThe planned musical selection is source 1.500\u20134.458s (71 frames at24fps). Keep the principal emotional/action beat legible within that selection. Moving lead-in and at least one second of continuing action after the selection provide editorial handles. Natural real-time acting. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "status": "rejected_continuity",
+      "credits": 105,
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945859989854367834&materialId=325510594316657",
+      "localVideo": "generated/kling-scene04-v018/ta-017.mp4",
+      "reviewNote": "Not selected: Taffy conceals the credential but Harper conjures a second credential at about3.5s. Intended reveal/transfer fails. Approved still retained in animatic.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      }
+    },
+    {
+      "shotId": "ta-017b",
+      "displayId": "S04-SH02",
+      "title": "Got it",
+      "starterImage": "generated/storyboard/story-inserts-v008/ta-017b.png",
+      "seconds": 4,
+      "sourceInFrame": 24,
+      "editFrames": 38,
+      "intent": "Of course I could do it",
+      "prompt": "The supplied first frame is the starting composition. Animate away from this pose in one continuous 4-second 16:9 shot.\n\nBegin exactly with the credential already securely in Taffy's RIGHT hand, seen on screen-left in this reverse over-Harper-shoulder view. No retrieval or reveal is needed. Taffy meets Harper's eyes with a small confident smile, lifts his chin just a touch and speaks a short relaxed phrase with the attitude: of course I could do it. Let the mouth movement and a restrained eyebrow lift convey affectionate self-assurance, not boasting to a crowd. During source1.0\u20132.58s he gives one slight confirming tilt of the held device, then keeps it discreetly near his waist; Harper's visible shoulder relaxes in response. A very small camera push favors his face while retaining the hand and credential. Preserve natural grip, hand-relative device size and his full cheeks, portly torso and large ears. No hand swap in this shot, no pocket business, no added dialogue text or subtitles. The music replaces audio; no intelligible wording is required. Continue their easy exchange through the tail.\n\nThe planned musical selection is source 1.000\u20132.583s (38 frames at24fps). Keep the principal emotional/action beat legible within that selection. Moving lead-in and at least one second of continuing action after the selection provide editorial handles. Natural real-time acting. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "status": "motion_review_candidate",
+      "credits": 60,
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945860258823143434&materialId=325510658315860",
+      "localVideo": "generated/kling-scene04-v018/ta-017b.mp4",
+      "reviewNote": "Selected for motion review: confident smile and device tilt, secure right-hand grip. Source start1s.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "4.041667",
+        "nb_frames": "97"
+      }
+    },
+    {
+      "shotId": "ta-018",
+      "displayId": "S04-SH03",
+      "title": "Together again",
+      "starterImage": "generated/storyboard/first-run-starters-v003/ta-018.png",
+      "seconds": 7,
+      "sourceInFrame": 24,
+      "editFrames": 107,
+      "intent": "Together, toward the next step",
+      "prompt": "The supplied first frame is the starting composition. Animate away from this pose in one continuous 7-second 16:9 shot.\n\nStart from the supplied smiling two-shot beneath the large blue pipe. The device is already concealed at this cut; do not show another stowing or retrieval action. Their relief becomes shared purpose: Harper glances toward the continuing route and gives a small directional chin cue; Taffy catches it, turns with her, and they set off together confidently. During source1.0\u20132.0s they turn away from camera toward the existing right-hand steps and take their first purposeful steps. During2.0\u20135.45s they continue up the steps and along the passage beyond, naturally side by side where space permits. Begin a smooth modest crane upward and backward as they leave, tilting down gently to retain them and reveal more of this connected neighborhood. By the latter part of the cut they are smaller moving figures within a wider view of sandstone terraces, worn blue pipes, patched shade cloth and the onward pedestrian route. In the newly revealed distance, a few small residents carry supplies or work on fittings, absorbed in ordinary tasks; they do not appear suddenly in the established foreground or interact with the pair. Maintain the original architecture and stair connections while extending the view naturally. The destination is still some distance away: no relay doorway, new landmark or arrival in this shot. Keep the pair readable and moving, rather than lingering over empty scenery. One continuous grounded crane movement, not a sudden aerial leap, orbit, whip pan or zoom reset. Warm confidence, purposeful walking at natural speed. Continue their walk and gentle camera rise through the tail.\n\nThe planned musical selection is source 1.000\u20135.458s (107 frames at24fps). Keep the principal emotional/action beat legible within that selection. Moving lead-in and at least one second of continuing action after the selection provide editorial handles. Natural real-time acting. Music replaces source audio.\n\nMOTION CONTINUITY LOCK v003: Realistic painted graphic-novel illustration, dimensional faces, tactile cloth and metal, warm sandstone and worn teal infrastructure. Preserve each supplied character identity, costume, body size and established biological traits while changing poses naturally. Human hands have four fingers plus one thumb, with correct wrists. Props retain their shape and ownership. One continuous shot at natural real-time speed; no slow motion, freeze poses, repeated gesture loops, cuts, captions or reference-sheet imagery. END LOCK.\n",
+      "status": "motion_review_candidate",
+      "credits": 105,
+      "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=945860540558753868&materialId=325510726310038",
+      "localVideo": "generated/kling-scene04-v018/ta-018.mp4",
+      "reviewNote": "Selected for motion review: turn, climb and crane reveal. Source start1s; review gait and late hair simplification at playback speed.",
+      "media": {
+        "width": 1916,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      }
+    }
+  ],
+  "reviewNotes": [
+    "User final direction retains existing starters, using concealment in source lead-in rather than image regeneration.",
+    "SH01 observed left hand; SH02 observed right hand. One transfer is directed, but grip/anatomy quality takes priority; user accepts a hand switch across cut if necessary.",
+    "SH01 planned7s allows selection to slip without changing71-frame cut. SH03 planned7s covers107-frame edit plus handles."
+  ],
+  "totalCredits": 270
+}

@@ -1,0 +1,3 @@
+# Full-song starters v041
+
+Approved v040 Taffy scale selected. All40 remainder shots promoted into shots/shotlist.json at exact edit boundaries1956–5190. Existing Scenes1–6 untouched, including video trims/camera moves/transitions. Total5190frames/216.25s at24fps. New still transitions use start alignment so incoming artwork never appears before its shot boundary. Source video handles stay24frames on each side, separate from still placement. Planning black/story overlays replaced by starter art with small lyrics and scene/shot labels. Three proposed wipes included. Prior render and JSON saved.

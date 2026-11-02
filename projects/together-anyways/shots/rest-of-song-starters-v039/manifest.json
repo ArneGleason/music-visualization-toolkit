@@ -1,0 +1,1803 @@
+{
+  "version": "v039",
+  "status": "starter_frames_for_review",
+  "fps": 24,
+  "note": "User review revisions. 6 new/revised frames,34 retained. 40 planned shots; scene boundaries unchanged; active shotlist remains edit authority. No video generation or animatic rebuild.",
+  "scenes": [
+    {
+      "id": "S07",
+      "name": "Through the transport yard",
+      "startFrame": 1956,
+      "endFrameExclusive": 2131,
+      "purpose": "Establish the new destination and private security; Harper draws hesitant Taffy through cover.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous departure from the relay after the news reaction.",
+        "status": "proposed_not_applied"
+      }
+    },
+    {
+      "id": "S08",
+      "name": "A sympathetic bargain",
+      "startFrame": 2131,
+      "endFrameExclusive": 2287,
+      "purpose": "The scrapper chooses to help; reveal the unwanted ship as the way out.",
+      "transitionInProposal": {
+        "type": "crossfade",
+        "frames": 8,
+        "reason": "Omit travel through the yard and arrive at the scrapper\u2019s corner.",
+        "status": "proposed_not_applied"
+      }
+    },
+    {
+      "id": "S09",
+      "name": "A fine find",
+      "startFrame": 2287,
+      "endFrameExclusive": 2701,
+      "purpose": "Explore the lucky find together, then a brief first repair attempt loses the needed part.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Follow the scrapper\u2019s reveal directly into boarding.",
+        "status": "proposed_not_applied"
+      }
+    },
+    {
+      "id": "S10",
+      "name": "Make do",
+      "startFrame": 2701,
+      "endFrameExclusive": 3258,
+      "purpose": "Use the long instrumental for an errand, physical problem-solving and a compromised workaround.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continue directly from losing the cartridge to trying to retrieve it.",
+        "status": "proposed_not_applied"
+      }
+    },
+    {
+      "id": "S11",
+      "name": "The deadline arrives",
+      "startFrame": 3258,
+      "endFrameExclusive": 3819,
+      "purpose": "News converts a repair project into an immediate escape; the scrapper\u2019s help is cut off.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Power-up becomes the shuddering cockpit test and news interruption.",
+        "status": "proposed_not_applied"
+      }
+    },
+    {
+      "id": "S12",
+      "name": "Borrow their countdown",
+      "startFrame": 3819,
+      "endFrameExclusive": 4353,
+      "purpose": "Harper uses the clearance system\u2019s own start command to interrupt port controls long enough to launch.",
+      "transitionInProposal": {
+        "type": "crossfade",
+        "frames": 8,
+        "reason": "Omit the short move from cockpit planning to the first terminal.",
+        "status": "proposed_not_applied"
+      }
+    },
+    {
+      "id": "S13",
+      "name": "Almost away",
+      "startFrame": 4353,
+      "endFrameExclusive": 4871,
+      "purpose": "Launch under pressure, reach the opening geography, then lose the climb.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "The clearance trigger causes the departure window; launch must feel immediate.",
+        "status": "proposed_not_applied"
+      }
+    },
+    {
+      "id": "S14",
+      "name": "A different way out",
+      "startFrame": 4871,
+      "endFrameExclusive": 5190,
+      "purpose": "The failed escape opens a new adventure beneath the mine.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Descent continues into the hard landing; no suggestion of elapsed time.",
+        "status": "proposed_not_applied"
+      }
+    }
+  ],
+  "shots": [
+    {
+      "id": "S07-SH01",
+      "sceneId": "S07",
+      "title": "Approaching the crossing",
+      "startFrame": 1956,
+      "endFrameExclusive": 2021,
+      "frames": 65,
+      "seconds": 2.7083333333333335,
+      "indexes": [
+        "I24",
+        "L24",
+        "I25"
+      ],
+      "action": "Approach cautiously along the service lane toward the port; exchange a brief low-voiced remark while checking the guard and continuing forward.",
+      "camera": "Entirely different camera angle from Shot2; distant entrance and small pair with room to advance. Avoid a near-identical head-on composition with inconsistent door scale.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Approach cautiously along the service lane toward the port; exchange a brief low-voiced remark while checking the guard and continuing forward.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous departure from the relay after the news reaction.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Harper is purposeful and reassuring; Taffy is willing but nervous. Small cautious steps have a destination, not idle shuffling.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Through the transport yard",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v038/S07-SH01.png",
+      "imageUrl": "../../rest-of-song-starters-v038/S07-SH01.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 113
+      }
+    },
+    {
+      "id": "S07-SH02",
+      "sceneId": "S07",
+      "title": "Are you coming?",
+      "startFrame": 2021,
+      "endFrameExclusive": 2131,
+      "frames": 110,
+      "seconds": 4.583333333333333,
+      "indexes": [
+        "L25",
+        "I26"
+      ],
+      "action": "Harper beckons hesitant Taffy across. He checks the larger adult guard, commits to his break and joins Harper; they angle toward the hidden rear route.",
+      "camera": "Retain existing starter. Show crossing and the pair turning away into the rear route.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Harper beckons hesitant Taffy across. He checks the larger adult guard, commits to his break and joins Harper; they angle toward the hidden rear route.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Taffy must overcome fear; Harper urges him with patient urgency. Guard stays occupied, unaware.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Through the transport yard",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v039/S07-SH02.png",
+      "imageUrl": "../../rest-of-song-starters-v039/S07-SH02.png",
+      "revisionLabel": "Revised",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 158
+      }
+    },
+    {
+      "id": "S08-SH01",
+      "sceneId": "S08",
+      "title": "Together, then",
+      "startFrame": 2131,
+      "endFrameExclusive": 2166,
+      "frames": 35,
+      "seconds": 1.4583333333333333,
+      "indexes": [
+        "L26"
+      ],
+      "action": "Harper passes the blue jewel into the scrapper's receiving hand; it lights as he accepts it.",
+      "camera": "Preserve accepted dark trade setup; use approved scrapper identity and S08SH02 anatomy, exactly four arms.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Harper passes the blue jewel into the scrapper's receiving hand; it lights as he accepts it.",
+      "transitionInProposal": {
+        "type": "crossfade",
+        "frames": 8,
+        "reason": "Omit travel through the yard and arrive at the scrapper\u2019s corner.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "A quick recognition and pleased surprise from the scrapper; Harper reads acceptance. One clean handoff, no extra negotiation business.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A sympathetic bargain",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v038/S08-SH01.png",
+      "imageUrl": "../../rest-of-song-starters-v038/S08-SH01.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 83
+      }
+    },
+    {
+      "id": "S08-SH02",
+      "sceneId": "S08",
+      "title": "The ship nobody wants",
+      "startFrame": 2166,
+      "endFrameExclusive": 2287,
+      "frames": 121,
+      "seconds": 5.041666666666667,
+      "indexes": [
+        "I27"
+      ],
+      "action": "Holding the received jewel, the scrapper agrees and gestures to the unwanted ship. The pair turn and start down the clear aisle toward it as camera reveals its exterior.",
+      "camera": "Wider reveal in deep shade; ship interior mostly dark, no exposed upper security walkway.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Holding the received jewel, the scrapper agrees and gestures to the unwanted ship. The pair turn and start down the clear aisle toward it as camera reveals its exterior.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "He is quietly generous and appreciates what she gave him; they are hopeful and delighted. Keep four separate arms and the ship silhouette coherent.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A sympathetic bargain",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v039/S08-SH02.png",
+      "imageUrl": "../../rest-of-song-starters-v039/S08-SH02.png",
+      "revisionLabel": "Revised",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 169
+      }
+    },
+    {
+      "id": "S09-SH01",
+      "sceneId": "S09",
+      "title": "A place to be",
+      "startFrame": 2287,
+      "endFrameExclusive": 2355,
+      "frames": 68,
+      "seconds": 2.8333333333333335,
+      "indexes": [
+        "L27",
+        "I28",
+        "L28",
+        "I29"
+      ],
+      "action": "They enter the grounded ship and look around its cabin while moving inside.",
+      "camera": "From cabin toward entry, then a small reframing to their discovery.",
+      "boundaryBasis": "bar 37 beat 4",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "They enter the grounded ship and look around its cabin while moving inside.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Follow the scrapper\u2019s reveal directly into boarding.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Curious, relieved to have a place of their own; hopeful rather than apprehensive.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A fine find",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S09-SH01.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S09-SH01.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 116
+      }
+    },
+    {
+      "id": "S09-SH02",
+      "sceneId": "S09",
+      "title": "Lucky to find this",
+      "startFrame": 2355,
+      "endFrameExclusive": 2393,
+      "frames": 38,
+      "seconds": 1.5833333333333333,
+      "indexes": [
+        "L29",
+        "I30"
+      ],
+      "action": "Harper opens the small cabinet/inspection compartment already under her hand; a few harmless bits of old junk tumble out. Taffy lights the discovery.",
+      "camera": "Cabin exploration with useful space and existing fittings; no cartridge handling or installation.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Harper opens the small cabinet/inspection compartment already under her hand; a few harmless bits of old junk tumble out. Taffy lights the discovery.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Both find the quirks amusing and remain pleased; no alarming failure or cartridge handling.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A fine find",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v038/S09-SH02.png",
+      "imageUrl": "../../rest-of-song-starters-v038/S09-SH02.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 86
+      }
+    },
+    {
+      "id": "S09-SH03",
+      "sceneId": "S09",
+      "title": "A fine find together",
+      "startFrame": 2393,
+      "endFrameExclusive": 2474,
+      "frames": 81,
+      "seconds": 3.375,
+      "indexes": [
+        "L30",
+        "I31"
+      ],
+      "action": "Taffy experiments with the door-side buttons. Harper notices, tells him to stop randomly flipping switches, and he sheepishly pulls his hand away.",
+      "camera": "Change viewpoint and body poses from Shot2. Two side-by-side seats; unpowered cockpit and portable illumination. No cartridge repair.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Taffy experiments with the door-side buttons. Harper notices, tells him to stop randomly flipping switches, and he sheepishly pulls his hand away.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "His eager curiosity outruns caution; her gently authoritative response says they need to understand the ship first.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A fine find",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v038/S09-SH03.png",
+      "imageUrl": "../../rest-of-song-starters-v038/S09-SH03.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 129
+      }
+    },
+    {
+      "id": "S09-SH04",
+      "sceneId": "S09",
+      "title": "True?",
+      "startFrame": 2474,
+      "endFrameExclusive": 2526,
+      "frames": 52,
+      "seconds": 2.1666666666666665,
+      "indexes": [
+        "L30",
+        "I31",
+        "L31"
+      ],
+      "action": "Harper studies the old cockpit controls, tries a control herself and presses it on the sung True at the existing lyric anchor near frame2507. A few local dashboard indicators light.",
+      "camera": "Retain control close-up; longer lead-in explores controls before the True button/light beat.",
+      "boundaryBasis": "DAW bar39beat3,103.097663s rounded to24fps; local button light on True near2507 retained",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Harper studies the old cockpit controls, tries a control herself and presses it on the sung True at the existing lyric anchor near frame2507. A few local dashboard indicators light.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Amused confidence with a hint of hypocrisy after scolding Taffy. This is limited local power, not the full ship startup. End with pleased discovery.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A fine find",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v038/S09-SH04.png",
+      "imageUrl": "../../rest-of-song-starters-v038/S09-SH04.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 100
+      }
+    },
+    {
+      "id": "S09-SH05",
+      "sceneId": "S09",
+      "title": "A little higher",
+      "startFrame": 2526,
+      "endFrameExclusive": 2593,
+      "frames": 67,
+      "seconds": 2.7916666666666665,
+      "indexes": [
+        "L32",
+        "I33",
+        "L33",
+        "I34",
+        "L34",
+        "I35"
+      ],
+      "action": "Harper directs Taffy to raise the portable light; he lifts it and angles the beam so she can inspect the overhead fitting.",
+      "camera": "Different task from cartridge repair; natural supported reach, coherent cabin geography.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Harper directs Taffy to raise the portable light; he lifts it and angles the beam so she can inspect the overhead fitting.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "She is intent on seeing the latch; he is earnestly helpful. Her small higher gesture motivates his action.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A fine find",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v038/S09-SH05.png",
+      "imageUrl": "../../rest-of-song-starters-v038/S09-SH05.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 115
+      }
+    },
+    {
+      "id": "S09-SH06",
+      "sceneId": "S09",
+      "title": "On the upbeat",
+      "startFrame": 2593,
+      "endFrameExclusive": 2652,
+      "frames": 59,
+      "seconds": 2.4583333333333335,
+      "indexes": [
+        "L35",
+        "I36",
+        "L36",
+        "I37",
+        "L37",
+        "I38",
+        "L38",
+        "I39"
+      ],
+      "action": "At the repair housing they work to pry the stuck original regulator loose. Resistance gives way, sending the cartridge flipping upward out of their grip.",
+      "camera": "Retain existing frame. This is the first cartridge-handling beat, leading directly to its loss, rather than the end of a long installation sequence.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "At the repair housing they work to pry the stuck original regulator loose. Resistance gives way, sending the cartridge flipping upward out of their grip.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Cooperative effort turns to sudden surprise. This is the original part that will be lost, not the later scavenged replacement.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A fine find",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S09-SH06.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S09-SH06.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 107
+      }
+    },
+    {
+      "id": "S09-SH07",
+      "sceneId": "S09",
+      "title": "Lost it",
+      "startFrame": 2652,
+      "endFrameExclusive": 2701,
+      "frames": 49,
+      "seconds": 2.0416666666666665,
+      "indexes": [
+        "L39",
+        "I40",
+        "L40",
+        "I41",
+        "L41"
+      ],
+      "action": "The loose cartridge falls into the exposed powered linkage and lodges between the gears/jaw.",
+      "camera": "Clear view of the aperture, cartridge and moving door edges; same mechanism in S10SH01.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "The loose cartridge falls into the exposed powered linkage and lodges between the gears/jaw.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "They reach too late and freeze at the jam. Follow the part's clear trajectory into the established mechanism.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A fine find",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S09-SH07.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S09-SH07.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 97
+      }
+    },
+    {
+      "id": "S10-SH01",
+      "sceneId": "S10",
+      "title": "No retrieving that",
+      "startFrame": 2701,
+      "endFrameExclusive": 2798,
+      "frames": 97,
+      "seconds": 4.041666666666667,
+      "indexes": [
+        "I42"
+      ],
+      "action": "Taffy confidently throws the nearby release switch to free the jam. It drives the mechanism shut instead, crushing the cartridge. Harper recoils and touches her forehead in disbelief.",
+      "camera": "Remove scrapper from background only. Preserve closing door, trapped part and partners. Next shot establishes the unattended donor vehicle.",
+      "boundaryBasis": "bar 44 beat 2",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Taffy confidently throws the nearby release switch to free the jam. It drives the mechanism shut instead, crushing the cartridge. Harper recoils and touches her forehead in disbelief.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continue directly from losing the cartridge to trying to retrieve it.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Taffy's certainty collapses into guilty surprise; Harper's exasperation is affectionate but immediate. Scrapper is absent.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Make do",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v038/S10-SH01.png",
+      "imageUrl": "../../rest-of-song-starters-v038/S10-SH01.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 145
+      }
+    },
+    {
+      "id": "S10-SH02",
+      "sceneId": "S10",
+      "title": "An unattended donor",
+      "startFrame": 2798,
+      "endFrameExclusive": 2900,
+      "frames": 102,
+      "seconds": 4.25,
+      "indexes": [
+        "I42"
+      ],
+      "action": "They watch the exposed donor bay and quietly confer while its human mechanic walks away with the cart.",
+      "camera": "Establish the exact donor vehicle/panel used in next shot; departing mechanic is not the scrapper.",
+      "boundaryBasis": "bar 45 beat 4",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "They watch the exposed donor bay and quietly confer while its human mechanic walks away with the cart.",
+      "transitionInProposal": {
+        "type": "wipe",
+        "direction": "left-to-right",
+        "softEdge": true,
+        "frames": 8,
+        "reason": "Elapsed travel/location change; wipe makes the omitted journey explicit.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Assessing an opportunity, keeping inconspicuous; they move only after the worker clears the bay.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Make do",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S10-SH02.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S10-SH02.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 150
+      }
+    },
+    {
+      "id": "S10-SH03",
+      "sceneId": "S10",
+      "title": "Wrong part, useful part",
+      "startFrame": 2900,
+      "endFrameExclusive": 3003,
+      "frames": 103,
+      "seconds": 4.291666666666667,
+      "indexes": [
+        "I42"
+      ],
+      "action": "They carefully extract the usable substitute module from that same donor bay.",
+      "camera": "Closer angle preserves donor geometry, panel and module orientation.",
+      "boundaryBasis": "bar 47 beat 2",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "They carefully extract the usable substitute module from that same donor bay.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Quick, coordinated opportunism, checking the departed worker's direction before committing.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Make do",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S10-SH03.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S10-SH03.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 151
+      }
+    },
+    {
+      "id": "S10-SH04",
+      "sceneId": "S10",
+      "title": "An improvised fit",
+      "startFrame": 3003,
+      "endFrameExclusive": 3105,
+      "frames": 102,
+      "seconds": 4.25,
+      "indexes": [
+        "I42"
+      ],
+      "action": "Back in their ship they seat the substitute into the established housing with its improvised adapter and secure it.",
+      "camera": "Match original mounting position, not a new compartment.",
+      "boundaryBasis": "bar 48 beat 4",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Back in their ship they seat the substitute into the established housing with its improvised adapter and secure it.",
+      "transitionInProposal": {
+        "type": "wipe",
+        "direction": "left-to-right",
+        "softEdge": true,
+        "frames": 8,
+        "reason": "Elapsed travel/location change; wipe makes the omitted journey explicit.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Relief at a workable fit, concentrated cooperation. Preserve module and housing geometry.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Make do",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S10-SH04.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S10-SH04.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 150
+      }
+    },
+    {
+      "id": "S10-SH05",
+      "sceneId": "S10",
+      "title": "It lives, barely",
+      "startFrame": 3105,
+      "endFrameExclusive": 3258,
+      "frames": 153,
+      "seconds": 6.375,
+      "indexes": [
+        "I42"
+      ],
+      "action": "With the installation complete the ship stirs to life: panels and systems wake in sequence.",
+      "camera": "Start on living cockpit, end with view through its window to the changing situation.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "With the installation complete the ship stirs to life: panels and systems wake in sequence.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Their hope rises as each response confirms progress; a little uneven vibration keeps the old ship believable.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Make do",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S10-SH05.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S10-SH05.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 201
+      }
+    },
+    {
+      "id": "S11-SH01",
+      "sceneId": "S11",
+      "title": "Hanging on",
+      "startFrame": 3258,
+      "endFrameExclusive": 3372,
+      "frames": 114,
+      "seconds": 4.75,
+      "indexes": [
+        "L42",
+        "I43"
+      ],
+      "action": "They run further diagnostics, make useful adjustments and bring the monitor online.",
+      "camera": "Interior medium-wide; power-up occurs on the ground.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "They run further diagnostics, make useful adjustments and bring the monitor online.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Power-up becomes the shuddering cockpit test and news interruption.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Growing competence and satisfaction; work is going well.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "The deadline arrives",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S11-SH01.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S11-SH01.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 162
+      }
+    },
+    {
+      "id": "S11-SH02",
+      "sceneId": "S11",
+      "title": "I saw the news",
+      "startFrame": 3372,
+      "endFrameExclusive": 3451,
+      "frames": 79,
+      "seconds": 3.2916666666666665,
+      "indexes": [
+        "L43"
+      ],
+      "action": "The newly working screen reports imminent demolition of this salvage area.",
+      "camera": "Screen insert; glyphs communicate information without requiring readable invented text.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "The newly working screen reports imminent demolition of this salvage area.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Attention shifts from successful diagnostics to unwelcome news. Keep the machine recognizable.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "The deadline arrives",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S11-SH02.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S11-SH02.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 127
+      }
+    },
+    {
+      "id": "S11-SH03",
+      "sceneId": "S11",
+      "title": "Their ally is taken",
+      "startFrame": 3451,
+      "endFrameExclusive": 3500,
+      "frames": 49,
+      "seconds": 2.0416666666666665,
+      "indexes": [
+        "I44"
+      ],
+      "action": "The bulletin cuts to guards taking away their scrapper ally.",
+      "camera": "Push into the inset enough to recognize him; no graphic violence. He is being removed, not established as permanently imprisoned.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "The bulletin cuts to guards taking away their scrapper ally.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Show the arrest clearly on the screen; do not invent a camera pullback that reconstructs absent protagonists.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "The deadline arrives",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S11-SH03.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S11-SH03.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 97
+      }
+    },
+    {
+      "id": "S11-SH03B",
+      "sceneId": "S11",
+      "title": "They have taken our ally",
+      "startFrame": 3500,
+      "endFrameExclusive": 3525,
+      "frames": 25,
+      "seconds": 1.0416666666666667,
+      "indexes": [
+        "I44"
+      ],
+      "action": "Cut back to Harper and Taffy watching the screen, visibly troubled by the arrest and demolition news.",
+      "camera": "Interior reaction two-shot using the news-viewing setup; both characters present in the starter.",
+      "boundaryBasis": "DAW bar54beat3,145.819212s rounded to24fps; retains prior end3525",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Cut back to Harper and Taffy watching the screen, visibly troubled by the arrest and demolition news.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "A short shared look of alarm and recognition: their ally is gone and time is running out.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "The deadline arrives",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v039/S11-SH03B.png",
+      "imageUrl": "../../rest-of-song-starters-v039/S11-SH03B.png",
+      "revisionLabel": "Revised",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 73
+      }
+    },
+    {
+      "id": "S11-SH04",
+      "sceneId": "S11",
+      "title": "Wish we had not",
+      "startFrame": 3525,
+      "endFrameExclusive": 3629,
+      "frames": 104,
+      "seconds": 4.333333333333333,
+      "indexes": [
+        "L44",
+        "I45"
+      ],
+      "action": "Taffy works hard on urgent remaining repairs. Harper checks his progress, rises and leaves frame toward the rear cabin to tackle another task.",
+      "camera": "Reaction two-shot linking screen, window and unfinished mechanism.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Taffy works hard on urgent remaining repairs. Harper checks his progress, rises and leaves frame toward the rear cabin to tackle another task.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "The news has made them hurried and purposeful. No idle watching; Harper exits decisively while Taffy continues.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "The deadline arrives",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S11-SH04.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S11-SH04.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 152
+      }
+    },
+    {
+      "id": "S11-SH05",
+      "sceneId": "S11",
+      "title": "Things left undone",
+      "startFrame": 3629,
+      "endFrameExclusive": 3768,
+      "frames": 139,
+      "seconds": 5.791666666666667,
+      "indexes": [
+        "L45",
+        "I46",
+        "L46",
+        "I47"
+      ],
+      "action": "Taffy keeps working on another fitting while Harper checks the doorway and thinks through their exit problem.",
+      "camera": "Harper has empty hands; remove cushion/comfort-fitting business entirely.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Taffy keeps working on another fitting while Harper checks the doorway and thinks through their exit problem.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Taffy is absorbed in readiness; Harper's worried scan becomes an idea. No bag or cushion business.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "The deadline arrives",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S11-SH05.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S11-SH05.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 187
+      }
+    },
+    {
+      "id": "S11-SH06",
+      "sceneId": "S11",
+      "title": "One more job together",
+      "startFrame": 3768,
+      "endFrameExclusive": 3819,
+      "frames": 51,
+      "seconds": 2.125,
+      "indexes": [
+        "L47",
+        "I48"
+      ],
+      "action": "Inside the unmistakable ship cabin Harper traces a sabotage route on a horizontal tabletop plan; Taffy works farther away.",
+      "camera": "Wide oblique onboard tabletop-plan composition, Taffy farther back working; distinct from exterior port terminals.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Inside the unmistakable ship cabin Harper traces a sabotage route on a horizontal tabletop plan; Taffy works farther away.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Harper is calculating a way out, quietly decisive. Distinguish this planning image radically from the exterior port terminals that follow.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "The deadline arrives",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v039/S11-SH06.png",
+      "imageUrl": "../../rest-of-song-starters-v039/S11-SH06.png",
+      "revisionLabel": "Revised",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 99
+      }
+    },
+    {
+      "id": "S12-SH01",
+      "sceneId": "S12",
+      "title": "A plan worth thinking",
+      "startFrame": 3819,
+      "endFrameExclusive": 3877,
+      "frames": 58,
+      "seconds": 2.4166666666666665,
+      "indexes": [
+        "L48",
+        "I49",
+        "L49",
+        "I50"
+      ],
+      "action": "At the first port terminal Harper tests access while Taffy stands lookout.",
+      "camera": "Medium two-shot with guards moving in distant background.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "At the first port terminal Harper tests access while Taffy stands lookout.",
+      "transitionInProposal": {
+        "type": "wipe",
+        "direction": "left-to-right",
+        "softEdge": true,
+        "frames": 12,
+        "reason": "Elapsed travel/location change; wipe makes the omitted journey explicit.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "She is focused under pressure; he actively scans approaches. Establish they have left the ship.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Borrow their countdown",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S12-SH01.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S12-SH01.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 106
+      }
+    },
+    {
+      "id": "S12-SH02",
+      "sceneId": "S12",
+      "title": "Same numbers",
+      "startFrame": 3877,
+      "endFrameExclusive": 3973,
+      "frames": 96,
+      "seconds": 4.0,
+      "indexes": [
+        "L50",
+        "I51",
+        "L51",
+        "I52"
+      ],
+      "action": "Harper works through rapidly changing glyph combinations. The machine shifts from neutral responses to a responsive helper persona, recognizes her intent and indicates the next terminal.",
+      "camera": "Close on motivated trial/error, then eyes recognizing the pattern; avoid prolonged illegible typing.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Harper works through rapidly changing glyph combinations. The machine shifts from neutral responses to a responsive helper persona, recognizes her intent and indicates the next terminal.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Frustration gives way to surprised rapport and trust. Express personality through coherent glyph pulses and helpful responses, not a new physical robot or human face.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Borrow their countdown",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S12-SH02.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S12-SH02.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 144
+      }
+    },
+    {
+      "id": "S12-SH03",
+      "sceneId": "S12",
+      "title": "A helpful accomplice",
+      "startFrame": 3973,
+      "endFrameExclusive": 4033,
+      "frames": 60,
+      "seconds": 2.5,
+      "indexes": [
+        "L52",
+        "I53",
+        "L53",
+        "I54"
+      ],
+      "action": "At the next terminal Harper follows the helper's route and continues the override while Taffy watches the port.",
+      "camera": "Preserve terminal location and cover; simple amber helper symbol and green suggested path, no readable language.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "At the next terminal Harper follows the helper's route and continues the override while Taffy watches the port.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "A cooperative exchange with the system; she is quicker and more confident now, he remains vigilant.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Borrow their countdown",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S12-SH03.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S12-SH03.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 108
+      }
+    },
+    {
+      "id": "S12-SH04",
+      "sceneId": "S12",
+      "title": "Set the trap",
+      "startFrame": 4033,
+      "endFrameExclusive": 4139,
+      "frames": 106,
+      "seconds": 4.416666666666667,
+      "indexes": [
+        "L54",
+        "I55"
+      ],
+      "action": "The guard initially faces their general direction but does not notice or recognize them. He casually turns away and wanders off along a different route. Taffy spots him, quietly warns Harper, and she finishes the live sabotage while keeping inconspicuous.",
+      "camera": "Guard-oriented threat cutaway with warning Taffy and Harper/service terminal in geographical context.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "The guard initially faces their general direction but does not notice or recognize them. He casually turns away and wanders off along a different route. Taffy spots him, quietly warns Harper, and she finishes the live sabotage while keeping inconspicuous.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Guard is distracted and unaware, not suspicious or pursuing. Taffy reacts to the risk; Harper stays controlled and focused. His turn and departure must read clearly during the shot.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Borrow their countdown",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v039/S12-SH04.png",
+      "imageUrl": "../../rest-of-song-starters-v039/S12-SH04.png",
+      "revisionLabel": "Revised",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 154
+      }
+    },
+    {
+      "id": "S12-SH05",
+      "sceneId": "S12",
+      "title": "Do not turn it off",
+      "startFrame": 4139,
+      "endFrameExclusive": 4201,
+      "frames": 62,
+      "seconds": 2.5833333333333335,
+      "indexes": [
+        "L55"
+      ],
+      "action": "They slip away covertly from the live terminal. Harper looks back toward the guard and murmurs Don't turn it off as a desperate wish that the sabotage is left running.",
+      "camera": "Covert withdrawal, anxious glance back at guard and live terminal; natural hands, no literal spell.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "They slip away covertly from the live terminal. Harper looks back toward the guard and murmurs Don't turn it off as a desperate wish that the sabotage is left running.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "An anxious almost superstitious plea to the situation, not an instruction to Taffy or a literal magical spell. Guard must not actually shut it off in this shot.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Borrow their countdown",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v039/S12-SH05.png",
+      "imageUrl": "../../rest-of-song-starters-v039/S12-SH05.png",
+      "revisionLabel": "Revised",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 110
+      }
+    },
+    {
+      "id": "S12-SH06",
+      "sceneId": "S12",
+      "title": "Back to the ship",
+      "startFrame": 4201,
+      "endFrameExclusive": 4251,
+      "frames": 50,
+      "seconds": 2.0833333333333335,
+      "indexes": [
+        "I56"
+      ],
+      "action": "They hurry back to the ship's entry and climb aboard.",
+      "camera": "Fast purposeful movement; route already established, no new terminal.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "They hurry back to the ship's entry and climb aboard.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Suppress panic but move with purpose; the task is getting inside before clearance starts.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Borrow their countdown",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S12-SH06.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S12-SH06.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 98
+      }
+    },
+    {
+      "id": "S12-SH07",
+      "sceneId": "S12",
+      "title": "Their bad news, our opening",
+      "startFrame": 4251,
+      "endFrameExclusive": 4286,
+      "frames": 35,
+      "seconds": 1.4583333333333333,
+      "indexes": [
+        "L56"
+      ],
+      "action": "The approaching demolition machine rolls forward and crushes or pushes loose debris out of its way.",
+      "camera": "Brief exterior trigger; use the machine from S11SH02 bulletin as vehicle anchor.",
+      "boundaryBasis": "start retained; split at DAW bar66 beat1 (178.588185s rounded to24fps)",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "The approaching demolition machine rolls forward and crushes or pushes loose debris out of its way.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Show its heavy destructive force in this brief cut; the already planted clearance trigger interrupts port control.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Borrow their countdown",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S12-SH07.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S12-SH07.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 83
+      }
+    },
+    {
+      "id": "S12-SH07B",
+      "sceneId": "S12",
+      "title": "Ready in the cockpit",
+      "startFrame": 4286,
+      "endFrameExclusive": 4353,
+      "frames": 67,
+      "seconds": 2.7916666666666665,
+      "indexes": [
+        "L56",
+        "I57"
+      ],
+      "action": "In the cockpit they fasten their belts. Harper presses startup controls and calls urgent instructions; Taffy braces and responds.",
+      "camera": "Interior two-shot, two occupied side-by-side seats, brisk physical preparation before launch.",
+      "boundaryBasis": "DAW bar66 beat1; end retains Scene13 boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "In the cockpit they fasten their belts. Harper presses startup controls and calls urgent instructions; Taffy braces and responds.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Exterior trigger to immediate cockpit response.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Committed, energized urgency. Two side-by-side occupied seats, clear physical preparations.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Borrow their countdown",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S12-SH07B.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S12-SH07B.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 115
+      }
+    },
+    {
+      "id": "S13-SH01",
+      "sceneId": "S13",
+      "title": "Hang on",
+      "startFrame": 4353,
+      "endFrameExclusive": 4485,
+      "frames": 132,
+      "seconds": 5.5,
+      "indexes": [
+        "L57"
+      ],
+      "action": "The ship clatters out of the salvage recess, knocking debris aside and shedding a few loose nonessential panels as it lifts.",
+      "camera": "Rough, imperfect departure with readable acceleration, not a graceful hover.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "The ship clatters out of the salvage recess, knocking debris aside and shedding a few loose nonessential panels as it lifts.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "The clearance trigger causes the departure window; launch must feel immediate.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "An untidy escape under pressure; maintain the approved airframe and fixed nose bowl.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Almost away",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S13-SH01.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S13-SH01.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 180
+      }
+    },
+    {
+      "id": "S13-SH02",
+      "sceneId": "S13",
+      "title": "A city below them",
+      "startFrame": 4485,
+      "endFrameExclusive": 4631,
+      "frames": 146,
+      "seconds": 6.083333333333333,
+      "indexes": [
+        "I58"
+      ],
+      "action": "The ship struggles upward over the port with intermittent smoke, sputtering and a few loose fragments.",
+      "camera": "Climbing wide view tied to opening landmarks; keep faults readable without catastrophic failure yet.",
+      "boundaryBasis": "bar 71 beat 1",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "The ship struggles upward over the port with intermittent smoke, sputtering and a few loose fragments.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "It is gaining height despite strain; ascent remains readable rather than hovering in place.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Almost away",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S13-SH02.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S13-SH02.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 194
+      }
+    },
+    {
+      "id": "S13-SH03",
+      "sceneId": "S13",
+      "title": "Almost free",
+      "startFrame": 4631,
+      "endFrameExclusive": 4717,
+      "frames": 86,
+      "seconds": 3.5833333333333335,
+      "indexes": [
+        "I58"
+      ],
+      "action": "The climb steadies and the way ahead appears clear, revisiting the opening landscape from high altitude.",
+      "camera": "Retain approved wide starter; shortened by one beat for the following reaction.",
+      "boundaryBasis": "bar 72 beat 3",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "The climb steadies and the way ahead appears clear, revisiting the opening landscape from high altitude.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "A brief release of tension: they seem to be making it away. Do not trigger the decisive failure until the next shot.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Almost away",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S13-SH03.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S13-SH03.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 134
+      }
+    },
+    {
+      "id": "S13-SH04",
+      "sceneId": "S13",
+      "title": "The compromise fails",
+      "startFrame": 4717,
+      "endFrameExclusive": 4803,
+      "frames": 86,
+      "seconds": 3.5833333333333335,
+      "indexes": [
+        "I58"
+      ],
+      "action": "Taffy tries to keep the substitute module stable while Harper watches. The scavenged part fails with a burst of smoke; both react as power drops.",
+      "camera": "Retain accepted wide frame showing both actors and the module.",
+      "boundaryBasis": "DAW bar72 beat2 (196.532575s rounded to24fps)",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "Taffy tries to keep the substitute module stable while Harper watches. The scavenged part fails with a burst of smoke; both react as power drops.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "His concentrated effort becomes alarm; her watchfulness turns to decisive emergency response. Preserve visible actors and established module location.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Almost away",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S13-SH04.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S13-SH04.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 134
+      }
+    },
+    {
+      "id": "S13-SH05",
+      "sceneId": "S13",
+      "title": "Aim for the mine",
+      "startFrame": 4803,
+      "endFrameExclusive": 4871,
+      "frames": 68,
+      "seconds": 2.8333333333333335,
+      "indexes": [
+        "I58"
+      ],
+      "action": "The ship visibly loses powered climb and descends toward the mine region.",
+      "camera": "Steep descending wide or cockpit with mine growing ahead; maintain geography.",
+      "boundaryBasis": "bar 74 beat 3",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "The ship visibly loses powered climb and descends toward the mine region.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "An unpowered falling trajectory with residual momentum; geography connects to the opening and the landing.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "Almost away",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S13-SH05.png",
+      "imageUrl": "../../rest-of-song-starters-v036/S13-SH05.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 116
+      }
+    },
+    {
+      "id": "S14-SH01",
+      "sceneId": "S14",
+      "title": "A sliding landing",
+      "startFrame": 4871,
+      "endFrameExclusive": 4940,
+      "frames": 69,
+      "seconds": 2.875,
+      "indexes": [
+        "I58"
+      ],
+      "action": "The ship tilts slightly into hard ground contact and continues skidding forward for a considerable distance.",
+      "camera": "Retain accepted higher approach starter. Use lead-in for descent, then fast ground slide. Do not force a visible cave collapse into this short exterior shot.",
+      "boundaryBasis": "bar 75 beat 3",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "The ship tilts slightly into hard ground contact and continues skidding forward for a considerable distance.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Descent continues into the hard landing; no suggestion of elapsed time.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Keep momentum and weight. Cut away before any final collision or breakthrough needs to be shown.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A different way out",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S14-SH01.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S14-SH01.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 117
+      }
+    },
+    {
+      "id": "S14-SH02",
+      "sceneId": "S14",
+      "title": "Still together",
+      "startFrame": 4940,
+      "endFrameExclusive": 5026,
+      "frames": 86,
+      "seconds": 3.5833333333333335,
+      "indexes": [
+        "I58"
+      ],
+      "action": "In the dusty aftermath Taffy is slumped apparently unconscious. Harper checks him and nudges his shoulder; he wakes and responds.",
+      "camera": "Retain accepted starter. Stage the rousing beat after the final jolt; preserve the wreck orientation established by Shot3.",
+      "boundaryBasis": "bar 76 beat 4",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "In the dusty aftermath Taffy is slumped apparently unconscious. Harper checks him and nudges his shoulder; he wakes and responds.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Her fear turns to relief; his dazed response confirms survival. Keep it brief and physical.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A different way out",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S14-SH02.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S14-SH02.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 134
+      }
+    },
+    {
+      "id": "S14-SH03",
+      "sceneId": "S14",
+      "title": "Only a few steps",
+      "startFrame": 5026,
+      "endFrameExclusive": 5112,
+      "frames": 86,
+      "seconds": 3.5833333333333335,
+      "indexes": [
+        "I58"
+      ],
+      "action": "They leave the resting craft and take a few tentative steps toward the revealed underground city.",
+      "camera": "Match crash site and wreck orientation; correct ship entry/intake; establish statue for next angle.",
+      "boundaryBasis": "bar 78 beat 1",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "They leave the resting craft and take a few tentative steps toward the revealed underground city.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Awe and caution replace escape urgency. The wider view explains their new surroundings.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A different way out",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S14-SH03.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S14-SH03.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 134
+      }
+    },
+    {
+      "id": "S14-SH04",
+      "sceneId": "S14",
+      "title": "Something noticed",
+      "startFrame": 5112,
+      "endFrameExclusive": 5190,
+      "frames": 78,
+      "seconds": 3.25,
+      "indexes": [
+        "I58"
+      ],
+      "action": "They approach the monumental beaked-ant ancestor statue. Taffy raises the flashlight up it; lights and dormant systems activate around the statue.",
+      "camera": "Huge dignified four-armed ant-bird ancestor statue, tiny pair below. Starter mostly dormant; reveal activation in motion.",
+      "boundaryBasis": "compiled lyric boundary",
+      "status": "generated_pending_user_review",
+      "sourceHandles": {
+        "inFrames": 24,
+        "outFrames": 24
+      },
+      "reviewOverlay": "They approach the monumental beaked-ant ancestor statue. Taffy raises the flashlight up it; lights and dormant systems activate around the statue.",
+      "transitionInProposal": {
+        "type": "cut",
+        "frames": 0,
+        "reason": "Continuous action or a detail/reaction cut.",
+        "status": "proposed_not_applied"
+      },
+      "acting": "Curiosity turns to alert uncertainty. Reveal a response to their presence and end on the unresolved new adventure.",
+      "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+      "sceneName": "A different way out",
+      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S14-SH04.png",
+      "imageUrl": "../../rest-of-song-starters-v037/S14-SH04.png",
+      "revisionLabel": "Retained",
+      "reviewNote": "",
+      "referenceFrameMode": "start",
+      "videoHandles": {
+        "fps": 24,
+        "inFrames": 24,
+        "outFrames": 24,
+        "requestedSourceFrames": 126
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "shotId": "S12-SH06",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v036/S12-SH06.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: illustration-story. Only Harper/Taffy and tiny distant crew. Wide purposeful return through covered salvage lane, camera low behind threequarter partners. Taffy foreground right begins stepping toward approved Harrier motorhome open side hatch in middle distance, Harper just behind left gives low forward beckon while glancing back. Ship is parked with nose recessed radar and missing machinery covers, matching reference not earlier craft, dark gallery among junk. Across sunny lane in far background cream cobalt guard turns to clearance crew ochre tracked tug. Start before partners sprint/board, both feet grounded ready to move, not frozen running climax. They are under cover, route readable.\nShip reference is mandatory geometrical authority. Do not transplant other older ships from port overview into foreground. Landscape16:9.\nCritical correction: ship is concealed deep UNDER A SOLID DARK METAL GALLERY overhang, no cloth sunlight canopy. Camera and both partners also under the dark gallery; use weak warm portable lamp at hatch plus cool reflected daylight. Sunlit central lane and clearance crew ONLY a narrow distant glimpse at far right separated by junk screens. Ship and pair cannot be exposed in the open.",
+  "referenceImages": [
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/world-development/port-ship-v035/ship-front.png",
+    "generated/world-development/port-ship-v028/port-overview.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-c459985a-5bc9-42b7-8916-e5401576264f.png",
+  "attempts": 2,
+  "qa": {
+    "inspected": true,
+    "notes": "Second attempt moved ship/actors under solid dark gallery; approved Harrier nose and hull preserved. Small overhead lights remain in result alongside portable lamp; selected as prelaunch powered-up setting. Distant crew in sunny lane.",
+    "starterIntent": "Setup before primary shot action; preserve forward motion in video direction."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "proposals_pending_review",
+  "grounded": {
+    "port": "generated/world-development/port-ship-v028/port-overview.png",
+    "exterior": "generated/world-development/port-ship-v028/salvage-ship-exterior.png",
+    "interior": "generated/world-development/port-ship-v028/ship-interior-grounded.png",
+    "lighting": "Deep gallery shade, no facility lamps inside salvage recess. Tiny portable work light and occasional flashlight; cockpit off before power-up. Scrap obscures outside sightlines."
+  },
+  "poweredFlight": {
+    "interior": "generated/world-development/port-ship-v025/ship-interior.png",
+    "lighting": "Powered systems and ambient daylight, reference for later flight state."
+  },
+  "geometryAuthority": {
+    "exterior": "generated/world-development/port-ship-v025/ship-exterior.png",
+    "interior": "generated/world-development/port-ship-v025/ship-interior.png"
+  },
+  "notes": [
+    "No change to hull, cockpit seats, starboard hatch or port service-bay layout between lighting states.",
+    "Part comparison v025 governs repair cartridge; generic interior plumbing is not the cartridge authority."
+  ]
+}

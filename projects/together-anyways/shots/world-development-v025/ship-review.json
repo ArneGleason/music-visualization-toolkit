@@ -1,0 +1,28 @@
+{
+  "status": "proposal-awaiting-user-review",
+  "tool": "built-in image_gen",
+  "exterior": "generated/world-development/port-ship-v025/ship-exterior.png",
+  "interior": "generated/world-development/port-ship-v025/ship-interior.png",
+  "styleReference": "generated/storyboard/first-run-starters-v003/ta-003.png",
+  "interiorDesignReference": "generated/world-development/port-ship-v025/ship-exterior.png",
+  "proposedLengthMeters": 7,
+  "observedFeatures": [
+    "Blunt faceted nose and broad low cockpit glazing",
+    "Two side-by-side tan pilot seats",
+    "Starboard doorway directly aft of cockpit, with step",
+    "Twin rear drive pods, side lift sponsons, sturdy landing feet",
+    "Warm worn ivory and muted teal patched metal",
+    "Interior view from aft bay toward cockpit; starboard hatch at camera right",
+    "Low port-side maintenance cabinet, amber warning lamp, central floor access grilles"
+  ],
+  "review": [
+    "Exterior and interior visually inspected; matching materials, cockpit and doorway relationship read well.",
+    "No characters; no generic helicopter rotor or tail boom.",
+    "7m length is a design proposal, not a measured scale or engineering claim.",
+    "Interior uses a wide lens and visually spacious service bay; future blocking should keep this a compact two-person utility craft.",
+    "Mechanical cabinet is illustrative generic plumbing. Use separate cartridge and adapter reference as authority for the repair/failure props, not these cylinders.",
+    "Exterior service opening is shown on starboard whereas interior work cabinet is port. Treat them as distinct maintenance accesses; do not imply they are opposite faces of one housing without a later layout lock.",
+    "Floor grate openings may need targeted staging for the falling cartridge; exact aperture size is not established.",
+    "These are references only, not starter shots; no shotlist, timings or renders modified."
+  ]
+}

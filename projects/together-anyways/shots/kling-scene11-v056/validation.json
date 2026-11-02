@@ -1,0 +1,30 @@
+{
+  "changedShots": [
+    "S11-SH01",
+    "S11-SH02",
+    "S11-SH03",
+    "S11-SH03B",
+    "S11-SH04",
+    "S11-SH05",
+    "S11-SH06"
+  ],
+  "shotCount": 70,
+  "musicalTimingTransitionsStartersAndLocksUnchanged": true,
+  "creditsSpent": 630,
+  "sourceStarts": {
+    "S11-SH01": 24,
+    "S11-SH02": 24,
+    "S11-SH03": 36,
+    "S11-SH03B": 36,
+    "S11-SH04": 40,
+    "S11-SH05": 24,
+    "S11-SH06": 24
+  },
+  "animaticMedia": {
+    "r_frame_rate": "24/1",
+    "duration": "216.250000",
+    "nb_frames": "5190"
+  },
+  "renderComplete": true,
+  "reviewHttpStatus": 200
+}

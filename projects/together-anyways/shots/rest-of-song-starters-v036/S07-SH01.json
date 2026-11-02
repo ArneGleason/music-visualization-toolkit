@@ -1,0 +1,14 @@
+{
+  "id": "S07-SH01",
+  "mode": "built-in image_gen",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nShot S07-SH01. Reference1 Harper identity,2 Taffy identity,3 port geography,4 guardA,5 rendering style. Single medium wide landscape 16:9 starter, camera at shaded relay exit looking into circular transport port. Harper and Taffy BOTH in near left foreground behind waist-high teal machinery, just BEFORE Harper slips out. Harper leans forward assessing a route to right perimeter salvage shadows, hand near cover edge, eyes toward path, confident alert. Taffy low and tense beside her, portly belly, broad ears, burgundy tunic, holding backpack strap. Middle distance right cream/cobalt guard woman checks worker beside barrier, looking away from protagonists toward incoming squat hauler. Curved high wall and rim control tower beyond, dusty sunlit central court, dark salvage gallery right. Clear traversable gap and cover, no pursuit or weapons aimed at them. Preserve age/identities but new head angles/poses not copied reference. Warm bounced light renders their faces naturally, medium scale enough whole posture readable. Starter has not yet crossed the gap.",
+  "references": [
+    "generated/character-development/core-threat-refs-v001/HARPER.png",
+    "generated/character-development/taffy-front-back-v006.png",
+    "generated/world-development/port-ship-v028/port-overview.png",
+    "generated/world-development/port-ship-v028/guard-a.png",
+    "generated/storyboard/first-run-starters-v003/ta-003.png"
+  ],
+  "status": "generated_for_review",
+  "qa": "Inspected identities, hand anatomy and action-ready composition. Await user review."
+}

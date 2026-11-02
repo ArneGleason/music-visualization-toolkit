@@ -1,0 +1,16 @@
+{
+  "shotId": "demolition-machine-reference",
+  "status": "generated_pending_user_review",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/rest-of-song-starters-v037/demolition-machine-reference.png",
+  "prompt": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.\nUse case: stylized-concept. Vehicle reference only, NO CHARACTERS. Create clean landscape16:9 full vehicle threequarter view of exact demolition/clearance machine depicted in upper right TV inset of input1. Extract that machine design into real full-size environment, NOT a TV screen or collage. Broad squat worn ochre tracked industrial vehicle, two continuous dark tracks, low armored box cabin aft left, powerful front hydraulic multi-rib grapple/dozer jaws spanning full width with large rounded outer side plates, two amber beacon lamps, battered panels, exposed pipes. Scale comparable to large industrial bulldozer, no miniature tractor, no tank gun, no wheels replacing tracks. Parked on plain dusty concrete yard, neutral unobtrusive backdrop, readable complete silhouette with generous edges. Realistic illustrated materials, restrained warm desert light. Use TV inset vehicle faithfully rather than inventing vehicle.",
+  "referenceImages": [
+    "generated/storyboard/rest-of-song-starters-v036/S11-SH02.png"
+  ],
+  "sourceImage": "/Users/arnegleason/.codex/generated_images/01a19855-4069-7f90-a48a-aea9807dfaf3/exec-4e2024ac-fda8-4ac5-9d6d-78442b19cd4f.png",
+  "attempts": 1,
+  "qa": {
+    "inspected": true,
+    "notes": "Standalone vehicle reference derived from S11SH02 bulletin inset: large worn ochre continuous-track demolition vehicle, enclosed cabin, broad hydraulic multirib grapple. No character or labels."
+  }
+}

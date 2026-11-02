@@ -1,0 +1,3 @@
+# S10SH01 continuity v053
+
+User rejected end-frame Kling experiment v052 physics. Keep original selected v049 S09SH07/source24. User screenshot is direct continuity authority for angled cartridge, left end low and hollow right end elevated. Built-in ImageGen generated wider shot using original v038 S10SH01 for characters/style only. Both partners hands clear above opening, cartridge intact before crushing. Selected new starter; retain Taffy release-switch mistake and Harper reaction as future motion direction. No new Kling generation authorized in this turn. Timings unchanged: S09SH07 49frames, S10SH01 97frames at24fps.
