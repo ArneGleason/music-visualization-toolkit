@@ -31,6 +31,26 @@ The code favors small Python tools, JSON files, browser interfaces, and FFmpeg.
 Project-specific solutions are retained alongside the more general tools;
 reuse is developing through actual production work.
 
+## Watch the videos
+
+Published results on [Arne Gleason's YouTube channel](https://www.youtube.com/@ArneGleason),
+newest first. These links provide the viewing history even where the finished
+media is not stored in this repository.
+
+| Video | Place in the progression |
+| --- | --- |
+| [Together Anyways](https://www.youtube.com/watch?v=Jj3uao0KMxs) | Latest illustrated narrative video; the EffectCraft-era workflow. |
+| [A Right Little Something](https://www.youtube.com/watch?v=zVzH5lA5wEk) | Illustrated space-travel story with Blender compositing and effects. |
+| [Monsters Undone](https://www.youtube.com/watch?v=im-OR1t64tc) | Generated character performances and Blender-based effects. |
+| [Rivers of Mars](https://www.youtube.com/watch?v=o7IWcoQMUYI) | Current published video; the older vector version documented below was taken off the channel. |
+| [We Be](https://www.youtube.com/watch?v=zOpXSCDKMjM) | Earlier finished video in this project lineage. |
+| [WeeBee video sync test](https://www.youtube.com/watch?v=Eh_dZXSaPPk) | Earlier synchronization experiment, showing the starting point of the progression. |
+
+The project history below runs in the other direction, from the earliest
+surviving work to the latest. Channel titles and links were checked on
+November 3, 2026. The removed Rivers of Mars vector upload is not included
+as a viewing link.
+
 ## Project history
 
 This is the history recoverable from this repository, supplemented by Arne's
@@ -56,12 +76,16 @@ configuration, alternate visual approaches, and repeatable offline rendering.
 **What survives:** [configuration examples](examples/we-be-config/README.md),
 [world/story notes](examples/we-be-config/world/story.md), and shared tools.
 The song, original images, and finished render are absent from this archive.
+Watch [We Be](https://www.youtube.com/watch?v=zOpXSCDKMjM) and the earlier
+[WeeBee video sync test](https://www.youtube.com/watch?v=Eh_dZXSaPPk) for the
+published progression.
 
 ### Rivers of Mars — a complete browser-rendered video
 
-[![Rivers of Mars psychedelic garden scene](docs/images/rivers-of-mars-stills/psychedelic-garden.png)](https://youtu.be/FxzgJe0L55Y)
+![Rivers of Mars archived vector garden scene](docs/images/rivers-of-mars-stills/psychedelic-garden.png)
 
-*Frame from the completed video.*
+*Frame from the archived vector version, which Arne subsequently removed from
+the channel. It is retained here as a record of that rendering experiment.*
 
 The August 2026 checkpoint records a completed 3:23.708 narrative vector video.
 An earlier Bitwig composition, human-written lyrics and vocal direction, a Suno
@@ -79,7 +103,10 @@ and deterministic rendering instead of manually rebuilding the edit.
 **What survives:** renderer code, compact project metadata, selected stills,
 a [register screenshot](docs/images/rivers-of-mars-register.png), and
 [project notes](projects/rivers-of-mars/README.md).
-[Watch the published video](https://youtu.be/FxzgJe0L55Y).
+The [current published Rivers of Mars video](https://www.youtube.com/watch?v=o7IWcoQMUYI)
+is the viewing link. The saved vector production notes describe the earlier
+experiment; they should not be read as a complete production record for that
+current upload.
 
 ### Monsters Undone — illustrated performances and Blender compositing
 
@@ -105,6 +132,7 @@ with authored effects.
 assembly/effect scripts, and an inventory of the original external workspace.
 The full media collection is not in Git.
 See the [handoff](projects/monsters-loose/HANDOFF.md).
+[Watch Monsters Undone](https://www.youtube.com/watch?v=im-OR1t64tc).
 
 ### A Right Little Something — spatial continuity and layered effects
 
@@ -132,12 +160,14 @@ while refining a small part of the edit.
 timing checkpoints, direction notes, and reproducible production scripts.
 See the [V65 handoff](projects/a-right-little-something/PRODUCTION-HANDOFF.md)
 for the saved state; older intake notes describe earlier stages.
+[Watch A Right Little Something](https://www.youtube.com/watch?v=zVzH5lA5wEk).
 
 ### Together Anyways — a lighter compositing workflow
 
 ![Harper and Taffy distracted by a marketplace screen](docs/images/project-history/together-anyways.jpg)
 
 *Frame from the clean 1080p first-draft export.*
+[Watch Together Anyways](https://www.youtube.com/watch?v=Jj3uao0KMxs).
 
 The latest project follows Harper and Taffy through a theft, a salvage-yard
 bargain, and an attempted escape. Early character and setting exploration is
@@ -197,10 +227,10 @@ As of **November 3, 2026**:
 
 | Project | State |
 | --- | --- |
-| Rivers of Mars | Completed and published narrative vector music video. |
-| Monsters Undone | V94 standalone video and 1080p master recorded; selected polish items remain deferred. |
-| A Right Little Something | Accepted V65 working version; further shot refinements recorded in its handoff. |
-| Together Anyways | Complete first video draft: 70 animated shots, 14 scenes, 5,190 frames at 24 fps (3:36.25). Latest animatic and clean 1920×1080 export backed up. Further polish remains possible. |
+| Rivers of Mars | Current video published; the earlier vector experiment remains documented here but its upload was removed. |
+| Monsters Undone | Published; V94 standalone video and 1080p master recorded; selected polish items remain deferred. |
+| A Right Little Something | Published; accepted V65 working version recorded; further shot refinements recorded in its handoff. |
+| Together Anyways | First draft published: 70 animated shots, 14 scenes, 5,190 frames at 24 fps (3:36.25). Latest animatic and clean 1920×1080 export backed up. Further polish remains possible. |
 
 Together Anyways is the most recent production checkpoint. Its
 [continuation notes](projects/together-anyways/CONTINUE-HERE.md) identify the
