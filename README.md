@@ -1,160 +1,180 @@
 # Music Visualization Toolkit
 
-A dependency-light collection of tools for turning a music project into
-frame-accurate animatics, 3D arrangement visualizations, and audio/MIDI-driven
-vector performances.
+A working collection of tools and project records for making music videos.
+It combines musical timing, lyric alignment, visual experiments, shot planning,
+review, and rendering. Some projects use procedural graphics; others use
+illustrated references and generated footage.
 
-This repository began with reusable code from the **We Be** music-video
-project and now includes the completed **Rivers of Mars** narrative-vector
-case study. It deliberately does **not** contain the songs, stems, DAW
-projects, generated clips, or rendered masters.
+This repository is both a reusable toolkit and a production notebook. It is
+not yet a single application with a uniform workflow. The project folders
+record the decisions, experiments, and revisions that shaped the shared tools.
 
-## Completed example: Rivers of Mars
+## Intention
 
-[![Watch Rivers of Mars](projects/rivers-of-mars/thumbnail.png)](https://youtu.be/FxzgJe0L55Y)
+The aim is to keep visual storytelling connected to the music while making
+creative decisions easy to inspect and revise.
 
-[Watch **Rivers of Mars** on YouTube](https://youtu.be/FxzgJe0L55Y), or read
-the [project notes](projects/rivers-of-mars/README.md).
+A song's timing, lyrics, scene boundaries, shot lengths, source trims, and
+transitions should remain explicit. An animatic provides a way to review those
+decisions before committing to finished imagery or paid video generation.
+Generated footage is selected and edited against that structure, rather than
+determining the timing of the song.
 
-The project starts with an earlier Bitwig composition, uses the original track
-plus human-written lyrics and vocal direction to produce a Suno cover, then
-cleans and reworks the separated stems in Bitwig. The completed DAW project
-drives a custom timeline register and browser-based vector renderer: stems,
-MIDI events, pitch, duration, velocity, rhythm, lyrics, scenes, transitions,
-and choreography all remain inspectable inputs rather than being flattened
-into a conventional edit decision list. The public video is the durable media
-artifact; the repository keeps the code and compact project metadata required
-to reproduce it.
+The same foundation supports two approaches:
 
-### Selected frames from the video
+- **Procedural performance:** browser-based vector and 3D scenes driven by
+  stems, MIDI notes, automation, lyrics, and musical structure.
+- **Shot-based storytelling:** character and environment references, starter
+  frames, directed video generations, and frame-accurate assembly.
 
-| Spirograph vocal transition | Psychedelic garden |
-|:--:|:--:|
-| ![Colored mouths moving through a luminous spirograph field](docs/images/rivers-of-mars-stills/spirograph-mouths.png) | ![Vector foliage and performers inside the psychedelic garden](docs/images/rivers-of-mars-stills/psychedelic-garden.png) |
-| River and MIDI currents | Packet in the starfield |
-| ![Layered musical currents flowing through the rivers of Mars](docs/images/rivers-of-mars-stills/river-midi.png) | ![A detached face waiting in a music-responsive starfield](docs/images/rivers-of-mars-stills/packet-starfield.jpg) |
+The code favors small Python tools, JSON files, browser interfaces, and FFmpeg.
+Project-specific solutions are retained alongside the more general tools;
+reuse is developing through actual production work.
 
-### The music-video register
+## How it developed
 
-![Rivers of Mars music-video register](docs/images/rivers-of-mars-register.png)
+**We Be** supplied the original shot-planning and visualization tools.
+[Example configuration](examples/we-be-config/README.md) preserves the shape
+of that workflow without its source media.
 
-The purpose-built register keeps silent master and stem waveforms, timed
-lyrics, scene direction, transitions, choreography, drivers, and production
-notes together on one musical timeline. It became the creative control surface
-for directing the browser renderer scene by scene and cut by cut.
+**Rivers of Mars** developed the narrative vector renderer and music-video
+register. The register connects lyrics, scenes, choreography, transitions,
+and audio/MIDI drivers to a shared musical timeline. The completed video is
+[published on YouTube](https://youtu.be/FxzgJe0L55Y); its
+[project notes](projects/rivers-of-mars/README.md) describe the music provenance,
+rendering process, and design work.
 
-## What is here
+**Monsters Undone**, retained under its working folder name
+[monsters-loose](projects/monsters-loose/HANDOFF.md), developed an illustrated
+character-driven video using generated performances and Blender effects.
+Its records preserve shot selections, compositing work, and a final 1080p
+master. Harper's established identity carries into later projects.
 
-- **Vector stage** — Three.js laser performers driven by stems, notes,
-  automation, lyrics, drum strikes, and tempo-aware section choreography.
-- **3D world** — an alternate Three.js arrangement/world visualization.
-- **Offline renderer** — deterministic Chromium capture with temporal
-  supersampling, ffmpeg encoding, and audio muxing.
-- **Musical timing** — closed-form integration of Bitwig DAWproject linear
-  tempo ramps, plus a MIDI timing fallback.
-- **Music-video pipeline** — shot planning, slates, animatics, prompts,
-  generated-clip ingest, and frame-accurate final assembly.
-- **Storyboard tools** — prompt work orders, galleries, and a timed storyboard
-  animatic.
-- **Timeline register** — a project-scoped, bar-primary editor for lyrics,
-  overlapping scenes, transitions, choreography, and human/AI notes. Editable
-  musical positions compile to deterministic frame edges for renderers; silent
-  master/stem waveform references make musical events easy to locate.
-- **Narrative vector video** — project-aware illustrated scenes that preserve
-  the live browser preview and deterministic, temporally supersampled export
-  pipeline while mapping visible actions to DAW-aligned vocal, drum, bass, and
-  master envelopes.
+**A Right Little Something** extended the illustrated narrative workflow:
+lyric and timing review, character references, Kling footage, Blender work,
+compositing, and repeated editorial passes. Its
+[production handoff](projects/a-right-little-something/PRODUCTION-HANDOFF.md)
+records the accepted V65 save point and remaining refinement work. Some older
+intake notes are historical rather than current instructions.
 
-The code favors small readable Python scripts, JSON interchange files,
-Three.js in the browser, and ffmpeg subprocesses over a large framework.
+**Together Anyways** brought those tools into a full-song caper following
+Harper and Taffy. Work included cast and location design, continuity reviews,
+directed Kling animation, source-frame timing adjustments, camera movement,
+and transitions. Early character and setting studies remain under
+[desert-colony](projects/desert-colony/character-development/README.md).
+The project also established checksum-verified media backups for moving work
+between Windows and macOS.
 
-## Requirements
+## Current status
 
-- Python 3.10+
-- ffmpeg and ffprobe
-- A Chromium-compatible browser installed by Playwright
-- macOS and Windows are tested; system Chrome with D3D11 was used for the
-  final `Rivers of Mars` render on Windows
+As of **November 3, 2026**:
 
-Install the Python environment:
+| Project | State |
+| --- | --- |
+| Rivers of Mars | Completed and published narrative vector music video. |
+| Monsters Undone | V94 standalone video and 1080p master recorded; selected polish items remain deferred. |
+| A Right Little Something | Accepted V65 working version; further shot refinements recorded in its handoff. |
+| Together Anyways | Complete first video draft: 70 animated shots, 14 scenes, 5,190 frames at 24 fps (3:36.25). Latest animatic and clean 1920×1080 export backed up. Further polish remains possible. |
 
-```bash
-bash setup.sh
-```
+Together Anyways is the most recent production checkpoint. Its
+[continuation notes](projects/together-anyways/CONTINUE-HERE.md) identify the
+selected shots, accepted revisions, known caveats, and restore instructions.
+The [current backup release](https://github.com/ArneGleason/music-visualization-toolkit/releases/tag/together-anyways-20261103-v004-stills)
+contains reference media and the two complete video renders.
 
-## Start a project
+The toolkit remains a working repository rather than a packaged library.
+Some scripts still assume a particular project's paths, schema, or visual
+layout. The DAW-driven vector workflow and the generated-footage workflow
+share timing concepts but have different renderers. Existing projects are the
+best examples of how the pieces fit together.
 
-1. Add a final mix at `audio/song.wav`.
-2. Add a Bitwig `*.dawproject` file under `source/` for exact ramped tempo,
-   notes, automation, markers, and stems.
-3. If there is no DAWproject, add `midi/song.mid` and use
-   `tools/beatmap.py` as the timing fallback.
-4. Add bar/beat-marked lyrics at `lyrics/lyrics.md` if needed.
-5. Copy and adapt the lightweight files under `examples/we-be-config/`.
+## Where to look
 
-For a narrative project, create `projects/<slug>/project.json` and
-`timeline.json`, then run `python tools/timeline.py sync
-projects/<slug>/project.json`. See [docs/TIMELINE.md](docs/TIMELINE.md).
+| Location | Purpose |
+| --- | --- |
+| tools/ | Timing, alignment, planning, review, rendering, and media-backup scripts. |
+| projects/ | Project configuration, timelines, shotlists, prompts, production history, and handoff notes. |
+| stage/, world/, video/ | Browser-based vector-stage and 3D visualization work. |
+| examples/we-be-config/ | Lightweight configuration examples from the original project. |
+| docs/ | Focused workflow and implementation guides. |
 
-The vector exporter is currently DAWproject-oriented. A MIDI-only project can
-already use the timing, animatic, and shot tools; extending
-`tools/stage_export.py` with a MIDI-only substrate is the natural next step.
+Useful guides:
 
-## Useful commands
+- [Timeline register](docs/TIMELINE.md): musical positions, lyrics, scenes, and compilation to frame boundaries.
+- [Alignment](docs/ALIGNMENT.md): lyric and timing work.
+- [Narrative video](docs/VIDEO.md): the illustrated browser-rendering workflow.
+- [Frame review](docs/FRAME_REVIEW.md): playback, precise stepping, and review notes.
+- [Exports](docs/EXPORTS.md): rendering and export details.
 
-```bash
-./run.sh timing                  # rebuild and listen to the timing grid
-./run.sh timeline rivers-of-mars # open the annotation register/editor
-./run.sh timelinesync rivers-of-mars # rebuild its DAW grid + compiled register
-./run.sh videopreview             # live illustrated Rivers of Mars scene
-./run.sh videodraft               # fast rendered scene with the master audio
-./run.sh videotest                # selected scene at final render settings
-./run.sh stems                   # extract per-stem spectral envelopes
-./run.sh laser                   # export and open the live vector stage
-./run.sh laserdraft              # quick full-song staging render
-./run.sh lasertest 34 15         # master-quality 15-second test window
-./run.sh laserfinal              # 1080p60, 32x temporal master
-./run.sh world                   # export and open the alternate 3D world
-./run.sh cut                     # render the current shot edit
-```
+Production notes and older generation guides describe the tools and services
+used at the time. They are not guarantees about current service features or pricing.
 
-Run tools through the repository environment rather than activating it:
+## Working principles
 
-```bash
-./.venv/bin/python3 tools/stage_export.py
-```
+- For shot-based edits, the project's shots/shotlist.json is the authority.
+- Derive frame boundaries from the timing grid. Prefer DAWproject timing when
+  continuous tempo ramps matter; MIDI tempo events are discrete steps.
+- Re-plan existing shotlists with tools/shotplan.py --merge to preserve
+  authored creative work.
+- Review the animatic before spending on generated footage.
+- Preserve reference identities, shared prompt locks, selected takes, source
+  in-points, and the reasons for revisions.
+- Keep the review presentation separate from the clean video export.
 
-## Data flow
+## Setup and entry points
 
-```text
-DAWproject / MIDI / mix / lyrics
-              |
-              v
-      timing + musical features
-              |
-       +------+-------+
-       |              |
-       v              v
- vector stage      shot plan
-       |              |
-       v              v
- offline master    animatic / cut
-```
+The core tools use Python 3.10+, FFmpeg, and ffprobe. Browser-rendering tools
+also use Playwright/Chromium. Individual experiments may require additional
+software such as Blender. Workflows have been exercised on macOS and Windows,
+but not every tool has identical setup on both.
 
-Generated data lives in `analysis/`, `stage/data.json`, and `world/data.json`.
-Large media and rendered outputs are ignored by Git. Commit code, small
-configuration, timing metadata when useful, and documentation—not paid or
-regenerable media.
+On macOS or a compatible shell:
 
-## Lightweight example configuration
+    bash setup.sh
 
-`examples/we-be-config/` preserves small shot and world configuration files
-from the project that produced this toolkit. They are examples of shape and
-structure only; the corresponding audio and images are intentionally absent.
+Run Python tools through the repository environment:
 
-## Repository status
+    ./.venv/bin/python3 tools/timeline.py sync projects/<slug>/project.json
 
-This is an extracted working toolkit rather than a packaged library. Some
-tools still assume the directory conventions of the original project. The
-scripts are intentionally straightforward so those assumptions are easy to
-replace as new music-video projects are added.
+On Windows, use .venv/Scripts/python.exe in place of ./.venv/bin/python3.
+For an existing project, read its README or handoff before rebuilding anything.
+For a new project, use the example configuration and
+[timeline guide](docs/TIMELINE.md); supply your own audio and timing inputs.
+
+To review a rendered video:
+
+    ./.venv/bin/python3 tools/frame_review.py --video /absolute/path/video.mp4 --notes /absolute/path/review-notes.json
+
+The original run.sh shortcuts remain available for timing, vector-stage,
+world, and shot-edit workflows. Check their project assumptions before using
+them with another song.
+
+## What Git stores—and what it does not
+
+Git stores code, configuration, shotlists, prompts, notes, and selected compact
+reference assets. Large audio, generated footage, decoded frame caches, and
+renders stay outside Git, usually under ignored generated/ directories.
+
+**A clone alone does not restore a production workspace.** Backup coverage
+varies by project. Rivers of Mars has a published video; A Right Little
+Something and Monsters Undone have handoffs describing their local-media requirements.
+
+Together Anyways has two tracked manifests pointing to versioned GitHub
+Release archives:
+
+- [media-manifest.json](projects/together-anyways/media-manifest.json):
+  reference stills, review boards, audio, and project assets.
+- [render-media-manifest.json](projects/together-anyways/render-media-manifest.json):
+  the latest annotated animatic and clean full-frame 1080p video.
+
+Restore them from the repository root:
+
+    ./.venv/bin/python3 tools/project_media.py restore projects/together-anyways/media-manifest.json
+    ./.venv/bin/python3 tools/project_media.py restore projects/together-anyways/render-media-manifest.json
+
+Restoration checks SHA256 hashes and refuses to overwrite conflicting local
+files. Individual Kling source clips and decoded caches are not included in
+these archives; selected clip recovery URLs are recorded in
+[video-recovery.json](projects/together-anyways/shots/video-recovery.json).
+Earlier backup releases and rejected creative variants are retained so the
+production history remains recoverable.
