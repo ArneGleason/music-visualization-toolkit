@@ -1,0 +1,18 @@
+{
+  "revision": "v059",
+  "shots": [
+    {
+      "id": "ta-015",
+      "status": "selected_for_review",
+      "model": "Kling4.0",
+      "resolution": "1080p",
+      "seconds": 4,
+      "credits": 60,
+      "starter": "generated/storyboard/opening-continuity-v006/ta-015.png",
+      "prompt": "shots/improvements-v059/ta-015.prompt.txt",
+      "sourceInFrame": 0,
+      "resultUrl": "https://kling.ai/app/creations/grid?project=927884373590937657&slotId=946409062751682617&materialId=325641503536862",
+      "source": "generated/improvements-v059/ta-015.mp4"
+    }
+  ]
+}

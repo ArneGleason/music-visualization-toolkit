@@ -1,0 +1,21 @@
+{
+  "shots": [
+    {
+      "id": "S13-SH03",
+      "status": "selected_for_review",
+      "seconds": 6,
+      "credits": 90,
+      "starter": "generated/ascent-wipe-v071/S13-SH03.png",
+      "prompt": "shots/ascent-wipe-v071/S13-SH03.prompt.txt",
+      "sourceInFrame": 24,
+      "resultUrl": "https://kling.ai/app/creations/grid?project=927884373590937657&slotId=946455950386003979&materialId=325652682536832",
+      "reviewNote": "Wide scenic follow; small ship glides forward with landscape dominant. Fore/aft near-side nozzles remain visible in sampled frames. No detached parts. Source24\u2013110 for86frame cut, unchanged.",
+      "media": {
+        "r_frame_rate": "24/1",
+        "duration": "6.041667",
+        "nb_frames": "145"
+      },
+      "localVideo": "generated/ascent-wipe-v071/S13-SH03.mp4"
+    }
+  ]
+}

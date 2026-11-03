@@ -1,0 +1,23 @@
+{
+  "shots": [
+    {
+      "id": "S12-SH04",
+      "status": "selected_for_review",
+      "seconds": 7,
+      "credits": 105,
+      "model": "Kling4.0",
+      "resolution": "1080p",
+      "starter": "generated/storyboard/scene12-controller-v065/S12-SH04.png",
+      "prompt": "shots/kling-tower-v066/S12-SH04.prompt.txt",
+      "sourceInFrame": 24,
+      "resultUrl": "https://kling.ai/app/creations/grid?project=927884373590937657&slotId=946431959297835056&materialId=325646962536842",
+      "reviewNote": "Camera moves forward/right, controller works unaware and moves toward left edge. Green ring nodes sequence then turn amber around source4.5s; armed state readable before cut. Screen geometry remains coherent in sampled frames.",
+      "media": {
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      },
+      "localVideo": "generated/kling-tower-v066/S12-SH04.mp4"
+    }
+  ]
+}

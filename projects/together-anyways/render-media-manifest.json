@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "tag": "together-anyways-20261103-v004-stills",
+  "archive": "together-anyways-20261103-v004-renders.zip",
+  "sha256": "7d533adf4734897c45bb1d49f800222da6969f2480a4b86dfc43bd709930684a",
+  "bytes": 498020994,
+  "files": [
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v001/first-run-clean-animatic-v001.mp4",
+      "bytes": 198920611,
+      "sha256": "2a2875a1b06c011864062359557d8017b0623c9ca5f77f93daa5cce56af88b64"
+    },
+    {
+      "path": "projects/together-anyways/generated/full-video-v072/Together-Anyways-1080p.mp4",
+      "bytes": 299099845,
+      "sha256": "e66671e9428438f4add69adf50ec992911be5d5cd50a9b66e871b1b0bdbf8f86"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/together-anyways-20261103-v004-stills/together-anyways-20261103-v004-renders.zip",
+  "scope": "Latest annotated animatic and full-frame 1080p export; restore with tools/project_media.py restore."
+}

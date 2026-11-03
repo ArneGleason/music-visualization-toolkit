@@ -375,6 +375,12 @@
         "identityReference": "generated/storyboard/first-run-starters-v003/ta-002.png",
         "prompt": "shots/harper-likeness-v007/prompt-02.txt",
         "note": "Built-in ImageGen focused Harper head edit. Take02 selected for review; retains sleeve-pull scene. Existing video and accepted sourceIn36 timing remain selected."
+      },
+      "transitionIn": {
+        "type": "crossfade",
+        "frames": 6,
+        "alignment": "center",
+        "reason": "Brief elapsed time watching television before Harper pulls Taffy away. Preserve source starts and musical cuts."
       }
     },
     {
@@ -1269,24 +1275,25 @@
         "sourceStartMasterFrame": 1364,
         "sourceEndMasterFrameExclusive": 1446,
         "status": "handle_consumed_for_timing",
-        "note": "Scene3 timing trial v017: user requests SH01 source2.5s, SH04 beginning, SH05 earlier (assumed source0). Musical cut unchanged; available handles recorded explicitly.",
+        "note": "v059 retake: long heavy missed step followed by bent-over exhausted stall; Harper gains distance. Source0 selected to include initial lunge and recovery in34frame cut. Head handle consumed as with prior approved timing;63frame tail.",
         "availableInFrames": 0,
-        "availableOutFrames": 63
+        "availableOutFrames": 63,
+        "sourceFrames": 97
       },
       "starterImage": "generated/storyboard/opening-continuity-v006/ta-015.png",
       "starterRevision": "v006",
       "starterReview": "shots/opening-continuity-v006/ta-015.review.json",
       "blockingRevision": "distraction-v004",
       "motionDirection": {
-        "revision": "scene03-motion-direction-v016",
+        "revision": "improvements-v059",
         "status": "generated_for_review",
-        "promptFile": "shots/scene03-motion-direction-v016/ta-015.prompt.txt",
+        "promptFile": "shots/improvements-v059/ta-015.prompt.txt",
         "generationSeconds": 4,
         "plannedSourceInFrame": 24,
         "intent": "Side-route interception misses; Harper accelerates away, Wedge recovers too late.",
         "acting": "Moments later, Harper is already entering the next alley, seen from behind in a different running stride. Wedge, the stocky mustard-vest man in the foreground, has tried to intercept from the side route on camera-right. He lunges across her path a fraction too late: she drives through the remaining gap, pumps her arms and accelerates down the alley before he can close it. During source 1.00\u20132.42s show the near interception turning decisively into a widening gap. He plants, turns and takes a heavy recovery step after her, visibly slower; he does not fall or catch her. The shade worker stays absorbed in ordinary work and does not help either side. Follow Harper from the rear three-quarter angle with a brief forward camera move; retain Wedge at the frame edge long enough to read his failure, then let her gain distance. Preserve screen-left/depth escape direction. Do not repeat the previous shot\u2019s look-back pose, deke or fall. Continue her running through the tail."
       },
-      "videoSource": "generated/kling-scene03-v016/ta-015.mp4",
+      "videoSource": "generated/improvements-v059/ta-015.mp4",
       "videoEdit": {
         "sourceInFrame": 0,
         "zoomStart": 1,
@@ -1299,7 +1306,9 @@
           0.5,
           0.5
         ]
-      }
+      },
+      "motionReviewNote": "v059 retake: long heavy missed step followed by bent-over exhausted stall; Harper gains distance. Source0 selected to include initial lunge and recovery in34frame cut. Head handle consumed as with prior approved timing;63frame tail.",
+      "motionReview": "shots/improvements-v059/batch.json"
     },
     {
       "id": "ta-016",
@@ -3036,7 +3045,7 @@
     {
       "id": "S11-SH01",
       "sceneId": "S11",
-      "title": "Hanging on",
+      "title": "A helpful lesson",
       "startFrame": 3258,
       "endFrameExclusive": 3372,
       "frames": 114,
@@ -3063,7 +3072,7 @@
       "acting": "Growing competence and satisfaction; work is going well.",
       "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
       "sceneName": "The deadline arrives",
-      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S11-SH01.png",
+      "starterImage": "generated/storyboard/scene11-exterior-v061/S11-SH01.png",
       "referenceFrameMode": "start",
       "videoHandles": {
         "fps": 24,
@@ -3075,13 +3084,16 @@
         "sourceStartMasterFrame": 3234,
         "sourceEndMasterFrameExclusive": 3403,
         "status": "generated",
-        "note": "Kling 4 v056; selected motion with at least one second of source handles.",
+        "note": "v062 exterior teaching take; full one-second handles retained.",
         "availableHeadFrames": 24,
-        "availableTailFrames": 31
+        "availableTailFrames": 31,
+        "availableInFrames": 24,
+        "availableOutFrames": 31,
+        "sourceFrames": 169
       },
       "displayId": "S11-SH01",
       "shotNumber": "1",
-      "description": "They run further diagnostics, make useful adjustments and bring the monitor online.",
+      "description": "The scrapper demonstrates an exterior engine adjustment while Harper and Taffy watch and nod.",
       "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
       "starterRevision": "v036",
       "startSeconds": 135.75,
@@ -3090,10 +3102,35 @@
         "type": "cut",
         "frames": 0
       },
-      "videoSource": "generated/kling-scene11-v056/S11-SH01.mp4",
+      "videoSource": "generated/kling-scene11-exterior-v062/S11-SH01.mp4",
       "videoEdit": {
         "sourceInFrame": 24
-      }
+      },
+      "starterCandidate": {
+        "image": "generated/storyboard/scene11-exterior-v061/S11-SH01.png",
+        "status": "selected",
+        "prompt": "shots/scene11-exterior-v061/prompt.txt",
+        "note": "Engine-side close group shot: large hull cropped beyond frame, no door scale cue; scrapper taller than Harper and Taffy as user requested. Four arms. Existing motion and timing unchanged.",
+        "motionPrompt": "shots/scene11-exterior-v061/motion.prompt.txt"
+      },
+      "motionDirectionCandidate": {
+        "status": "generated_selected_for_review",
+        "promptFile": "shots/scene11-exterior-v061/motion.prompt.txt",
+        "generationSeconds": 7,
+        "plannedSourceInFrame": 24,
+        "intent": "Scrapper teaches exterior adjustment; partners watch, understand and nod.",
+        "note": "Approved starter candidate. Existing selected video remains until replacement generated and reviewed."
+      },
+      "motionReview": "shots/kling-scene11-exterior-v062/batch.json",
+      "motionDirection": {
+        "status": "generated_selected_for_review",
+        "promptFile": "shots/scene11-exterior-v061/motion.prompt.txt",
+        "generationSeconds": 7,
+        "plannedSourceInFrame": 24,
+        "intent": "Scrapper teaches exterior adjustment; partners watch, understand and nod.",
+        "note": "Approved starter candidate. Existing selected video remains until replacement generated and reviewed."
+      },
+      "motionReviewNote": "Probe lift/explanation followed by adjustment, green panel, reader check and pleased reaction. Four arms visible in sampled frames; lower arms gesture more than directed. Source24\u2013138 selected,114frames. Review in music context."
     },
     {
       "id": "S11-SH02",
@@ -3666,7 +3703,7 @@
     {
       "id": "S12-SH04",
       "sceneId": "S12",
-      "title": "Set the trap",
+      "title": "An unnoticed override",
       "startFrame": 4033,
       "endFrameExclusive": 4139,
       "frames": 106,
@@ -3675,25 +3712,25 @@
         "L54",
         "I55"
       ],
-      "action": "The guard initially faces their general direction but does not notice or recognize them. He casually turns away and wanders off along a different route. Taffy spots him, quietly warns Harper, and she finishes the live sabotage while keeping inconspicuous.",
-      "camera": "Guard-oriented threat cutaway with warning Taffy and Harper/service terminal in geographical context.",
+      "action": "Inside port traffic control, an unaware controller works while the secondary port-status display responds to Harper\u2019s sabotage and arms an override.",
+      "camera": "Smooth forward/right push from the controller toward the secondary port-status display.",
       "boundaryBasis": "compiled lyric boundary",
       "status": "motion_review",
       "sourceHandles": {
         "inFrames": 24,
         "outFrames": 24
       },
-      "reviewOverlay": "The guard initially faces their general direction but does not notice or recognize them. He casually turns away and wanders off along a different route. Taffy spots him, quietly warns Harper, and she finishes the live sabotage while keeping inconspicuous.",
+      "reviewOverlay": "Inside port traffic control, an unaware controller works while the secondary port-status display responds to Harper\u2019s sabotage and arms an override.",
       "transitionInProposal": {
         "type": "cut",
         "frames": 0,
         "reason": "Continuous action or a detail/reaction cut.",
         "status": "proposed_not_applied"
       },
-      "acting": "Guard is distracted and unaware, not suspicious or pursuing. Taffy reacts to the risk; Harper stays controlled and focused. His turn and departure must read clearly during the shot.",
+      "acting": "Controller remains absorbed in routine traffic; the changing panel reveals the sabotage to the audience.",
       "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
       "sceneName": "Borrow their countdown",
-      "starterImage": "generated/storyboard/rest-of-song-starters-v039/S12-SH04.png",
+      "starterImage": "generated/storyboard/scene12-controller-v065/S12-SH04.png",
       "referenceFrameMode": "start",
       "videoHandles": {
         "fps": 24,
@@ -3705,24 +3742,39 @@
         "sourceStartMasterFrame": 4009,
         "sourceEndMasterFrameExclusive": 4178,
         "status": "generated",
-        "note": "Kling 4 v057; selected motion with at least one second of source handles.",
+        "note": "v066 tower cutaway; full one-second handles retained.",
         "availableHeadFrames": 24,
-        "availableTailFrames": 39
+        "availableTailFrames": 39,
+        "availableInFrames": 24,
+        "availableOutFrames": 39,
+        "sourceFrames": 169
       },
       "displayId": "S12-SH04",
       "shotNumber": "4",
-      "description": "The guard initially faces their general direction but does not notice or recognize them. He casually turns away and wanders off along a different route. Taffy spots him, quietly warns Harper, and she finishes the live sabotage while keeping inconspicuous.",
+      "description": "Inside port traffic control, an unaware controller works while the secondary port-status display responds to Harper\u2019s sabotage and arms an override.",
       "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
-      "starterRevision": "v039",
+      "starterRevision": "v065",
       "startSeconds": 168.04166666666666,
       "endSeconds": 172.45833333333334,
       "transitionIn": {
         "type": "cut",
         "frames": 0
       },
-      "videoSource": "generated/kling-scene12-v057/S12-SH04.mp4",
+      "videoSource": "generated/kling-tower-v066/S12-SH04.mp4",
       "videoEdit": {
         "sourceInFrame": 24
+      },
+      "motionReviewNote": "Camera moves forward/right, controller works unaware and moves toward left edge. Green ring nodes sequence then turn amber around source4.5s; armed state readable before cut. Screen geometry remains coherent in sampled frames.",
+      "starterCandidate": {
+        "image": "generated/storyboard/scene12-controller-v065/S12-SH04.png",
+        "status": "selected",
+        "prompt": "shots/scene12-controller-v065/prompt.txt",
+        "note": "Genetically adapted controller: swept ears, temple sensory ridges, silver hair; bulky reinforced console, seat and articulated display. Right panel graphic retained. Existing video/timing unchanged."
+      },
+      "motionReview": "shots/kling-tower-v066/batch.json",
+      "motionDirection": {
+        "prompt": "shots/kling-tower-v066/S12-SH04.prompt.txt",
+        "status": "generated_selected_for_review"
       }
     },
     {
@@ -3850,7 +3902,7 @@
     {
       "id": "S12-SH07",
       "sceneId": "S12",
-      "title": "Their bad news, our opening",
+      "title": "Port control goes dark",
       "startFrame": 4251,
       "endFrameExclusive": 4286,
       "frames": 35,
@@ -3858,25 +3910,25 @@
       "indexes": [
         "L56"
       ],
-      "action": "The approaching demolition machine rolls forward and crushes or pushes loose debris out of its way.",
-      "camera": "Brief exterior trigger; use the machine from S11SH02 bulletin as vehicle anchor.",
+      "action": "The main tower controls go dark. The controller tries a dead control and looks up in alarm as port control fails.",
+      "camera": "Modest push toward the controller and main console.",
       "boundaryBasis": "start retained; split at DAW bar66 beat1 (178.588185s rounded to24fps)",
-      "status": "approved_starter_animatic",
+      "status": "motion_review",
       "sourceHandles": {
         "inFrames": 24,
         "outFrames": 24
       },
-      "reviewOverlay": "The approaching demolition machine rolls forward and crushes or pushes loose debris out of its way.",
+      "reviewOverlay": "The main tower controls go dark. The controller tries a dead control and looks up in alarm as port control fails.",
       "transitionInProposal": {
         "type": "cut",
         "frames": 0,
         "reason": "Continuous action or a detail/reaction cut.",
         "status": "proposed_not_applied"
       },
-      "acting": "Show its heavy destructive force in this brief cut; the already planted clearance trigger interrupts port control.",
+      "acting": "Sudden alarm as her controls stop responding; urgent attempted input and a startled look up.",
       "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
       "sceneName": "Borrow their countdown",
-      "starterImage": "generated/storyboard/rest-of-song-starters-v037/S12-SH07.png",
+      "starterImage": "generated/storyboard/tower-reaction-v069/S12-SH07.png",
       "referenceFrameMode": "start",
       "videoHandles": {
         "fps": 24,
@@ -3886,21 +3938,46 @@
         "editInSourceFrame": 24,
         "editOutSourceFrameExclusive": 59,
         "sourceStartMasterFrame": 4227,
-        "sourceEndMasterFrameExclusive": 4310,
-        "status": "not_generated",
-        "note": "Still shown at edit startFrame. Starter represents future source lead-in;24frame source handle does not shift still placement."
+        "sourceEndMasterFrameExclusive": 4324,
+        "status": "generated",
+        "note": "v070 tower cutaway; full one-second handles retained.",
+        "availableHeadFrames": 24,
+        "availableTailFrames": 38,
+        "availableInFrames": 24,
+        "availableOutFrames": 38,
+        "sourceFrames": 97
       },
       "displayId": "S12-SH07",
       "shotNumber": "7",
-      "description": "The approaching demolition machine rolls forward and crushes or pushes loose debris out of its way.",
+      "description": "The main tower controls go dark. The controller tries a dead control and looks up in alarm as port control fails.",
       "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
-      "starterRevision": "v037",
+      "starterRevision": "v069",
       "startSeconds": 177.125,
       "endSeconds": 178.58333333333334,
       "transitionIn": {
         "type": "cut",
         "frames": 0
-      }
+      },
+      "starterCandidate": {
+        "image": "generated/storyboard/tower-reaction-v069/S12-SH07.png",
+        "status": "selected",
+        "prompt": "shots/tower-reaction-v069/starter.prompt.txt",
+        "note": "Tower blackout/reaction replaces demolition concept; same controller v065, tighter main-console angle."
+      },
+      "motionDirectionCandidate": {
+        "prompt": "shots/tower-reaction-v069/motion.prompt.txt",
+        "status": "generated_selected_for_review"
+      },
+      "videoSource": "generated/tower-blackout-v070/S12-SH07.mp4",
+      "motionReview": "shots/tower-blackout-v070/batch.json",
+      "videoEdit": {
+        "sourceInFrame": 24
+      },
+      "motionDirection": {
+        "prompt": "shots/tower-blackout-v070/S12-SH07.prompt.txt",
+        "status": "generated_selected_for_review"
+      },
+      "motionReviewNote": "Both radar screens go dark around1.4\u20131.5s; eyes widen, she tries a control and leans toward dead console. Amber button lamps remain lit (partial rather than total power loss). Source24\u201359 includes lit setup, blackout and immediate alarm; later headset gesture outside cut. No reroll."
     },
     {
       "id": "S12-SH07B",
@@ -3975,7 +4052,7 @@
       "indexes": [
         "L57"
       ],
-      "action": "The ship clatters out of the salvage recess, knocking debris aside and shedding a few loose nonessential panels as it lifts.",
+      "action": "The ship lifts and accelerates out of the salvage recess, with ground dust, hull vibration and exhaust strain; all remaining parts stay attached.",
       "camera": "Rough, imperfect departure with readable acceleration, not a graceful hover.",
       "boundaryBasis": "compiled lyric boundary",
       "status": "motion_review",
@@ -3983,7 +4060,7 @@
         "inFrames": 24,
         "outFrames": 24
       },
-      "reviewOverlay": "The ship clatters out of the salvage recess, knocking debris aside and shedding a few loose nonessential panels as it lifts.",
+      "reviewOverlay": "The ship lifts and accelerates out of the salvage recess, with ground dust, hull vibration and exhaust strain; all remaining parts stay attached.",
       "transitionInProposal": {
         "type": "cut",
         "frames": 0,
@@ -4005,13 +4082,16 @@
         "sourceStartMasterFrame": 4317,
         "sourceEndMasterFrameExclusive": 4510,
         "status": "generated",
-        "note": "Kling 4 v058; selected motion with at least one second of source handles.",
+        "note": "v068 attached-hull retake, full24frame handles retained.",
         "availableHeadFrames": 36,
-        "availableTailFrames": 25
+        "availableTailFrames": 25,
+        "availableInFrames": 36,
+        "availableOutFrames": 25,
+        "sourceFrames": 193
       },
       "displayId": "S13-SH01",
       "shotNumber": "1",
-      "description": "The ship clatters out of the salvage recess, knocking debris aside and shedding a few loose nonessential panels as it lifts.",
+      "description": "The ship lifts and accelerates out of the salvage recess, with ground dust, hull vibration and exhaust strain; all remaining parts stay attached.",
       "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
       "starterRevision": "v036",
       "startSeconds": 181.375,
@@ -4020,9 +4100,15 @@
         "type": "cut",
         "frames": 0
       },
-      "videoSource": "generated/kling-ending-v058/S13-SH01.mp4",
+      "videoSource": "generated/ending-refinements-v068/S13-SH01.mp4",
       "videoEdit": {
         "sourceInFrame": 36
+      },
+      "motionReview": "shots/ending-refinements-v068/batch.json",
+      "motionReviewNote": "Lift and forward pass with dust; no detached panels visible in sampled frames. Original source36 retained for132frame edit. Landing gear becomes busier underneath and rear geometry simplifies as camera moves beneath; review caveat, no reroll.",
+      "motionDirection": {
+        "prompt": "shots/ending-refinements-v068/S13-SH01.prompt.txt",
+        "status": "generated_selected_for_review"
       }
     },
     {
@@ -4036,7 +4122,7 @@
       "indexes": [
         "I58"
       ],
-      "action": "The ship struggles upward over the port with intermittent smoke, sputtering and a few loose fragments.",
+      "action": "The ship climbs above the settlement, briefly shuddering with an exhaust puff before continuing; all remaining parts stay attached.",
       "camera": "Climbing wide view tied to opening landmarks; keep faults readable without catastrophic failure yet.",
       "boundaryBasis": "bar 71 beat 1",
       "status": "motion_review",
@@ -4044,7 +4130,7 @@
         "inFrames": 24,
         "outFrames": 24
       },
-      "reviewOverlay": "The ship struggles upward over the port with intermittent smoke, sputtering and a few loose fragments.",
+      "reviewOverlay": "The ship climbs above the settlement, briefly shuddering with an exhaust puff before continuing; all remaining parts stay attached.",
       "transitionInProposal": {
         "type": "cut",
         "frames": 0,
@@ -4054,7 +4140,7 @@
       "acting": "It is gaining height despite strain; ascent remains readable rather than hovering in place.",
       "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
       "sceneName": "Almost away",
-      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S13-SH02.png",
+      "starterImage": "generated/ending-refinements-v068/S13-SH02.png",
       "referenceFrameMode": "start",
       "videoHandles": {
         "fps": 24,
@@ -4066,24 +4152,37 @@
         "sourceStartMasterFrame": 4461,
         "sourceEndMasterFrameExclusive": 4678,
         "status": "generated",
-        "note": "Kling 4 v058; selected motion with at least one second of source handles.",
+        "note": "v068 attached-hull retake, full24frame handles retained.",
         "availableHeadFrames": 24,
-        "availableTailFrames": 47
+        "availableTailFrames": 47,
+        "availableInFrames": 24,
+        "availableOutFrames": 47,
+        "sourceFrames": 217
       },
       "displayId": "S13-SH02",
       "shotNumber": "2",
-      "description": "The ship struggles upward over the port with intermittent smoke, sputtering and a few loose fragments.",
+      "description": "The ship climbs above the settlement, briefly shuddering with an exhaust puff before continuing; all remaining parts stay attached.",
       "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
-      "starterRevision": "v036",
+      "starterRevision": "v068",
       "startSeconds": 186.875,
       "endSeconds": 192.95833333333334,
       "transitionIn": {
-        "type": "cut",
-        "frames": 0
+        "type": "soft_wipe",
+        "frames": 18,
+        "alignment": "center",
+        "direction": "bottom_to_top",
+        "featherFraction": 0.18,
+        "reason": "Upward soft wipe suggests elapsed climb time and carries upward motion between departure and higher flight."
       },
-      "videoSource": "generated/kling-ending-v058/S13-SH02.mp4",
+      "videoSource": "generated/ending-refinements-v068/S13-SH02.mp4",
       "videoEdit": {
         "sourceInFrame": 24
+      },
+      "motionReview": "shots/ending-refinements-v068/batch.json",
+      "motionReviewNote": "Corrected wing/tail separation and two near-side nozzles remain visible. Climb with brief dark exhaust puff; no detached pieces visible in sampled frames. Source24 for146frame edit. Camera holds more of a side-quarter profile than original rear view.",
+      "motionDirection": {
+        "prompt": "shots/ending-refinements-v068/S13-SH02.prompt.txt",
+        "status": "generated_selected_for_review"
       }
     },
     {
@@ -4097,15 +4196,15 @@
       "indexes": [
         "I58"
       ],
-      "action": "The climb steadies and the way ahead appears clear, revisiting the opening landscape from high altitude.",
-      "camera": "Retain approved wide starter; shortened by one beat for the following reaction.",
+      "action": "The small corrected ship flies steadily above the vast desert landscape; scenery remains dominant.",
+      "camera": "Gentle wide aerial follow, no push toward the ship.",
       "boundaryBasis": "bar 72 beat 3",
       "status": "motion_review",
       "sourceHandles": {
         "inFrames": 24,
         "outFrames": 24
       },
-      "reviewOverlay": "The climb steadies and the way ahead appears clear, revisiting the opening landscape from high altitude.",
+      "reviewOverlay": "The small corrected ship flies steadily above the vast desert landscape; scenery remains dominant.",
       "transitionInProposal": {
         "type": "cut",
         "frames": 0,
@@ -4115,7 +4214,7 @@
       "acting": "A brief release of tension: they seem to be making it away. Do not trigger the decisive failure until the next shot.",
       "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
       "sceneName": "Almost away",
-      "starterImage": "generated/storyboard/rest-of-song-starters-v036/S13-SH03.png",
+      "starterImage": "generated/ascent-wipe-v071/S13-SH03.png",
       "referenceFrameMode": "start",
       "videoHandles": {
         "fps": 24,
@@ -4127,25 +4226,40 @@
         "sourceStartMasterFrame": 4607,
         "sourceEndMasterFrameExclusive": 4752,
         "status": "generated",
-        "note": "Kling 4 v058; selected motion with at least one second of source handles.",
+        "note": "v071 wide flight; full one-second handles retained.",
         "availableHeadFrames": 24,
-        "availableTailFrames": 35
+        "availableTailFrames": 35,
+        "availableInFrames": 24,
+        "availableOutFrames": 35,
+        "sourceFrames": 145
       },
       "displayId": "S13-SH03",
       "shotNumber": "3",
-      "description": "The climb steadies and the way ahead appears clear, revisiting the opening landscape from high altitude.",
+      "description": "The small corrected ship flies steadily above the vast desert landscape; scenery remains dominant.",
       "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
-      "starterRevision": "v036",
+      "starterRevision": "v071",
       "startSeconds": 192.95833333333334,
       "endSeconds": 196.54166666666666,
       "transitionIn": {
         "type": "cut",
         "frames": 0
       },
-      "videoSource": "generated/kling-ending-v058/S13-SH03.mp4",
+      "videoSource": "generated/ascent-wipe-v071/S13-SH03.mp4",
       "videoEdit": {
         "sourceInFrame": 24
-      }
+      },
+      "starterCandidate": {
+        "image": "generated/ascent-wipe-v071/S13-SH03.png",
+        "status": "selected",
+        "prompt": "shots/ascent-wipe-v071/S13-SH03.starter.prompt.txt",
+        "note": "Distant ship corrected against v035/v068 geometry; foreground and aft near-side nozzles distinct, scenery-led wide composition preserved. Existing motion remains until replacement generated."
+      },
+      "motionReview": "shots/ascent-wipe-v071/batch.json",
+      "motionDirection": {
+        "prompt": "shots/ascent-wipe-v071/S13-SH03.prompt.txt",
+        "status": "generated_selected_for_review"
+      },
+      "motionReviewNote": "Wide scenic follow; small ship glides forward with landscape dominant. Fore/aft near-side nozzles remain visible in sampled frames. No detached parts. Source24\u2013110 for86frame cut, unchanged."
     },
     {
       "id": "S13-SH04",
@@ -4383,8 +4497,13 @@
       "startSeconds": 205.83333333333334,
       "endSeconds": 209.41666666666666,
       "transitionIn": {
-        "type": "cut",
-        "frames": 0
+        "type": "impact_blackout",
+        "whiteRiseFrames": 21,
+        "whiteFallFrames": 4,
+        "blackHoldFrames": 4,
+        "revealFrames": 14,
+        "reason": "Longer crash buildup begins at shot-relative frame48 (2.0s): sustained jolt and white rise through final21frames. Existing white-to-black, black hold and slower cabin reveal retained.",
+        "shakeFrames": 21
       },
       "videoSource": "generated/kling-ending-v058/S14-SH02.mp4",
       "videoEdit": {

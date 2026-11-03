@@ -1,0 +1,62 @@
+{
+  "id": "S11-SH01",
+  "sceneId": "S11",
+  "title": "Hanging on",
+  "startFrame": 3258,
+  "endFrameExclusive": 3372,
+  "frames": 114,
+  "seconds": 4.75,
+  "indexes": [
+    "L42",
+    "I43"
+  ],
+  "action": "They run further diagnostics, make useful adjustments and bring the monitor online.",
+  "camera": "Interior medium-wide; power-up occurs on the ground.",
+  "boundaryBasis": "compiled lyric boundary",
+  "status": "motion_review",
+  "sourceHandles": {
+    "inFrames": 24,
+    "outFrames": 24
+  },
+  "reviewOverlay": "They run further diagnostics, make useful adjustments and bring the monitor online.",
+  "transitionInProposal": {
+    "type": "cut",
+    "frames": 0,
+    "reason": "Power-up becomes the shuddering cockpit test and news interruption.",
+    "status": "proposed_not_applied"
+  },
+  "acting": "Growing competence and satisfaction; work is going well.",
+  "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+  "sceneName": "The deadline arrives",
+  "starterImage": "generated/storyboard/rest-of-song-starters-v036/S11-SH01.png",
+  "referenceFrameMode": "start",
+  "videoHandles": {
+    "fps": 24,
+    "inFrames": 24,
+    "outFrames": 24,
+    "requestedSourceFrames": 162,
+    "editInSourceFrame": 24,
+    "editOutSourceFrameExclusive": 138,
+    "sourceStartMasterFrame": 3234,
+    "sourceEndMasterFrameExclusive": 3403,
+    "status": "generated",
+    "note": "Kling 4 v056; selected motion with at least one second of source handles.",
+    "availableHeadFrames": 24,
+    "availableTailFrames": 31
+  },
+  "displayId": "S11-SH01",
+  "shotNumber": "1",
+  "description": "They run further diagnostics, make useful adjustments and bring the monitor online.",
+  "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+  "starterRevision": "v036",
+  "startSeconds": 135.75,
+  "endSeconds": 140.5,
+  "transitionIn": {
+    "type": "cut",
+    "frames": 0
+  },
+  "videoSource": "generated/kling-scene11-v056/S11-SH01.mp4",
+  "videoEdit": {
+    "sourceInFrame": 24
+  }
+}

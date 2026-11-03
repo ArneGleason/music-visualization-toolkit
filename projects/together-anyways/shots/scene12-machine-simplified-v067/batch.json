@@ -1,0 +1,19 @@
+{
+  "shots": [
+    {
+      "id": "S12-SH07",
+      "status": "failed_refunded_still_retained",
+      "seconds": 4,
+      "credits": 60,
+      "model": "Kling4.0",
+      "resolution": "1080p",
+      "starter": "generated/storyboard/rest-of-song-starters-v037/S12-SH07.png",
+      "prompt": "shots/scene12-machine-simplified-v067/S12-SH07.prompt.txt",
+      "sourceInFrame": 24,
+      "creditsRefunded": 60,
+      "netCredits": 0,
+      "resultUrl": "https://kling.ai/app/creations/grid?project=927884373590937657&slotId=946437508282974283&materialId=325648285310854",
+      "reason": "Generation failed because the generated content contains sensitive information. Credits have been refunded."
+    }
+  ]
+}

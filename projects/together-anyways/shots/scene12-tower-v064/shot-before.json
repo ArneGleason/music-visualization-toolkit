@@ -1,0 +1,66 @@
+{
+  "id": "S12-SH04",
+  "sceneId": "S12",
+  "title": "Set the trap",
+  "startFrame": 4033,
+  "endFrameExclusive": 4139,
+  "frames": 106,
+  "seconds": 4.416666666666667,
+  "indexes": [
+    "L54",
+    "I55"
+  ],
+  "action": "The guard initially faces their general direction but does not notice or recognize them. He casually turns away and wanders off along a different route. Taffy spots him, quietly warns Harper, and she finishes the live sabotage while keeping inconspicuous.",
+  "camera": "Guard-oriented threat cutaway with warning Taffy and Harper/service terminal in geographical context.",
+  "boundaryBasis": "compiled lyric boundary",
+  "status": "motion_review",
+  "sourceHandles": {
+    "inFrames": 24,
+    "outFrames": 24
+  },
+  "reviewOverlay": "The guard initially faces their general direction but does not notice or recognize them. He casually turns away and wanders off along a different route. Taffy spots him, quietly warns Harper, and she finishes the live sabotage while keeping inconspicuous.",
+  "transitionInProposal": {
+    "type": "cut",
+    "frames": 0,
+    "reason": "Continuous action or a detail/reaction cut.",
+    "status": "proposed_not_applied"
+  },
+  "acting": "Guard is distracted and unaware, not suspicious or pursuing. Taffy reacts to the risk; Harper stays controlled and focused. His turn and departure must read clearly during the shot.",
+  "motionPrinciple": "Natural-speed motivated action with a changed end pose; camera supports the actor objective. Keep the main beat inside the edit, with24frame handles each side.",
+  "sceneName": "Borrow their countdown",
+  "starterImage": "generated/storyboard/rest-of-song-starters-v039/S12-SH04.png",
+  "referenceFrameMode": "start",
+  "videoHandles": {
+    "fps": 24,
+    "inFrames": 24,
+    "outFrames": 24,
+    "requestedSourceFrames": 154,
+    "editInSourceFrame": 63,
+    "editOutSourceFrameExclusive": 169,
+    "sourceStartMasterFrame": 3970,
+    "sourceEndMasterFrameExclusive": 4139,
+    "status": "tail_handle_consumed_for_timing",
+    "note": "User requests latest possible start to reduce guard presence. Source63\u2013169 uses final106frames. No tail handle remains. Musical cut unchanged.",
+    "availableHeadFrames": 63,
+    "availableTailFrames": 0,
+    "availableInFrames": 63,
+    "availableOutFrames": 0,
+    "sourceFrames": 169
+  },
+  "displayId": "S12-SH04",
+  "shotNumber": "4",
+  "description": "The guard initially faces their general direction but does not notice or recognize them. He casually turns away and wanders off along a different route. Taffy spots him, quietly warns Harper, and she finishes the live sabotage while keeping inconspicuous.",
+  "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+  "starterRevision": "v039",
+  "startSeconds": 168.04166666666666,
+  "endSeconds": 172.45833333333334,
+  "transitionIn": {
+    "type": "cut",
+    "frames": 0
+  },
+  "videoSource": "generated/kling-scene12-v057/S12-SH04.mp4",
+  "videoEdit": {
+    "sourceInFrame": 63
+  },
+  "motionReviewNote": "v063 timing trial: sourceIn63 (2.625s), previously24 (1s); only a blurred guard edge remains at opening; face/body largely gone. Uses final106source frames, no tail handle. No regeneration."
+}

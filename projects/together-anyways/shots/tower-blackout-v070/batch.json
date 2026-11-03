@@ -1,0 +1,21 @@
+{
+  "shots": [
+    {
+      "id": "S12-SH07",
+      "status": "selected_for_review",
+      "seconds": 4,
+      "credits": 60,
+      "starter": "generated/storyboard/tower-reaction-v069/S12-SH07.png",
+      "prompt": "shots/tower-blackout-v070/S12-SH07.prompt.txt",
+      "sourceInFrame": 24,
+      "resultUrl": "https://kling.ai/app/creations/grid?project=927884373590937657&slotId=946449708666077270&materialId=325651194532640",
+      "reviewNote": "Both radar screens go dark around1.4\u20131.5s; eyes widen, she tries a control and leans toward dead console. Amber button lamps remain lit (partial rather than total power loss). Source24\u201359 includes lit setup, blackout and immediate alarm; later headset gesture outside cut. No reroll.",
+      "media": {
+        "r_frame_rate": "24/1",
+        "duration": "4.041667",
+        "nb_frames": "97"
+      },
+      "localVideo": "generated/tower-blackout-v070/S12-SH07.mp4"
+    }
+  ]
+}

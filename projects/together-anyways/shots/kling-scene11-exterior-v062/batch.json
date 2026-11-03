@@ -1,0 +1,24 @@
+{
+  "revision": "v062",
+  "shots": [
+    {
+      "id": "S11-SH01",
+      "status": "selected_for_review",
+      "model": "Kling4.0",
+      "resolution": "1080p",
+      "seconds": 7,
+      "credits": 105,
+      "starter": "generated/storyboard/scene11-exterior-v061/S11-SH01.png",
+      "prompt": "shots/scene11-exterior-v061/motion.prompt.txt",
+      "sourceInFrame": 24,
+      "resultUrl": "https://kling.ai/app/creations/grid?project=927884373590937657&slotId=946419515481534526&materialId=325643996523041",
+      "reviewNote": "Probe lift/explanation followed by adjustment, green panel, reader check and pleased reaction. Four arms visible in sampled frames; lower arms gesture more than directed. Source24\u2013138 selected,114frames. Review in music context.",
+      "media": {
+        "r_frame_rate": "24/1",
+        "duration": "7.041667",
+        "nb_frames": "169"
+      },
+      "localVideo": "generated/kling-scene11-exterior-v062/S11-SH01.mp4"
+    }
+  ]
+}

@@ -1,6 +1,75 @@
 # Together Anyways: continue on either computer
 
-## Current checkpoint — First draft accepted; paused November 2, 2026
+## Safety backup — November 3, 2026
+
+The v072 full-frame export and latest annotated animatic are preserved together in a separate render archive, in addition to the reference-media snapshot. Restore both after pulling on another computer:
+
+```sh
+./.venv/bin/python3 tools/project_media.py restore projects/together-anyways/media-manifest.json
+./.venv/bin/python3 tools/project_media.py restore projects/together-anyways/render-media-manifest.json
+```
+
+Release: together-anyways-20261103-v004-stills. Reference media and render archives have individual file SHA256 hashes in their manifests. Earlier releases remain intact. Individual Kling source clips are still excluded from the media snapshot, as previously agreed; selected clip recovery URLs remain in shots/video-recovery.json. The render archive holds the two complete review/export videos requested, not all intermediate MP4 variants.
+
+## Current checkpoint — Full-frame video export v072
+
+User accepts first draft and requests full1080p video without animatic overlays, only small closing title and copyright. Export completed: generated/full-video-v072/Together-Anyways-1080p.mp4 (1920×1080,24fps,5190frames,216.25s,H.264 CRF18,AAC320k,299MB). Same70shots,source trims,musical timing,camera adjustments,transitions. Shotlist byte-identical. Artwork fills16:9 preserving aspect ratio; no review matte,lyrics,indices,timecodes. Final3seconds show centered small ivory Together Anyways above smaller copyright Arne Gleason 2026;12frame fade-in. Existing review animatic remains unchanged. Reusable tools/shot_video_render.py plus opt-in Artwork full_frame mode;8tests pass. Export manifest next tovideo; notes,source snapshot,validation in shots/full-video-v072. Encoded samples checked including upwardwipe,crash white/black/reveal,endcredit.
+
+## Previous checkpoint — Upward ascent wipe and corrected wide ship v071
+
+User requests soft-edged upward wipe S13SH01→02, sense of elapsed climb; S13SH03 corrected aircraft geometry but keep small distant ship/scenery focus, no push-in. Applied18frame/.75s centered bottom_to_top soft wipe, feather.18; uses existing handles without moving cuts. Added vertical wipe support to animatic_media,6transition tests pass; actual wipe preview reviewed. Cut intoSH03 remains direct. Built-in ImageGen corrected distant ship using v035 front and v068SH02; near-side forward/aft nozzles restored, mainwing/tailplanes distinct, original panoramic layout preserved. Starter generated/ascent-wipe-v071/S13-SH03.png.6s1080pKling4 retake completed90credits, no retries; source24–110 selected for86frames. Wide scenic framing and near-side nozzle pair retained in sampled frames. Previous video preserved; recovery URL updated. Full animatic with wipe and replacementSH03 completed and verified5190frames,24fps,216.25s. Await user review. All earlier shots and crash timing unchanged. Notes/prompts/backups/batch/assembly in shots/ascent-wipe-v071; review generated/ascent-wipe-v071/review.html.
+
+## Previous checkpoint — Tower blackout motion and longer crash v070
+
+User approved v069 tower starter and authorized motion; requested S14SH01 shaking/white fade start2.0s into shot. One4s1080p Kling4 take completed60credits, no reroll. Main/aux screens go dark around1.4–1.5s; controller startles, tries controls, later headset gesture. Amber buttons remain illuminated, so partial control-system failure rather than total blackout. Source24–59 for unchanged35frame cut includes screen failure and immediate alarm. Replaces final demolition still; all70shots now have video. Prior still and references retained. New recovery record added for S12SH07. Review generated/tower-blackout-v070/review.html; prompt/batch/assembly/backups in shots/tower-blackout-v070.
+
+Crash whiteRiseFrames8→21; starts localframe48/2.0s in69frameS14SH01. Sustained shakeFrames21, rather than initial brief jolt. White-to-black4, blackhold4, reveal14 unchanged. Timing/source trims unchanged.5transition tests and actual endpoint preview pass. OnlyS12SH07 selection and S14SH02 transition changed; all shot boundaries/locks retained. Full animatic rebuilt and verified5190frames,24fps,216.25s. Await user review.
+
+## Previous checkpoint — Tower reaction starter v069
+
+User accepts v068 crash transition and new shots; flags S13SH03 missing forward nozzle for future touch-up (not regenerated). Chooses tower reaction replacing rejected S12SH07 machine: controls go dark, same controller panics. Built-in ImageGen uses v065 direct reference; closer main-console/face view preserves silver hair, ears/ridges, cream/cobalt outfit and equipment. Starter generated/storyboard/tower-reaction-v069/S12-SH07.png; comparison review.html alongside. Prompt and motion draft in shots/tower-reaction-v069. Candidate registered pending review; existing still/animatic unchanged. Proposed4s motion with blackout and immediate alarm inside source1–2.458s (35frame cut). No Kling submitted. S13SH03 geometry touch-up remains a note, not selected work.
+
+## Previous checkpoint — Ending refinements v068
+
+User requests S13SH01 same starter, no detached parts; S13SH02 corrected rear ship geometry and no detached parts; S13SH03–05 and S14SH01 accepted. Wants S14SH01→02 crash jolt, fade white, black, slower cabin reveal. Built-in ImageGen corrected S13SH02 using v035 rear/front references: distinct main wing/tailplanes, two near-side nozzles, closed door/retracted gear. Result more side-quarter, preserved landscape. Two Kling4 1080p takes8/9s completed,120+135=255credits, no rerolls. Source36 for132frameSH01; source24 for146frameSH02. Both show attached hull; SH01 landing gear becomes busier and rear geometry simplifies on underside pass, flagged for review. SH02 retains near-side nozzle pair with smoke puff. Previous takes/render preserved.
+
+Added impact_blackout transition in tools/animatic_media.py: last8frames outgoing jolt/rise white; first4incoming white→black,4black hold,14smooth reveal. Uses existing source timing, no freeze or music shifts. Taffy still slumped during reveal, recovery preserved.5transition tests pass plus actual preview endpoint checks. Only S13SH01/S13SH02 selections and S14SH02 transition changed; locks and all musical boundaries unchanged. Full animatic rebuilt and verified5190frames,24fps,216.25s. Await user review. Review generated/ending-refinements-v068/review.html includes impact preview, new starter and clean takes. Prompts/batch/assembly/previous shotlist in shots/ending-refinements-v068. Recovery URLs updated. No demolition retry; S12SH07 still remains.
+
+## Previous checkpoint — Machine push-in v067 failed/refunded
+
+User authorized simplified S12SH07 motion: slight forward creep, raised attachment, low camera push-in, unchanged35frame edit. One4s1080p Kling4 generation submitted for60credits; rejected with generated sensitive information message and refunded. Net0credits. No reroll submitted. Original still and full animatic unchanged (shotlist verified byte-identical to prior snapshot). Prompt/batch/failure URL in shots/scene12-machine-simplified-v067; proof and prior animatic in generated/kling-machine-v067. Simplification did not establish rejection cause; do not claim a specific trigger. Await user next direction.
+
+## Previous checkpoint — Tower cutaway motion v066
+
+User approved v065 adapted controller starter and requested camera push toward right display connecting Harper’s sabotage. One7s1080p Kling4 take generated for105credits, no retries. Downloaded/reviewed/selected S12SH04 source24–130 for106frame musical cut, with24head/39tail frames. Camera moves right/forward as green nodes sequence then turn amber around4.5s, controller unaware. No full shutdown; armed state precedes Harper SH05. Review generated/kling-tower-v066/review.html; prompts, batch receipt, prior shotlist and assembly in shots/kling-tower-v066. Prior media/render preserved. Recovery URL updated. Full animatic rebuilt and verified5190frames,24fps,216.25s. OnlyS12SH04 changed; all musical boundaries/transitions/prompt locks preserved. Await user review.
+
+## Previous checkpoint — Adapted controller starter v065
+
+User liked tower panel but requested more striking genetically adapted controller and heavier/bulkier interesting setting. Built-in ImageGen v065 adds swept ears, temple sensory ridges and silver hair, reinforced padded seat, heavy console housings and articulated auxiliary monitor; retains right-hand status graphics. Candidate generated/storyboard/scene12-controller-v065/S12-SH04.png, review.html alongside; prompt and prior metadata shots/scene12-controller-v065. Pending user review; previousv064 retained. Existing animatic/video/source63 timing unchanged. No Kling submitted.
+
+## Previous checkpoint — Scene12 traffic-control starter v064
+
+User finds terminal sequence repetitive; requested S12SH04 tower interior cutaway explaining sabotage effect. Built-in ImageGen starter generated/storyboard/scene12-tower-v064/S12-SH04.png, review.html alongside; prompt/previous shot in shots/scene12-tower-v064. Controller unaware at main console; prominent separate panel matches outdoor ring/node glyph motif and shows port perimeter controls beginning an override sequence. Window overlooks circular port. Intended motion: nodes sequence then pending amber shutdown state; actual shutdown remains later, linked to demolition trigger. Cut back to Harper inSH05. Registered starterCandidate pending user review. No Kling submitted; existing v057/source63 motion and106frame timing unchanged.
+
+## Previous checkpoint — Scene12 guard timing v063
+
+User requests latest possible S12SH04 source start to minimize guard presence before considering redo. SourceIn24→63 (1.0→2.625s), uses final106frames ending169exclusive. Only a blurred sliver of guard remains at far left in exact new start; face/body largely gone, clears shortly afterward. Same master4033–4139 and4.4167s play length. Entire tail handle consumed; head63frames; adjacent transitions cuts. No regeneration or credits. Prior shotlist/render preserved in shots/scene12-guard-timing-v063 and generated/scene12-guard-timing-v063. Recovery source trim updated. Animatic rebuilt and verified5190frames,24fps,216.25s. Await timing review.
+
+## Previous checkpoint — Scene11 exterior teaching motion v062
+
+User authorized Kling generation from approved v061 close engine-side starter. One7s1080p Kling4 take completed/downloaded,105credits. Selected source24–138 for unchanged114frame musical cut (4.75s);24frame head,31frame tail. Scrapper lifts probe to explain, returns to connector, panel turns green, Taffy checks reader, Harper pleased. Four arms visible in samples; lower arms gesture more than directed. Previous interior take preserved. Review generated/kling-scene11-exterior-v062/review.html; receipt/assembly/prior shotlist in shots/kling-scene11-exterior-v062. Recovery URL updated. Full animatic rebuilt and validated:5190frames,24fps,216.25s; onlyS11SH01 changed, all timings/transitions/locks preserved. Await user review.
+
+## Previous checkpoint — Scene11 exterior starter v061
+
+User requested S11SH01 replacement: scrapper helps with an exterior ship repair before news/arrest, Taffy holds diagnostic reader. Rejected v060 whole-ship framing because ship/door too small and scrapper too short. New v061 close engine-side composition shows only huge cropped hull/service panel, scrapper taller than Harper and Taffy, four arms. Built-in ImageGen candidate generated/storyboard/scene11-exterior-v061/S11-SH01.png and review.html; prompt in shots/scene11-exterior-v061. User approved v061 starter. Teaching direction authored in shots/scene11-exterior-v061/motion.prompt.txt: scrapper points and demonstrates repair, Harper and Taffy watch and nod, reader confirms adjustment.7s planned source, source24 for114frame cut. Registered approved starterCandidate and ready_not_submitted motionDirectionCandidate. Existing selected starter, video and114frame timing unchanged. Kling motion v062 authorized and submitted: one7s1080p take105credits with approved teaching prompt. Receipt shots/kling-scene11-exterior-v062/batch.json. Await completion/download/review; do not duplicate. Prior v060 images retained unselected. User height relationship supersedes earlier164cm scrapper proposal.
+
+## Previous checkpoint — Improvement pass v059
+
+S01SH05→06 now has a6frame centered cross-dissolve; source starts and musical timing unchanged. S03SH04 retake completed for60credits, same starter, with longer exhausted pursuer recovery; source0 retained for34frame cut, head handle consumed,63frame tail. Selected for user review. Full animatic rebuilt and verified:70shots,5190frames,24fps,216.25s. Only S01SH06 transition and S03SH04 motion metadata changed. Old take and pre-pass animatic preserved in generated/improvements-v059; prompts and receipt in shots/improvements-v059; recovery URL updated.
+
+Cartridge electrical-failure candidate rejected by user: wide view changes the space too much. Original S09SH06/07 and S10SH01 remain completely unchanged. User elects to move on; no additional cartridge generation. If revisited, change camera angle substantially or isolate the device without the characters. Candidate image retained unselected.
+
+## Previous checkpoint — First draft accepted; paused November 2, 2026
 
 User reviewed the full first draft and accepts it as the baseline. Production is paused until the user returns (expected tonight). Next phase is improvement passes this week: distinguish must-fix problems from optional improvements, gather the user's shot-specific notes, then revise targeted shots. Do not proactively spend credits or launch more generations while paused. Last verified Kling balance3432credits after the855credit ending pass.
 

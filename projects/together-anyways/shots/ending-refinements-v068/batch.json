@@ -1,0 +1,38 @@
+{
+  "shots": [
+    {
+      "id": "S13-SH01",
+      "status": "selected_for_review",
+      "seconds": 8,
+      "credits": 120,
+      "sourceInFrame": 36,
+      "starter": "generated/storyboard/rest-of-song-starters-v036/S13-SH01.png",
+      "prompt": "shots/ending-refinements-v068/S13-SH01.prompt.txt",
+      "resultUrl": "https://kling.ai/app/creations/grid?project=927884373590937657&slotId=946442058259120204&materialId=325649370316648",
+      "reviewNote": "Lift and forward pass with dust; no detached panels visible in sampled frames. Original source36 retained for132frame edit. Landing gear becomes busier underneath and rear geometry simplifies as camera moves beneath; review caveat, no reroll.",
+      "localVideo": "generated/ending-refinements-v068/S13-SH01.mp4",
+      "media": {
+        "r_frame_rate": "24/1",
+        "duration": "8.041667",
+        "nb_frames": "193"
+      }
+    },
+    {
+      "id": "S13-SH02",
+      "status": "selected_for_review",
+      "seconds": 9,
+      "credits": 135,
+      "sourceInFrame": 24,
+      "starter": "generated/ending-refinements-v068/S13-SH02.png",
+      "prompt": "shots/ending-refinements-v068/S13-SH02.prompt.txt",
+      "resultUrl": "https://kling.ai/app/creations/grid?project=927884373590937657&slotId=946442385205755949&materialId=325649448528629",
+      "reviewNote": "Corrected wing/tail separation and two near-side nozzles remain visible. Climb with brief dark exhaust puff; no detached pieces visible in sampled frames. Source24 for146frame edit. Camera holds more of a side-quarter profile than original rear view.",
+      "localVideo": "generated/ending-refinements-v068/S13-SH02.mp4",
+      "media": {
+        "r_frame_rate": "24/1",
+        "duration": "9.041667",
+        "nb_frames": "217"
+      }
+    }
+  ]
+}
