@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/character-development"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/character-development/april-bloom-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/april-bloom-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/april-bloom-reference-v003.png",
+    "projects/let-the-phone-book-sing/generated/character-development/belle-bell-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/belle-bell-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/character-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/courtyard-couple-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v003.png",
+    "projects/let-the-phone-book-sing/generated/character-development/may-bloom-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/may-bloom-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/may-bloom-reference-v003.png",
+    "projects/let-the-phone-book-sing/generated/character-development/patience-wait-reference-v001.png"
+  ],
+  "scope": "Approved May Bloom character reference v004 only; incremental to previous approved checkpoints.",
+  "tag": "let-the-phone-book-sing-approved-20261108-v004",
+  "archive": "let-the-phone-book-sing-approved-20261108-v004.zip",
+  "sha256": "570f55f4fa8cf92b7fd00f2e123f3690841ff6a6c0573d64827596efe5437426",
+  "bytes": 2813234,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/may-bloom-reference-v004.png",
+      "bytes": 2848063,
+      "sha256": "86344582613a839a50b6d9e3e52c075fce8ce7be978d5a8864b31af8f0cb5af8"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v004/let-the-phone-book-sing-approved-20261108-v004.zip"
+}
