@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/scene-development"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/scene-development/april-bloom-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/belle-bell-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/liberty-bell-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v003.png"
+  ],
+  "scope": "Approved May appliance-repair scene v004 only; supersedes unapproved florist scenes.",
+  "tag": "let-the-phone-book-sing-approved-20261108-v005",
+  "archive": "let-the-phone-book-sing-approved-20261108-v005.zip",
+  "sha256": "fdd3dc612815406de39283e85a24db499c9d3cc4f768605d5e22901d505f13a8",
+  "bytes": 2483398,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v004.png",
+      "bytes": 2513706,
+      "sha256": "e4da80f2de753d75bd3fb0e7726ed6532f600fe8f5b97d61801eda0ce4631ec9"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v005/let-the-phone-book-sing-approved-20261108-v005.zip"
+}
