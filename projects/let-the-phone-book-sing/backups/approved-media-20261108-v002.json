@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/character-development"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/character-development/april-bloom-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/april-bloom-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/belle-bell-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/belle-bell-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/character-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/courtyard-couple-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v003.png",
+    "projects/let-the-phone-book-sing/generated/character-development/patience-wait-reference-v001.png"
+  ],
+  "scope": "Approved April Bloom reference v003 only. Incremental to approved checkpoint v001 and base handoff.",
+  "baseManifest": "projects/let-the-phone-book-sing/backups/approved-media-20261108-v001.json",
+  "tag": "let-the-phone-book-sing-approved-20261108-v002",
+  "archive": "let-the-phone-book-sing-approved-20261108-v002.zip",
+  "sha256": "1ef1c1244665655718848b9f7f61fb12e5d5525350b0c41bfa9f37e7047e9f27",
+  "bytes": 2601278,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/april-bloom-reference-v003.png",
+      "bytes": 2639970,
+      "sha256": "b55f82d8206bbc82aae03e7be34192b45a8c05f3ddc46a4edb8d134903f365d9"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v002/let-the-phone-book-sing-approved-20261108-v002.zip"
+}
