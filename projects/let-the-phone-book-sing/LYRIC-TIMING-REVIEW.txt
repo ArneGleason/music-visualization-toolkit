@@ -1,0 +1,29 @@
+Let the Phone Book Sing — lyric timing review v001
+
+Watch: generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.mp4
+Editable project: matching .ecproj beside the movie.
+Full line timing list: generated/lyric-timing-v001.csv
+Detailed timing, flags and spoken-number mapping: generated/lyric-timing-v001.json
+
+Status: first machine-timed listening draft. Structural and source-clock checks passed; the timing has not been certified by listening or accepted by the user.
+
+What to review
+
+- First word attacks around 1.7, 35.3, 68.7, 102.1 and 135.5 seconds. Lead and master CTC disagree on some attacks; the opening uses a flagged master candidate because it precedes the enabled dry-stem edge.
+- The first two lines' wording: both recognizers propose variants of sing/say and outta/out of. The supplied author text stays authoritative until the user confirms a performed variant.
+- All listed names, addresses and numbers, especially the first Bell listing, Bloom/May's number, both Chase/Walker Miles listings, Pine/Forrest, Price/Pearl and the Wait listings. Recognition often confuses digits, repeated zeros and names. No ASR correction has replaced the author text.
+- The alignment transcript currently expands phone numbers digit by digit using zero and addresses as ordinary cardinal numbers (including seventy six, twenty six, one hundred and two bee for 2B). These are pronunciation hypotheses, not listening findings. If the singer uses oh, double zero, a different grouping or an added syllable, correct the hypothesis and re-align only that reviewed range.
+- Refrain and final held endings, especially the last through near 157 seconds. Independent CTC word ends may end before a held vowel or include an echo.
+- Possible oh/adlib sounds before refrains, backing echoes and recognizer hallucinations after the lyrics. Raw recognition is preserved; no extra lyric line was invented from those outputs.
+
+Display
+
+Cream text indicates the word/group has been reached. The underline advances over its acoustic candidate interval. Amber underlines mark additional review flags, including numeric pronunciation; muted text is upcoming. Whole phone-number strings remain written exactly as supplied while their spelled-out spoken tokens remain separately inspectable.
+
+The preview has 22 pages, all 38 author lines, 203 displayed tokens and 306 spoken-word candidates. It is a timing review, not a storyboard or animation performance. No paid footage has been generated. The 1280x720 review is 24 fps; final picture target remains 1920x1080.
+
+Clock and audio
+
+The full continuous 795-point DAW tempo curve is retained. Master zero is project beat 7, supported by waveform matching throughout the song. Embedded stems begin 0.423551391 seconds later in master time. Analysis copies use enabled-clip masks, not final track processing. Master audio is muxed directly into the movie at time zero with no retiming. The source file's final samples are preserved; the last fractional video frame is silent padding.
+
+Preserve any user-approved corrections in an explicit correction record and never overwrite them with a wholesale realignment.

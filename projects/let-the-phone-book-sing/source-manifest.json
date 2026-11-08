@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "project": "let-the-phone-book-sing",
+  "sources": [
+    {
+      "path": "generated/source/master.wav",
+      "bytes": 52085132,
+      "sha256": "31d49e985bb40c36c1209fbd7dbd5687bcb086b9c28f20bf5f82f7c319cb4ad2",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "sampleFrames": 8678414,
+      "durationSeconds": 180.80029166666668,
+      "id": "master",
+      "status": "user_confirmed",
+      "originalFilename": "Let-the-Phone-Book-Sing 2026-11-07 2003.wav",
+      "confirmation": "User confirmed this master in this chat, 2026-11-07",
+      "transferPolicy": "included"
+    },
+    {
+      "id": "dawproject",
+      "path": "generated/source/Let-the-Phone-Book-Sing-current.dawproject",
+      "bytes": 490299767,
+      "sha256": "8f24b286f78547baca4f9f4995699c22644c02604d34dd7f9b178bb84257e5dc",
+      "status": "user_supplied_current_export",
+      "transferPolicy": "retained_on_PC_not_in_design_snapshot"
+    }
+  ],
+  "remoteBackupStatus": "design_snapshot_excludes_dawproject",
+  "mediaManifest": "media-manifest.json"
+}

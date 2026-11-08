@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "project": "let-the-phone-book-sing",
+  "updated": "2026-11-07",
+  "stage": "all_sources_ingested_first_timing_draft_awaits_review",
+  "items": [
+    {
+      "id": "master",
+      "status": "user_confirmed_ingested_checksum_verified",
+      "candidateFile": "Let-the-Phone-Book-Sing 2026-11-07 2003.wav",
+      "destination": "generated/source/master.wav",
+      "observed": {
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitDepth": 24,
+        "sampleFrames": 8678414,
+        "durationSeconds": 180.80029166666668,
+        "sha256": "31d49e985bb40c36c1209fbd7dbd5687bcb086b9c28f20bf5f82f7c319cb4ad2"
+      },
+      "localPathKey": "intakeCandidates.master",
+      "action": "Master copied intact; verify DAW export range against this file."
+    },
+    {
+      "id": "dawproject",
+      "status": "current_export_ingested_verified",
+      "destination": "generated/source/Let-the-Phone-Book-Sing-current.dawproject",
+      "localPathKey": "intakeCandidates.nativeProject",
+      "action": "795-point tempo curve imported; master zeroBeat 7 verified by source/master waveform correlation."
+    },
+    {
+      "id": "lyrics",
+      "status": "author_text_preserved_machine_timing_draft",
+      "destination": "lyrics/approved.txt",
+      "action": "38 lines and 306 spoken-word hypotheses aligned; source/master disagreement and numeric pronunciation are flagged for listening review.",
+      "lineCount": 38,
+      "sectionCount": 9
+    },
+    {
+      "id": "vocal",
+      "status": "embedded_sources_extracted_clock_verified",
+      "localPathKey": "intakeCandidates.lead",
+      "required": false,
+      "action": "Lead/backing active-clip analysis proxies made at master clock. Post-device processing not recreated; master is listening authority."
+    },
+    {
+      "id": "visuals",
+      "status": "first_pass_reference_preserved",
+      "catalog": "character-development/references.json",
+      "action": "Character sheet and four supplied screenshots copied from illustrated-singer, originals retained."
+    }
+  ],
+  "workflow": [
+    "Ingest master and current DAWproject; record hashes and matching version/range.",
+    "Verify export start/end, master zeroBeat, tempo ramps, meter, stems and any audio offsets/warp.",
+    "Build exact bar/beat/seconds grid; compile frame boundaries at chosen fps.",
+    "Import author lyric text. Run unprompted Whisper as evidence, then align reviewed text in broad phrase/section windows.",
+    "Review word attacks, held endings, repeated phrases and backing/echo distinction against master; preserve raw outputs and approved corrections.",
+    "Build editable EffectCraft lyric-timing animatic and review before detailed shot planning.",
+    "Author shots in shots/shotlist.json, preserving creative edits with --merge; review animatic before generated motion."
+  ],
+  "constraints": {
+    "noPhoneBookVisual": false,
+    "albumCoverPlanned": true,
+    "characterName": null,
+    "finalTimingAccepted": false,
+    "phoneBookVisualPolicy": "Open book in cover still; optional and likely absent for most of video. Do not lock narrator into carrying it everywhere.",
+    "visibleNarrator": "Singer visible to audience; residents do not perceive her or respond to her presence."
+  }
+}

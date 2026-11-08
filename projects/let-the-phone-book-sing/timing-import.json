@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "masterSha256": "31d49e985bb40c36c1209fbd7dbd5687bcb086b9c28f20bf5f82f7c319cb4ad2",
+  "dawprojectSha256": "8f24b286f78547baca4f9f4995699c22644c02604d34dd7f9b178bb84257e5dc",
+  "zeroBeat": 7,
+  "tempoPoints": 795,
+  "tempoRangeBpm": [
+    82.48812,
+    91.976457
+  ],
+  "timeSignature": [
+    4,
+    4
+  ],
+  "masterDurationSeconds": 180.800292,
+  "previewFps": 24,
+  "previewFrames": 4340,
+  "gridDurationNearestFrame": 4339,
+  "technicalTailPolicy": "One additional whole video frame covers all master samples. No authored event added.",
+  "sourceOffsetInMasterSeconds": 0.42355139109840056,
+  "leadWaveformResidualMs": 0.07360890159940903,
+  "lyricLines": 38,
+  "displayTokens": 203,
+  "spokenWordCandidates": 306,
+  "wordTimingStatus": "machine_candidate_not_listening_approved",
+  "rawEvidencePreserved": true,
+  "authorTextPreserved": true,
+  "listeningApproved": false
+}

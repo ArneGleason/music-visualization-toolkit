@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated",
+    "projects/illustrated-singer/generated"
+  ],
+  "exclude": [
+    "*.dawproject",
+    "*/generated/source/*-original.wav",
+    "*/generated/transcription/*-active-master-clock.wav",
+    "*/generated/transcription/*/vocal.wav",
+    "*/generated/transcription/*/review.html",
+    "*/generated/animatic/assets/master.wav",
+    "*/generated/animatic/native-picture-*.mp4",
+    "*.log"
+  ],
+  "scope": "Video-design handoff: approved song cover, character/reference history, master, lyrics, continuous tempo/beat grid, word timing and raw evidence, native timing animatic and MP4. Large DAWproject and replaceable source/analysis audio remain on the PC.",
+  "localOnlyRetained": [
+    "generated/source/Let-the-Phone-Book-Sing-current.dawproject",
+    "generated/source/*-original.wav",
+    "generated/transcription/*-active-master-clock.wav"
+  ],
+  "restorePolicy": "Restore exact files with checksum verification. Do not overwrite differing local assets. A new media tag is required for later checkpoints.",
+  "tag": "let-the-phone-book-sing-20261107-v001",
+  "archive": "let-the-phone-book-sing-20261107-v001.zip",
+  "sha256": "da7d118f1f5958d37769b50f11ad5fc110bd8d7cf949c4649c188432d97ad7df",
+  "bytes": 95443705,
+  "files": [
+    {
+      "path": "projects/illustrated-singer/generated/character-development/character-reference-v001.png",
+      "bytes": 3115814,
+      "sha256": "71c22a8785df55eeced79dcc6d4df7246634c9b0d41681f0dacade3b6448b0a7"
+    },
+    {
+      "path": "projects/illustrated-singer/generated/source-references/frame-front-neutral.png",
+      "bytes": 1304278,
+      "sha256": "987b352106ebfbc2413af2d781de730a9e7b562550d1b82bcb7d3f493a19dbf8"
+    },
+    {
+      "path": "projects/illustrated-singer/generated/source-references/frame-front-singing.png",
+      "bytes": 1340099,
+      "sha256": "23d20166646bd957d28a6b3cedc5b017250f1c907d053ef9fe15013f8225bad3"
+    },
+    {
+      "path": "projects/illustrated-singer/generated/source-references/frame-raised-chin.png",
+      "bytes": 1220849,
+      "sha256": "09fd54690e80885661def8849d4b0ffc1ceb0b8f49c6bef1971ffd24a91a8dd4"
+    },
+    {
+      "path": "projects/illustrated-singer/generated/source-references/frame-three-quarter.png",
+      "bytes": 1302786,
+      "sha256": "1582bf350b27bf825711f811cc3f60487eb28aa3413451419241ff4f81770de1"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/alignment-check/source-master-offsets.json",
+      "bytes": 2165,
+      "sha256": "e8913a49e8e2d8889edd4ac4709f8a472f144cb6f2a0b79e08ff1954c1eae41c"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/alignment-check/timing-origin.json",
+      "bytes": 2526,
+      "sha256": "9b99c519a6eb7819836e7e7eaa6e1cd2f15c01188b66042f6db0b94a94fcc759"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.ecproj",
+      "bytes": 6646548,
+      "sha256": "ec7750e8127a8392f2d9c17b9c23b3ad08b41e2aa752214232f6bc9a509fbad6"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.mp4",
+      "bytes": 18824262,
+      "sha256": "42c278c40ec2f7949344a95b393cccd7a57abc93e5a593a9b5ecaf8c4a0d65e9"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/assets/BarlowSemiCondensed-SemiBold.ttf",
+      "bytes": 109772,
+      "sha256": "bd299f4bc5b44d30be8d42e9bad3a5df7d66af1cd55d0ed72a8b8916360a1424"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/assets/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/assets/lyric-timing.json",
+      "bytes": 648632,
+      "sha256": "3630bb98a937705790b92dcfae1c7024b9d72f28c53e4ece648c4462d7d7dcb5"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/assets/timing-overview.png",
+      "bytes": 5652,
+      "sha256": "377fa23757274c6df4a600a7103485a4d3c5ee29aebce0d2355ca13efd33bdff"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/audio-validation.json",
+      "bytes": 770,
+      "sha256": "c79cfd50712117bf7b1768837b28222c886781a1badac9d2d209c9e42cf9315b"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/build-report.json",
+      "bytes": 411,
+      "sha256": "08d312462b2f611203e0928a4d4ccef340af289a414b6a40a548c6a83aad6b83"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/header-check.png",
+      "bytes": 87640,
+      "sha256": "2416f4ccc845b141a031bc071beb2768bdda8af17662eed5dc7f6cde61ce238a"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/layout.json",
+      "bytes": 55556,
+      "sha256": "e0c4389af80dffab6e15882019c60c28f8d7aaafae9503b56b53ba0c1db317f1"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/movie-check-18.5.png",
+      "bytes": 97554,
+      "sha256": "c41e59532f025589d82a31ec61bcb9844118c5f53873289cab892c32a19b5645"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/preview-140.0.png",
+      "bytes": 109657,
+      "sha256": "c34dc85a1a837515dd68e5b17d53f5415093b487b7d4433e7e1505415b3e7541"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/preview-18.5.png",
+      "bytes": 82134,
+      "sha256": "2944f01d5c4e55ab85421022486660feb67ba0f70d693db8e67ce91d65cf59a3"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/preview-2.7.png",
+      "bytes": 102019,
+      "sha256": "2d3107584bbd517e8c4f1cf79a9b9fb4e8fc50ed1f803680de144820c06e74d5"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/preview-72.0.png",
+      "bytes": 112345,
+      "sha256": "f4776e1f2fd55e4f389c2a449860803558e6a8c09be78e8fea32567562a08e88"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/render-report.json",
+      "bytes": 261,
+      "sha256": "e78426c4a084f1b797b416c2e5ef9ce20a0494d09ade1798add95ceeac9b144e"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/animatic/validation.json",
+      "bytes": 500,
+      "sha256": "57bcee65127cd7fc9d2060a255583338184a1111dd1a9733803d82a90a38b946"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/beatmap.json",
+      "bytes": 134058,
+      "sha256": "1935fad218196f44390f08f22fbc3a313ed252f13d8d51c461cb7a35ea17f1c5"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/character-reference-v001.png",
+      "bytes": 3115814,
+      "sha256": "71c22a8785df55eeced79dcc6d4df7246634c9b0d41681f0dacade3b6448b0a7"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/patience-wait-reference-v001.png",
+      "bytes": 2973503,
+      "sha256": "be4b349acc136648cdaa7d6eac53503fb2df395d9cdaaf481ff532f3ce9bb74f"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/covers/patience-pleasant-avenue-v001.png",
+      "bytes": 3547465,
+      "sha256": "2a119b5f1beca6ec8df39c08efa85d2c2a4248f3c468805ba70c90c6aaf59b25"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/lyric-timing-v001.csv",
+      "bytes": 4665,
+      "sha256": "020e015b7dbcb5f91fdcf25d207f56a50847ca216e3949ae68c6e593e28372f4"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/lyric-timing-v001.json",
+      "bytes": 648632,
+      "sha256": "3630bb98a937705790b92dcfae1c7024b9d72f28c53e4ece648c4462d7d7dcb5"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/source-references/frame-front-neutral.png",
+      "bytes": 1304278,
+      "sha256": "987b352106ebfbc2413af2d781de730a9e7b562550d1b82bcb7d3f493a19dbf8"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/source-references/frame-front-singing.png",
+      "bytes": 1340099,
+      "sha256": "23d20166646bd957d28a6b3cedc5b017250f1c907d053ef9fe15013f8225bad3"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/source-references/frame-raised-chin.png",
+      "bytes": 1220849,
+      "sha256": "09fd54690e80885661def8849d4b0ffc1ceb0b8f49c6bef1971ffd24a91a8dd4"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/source-references/frame-three-quarter.png",
+      "bytes": 1302786,
+      "sha256": "1582bf350b27bf825711f811cc3f60487eb28aa3413451419241ff4f81770de1"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/source-references/style-graphic-novel-v005.png",
+      "bytes": 2764762,
+      "sha256": "97e5f3d6433a4ff022f682f93d8b463341e347b7c63ac899847ed7ae126bf644"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/source/lyrics-user-supplied-20261107.txt",
+      "bytes": 1404,
+      "sha256": "c61726f25655609ae322e0b0d984ee2554cf8f34928557c5b88a73710dedbf30"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/source/master.wav",
+      "bytes": 52085132,
+      "sha256": "31d49e985bb40c36c1209fbd7dbd5687bcb086b9c28f20bf5f82f7c319cb4ad2"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/source/project-readback.xml",
+      "bytes": 894497,
+      "sha256": "dd7592279f036295c78626f1f04b3eea554c5a02f396c43807efc6e426abb480"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/timeline.compiled.json",
+      "bytes": 284794,
+      "sha256": "fd45c41afbca0b260b8e6523d60a25a184936ddf7c156a800e0f2527741eb3c3"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/alignment-v001/phrases.vtt",
+      "bytes": 1996,
+      "sha256": "d7f68fd1c6eaffeed7284c3a4652e3af10abf3e44ce2acb2ba9a5edc8d02a029"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/alignment-v001/review.md",
+      "bytes": 5444,
+      "sha256": "3b389cf46ff7bfeefcfff16ede2aabe0fdf2aff4d03930e8f297c5aad8560286"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/alignment-v001/words.csv",
+      "bytes": 33674,
+      "sha256": "08e9d6ae97adc935b105d7d6cd5742e4f64c311fe5f405e36ba3079d372f0217"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/alignment-v001/words.json",
+      "bytes": 551492,
+      "sha256": "d7104710463cff0600d6379d69e1bbcd3b6dcf44d6235e366e6e424980134102"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/alignment-v002/phrases.vtt",
+      "bytes": 1996,
+      "sha256": "02b439b152bd896776c546537a0d625be274c17926ab8aaf3cab79e9e3bbe9fe"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/alignment-v002/review.md",
+      "bytes": 5981,
+      "sha256": "80f8d8b5fe5089654ba330a6a13bab925081e89c51a51466d942cf9ee6f63935"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/alignment-v002/words.csv",
+      "bytes": 33599,
+      "sha256": "73340723d6426c68b3b4395a546748e40e5a0dd6b0e8d736345ff34dbb85ebf9"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/alignment-v002/words.json",
+      "bytes": 551855,
+      "sha256": "29d1c4be47daccbf6f2d883d6e3b302d16ffb32a1a26369e00a3aeba6cd3b163"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/audio.whisper.raw.json",
+      "bytes": 61611,
+      "sha256": "46651fdb7fe16e3db080586c04c6c9197da605e1127ca65c7d7f54d07726f265"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/backing.whisper.raw.json",
+      "bytes": 8725,
+      "sha256": "79d00da94c2e8fe84b90cccf75f9f810ab97332c77b6f2147cb35c6c8bb8c42e"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/lead.whisper.raw.json",
+      "bytes": 64525,
+      "sha256": "c65a60e1b02cdeb6cc91ddcfa20f4bac9a0fd3fdc4c82b80e57b86970392ee63"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/master-crosscheck-v001/phrases.vtt",
+      "bytes": 1996,
+      "sha256": "c69c6d24f231adc5a8a4b69e93cec4659582839973879614fefc0d158cbd2a73"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/master-crosscheck-v001/review.md",
+      "bytes": 5545,
+      "sha256": "85088fe63f1f48ddc74f6bd3dcc3718508d10211365bfb50a7afb7beb0c9af41"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/master-crosscheck-v001/words.csv",
+      "bytes": 34250,
+      "sha256": "323e3634f8783157a18f40da429746e973e143b9188033db123d09933b4a95a3"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/master-crosscheck-v001/words.json",
+      "bytes": 553402,
+      "sha256": "9b5848ad767bab6567436a933deb62b7b7d57b9d4832d2afe535ab9fec446606"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/master-crosscheck-v002/phrases.vtt",
+      "bytes": 1996,
+      "sha256": "877e4acb88976999b49fb09cd05eb4307cc71faa857501c4428799276e3cb9b8"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/master-crosscheck-v002/review.md",
+      "bytes": 6155,
+      "sha256": "401f2e3893ece3cccf1cd7b9bad242e348ae44e0b911b5c14205c0858b3d0fc1"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/master-crosscheck-v002/words.csv",
+      "bytes": 34378,
+      "sha256": "010bf1ba9242a3fcdb43f38fd1d2cc42efce9650e9e493a345b32a5ca22602fb"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/master-crosscheck-v002/words.json",
+      "bytes": 554390,
+      "sha256": "5ffa74515ed46224408f3069104da47d2eb728f91a69f98fb1ba4a45b4c624e9"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/transcription/vocal-source-provenance.json",
+      "bytes": 1818,
+      "sha256": "a9a48f4a86475ac0d4b2cfbaf3f0e7b571a4fe1f02efdd3e5f3e7bea8fe0d691"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-20261107-v001/let-the-phone-book-sing-20261107-v001.zip"
+}

@@ -1,2 +1,5 @@
 # Checkpoints preserve exact source bytes so manifest hashes survive checkout.
 projects/a-right-little-something/checkpoint/** -text whitespace=cr-at-eol
+
+# Keep double-clickable Mac launchers portable.
+*.command text eol=lf

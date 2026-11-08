@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "role": "lead",
+  "lyric_source": "lyrics/approved.txt",
+  "master_preview": "../../source/master.wav",
+  "review_status": "author_text_numeric_pronunciation_hypothesis",
+  "phrases": [
+    {
+      "id": "section-01",
+      "start": 0.9,
+      "end": 11.7,
+      "text": "I got nothing to sing So I'm gonna sing outta this ratty old phone book",
+      "kind": "lyric",
+      "text_status": "needs_review",
+      "note": "Author lyrics; numeric pronunciation is a provisional alignment hypothesis (zero for 0, normal cardinal addresses). Windows from unprompted master recognition, not beat-snapped. ASR substitutions and possible adlibs require listening review.",
+      "line_ids": [
+        "line-001",
+        "line-002"
+      ]
+    },
+    {
+      "id": "section-02",
+      "start": 11.2,
+      "end": 34.7,
+      "text": "Bell Belle two Church Street apartment two bee two one two one two one two Bell Liberty seventy six Liberty Street one seven seven six one seven six Bloom April four Spring Street three zero four zero five zero six Bloom May five Spring Street four zero five zero six zero seven",
+      "kind": "lyric",
+      "text_status": "needs_review",
+      "note": "Author lyrics; numeric pronunciation is a provisional alignment hypothesis (zero for 0, normal cardinal addresses). Windows from unprompted master recognition, not beat-snapped. ASR substitutions and possible adlibs require listening review.",
+      "line_ids": [
+        "line-003",
+        "line-004",
+        "line-005",
+        "line-006"
+      ]
+    },
+    {
+      "id": "section-03",
+      "start": 34.2,
+      "end": 45.5,
+      "text": "I got nothing to sing But the names got a ring Last name first Let the phone book sing",
+      "kind": "lyric",
+      "text_status": "needs_review",
+      "note": "Author lyrics; numeric pronunciation is a provisional alignment hypothesis (zero for 0, normal cardinal addresses). Windows from unprompted master recognition, not beat-snapped. ASR substitutions and possible adlibs require listening review.",
+      "line_ids": [
+        "line-007",
+        "line-008",
+        "line-009",
+        "line-010"
+      ]
+    },
+    {
+      "id": "section-04",
+      "start": 45.0,
+      "end": 67.3,
+      "text": "Cash Penny one Worth Street one zero one zero zero one zero Cash Rich one hundred Worth Street one zero zero one zero zero zero Chase Miles twenty six Riverside Drive two four six eight two four six Chase Penny ninety nine Worth Street nine nine zero zero zero nine nine",
+      "kind": "lyric",
+      "text_status": "needs_review",
+      "note": "Author lyrics; numeric pronunciation is a provisional alignment hypothesis (zero for 0, normal cardinal addresses). Windows from unprompted master recognition, not beat-snapped. ASR substitutions and possible adlibs require listening review.",
+      "line_ids": [
+        "line-011",
+        "line-012",
+        "line-013",
+        "line-014"
+      ]
+    },
+    {
+      "id": "section-05",
+      "start": 67.0,
+      "end": 79.0,
+      "text": "I got nothing to sing But the names got a ring Last name first Let the phone book sing",
+      "kind": "lyric",
+      "text_status": "needs_review",
+      "note": "Author lyrics; numeric pronunciation is a provisional alignment hypothesis (zero for 0, normal cardinal addresses). Windows from unprompted master recognition, not beat-snapped. ASR substitutions and possible adlibs require listening review.",
+      "line_ids": [
+        "line-015",
+        "line-016",
+        "line-017",
+        "line-018"
+      ]
+    },
+    {
+      "id": "section-06",
+      "start": 78.7,
+      "end": 100.6,
+      "text": "Pine Forrest one hundred Park Place one two three five eight one three Pine Woody three Orchard Street two two four two four eight four Pine Yew four Orchard Street two two two four two two two Price Pearl one Water Street two four one two four one two",
+      "kind": "lyric",
+      "text_status": "needs_review",
+      "note": "Author lyrics; numeric pronunciation is a provisional alignment hypothesis (zero for 0, normal cardinal addresses). Windows from unprompted master recognition, not beat-snapped. ASR substitutions and possible adlibs require listening review.",
+      "line_ids": [
+        "line-019",
+        "line-020",
+        "line-021",
+        "line-022"
+      ]
+    },
+    {
+      "id": "section-07",
+      "start": 100.4,
+      "end": 112.4,
+      "text": "I got nothing to sing But the names got a ring Last name first Let the phone book sing",
+      "kind": "lyric",
+      "text_status": "needs_review",
+      "note": "Author lyrics; numeric pronunciation is a provisional alignment hypothesis (zero for 0, normal cardinal addresses). Windows from unprompted master recognition, not beat-snapped. ASR substitutions and possible adlibs require listening review.",
+      "line_ids": [
+        "line-023",
+        "line-024",
+        "line-025",
+        "line-026"
+      ]
+    },
+    {
+      "id": "section-08",
+      "start": 111.9,
+      "end": 134.8,
+      "text": "Wait Hope one Pleasant Avenue rear one zero eight one zero zero eight Wait Patience one Pleasant Avenue upstairs one zero nine one zero zero nine Walker Miles twenty six Riverside Drive two four six eight two four six Waters Flo ten Riverside Drive six five four three two one zero",
+      "kind": "lyric",
+      "text_status": "needs_review",
+      "note": "Author lyrics; numeric pronunciation is a provisional alignment hypothesis (zero for 0, normal cardinal addresses). Windows from unprompted master recognition, not beat-snapped. ASR substitutions and possible adlibs require listening review.",
+      "line_ids": [
+        "line-027",
+        "line-028",
+        "line-029",
+        "line-030"
+      ]
+    },
+    {
+      "id": "section-09",
+      "start": 134.2,
+      "end": 158.2,
+      "text": "I got nothing to sing But the names got a ring Thin little pages Whole city inside Last name first I'm singing you I never called you You still got through",
+      "kind": "lyric",
+      "text_status": "needs_review",
+      "note": "Author lyrics; numeric pronunciation is a provisional alignment hypothesis (zero for 0, normal cardinal addresses). Windows from unprompted master recognition, not beat-snapped. ASR substitutions and possible adlibs require listening review.",
+      "line_ids": [
+        "line-031",
+        "line-032",
+        "line-033",
+        "line-034",
+        "line-035",
+        "line-036",
+        "line-037",
+        "line-038"
+      ]
+    }
+  ]
+}

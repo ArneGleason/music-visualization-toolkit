@@ -70,14 +70,25 @@ def setup_mac():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--cli', help='CLI path for this invocation (or EFFECTCRAFT_CLI)')
+    parser.add_argument('--project', type=Path,
+                        help='Toolkit project.json or native .ecproj; defaults to Together Anyways')
     parser.add_argument('command', choices=['setup-mac', 'gui', 'info', 'mcp', 'render-frame', 'render'])
     parser.add_argument('arguments', nargs=argparse.REMAINDER)
     args = parser.parse_args()
     if args.command == 'setup-mac':
         setup_mac()
         return
-    if not PROJECT.is_file():
-        parser.error('Restore the Together Anyways media bundle first; see CONTINUE-HERE.md')
+    project = PROJECT
+    if args.project:
+        project = args.project.resolve()
+        if project.suffix == '.json':
+            spec = json.loads(project.read_text(encoding='utf-8'))
+            native = spec.get('sources', {}).get('effectcraftProject')
+            if not native:
+                parser.error('Project configuration has no sources.effectcraftProject')
+            project = (project.parent / native).resolve()
+    if not project.is_file():
+        parser.error(f'Restore the project media bundle first; missing: {project}')
     config_file = LOCAL / 'install.json'
     config = json.loads(config_file.read_text()) if config_file.exists() else {}
     if args.command == 'gui':
@@ -87,15 +98,15 @@ def main():
     if not executable:
         parser.error('Run setup-mac or set EFFECTCRAFT_CLI / EFFECTCRAFT_APP for this machine')
     env = os.environ.copy()
-    fonts = str(PROJECT.parent / 'assets')
+    fonts = str(project.parent / 'assets')
     env['EFFECTCRAFT_FONT_DIRS'] = fonts + (os.pathsep + env['EFFECTCRAFT_FONT_DIRS'] if env.get('EFFECTCRAFT_FONT_DIRS') else '')
     # The native app takes a positional project; --project is CLI-only.
-    command = [executable, str(PROJECT)] if args.command == 'gui' else [executable, '--project', str(PROJECT)]
+    command = [executable, str(project)] if args.command == 'gui' else [executable, '--project', str(project)]
     if args.command != 'gui':
         command += [args.command, *args.arguments]
-        raise SystemExit(subprocess.run(command, cwd=PROJECT.parent, env=env).returncode)
+        raise SystemExit(subprocess.run(command, cwd=project.parent, env=env).returncode)
     options = {'creationflags': subprocess.CREATE_NO_WINDOW} if sys.platform == 'win32' else {'start_new_session': True}
-    subprocess.Popen(command, cwd=PROJECT.parent, env=env, **options)
+    subprocess.Popen(command, cwd=project.parent, env=env, **options)
 
 
 if __name__ == '__main__':

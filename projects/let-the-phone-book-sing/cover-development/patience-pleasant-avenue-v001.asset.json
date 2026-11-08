@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "phonebook-patience-cover-v001",
+  "path": "generated/covers/patience-pleasant-avenue-v001.png",
+  "bytes": 3547465,
+  "sha256": "2a119b5f1beca6ec8df39c08efa85d2c2a4248f3c468805ba70c90c6aaf59b25",
+  "references": [
+    "singer-reference-v001",
+    "patience-wait-reference-v001"
+  ],
+  "status": "user_approved_song_cover_and_video_style",
+  "generator": "built-in ImageGen",
+  "approval": {
+    "date": "2026-11-07",
+    "source": "User: this is great; perfect for the song cover; wants video with this style and look.",
+    "scope": "Song-cover picture and video art direction only; no timing approval."
+  }
+}

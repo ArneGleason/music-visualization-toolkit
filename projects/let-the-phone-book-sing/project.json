@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "title": "Let the Phone Book Sing",
+  "slug": "let-the-phone-book-sing",
+  "sources": {
+    "audio": "generated/source/master.wav",
+    "dawproject": "generated/source/Let-the-Phone-Book-Sing-current.dawproject",
+    "lyrics": "lyrics/approved.txt",
+    "lead": "generated/transcription/lead-active-master-clock.wav",
+    "backing": "generated/transcription/backing-active-master-clock.wav",
+    "lyricTimingDraft": "generated/lyric-timing-v001.json",
+    "timingAnimatic": "generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.mp4",
+    "effectcraftProject": "generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.ecproj"
+  },
+  "timeline": "timeline.json",
+  "timing": {
+    "masterTrack": "master",
+    "durationSource": "audio",
+    "beatmap": "generated/beatmap.json",
+    "compiledTimeline": "generated/timeline.compiled.json",
+    "zeroBeat": 7.0
+  },
+  "render": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "production": {
+    "stage": "approved-song-cover-video-development",
+    "intake": "intake.json",
+    "previousWorkflow": "../together-anyways/project.json",
+    "style": "Elongated illustrated character/world proportions; painted graphic novel, controlled ink contours, fine crosshatching and tactile materials",
+    "characterStatus": "First reference sheet for review; not a locked turnaround",
+    "timingStatus": "Exact continuous 795-point DAW curve imported; zeroBeat 7 verified against master. No timing repair applied.",
+    "lyricsStatus": "38 lines, 203 displayed tokens and 306 spoken-word candidates; author numerals retained; listening approval pending.",
+    "renderer": "Plan a native EffectCraft lyric-timing animatic following Together Anyways, then review before storyboarding and generated motion",
+    "renderDefaultsStatus": "24 fps / 1920x1080 inherited as provisional production defaults; final cover dimensions undecided",
+    "shotPolicy": "Once authored, shots/shotlist.json is the edit authority. Re-plan with tools/shotplan.py --merge; derive frame counts from the timing grid.",
+    "nextWork": "Continue video design from the approved song-cover look on MacBook. Plan address vignettes and narrator appearances; timing-listening review remains pending.",
+    "sceneStatus": "Song-cover picture and video visual direction approved. No approved shot plan or motion footage yet.",
+    "preview": {
+      "fps": 24,
+      "width": 1280,
+      "height": 720,
+      "frames": 4340,
+      "durationPolicy": "ceil(master_duration*fps); fractional final frame padded with silence; musical event grid retains nearest-frame rounding"
+    },
+    "visualBrief": "visual-development/cover-and-video-brief.txt",
+    "coverDevelopment": {
+      "listing": "Wait, Patience — 1 Pleasant Avenue, upstairs — 109-1009",
+      "selectionStatus": "user_developing_patience_wait",
+      "residentSituation": "Impatient woman, always late, rushing to get ready for work",
+      "generationStatus": "user_approved_song_cover",
+      "characterReference": "patience-wait-reference-v001",
+      "settingDirection": "Warm fictional coastal city inspired by San Francisco/San Diego; pleasant design-conscious neighborhood, possible 1970s-influenced low-rise building; exact building type open",
+      "currentImage": "generated/covers/patience-pleasant-avenue-v001.png",
+      "prompt": "cover-development/patience-pleasant-avenue-v001.prompt.txt",
+      "notes": "cover-development/patience-pleasant-avenue-v001.notes.txt",
+      "phoneBookPolicy": "Present in cover still; optional and expected to be absent for most video shots",
+      "narratorName": null,
+      "approval": {
+        "date": "2026-11-07",
+        "source": "User: this is great; perfect for the song cover; wants video with this style and look.",
+        "scope": "Song-cover picture and video art direction only; no timing approval."
+      }
+    },
+    "portableHandoff": {
+      "manifest": "media-manifest.json",
+      "tag": "let-the-phone-book-sing-20261107-v001",
+      "mode": "video_design_from_cached_grid",
+      "localOnlySourceRoles": [
+        "dawproject",
+        "lead",
+        "backing"
+      ],
+      "syncPolicy": "Use tools/timeline.py compile/validate against restored beatmap. Do not run sync without separately restoring the omitted DAWproject.",
+      "nativeProject": "generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.ecproj"
+    }
+  },
+  "visualReferences": [
+    {
+      "id": "singer-reference-v001",
+      "path": "generated/character-development/character-reference-v001.png",
+      "prompt": "character-development/character-reference-v001.prompt.txt",
+      "notes": "character-development/character-reference-v001.notes.txt",
+      "status": "first_pass_for_review",
+      "role": "Adult female lead; full body plus four expression/angle portraits",
+      "currentUse": true
+    },
+    {
+      "id": "patience-wait-reference-v001",
+      "path": "generated/character-development/patience-wait-reference-v001.png",
+      "prompt": "character-development/patience-wait-reference-v001.prompt.txt",
+      "notes": "character-development/patience-wait-reference-v001.notes.txt",
+      "status": "first_pass_for_review",
+      "role": "Patience Wait — exaggerated tall/angular always-late resident; two body poses and three expressions",
+      "currentUse": true
+    },
+    {
+      "id": "phonebook-patience-cover-v001",
+      "path": "generated/covers/patience-pleasant-avenue-v001.png",
+      "role": "First square cover tableau: singer foreground with phone book, Patience descending interior stairs, visible 1 Pleasant Avenue plaque",
+      "status": "user_approved_song_cover_and_video_style",
+      "prompt": "cover-development/patience-pleasant-avenue-v001.prompt.txt",
+      "notes": "cover-development/patience-pleasant-avenue-v001.notes.txt",
+      "currentUse": true,
+      "approval": {
+        "date": "2026-11-07",
+        "source": "User: this is great; perfect for the song cover; wants video with this style and look.",
+        "scope": "Song-cover picture and video art direction only; no timing approval."
+      }
+    }
+  ],
+  "referenceCatalog": "character-development/references.json"
+}

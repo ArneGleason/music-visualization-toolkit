@@ -1,0 +1,4733 @@
+{
+  "schemaVersion": 1,
+  "project": "let-the-phone-book-sing",
+  "updatedBy": "human+ai",
+  "provenance": {
+    "status": "first_timed_draft_not_listening_approved",
+    "policy": "Keep author spelling and numbers. Section headings are metadata. No copied or invented timing.",
+    "lyricSource": "lyrics/approved.txt",
+    "sourceSectionCount": 9,
+    "wordTimingPolicy": "Independent CTC edges; no beat snapping, next-onset filling or invented repeats. Original numeric spelling retained."
+  },
+  "tracks": [
+    {
+      "id": "lyrics",
+      "type": "lyrics",
+      "label": "Author lyrics — acoustic timing draft",
+      "color": "#f6c85f",
+      "items": [
+        {
+          "id": "line-001",
+          "section": "section 1",
+          "text": "I got nothing to sing.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "3.2.522",
+          "end": "4.1.521",
+          "sourceStart": 1.722,
+          "sourceEnd": 3.785,
+          "words": [
+            {
+              "id": "line-001-w001",
+              "text": "I",
+              "start": 1.722,
+              "end": 1.802,
+              "sourceStart": 1.722,
+              "sourceEnd": 1.802,
+              "musicalStart": "3.2.522",
+              "musicalEnd": "3.2.636",
+              "startFrame": 41,
+              "endFrameExclusive": 43,
+              "spokenWordIds": [
+                "section-01-w001"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "opening_attack_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-001-w002",
+              "text": "got",
+              "start": 2.263,
+              "end": 2.503,
+              "sourceStart": 2.263,
+              "sourceEnd": 2.503,
+              "musicalStart": "3.3.322",
+              "musicalEnd": "3.3.653",
+              "startFrame": 54,
+              "endFrameExclusive": 60,
+              "spokenWordIds": [
+                "section-01-w002"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-001-w003",
+              "text": "nothing",
+              "start": 2.583,
+              "end": 3.104,
+              "sourceStart": 2.583,
+              "sourceEnd": 3.104,
+              "musicalStart": "3.3.764",
+              "musicalEnd": "3.4.528",
+              "startFrame": 62,
+              "endFrameExclusive": 74,
+              "spokenWordIds": [
+                "section-01-w003"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-001-w004",
+              "text": "to",
+              "start": 3.144,
+              "end": 3.324,
+              "sourceStart": 3.144,
+              "sourceEnd": 3.324,
+              "musicalStart": "3.4.584",
+              "musicalEnd": "3.4.835",
+              "startFrame": 75,
+              "endFrameExclusive": 80,
+              "spokenWordIds": [
+                "section-01-w004"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-001-w005",
+              "text": "sing.",
+              "start": 3.385,
+              "end": 3.785,
+              "sourceStart": 3.385,
+              "sourceEnd": 3.785,
+              "musicalStart": "3.4.920",
+              "musicalEnd": "4.1.521",
+              "startFrame": 81,
+              "endFrameExclusive": 91,
+              "spokenWordIds": [
+                "section-01-w005"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-002",
+          "section": "section 1",
+          "text": "So I’m gonna sing outta this ratty old phone book.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "5.2.837",
+          "end": "6.4.598",
+          "sourceStart": 7.452,
+          "sourceEnd": 11.419,
+          "words": [
+            {
+              "id": "line-002-w001",
+              "text": "So",
+              "start": 7.452,
+              "end": 7.733,
+              "sourceStart": 7.452,
+              "sourceEnd": 7.733,
+              "musicalStart": "5.2.837",
+              "musicalEnd": "5.3.264",
+              "startFrame": 179,
+              "endFrameExclusive": 186,
+              "spokenWordIds": [
+                "section-01-w006"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-002-w002",
+              "text": "I’m",
+              "start": 7.833,
+              "end": 7.933,
+              "sourceStart": 7.833,
+              "sourceEnd": 7.933,
+              "musicalStart": "5.3.401",
+              "musicalEnd": "5.3.539",
+              "startFrame": 188,
+              "endFrameExclusive": 190,
+              "spokenWordIds": [
+                "section-01-w007"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-002-w003",
+              "text": "gonna",
+              "start": 7.973,
+              "end": 8.334,
+              "sourceStart": 7.973,
+              "sourceEnd": 8.334,
+              "musicalStart": "5.3.593",
+              "musicalEnd": "5.4.131",
+              "startFrame": 191,
+              "endFrameExclusive": 200,
+              "spokenWordIds": [
+                "section-01-w008"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-002-w004",
+              "text": "sing",
+              "start": 8.374,
+              "end": 8.654,
+              "sourceStart": 8.374,
+              "sourceEnd": 8.654,
+              "musicalStart": "5.4.186",
+              "musicalEnd": "5.4.575",
+              "startFrame": 201,
+              "endFrameExclusive": 208,
+              "spokenWordIds": [
+                "section-01-w009"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-002-w005",
+              "text": "outta",
+              "start": 8.795,
+              "end": 9.135,
+              "sourceStart": 8.795,
+              "sourceEnd": 9.135,
+              "musicalStart": "5.4.770",
+              "musicalEnd": "6.1.279",
+              "startFrame": 211,
+              "endFrameExclusive": 219,
+              "spokenWordIds": [
+                "section-01-w010"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-002-w006",
+              "text": "this",
+              "start": 9.175,
+              "end": 9.436,
+              "sourceStart": 9.175,
+              "sourceEnd": 9.436,
+              "musicalStart": "6.1.334",
+              "musicalEnd": "6.1.692",
+              "startFrame": 220,
+              "endFrameExclusive": 226,
+              "spokenWordIds": [
+                "section-01-w011"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-002-w007",
+              "text": "ratty",
+              "start": 9.656,
+              "end": 10.197,
+              "sourceStart": 9.656,
+              "sourceEnd": 10.197,
+              "musicalStart": "6.2.35",
+              "musicalEnd": "6.2.789",
+              "startFrame": 232,
+              "endFrameExclusive": 245,
+              "spokenWordIds": [
+                "section-01-w012"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-002-w008",
+              "text": "old",
+              "start": 10.297,
+              "end": 10.498,
+              "sourceStart": 10.297,
+              "sourceEnd": 10.498,
+              "musicalStart": "6.2.928",
+              "musicalEnd": "6.3.250",
+              "startFrame": 247,
+              "endFrameExclusive": 252,
+              "spokenWordIds": [
+                "section-01-w013"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-002-w009",
+              "text": "phone",
+              "start": 10.658,
+              "end": 11.119,
+              "sourceStart": 10.658,
+              "sourceEnd": 11.119,
+              "musicalStart": "6.3.475",
+              "musicalEnd": "6.4.166",
+              "startFrame": 256,
+              "endFrameExclusive": 267,
+              "spokenWordIds": [
+                "section-01-w014"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-002-w010",
+              "text": "book.",
+              "start": 11.199,
+              "end": 11.419,
+              "sourceStart": 11.199,
+              "sourceEnd": 11.419,
+              "musicalStart": "6.4.281",
+              "musicalEnd": "6.4.598",
+              "startFrame": 269,
+              "endFrameExclusive": 274,
+              "spokenWordIds": [
+                "section-01-w015"
+              ],
+              "flags": [
+                "audible_tail_after_alignment",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-003",
+          "section": "section 2",
+          "text": "Bell, Belle — 2 Church Street, apartment 2B — 212-1212",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "7.1.937",
+          "end": "9.2.432",
+          "sourceStart": 12.341,
+          "sourceEnd": 18.186,
+          "words": [
+            {
+              "id": "line-003-w001",
+              "text": "Bell,",
+              "start": 12.341,
+              "end": 12.661,
+              "sourceStart": 12.341,
+              "sourceEnd": 12.661,
+              "musicalStart": "7.1.937",
+              "musicalEnd": "7.2.424",
+              "startFrame": 296,
+              "endFrameExclusive": 304,
+              "spokenWordIds": [
+                "section-02-w001"
+              ],
+              "flags": [
+                "audible_attack_before_alignment",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-003-w002",
+              "text": "Belle —",
+              "start": 12.721,
+              "end": 13.642,
+              "sourceStart": 12.721,
+              "sourceEnd": 13.642,
+              "musicalStart": "7.2.508",
+              "musicalEnd": "7.3.833",
+              "startFrame": 305,
+              "endFrameExclusive": 327,
+              "spokenWordIds": [
+                "section-02-w002"
+              ],
+              "flags": [
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-003-w003",
+              "text": "2",
+              "start": 13.722,
+              "end": 13.942,
+              "sourceStart": 13.722,
+              "sourceEnd": 13.942,
+              "musicalStart": "7.3.945",
+              "musicalEnd": "7.4.293",
+              "startFrame": 329,
+              "endFrameExclusive": 335,
+              "spokenWordIds": [
+                "section-02-w003"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-003-w004",
+              "text": "Church",
+              "start": 14.042,
+              "end": 14.363,
+              "sourceStart": 14.042,
+              "sourceEnd": 14.363,
+              "musicalStart": "7.4.433",
+              "musicalEnd": "7.4.882",
+              "startFrame": 337,
+              "endFrameExclusive": 345,
+              "spokenWordIds": [
+                "section-02-w004"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-003-w005",
+              "text": "Street,",
+              "start": 14.423,
+              "end": 14.683,
+              "sourceStart": 14.423,
+              "sourceEnd": 14.683,
+              "musicalStart": "8.1.6",
+              "musicalEnd": "8.1.367",
+              "startFrame": 346,
+              "endFrameExclusive": 352,
+              "spokenWordIds": [
+                "section-02-w005"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-003-w006",
+              "text": "apartment",
+              "start": 15.023,
+              "end": 15.464,
+              "sourceStart": 15.023,
+              "sourceEnd": 15.464,
+              "musicalStart": "8.1.839",
+              "musicalEnd": "8.2.492",
+              "startFrame": 361,
+              "endFrameExclusive": 371,
+              "spokenWordIds": [
+                "section-02-w006"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-003-w007",
+              "text": "2B —",
+              "start": 15.484,
+              "end": 16.064,
+              "sourceStart": 15.484,
+              "sourceEnd": 16.064,
+              "musicalStart": "8.2.519",
+              "musicalEnd": "8.3.365",
+              "startFrame": 372,
+              "endFrameExclusive": 386,
+              "spokenWordIds": [
+                "section-02-w007",
+                "section-02-w008"
+              ],
+              "flags": [
+                "text_review",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-003-w008",
+              "text": "212-1212",
+              "start": 16.464,
+              "end": 18.186,
+              "sourceStart": 16.464,
+              "sourceEnd": 18.186,
+              "musicalStart": "8.3.921",
+              "musicalEnd": "9.2.432",
+              "startFrame": 395,
+              "endFrameExclusive": 436,
+              "spokenWordIds": [
+                "section-02-w009",
+                "section-02-w010",
+                "section-02-w011",
+                "section-02-w012",
+                "section-02-w013",
+                "section-02-w014",
+                "section-02-w015"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-004",
+          "section": "section 2",
+          "text": "Bell, Liberty — 76 Liberty Street — 177-6176",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "9.2.487",
+          "end": "11.2.10",
+          "sourceStart": 18.226,
+          "sourceEnd": 23.45,
+          "words": [
+            {
+              "id": "line-004-w001",
+              "text": "Bell,",
+              "start": 18.226,
+              "end": 18.506,
+              "sourceStart": 18.226,
+              "sourceEnd": 18.506,
+              "musicalStart": "9.2.487",
+              "musicalEnd": "9.2.876",
+              "startFrame": 437,
+              "endFrameExclusive": 444,
+              "spokenWordIds": [
+                "section-02-w016"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-004-w002",
+              "text": "Liberty —",
+              "start": 18.586,
+              "end": 19.127,
+              "sourceStart": 18.586,
+              "sourceEnd": 19.127,
+              "musicalStart": "9.3.27",
+              "musicalEnd": "9.3.771",
+              "startFrame": 446,
+              "endFrameExclusive": 459,
+              "spokenWordIds": [
+                "section-02-w017"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-004-w003",
+              "text": "76",
+              "start": 19.227,
+              "end": 19.867,
+              "sourceStart": 19.227,
+              "sourceEnd": 19.867,
+              "musicalStart": "9.3.908",
+              "musicalEnd": "9.4.834",
+              "startFrame": 461,
+              "endFrameExclusive": 477,
+              "spokenWordIds": [
+                "section-02-w018",
+                "section-02-w019"
+              ],
+              "flags": [
+                "text_review",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-004-w004",
+              "text": "Liberty",
+              "start": 19.947,
+              "end": 20.428,
+              "sourceStart": 19.947,
+              "sourceEnd": 20.428,
+              "musicalStart": "9.4.945",
+              "musicalEnd": "10.1.646",
+              "startFrame": 479,
+              "endFrameExclusive": 490,
+              "spokenWordIds": [
+                "section-02-w020"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-004-w005",
+              "text": "Street —",
+              "start": 20.448,
+              "end": 20.708,
+              "sourceStart": 20.448,
+              "sourceEnd": 20.708,
+              "musicalStart": "10.1.673",
+              "musicalEnd": "10.2.71",
+              "startFrame": 491,
+              "endFrameExclusive": 497,
+              "spokenWordIds": [
+                "section-02-w021"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-004-w006",
+              "text": "177-6176",
+              "start": 21.048,
+              "end": 23.45,
+              "sourceStart": 21.048,
+              "sourceEnd": 23.45,
+              "musicalStart": "10.2.541",
+              "musicalEnd": "11.2.10",
+              "startFrame": 505,
+              "endFrameExclusive": 563,
+              "spokenWordIds": [
+                "section-02-w022",
+                "section-02-w023",
+                "section-02-w024",
+                "section-02-w025",
+                "section-02-w026",
+                "section-02-w027",
+                "section-02-w028"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-005",
+          "section": "section 2",
+          "text": "Bloom, April — 4 Spring Street — 304-0506",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "11.2.457",
+          "end": "13.1.537",
+          "sourceStart": 23.771,
+          "sourceEnd": 28.675,
+          "words": [
+            {
+              "id": "line-005-w001",
+              "text": "Bloom,",
+              "start": 23.771,
+              "end": 24.071,
+              "sourceStart": 23.771,
+              "sourceEnd": 24.071,
+              "musicalStart": "11.2.457",
+              "musicalEnd": "11.2.875",
+              "startFrame": 571,
+              "endFrameExclusive": 578,
+              "spokenWordIds": [
+                "section-02-w029"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-005-w002",
+              "text": "April —",
+              "start": 24.231,
+              "end": 24.551,
+              "sourceStart": 24.231,
+              "sourceEnd": 24.551,
+              "musicalStart": "11.3.136",
+              "musicalEnd": "11.3.578",
+              "startFrame": 582,
+              "endFrameExclusive": 589,
+              "spokenWordIds": [
+                "section-02-w030"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-005-w003",
+              "text": "4",
+              "start": 24.952,
+              "end": 25.212,
+              "sourceStart": 24.952,
+              "sourceEnd": 25.212,
+              "musicalStart": "11.4.174",
+              "musicalEnd": "11.4.536",
+              "startFrame": 599,
+              "endFrameExclusive": 605,
+              "spokenWordIds": [
+                "section-02-w031"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-005-w004",
+              "text": "Spring",
+              "start": 25.452,
+              "end": 25.752,
+              "sourceStart": 25.452,
+              "sourceEnd": 25.752,
+              "musicalStart": "11.4.871",
+              "musicalEnd": "12.1.328",
+              "startFrame": 611,
+              "endFrameExclusive": 618,
+              "spokenWordIds": [
+                "section-02-w032"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-005-w005",
+              "text": "Street —",
+              "start": 25.792,
+              "end": 26.073,
+              "sourceStart": 25.792,
+              "sourceEnd": 26.073,
+              "musicalStart": "12.1.384",
+              "musicalEnd": "12.1.775",
+              "startFrame": 619,
+              "endFrameExclusive": 626,
+              "spokenWordIds": [
+                "section-02-w033"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-005-w006",
+              "text": "304-0506",
+              "start": 26.173,
+              "end": 28.675,
+              "sourceStart": 26.173,
+              "sourceEnd": 28.675,
+              "musicalStart": "12.1.914",
+              "musicalEnd": "13.1.537",
+              "startFrame": 628,
+              "endFrameExclusive": 688,
+              "spokenWordIds": [
+                "section-02-w034",
+                "section-02-w035",
+                "section-02-w036",
+                "section-02-w037",
+                "section-02-w038",
+                "section-02-w039",
+                "section-02-w040"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-006",
+          "section": "section 2",
+          "text": "Bloom, May — 5 Spring Street — 405-0607",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "13.1.921",
+          "end": "15.1.385",
+          "sourceStart": 28.955,
+          "sourceEnd": 34.099,
+          "words": [
+            {
+              "id": "line-006-w001",
+              "text": "Bloom,",
+              "start": 28.955,
+              "end": 29.315,
+              "sourceStart": 28.955,
+              "sourceEnd": 29.315,
+              "musicalStart": "13.1.921",
+              "musicalEnd": "13.2.457",
+              "startFrame": 695,
+              "endFrameExclusive": 704,
+              "spokenWordIds": [
+                "section-02-w041"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-006-w002",
+              "text": "May —",
+              "start": 29.676,
+              "end": 30.016,
+              "sourceStart": 29.676,
+              "sourceEnd": 30.016,
+              "musicalStart": "13.2.955",
+              "musicalEnd": "13.3.466",
+              "startFrame": 712,
+              "endFrameExclusive": 720,
+              "spokenWordIds": [
+                "section-02-w042"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-006-w003",
+              "text": "5",
+              "start": 30.536,
+              "end": 30.897,
+              "sourceStart": 30.536,
+              "sourceEnd": 30.897,
+              "musicalStart": "13.4.228",
+              "musicalEnd": "13.4.732",
+              "startFrame": 733,
+              "endFrameExclusive": 742,
+              "spokenWordIds": [
+                "section-02-w043"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-006-w004",
+              "text": "Spring",
+              "start": 30.997,
+              "end": 31.337,
+              "sourceStart": 30.997,
+              "sourceEnd": 31.337,
+              "musicalStart": "13.4.872",
+              "musicalEnd": "14.1.391",
+              "startFrame": 744,
+              "endFrameExclusive": 752,
+              "spokenWordIds": [
+                "section-02-w044"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-006-w005",
+              "text": "Street —",
+              "start": 31.357,
+              "end": 31.617,
+              "sourceStart": 31.357,
+              "sourceEnd": 31.617,
+              "musicalStart": "14.1.419",
+              "musicalEnd": "14.1.786",
+              "startFrame": 753,
+              "endFrameExclusive": 759,
+              "spokenWordIds": [
+                "section-02-w045"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-006-w006",
+              "text": "405-0607",
+              "start": 31.717,
+              "end": 34.099,
+              "sourceStart": 31.717,
+              "sourceEnd": 34.099,
+              "musicalStart": "14.1.927",
+              "musicalEnd": "15.1.385",
+              "startFrame": 761,
+              "endFrameExclusive": 818,
+              "spokenWordIds": [
+                "section-02-w046",
+                "section-02-w047",
+                "section-02-w048",
+                "section-02-w049",
+                "section-02-w050",
+                "section-02-w051",
+                "section-02-w052"
+              ],
+              "flags": [
+                "audible_tail_after_alignment",
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-007",
+          "section": "section 3",
+          "text": "I got nothing to sing.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "15.3.132",
+          "end": "16.1.472",
+          "sourceStart": 35.322,
+          "sourceEnd": 36.965,
+          "words": [
+            {
+              "id": "line-007-w001",
+              "text": "I",
+              "start": 35.322,
+              "end": 35.442,
+              "sourceStart": 35.322,
+              "sourceEnd": 35.442,
+              "musicalStart": "15.3.132",
+              "musicalEnd": "15.3.295",
+              "startFrame": 848,
+              "endFrameExclusive": 851,
+              "spokenWordIds": [
+                "section-03-w001"
+              ],
+              "flags": [
+                "audible_attack_before_alignment",
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-007-w002",
+              "text": "got",
+              "start": 35.482,
+              "end": 35.723,
+              "sourceStart": 35.482,
+              "sourceEnd": 35.723,
+              "musicalStart": "15.3.350",
+              "musicalEnd": "15.3.677",
+              "startFrame": 852,
+              "endFrameExclusive": 857,
+              "spokenWordIds": [
+                "section-03-w002"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-007-w003",
+              "text": "nothing",
+              "start": 35.783,
+              "end": 36.264,
+              "sourceStart": 35.783,
+              "sourceEnd": 36.264,
+              "musicalStart": "15.3.759",
+              "musicalEnd": "15.4.461",
+              "startFrame": 859,
+              "endFrameExclusive": 870,
+              "spokenWordIds": [
+                "section-03-w003"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-007-w004",
+              "text": "to",
+              "start": 36.304,
+              "end": 36.464,
+              "sourceStart": 36.304,
+              "sourceEnd": 36.464,
+              "musicalStart": "15.4.517",
+              "musicalEnd": "15.4.738",
+              "startFrame": 871,
+              "endFrameExclusive": 875,
+              "spokenWordIds": [
+                "section-03-w004"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-007-w005",
+              "text": "sing.",
+              "start": 36.484,
+              "end": 36.965,
+              "sourceStart": 36.484,
+              "sourceEnd": 36.965,
+              "musicalStart": "15.4.766",
+              "musicalEnd": "16.1.472",
+              "startFrame": 876,
+              "endFrameExclusive": 887,
+              "spokenWordIds": [
+                "section-03-w005"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-008",
+          "section": "section 3",
+          "text": "But the names got a ring.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "16.2.923",
+          "end": "17.1.510",
+          "sourceStart": 37.987,
+          "sourceEnd": 39.79,
+          "words": [
+            {
+              "id": "line-008-w001",
+              "text": "But",
+              "start": 37.987,
+              "end": 38.187,
+              "sourceStart": 37.987,
+              "sourceEnd": 38.187,
+              "musicalStart": "16.2.923",
+              "musicalEnd": "16.3.235",
+              "startFrame": 912,
+              "endFrameExclusive": 916,
+              "spokenWordIds": [
+                "section-03-w006"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-008-w002",
+              "text": "the",
+              "start": 38.227,
+              "end": 38.327,
+              "sourceStart": 38.227,
+              "sourceEnd": 38.327,
+              "musicalStart": "16.3.290",
+              "musicalEnd": "16.3.426",
+              "startFrame": 917,
+              "endFrameExclusive": 920,
+              "spokenWordIds": [
+                "section-03-w007"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-008-w003",
+              "text": "names",
+              "start": 38.387,
+              "end": 39.029,
+              "sourceStart": 38.387,
+              "sourceEnd": 39.029,
+              "musicalStart": "16.3.507",
+              "musicalEnd": "16.4.424",
+              "startFrame": 921,
+              "endFrameExclusive": 937,
+              "spokenWordIds": [
+                "section-03-w008"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-008-w004",
+              "text": "got",
+              "start": 39.069,
+              "end": 39.229,
+              "sourceStart": 39.069,
+              "sourceEnd": 39.229,
+              "musicalStart": "16.4.479",
+              "musicalEnd": "16.4.699",
+              "startFrame": 938,
+              "endFrameExclusive": 942,
+              "spokenWordIds": [
+                "section-03-w009"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-008-w005",
+              "text": "a",
+              "start": 39.389,
+              "end": 39.489,
+              "sourceStart": 39.389,
+              "sourceEnd": 39.489,
+              "musicalStart": "16.4.918",
+              "musicalEnd": "17.1.96",
+              "startFrame": 945,
+              "endFrameExclusive": 948,
+              "spokenWordIds": [
+                "section-03-w010"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-008-w006",
+              "text": "ring.",
+              "start": 39.549,
+              "end": 39.79,
+              "sourceStart": 39.549,
+              "sourceEnd": 39.79,
+              "musicalStart": "17.1.179",
+              "musicalEnd": "17.1.510",
+              "startFrame": 949,
+              "endFrameExclusive": 955,
+              "spokenWordIds": [
+                "section-03-w011"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-009",
+          "section": "section 3",
+          "text": "Last name first.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "17.3.11",
+          "end": "18.1.752",
+          "sourceStart": 40.812,
+          "sourceEnd": 42.755,
+          "words": [
+            {
+              "id": "line-009-w001",
+              "text": "Last",
+              "start": 40.812,
+              "end": 41.493,
+              "sourceStart": 40.812,
+              "sourceEnd": 41.493,
+              "musicalStart": "17.3.11",
+              "musicalEnd": "17.3.939",
+              "startFrame": 979,
+              "endFrameExclusive": 996,
+              "spokenWordIds": [
+                "section-03-w012"
+              ],
+              "flags": [
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-009-w002",
+              "text": "name",
+              "start": 41.553,
+              "end": 42.094,
+              "sourceStart": 41.553,
+              "sourceEnd": 42.094,
+              "musicalStart": "17.4.62",
+              "musicalEnd": "17.4.803",
+              "startFrame": 997,
+              "endFrameExclusive": 1010,
+              "spokenWordIds": [
+                "section-03-w013"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-009-w003",
+              "text": "first.",
+              "start": 42.174,
+              "end": 42.755,
+              "sourceStart": 42.174,
+              "sourceEnd": 42.755,
+              "musicalStart": "17.4.913",
+              "musicalEnd": "18.1.752",
+              "startFrame": 1012,
+              "endFrameExclusive": 1026,
+              "spokenWordIds": [
+                "section-03-w014"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-010",
+          "section": "section 3",
+          "text": "Let the phone book sing.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "18.3.229",
+          "end": "19.1.669",
+          "sourceStart": 43.777,
+          "sourceEnd": 45.48,
+          "words": [
+            {
+              "id": "line-010-w001",
+              "text": "Let",
+              "start": 43.777,
+              "end": 43.977,
+              "sourceStart": 43.777,
+              "sourceEnd": 43.977,
+              "musicalStart": "18.3.229",
+              "musicalEnd": "18.3.503",
+              "startFrame": 1051,
+              "endFrameExclusive": 1055,
+              "spokenWordIds": [
+                "section-03-w015"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-010-w002",
+              "text": "the",
+              "start": 44.017,
+              "end": 44.158,
+              "sourceStart": 44.017,
+              "sourceEnd": 44.158,
+              "musicalStart": "18.3.558",
+              "musicalEnd": "18.3.752",
+              "startFrame": 1056,
+              "endFrameExclusive": 1060,
+              "spokenWordIds": [
+                "section-03-w016"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-010-w003",
+              "text": "phone",
+              "start": 44.298,
+              "end": 44.598,
+              "sourceStart": 44.298,
+              "sourceEnd": 44.598,
+              "musicalStart": "18.3.944",
+              "musicalEnd": "18.4.401",
+              "startFrame": 1063,
+              "endFrameExclusive": 1070,
+              "spokenWordIds": [
+                "section-03-w017"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-010-w004",
+              "text": "book",
+              "start": 44.659,
+              "end": 44.919,
+              "sourceStart": 44.659,
+              "sourceEnd": 44.919,
+              "musicalStart": "18.4.486",
+              "musicalEnd": "18.4.848",
+              "startFrame": 1072,
+              "endFrameExclusive": 1078,
+              "spokenWordIds": [
+                "section-03-w018"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-010-w005",
+              "text": "sing.",
+              "start": 44.979,
+              "end": 45.48,
+              "sourceStart": 44.979,
+              "sourceEnd": 45.48,
+              "musicalStart": "18.4.932",
+              "musicalEnd": "19.1.669",
+              "startFrame": 1079,
+              "endFrameExclusive": 1092,
+              "spokenWordIds": [
+                "section-03-w019"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "text_review",
+                "window_edge"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-011",
+          "section": "section 4",
+          "text": "Cash, Penny — 1 Worth Street — 101-0010",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "19.1.947",
+          "end": "21.1.919",
+          "sourceStart": 45.68,
+          "sourceEnd": 51.223,
+          "words": [
+            {
+              "id": "line-011-w001",
+              "text": "Cash,",
+              "start": 45.68,
+              "end": 46.04,
+              "sourceStart": 45.68,
+              "sourceEnd": 46.04,
+              "musicalStart": "19.1.947",
+              "musicalEnd": "19.2.488",
+              "startFrame": 1096,
+              "endFrameExclusive": 1105,
+              "spokenWordIds": [
+                "section-04-w001"
+              ],
+              "flags": [
+                "audible_attack_before_alignment",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-011-w002",
+              "text": "Penny —",
+              "start": 46.361,
+              "end": 46.681,
+              "sourceStart": 46.361,
+              "sourceEnd": 46.681,
+              "musicalStart": "19.2.934",
+              "musicalEnd": "19.3.415",
+              "startFrame": 1113,
+              "endFrameExclusive": 1120,
+              "spokenWordIds": [
+                "section-04-w002"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-011-w003",
+              "text": "1",
+              "start": 47.141,
+              "end": 47.261,
+              "sourceStart": 47.141,
+              "sourceEnd": 47.261,
+              "musicalStart": "19.4.89",
+              "musicalEnd": "19.4.256",
+              "startFrame": 1131,
+              "endFrameExclusive": 1134,
+              "spokenWordIds": [
+                "section-04-w003"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-011-w004",
+              "text": "Worth",
+              "start": 47.381,
+              "end": 47.661,
+              "sourceStart": 47.381,
+              "sourceEnd": 47.661,
+              "musicalStart": "19.4.423",
+              "musicalEnd": "19.4.812",
+              "startFrame": 1137,
+              "endFrameExclusive": 1144,
+              "spokenWordIds": [
+                "section-04-w004"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-011-w005",
+              "text": "Street —",
+              "start": 47.721,
+              "end": 48.021,
+              "sourceStart": 47.721,
+              "sourceEnd": 48.021,
+              "musicalStart": "19.4.896",
+              "musicalEnd": "20.1.348",
+              "startFrame": 1145,
+              "endFrameExclusive": 1153,
+              "spokenWordIds": [
+                "section-04-w005"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-011-w006",
+              "text": "101-0010",
+              "start": 48.502,
+              "end": 51.223,
+              "sourceStart": 48.502,
+              "sourceEnd": 51.223,
+              "musicalStart": "20.2.47",
+              "musicalEnd": "21.1.919",
+              "startFrame": 1164,
+              "endFrameExclusive": 1229,
+              "spokenWordIds": [
+                "section-04-w006",
+                "section-04-w007",
+                "section-04-w008",
+                "section-04-w009",
+                "section-04-w010",
+                "section-04-w011",
+                "section-04-w012"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-012",
+          "section": "section 4",
+          "text": "Cash, Rich — 100 Worth Street — 100-1000",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "21.2.15",
+          "end": "23.1.25",
+          "sourceStart": 51.263,
+          "sourceEnd": 56.145,
+          "words": [
+            {
+              "id": "line-012-w001",
+              "text": "Cash,",
+              "start": 51.263,
+              "end": 51.643,
+              "sourceStart": 51.263,
+              "sourceEnd": 51.643,
+              "musicalStart": "21.2.15",
+              "musicalEnd": "21.2.542",
+              "startFrame": 1230,
+              "endFrameExclusive": 1239,
+              "spokenWordIds": [
+                "section-04-w013"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-012-w002",
+              "text": "Rich —",
+              "start": 51.923,
+              "end": 52.203,
+              "sourceStart": 51.923,
+              "sourceEnd": 52.203,
+              "musicalStart": "21.2.930",
+              "musicalEnd": "21.3.356",
+              "startFrame": 1246,
+              "endFrameExclusive": 1253,
+              "spokenWordIds": [
+                "section-04-w014"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-012-w003",
+              "text": "100",
+              "start": 52.503,
+              "end": 52.964,
+              "sourceStart": 52.503,
+              "sourceEnd": 52.964,
+              "musicalStart": "21.3.770",
+              "musicalEnd": "21.4.444",
+              "startFrame": 1260,
+              "endFrameExclusive": 1271,
+              "spokenWordIds": [
+                "section-04-w015",
+                "section-04-w016"
+              ],
+              "flags": [
+                "text_review",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-012-w004",
+              "text": "Worth",
+              "start": 53.004,
+              "end": 53.264,
+              "sourceStart": 53.004,
+              "sourceEnd": 53.264,
+              "musicalStart": "21.4.499",
+              "musicalEnd": "21.4.857",
+              "startFrame": 1272,
+              "endFrameExclusive": 1278,
+              "spokenWordIds": [
+                "section-04-w017"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-012-w005",
+              "text": "Street —",
+              "start": 53.304,
+              "end": 53.604,
+              "sourceStart": 53.304,
+              "sourceEnd": 53.604,
+              "musicalStart": "21.4.912",
+              "musicalEnd": "22.1.365",
+              "startFrame": 1279,
+              "endFrameExclusive": 1286,
+              "spokenWordIds": [
+                "section-04-w018"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-012-w006",
+              "text": "100-1000",
+              "start": 53.904,
+              "end": 56.145,
+              "sourceStart": 53.904,
+              "sourceEnd": 56.145,
+              "musicalStart": "22.1.779",
+              "musicalEnd": "23.1.25",
+              "startFrame": 1294,
+              "endFrameExclusive": 1347,
+              "spokenWordIds": [
+                "section-04-w019",
+                "section-04-w020",
+                "section-04-w021",
+                "section-04-w022",
+                "section-04-w023",
+                "section-04-w024",
+                "section-04-w025"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-013",
+          "section": "section 4",
+          "text": "Chase, Miles — 26 Riverside Drive — 246-8246",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "23.1.445",
+          "end": "25.1.344",
+          "sourceStart": 56.445,
+          "sourceEnd": 61.928,
+          "words": [
+            {
+              "id": "line-013-w001",
+              "text": "Chase,",
+              "start": 56.445,
+              "end": 56.685,
+              "sourceStart": 56.445,
+              "sourceEnd": 56.685,
+              "musicalStart": "23.1.445",
+              "musicalEnd": "23.1.780",
+              "startFrame": 1355,
+              "endFrameExclusive": 1360,
+              "spokenWordIds": [
+                "section-04-w026"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-013-w002",
+              "text": "Miles —",
+              "start": 56.805,
+              "end": 57.166,
+              "sourceStart": 56.805,
+              "sourceEnd": 57.166,
+              "musicalStart": "23.1.948",
+              "musicalEnd": "23.2.493",
+              "startFrame": 1363,
+              "endFrameExclusive": 1372,
+              "spokenWordIds": [
+                "section-04-w027"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-013-w003",
+              "text": "26",
+              "start": 58.186,
+              "end": 58.826,
+              "sourceStart": 58.186,
+              "sourceEnd": 58.826,
+              "musicalStart": "23.3.942",
+              "musicalEnd": "23.4.870",
+              "startFrame": 1396,
+              "endFrameExclusive": 1412,
+              "spokenWordIds": [
+                "section-04-w028",
+                "section-04-w029"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "text_review",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-013-w004",
+              "text": "Riverside",
+              "start": 58.886,
+              "end": 59.507,
+              "sourceStart": 58.886,
+              "sourceEnd": 59.507,
+              "musicalStart": "23.4.953",
+              "musicalEnd": "24.1.849",
+              "startFrame": 1413,
+              "endFrameExclusive": 1428,
+              "spokenWordIds": [
+                "section-04-w030"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-013-w005",
+              "text": "Drive —",
+              "start": 59.567,
+              "end": 59.867,
+              "sourceStart": 59.567,
+              "sourceEnd": 59.867,
+              "musicalStart": "24.1.931",
+              "musicalEnd": "24.2.386",
+              "startFrame": 1430,
+              "endFrameExclusive": 1437,
+              "spokenWordIds": [
+                "section-04-w031"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-013-w006",
+              "text": "246-8246",
+              "start": 59.907,
+              "end": 61.928,
+              "sourceStart": 59.907,
+              "sourceEnd": 61.928,
+              "musicalStart": "24.2.441",
+              "musicalEnd": "25.1.344",
+              "startFrame": 1438,
+              "endFrameExclusive": 1486,
+              "spokenWordIds": [
+                "section-04-w032",
+                "section-04-w033",
+                "section-04-w034",
+                "section-04-w035",
+                "section-04-w036",
+                "section-04-w037",
+                "section-04-w038"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-014",
+          "section": "section 4",
+          "text": "Chase, Penny — 99 Worth Street — 990-0099",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "25.1.427",
+          "end": "26.4.471",
+          "sourceStart": 61.988,
+          "sourceEnd": 66.89,
+          "words": [
+            {
+              "id": "line-014-w001",
+              "text": "Chase,",
+              "start": 61.988,
+              "end": 62.288,
+              "sourceStart": 61.988,
+              "sourceEnd": 62.288,
+              "musicalStart": "25.1.427",
+              "musicalEnd": "25.1.842",
+              "startFrame": 1488,
+              "endFrameExclusive": 1495,
+              "spokenWordIds": [
+                "section-04-w039"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-014-w002",
+              "text": "Penny —",
+              "start": 62.688,
+              "end": 63.028,
+              "sourceStart": 62.688,
+              "sourceEnd": 63.028,
+              "musicalStart": "25.2.437",
+              "musicalEnd": "25.2.908",
+              "startFrame": 1505,
+              "endFrameExclusive": 1513,
+              "spokenWordIds": [
+                "section-04-w040"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-014-w003",
+              "text": "99",
+              "start": 63.088,
+              "end": 63.689,
+              "sourceStart": 63.088,
+              "sourceEnd": 63.689,
+              "musicalStart": "25.3.31",
+              "musicalEnd": "25.3.862",
+              "startFrame": 1514,
+              "endFrameExclusive": 1529,
+              "spokenWordIds": [
+                "section-04-w041",
+                "section-04-w042"
+              ],
+              "flags": [
+                "text_review",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-014-w004",
+              "text": "Worth",
+              "start": 63.729,
+              "end": 64.009,
+              "sourceStart": 63.729,
+              "sourceEnd": 64.009,
+              "musicalStart": "25.3.917",
+              "musicalEnd": "25.4.342",
+              "startFrame": 1529,
+              "endFrameExclusive": 1536,
+              "spokenWordIds": [
+                "section-04-w043"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-014-w005",
+              "text": "Street —",
+              "start": 64.049,
+              "end": 64.249,
+              "sourceStart": 64.049,
+              "sourceEnd": 64.249,
+              "musicalStart": "25.4.397",
+              "musicalEnd": "25.4.672",
+              "startFrame": 1537,
+              "endFrameExclusive": 1542,
+              "spokenWordIds": [
+                "section-04-w044"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-014-w006",
+              "text": "990-0099",
+              "start": 64.469,
+              "end": 66.89,
+              "sourceStart": 64.469,
+              "sourceEnd": 66.89,
+              "musicalStart": "26.1.14",
+              "musicalEnd": "26.4.471",
+              "startFrame": 1547,
+              "endFrameExclusive": 1605,
+              "spokenWordIds": [
+                "section-04-w045",
+                "section-04-w046",
+                "section-04-w047",
+                "section-04-w048",
+                "section-04-w049",
+                "section-04-w050",
+                "section-04-w051"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-015",
+          "section": "section 5",
+          "text": "I got nothing to sing.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "27.3.121",
+          "end": "28.1.640",
+          "sourceStart": 68.73,
+          "sourceEnd": 70.512,
+          "words": [
+            {
+              "id": "line-015-w001",
+              "text": "I",
+              "start": 68.73,
+              "end": 68.81,
+              "sourceStart": 68.73,
+              "sourceEnd": 68.81,
+              "musicalStart": "27.3.121",
+              "musicalEnd": "27.3.230",
+              "startFrame": 1650,
+              "endFrameExclusive": 1651,
+              "spokenWordIds": [
+                "section-05-w001"
+              ],
+              "flags": [
+                "audible_attack_before_alignment",
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-015-w002",
+              "text": "got",
+              "start": 68.87,
+              "end": 69.091,
+              "sourceStart": 68.87,
+              "sourceEnd": 69.091,
+              "musicalStart": "27.3.313",
+              "musicalEnd": "27.3.616",
+              "startFrame": 1653,
+              "endFrameExclusive": 1658,
+              "spokenWordIds": [
+                "section-05-w002"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-015-w003",
+              "text": "nothing",
+              "start": 69.171,
+              "end": 69.691,
+              "sourceStart": 69.171,
+              "sourceEnd": 69.691,
+              "musicalStart": "27.3.726",
+              "musicalEnd": "27.4.477",
+              "startFrame": 1660,
+              "endFrameExclusive": 1673,
+              "spokenWordIds": [
+                "section-05-w003"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-015-w004",
+              "text": "to",
+              "start": 69.711,
+              "end": 69.972,
+              "sourceStart": 69.711,
+              "sourceEnd": 69.972,
+              "musicalStart": "27.4.504",
+              "musicalEnd": "27.4.860",
+              "startFrame": 1673,
+              "endFrameExclusive": 1679,
+              "spokenWordIds": [
+                "section-05-w004"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-015-w005",
+              "text": "sing.",
+              "start": 70.152,
+              "end": 70.512,
+              "sourceStart": 70.152,
+              "sourceEnd": 70.512,
+              "musicalStart": "28.1.147",
+              "musicalEnd": "28.1.640",
+              "startFrame": 1684,
+              "endFrameExclusive": 1692,
+              "spokenWordIds": [
+                "section-05-w005"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-016",
+          "section": "section 5",
+          "text": "But the names got a ring.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "28.1.667",
+          "end": "29.1.616",
+          "sourceStart": 70.532,
+          "sourceEnd": 73.295,
+          "words": [
+            {
+              "id": "line-016-w001",
+              "text": "But",
+              "start": 70.532,
+              "end": 71.593,
+              "sourceStart": 70.532,
+              "sourceEnd": 71.593,
+              "musicalStart": "28.1.667",
+              "musicalEnd": "28.3.205",
+              "startFrame": 1693,
+              "endFrameExclusive": 1718,
+              "spokenWordIds": [
+                "section-05-w006"
+              ],
+              "flags": [
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-016-w002",
+              "text": "the",
+              "start": 71.613,
+              "end": 71.773,
+              "sourceStart": 71.613,
+              "sourceEnd": 71.773,
+              "musicalStart": "28.3.233",
+              "musicalEnd": "28.3.452",
+              "startFrame": 1719,
+              "endFrameExclusive": 1723,
+              "spokenWordIds": [
+                "section-05-w007"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-016-w003",
+              "text": "names",
+              "start": 71.813,
+              "end": 72.414,
+              "sourceStart": 71.813,
+              "sourceEnd": 72.414,
+              "musicalStart": "28.3.507",
+              "musicalEnd": "28.4.371",
+              "startFrame": 1724,
+              "endFrameExclusive": 1738,
+              "spokenWordIds": [
+                "section-05-w008"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-016-w004",
+              "text": "got",
+              "start": 72.474,
+              "end": 72.674,
+              "sourceStart": 72.474,
+              "sourceEnd": 72.674,
+              "musicalStart": "28.4.453",
+              "musicalEnd": "28.4.728",
+              "startFrame": 1739,
+              "endFrameExclusive": 1744,
+              "spokenWordIds": [
+                "section-05-w009"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-016-w005",
+              "text": "a",
+              "start": 72.794,
+              "end": 72.894,
+              "sourceStart": 72.794,
+              "sourceEnd": 72.894,
+              "musicalStart": "28.4.892",
+              "musicalEnd": "29.1.69",
+              "startFrame": 1747,
+              "endFrameExclusive": 1749,
+              "spokenWordIds": [
+                "section-05-w010"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-016-w006",
+              "text": "ring.",
+              "start": 72.954,
+              "end": 73.295,
+              "sourceStart": 72.954,
+              "sourceEnd": 73.295,
+              "musicalStart": "29.1.151",
+              "musicalEnd": "29.1.616",
+              "startFrame": 1751,
+              "endFrameExclusive": 1759,
+              "spokenWordIds": [
+                "section-05-w011"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-017",
+          "section": "section 5",
+          "text": "Last name first.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "29.2.956",
+          "end": "30.1.603",
+          "sourceStart": 74.236,
+          "sourceEnd": 76.077,
+          "words": [
+            {
+              "id": "line-017-w001",
+              "text": "Last",
+              "start": 74.236,
+              "end": 74.916,
+              "sourceStart": 74.236,
+              "sourceEnd": 74.916,
+              "musicalStart": "29.2.956",
+              "musicalEnd": "29.3.930",
+              "startFrame": 1782,
+              "endFrameExclusive": 1798,
+              "spokenWordIds": [
+                "section-05-w012"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-017-w002",
+              "text": "name",
+              "start": 74.956,
+              "end": 75.477,
+              "sourceStart": 74.956,
+              "sourceEnd": 75.477,
+              "musicalStart": "29.4.25",
+              "musicalEnd": "29.4.738",
+              "startFrame": 1799,
+              "endFrameExclusive": 1811,
+              "spokenWordIds": [
+                "section-05-w013"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-017-w003",
+              "text": "first.",
+              "start": 75.577,
+              "end": 76.077,
+              "sourceStart": 75.577,
+              "sourceEnd": 76.077,
+              "musicalStart": "29.4.875",
+              "musicalEnd": "30.1.603",
+              "startFrame": 1814,
+              "endFrameExclusive": 1826,
+              "spokenWordIds": [
+                "section-05-w014"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-018",
+          "section": "section 5",
+          "text": "Let the phone book sing.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "30.3.229",
+          "end": "31.1.585",
+          "sourceStart": 77.198,
+          "sourceEnd": 78.84,
+          "words": [
+            {
+              "id": "line-018-w001",
+              "text": "Let",
+              "start": 77.198,
+              "end": 77.378,
+              "sourceStart": 77.198,
+              "sourceEnd": 77.378,
+              "musicalStart": "30.3.229",
+              "musicalEnd": "30.3.478",
+              "startFrame": 1853,
+              "endFrameExclusive": 1857,
+              "spokenWordIds": [
+                "section-05-w015"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-018-w002",
+              "text": "the",
+              "start": 77.419,
+              "end": 77.599,
+              "sourceStart": 77.419,
+              "sourceEnd": 77.599,
+              "musicalStart": "30.3.534",
+              "musicalEnd": "30.3.783",
+              "startFrame": 1858,
+              "endFrameExclusive": 1862,
+              "spokenWordIds": [
+                "section-05-w016"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-018-w003",
+              "text": "phone",
+              "start": 77.699,
+              "end": 78.039,
+              "sourceStart": 77.699,
+              "sourceEnd": 78.039,
+              "musicalStart": "30.3.922",
+              "musicalEnd": "30.4.434",
+              "startFrame": 1865,
+              "endFrameExclusive": 1873,
+              "spokenWordIds": [
+                "section-05-w017"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-018-w004",
+              "text": "book",
+              "start": 78.079,
+              "end": 78.319,
+              "sourceStart": 78.079,
+              "sourceEnd": 78.319,
+              "musicalStart": "30.4.490",
+              "musicalEnd": "30.4.824",
+              "startFrame": 1874,
+              "endFrameExclusive": 1880,
+              "spokenWordIds": [
+                "section-05-w018"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-018-w005",
+              "text": "sing.",
+              "start": 78.379,
+              "end": 78.84,
+              "sourceStart": 78.379,
+              "sourceEnd": 78.84,
+              "musicalStart": "30.4.907",
+              "musicalEnd": "31.1.585",
+              "startFrame": 1881,
+              "endFrameExclusive": 1892,
+              "spokenWordIds": [
+                "section-05-w019"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-019",
+          "section": "section 6",
+          "text": "Pine, Forrest — 100 Park Place — 123-5813",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "31.1.917",
+          "end": "33.1.356",
+          "sourceStart": 79.08,
+          "sourceEnd": 84.225,
+          "words": [
+            {
+              "id": "line-019-w001",
+              "text": "Pine,",
+              "start": 79.08,
+              "end": 79.461,
+              "sourceStart": 79.08,
+              "sourceEnd": 79.461,
+              "musicalStart": "31.1.917",
+              "musicalEnd": "31.2.480",
+              "startFrame": 1898,
+              "endFrameExclusive": 1907,
+              "spokenWordIds": [
+                "section-06-w001"
+              ],
+              "flags": [
+                "audible_attack_before_alignment",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-019-w002",
+              "text": "Forrest —",
+              "start": 79.781,
+              "end": 80.161,
+              "sourceStart": 79.781,
+              "sourceEnd": 80.161,
+              "musicalStart": "31.2.919",
+              "musicalEnd": "31.3.481",
+              "startFrame": 1915,
+              "endFrameExclusive": 1924,
+              "spokenWordIds": [
+                "section-06-w002"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-019-w003",
+              "text": "100",
+              "start": 80.382,
+              "end": 80.822,
+              "sourceStart": 80.382,
+              "sourceEnd": 80.822,
+              "musicalStart": "31.3.785",
+              "musicalEnd": "31.4.436",
+              "startFrame": 1929,
+              "endFrameExclusive": 1940,
+              "spokenWordIds": [
+                "section-06-w003",
+                "section-06-w004"
+              ],
+              "flags": [
+                "text_review",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-019-w004",
+              "text": "Park",
+              "start": 80.882,
+              "end": 81.102,
+              "sourceStart": 80.882,
+              "sourceEnd": 81.102,
+              "musicalStart": "31.4.520",
+              "musicalEnd": "31.4.827",
+              "startFrame": 1941,
+              "endFrameExclusive": 1946,
+              "spokenWordIds": [
+                "section-06-w005"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-019-w005",
+              "text": "Place —",
+              "start": 81.182,
+              "end": 81.443,
+              "sourceStart": 81.182,
+              "sourceEnd": 81.443,
+              "musicalStart": "31.4.939",
+              "musicalEnd": "32.1.344",
+              "startFrame": 1948,
+              "endFrameExclusive": 1955,
+              "spokenWordIds": [
+                "section-06-w006"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-019-w006",
+              "text": "123-5813",
+              "start": 81.603,
+              "end": 84.225,
+              "sourceStart": 81.603,
+              "sourceEnd": 84.225,
+              "musicalStart": "32.1.568",
+              "musicalEnd": "33.1.356",
+              "startFrame": 1958,
+              "endFrameExclusive": 2021,
+              "spokenWordIds": [
+                "section-06-w007",
+                "section-06-w008",
+                "section-06-w009",
+                "section-06-w010",
+                "section-06-w011",
+                "section-06-w012",
+                "section-06-w013"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-020",
+          "section": "section 6",
+          "text": "Pine, Woody — 3 Orchard Street — 224-2484",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "33.1.936",
+          "end": "35.1.355",
+          "sourceStart": 84.645,
+          "sourceEnd": 89.75,
+          "words": [
+            {
+              "id": "line-020-w001",
+              "text": "Pine,",
+              "start": 84.645,
+              "end": 85.026,
+              "sourceStart": 84.645,
+              "sourceEnd": 85.026,
+              "musicalStart": "33.1.936",
+              "musicalEnd": "33.2.502",
+              "startFrame": 2031,
+              "endFrameExclusive": 2041,
+              "spokenWordIds": [
+                "section-06-w014"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-020-w002",
+              "text": "Woody —",
+              "start": 85.346,
+              "end": 85.726,
+              "sourceStart": 85.346,
+              "sourceEnd": 85.726,
+              "musicalStart": "33.2.944",
+              "musicalEnd": "33.3.515",
+              "startFrame": 2048,
+              "endFrameExclusive": 2057,
+              "spokenWordIds": [
+                "section-06-w015"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-020-w003",
+              "text": "3",
+              "start": 86.007,
+              "end": 86.247,
+              "sourceStart": 86.007,
+              "sourceEnd": 86.247,
+              "musicalStart": "33.3.909",
+              "musicalEnd": "33.4.287",
+              "startFrame": 2064,
+              "endFrameExclusive": 2070,
+              "spokenWordIds": [
+                "section-06-w016"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-020-w004",
+              "text": "Orchard",
+              "start": 86.387,
+              "end": 86.727,
+              "sourceStart": 86.387,
+              "sourceEnd": 86.727,
+              "musicalStart": "33.4.484",
+              "musicalEnd": "34.1.4",
+              "startFrame": 2073,
+              "endFrameExclusive": 2081,
+              "spokenWordIds": [
+                "section-06-w017"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-020-w005",
+              "text": "Street —",
+              "start": 86.767,
+              "end": 87.008,
+              "sourceStart": 86.767,
+              "sourceEnd": 87.008,
+              "musicalStart": "34.1.60",
+              "musicalEnd": "34.1.396",
+              "startFrame": 2082,
+              "endFrameExclusive": 2088,
+              "spokenWordIds": [
+                "section-06-w018"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-020-w006",
+              "text": "224-2484",
+              "start": 87.048,
+              "end": 89.75,
+              "sourceStart": 87.048,
+              "sourceEnd": 89.75,
+              "musicalStart": "34.1.452",
+              "musicalEnd": "35.1.355",
+              "startFrame": 2089,
+              "endFrameExclusive": 2154,
+              "spokenWordIds": [
+                "section-06-w019",
+                "section-06-w020",
+                "section-06-w021",
+                "section-06-w022",
+                "section-06-w023",
+                "section-06-w024",
+                "section-06-w025"
+              ],
+              "flags": [
+                "text_review",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-021",
+          "section": "section 6",
+          "text": "Pine, Yew — 4 Orchard Street — 222-4222",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "35.1.438",
+          "end": "37.1.317",
+          "sourceStart": 89.81,
+          "sourceEnd": 95.275,
+          "words": [
+            {
+              "id": "line-021-w001",
+              "text": "Pine,",
+              "start": 89.81,
+              "end": 90.15,
+              "sourceStart": 89.81,
+              "sourceEnd": 90.15,
+              "musicalStart": "35.1.438",
+              "musicalEnd": "35.1.913",
+              "startFrame": 2155,
+              "endFrameExclusive": 2164,
+              "spokenWordIds": [
+                "section-06-w026"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-021-w002",
+              "text": "Yew —",
+              "start": 90.511,
+              "end": 90.791,
+              "sourceStart": 90.511,
+              "sourceEnd": 90.791,
+              "musicalStart": "35.2.455",
+              "musicalEnd": "35.2.845",
+              "startFrame": 2172,
+              "endFrameExclusive": 2179,
+              "spokenWordIds": [
+                "section-06-w027"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-021-w003",
+              "text": "4",
+              "start": 91.552,
+              "end": 91.752,
+              "sourceStart": 91.552,
+              "sourceEnd": 91.752,
+              "musicalStart": "35.3.932",
+              "musicalEnd": "35.4.247",
+              "startFrame": 2197,
+              "endFrameExclusive": 2202,
+              "spokenWordIds": [
+                "section-06-w028"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-021-w004",
+              "text": "Orchard",
+              "start": 91.892,
+              "end": 92.272,
+              "sourceStart": 91.892,
+              "sourceEnd": 92.272,
+              "musicalStart": "35.4.440",
+              "musicalEnd": "36.1.3",
+              "startFrame": 2205,
+              "endFrameExclusive": 2215,
+              "spokenWordIds": [
+                "section-06-w029"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-021-w005",
+              "text": "Street —",
+              "start": 92.312,
+              "end": 92.573,
+              "sourceStart": 92.312,
+              "sourceEnd": 92.573,
+              "musicalStart": "36.1.58",
+              "musicalEnd": "36.1.422",
+              "startFrame": 2215,
+              "endFrameExclusive": 2222,
+              "spokenWordIds": [
+                "section-06-w030"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-021-w006",
+              "text": "222-4222",
+              "start": 92.613,
+              "end": 95.275,
+              "sourceStart": 92.613,
+              "sourceEnd": 95.275,
+              "musicalStart": "36.1.478",
+              "musicalEnd": "37.1.317",
+              "startFrame": 2223,
+              "endFrameExclusive": 2287,
+              "spokenWordIds": [
+                "section-06-w031",
+                "section-06-w032",
+                "section-06-w033",
+                "section-06-w034",
+                "section-06-w035",
+                "section-06-w036",
+                "section-06-w037"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-022",
+          "section": "section 6",
+          "text": "Price, Pearl — 1 Water Street — 241-2412",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "37.1.925",
+          "end": "38.4.227",
+          "sourceStart": 95.716,
+          "sourceEnd": 100.08,
+          "words": [
+            {
+              "id": "line-022-w001",
+              "text": "Price,",
+              "start": 95.716,
+              "end": 96.056,
+              "sourceStart": 95.716,
+              "sourceEnd": 96.056,
+              "musicalStart": "37.1.925",
+              "musicalEnd": "37.2.435",
+              "startFrame": 2297,
+              "endFrameExclusive": 2305,
+              "spokenWordIds": [
+                "section-06-w038"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-022-w002",
+              "text": "Pearl —",
+              "start": 96.416,
+              "end": 96.736,
+              "sourceStart": 96.416,
+              "sourceEnd": 96.736,
+              "musicalStart": "37.2.933",
+              "musicalEnd": "37.3.413",
+              "startFrame": 2314,
+              "endFrameExclusive": 2322,
+              "spokenWordIds": [
+                "section-06-w039"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-022-w003",
+              "text": "1",
+              "start": 96.877,
+              "end": 97.037,
+              "sourceStart": 96.877,
+              "sourceEnd": 97.037,
+              "musicalStart": "37.3.606",
+              "musicalEnd": "37.3.826",
+              "startFrame": 2325,
+              "endFrameExclusive": 2329,
+              "spokenWordIds": [
+                "section-06-w040"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-022-w004",
+              "text": "Water",
+              "start": 97.117,
+              "end": 97.497,
+              "sourceStart": 97.117,
+              "sourceEnd": 97.497,
+              "musicalStart": "37.3.936",
+              "musicalEnd": "37.4.498",
+              "startFrame": 2331,
+              "endFrameExclusive": 2340,
+              "spokenWordIds": [
+                "section-06-w041"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-022-w005",
+              "text": "Street —",
+              "start": 97.537,
+              "end": 97.837,
+              "sourceStart": 97.537,
+              "sourceEnd": 97.837,
+              "musicalStart": "37.4.553",
+              "musicalEnd": "38.1.6",
+              "startFrame": 2341,
+              "endFrameExclusive": 2348,
+              "spokenWordIds": [
+                "section-06-w042"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-022-w006",
+              "text": "241-2412",
+              "start": 98.138,
+              "end": 100.08,
+              "sourceStart": 98.138,
+              "sourceEnd": 100.08,
+              "musicalStart": "38.1.421",
+              "musicalEnd": "38.4.227",
+              "startFrame": 2355,
+              "endFrameExclusive": 2402,
+              "spokenWordIds": [
+                "section-06-w043",
+                "section-06-w044",
+                "section-06-w045",
+                "section-06-w046",
+                "section-06-w047",
+                "section-06-w048",
+                "section-06-w049"
+              ],
+              "flags": [
+                "audible_tail_after_alignment",
+                "master_start_disagreement",
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-023",
+          "section": "section 7",
+          "text": "I got nothing to sing.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "39.3.123",
+          "end": "40.1.667",
+          "sourceStart": 102.11,
+          "sourceEnd": 103.912,
+          "words": [
+            {
+              "id": "line-023-w001",
+              "text": "I",
+              "start": 102.11,
+              "end": 102.21,
+              "sourceStart": 102.11,
+              "sourceEnd": 102.21,
+              "musicalStart": "39.3.123",
+              "musicalEnd": "39.3.259",
+              "startFrame": 2451,
+              "endFrameExclusive": 2453,
+              "spokenWordIds": [
+                "section-07-w001"
+              ],
+              "flags": [
+                "audible_attack_before_alignment",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-023-w002",
+              "text": "got",
+              "start": 102.25,
+              "end": 102.571,
+              "sourceStart": 102.25,
+              "sourceEnd": 102.571,
+              "musicalStart": "39.3.313",
+              "musicalEnd": "39.3.750",
+              "startFrame": 2454,
+              "endFrameExclusive": 2462,
+              "spokenWordIds": [
+                "section-07-w002"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-023-w003",
+              "text": "nothing",
+              "start": 102.591,
+              "end": 103.331,
+              "sourceStart": 102.591,
+              "sourceEnd": 103.331,
+              "musicalStart": "39.3.777",
+              "musicalEnd": "39.4.829",
+              "startFrame": 2462,
+              "endFrameExclusive": 2480,
+              "spokenWordIds": [
+                "section-07-w003"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-023-w004",
+              "text": "to",
+              "start": 103.392,
+              "end": 103.532,
+              "sourceStart": 103.392,
+              "sourceEnd": 103.532,
+              "musicalStart": "39.4.913",
+              "musicalEnd": "40.1.145",
+              "startFrame": 2481,
+              "endFrameExclusive": 2485,
+              "spokenWordIds": [
+                "section-07-w004"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-023-w005",
+              "text": "sing.",
+              "start": 103.592,
+              "end": 103.912,
+              "sourceStart": 103.592,
+              "sourceEnd": 103.912,
+              "musicalStart": "40.1.227",
+              "musicalEnd": "40.1.667",
+              "startFrame": 2486,
+              "endFrameExclusive": 2494,
+              "spokenWordIds": [
+                "section-07-w005"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-024",
+          "section": "section 7",
+          "text": "But the names got a ring.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "40.2.920",
+          "end": "41.1.680",
+          "sourceStart": 104.793,
+          "sourceEnd": 106.715,
+          "words": [
+            {
+              "id": "line-024-w001",
+              "text": "But",
+              "start": 104.793,
+              "end": 104.973,
+              "sourceStart": 104.793,
+              "sourceEnd": 104.973,
+              "musicalStart": "40.2.920",
+              "musicalEnd": "40.3.207",
+              "startFrame": 2515,
+              "endFrameExclusive": 2519,
+              "spokenWordIds": [
+                "section-07-w006"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-024-w002",
+              "text": "the",
+              "start": 105.013,
+              "end": 105.133,
+              "sourceStart": 105.013,
+              "sourceEnd": 105.133,
+              "musicalStart": "40.3.261",
+              "musicalEnd": "40.3.425",
+              "startFrame": 2520,
+              "endFrameExclusive": 2523,
+              "spokenWordIds": [
+                "section-07-w007"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-024-w003",
+              "text": "names",
+              "start": 105.173,
+              "end": 105.774,
+              "sourceStart": 105.173,
+              "sourceEnd": 105.774,
+              "musicalStart": "40.3.480",
+              "musicalEnd": "40.4.342",
+              "startFrame": 2524,
+              "endFrameExclusive": 2539,
+              "spokenWordIds": [
+                "section-07-w008"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-024-w004",
+              "text": "got",
+              "start": 105.854,
+              "end": 106.074,
+              "sourceStart": 105.854,
+              "sourceEnd": 106.074,
+              "musicalStart": "40.4.452",
+              "musicalEnd": "40.4.754",
+              "startFrame": 2540,
+              "endFrameExclusive": 2546,
+              "spokenWordIds": [
+                "section-07-w009"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-024-w005",
+              "text": "a",
+              "start": 106.194,
+              "end": 106.294,
+              "sourceStart": 106.194,
+              "sourceEnd": 106.294,
+              "musicalStart": "40.4.919",
+              "musicalEnd": "41.1.97",
+              "startFrame": 2549,
+              "endFrameExclusive": 2551,
+              "spokenWordIds": [
+                "section-07-w010"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-024-w006",
+              "text": "ring.",
+              "start": 106.374,
+              "end": 106.715,
+              "sourceStart": 106.374,
+              "sourceEnd": 106.715,
+              "musicalStart": "41.1.208",
+              "musicalEnd": "41.1.680",
+              "startFrame": 2553,
+              "endFrameExclusive": 2561,
+              "spokenWordIds": [
+                "section-07-w011"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-025",
+          "section": "section 7",
+          "text": "Last name first.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "41.2.941",
+          "end": "42.1.429",
+          "sourceStart": 107.595,
+          "sourceEnd": 109.317,
+          "words": [
+            {
+              "id": "line-025-w001",
+              "text": "Last",
+              "start": 107.595,
+              "end": 108.176,
+              "sourceStart": 107.595,
+              "sourceEnd": 108.176,
+              "musicalStart": "41.2.941",
+              "musicalEnd": "41.3.784",
+              "startFrame": 2582,
+              "endFrameExclusive": 2596,
+              "spokenWordIds": [
+                "section-07-w012"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-025-w002",
+              "text": "name",
+              "start": 108.296,
+              "end": 108.877,
+              "sourceStart": 108.296,
+              "sourceEnd": 108.877,
+              "musicalStart": "41.3.949",
+              "musicalEnd": "41.4.788",
+              "startFrame": 2599,
+              "endFrameExclusive": 2613,
+              "spokenWordIds": [
+                "section-07-w013"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-025-w003",
+              "text": "first.",
+              "start": 108.957,
+              "end": 109.317,
+              "sourceStart": 108.957,
+              "sourceEnd": 109.317,
+              "musicalStart": "41.4.898",
+              "musicalEnd": "42.1.429",
+              "startFrame": 2615,
+              "endFrameExclusive": 2624,
+              "spokenWordIds": [
+                "section-07-w014"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-026",
+          "section": "section 7",
+          "text": "Let the phone book sing.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "42.3.245",
+          "end": "43.1.457",
+          "sourceStart": 110.578,
+          "sourceEnd": 112.12,
+          "words": [
+            {
+              "id": "line-026-w001",
+              "text": "Let",
+              "start": 110.578,
+              "end": 110.758,
+              "sourceStart": 110.578,
+              "sourceEnd": 110.758,
+              "musicalStart": "42.3.245",
+              "musicalEnd": "42.3.493",
+              "startFrame": 2654,
+              "endFrameExclusive": 2658,
+              "spokenWordIds": [
+                "section-07-w015"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-026-w002",
+              "text": "the",
+              "start": 110.778,
+              "end": 110.979,
+              "sourceStart": 110.778,
+              "sourceEnd": 110.979,
+              "musicalStart": "42.3.520",
+              "musicalEnd": "42.3.797",
+              "startFrame": 2659,
+              "endFrameExclusive": 2663,
+              "spokenWordIds": [
+                "section-07-w016"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-026-w003",
+              "text": "phone",
+              "start": 111.079,
+              "end": 111.439,
+              "sourceStart": 111.079,
+              "sourceEnd": 111.439,
+              "musicalStart": "42.3.934",
+              "musicalEnd": "42.4.475",
+              "startFrame": 2666,
+              "endFrameExclusive": 2675,
+              "spokenWordIds": [
+                "section-07-w017"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-026-w004",
+              "text": "book",
+              "start": 111.479,
+              "end": 111.699,
+              "sourceStart": 111.479,
+              "sourceEnd": 111.699,
+              "musicalStart": "42.4.531",
+              "musicalEnd": "42.4.837",
+              "startFrame": 2676,
+              "endFrameExclusive": 2681,
+              "spokenWordIds": [
+                "section-07-w018"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-026-w005",
+              "text": "sing.",
+              "start": 111.779,
+              "end": 112.12,
+              "sourceStart": 111.779,
+              "sourceEnd": 112.12,
+              "musicalStart": "42.4.948",
+              "musicalEnd": "43.1.457",
+              "startFrame": 2683,
+              "endFrameExclusive": 2691,
+              "spokenWordIds": [
+                "section-07-w019"
+              ],
+              "flags": [
+                "audible_tail_after_alignment",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-027",
+          "section": "section 8",
+          "text": "Wait, Hope — 1 Pleasant Avenue, rear — 108-1008",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "43.1.925",
+          "end": "45.2.402",
+          "sourceStart": 112.46,
+          "sourceEnd": 118.406,
+          "words": [
+            {
+              "id": "line-027-w001",
+              "text": "Wait,",
+              "start": 112.46,
+              "end": 112.721,
+              "sourceStart": 112.46,
+              "sourceEnd": 112.721,
+              "musicalStart": "43.1.925",
+              "musicalEnd": "43.2.323",
+              "startFrame": 2699,
+              "endFrameExclusive": 2705,
+              "spokenWordIds": [
+                "section-08-w001"
+              ],
+              "flags": [
+                "audible_attack_before_alignment",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-027-w002",
+              "text": "Hope —",
+              "start": 113.161,
+              "end": 113.822,
+              "sourceStart": 113.161,
+              "sourceEnd": 113.822,
+              "musicalStart": "43.2.926",
+              "musicalEnd": "43.3.873",
+              "startFrame": 2716,
+              "endFrameExclusive": 2732,
+              "spokenWordIds": [
+                "section-08-w002"
+              ],
+              "flags": [
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-027-w003",
+              "text": "1",
+              "start": 113.962,
+              "end": 114.142,
+              "sourceStart": 113.962,
+              "sourceEnd": 114.142,
+              "musicalStart": "43.4.104",
+              "musicalEnd": "43.4.349",
+              "startFrame": 2735,
+              "endFrameExclusive": 2739,
+              "spokenWordIds": [
+                "section-08-w003"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-027-w004",
+              "text": "Pleasant",
+              "start": 114.222,
+              "end": 114.582,
+              "sourceStart": 114.222,
+              "sourceEnd": 114.582,
+              "musicalStart": "43.4.457",
+              "musicalEnd": "43.4.946",
+              "startFrame": 2741,
+              "endFrameExclusive": 2750,
+              "spokenWordIds": [
+                "section-08-w004"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-027-w005",
+              "text": "Avenue,",
+              "start": 114.682,
+              "end": 115.123,
+              "sourceStart": 114.682,
+              "sourceEnd": 115.123,
+              "musicalStart": "44.1.124",
+              "musicalEnd": "44.1.731",
+              "startFrame": 2752,
+              "endFrameExclusive": 2763,
+              "spokenWordIds": [
+                "section-08-w005"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-027-w006",
+              "text": "rear —",
+              "start": 115.283,
+              "end": 115.563,
+              "sourceStart": 115.283,
+              "sourceEnd": 115.563,
+              "musicalStart": "44.1.952",
+              "musicalEnd": "44.2.374",
+              "startFrame": 2767,
+              "endFrameExclusive": 2774,
+              "spokenWordIds": [
+                "section-08-w006"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-027-w007",
+              "text": "108-1008",
+              "start": 115.663,
+              "end": 118.406,
+              "sourceStart": 115.663,
+              "sourceEnd": 118.406,
+              "musicalStart": "44.2.511",
+              "musicalEnd": "45.2.402",
+              "startFrame": 2776,
+              "endFrameExclusive": 2842,
+              "spokenWordIds": [
+                "section-08-w007",
+                "section-08-w008",
+                "section-08-w009",
+                "section-08-w010",
+                "section-08-w011",
+                "section-08-w012",
+                "section-08-w013"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-028",
+          "section": "section 8",
+          "text": "Wait, Patience — 1 Pleasant Avenue, upstairs — 109-1009",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "45.2.482",
+          "end": "47.2.406",
+          "sourceStart": 118.466,
+          "sourceEnd": 124.031,
+          "words": [
+            {
+              "id": "line-028-w001",
+              "text": "Wait,",
+              "start": 118.466,
+              "end": 118.726,
+              "sourceStart": 118.466,
+              "sourceEnd": 118.726,
+              "musicalStart": "45.2.482",
+              "musicalEnd": "45.2.832",
+              "startFrame": 2843,
+              "endFrameExclusive": 2849,
+              "spokenWordIds": [
+                "section-08-w014"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-028-w002",
+              "text": "Patience —",
+              "start": 118.806,
+              "end": 119.227,
+              "sourceStart": 118.806,
+              "sourceEnd": 119.227,
+              "musicalStart": "45.2.939",
+              "musicalEnd": "45.3.561",
+              "startFrame": 2851,
+              "endFrameExclusive": 2861,
+              "spokenWordIds": [
+                "section-08-w015"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-028-w003",
+              "text": "1",
+              "start": 119.607,
+              "end": 119.787,
+              "sourceStart": 119.607,
+              "sourceEnd": 119.787,
+              "musicalStart": "45.4.124",
+              "musicalEnd": "45.4.368",
+              "startFrame": 2871,
+              "endFrameExclusive": 2875,
+              "spokenWordIds": [
+                "section-08-w016"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-028-w004",
+              "text": "Pleasant",
+              "start": 119.847,
+              "end": 120.227,
+              "sourceStart": 119.847,
+              "sourceEnd": 120.227,
+              "musicalStart": "45.4.449",
+              "musicalEnd": "46.1.2",
+              "startFrame": 2876,
+              "endFrameExclusive": 2885,
+              "spokenWordIds": [
+                "section-08-w017"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-028-w005",
+              "text": "Avenue,",
+              "start": 120.327,
+              "end": 120.708,
+              "sourceStart": 120.327,
+              "sourceEnd": 120.708,
+              "musicalStart": "46.1.140",
+              "musicalEnd": "46.1.664",
+              "startFrame": 2888,
+              "endFrameExclusive": 2897,
+              "spokenWordIds": [
+                "section-08-w018"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-028-w006",
+              "text": "upstairs —",
+              "start": 121.028,
+              "end": 121.569,
+              "sourceStart": 121.028,
+              "sourceEnd": 121.569,
+              "musicalStart": "46.2.144",
+              "musicalEnd": "46.2.883",
+              "startFrame": 2905,
+              "endFrameExclusive": 2918,
+              "spokenWordIds": [
+                "section-08-w019"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-028-w007",
+              "text": "109-1009",
+              "start": 121.709,
+              "end": 124.031,
+              "sourceStart": 121.709,
+              "sourceEnd": 124.031,
+              "musicalStart": "46.3.114",
+              "musicalEnd": "47.2.406",
+              "startFrame": 2921,
+              "endFrameExclusive": 2977,
+              "spokenWordIds": [
+                "section-08-w020",
+                "section-08-w021",
+                "section-08-w022",
+                "section-08-w023",
+                "section-08-w024",
+                "section-08-w025",
+                "section-08-w026"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-029",
+          "section": "section 8",
+          "text": "Walker, Miles — 26 Riverside Drive — 246-8246",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "47.2.461",
+          "end": "49.1.615",
+          "sourceStart": 124.071,
+          "sourceEnd": 129.075,
+          "words": [
+            {
+              "id": "line-029-w001",
+              "text": "Walker,",
+              "start": 124.071,
+              "end": 124.431,
+              "sourceStart": 124.071,
+              "sourceEnd": 124.431,
+              "musicalStart": "47.2.461",
+              "musicalEnd": "47.3",
+              "startFrame": 2978,
+              "endFrameExclusive": 2986,
+              "spokenWordIds": [
+                "section-08-w027"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-029-w002",
+              "text": "Miles —",
+              "start": 124.451,
+              "end": 125.112,
+              "sourceStart": 124.451,
+              "sourceEnd": 125.112,
+              "musicalStart": "47.3.27",
+              "musicalEnd": "47.3.929",
+              "startFrame": 2987,
+              "endFrameExclusive": 3003,
+              "spokenWordIds": [
+                "section-08-w028"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "sustain_review",
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-029-w003",
+              "text": "26",
+              "start": 125.152,
+              "end": 125.772,
+              "sourceStart": 125.152,
+              "sourceEnd": 125.772,
+              "musicalStart": "47.4.24",
+              "musicalEnd": "47.4.880",
+              "startFrame": 3004,
+              "endFrameExclusive": 3019,
+              "spokenWordIds": [
+                "section-08-w029",
+                "section-08-w030"
+              ],
+              "flags": [
+                "text_review",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-029-w004",
+              "text": "Riverside",
+              "start": 125.852,
+              "end": 126.473,
+              "sourceStart": 125.852,
+              "sourceEnd": 126.473,
+              "musicalStart": "48.1.30",
+              "musicalEnd": "48.1.881",
+              "startFrame": 3020,
+              "endFrameExclusive": 3035,
+              "spokenWordIds": [
+                "section-08-w031"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-029-w005",
+              "text": "Drive —",
+              "start": 126.513,
+              "end": 126.773,
+              "sourceStart": 126.513,
+              "sourceEnd": 126.773,
+              "musicalStart": "48.1.935",
+              "musicalEnd": "48.2.334",
+              "startFrame": 3036,
+              "endFrameExclusive": 3043,
+              "spokenWordIds": [
+                "section-08-w032"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-029-w006",
+              "text": "246-8246",
+              "start": 126.833,
+              "end": 129.075,
+              "sourceStart": 126.833,
+              "sourceEnd": 129.075,
+              "musicalStart": "48.2.417",
+              "musicalEnd": "49.1.615",
+              "startFrame": 3044,
+              "endFrameExclusive": 3098,
+              "spokenWordIds": [
+                "section-08-w033",
+                "section-08-w034",
+                "section-08-w035",
+                "section-08-w036",
+                "section-08-w037",
+                "section-08-w038",
+                "section-08-w039"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-030",
+          "section": "section 8",
+          "text": "Waters, Flo — 10 Riverside Drive — 654-3210",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "49.2.454",
+          "end": "51.1.221",
+          "sourceStart": 129.656,
+          "sourceEnd": 134.38,
+          "words": [
+            {
+              "id": "line-030-w001",
+              "text": "Waters,",
+              "start": 129.656,
+              "end": 130.056,
+              "sourceStart": 129.656,
+              "sourceEnd": 130.056,
+              "musicalStart": "49.2.454",
+              "musicalEnd": "49.3.45",
+              "startFrame": 3112,
+              "endFrameExclusive": 3121,
+              "spokenWordIds": [
+                "section-08-w040"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-030-w002",
+              "text": "Flo —",
+              "start": 130.336,
+              "end": 130.677,
+              "sourceStart": 130.336,
+              "sourceEnd": 130.677,
+              "musicalStart": "49.3.428",
+              "musicalEnd": "49.3.895",
+              "startFrame": 3128,
+              "endFrameExclusive": 3136,
+              "spokenWordIds": [
+                "section-08-w041"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-030-w003",
+              "text": "10",
+              "start": 131.077,
+              "end": 131.357,
+              "sourceStart": 131.077,
+              "sourceEnd": 131.357,
+              "musicalStart": "49.4.491",
+              "musicalEnd": "49.4.881",
+              "startFrame": 3146,
+              "endFrameExclusive": 3153,
+              "spokenWordIds": [
+                "section-08-w042"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-030-w004",
+              "text": "Riverside",
+              "start": 131.417,
+              "end": 132.058,
+              "sourceStart": 131.417,
+              "sourceEnd": 132.058,
+              "musicalStart": "50.1.4",
+              "musicalEnd": "50.1.888",
+              "startFrame": 3154,
+              "endFrameExclusive": 3169,
+              "spokenWordIds": [
+                "section-08-w043"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-030-w005",
+              "text": "Drive —",
+              "start": 132.098,
+              "end": 132.378,
+              "sourceStart": 132.098,
+              "sourceEnd": 132.378,
+              "musicalStart": "50.1.943",
+              "musicalEnd": "50.2.368",
+              "startFrame": 3170,
+              "endFrameExclusive": 3177,
+              "spokenWordIds": [
+                "section-08-w044"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-030-w006",
+              "text": "654-3210",
+              "start": 132.438,
+              "end": 134.38,
+              "sourceStart": 132.438,
+              "sourceEnd": 134.38,
+              "musicalStart": "50.2.451",
+              "musicalEnd": "51.1.221",
+              "startFrame": 3179,
+              "endFrameExclusive": 3225,
+              "spokenWordIds": [
+                "section-08-w045",
+                "section-08-w046",
+                "section-08-w047",
+                "section-08-w048",
+                "section-08-w049",
+                "section-08-w050",
+                "section-08-w051"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match",
+                "window_edge",
+                "numeric_pronunciation_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-031",
+          "section": "section 9",
+          "text": "I got nothing to sing.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "51.2.830",
+          "end": "52.1.734",
+          "sourceStart": 135.53,
+          "sourceEnd": 137.571,
+          "words": [
+            {
+              "id": "line-031-w001",
+              "text": "I",
+              "start": 135.53,
+              "end": 135.77,
+              "sourceStart": 135.53,
+              "sourceEnd": 135.77,
+              "musicalStart": "51.2.830",
+              "musicalEnd": "51.3.195",
+              "startFrame": 3253,
+              "endFrameExclusive": 3258,
+              "spokenWordIds": [
+                "section-09-w001"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-031-w002",
+              "text": "got",
+              "start": 135.85,
+              "end": 136.09,
+              "sourceStart": 135.85,
+              "sourceEnd": 136.09,
+              "musicalStart": "51.3.304",
+              "musicalEnd": "51.3.630",
+              "startFrame": 3260,
+              "endFrameExclusive": 3266,
+              "spokenWordIds": [
+                "section-09-w002"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-031-w003",
+              "text": "nothing",
+              "start": 136.17,
+              "end": 136.691,
+              "sourceStart": 136.17,
+              "sourceEnd": 136.691,
+              "musicalStart": "51.3.739",
+              "musicalEnd": "51.4.489",
+              "startFrame": 3268,
+              "endFrameExclusive": 3281,
+              "spokenWordIds": [
+                "section-09-w003"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-031-w004",
+              "text": "to",
+              "start": 136.711,
+              "end": 136.891,
+              "sourceStart": 136.711,
+              "sourceEnd": 136.891,
+              "musicalStart": "51.4.516",
+              "musicalEnd": "51.4.762",
+              "startFrame": 3281,
+              "endFrameExclusive": 3285,
+              "spokenWordIds": [
+                "section-09-w004"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-031-w005",
+              "text": "sing.",
+              "start": 137.111,
+              "end": 137.571,
+              "sourceStart": 137.111,
+              "sourceEnd": 137.571,
+              "musicalStart": "52.1.103",
+              "musicalEnd": "52.1.734",
+              "startFrame": 3291,
+              "endFrameExclusive": 3302,
+              "spokenWordIds": [
+                "section-09-w005"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-032",
+          "section": "section 9",
+          "text": "But the names got a ring.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "52.2.929",
+          "end": "53.1.654",
+          "sourceStart": 138.411,
+          "sourceEnd": 140.312,
+          "words": [
+            {
+              "id": "line-032-w001",
+              "text": "But",
+              "start": 138.411,
+              "end": 138.571,
+              "sourceStart": 138.411,
+              "sourceEnd": 138.571,
+              "musicalStart": "52.2.929",
+              "musicalEnd": "52.3.189",
+              "startFrame": 3322,
+              "endFrameExclusive": 3326,
+              "spokenWordIds": [
+                "section-09-w006"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-032-w002",
+              "text": "the",
+              "start": 138.611,
+              "end": 138.731,
+              "sourceStart": 138.611,
+              "sourceEnd": 138.731,
+              "musicalStart": "52.3.243",
+              "musicalEnd": "52.3.408",
+              "startFrame": 3327,
+              "endFrameExclusive": 3330,
+              "spokenWordIds": [
+                "section-09-w007"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-032-w003",
+              "text": "names",
+              "start": 138.771,
+              "end": 139.392,
+              "sourceStart": 138.771,
+              "sourceEnd": 139.392,
+              "musicalStart": "52.3.463",
+              "musicalEnd": "52.4.354",
+              "startFrame": 3331,
+              "endFrameExclusive": 3345,
+              "spokenWordIds": [
+                "section-09-w008"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-032-w004",
+              "text": "got",
+              "start": 139.452,
+              "end": 139.652,
+              "sourceStart": 139.452,
+              "sourceEnd": 139.652,
+              "musicalStart": "52.4.436",
+              "musicalEnd": "52.4.711",
+              "startFrame": 3347,
+              "endFrameExclusive": 3352,
+              "spokenWordIds": [
+                "section-09-w009"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-032-w005",
+              "text": "a",
+              "start": 139.752,
+              "end": 139.892,
+              "sourceStart": 139.752,
+              "sourceEnd": 139.892,
+              "musicalStart": "52.4.849",
+              "musicalEnd": "53.1.80",
+              "startFrame": 3354,
+              "endFrameExclusive": 3357,
+              "spokenWordIds": [
+                "section-09-w010"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-032-w006",
+              "text": "ring.",
+              "start": 140.032,
+              "end": 140.312,
+              "sourceStart": 140.032,
+              "sourceEnd": 140.312,
+              "musicalStart": "53.1.272",
+              "musicalEnd": "53.1.654",
+              "startFrame": 3361,
+              "endFrameExclusive": 3367,
+              "spokenWordIds": [
+                "section-09-w011"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-033",
+          "section": "section 9",
+          "text": "Thin little pages.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "53.1.682",
+          "end": "54.1.929",
+          "sourceStart": 140.332,
+          "sourceEnd": 143.313,
+          "words": [
+            {
+              "id": "line-033-w001",
+              "text": "Thin",
+              "start": 140.332,
+              "end": 140.452,
+              "sourceStart": 140.332,
+              "sourceEnd": 140.452,
+              "musicalStart": "53.1.682",
+              "musicalEnd": "53.1.846",
+              "startFrame": 3368,
+              "endFrameExclusive": 3371,
+              "spokenWordIds": [
+                "section-09-w012"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-033-w002",
+              "text": "little",
+              "start": 141.273,
+              "end": 142.333,
+              "sourceStart": 141.273,
+              "sourceEnd": 142.333,
+              "musicalStart": "53.3.53",
+              "musicalEnd": "53.4.548",
+              "startFrame": 3391,
+              "endFrameExclusive": 3416,
+              "spokenWordIds": [
+                "section-09-w013"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-033-w003",
+              "text": "pages.",
+              "start": 142.433,
+              "end": 143.313,
+              "sourceStart": 142.433,
+              "sourceEnd": 143.313,
+              "musicalStart": "53.4.685",
+              "musicalEnd": "54.1.929",
+              "startFrame": 3418,
+              "endFrameExclusive": 3440,
+              "spokenWordIds": [
+                "section-09-w014"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-034",
+          "section": "section 9",
+          "text": "Whole city inside.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "54.3",
+          "end": "55.2.319",
+          "sourceStart": 144.034,
+          "sourceEnd": 146.375,
+          "words": [
+            {
+              "id": "line-034-w001",
+              "text": "Whole",
+              "start": 144.034,
+              "end": 144.574,
+              "sourceStart": 144.034,
+              "sourceEnd": 144.574,
+              "musicalStart": "54.3",
+              "musicalEnd": "54.3.745",
+              "startFrame": 3457,
+              "endFrameExclusive": 3470,
+              "spokenWordIds": [
+                "section-09-w015"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-034-w002",
+              "text": "city",
+              "start": 144.714,
+              "end": 145.134,
+              "sourceStart": 144.714,
+              "sourceEnd": 145.134,
+              "musicalStart": "54.3.938",
+              "musicalEnd": "54.4.556",
+              "startFrame": 3473,
+              "endFrameExclusive": 3483,
+              "spokenWordIds": [
+                "section-09-w016"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-034-w003",
+              "text": "inside.",
+              "start": 145.294,
+              "end": 146.375,
+              "sourceStart": 145.294,
+              "sourceEnd": 146.375,
+              "musicalStart": "54.4.776",
+              "musicalEnd": "55.2.319",
+              "startFrame": 3487,
+              "endFrameExclusive": 3513,
+              "spokenWordIds": [
+                "section-09-w017"
+              ],
+              "flags": [
+                "master_start_disagreement",
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-035",
+          "section": "section 9",
+          "text": "Last name first.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "55.3.1",
+          "end": "56.2.477",
+          "sourceStart": 146.855,
+          "sourceEnd": 149.316,
+          "words": [
+            {
+              "id": "line-035-w001",
+              "text": "Last",
+              "start": 146.855,
+              "end": 147.515,
+              "sourceStart": 146.855,
+              "sourceEnd": 147.515,
+              "musicalStart": "55.3.1",
+              "musicalEnd": "55.3.898",
+              "startFrame": 3525,
+              "endFrameExclusive": 3540,
+              "spokenWordIds": [
+                "section-09-w018"
+              ],
+              "flags": [
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-035-w002",
+              "text": "name",
+              "start": 147.595,
+              "end": 148.116,
+              "sourceStart": 147.595,
+              "sourceEnd": 148.116,
+              "musicalStart": "55.4.47",
+              "musicalEnd": "55.4.757",
+              "startFrame": 3542,
+              "endFrameExclusive": 3555,
+              "spokenWordIds": [
+                "section-09-w019"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-035-w003",
+              "text": "first.",
+              "start": 148.396,
+              "end": 149.316,
+              "sourceStart": 148.396,
+              "sourceEnd": 149.316,
+              "musicalStart": "56.1.180",
+              "musicalEnd": "56.2.477",
+              "startFrame": 3562,
+              "endFrameExclusive": 3584,
+              "spokenWordIds": [
+                "section-09-w020"
+              ],
+              "flags": [
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-036",
+          "section": "section 9",
+          "text": "I’m singing you.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "56.3.580",
+          "end": "57.3.181",
+          "sourceStart": 150.096,
+          "sourceEnd": 152.638,
+          "words": [
+            {
+              "id": "line-036-w001",
+              "text": "I’m",
+              "start": 150.096,
+              "end": 150.397,
+              "sourceStart": 150.096,
+              "sourceEnd": 150.397,
+              "musicalStart": "56.3.580",
+              "musicalEnd": "56.4.27",
+              "startFrame": 3602,
+              "endFrameExclusive": 3610,
+              "spokenWordIds": [
+                "section-09-w021"
+              ],
+              "flags": [
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-036-w002",
+              "text": "singing",
+              "start": 150.577,
+              "end": 151.077,
+              "sourceStart": 150.577,
+              "sourceEnd": 151.077,
+              "musicalStart": "56.4.270",
+              "musicalEnd": "56.4.943",
+              "startFrame": 3614,
+              "endFrameExclusive": 3626,
+              "spokenWordIds": [
+                "section-09-w022"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-036-w003",
+              "text": "you.",
+              "start": 151.157,
+              "end": 152.638,
+              "sourceStart": 151.157,
+              "sourceEnd": 152.638,
+              "musicalStart": "57.1.92",
+              "musicalEnd": "57.3.181",
+              "startFrame": 3628,
+              "endFrameExclusive": 3663,
+              "spokenWordIds": [
+                "section-09-w023"
+              ],
+              "flags": [
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-037",
+          "section": "section 9",
+          "text": "I never called you.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "57.3.398",
+          "end": "58.1.730",
+          "sourceStart": 152.798,
+          "sourceEnd": 154.458,
+          "words": [
+            {
+              "id": "line-037-w001",
+              "text": "I",
+              "start": 152.798,
+              "end": 152.918,
+              "sourceStart": 152.798,
+              "sourceEnd": 152.918,
+              "musicalStart": "57.3.398",
+              "musicalEnd": "57.3.560",
+              "startFrame": 3667,
+              "endFrameExclusive": 3670,
+              "spokenWordIds": [
+                "section-09-w024"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-037-w002",
+              "text": "never",
+              "start": 152.958,
+              "end": 153.318,
+              "sourceStart": 152.958,
+              "sourceEnd": 153.318,
+              "musicalStart": "57.3.615",
+              "musicalEnd": "57.4.143",
+              "startFrame": 3671,
+              "endFrameExclusive": 3680,
+              "spokenWordIds": [
+                "section-09-w025"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-037-w003",
+              "text": "called",
+              "start": 153.478,
+              "end": 154.138,
+              "sourceStart": 153.478,
+              "sourceEnd": 154.138,
+              "musicalStart": "57.4.359",
+              "musicalEnd": "58.1.294",
+              "startFrame": 3683,
+              "endFrameExclusive": 3699,
+              "spokenWordIds": [
+                "section-09-w026"
+              ],
+              "flags": [
+                "sustain_review",
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-037-w004",
+              "text": "you.",
+              "start": 154.218,
+              "end": 154.458,
+              "sourceStart": 154.218,
+              "sourceEnd": 154.458,
+              "musicalStart": "58.1.403",
+              "musicalEnd": "58.1.730",
+              "startFrame": 3701,
+              "endFrameExclusive": 3707,
+              "spokenWordIds": [
+                "section-09-w027"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        },
+        {
+          "id": "line-038",
+          "section": "section 9",
+          "text": "You still got through.",
+          "lyricOrigin": "sheet",
+          "timingStatus": "machine_candidate_needs_listening",
+          "source": "lyrics/approved.txt",
+          "start": "58.1.757",
+          "end": "59.1.560",
+          "sourceStart": 154.478,
+          "sourceEnd": 157.16,
+          "words": [
+            {
+              "id": "line-038-w001",
+              "text": "You",
+              "start": 154.478,
+              "end": 154.538,
+              "sourceStart": 154.478,
+              "sourceEnd": 154.538,
+              "musicalStart": "58.1.757",
+              "musicalEnd": "58.1.838",
+              "startFrame": 3707,
+              "endFrameExclusive": 3709,
+              "spokenWordIds": [
+                "section-09-w028"
+              ],
+              "flags": [
+                "master_end_disagreement",
+                "master_start_disagreement",
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-038-w002",
+              "text": "still",
+              "start": 155.899,
+              "end": 156.299,
+              "sourceStart": 155.899,
+              "sourceEnd": 156.299,
+              "musicalStart": "58.3.766",
+              "musicalEnd": "58.4.350",
+              "startFrame": 3742,
+              "endFrameExclusive": 3751,
+              "spokenWordIds": [
+                "section-09-w029"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-038-w003",
+              "text": "got",
+              "start": 156.379,
+              "end": 156.639,
+              "sourceStart": 156.379,
+              "sourceEnd": 156.639,
+              "musicalStart": "58.4.459",
+              "musicalEnd": "58.4.812",
+              "startFrame": 3753,
+              "endFrameExclusive": 3759,
+              "spokenWordIds": [
+                "section-09-w030"
+              ],
+              "flags": [
+                "text_review"
+              ],
+              "status": "machine_candidate_needs_listening"
+            },
+            {
+              "id": "line-038-w004",
+              "text": "through.",
+              "start": 156.739,
+              "end": 157.16,
+              "sourceStart": 156.739,
+              "sourceEnd": 157.16,
+              "musicalStart": "58.4.948",
+              "musicalEnd": "59.1.560",
+              "startFrame": 3762,
+              "endFrameExclusive": 3772,
+              "spokenWordIds": [
+                "section-09-w031"
+              ],
+              "flags": [
+                "audible_tail_after_alignment",
+                "text_review",
+                "weak_acoustic_match"
+              ],
+              "status": "machine_candidate_needs_listening"
+            }
+          ],
+          "timingSource": "generated/transcription/alignment-v002/words.json"
+        }
+      ]
+    },
+    {
+      "id": "backing-lyrics",
+      "type": "lyrics",
+      "label": "Backing / performed additions — pending review",
+      "color": "#cda4e8",
+      "items": []
+    },
+    {
+      "id": "scenes",
+      "type": "scene",
+      "label": "Scenes",
+      "color": "#69b9c2",
+      "items": []
+    },
+    {
+      "id": "transitions",
+      "type": "transition",
+      "label": "Transitions",
+      "color": "#e8a471",
+      "items": []
+    },
+    {
+      "id": "choreography",
+      "type": "choreography",
+      "label": "Character action",
+      "color": "#81b98a",
+      "items": []
+    },
+    {
+      "id": "notes",
+      "type": "notes",
+      "label": "Production notes",
+      "color": "#b5b9c2",
+      "items": []
+    }
+  ]
+}

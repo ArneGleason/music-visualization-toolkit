@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "project": "let-the-phone-book-sing",
+  "sourceProject": "../illustrated-singer",
+  "references": [
+    {
+      "id": "singer-reference-v001",
+      "role": "first_pass_character_model_sheet",
+      "origin": "../illustrated-singer/generated/character-development/character-reference-v001.png",
+      "path": "generated/character-development/character-reference-v001.png",
+      "bytes": 3115814,
+      "sha256": "71c22a8785df55eeced79dcc6d4df7246634c9b0d41681f0dacade3b6448b0a7"
+    },
+    {
+      "id": "frame-front-neutral",
+      "role": "supplied_video_screenshot_identity",
+      "path": "generated/source-references/frame-front-neutral.png",
+      "bytes": 1304278,
+      "sha256": "987b352106ebfbc2413af2d781de730a9e7b562550d1b82bcb7d3f493a19dbf8"
+    },
+    {
+      "id": "frame-front-singing",
+      "role": "supplied_video_screenshot_identity",
+      "path": "generated/source-references/frame-front-singing.png",
+      "bytes": 1340099,
+      "sha256": "23d20166646bd957d28a6b3cedc5b017250f1c907d053ef9fe15013f8225bad3"
+    },
+    {
+      "id": "frame-raised-chin",
+      "role": "supplied_video_screenshot_identity",
+      "path": "generated/source-references/frame-raised-chin.png",
+      "bytes": 1220849,
+      "sha256": "09fd54690e80885661def8849d4b0ffc1ceb0b8f49c6bef1971ffd24a91a8dd4"
+    },
+    {
+      "id": "frame-three-quarter",
+      "role": "supplied_video_screenshot_identity",
+      "path": "generated/source-references/frame-three-quarter.png",
+      "bytes": 1302786,
+      "sha256": "1582bf350b27bf825711f811cc3f60487eb28aa3413451419241ff4f81770de1"
+    },
+    {
+      "id": "style-graphic-novel-v005",
+      "role": "rendering_style_only_no_character_or_world_transfer",
+      "origin": "../desert-colony/generated/scene-development/diversion-theft-v005.png",
+      "path": "generated/source-references/style-graphic-novel-v005.png",
+      "bytes": 2764762,
+      "sha256": "97e5f3d6433a4ff022f682f93d8b463341e347b7c63ac899847ed7ae126bf644"
+    },
+    {
+      "id": "patience-wait-reference-v001",
+      "role": "first_pass_supporting_character_model_sheet",
+      "path": "generated/character-development/patience-wait-reference-v001.png",
+      "bytes": 2973503,
+      "sha256": "be4b349acc136648cdaa7d6eac53503fb2df395d9cdaaf481ff532f3ce9bb74f",
+      "status": "first_pass_for_review"
+    }
+  ]
+}
