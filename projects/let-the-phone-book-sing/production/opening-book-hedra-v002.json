@@ -1,0 +1,37 @@
+{
+  "status": "user_approved",
+  "model": "Hedra Avatar",
+  "resolution": "1080p",
+  "fpsEdit": 24,
+  "startFrame": 0,
+  "endFrameExclusive": 296,
+  "frames": 296,
+  "durationSeconds": 12.333333333333334,
+  "credits": 108,
+  "sourceImage": "generated/avatar-tests/opening-book-v002/book-green.png",
+  "audio": "generated/avatar-tests/opening-book-v002/full-opening-lead.wav",
+  "prompt": "An animated, playful singer performs the complete opening to the supplied vocal, holding an open ratty old phone book throughout. From the silent lead-in she is already lively: a rhythmic shoulder sway, an amused eyebrow lift and an inviting free-hand gesture toward the audience. During the singing use confident expressive head tilts, buoyant shoulders and generous natural right-hand gestures, with a warm mischievous stage presence. During vocal pauses keep her physically engaged, with a knowing look and relaxed closed mouth rather than invented singing. Her left hand securely supports the open book underneath throughout; preserve coherent spine, covers and pages, no page turning. Briefly glance at the book on its lyric then return eye contact to camera. Preserve her illustrated face, fine curls and clothing. Static camera, fixed medium-wide framing, one performer only. Keep the flat green background perfectly unchanged. No cuts, no added text or objects.",
+  "direction": "Continuous medium-wide phone-book performance, livelier physical acting; preserve previous takes.",
+  "approved": true,
+  "returnedAudioLagSeconds": 0.0,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "25/1",
+        "duration": "12.400000"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "12.383000"
+      }
+    ]
+  },
+  "approvalDate": "2026-11-08",
+  "approvalNote": "Continuous phone-book take accepted as keeper; later editorial cuts optional."
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/avatar-tests/opening-book-v002"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/avatar-tests/opening-book-v002/chorus-test-composite.mp4",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/opening-book-v002/hedra-completed.jpg",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/opening-book-v002/motion-sheet.jpg",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/opening-book-v002/opening-book-continuous-composite.mp4"
+  ],
+  "scope": "Approved continuous 1080p phone-book opening, starter frame, clean vocal excerpt, prompt and composited review.",
+  "tag": "let-the-phone-book-sing-approved-20261108-v012",
+  "archive": "let-the-phone-book-sing-approved-20261108-v012.zip",
+  "sha256": "60dbe7795573d53aa6281ae23015e9686f0704a794e7931feb1ae04d8758ad0f",
+  "bytes": 15188701,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/opening-book-v002/book-green.png",
+      "bytes": 1894645,
+      "sha256": "324503b71ca57b2fe90a03d14531fa77f9b50664458cfa4e976bcd26e93954dd"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/opening-book-v002/book-original-1080p.mp4",
+      "bytes": 8300235,
+      "sha256": "902e64a31150c387dc13272664f58290b67f787b92d3000fbe6a8c25c69e33fb"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/opening-book-v002/full-opening-lead.wav",
+      "bytes": 1184078,
+      "sha256": "43553d67f9c5c3388fbc54a4af3821394987b94b23fcf98fdef3e246b2748263"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/opening-book-v002/opening-composite-review.mp4",
+      "bytes": 4514083,
+      "sha256": "5fcba9e58e27123ce035148f9329bfe96933ab888723496bfe5a552cc8725f52"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/opening-book-v002/prompt.txt",
+      "bytes": 969,
+      "sha256": "12e7d1dc3ddf689576d0ff80b72e1b0d9cb89dd1ca87629927d2286a64212735"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v012/let-the-phone-book-sing-approved-20261108-v012.zip"
+}
