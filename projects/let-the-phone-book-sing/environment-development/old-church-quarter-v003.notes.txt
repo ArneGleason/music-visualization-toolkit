@@ -1,0 +1,8 @@
+Old Church Quarter exterior v003 — 2026-11-08
+Status: awaiting user review. Earlier versions preserved.
+User feedback: v002 people became too children's-book-like. Restore v001 graphic-novel appearance and strengthen people's outlines instead of simplifying their rendering. v002 depth separation reads better; some haze is acceptable for readability.
+Population constraint: existing six people are the maximum for this scene; do not add more. Multi-person Kling animation remains untested, not a verified capability for this shot.
+Built-in ImageGen using v001 as authoritative appearance/style reference and v002 as depth-separation reference.
+Output: generated/environment-development/old-church-quarter-v003.png (project-relative).
+Observed: crosshatching and material texture restored, stronger figure contours, distant church and city remain pale/cool. Six people retained. Character style match remains subject to user review.
+Continue one neighborhood at a time; do not mark this exterior approved or generate next neighborhood before feedback.

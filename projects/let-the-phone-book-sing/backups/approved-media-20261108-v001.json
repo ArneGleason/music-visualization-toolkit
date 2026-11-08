@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/character-development",
+    "projects/let-the-phone-book-sing/generated/environment-development",
+    "projects/let-the-phone-book-sing/generated/kling-tests/push-detail-v002/CHURCH-PUSH-002",
+    "projects/let-the-phone-book-sing/generated/scene-development"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/character-development/belle-bell-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/character-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/patience-wait-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/canal-district-v001.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/canal-district-v003.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/canal-district-v004.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/canal-district-v005.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/canal-district-v006.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/canal-district-v007.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/financial-district-v001.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/financial-district-v002.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/old-church-quarter-v001.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/old-church-quarter-v002.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/old-church-quarter-v004.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/park-orchard-v002.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/park-orchard-v003.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/park-orchard-v004.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/spring-worth-v001.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/generation-attempt.json",
+    "projects/let-the-phone-book-sing/generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/query.stderr.txt",
+    "projects/let-the-phone-book-sing/generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/request.json",
+    "projects/let-the-phone-book-sing/generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/result.json",
+    "projects/let-the-phone-book-sing/generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/review-contact.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/submission-generation.stderr.txt",
+    "projects/let-the-phone-book-sing/generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/submission-upload-failed.json",
+    "projects/let-the-phone-book-sing/generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/submission.json",
+    "projects/let-the-phone-book-sing/generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/submission.stderr.txt"
+  ],
+  "scope": "Approved visual-development checkpoint only. Earlier approved revisions retained; unapproved drafts excluded. Complements the 20261107 base handoff, does not replace it.",
+  "baseManifest": "projects/let-the-phone-book-sing/media-manifest.json",
+  "tag": "let-the-phone-book-sing-approved-20261108-v001",
+  "archive": "let-the-phone-book-sing-approved-20261108-v001.zip",
+  "sha256": "a665acc26dffaf368ac2793ea7ea6db97a8f6a261c748f06042312c02247b5a6",
+  "bytes": 76851818,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/belle-bell-reference-v002.png",
+      "bytes": 2905513,
+      "sha256": "165fb15462f1aad6ecee98555d5235ad0296a31e476cabe3b32326ca50de345c"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/courtyard-couple-reference-v001.png",
+      "bytes": 3759070,
+      "sha256": "eb7a339627c8ccab59aeb20e6c697957a365c495ac81b8c4cd3fd8f06d8164d4"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v003.png",
+      "bytes": 2655683,
+      "sha256": "c6e1232141c24af9f3e99ca2d28aaade5a9ec014e90b296faeb673fc38b328ae"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/canal-district-v002.png",
+      "bytes": 3560512,
+      "sha256": "60cef2f53900a4df3414c2e5379766002a26d5386b560e79c5cf425a0dccadb3"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/canal-district-v008.png",
+      "bytes": 2648286,
+      "sha256": "a5f03a1b8153f50399cf757419df4917ba7f58b356829269a711b7ddaab0c75c"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/financial-district-v003.png",
+      "bytes": 2988839,
+      "sha256": "7a090d05c461807363225c1632f29f71fe15b648f56f4419f074d0b1ca6d1a20"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/financial-district-v004.png",
+      "bytes": 2957550,
+      "sha256": "9d68480701a53a0b3d93f6edebc1d3bb30c94da9ca6079dab8dd4ea2384ac503"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/old-church-quarter-narrator-v001.png",
+      "bytes": 3471332,
+      "sha256": "bdeb9f7947cebd4772fefe3ce4c2a927e1fdc5d071be18f177e895e9bcbcc4fd"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/old-church-quarter-v003.png",
+      "bytes": 3693173,
+      "sha256": "44e1b93e1c59b3429dd680620b66b3cd99633b4e8ee785a9c2a0e34ac3ad2aad"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/old-church-quarter-v005.png",
+      "bytes": 3036200,
+      "sha256": "e25e32d705f61bd3268b7e329ed5e3c2a8fd894727dc0129fff99e99ab492963"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/old-church-quarter-v006.png",
+      "bytes": 3051071,
+      "sha256": "9d28230814e38175872a837fd903f171477852a0ea2ef6e171032c1b53625a78"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/park-orchard-v001.png",
+      "bytes": 3977681,
+      "sha256": "f2edfd2c2786f2c90474b25db6e7725a7926d521fccc9890503d96efffba4474"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/park-orchard-v005.png",
+      "bytes": 3143500,
+      "sha256": "88bab9fa7eeff6e6c822ee6daf523da4372c311e83395cdec2ec1aa345d5ade7"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/spring-worth-v002.png",
+      "bytes": 3509216,
+      "sha256": "f4303b6b404401832fb78aeac72bacf5a83e6f6eaf19b4a0b5fda729ce84e6db"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/spring-worth-v003.png",
+      "bytes": 3318864,
+      "sha256": "056bdb77ffde55d578a80762855f853d34ef80d9133ea2b0635b6f30b20e8ffe"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/environment-development/spring-worth-v004.png",
+      "bytes": 3029975,
+      "sha256": "87957279fbe45e6ecd0f00c612589bdb101b6f2c0447c8314f180bb2027e5a7f"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/CHURCH-PUSH-002-01.mp4",
+      "bytes": 18861218,
+      "sha256": "251cf71a97a5b229067ba1ca061ccfe25dec35b0e5024afcd9b656b7e13041b8"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/belle-bell-situation-v001.png",
+      "bytes": 3415052,
+      "sha256": "00fcf3763a74e6ea5eb14e42d38bb590692746d98ba127573125cd0e4808d1c6"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/liberty-bell-situation-v001.png",
+      "bytes": 3590807,
+      "sha256": "c2f270456aca02a89e7bb6ef5c6cf6c885e7fdec2eee9dea5333f352069677b0"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v001/let-the-phone-book-sing-approved-20261108-v001.zip"
+}

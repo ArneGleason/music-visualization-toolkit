@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-08",
+  "status": "user_approved",
+  "userStatement": "Yeah, that actually works great.",
+  "environmentReference": "generated/environment-development/old-church-quarter-v003.png",
+  "narratorIntegration": "generated/environment-development/old-church-quarter-narrator-v001.png",
+  "closeCharacterReference": "generated/character-development/courtyard-couple-reference-v001.png",
+  "motionReference": "generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/CHURCH-PUSH-002-01.mp4",
+  "direction": [
+    "Textured graphic-novel rendering with nuanced faces, hair and fabric, not simplified children's-book figures.",
+    "Stronger tapered character contours for readability.",
+    "Distinct foreground, middle and background values; cooler paler distance.",
+    "Provide detailed character references for featured people approached by the camera; this test supports the workflow but does not guarantee every move.",
+    "Maximum six people in this scene.",
+    "Continue remaining neighborhood exteriors one at a time with user feedback."
+  ],
+  "remainingNeighborhoods": [
+    "Spring\u2013Worth",
+    "Financial District",
+    "Park\u2013Orchard / Pleasant Avenue",
+    "Canal District"
+  ]
+}
