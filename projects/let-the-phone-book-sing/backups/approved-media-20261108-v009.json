@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/scene-development"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/scene-development/april-bloom-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/belle-bell-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/liberty-bell-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v004.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v002.png"
+  ],
+  "scope": "Approved Penny Cash situation v003 only.",
+  "tag": "let-the-phone-book-sing-approved-20261108-v009",
+  "archive": "let-the-phone-book-sing-approved-20261108-v009.zip",
+  "sha256": "fcad6e2bce6806d8e01c5e6e631b7ee638fcc4bb9a007ddd3c10a8f2f736b11e",
+  "bytes": 2908767,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v003.png",
+      "bytes": 2937080,
+      "sha256": "75d35dee3e1938bb00f96c98a3533988533cfc71854035cb4d211618b608f86f"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v009/let-the-phone-book-sing-approved-20261108-v009.zip"
+}
