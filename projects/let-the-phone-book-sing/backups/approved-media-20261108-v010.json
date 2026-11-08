@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/character-development"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/character-development/april-bloom-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/april-bloom-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/april-bloom-reference-v003.png",
+    "projects/let-the-phone-book-sing/generated/character-development/belle-bell-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/belle-bell-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/character-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/courtyard-couple-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-reference-v003.png",
+    "projects/let-the-phone-book-sing/generated/character-development/may-bloom-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/may-bloom-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/may-bloom-reference-v003.png",
+    "projects/let-the-phone-book-sing/generated/character-development/may-bloom-reference-v004.png",
+    "projects/let-the-phone-book-sing/generated/character-development/may-bloom-reference-v005.png",
+    "projects/let-the-phone-book-sing/generated/character-development/patience-wait-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/penny-cash-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/penny-cash-reference-v003.png",
+    "projects/let-the-phone-book-sing/generated/character-development/penny-cash-reference-v004.png"
+  ],
+  "scope": "Approved Rich Cash character sheet v001 only; new situation is a draft.",
+  "tag": "let-the-phone-book-sing-approved-20261108-v010",
+  "archive": "let-the-phone-book-sing-approved-20261108-v010.zip",
+  "sha256": "d95d4e222a27a5e0fba8125424fdaff496ea1bad832984fcfff7f5112a59d29c",
+  "bytes": 2497580,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/rich-cash-reference-v001.png",
+      "bytes": 2587624,
+      "sha256": "10dbac28ec4d098caf54aa50e1845f9090aa114878675db58231982bf2c248c5"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v010/let-the-phone-book-sing-approved-20261108-v010.zip"
+}
