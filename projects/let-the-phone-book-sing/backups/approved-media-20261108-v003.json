@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/scene-development"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/scene-development/belle-bell-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/liberty-bell-situation-v001.png"
+  ],
+  "scope": "Approved April Bloom shop situation v001 only; incremental to prior approved checkpoints.",
+  "tag": "let-the-phone-book-sing-approved-20261108-v003",
+  "archive": "let-the-phone-book-sing-approved-20261108-v003.zip",
+  "sha256": "7aa411a323b82725cf6f0d3c32c9fee363fbbf0b59126cd3e0b4b3fb7e0d1218",
+  "bytes": 3434449,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/april-bloom-situation-v001.png",
+      "bytes": 3480158,
+      "sha256": "4a27537f00160be88fff8f537a392b2d357c18a3ffd930bebb7ff522ac625001"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v003/let-the-phone-book-sing-approved-20261108-v003.zip"
+}
