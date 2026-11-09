@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v004"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v004/matte-validation.json",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v004/matte-diagnostic.ecproj",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v004/changed-controls.json"
+  ],
+  "scope": "Incremental backup of user-accepted native EffectCraft v004 key/edit and opening render. Source footage/artwork remain in earlier approved media snapshots; hair-color v005 is unapproved and excluded.",
+  "tag": "let-the-phone-book-sing-approved-20261108-v018",
+  "archive": "let-the-phone-book-sing-approved-20261108-v018.zip",
+  "sha256": "29f2dcfb5b785253e06ea17fe293ea1031c814fc313a1c4977b1e2ee13ae3fc8",
+  "bytes": 24862293,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v004/Let-the-Phone-Book-Sing-editable-v004.ecproj",
+      "bytes": 18209154,
+      "sha256": "30b6b4261bf96d61210dfbfbae5896fbd3b3546d1005bc208caeaaa52628fb67"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v004/opening-key-review.mp4",
+      "bytes": 23833136,
+      "sha256": "aa89c35da8a69cc7600b6c23d0364c709055a08a64d8cb6037d3280b044660d6"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v018/let-the-phone-book-sing-approved-20261108-v018.zip"
+}

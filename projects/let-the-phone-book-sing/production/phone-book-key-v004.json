@@ -1,0 +1,24 @@
+{
+  "status": "user accepted EffectCraft key as equivalent to original coded key",
+  "source": "effectcraft-edit-v003",
+  "effectcraftVersion": "0.22.0",
+  "nativeProject": "generated/effectcraft-edit-v004/Let-the-Phone-Book-Sing-editable-v004.ecproj",
+  "changedControls": {
+    "screenGain": 200,
+    "clipBlack": 25,
+    "clipWhite": 82,
+    "screenShrinkGrow": -0.65,
+    "screenSoftness": 0.7,
+    "screenPreblur": 0.5,
+    "edgeColor": 0,
+    "despill": 100
+  },
+  "method": "Screen Subtract edge reconstruction; stronger green-dominance key; subpixel matte contraction. No new generation or pixel compositing.",
+  "originalReference": "generated/motion-graphics/sing-echo-v002/opening-word-art-silent.mp4",
+  "fallback": "User authorized original custom matte/key if this native pass remains unsatisfactory; retain EffectCraft for edit and motion graphics.",
+  "timelineSha256": "b6e0c03a6fe50dd8a924d918fe3229566dbbd7a7f9f27937f6141d2a43c2b0bc",
+  "approval": {
+    "scope": "Keep native EffectCraft v004 key as baseline; additional hair-only color correction requested separately",
+    "date": "2026-11-08"
+  }
+}
