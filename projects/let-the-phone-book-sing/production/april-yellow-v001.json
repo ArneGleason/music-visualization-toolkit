@@ -1,0 +1,18 @@
+{
+  "status": "rejected",
+  "approved": false,
+  "source": "generated/kling-tests/april-bloom-v001/april-original-1080p.mp4",
+  "output": "generated/color-corrections/april-yellow-v001/april-yellow-full-silent.mp4",
+  "edit": "generated/color-corrections/april-yellow-v001/april-yellow-edit-1080p.mp4",
+  "startFrame": 571,
+  "endFrameExclusive": 695,
+  "sourceOffsetFrames": 45,
+  "frames": 124,
+  "correction": "Tracked coral flower carried with bouquet changed to yellow; separate vase flower untouched.",
+  "timelineSha256": "b6e0c03a6fe50dd8a924d918fe3229566dbbd7a7f9f27937f6141d2a43c2b0bc",
+  "originalRetained": true,
+  "selectedEditUnchanged": true,
+  "creditsUsed": 0,
+  "review": "Sampled tracked correction through lift, motion blur, landing and reappearance. Includes frames0..126; separate vase flower lies outside mask. Original still selected pending user review.",
+  "rejectionReason": "User found imperfect tracking more distracting; retain original April take."
+}

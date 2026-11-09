@@ -1,0 +1,608 @@
+{
+  "id": "visual-animatic-v001",
+  "format": "musical-anchors-v1",
+  "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "endAnchor": "67.3.40",
+  "shots": [
+    {
+      "id": "PB-001",
+      "startAnchor": "master-start",
+      "title": "Narrator \u2014 finding the song",
+      "type": "still-blocking",
+      "image": "generated/scene-development/narrator-opening-v001.png",
+      "description": "Seated left, directory on lap; looks up to audience. Establish street leading right. Opening still proposal.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-002",
+      "startAnchor": "line-002:start",
+      "title": "Narrator \u2014 the ratty phone book",
+      "type": "still-blocking",
+      "image": "generated/scene-development/narrator-opening-v001.png",
+      "description": "Closer to narrator and directory; the book motivates our first visit.",
+      "crop": [
+        0.12,
+        0.06,
+        0.65,
+        0.9
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-003",
+      "startAnchor": "line-003:start",
+      "title": "Belle Bell \u2014 situation",
+      "type": "still-blocking",
+      "image": "generated/scene-development/belle-bell-situation-v001.png",
+      "description": "Earrings chosen with great ceremony; tiny rubbish errand is the reveal.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-004",
+      "startAnchor": "8.3",
+      "title": "Belle Bell \u2014 closer beat",
+      "type": "still-blocking",
+      "image": "generated/scene-development/belle-bell-situation-v001.png",
+      "description": "Earrings chosen with great ceremony; tiny rubbish errand is the reveal. Editorial crop only; not newly generated action.",
+      "crop": [
+        0.05,
+        0.08,
+        0.78,
+        0.95
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-005",
+      "startAnchor": "line-004:start",
+      "title": "Liberty Bell \u2014 situation",
+      "type": "still-blocking",
+      "image": "generated/scene-development/liberty-bell-situation-v001.png",
+      "description": "Gate opens; rabbits make the little ranch spring into action.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-006",
+      "startAnchor": "10.3",
+      "title": "Liberty Bell \u2014 closer beat",
+      "type": "still-blocking",
+      "image": "generated/scene-development/liberty-bell-situation-v001.png",
+      "description": "Gate opens; rabbits make the little ranch spring into action. Editorial crop only; not newly generated action.",
+      "crop": [
+        0.15,
+        0.15,
+        0.93,
+        1
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-007",
+      "startAnchor": "line-005:start",
+      "title": "April Bloom \u2014 situation",
+      "type": "still-blocking",
+      "image": "generated/scene-development/april-bloom-situation-v001.png",
+      "description": "Inspect abundant bouquet, reduce it to one crooked stem. Still shows payoff, setup frame needed.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-008",
+      "startAnchor": "12.3",
+      "title": "April Bloom \u2014 closer beat",
+      "type": "still-blocking",
+      "image": "generated/scene-development/april-bloom-situation-v001.png",
+      "description": "Inspect abundant bouquet, reduce it to one crooked stem. Still shows payoff, setup frame needed. Editorial crop only; not newly generated action.",
+      "crop": [
+        0.08,
+        0.03,
+        0.73,
+        0.92
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-009",
+      "startAnchor": "line-006:start",
+      "title": "May Bloom \u2014 situation",
+      "type": "still-blocking",
+      "image": "generated/scene-development/may-bloom-situation-v004.png",
+      "description": "Repaired fan starts; May enjoys breeze. Contrast quiet pleasure with next theft gag.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-010",
+      "startAnchor": "14.3",
+      "title": "May Bloom \u2014 closer beat",
+      "type": "still-blocking",
+      "image": "generated/scene-development/may-bloom-situation-v004.png",
+      "description": "Repaired fan starts; May enjoys breeze. Contrast quiet pleasure with next theft gag. Editorial crop only; not newly generated action.",
+      "crop": [
+        0.04,
+        0.02,
+        0.78,
+        0.92
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-011",
+      "startAnchor": "line-007:start",
+      "title": "Chorus 1 \u2014 narrator leads",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
+      "description": "Return to narrator addressing audience; residents remain unaware. Reused Church setting is performance placement proxy for travel through town.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-012",
+      "startAnchor": "line-009:start",
+      "title": "Narrator \u2014 closer address",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
+      "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
+      "crop": [
+        0,
+        0,
+        0.58,
+        0.9
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-013",
+      "startAnchor": "line-011:start",
+      "title": "Penny Cash \u2014 situation",
+      "type": "still-blocking",
+      "image": "generated/scene-development/penny-cash-situation-v003.png",
+      "description": "Child swipes apple; Penny bellows, then casually replaces fruit without smiling. Still shows reset.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-014",
+      "startAnchor": "20.3",
+      "title": "Penny Cash \u2014 closer beat",
+      "type": "still-blocking",
+      "image": "generated/scene-development/penny-cash-situation-v003.png",
+      "description": "Child swipes apple; Penny bellows, then casually replaces fruit without smiling. Still shows reset. Editorial crop only; not newly generated action.",
+      "crop": [
+        0.02,
+        0.02,
+        0.64,
+        0.96
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-015",
+      "startAnchor": "line-012:start",
+      "title": "Rich Cash \u2014 situation",
+      "type": "still-blocking",
+      "image": "generated/scene-development/rich-cash-situation-v001.png",
+      "description": "Miss tiny putt; check doorway; shoe nudges ball to cup. Insert isolates shoe/ball/cup.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-016",
+      "startAnchor": "22.2",
+      "title": "Rich Cash \u2014 closer beat",
+      "type": "still-blocking",
+      "image": "generated/scene-development/rich-cash-situation-v001.png",
+      "description": "Miss tiny putt; check doorway; shoe nudges ball to cup. Insert isolates shoe/ball/cup. Editorial crop only; not newly generated action.",
+      "crop": [
+        0.24,
+        0.35,
+        0.7,
+        1
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-017",
+      "startAnchor": "line-013:start",
+      "title": "Miles Chase \u2014 skit to develop",
+      "type": "still-blocking",
+      "image": "generated/environment-development/canal-district-v008.png",
+      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-018",
+      "startAnchor": "line-014:start",
+      "title": "Penny Chase \u2014 skit to develop",
+      "type": "still-blocking",
+      "image": "generated/environment-development/financial-district-v004.png",
+      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-019",
+      "startAnchor": "line-015:start",
+      "title": "Chorus 2 \u2014 narrator leads",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
+      "description": "Return to narrator addressing audience; residents remain unaware. Reused Church setting is performance placement proxy for travel through town.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-020",
+      "startAnchor": "line-017:start",
+      "title": "Narrator \u2014 closer address",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
+      "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
+      "crop": [
+        0,
+        0,
+        0.58,
+        0.9
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-021",
+      "startAnchor": "line-019:start",
+      "title": "Forrest Pine \u2014 skit to develop",
+      "type": "still-blocking",
+      "image": "generated/environment-development/park-orchard-v005.png",
+      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-022",
+      "startAnchor": "line-020:start",
+      "title": "Woody Pine \u2014 skit to develop",
+      "type": "still-blocking",
+      "image": "generated/environment-development/park-orchard-v005.png",
+      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "crop": [
+        0,
+        0.2,
+        0.72,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-023",
+      "startAnchor": "line-021:start",
+      "title": "Yew Pine \u2014 skit to develop",
+      "type": "still-blocking",
+      "image": "generated/environment-development/park-orchard-v005.png",
+      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "crop": [
+        0.32,
+        0.1,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-024",
+      "startAnchor": "line-022:start",
+      "title": "Pearl Price \u2014 skit to develop",
+      "type": "still-blocking",
+      "image": "generated/environment-development/canal-district-v008.png",
+      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-025",
+      "startAnchor": "line-023:start",
+      "title": "Chorus 3 \u2014 narrator leads",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
+      "description": "Return to narrator addressing audience; residents remain unaware. Reused Church setting is performance placement proxy for travel through town.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-026",
+      "startAnchor": "line-025:start",
+      "title": "Narrator \u2014 closer address",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
+      "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
+      "crop": [
+        0,
+        0,
+        0.58,
+        0.9
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-027",
+      "startAnchor": "line-027:start",
+      "title": "Hope Wait \u2014 skit to develop",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-v006.png",
+      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-028",
+      "startAnchor": "line-028:start",
+      "title": "Patience Wait \u2014 late again",
+      "type": "still-blocking",
+      "image": "generated/covers/patience-pleasant-avenue-v001.png",
+      "description": "Cover proxy: narrator left, Patience descends behind her, residents do not perceive singer. Re-stage wide for final.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-029",
+      "startAnchor": "line-029:start",
+      "title": "Miles Walker \u2014 skit to develop",
+      "type": "still-blocking",
+      "image": "generated/environment-development/canal-district-v008.png",
+      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "crop": [
+        0,
+        0.12,
+        0.7,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-030",
+      "startAnchor": "line-030:start",
+      "title": "Flo Waters \u2014 skit to develop",
+      "type": "still-blocking",
+      "image": "generated/environment-development/canal-district-v008.png",
+      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "crop": [
+        0.3,
+        0,
+        1,
+        0.85
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-031",
+      "startAnchor": "line-031:start",
+      "title": "Chorus 4 \u2014 narrator leads",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
+      "description": "Return to narrator addressing audience; residents remain unaware. Reused Church setting is performance placement proxy for travel through town.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-032",
+      "startAnchor": "line-033:start",
+      "title": "Narrator \u2014 closer address",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
+      "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
+      "crop": [
+        0,
+        0,
+        0.58,
+        0.9
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-033",
+      "startAnchor": "line-034:start",
+      "title": "Whole city inside",
+      "type": "still-blocking",
+      "image": "generated/environment-development/canal-district-v008.png",
+      "description": "Widen to connected canal and financial district; city becomes subject.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-034",
+      "startAnchor": "line-035:start",
+      "title": "Narrator \u2014 closer address",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
+      "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
+      "crop": [
+        0,
+        0,
+        0.58,
+        0.9
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-035",
+      "startAnchor": "line-037:start",
+      "title": "Narrator \u2014 closer address",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
+      "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
+      "crop": [
+        0,
+        0,
+        0.58,
+        0.9
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-036",
+      "startAnchor": "line-038:start",
+      "title": "You still got through",
+      "type": "still-blocking",
+      "image": "generated/scene-development/narrator-opening-v001.png",
+      "description": "Return to narrator and directory; recognition replaces initial lack of inspiration.",
+      "crop": [
+        0.12,
+        0.06,
+        0.65,
+        0.9
+      ],
+      "placeholder": false
+    },
+    {
+      "id": "PB-037",
+      "startAnchor": "60.1",
+      "title": "Coda \u2014 town continues",
+      "type": "still-blocking",
+      "image": "generated/environment-development/old-church-quarter-v006.png",
+      "description": "Instrumental tail: hold ordinary town life, then return to narrator. Book closing/walk-away action still to stage.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-038",
+      "startAnchor": "62.1",
+      "title": "Coda \u2014 town continues",
+      "type": "still-blocking",
+      "image": "generated/environment-development/spring-worth-v004.png",
+      "description": "Instrumental tail: hold ordinary town life, then return to narrator. Book closing/walk-away action still to stage.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-039",
+      "startAnchor": "64.1",
+      "title": "Coda \u2014 town continues",
+      "type": "still-blocking",
+      "image": "generated/environment-development/canal-district-v008.png",
+      "description": "Instrumental tail: hold ordinary town life, then return to narrator. Book closing/walk-away action still to stage.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "PB-040",
+      "startAnchor": "66.1",
+      "title": "Coda \u2014 back to the book",
+      "type": "still-blocking",
+      "image": "generated/scene-development/narrator-opening-v001.png",
+      "description": "Instrumental tail: hold ordinary town life, then return to narrator. Book closing/walk-away action still to stage.",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "placeholder": true
+    }
+  ]
+}

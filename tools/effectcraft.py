@@ -79,10 +79,14 @@ def main():
         setup_mac()
         return
     project = PROJECT
+    project_runtime = {}
     if args.project:
         project = args.project.resolve()
         if project.suffix == '.json':
             spec = json.loads(project.read_text(encoding='utf-8'))
+            local_file = project.parent / 'project.local.json'
+            if local_file.exists():
+                project_runtime = json.loads(local_file.read_text(encoding='utf-8')).get('effectcraftRuntime', {})
             native = spec.get('sources', {}).get('effectcraftProject')
             if not native:
                 parser.error('Project configuration has no sources.effectcraftProject')
@@ -92,9 +96,9 @@ def main():
     config_file = LOCAL / 'install.json'
     config = json.loads(config_file.read_text()) if config_file.exists() else {}
     if args.command == 'gui':
-        executable = os.environ.get('EFFECTCRAFT_APP') or config.get('app') or shutil.which('effectcraft')
+        executable = os.environ.get('EFFECTCRAFT_APP') or project_runtime.get('app') or config.get('app') or shutil.which('effectcraft')
     else:
-        executable = args.cli or os.environ.get('EFFECTCRAFT_CLI') or config.get('cli') or shutil.which('effectcraft-cli')
+        executable = args.cli or os.environ.get('EFFECTCRAFT_CLI') or project_runtime.get('cli') or config.get('cli') or shutil.which('effectcraft-cli')
     if not executable:
         parser.error('Run setup-mac or set EFFECTCRAFT_CLI / EFFECTCRAFT_APP for this machine')
     env = os.environ.copy()
@@ -105,6 +109,13 @@ def main():
     if args.command != 'gui':
         command += [args.command, *args.arguments]
         raise SystemExit(subprocess.run(command, cwd=project.parent, env=env).returncode)
+    if sys.platform == 'darwin':
+        # Launch Services reuses the existing app instead of spawning a second
+        # multi-gigabyte editor process for every review revision.
+        app_bundle = next((p for p in Path(executable).parents if p.suffix == '.app'), None)
+        if app_bundle:
+            subprocess.run(['open', '-a', str(app_bundle), str(project)], check=True, env=env)
+            return
     options = {'creationflags': subprocess.CREATE_NO_WINDOW} if sys.platform == 'win32' else {'start_new_session': True}
     subprocess.Popen(command, cwd=project.parent, env=env, **options)
 

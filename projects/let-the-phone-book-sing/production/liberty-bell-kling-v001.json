@@ -1,0 +1,21 @@
+{
+  "status": "rejected_reference_not_applied",
+  "approved": false,
+  "sourceImage": "generated/scene-development/liberty-bell-situation-v001.png",
+  "shotIds": [
+    "PB-005",
+    "PB-006"
+  ],
+  "startFrame": 437,
+  "endFrameExclusive": 571,
+  "frames": 134,
+  "fps": 24,
+  "sourceOffsetFrames": 12,
+  "requestedGenerationSeconds": 7,
+  "resolution": "1080p",
+  "model": "Kling 4.0",
+  "prompt": "Animate this supplied first frame as ONE continuous seven-second shot at natural real-time speed. Exactly one woman, Liberty, and exactly THREE rabbits: chestnut, white with gray ears, and small charcoal gray. Preserve her distinctive mature face, chin cleft, skeptical brow, braids, cowboy hat, brick-red logo shirt, olive utility skirt, mustard socks and brown shoes. Preserve the courtyard and the already-open gate.\n0\u20131.5 seconds: the chestnut and white rabbits complete their existing short hops toward the leafy feeding tray at SCREEN RIGHT, landing naturally and beginning to nibble. The charcoal-gray rabbit stays beside Liberty's shoe and looks up at her with a small ear twitch. 1.5\u20133.2 seconds: Liberty looks down at the charcoal rabbit, raises one skeptical eyebrow and makes one small firm open-handed 'go on' gesture toward the food, as if managing a cattle drive. Her other hand keeps resting on the gate. She does not speak. Pause briefly so the rabbit's hesitation reads. 3.2\u20134.8 seconds: the charcoal rabbit finally makes two or three quick natural hops rightward to join the other two at the food. Liberty follows it with her eyes. 4.8\u20137 seconds: all THREE rabbits nibble together near the feeding tray, with tiny ear/nose movements. Liberty straightens proudly, returns her gesturing hand to her hip and gives one small satisfied nod, absurdly pleased with her ranching accomplishment.\nKeep every rabbit individually visible and consistent in size and color, with coherent paws and grounded landing shadows. No multiplying, merging, disappearing or exchanging colors; all stay inside this courtyard. No animal contact with her feet, no kicking, chasing or distress. Gate remains open and stable. Fixed eye-level medium-wide camera: no pan, push, zoom, cuts or reframing. Preserve graphic-novel ink lines, painted facial detail, fabric textures, background geometry and warm light. Cream wall phone remains on its cradle inside the open house doorway. No narrator, extra people, new props, text, music or dialogue.\nThe edit is 134 frames at24fps (5.5833 seconds), source frames12\u2013145 inclusive, from0.500 to6.0833 seconds. Complete the rabbit joining and proud nod within this window, with natural continuation afterward.\nPROMPT LOCK: Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "chargedCredits": 105,
+  "review": "Returned a different courtyard and simplified cartoon style. Suspected submission before reference upload completed. Excluded from edit."
+}

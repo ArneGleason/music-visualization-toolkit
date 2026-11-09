@@ -1,0 +1,28 @@
+{
+  "status": "downloaded_review_pending",
+  "sourceImage": "generated/environment-development/old-church-quarter-v006.png",
+  "targetResolution": "1080p",
+  "editStartFrame": 0,
+  "editEndFrameExclusive": 296,
+  "editFps": 24,
+  "editDurationSeconds": 12.333333333333334,
+  "requestedGenerationSeconds": 13,
+  "camera": "locked",
+  "prompt": "One continuous locked-off wide shot of this exact illustrated Old Church Quarter street. Animate the existing residents in place while preserving the reference composition, architecture, perspective, sunlight, palette, faces, costumes and mature graphic-novel ink-and-painted rendering. Absolutely fixed tripod camera: no pan, zoom, push, drift, reframing or cuts. The foreground narrator will be composited separately: do not add a singer or any new person.\nSmall characterful everyday actions with a relaxed shared musical pulse, alternating a gentle downward settle and lighter upward recovery, staggered naturally rather than synchronized dancing. The balcony gardener makes a restrained pouring motion toward her pot then brings the watering can upright. At the table the older woman gently places a single chess piece while the man gives an amused small nod; both remain seated. The tall seated reader makes subtle head and shoulder movements while keeping his book coherent. The older woman at right takes a few leisurely steps along the same pavement with a mild arm and cage swing. Keep all actions low-amplitude and secondary to an unseen foreground singer. A faint breeze stirs hanging laundry and foliage. Keep walls, windows, stairs, rails, chairs, table, bicycle and chessboard rigid and stable. Preserve clear inked silhouettes, crosshatching and layered depth, with distant features quieter. No photographic conversion, plastic 3D, children's cartoon simplification, face changes, extra limbs, new props, text or scene transitions. No generated music, dialogue or singing.",
+  "rhythmPolicy": "Prompt requests rhythmic feel only; no claim of beat synchronization. Preserve accepted timing and continuous narrator performance.",
+  "characterReferences": "Use existing scene identities at wide scale; no additional character sheets required for first trial.",
+  "approved": false,
+  "model": "Kling 4.0",
+  "quotedCredits": 195,
+  "observedBalanceBefore": 2388,
+  "sourceVideo": "generated/kling-tests/opening-background-v001/street-original-1080p.mp4",
+  "actualResolution": [
+    1916,
+    1080
+  ],
+  "actualFps": 24,
+  "actualVideoFrames": 313,
+  "sha256": "3bbcf69c8699d8f6bb91929c933aa475004a59f114471a17f67005f75d4877bb",
+  "watermark": "Kling watermark present and retained",
+  "note": "Adaptive aspect ratio produced 1916x1080. Pad two pixels per side for 1920x1080 delivery; no upscale needed. Source audio excluded from composite."
+}

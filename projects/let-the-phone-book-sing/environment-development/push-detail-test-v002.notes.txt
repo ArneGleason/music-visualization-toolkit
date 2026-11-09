@@ -1,0 +1,10 @@
+Reference-assisted push test v002 — 2026-11-08
+One six-second Kling 4.0 Omni reference generation, 720p tier. Inputs: same narrator/courtyard wide still, paired detailed couple reference, narrator model sheet. No video input or fixed tail image. Initial upload failed with rate limiting before generation; confirmed unchanged 2382-credit balance, reused successful upload receipts, submitted one generation. Balance then 2322; observed cost 60 credits. No additional paid variations.
+
+Sampled-frame review: wide beginning resembles source; narrator passes off left, camera reaches courtyard and close couple; faces, hair, knit sweater and jacket are more dimensionally detailed and closer to narrator reference than baseline. Environment stays present; no reference-sheet background in sampled images. Woman makes a conversational hand gesture. Reference face specifics are adopted, so this is newly authored detailed identity, not recovery of an exact hidden face. Some rendering appears more smoothly modeled than hand-hatched; final taste approval remains with user.
+
+Method limit: Omni reference mode differs from baseline image-to-video route; prompt also specifies reference roles. This is a practical qualitative comparison, not isolated proof of which input caused improvement. One-second frame sampling cannot certify all temporal transitions, lip movement or hand anatomy; review the video. Do not automatically generate more tests.
+
+Files: generated/character-development/courtyard-couple-reference-v001.png; generated/kling-tests/push-detail-v002/CHURCH-PUSH-002/CHURCH-PUSH-002-01.mp4; same folder review-contact.png.
+
+USER REVIEW: Approved 2026-11-08: "Yeah, that actually works great." See style-guide-approval-20261108.json.

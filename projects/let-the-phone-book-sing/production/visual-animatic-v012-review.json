@@ -1,0 +1,9 @@
+{
+  "status": "draft_review",
+  "approved": false,
+  "fix": "Reset timestamps after trimming Belle raw decode and dissolve source samples. Previously missing reset caused initial duplicates and truncation; dissolve switched to later source action.",
+  "before": "43 identical initial frames in source42 decode; 8 unique frames among first50.",
+  "after": "1 initial frame;50unique in first50 corrected decode.",
+  "timing": "Musical positions,141-frame Belle duration, lyric and echo frames unchanged; source42..166 mapping retained.",
+  "creditsUsed": 0
+}

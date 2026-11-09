@@ -1,0 +1,68 @@
+{
+  "status": "three_tests_complete_awaiting_user_review",
+  "model": "Hedra Avatar",
+  "resolution": "720p",
+  "aspectRatio": "16:9",
+  "batchSize": 1,
+  "sourceImage": "generated/avatar-tests/hedra-v001/narrator-green-plate-v001.png",
+  "startFrame": 828,
+  "endFrameExclusive": 963,
+  "fps": 24,
+  "startSeconds": 34.5,
+  "endSeconds": 40.125,
+  "durationSeconds": 5.625,
+  "lyrics": "I got nothing to sing. / But the names got a ring.",
+  "creditBalanceObserved": 4310,
+  "estimatedCreditsPerSecondObserved": 7,
+  "estimatedCredits": 40,
+  "submitted": true,
+  "prompt": "She sings playfully and expressively to the supplied vocal, with gentle rhythmic shoulder movement, small natural hand gestures below chest level, occasional head tilts and engaged eye contact. Preserve her illustrated face, fine curls and clothing. Static camera, fixed framing, one performer only. Keep the flat green background perfectly unchanged. No props, no cuts, no added text.",
+  "checks": [
+    "Singing timing and mouth articulation",
+    "Identity/style preservation",
+    "Natural head/shoulder/hand performance",
+    "Curls and fingers survive background removal",
+    "Flat background and stable framing"
+  ],
+  "audioPolicy": "Use solo lead supplied by user; verify source offset before trimming. Preserve master timing. Do not use full mix or synthesize substitute audio.",
+  "comparison": "Try this first before spending on HeyGen/Kling comparison. User prior videos confirmed in Hedra Character 3 history.",
+  "audio": "generated/avatar-tests/hedra-v001/lead-test-34p5-40p125.wav",
+  "creditCostDisplayed": 40,
+  "experiments": [
+    {
+      "id": "hedra-green",
+      "model": "Hedra Avatar",
+      "background": "green",
+      "credits": 40,
+      "status": "downloaded",
+      "file": "generated/avatar-tests/hedra-v001/hedra-green-original.mp4",
+      "sha256": "33ba923042f84152ec932cb7f9990d38210aa5aa6b7bc8b3d21154a61936b0be",
+      "prompt": "She sings playfully and expressively to the supplied vocal, with gentle rhythmic shoulder movement, small natural hand gestures below chest level, occasional head tilts and engaged eye contact. Preserve her illustrated face, fine curls and clothing. Static camera, fixed framing, one performer only. Keep the flat green background perfectly unchanged. No props, no cuts, no added text."
+    },
+    {
+      "id": "hedra-dark",
+      "model": "Hedra Avatar",
+      "background": "dark charcoal",
+      "credits": 40,
+      "status": "downloaded",
+      "file": "generated/avatar-tests/hedra-v001/hedra-dark-original.mp4",
+      "sha256": "0bc199855d97abbeb9cbf733ebf80fa931c2dd3b4f8bb0e8846f2b84c79b231c",
+      "prompt": "She sings playfully and expressively to the supplied vocal, with gentle rhythmic shoulder movement, small natural hand gestures below chest level, occasional head tilts and engaged eye contact. Preserve her illustrated face, fine curls and clothing. Static camera, fixed framing, one performer only. Keep the flat dark charcoal background perfectly unchanged. No props, no cuts, no added text."
+    },
+    {
+      "id": "kling-dark",
+      "model": "Kling AI Avatar v2 Standard",
+      "background": "dark charcoal",
+      "credits": 66,
+      "status": "downloaded",
+      "enhancePrompt": false,
+      "file": "generated/avatar-tests/hedra-v001/kling-dark-original.mp4",
+      "sha256": "2589c5ae955ecc0258daa76f0f77f73ec3647983c2cb46621e57b8fb761ceb84",
+      "prompt": "She sings playfully and expressively to the supplied vocal, with gentle rhythmic shoulder movement, small natural hand gestures below chest level, occasional head tilts and engaged eye contact. Preserve her illustrated face, fine curls and clothing. Static camera, fixed framing, one performer only. Keep the flat dark charcoal background perfectly unchanged. No props, no cuts, no added text."
+    }
+  ],
+  "totalCredits": 146,
+  "remainingCreditsObserved": 4164,
+  "approval": "Experiments only; not approved production assets.",
+  "modelComparisonAudio": "Hedra returned audio used for side-by-side; originals each retain own audio. Measured returned-audio lags: Hedra 42.625ms, Kling 24.25ms."
+}

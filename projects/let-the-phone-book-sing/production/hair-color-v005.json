@@ -1,0 +1,32 @@
+{
+  "status": "hair-only color review draft",
+  "baseline": "effectcraft-edit-v004 (user accepted)",
+  "project": "generated/effectcraft-edit-v005/Let-the-Phone-Book-Sing-editable-v005.ecproj",
+  "narratorPrecomp": 17020,
+  "adjustmentLayer": 17048,
+  "mask": {
+    "rect": [
+      -100,
+      -100,
+      2120,
+      620
+    ],
+    "feather": [
+      35,
+      35
+    ]
+  },
+  "effect": "Hue/Saturation",
+  "greensRangeStart": 45,
+  "greensRangeEnd": 165,
+  "greensStartFalloff": 10,
+  "greensEndFalloff": 25,
+  "greensSaturation": -100,
+  "cyansSaturation": -85,
+  "cyansRangeStart": 165,
+  "cyansRangeEnd": 195,
+  "cyansStartFalloff": 15,
+  "cyansEndFalloff": 20,
+  "keyAndMatte": "Unchanged; RGB adjustment isolated in narrator precomp",
+  "verification": "Native lossless before/after frame check: book mean channel difference <0.001/255; lower-frame maximum difference 1/255 from nested compositing. Warm hair/skin inspected; final tint removal remains user review."
+}

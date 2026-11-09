@@ -81,7 +81,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 def main():
     global OUT
-    parser=argparse.ArgumentParser();parser.add_argument('--belle',action='store_true');parser.add_argument('--version',default='v006');parser.add_argument('--preview-end',type=int,default=437);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--belle',action='store_true');parser.add_argument('--version',default='v006');parser.add_argument('--preview-end',type=int,default=437);parser.add_argument('--dissolve-frames',type=int,choices=[0,4],default=0);args=parser.parse_args()
     OUT=BASE/f'generated/visual-animatic-{args.version}'
     OUT.mkdir(exist_ok=True);assets=OUT/'frames';assets.mkdir(exist_ok=True)
     timeline=BASE/'timeline.json';before=hashlib.sha256(timeline.read_bytes()).hexdigest()
@@ -110,6 +110,11 @@ def main():
     inputs+=['-i',str(BASE/'generated/source/master.wav')]
     clean=OUT/f'Let-the-Phone-Book-Sing-fullframe-clean-{args.version}.mp4'
     subprocess.run(inputs+['-filter_complex',';'.join(filters),'-map','[final]','-map',f'{n}:a','-frames:v',str(total),'-c:v','libx264','-preset','fast','-crf','18','-pix_fmt','yuv420p','-c:a','aac','-b:a','320k','-af','apad','-t',str(total/FPS),'-movflags','+faststart',str(clean)],check=True)
+    if args.dissolve_frames:
+        from review_dissolves import apply_dissolves
+        hardcuts=clean.with_name(clean.stem+'-hardcuts.mp4')
+        clean.rename(hardcuts)
+        apply_dissolves(hardcuts,clean,score,assets,BASE,total,args.dissolve_frames)
     review=OUT/f'Let-the-Phone-Book-Sing-fullframe-lyrics-{args.version}.mp4'
     overlay_lyrics(clean,review,lines,total)
     for source,name in [(review,'opening-sequence-review.mp4'),(clean,'opening-sequence-clean.mp4')]:

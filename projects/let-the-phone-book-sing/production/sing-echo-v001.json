@@ -1,0 +1,99 @@
+{
+  "status": "draft_review",
+  "frames": 296,
+  "fps": 24,
+  "primaryWord": {
+    "id": "line-001-w005",
+    "text": "sing.",
+    "start": 3.385,
+    "end": 3.785,
+    "sourceStart": 3.385,
+    "sourceEnd": 3.785,
+    "musicalStart": "3.4.920",
+    "musicalEnd": "4.1.521",
+    "startFrame": 81,
+    "endFrameExclusive": 91,
+    "spokenWordIds": [
+      "section-01-w005"
+    ],
+    "flags": [
+      "master_end_disagreement",
+      "master_start_disagreement",
+      "text_review"
+    ],
+    "status": "user_reviewed_approved"
+  },
+  "events": [
+    {
+      "text": "SING",
+      "startFrame": 89,
+      "measuredSeconds": 3.709,
+      "stereoEnergyPan": -0.578,
+      "correlation": 0.649
+    },
+    {
+      "text": "SING",
+      "startFrame": 97,
+      "measuredSeconds": 4.02788,
+      "stereoEnergyPan": 0.474,
+      "correlation": 0.462
+    },
+    {
+      "text": "SING",
+      "startFrame": 105,
+      "measuredSeconds": 4.37113,
+      "stereoEnergyPan": 0.923,
+      "correlation": 0.481
+    },
+    {
+      "text": "SING",
+      "startFrame": 113,
+      "measuredSeconds": 4.71238,
+      "stereoEnergyPan": 0.901,
+      "correlation": 0.432
+    },
+    {
+      "text": "SING",
+      "startFrame": 121,
+      "measuredSeconds": 5.05238,
+      "stereoEnergyPan": 0.895,
+      "correlation": 0.477
+    },
+    {
+      "text": "SING",
+      "startFrame": 130,
+      "measuredSeconds": 5.41663,
+      "stereoEnergyPan": 0.845,
+      "correlation": 0.431
+    },
+    {
+      "text": "SING",
+      "startFrame": 138,
+      "measuredSeconds": 5.75288,
+      "stereoEnergyPan": 0.971,
+      "correlation": 0.347
+    },
+    {
+      "text": "SING",
+      "startFrame": 147,
+      "measuredSeconds": 6.1205,
+      "stereoEnergyPan": 0.862,
+      "correlation": 0.413
+    },
+    {
+      "text": "SING",
+      "startFrame": 155,
+      "measuredSeconds": 6.4725,
+      "stereoEnergyPan": 0.059,
+      "correlation": 0.332
+    }
+  ],
+  "panMethod": "L/R energy over matched echo windows in supplied stereo vocal export; indicative, not isolated delay-bus automation.",
+  "timingPolicy": "Existing primary lyric timing unchanged. Echo attacks measured separately and quantized to edit frames.",
+  "depthPolicy": "Perspective-scaled ellipse; negative z below narrator matte, positive z above. Face avoided.",
+  "timelineSha256": "b6e0c03a6fe50dd8a924d918fe3229566dbbd7a7f9f27937f6141d2a43c2b0bc",
+  "sourceAudio": "User-supplied stereo lead export, 2026-11-08 1538",
+  "renderScript": "production/sing_echo_test.py",
+  "preview": "generated/motion-graphics/sing-echo-v001/opening-sing-echo-review.mp4",
+  "nativePreview": "generated/motion-graphics/sing-echo-v001/opening-sing-echo-1080p.mp4"
+}

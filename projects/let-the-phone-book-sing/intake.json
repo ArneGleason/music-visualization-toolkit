@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "project": "let-the-phone-book-sing",
-  "updated": "2026-11-07",
-  "stage": "all_sources_ingested_first_timing_draft_awaits_review",
+  "updated": "2026-11-08",
+  "stage": "timing_approved_visual_story_development",
   "items": [
     {
       "id": "master",
@@ -29,9 +29,9 @@
     },
     {
       "id": "lyrics",
-      "status": "author_text_preserved_machine_timing_draft",
+      "status": "author_text_preserved_user_reviewed_timing_approved",
       "destination": "lyrics/approved.txt",
-      "action": "38 lines and 306 spoken-word hypotheses aligned; source/master disagreement and numeric pronunciation are flagged for listening review.",
+      "action": "Timing accepted by user on 2026-11-08. Preserve existing edges; develop visual scenes and choruses.",
       "lineCount": 38,
       "sectionCount": 9
     },
@@ -62,7 +62,7 @@
     "noPhoneBookVisual": false,
     "albumCoverPlanned": true,
     "characterName": null,
-    "finalTimingAccepted": false,
+    "finalTimingAccepted": true,
     "phoneBookVisualPolicy": "Open book in cover still; optional and likely absent for most of video. Do not lock narrator into carrying it everywhere.",
     "visibleNarrator": "Singer visible to audience; residents do not perceive her or respond to her presence."
   }

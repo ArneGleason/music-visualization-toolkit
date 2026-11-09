@@ -1,0 +1,24 @@
+{
+  "status": "review draft",
+  "source": "effectcraft-edit-v001",
+  "project": "generated/effectcraft-edit-v002/Let-the-Phone-Book-Sing-editable-v002.ecproj",
+  "change": {
+    "composition": 1,
+    "layer": 240,
+    "effect": "Linear Color Key",
+    "matching": "RGB",
+    "keyColor": "#00b33f",
+    "previous": {
+      "tolerance": 25,
+      "softness": 8
+    },
+    "revised": {
+      "tolerance": 15,
+      "softness": 5
+    }
+  },
+  "reason": "Broad RGB key range partially included cyan phone-book cover; narrowed range avoids interior transparency without a holdout mask.",
+  "validation": "generated/effectcraft-edit-v002/matte-validation.json",
+  "timing": "Unchanged",
+  "mask": "None required in this revision"
+}

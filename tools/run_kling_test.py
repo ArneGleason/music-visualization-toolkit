@@ -2,6 +2,7 @@
 import argparse
 import json
 import subprocess
+import shutil
 import urllib.request
 from pathlib import Path
 
@@ -17,8 +18,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('plan', type=Path)
     parser.add_argument('--submit', action='store_true')
+    parser.add_argument('--cli', type=Path, help='Kling executable (otherwise use PATH or legacy Windows installation)')
     parser.add_argument('--only', action='append', help='Run only this take ID; repeat to select several')
     args = parser.parse_args()
+    cli = [str(args.cli.resolve())] if args.cli else ([shutil.which('kling')] if shutil.which('kling') else CLI)
     project = args.plan.resolve().parent
     plan = json.loads(args.plan.read_text(encoding='utf-8'))
     if args.only:
@@ -36,11 +39,13 @@ def main():
             if (out / 'request.json').exists():
                 print(shot['id'], 'already attempted; collection only', flush=True)
                 continue
-            argv = [*CLI, 'image_to_video', '--image', str(project / shot['firstImage'])]
+            argv = [*cli, 'image_to_video', '--image', str(project / shot['firstImage'])]
             if shot.get('tailImage'):
                 argv += ['--tailImage', str(project / shot['tailImage'])]
             for key in ('model', 'duration', 'resolution', 'imageCount',
                         'enable_audio', 'prefer_multi_shots'):
+                if key not in shot:
+                    continue
                 value = shot[key]
                 argv += ['--' + key, str(value).lower() if isinstance(value, bool) else str(value)]
             if shot.get('elementBindingPending'):
@@ -52,7 +57,7 @@ def main():
         else:
             data = json.loads(submission.read_text(encoding='utf-8'))
             task = data['body']['generationId']
-            argv = [*CLI, 'query_tasks', task]
+            argv = [*cli, 'query_tasks', task]
         result = subprocess.run(argv, capture_output=True, text=True, encoding='utf-8')
         (out / ('submission.stderr.txt' if args.submit else 'query.stderr.txt')).write_text(
             result.stderr, encoding='utf-8')

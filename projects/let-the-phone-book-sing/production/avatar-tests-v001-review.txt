@@ -1,0 +1,31 @@
+NARRATOR AVATAR TESTS — 8 November 2026
+Experimental outputs; not approved production assets.
+
+Clip: master frames 828–962 inclusive at 24 fps (5.625 s), from the user-cleaned solo lead. No accepted lyric timings changed.
+Lyrics: I got nothing to sing. / But the names got a ring.
+
+Hedra Avatar green: 40 credits. Hedra Avatar dark: 40 credits.
+Kling AI Avatar v2 Standard dark: 66 credits. All run through Hedra.
+Total: 146 credits; observed remaining balance 4164. No subscription purchased.
+
+Green and dark source portraits differ slightly because the dark plate was an AI edit. This is a practical comparison, not a pixel-identical controlled experiment. One stochastic result per configuration cannot establish a general model ranking.
+
+Hedra visual inspection: expressive hands, head and shoulders; fine ink/hatching softens toward a more rendered appearance. Green diagnostic key preserves dark hair mass much better than global dark removal. Border-connected dark removal helps internal dark lines but still loses connected curls. These are simple local keys, not learned foreground segmentation, manual rotoscoping or temporally stabilized mattes. Green still needs edge cleanup.
+
+Hedra returned audio lags the uploaded clip by approximately 0.042625 seconds, measured by waveform correlation. This is audio-track timing only, NOT a lip-sync score. Review clips retain returned audio. Conform final approved footage against master by visual/audio review before cutting. Watermarks are retained.
+
+Files in generated/avatar-tests/hedra-v001:
+  background-comparison-returned-audio.mp4 — green left / dark right; originals top, simple composites bottom.
+  hedra-green-original.mp4
+  hedra-dark-original.mp4
+  hedra-dark-dark-connected-composite.mp4 — alternate dark removal diagnostic.
+  audio-provenance.json
+  returned-audio-check.json
+
+No test media backed up as approved; no shotlist or animatic timing changed for these tests.
+
+Kling completed: original video 7.200011 s at 30 fps, audio 5.642993 s. Waveform lag relative to uploaded excerpt 0.02425 s. Preserve original; comparison uses only first 135 frames at 24 fps, without retiming performance. Sampled frames show less hand and shoulder motion than Hedra, with a more restrained performance. Neither model is declared a lip-sync winner from frame sampling alone.
+
+model-comparison-v001.mp4: Hedra dark LEFT / Kling Standard dark RIGHT. Shared audio is Hedra returned audio; the returned audio differs by 18.375 ms between models. Use each original to judge final sync. This side-by-side is primarily a motion/style comparison.
+
+Provisional recommendation: green for economical compositing; Hedra for the more animated acting in these samples. Keep dark as an option if using subject-aware matting rather than a dark luminance key. Review motion and lip sync with the user before more spending.

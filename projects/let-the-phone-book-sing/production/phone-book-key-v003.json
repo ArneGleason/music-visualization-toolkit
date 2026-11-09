@@ -1,0 +1,25 @@
+{
+  "status": "visual review draft",
+  "effectcraftVersion": "0.22.0",
+  "nativeProject": "generated/effectcraft-edit-v003/Let-the-Phone-Book-Sing-editable-v003.ecproj",
+  "sourceVersion": "effectcraft-edit-v001",
+  "effect": "Screen Key",
+  "layer": 240,
+  "comp": 1,
+  "values": {
+    "screenColor": "#00b33f",
+    "screenGain": 160,
+    "screenBalance": 100,
+    "clipBlack": 7.5,
+    "clipWhite": 83.5,
+    "screenSoftness": 1,
+    "screenPreblur": 0.5,
+    "edgeColor": 1,
+    "despill": 100
+  },
+  "outline": "Existing native 2.5px ink stroke preserved",
+  "mask": "No holdout needed with green-dominance key; cyan book retained",
+  "verification": "All 296 opening frames checked for enclosed matte holes in book region; sample full-frame hair/skin/book review. See generated/effectcraft-edit-v003/matte-validation.json.",
+  "timelineSha256": "b6e0c03a6fe50dd8a924d918fe3229566dbbd7a7f9f27937f6141d2a43c2b0bc",
+  "sourceDocumentation": "https://github.com/storytold/effectcraft/blob/v0.22.0/crates/effects/src/keying.rs"
+}

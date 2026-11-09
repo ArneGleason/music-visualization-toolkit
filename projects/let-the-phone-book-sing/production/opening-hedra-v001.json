@@ -1,0 +1,77 @@
+{
+  "status": "downloaded",
+  "model": "Hedra Avatar",
+  "resolution": "1080p",
+  "aspectRatio": "16:9",
+  "background": "green",
+  "clips": [
+    {
+      "id": "close",
+      "startFrame": 0,
+      "endFrameExclusive": 179,
+      "credits": 66,
+      "prompt": "She begins with a quiet expectant look toward the camera during the silent lead-in, then sings playfully and expressively to the supplied vocal. Gentle rhythmic shoulder movement, occasional head tilts and engaged eye contact. When the vocal pauses, she rests her mouth naturally and holds a warm wry expression. Preserve her illustrated face, fine curls and clothing. Static camera, fixed close framing, one performer only. Keep the flat green background perfectly unchanged. No props, no cuts, no added text.",
+      "returnedAudioLagSeconds": 0.0,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1",
+            "duration": "7.520000"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "duration": "7.508000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book",
+      "startFrame": 167,
+      "endFrameExclusive": 296,
+      "editStartFrame": 179,
+      "credits": 48,
+      "prompt": "She sings playfully and expressively to the supplied vocal, presenting the ratty old phone book with affectionate amusement. Her left hand securely supports the open book from underneath throughout; keep its spine, covers and pages coherent and steady, without page turning. Small expressive gestures with her free right hand, gentle rhythmic shoulders, occasional head tilts and engaged eye contact. Briefly glance down at the directory then look back to the audience. Preserve her illustrated face, fine curls and clothing. Static camera, fixed medium-wide framing, one performer only. Keep the flat green background perfectly unchanged. No cuts, no added text or objects.",
+      "returnedAudioLagSeconds": 0.0,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1",
+            "duration": "5.440000"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "duration": "5.425000"
+          }
+        ]
+      }
+    }
+  ],
+  "fps": 24,
+  "creditsTotal": 114,
+  "imageMethod": "built-in image_gen",
+  "imageReferences": [
+    "generated/avatar-tests/hedra-v001/narrator-green-plate-v001.png",
+    "generated/covers/patience-pleasant-avenue-v001.png"
+  ],
+  "imageDirection": {
+    "close": "Identity-preserving lower-chest-up singing portrait, full hair in frame, cream cardigan, mature ink-and-paint, flat green.",
+    "book": "Same identity medium-wide mid-thigh-up, blue denim, open worn directory supported in left hand as on cover; coherent page/cover perspective, right hand free; flat green."
+  },
+  "outputDirectory": "generated/avatar-tests/opening-v001",
+  "approved": false,
+  "watermarkInspection": "No watermark visible in sampled frames of either new Basic-plan output.",
+  "reviewNote": "Book remains recognizable in sampled frames. Close performance has mouth activity during vocal pause; review in context."
+}

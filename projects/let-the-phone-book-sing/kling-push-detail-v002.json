@@ -1,0 +1,27 @@
+{
+  "fps": 24,
+  "output": "generated/kling-tests/push-detail-v002",
+  "purpose": "Single user-authorized reference-assisted comparison; same 6-second push concept. Omni reference route differs from baseline first-frame-only route, so this is a practical comparison, not a controlled proof.",
+  "creditBalanceBefore": 2382,
+  "estimatedCredits": 60,
+  "shots": [
+    {
+      "id": "CHURCH-PUSH-002",
+      "model": "kling-video-v4_0",
+      "duration": 6,
+      "resolution": "720p",
+      "imageCount": 1,
+      "route": "omni_ref_video",
+      "images": [
+        "generated/environment-development/old-church-quarter-narrator-v001.png",
+        "generated/character-development/courtyard-couple-reference-v001.png",
+        "generated/character-development/character-reference-v001.png"
+      ],
+      "prompt": "图片1 is the opening composition and courtyard geography. Begin with that wide scene, NOT a reference sheet. 图片2 provides the authoritative detailed appearances of the SAME elderly couple already seated at the table: man on left in tan flat cap/brown sweater, woman on right with silver bun/coral jacket. Match their faces, anatomy, nuanced shading, fine crosshatching and tactile fabrics from 图片2 as they come close. 图片3 is the narrator character and graphic-novel rendering reference ONLY; never display the sheet or duplicate her. Preserve the rendering sophistication of 图片2 and 图片3 throughout; do not simplify the couple into cartoon grandparents. Keep the courtyard background present at the end, never replace it with the reference paper. One continuous six-second camera dolly-in through this illustrated coastal courtyard, no cuts. Begin at the supplied wide composition with the singing narrator large at left. Camera travels forward and slightly right, passing to the RIGHT of the narrator without intersecting her body; she exits naturally through the left edge by parallax. Move directly toward the elderly seated couple at the small courtyard table, the man in a light cap and brown sweater and the gray-haired woman in a coral jacket. Finish with a close two-shot of their faces and upper bodies across the table, filling most of the frame. They stay seated in their original chairs and positions, quietly conversing with one small hand gesture and a subtle smile. Other residents continue minimal natural movements and do not acknowledge the narrator. Keep camera movement smooth and purposeful, reach the couple by five seconds and settle for the last second. This must be a real spatial camera move with parallax, not simply enlarging the flat starting image. As the couple gets closer, resolve their same faces into finely drawn mature features, expressive eyes, individual hair strands, tactile fabric and nuanced ink crosshatching at the same rendering sophistication as the foreground narrator. Preserve their identity, age, head shape, proportions and clothes throughout: added coherent drawing detail, not changing into new people. Maintain graphic-novel ink-and-painted illustration throughout, never photography, plastic 3D or simplified children's cartoons. Distinct strong tapered silhouette contours and warm dimensional painted shading; distant forms remain simplified, cooler and lower contrast. Keep architecture rigid and stable, people correctly seated and hands anatomically coherent. No new people, no scene transition, no morphing, no sudden face replacement, no text. Do not add music or dialogue audio. The narrator can continue a subtle silent singing gesture as she leaves the frame; lip synchronization is not being tested."
+    }
+  ],
+  "status": "completed",
+  "observedBalanceDecrease": 60,
+  "creditBalanceAfter": 2322,
+  "review": "environment-development/push-detail-test-v002.notes.txt"
+}

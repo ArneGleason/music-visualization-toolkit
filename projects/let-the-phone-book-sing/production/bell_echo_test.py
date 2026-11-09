@@ -12,6 +12,7 @@ BASE=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser()
 parser.add_argument('--version',default='v002')
 parser.add_argument('--source-offset',type=int,default=12)
+parser.add_argument('--source-end',type=int,help='Inclusive source end; gently retime picture only to fit the edit.')
 args=parser.parse_args()
 OUT=BASE/f'generated/motion-graphics/belle-echo-{args.version}'
 OUT.mkdir(parents=True,exist_ok=True)
@@ -45,12 +46,23 @@ config=dict(status='draft_review',shotIds=['PB-003','PB-004'],startFrame=start,e
 art=[lettering(c,'BELLE') for c in ['#f7dda2','#9dd8cf','#f0b38b']]
 for i,im in enumerate(art):im.save(OUT/f'bell-lettering-{i+1}.png')
 offset=insert['sourceOffsetFrames']
-dec=subprocess.Popen(['ffmpeg','-v','error','-i',str(BASE/insert['source']),'-vf',f'fps=24,trim=start_frame={offset}:end_frame={offset+frames},pad=1920:1080:2:0','-frames:v',str(frames),'-f','rawvideo','-pix_fmt','rgb24','-'],stdout=subprocess.PIPE)
+source_end=args.source_end if args.source_end is not None else offset+frames-1
+assert source_end>offset
+source_rate=(source_end-offset)/(frames-1)
+config.update(sourceEndFrameInclusive=source_end,sourceFramesPerEditFrame=source_rate)
+(OUT/'analysis.json').write_text(json.dumps(config,indent=2)+'\n')
+dec=subprocess.Popen(['ffmpeg','-v','error','-i',str(BASE/insert['source']),'-vf',f'fps=24,trim=start_frame={offset}:end_frame={source_end+1},setpts=PTS-STARTPTS,pad=1920:1080:2:0','-frames:v',str(source_end-offset+1),'-fps_mode','passthrough','-f','rawvideo','-pix_fmt','rgb24','-'],stdout=subprocess.PIPE)
 silent=OUT/'belle-word-art-silent.mp4'
 enc=subprocess.Popen(['ffmpeg','-y','-v','error','-f','rawvideo','-pix_fmt','rgb24','-s','1920x1080','-r','24','-i','-','-an','-c:v','libx264','-preset','fast','-crf','18','-pix_fmt','yuv420p',str(silent)],stdin=subprocess.PIPE)
+cache={};decoded=-1
 for f in range(frames):
- data=dec.stdout.read(W*H*3);assert len(data)==W*H*3
- picture=Image.frombytes('RGB',(W,H),data).convert('RGBA')
+ position=min(source_end-offset,f*source_rate);lo=int(math.floor(position));hi=min(source_end-offset,lo+1)
+ while decoded<hi:
+  data=dec.stdout.read(W*H*3);assert len(data)==W*H*3
+  decoded+=1;cache[decoded]=Image.frombytes('RGB',(W,H),data)
+ picture=Image.blend(cache[lo],cache[hi],position-lo).convert('RGBA')
+ for old in list(cache):
+  if old<lo:del cache[old]
  for i,e in enumerate(events):
   age=(f-e['startFrame'])/FPS;life=.88
   if not 0<=age<life:continue

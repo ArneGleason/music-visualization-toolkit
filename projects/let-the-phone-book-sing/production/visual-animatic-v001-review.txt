@@ -1,0 +1,16 @@
+VISUAL ANIMATIC V001 — REVIEW DRAFT
+
+Source of truth: shots/shotlist.json. Initial plan seeded through tools/shotplan.py --merge using shots/visual-animatic-v001.batch.json. Edit authored shot fields in shotlist; merging preserves creative fields. Render with ./.venv/bin/python3 projects/let-the-phone-book-sing/production/build_visual_animatic.py.
+
+Accepted timeline.json and original timing animatic remain unchanged. 24 fps; full master including instrumental tail; 4340 frames with only the fractional final audio frame padded. Lyric highlights use exact approved start/end frames, checked against the original review layout. Large bottom text is separate from the image, keeping feet and props visible. No waveform, beat counter, machine flags or other original timing diagnostics.
+
+Opening: narrator on stoop, book in lap; wider setting then closer book/face composition. New still awaits review.
+First four listings: full situation followed by an editorial crop to test payoff emphasis. These are crops of existing images, not new action states. April needs pre-subtraction bouquet frame; Liberty needs closed-gate setup; Belle needs separate rubbish reveal if it does not read in wide.
+Choruses: return to narrator, alternating wider town context and closer address. Existing Church performance image reused; later choruses explicitly marked placement proxies. Later performance locations and physical movement need design after flow review.
+Penny: wide child escape/reset then closer Penny. Final motion must include theft and bellow before reset, no smile.
+Rich: terrace wide then shoe/ball/cup crop. Motion must establish short missed putt before shoe nudge.
+Unfinished listings: marked neighborhood proxies, not invented approved skits. Patience uses cover as composition proxy. Consecutive Park–Orchard placeholders deliberately expose the current lack of distinct situations/palettes; fix once skits are chosen.
+Final chorus: shift from narrator to city on Whole city inside, then closer direct address and book return. Instrumental tail revisits neighborhoods at musical bar boundaries before returning to book. Final closing-book/departure action remains a proposal.
+
+Watch for: whether five-to-six-second listings permit each gag; whether narrator returns feel like a growing performance rather than interruptions; whether crops clarify key actions; whether color shifts support geography; whether the long instrumental tail needs a stronger closing event.
+No Kling credits spent. Animatic and new opening are drafts, excluded from approved-only GitHub media releases until reviewed.

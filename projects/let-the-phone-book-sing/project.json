@@ -10,7 +10,8 @@
     "backing": "generated/transcription/backing-active-master-clock.wav",
     "lyricTimingDraft": "generated/lyric-timing-v001.json",
     "timingAnimatic": "generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.mp4",
-    "effectcraftProject": "generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.ecproj"
+    "effectcraftProject": "generated/effectcraft-edit-v006/Let-the-Phone-Book-Sing-editable-v006.ecproj",
+    "effectcraftTimingProject": "generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.ecproj"
   },
   "timeline": "timeline.json",
   "timing": {
@@ -26,18 +27,18 @@
     "height": 1080
   },
   "production": {
-    "stage": "approved-song-cover-video-development",
+    "stage": "native-animatic-through-may-approved",
     "intake": "intake.json",
     "previousWorkflow": "../together-anyways/project.json",
     "style": "Elongated illustrated character/world proportions; painted graphic novel, controlled ink contours, fine crosshatching and tactile materials",
     "characterStatus": "First reference sheet for review; not a locked turnaround",
     "timingStatus": "Exact continuous 795-point DAW curve imported; zeroBeat 7 verified against master. No timing repair applied.",
-    "lyricsStatus": "38 lines, 203 displayed tokens and 306 spoken-word candidates; author numerals retained; listening approval pending.",
-    "renderer": "Plan a native EffectCraft lyric-timing animatic following Together Anyways, then review before storyboarding and generated motion",
+    "lyricsStatus": "User-approved timing; preserve current grid and lyric edges.",
+    "renderer": "EffectCraft native compositing, motion graphics, editable edit and video export",
     "renderDefaultsStatus": "24 fps / 1920x1080 inherited as provisional production defaults; final cover dimensions undecided",
     "shotPolicy": "Once authored, shots/shotlist.json is the edit authority. Re-plan with tools/shotplan.py --merge; derive frame counts from the timing grid.",
-    "nextWork": "Continue video design from the approved song-cover look on MacBook. Plan address vignettes and narrator appearances; timing-listening review remains pending.",
-    "sceneStatus": "Song-cover picture and video visual direction approved. No approved shot plan or motion footage yet.",
+    "nextWork": "Resume from CONTINUE-HERE.md night checkpoint: May Bloom start frame and motion direction, then new Hedra chorus plate.",
+    "sceneStatus": "Opening through April has footage; May still placeholder; v006 narrator key/hair cleanup approved.",
     "preview": {
       "fps": 24,
       "width": 1280,
@@ -47,7 +48,7 @@
     },
     "visualBrief": "visual-development/cover-and-video-brief.txt",
     "coverDevelopment": {
-      "listing": "Wait, Patience — 1 Pleasant Avenue, upstairs — 109-1009",
+      "listing": "Wait, Patience \u2014 1 Pleasant Avenue, upstairs \u2014 109-1009",
       "selectionStatus": "user_developing_patience_wait",
       "residentSituation": "Impatient woman, always late, rushing to get ready for work",
       "generationStatus": "user_approved_song_cover",
@@ -75,7 +76,8 @@
       ],
       "syncPolicy": "Use tools/timeline.py compile/validate against restored beatmap. Do not run sync without separately restoring the omitted DAWproject.",
       "nativeProject": "generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.ecproj"
-    }
+    },
+    "effectcraftWorkflow": "production/effectcraft-workflow.txt"
   },
   "visualReferences": [
     {
@@ -93,7 +95,7 @@
       "prompt": "character-development/patience-wait-reference-v001.prompt.txt",
       "notes": "character-development/patience-wait-reference-v001.notes.txt",
       "status": "first_pass_for_review",
-      "role": "Patience Wait — exaggerated tall/angular always-late resident; two body poses and three expressions",
+      "role": "Patience Wait \u2014 exaggerated tall/angular always-late resident; two body poses and three expressions",
       "currentUse": true
     },
     {
