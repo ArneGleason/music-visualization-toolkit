@@ -1,0 +1,40 @@
+{
+  "status": "user_approved_working_version",
+  "approved": true,
+  "sourceImage": "generated/scene-development/liberty-bell-situation-v001.png",
+  "shotIds": [
+    "PB-005",
+    "PB-006"
+  ],
+  "startFrame": 437,
+  "endFrameExclusive": 571,
+  "frames": 134,
+  "fps": 24,
+  "sourceOffsetFrames": 32,
+  "requestedGenerationSeconds": 8,
+  "resolution": "1080p",
+  "model": "Kling 4.0",
+  "prompt": "Animate the supplied first frame as ONE continuous eight-second shot at natural real-time speed. Preserve this exact illustrated courtyard, Liberty's mature face, chin cleft, asymmetric brows, braids, cowboy hat, brick-red logo shirt, olive utility skirt, mustard socks and brown shoes. Exactly THREE rabbits: chestnut, white with gray ears, and small charcoal gray.\nACTING MOTIVATION: Liberty loves her tiny urban ranch and treats feeding three rabbits as an important cattle drive. She is warm, opinionated and physically relaxed, never stiff or frozen. Her emotional journey is confident ranch boss, amused impatience with the reluctant gray rabbit, then delight and absurd pride at her success. Make the thought changes visible through her eyes, brows, head tilts, shoulders, weight shifts and hands, not just a fixed smile.\n0\u20131 seconds: movement begins immediately. She shifts comfortably onto one hip while the brown and white rabbits finish their short hops toward the leafy food tray at screen right. Camera already gliding. 1\u20132.4 seconds: she notices the gray rabbit lingering at her shoe, tilts her head, lifts one brow and leans slightly toward it with affectionate disbelief. 2.4\u20133.7 seconds: she lets out a small silent amused sigh, rolls one shoulder and gives a broad inviting open-handed sweep toward the food, coaxing rather than ordering. Her other hand rests naturally on the open gate. 3.7\u20135.2 seconds: gray rabbit responds with two or three clear hops to the food. She follows it with her eyes, her skeptical look softening into a crooked pleased grin. 5.2\u20136.5 seconds: she straightens with an easy little triumphant shoulder lift, returns the gesturing hand to her hip and gives one satisfied nod, comically proud of this tiny achievement. 6.5\u20138 seconds: continue natural breathing, relaxed weight shift and attentive affectionate looks toward her three nibbling rabbits; do not freeze or end the scene.\nCAMERA: a gentle continuous shallow sideways dolly arc around Liberty, only about 10\u201315 degrees over the shot, with a slight approach. Reframe gradually from her initial left position toward near center while keeping all three rabbits and the feeding tray in the lower-right composition. Reveal the existing house-number plaque 76 more clearly beside the doorway, keep it legible and unobstructed. True spatial parallax: near gate and pots shift more than the distant courtyard and roof. Keep her face visible in three-quarter view, never orbit behind her. No sudden pan, cuts, fast zoom or flat-image enlargement. The camera and life continue through both edit handles.\nThe musical edit is 134 frames at24fps, using source frames24\u2013157 inclusive (1.000\u20136.5833 seconds). Retain at least one full second of moving lead-in and one full second of natural continuation afterward. Complete the rabbit joining and pleased reaction inside the edit window. Keep architecture, gate, telephone and props stable; cream wall phone stays on its cradle. Exactly three consistent rabbits with grounded hops and distinct bodies. No extra animals, merging, disappearing, extra limbs, new people, dialogue, music or text overlays. Preserve mature graphic-novel ink, painted detail and warm light.\nPROMPT LOCK: Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "chargedCredits": 120,
+  "review": "Correct reference and three rabbits preserved. Broader lean/coax and pleased smile. Modest sideways camera movement, remains left of center. Edit slipped eight frames later than planned to include upright smile, retaining over one second each end. User review pending.",
+  "attempt": 3,
+  "totalLibertyCredits": 330,
+  "referenceVerifiedBeforeSubmission": true,
+  "plannedHeadFrames": 24,
+  "minimumTailFrames": 24,
+  "video": {
+    "width": 1916,
+    "height": 1080,
+    "r_frame_rate": "24/1",
+    "nb_frames": "193"
+  },
+  "download": "generated/kling-tests/liberty-bell-v003/liberty-original-1080p.mp4",
+  "sha256": "ab7fb9330dd160b23c59822191b25710e1e9c6232631048d0f18582f3a62b5ff",
+  "actualHeadFrames": 32,
+  "actualTailFrames": 27,
+  "watermarkVisible": false,
+  "resultUrl": "https://kling.ai/app/creations/grid?project=927884373590937657&ac=1&slotId=948599831286267978&materialId=326163823520841",
+  "approvalNote": "User likes subtle camera movement: enough visual movement without distraction.",
+  "approvalDate": "2026-11-08"
+}

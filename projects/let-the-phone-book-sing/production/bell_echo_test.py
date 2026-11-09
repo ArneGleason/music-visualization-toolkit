@@ -1,5 +1,5 @@
 """Three measured Bell echoes, receding hops across the clear upper-right wall."""
-import hashlib,json,math,subprocess
+import argparse,hashlib,json,math,subprocess
 from pathlib import Path
 import numpy as np
 from PIL import Image
@@ -9,11 +9,16 @@ from sing_echo_test import lettering,echo_envelopes
 from build_fullframe_animatic import overlay_lyrics
 
 BASE=Path(__file__).resolve().parents[1]
-OUT=BASE/'generated/motion-graphics/belle-echo-v002'
+parser=argparse.ArgumentParser()
+parser.add_argument('--version',default='v002')
+parser.add_argument('--source-offset',type=int,default=12)
+args=parser.parse_args()
+OUT=BASE/f'generated/motion-graphics/belle-echo-{args.version}'
 OUT.mkdir(parents=True,exist_ok=True)
 FPS=24;W=1920;H=1080
 score=json.loads((BASE/'shots/shotlist.json').read_text())
 insert=next(x for x in score['reviewVideoInserts'] if x['id']=='belle-continuous')
+insert={**insert,'source':'generated/kling-tests/belle-bell-v001/belle-original-1080p.mp4','sourceOffsetFrames':args.source_offset}
 start=insert['startFrame'];end=insert['endFrameExclusive'];frames=end-start
 before=hashlib.sha256((BASE/'timeline.json').read_bytes()).hexdigest()
 lines=json.loads((BASE/'timeline.json').read_text())['tracks'][0]['items']

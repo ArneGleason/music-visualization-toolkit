@@ -1,0 +1,21 @@
+{
+  "status": "user_approved_working_version",
+  "changes": [
+    "Belle picture begins four frames later, source16; BELLE echoes remain on original audio frames.",
+    "Liberty v003: motivated acting and modest shallow camera move; source32..165 inclusive."
+  ],
+  "libertyHandles": {
+    "headFrames": 32,
+    "tailFrames": 27,
+    "headSeconds": 1.3333333333333333,
+    "tailSeconds": 1.125
+  },
+  "costCredits": 120,
+  "limitations": [
+    "Liberty remains left of center; camera motion less pronounced than requested.",
+    "Belle retains shorter legacy handles."
+  ],
+  "timing": "Master cut positions and approved lyric timing unchanged.",
+  "approved": true,
+  "approvalDate": "2026-11-08"
+}

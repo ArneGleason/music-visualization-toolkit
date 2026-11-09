@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003",
+    "projects/let-the-phone-book-sing/generated/visual-animatic-v008"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/frame-4.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/frame-5.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/frame-7.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/frame-6.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/motion-sheet.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/frame-2.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/frame-3.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/frame-1.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/frame-0.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/submission.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/kling-result.png",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/opening-and-bell-echo-clean.mp4",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/echo-analysis-vocal.wav",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/opening-and-bell-echo-review.mp4",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/frame-012.jpg",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/frame-028.jpg",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/frame-036.jpg",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/frame-020.jpg",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/frame-044.jpg",
+    "projects/let-the-phone-book-sing/generated/visual-animatic-v008/stills.ffconcat",
+    "projects/let-the-phone-book-sing/generated/visual-animatic-v008/layout-frame-410.jpg",
+    "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames",
+    "projects/let-the-phone-book-sing/generated/visual-animatic-v008/Let-the-Phone-Book-Sing-fullframe-clean-v008.mp4",
+    "projects/let-the-phone-book-sing/generated/visual-animatic-v008/lyrics.ass",
+    "projects/let-the-phone-book-sing/generated/visual-animatic-v008/validation.json",
+    "projects/let-the-phone-book-sing/generated/visual-animatic-v008/layout-frame-82.jpg",
+    "projects/let-the-phone-book-sing/generated/visual-animatic-v008/layout-frame-330.jpg",
+    "projects/let-the-phone-book-sing/generated/visual-animatic-v008/Let-the-Phone-Book-Sing-fullframe-lyrics-v008.mp4"
+  ],
+  "scope": "Approved Liberty v003 subtle camera and expressive performance, Belle four-frame slip with unchanged BELLE echoes, opening sequence and shotlist snapshot.",
+  "tag": "let-the-phone-book-sing-approved-20261108-v016",
+  "archive": "let-the-phone-book-sing-approved-20261108-v016.zip",
+  "sha256": "1baf2ea65bc53fe254adb33fe19c715db62d0557a0d7ba5852d30ca07bcb67d0",
+  "bytes": 259208989,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/liberty-edit-1080p.mp4",
+      "bytes": 10253364,
+      "sha256": "66a1aeabedbef9faa4ea1f120216d3d91ef4d0552e5e82546c5e09a465490581"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/liberty-original-1080p.mp4",
+      "bytes": 43675260,
+      "sha256": "ab7fb9330dd160b23c59822191b25710e1e9c6232631048d0f18582f3a62b5ff"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/prompt.txt",
+      "bytes": 3450,
+      "sha256": "d949eedbfef1e1ba80e76e02e5a36e9457bb039dacbac707fd3b41ce32bba71b"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/analysis.json",
+      "bytes": 3009,
+      "sha256": "bc8666bb0ef71f14c4756b25913553bd927cf45b66dc4b80f122fcdca6ab3e3e"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/bell-lettering-1.png",
+      "bytes": 47508,
+      "sha256": "0b58945bc7d85d5bc4c82deb2feee4abe2abf361712db4eb9ba6a8de31898758"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/bell-lettering-2.png",
+      "bytes": 46288,
+      "sha256": "e0cffbcb59605768b89ef1e53ebf6e61eb56cc6a1bfe244dce590abefe059610"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/bell-lettering-3.png",
+      "bytes": 46879,
+      "sha256": "97ca8f5b0f68e3c6d810ebdf339ba2ad00cc93ba8718ac6c9284821e80ae9bea"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/belle-bell-echo-1080p.mp4",
+      "bytes": 4526098,
+      "sha256": "b0f2a69ed51d8de86f1d2e22f04bc973bd468d0b9b2f536bef1a6b3ffde73bdb"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v003/belle-word-art-silent.mp4",
+      "bytes": 4282632,
+      "sha256": "4c2636d4bccc6b7c184399050a6d078f8ad33e0db72bc2fef6695f9f8f998a5f"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-001.png",
+      "bytes": 4017251,
+      "sha256": "b06f8f2b95bcaed692c993390fef1ecad13dd125ccad68a9245c129aa875073b"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-002.png",
+      "bytes": 3456865,
+      "sha256": "1cfc06e1aeedd65d69653f6b7a5c16a754945d7621aea7b9eae3db49a3f9d619"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-003.png",
+      "bytes": 4069963,
+      "sha256": "7ba019cbf7a137139cddf48464acafa905a31b856788801ce0dddc614180ef93"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-004.png",
+      "bytes": 3664535,
+      "sha256": "aef86c4c94807f2e58094b400c609b2a6ed33cf8354757f5c68b1f7ad699785b"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-005.png",
+      "bytes": 4203828,
+      "sha256": "c6fda8080c6a23e34cfa16aae41523c874d401c1ddfaff044319ed809b193418"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-006.png",
+      "bytes": 3908043,
+      "sha256": "978029bba4de4e478e82d45136a1dcb31ca9632d0b50436fe00c873b4a2cee68"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-007.png",
+      "bytes": 4097085,
+      "sha256": "0c67ad1fcb2d8ffe79675284154abb90e814788d23adb9b9765d555d113558c8"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-008.png",
+      "bytes": 3432919,
+      "sha256": "c583e8058c6cb3b110231d39e21073b0c272ec96a5eeb3801eca82391677f7d6"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-009.png",
+      "bytes": 3121301,
+      "sha256": "593818e97d5be0098a48b26b2747df43b6f247066e7e4e4ecff6479c6619c9bb"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-010.png",
+      "bytes": 2797188,
+      "sha256": "76a7fd8ba7b257ce5c3ffac0ea137851b8b6a5f335c3a379a3051db04af01342"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-011.png",
+      "bytes": 4145619,
+      "sha256": "512991a8f8df51627f033cbf9fee6219b3bc2b6d32a23977f992f8629c61b5a0"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-012.png",
+      "bytes": 3560093,
+      "sha256": "845472bc3d0f8f6ad7fa206a51c6191fb262eef439541b9def86789851fb7b35"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-013.png",
+      "bytes": 3548795,
+      "sha256": "d731baa8847093acd8afc682be6f4945eefa99ee62c6f1cfd05c33ec864ca7a2"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-014.png",
+      "bytes": 3430832,
+      "sha256": "82b1ddd454f15a9d6e1fff5cb6e38ae30dea47ca73739f277f7dfa012f0786ae"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-015.png",
+      "bytes": 3627579,
+      "sha256": "9defac88e7995a2541692b672b8284830c237b8ff4ba2d54b097fa4ea442267f"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-016.png",
+      "bytes": 2694998,
+      "sha256": "048ba618e864ff824b655065485cb0f7174a458297d2c7db665bc123c178f4ab"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-017.png",
+      "bytes": 3308594,
+      "sha256": "de35ba715d4a6a81186dc668b00a5477c375573af85ebc36feb262342b1d3a93"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-018.png",
+      "bytes": 3650344,
+      "sha256": "35d4fc2d7fad67132c616a86922adb511a27bda4c540508c4046302c182e1bc9"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-019.png",
+      "bytes": 4140580,
+      "sha256": "8d6caeb8c5a6c562f7ce520326f1abd62e7c99cd60eb0ce11e1d22a40573c8dc"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-020.png",
+      "bytes": 3560093,
+      "sha256": "845472bc3d0f8f6ad7fa206a51c6191fb262eef439541b9def86789851fb7b35"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-021.png",
+      "bytes": 3822384,
+      "sha256": "dbffb08a9119a1ab15cf6ffc45e417ed2e9703152e0dcaaa89b6e4c3920fbb98"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-022.png",
+      "bytes": 3398505,
+      "sha256": "55772091df52432d26488a9d73aea4b362385d0b1d4f1ef8bbd5e3b13e725ffb"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-023.png",
+      "bytes": 3338395,
+      "sha256": "ac279dfac9c7f2567a54d1b277b59b26cbd1a1bc917dae15c72da665d1d3d1ee"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-024.png",
+      "bytes": 3308799,
+      "sha256": "67ea7543a4f447103d00beb97294d8b4e04fd7ebbb625fdbfff9a0232b9d3ec3"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-025.png",
+      "bytes": 4140663,
+      "sha256": "1f5ee0ba29138020538b0d1faaf9de65edc3e5272adf7a4a1e8083613435cf64"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-026.png",
+      "bytes": 3560093,
+      "sha256": "845472bc3d0f8f6ad7fa206a51c6191fb262eef439541b9def86789851fb7b35"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-027.png",
+      "bytes": 3778971,
+      "sha256": "e259df7f28b1b69b1068cdf2321839ebe753bb14b6bb0b1395c4fed3f3ff4179"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-028.png",
+      "bytes": 3790500,
+      "sha256": "31f7e34802eb01a5751bac80b7fd4fc69615b7c44e91a5b61bf922bc169e056f"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-029.png",
+      "bytes": 2947694,
+      "sha256": "1c10920a12dd3ac4eda2569fb47752a20bae3d7dc274ddf9bff43e56d175ced8"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-030.png",
+      "bytes": 2762266,
+      "sha256": "7998bc3e501f6cb192bb14f2a125151777bc7aaaf927fa7c1653f3a93964ff6f"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-031.png",
+      "bytes": 4140496,
+      "sha256": "d82979d112fc9b1826dac7071cdffda0956b9033102f530f88a8d4dc36b87777"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-032.png",
+      "bytes": 3560093,
+      "sha256": "845472bc3d0f8f6ad7fa206a51c6191fb262eef439541b9def86789851fb7b35"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-033.png",
+      "bytes": 3310176,
+      "sha256": "01d0b82ca0a1d12b83aa4edd197cd2a4901efe5b88cc1ccc17461ab97ea557fb"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-034.png",
+      "bytes": 3560093,
+      "sha256": "845472bc3d0f8f6ad7fa206a51c6191fb262eef439541b9def86789851fb7b35"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-035.png",
+      "bytes": 3560093,
+      "sha256": "845472bc3d0f8f6ad7fa206a51c6191fb262eef439541b9def86789851fb7b35"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-036.png",
+      "bytes": 3456865,
+      "sha256": "1cfc06e1aeedd65d69653f6b7a5c16a754945d7621aea7b9eae3db49a3f9d619"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-037.png",
+      "bytes": 3779497,
+      "sha256": "670f2d0a39d4ad460d681fa897cdbd43b064944abd6deb52c6d923d109db35dc"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-038.png",
+      "bytes": 3737444,
+      "sha256": "c37bd8b3bc4ff0f64afb7e92754568a5465b143c39ab1c602f5ebb0960bef57a"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-039.png",
+      "bytes": 3309264,
+      "sha256": "94a579828a184ee70ae7def1f575614cc559c2d0584757ecf113f7bfd950f555"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/frames/PB-040.png",
+      "bytes": 4017766,
+      "sha256": "a6e2836a1cadbfae089cc14e1f23b097b7697bb0e697b58060b519839b4239e3"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/opening-sequence-clean.mp4",
+      "bytes": 26639717,
+      "sha256": "e2c9a4c57ed3b13cd183df997f14ad940424f078833470be0fd139753a9a62d4"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/opening-sequence-review.mp4",
+      "bytes": 25906445,
+      "sha256": "7526905e05a8795ea7786f9f4fdb0f321058d036f7ea91cc8445013255f1d879"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/visual-animatic-v008/shotlist-snapshot.json",
+      "bytes": 46126,
+      "sha256": "94a50e66122b2e0238f3a29ac0aec929cd04f26fac5baa916099a8826b7e3679"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v016/let-the-phone-book-sing-approved-20261108-v016.zip"
+}
