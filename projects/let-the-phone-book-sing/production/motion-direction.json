@@ -3,9 +3,10 @@
   "minimumGenerationLeadFrames": 24,
   "minimumGenerationTailFrames": 24,
   "durationRule": "Round up (edit frames + 48) / 24 to available generation duration; preserve full original.",
-  "handles": "Motion continues through head and tail; no frozen opening or closing pose.",
+  "handles": "Request at least one second of moving lead and tail when generating. These are optional editing room, not protected reserves: freely consume them by slipping source footage to favor action and payoff. Preserve musical cut points and lyric timing; do not move timeline cuts merely to retain handles.",
   "performanceDirection": "Specify motivation, emotional change and visible acting beats for each featured character; avoid fixed expressions and mechanical gesture lists.",
   "cameraDirection": "Choose motivated camera movement for quieter action; preserve spatial parallax and readable geography. Busy action may use a fixed camera.",
   "referencePreflight": "Verify completed upload, correct filename and visible starting-frame thumbnail before Generate.",
-  "legacyException": "Belle original has 169 frames; current 141-frame edit starts at source16, leaving head16 and tail12. Retained approved performance without regeneration."
+  "legacyException": "Belle original has 169 frames; current 141-frame edit starts at source16, leaving head16 and tail12. Retained approved performance without regeneration.",
+  "editPriority": "Fixed musical placement and duration first; choose source in/out for best performance. Retained head/tail may be less than one second or zero."
 }

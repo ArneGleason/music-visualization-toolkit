@@ -1,0 +1,39 @@
+{
+  "status": "user_approved",
+  "approved": true,
+  "shotIds": [
+    "PB-007",
+    "PB-008"
+  ],
+  "startFrame": 571,
+  "endFrameExclusive": 695,
+  "frames": 124,
+  "fps": 24,
+  "sourceOffsetFrames": 45,
+  "requestedGenerationSeconds": 8,
+  "resolution": "1080p",
+  "model": "Kling 4.0",
+  "chargedCredits": 120,
+  "sourceImage": "generated/scene-development/april-bloom-start-v001.png",
+  "endImage": "generated/scene-development/april-bloom-situation-v001.png",
+  "prompt": "One continuous eight-second shot at natural real-time speed, beginning with the supplied FIRST frame and finishing with the supplied LAST frame. These show the same April Bloom, florist, room, vase and flowers before and after her artistic decision. Preserve exact identity, petite adult proportions, freckles, copper hair, ivory blouse, teal apron with burgundy pocket, rose skirt and shoes. Match mature graphic-novel ink-and-paint throughout.\nMOTIVATION: April is a fiercely selective artist who thinks the lush bouquet is terribly overdone. She studies it with pursed lips and a skeptical head tilt, has a decisive 'less is more' realization, and strips away the excess with confident practical movements. Her final crooked satisfied smile says she has created a masterpiece. Warm comic conviction, not anger, sadness or frantic destruction.\n0\u20131s moving lead-in: she critically looks between different parts of the full bouquet, tilts her head, lightly touches outer stems; no frozen pose. 1\u20132s: she makes a small decisive nod, steadies the vase at its base with her left hand, and gathers most of the outer flowers with her right hand. 2\u20134.5s: in TWO clear purposeful handfuls she lifts the outer flower stems UP OUT OF the vase, carries them across to SCREEN RIGHT and lays them onto the empty kraft paper. Show hand contact, stems moving with her hand, and the growing pile on the paper. The flowers physically travel from vase to paper; they must not fade, dissolve, shrink, teleport or change into other objects. Keep the one existing crooked coral-pink flower in the vase throughout; it is revealed as the surrounding flowers are removed. Keep the same small cream vase on its original spot. 4.5\u20135.8s: the final arrangement now has exactly ONE crooked stem and ONE coral-pink flower. She releases the last handful onto the paper, looks at the remaining single flower, leans back slightly and breaks into her characteristic off-center pleased smile. Lift her free right hand in a small elegant 'perfect' flourish, matching the final reference. 5.8\u20138s: remain in this achieved payoff situation, with subtle breathing, a tiny appreciative head tilt and relaxed fingers. Reach the payoff EARLY, before6seconds, and continue living movement through the tail toward the supplied final pose. Do not delay the single-flower reveal until the last frame.\nCamera remains steady in the matching supplied framing, no cuts, zoom, push, orbit or reframing. Keep architecture, table, vase and telephone stable. Exactly one person. Telephone untouched on cradle. Number4 plaque unchanged. All removed blooms remain visibly on the kraft paper, preserved for reuse. No new props, subtitles, dialogue or music. Coherent hands and stems, no extra limbs. No slideshow or crossfade between the references.\nThe musical edit is124frames at24fps (5.1667seconds), intended sourceframes24\u2013147 inclusive (1.000\u20136.1667seconds). Keep one full second of natural moving lead-in and at least one full second of continuation after the main action, allowing an adjustable edit window without retiming the song.\nPROMPT LOCK: Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "referenceVerifiedBeforeSubmission": true,
+  "minimumHeadFrames": 24,
+  "minimumTailFrames": 24,
+  "timelineSha256": "b6e0c03a6fe50dd8a924d918fe3229566dbbd7a7f9f27937f6141d2a43c2b0bc",
+  "resultUrl": "https://kling.ai/app/creations/grid?project=927884373590937657&ac=1&slotId=948605103333441611&materialId=326165080308709",
+  "download": "generated/kling-tests/april-bloom-v001/april-original-1080p.mp4",
+  "video": {
+    "width": 1916,
+    "height": 1080,
+    "r_frame_rate": "24/1",
+    "nb_frames": "193"
+  },
+  "sha256": "1c86196fdbab9e1afc052cca523365c859a86cb9b581caa34dea096b79350f99",
+  "actualHeadFrames": 45,
+  "actualTailFrames": 24,
+  "watermarkVisible": false,
+  "review": "Physical lift and carry to paper succeeds, one large handful rather than two. Crooked flower revealed around4.5s; pleased expression near7s, final flourish later. Edit starts1.875s to include beginning of pleased reaction while preserving one-second tail; full final flourish remains in source tail. User review pending.",
+  "approvalNote": "User accepts current take as-is, including slight continuity quirk where the remaining flower appears among discarded blooms. No regeneration or masking requested."
+}
