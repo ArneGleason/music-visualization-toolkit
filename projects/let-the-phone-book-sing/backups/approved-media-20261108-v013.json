@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/kling-tests/opening-background-v002",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/kling-opening-v002"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/kling-tests/opening-background-v002/motion-sheet.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/opening-background-v002/kling-result.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/opening-background-v002/review-frame.jpg"
+  ],
+  "scope": "Approved watermark-free 1080p animated opening background with fuller actions and complete pedestrian exit, plus narrator composite.",
+  "tag": "let-the-phone-book-sing-approved-20261108-v013",
+  "archive": "let-the-phone-book-sing-approved-20261108-v013.zip",
+  "sha256": "e9f5bc2c695443c3934ba244851cc322604f4cf8df6325e1b713fe7caa35f991",
+  "bytes": 39831295,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/kling-opening-v002/chorus-test-composite.mp4",
+      "bytes": 1972580,
+      "sha256": "98a15cf5068e03aa43d334480e13c0df7c2096b346a94b06ad4444eb31e72ec1"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/kling-opening-v002/opening-book-continuous-composite.mp4",
+      "bytes": 6272087,
+      "sha256": "1d0fd872fd5789f8c3e2a83e80ef927f1a0bd50bee0bbbadc5b648f4f37c36e4"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/kling-opening-v002/opening-composite-review.mp4",
+      "bytes": 6053485,
+      "sha256": "a9ac2de77ef9fefb15984c9db8f7ee167b717b9b55cdc1e442fa5825c27fd8df"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/kling-opening-v002/review-frame.jpg",
+      "bytes": 123212,
+      "sha256": "f4a6f98db01924e81b22d01e9426b0a9154419b5c86cb5fa0e003ba717fe659e"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/opening-background-v002/prompt.txt",
+      "bytes": 2481,
+      "sha256": "31138e88214130b09a8138dc7ba8fa1b17a3eebabbccd5751700b03f32d58edc"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/opening-background-v002/street-original-1080p.mp4",
+      "bytes": 25411313,
+      "sha256": "216d687e8a4f449b10808994ca5e805d036f8b2746d052ef43ca72a63c1a20c4"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v013/let-the-phone-book-sing-approved-20261108-v013.zip"
+}
