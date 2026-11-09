@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/kling-tests/belle-bell-v001",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/kling-tests/belle-bell-v001/motion-sheet.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/belle-bell-v001/kling-result.png",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/opening-and-bell-echo-clean.mp4",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/echo-analysis-vocal.wav",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/frame-012.jpg",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/frame-028.jpg",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/frame-036.jpg",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/frame-020.jpg",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/frame-044.jpg"
+  ],
+  "scope": "Accepted continuous Belle shot and BELLE echo lettering working direction. Native 1080p original, composited clip, context review, prompts and lettering.",
+  "tag": "let-the-phone-book-sing-approved-20261108-v015",
+  "archive": "let-the-phone-book-sing-approved-20261108-v015.zip",
+  "sha256": "b27e469db8c558a1abca2b24599a92b1dcd99e030fe29026afb8fd11d37512b5",
+  "bytes": 41537621,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/belle-bell-v001/belle-original-1080p.mp4",
+      "bytes": 13888671,
+      "sha256": "fd1cdf028f99cc239e774fd87c1407838120830964b2ee764d653d18efc160eb"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/belle-bell-v001/prompt.txt",
+      "bytes": 2211,
+      "sha256": "e47c14a57ca550d1f19df4af8ce8b317beb7f62f64478fe4dae0499b87eb6449"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/analysis.json",
+      "bytes": 3009,
+      "sha256": "b9d9765c93513e9d6ce91af40039e61cd608128c7641ed86e212eabb396d4cf2"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/bell-lettering-1.png",
+      "bytes": 47508,
+      "sha256": "0b58945bc7d85d5bc4c82deb2feee4abe2abf361712db4eb9ba6a8de31898758"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/bell-lettering-2.png",
+      "bytes": 46288,
+      "sha256": "e0cffbcb59605768b89ef1e53ebf6e61eb56cc6a1bfe244dce590abefe059610"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/bell-lettering-3.png",
+      "bytes": 46879,
+      "sha256": "97ca8f5b0f68e3c6d810ebdf339ba2ad00cc93ba8718ac6c9284821e80ae9bea"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/belle-bell-echo-1080p.mp4",
+      "bytes": 4584687,
+      "sha256": "9d0fdf84591f917f5126e14c202de9ef1e016fe3d3bf0d590cd280d1cc64940f"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/belle-word-art-silent.mp4",
+      "bytes": 4341221,
+      "sha256": "ad227a54752756fb46a17def0051ac41ec9eb226ccb4ca312fd282018e934586"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v002/opening-and-bell-echo-review.mp4",
+      "bytes": 18580893,
+      "sha256": "94158b81eeea1203c22f8909a752c07e217fa845d5163a774859731d683f2ceb"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v015/let-the-phone-book-sing-approved-20261108-v015.zip"
+}

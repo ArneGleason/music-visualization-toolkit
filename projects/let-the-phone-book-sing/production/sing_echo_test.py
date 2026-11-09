@@ -88,18 +88,19 @@ def ink_matte(alpha, texture):
     return alpha, outer, edge
 
 
-def lettering(color):
+def lettering(color, text='SING'):
     """Individually posed block letters, ink contour and small print hatching."""
-    canvas = Image.new('RGBA', (660, 275))
+    canvas = Image.new('RGBA', (max(660,len(text)*160+20), 275))
     font = ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf', 165)
     pen = 0
-    for i, (letter, angle) in enumerate(zip('SING', [-5, 3, -3, 5])):
+    for i, letter in enumerate(text):
+        angle = [-5, 3, -3, 5][i%4]
         glyph = Image.new('RGBA', (210, 240))
         draw = ImageDraw.Draw(glyph)
         draw.text((18, 14), letter, font=font, fill='#292536', stroke_width=11, stroke_fill='#292536')
         draw.text((12, 5), letter, font=font, fill=color, stroke_width=6, stroke_fill='#292536')
         glyph = glyph.rotate(angle, Image.Resampling.BICUBIC, expand=False)
-        canvas.alpha_composite(glyph, (pen, [12, 0, 8, 1][i]))
+        canvas.alpha_composite(glyph, (pen, [12, 0, 8, 1][i%4]))
         pen += round(font.getlength(letter)) + 7
     box = canvas.getbbox()
     canvas = canvas.crop(box)
@@ -111,7 +112,7 @@ def lettering(color):
     return Image.fromarray(pix)
 
 
-def rubber_warp(word, angle, u):
+def rubber_warp(word, angle, u, strong=False):
     """Area-preserving stretch along the projected path, with elastic shear."""
     depth = 1/(1+.24*math.cos(angle))
     vx = 625*(math.cos(angle)*depth+.24*math.sin(angle)**2*depth**2)
@@ -121,11 +122,15 @@ def rubber_warp(word, angle, u):
     direction /= max(speed,1)
     stretch = 1+.25*min(speed/700,1)-.10*abs(math.sin(angle))
     stretch += .09*math.sin(22*u)*math.exp(-2.8*u)
+    if strong:
+        stretch = 1+.95*min(speed/700,1)-.28*abs(math.sin(angle))
+        stretch += .24*math.sin(15*u)*math.exp(-1.5*u)
+        stretch = max(.65,min(2.15,stretch))
     perpendicular = np.array([-direction[1],direction[0]])
     matrix = stretch*np.outer(direction,direction)+(1/stretch)*np.outer(perpendicular,perpendicular)
-    matrix[0,1] += .075*math.sin(16*u)*math.exp(-1.6*u)
+    matrix[0,1] += (.24 if strong else .075)*math.sin(16*u)*math.exp(-1.6*u)
     inverse = np.linalg.inv(matrix)
-    size = (math.ceil(word.width*1.55),math.ceil(word.height*2.1))
+    size = (math.ceil(word.width*(2.6 if strong else 1.55)),math.ceil(word.height*(3.4 if strong else 2.1)))
     source_center = np.array(word.size)/2
     target_center = np.array(size)/2
     offset = source_center-inverse@target_center
@@ -134,18 +139,54 @@ def rubber_warp(word, angle, u):
     return warped
 
 
-def sprites(frame, events, art, rubber=False):
+def orbital_letters(age, event, index, glyphs):
+    """Separate 3D ellipses and traveling pulse, then constant object scale."""
+    life = 1.35
+    side = 1 if event['stereoEnergyPan'] >= 0 else -1
+    direction = 1 if index%2 else -1
+    envelope = event['amplitudeEnvelope']
+    peak = max(envelope)
+    layers = []
+    for j,glyph in enumerate(glyphs):
+        # Each glyph has its own phase, orbit radius, speed and vertical plane.
+        phi = side*math.pi/2 + direction*math.pi*1.35*(age/life)*(1+.035*j)+(j-1.5)*.17
+        z = -math.cos(phi)
+        perspective = 1/(1-.38*z)
+        radius = 545+20*j
+        x = W*.5 + radius*math.sin(phi)*perspective+(j-1.5)*44
+        y = 585 + 155*z + [-25,12,-10,30][j] + 18*math.sin(phi+j*.4)
+        local_age = age-j*.10
+        # Single legible wave: S peaks first, then I, N, G. After each
+        # pulse the object's scale is fixed; only perspective changes it.
+        pulse = math.exp(-((local_age-.13)/.085)**2) if 0<=local_age<.38 else 0
+        strength = .8+.4*peak
+        base = max(.65,1-index*.035)*perspective
+        sx = base*(1+.72*strength*pulse)
+        sy = base*(1+1.10*strength*pulse)
+        height = 71
+        im = glyph.resize((max(1,round(height*glyph.width/glyph.height*sx)),max(1,round(height*sy))),Image.Resampling.LANCZOS)
+        im = im.rotate(-side*8*math.cos(phi)+5*pulse,Image.Resampling.BICUBIC,expand=True)
+        opacity = min(1,age/.065,(life-age)/.45)
+        im.putalpha(im.getchannel('A').point(lambda a:int(a*opacity)))
+        layers.append((z,im,round(x-im.width/2),round(y-im.height/2)))
+    return layers
+
+
+def sprites(frame, events, art, rubber=False, strong=False, letter_art=None, letter_orbits=False):
     layers = []
     for i, event in enumerate(events):
         age = (frame-event['startFrame'])/FPS
-        life = 1.18
+        life = 1.35 if letter_orbits else (1.65 if strong else 1.18)
         if not 0 <= age < life:
+            continue
+        if letter_orbits:
+            layers.extend(orbital_letters(age,event,i,letter_art[i%len(letter_art)]))
             continue
         u = age/life
         side = 1 if event['stereoEnergyPan'] >= 0 else -1
         # Begin at the measured pan side. Alternating arcs travel in front of
         # or behind the body, then cross its plane at the side of the ellipse.
-        angle = side*math.pi/2 + (1 if i%2 else -1)*math.pi*1.35*u
+        angle = side*math.pi/2 + (1 if i%2 else -1)*math.pi*(.90 if strong else 1.35)*u
         z = -math.cos(angle)
         depth = 1/(1-.24*z)
         decay = max(.58, 1-i*.045)
@@ -154,11 +195,42 @@ def sprites(frame, events, art, rubber=False):
         scale = depth*decay*(.58+.65*amplitude**.65)
         x = W*.50 + 625*math.sin(angle)*depth
         y = 570 + 175*z - 28*math.sin(math.pi*u)
+        if letter_art:
+            glyphs = letter_art[i%len(letter_art)]
+            # Four independent glyphs, not a transformed word-sized rectangle.
+            # The audio envelope propagates across the letters with 100ms lag.
+            widths = [g.width/g.height*78 for g in glyphs]
+            total = sum(widths)+18
+            pen = -total/2
+            base_scale = depth*decay*(.80+.16*amplitude**.65)
+            for j,glyph in enumerate(glyphs):
+                lag = j*.10
+                local_age = age-lag
+                amp = float(np.interp(max(0,local_age)*FPS,np.arange(len(envelope)),envelope)) if local_age>=0 else 0
+                pulse = math.exp(-((local_age-.15)/.115)**2) if local_age>=0 else 0
+                rebound = math.sin(max(0,local_age-.23)*22)*math.exp(-max(0,local_age-.23)*7) if local_age>.23 else 0
+                swell = 1+.48*amp+.55*pulse
+                sx = base_scale*swell*(1-.14*pulse+.06*rebound)
+                sy = base_scale*swell*(1+.24*pulse-.10*rebound)
+                im = glyph.resize((max(1,round(widths[j]*sx)),max(1,round(78*sy))),Image.Resampling.LANCZOS)
+                tilt = -side*9*math.cos(angle)+7*math.sin(local_age*14)*pulse
+                im = im.rotate(tilt,Image.Resampling.BICUBIC,expand=True)
+                offset = (pen+widths[j]/2)*base_scale
+                gx = x+offset
+                gy = y+offset*.12*math.sin(angle)-22*pulse*base_scale
+                # A slight depth spread makes the glyphs cross the narrator
+                # plane individually while retaining the established orbit.
+                gz = z+.035*(j-1.5)*math.sin(angle)
+                fade = min(1,age/.065,(life-age)/.26)*(.30+.70*max(amplitude,amp)**.6)
+                im.putalpha(im.getchannel('A').point(lambda a:int(a*fade)))
+                layers.append((gz,im,round(gx-im.width/2),round(gy-im.height/2)))
+                pen += widths[j]+6
+            continue
         word = art[i%len(art)]
         width = int(305*scale)
         word = word.resize((width, round(width*word.height/word.width)), Image.Resampling.LANCZOS)
         if rubber:
-            word = rubber_warp(word,angle,u)
+            word = rubber_warp(word,angle,u,strong)
         word = word.rotate(-side*9*math.cos(angle), Image.Resampling.BICUBIC, expand=True)
         fade = min(1, age/.065, (life-age)/.26)*(.30+.70*amplitude**.6)
         word.putalpha(word.getchannel('A').point(lambda a: int(a*fade)))
@@ -178,6 +250,9 @@ def main():
     parser.add_argument('--echo-vocal', required=True)
     parser.add_argument('--version', default='v002')
     parser.add_argument('--rubber', action='store_true')
+    parser.add_argument('--rubber-strong', action='store_true')
+    parser.add_argument('--letter-wave', action='store_true')
+    parser.add_argument('--letter-orbits', action='store_true')
     args = parser.parse_args()
     OUT = BASE / f'generated/motion-graphics/sing-echo-{args.version}'
     OUT.mkdir(parents=True, exist_ok=True)
@@ -199,9 +274,16 @@ def main():
         outlinePolicy='Near-black 2–3px outer ink contour at native 1080p, gently varying width, softened subpixel edge and narrow inner edge treatment.',
         motionBlur=False,
         rubberMotion=args.rubber,
+        letterWave=args.letter_wave,
+        independentLetterOrbits=args.letter_orbits,
+        independentOrbitPolicy='Individual phase/radius/speed/height and per-letter perspective/occlusion. S-I-N-G pulses 100ms apart; fixed object scale after pulse, perspective remains active; opacity-only tail fade.' if args.letter_orbits else None,
+        letterPolicy='Independent glyph layers; 100ms staggered audio envelope and elastic swell from S through I, N, G. Original 1.18s curved orbit; no whole-word warp.' if args.letter_wave else None,
+        rubberStrong=args.rubber_strong,
+        travelPolicy='1.65 second lifetime, 0.90 pi arc; about 48 percent of previous angular speed, stretch up to 2.15x.' if args.rubber_strong else 'Original travel',
         rubberPolicy='Projected-velocity directional stretch, reciprocal perpendicular squash, compression through turns and damped elastic rebound/shear.' if args.rubber else None)
     (OUT/'analysis.json').write_text(json.dumps(config,indent=2)+'\n')
     art = [lettering(c) for c in ['#f7dda2','#9dd8cf','#f0b38b']]
+    letter_art = [[lettering(c,ch) for ch in 'SING'] for c in ['#f7dda2','#9dd8cf','#f0b38b']] if args.letter_wave or args.letter_orbits else None
     for i, sprite in enumerate(art): sprite.save(OUT/f'sing-lettering-{i+1}.png')
     fgdec = decode(BASE/insert['source'],frames)
     bgdec = decode(BASE/insert['backgroundVideo'],frames,pad=True)
@@ -217,7 +299,7 @@ def main():
         assert len(fgraw)==len(bgraw)==W*H*3
         fg=np.frombuffer(fgraw,np.uint8).reshape(H,W,3).astype(np.float32)
         back=Image.frombytes('RGB',(W,H),bgraw).convert('RGBA')
-        layers=sprites(frame,events,art,args.rubber)
+        layers=sprites(frame,events,art,args.rubber,args.rubber_strong,letter_art,args.letter_orbits)
         for z,im,x,y in layers:
             if z<0: back.alpha_composite(im,(x,y))
         r,g,b=fg[:,:,0],fg[:,:,1],fg[:,:,2]

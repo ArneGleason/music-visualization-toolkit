@@ -1,0 +1,29 @@
+{
+  "status": "user_approved_working_version",
+  "approved": true,
+  "model": "Kling 4.0",
+  "sourceImage": "generated/scene-development/belle-bell-situation-v001.png",
+  "shotIds": [
+    "PB-003",
+    "PB-004"
+  ],
+  "startFrame": 296,
+  "endFrameExclusive": 437,
+  "frames": 141,
+  "fps": 24,
+  "sourceOffsetFrames": 12,
+  "requestedGenerationSeconds": 7,
+  "resolution": "1080p",
+  "prompt": "Animate the supplied first frame as ONE continuous seven-second shot at natural real-time speed. Belle is a retired cabaret performer making a comically grand occasion of taking out one tiny rubbish bag. Preserve her exact mature face, beauty mark, short round stature, silver-streaked dark hair, plum patterned housecoat, coral collar and slippers. Start in this same room and framing, with the chandelier earring already near her ear.\n0\u20131.8 seconds: she delicately adjusts the earring at her ear, tilts her head toward the oval mirror and gives a very pleased, theatrical little chin lift. The earring remains attached when she lowers her hand; no repeated attaching or extra jewelry. 1.8\u20133.4 seconds: she turns toward the open doorway on SCREEN RIGHT and takes two purposeful little steps toward the single tied charcoal rubbish bag already on the floor beside it. 3.4\u20134.8 seconds: she bends naturally, grasps the bag by its tied top with one hand and lifts it clearly off the floor. 4.8\u20137 seconds: she straightens and walks toward and through the open doorway carrying the little bag, maintaining the proud bearing of someone making a stage entrance. The contrast between her grand self-presentation and mundane errand is the joke. Keep her and the bag readable through 6.4 seconds, continuing the exit at the tail. Do not rush or use slow motion.\nFixed eye-level medium-wide camera, no cuts, no zoom, no pan. Keep the burgundy push-button phone on the vanity untouched, receiver on cradle. Keep the mirror reflection physically consistent with her movements; no extra person. Preserve room geometry, furniture, landing, light and graphic-novel rendering. No narrator, new characters, new props, text overlays, music or dialogue. Only the existing small rubbish bag is picked up.\nThe musical edit is 141 frames at24fps (5.875 seconds), using source frames12\u2013152 inclusive: 0.500\u20136.375 seconds. Keep action moving during those frames and continue naturally afterward.\nPROMPT LOCK: Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "chargedCredits": 105,
+  "resultUrl": "https://kling.ai/app/creations/grid?project=927884373590937657&ac=1&slotId=948588007916568622&materialId=326161004306852",
+  "download": "generated/kling-tests/belle-bell-v001/belle-original-1080p.mp4",
+  "sha256": "fd1cdf028f99cc239e774fd87c1407838120830964b2ee764d653d18efc160eb",
+  "width": 1916,
+  "height": 1080,
+  "sourceFrames": 169,
+  "watermarkVisible": false,
+  "review": "Sampled sequence shows earring admiration, turn, bag pickup and walk toward doorway in one continuous shot; user approval pending.",
+  "approvalDate": "2026-11-08"
+}
