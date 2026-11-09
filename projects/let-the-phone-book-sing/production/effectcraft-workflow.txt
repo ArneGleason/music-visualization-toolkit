@@ -1,0 +1,27 @@
+EffectCraft is the working compositor and motion-graphics editor.
+User explicitly requested this on 2026-11-08. Do not return to baked Python/Pillow/FFmpeg compositing without discussing a concrete limitation first.
+
+Native migration draft:
+generated/effectcraft-edit-v001/Let-the-Phone-Book-Sing-editable-v001.ecproj
+Authoring tool: production/build_effectcraft_edit.py
+The authoring tool sends native commands to EffectCraft. All picture compositing and video rendering are performed by EffectCraft.
+
+shotlist.json remains the edit authority. Accepted lyric timing and musical cut points are unchanged. The source footage, approved lettering PNGs and amplitude measurements are reused. Native transforms, keying, stroke, time remapping, dissolves and lyric text remain editable.
+
+REVIEW contains removable lyrics over MASTER. MASTER contains separate shot layers and native opacity transitions. The opening and Belle have their own editable compositions. Whole-word SING uses paired front/behind layers, never the rejected independent-letter trajectories.
+
+Important: the native key/outline is a new implementation and needs visual review; do not call it pixel-identical or newly approved. The original approved v002 effect render remains available for comparison. The temporary chorus source remains watermarked and lower resolution. No new paid generation was made for migration.
+
+Preserve manual edits: build_effectcraft_edit.py creates the initial v001 draft and will overwrite that draft if rerun. Save a new version in EffectCraft before hand-editing; never rebuild over a hand-edited keeper.
+
+Current keying review: generated/effectcraft-edit-v003/Let-the-Phone-Book-Sing-editable-v003.ecproj. EffectCraft 0.22.0 app and matching renderer. Opening narrator uses native Screen Key with despill, not the v001/v002 Linear Color Key. Tune the native effect directly; do not rerun the initial builder over this project. See production/phone-book-key-v003.json for the recorded controls. v002 was rejected for green hair spill. No custom pixel compositing was used.
+
+Latest and final native-key trial: effectcraft-edit-v004. Screen Subtract edge colors, stronger matte, 0.65px contraction. Await user visual judgment. If rejected, use original custom narrator key/matte as an alpha plate within EffectCraft; keep other compositing/editing/effects native. User explicitly authorized this fallback.
+
+User accepted EffectCraft v004 key as baseline. Current v005 adds an independently toggleable, softly masked hair-only Hue/Saturation adjustment inside a narrator precomp; key/alpha unchanged. v005 color correction awaits review. See production/hair-color-v005.json.
+
+Current hair-color review: v006 strengthens v005 by lowering selected green lightness to -22 and cyan lightness to -15, with both saturation controls at -100. Matte and mask unchanged. See production/hair-color-v006.json.
+
+Reuse a single EffectCraft GUI instance. Two older instances were closed on 2026-11-08; v006 was opened via File > Open in the remaining window. Do not launch the app executable directly per revision. tools/effectcraft.py now uses macOS Launch Services for app bundles; existing-window File > Open is also reliable. Headless render/authoring processes must exit when finished.
+
+User approved v006 hair cleanup for production on 2026-11-08. Reuse native Screen Key plus isolated green/cyan Hue/Saturation cleanup for future narrator/chorus plates. Adapt the soft mask to each new framing; inspect hair, skin and book before approval. Opening-through-May review exports frames 0–827 (34.5s), stopping at the existing chorus insert boundary; no edit timing changes.

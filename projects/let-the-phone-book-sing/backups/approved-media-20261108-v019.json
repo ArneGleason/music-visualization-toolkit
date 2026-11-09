@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v006"
+  ],
+  "exclude": [
+    "*/animatic-through-may-bloom-1080p.mp4"
+  ],
+  "scope": "Approved v006 native narrator matte and hair cleanup, with opening review. Earlier snapshots provide footage/art. New combined animatic excluded pending review.",
+  "tag": "let-the-phone-book-sing-approved-20261108-v019",
+  "archive": "let-the-phone-book-sing-approved-20261108-v019.zip",
+  "sha256": "2154998920269c06cfac7b62c594e966315077f125bdf2252c47c77a0b58bf1a",
+  "bytes": 24867628,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v006/Let-the-Phone-Book-Sing-editable-v006.ecproj",
+      "bytes": 18298720,
+      "sha256": "c2a4bea6e8bd225ed6db47e2054066c18d45fdff83e6192cdc78a53030173275"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v006/opening-hair-review.mp4",
+      "bytes": 23834576,
+      "sha256": "c3e448a2c52232b472e536d9b5f4ae98a38f0509848a0448e93720e28e848117"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261108-v019/let-the-phone-book-sing-approved-20261108-v019.zip"
+}

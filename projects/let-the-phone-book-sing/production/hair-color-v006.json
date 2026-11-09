@@ -1,0 +1,38 @@
+{
+  "status": "user-approved reusable narrator hair cleanup baseline",
+  "baseline": "effectcraft-edit-v004 (user accepted)",
+  "project": "generated/effectcraft-edit-v006/Let-the-Phone-Book-Sing-editable-v006.ecproj",
+  "narratorPrecomp": 17020,
+  "adjustmentLayer": 17048,
+  "mask": {
+    "rect": [
+      -100,
+      -100,
+      2120,
+      620
+    ],
+    "feather": [
+      35,
+      35
+    ]
+  },
+  "effect": "Hue/Saturation",
+  "greensRangeStart": 45,
+  "greensRangeEnd": 165,
+  "greensStartFalloff": 10,
+  "greensEndFalloff": 25,
+  "greensSaturation": -100,
+  "cyansSaturation": -100,
+  "cyansRangeStart": 165,
+  "cyansRangeEnd": 195,
+  "cyansStartFalloff": 15,
+  "cyansEndFalloff": 20,
+  "keyAndMatte": "Unchanged; RGB adjustment isolated in narrator precomp",
+  "verification": "Native 1080p opening render completed and sample frame visually inspected. Same mask and key as v005; stronger color-only cleanup awaits user review.",
+  "greensLightness": -22,
+  "cyansLightness": -15,
+  "approval": {
+    "date": "2026-11-08",
+    "scope": "Native key plus hair color cleanup accepted for production; reuse as starting point for future chorus plates and adjust mask to new framing."
+  }
+}
