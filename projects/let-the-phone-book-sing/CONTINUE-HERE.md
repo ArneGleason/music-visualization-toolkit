@@ -1,5 +1,11 @@
 # Let the Phone Book Sing
 
+## Animatic viewer — added 9 November 2026
+
+Double-click `Review Let the Phone Book Sing.command` at repository root, or run `./.venv/bin/python3 projects/let-the-phone-book-sing/production/open_review.py`. Opens the same shared frame-review UI used for Together Anyways at http://127.0.0.1:8778. Reuses its server on subsequent launches.
+
+Current review is the approved opening through May (34.5s). Select named PB shots, navigate lyric sections, step exact frames, copy frame references, and save notes. Master frame numbering is zero-based, matching this project; preview numbering is one-based. Notes persist in `production/frame-review-notes.json` when first written, separate from Together Anyways. Navigation derives from shotlist.json; paired lyric beats inside continuous takes are markers, not extra cuts. Edit `production/review-config.json` to select the next longer native export, then rerun the launcher. The viewer does not render or alter the edit.
+
 ## Resume here — night checkpoint, 8 November 2026
 
 **What we were doing:** building the opening of Let the Phone Book Sing in EffectCraft. The narrator, Belle at 2B, Liberty Bell and April Bloom have moving footage. May Bloom is still an illustrated placeholder. The user approved the current hair cleanup and liked the assembled opening through May before stopping for the night.
