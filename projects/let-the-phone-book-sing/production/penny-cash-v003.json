@@ -18,11 +18,11 @@
   "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=949133183923798078&materialId=326290985525031",
   "review": "Kid now approaches camera and exits right. Apple throw also approaches camera, but flight is nearer center rather than matching lower-right exit precisely. Satisfied ending. User review pending; no insertion or further paid retry.",
   "edit": {
-    "nativeProject": "generated/effectcraft-edit-v013/Let-the-Phone-Book-Sing-editable-v013.ecproj",
+    "nativeProject": "generated/effectcraft-edit-v014/Let-the-Phone-Book-Sing-editable-v014.ecproj",
     "layer": 17423,
     "startFrame": 1096,
     "endFrameExclusive": 1230,
-    "sourceOffsetFrames": 30,
+    "sourceOffsetFrames": 54,
     "speed": 1,
     "incomingDissolveFrames": [
       1094,
@@ -30,6 +30,6 @@
     ],
     "outHandleFrameExclusive": 1232,
     "reviewEndFrameExclusive": 1353,
-    "note": "Keep music cut positions. Rich still retained with existing crop beat. Review stops before Miles incoming dissolve."
+    "note": "v014 slips source24frames later; master1096–1230 unchanged. Source54–187 in musical slot, through189 in outgoing handle; satisfied expression retained near source end."
   }
 }
