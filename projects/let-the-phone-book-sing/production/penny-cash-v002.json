@@ -1,13 +1,20 @@
 {
-  "status": "starter_awaiting_review",
+  "status": "submitted",
   "starter": "generated/scene-development/penny-cash-start-v001.png",
   "tool": "built-in imagegen",
   "reference": "generated/scene-development/penny-cash-situation-v003.png",
   "imageDirection": "Preserve cast, clothes, graphic-novel style and market. Boy beside crate with apple just lifted, torso twisting toward right into dash; leave clear right exit lane. Penny half-step back/left with empty hands, noticing theft. No thrown apple yet.",
   "gag": "Boy finishes withdrawing apple and dashes right; Penny grabs a different apple from crate, hurls it in boy’s direction only after boy fully exits, then looks satisfied. Single shot.",
-  "videoSubmitted": false,
+  "videoSubmitted": true,
   "masterFrames": [
     1096,
     1230
-  ]
+  ],
+  "starterApproved": true,
+  "referenceVerifiedBeforeSubmission": true,
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "seconds": 8,
+  "creditsDisplayed": 120,
+  "promptFile": "production/penny-cash-v002.prompt.txt"
 }
