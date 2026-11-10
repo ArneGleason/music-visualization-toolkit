@@ -1,5 +1,5 @@
 {
-  "status": "wheel_submitted_coffee_pending",
+  "status": "wheel_downloaded_awaiting_review_coffee_pending",
   "approved": false,
   "model": "Kling 4.0",
   "resolution": "1080p",
@@ -7,8 +7,23 @@
   "masterEndFrameExclusive": 1096,
   "fps": 24,
   "starter": "generated/scene-development/chorus-one-canal-background-v002.png",
-  "wheel": {"seconds": 6, "creditsDisplayed": 90, "referenceVerifiedBeforeSubmission": true, "promptFile": "production/chorus-one-wheel-v001.prompt.txt"},
-  "coffee": {"status": "awaiting_clean_frame_from_wheel"},
+  "wheel": {
+    "seconds": 6,
+    "creditsDisplayed": 90,
+    "referenceVerifiedBeforeSubmission": true,
+    "promptFile": "production/chorus-one-wheel-v001.prompt.txt",
+    "download": "generated/kling-tests/chorus-one-v001/wheel-original-1080p.mp4",
+    "sha256": "040ed5e7e8892d677b2e16a345d49734b636cf91a5339f202a4fdc8afaa3e2bf",
+    "width": 1916,
+    "height": 1080,
+    "frames": 145,
+    "fps": 24,
+    "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=948933096484372505&materialId=326243280311451",
+    "review": "Sampled frames show wheel lifted, turned horizontal and balanced, returned upright near end. Plant lady gestures then returns to tending; server straightens and waits. Camera appears stable. User review pending; no coffee generation submitted."
+  },
+  "coffee": {
+    "status": "awaiting_clean_frame_from_wheel"
+  },
   "editIntent": "Two sequential full-frame locked camera takes; select settled handoff frame from wheel result as coffee first frame. Fit both within existing 268-frame chorus, retain overlap for optional four-frame dissolve. Do not change May timing. No narrator generation yet.",
   "userDirection": "Wheel flourish first; plant lady de-spidering as secondary business. Cafe customer then secretly pours Kahlua into mug while server turns away, accidentally overfills and bends to recover overflow. Rumpled original laid-back character, not celebrity likeness. White glasses emphasized."
 }
