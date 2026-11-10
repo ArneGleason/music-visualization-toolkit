@@ -1,5 +1,9 @@
 # Let the Phone Book Sing
 
+## Latest revision — v010 chorus dissolve
+
+User noticed apparent framing pop in v009 direct join. Both sources are1916×1080 with identical native scale. v010 moves coffee onset six frames earlier to966 and adds linear opacity0→100 over966–972 (quarter second); wheel continues naturally beneath to972. No freeze, retime, or regeneration. Chorus ends1096, May unchanged. Viewer points to v010; review transition perceptually before approving.
+
 ## Latest joined chorus review — v009
 
 Wheel take user-approved; coffee continuation downloaded and joined in EffectCraft v009. Wheel master828–972 uses source0–143; coffee master972–1096 uses source0–123, with two-frame outgoing dissolve handle. Exact last wheel frame144 supplied as coffee starter; direct join avoids repeated boundary frame. Both normal speed, no narrator yet. Review through Penny at51.25s. May timing unchanged. Future continuations: user prefers starter six frames before end for quarter-second overlap; current exact-last-frame take was already submitted and accepted for trial. Next: review joined chorus, then book-free neutral-arm Hedra singer.

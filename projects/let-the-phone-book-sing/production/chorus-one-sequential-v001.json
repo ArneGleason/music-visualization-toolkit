@@ -1,5 +1,5 @@
 {
-  "status": "joined_native_v009_review",
+  "status": "v010_dissolve_review",
   "approved": false,
   "model": "Kling 4.0",
   "resolution": "1080p",
@@ -43,20 +43,20 @@
   "editIntent": "Two sequential full-frame locked camera takes; select settled handoff frame from wheel result as coffee first frame. Fit both within existing 268-frame chorus, retain overlap for optional four-frame dissolve. Do not change May timing. No narrator generation yet.",
   "userDirection": "Wheel flourish first; plant lady de-spidering as secondary business. Cafe customer then secretly pours Kahlua into mug while server turns away, accidentally overfills and bends to recover overflow. Rumpled original laid-back character, not celebrity likeness. White glasses emphasized.",
   "edit": {
-    "nativeProject": "generated/effectcraft-edit-v009/Let-the-Phone-Book-Sing-editable-v009.ecproj",
+    "nativeProject": "generated/effectcraft-edit-v010/Let-the-Phone-Book-Sing-editable-v010.ecproj",
     "wheelFrames": [
       828,
       972
     ],
     "coffeeFrames": [
-      972,
+      966,
       1096
     ],
     "sourceOffsetsFrames": [
       0,
       0
     ],
-    "join": "Direct cut. Wheel frames0–143, coffee frame0 derives from wheel frame144; no duplicate boundary frame. Normal speed. Coffee trimmed after sip attempt, before long tail.",
+    "join": "Six-frame linear opacity dissolve966–972. Coffee starts six frames earlier at source0; wheel ends972. Normal speed; no frozen handles. v009 direct join retained for comparison.",
     "status": "review"
   }
 }
