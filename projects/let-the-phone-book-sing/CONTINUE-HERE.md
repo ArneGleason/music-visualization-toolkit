@@ -1,5 +1,7 @@
 # Let the Phone Book Sing
 
+Current review **v013**: user-approved Penny v003 inserted as continuous shot master1096–1230, source offset30frames, normal speed. Review extends through Rich golf still to frame1353 (56.375s), just before the next scene dissolve. Check musical fit; next creative scene is Rich Cash. Native project and MP4 in generated/effectcraft-edit-v013; viewer config updated. Chorus and May unchanged.
+
 Latest Penny v003 downloaded: `generated/kling-tests/penny-cash-v003/penny-original-1080p.mp4`. Kid approaches viewer and exits right; throw now comes toward camera but nearer center than desired lower-right. Await user review; v002 rejected for mismatched directions. No animatic insertion.
 
 Latest Penny v002: approved revised starter generated in Kling; completed eight-second1080p take downloaded to `generated/kling-tests/penny-cash-v002/penny-original-1080p.mp4`. Theft/escape, second-apple throw and satisfied reaction visible in sampled frames. Await user review; no animatic insertion yet. v012 remains current approved edit.

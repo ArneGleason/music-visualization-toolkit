@@ -313,7 +313,7 @@
       "title": "Penny Cash — situation",
       "type": "still-blocking",
       "image": "generated/scene-development/penny-cash-situation-v003.png",
-      "description": "Child swipes apple; Penny bellows, then casually replaces fruit without smiling. Still shows reset.",
+      "description": "Approved v003 continuous take: boy escapes toward foreground right; Penny throws after him then looks satisfied. Internal beat is navigation marker only. See reviewVideoInserts.",
       "crop": [
         0,
         0,
@@ -338,7 +338,7 @@
       "title": "Penny Cash — closer beat",
       "type": "still-blocking",
       "image": "generated/scene-development/penny-cash-situation-v003.png",
-      "description": "Child swipes apple; Penny bellows, then casually replaces fruit without smiling. Still shows reset. Editorial crop only; not newly generated action.",
+      "description": "Approved v003 continuous take: boy escapes toward foreground right; Penny throws after him then looks satisfied. Internal beat is navigation marker only. See reviewVideoInserts.",
       "crop": [
         0,
         0.05,
@@ -1223,6 +1223,15 @@
       "endFrameExclusive": 1096,
       "status": "review",
       "editNote": "Native v010: six-frame incoming opacity dissolve966–972 over wheel. Earlier source onset, chorus end unchanged."
+    },
+    {
+      "id": "penny-cash-v003",
+      "source": "generated/kling-tests/penny-cash-v003/penny-original-1080p.mp4",
+      "sourceOffsetFrames": 30,
+      "startFrame": 1096,
+      "endFrameExclusive": 1230,
+      "status": "approved_take_edit_review",
+      "editNote": "Continuous native v013 layer17423; normal speed, existing four-frame scene transitions. Rich still follows."
     }
   ],
   "echoStyleDirection": {
