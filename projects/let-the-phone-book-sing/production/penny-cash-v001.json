@@ -1,0 +1,16 @@
+{
+  "status": "submitted",
+  "approved": false,
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "seconds": 8,
+  "creditsDisplayed": 120,
+  "referenceVerifiedBeforeSubmission": true,
+  "starter": "generated/scene-development/penny-cash-situation-v003.png",
+  "promptFile": "production/penny-cash-v001.prompt.txt",
+  "masterStartFrame": 1096,
+  "masterEndFrameExclusive": 1230,
+  "fps": 24,
+  "sourceSlip": "Choose after reviewing motion; preserve musical boundaries.",
+  "gag": "Boy exits with stolen apple; Penny protests then carefully repairs the gap in his display, satisfied but unsmiling."
+}
