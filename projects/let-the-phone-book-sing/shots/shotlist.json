@@ -1033,6 +1033,19 @@
       "endFrameExclusive": 963,
       "sourceOffsetSeconds": 0.042625,
       "status": "approved_direction_test_watermarked"
+    },
+    {
+      "id": "chorus-one-native-v011",
+      "source": "generated/avatar-tests/chorus-one-v001/hedra-original-1080p.mp4",
+      "startFrame": 810,
+      "endFrameExclusive": 1098,
+      "visibleFadeInFrames": [
+        814,
+        822
+      ],
+      "status": "composite_review",
+      "nativeProject": "generated/effectcraft-edit-v011/Let-the-Phone-Book-Sing-editable-v011.ecproj",
+      "note": "No book, centered85% bottom-aligned, approved native key/hair cleanup duplicated. Master audio unchanged; no measured returned audio lag."
     }
   ],
   "motionGraphicsTests": [
