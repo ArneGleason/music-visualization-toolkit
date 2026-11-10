@@ -1,5 +1,5 @@
 {
-  "status": "submitted",
+  "status": "downloaded_awaiting_review",
   "approved": false,
   "model": "Kling 4.0",
   "resolution": "1080p",
@@ -12,5 +12,9 @@
     1096,
     1230
   ],
-  "direction": "Kid briefly stumbles sideways left then runs toward camera out lower-right; Penny deliberately throws along same near-right escape route after kid exits. Fixed camera."
+  "direction": "Kid briefly stumbles sideways left then runs toward camera out lower-right; Penny deliberately throws along same near-right escape route after kid exits. Fixed camera.",
+  "download": "generated/kling-tests/penny-cash-v003/penny-original-1080p.mp4",
+  "sha256": "ee31b85b4a03444770b63c7343367a7a290d93cb4e822c7de82adc701f97c12e",
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=949133183923798078&materialId=326290985525031",
+  "review": "Kid now approaches camera and exits right. Apple throw also approaches camera, but flight is nearer center rather than matching lower-right exit precisely. Satisfied ending. User review pending; no insertion or further paid retry."
 }

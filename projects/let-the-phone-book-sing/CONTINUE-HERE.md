@@ -1,5 +1,7 @@
 # Let the Phone Book Sing
 
+Latest Penny v003 downloaded: `generated/kling-tests/penny-cash-v003/penny-original-1080p.mp4`. Kid approaches viewer and exits right; throw now comes toward camera but nearer center than desired lower-right. Await user review; v002 rejected for mismatched directions. No animatic insertion.
+
 Latest Penny v002: approved revised starter generated in Kling; completed eight-second1080p take downloaded to `generated/kling-tests/penny-cash-v002/penny-original-1080p.mp4`. Theft/escape, second-apple throw and satisfied reaction visible in sampled frames. Await user review; no animatic insertion yet. v012 remains current approved edit.
 
 Penny revision: first video rejected because kid exits too quickly. New starter `generated/scene-development/penny-cash-start-v001.png` awaits review: boy taking apple beside crate, Penny farther back with empty hands. New gag: boy dashes off, Penny grabs another apple and hurls it offscreen after him, then looks satisfied. No revised Kling generation submitted. See production/penny-cash-v002.json.
