@@ -1,5 +1,9 @@
 # Let the Phone Book Sing
 
+## Chorus narrator submitted
+
+User accepted v010 blended chorus background. Hedra Avatar chorus-one-v001 submitted at1080p,114credits, green-screen no-book pose, teeth visible matching opening reference, both hands low/open. Clean vocal begins master810 (33.75s), includes user-identified improvised O around822, ends1096 then one second silence through1120. Next: retrieve Hedra result, check returned audio alignment and dentition/acting, key with approved native hair cleanup, bring narrator in early enough for O (before background boundary828). Do not start visible performance only at lyric848. No chorus narrator inserted yet.
+
 ## Latest revision — v010 chorus dissolve
 
 User noticed apparent framing pop in v009 direct join. Both sources are1916×1080 with identical native scale. v010 moves coffee onset six frames earlier to966 and adds linear opacity0→100 over966–972 (quarter second); wheel continues naturally beneath to972. No freeze, retime, or regeneration. Chorus ends1096, May unchanged. Viewer points to v010; review transition perceptually before approving.

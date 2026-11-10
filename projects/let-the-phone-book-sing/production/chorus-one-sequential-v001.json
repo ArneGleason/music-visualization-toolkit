@@ -1,5 +1,5 @@
 {
-  "status": "v010_dissolve_review",
+  "status": "v010_background_user_accepted",
   "approved": false,
   "model": "Kling 4.0",
   "resolution": "1080p",
@@ -56,7 +56,8 @@
       0,
       0
     ],
-    "join": "Six-frame linear opacity dissolve966–972. Coffee starts six frames earlier at source0; wheel ends972. Normal speed; no frozen handles. v009 direct join retained for comparison.",
-    "status": "review"
+    "join": "Six-frame linear opacity dissolve966\u2013972. Coffee starts six frames earlier at source0; wheel ends972. Normal speed; no frozen handles. v009 direct join retained for comparison.",
+    "status": "user_accepted",
+    "approvalNote": "User accepts slight residual framing jiggle with six-frame dissolve; proceed to narrator."
   }
 }
