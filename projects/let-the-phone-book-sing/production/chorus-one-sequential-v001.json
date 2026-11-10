@@ -1,0 +1,14 @@
+{
+  "status": "wheel_submitted_coffee_pending",
+  "approved": false,
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "masterStartFrame": 828,
+  "masterEndFrameExclusive": 1096,
+  "fps": 24,
+  "starter": "generated/scene-development/chorus-one-canal-background-v002.png",
+  "wheel": {"seconds": 6, "creditsDisplayed": 90, "referenceVerifiedBeforeSubmission": true, "promptFile": "production/chorus-one-wheel-v001.prompt.txt"},
+  "coffee": {"status": "awaiting_clean_frame_from_wheel"},
+  "editIntent": "Two sequential full-frame locked camera takes; select settled handoff frame from wheel result as coffee first frame. Fit both within existing 268-frame chorus, retain overlap for optional four-frame dissolve. Do not change May timing. No narrator generation yet.",
+  "userDirection": "Wheel flourish first; plant lady de-spidering as secondary business. Cafe customer then secretly pours Kahlua into mug while server turns away, accidentally overfills and bends to recover overflow. Rumpled original laid-back character, not celebrity likeness. White glasses emphasized."
+}
