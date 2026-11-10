@@ -1,5 +1,5 @@
 {
-  "status": "submitted",
+  "status": "downloaded_awaiting_user_review",
   "approved": false,
   "model": "Kling 4.0",
   "resolution": "1080p",
@@ -12,5 +12,13 @@
   "masterEndFrameExclusive": 1230,
   "fps": 24,
   "sourceSlip": "Choose after reviewing motion; preserve musical boundaries.",
-  "gag": "Boy exits with stolen apple; Penny protests then carefully repairs the gap in his display, satisfied but unsmiling."
+  "gag": "Boy exits with stolen apple; Penny protests then carefully repairs the gap in his display, satisfied but unsmiling.",
+  "download": "generated/kling-tests/penny-cash-v001/penny-original-1080p.mp4",
+  "sha256": "5f84ca9fa5e1dc6ef46f53f76dc3890f5840e8ecdf9419704cfc0c9d43e02b42",
+  "width": 1916,
+  "height": 1080,
+  "frames": 193,
+  "sourceFps": 24,
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=949123341976862753&materialId=326288638306447",
+  "review": "Sampled frames show boy exiting right, grocer protest gesture, gaze to crate, apple arrangement and settled reaction. Camera pulls back rather than requested push. Review take before insertion; not approved yet."
 }

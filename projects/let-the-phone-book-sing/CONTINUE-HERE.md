@@ -1,5 +1,7 @@
 # Let the Phone Book Sing
 
+Latest (10 November): Penny Cash Kling v001 completed, downloaded to `generated/kling-tests/penny-cash-v001/penny-original-1080p.mp4` (1916×1080,24fps,193frames;120credits). User approved gag and generation; result awaits review. Kid exits, Penny protests then arranges apple. Camera pulls back rather than requested push. No animatic insertion yet; v012 remains approved current edit. See production/penny-cash-v001.json and prompt.
+
 ## Resume here — approved night checkpoint, 9 November 2026
 
 **Where we stopped:** the first chorus is finished and user-approved in **EffectCraft v012**. The book-free singer, native green-screen key/hair cleanup and Canal background work well. Her singing timing was approved. The final correction makes the singer and background dissolve in together as one scene; she no longer appears early over May. User approved that correction and stopped for the night.
