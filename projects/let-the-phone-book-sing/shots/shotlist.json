@@ -262,8 +262,8 @@
       "startAnchor": "line-007:start",
       "title": "Chorus 1 \u2014 narrator leads",
       "type": "still-blocking",
-      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
-      "description": "Return to narrator addressing audience; residents remain unaware. Reused Church setting is performance placement proxy for travel through town.",
+      "image": "generated/scene-development/chorus-one-canal-background-v001.png",
+      "description": "One continuous locked background plate across chorus; central singer space reserved, no narrator yet. Peripheral bike repair, tea service and balcony plant business. No internal cut at PB-012.",
       "crop": [
         0,
         0,
@@ -272,7 +272,7 @@
       ],
       "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "chorus_background_review",
       "batch": "visual-animatic-v001",
       "startFrame": 848,
       "endFrameExclusive": 979,
@@ -287,17 +287,17 @@
       "startAnchor": "line-009:start",
       "title": "Narrator \u2014 closer address",
       "type": "still-blocking",
-      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
-      "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
+      "image": "generated/scene-development/chorus-one-canal-background-v001.png",
+      "description": "One continuous locked background plate across chorus; central singer space reserved, no narrator yet. Peripheral bike repair, tea service and balcony plant business. No internal cut at PB-012.",
       "crop": [
         0,
         0,
-        0.62,
-        0.62
+        1,
+        1
       ],
       "placeholder": true,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "chorus_background_review",
       "batch": "visual-animatic-v001",
       "startFrame": 979,
       "endFrameExclusive": 1096,
@@ -1182,7 +1182,7 @@
       "startFrame": 828,
       "endFrameExclusive": 963,
       "sourceOffsetFrames": 0,
-      "status": "temporary_lower_resolution_test"
+      "status": "superseded_by_chorus_background_v001"
     },
     {
       "id": "may-continuous",
@@ -1206,5 +1206,20 @@
     "placement": "centered_on_fixed_cut",
     "scope": "All actual picture changes; continuous video takes have no internal transitions.",
     "status": "draft_review"
-  }
+  },
+  "reviewBackgroundInserts": [
+    {
+      "id": "chorus-one-canal",
+      "image": "generated/scene-development/chorus-one-canal-background-v001.png",
+      "startFrame": 828,
+      "endFrameExclusive": 1096,
+      "status": "draft_review",
+      "shotIds": [
+        "PB-011",
+        "PB-012"
+      ],
+      "nativeProject": "generated/effectcraft-edit-v008/Let-the-Phone-Book-Sing-editable-v008.ecproj",
+      "note": "Supersedes temporary chorus-test insert; one still, no narrator or internal cut."
+    }
+  ]
 }

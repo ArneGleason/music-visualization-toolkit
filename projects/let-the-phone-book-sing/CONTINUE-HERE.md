@@ -1,5 +1,9 @@
 # Let the Phone Book Sing
 
+## Latest review — first chorus, 9 November 2026
+
+Native v008 adds proposed Canal District square background across first chorus (828–1096), with no narrator. Latest viewer extends through Penny Cash at1 Worth Street (end1230 /51.25s), currently a still. Review composition and chorus timing before deciding on more than one shot. Next singer plate: centered, no phone book, neutral arms and bopping performance via Hedra, locked background camera. Preserve current May slip: user loves steps matching the final numbers. v007 and earlier approved versions remain intact.
+
 ## Current edit — 9 November 2026
 
 May Bloom Kling v001 is user-approved and inserted into native EffectCraft v007. Current review: generated/effectcraft-edit-v007/animatic-through-may-bloom-1080p.mp4. Source starts at frame24, normal speed, master695–828, with four-frame incoming dissolve; no internal May cut. v006 hair cleanup retained. Open the frame viewer using the launcher below. Next: review May in context, then fresh Hedra chorus plate. This supersedes older May-placeholder notes below.

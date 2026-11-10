@@ -31,7 +31,8 @@ def main():
         shot['shotNumber'] = number
         shot['title'] = f"{shot['id']} · {shot['title']}"
         insert = next((v for v in score.get('reviewVideoInserts', [])
-                       if v['startFrame'] <= shot['startFrame'] < v['endFrameExclusive']), None)
+                       if not v.get('status', '').startswith('superseded')
+                       and v['startFrame'] <= shot['startFrame'] < v['endFrameExclusive']), None)
         if insert:
             shot['videoSource'] = insert['source']
             source_start = insert.get('originalSourceOffsetFrames', insert.get('sourceOffsetFrames', 0))
