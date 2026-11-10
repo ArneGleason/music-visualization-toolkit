@@ -1,5 +1,5 @@
 {
-  "status": "wheel_approved_coffee_submitted",
+  "status": "joined_native_v009_review",
   "approved": false,
   "model": "Kling 4.0",
   "resolution": "1080p",
@@ -24,15 +24,39 @@
     "approvalNote": "User approved wheel take and specifically chose exact last frame as next starter."
   },
   "coffee": {
-    "status": "submitted_creating",
+    "status": "downloaded_in_review",
     "sourceImage": "generated/kling-tests/chorus-one-v001/coffee-start-last-frame.png",
     "sourceFrame": 144,
     "seconds": 8,
     "promptFile": "production/chorus-one-coffee-v001.prompt.txt",
     "creditsDisplayed": 120,
     "referenceVerifiedBeforeSubmission": true,
-    "overlapNote": "User accepts exact last frame because already submitted. Future continuations should use frame six frames before end at24fps for quarter-second overlap. Evaluate straight join first on current trial."
+    "overlapNote": "User accepts exact last frame because already submitted. Future continuations should use frame six frames before end at24fps for quarter-second overlap. Evaluate straight join first on current trial.",
+    "download": "generated/kling-tests/chorus-one-v001/coffee-original-1080p.mp4",
+    "sha256": "e3605e6a15a2c0c4d792720e6dfb58d1c32f07baabe95757d485a0ca6c5e2b8f",
+    "frames": 193,
+    "fps": 24,
+    "width": 1916,
+    "height": 1080,
+    "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=948950202525417514&materialId=326247358535834"
   },
   "editIntent": "Two sequential full-frame locked camera takes; select settled handoff frame from wheel result as coffee first frame. Fit both within existing 268-frame chorus, retain overlap for optional four-frame dissolve. Do not change May timing. No narrator generation yet.",
-  "userDirection": "Wheel flourish first; plant lady de-spidering as secondary business. Cafe customer then secretly pours Kahlua into mug while server turns away, accidentally overfills and bends to recover overflow. Rumpled original laid-back character, not celebrity likeness. White glasses emphasized."
+  "userDirection": "Wheel flourish first; plant lady de-spidering as secondary business. Cafe customer then secretly pours Kahlua into mug while server turns away, accidentally overfills and bends to recover overflow. Rumpled original laid-back character, not celebrity likeness. White glasses emphasized.",
+  "edit": {
+    "nativeProject": "generated/effectcraft-edit-v009/Let-the-Phone-Book-Sing-editable-v009.ecproj",
+    "wheelFrames": [
+      828,
+      972
+    ],
+    "coffeeFrames": [
+      972,
+      1096
+    ],
+    "sourceOffsetsFrames": [
+      0,
+      0
+    ],
+    "join": "Direct cut. Wheel frames0–143, coffee frame0 derives from wheel frame144; no duplicate boundary frame. Normal speed. Coffee trimmed after sip attempt, before long tail.",
+    "status": "review"
+  }
 }
