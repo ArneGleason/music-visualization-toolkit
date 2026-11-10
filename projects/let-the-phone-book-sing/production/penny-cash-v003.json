@@ -1,0 +1,16 @@
+{
+  "status": "submitted",
+  "approved": false,
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "seconds": 8,
+  "creditsDisplayed": 120,
+  "referenceVerifiedBeforeSubmission": true,
+  "starter": "generated/scene-development/penny-cash-start-v001.png",
+  "promptFile": "production/penny-cash-v003.prompt.txt",
+  "masterFrames": [
+    1096,
+    1230
+  ],
+  "direction": "Kid briefly stumbles sideways left then runs toward camera out lower-right; Penny deliberately throws along same near-right escape route after kid exits. Fixed camera."
+}
