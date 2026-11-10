@@ -1,59 +1,42 @@
 # Let the Phone Book Sing
 
-Latest review: **v012** groups chorus singer and Canal backgrounds into one native EffectCraft scene (comp17396, master layer17397). The whole scene uses the existing entrance dissolve825–830 (visible826); singer no longer appears over May ahead of the scene. Vocal source alignment810, key/hair cleanup, background join and musical cuts remain unchanged. Viewer points to v012; awaiting transition review.
+## Resume here — approved night checkpoint, 9 November 2026
 
-## Latest composite review — v011
+**Where we stopped:** the first chorus is finished and user-approved in **EffectCraft v012**. The book-free singer, native green-screen key/hair cleanup and Canal background work well. Her singing timing was approved. The final correction makes the singer and background dissolve in together as one scene; she no longer appears early over May. User approved that correction and stopped for the night.
 
-Chorus singer composited natively using duplicated approved opening Screen Key, ink outline and hair-only cleanup. Centered85%, bottom-aligned; peripheral wheel/cafe action remains visible. Source maps to master810, fades in814–822 for improvised O before background transition828. Out1098 under Penny dissolve; v010 six-frame background join retained. Returned audio cross-correlation lag0.0s. Viewer is v011 through Penny51.25s. Await visual review; opening and May untouched.
+**Start next time:** continue **linearly with Penny Cash**, the burly Greek grocer at 1 Worth Street (101-0010). Briefly remind the user that May and the first chorus are complete. Review Penny's existing approved character/situation references and develop his fruit-theft gag: entitled kid lifts fruit, Penny reacts grumpily then takes it in stride/replenishes the display. Review acting motivation, starting frame versus payoff and camera movement before spending generation credits. Keep developing good ideas as we advance; no need to plan or regenerate the whole song. Rich Cash's cheating-at-golf scene follows Penny.
 
-## Chorus narrator downloaded
+Penny is currently a **still placeholder**, master frames1096–1230 (45.667–51.25s). Approved situation: `generated/scene-development/penny-cash-situation-v003.png`. Do not mistake it for generated footage. The current review ends at51.25s.
 
-User accepted v010 blended chorus background. Hedra Avatar chorus-one-v001 completed and downloaded to generated/avatar-tests/chorus-one-v001/hedra-original-1080p.mp4 (1920×1080,25fps,13s),114credits, green-screen no-book pose, teeth visible matching opening reference, both hands low/open. Clean vocal begins master810 (33.75s), includes user-identified improvised O around822, ends1096 then one second silence through1120. Next: review saved Hedra result, check returned audio alignment and dentition/acting, key with approved native hair cleanup, bring narrator in early enough for O (before background boundary828). Do not start visible performance only at lyric848. No chorus narrator inserted yet.
+## Current files and viewer
 
-## Latest revision — v010 chorus dissolve
+- Editable keeper: `generated/effectcraft-edit-v012/Let-the-Phone-Book-Sing-editable-v012.ecproj`.
+- Local review: `generated/effectcraft-edit-v012/animatic-through-chorus-one-and-penny-1080p.mp4`, 1920×1080,24fps,1230 picture frames. Keep this assembled MP4 locally; it can be rendered again.
+- Launch `Review Let the Phone Book Sing.command` at repository root, or `./.venv/bin/python3 projects/let-the-phone-book-sing/production/open_review.py`. Viewer: http://127.0.0.1:8778. Reuses the existing server; exact-frame/shot/lyric navigation and notes. Master frames zero-based, preview frames one-based. Paired shotlist beats in a continuous take are navigation markers, not mandatory cuts.
+- `shots/shotlist.json` is the edit source of truth. Preserve approved timing; no new alignment pass.
 
-User noticed apparent framing pop in v009 direct join. Both sources are1916×1080 with identical native scale. v010 moves coffee onset six frames earlier to966 and adds linear opacity0→100 over966–972 (quarter second); wheel continues naturally beneath to972. No freeze, retime, or regeneration. Chorus ends1096, May unchanged. Viewer points to v010; review transition perceptually before approving.
+## What we learned / keep these decisions
 
-## Latest joined chorus review — v009
+- **Composite before dissolving:** singer and both Canal takes are grouped in native scene comp17396, master layer17397. The whole scene dissolves825–830 (first visible826), preserving the existing musical cut. Singer source remains aligned to master810; the improvised O around822 is audible before the picture transition. Do not move audio or retime her performance to change her visibility.
+- Native approved key, thin ink outline and hair-only green/cyan suppression transferred successfully from the opening to the chorus. Reuse this approach; adapt the soft hair mask if framing changes. Slight residual tint was accepted; don't chase it further unprompted.
+- Hedra is preferred for expressive singing. Green screen works; native1080p, natural teeth-visible starter, no phone book for chorus, low/open hands give room for movement. One image plus clean solo vocal. Returned chorus audio measured zero lag. Its25fps source is sampled by time into24fps edit, not speed-changed.
+- Chorus singer is85% scale, bottom-aligned at[960,621]; both peripheral gags remain readable. Frame composition matters as much as keying.
+- Sequential Kling takes can introduce a slight framing change even with a matched last-frame starter. Both originals were1916×1080, so this was not a different input-size issue. Accepted solution: six-frame overlap/dissolve966–972, no regen. Future continuations: consider a clean starter six frames before the end for overlap. User accepted residual jiggle and the composite.
+- **Preserve May's happy beat coincidence:** master695–828, source offset24 at normal speed. The old man's backward steps line up with the final numbers. Do not slip or retime this approved take.
+- Use native EffectCraft for compositing, motion graphics and edits. Reuse ONE GUI instance; close temporary headless sessions. Do not rerun the initial builder over this edit.
+- Keep SING v002 readable whole-word orbit/amplitude swell/ink outline; individually orbiting letters were rejected. BELLE is B-E-L-L-E, on first Belle rather than Liberty. April's original is approved; rejected flower recolor stays out.
+- Preserve musical cut positions; adjust source offsets for moving entrances. Source handles are editing room, not a reason to move musical boundaries. Verify uploaded references before every paid generation. Review starter and acting/emotional motivation first.
+- Keep color rhythm and distinctive character-actor personalities; original faces, not recognizable celebrity caricatures. Avoid generic beautiful bystanders.
 
-Wheel take user-approved; coffee continuation downloaded and joined in EffectCraft v009. Wheel master828–972 uses source0–143; coffee master972–1096 uses source0–123, with two-frame outgoing dissolve handle. Exact last wheel frame144 supplied as coffee starter; direct join avoids repeated boundary frame. Both normal speed, no narrator yet. Review through Penny at51.25s. May timing unchanged. Future continuations: user prefers starter six frames before end for quarter-second overlap; current exact-last-frame take was already submitted and accepted for trial. Next: review joined chorus, then book-free neutral-arm Hedra singer.
+## Backup and storage bookmark
 
-## Latest review — first chorus, 9 November 2026
+`backups/approved-media-20261109-v023.json` is the new incremental **construction-only** snapshot: latest editable v012, approved Canal and singer starter images, clean vocal crop, two Kling originals, Hedra original and continuation starter. No assembled review MP4, intermediate native versions, screenshots or rejected attempts are added. Existing earlier snapshots remain untouched. Media stay out of Git history and are attached to GitHub Releases; Git stores authored scripts, prompts, timing, notes and checksum manifests.
 
-Native v008 adds proposed Canal District square background across first chorus (828–1096), with no narrator. Latest viewer extends through Penny Cash at1 Worth Street (end1230 /51.25s), currently a still. Review composition and chorus timing before deciding on more than one shot. Next singer plate: centered, no phone book, neutral arms and bopping performance via Hedra, locked background camera. Preserve current May slip: user loves steps matching the final numbers. v007 and earlier approved versions remain intact.
+Restore earlier snapshots for existing dependencies (v020 contains v006 dependencies; v021 May starter; v022 May source), then v023 for the current chorus delta. Prior approved character and neighborhood references are already in their earlier snapshots. Use `tools/project_media.py restore` and `verify` with each manifest. Native projects contain absolute paths: relink on another machine. Local working media and review renders are retained.
 
-## Current edit — 9 November 2026
+GitHub documents release assets as an alternative to tracking large binaries, with a2GiB per-file limit: https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases . Keep backups selective; this is not a reason to upload every render.
 
-May Bloom Kling v001 is user-approved and inserted into native EffectCraft v007. Current review: generated/effectcraft-edit-v007/animatic-through-may-bloom-1080p.mp4. Source starts at frame24, normal speed, master695–828, with four-frame incoming dissolve; no internal May cut. v006 hair cleanup retained. Open the frame viewer using the launcher below. Next: review May in context, then fresh Hedra chorus plate. This supersedes older May-placeholder notes below.
-
-## Animatic viewer — added 9 November 2026
-
-Double-click `Review Let the Phone Book Sing.command` at repository root, or run `./.venv/bin/python3 projects/let-the-phone-book-sing/production/open_review.py`. Opens the same shared frame-review UI used for Together Anyways at http://127.0.0.1:8778. Reuses its server on subsequent launches.
-
-Current review is the approved opening through May (34.5s). Select named PB shots, navigate lyric sections, step exact frames, copy frame references, and save notes. Master frame numbering is zero-based, matching this project; preview numbering is one-based. Notes persist in `production/frame-review-notes.json` when first written, separate from Together Anyways. Navigation derives from shotlist.json; paired lyric beats inside continuous takes are markers, not extra cuts. Edit `production/review-config.json` to select the next longer native export, then rerun the launcher. The viewer does not render or alter the edit.
-
-## Resume here — night checkpoint, 8 November 2026
-
-**What we were doing:** building the opening of Let the Phone Book Sing in EffectCraft. The narrator, Belle at 2B, Liberty Bell and April Bloom have moving footage. May Bloom is still an illustrated placeholder. The user approved the current hair cleanup and liked the assembled opening through May before stopping for the night.
-
-**Start next time:** briefly remind the user of this status, show the latest animatic if helpful, then develop May Bloom’s mechanical repair-shop/fan skit. Show the proposed starting frame and motion/emotional direction before generating footage. Her existing situation still is the happy fan-breeze payoff, so decide whether it needs a before-action starter variation. No generation has been authorized/submitted for May yet. After May, plan a fresh chorus performance plate.
-
-Current editable keeper: `generated/effectcraft-edit-v006/Let-the-Phone-Book-Sing-editable-v006.ecproj`.
-Latest review: `generated/effectcraft-edit-v006/animatic-through-may-bloom-1080p.mp4` — 1920×1080, 24 fps, 828 picture frames (34.5 seconds), master audio and removable small bottom lyric overlay. Stops at the current chorus insert boundary; May is a still, not missing video.
-
-Decisions to preserve:
-- EffectCraft is the compositor/editor. Keep native layers editable; do not rebuild over v006 with the initial builder or revert to custom compositing.
-- v006 Screen Key plus isolated green/cyan hair color cleanup is approved. See `production/hair-color-v006.json`. Reuse as a starting point on chorus plates, adapting the soft head mask to each framing. Slight residual tint was accepted; do not keep chasing it without a request.
-- Keep SING v002 whole-word orbit, amplitude swell and black narrator outline. Later independently orbiting letters were rejected for readability. BELLE lettering is spelled B-E-L-L-E and belongs on first Belle, not Liberty.
-- Musical cuts stay fixed; adjust source offsets for action. Belle uses original source frames 42–166 at 124/140 source frames per edit frame. Four-frame dissolves are centered on actual cuts. Avoid duplicated frames or initial frozen action.
-- April’s original footage is accepted; the tracked yellow-flower recolor was rejected. Do not reinstate it.
-- Hedra is preferred for singing and expressive performance; green screen works. Use native 1080p for final plates. Kling supplies scene action, with actor motivation, subtle camera motion when useful and about one second of source handles on each end. Check uploaded references before spending credits.
-- Full edit still contains a temporary lower-resolution/watermarked chorus test after this review segment. It is not final; replace with a new Hedra chorus plate and approved key/color setup.
-- Reuse ONE EffectCraft GUI instance (currently v006). Use File > Open or Launch Services; never directly spawn another editor per revision. Temporary headless authoring/render processes should exit.
-
-Backup: `backups/approved-media-20261108-v020.json` is the night snapshot with current native project, both reviews and every native footage/art dependency. Prior v001–v019 snapshots preserve earlier approved work and character references. Media remain outside Git, on GitHub Releases; authored files and notes are in Git. The native project currently stores absolute media paths for this checkout: on another machine, relink the listed files to the restored project rather than regenerating assets. Local runtime configuration stays ignored; the working app and CLI are EffectCraft 0.22.0 (the app bundle still has an older filename).
-
-The sections below are historical context; this checkpoint supersedes stale stage/next-action statements.
+The following older setup notes are historical; the checkpoint above supersedes their next-action/status statements.
 
 ## Continue on the MacBook
 

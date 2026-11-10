@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-one-v001",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v012",
+    "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001",
+    "projects/let-the-phone-book-sing/generated/scene-development"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-one-v001/hedra-submitted.png",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-one-v001/performance-check.jpg",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v012/animatic-through-chorus-one-and-penny-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v012/transition-check.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001/coffee-contact.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001/coffee-first-frame.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001/coffee-pending.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001/wheel-completed.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001/wheel-contact.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001/wheel-pending.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/april-bloom-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/april-bloom-start-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/belle-bell-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-one-canal-background-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/liberty-bell-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v004.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v004.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-kling-result.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/narrator-opening-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/narrator-opening-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/rich-cash-situation-v001.png"
+  ],
+  "scope": "Approved first-chorus construction delta: editable native v012, two Kling originals, Hedra original and vocal crop, approved narrator and Canal starter references, continuation frame. No assembled MP4 or debug/rejected images. Restore earlier snapshots for existing opening/May dependencies.",
+  "tag": "let-the-phone-book-sing-approved-20261109-v023",
+  "archive": "let-the-phone-book-sing-approved-20261109-v023.zip",
+  "sha256": "d9df865dc56f2ef6ea9fe0af21497f3df771fe6f6534d4743ed0cbefcc08cf9e",
+  "bytes": 49558541,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-one-v001/chorus-lead-frames810-1120.wav",
+      "bytes": 3720102,
+      "sha256": "aa6091c8d428c83d3ef9c90454bac668734c60e0efc64fb0365ac0d76e7d1fc6"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-one-v001/hedra-original-1080p.mp4",
+      "bytes": 8723373,
+      "sha256": "f1752ab1519d8ccb0f95e9edbb5d77015d21d540d66f96cd1799866ae5e0a0f0"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-one-v001/narrator-green.png",
+      "bytes": 1780939,
+      "sha256": "31afc7f6a0d5f286c90db2d38f8a019f68c74052247ba506f517f1255d0675ff"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v012/Let-the-Phone-Book-Sing-editable-v012.ecproj",
+      "bytes": 18550438,
+      "sha256": "f62cb583fab11dc9e4ed38f9ff2e22536c98a930c5f067c50cded0a2e07d0224"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001/coffee-original-1080p.mp4",
+      "bytes": 15079700,
+      "sha256": "e3605e6a15a2c0c4d792720e6dfb58d1c32f07baabe95757d485a0ca6c5e2b8f"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001/coffee-start-last-frame.png",
+      "bytes": 3578094,
+      "sha256": "c4853303a48a999ff7b3216675e6dd390817f84f003d1e336b44c549cfa1c9c0"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001/wheel-original-1080p.mp4",
+      "bytes": 13202503,
+      "sha256": "040ed5e7e8892d677b2e16a345d49734b636cf91a5339f202a4fdc8afaa3e2bf"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/chorus-one-canal-background-v002.png",
+      "bytes": 3266286,
+      "sha256": "21d8722b8589693d6de9a1f49d621fa64d296fbeda007300e1e3c224e1b3fe47"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261109-v023/let-the-phone-book-sing-approved-20261109-v023.zip"
+}

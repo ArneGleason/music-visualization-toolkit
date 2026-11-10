@@ -1,6 +1,6 @@
 {
   "status": "v010_background_user_accepted",
-  "approved": false,
+  "approved": true,
   "model": "Kling 4.0",
   "resolution": "1080p",
   "masterStartFrame": 828,
@@ -19,12 +19,12 @@
     "frames": 145,
     "fps": 24,
     "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=948933096484372505&materialId=326243280311451",
-    "review": "Sampled frames show wheel lifted, turned horizontal and balanced, returned upright near end. Plant lady gestures then returns to tending; server straightens and waits. Camera appears stable. User review pending; no coffee generation submitted.",
+    "review": "User approved; incorporated into approved v012 composite.",
     "approved": true,
     "approvalNote": "User approved wheel take and specifically chose exact last frame as next starter."
   },
   "coffee": {
-    "status": "downloaded_in_review",
+    "status": "user_approved",
     "sourceImage": "generated/kling-tests/chorus-one-v001/coffee-start-last-frame.png",
     "sourceFrame": 144,
     "seconds": 8,
@@ -38,9 +38,10 @@
     "fps": 24,
     "width": 1916,
     "height": 1080,
-    "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=948950202525417514&materialId=326247358535834"
+    "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=948950202525417514&materialId=326247358535834",
+    "approved": true
   },
-  "editIntent": "Two sequential full-frame locked camera takes; select settled handoff frame from wheel result as coffee first frame. Fit both within existing 268-frame chorus, retain overlap for optional four-frame dissolve. Do not change May timing. No narrator generation yet.",
+  "editIntent": "Completed in approved v012; continue linearly to Penny.",
   "userDirection": "Wheel flourish first; plant lady de-spidering as secondary business. Cafe customer then secretly pours Kahlua into mug while server turns away, accidentally overfills and bends to recover overflow. Rumpled original laid-back character, not celebrity likeness. White glasses emphasized.",
   "edit": {
     "nativeProject": "generated/effectcraft-edit-v010/Let-the-Phone-Book-Sing-editable-v010.ecproj",

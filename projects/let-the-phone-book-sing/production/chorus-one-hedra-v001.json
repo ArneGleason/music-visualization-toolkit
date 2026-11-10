@@ -1,5 +1,5 @@
 {
-  "status": "native_composite_v012_review",
+  "status": "native_composite_v012_user_approved",
   "model": "Hedra Avatar",
   "resolution": "1080p",
   "sourceImage": "generated/avatar-tests/chorus-one-v001/narrator-green.png",
@@ -47,5 +47,7 @@
     "scenePrecomp": 17396,
     "sceneMasterLayer": 17397,
     "transition": "Whole singer/background composite dissolves together; visible from frame826, fully visible830. Source alignment810 unchanged."
-  }
+  },
+  "approved": true,
+  "approvalNote": "2026-11-09: user approved timing, key/compositing, and final singer/background joint dissolve. Resume linearly at Penny."
 }
