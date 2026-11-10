@@ -1,5 +1,5 @@
 {
-  "status": "submitted_queued",
+  "status": "downloaded_awaiting_review",
   "model": "Hedra Avatar",
   "resolution": "1080p",
   "sourceImage": "generated/avatar-tests/chorus-one-v001/narrator-green.png",
@@ -16,5 +16,14 @@
   "background": "User accepts v010 six-frame wheel/coffee dissolve; retain it. Apply approved native EffectCraft key and hair cleanup adapted to this plate when generated.",
   "creditsDisplayed": 114,
   "referenceVerifiedBeforeSubmission": true,
-  "inputsObserved": "Hedra Avatar mode: one start frame and one audio input,1080p,16:9,batch1"
+  "inputsObserved": "Hedra Avatar mode: one start frame and one audio input,1080p,16:9,batch1",
+  "download": "generated/avatar-tests/chorus-one-v001/hedra-original-1080p.mp4",
+  "sha256": "f1752ab1519d8ccb0f95e9edbb5d77015d21d540d66f96cd1799866ae5e0a0f0",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "duration": 13
+  },
+  "review": "Sampled frames show open-mouth singing, head tilts and changing hand gestures; no book, green background. Teeth visible. Detailed dentition and audio alignment still need review; not composited yet."
 }
