@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/kling-tests/may-bloom-v001",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v007"
+  ],
+  "exclude": [],
+  "scope": "Approved May footage, native v007 insertion and updated through-May review. Earlier v020 snapshot supplies other edit dependencies.",
+  "tag": "let-the-phone-book-sing-approved-20261109-v022",
+  "archive": "let-the-phone-book-sing-approved-20261109-v022.zip",
+  "sha256": "ced0ca0d9a83823dea44c4dca597335484f7bd5dc0ec305edddda2c2fa5038ed",
+  "bytes": 95551459,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v007/Let-the-Phone-Book-Sing-editable-v007.ecproj",
+      "bytes": 18324943,
+      "sha256": "7c27fe6a05f9e57fb34dbfa2b1f5c37431c80d2eb08b0811f6b988bfef32a4d7"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v007/animatic-through-may-bloom-1080p.mp4",
+      "bytes": 65958908,
+      "sha256": "c6a187a3221cce207633f1f7b408138c56d79977e3b5e5f0d8f0a46222d79c24"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/may-bloom-v001/may-original-1080p.mp4",
+      "bytes": 28547981,
+      "sha256": "a7c34f34f0f6025035c1ec3790a771b2cf4640f2e75474b15f9b25848412155f"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261109-v022/let-the-phone-book-sing-approved-20261109-v022.zip"
+}

@@ -1183,6 +1183,15 @@
       "endFrameExclusive": 963,
       "sourceOffsetFrames": 0,
       "status": "temporary_lower_resolution_test"
+    },
+    {
+      "id": "may-continuous",
+      "source": "generated/kling-tests/may-bloom-v001/may-original-1080p.mp4",
+      "sourceOffsetFrames": 24,
+      "startFrame": 695,
+      "endFrameExclusive": 828,
+      "status": "approved",
+      "editNote": "One continuous take across PB-009/PB-010; no internal cut. Fixed chorus boundary 828 retained."
     }
   ],
   "echoStyleDirection": {

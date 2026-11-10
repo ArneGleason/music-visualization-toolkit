@@ -10,7 +10,7 @@
     "backing": "generated/transcription/backing-active-master-clock.wav",
     "lyricTimingDraft": "generated/lyric-timing-v001.json",
     "timingAnimatic": "generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.mp4",
-    "effectcraftProject": "generated/effectcraft-edit-v006/Let-the-Phone-Book-Sing-editable-v006.ecproj",
+    "effectcraftProject": "generated/effectcraft-edit-v007/Let-the-Phone-Book-Sing-editable-v007.ecproj",
     "effectcraftTimingProject": "generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.ecproj"
   },
   "timeline": "timeline.json",
@@ -37,7 +37,7 @@
     "renderer": "EffectCraft native compositing, motion graphics, editable edit and video export",
     "renderDefaultsStatus": "24 fps / 1920x1080 inherited as provisional production defaults; final cover dimensions undecided",
     "shotPolicy": "Once authored, shots/shotlist.json is the edit authority. Re-plan with tools/shotplan.py --merge; derive frame counts from the timing grid.",
-    "nextWork": "Resume from CONTINUE-HERE.md night checkpoint: May Bloom start frame and motion direction, then new Hedra chorus plate.",
+    "nextWork": "Review May video in v007, then develop fresh Hedra chorus performance.",
     "sceneStatus": "Opening through April has footage; May still placeholder; v006 narrator key/hair cleanup approved.",
     "preview": {
       "fps": 24,

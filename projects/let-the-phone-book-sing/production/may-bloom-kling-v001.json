@@ -1,6 +1,6 @@
 {
-  "status": "downloaded_review_pending",
-  "approved": false,
+  "status": "user_approved",
+  "approved": true,
   "sourceImage": "generated/scene-development/may-bloom-start-v004.png",
   "shotIds": [
     "PB-009",
@@ -28,5 +28,7 @@
     "fps": 24,
     "frames": 193
   },
-  "review": "Sampled frames show correct starter, cap departing before man, man carried left and exiting by about5.5s, May enjoying breeze and gentle camera tightening. His resisting pose appears to lean backward rather than strongly into wind; user should judge motion. No visible watermark in sampled frames. Not inserted into animatic."
+  "review": "Sampled frames show correct starter, cap departing before man, man carried left and exiting by about5.5s, May enjoying breeze and gentle camera tightening. His resisting pose appears to lean backward rather than strongly into wind; user should judge motion. No visible watermark in sampled frames. Not inserted into animatic.",
+  "sourceOffsetFrames": 24,
+  "editFrames": 133
 }

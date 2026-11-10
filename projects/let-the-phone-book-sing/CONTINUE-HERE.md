@@ -1,5 +1,9 @@
 # Let the Phone Book Sing
 
+## Current edit — 9 November 2026
+
+May Bloom Kling v001 is user-approved and inserted into native EffectCraft v007. Current review: generated/effectcraft-edit-v007/animatic-through-may-bloom-1080p.mp4. Source starts at frame24, normal speed, master695–828, with four-frame incoming dissolve; no internal May cut. v006 hair cleanup retained. Open the frame viewer using the launcher below. Next: review May in context, then fresh Hedra chorus plate. This supersedes older May-placeholder notes below.
+
 ## Animatic viewer — added 9 November 2026
 
 Double-click `Review Let the Phone Book Sing.command` at repository root, or run `./.venv/bin/python3 projects/let-the-phone-book-sing/production/open_review.py`. Opens the same shared frame-review UI used for Together Anyways at http://127.0.0.1:8778. Reuses its server on subsequent launches.
