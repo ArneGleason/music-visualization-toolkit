@@ -1,5 +1,7 @@
 # Let the Phone Book Sing
 
+Penny revision: first video rejected because kid exits too quickly. New starter `generated/scene-development/penny-cash-start-v001.png` awaits review: boy taking apple beside crate, Penny farther back with empty hands. New gag: boy dashes off, Penny grabs another apple and hurls it offscreen after him, then looks satisfied. No revised Kling generation submitted. See production/penny-cash-v002.json.
+
 Latest (10 November): Penny Cash Kling v001 completed, downloaded to `generated/kling-tests/penny-cash-v001/penny-original-1080p.mp4` (1916×1080,24fps,193frames;120credits). User approved gag and generation; result awaits review. Kid exits, Penny protests then arranges apple. Camera pulls back rather than requested push. No animatic insertion yet; v012 remains approved current edit. See production/penny-cash-v001.json and prompt.
 
 ## Resume here — approved night checkpoint, 9 November 2026
