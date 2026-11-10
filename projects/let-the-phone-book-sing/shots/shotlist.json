@@ -1035,17 +1035,17 @@
       "status": "approved_direction_test_watermarked"
     },
     {
-      "id": "chorus-one-native-v011",
+      "id": "chorus-one-native-v012",
       "source": "generated/avatar-tests/chorus-one-v001/hedra-original-1080p.mp4",
       "startFrame": 810,
       "endFrameExclusive": 1098,
       "visibleFadeInFrames": [
-        814,
-        822
+        825,
+        830
       ],
       "status": "composite_review",
-      "nativeProject": "generated/effectcraft-edit-v011/Let-the-Phone-Book-Sing-editable-v011.ecproj",
-      "note": "No book, centered85% bottom-aligned, approved native key/hair cleanup duplicated. Master audio unchanged; no measured returned audio lag."
+      "nativeProject": "generated/effectcraft-edit-v012/Let-the-Phone-Book-Sing-editable-v012.ecproj",
+      "note": "No book, centered85% bottom-aligned, approved native key/hair cleanup duplicated. Master audio unchanged; no measured returned audio lag. Singer and Canal background now dissolve together in scene precomp17396; source alignment unchanged."
     }
   ],
   "motionGraphicsTests": [

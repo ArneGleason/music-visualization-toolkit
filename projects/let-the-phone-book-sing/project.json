@@ -10,7 +10,7 @@
     "backing": "generated/transcription/backing-active-master-clock.wav",
     "lyricTimingDraft": "generated/lyric-timing-v001.json",
     "timingAnimatic": "generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.mp4",
-    "effectcraftProject": "generated/effectcraft-edit-v011/Let-the-Phone-Book-Sing-editable-v011.ecproj",
+    "effectcraftProject": "generated/effectcraft-edit-v012/Let-the-Phone-Book-Sing-editable-v012.ecproj",
     "effectcraftTimingProject": "generated/animatic/Let-the-Phone-Book-Sing-lyric-animatic-v001.ecproj"
   },
   "timeline": "timeline.json",
@@ -48,7 +48,7 @@
     },
     "visualBrief": "visual-development/cover-and-video-brief.txt",
     "coverDevelopment": {
-      "listing": "Wait, Patience — 1 Pleasant Avenue, upstairs — 109-1009",
+      "listing": "Wait, Patience \u2014 1 Pleasant Avenue, upstairs \u2014 109-1009",
       "selectionStatus": "user_developing_patience_wait",
       "residentSituation": "Impatient woman, always late, rushing to get ready for work",
       "generationStatus": "user_approved_song_cover",
@@ -95,7 +95,7 @@
       "prompt": "character-development/patience-wait-reference-v001.prompt.txt",
       "notes": "character-development/patience-wait-reference-v001.notes.txt",
       "status": "first_pass_for_review",
-      "role": "Patience Wait — exaggerated tall/angular always-late resident; two body poses and three expressions",
+      "role": "Patience Wait \u2014 exaggerated tall/angular always-late resident; two body poses and three expressions",
       "currentUse": true
     },
     {

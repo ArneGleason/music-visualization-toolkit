@@ -1,5 +1,5 @@
 {
-  "status": "native_composite_v011_review",
+  "status": "native_composite_v012_review",
   "model": "Hedra Avatar",
   "resolution": "1080p",
   "sourceImage": "generated/avatar-tests/chorus-one-v001/narrator-green.png",
@@ -9,7 +9,7 @@
   "startFrame": 810,
   "endFrameExclusive": 1120,
   "vocalEndFrameExclusive": 1096,
-  "audioTail": "One second appended silence after frame1096; exclude next Penny lyric. Source is clean de-echo/de-reverb solo lead,48kHz; trim samples1620000–2191999, append48000samples. No time stretching.",
+  "audioTail": "One second appended silence after frame1096; exclude next Penny lyric. Source is clean de-echo/de-reverb solo lead,48kHz; trim samples1620000\u20132191999, append48000samples. No time stretching.",
   "leadIn": "Half second before user-identified improvised O at master822. Narrator needs visibility during approach to chorus background at828, not delayed to main lyric848.",
   "imageDirection": "Match approved opening face and visible upper teeth; mouth naturally slightly open. Remove book; both arms relaxed slightly out, softly bent elbows and open hands at waist level. Same cardigan, denim, detailed ink-and-paint; centered mid-thigh framing, flat green, clearance for gestures.",
   "prompt": "A warm mischievous singer performs the supplied vocal, including the opening improvised O. From the lead-in she is physically engaged with buoyant rhythmic shoulders, a small relaxed side-to-side bop and expressive head tilts. Her empty hands begin low and open and make natural alternating inviting gestures, occasionally lifting one palm to punctuate a phrase, then relaxing again. She enjoys discovering a song in ordinary names; amused confidence and direct audience connection. Preserve this exact illustrated facial identity, lip shape and visible natural dentition; do not redesign her teeth. Follow the audio for all mouth activity. In vocal pauses and the silent tail, keep subtle breathing and body rhythm but let her mouth rest naturally. No phone book or other props. Fixed medium-wide camera, no zoom, pan or cuts. Keep full hair and hands in frame and the uniform green background unchanged. Preserve fine curls, cream cardigan and denim. One performer only, no text or added objects.",
@@ -28,14 +28,14 @@
   "review": "Sampled frames show open-mouth singing, head tilts and changing hand gestures; no book, green background. Teeth visible. Detailed dentition and audio alignment still need review; not composited yet.",
   "returnedAudioLagSeconds": 0.0,
   "nativeComposite": {
-    "project": "generated/effectcraft-edit-v011/Let-the-Phone-Book-Sing-editable-v011.ecproj",
+    "project": "generated/effectcraft-edit-v012/Let-the-Phone-Book-Sing-editable-v012.ecproj",
     "precomp": 17369,
     "plateLayer": 17312,
     "masterLayer": 17371,
     "sourceStartMasterFrame": 810,
     "fadeInFrames": [
-      814,
-      822
+      825,
+      830
     ],
     "outFrameExclusive": 1098,
     "scalePercent": 85,
@@ -43,6 +43,9 @@
       960,
       621
     ],
-    "key": "Duplicated approved opening key, ink stroke and hair-only adjustment; original opening untouched."
+    "key": "Duplicated approved opening key, ink stroke and hair-only adjustment; original opening untouched.",
+    "scenePrecomp": 17396,
+    "sceneMasterLayer": 17397,
+    "transition": "Whole singer/background composite dissolves together; visible from frame826, fully visible830. Source alignment810 unchanged."
   }
 }

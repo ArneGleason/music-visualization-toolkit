@@ -1,5 +1,7 @@
 # Let the Phone Book Sing
 
+Latest review: **v012** groups chorus singer and Canal backgrounds into one native EffectCraft scene (comp17396, master layer17397). The whole scene uses the existing entrance dissolve825–830 (visible826); singer no longer appears over May ahead of the scene. Vocal source alignment810, key/hair cleanup, background join and musical cuts remain unchanged. Viewer points to v012; awaiting transition review.
+
 ## Latest composite review — v011
 
 Chorus singer composited natively using duplicated approved opening Screen Key, ink outline and hair-only cleanup. Centered85%, bottom-aligned; peripheral wheel/cafe action remains visible. Source maps to master810, fades in814–822 for improvised O before background transition828. Out1098 under Penny dissolve; v010 six-frame background join retained. Returned audio cross-correlation lag0.0s. Viewer is v011 through Penny51.25s. Await visual review; opening and May untouched.
