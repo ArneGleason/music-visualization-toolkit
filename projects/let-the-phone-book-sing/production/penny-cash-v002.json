@@ -1,5 +1,5 @@
 {
-  "status": "submitted",
+  "status": "downloaded_awaiting_review",
   "starter": "generated/scene-development/penny-cash-start-v001.png",
   "tool": "built-in imagegen",
   "reference": "generated/scene-development/penny-cash-situation-v003.png",
@@ -16,5 +16,13 @@
   "resolution": "1080p",
   "seconds": 8,
   "creditsDisplayed": 120,
-  "promptFile": "production/penny-cash-v002.prompt.txt"
+  "promptFile": "production/penny-cash-v002.prompt.txt",
+  "download": "generated/kling-tests/penny-cash-v002/penny-original-1080p.mp4",
+  "sha256": "fa4801b3a11a89b521be7b207a341c2600a86a1ecb511444063dafd30a35ccd3",
+  "width": 1916,
+  "height": 1080,
+  "frames": 193,
+  "sourceFps": 24,
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=949127232482586657&materialId=326289566302053",
+  "review": "Sampled frames show readable apple withdrawal and glance, boy running down right-side pavement into depth, Penny grabbing a second apple, large overarm throw/follow-through, then satisfied recovery. Camera widens versus requested minimal push. User review pending; no insertion or further generation."
 }
