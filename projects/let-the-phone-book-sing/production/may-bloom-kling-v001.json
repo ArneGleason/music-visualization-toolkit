@@ -1,0 +1,23 @@
+{
+  "status": "submitted_generating",
+  "approved": false,
+  "sourceImage": "generated/scene-development/may-bloom-start-v004.png",
+  "shotIds": [
+    "PB-009",
+    "PB-010"
+  ],
+  "startFrame": 695,
+  "endFrameExclusive": 828,
+  "fps": 24,
+  "requestedGenerationSeconds": 8,
+  "resolution": "1080p",
+  "model": "Kling 4.0",
+  "prompt": "One continuous eight-second shot at natural real-time speed, starting exactly from the supplied image. Two original illustrated characters: sturdy blue-haired repairwoman May at right, and a tiny wiry centenarian at far left, yellow T-shirt, suspenders, high-waisted short linen trousers, oversized shoes, gray flat cap and thin upward-curled white mustache. He holds a brown paper bag with a baguette. Preserve identities, proportions, clothes, open roll-up garage shop, number5, phone, fan and bench.\nMOTIVATION: May confidently tests her successful repair, then enjoys its breeze, oblivious to the passerby. He shuffles home from his daily bakery trip, stubbornly determined to get his bread home with dignity.\n0–1s: moving lead-in. He takes small slow shuffling steps toward SCREEN RIGHT, feet close together, bag tucked securely under one arm. May looks at the switch and completes her reach; no frozen start. 1–1.7s: May clicks the base switch and withdraws her hand. Blades spin inside stationary grille; fan stays fixed aimed LEFT. Her blue curls lift toward SCREEN LEFT, body planted.\n1.7–2.5s: his flat cap is caught FIRST and flies away SCREEN LEFT, revealing sparse white hair. He makes one short annoyed grab with his free hand, misses, protects bread. Cap exits fully and stays gone.\n2.5–5.8s: strong comic wind from RIGHT TO LEFT billows lightweight trousers. He leans torso toward SCREEN RIGHT INTO the headwind, determined to walk forward. His huge shoes take tiny resisting steps but his whole body gradually SLIDES BACKWARD SCREEN LEFT across pavement until he actually exits left edge. Keep him grounded and upright, no flying, falling or injury. Bag and baguette remain in his possession. Show continuous travel, not fading, teleporting, duplication or camera cropping as a substitute for exit.\nMeanwhile May stays sturdy and planted, relaxes into a gap-toothed smile, closes eyes and lifts chin to enjoy breeze. Curls and loose clothing flutter, no recoil. 5.8–8s: passerby fully offscreen left. May remains blissfully unaware, small contented shoulder settling and living hair motion through tail. No frozen ending.\nCAMERA: subtle smooth physical push toward May, only about5–8% tightening overall, slight parallax between bench and workshop. Minimal early movement; keep man and actual exit readable. Continue gentle push into her delighted reaction after he leaves. No cut, dramatic pan or orbit. Keep fan, number5 and phone recognizable. No extra people, flying tools, speech, music, captions or drawn airflow streaks. Preserve graphic-novel contours and painted detail, coherent hands and fixed architecture.\nComplete core action before6seconds. One second moving lead and at least one second living tail allow approximately5.5-second musical edit to slip without shifting song cuts.\nPROMPT LOCK: Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "referenceVerifiedBeforeSubmission": true,
+  "submitted": true,
+  "notes": "Correct v004 filename and loaded first-frame thumbnail visually verified in signed-in Arne Chrome profile before submission. Kling4.0,1080p,8s,one output; aspect ratio follows reference. Pro plan. Awaiting result; do not resubmit.",
+  "chargedCredits": 120,
+  "submissionDate": "2026-11-09",
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=948922981865750543&materialId=326240868304850"
+}

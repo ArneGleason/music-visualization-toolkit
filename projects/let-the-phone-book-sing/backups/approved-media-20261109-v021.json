@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/scene-development"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/liberty-bell-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/narrator-opening-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v004.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/rich-cash-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/narrator-opening-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/belle-bell-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/april-bloom-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/april-bloom-start-v001.png"
+  ],
+  "scope": "Approved May Bloom v004 starter: converted garage, elderly baguette carrier at left, room for headwind gag. Video trial is not approved and is excluded.",
+  "tag": "let-the-phone-book-sing-approved-20261109-v021",
+  "archive": "let-the-phone-book-sing-approved-20261109-v021.zip",
+  "sha256": "9134e35d6bd56e9cb53a4d5e99a790aac9a196165f9c9ef2489694059c6e7801",
+  "bytes": 2885162,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v004.png",
+      "bytes": 2909426,
+      "sha256": "c652265a25d323932622653368435af7fe3ff18b749737236664cf5da4591cd4"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261109-v021/let-the-phone-book-sing-approved-20261109-v021.zip"
+}
