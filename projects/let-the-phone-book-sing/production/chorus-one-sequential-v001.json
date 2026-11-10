@@ -1,5 +1,5 @@
 {
-  "status": "wheel_downloaded_awaiting_review_coffee_pending",
+  "status": "wheel_approved_coffee_submitted",
   "approved": false,
   "model": "Kling 4.0",
   "resolution": "1080p",
@@ -19,10 +19,19 @@
     "frames": 145,
     "fps": 24,
     "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=948933096484372505&materialId=326243280311451",
-    "review": "Sampled frames show wheel lifted, turned horizontal and balanced, returned upright near end. Plant lady gestures then returns to tending; server straightens and waits. Camera appears stable. User review pending; no coffee generation submitted."
+    "review": "Sampled frames show wheel lifted, turned horizontal and balanced, returned upright near end. Plant lady gestures then returns to tending; server straightens and waits. Camera appears stable. User review pending; no coffee generation submitted.",
+    "approved": true,
+    "approvalNote": "User approved wheel take and specifically chose exact last frame as next starter."
   },
   "coffee": {
-    "status": "awaiting_clean_frame_from_wheel"
+    "status": "submitted_creating",
+    "sourceImage": "generated/kling-tests/chorus-one-v001/coffee-start-last-frame.png",
+    "sourceFrame": 144,
+    "seconds": 8,
+    "promptFile": "production/chorus-one-coffee-v001.prompt.txt",
+    "creditsDisplayed": 120,
+    "referenceVerifiedBeforeSubmission": true,
+    "overlapNote": "User accepts exact last frame because already submitted. Future continuations should use frame six frames before end at24fps for quarter-second overlap. Evaluate straight join first on current trial."
   },
   "editIntent": "Two sequential full-frame locked camera takes; select settled handoff frame from wheel result as coffee first frame. Fit both within existing 268-frame chorus, retain overlap for optional four-frame dissolve. Do not change May timing. No narrator generation yet.",
   "userDirection": "Wheel flourish first; plant lady de-spidering as secondary business. Cafe customer then secretly pours Kahlua into mug while server turns away, accidentally overfills and bends to recover overflow. Rumpled original laid-back character, not celebrity likeness. White glasses emphasized."
