@@ -1,0 +1,20 @@
+{
+  "status": "rich_panic_revision_pending_user_review",
+  "nativeProject": "generated/effectcraft-edit-v024/Let-the-Phone-Book-Sing-editable-v024.ecproj",
+  "masterFrames": [
+    1488,
+    1650
+  ],
+  "revealFrames": [
+    1500,
+    1524
+  ],
+  "plates": {
+    "rich": {
+      "layer": 19573,
+      "sourceOffsetFrames": 24,
+      "source": "generated/kling-tests/penny-chase-rich-v002/rich-original-1080p.mp4"
+    }
+  },
+  "preservedPennyFrom": "production/penny-split-v002.json"
+}
