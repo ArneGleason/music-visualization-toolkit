@@ -1,5 +1,5 @@
 {
-  "status": "rich_panic_revision_pending_user_review",
+  "status": "approved_in_animatic",
   "nativeProject": "generated/effectcraft-edit-v024/Let-the-Phone-Book-Sing-editable-v024.ecproj",
   "masterFrames": [
     1488,
@@ -16,5 +16,6 @@
       "source": "generated/kling-tests/penny-chase-rich-v002/rich-original-1080p.mp4"
     }
   },
-  "preservedPennyFrom": "production/penny-split-v002.json"
+  "preservedPennyFrom": "production/penny-split-v002.json",
+  "approvalNote": "User approved final Rich comic-panic performance and split composite on 2026-11-11."
 }

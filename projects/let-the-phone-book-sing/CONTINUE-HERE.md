@@ -1,3 +1,12 @@
+## PAUSED — approved checkpoint, 2026-11-11
+
+Penny Chase / Rich Cash phone scene PB-018 is APPROVED, including revised Rich v002 comic panic (sweating, pleading, alarmed; no happy recovery). Penny v002 performance remains approved. Keeper is native EffectCraft v024 and generated/effectcraft-edit-v024/animatic-penny-rich-panic-1080p.mp4. Viewer http://127.0.0.1:8778 uses that render. No generations are pending. Construction scripts, prompts, shotlist and notes are in Git; large generated images/video/native projects remain local under generated/ per repository policy.
+
+When user returns: say we finished and approved the Penny/Rich diagonal phone scene. Next is CHORUS 2, starting PB-019 at master frame1650 /68.750s. Continue linearly: review the chorus timing and plan narrator performance/background activity before generating. PB-019 and PB-020 currently use old Church narrator placeholder stills, not approved final chorus staging. Current review render ends just before this chorus. Preserve approved phone edit: PB-018 frames1488–1650; diagonal reveal1500–1524; Penny sourceoffset12frames, Rich24frames. Do not reopen the rejected smiling Rich take or resubmit jobs based on historical notes below.
+
+---
+Historical development log follows; earlier pending/queued instructions are superseded by the checkpoint above.
+
 ## Current review — Rich comic panic v024
 
 Rich v002 completed sooner than Kling's two-hour estimate. Downloaded original native1080p to generated/kling-tests/penny-chase-rich-v002/rich-original-1080p.mp4. Sampled4s/8s show sweat, alarmed wide eyes and pleading gestures, panic maintained near ending. Inserted ONLY Rich in native EffectCraft v024; approved Penny unchanged. Sourceoffset24frames; master1488–1650 and diagonal reveal1500–1524 unchanged. Viewer uses generated/effectcraft-edit-v024/animatic-penny-rich-panic-1080p.mp4. Pending user approval. See production/penny-split-v003.json and penny-chase-rich-kling-v002.json. Next: review this revision, then continue linearly. Previous v023 retains rejected smiling Rich for comparison.
