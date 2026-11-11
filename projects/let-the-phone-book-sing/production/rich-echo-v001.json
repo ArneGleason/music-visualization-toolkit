@@ -1,0 +1,39 @@
+{
+  "status": "draft_for_music_review",
+  "text": "1,000",
+  "concept": "Three absurd golf-score stamps on open left green; same visual bookend as Penny, clear of throw and cat.",
+  "events": [
+    {
+      "masterFrame": 1321,
+      "masterSeconds": 55.041666666666664,
+      "position": [
+        270,
+        650
+      ]
+    },
+    {
+      "masterFrame": 1330,
+      "masterSeconds": 55.416666666666664,
+      "position": [
+        320,
+        785
+      ]
+    },
+    {
+      "masterFrame": 1338,
+      "masterSeconds": 55.75,
+      "position": [
+        370,
+        920
+      ]
+    }
+  ],
+  "timingMethod": "Approximate stereo waveform matching around 55.05,55.395,55.746 seconds, rounded to24fps. Final sync subject to listening review.",
+  "layers": [
+    17647,
+    17704,
+    17761
+  ],
+  "nativeProject": "generated/effectcraft-edit-v017/Let-the-Phone-Book-Sing-editable-v017.ecproj",
+  "previousProject": "generated/effectcraft-edit-v016/Let-the-Phone-Book-Sing-editable-v016.ecproj"
+}

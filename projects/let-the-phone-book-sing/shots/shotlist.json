@@ -1274,10 +1274,17 @@
   "motionGraphics": [
     {
       "id": "penny-10-echo-v001",
-      "status": "draft_review",
+      "status": "approved",
       "config": "production/penny-echo-v001.json",
       "startFrame": 1206,
       "endFrameExclusive": 1232
+    },
+    {
+      "id": "rich-1000-echo-v001",
+      "status": "draft_review",
+      "config": "production/rich-echo-v001.json",
+      "startFrame": 1321,
+      "endFrameExclusive": 1357
     }
   ]
 }
