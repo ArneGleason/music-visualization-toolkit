@@ -1,3 +1,7 @@
+## Current draft — Penny Chase split still test v022
+
+User requested testing still composition before two Kling generations. Native EffectCraft v022 replaces PB-018 placeholder with Penny centered then sliding left, and closer Rich phone starter sliding into diagonal right half. Reveal begins master1500 (0.5s into scene) and finishes1524 (1.5s). Musical bounds1488–1650 unchanged. NO phone footage generated. Penny young petite/pink hair/petrol blazer approved. Rich closer starter selected, wide alternate rejected for this use. New gag: cheerful Penny unintentionally terrifies Rich with apparent knowledge of his secrets; no cat phone handoff. Review framing/timing, then generate independent fixed-camera performances with handles. See production/penny-split-v001.json and penny-chase-phone-starters-v001.json. v021 remains prior approved animatic.
+
 ## Approved checkpoint — MILES echoes v021
 
 Added three native MILES word echoes at master1372,1380,1390, approximately matched to stereo vocal delays. Same receding arcs, cream/teal/coral palette, irregular lettering and amplitude swell as BELLE, repositioned over open canal right. Native glyphs move together as readable words. No video slip or cut changes. User approved the MILES echo treatment and current animatic. v021 is the keeper; v020 is the clean fallback. Next: develop Penny Chase, continuing linearly. See production/miles-echo-v001.json and miles_echo_v021.py.

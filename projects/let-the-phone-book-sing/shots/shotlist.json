@@ -451,19 +451,19 @@
     {
       "id": "PB-018",
       "startAnchor": "line-014:start",
-      "title": "Penny Chase — skit to develop",
+      "title": "Penny Chase — phone pitch / split-screen still test",
       "type": "still-blocking",
-      "image": "generated/environment-development/financial-district-v004.png",
-      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "image": "generated/scene-development/penny-chase-phone-start-v001.png",
+      "description": "Petite pink-haired aspiring interviewer Penny pitches enthusiastically on phone. Rich becomes terrified that she knows damaging secrets. No cat handoff. Independent stationary plates; Penny alone0.5s, smooth diagonal slide reveal finishes1.5s. Current review uses stills only.",
       "crop": [
         0,
         0,
         1,
         1
       ],
-      "placeholder": true,
+      "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "split_still_test_pending_review",
       "batch": "visual-animatic-v001",
       "startFrame": 1488,
       "endFrameExclusive": 1650,
@@ -471,7 +471,8 @@
       "startSeconds": 62.0,
       "endSeconds": 68.75,
       "start": "25.1.444",
-      "end": "27.3.148"
+      "end": "27.3.148",
+      "productionRecord": "production/penny-split-v001.json"
     },
     {
       "id": "PB-019",
