@@ -1,5 +1,5 @@
 {
-  "status": "completed_pending_user_review",
+  "status": "approved_take_inserted_edit_review",
   "model": "Kling 4.0",
   "durationSeconds": 8,
   "resolution": "1080p",
@@ -21,5 +21,18 @@
     "frames": 193,
     "durationSeconds": 8.041666666666666
   },
-  "reviewNotes": "Sampled frames show approach, clear flower offer and handover, Belle holding flower and shared smiles. Push is stronger than requested eight percent, ending around thigh/waist framing. No animatic insertion yet; preserve original for user review."
+  "reviewNotes": "Sampled frames show approach, clear flower offer and handover, Belle holding flower and shared smiles. Push is stronger than requested eight percent, ending around thigh/waist framing. No animatic insertion yet; preserve original for user review.",
+  "edit": {
+    "nativeVersion": "v020",
+    "layer": 18503,
+    "sourceOffsetFrames": 48,
+    "masterFrames": [
+      1355,
+      1488
+    ],
+    "sourceFramesInclusive": [
+      48,
+      180
+    ]
+  }
 }

@@ -1,3 +1,7 @@
+## Current animatic — v020 with Miles
+
+User approved Miles v001. Inserted at master1355–1488, source48–180 at24fps, native layer18503. Both musical boundaries and existing dissolves unchanged. Review extends through the next Penny Chase placeholder (not a developed skit), ending before chorus2. Native v020 and animatic-through-miles-1080p.mp4; viewer config updated. Next: review Miles timing with music, then develop Penny Chase linearly.
+
 ## Miles Chase — take v001 ready for review
 
 Approved starter v004: Belle close beside Miles, plum exercise tracksuit, no bag. Miles already holds the coral flower because he expects her daily walk. One short approach, offer, acceptance and delighted reaction. Gentle push toward both characters. This supersedes distant approach/picking flower and extreme close ending. Kling4.0 eight-second1080p take completed for120credits after visually verifying starter. Original saved in generated/kling-tests/miles-chase-v001/miles-original-1080p.mp4 (1916x1080,24fps,193frames). Sampled frames show successful flower handover and shared smiles; push is stronger than requested. Await user review; not yet inserted. See production/miles-chase-kling-v001.json. PB-017 remains master1355–1488 (133frames at24fps); current rendered animatic v019 still has old placeholder until insertion.
