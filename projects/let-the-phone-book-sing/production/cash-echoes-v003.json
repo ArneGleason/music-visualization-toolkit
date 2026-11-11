@@ -1,0 +1,49 @@
+{
+  "status": "draft_review",
+  "concept": "Larger bold whole numerals: 10 projects toward foreground-right along apple flight; 1,000 sweeps left after club. Continuous arcs, perspective and moving fades. Same echo onsets, fade ends at scene boundary.",
+  "events": [
+    {
+      "character": "penny",
+      "text": "10",
+      "layer": 18160,
+      "startFrame": 1206,
+      "endFrameExclusive": 1226
+    },
+    {
+      "character": "penny",
+      "text": "10",
+      "layer": 18217,
+      "startFrame": 1214,
+      "endFrameExclusive": 1232
+    },
+    {
+      "character": "penny",
+      "text": "10",
+      "layer": 18274,
+      "startFrame": 1222,
+      "endFrameExclusive": 1232
+    },
+    {
+      "character": "rich",
+      "text": "1,000",
+      "layer": 18331,
+      "startFrame": 1321,
+      "endFrameExclusive": 1341
+    },
+    {
+      "character": "rich",
+      "text": "1,000",
+      "layer": 18388,
+      "startFrame": 1330,
+      "endFrameExclusive": 1350
+    },
+    {
+      "character": "rich",
+      "text": "1,000",
+      "layer": 18445,
+      "startFrame": 1338,
+      "endFrameExclusive": 1357
+    }
+  ],
+  "nativeProject": "generated/effectcraft-edit-v019/Let-the-Phone-Book-Sing-editable-v019.ecproj"
+}

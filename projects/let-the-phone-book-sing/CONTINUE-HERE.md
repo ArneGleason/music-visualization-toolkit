@@ -1,3 +1,7 @@
+## Prop-flight echoes — v019
+
+User preferred earlier bold size over v018 faint drift, requested 10 following apple and 1,000 following club. v019 uses large intact numerals on continuous directional arcs: Penny toward foreground-right with perspective growth; Rich leftward after club. Moving fade, no held stack. Onsets unchanged; echoes finish at scene transitions. Native editable v019 is current review; previous versions preserved.
+
 ## Echo motion revision — v018
 
 User found 10/1,000 too stamp-like and held too long. Replaced both with13-frame soft pulses, continuous curved drift, slight size undulation and immediate individual fade. Same echo onset frames, no footage or music timing changes. Old native layers disabled, v017 preserved. Review is cued to Penny; Rich follows.

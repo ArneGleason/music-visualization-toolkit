@@ -1288,8 +1288,13 @@
     },
     {
       "id": "cash-echoes-v002",
-      "status": "draft_review",
+      "status": "superseded_by_cash_echoes_v003",
       "config": "production/cash-echoes-v002.json"
+    },
+    {
+      "id": "cash-echoes-v003",
+      "status": "draft_review",
+      "config": "production/cash-echoes-v003.json"
     }
   ]
 }
