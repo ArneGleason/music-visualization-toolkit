@@ -1,0 +1,25 @@
+{
+  "status": "completed_pending_user_review",
+  "model": "Kling 4.0",
+  "durationSeconds": 8,
+  "resolution": "1080p",
+  "credits": 120,
+  "starter": "generated/scene-development/miles-chase-start-v004.png",
+  "referenceVerified": true,
+  "prompt": "One continuous eight-second shot at natural real-time speed, starting exactly from the supplied image. Preserve Miles at LEFT, his lean older face, visor, plum singlet, navy running shorts and tall socks; Belle at RIGHT, her mature face and beauty mark, silver-streaked bob, earrings and plum tracksuit. Preserve the canal-side home, garden, number26 and cream telephone.\nMOTIVATION: Miles knows Belle passes his house on her daily walk. He has already picked the single coral flower and waits with it held low, hopeful and a little bashful. Belle enjoys his charming daily attention. Warm, lightly comic flirtation.\n0\u20131s: living lead-in; Belle begins one short relaxed step TOWARD CAMERA along the sidewalk, parallel to the canal. Miles brightens on seeing her, straightens slightly and keeps the flower in its existing hand. No frozen start.\n1\u20132.5s: Belle takes just one more short step, slows beside Miles within easy arm's reach and turns her face toward him. She stays on the sidewalk near the house, never walking sideways toward water or past him out of frame. Miles raises and extends the SAME flower naturally toward her with a hopeful little smile.\n2.5\u20134.5s: Belle looks at the flower, then meets his eyes with an amused affectionate smile. She reaches with the hand nearest him and gently takes the stem. Show a clear physical handover: her fingers grasp it, then his fingers release; one flower only, no duplication, disappearance or hand switching.\n4.5\u20136.3s: Belle holds the flower near her chest and gives him a small appreciative head tilt. Miles's restrained hopeful expression opens into delighted, slightly bashful pride, shoulders relaxing. Let this warm reaction read clearly.\n6.3\u20138s: continue their shared look with small natural breathing and relaxed movement, no repeated offer, no frozen ending.\nCAMERA: slow gentle continuous physical push toward the PAIR, only about8percent tighter overall, with subtle natural parallax. Keep both faces and the flower exchange comfortably visible throughout. End slightly tighter, not an extreme close-up. No cuts, orbit, pullback or sudden acceleration. Preserve mature ink-and-painted detail, coherent hands, rigid architecture and grounded feet. Exactly these two people. No bag, new props, captions, dialogue or music. Main action completed by6.3seconds, with moving lead and living tail for a133-frame musical edit at24fps; musical boundaries will not move.\nPROMPT LOCK: Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "masterFrames": [
+    1355,
+    1488
+  ],
+  "fps": 24,
+  "source": "generated/kling-tests/miles-chase-v001/miles-original-1080p.mp4",
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=949332692917694556&materialId=326338551520636",
+  "observed": {
+    "width": 1916,
+    "height": 1080,
+    "fps": 24,
+    "frames": 193,
+    "durationSeconds": 8.041666666666666
+  },
+  "reviewNotes": "Sampled frames show approach, clear flower offer and handover, Belle holding flower and shared smiles. Push is stronger than requested eight percent, ending around thigh/waist framing. No animatic insertion yet; preserve original for user review."
+}

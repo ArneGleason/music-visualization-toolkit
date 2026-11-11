@@ -1,0 +1,44 @@
+{
+  "status": "approved_starter",
+  "cameraDirection": "Slow, gentle continuous camera push toward the pair throughout the shot, ending only slightly tighter. Keep both faces and the flower exchange clearly framed, centered between the characters. Subtle natural parallax, steady movement, no sudden acceleration or dramatic close-up. User approved starter v004 and requested this modest push.",
+  "starter": "generated/scene-development/miles-chase-start-v004.png",
+  "prompt": "Edit this exact illustrated scene as the revised START FRAME of a short romantic comic encounter. Preserve these exact two character identities, facial features, clothing, body types, architecture, sunlight, canal on right, open gate left, visible 26 plaque and bulky cream 1980s/90s cordless touch-tone telephone in its cradle on left shelf. Landscape 16:9.\nTwo essential changes:\n1. Bring Belle significantly FORWARD along the sidewalk toward camera and closer to Miles, so she is only one or two short relaxed steps away from being beside him: approximately one metre remaining, not several metres back. Her feet should be close to the foreground gate's ground plane, slightly behind Miles's feet. Move her somewhat toward the house-side half of sidewalk so the flower exchange will be within easy reach. She remains facing and walking TOWARD VIEWER along the length of the sidewalk, PARALLEL to canal, never sideways toward the water. Short gentle walking stride, no running, empty relaxed hands, glancing warmly to her right/screen left at Miles. Preserve her mature round face, left cheek beauty mark, silver-streaked dark waved bob, earrings, burgundy/plum velour tracksuit with coral collar and thin gold piping, cream and plum sneakers. Plausible scale for her shorter stature, not tiny from distance.\n2. Miles has ALREADY picked ONE coral-pink daisy-like flower and holds its green stem low in his RIGHT hand at hip height, the hand nearest Belle, bloom clearly visible against his navy shorts or quiet background. He is waiting expectantly because he knows her daily walking routine, face brightening as she arrives. He is not yet reaching out to offer it. Natural hand grip on stem, anatomically coherent fingers. His other hand relaxed. Remove the conspicuous single matching large coral flower growing next to him so it is clearly the one now in his hand; retain ordinary garden flowers.\nKeep both full bodies visible and sufficient clear space between them for a later offer. This is a compact medium-wide composition for a five-second scene; no distant approach required. No new people, no bag, no text except existing 26 and telephone keys. Preserve mature graphic-novel detailed faces and clean dark outlines, layered quieter backgrounds.\nPROMPT LOCK: Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "supersedes": "v003 distant approach and flower-picking action; previous extreme close ending is not required",
+  "masterFrames": [
+    1355,
+    1488
+  ],
+  "fps": 24,
+  "direction": "One continuous shot. Miles expects Belle on her daily walk and already holds a flower low. Belle approaches along sidewalk toward camera, within one or two steps. He offers, she slows and accepts with warm amused smile; he is delighted. Gentle camera approach only. Preserve musical cut timing.",
+  "approximateActingBeats": [
+    {
+      "seconds": [
+        0,
+        1.5
+      ],
+      "action": "Short approach and Miles brightens."
+    },
+    {
+      "seconds": [
+        1.5,
+        3
+      ],
+      "action": "Miles offers; Belle glances and slows."
+    },
+    {
+      "seconds": [
+        3,
+        4.5
+      ],
+      "action": "Belle accepts flower with smile."
+    },
+    {
+      "seconds": [
+        4.5,
+        5.5417
+      ],
+      "action": "Warm shared look with small continuing movement."
+    }
+  ],
+  "videoSubmitted": false
+}

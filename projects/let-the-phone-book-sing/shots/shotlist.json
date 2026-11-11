@@ -410,19 +410,19 @@
     {
       "id": "PB-017",
       "startAnchor": "line-013:start",
-      "title": "Miles Chase — skit to develop",
+      "title": "Miles Chase — flower for Belle",
       "type": "still-blocking",
-      "image": "generated/environment-development/canal-district-v008.png",
-      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "image": "generated/scene-development/miles-chase-start-v004.png",
+      "description": "Miles expects Belle on her daily walk and already holds a coral flower low. Belle takes one or two short steps toward camera along the canal sidewalk; he offers, she accepts with an affectionate amused smile, and he looks bashfully delighted. Gentle continuous push toward both characters, ending only slightly tighter. Preserve the telephone and number26; no flower picking or rubbish bag.",
       "crop": [
         0,
         0,
         1,
         1
       ],
-      "placeholder": true,
+      "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "starter_approved_video_pending_review",
       "batch": "visual-animatic-v001",
       "startFrame": 1355,
       "endFrameExclusive": 1488,
@@ -430,7 +430,8 @@
       "startSeconds": 56.458333333333336,
       "endSeconds": 62.0,
       "start": "23.1.463",
-      "end": "25.1.444"
+      "end": "25.1.444",
+      "productionRecord": "production/miles-chase-kling-v001.json"
     },
     {
       "id": "PB-018",
