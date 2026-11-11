@@ -362,8 +362,8 @@
       "startAnchor": "line-012:start",
       "title": "Rich Cash — situation",
       "type": "still-blocking",
-      "image": "generated/scene-development/rich-cash-situation-v001.png",
-      "description": "Miss tiny putt; check doorway; shoe nudges ball to cup. Insert isolates shoe/ball/cup.",
+      "image": "generated/scene-development/rich-cash-start-v003.png",
+      "description": "Continuous approved Rich golf take: putt miss, shoe cheat, second miss, irate club throw; judgmental Siamese. PB-016 is a navigation beat, no internal cut.",
       "crop": [
         0,
         0,
@@ -372,7 +372,7 @@
       ],
       "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "approved_take_edit_review",
       "batch": "visual-animatic-v001",
       "startFrame": 1230,
       "endFrameExclusive": 1297,
@@ -387,17 +387,17 @@
       "startAnchor": "22.2",
       "title": "Rich Cash — closer beat",
       "type": "still-blocking",
-      "image": "generated/scene-development/rich-cash-situation-v001.png",
-      "description": "Miss tiny putt; check doorway; shoe nudges ball to cup. Insert isolates shoe/ball/cup. Editorial crop only; not newly generated action.",
+      "image": "generated/scene-development/rich-cash-start-v003.png",
+      "description": "Continuous approved Rich golf take: putt miss, shoe cheat, second miss, irate club throw; judgmental Siamese. PB-016 is a navigation beat, no internal cut.",
       "crop": [
-        0.24,
-        0.54,
-        0.7,
+        0,
+        0,
+        1,
         1
       ],
       "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "approved_take_edit_review",
       "batch": "visual-animatic-v001",
       "startFrame": 1297,
       "endFrameExclusive": 1355,
@@ -1232,6 +1232,15 @@
       "endFrameExclusive": 1230,
       "status": "approved_take_edit_review",
       "editNote": "Native v014 layer17423; source slipped24frames later for satisfied ending. Musical boundaries and dissolves unchanged."
+    },
+    {
+      "id": "rich-cash-v001",
+      "source": "generated/kling-tests/rich-cash-v001/rich-original-1080p.mp4",
+      "sourceOffsetFrames": 92,
+      "startFrame": 1230,
+      "endFrameExclusive": 1355,
+      "status": "approved_take_edit_review",
+      "editNote": "One continuous shot across PB-015/016. Native v015 layer17450, source92–216; 24-frame tail. Musical boundaries unchanged."
     }
   ],
   "echoStyleDirection": {

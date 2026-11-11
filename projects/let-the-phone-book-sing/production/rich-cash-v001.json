@@ -1,0 +1,33 @@
+{
+  "status": "approved_take_inserted_for_music_review",
+  "starter": "generated/scene-development/rich-cash-start-v003.png",
+  "starterApproved": true,
+  "promptFile": "production/rich-cash-v001.prompt.txt",
+  "plannedSeconds": 10,
+  "plannedResolution": "1080p",
+  "masterFrames": [
+    1230,
+    1355
+  ],
+  "note": "User approved source. Inserted ending one second before source end, preserving throw and fixed music timing.",
+  "model": "Kling 4.0",
+  "seconds": 10,
+  "resolution": "1080p",
+  "creditsDisplayed": 150,
+  "referenceVerifiedBeforeSubmission": true,
+  "approved": true,
+  "download": "generated/kling-tests/rich-cash-v001/rich-original-1080p.mp4",
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=949314255663939620&materialId=326334155523833",
+  "sha256": "24082b09e2ddb45d38fdbc6f205bd90135699a56e5dc267992cbddc805646d37",
+  "edit": {
+    "nativeProject": "generated/effectcraft-edit-v015/Let-the-Phone-Book-Sing-editable-v015.ecproj",
+    "layer": 17450,
+    "startFrame": 1230,
+    "endFrameExclusive": 1355,
+    "sourceOffsetFrames": 92,
+    "sourceEndFrameExclusive": 217,
+    "sourceFrames": 241,
+    "tailFrames": 24,
+    "speed": 1
+  }
+}
