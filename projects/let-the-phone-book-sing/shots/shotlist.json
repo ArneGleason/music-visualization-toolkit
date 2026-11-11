@@ -422,7 +422,7 @@
       ],
       "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "approved_take_edit_review",
+      "status": "approved_in_animatic",
       "batch": "visual-animatic-v001",
       "startFrame": 1355,
       "endFrameExclusive": 1488,
@@ -438,7 +438,7 @@
       },
       "motionGraphics": {
         "record": "production/miles-echo-v001.json",
-        "status": "draft_review",
+        "status": "user_approved",
         "text": "MILES",
         "masterOnsetFrames": [
           1372,

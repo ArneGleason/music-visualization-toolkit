@@ -1,6 +1,6 @@
-## Current review — MILES echoes v021
+## Approved checkpoint — MILES echoes v021
 
-Added three native MILES word echoes at master1372,1380,1390, approximately matched to stereo vocal delays. Same receding arcs, cream/teal/coral palette, irregular lettering and amplitude swell as BELLE, repositioned over open canal right. Native glyphs move together as readable words. No video slip or cut changes. Await music/visual review; v020 is clean fallback. See production/miles-echo-v001.json and miles_echo_v021.py.
+Added three native MILES word echoes at master1372,1380,1390, approximately matched to stereo vocal delays. Same receding arcs, cream/teal/coral palette, irregular lettering and amplitude swell as BELLE, repositioned over open canal right. Native glyphs move together as readable words. No video slip or cut changes. User approved the MILES echo treatment and current animatic. v021 is the keeper; v020 is the clean fallback. Next: develop Penny Chase, continuing linearly. See production/miles-echo-v001.json and miles_echo_v021.py.
 
 ## Current animatic — v020 with Miles
 
