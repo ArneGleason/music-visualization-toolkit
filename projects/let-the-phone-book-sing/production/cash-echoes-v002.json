@@ -1,0 +1,50 @@
+{
+  "status": "draft_review",
+  "concept": "Soft short-lived numeral pulses with continuous curved drift and immediate decay; no score stamps or held stacks.",
+  "durationFrames": 13,
+  "events": [
+    {
+      "character": "penny",
+      "text": "10",
+      "layer": 17818,
+      "startFrame": 1206,
+      "endFrameExclusive": 1219
+    },
+    {
+      "character": "penny",
+      "text": "10",
+      "layer": 17875,
+      "startFrame": 1214,
+      "endFrameExclusive": 1227
+    },
+    {
+      "character": "penny",
+      "text": "10",
+      "layer": 17932,
+      "startFrame": 1222,
+      "endFrameExclusive": 1235
+    },
+    {
+      "character": "rich",
+      "text": "1,000",
+      "layer": 17989,
+      "startFrame": 1321,
+      "endFrameExclusive": 1334
+    },
+    {
+      "character": "rich",
+      "text": "1,000",
+      "layer": 18046,
+      "startFrame": 1330,
+      "endFrameExclusive": 1343
+    },
+    {
+      "character": "rich",
+      "text": "1,000",
+      "layer": 18103,
+      "startFrame": 1338,
+      "endFrameExclusive": 1351
+    }
+  ],
+  "nativeProject": "generated/effectcraft-edit-v018/Let-the-Phone-Book-Sing-editable-v018.ecproj"
+}

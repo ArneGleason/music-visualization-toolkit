@@ -1,3 +1,7 @@
+## Echo motion revision — v018
+
+User found 10/1,000 too stamp-like and held too long. Replaced both with13-frame soft pulses, continuous curved drift, slight size undulation and immediate individual fade. Same echo onset frames, no footage or music timing changes. Old native layers disabled, v017 preserved. Review is cued to Penny; Rich follows.
+
 ## Cash echo bookends — v017
 
 Penny 10 stamps approved. Rich 1,000 stamps added as a matching absurd golf score on the open left green, avoiding face/cat/club flight. Attacks at master1321,1330,1338 are approximate waveform-derived timings; ready for listening review. Native EffectCraft v017; no source slips or music cuts changed. v016 is fallback without Rich echo.
