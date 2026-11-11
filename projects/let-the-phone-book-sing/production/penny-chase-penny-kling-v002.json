@@ -1,0 +1,24 @@
+{
+  "status": "completed_pending_user_review",
+  "model": "Kling 4.0",
+  "durationSeconds": 9,
+  "resolution": "1080p",
+  "starter": "generated/scene-development/penny-chase-phone-start-v001.png",
+  "prompt": "Animate this supplied illustration of our original fictional character Penny Chase, a young aspiring interviewer in her homemade apartment studio. Preserve her exact face, pink bob, freckles, separate brows, hair clips, oversized petrol blazer and patterned scarf. One continuous nine-second shot, natural real-time movement. Locked tripod camera, absolutely unchanged framing and scale. No cuts, zoom, pan or split-screen.\nACTING: She desperately wants to sound like an accomplished professional, but her excitement keeps showing through. Warm, ambitious, inventive and a little over-rehearsed. Her charming quirk: she tidies her oversized lapel as though the person on the telephone could see her.\nDuring the first second, lift the existing yellow receiver to her ear with the same hand. With the other hand, still holding the pen, make one brief lapel adjustment. Then sit a little taller and begin speaking with a carefully poised smile and a small confident nod.\nOver the next four seconds her enthusiasm gradually wins: expressive eyebrows, a slight forward lean, a bright smile, and two or three compact pen gestures above the open organizer, as if conducting her own explanation. Keep gestures close to her torso and below her face. She is delighted with her persuasive pitch.\nIn seconds five through eight she briefly listens, lifts one eyebrow in pleased anticipation, then adds a small persuasive pen point and eager nod. Finish with a hopeful proud smile, breathing and small listening movements through the final second. No frozen ending.\nKeep receiver at ear after the initial lift, pen in free hand and cord connected to base. Remain seated in original position. Preserve room geometry, desk, props, costume, mature ink outlines and painted rendering. No extra fingers, new people or props, captions, music or singing. Conversational mouth movement; soundtrack will be replaced. Leave natural moving lead and tail for editing.\nPROMPT LOCK: Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "masterFrames": [
+    1488,
+    1650
+  ],
+  "fps": 24,
+  "referenceVerified": true,
+  "displayedCostCredits": 135,
+  "source": "generated/kling-tests/penny-chase-penny-v001/penny-original-1080p.mp4",
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=949492213754101823&materialId=326376584531430",
+  "observed": {
+    "width": 1916,
+    "height": 1080,
+    "r_frame_rate": "24/1",
+    "duration": "9.041667",
+    "nb_frames": "217"
+  }
+}

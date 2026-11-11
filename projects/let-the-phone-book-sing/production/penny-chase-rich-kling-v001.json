@@ -1,0 +1,24 @@
+{
+  "status": "completed_pending_user_review",
+  "model": "Kling 4.0",
+  "durationSeconds": 9,
+  "resolution": "1080p",
+  "starter": "generated/scene-development/rich-cash-phone-start-v002.png",
+  "prompt": "One continuous NINE-second shot at natural real-time speed, starting exactly from the supplied image. Absolute locked tripod camera throughout: no zoom, dolly, pan, reframing, cuts or background drift. This is a full-width plate for a later sliding split-screen; DO NOT generate any split-screen or slide. Keep the person seated in the same screen position and scale, head and gestures within the original shoulder/elbow area. Preserve exact mature graphic-novel drawing, face, costume, anatomy, phone, coiled cord, furniture and architecture. No extra people, captions or music. Silent conversational mouth movements, not singing. One second moving lead and one second living tail; no frozen beginning or end.\nRICH'S PERSONALITY: the stocky wealthy man is accustomed to being obeyed, barely interested in this unsolicited phone call. Then the chirpy caller casually reveals that she knows something ruinous about him. He desperately tries to keep sounding authoritative while his face betrays growing terror. Comic status collapse, not delighted surprise, rage or shouting. Preserve original jowly character face, brown toupee with gray sides, cream knit polo, taupe trousers and gold watch. Cream receiver already at ear stays there in the same hand throughout.\n0\u20132s: relaxed in armchair, he gives a short bored response, small superior half-smile and a dismissive little movement of his free hand near his lap. Subtle breathing and conversational motion from first frame.\n2\u20133.5s: something she says catches him. His eyes stop wandering and focus, one brow rises, mouth stops midway through a word; the superior smile drains. A clear realization beat.\n3.5\u20135s: eyes widen, lips press thin, shoulders pull tense and he grips receiver more tightly. Lean forward slightly within existing framing, listening hard. He is suddenly frightened she knows his secret. Keep performance grounded, no bulging cartoon eyes or transformed face.\n5\u20136.5s: he makes one quick furtive sideways glance to check nobody nearby is listening, then returns attention to call. Free hand rises just a little in a tentative calming 'wait' gesture near his chest, betraying lost authority. Phone hand stays fixed at ear, no hand switching.\n6.5\u20138s: he attempts a small strained reassuring smile that fails immediately; corners of mouth tighten, chin draws back, brows remain anxiously raised. A brief nervous swallow and tense listening, shocked and trapped rather than happy. Let this uncomfortable reaction read.\n8\u20139s: continue tense listening with subtle breathing, no reset to relaxed composure, hang-up, standing or extra gag. The Siamese remains on its own chair, only a small ear turn or slow blink; secondary, no jumping or human gestures. Preserve chair, phone base and background perfectly stable.\nPROMPT LOCK: Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "masterFrames": [
+    1488,
+    1650
+  ],
+  "fps": 24,
+  "referenceVerified": true,
+  "displayedCostCredits": 135,
+  "source": "generated/kling-tests/penny-chase-rich-v001/rich-original-1080p.mp4",
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=1&designerRouteName=all-tools&project=927884373590937657&slotId=949492029754179623&materialId=326376540310453",
+  "observed": {
+    "width": 1916,
+    "height": 1080,
+    "r_frame_rate": "24/1",
+    "duration": "9.041667",
+    "nb_frames": "217"
+  }
+}

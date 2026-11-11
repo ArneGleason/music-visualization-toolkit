@@ -1,0 +1,24 @@
+{
+  "status": "initial_video_composite_review",
+  "nativeProject": "generated/effectcraft-edit-v023/Let-the-Phone-Book-Sing-editable-v023.ecproj",
+  "masterFrames": [
+    1488,
+    1650
+  ],
+  "revealFrames": [
+    1500,
+    1524
+  ],
+  "plates": {
+    "penny": {
+      "layer": 19519,
+      "sourceOffsetFrames": 12,
+      "source": "generated/kling-tests/penny-chase-penny-v001/penny-original-1080p.mp4"
+    },
+    "rich": {
+      "layer": 19546,
+      "sourceOffsetFrames": 24,
+      "source": "generated/kling-tests/penny-chase-rich-v001/rich-original-1080p.mp4"
+    }
+  }
+}
