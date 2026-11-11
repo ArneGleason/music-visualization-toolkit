@@ -435,6 +435,17 @@
       "videoSource": "generated/kling-tests/miles-chase-v001/miles-original-1080p.mp4",
       "videoEdit": {
         "sourceInFrame": 48
+      },
+      "motionGraphics": {
+        "record": "production/miles-echo-v001.json",
+        "status": "draft_review",
+        "text": "MILES",
+        "masterOnsetFrames": [
+          1372,
+          1380,
+          1390
+        ],
+        "styleReference": "BELLE receding whole-word echoes"
       }
     },
     {

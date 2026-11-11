@@ -1,0 +1,118 @@
+{
+  "status": "draft_music_review",
+  "text": "MILES",
+  "styleReference": "belle-echo-v006",
+  "concept": "Three readable whole-word receding arcs over open canal, matching BELLE palette, irregular glyph poses and measured amplitude swell. Native text, stroke and keyframes.",
+  "timingMethod": "Approximate normalized stereo vocal waveform matching near expected delay intervals; quantized to24fps. Mixed vocal envelopes include overlapping lead.",
+  "events": [
+    {
+      "masterFrame": 1372,
+      "measuredSeconds": 57.176875,
+      "amplitudeEnvelope": [
+        0.74256,
+        0.86028,
+        0.9045,
+        0.94082,
+        0.87956,
+        0.79411,
+        0.82859,
+        0.77523,
+        0.66089,
+        0.5366,
+        0.43569,
+        0.35375,
+        0.28722,
+        0.23321,
+        0.18935,
+        0.15374,
+        0.12483,
+        0.10135,
+        0.08229,
+        0.06682,
+        0.05425,
+        0.04405,
+        0.03576
+      ],
+      "layers": [
+        18529,
+        18586,
+        18643,
+        18700,
+        18757
+      ]
+    },
+    {
+      "masterFrame": 1380,
+      "measuredSeconds": 57.499125,
+      "amplitudeEnvelope": [
+        0.65862,
+        0.9055,
+        0.91433,
+        0.81338,
+        0.75297,
+        0.8073,
+        0.88111,
+        0.98626,
+        1.0,
+        0.81194,
+        0.65924,
+        0.53526,
+        0.4346,
+        0.35287,
+        0.2865,
+        0.23262,
+        0.18888,
+        0.15335,
+        0.12451,
+        0.1011,
+        0.08208,
+        0.06665,
+        0.05411
+      ],
+      "layers": [
+        18814,
+        18871,
+        18928,
+        18985,
+        19042
+      ]
+    },
+    {
+      "masterFrame": 1390,
+      "measuredSeconds": 57.896875,
+      "amplitudeEnvelope": [
+        0.91626,
+        0.90413,
+        0.88133,
+        0.8594,
+        0.87503,
+        0.89423,
+        0.9064,
+        0.76978,
+        0.4723,
+        0.38347,
+        0.31136,
+        0.2528,
+        0.20526,
+        0.16666,
+        0.13531,
+        0.10987,
+        0.08921,
+        0.07243,
+        0.05881,
+        0.04775,
+        0.03877,
+        0.03148,
+        0.02556
+      ],
+      "layers": [
+        19099,
+        19156,
+        19213,
+        19270,
+        19327
+      ]
+    }
+  ],
+  "nativeProject": "generated/effectcraft-edit-v021/Let-the-Phone-Book-Sing-editable-v021.ecproj"
+}

@@ -1,3 +1,7 @@
+## Current review — MILES echoes v021
+
+Added three native MILES word echoes at master1372,1380,1390, approximately matched to stereo vocal delays. Same receding arcs, cream/teal/coral palette, irregular lettering and amplitude swell as BELLE, repositioned over open canal right. Native glyphs move together as readable words. No video slip or cut changes. Await music/visual review; v020 is clean fallback. See production/miles-echo-v001.json and miles_echo_v021.py.
+
 ## Current animatic — v020 with Miles
 
 User approved Miles v001. Inserted at master1355–1488, source48–180 at24fps, native layer18503. Both musical boundaries and existing dissolves unchanged. Review extends through the next Penny Chase placeholder (not a developed skit), ending before chorus2. Native v020 and animatic-through-miles-1080p.mp4; viewer config updated. Next: review Miles timing with music, then develop Penny Chase linearly.
