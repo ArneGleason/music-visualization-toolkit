@@ -1,3 +1,7 @@
+## Draft echo review — v016
+
+Penny has three native EffectCraft outlined numeral 10 score stamps, landing at master1206,1214,1222. Approximate waveform-derived sync; needs listening/creative review. Idea: Penny awards himself perfect marks for the apple throw. Each stamp squashes/rebounds and they fade with scene transition. Rich remains unchanged. v015 is the clean fallback. No new paid generation.
+
 ## Latest: Rich Cash inserted — v015
 
 Approved Siamese starter v003 and Kling take v001. Source is 241 frames at24fps. Native v015 uses source92–216 over master1230–1354, preserving one second of source tail and fixed music cuts. PB-015/016 now one continuous video; no internal crop cut. Existing dissolves retained. Review extends through Miles Chase placeholder, the next scene to develop. User requests carrying work through download, insertion, rendering and viewer without stopping at submission. Rich edit timing awaits music review.

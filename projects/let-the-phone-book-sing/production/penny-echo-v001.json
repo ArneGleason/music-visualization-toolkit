@@ -1,0 +1,39 @@
+{
+  "status": "draft_for_music_review",
+  "text": "10",
+  "concept": "Three comic perfect-score stamps beside Penny, punctuating satisfied throw reaction. No narrator orbit or floating-word arc.",
+  "events": [
+    {
+      "masterFrame": 1206,
+      "masterSeconds": 50.25,
+      "position": [
+        1490,
+        440
+      ]
+    },
+    {
+      "masterFrame": 1214,
+      "masterSeconds": 50.583333333333336,
+      "position": [
+        1610,
+        610
+      ]
+    },
+    {
+      "masterFrame": 1222,
+      "masterSeconds": 50.916666666666664,
+      "position": [
+        1720,
+        785
+      ]
+    }
+  ],
+  "timingMethod": "Approximate stereo waveform matching around 50.23,50.59,50.915 seconds, rounded to24fps. Final sync subject to listening review.",
+  "layers": [
+    17476,
+    17533,
+    17590
+  ],
+  "nativeProject": "generated/effectcraft-edit-v016/Let-the-Phone-Book-Sing-editable-v016.ecproj",
+  "previousProject": "generated/effectcraft-edit-v015/Let-the-Phone-Book-Sing-editable-v015.ecproj"
+}
