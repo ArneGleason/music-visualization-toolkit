@@ -1,0 +1,27 @@
+{
+  "status": "experimental_pending_user_review",
+  "shot": "PB-011",
+  "nativeProject": "generated/effectcraft-edit-v028/Let-the-Phone-Book-Sing-editable-v028.ecproj",
+  "cleanFallback": "generated/effectcraft-edit-v024/Let-the-Phone-Book-Sing-editable-v024.ecproj",
+  "effect": "Native Ripple adjustment below singer in comp17396; source remap isolated",
+  "frames": [
+    821,
+    870
+  ],
+  "mouthCenterPixels": [
+    960,
+    426
+  ],
+  "waveWidth": 220,
+  "peakWaveHeight": 24,
+  "intent": "Expanding air-pressure refraction behind narrator on opening O; no visible drawn rings. Approximate vocal swell with manual frame-based envelope; musical edit unchanged.",
+  "radius": 100,
+  "edgeProtection": {
+    "insetPixels": 60,
+    "featherPixels": [
+      90,
+      90
+    ]
+  },
+  "fix": "Ripple center uses pixels; prior normalized center was wrong."
+}
