@@ -1,0 +1,22 @@
+{
+  "status": "experimental_pending_user_review",
+  "shot": "PB-011",
+  "nativeProject": "generated/effectcraft-edit-v029/Let-the-Phone-Book-Sing-editable-v029.ecproj",
+  "cleanFallback": "v024",
+  "method": "Three feathered annular native Transform adjustment layers below narrator",
+  "mouthCenterPixels": [
+    960,
+    426
+  ],
+  "onsetFrames": [
+    820,
+    826,
+    832
+  ],
+  "radialSpeedPixelsPerFrame": 75,
+  "bandWidthPixels": 24,
+  "featherPixels": 9,
+  "peakRadialDisplacementPixels": 6.5,
+  "lastEffectFrameExclusive": 848,
+  "intent": "Isolated positive crests with flat gaps; strong on chorus dissolve, damped by regular lyrics."
+}
