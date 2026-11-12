@@ -1,3 +1,7 @@
+## Current experiment — Chorus 1 opening O refraction v026
+
+User returned to PB-011 to try loud-singing sound-wave graphics, ripple distortion FIRST; drawn lines alternative later if wanted. Native EffectCraft v026 adds Ripple adjustment below singer in chorus comp17396, leaving face/ink/key untouched. Center approximately mouth[.5,.395]; radius expands across frames821–858, peak height10, wavewidth180, manual swell keyed to O pickup. No drawn lines, no generation credits. Review generated/effectcraft-edit-v026/animatic-chorus-o-ripple-1080p.mp4; clean APPROVED v024 retained. This is an experiment pending review, not a replacement keeper. v025 was a local implementation probe directly on time-remapped footage; v026 isolates effect timing on adjustment. See production/chorus_o_ripple_v026.py and chorus-o-ripple-v001.json. After review resume linear production at Chorus 2.
+
 ## PAUSED — approved checkpoint, 2026-11-11
 
 Penny Chase / Rich Cash phone scene PB-018 is APPROVED, including revised Rich v002 comic panic (sweating, pleading, alarmed; no happy recovery). Penny v002 performance remains approved. Keeper is native EffectCraft v024 and generated/effectcraft-edit-v024/animatic-penny-rich-panic-1080p.mp4. Viewer http://127.0.0.1:8778 uses that render. No generations are pending. Construction scripts, prompts, shotlist and notes are in Git; large generated images/video/native projects remain local under generated/ per repository policy.

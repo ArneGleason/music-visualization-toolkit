@@ -280,7 +280,12 @@
       "startSeconds": 35.333333333333336,
       "endSeconds": 40.791666666666664,
       "start": "15.3.148",
-      "end": "17.2.943"
+      "end": "17.2.943",
+      "motionGraphicsReview": {
+        "status": "experimental_pending_review",
+        "record": "production/chorus-o-ripple-v001.json",
+        "cleanFallback": "v024"
+      }
     },
     {
       "id": "PB-012",
