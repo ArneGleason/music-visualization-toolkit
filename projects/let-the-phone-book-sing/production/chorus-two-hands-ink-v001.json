@@ -1,0 +1,14 @@
+{
+  "status": "starter_pending_visual_review",
+  "image": "generated/avatar-tests/chorus-two-v002/narrator-hands-ink.png",
+  "method": "built-in image_gen edit",
+  "prompt": "production/chorus-two-hands-ink-v001.prompt.txt",
+  "changes": [
+    "Both hands visible with angled fingers and interior ink detail",
+    "Modestly stronger black contour baked into still"
+  ],
+  "hedraSubmitted": false,
+  "audioToReuse": "generated/avatar-tests/chorus-two-v001/chorus-lead-frames1606-1922.wav",
+  "preferredKey": "v036/a-cleaner",
+  "note": "Compare baked outline without automatically adding full-strength compositing stroke; avoid double-heavy edges. Existing Hedra performance preserved."
+}

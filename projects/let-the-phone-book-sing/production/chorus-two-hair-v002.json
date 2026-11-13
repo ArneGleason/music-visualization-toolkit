@@ -1,0 +1,14 @@
+{
+  "status": "pending_review",
+  "nativeProject": "generated/effectcraft-edit-v033/Let-the-Phone-Book-Sing-editable-v033.ecproj",
+  "controls": {
+    "screenGain": 180,
+    "clipBlack": 20,
+    "clipWhite": 82,
+    "screenShrinkGrow": -0.4875,
+    "screenSoftness": 0.625,
+    "screenPreblur": 0.4375
+  },
+  "interpolation": "75% original v031 +25% recovery v032",
+  "touchup": "No connecting strokes added yet; short moving gaps need tracked stroke endpoints, not a static patch."
+}

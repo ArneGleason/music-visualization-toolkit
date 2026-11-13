@@ -1,0 +1,41 @@
+{
+  "model": "Hedra Avatar",
+  "resolution": "1080p",
+  "audio": "generated/avatar-tests/chorus-two-v001/chorus-lead-frames1606-1922.wav",
+  "fpsEdit": 24,
+  "startFrame": 1606,
+  "endFrameExclusive": 1922,
+  "vocalEndFrameExclusive": 1898,
+  "audioTail": "Clean lead source samples3212000 through3795999 at48000Hz, then48000 samples silence. No stretch.",
+  "durationSeconds": 13.166666666666666,
+  "browserUrl": "https://www.hedra.com/app/video",
+  "status": "completed_downloaded_pending_review",
+  "sourceImage": "generated/avatar-tests/chorus-two-v002/narrator-hands-ink.png",
+  "prompt": "A warm mischievous singer performs the supplied vocal, INCLUDING the powerful opening improvised O before the written chorus. Follow the entire audio from its beginning, not just the words. For that sustained O she opens her mouth confidently with lifted chest, an expressive head tilt and a small welcoming hand opening, projecting joyful full-voiced energy. Then settle into buoyant rhythmic shoulders, relaxed side-to-side bopping and playful direct eye contact while singing the chorus. Begin in the supplied asymmetric pose with both hands visible and relaxed; let her hands naturally release into alternating inviting gestures below chest level, then relax again. Keep hands angled naturally with clearly articulated fingers, knuckles and drawn crease detail throughout, never simplified into smooth mitten shapes. Keep finger motion relaxed; express most energy through shoulders, head and elbows. Enjoy discovering a song in ordinary names: amused confidence and warm audience connection. Keep gestures compact enough that full hair and hands remain in frame. Preserve this EXACT illustrated facial identity, lip shape and visible natural dentition; do not redesign her teeth or smooth away the drawn ink texture. Preserve the supplied black ink contours around hair, body and hands, and fine interior hand linework consistently as she moves; do not thicken the outlines further. Follow the audio for all mouth activity. During vocal pauses and the final silent tail, retain subtle breathing and body rhythm while her mouth rests naturally. No phone book or other props. One continuous fixed-camera medium-wide shot, no zoom, pan, cuts or reframing. Keep the uniform bright green background completely unchanged, without shadows or gradients. Preserve fine curls, cream cardigan, denim and mature graphic-novel ink-and-paint rendering. One performer only, no text or added objects.",
+  "creditsDisplayed": 116,
+  "balanceAfter": 5596,
+  "referenceVerifiedBeforeSubmission": true,
+  "submittedLocal": "2026-11-11 22:37 America/Toronto",
+  "compositeDirection": "Use preferred A key; begin with added stroke disabled to avoid doubling baked ink. Preserve existing take for comparison.",
+  "download": "generated/avatar-tests/chorus-two-v002/hedra-original-1080p.mp4",
+  "observed": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "25/1",
+        "duration": "13.240000"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "13.216000"
+      }
+    ]
+  },
+  "sha256": "ac0d98589ef984de74eb69a82d8f15685f83fd297de270a2373ebc5950585a94",
+  "assetIdPrefix": "d6f1a118"
+}

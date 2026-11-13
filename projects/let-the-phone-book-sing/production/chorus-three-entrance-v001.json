@@ -1,0 +1,20 @@
+{
+  "cutFrame": 2415,
+  "fps": 24,
+  "beatSeconds": 100.611629,
+  "cutSeconds": 100.625,
+  "oldCutFrame": 2451,
+  "advanceFrames": 36,
+  "adlibOnsetEvidence": "Existing lead.whisper.raw.json suggests Oh100.26\u2013100.98s; approximate, not corrected lyric alignment.",
+  "hedraPreparation": "Include full improvised woah with lead handle before its onset; composite singer with incoming scene dissolve, not ahead of background. No generation submitted.",
+  "status": "timing_trial_pending_user_review",
+  "unusedNarratorNeighborhoods": [
+    "Springworth shop district",
+    "Financial District"
+  ],
+  "usedNarratorNeighborhoods": [
+    "Old Church Quarter opening",
+    "Canal District Chorus1",
+    "Park Orchard Chorus2"
+  ]
+}

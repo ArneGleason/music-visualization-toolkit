@@ -1,0 +1,52 @@
+{
+  "status": "user_approved",
+  "names": [
+    {
+      "first": "BELLE",
+      "last": "BELL",
+      "firstFrame": 305,
+      "lastFrame": 296,
+      "firstPosition": [
+        210,
+        915
+      ],
+      "lastPosition": [
+        545,
+        915
+      ],
+      "fadeStart": 332,
+      "end": 340,
+      "corner": "lower left",
+      "layers": [
+        20214,
+        20271
+      ]
+    },
+    {
+      "first": "LIBERTY",
+      "last": "BELL",
+      "firstFrame": 446,
+      "lastFrame": 437,
+      "firstPosition": [
+        1410,
+        125
+      ],
+      "lastPosition": [
+        1745,
+        125
+      ],
+      "fadeStart": 473,
+      "end": 481,
+      "corner": "upper right",
+      "layers": [
+        20328,
+        20385
+      ]
+    }
+  ],
+  "nativeProject": "generated/effectcraft-edit-v048/Let-the-Phone-Book-Sing-editable-v048.ecproj",
+  "font": "Arial Bold Italic",
+  "size": 88,
+  "style": "Echo palette with dark ink stroke; surname appears in its final position, first name fills reserved space at left. Brief hold and eight-frame fade. Existing echoes untouched.",
+  "timingSource": "generated/timeline.compiled.json, line-003 and line-004 word startFrame"
+}

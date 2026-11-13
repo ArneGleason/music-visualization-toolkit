@@ -1,0 +1,24 @@
+{
+  "status": "user_approved",
+  "submittedAt": "2026-11-12T09:38:32.567369-05:00",
+  "shot": "PB-021",
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "durationSeconds": 8,
+  "credits": 120,
+  "starter": "generated/scene-development/forrest-pine-study-v003.png",
+  "referenceVerified": true,
+  "prompt": "production/forrest-pine-kling-v001.prompt.txt",
+  "camera": "locked tripod",
+  "projectUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657",
+  "observedQueueEstimate": "Creating; estimated wait 8 minutes",
+  "musicalEdit": {
+    "startFrame": 1898,
+    "endFrameExclusive": 2031,
+    "fps": 24
+  },
+  "note": "User approved corrected hand starter and eccentric scientist phone-call acting. Do not resubmit while queued.",
+  "video": "generated/kling-tests/forrest-pine-v001/kling-original-1080p.mp4",
+  "materialId": "326465776536631",
+  "slotId": "949866313202155521"
+}

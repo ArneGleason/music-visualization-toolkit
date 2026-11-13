@@ -4,7 +4,7 @@
     {
       "id": "PB-001",
       "startAnchor": "master-start",
-      "title": "Narrator — finding the song",
+      "title": "Narrator \u2014 finding the song",
       "type": "still-blocking",
       "image": "generated/scene-development/narrator-opening-v001.png",
       "description": "Continuous medium-wide phone-book performance across both opening lines; no cut at the lyric boundary. See avatarInserts.",
@@ -29,7 +29,7 @@
     {
       "id": "PB-002",
       "startAnchor": "line-002:start",
-      "title": "Narrator — the ratty phone book",
+      "title": "Narrator \u2014 the ratty phone book",
       "type": "still-blocking",
       "image": "generated/scene-development/narrator-opening-v001.png",
       "description": "Continuous medium-wide phone-book performance across both opening lines; no cut at the lyric boundary. See avatarInserts.",
@@ -54,7 +54,7 @@
     {
       "id": "PB-003",
       "startAnchor": "line-003:start",
-      "title": "Belle Bell — situation",
+      "title": "Belle Bell \u2014 situation",
       "type": "still-blocking",
       "image": "generated/scene-development/belle-bell-situation-v001.png",
       "description": "One continuous Belle take across both timing sections: admires her earring, picks up the tiny rubbish bag and heads for the open doorway. No cut at frame379.",
@@ -80,7 +80,7 @@
     {
       "id": "PB-004",
       "startAnchor": "8.3",
-      "title": "Belle Bell — closer beat",
+      "title": "Belle Bell \u2014 closer beat",
       "type": "still-blocking",
       "image": "generated/scene-development/belle-bell-situation-v001.png",
       "description": "One continuous Belle take across both timing sections: admires her earring, picks up the tiny rubbish bag and heads for the open doorway. No cut at frame379.",
@@ -106,19 +106,13 @@
     {
       "id": "PB-005",
       "startAnchor": "line-004:start",
-      "title": "Liberty Bell — situation",
-      "type": "still-blocking",
-      "image": "generated/scene-development/liberty-bell-situation-v001.png",
-      "description": "Continuous rabbit roundup with shallow camera drift: affectionate disbelief, broad coaxing lean, then crooked proud smile as the gray rabbit joins the others. No cut at frame512.",
-      "crop": [
-        0,
-        0,
-        1,
-        1
-      ],
+      "title": "Liberty Bell \u2014 situation",
+      "type": "video",
+      "image": "generated/scene-development/liberty-bell-redesign/starter-v003.png",
+      "description": "One continuous duck reversal: Liberty sweeps hat, retreats behind it into RABBITS pen, startled. Source24; subtle camera movement. Upper-left timed name.",
       "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "approved_video_inserted",
       "batch": "visual-animatic-v001",
       "startFrame": 437,
       "endFrameExclusive": 512,
@@ -127,24 +121,19 @@
       "endSeconds": 21.333333333333332,
       "start": "9.2.463",
       "end": "10.2.936",
-      "continuousTake": "liberty-continuous"
+      "continuousTake": "liberty-continuous",
+      "video": "generated/kling-tests/liberty-duck-v001/kling-original-1080p.mp4"
     },
     {
       "id": "PB-006",
       "startAnchor": "10.3",
-      "title": "Liberty Bell — closer beat",
-      "type": "still-blocking",
-      "image": "generated/scene-development/liberty-bell-situation-v001.png",
-      "description": "Continuous rabbit roundup with shallow camera drift: affectionate disbelief, broad coaxing lean, then crooked proud smile as the gray rabbit joins the others. No cut at frame512.",
-      "crop": [
-        0.15,
-        0.15,
-        0.93,
-        0.93
-      ],
+      "title": "Liberty Bell \u2014 closer beat",
+      "type": "video",
+      "image": "generated/scene-development/liberty-bell-redesign/starter-v003.png",
+      "description": "One continuous duck reversal: Liberty sweeps hat, retreats behind it into RABBITS pen, startled. Source24; subtle camera movement. Upper-left timed name.",
       "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "approved_video_inserted",
       "batch": "visual-animatic-v001",
       "startFrame": 512,
       "endFrameExclusive": 571,
@@ -153,12 +142,13 @@
       "endSeconds": 23.791666666666668,
       "start": "10.2.936",
       "end": "11.2.486",
-      "continuousTake": "liberty-continuous"
+      "continuousTake": "liberty-continuous",
+      "video": "generated/kling-tests/liberty-duck-v001/kling-original-1080p.mp4"
     },
     {
       "id": "PB-007",
       "startAnchor": "line-005:start",
-      "title": "April Bloom — situation",
+      "title": "April Bloom \u2014 situation",
       "type": "still-blocking",
       "image": "generated/scene-development/april-bloom-situation-v001.png",
       "description": "Continuous start/end-frame test: critical appraisal, one large handful lifted out and placed on paper, single crooked flower revealed, pleased reaction. No cut at645.",
@@ -184,7 +174,7 @@
     {
       "id": "PB-008",
       "startAnchor": "12.3",
-      "title": "April Bloom — closer beat",
+      "title": "April Bloom \u2014 closer beat",
       "type": "still-blocking",
       "image": "generated/scene-development/april-bloom-situation-v001.png",
       "description": "Continuous start/end-frame test: critical appraisal, one large handful lifted out and placed on paper, single crooked flower revealed, pleased reaction. No cut at645.",
@@ -210,7 +200,7 @@
     {
       "id": "PB-009",
       "startAnchor": "line-006:start",
-      "title": "May Bloom — situation",
+      "title": "May Bloom \u2014 situation",
       "type": "still-blocking",
       "image": "generated/scene-development/may-bloom-situation-v004.png",
       "description": "Repaired fan starts; May enjoys breeze. Contrast quiet pleasure with next theft gag.",
@@ -235,7 +225,7 @@
     {
       "id": "PB-010",
       "startAnchor": "14.3",
-      "title": "May Bloom — closer beat",
+      "title": "May Bloom \u2014 closer beat",
       "type": "still-blocking",
       "image": "generated/scene-development/may-bloom-situation-v004.png",
       "description": "Repaired fan starts; May enjoys breeze. Contrast quiet pleasure with next theft gag. Editorial crop only; not newly generated action.",
@@ -260,7 +250,7 @@
     {
       "id": "PB-011",
       "startAnchor": "line-007:start",
-      "title": "Chorus 1 — narrator leads",
+      "title": "Chorus 1 \u2014 narrator leads",
       "type": "still-blocking",
       "image": "generated/scene-development/chorus-one-canal-background-v001.png",
       "description": "One continuous locked background plate across chorus; central singer space reserved, no narrator yet. Peripheral bike repair, tea service and balcony plant business. No internal cut at PB-012.",
@@ -290,7 +280,7 @@
     {
       "id": "PB-012",
       "startAnchor": "line-009:start",
-      "title": "Narrator — closer address",
+      "title": "Narrator \u2014 closer address",
       "type": "still-blocking",
       "image": "generated/scene-development/chorus-one-canal-background-v001.png",
       "description": "One continuous locked background plate across chorus; central singer space reserved, no narrator yet. Peripheral bike repair, tea service and balcony plant business. No internal cut at PB-012.",
@@ -315,7 +305,7 @@
     {
       "id": "PB-013",
       "startAnchor": "line-011:start",
-      "title": "Penny Cash — situation",
+      "title": "Penny Cash \u2014 situation",
       "type": "still-blocking",
       "image": "generated/scene-development/penny-cash-situation-v003.png",
       "description": "Approved v003 continuous take: boy escapes toward foreground right; Penny throws after him then looks satisfied. Internal beat is navigation marker only. See reviewVideoInserts.",
@@ -340,7 +330,7 @@
     {
       "id": "PB-014",
       "startAnchor": "20.3",
-      "title": "Penny Cash — closer beat",
+      "title": "Penny Cash \u2014 closer beat",
       "type": "still-blocking",
       "image": "generated/scene-development/penny-cash-situation-v003.png",
       "description": "Approved v003 continuous take: boy escapes toward foreground right; Penny throws after him then looks satisfied. Internal beat is navigation marker only. See reviewVideoInserts.",
@@ -365,7 +355,7 @@
     {
       "id": "PB-015",
       "startAnchor": "line-012:start",
-      "title": "Rich Cash — situation",
+      "title": "Rich Cash \u2014 situation",
       "type": "still-blocking",
       "image": "generated/scene-development/rich-cash-start-v003.png",
       "description": "Continuous approved Rich golf take: putt miss, shoe cheat, second miss, irate club throw; judgmental Siamese. PB-016 is a navigation beat, no internal cut.",
@@ -390,7 +380,7 @@
     {
       "id": "PB-016",
       "startAnchor": "22.2",
-      "title": "Rich Cash — closer beat",
+      "title": "Rich Cash \u2014 closer beat",
       "type": "still-blocking",
       "image": "generated/scene-development/rich-cash-start-v003.png",
       "description": "Continuous approved Rich golf take: putt miss, shoe cheat, second miss, irate club throw; judgmental Siamese. PB-016 is a navigation beat, no internal cut.",
@@ -415,7 +405,7 @@
     {
       "id": "PB-017",
       "startAnchor": "line-013:start",
-      "title": "Miles Chase — flower for Belle",
+      "title": "Miles Chase \u2014 flower for Belle",
       "type": "video",
       "image": "generated/scene-development/miles-chase-start-v004.png",
       "description": "Miles expects Belle on her daily walk and already holds a coral flower low. Belle takes one or two short steps toward camera along the canal sidewalk; he offers, she accepts with an affectionate amused smile, and he looks bashfully delighted. Gentle continuous push toward both characters, ending only slightly tighter. Preserve the telephone and number26; no flower picking or rubbish bag.",
@@ -456,7 +446,7 @@
     {
       "id": "PB-018",
       "startAnchor": "line-014:start",
-      "title": "Penny Chase — phone pitch / diagonal split",
+      "title": "Penny Chase \u2014 phone pitch / diagonal split",
       "type": "composite",
       "image": "generated/scene-development/penny-chase-phone-start-v001.png",
       "description": "Approved Penny enthusiastically pitches by phone; revised Rich sweats and pleads in comic panic, believing her information could ruin him. Native EffectCraft v024 independent locked-camera plates. Penny alone0.5s, smooth diagonal slide completes1.5s. Musical boundaries unchanged.",
@@ -482,19 +472,19 @@
     {
       "id": "PB-019",
       "startAnchor": "line-015:start",
-      "title": "Chorus 2 — narrator leads",
+      "title": "Chorus 2 \u2014 narrator leads",
       "type": "still-blocking",
-      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
-      "description": "Return to narrator addressing audience; residents remain unaware. Reused Church setting is performance placement proxy for travel through town.",
+      "image": "generated/scene-development/chorus-two-shared-starter-v003.png",
+      "description": "Continuous Park Orchard chorus: approved Hedra narrator B over approved full-frame gnome take. Native EffectCraft key/ink/hair cleanup, joint dissolve catches improvised O. See production/chorus-two-composite-v001.json.",
       "crop": [
         0,
         0,
         1,
         1
       ],
-      "placeholder": true,
+      "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "video_composite_pending_review",
       "batch": "visual-animatic-v001",
       "startFrame": 1650,
       "endFrameExclusive": 1782,
@@ -507,19 +497,19 @@
     {
       "id": "PB-020",
       "startAnchor": "line-017:start",
-      "title": "Narrator — closer address",
+      "title": "Narrator \u2014 closer address",
       "type": "still-blocking",
-      "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
-      "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
+      "image": "generated/scene-development/chorus-two-shared-starter-v003.png",
+      "description": "Continuous Park Orchard chorus: approved Hedra narrator B over approved full-frame gnome take. Native EffectCraft key/ink/hair cleanup, joint dissolve catches improvised O. See production/chorus-two-composite-v001.json.",
       "crop": [
         0,
         0,
         0.62,
         0.62
       ],
-      "placeholder": true,
+      "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "video_composite_pending_review",
       "batch": "visual-animatic-v001",
       "startFrame": 1782,
       "endFrameExclusive": 1898,
@@ -532,19 +522,19 @@
     {
       "id": "PB-021",
       "startAnchor": "line-019:start",
-      "title": "Forrest Pine — skit to develop",
-      "type": "still-blocking",
-      "image": "generated/environment-development/park-orchard-v005.png",
-      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "title": "Forrest Pine \u2014 gnome research phone lecture",
+      "type": "video",
+      "image": "generated/scene-development/forrest-pine-study-v004.png",
+      "description": "Conspiratorial scientist on cordless phone, gesturing with chalk at completed gnome-deterrence board. Locked camera.",
       "crop": [
         0,
         0,
         1,
         1
       ],
-      "placeholder": true,
+      "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "approved_video_in_animatic",
       "batch": "visual-animatic-v001",
       "startFrame": 1898,
       "endFrameExclusive": 2031,
@@ -552,24 +542,22 @@
       "startSeconds": 79.08333333333333,
       "endSeconds": 84.625,
       "start": "31.1.922",
-      "end": "33.1.909"
+      "end": "33.1.909",
+      "videoSource": "generated/kling-tests/forrest-pine-v002/kling-original-1080p.mp4",
+      "videoEdit": {
+        "sourceInFrame": 24
+      }
     },
     {
       "id": "PB-022",
       "startAnchor": "line-020:start",
-      "title": "Woody Pine — skit to develop",
-      "type": "still-blocking",
-      "image": "generated/environment-development/park-orchard-v005.png",
-      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
-      "crop": [
-        0,
-        0.2,
-        0.72,
-        0.9199999999999999
-      ],
-      "placeholder": true,
+      "title": "Woody Pine \u2014 medieval art and ringing phone",
+      "type": "video",
+      "image": "generated/scene-development/woody-pine-scene-v007.png",
+      "description": "Tiny collector inspects medieval marginalia; rotary phone rattles and startles him. Gentle push. Approved Kling v003, native name reveal.",
+      "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "approved_video_inserted",
       "batch": "visual-animatic-v001",
       "startFrame": 2031,
       "endFrameExclusive": 2155,
@@ -577,24 +565,19 @@
       "startSeconds": 84.625,
       "endSeconds": 89.79166666666667,
       "start": "33.1.909",
-      "end": "35.1.413"
+      "end": "35.1.413",
+      "video": "generated/kling-tests/woody-pine-v003/kling-original-1080p.mp4"
     },
     {
       "id": "PB-023",
       "startAnchor": "line-021:start",
-      "title": "Yew Pine — skit to develop",
-      "type": "still-blocking",
-      "image": "generated/environment-development/park-orchard-v005.png",
-      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
-      "crop": [
-        0.32,
-        0.1,
-        1,
-        0.7799999999999999
-      ],
-      "placeholder": true,
+      "title": "Yew Pine \u2014 scare-gnome sabotage",
+      "type": "video",
+      "image": "generated/scene-development/yew-pine-scene-v003.png",
+      "description": "Yew admires her garden; living gnome emerges, topples scare-gnome statue and moons her. Approved take with timed YEW PINE title.",
+      "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "approved_video_inserted",
       "batch": "visual-animatic-v001",
       "startFrame": 2155,
       "endFrameExclusive": 2297,
@@ -602,37 +585,42 @@
       "startSeconds": 89.79166666666667,
       "endSeconds": 95.70833333333333,
       "start": "35.1.413",
-      "end": "37.1.915"
+      "end": "37.1.915",
+      "video": "generated/kling-tests/yew-pine-v001/kling-original-1080p.mp4"
     },
     {
       "id": "PB-024",
       "startAnchor": "line-022:start",
-      "title": "Pearl Price — skit to develop",
-      "type": "still-blocking",
-      "image": "generated/environment-development/canal-district-v008.png",
-      "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
+      "title": "Pearl Price \u2014 portrait sticker shock / Bob rescue",
+      "type": "video",
+      "image": "generated/scene-development/pearl-price/starter-v004.png",
+      "description": "Pearl snubs Bob admiring portrait; bill causes sticker shock; Bob offers cash.",
       "crop": [
         0,
         0,
         1,
         1
       ],
-      "placeholder": true,
+      "placeholder": false,
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
-      "status": "blocking_proposal_pending_animatic_review",
+      "status": "approved_take_v002_inserted",
       "batch": "visual-animatic-v001",
       "startFrame": 2297,
-      "endFrameExclusive": 2451,
-      "frames": 154,
+      "endFrameExclusive": 2415,
+      "frames": 118,
       "startSeconds": 95.70833333333333,
-      "endSeconds": 102.125,
+      "endSeconds": 100.625,
       "start": "37.1.915",
-      "end": "39.3.144"
+      "end": "39.1.0",
+      "videoSource": "generated/kling-tests/pearl-price-v002/kling-original-1080p.mp4",
+      "videoEdit": {
+        "sourceInFrame": 24
+      }
     },
     {
       "id": "PB-025",
       "startAnchor": "line-023:start",
-      "title": "Chorus 3 — narrator leads",
+      "title": "Chorus 3 \u2014 narrator leads",
       "type": "still-blocking",
       "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
       "description": "Return to narrator addressing audience; residents remain unaware. Reused Church setting is performance placement proxy for travel through town.",
@@ -646,18 +634,23 @@
       "promptLock": "Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
       "status": "blocking_proposal_pending_animatic_review",
       "batch": "visual-animatic-v001",
-      "startFrame": 2451,
+      "startFrame": 2415,
       "endFrameExclusive": 2582,
-      "frames": 131,
-      "startSeconds": 102.125,
+      "frames": 167,
+      "startSeconds": 100.625,
       "endSeconds": 107.58333333333333,
-      "start": "39.3.144",
-      "end": "41.2.925"
+      "start": "39.1.0",
+      "end": "41.2.925",
+      "timingNote": "User-requested earlier picture entrance during improvised woah; DAWproject bar39 beat1 at100.611629s rounded to24fps. Lyrics unchanged.",
+      "timingOverride": {
+        "startFrame": 2415,
+        "reason": "User-requested picture entrance on downbeat during preceding improvised woah; lyric anchor remains unchanged."
+      }
     },
     {
       "id": "PB-026",
       "startAnchor": "line-025:start",
-      "title": "Narrator — closer address",
+      "title": "Narrator \u2014 closer address",
       "type": "still-blocking",
       "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
       "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
@@ -682,7 +675,7 @@
     {
       "id": "PB-027",
       "startAnchor": "line-027:start",
-      "title": "Hope Wait — skit to develop",
+      "title": "Hope Wait \u2014 skit to develop",
       "type": "still-blocking",
       "image": "generated/environment-development/old-church-quarter-v006.png",
       "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
@@ -707,7 +700,7 @@
     {
       "id": "PB-028",
       "startAnchor": "line-028:start",
-      "title": "Patience Wait — late again",
+      "title": "Patience Wait \u2014 late again",
       "type": "still-blocking",
       "image": "generated/covers/patience-pleasant-avenue-v001.png",
       "description": "Cover proxy: narrator left, Patience descends behind her, residents do not perceive singer. Re-stage wide for final.",
@@ -732,7 +725,7 @@
     {
       "id": "PB-029",
       "startAnchor": "line-029:start",
-      "title": "Miles Walker — skit to develop",
+      "title": "Miles Walker \u2014 skit to develop",
       "type": "still-blocking",
       "image": "generated/environment-development/canal-district-v008.png",
       "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
@@ -757,7 +750,7 @@
     {
       "id": "PB-030",
       "startAnchor": "line-030:start",
-      "title": "Flo Waters — skit to develop",
+      "title": "Flo Waters \u2014 skit to develop",
       "type": "still-blocking",
       "image": "generated/environment-development/canal-district-v008.png",
       "description": "Neighborhood/possible resident proxy only. Final casting, action and narrator placement not approved.",
@@ -782,7 +775,7 @@
     {
       "id": "PB-031",
       "startAnchor": "line-031:start",
-      "title": "Chorus 4 — narrator leads",
+      "title": "Chorus 4 \u2014 narrator leads",
       "type": "still-blocking",
       "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
       "description": "Return to narrator addressing audience; residents remain unaware. Reused Church setting is performance placement proxy for travel through town.",
@@ -807,7 +800,7 @@
     {
       "id": "PB-032",
       "startAnchor": "line-033:start",
-      "title": "Narrator — closer address",
+      "title": "Narrator \u2014 closer address",
       "type": "still-blocking",
       "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
       "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
@@ -857,7 +850,7 @@
     {
       "id": "PB-034",
       "startAnchor": "line-035:start",
-      "title": "Narrator — closer address",
+      "title": "Narrator \u2014 closer address",
       "type": "still-blocking",
       "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
       "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
@@ -882,7 +875,7 @@
     {
       "id": "PB-035",
       "startAnchor": "line-037:start",
-      "title": "Narrator — closer address",
+      "title": "Narrator \u2014 closer address",
       "type": "still-blocking",
       "image": "generated/environment-development/old-church-quarter-narrator-v001.png",
       "description": "Closer performance counterpoint to residents. Reused still tests cut rhythm, not lip sync.",
@@ -932,7 +925,7 @@
     {
       "id": "PB-037",
       "startAnchor": "60.1",
-      "title": "Coda — town continues",
+      "title": "Coda \u2014 town continues",
       "type": "still-blocking",
       "image": "generated/environment-development/old-church-quarter-v006.png",
       "description": "Instrumental tail: hold ordinary town life, then return to narrator. Book closing/walk-away action still to stage.",
@@ -957,7 +950,7 @@
     {
       "id": "PB-038",
       "startAnchor": "62.1",
-      "title": "Coda — town continues",
+      "title": "Coda \u2014 town continues",
       "type": "still-blocking",
       "image": "generated/environment-development/spring-worth-v004.png",
       "description": "Instrumental tail: hold ordinary town life, then return to narrator. Book closing/walk-away action still to stage.",
@@ -982,7 +975,7 @@
     {
       "id": "PB-039",
       "startAnchor": "64.1",
-      "title": "Coda — town continues",
+      "title": "Coda \u2014 town continues",
       "type": "still-blocking",
       "image": "generated/environment-development/canal-district-v008.png",
       "description": "Instrumental tail: hold ordinary town life, then return to narrator. Book closing/walk-away action still to stage.",
@@ -1007,7 +1000,7 @@
     {
       "id": "PB-040",
       "startAnchor": "66.1",
-      "title": "Coda — back to the book",
+      "title": "Coda \u2014 back to the book",
       "type": "still-blocking",
       "image": "generated/scene-development/narrator-opening-v001.png",
       "description": "Instrumental tail: hold ordinary town life, then return to narrator. Book closing/walk-away action still to stage.",
@@ -1197,11 +1190,12 @@
     },
     {
       "id": "liberty-continuous",
-      "source": "generated/kling-tests/liberty-bell-v003/liberty-original-1080p.mp4",
+      "source": "generated/kling-tests/liberty-duck-v001/kling-original-1080p.mp4",
       "startFrame": 437,
       "endFrameExclusive": 571,
-      "sourceOffsetFrames": 32,
-      "status": "approved"
+      "sourceOffsetFrames": 24,
+      "status": "approved",
+      "editNote": "Native v052; source24 for phone/address visibility, unchanged437\u2013571 cut; title moved upper left to clear face."
     },
     {
       "id": "april-continuous",
@@ -1244,7 +1238,7 @@
       "startFrame": 966,
       "endFrameExclusive": 1096,
       "status": "review",
-      "editNote": "Native v010: six-frame incoming opacity dissolve966–972 over wheel. Earlier source onset, chorus end unchanged."
+      "editNote": "Native v010: six-frame incoming opacity dissolve966\u2013972 over wheel. Earlier source onset, chorus end unchanged."
     },
     {
       "id": "penny-cash-v003",
@@ -1262,7 +1256,7 @@
       "startFrame": 1230,
       "endFrameExclusive": 1355,
       "status": "approved_take_edit_review",
-      "editNote": "One continuous shot across PB-015/016. Native v015 layer17450, source92–216; 24-frame tail. Musical boundaries unchanged."
+      "editNote": "One continuous shot across PB-015/016. Native v015 layer17450, source92\u2013216; 24-frame tail. Musical boundaries unchanged."
     },
     {
       "id": "miles-chase-v001",
@@ -1271,7 +1265,39 @@
       "startFrame": 1355,
       "endFrameExclusive": 1488,
       "status": "approved_take_edit_review",
-      "editNote": "Native v020 layer18503; source48–180, normal speed. Musical cuts and native dissolves unchanged."
+      "editNote": "Native v020 layer18503; source48\u2013180, normal speed. Musical cuts and native dissolves unchanged."
+    },
+    {
+      "shot": "PB-021",
+      "status": "approved",
+      "startFrame": 1898,
+      "endFrameExclusive": 2031,
+      "source": "generated/kling-tests/forrest-pine-v002/kling-original-1080p.mp4",
+      "sourceOffsetFrames": 24
+    },
+    {
+      "shot": "PB-022",
+      "status": "approved",
+      "startFrame": 2031,
+      "endFrameExclusive": 2155,
+      "source": "generated/kling-tests/woody-pine-v003/kling-original-1080p.mp4",
+      "sourceOffsetFrames": 48
+    },
+    {
+      "shot": "PB-023",
+      "status": "approved",
+      "startFrame": 2155,
+      "endFrameExclusive": 2297,
+      "source": "generated/kling-tests/yew-pine-v001/kling-original-1080p.mp4",
+      "sourceOffsetFrames": 30
+    },
+    {
+      "id": "pearl-price-v002",
+      "source": "generated/kling-tests/pearl-price-v002/kling-original-1080p.mp4",
+      "startFrame": 2297,
+      "endFrameExclusive": 2415,
+      "sourceOffsetFrames": 24,
+      "status": "approved_inserted_v053"
     }
   ],
   "echoStyleDirection": {
@@ -1327,5 +1353,52 @@
       "status": "draft_review",
       "config": "production/cash-echoes-v003.json"
     }
-  ]
+  ],
+  "chorusTwoComposite": {
+    "record": "production/chorus-two-outer-contour-retake-v001.json",
+    "project": "generated/effectcraft-edit-v041/Let-the-Phone-Book-Sing-editable-v041.ecproj",
+    "sourceStartMasterFrame": 1606,
+    "visualPickupFrame": 1620,
+    "endFrameExclusive": 1898,
+    "status": "user_approved",
+    "keySelection": "v041: approved outer-contour-only starter and energetic v004 performance; v040 matte-only one-pixel trim settings",
+    "source": "generated/avatar-tests/chorus-two-v004/hedra-original-1080p.mp4"
+  },
+  "chorusTwoRipple": {
+    "record": "production/chorus-two-o-crests-v001.json",
+    "status": "pending_review"
+  },
+  "introColorReveal": {
+    "status": "user_approved",
+    "record": "production/intro-color-reveal-v003.json",
+    "nativeProject": "generated/effectcraft-edit-v046/Let-the-Phone-Book-Sing-editable-v046.ecproj",
+    "onsetFrames": [
+      11,
+      13,
+      14,
+      16,
+      24,
+      32
+    ],
+    "fullColorFrame": 34,
+    "fallbackVersion": "v043"
+  },
+  "characterNameTitles": {
+    "status": "extended_through_forrest_for_review",
+    "record": "production/character-names-v003.json",
+    "nativeProject": "generated/effectcraft-edit-v049/Let-the-Phone-Book-Sing-editable-v049.ecproj",
+    "characters": [
+      "Belle Bell",
+      "Liberty Bell",
+      "April Bloom",
+      "May Bloom",
+      "Penny Cash",
+      "Rich Cash",
+      "Miles Chase",
+      "Penny Chase",
+      "Forrest Pine"
+    ],
+    "fallbackVersion": "v048",
+    "approvedStyleRecord": "production/character-names-v002.json"
+  }
 }

@@ -1,0 +1,18 @@
+{
+  "status": "pending_user_review",
+  "nativeProject": "generated/effectcraft-edit-v045/Let-the-Phone-Book-Sing-editable-v045.ecproj",
+  "fallback": "v043",
+  "layer": 20105,
+  "hitFrames": [
+    11,
+    13,
+    14,
+    16,
+    32
+  ],
+  "fps": 24,
+  "expansionFrames": 2,
+  "fullColorFrame": 34,
+  "timingEvidence": "First four reveals unchanged; final reveal moved from frame24 to frame32 (1.333s), next strong kick attack, per user review. Full color frame34.",
+  "method": "Native Hue/Saturation adjustment, full-frame Add mask and five animated Subtract circle masks. Color accumulates; no generated media or baked compositing."
+}

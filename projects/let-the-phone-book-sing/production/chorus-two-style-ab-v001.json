@@ -1,0 +1,26 @@
+{
+  "status": "pending_user_review",
+  "background": "generated/scene-development/chorus-two-shared-starter-v003.png",
+  "a": "generated/scene-development/chorus-two-style-ab-a.png",
+  "b": "generated/scene-development/chorus-two-style-ab-b.png",
+  "notes": "Porch reader and chair removed. A uses previous cutout v001; B uses v002 reanchored to approved chorus-one green narrator. Both native EffectCraft composites use identical background and placement transform. No video generation submitted.",
+  "generation": [
+    {
+      "key": "background",
+      "prompt": "Precise local edit: REMOVE ONLY the older woman in orange seated in the rocking chair on the LEFT house porch, and remove her rocking chair and book. Restore empty plausible porch floor, wall and intact straight supporting porch post with coherent front/behind geometry. Do NOT change anything else. Keep exact wide camera, all other four people, dog, their poses, wardrobe, trolley and gnome, road, sidewalks, garages, trees, lighting and style unchanged. No narrator. No substitute porch person or chair, no new props. Preserve pixel layout as closely as possible, same wide16:9.",
+      "refs": [
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/let-the-phone-book-sing/generated/scene-development/chorus-two-shared-starter-v002.png"
+      ],
+      "transparent": false
+    },
+    {
+      "key": "narrator-B",
+      "prompt": "Create a revised transparent narrator cutout, correcting STYLE DRIFT. IMAGE1 (green background) is the AUTHORITATIVE EARLIER APPROVED identity and drawing-style reference. IMAGE2 (transparent) is POSE AND CANVAS POSITION reference only; it has drifted too glossy and smoothly airbrushed. Render the woman from IMAGE1 in the exact body/hand pose and framing of IMAGE2. Preserve IMAGE1's mature face shape, narrower naturally proportioned eyes, subtle age/expression lines, nose and lips, natural visible upper teeth, warm brown complexion, distinctive asymmetrical voluminous highlighted spiral curls. Match IMAGE1's restrained ink linework, crosshatched painted skin planes and tactile fabric; reduce shiny plastic smooth highlights and glamorized eyes. Not photo-real, not young beauty illustration. Same cream ribbed V-neck button cardigan and blue jeans, NO book. Use IMAGE2's slight body turn and head tilt, right hand loosely raised near lower ribs, left arm relaxed down, exact center placement, hair top near canvas top, same upper-thigh crop at bottom, same 16:9 canvas. Lock head size, shoulder width, hair footprint and overall figure scale to IMAGE2 so A/B comparison uses same placement. Genuine transparent background, no green, no scenery, clean anti-aliased fine dark outline, no colored edge. Keep the variation modest and faithful to approved first image, not a new face or different person. One figure only, no text.",
+      "refs": [
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/let-the-phone-book-sing/generated/avatar-tests/chorus-one-v001/narrator-green.png",
+        "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/let-the-phone-book-sing/generated/scene-development/chorus-two-narrator-cutout-v001.png"
+      ],
+      "transparent": true
+    }
+  ]
+}

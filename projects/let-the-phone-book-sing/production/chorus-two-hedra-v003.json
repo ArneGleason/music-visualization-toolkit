@@ -1,0 +1,32 @@
+{
+  "status": "completed_pending_review",
+  "sourceImage": "generated/avatar-tests/chorus-two-v003/narrator-outer-contour.png",
+  "sourceArtwork": "generated/scene-development/chorus-two-narrator-cutout-v002.png",
+  "preparation": "Native EffectCraft alpha cleanup alphaInBlack .15 then 3px outside black stroke; same original framing; no ImageGen or RGB contrast changes. Alpha adjustment slightly changes partially transparent pixels.",
+  "prompt": "A warm mischievous singer performs the entire supplied vocal, INCLUDING the powerful opening improvised O. Begin with lifted chest, expressive head tilt and a welcoming hand opening, then buoyant rhythmic shoulders, relaxed side-to-side bopping and playful direct eye contact. Begin in the supplied asymmetric pose, one hand near her lower ribs and the other relaxed down; naturally release into compact alternating inviting gestures below chest level. Keep hands anatomically coherent with articulated fingers and natural skin shading. Warm amused confidence and joyful audience connection. Preserve EXACT facial identity, lip shape and visible natural teeth. Preserve the supplied thicker black OUTER SILHOUETTE contour where the figure meets green. Preserve the original delicate interior facial, skin, hair and sweater detail: do not darken, thicken or add interior ink lines or hatching. No global increase in contrast. Follow the audio for mouth activity, including the opening O; during pauses and final silent tail retain subtle breathing and body rhythm with mouth resting naturally. Keep full hair and hands in frame. One continuous locked-camera medium-wide shot, no zoom, pan, cuts or reframing. Uniform bright green background remains unchanged without shadows or gradients. Preserve brown curls, cream cardigan, denim and mature illustrated ink-and-paint rendering. No book, props, text or other people.",
+  "audio": "generated/avatar-tests/chorus-two-v001/chorus-lead-frames1606-1922.wav",
+  "sourceStartFrame": 1606,
+  "credits": 116,
+  "balanceAfter": 5480,
+  "assetIdPrefix": "43ae55fe",
+  "download": "generated/avatar-tests/chorus-two-v003/hedra-original-1080p.mp4",
+  "observed": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "25/1",
+        "duration": "13.240000"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "13.216000"
+      }
+    ]
+  },
+  "compositePlan": "Start from approved v040 matte-only recipe, resample green, no extra stroke. Current viewer remains approved v040."
+}

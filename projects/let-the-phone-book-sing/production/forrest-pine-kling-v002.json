@@ -1,0 +1,20 @@
+{
+  "status": "approved",
+  "submittedAt": "2026-11-12T16:14:10.121036-05:00",
+  "shot": "PB-021",
+  "model": "Kling 4.0",
+  "resolution": "1080p",
+  "durationSeconds": 8,
+  "credits": 120,
+  "starter": "generated/scene-development/forrest-pine-study-v004.png",
+  "prompt": "production/forrest-pine-kling-v002.prompt.txt",
+  "promptIdenticalTo": "production/forrest-pine-kling-v001.prompt.txt",
+  "referenceVerified": true,
+  "changes": "Front-facing Clive, three-column keypad; acting unchanged. Prior take and v042 animatic preserved.",
+  "source": "generated/kling-tests/forrest-pine-v002/kling-original-1080p.mp4",
+  "materialId": "326489527525437",
+  "slotId": "949965931223711762",
+  "approvedBy": "User: looks very good",
+  "nativeEdit": "generated/effectcraft-edit-v043/Let-the-Phone-Book-Sing-editable-v043.ecproj",
+  "sourceOffsetFrames": 24
+}

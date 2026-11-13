@@ -1,0 +1,53 @@
+{
+  "status": "approved_inserted_animatic_v051",
+  "shot": "PB-023",
+  "character": "Yew Pine",
+  "address": "4 Orchard Street, Park Orchard",
+  "identity": "Established chorus-two garden director; yellow glasses, black bob, cream blouse, plum apron, mustard trousers. Same woman directing Forrest gnome delivery.",
+  "reference": "generated/character-development/chorus-two-references/garden-director-v001.png",
+  "livingGnomeReference": "generated/character-development/yew-pine/real-gnome-reference-v002.png",
+  "starter": "generated/scene-development/yew-pine-scene-v003.png",
+  "prompts": [
+    "production/yew-pine-real-gnome-reference-v002.prompt.txt",
+    "production/yew-pine-scene-v003.prompt.txt"
+  ],
+  "premise": "Statue is a scare-gnome intended to deter REAL gnomes, not wildlife. Yew contentedly tends garden, unaware. Living gnome emerges and pushes statue over, then indignantly moons her; yelling/finger-wagging fallback if mooning fails. No paid generation yet.",
+  "staging": "Small living gnome moved back into right flowerbed, standing behind tall flowering plant between him and Yew. Visible from camera on plant right edge; Yew sightline screened. Clear soil route toward larger upright statue. User approved neat gnome design/scale v002.",
+  "phone": "1990s chunky cordless touch-tone phone on garden table",
+  "timing": "Preserve shotlist PB-023 frames2155\u20132297; 142frames24fps",
+  "generator": "built-in imagegen",
+  "livingGnomeReferenceStatus": "user_approved_v002",
+  "starterStatus": "user_approved_v003",
+  "generation": {
+    "status": "user_approved_downloaded",
+    "model": "Kling 4.0",
+    "durationSeconds": 8,
+    "resolution": "1080p",
+    "displayedCredits": 120,
+    "prompt": "production/yew-pine-kling-v001.prompt.txt",
+    "starter": "generated/scene-development/yew-pine-scene-v003.png",
+    "starterVerifiedBeforeSubmit": true,
+    "referenceMode": "first frame; approved living gnome already present in starter, no separate sheet as end frame",
+    "browser": "Chrome Arne personal profile, browser5/tab876351619",
+    "proof": "generated/kling-tests/yew-pine-v001/submission-confirmed.png",
+    "variant": "brief nonsexual adult cartoon mooning; yelling fallback not submitted",
+    "source": "generated/kling-tests/yew-pine-v001/kling-original-1080p.mp4",
+    "materialId": "326549946311458",
+    "slotId": "950219347267158086"
+  },
+  "edit": {
+    "nativeProject": "generated/effectcraft-edit-v051/Let-the-Phone-Book-Sing-editable-v051.ecproj",
+    "startFrame": 2155,
+    "endFrameExclusive": 2297,
+    "sourceOffsetFrames": 30,
+    "name": {
+      "first": "YEW",
+      "last": "PINE",
+      "lastFrame": 2155,
+      "firstFrame": 2172,
+      "fadeStart": 2199,
+      "endFrame": 2207,
+      "corner": "upper right"
+    }
+  }
+}

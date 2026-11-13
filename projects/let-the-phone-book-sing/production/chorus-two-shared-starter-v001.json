@@ -1,0 +1,18 @@
+{
+  "status": "pending_user_review",
+  "image": "generated/scene-development/chorus-two-shared-starter-v001.png",
+  "method": "Built-in image generation",
+  "purpose": "Identical background-only starter for independent full-duration left and right locked-camera Kling takes, to be split-composited in EffectCraft behind Hedra narrator.",
+  "leftStart": "Chihuahua sniffing garage driveway corner; owner upright with red leash and dark-teal waste bag; furniture-maker working, porch reader seated. No deposit yet.",
+  "rightStart": "Homeowner indicates first garden location; loc-haired garden designer holds trolley bearing heavy gnome, not yet lifted.",
+  "castIndex": "production/chorus-two-cast-references-v001.json",
+  "referenceInputs": [
+    "generated/scene-development/chorus-two-narrator-situation-v002.png",
+    "generated/character-development/chorus-two-references/garden-director-v001.png",
+    "generated/character-development/chorus-two-references/gnome-delivery-man-v002.png",
+    "generated/character-development/chorus-two-references/dog-owner-v002.png",
+    "generated/character-development/chorus-two-references/chihuahua-v003.png"
+  ],
+  "referenceNote": "Image tool accepts at most five inputs; garage maker and porch reader inherited from scene reference, remaining four updated cast sheets supplied directly.",
+  "next": "Review common starter, then prepare separate left/right acting directions and verify reference uploads before generating. No new video submitted."
+}

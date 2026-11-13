@@ -1,0 +1,157 @@
+{
+  "status": "pending_user_review",
+  "names": [
+    {
+      "first": "APRIL",
+      "last": "BLOOM",
+      "firstFrame": 582,
+      "lastFrame": 571,
+      "firstPosition": [
+        1250,
+        915
+      ],
+      "lastPosition": [
+        1650,
+        915
+      ],
+      "corner": "lower right",
+      "fadeStart": 609,
+      "end": 617,
+      "layers": [
+        20442,
+        20499
+      ]
+    },
+    {
+      "first": "MAY",
+      "last": "BLOOM",
+      "firstFrame": 712,
+      "lastFrame": 695,
+      "firstPosition": [
+        170,
+        125
+      ],
+      "lastPosition": [
+        510,
+        125
+      ],
+      "corner": "upper left",
+      "fadeStart": 739,
+      "end": 747,
+      "layers": [
+        20556,
+        20613
+      ]
+    },
+    {
+      "first": "PENNY",
+      "last": "CASH",
+      "firstFrame": 1113,
+      "lastFrame": 1096,
+      "firstPosition": [
+        1390,
+        125
+      ],
+      "lastPosition": [
+        1750,
+        125
+      ],
+      "corner": "upper right",
+      "fadeStart": 1140,
+      "end": 1148,
+      "layers": [
+        20670,
+        20727
+      ]
+    },
+    {
+      "first": "RICH",
+      "last": "CASH",
+      "firstFrame": 1246,
+      "lastFrame": 1230,
+      "firstPosition": [
+        180,
+        900
+      ],
+      "lastPosition": [
+        500,
+        900
+      ],
+      "corner": "lower left",
+      "fadeStart": 1273,
+      "end": 1281,
+      "layers": [
+        20784,
+        20841
+      ]
+    },
+    {
+      "first": "MILES",
+      "last": "CHASE",
+      "firstFrame": 1363,
+      "lastFrame": 1355,
+      "firstPosition": [
+        1250,
+        915
+      ],
+      "lastPosition": [
+        1660,
+        915
+      ],
+      "corner": "lower right",
+      "fadeStart": 1390,
+      "end": 1398,
+      "layers": [
+        20898,
+        20955
+      ]
+    },
+    {
+      "first": "PENNY",
+      "last": "CHASE",
+      "firstFrame": 1505,
+      "lastFrame": 1488,
+      "firstPosition": [
+        230,
+        125
+      ],
+      "lastPosition": [
+        640,
+        125
+      ],
+      "corner": "upper left",
+      "fadeStart": 1532,
+      "end": 1540,
+      "layers": [
+        21012,
+        21069
+      ]
+    },
+    {
+      "first": "FORREST",
+      "last": "PINE",
+      "firstFrame": 1915,
+      "lastFrame": 1898,
+      "firstPosition": [
+        280,
+        915
+      ],
+      "lastPosition": [
+        665,
+        915
+      ],
+      "corner": "lower left",
+      "fadeStart": 1942,
+      "end": 1950,
+      "layers": [
+        21126,
+        21183
+      ]
+    }
+  ],
+  "nativeProject": "generated/effectcraft-edit-v049/Let-the-Phone-Book-Sing-editable-v049.ecproj",
+  "font": "Arial Bold Italic",
+  "size": 88,
+  "style": "Echo palette with dark ink stroke; surname appears in its final position, first name fills reserved space at left. Brief hold and eight-frame fade. Existing echoes untouched.",
+  "timingSource": "generated/timeline.compiled.json, line-005/006/011/012/013/014/019 word startFrame"
+}

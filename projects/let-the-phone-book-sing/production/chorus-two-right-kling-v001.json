@@ -1,0 +1,29 @@
+{
+  "status": "user_selected_full_background",
+  "model": "Kling 4.0",
+  "durationSeconds": 13,
+  "resolution": "1080p",
+  "fps": 24,
+  "masterFrames": [
+    1650,
+    1898
+  ],
+  "editFrames": 248,
+  "starter": "generated/scene-development/chorus-two-shared-starter-v003.png",
+  "prompt": "Animate the supplied illustrated suburban neighborhood first frame. One continuous 13-second shot at natural real-time speed. Camera absolutely locked: no pan, tilt, zoom, dolly, reframing, cuts or lens change. Preserve exact architecture, road, sidewalks, four people, their faces/clothes, one Chihuahua, trolley and red-hatted garden gnome. Keep the center roadway empty for a separately composited singer. No narrator in this generation. Maintain stable scale, straight structures and coherent anatomy. All action stays in its existing outer half of the image, never crosses the center. No new people, text, speech bubbles or props except the explicitly described dog mess. Bright affectionate visual comedy. No slow motion. \nPRIMARY ACTION ON RIGHT: The professional garden designer with long dreadlocks, sage shirt and stone-gray work overalls pushes the trolley carrying a heavy red-hatted stone garden gnome toward the Asian homeowner in yellow glasses and plum apron. She is enthusiastically arranging her perfect garden, oblivious to how much work her tiny corrections cause. He is friendly, expressive and confidently capable, until her repeated revisions test his patience. The gnome stays a rigid inanimate stone statue, never walks or changes expression.\n0-2 seconds: immediate small trolley movement toward her within the existing right-side garden area. She points to a nearby open patch of soil. He gives an easy grin, loose-shouldered confident nod: I have got this. Keep both fully inside the right half and away from the frame edge.\n2-5 seconds: he parks the trolley and carefully lifts the visibly heavy gnome with both hands, knees bent, putting it upright on her indicated patch only a small step away. Preserve its weight and coherent two-handed grip. He straightens with relief and proudly presents his work with an open palm.\n5-7 seconds: she leans back to assess, narrows her eyes, tilts her head, briefly smiles as if it is perfect, then raises one precise corrective finger and points to a different patch a small step to the side, still within the same right garden bed.\n7-9 seconds: designer freezes, slowly looks from her to the heavy gnome with exaggerated wide-eyed disbelief, then a patient breath and dropped shoulders. His relaxed swagger briefly collapses under the prospect of lifting it again. She gives a cheerful certain nod, absorbed in her vision.\n9-11.5 seconds: he crouches, gathers himself, lifts the gnome with clear effort and shifts it to the second nearby spot. Small controlled movements keep bodies and statue intact. Her pleased smile returns.\n11.5-13 seconds: he straightens with weary hope while she studies the placement, thoughtfully raising her finger again. End on his readable wary sideways glance at her; living motion tail rather than a frozen pose.\nActing rhythm: designer has Doug E. Doug/Sanka-style loose expressive comic energy, easy confidence and elastic disbelief; garden owner has Sandra Oh-style precise eye movements, assessing head tilt and small decisive corrections. Use performance inspiration only; preserve our original illustrated identities, no celebrity likeness changes. On LEFT the owner, tiny Chihuahua and garage woman do only low-key sniffing, breathing and quiet handwork in their initial area. No dog cleanup gag in this pass. This take is for the RIGHT half.\nPROMPT LOCK: Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "referenceVerified": true,
+  "actingReferences": [
+    "Doug E. Doug as Sanka",
+    "Sandra Oh"
+  ],
+  "compositing": "Use approved right take FULL FRAME; no left/right split.",
+  "displayedCostCredits": 195,
+  "submittedDate": "2026-11-11",
+  "referenceMode": "First frame only, shared approved scene contains cast",
+  "aspectMode": "Adaptive from starter",
+  "queueMessage": "Creating... Estimated wait: 11 minutes",
+  "resultGridUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657",
+  "reviewNote": "User rejected dog-cleanup take; use gnome/right take as one full-frame background, no split composite.",
+  "source": "generated/kling-tests/chorus-two-v001/gnome-original-1080p.mp4",
+  "resultUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657&slotId=949685919551602740&materialId=326422767522492"
+}

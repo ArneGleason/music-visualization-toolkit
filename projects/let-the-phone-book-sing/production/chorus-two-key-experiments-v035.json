@@ -1,0 +1,108 @@
+{
+  "status": "rejected_internal_tests",
+  "baseline": "generated/effectcraft-edit-v031/Let-the-Phone-Book-Sing-editable-v031.ecproj",
+  "variants": {
+    "a-cleaner": {
+      "key": {},
+      "effects": [
+        [
+          "ec.key.keycleaner",
+          {
+            "additionalEdgeRadius": 1.5,
+            "reduceChatter": true,
+            "alphaContrast": 100,
+            "strength": 40
+          }
+        ],
+        [
+          "ec.key.advancedspill",
+          {
+            "method": 0,
+            "suppression": 100
+          }
+        ]
+      ]
+    },
+    "b-soft-spill": {
+      "key": {
+        "screenGain": 110,
+        "clipBlack": 3,
+        "clipWhite": 90,
+        "screenShrinkGrow": 0,
+        "screenSoftness": 0.4,
+        "screenPreblur": 0.2,
+        "despill": 0,
+        "edgeColor": 1
+      },
+      "effects": [
+        [
+          "ec.key.keycleaner",
+          {
+            "additionalEdgeRadius": 1,
+            "reduceChatter": true,
+            "alphaContrast": 100,
+            "strength": 30
+          }
+        ],
+        [
+          "ec.key.advancedspill",
+          {
+            "method": 1,
+            "suppression": 100,
+            "ultraSettings/keyColor": [
+              0,
+              0.8274509803921568,
+              0,
+              1
+            ],
+            "ultraSettings/tolerance": 50,
+            "ultraSettings/desaturate": 25,
+            "ultraSettings/spillRange": 60
+          }
+        ]
+      ]
+    },
+    "c-refine": {
+      "key": {
+        "screenGain": 110,
+        "clipBlack": 3,
+        "clipWhite": 90,
+        "screenShrinkGrow": 0,
+        "screenSoftness": 0.4,
+        "screenPreblur": 0.2,
+        "despill": 0,
+        "edgeColor": 1
+      },
+      "effects": [
+        [
+          "ec.matte.refinesoft",
+          {
+            "radius": 2,
+            "feather": 0.6,
+            "contrast": 5,
+            "reduceChatter": 25,
+            "decontaminate": true,
+            "decontamination/decontaminationAmount": 70
+          }
+        ],
+        [
+          "ec.key.advancedspill",
+          {
+            "method": 1,
+            "suppression": 100,
+            "ultraSettings/keyColor": [
+              0,
+              0.8274509803921568,
+              0,
+              1
+            ],
+            "ultraSettings/desaturate": 25,
+            "ultraSettings/spillRange": 60
+          }
+        ]
+      ]
+    }
+  },
+  "output": "generated/chorus-two-key-experiments-v035",
+  "reason": "Standard spill suppression altered colors severely; soft-key variants made contours too heavy. Superseded for review by v036."
+}

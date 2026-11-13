@@ -1,0 +1,18 @@
+{
+  "status": "pending_user_review",
+  "nativeProject": "generated/effectcraft-edit-v044/Let-the-Phone-Book-Sing-editable-v044.ecproj",
+  "fallback": "v043",
+  "layer": 20105,
+  "hitFrames": [
+    11,
+    13,
+    14,
+    16,
+    24
+  ],
+  "fps": 24,
+  "expansionFrames": 2,
+  "fullColorFrame": 26,
+  "timingEvidence": "Opening master waveform attacks approximately .475,.543,.608,.674,.99 seconds; rounded to 24fps. Review against the music.",
+  "method": "Native Hue/Saturation adjustment, full-frame Add mask and five animated Subtract circle masks. Color accumulates; no generated media or baked compositing."
+}

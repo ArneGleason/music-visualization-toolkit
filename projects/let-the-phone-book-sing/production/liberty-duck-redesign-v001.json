@@ -1,0 +1,32 @@
+{
+  "status": "approved_inserted_animatic_v052",
+  "method": "built-in imagegen",
+  "character": "generated/character-development/liberty-bell-redesign/liberty-reference-v001.png",
+  "duck": "generated/character-development/liberty-bell-redesign/boss-duck-reference-v002.png",
+  "starter": "generated/scene-development/liberty-bell-redesign/starter-v003.png",
+  "gag": "Wiry Liberty attempts to herd a boss duck; it advances and backs her through open pen entrance. Two ducks watch within. RABBITS sign. Payoff is startled disbelief, not embarrassed smile.",
+  "corrections": "Duck wings enlarged into full folded wings; duplicate hat removed from starter; clear entrance behind Liberty.",
+  "animatic": "v051 retained unchanged until revised footage approved",
+  "gateRevision": "v003: lower gate, hinge edge on pen-connected fixed post; free latch edge left, open entry behind Liberty. Pending review.",
+  "generation": {
+    "model": "Kling 4.0",
+    "seconds": 8,
+    "resolution": "1080p",
+    "credits": 120,
+    "referenceVerifiedBeforeSubmission": true,
+    "prompt": "production/liberty-duck-kling-v001.prompt.txt",
+    "proof": "generated/kling-tests/liberty-duck-v001/submission-confirmed.png",
+    "browser": "Chrome Arne personal profile 5",
+    "status": "approved_downloaded",
+    "source": "generated/kling-tests/liberty-duck-v001/kling-original-1080p.mp4",
+    "materialId": "326563668305434",
+    "slotId": "950276901355012163"
+  },
+  "edit": {
+    "sourceOffsetFrames": 24,
+    "startFrame": 437,
+    "endFrameExclusive": 571,
+    "namePosition": "upper left",
+    "nativeProject": "generated/effectcraft-edit-v052/Let-the-Phone-Book-Sing-editable-v052.ecproj"
+  }
+}

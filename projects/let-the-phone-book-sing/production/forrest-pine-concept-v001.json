@@ -1,0 +1,27 @@
+{
+  "status": "approved_video",
+  "shot": "PB-021",
+  "character": "Forrest Pine",
+  "identity": "Reuse approved chorus2 gnome-delivery gardener, retired environmental scientist.",
+  "setting": "Living room/study on pine-heavy wooded lot,100 Park Place; visible period touch-tone telephone.",
+  "userDirection": "Chalkboard fully drawn in starter. Forrest points and waves chalk while explaining; no writing or drawing during animation. Secret weapon potentially Clive ceramic gnome from Primate Suspects.",
+  "cliveReference": "../../../keith-psychic-detective/source-images-primate-suspects/reference-images/clive-statue.png",
+  "cliveDesign": "Fixed ceramic mooning gnome, red pointed hat, white beard, blue coat, dropped trousers, brown boots; established love-life-advice sign. Translate into Phone Book illustrated style; do not animate statue.",
+  "proposedAction": "Passionate conspiratorial phone lecture: classic chunky 1990s cordless handset at ear, matching empty charging base on desk. Forrest gestures with chalk toward completed board as if caller can see it; never writes or draws. Clive remains inanimate.",
+  "studyReference": {
+    "status": "user_accepted",
+    "image": "generated/character-development/forrest-pine/forrest-pine-study-reference-v001.png",
+    "prompt": "production/forrest-pine-study-reference-v001.prompt.txt",
+    "wardrobe": "Brown-gray herringbone tweed jacket, muted plum sweater vest, open collar, charcoal trousers, worn leather loafers, low reading glasses. Same delivery-man identity and dreadlocks; chalk for pointing only."
+  },
+  "sceneReference": {
+    "status": "user_accepted",
+    "image": "generated/scene-development/forrest-pine-study-v004.png",
+    "prompt": "production/forrest-pine-study-scene-v004.prompt.txt",
+    "generator": "built-in imagegen",
+    "details": "Front-facing Clive statue; three-column cordless keypad; completed chalkboard and roadside mailbox 100."
+  },
+  "cameraDirection": "Locked steady interior camera, no push, pan or zoom.",
+  "boardHeading": "GNOME DETERRENCE",
+  "revisionDirection": "Clive front faces camera, rear toward window; chalkboard mooning drawing unchanged. Three-column four-row cordless keypad. Review starter before video regeneration."
+}

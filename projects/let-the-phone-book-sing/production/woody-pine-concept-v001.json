@@ -1,0 +1,89 @@
+{
+  "status": "approved_inserted_animatic_v050",
+  "shot": "PB-022",
+  "character": "Woody Pine",
+  "address": "3 Orchard Street, Park Orchard",
+  "identity": "Same tiny elderly passerby from May Bloom, white pointed curled moustache, prominent ears and thin stooped build. No hat at home.",
+  "reference": "generated/character-development/woody-pine/woody-pine-house-reference-v001.png",
+  "prompt": "production/woody-pine-house-reference-v001.prompt.txt",
+  "generator": "built-in imagegen",
+  "wardrobe": "Midnight teal silk smoking robe with plum collar, cuffs and sash; ivory pajamas; house slippers.",
+  "concept": "Sophisticated collector of hilariously strange medieval marginalia, enlarged in ornate frames in grand suburban house. Proposed action: inspects picture with magnifying glass, breaks into delighted laughter.",
+  "phone": "Heavy black Bakelite rotary telephone on polished wooden side table.",
+  "addressCue": "Window to front garden/driveway; roadside mailbox with large readable 3.",
+  "research": [
+    "https://www.bl.uk/stories/blogs/posts/knight-v-snail",
+    "https://searcharchives.bl.uk/catalog/040-002354536",
+    "https://www.bl.uk/stories/blogs/posts/ludicrous-figures-in-the-margin"
+  ],
+  "referenceStatus": "user_approved",
+  "sceneReference": {
+    "image": "generated/scene-development/woody-pine-scene-v007.png",
+    "prompt": "production/woody-pine-scene-v007.prompt.txt",
+    "status": "user_approved",
+    "generator": "built-in imagegen"
+  },
+  "scaleDirection": "User requested much shorter Woody, oversized rolled clothing, overlong robe, huge slippers and magnifier, looming furniture.",
+  "artDirection": "v007: user wanted closer to actual common medieval themes. Original compositions of knight confronting giant snail, human head on animal/bird legs, donkey playing lyre. Flatter manuscript rendering. v006 too whimsical. No new Kling submission.",
+  "latestRevision": "Woody modestly enlarged from v003, still diminutive in oversized clothes; single-pane picture window with unobstructed mailbox3; worn/faded furniture, textiles, phone and room, newspaper stack at left. User approved v003 artwork; retain.",
+  "generation": {
+    "status": "completed_user_rejected_sightline",
+    "model": "Kling 4.0",
+    "resolution": "1080p",
+    "durationSeconds": 8,
+    "credits": 120,
+    "prompt": "production/woody-pine-kling-v001.prompt.txt",
+    "starter": "generated/scene-development/woody-pine-scene-v004.png",
+    "starterVerifiedBeforeSubmit": true,
+    "projectUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657",
+    "proof": "generated/kling-tests/woody-pine-v001/generation-status.png",
+    "next": "Review completed take before inserting into PB-022; preserve musical frame boundaries 2031\u20132155. Animatic remains v049."
+  },
+  "nextMotionDirection": "Gentle push toward Woody/artwork, maintain looking-through-lens sightline. No retake submitted. User also floated alternative ringing telephone/rushed shuffle/fall gag; not yet selected.",
+  "retake": {
+    "status": "rejected_by_kling_copyright_restrictions",
+    "prompt": "production/woody-pine-kling-v002.prompt.txt",
+    "starter": "generated/scene-development/woody-pine-scene-v005.png",
+    "starterVerifiedBeforeSubmit": true,
+    "resolution": "1080p",
+    "durationSeconds": 8,
+    "displayedCostCredits": 120,
+    "generationStarted": false,
+    "reason": "Sorry, this content cannot be created due to copyright restrictions. Please modify it and try again. If you have any questions, please contact customer support.",
+    "proof": "generated/kling-tests/woody-pine-v002/submission-blocked.png"
+  },
+  "motifSources": [
+    "https://www.bl.uk/stories/blogs/posts/knight-v-snail",
+    "https://www.bl.uk/stories/blogs/posts/ludicrous-figures-in-the-margin",
+    "https://www.getty.edu/art/exhibitions/margins_manuscripts/margins_manuscripts_checklist.pdf"
+  ],
+  "latestGeneration": {
+    "status": "user_approved_downloaded",
+    "starter": "generated/scene-development/woody-pine-scene-v007.png",
+    "prompt": "production/woody-pine-kling-v003.prompt.txt",
+    "durationSeconds": 8,
+    "resolution": "1080p",
+    "model": "Kling 4.0",
+    "credits": 120,
+    "proof": "generated/kling-tests/woody-pine-v003/submission-confirmed.png",
+    "next": "Review completed take before animatic replacement; no duplicate submission.",
+    "source": "generated/kling-tests/woody-pine-v003/kling-original-1080p.mp4",
+    "materialId": "326509393317046",
+    "slotId": "950049253752188994"
+  },
+  "edit": {
+    "nativeProject": "generated/effectcraft-edit-v050/Let-the-Phone-Book-Sing-editable-v050.ecproj",
+    "startFrame": 2031,
+    "endFrameExclusive": 2155,
+    "sourceOffsetFrames": 48,
+    "name": {
+      "first": "WOODY",
+      "last": "PINE",
+      "lastFrame": 2031,
+      "firstFrame": 2048,
+      "fadeStart": 2075,
+      "endFrame": 2083,
+      "corner": "upper right"
+    }
+  }
+}

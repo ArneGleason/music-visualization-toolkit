@@ -1,0 +1,44 @@
+{
+  "status": "user_accepted_for_scene_starter",
+  "method": "Built-in image generation",
+  "references": [
+    {
+      "id": "furniture-maker",
+      "image": "generated/character-development/chorus-two-references/furniture-maker-v001.png",
+      "prompt": "production/chorus-two-ref-furniture-maker-v001.prompt.txt",
+      "status": "user_accepted_for_scene_starter"
+    },
+    {
+      "id": "porch-reader",
+      "image": "generated/character-development/chorus-two-references/porch-reader-v001.png",
+      "prompt": "production/chorus-two-ref-porch-reader-v001.prompt.txt",
+      "status": "user_accepted_for_scene_starter"
+    },
+    {
+      "id": "dog-owner",
+      "image": "generated/character-development/chorus-two-references/dog-owner-v002.png",
+      "prompt": "production/chorus-two-ref-dog-owner-v002.prompt.txt",
+      "status": "user_accepted_for_scene_starter"
+    },
+    {
+      "id": "garden-director",
+      "image": "generated/character-development/chorus-two-references/garden-director-v001.png",
+      "prompt": "production/chorus-two-ref-garden-director-v001.prompt.txt",
+      "status": "user_accepted_for_scene_starter"
+    },
+    {
+      "id": "gnome-delivery-man",
+      "image": "generated/character-development/chorus-two-references/gnome-delivery-man-v002.png",
+      "prompt": "production/chorus-two-ref-gnome-delivery-man-v002.prompt.txt",
+      "status": "user_accepted_for_scene_starter"
+    },
+    {
+      "id": "chihuahua",
+      "image": "generated/character-development/chorus-two-references/chihuahua-v003.png",
+      "prompt": "production/chorus-two-ref-chihuahua-v003.prompt.txt",
+      "status": "user_accepted_for_scene_starter"
+    }
+  ],
+  "next": "Review sheets then rebuild background starter with left driveway dog gag and right gnome relocation gag; generate two independent locked-camera full-duration background takes from same starter, composite halves in EffectCraft behind separate Hedra singer.",
+  "revisionNote": "User accepted corrected Chihuahua v003 and instructed shared background starter using these references."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "pending_review",
+  "project": "generated/effectcraft-edit-v038/Let-the-Phone-Book-Sing-editable-v038.ecproj",
+  "review": "generated/effectcraft-edit-v038/chorus-two-edge-cleanup-review.mp4",
+  "source": "generated/avatar-tests/chorus-two-v002/hedra-original-1080p.mp4",
+  "key": "Preferred A; Source edge color instead of Screen Subtract; shrink -1.2 instead of -0.65; screen RGB [0,249,1]",
+  "addedStrokeOpacity": 0,
+  "sourceStartFrame": 1606,
+  "reviewFrames": [
+    1596,
+    1898
+  ],
+  "fps": 24,
+  "notes": "Same background, ripple, joint scene fade and song timing. Earlier take preserved."
+}

@@ -1,0 +1,79 @@
+{
+  "status": "a_preferred_by_user",
+  "baseline": "generated/effectcraft-edit-v031/Let-the-Phone-Book-Sing-editable-v031.ecproj",
+  "variants": {
+    "a-cleaner": {
+      "key": {},
+      "effects": [
+        [
+          "ec.key.keycleaner",
+          {
+            "additionalEdgeRadius": 1,
+            "reduceChatter": true,
+            "alphaContrast": 100,
+            "strength": 25
+          }
+        ]
+      ]
+    },
+    "b-soft-spill": {
+      "key": {
+        "screenGain": 170,
+        "clipBlack": 12,
+        "clipWhite": 82,
+        "screenShrinkGrow": -0.2,
+        "screenSoftness": 0.5,
+        "screenPreblur": 0.3,
+        "despill": 100,
+        "edgeColor": 0
+      },
+      "effects": [
+        [
+          "ec.key.advancedspill",
+          {
+            "method": 1,
+            "suppression": 70,
+            "ultraSettings/keyColor": [
+              0,
+              0.8274509803921568,
+              0,
+              1
+            ],
+            "ultraSettings/tolerance": 35,
+            "ultraSettings/desaturate": 15,
+            "ultraSettings/spillRange": 35
+          }
+        ]
+      ]
+    },
+    "c-refine": {
+      "key": {},
+      "effects": [
+        [
+          "ec.matte.refinesoft",
+          {
+            "radius": 1,
+            "feather": 0.3,
+            "contrast": 0,
+            "reduceChatter": 15,
+            "decontaminate": true,
+            "decontamination/decontaminationAmount": 40
+          }
+        ]
+      ]
+    }
+  },
+  "output": "generated/chorus-two-key-experiments-v036",
+  "observations": {
+    "a-cleaner": "Restrained Key Cleaner after original key. Preserves original color; remaining isolated wisps visible in sampled frames.",
+    "b-soft-spill": "Moderately softer key plus Ultra spill suppression. More edge retained, but darker/heavier hair contour remains a tradeoff.",
+    "c-refine": "Original key plus restrained Refine Soft Matte/decontamination. Subtle difference in sampled frames; temporal result pending user review."
+  },
+  "keeper_unchanged": "v031",
+  "review_range_frames": [
+    1596,
+    1898
+  ],
+  "fps": 24,
+  "userFeedback": "A best; B heavier; C outline appears temporally out of step. No confirmed technical diagnosis."
+}

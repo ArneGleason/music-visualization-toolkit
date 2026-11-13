@@ -1,0 +1,16 @@
+{
+  "status": "pending_review",
+  "nativeProject": "generated/effectcraft-edit-v032/Let-the-Phone-Book-Sing-editable-v032.ecproj",
+  "controls": {
+    "screenGain": 120,
+    "clipBlack": 5,
+    "clipWhite": 82,
+    "screenShrinkGrow": 0,
+    "screenSoftness": 0.4,
+    "screenPreblur": 0.25
+  },
+  "notes": "Reduce matte erosion and black clipping to retain thin hair connections. Source Hedra also contains a few detached hair fragments; key tuning cannot recreate missing strands. Existing hair despill and ink outline retained.",
+  "hairRecoveryLayer": 20068,
+  "method": "Original body key retained; additional gentler keyed plate restricted to head with feathered mask, below existing hair color cleanup.",
+  "recoveryMaskLayer": 20131
+}

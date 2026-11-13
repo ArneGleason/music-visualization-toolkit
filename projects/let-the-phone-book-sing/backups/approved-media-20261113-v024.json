@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "roots": [
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v001",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v002",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v003",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v004",
+    "projects/let-the-phone-book-sing/generated/character-development/bathrobe-customer",
+    "projects/let-the-phone-book-sing/generated/character-development/chorus-two-references",
+    "projects/let-the-phone-book-sing/generated/character-development/forrest-pine",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-redesign",
+    "projects/let-the-phone-book-sing/generated/character-development/pearl-price",
+    "projects/let-the-phone-book-sing/generated/character-development/woody-pine",
+    "projects/let-the-phone-book-sing/generated/character-development/yew-pine",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v050",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v051",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v052",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v053",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v054",
+    "projects/let-the-phone-book-sing/generated/kling-tests/chorus-two-v001",
+    "projects/let-the-phone-book-sing/generated/kling-tests/forrest-pine-v001",
+    "projects/let-the-phone-book-sing/generated/kling-tests/forrest-pine-v002",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-duck-v001",
+    "projects/let-the-phone-book-sing/generated/kling-tests/miles-chase-v001",
+    "projects/let-the-phone-book-sing/generated/kling-tests/pearl-price-v001",
+    "projects/let-the-phone-book-sing/generated/kling-tests/pearl-price-v002",
+    "projects/let-the-phone-book-sing/generated/kling-tests/penny-cash-v003",
+    "projects/let-the-phone-book-sing/generated/kling-tests/penny-chase-penny-v001",
+    "projects/let-the-phone-book-sing/generated/kling-tests/penny-chase-rich-v001",
+    "projects/let-the-phone-book-sing/generated/kling-tests/penny-chase-rich-v002",
+    "projects/let-the-phone-book-sing/generated/kling-tests/rich-cash-v001",
+    "projects/let-the-phone-book-sing/generated/kling-tests/woody-pine-v001",
+    "projects/let-the-phone-book-sing/generated/kling-tests/woody-pine-v002",
+    "projects/let-the-phone-book-sing/generated/kling-tests/woody-pine-v003",
+    "projects/let-the-phone-book-sing/generated/kling-tests/yew-pine-v001",
+    "projects/let-the-phone-book-sing/generated/scene-development",
+    "projects/let-the-phone-book-sing/generated/scene-development/liberty-bell-redesign",
+    "projects/let-the-phone-book-sing/generated/scene-development/pearl-price",
+    "projects/let-the-phone-book-sing/generated/source"
+  ],
+  "exclude": [
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v001/hedra-submitted.png",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v001/narrator-green.ecproj",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v001/narrator-green.png",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v002/narrator-hands-ink.png",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v003/hedra-original-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v003/narrator-outer-contour.ecproj",
+    "projects/let-the-phone-book-sing/generated/character-development/bathrobe-customer/reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/chorus-two-references/chihuahua-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/chorus-two-references/chihuahua-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/chorus-two-references/dog-owner-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/chorus-two-references/gnome-delivery-man-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-redesign/boss-duck-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/pearl-price/pearl-price-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/character-development/pearl-price/pearl-price-reference-v002.png",
+    "projects/let-the-phone-book-sing/generated/character-development/yew-pine/real-gnome-reference-v001.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v050/animatic-through-pine-price-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v050/check-2036.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v050/check-2056.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v050/check-2138.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v050/check-2160.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v050/insertion.json",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v051/animatic-through-pine-price-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v051/check-2160.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v051/check-2180.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v051/check-2269.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v051/check-2292.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v051/check-2302.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v051/insertion.json",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v052/animatic-through-pine-price-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v052/check-440.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v052/check-451.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v052/check-530.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v052/check-568.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v052/check-574.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v052/insertion.json",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v053/animatic-through-hope-wait-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v053/check-2320.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v053/check-2420.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v053/check-2460.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v053/check-2600.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v053/check-2720.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v053/insertion.json",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v053/viewer-ready.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v054/animatic-through-hope-wait-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v054/check-2413.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v054/check-2415.png",
+    "projects/let-the-phone-book-sing/generated/effectcraft-edit-v054/check-2417.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/chorus-two-v001/submission.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/forrest-pine-v001/generation-status.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/forrest-pine-v002/generation-status.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-duck-v001/reference-verified.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-duck-v001/source-24.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/miles-chase-v001/kling-result.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/miles-chase-v001/review-01.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/miles-chase-v001/review-02.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/miles-chase-v001/review-03.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/miles-chase-v001/review-04.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/miles-chase-v001/review-05.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/miles-chase-v001/review-06.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/miles-chase-v001/review-07.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/miles-chase-v001/review-08.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/pearl-price-v001/reference-verified.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/pearl-price-v002/approved-preview.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/penny-cash-v003/completed.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/penny-cash-v003/contact.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/penny-cash-v003/throw-check.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/rich-cash-v001/submitted.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/rich-cash-v001/throw-check.jpg",
+    "projects/let-the-phone-book-sing/generated/kling-tests/woody-pine-v003/frame-1.5.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/woody-pine-v003/frame-5.5.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/woody-pine-v003/frame-6.5.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/yew-pine-v001/frame-1.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/yew-pine-v001/frame-4.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/yew-pine-v001/frame-6.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/yew-pine-v001/frame-7.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/april-bloom-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/april-bloom-start-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/belle-bell-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-one-canal-background-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-narrator-cutout-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-narrator-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-narrator-situation-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-park-orchard-background-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-park-orchard-background-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-park-orchard-background-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-park-orchard-background-v004.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-placement-v001.ecproj",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-placement-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-shared-starter-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-shared-starter-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-style-ab-a.ecproj",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-style-ab-a.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-style-ab-b.ecproj",
+    "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-style-ab-b.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/forrest-pine-study-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/forrest-pine-study-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/forrest-pine-study-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/liberty-bell-redesign/starter-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/liberty-bell-redesign/starter-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/liberty-bell-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v004.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-start-v004.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-kling-result.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/miles-chase-end-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/miles-chase-start-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/miles-chase-start-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/miles-chase-start-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/miles-chase-start-v004.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/narrator-opening-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/narrator-opening-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/pearl-price/starter-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/pearl-price/starter-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/pearl-price/starter-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-start-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-chase-split-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/rich-cash-phone-start-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/rich-cash-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/rich-cash-start-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/rich-cash-start-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/rich-cash-start-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/woody-pine-scene-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/woody-pine-scene-v002.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/woody-pine-scene-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/woody-pine-scene-v006.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/yew-pine-scene-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/yew-pine-scene-v002.png",
+    "projects/let-the-phone-book-sing/generated/source/lyrics-user-supplied-20261107.txt",
+    "projects/let-the-phone-book-sing/generated/source/master.wav",
+    "projects/let-the-phone-book-sing/generated/source/project-readback.xml"
+  ],
+  "scope": "Construction delta through native v054: all project file dependencies not already backed up, current character/starter references, cleaned lead and timing. No assembled MP4 reviews. Historical media referenced by native project retained for project integrity.",
+  "requiresPriorCheckpoints": true,
+  "reusedPaths": [
+    "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-one-v001/hedra-original-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/hedra-v001/hedra-green-original.mp4",
+    "projects/let-the-phone-book-sing/generated/avatar-tests/opening-book-v002/book-original-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/beatmap.json",
+    "projects/let-the-phone-book-sing/generated/covers/patience-pleasant-avenue-v001.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/canal-district-v008.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/financial-district-v004.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/old-church-quarter-narrator-v001.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/old-church-quarter-v006.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/park-orchard-v005.png",
+    "projects/let-the-phone-book-sing/generated/environment-development/spring-worth-v004.png",
+    "projects/let-the-phone-book-sing/generated/kling-tests/april-bloom-v001/april-original-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/kling-tests/belle-bell-v001/belle-original-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001/coffee-original-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/kling-tests/chorus-one-v001/wheel-original-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/kling-tests/liberty-bell-v003/liberty-original-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/kling-tests/may-bloom-v001/may-original-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/kling-tests/opening-background-v002/street-original-1080p.mp4",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v006/bell-lettering-1.png",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v006/bell-lettering-2.png",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/belle-echo-v006/bell-lettering-3.png",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/sing-echo-v002/sing-lettering-1.png",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/sing-echo-v002/sing-lettering-2.png",
+    "projects/let-the-phone-book-sing/generated/motion-graphics/sing-echo-v002/sing-lettering-3.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/may-bloom-situation-v004.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/narrator-opening-v001.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/penny-cash-situation-v003.png",
+    "projects/let-the-phone-book-sing/generated/scene-development/rich-cash-situation-v001.png",
+    "projects/let-the-phone-book-sing/generated/source/master.wav",
+    "projects/let-the-phone-book-sing/generated/timeline.compiled.json"
+  ],
+  "tag": "let-the-phone-book-sing-approved-20261113-v024",
+  "archive": "let-the-phone-book-sing-approved-20261113-v024.zip",
+  "sha256": "3c7c4c89841a50bc64e00c5780c71d8b6ff15e7ecda9918fe55dbc37e5ec7d9d",
+  "bytes": 447101178,
+  "files": [
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v001/chorus-lead-frames1606-1922.wav",
+      "bytes": 3792102,
+      "sha256": "14b6999b6cb41364f4909939aca28bbde923911356a786b3acd0fc11246454d8"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v001/hedra-original-1080p.mp4",
+      "bytes": 14767963,
+      "sha256": "8166e35cc5cb1915b9289b0600d829752f79ab6c0c4b93cc88a57688a4c66baf"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v002/hedra-original-1080p.mp4",
+      "bytes": 7686475,
+      "sha256": "ac0d98589ef984de74eb69a82d8f15685f83fd297de270a2373ebc5950585a94"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v003/narrator-outer-contour.png",
+      "bytes": 806322,
+      "sha256": "cdeb0500113d567c122524abd6e60c71b80a6ae5c5adfc241918a8f52b9473c1"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/avatar-tests/chorus-two-v004/hedra-original-1080p.mp4",
+      "bytes": 14394285,
+      "sha256": "21300ddca32477fd76ee7892730a4bb61afe8934ae60f1d1b0811afe43fb0a9d"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/bathrobe-customer/bob-reference-v002.png",
+      "bytes": 2916961,
+      "sha256": "3376a546b8aee1ccd23ae448dc6ae43bafed304722faa7723ae20481fda231da"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/chorus-two-references/chihuahua-v003.png",
+      "bytes": 2469983,
+      "sha256": "08e6609ebe979f46e2953b888eac415fe6b343efdb6f5e9dd83dacac4391626e"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/chorus-two-references/dog-owner-v002.png",
+      "bytes": 2308031,
+      "sha256": "d84ccb4c640db55a0920b8b4a886638ebf59e656dcec60cf593c43567c560810"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/chorus-two-references/furniture-maker-v001.png",
+      "bytes": 2757119,
+      "sha256": "4bbce539124bf945e885d483978660350666234599f3c9d75c66ae24c6f51059"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/chorus-two-references/garden-director-v001.png",
+      "bytes": 1975117,
+      "sha256": "c79d652f82c524005f3a5551ab5c85ed589c1be447e8f31fd0f7e8a03fb814da"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/chorus-two-references/gnome-delivery-man-v002.png",
+      "bytes": 2703391,
+      "sha256": "71d6cbbbc12e58def5d1bc7e651e8e027d3dd05adc011ee25a3ba6a27482b59c"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/chorus-two-references/porch-reader-v001.png",
+      "bytes": 2166513,
+      "sha256": "7b07948541ed3ab83f1ddd18457b8898f575b8d2bcee154de00a49d3eb04d093"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/forrest-pine/forrest-pine-study-reference-v001.png",
+      "bytes": 2617081,
+      "sha256": "a7ddbf38fcd2a991126bd6781c18928fd467b92e03020bc4f9989d1df470c74d"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-redesign/boss-duck-reference-v002.png",
+      "bytes": 2340633,
+      "sha256": "fb829a75a53b170551c4c3ea0b17df68839550f34e061c48af4f949dc326d911"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/liberty-bell-redesign/liberty-reference-v001.png",
+      "bytes": 2808618,
+      "sha256": "38408a77800be2911dfd33ca540511b29298e495aaa4a95cf9de78933feee153"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/pearl-price/pearl-price-reference-v003.png",
+      "bytes": 2780418,
+      "sha256": "e2a268426b861a449245ee786bb5b30639977f34042cfc759d73890b08f8406c"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/woody-pine/woody-pine-house-reference-v001.png",
+      "bytes": 2601703,
+      "sha256": "a97bba0a7f46fae382ada44f2f2b6862589c52b3f5d2b8eb6b9b272505689144"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/character-development/yew-pine/real-gnome-reference-v002.png",
+      "bytes": 2855201,
+      "sha256": "97a3bd867d067eefe3a27daf06a47cb5a8f6dff1f1a39eb7378b3fe6d6cc3610"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v050/Let-the-Phone-Book-Sing-editable-v050.ecproj",
+      "bytes": 37031002,
+      "sha256": "655fb07b5fcc87acf81fb04dd8d320093254f714d99e789df82cae3f1bde85ab"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v051/Let-the-Phone-Book-Sing-editable-v051.ecproj",
+      "bytes": 37156256,
+      "sha256": "3a58b39d7d277eeebc91c5b5c5613936023f9814deecdb682fb27e626bee2b8a"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v052/Let-the-Phone-Book-Sing-editable-v052.ecproj",
+      "bytes": 37157182,
+      "sha256": "c34a7d26c6e1443d1a4a910beff1a06578b5c7d1e9b3f130f958de6fb4a07ad5"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v053/Let-the-Phone-Book-Sing-editable-v053.ecproj",
+      "bytes": 37282461,
+      "sha256": "5c601c748e2e5031eaa397fed4ca4be4a6b6f51dfc813e89db166e1d1345ab5e"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/effectcraft-edit-v054/Let-the-Phone-Book-Sing-editable-v054.ecproj",
+      "bytes": 37282625,
+      "sha256": "55f0017534b66462e87df550bf92b7c8483860adb1248c162caa637b0099fad1"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/chorus-two-v001/gnome-original-1080p.mp4",
+      "bytes": 20121060,
+      "sha256": "cb6cff982e51a54d644e7af967d12f6ca819ba61c48b5e603173b45c33526d39"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/forrest-pine-v001/kling-original-1080p.mp4",
+      "bytes": 14137877,
+      "sha256": "1bea34e50d46e02375ae0ccd72331b41f991a161c8b4c6cce810f23c40cf1b94"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/forrest-pine-v002/kling-original-1080p.mp4",
+      "bytes": 13479182,
+      "sha256": "7f6e56fa7ad641583c1b42d46e26f22179de3867245d3e97106ca14384753086"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/liberty-duck-v001/kling-original-1080p.mp4",
+      "bytes": 35920874,
+      "sha256": "808cb267615fe69754a046bd757b03e016076f0aae28710bcebcd26ee63b7289"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/liberty-duck-v001/submission-confirmed.png",
+      "bytes": 315456,
+      "sha256": "85aed6ba5000b24ff71e3009ea7cf6316918434c22ccc79310b7ca034cca0500"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/miles-chase-v001/miles-original-1080p.mp4",
+      "bytes": 29131296,
+      "sha256": "5a5bbf2f1137d1764d5e52f39b51174b2a3b0c33948000e0201e7515c0f4e946"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/pearl-price-v001/submission-confirmed.png",
+      "bytes": 316033,
+      "sha256": "4f7967396c1d0cf9095bf3844a4ab94376ddf04423232e927003b61051cba7a5"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/pearl-price-v002/kling-original-1080p.mp4",
+      "bytes": 45315847,
+      "sha256": "39e1ac36bcc322fb05e663180f0ea1a16ad822c3ccd8aebd25a10831507201c8"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/pearl-price-v002/submission-confirmed.png",
+      "bytes": 374915,
+      "sha256": "8262b0bbfe10087888fa2529f64cd164c98906ca2481669b64b73d72b4c4b5ca"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/penny-cash-v003/penny-original-1080p.mp4",
+      "bytes": 17210792,
+      "sha256": "ee31b85b4a03444770b63c7343367a7a290d93cb4e822c7de82adc701f97c12e"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/penny-chase-penny-v001/penny-original-1080p.mp4",
+      "bytes": 10801316,
+      "sha256": "d94e06a859895e47e438e7038b659b1ee18c0997117e98e32d279c5319a438df"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/penny-chase-rich-v001/rich-original-1080p.mp4",
+      "bytes": 11090969,
+      "sha256": "c036a62ecc23e2577e4622ae7c682b979048f486c50d19e982c140b6133a7599"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/penny-chase-rich-v002/rich-original-1080p.mp4",
+      "bytes": 14263573,
+      "sha256": "72dd0fb6c14e77db44bd76fa927daf4280f07d7cb71ee7a573031498d92e8c67"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/rich-cash-v001/rich-original-1080p.mp4",
+      "bytes": 9519245,
+      "sha256": "24082b09e2ddb45d38fdbc6f205bd90135699a56e5dc267992cbddc805646d37"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/woody-pine-v001/generation-status.png",
+      "bytes": 292441,
+      "sha256": "ed1bb3b4b9f4c02f2e3d25db3d6c43aa27b940d05d15d126ea9fa9a1aadb8afc"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/woody-pine-v002/submission-blocked.png",
+      "bytes": 302307,
+      "sha256": "ce28f078131778971dc827ed74efa8eeabe1b6a6b82a40aec90405e6a003a7f4"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/woody-pine-v003/kling-original-1080p.mp4",
+      "bytes": 26889202,
+      "sha256": "eeaa2a78457f02110c5af57625eda79a79853d71e23ce55f006842a063cd0e7a"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/woody-pine-v003/submission-confirmed.png",
+      "bytes": 279893,
+      "sha256": "2055e89cdcca1c743a8ec4fca653d58b871676b6ecc54f68cf0d69a8667de0ba"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/yew-pine-v001/kling-original-1080p.mp4",
+      "bytes": 31204183,
+      "sha256": "3dd285c2e38d13f830b8ac651c37e2f18555b78ceb628e86fbf9861062573f2b"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/kling-tests/yew-pine-v001/submission-confirmed.png",
+      "bytes": 281505,
+      "sha256": "4b486d1d5dac402f71085912da941ad3deadc8c1824688b586809ad7c589cd1a"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/chorus-one-canal-background-v001.png",
+      "bytes": 3479461,
+      "sha256": "51f95d9d17459a2f775d511e56c523f3b9025c552157706bbf96742197a45242"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-narrator-cutout-v002.png",
+      "bytes": 963185,
+      "sha256": "9c7ad2b0a57ed951998cc7395bae8129190384a2f8f29f78926f71238b7e6d42"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-placement-v002.ecproj",
+      "bytes": 35006,
+      "sha256": "d06cf533ef912474eb7e5cc4b7ff60a3b7eff87cfdac50348798b40d63044044"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-placement-v002.png",
+      "bytes": 4104635,
+      "sha256": "1d1da0436a790a2efb0f5a9e3c7822cb1f547c67da9e094c03c83fc130a85177"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/chorus-two-shared-starter-v002.png",
+      "bytes": 3367894,
+      "sha256": "a1093774237bf2aa6d276d69a3d48848c9a87b8da2d5a3c2536d6dcc83ec7550"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/forrest-pine-study-v004.png",
+      "bytes": 2708240,
+      "sha256": "015f84b601fdf803dba784681f575c6015d0cf9f5e27b270c89488233eeb7683"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/liberty-bell-redesign/starter-v003.png",
+      "bytes": 3241800,
+      "sha256": "8b8acc2841bd63d10e4d8c78e336cee0b878ff7ac959290266ffdb9f692dc47f"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/pearl-price/pop-art-portrait-v001.png",
+      "bytes": 3091691,
+      "sha256": "5cc178e873c29da91d57a3cb72de357c682f66d519e8d06ad4a206ebb7483e85"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/pearl-price/starter-v004.png",
+      "bytes": 3116276,
+      "sha256": "1487bf7ecbc3897ff2b869889f0075360c31b0c2b624b2dd23fba978ad22d979"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/penny-chase-phone-start-v001.png",
+      "bytes": 2985406,
+      "sha256": "fdd9b25a1a24a0fdccdc2014a0a562ad9f1d48940f2d1c041dbaa4ba7606263f"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/rich-cash-phone-start-v002.png",
+      "bytes": 2861384,
+      "sha256": "bf76104bce6529262146110cbe690c0617c0545b841404e2c0b5c0643a0b85ae"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/woody-pine-scene-v004.png",
+      "bytes": 3601597,
+      "sha256": "64e1248fa0db471252b6222b5bfaa8320e1485d99b069d1f55120fbc0a7fee76"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/woody-pine-scene-v005.png",
+      "bytes": 3340021,
+      "sha256": "1e632d7b7fca6de36b647acf75e55bcc8c898a97d2a29b5ae5516016f00d28ec"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/woody-pine-scene-v007.png",
+      "bytes": 2865963,
+      "sha256": "ffd96050767b9a8fa7b899143a0e73578856825021785b73836cdd23801d7592"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/scene-development/yew-pine-scene-v003.png",
+      "bytes": 3386504,
+      "sha256": "b06a87ecba8da822fb477352f65cf4b7871c43825c64a05557d3f7330f07305d"
+    },
+    {
+      "path": "projects/let-the-phone-book-sing/generated/source/lead-dereverb-deecho-lipsync-20261108.wav",
+      "bytes": 52070528,
+      "sha256": "b2e088da58a010b7709c95c70fee826dfea4ae3cc3fc2acc9c64e49ca3dc5e42"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/let-the-phone-book-sing-approved-20261113-v024/let-the-phone-book-sing-approved-20261113-v024.zip"
+}

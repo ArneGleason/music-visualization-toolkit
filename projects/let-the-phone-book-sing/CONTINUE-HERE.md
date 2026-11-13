@@ -1,3 +1,335 @@
+# Resume bookmark — 2026-11-13, paused after Chorus 3 timing
+
+Start here. Historical entries below are a chronological work log; newer decisions supersede older pending/queued statuses.
+
+- Current native project: `generated/effectcraft-edit-v054/Let-the-Phone-Book-Sing-editable-v054.ecproj` (EffectCraft 0.22).
+- Current review: `generated/effectcraft-edit-v054/animatic-through-hope-wait-1080p.mp4`, 1080p/24fps, 2843 frames; viewer http://127.0.0.1:8778/. Restart/reload with `./.venv/bin/python3 projects/let-the-phone-book-sing/production/open_review.py` from repository root.
+- Pearl Price: approved Kling v002, inserted with name title. Courier left, Bob right admiring portrait, Pearl snub/sticker shock, Bob offers money. Source `generated/kling-tests/pearl-price-v002/kling-original-1080p.mp4`. No outstanding generation jobs.
+- User accepted trying earlier Chorus 3 entrance: frame2415 (1:40.625), downbeat during improvised woah, 36 frames earlier. Pearl ends there; chorus ends2699 (1:52.458); Hope Wait placeholder ends2843 (1:58.458). Lyrics/music timing unchanged. New cut shortens Pearl tail; review remains reversible in v053.
+- NEXT: develop Chorus 3 background, gags and narrator starter/performance. Include the complete powerful opening woah in Hedra input, with lead handle. Fade narrator WITH the incoming background, not separately before it. Current Church image is a placeholder, not a selected new setting.
+- Narrator settings used: Old Church Quarter opening, Canal District Chorus1, Park Orchard Chorus2. Unused: Springworth shop district and Financial District. Assistant suggested Springworth; USER HAS NOT SELECTED IT YET.
+- After this chorus: Hope Wait, 1 Pleasant Avenue rear, 108-1008. Not cast or developed yet; placeholder only.
+- Production lessons: use approved likeness; add thicker ink ONLY at outer silhouette in preprocessing, preserve fine internal lines. Use energetic Hedra direction including improvised O/woah. Matte-only key with mild inward trim from accepted Chorus2 setup; avoid double outline/color cleanup. Keep EffectCraft native compositing. Verify starter thumbnail before submitting Kling. Show starter and acting direction before new paid generation.
+- Backup: Git holds authored construction/notes/timing. Immutable GitHub release checkpoint `let-the-phone-book-sing-approved-20261113-v024` contains current native project and new source dependencies/reference keepers, supplementing prior checkpoints; manifest `backups/approved-media-20261113-v024.json`. Assembled reviews remain local and can be rendered again. Local generated media are not deleted.
+
+To resume in this or a new chat: “Continue Let the Phone Book Sing from CONTINUE-HERE.md; we are developing Chorus 3 after Pearl Price.”
+
+## Chorus3 entrance advanced — v054 timing trial
+
+User requested picture cut near start of improvised woah after Pearl number. New cut2415 (100.625s), nearest frame to DAWproject downbeat100.611629s,36frames earlier than2451. Pearl source offset remains24; its tail is shorter. Existing short dissolve retained via native opacity; lyrics/music untouched. Chorus now2415–2699 (11.833s); Hope remains2699–2843. Capture full preceding woah in future Hedra audio, fade narrator with scene. Springworth and Financial District remain unused narrator backdrops; current Church still is only a placeholder. Native script production/chorus_three_entrance_v054.py.
+
+## Pearl inserted — animatic v053 through Chorus3 and Hope Wait
+
+Approved Pearl v002 inserted at original frames2297–2451, source offset24frames. Native EffectCraft, matching PEARL PRICE name appears surname-first at2297 then first name2314. Full review extended to2843frames (118.458s), retaining existing Chorus3 placeholders2451–2699 and Hope Wait2699–2843 with timed lyric overlay. Chorus3 is248frames/10.333s; next character Hope Wait at1 Pleasant Avenue, rear,108-1008. Existing placeholder setting is not a final chorus/cast choice. Construction production/insert_pearl_v053.py; source generated/kling-tests/pearl-price-v002/kling-original-1080p.mp4. Next: review chorus function and develop setting/performance/gags.
+
+## Pearl Kling v002 retake submitted — queued
+
+User reviewed v001: hands flawed, cash too large/neat, invoice faced camera. Built-in ImageGen starter-v004 fixes hands and swaps courier to LEFT, Bob to RIGHT admiring portrait; Pearl remains doorway center. Kling v002 directs snub, invoice paper facing Pearl/back to camera, strong eye-bulging sticker shock, Bob retrieving modest rumpled rubber-banded cash roll. Eight seconds1080p,120credits, loaded reference visually verified and queue confirmed. Exact prompts in production/pearl-price-{starter-v004,kling-v002}.prompt.txt. Proof generated/kling-tests/pearl-price-v002/submission-confirmed.png. Await take review; do not resubmit. Animatic v052 unchanged.
+
+## Pearl Kling v001 submitted — queued
+
+User approved v003 fuller-body starter and requested strong acting. Verified uploaded thumbnail before submitting ONE Kling4.0 eight-second1080p take, displayed120credits. Queue confirmed in personal Chrome5. Prompt production/pearl-price-kling-v001.prompt.txt: deliberate snub, clipboard price trigger/recoil/refusal, Bob retrieves and offers cash calmly, stunned reaction; no purse search/payment completion. Subtle4percent push. Proof generated/kling-tests/pearl-price-v001/submission-confirmed.png. Do not resubmit. Await completed take review. Animatic v052 unchanged.
+
+## Pearl fuller build — v003 starter/reference pending review
+
+User approved doorway staging then requested more weight concentrated in lower belly/hips/seat. Built-in ImageGen starter-v003 and matching pearl-price-reference-v003 update build and fabric fit; handbag absent. Approved pop-art portrait remains the chosen artwork. Paths in production/pearl-price-concept-v001.json, exact prompts saved. No new video generated; animatic v052 unchanged.
+
+## Pearl starter v002 — doorway staging pending review
+
+User requested Pearl closest to her own doorway, no purse, delivery woman outside and less prominent, Bob farther left approaching and not looking at camera. Built-in ImageGen v002 implements threshold Pearl, side-view delivery woman on pavement, approaching Bob facing right. Portrait preserved, phone and1 visible. generated/scene-development/pearl-price/starter-v002.png; prompt in production. No video submitted.
+
+## Pearl starter v001 — pending review
+
+Built-in ImageGen starter at canal-side1 Water Street: Bob left, Pearl center, delivery woman right-center with clipboard, oversized approved pop-art portrait at right, visible cream touch-tone phone through door and house1. Cash concealed, handbag closed, before price reveal. generated/scene-development/pearl-price/starter-v001.png; prompt production/pearl-price-starter-v001.prompt.txt. Delivery changed to adult woman per user; no separate reference needed. Await review before Kling. Animatic v052 unchanged.
+
+## Bob named and reference corrected; Pearl portrait approved
+
+User named bathrobe cafe customer Bob and approved Pearl pop-art portrait v001. Bob v002 fixes viewer-left nested pocket to one patch pocket, adds two faded woven friendship bracelets on anatomical right wrist. Latest generated/character-development/bathrobe-customer/bob-reference-v002.png; built-in ImageGen prompt production/bob-reference-v002.prompt.txt. Original identity/costume retained. Next scene starter still needed, no video submitted.
+
+## Pearl supporting references — pending review
+
+Generated bathrobe cafe customer standalone sheet from approved chorus-one scene, preserving shaggy beard/hair, oatmeal robe, olive tee/trousers, sandals and easy good humor. generated/character-development/bathrobe-customer/reference-v001.png. Generated Pearl pop-art vanity portrait, single recognizable face in turquoise/pink/gold and shiny black frame: generated/scene-development/pearl-price/pop-art-portrait-v001.png. Built-in ImageGen prompts saved production/*.prompt.txt. Supersedes old gilt/sash portrait concept. Next review these then stage three-person delivery/payment gag at1 Water Street, including phone. No scene starter or new Kling yet; animatic v052 unchanged.
+
+## Pearl younger American glamour — reference v002 pending review
+
+User rejected high eyebrows/old-world fancy, requested late30s–early40s, no gray hair. Built-in ImageGen v002 replaces coiffure with long honey-blonde blowout/dark roots, natural-height brows, fitted ivory blazer/lavender top and trousers, chunky gold jewelry, retained distinctive broad cheek/tiny mouth character face. generated/character-development/pearl-price/pearl-price-reference-v002.png; prompt in production. v001 preserved. Scene premise unchanged, no starter or Kling yet.
+
+## Pearl Price reference v001 — pending review
+
+Generated original character sheet using built-in imagegen: broad lower cheeks, tiny pursed mouth, lofty eyebrows, sculpted blonde coiffure, ivory padded jacket and lavender scarf/trousers. Reference generated/character-development/pearl-price/pearl-price-reference-v001.png. Concept/prompt in production/pearl-price-*. At1 Water Street, Canal District. Gag: snubs returning shabby cafe fellow, delivery person presents price for enormous official-looking self portrait, she recoils/refuses, fellow casually offers huge cash wad. No empty-purse gag.154frames/6.42seconds; keep snub room and cut on stunned reaction, no completed payment. Await reference review before setting starter; no new Kling generation. Animatic v052 unchanged.
+
+## Liberty duck gag inserted — animatic v052
+
+Approved new Liberty duck take replaces old rabbit footage in native EffectCraft layer727, source offset24frames (1second), fixed musical range437–571 (134frames at24fps). Phone and76 visible at opening; shortened payoff accepted to preserve setup. Existing dissolves retained. Timed LIBERTY BELL title moved from upper right to upper left to avoid redesigned character face. Source generated/kling-tests/liberty-duck-v001/kling-original-1080p.mp4, material326563668305434. Construction production/replace_liberty_v052.py. Review remains full2451frames through Pearl Price placeholder. Previous v051 preserved.
+
+## Liberty duck take submitted — awaiting result
+
+User approved starter v003 and timed hat gag: commanding sweep, retreat behind hat shield, startled peek from inside pen. Submitted Kling4.0 eight-second1080p take,120credits, confirmed queued (displayed3minute estimate). First-frame thumbnail/filename verified before submission. Gentle rightward glide and5percent push. Prompt production/liberty-duck-kling-v001.prompt.txt; record production/liberty-duck-redesign-v001.json; proofs generated/kling-tests/liberty-duck-v001/. Do not resubmit. Animatic v051 unchanged pending footage review.
+
+## Liberty gate correction — starter v003 pending review
+
+User liked redesigned characters/starter but flagged tall disconnected gate and wrong hinge mechanics. Built-in imagegen v003 lowers gate to fence height, attaches hinges to fixed pen post, latch at free left edge, retains open retreat route behind Liberty. Latest starter: generated/scene-development/liberty-bell-redesign/starter-v003.png. Prompt saved production/liberty-duck-starter-v003.prompt.txt. No video generation; animatic v051 unchanged.
+
+## Liberty Bell duck redesign — stills pending review
+
+Revisiting early scene: tallish wiry original character with Shelley Duvall-inspired comic intensity, teal Western shirt, olive trousers, battered hat. Boss runner duck corrals her into pen while two ducks watch; RABBITS sign is the only sign joke. End in startled disbelief. Reference and starter paths in production/liberty-duck-redesign-v001.json. User flagged tiny wings; corrected duck reference v002 and starter v002 have full folded wings. Starter also corrected duplicate hat. Built-in imagegen prompts saved in production. No Kling generation or animatic replacement; v051 remains current.
+
+## Yew Pine added — animatic v051
+
+Approved Kling v001 downloaded and visually verified. Native EffectCraft v051 inserts PB023 frames 2155–2297 with source offset 30 frames, preserving music/cuts and existing dissolve treatment. YEW PINE upper-right title: PINE at 2155, YEW at 2172, hold to 2199 and fade through 2207. Full gag fits: emergence, statue shove, mooning, trousers restored. Full 1080p/24fps render verified at 2451 frames with audio; viewer updated. Construction: production/insert_yew_v051.py. Source: generated/kling-tests/yew-pine-v001/kling-original-1080p.mp4. Next: Pearl Price PB024, currently a placeholder. Large media remain local/ignored. Prior notes below are historical.
+
+## Yew Kling v001 submitted — personal browser
+
+Approved v003 concealed starter visibly loaded, submitted Kling4.0 8s1080p120credits on Chrome Arne personal profile(browser5,tab876351619). Confirmed queued/Task submitted. Gnome emerges, shoves rigid statue over, briefly moons Yew, restores trousers; offended reaction. No yelling fallback submitted. Prompt production/yew-pine-kling-v001.prompt.txt; proof generated/kling-tests/yew-pine-v001/submission-confirmed.png. Do not resubmit. Animatic remains v050.
+
+## Yew starter v003 — concealed entrance pending review
+
+User approved gnome v002 identity/size but wanted him initially unseen by Yew. Revised starter places him farther back at right, behind a tall flowering plant that screens her sightline while camera sees him around its right edge. generated/scene-development/yew-pine-scene-v003.png; prompt production/yew-pine-scene-v003.prompt.txt. No Kling generation.
+
+## Yew gnome v002 — size/clothing correction pending review
+
+User wanted tidy traditional gnome, about24inches and smaller than statue, larger buttons to convey refashioned human cloth, beltless pull-on trousers for planned gag. Revised real-gnome-reference-v002 and yew-pine-scene-v002; living gnome now visible standing at soil level beside taller statue. Paths/prompts in production/yew-pine-concept-v001.json. No Kling generation.
+
+## Yew Pine real gnome and garden starter — pending review
+
+User chose chorus-two garden owner as Yew Pine at4 Orchard Street. Scare-gnomes deter actual gnomes, not animals. Gag: pleased unaware gardener; real gnome emerges, topples statue and moons her; yelling fallback. Generated clothed adult living-gnome identity reference (plum floppy hat, olive jacket, wiry build) and garden starter with Yew tending flowers, red/blue ceramic statue upright, living gnome peeking from right foliage. Paths/prompts in production/yew-pine-concept-v001.json. Both pending review, no Kling generation. Animatic v050 unchanged.
+
+## Woody Pine added — animatic v050
+
+Approved Kling v003 downloaded and visually verified (medieval snail painting, phone surprise). Native EffectCraft v050 inserts PB022 frames2031–2155 with source offset48frames, preserving music/cuts and existing dissolve treatment. WOODY PINE upper-right title: PINE2031, WOODY2048, hold to2075 and fade through2083. Full1080p viewer through2451 still includes Yew Pine/Pearl Price placeholders. Construction production/insert_woody_v050.py. Next scene: Yew Pine PB023. Large media ignored/local.
+
+## Woody Kling v003 accepted and generating
+
+User approved historical-motif starter v007. Loaded/verified new reference, submitted unchanged v002 acting prompt as v003: gentle push, art inspection/chuckle then mechanical phone rattle and startled head turn. Kling confirmed Task submitted. Generation in progress. 8s1080p Kling4.0,120credits. Proof generated/kling-tests/woody-pine-v003/submission-confirmed.png. Do not resubmit; await review. Animatic remains v049.
+
+## Woody v007 — historical marginalia motifs pending review
+
+User found v006 too far from common medieval themes. Researched BL/Getty; generated original compositions of knight vs giant snail, grotesque head on clawed legs, donkey playing lyre. Image generated/scene-development/woody-pine-scene-v007.png; prompt production/woody-pine-scene-v007.prompt.txt. Woody staging/room retained. No new Kling submission.
+
+## Woody original marginalia v006 — pending review
+
+User requested different equally absurd medieval-style art after Kling copyright rejection. Built-in ImageGen replaced all three framed drawings with original invented compositions; v005 Woody/lens/room staging retained. Image generated/scene-development/woody-pine-scene-v006.png; prompt production/woody-pine-scene-v006.prompt.txt. No Kling retry yet. Approved phone-rattle/startled-turn direction remains in woody-pine-kling-v002.prompt.txt. Actual rejection cause remains unknown.
+
+## Woody v002 submission blocked by Kling
+
+User approved v005 starter and phone-rattle/startled reaction ending with gentle push. Loaded v005, verified thumbnail and filename; submitted one8s1080p take displayed120credits. Kling rejected submission with copyright-restrictions notice; no generating card, no retry. Prompt production/woody-pine-kling-v002.prompt.txt; proof generated/kling-tests/woody-pine-v002/submission-blocked.png. Exact cause unspecified. Animatic v049 unchanged.
+
+## Woody starter v005 — sightline revision pending review
+
+Kling v001 completed but user rejected magnifier sightline (looking across rather than into artwork). Built-in imagegen revised v004 into generated/scene-development/woody-pine-scene-v005.png: turned easel toward Woody, closer leaning inspection pose and lens near parchment; face remains profile-visible. Prompt production/woody-pine-scene-v005.prompt.txt. Proposed next motion is gentle push and explicit head turn toward artwork. User also floated phone ringing/rush/fall alternate gag; not selected. No new Kling generation; animatic remains v049.
+
+## Woody room v004 — scale/window/wear review
+
+User liked v003 medieval pictures, asked Woody slightly bigger, removed window muntins, added substantial age/wear and newspaper stack. Generated scene-development/woody-pine-scene-v004.png under generated/: modestly enlarged Woody in oversized robe/slippers, single clear picture window and mailbox3, aged furnishings, papers beside chair. Approved picture content preserved. Prompt production/woody-pine-scene-v004.prompt.txt, concept updated. Await still review; no Kling generation.
+
+## Woody room v003 — scale and historical artwork trial
+
+User requested more genuinely bizarre/rude medieval images and much shorter Woody with oversized clothes, slippers and magnifier. v002 changed paintings using researched historical sources, including double-ended trumpeter. Image tool rejected subsequent scale edit because of nude art; user informed, safe alternative rendered as v003 with human-headed snail/rabbit/dog joust, winged face hybrid and rabbit scholar. Woody now tiny beside large furniture, long pooled teal robe, rolled cuffs and huge slippers/magnifier. Await review of generated/scene-development/woody-pine-scene-v003.png. Prompts and source provenance saved in production. No video generation or animatic replacement.
+
+## Woody marginalia room v001 — pending review
+
+User approved Woody house character sheet. Generated scene generated/scene-development/woody-pine-scene-v001.png: Woody with magnifying glass beside framed mouse-on-snail jousting lion, additional absurd medieval-style pictures, blue-gray elegant room, black Bakelite rotary phone, mailbox3 outside window. Starter expression amused before proposed laughing reaction. Prompt production/woody-pine-scene-v001.prompt.txt, concept record updated. Await still review; no Kling submission or animatic replacement.
+
+## Woody Pine house reference v001 — pending review
+
+Woody is May Bloom's tiny centenarian passerby, now a sophisticated medieval-marginalia collector at3 Orchard Street in Park Orchard. User requested no hat and luxurious smoking robe (kimono floated as alternative). Built-in imagegen reference saved generated/character-development/woody-pine/woody-pine-house-reference-v001.png: teal silk/plum trim, ivory pajamas, slippers, curled white moustache. Concept and prompt in production/woody-pine-*. Next: approve reference, then house scene with absurd framed medieval art, black Bakelite rotary phone, window view of mailbox3. No new video generated. User approved character-name pattern through Forrest; latest animatic remains v049.
+
+## Names extended through Forrest — v049
+
+User approved Belle/Liberty name treatment and requested all character scenes through Forrest. Added April Bloom(lower right), May Bloom(upper left), Penny Cash(upper right), Rich Cash(lower left), Miles Chase(lower right), Penny Chase(upper left on her side), Forrest Pine(lower left). Same88px Arial Bold Italic mint first/cream last,5px dark outline, surname-first timed entrance, first name on left,27-frame hold after first-name attack then8-frame fade. Existing Belle/Liberty titles, echoes and all timing retained. Native v049, production/character_names_v049.py and character-names-v003.json. Viewer full edit through2451; next character remains Woody Pine.
+
+## Character name title trial — v048 pending review
+
+User approved six-hit intro v046. Requested first-last character titles appearing surname first on spoken surname, then first name in reserved space to its left. Trial only: Belle Bell lower left with existing BELLE echoes unchanged; Liberty Bell upper right. Echo font Arial Bold Italic88, mint first names, cream surnames, dark5px outline. Attacks from compiled lyrics:296/305 and437/446; holds then8-frame fades ending340/481. Native v048, short preview generated/effectcraft-edit-v048/character-names-review.mp4, record production/character-names-v002.json, construction production/character_names_v048.py. v047 was internal spacing check; v046 preserved fallback. Do not propagate to all characters until user reviews trial.
+
+## Six-hit intro correction — v046 pending review
+
+User clarified six hits total, not five. First four circles unchanged; fifth new patch centered near narrator face at frame24, sixth full-screen reveal on kick at32, full color34. Native v046, preview generated/effectcraft-edit-v046/intro-color-reveal-review.mp4; source production/intro_color_reveal_v046.py; record production/intro-color-reveal-v003.json. v045 intermediate delay-only version superseded before review. Prior v044 preserved. Shot boundaries and soundtrack unchanged.
+
+## Intro final reveal delayed to kick — v045 pending review
+
+User liked circular reveal but final fill landed one hit early. Kept initial four reveals; moved final onset eight frames from24 to32 (1.333s), full color at34, same two-frame expansion. Native v045 and short preview generated/effectcraft-edit-v045/intro-color-reveal-review.mp4. Previous v044 retained. Construction production/intro_color_reveal_v045.py; record production/intro-color-reveal-v002.json. No musical edits changed.
+
+## Intro color reveal test — v044 pending review
+
+User requested black-and-white opening with four quick accumulating circular color reveals on initial drum hits, fifth centered reveal fills screen in two frames. Native EffectCraft grayscale adjustment with animated subtract masks; hit frames11,13,14,16,24 from master waveform, full color26. Review timing with user. Short preview generated/effectcraft-edit-v044/intro-color-reveal-review.mp4; full animatic v044 retains all approved edits and musical boundaries. Construction production/intro_color_reveal_v044.py; v043 remains approved fallback. No paid generation.
+
+## Forrest retake approved — animatic v043
+
+User approved Kling v002 (looks very good). Download saved to generated/kling-tests/forrest-pine-v002/kling-original-1080p.mp4. Corrected v004 starter has front-facing Clive and three-column phone keypad. Native EffectCraft v043 replaces layer20077 source only: same PB021 frames1898–2031, source offset24, existing four-frame dissolves. Full1080p render through2451 includes Woody, Yew and Pearl placeholders; viewer now v043. Prior v042 retained. Construction production/replace_forrest_v043.py. Next scene to develop: Woody Pine, PB022,3 Orchard Street. Large media remains ignored/local.
+
+## Forrest Pine retake v002 submitted
+
+User approved starter v004 (Clive faces camera, correct keypad), requested identical acting. Submitted Kling4.0,1080p,8s,120credits; starter thumbnail and filename verified loaded, prompt exact match to v001. Await completion/review; do not resubmit. Current animatic v042 retains original approved take.
+
+## Forrest starter v004 — pending review before regeneration
+
+User requested subtler Clive: statue turned front toward camera, rear toward window; retain mooning chalkboard drawing. Corrected cordless keypad to three columns/four rows. New generated/scene-development/forrest-pine-study-v004.png and production/forrest-pine-study-scene-v004.prompt.txt. No new Kling generation. Existing v042 animatic and v001 video preserved.
+
+## Forrest Pine added — animatic v042
+
+Approved Kling v001 inserted in native EffectCraft v042. PB021 musical frames1898–2031 unchanged; source offset24frames, existing four-frame transitions, lyrics and master audio preserved. Full viewer through2451 includes next placeholders. Construction production/insert_forrest_v042.py. Next character: Woody Pine, PB022,3 Orchard Street.
+
+## Forrest Pine video downloaded — pending review
+
+Completed Kling v001 saved at generated/kling-tests/forrest-pine-v001/kling-original-1080p.mp4. User liked thumbnail; now reviewing larger. Not yet incorporated into animatic. No regeneration.
+
+## Forrest Pine Kling v001 submitted
+
+Kling4.0,1080p,8seconds,120credits; corrected v003 starter visibly loaded. Locked-camera conspiratorial phone lecture with chalk gestures; board and Clive remain fixed. Queue initially estimated6minutes. See production/forrest-pine-kling-v001.json and prompt. Do not resubmit. Musical edit PB021 frames1898–2031 unchanged; animatic still v041.
+
+## Forrest hand correction v003
+
+User retained GNOME DETERRENCE and requested a steady camera for Kling, then paused to correct undersized chalk hand. Revised generated/scene-development/forrest-pine-study-v003.png enlarges chalk hand to balance phone hand. Pending still review; Kling not submitted. Preserve prior images.
+
+## Forrest cordless-phone starter v002 — pending review
+
+Updated generated/scene-development/forrest-pine-study-v002.png with chunky 1990s cordless handset and empty charging base. Acting: conspiratorial excitement while gesturing with chalk at completed board, forgetting caller cannot see it. No writing during animation. v001 preserved; no Kling submission. Prompt production/forrest-pine-study-scene-v002.prompt.txt.
+
+## Forrest Pine study starter — pending review
+
+User accepted study-clothes character reference. New scene: generated/scene-development/forrest-pine-study-v001.png; construction prompt and record in production/forrest-pine-study-scene-v001.prompt.txt and forrest-pine-concept-v001.json. Fully drawn gnome-deterrence chalkboard; Forrest points with chalk, never draws during animation. Clive ceramic statue, period phone, window to pine-fronted neighborhood and mailbox 100. Await still review before Kling. Approved v041 animatic unchanged.
+
+## Approved v041 in full animatic viewer
+
+User accepted v041 outer-contour-only starter / Hedra v004 performance with v040 matte-only1px inward trim. Full viewer now generated/effectcraft-edit-v041/animatic-through-pine-price-1080p.mp4, frames0–2451 at24fps,1080p. Includes next verse neighborhood placeholders and timed lyrics through Pearl Price, ending at Chorus3 boundary. Next scene to develop after user review: Forrest Pine, PB021,100 Park Place,123-5813. Native project and prior v040 preserved.
+
+## Outer-contour retake keyed — v041 pending review
+
+User approved Hedra v004 performance and requested exact previous-night key settings. Native v041 replaces narrator source with generated/avatar-tests/chorus-two-v004/hedra-original-1080p.mp4 using approved v040 recipe: inward trim1px, softness.5, preblur0, Source edge colors, despill0, Key Cleaner off, hair color correction off, added stroke0. Same chorus alignment1606, joint fade, background, ripple and music. Review generated/effectcraft-edit-v041/chorus-two-outer-contour-retake-review.mp4; construction production/chorus_two_outer_contour_v041.py. Current full animatic viewer still v040 pending this review. New plate background measured[0,215,0]; screen swatch deliberately remains exact previous settings[0,249,1].
+
+## Energetic narrator retake v004 completed — pending review
+
+User liked v003 outer-only outline appearance but found performance subdued; requested another take and removal of outline-specific prompt instructions. Generated one1080p retake with same v003 starter and same audio including opening O; earlier energetic acting direction restored, no special ink/contour instructions. Cost116credits,balance5364. Download generated/avatar-tests/chorus-two-v004/hedra-original-1080p.mp4, record/prompt production/chorus-two-hedra-v004.*. Await performance review; do not replace approved v040 animatic automatically.
+
+## Outer-contour-only Hedra v003 completed — pending review
+
+User wants original lighter interior drawing, thicker silhouette only, no ImageGen. Built native starter from approved original B cutout with alpha dust cleanup(alphaInBlack.15) and3px outside black stroke. Saved generated/avatar-tests/chorus-two-v003/narrator-outer-contour.png and .ecproj; construction production/chorus_two_outer_contour_plate.py. New1080p Hedra completed,116credits,balance5480, source audio unchanged including opening O. Download generated/avatar-tests/chorus-two-v003/hedra-original-1080p.mp4; record production/chorus-two-hedra-v003.json. Await review; current full animatic remains approved v040. Next composite with matte-only light inward trim, no added outline or color correction.
+
+## Full viewer updated through next verse
+
+Review now generated/effectcraft-edit-v040/animatic-through-pine-price-1080p.mp4, master0–2451 at24fps,102.125s. Includes approved v040 Chorus2 and existing placeholder stills with timed lyrics for Forrest Pine(PB021), Woody Pine(PB022), Yew Pine(PB023), Pearl Price(PB024). Ends at Chorus3 boundary. Source shot timing unchanged; next character to develop is Forrest Pine. review-config.json and shotlist chorusTwoComposite point to approved v040.
+
+## Approved Chorus 2 keeper — v040
+
+User approved generated/effectcraft-edit-v040/chorus-two-lighter-trim-review.mp4 and corresponding native project. Supersedes v039 as selected Chorus2 composite. New Hedra v002 hands/ink take, matte-only Source edge color, despill0, hair color correction disabled, Key Cleaner disabled, no extra outline; inward trim1px, softness.5, preblur0. Timing, background and ripple unchanged. Full animatic viewer has not yet been rebuilt with this selection.
+
+Preferred starting approach for future Hedra plates: clearly articulated hands and moderately stronger tapered black contours in the starter illustration. Preserve those contours in animation; first test matte-only keying with modest inward trim, avoiding automatic extra stroke or color correction. This take supports the approach, but settings still need checking per plate, especially moving hair/hands and shoulders. Original renders and experiments retained.
+
+## v039 accepted; lighter trim v040 comparison
+
+User accepted matte-only v039 as keeper. Testing v040 with only inward matte trim relaxed from2px to1px to restore more baked black contour. No spill suppression, hair HSL, Key Cleaner or added outline. Same source, timing, background and ripple. Review generated/effectcraft-edit-v040/chorus-two-lighter-trim-review.mp4 pending comparison; v039 preserved. Script production/chorus_two_lighter_trim_v040.py.
+
+## Matte-only key v039 — pending review
+
+User clarified shoulder color flickers intermittently; requested removal of chroma corrections and antialiased cut into baked outline. Native v039 uses Source edgeColor, despill0, hair HSL layer19725 disabled, Key Cleaner disabled, no added stroke, matte shrink-2px, softness.5, preblur0. Full review generated/effectcraft-edit-v039/chorus-two-matte-only-review.mp4, same music/timing. Native shoulder-inspection.ecproj and shoulder-inspection.mp4 crop whole chorus for easier motion review. Checked consecutive1748–1753 plus full frames1634/1690/1820/1890; not a guarantee of no intermittent artifact across every frame. Prior v038 preserved. Script production/chorus_two_matte_only_v039.py.
+
+## Shoulder edge cleanup v038 — pending review
+
+User likes v037 hair but noticed colored top-right sweater/left-shoulder edge absent from Hedra. Isolated native stages at master1690: Source edge-color mode reduces pink fringe compared with Screen Subtract; disabling hair cleanup or Key Cleaner did not remove it equivalently. New v038 switches edgeColor1 (Source), contracts matte -1.2 vs-.65 to slightly thin baked outline. Despill100, A cleaner and hair cleanup retained; added stroke remains0. Review generated/effectcraft-edit-v038/chorus-two-edge-cleanup-review.mp4. Sampled1820 has some greenish moving-hand fringe (tradeoff); do not claim perfect key. Preserve v037; all timing unchanged. Script production/chorus_two_edge_cleanup_v038.py.
+
+## Chorus 2 hands/ink composite v037 — pending review
+
+New Hedra v002 composited in native EffectCraft using preferred v036 A key/cleaner, screen color resampled to [0,249,1], extra layer-style stroke opacity0. Same background, ripple, scene dissolve, music and master timing. Review generated/effectcraft-edit-v037/chorus-two-hands-ink-review.mp4; native project alongside. Construction production/chorus_two_hands_ink_v037.py. Source final silent tail remains outside review range1596–1898. Sampled frames show readable hand silhouettes; some palm detail still softens toward end. User review pending; original remains preserved.
+
+## Hedra hands/ink take v002 completed
+
+Completed and downloaded generated/avatar-tests/chorus-two-v002/hedra-original-1080p.mp4, pending review. 1080p, same chorus timing and opening O; cost116 credits. No new compositing yet. Use preferred A key and disable added stroke initially to assess baked outline. Old take preserved.
+
+## Hedra hands/ink take v002 submitted
+
+New approved hands-and-ink starter submitted to Hedra Avatar 1080p at22:37 Nov11,116 credits; balance5596. Same clean chorus audio master1606–1922 including opening O. Observed Generating. Record production/chorus-two-hedra-v002.json. Preserve original take. For composite use preferred A key and disable added ink stroke initially.
+
+## Narrator hand/ink starter experiment
+
+User preferred key experiment A; B too heavy, C outlines appeared temporally offset (unverified cause). New built-in imagegen starter at generated/avatar-tests/chorus-two-v002/narrator-hands-ink.png has both hands visible and stronger baked black contours. Pending still review; no Hedra submitted yet. Preserve current performance. Next test same audio including opening O, 1080p green, and compare using A with reduced/disabled added stroke to avoid doubling the baked ink. Record production/chorus-two-hands-ink-v001.json.
+
+## Pending hair-key comparison — v036
+
+Original Chorus 2 key/ripple v031 remains keeper. Three native EffectCraft experiments are in `generated/chorus-two-key-experiments-v036/{a-cleaner,b-soft-spill,c-refine}/review.mp4`, all master frames 1596–1898 at 24 fps with unchanged music/timing. A adds restrained Key Cleaner; B uses moderately softer key plus Ultra spill suppression; C adds restrained Refine Soft Matte. Settings/reproduction in `production/chorus_two_key_experiments_v036.py` and matching JSON. Await user comparison; do not promote automatically. Earlier v035 internal tests rejected (color shifts/heavy fringe). No new generated footage or paid credits.
+
+## Keeper reverted to original Chorus 2 key
+
+User prefers first key despite natural pop-ins: return to v031 (original v030 key plus requested ripple), not recovery/removal v032–v034. Keep experiments as comparisons, not production selection. User asks about more advanced hair detail recovery: investigate separation of soft alpha, edge-color reconstruction/despill and temporal stability; do not merely erode or delete strands. No new key trial yet.
+
+## Chorus 2 detached-wisp removal v034
+
+User requested removal rather than drawing connections. Native v034 builds on balanced hair v033 and retains ripple. Alpha analyzed each edit frame1619–1900 to identify disconnected islands above y550. Up to4 native subtract masks on final singer precomp follow those islands with per-frame hold keys, padded2px and feather.35px. Only regions safely separated from main silhouette are removed; near-attached detail left intact. 147frames contain eligible islands. No custom pixel compositing; Python only measures native alpha, final masking/rendering in EffectCraft. Review generated/effectcraft-edit-v034/chorus-two-wisp-removal-review.mp4 pending approval. Script production/chorus_two_remove_wisps_v034.py and record production/chorus-two-wisp-removal-v001.json. Previous v033 retained.
+
+## Chorus 2 balanced hair review v033
+
+User requested more than halfway back toward original key and asked about drawn strand connections. v033 uses hair recovery controls interpolated75% toward original (gain180, clipBlack20, shrink-.4875, softness.625, preblur.4375). Body and ripples unchanged. Native project and chorus-two-hair-balanced-review.mp4 in generated/effectcraft-edit-v033, pending review. Checked adjacent frames1688/1690/1692: isolated upper-left wisps persist and shift with hair. No drawn connections added yet. Potential repair is a few short dark-brown curved strokes with animated endpoints/visibility, above keyed plate and below hair color cleanup; static strokes risk sliding. Preserve v031/v032 for comparison.
+
+## Chorus 2 hair recovery review v032
+
+User noticed detached hair wisps. Source Hedra itself contains some detached fragments, but aggressive inherited matte also eroded thin connections. Native v032 keeps original body matte, adds duplicated gentler plate (gain120, clipBlack5, no contraction, preblur.25, softness.4) restricted to head via feathered mask on PRECOMP after key/outline. Masking footage before effects caused an outline at mask boundary; final precomp mask avoids that. Existing hair-only color cleanup retained above both. Review generated/effectcraft-edit-v032/chorus-two-hair-review.mp4. v031 preserved. Pending approval; cannot restore strands absent in original video through key settings alone.
+
+## Chorus 2 ripple variation v031
+
+User approved v030 composite and asked for same crest-only sound ripple as Chorus1 with variation. New native v031 adds three background-only annular Transform adjustments inside Chorus2 scene, beneath singer. Onsets1621,1628,1633 (staggered7/5frame gaps), radius45px, speed78px/frame, mouth center960/390, peak6.5px displacement; last crest faded by1649 before regular lyric1650. No changes to narrator/key or accepted scene timing. Review generated/effectcraft-edit-v031/chorus-two-ripple-review.mp4, pending approval. Clean fallback v030 retained; full viewer still v029.
+
+## Chorus 2 native composite v030
+
+Approved Hedra performance and FULL approved gnome background combined in native EffectCraft v030. No rejected left-pass footage. Duplicated accepted Chorus1 key/ink/hair precomp, adjusted screen color to this plate sampled green [0,211,0]. Source alignment master1606, same clock for background; joint scene fade1620–1626 catches improvised O, chorus ends1898. Musical shot boundaries unchanged. Native project and focused review generated/effectcraft-edit-v030/chorus-two-composite-review.mp4 (master1596–1898, 1080p with song/lyrics). Full animatic viewer still previous v029; focused composite awaits review. Construction production/composite_chorus_two_v030.py.
+
+## Chorus 2 selection and completed Hedra
+
+User rejected LEFT dog-cleanup Kling pass. Use RIGHT gnome take as full-frame background; abandon two-half composite. Hedra completed and downloaded to generated/avatar-tests/chorus-two-v001/hedra-original-1080p.mp4, pending user performance review and native compositing. Preserve audio alignment at master frame1606 and joint scene dissolve. Gnome Kling original still needs downloading. No regen requested.
+
+## Chorus 2 Hedra submitted
+
+Hedra Avatar 1080p submitted Nov11 21:55, 116 credits, observed Generating. Approved narrator B directly composited onto uniform green in native EffectCraft (no redraw), same 92% framing. Audio source master frames1606–1898 plus24frames appended silence =316frames /13.1667s. Includes pre-chorus improvised O before written chorus; no timing edits. Source alignment1606 must be retained; whole singer/background should dissolve together as Chorus1. Record production/chorus-two-hedra-v001.json; inputs and screenshot generated/avatar-tests/chorus-two-v001/. Not yet downloaded/composited. Two Kling background passes also submitted earlier; check results next.
+
+## Chorus 2 Kling passes submitted
+
+Both left/right v001 submitted to paid Kling 4.0, 1080p, 13 seconds each, 195 credits each (390 total). Same background v003 visually verified loaded before each submission. First-frame reference only; separate character sheets were used to construct starter, not uploaded as extra keyframes. Latest observed: both jobs moved from queue to Creating, estimated wait 11 minutes. Neither finished or downloaded yet. Grid https://kling.ai/app/creations/grid?ac=11&project=927884373590937657 . Waiting for completed results. Save originals in generated/kling-tests/chorus-two-v001, then review and composite matching halves natively in EffectCraft. Narrator B accepted, separate singing plate still to make.
+
+## Chorus 2 generation preparation
+
+User approved revised narrator B (called D verbally; clarified in reply) and both gag acting directions. Prepared left/right Kling v001 records and prompts: same clean background v003, intended 1080p, 13-second takes for 248-frame chorus (1650–1898), locked camera. Designer inspiration Doug E. Doug/Sanka, garden owner Sandra Oh; left cast Boman Irani/Rhea Perlman and Chihuahua comic swagger. Browser currently asks for Kling login in Chrome Arne profile, Chorus 2 tab; user asked to sign in. Nothing submitted or charged yet. Verify loaded starter and actual model/duration/resolution/cost before each submission, then update records.
+
+## Current review — Chorus 2 narrator A/B and empty porch
+
+User liked starter v002 blocking but requested porch reader removed or repaired, and narrator style retake to compare with earlier approved identity. Background v003 removes porch reader and chair; four background people plus Chihuahua remain. Native EffectCraft composites `generated/scene-development/chorus-two-style-ab-a.png` and `chorus-two-style-ab-b.png` use identical background v003 and placement transform. A is prior narrator cutout v001; B is cutout v002 using approved Chorus 1 green image as authoritative likeness/style reference and A only for pose. B reduces glossy highlights and restores more drawn texture. Pending user A/B selection; neither retake nor new background is automatically approved. Exact prompts and references: `production/chorus-two-style-ab-v001.json`. Native construction: `production/chorus_two_style_ab_a.py` and `_b.py`, saved ecproj beside PNGs. No paid video generation submitted. Keep using original approved narrator reference for new poses to limit accumulated drift. Next: select narrator, finalize common clean background, then left/right background passes and separate Hedra plate.
+
+## Previous review — shared starter and placement v002
+
+Latest background generated/scene-development/chorus-two-shared-starter-v002.png; narrator composite chorus-two-placement-v002.png / .ecproj (native EffectCraft; same cutout and transform). Owner/dog farther back, on left sidewalk, walking toward lower-left driveway corner before gag. Garage bench now leaves doorway aisle; maker can stay inside and shake fist while owner tries to apologize. Porch reader stays incidental. Right gardener now pushing tipped loaded trolley toward homeowner, mutual interaction, she points to garden spot; more garden and moved inward from edge. User-requested reblocking, pending visual approval. Same-starter two independent left/right passes still plan; no new video generation. Record production/chorus-two-shared-starter-v002.json.
+
+## Latest preview — narrator over shared starter
+
+User requested placement composite only. Created native EffectCraft generated/scene-development/chorus-two-placement-v001.ecproj and rendered chorus-two-placement-v001.png. Background shared-starterv001 unchanged; foreground imagegen transparent extraction from situationv002, saved chorus-two-narrator-cutout-v001.png, is a placement proxy (not approved final Hedra input). Native foreground at92% canvas fit, bottom-aligned and centered. All5 residents, Chihuahua and gnome visible, owner near left silhouette boundary so constrain future gesture/gag motion. Construction production/chorus_two_placement_v001.py. Pending user placement review; no video jobs submitted.
+
+## Current review — shared Chorus 2 background starter v001
+
+Created generated/scene-development/chorus-two-shared-starter-v001.png with approved revised cast and NO narrator. User requested common starting image for both full-duration left/right passes. LEFT dog sniffing driveway corner, owner upright with bag/leash, garage maker working, porch reader seated. RIGHT garden director points to first spot, loc-haired designer with gnome still on trolley. Clear center road reserved for narrator/composite seam. Pending starter review; no video submitted. Record and exact prompt production/chorus-two-shared-starter-v001.*. Next separate acting directions for each half, identical locked camera and starter, verify uploaded references before paid generation. Chihuahua v003 accepted by user; cast references now accepted to proceed with starter.
+
+## Latest cast review
+
+Dog owner and garden designer v002 explicitly approved. Chihuahua v003 corrects extra pupil in close-up; full-body poses liked by user. Current sheet generated/character-development/chorus-two-references/chihuahua-v003.png. Cast index updated. Next remains shared background starter rebuild after reference review.
+
+## Latest cast revisions — v002 pending review
+
+Three revised reference sheets in generated/character-development/chorus-two-references/: gnome-delivery-man-v002 (long locs, sage shirt, stone-gray overalls, professional garden plan/tool pouch, quiet palette keeps gnome prominent); dog-owner-v002 (magnificent silver curled handlebar mustache); chihuahua-v002 (less cute, exaggerated bulging eyes). Built-in image edits, originals preserved, index updated. Other three references remainv001. Await review before shared background starter rebuild. No animation submitted.
+
+## Current step — Chorus 2 cast reference sheets ready
+
+Six individual sheets generated and saved under generated/character-development/chorus-two-references/: furniture-maker, porch-reader (correct two-legged seated pose), dog-owner (former lawn man, no scissors), garden-director (former fern woman, no plant), gnome-delivery-man (includes heavy 2.5ft gnome and trolley), chihuahua. All v001, pending user review; index production/chorus-two-cast-references-v001.json with saved prompts. Current suburban situationv002 narrator likeness/pose and street approved as layout basis, but gag positions must change.
+
+APPROVED PLAN: LEFT driveway corner Chihuahua makes comically enormous deposit, embarrassed owner cleans with dog-waste bag, furniture-maker in garage reacts angrily. Porch reader rocks calmly, repair original anatomy/post occlusion using reference. RIGHT garden woman directs delivery man carrying heavy gnome back and forth ("no, over there"). Retain delivery man. No fern for her. Starter: dog sniffing corner before action; gnome on trolley before lifting. Use SAME background-only starter for TWO independent full-chorus locked-camera Kling passes: one with left-gag direction, one with right-gag direction. Keep action on its half; composite left/right halves with seam behind narrator in EffectCraft. Hedra narrator separately, approved alternate tilted head/asymmetric hands good enough; no need closer crop. User explicitly requested references FIRST before rebuilding starter. No new paid video submitted.
+
+## Latest revision — real suburban street, situation v002
+
+User approved narrator placement in situationv001 but requested substantial road/house geometry correction. Current review generated/scene-development/chorus-two-narrator-situation-v002.png: asphalt neighborhood road, distinct sidewalks and grass verges, houses set back, furniture-maker inside open residential garage with visible driveway. Central narrator and five residents retained. Pending review. This supersedes earlier instruction to defer road redesign. Next, upon approval, derive background-only and green narrator starter plates from this composition. No paid video generation yet.
+
+## Latest review — Chorus 2 narrator in situation
+
+Current preview: generated/scene-development/chorus-two-narrator-situation-v001.png (built-in generated pose/composition study, pending review). Uses backgroundv004 and approved Chorus1 narrator identity; closer central figure, asymmetric relaxed hands, no phone book, all5 residents visible. User likes background mostly, concerned about mismatched pavement curves and road/house setbacks; explicitly wants to judge narrator placement BEFORE any background corrections. Do not fix road speculatively. Next review this image, then background refinements if needed and separate green narrator starter plate. No new paid generations.
+
+## Active work — Chorus 2 background composition
+
+Chorus1 crest effect v029 accepted by user ("pretty good", then moved to next chorus). Chorus2 at frames1650–1898 now in still development, no new Hedra/Kling jobs. Park Orchard chosen. Current candidate generated/scene-development/chorus-two-park-orchard-background-v004.png: central narrator space, five residents set back in midground, two left/three right. User liked all four v003 characters, requested more room for narrator and fifth resident; v004 pending review. Keep furniture-maker, older Mexican/Nahua porch reader, South Asian Indian lawn perfectionist, Asian fern woman; proposed new young Black neighbor with garden trolley. v001/v002 side-singer compositions superseded. Keep close Asian fern woman in v002 as possible future named-character reference. Prompts and records production/chorus-two-background-v00*. Narrator not yet generated. Do not substitute this still into the edit or buy video until reviewed. Next: review spacing, plan gags, narrator starter plate.
+
 ## Current experiment — Chorus opening O isolated pressure crests v029
 
 User rejected v028 full sine-wave wobble. Wants only narrow positive crests, flat gaps, fast outward travel, strong during chorus dissolve and gone by regular lyrics. v029 replaces Ripple with three native Transform adjustment layers below narrator, each constrained by an animated feathered annular mask. Center960,426; onsets820/826/832; radial speed75px/frame; ring width24px plus9px feather; outward displacement approximately6.5px; damped to zero by848. This approximates a clipped positive crest without continuous oscillation. Frame834 comparison against clean confirms flat gaps (no >2-level RGB differences in radii350–550 and700–900), visible change confined to bands. No keying/edit/audio changes. Construction production/chorus_o_crests_v029.py, record chorus-o-crests-v004.json. Viewer generated/effectcraft-edit-v029/animatic-chorus-o-crests-1080p.mp4. Pending user review; approved clean v024 remains keeper. After review resume Chorus2 linear production.

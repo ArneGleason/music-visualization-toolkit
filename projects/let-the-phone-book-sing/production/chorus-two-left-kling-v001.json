@@ -1,0 +1,28 @@
+{
+  "status": "user_rejected",
+  "model": "Kling 4.0",
+  "durationSeconds": 13,
+  "resolution": "1080p",
+  "fps": 24,
+  "masterFrames": [
+    1650,
+    1898
+  ],
+  "editFrames": 248,
+  "starter": "generated/scene-development/chorus-two-shared-starter-v003.png",
+  "prompt": "Animate the supplied illustrated suburban neighborhood first frame. One continuous 13-second shot at natural real-time speed. Camera absolutely locked: no pan, tilt, zoom, dolly, reframing, cuts or lens change. Preserve exact architecture, road, sidewalks, four people, their faces/clothes, one Chihuahua, trolley and red-hatted garden gnome. Keep the center roadway empty for a separately composited singer. No narrator in this generation. Maintain stable scale, straight structures and coherent anatomy. All action stays in its existing outer half of the image, never crosses the center. No new people, text, speech bubbles or props except the explicitly described dog mess. Bright affectionate visual comedy. No slow motion. \nPRIMARY ACTION ON LEFT: The dignified older South Asian man in navy tracksuit with magnificent curled silver mustache walks his tiny fawn Chihuahua toward lower-left foreground along the existing sidewalk, remaining fully readable at the driveway corner. He wants to be a considerate respectable neighbor, but the dog has other priorities. The furniture maker in the left garage wears a red headwrap and striped apron; she is practical, proud of her tidy workplace and sharply unimpressed by this intrusion.\n0-2 seconds: immediate small walking and sniffing motion, dog leads with brisk self-important steps; owner follows, leash attached correctly, waste bag in hand. Travel only a short distance toward the left driveway corner; do not leave frame.\n2-4 seconds: tiny dog stops and briefly squats at the edge of the driveway, leaving one absurdly oversized but simply drawn brown dog dropping. A dry visual joke, not a gross close-up. Dog straightens, raises its chin proudly and regards its business as complete. No duplication, no giant growing dog.\n4-6 seconds: garage woman stops her handwork and looks from the mess to the tiny dog, then fixes its owner with a fierce incredulous stare. Owner notices, freezes with a strained polite smile and glances back at her in mortified recognition.\n6-10 seconds: owner crouches and uses his dark teal dog-waste bag over one hand to scoop the mess; keep leash in his other hand. He looks up apologetically with a small head bow and pleading shoulders. Woman makes one emphatic palm-out gesture toward her driveway, then plants a hand on her hip, still glaring. Keep her inside the open garage with unobstructed arm movement. The dog gives an impatient little forward tug while owner is occupied. Stable red leash, one dog, coherent bag and hands.\n10-13 seconds: owner carefully straightens with bag closed around the mess, still apologetic; woman remains stern; dog stands smugly ready to continue. Living reaction tail, no frozen ending or sudden exit.\nActing rhythm: owner's expressive dignity and anxious politeness evoke Boman Irani; garage woman's compact deadpan indignation evokes Rhea Perlman; tiny dog's bold territorial swagger has Joe Pesci-like comic confidence. Performance energy only, preserve our original faces. On RIGHT the garden owner and designer make only restrained breathing, blinks and small conversational gestures beside the loaded trolley; do not perform the gnome gag or move across the image. This take is for the LEFT half.\nPROMPT LOCK: Mature graphic-novel ink-and-paint; distinct character silhouettes; quieter layered backdrops. Narrator addresses audience and is imperceptible to residents. Preserve approved identities, costumes and lyric timing.",
+  "referenceVerified": true,
+  "actingReferences": [
+    "Boman Irani",
+    "Rhea Perlman",
+    "Joe Pesci comic swagger for Chihuahua"
+  ],
+  "compositing": "Independent same-starter full-duration passes; keep corresponding half, composite in native EffectCraft, seam behind separate narrator. Preserve accepted musical cuts.",
+  "displayedCostCredits": 195,
+  "queueMessage": "Creating... Estimated wait: 11 minutes",
+  "submittedDate": "2026-11-11",
+  "referenceMode": "First frame only, shared approved scene contains cast",
+  "aspectMode": "Adaptive from starter",
+  "resultGridUrl": "https://kling.ai/app/creations/grid?ac=11&project=927884373590937657",
+  "reviewNote": "User rejected dog-cleanup take; use gnome/right take as one full-frame background, no split composite."
+}
