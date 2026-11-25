@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "repository": "ArneGleason/music-visualization-toolkit",
+  "access": "public",
+  "tag": "secret-room-20261125-dark-cavern-v001",
+  "archive": "secret-room-20261125-dark-cavern-v001.zip",
+  "sha256": "9a14d3e4b3e701ee1af37d8778ca5643c8ed442b47b2e773d455f1a858012320",
+  "bytes": 243316667,
+  "scope": "Secret Room checkpoint: approved dark cavern stills and current animatic, retained illustration development and character references, source audio/timing, and only the two reused original source takes. No WIP previews or superseded animatic videos.",
+  "files": [
+    {
+      "path": "projects/open-up-the-secret-room/generated/animatic/Open-Up-the-Secret-Room-lyric-timing-v001.ass",
+      "bytes": 104861,
+      "sha256": "bec3679bf09d2450d0623dc143ec3524d41a916fd83d8ca8e7b0787a4e2b48fc"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/animatic/Open-Up-the-Secret-Room-lyric-timing-v001.mp4",
+      "bytes": 8854994,
+      "sha256": "ce3435653cab644fb2c4169e9e3c60840c006573eef25f6a729e491e41cbc869"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/animatic/beat-slate.srt",
+      "bytes": 41201,
+      "sha256": "167e039c384ff03760cf6ab797b88356ba2575da297bb96f6d05c3818d0bee08"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/approved/opening-v004/Secret-Room-opening-v004.mp4",
+      "bytes": 5741970,
+      "sha256": "fda36435fb93da5ed988cd47e563d22473507b76b1c20c1423b37473b9067fb4"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/beatmap.json",
+      "bytes": 177958,
+      "sha256": "e9d70d64f3b8273e61e7ca3470d7b8c6ce8806858dbf176a0986e8f511d2261f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/character-development/pillars-v001/image-07-stability.png",
+      "bytes": 2748044,
+      "sha256": "8032ecdd22fe00bbb7cf13a97fea23881aa5bc9511de5ccc985cf8b41a32f548"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/character-development/pillars-v001/image-08-balance.png",
+      "bytes": 2533356,
+      "sha256": "550a1624090bf7a25eed4fe8e868ec1eb9efe8c274c1dde5980b127148824b32"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/character-development/pillars-v001/image-09-intelligence.png",
+      "bytes": 2417449,
+      "sha256": "21833d687ce8b0b364cb3606f9701545794af516ffb20cac60e8efbe98892e15"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/character-development/pillars-v002/image-10-stability.png",
+      "bytes": 2434625,
+      "sha256": "70e6ea8c79d33f515a531653f60a8b831775b45b9b7495b3934904802700e825"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/character-development/pillars-v002/image-11-balance.png",
+      "bytes": 2214053,
+      "sha256": "39c3bc566164f16d526b69fe4f71771bf26a8306c93428ed518091e040ab0a4e"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/character-development/pillars-v002/image-12-intelligence.png",
+      "bytes": 2205342,
+      "sha256": "1d687491366c431f7297d0357819459abf9115a29ca7c7b234ecbca0e56446a9"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/references/dark-cavern-v001/shot-two-lighting-reference.png",
+      "bytes": 2979172,
+      "sha256": "221c538f3b0d5f9082ad630111081074c037fb192571536374bc805e041de271"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/references/together-anyways-v072-final-frame.png",
+      "bytes": 4064441,
+      "sha256": "d0d3ce4339cfc9de6f74d369a7fccc114839d41591fd53ca99529b6999976aa7"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/source/lead-deechoed.wav",
+      "bytes": 67074976,
+      "sha256": "79bf2411650734c0ade585a1538a9760526253479cddc4d80128f72485e27f4a"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/source/master.wav",
+      "bytes": 67074976,
+      "sha256": "cbd65f64f22a599dcbed50b28faa1b5bcab8ec12b234d5cfce8fa5250be56c6f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/antechamber-rear-v001/image-05.png",
+      "bytes": 2727362,
+      "sha256": "362414a667195abe09e1e52264c2c6ecd9450af99c0dd3fce88c58a6efd59a7a"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/antechamber-triad-v001/image-06.png",
+      "bytes": 2607574,
+      "sha256": "74e2e3f58c90b3630ee341c81f6aaa5df1c8992313935f4de9bb188f06b75256"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/antechamber-triad-v002/image-13.png",
+      "bytes": 2816226,
+      "sha256": "6102ea01715599aed198848600abdaa382bed072b7772e493802f9e18eca89a7"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/antechamber-triad-v003/image-14.png",
+      "bytes": 2601129,
+      "sha256": "8853e09beb299e4d92b1f48ae6ce154dce8ab1eb03a16686a1ac5d950ba680f9"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/antechamber-triad-v004/image-15.png",
+      "bytes": 2536022,
+      "sha256": "8433907928cb290e68274193eed06a8998029c742c59ab1a8571109b7034e863"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/antechamber-v001/antechamber-03.png",
+      "bytes": 2809766,
+      "sha256": "ba1775ecff300615d0cc89422f7fc6e61f5d5759ace0d313a3450710e0c2a8ae"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/antechamber-v002/antechamber-03.png",
+      "bytes": 2937693,
+      "sha256": "a3873afe11ba7b22e02fdcf1c98b6c817f0c32e9e4e3480eea79b0acf80fd6c2"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/antechamber-v003/antechamber-03.png",
+      "bytes": 2839633,
+      "sha256": "36e7695c042eb40078d036466ce4806ca075d9405cd9098d0d514eabc4abfaf1"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/antechamber-v004/antechamber-03.png",
+      "bytes": 2780535,
+      "sha256": "13eaf3189babb8b959416f44267f78dbf2c784ebaa415c2f15c4cfa0bff2a029"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/dark-cavern-v001/image-16.png",
+      "bytes": 2364360,
+      "sha256": "5c99f91de65c9177055228568bf2b48bf5b1c9793ebf044234e673d40163eb56"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/dark-cavern-v001/image-17.png",
+      "bytes": 2409232,
+      "sha256": "6765deb2cc277b00d9fef77e9940499cd877bdba74eedc96657bec65eba9e6c4"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/entrance-continuity-v001/entrance-01.png",
+      "bytes": 2998879,
+      "sha256": "401c67a8d8f9932af45ae153e126c976e0d01940cc175f9cf59bd1b5eaf77c5f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/entrance-continuity-v001/entrance-02.png",
+      "bytes": 2847075,
+      "sha256": "93a53b7fdf6a1d73b42296a0632bb302939ea7965e95d637731daf9d078b4aa9"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/audio.whisper.raw.json",
+      "bytes": 74608,
+      "sha256": "e814d07a8d06f41be398f58186a4fdaed2d6412b166057c8c288515b48241015"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/global-alignment.json",
+      "bytes": 212312,
+      "sha256": "868747a7e92dfac3d40640e5d64a02e058ef8f0ce7e30d025e1191cf37643571"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/lead.ctc.greedy.json",
+      "bytes": 16670,
+      "sha256": "336204d74e68f59f4b34b5a9c7150f531eb6c1afa8ce4853a60a3ba89448df45"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/lead.ctc.npz",
+      "bytes": 1351518,
+      "sha256": "71c2d51cd3f1f66099d5628fbeafbba302071bda40dd51268e8e281d1272f11b"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/lead.whisper.raw.json",
+      "bytes": 80526,
+      "sha256": "f5ccef2815f9fa17983001ddb0e7a8f7859c17a439d1d1122fab91714063d4cd"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/master.ctc.greedy.json",
+      "bytes": 14886,
+      "sha256": "dab906b86c0706c6636448227345aa46c3220ca2942d59d6c7f99e2a14421fc1"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/master.ctc.npz",
+      "bytes": 1351518,
+      "sha256": "3b2e70e2a663ccae42284af592757f0d052f69c055287dc4ada84e1cf2f609b3"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+      "bytes": 2907412,
+      "sha256": "e9146a9264c091ce4a8a10a37ba17ddf7ba0c51be3a486397bdf119828bae770"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/taffy-front-back-v006.png",
+      "bytes": 2115158,
+      "sha256": "f06a8065208c6a1deca897ca30777e06e32675d5201007986ee48ca4660d6d32"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/S14-SH03.mp4",
+      "bytes": 17669374,
+      "sha256": "471983c54d83e4a1358b9ac4d9971985fa8d59f3783b37e238ef24c59ab7dc5d"
+    },
+    {
+      "path": "projects/together-anyways/generated/kling-ending-v058/S14-SH04.mp4",
+      "bytes": 16909029,
+      "sha256": "a1c43f371bd7df8797d6e97c45904b96b327479ee6f54fee73a5004f2e5175d5"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-003.png",
+      "bytes": 2797838,
+      "sha256": "746ab9990ae16bc8317e2a4287e28a7664af256ef9cb948266e73d629ef3e195"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-006.png",
+      "bytes": 2794910,
+      "sha256": "b752ec564a7acbe6ab379b741ebf222bbd656aa21ec0856ca3441f0d5dbf6901"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH02.png",
+      "bytes": 2595458,
+      "sha256": "f5c8059e3774465943f0b42089af6b433ae8d2bf4680799af4fe836ba001e210"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH03.png",
+      "bytes": 2823208,
+      "sha256": "42583569c9d366d89826f6881f831ca80fa606900b2a8e526493977186550a22"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH04.png",
+      "bytes": 2890994,
+      "sha256": "74154c17317f1aa54fd5cdb9eb6f93a6f91af63daa6f58a1b18e97868379e83e"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/scrapper.png",
+      "bytes": 1922371,
+      "sha256": "bc8015ecbbb8eacb510252a6ab4f3244932ab62a42b965113ec2d8f8b2c85a74"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v035/ship-front.png",
+      "bytes": 2422470,
+      "sha256": "dce2864f6fcdc9146e226b10d1532a9a1931f22087acab83d0f1568cb3847d5d"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v035/ship-rear.png",
+      "bytes": 2295467,
+      "sha256": "5643b8e0f2964a8389e0032718cbb0dc4134fee405052d9e356c08133f1f958b"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/secret-room-20261125-dark-cavern-v001/secret-room-20261125-dark-cavern-v001.zip"
+}

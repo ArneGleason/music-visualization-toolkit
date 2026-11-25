@@ -1,0 +1,14 @@
+{
+  "generator": "built-in ImageGen",
+  "status": "rejected_by_user",
+  "image": "generated/storyboard/antechamber-v004/antechamber-03.png",
+  "sha256": "13eaf3189babb8b959416f44267f78dbf2c784ebaa415c2f15c4cfa0bff2a029",
+  "editSource": "generated/storyboard/antechamber-v003/antechamber-03.png",
+  "statueReference": "../together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH04.png",
+  "changes": [
+    "rear-facing statue outside right side of arch",
+    "opposite non-door ship flank, nose left"
+  ],
+  "timingChanged": false,
+  "userDecision": "Use v003 for clearer visual recollection despite spatial mismatch; reject v004 for wrong statue height and ship nose."
+}

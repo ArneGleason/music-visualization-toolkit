@@ -1,0 +1,18 @@
+{
+  "label": "Image 10",
+  "title": "Stability \u2014 corrected four arms",
+  "generator": "built-in ImageGen",
+  "attempts": 1,
+  "editSource": "generated/character-development/pillars-v001/image-07-stability.png",
+  "image": "generated/character-development/pillars-v002/image-10-stability.png",
+  "status": "candidate_for_user_review",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "sha256": "70e6ea8c79d33f515a531653f60a8b831775b45b9b7495b3934904802700e825",
+  "observedArms": 4,
+  "observedHands": 4,
+  "observedLegs": 2,
+  "prompt": "production/pillars-v002/image-10.prompt.txt"
+}

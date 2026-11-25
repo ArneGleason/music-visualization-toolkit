@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "project": "open-up-the-secret-room",
+  "sources": [
+    {
+      "id": "master",
+      "path": "generated/source/master.wav",
+      "originalFilename": "Open Up the Secret Room - timing draft 2026-11-22 2102.wav",
+      "sha256": "cbd65f64f22a599dcbed50b28faa1b5bcab8ec12b234d5cfce8fa5250be56c6f",
+      "bytes": 67074976,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "sampleFrames": 11176415
+    },
+    {
+      "id": "dawproject",
+      "path": "generated/source/Open Up the Secret Room - timing draft.dawproject",
+      "sha256": "bb3f26aa96e97c35c1bbcef21501e5eb0745b265060837ba8cd3cc7885a57dc8",
+      "bytes": 829871823
+    },
+    {
+      "id": "lead",
+      "path": "generated/source/lead-deechoed.wav",
+      "bitwigTrack": "Lead Vocal - De-reverb + De-echo",
+      "sha256": "79bf2411650734c0ade585a1538a9760526253479cddc4d80128f72485e27f4a",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "sampleFrames": 11176415,
+      "bytes": 67074976
+    },
+    {
+      "id": "leadSource",
+      "path": "generated/source/lead-deechoed-source.wav",
+      "originalFilename": "Open Up the Secret Room - Lead Vocal (De-reverb + De-echo).wav",
+      "sha256": "089d4c4c6db755b50513fe369f41bc7cdefdc6093a2e874185962f1a788d0818",
+      "bytes": 67968044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "sampleFrames": 11328000
+    }
+  ]
+}

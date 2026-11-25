@@ -1,0 +1,17 @@
+{
+  "label": "Image 17",
+  "tool": "built-in image_gen",
+  "source_output": "/Users/arnegleason/.codex/generated_images/01a21427-800e-7fd0-8b86-638b7672e18e/exec-384bf38c-c5dd-4d37-a409-5f66dbb1fb96.png",
+  "output": "generated/storyboard/dark-cavern-v001/image-17.png",
+  "input_images": [
+    "generated/storyboard/antechamber-v003/antechamber-03.png",
+    "generated/storyboard/dark-cavern-v001/image-16.png"
+  ],
+  "size": [
+    1672,
+    941
+  ],
+  "prompt": "production/dark-cavern-v001/image-17.prompt.txt",
+  "status": "candidate pending user review",
+  "attempts": 1
+}

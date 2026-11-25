@@ -1,0 +1,14 @@
+{
+  "generator": "built-in ImageGen",
+  "status": "selected_by_user",
+  "image": "generated/storyboard/antechamber-v003/antechamber-03.png",
+  "sha256": "36e7695c042eb40078d036466ce4806ca075d9405cd9098d0d514eabc4abfaf1",
+  "editSource": "generated/storyboard/antechamber-v002/antechamber-03.png",
+  "references": [
+    "../together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH03.png",
+    "../together-anyways/generated/world-development/port-ship-v035/ship-front.png",
+    "../together-anyways/generated/world-development/port-ship-v035/ship-rear.png"
+  ],
+  "primaryIdentity": "03A / ta-006",
+  "userDecision": "Use v003 for clearer visual recollection despite spatial mismatch; reject v004 for wrong statue height and ship nose."
+}

@@ -1,0 +1,31 @@
+{
+  "repository": "ArneGleason/open-up-the-secret-room-video",
+  "roots": [
+    "projects/open-up-the-secret-room/generated/source"
+  ],
+  "exclude": [
+    "*/generated/source/master.wav",
+    "*/generated/source/lead-deechoed.wav",
+    "*/generated/source/stems/*"
+  ],
+  "scope": "Optional timing rebuild sources. Full Bitwig DAWproject export with embedded media and the original de-echoed vocal source.",
+  "schemaVersion": 1,
+  "tag": "secret-room-20261123-v001",
+  "archive": "secret-room-20261123-v001-bitwig.zip",
+  "sha256": "a7f4664f6044a39d93b83a416554182370567ed36992b65f5211dbb15ce097a2",
+  "bytes": 879427170,
+  "files": [
+    {
+      "path": "projects/open-up-the-secret-room/generated/source/Open Up the Secret Room - timing draft.dawproject",
+      "bytes": 829871823,
+      "sha256": "bb3f26aa96e97c35c1bbcef21501e5eb0745b265060837ba8cd3cc7885a57dc8"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/source/lead-deechoed-source.wav",
+      "bytes": 67968044,
+      "sha256": "089d4c4c6db755b50513fe369f41bc7cdefdc6093a2e874185962f1a788d0818"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/open-up-the-secret-room-video/releases/download/secret-room-20261123-v001/secret-room-20261123-v001-bitwig.zip",
+  "access": "private"
+}

@@ -1,0 +1,18 @@
+{
+  "label": "Image 07",
+  "title": "Stability \u2014 left pillar",
+  "generator": "built-in ImageGen",
+  "attempts": 1,
+  "status": "candidate_for_user_review",
+  "image": "generated/character-development/pillars-v001/image-07-stability.png",
+  "sha256": "8032ecdd22fe00bbb7cf13a97fea23881aa5bc9511de5ccc985cf8b41a32f548",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "reference": "generated/storyboard/antechamber-triad-v001/image-06.png",
+  "prompt": "production/pillars-v001/image-07.prompt.txt",
+  "observedArms": 6,
+  "observedLegs": 2,
+  "observedHands": 6
+}

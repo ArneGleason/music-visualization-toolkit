@@ -1,0 +1,27 @@
+{
+  "assets": [
+    {
+      "path": "generated/storyboard/entrance-continuity-v001/entrance-01.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2998879,
+      "sha256": "401c67a8d8f9932af45ae153e126c976e0d01940cc175f9cf59bd1b5eaf77c5f",
+      "status": "candidate_for_user_review",
+      "method": "built-in ImageGen"
+    },
+    {
+      "path": "generated/storyboard/entrance-continuity-v001/entrance-02.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2847075,
+      "sha256": "93a53b7fdf6a1d73b42296a0632bb302939ea7965e95d637731daf9d078b4aa9",
+      "status": "candidate_for_user_review",
+      "method": "built-in ImageGen"
+    }
+  ],
+  "commonPromptLockIdentical": true
+}

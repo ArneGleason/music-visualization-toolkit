@@ -1,5 +1,13 @@
 # Music Visualization Toolkit
 
+## Current video projects
+
+| Project | Checkpoint |
+| --- | --- |
+| [Open Up the Secret Room](projects/open-up-the-secret-room/CONTINUE-HERE.md) | Approved dark-cavern stills 16 and 17; 17.375-second opening animatic. Restore media using the project release manifest. |
+
+See [project workflow](docs/PROJECT_WORKFLOW.md) for handoff and retention.
+
 A working collection of tools and project records for making music videos.
 It combines musical timing, lyric alignment, visual experiments, shot planning,
 review, and rendering. Some projects use procedural graphics; others use

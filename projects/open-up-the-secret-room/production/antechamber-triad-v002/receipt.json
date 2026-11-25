@@ -1,0 +1,16 @@
+{
+  "label": "Image 13",
+  "date": "2026-11-25",
+  "tool": "built-in image_gen",
+  "source_output": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-f432e55b-b006-42b7-bec1-b82018bcf0bc.png",
+  "output": "generated/storyboard/antechamber-triad-v002/image-13.png",
+  "references": [
+    "generated/storyboard/antechamber-rear-v001/image-05.png",
+    "generated/character-development/pillars-v002/image-10-stability.png",
+    "generated/character-development/pillars-v002/image-11-balance.png",
+    "generated/character-development/pillars-v002/image-12-intelligence.png"
+  ],
+  "prompt": "production/antechamber-triad-v002/prompt.txt",
+  "status": "pending user review",
+  "generation_count": 1
+}

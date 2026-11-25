@@ -10,6 +10,7 @@ import hashlib
 import json
 from pathlib import Path, PurePosixPath
 import shutil
+import subprocess
 import tempfile
 import urllib.request
 import zipfile
@@ -92,7 +93,16 @@ def restore(root, spec, archive=None):
         if not archive.exists() or digest(archive) != spec['sha256']:
             print(f'Downloading {spec["bytes"]:,} bytes from {spec["url"]}', flush=True)
             partial = archive.with_suffix('.download')
-            urllib.request.urlretrieve(spec['url'], partial)
+            if spec.get('access') == 'private':
+                if shutil.which('gh') is None:
+                    raise ValueError('Install GitHub CLI and authenticate with gh auth login')
+                with tempfile.TemporaryDirectory(dir=archive.parent) as stage:
+                    subprocess.run(['gh', 'release', 'download', spec['tag'],
+                                    '--repo', spec['repository'], '--pattern',
+                                    spec['archive'], '--dir', stage], check=True)
+                    (Path(stage) / spec['archive']).replace(partial)
+            else:
+                urllib.request.urlretrieve(spec['url'], partial)
             if digest(partial) != spec['sha256']:
                 raise ValueError(f'Download checksum failed: {partial}')
             partial.replace(archive)

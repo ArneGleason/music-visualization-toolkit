@@ -1,0 +1,26 @@
+{
+  "reason": "User explicitly requested removing older animatics; lyric review is distinct and retained. Source media untouched.",
+  "removed": [
+    {
+      "path": "projects/open-up-the-secret-room/generated/wip/previews/opening-reuse/v001/Secret-Room-opening-reuse-v001.mp4",
+      "bytes": 5190038,
+      "sha256": "021b45464f49998fdf67700b5e5719a5d6835d283001ff2ea1638be45753021b"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/wip/previews/opening-reuse/v002/Secret-Room-opening-reuse-v002.mp4",
+      "bytes": 4612905,
+      "sha256": "ab0ae6e15747c61d4b5f4bd8b2f7acc31e2a2ed463c479490869455ae263a085"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/wip/previews/opening-reuse/v003/Secret-Room-opening-reuse-v003.mp4",
+      "bytes": 5898626,
+      "sha256": "2ae247f3d26df011e1c212170783144203f5540f8a6f38e174f9c91d4718a17f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/animatic/Open-Up-the-Secret-Room-timing-v001.mp4",
+      "bytes": 8315941,
+      "sha256": "4d0792aa4b730f9b6ee48d023402e5dd5f94c91965a6bc0e1c6b847b8f86bab5"
+    }
+  ],
+  "keptCurrent": "projects/open-up-the-secret-room/generated/approved/opening-v004/Secret-Room-opening-v004.mp4"
+}

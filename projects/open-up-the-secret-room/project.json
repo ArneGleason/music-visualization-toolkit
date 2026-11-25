@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "open-up-the-secret-room",
+  "title": "Open Up the Secret Room",
+  "sources": {
+    "dawproject": "generated/source/Open Up the Secret Room - timing draft.dawproject",
+    "audio": "generated/source/master.wav",
+    "lead": "generated/source/lead-deechoed.wav",
+    "leadSource": "generated/source/lead-deechoed-source.wav",
+    "authorLyrics": "lyrics/author.txt",
+    "timingAnimatic": "generated/animatic/Open-Up-the-Secret-Room-lyric-timing-v001.mp4"
+  },
+  "timeline": "timeline.json",
+  "timing": {
+    "durationSource": "audio",
+    "zeroBeat": 14,
+    "beatmap": "generated/beatmap.json",
+    "compiledTimeline": "generated/timeline.compiled.json"
+  },
+  "render": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "production": {
+    "stage": "approved-dark-cavern-stills-and-opening-animatic",
+    "predecessor": "../together-anyways/project.json",
+    "continuityShot": "S14-SH04",
+    "shotlist": "shots/shotlist.json",
+    "lyricTimingReview": "lyrics/TIMING-REVIEW.md",
+    "currentAnimatic": "generated/approved/opening-v004/Secret-Room-opening-v004.mp4"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "repository": "ArneGleason/open-up-the-secret-room-video",
+  "roots": [
+    "projects/open-up-the-secret-room/generated",
+    "projects/together-anyways/generated"
+  ],
+  "exclude": [
+    "*.dawproject",
+    "*/generated/source/lead-deechoed-source.wav",
+    "*/generated/source/stems/*",
+    "*.log",
+    "*/generated/transcription/global_align.py",
+    "*/generated/timeline.compiled.json"
+  ],
+  "scope": "Mac and PC editing handoff. Master, matched lead vocal, cached DAW timing, lyric animatic, timestamp evidence, and selected Together Anyways continuity stills.",
+  "schemaVersion": 1,
+  "tag": "secret-room-20261123-v002",
+  "archive": "secret-room-20261123-v002.zip",
+  "sha256": "76c01e50b310e28a7a10c738f184555c47abd2b519551027d9f7d8257ac1003d",
+  "bytes": 156328402,
+  "files": [
+    {
+      "path": "projects/open-up-the-secret-room/generated/animatic/Open-Up-the-Secret-Room-lyric-timing-v001.ass",
+      "bytes": 104861,
+      "sha256": "bec3679bf09d2450d0623dc143ec3524d41a916fd83d8ca8e7b0787a4e2b48fc"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/animatic/Open-Up-the-Secret-Room-lyric-timing-v001.mp4",
+      "bytes": 8854994,
+      "sha256": "ce3435653cab644fb2c4169e9e3c60840c006573eef25f6a729e491e41cbc869"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/animatic/Open-Up-the-Secret-Room-timing-v001.mp4",
+      "bytes": 8315941,
+      "sha256": "4d0792aa4b730f9b6ee48d023402e5dd5f94c91965a6bc0e1c6b847b8f86bab5"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/animatic/beat-slate.srt",
+      "bytes": 41201,
+      "sha256": "167e039c384ff03760cf6ab797b88356ba2575da297bb96f6d05c3818d0bee08"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/beatmap.json",
+      "bytes": 177958,
+      "sha256": "e9d70d64f3b8273e61e7ca3470d7b8c6ce8806858dbf176a0986e8f511d2261f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/references/together-anyways-v072-final-frame.png",
+      "bytes": 4064441,
+      "sha256": "d0d3ce4339cfc9de6f74d369a7fccc114839d41591fd53ca99529b6999976aa7"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/source/lead-deechoed.wav",
+      "bytes": 67074976,
+      "sha256": "79bf2411650734c0ade585a1538a9760526253479cddc4d80128f72485e27f4a"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/source/master.wav",
+      "bytes": 67074976,
+      "sha256": "cbd65f64f22a599dcbed50b28faa1b5bcab8ec12b234d5cfce8fa5250be56c6f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/audio.whisper.raw.json",
+      "bytes": 74608,
+      "sha256": "e814d07a8d06f41be398f58186a4fdaed2d6412b166057c8c288515b48241015"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/global-alignment.json",
+      "bytes": 212312,
+      "sha256": "868747a7e92dfac3d40640e5d64a02e058ef8f0ce7e30d025e1191cf37643571"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/lead.ctc.greedy.json",
+      "bytes": 16670,
+      "sha256": "336204d74e68f59f4b34b5a9c7150f531eb6c1afa8ce4853a60a3ba89448df45"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/lead.ctc.npz",
+      "bytes": 1351518,
+      "sha256": "71c2d51cd3f1f66099d5628fbeafbba302071bda40dd51268e8e281d1272f11b"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/lead.whisper.raw.json",
+      "bytes": 80526,
+      "sha256": "f5ccef2815f9fa17983001ddb0e7a8f7859c17a439d1d1122fab91714063d4cd"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/master.ctc.greedy.json",
+      "bytes": 14886,
+      "sha256": "dab906b86c0706c6636448227345aa46c3220ca2942d59d6c7f99e2a14421fc1"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/transcription/master.ctc.npz",
+      "bytes": 1351518,
+      "sha256": "3b2e70e2a663ccae42284af592757f0d052f69c055287dc4ada84e1cf2f609b3"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
+      "bytes": 2907412,
+      "sha256": "e9146a9264c091ce4a8a10a37ba17ddf7ba0c51be3a486397bdf119828bae770"
+    },
+    {
+      "path": "projects/together-anyways/generated/character-development/taffy-front-back-v006.png",
+      "bytes": 2115158,
+      "sha256": "f06a8065208c6a1deca897ca30777e06e32675d5201007986ee48ca4660d6d32"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-003.png",
+      "bytes": 2797838,
+      "sha256": "746ab9990ae16bc8317e2a4287e28a7664af256ef9cb948266e73d629ef3e195"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH02.png",
+      "bytes": 2595458,
+      "sha256": "f5c8059e3774465943f0b42089af6b433ae8d2bf4680799af4fe836ba001e210"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH03.png",
+      "bytes": 2823208,
+      "sha256": "42583569c9d366d89826f6881f831ca80fa606900b2a8e526493977186550a22"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH04.png",
+      "bytes": 2890994,
+      "sha256": "74154c17317f1aa54fd5cdb9eb6f93a6f91af63daa6f58a1b18e97868379e83e"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v031/scrapper.png",
+      "bytes": 1922371,
+      "sha256": "bc8015ecbbb8eacb510252a6ab4f3244932ab62a42b965113ec2d8f8b2c85a74"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v035/ship-front.png",
+      "bytes": 2422470,
+      "sha256": "dce2864f6fcdc9146e226b10d1532a9a1931f22087acab83d0f1568cb3847d5d"
+    },
+    {
+      "path": "projects/together-anyways/generated/world-development/port-ship-v035/ship-rear.png",
+      "bytes": 2295467,
+      "sha256": "5643b8e0f2964a8389e0032718cbb0dc4134fee405052d9e356c08133f1f958b"
+    }
+  ],
+  "url": "https://github.com/ArneGleason/open-up-the-secret-room-video/releases/download/secret-room-20261123-v002/secret-room-20261123-v002.zip",
+  "access": "private"
+}

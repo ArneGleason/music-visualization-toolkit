@@ -1,0 +1,26 @@
+{
+  "label": "Image 11",
+  "name": "Balance",
+  "generator": "built-in ImageGen",
+  "attempts": 1,
+  "status": "candidate_for_user_review",
+  "editSource": "generated/character-development/pillars-v001/image-08-balance.png",
+  "path": "generated/character-development/pillars-v002/image-11-balance.png",
+  "sha256": "39c3bc566164f16d526b69fe4f71771bf26a8306c93428ed518091e040ab0a4e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "inspection": {
+    "arms": 4,
+    "hands": 4,
+    "legs": 2,
+    "totalLimbAppendages": 6,
+    "lowerArms": "small pair retained at lower torso, long shoulder pair retained",
+    "removed": "Intermediate pair entirely removed, no visible stumps",
+    "preserved": "head, antennae, slender body, long drape, two legs, feet, plinth and background closely match input"
+  },
+  "caveats": [
+    "Lower-arm roots remain fairly low on elongated torso; user review for desired spacing."
+  ]
+}

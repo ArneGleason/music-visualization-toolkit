@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "bitwigLoop": {
+    "start": "4.3.1.00",
+    "endExclusive": "133.2.1.00",
+    "zeroBeat": 14,
+    "endBeatExclusive": 529
+  },
+  "timeSignature": [
+    4,
+    4
+  ],
+  "tempoPoints": 892,
+  "tempoInterpolation": "linear",
+  "projectSecondsAtMasterZero": 6.376737087921059,
+  "masterDurationSeconds": 232.84197916666668,
+  "tempoGridLoopDurationSeconds": 232.84522152674916,
+  "gridMinusMasterSeconds": 0.0032423600824813548,
+  "frameRate": 24,
+  "gridDurationNearestFrame": 5588,
+  "timingPreviewFrames": 5589,
+  "leadSampleZero": "Same export loop as master",
+  "lyricTimingStatus": "first_pass_for_review",
+  "whisper": {
+    "model": "large-v3-turbo",
+    "sourceRole": "lead",
+    "clock": "master-relative, seconds from loop start",
+    "candidateWords": 366,
+    "output": "generated/transcription/lead.whisper.raw.json",
+    "listeningApproved": false
+  },
+  "lyricTimingPass": {
+    "authorLines": 57,
+    "placedLines": 56,
+    "unplacedLineIds": [
+      "line-046"
+    ],
+    "wordCandidates": 326,
+    "approximateTrailingEchoWindows": 7,
+    "review": "lyrics/TIMING-REVIEW.md",
+    "listenApproved": false
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "nextImageNumber": 18,
+  "images": [
+    {
+      "label": "Image 01",
+      "title": "Original wreck approach",
+      "path": "../together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH03.png",
+      "status": "selected opening"
+    },
+    {
+      "label": "Image 02",
+      "title": "Original statue shot",
+      "path": "../together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH04.png",
+      "status": "selected opening"
+    },
+    {
+      "label": "Image 03",
+      "title": "Grand inner hall, frontal characters",
+      "path": "generated/storyboard/antechamber-v002/antechamber-03.png",
+      "status": "interior design reference"
+    },
+    {
+      "label": "Image 04",
+      "title": "Selected reaction, wreck behind",
+      "path": "generated/storyboard/antechamber-v003/antechamber-03.png",
+      "status": "approved character/statue reference; bright setting superseded by dark cavern candidates"
+    },
+    {
+      "label": "Image 05",
+      "title": "Entering the grand hall, rear view",
+      "path": "generated/storyboard/antechamber-rear-v001/image-05.png",
+      "status": "new candidate, pending review"
+    },
+    {
+      "label": "Image 06",
+      "title": "Three pillars above the assembly-hall doors",
+      "path": "generated/storyboard/antechamber-triad-v001/image-06.png",
+      "status": "new candidate, pending review"
+    },
+    {
+      "label": "Image 07",
+      "title": "Stability — six-arm statue reference",
+      "path": "generated/character-development/pillars-v001/image-07-stability.png",
+      "status": "superseded anatomy: six arms; see Images 10–12",
+      "design": "Left: large robust standing figure, six similarly powerful arms"
+    },
+    {
+      "label": "Image 08",
+      "title": "Balance — six-arm statue reference",
+      "path": "generated/character-development/pillars-v001/image-08-balance.png",
+      "status": "superseded anatomy: six arms; see Images 10–12",
+      "design": "Center: tall slender standing figure, smaller abdominal arm pair"
+    },
+    {
+      "label": "Image 09",
+      "title": "Intelligence — six-arm statue reference",
+      "path": "generated/character-development/pillars-v001/image-09-intelligence.png",
+      "status": "superseded anatomy: six arms; see Images 10–12",
+      "design": "Right: compact larger-headed figure, raised seated support"
+    },
+    {
+      "label": "Image 10",
+      "title": "Stability — four arms and two legs",
+      "path": "generated/character-development/pillars-v002/image-10-stability.png",
+      "status": "selected reference for hall assembly"
+    },
+    {
+      "label": "Image 11",
+      "title": "Expression — four arms and two legs",
+      "path": "generated/character-development/pillars-v002/image-11-balance.png",
+      "status": "selected reference for hall assembly"
+    },
+    {
+      "label": "Image 12",
+      "title": "Understanding — four arms and two legs",
+      "path": "generated/character-development/pillars-v002/image-12-intelligence.png",
+      "status": "selected reference for hall assembly"
+    },
+    {
+      "label": "Image 13",
+      "title": "Three governing pillars above the broad inner entrance",
+      "path": "generated/storyboard/antechamber-triad-v002/image-13.png",
+      "status": "superseded scale: Understanding too large; see Image 14"
+    },
+    {
+      "label": "Image 14",
+      "title": "Antechamber with smaller Understanding on raised chair",
+      "path": "generated/storyboard/antechamber-triad-v003/image-14.png",
+      "status": "scale approved; orientation superseded by Image 15"
+    },
+    {
+      "label": "Image 15",
+      "title": "Pillars facing outward toward the ceremonial assembly floor",
+      "path": "generated/storyboard/antechamber-triad-v004/image-15.png",
+      "status": "approved character/statue reference; bright setting superseded by dark cavern candidates"
+    },
+    {
+      "label": "Image 16",
+      "title": "Dark cavern city and the three pillars",
+      "path": "generated/storyboard/dark-cavern-v001/image-16.png",
+      "status": "approved artwork; current animatic v004"
+    },
+    {
+      "label": "Image 17",
+      "title": "Dark cavern reverse — bewildered discovery",
+      "path": "generated/storyboard/dark-cavern-v001/image-17.png",
+      "status": "approved artwork; current animatic v004"
+    }
+  ]
+}

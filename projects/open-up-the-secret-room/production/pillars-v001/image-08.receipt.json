@@ -1,0 +1,26 @@
+{
+  "label": "Image 08",
+  "name": "Balance",
+  "position": "center",
+  "generator": "built-in ImageGen",
+  "attempts": 1,
+  "status": "candidate_for_user_review",
+  "path": "generated/character-development/pillars-v001/image-08-balance.png",
+  "sha256": "550a1624090bf7a25eed4fe8e868ec1eb9efe8c274c1dde5980b127148824b32",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "inspection": {
+    "arms": 6,
+    "hands": 6,
+    "legs": 2,
+    "lowerArms": "visibly smaller and finer than upper and middle pairs",
+    "framing": "complete antennae, hands, feet and plinth visible",
+    "style": "warm aged carved bronze/stone, neutral cool background",
+    "caveats": [
+      "Drapery partly covers leg shafts, but both feet and knees distinguishable.",
+      "Hands are humanoid-like carved forms; verify desired insect anatomy in user review."
+    ]
+  }
+}
