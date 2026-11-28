@@ -1,0 +1,11 @@
+{
+  "label": "Image 63",
+  "revises": "Image 62",
+  "tool": "built-in image_gen",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-8d9be999-0add-4146-883d-de68a77751c2.png",
+  "output": "generated/storyboard/guest-arrival-v004/image-63.png",
+  "prompt": "image-63.prompt.txt",
+  "identityReference": "harper-03A-face-crop.png",
+  "referenceCropRecipe": "ffmpeg crop=620:590:140:0 from together-anyways/generated/storyboard/first-run-starters-v003/ta-006.png",
+  "status": "awaiting review"
+}

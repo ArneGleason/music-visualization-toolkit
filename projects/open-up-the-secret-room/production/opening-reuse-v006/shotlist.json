@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "fps": 24,
+  "frameIndexBase": 0,
+  "endFrameExclusive": true,
+  "status": "opening_through_living_bridge_still_review",
+  "totalFrames": 1245,
+  "shots": [
+    {
+      "id": "S01-SH01",
+      "sceneId": "S01",
+      "title": "Only a few steps",
+      "startFrame": 0,
+      "endFrameExclusive": 110,
+      "frames": 110,
+      "seconds": 4.583333333333333,
+      "status": "motion_review",
+      "boundaryBasis": {
+        "start": "4.3",
+        "end": "7.1.41",
+        "grid": "generated/beatmap.json"
+      },
+      "starterImage": "../together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH03.png",
+      "videoSource": "../together-anyways/generated/kling-ending-v058/S14-SH03.mp4",
+      "videoEdit": {
+        "sourceInFrame": 0
+      },
+      "sourceProvenance": {
+        "project": "../together-anyways/project.json",
+        "shotId": "S14-SH03",
+        "sourceFrames": 145
+      },
+      "description": "They leave the resting craft and take a few tentative steps toward the revealed underground city.",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "startAnchor": "4.3",
+      "batch": "journey-stills-v006",
+      "startSeconds": 0.0,
+      "endSeconds": 4.583333333333333,
+      "start": "4.3",
+      "end": "7.1.41"
+    },
+    {
+      "id": "S01-SH02",
+      "sceneId": "S01",
+      "title": "Something noticed",
+      "startFrame": 110,
+      "endFrameExclusive": 209,
+      "frames": 99,
+      "seconds": 4.125,
+      "status": "motion_review",
+      "boundaryBasis": {
+        "start": "7.1.41",
+        "end": "9.2.38",
+        "grid": "generated/beatmap.json"
+      },
+      "starterImage": "../together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH04.png",
+      "videoSource": "../together-anyways/generated/kling-ending-v058/S14-SH04.mp4",
+      "videoEdit": {
+        "sourceInFrame": 12
+      },
+      "sourceProvenance": {
+        "project": "../together-anyways/project.json",
+        "shotId": "S14-SH04",
+        "sourceFrames": 145
+      },
+      "description": "They approach the monumental beaked-ant ancestor statue. Taffy raises the flashlight up it; lights and dormant systems activate around the statue.",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "editNote": "Cut before Harper turns toward camera and before arch illumination reaches apex. User requested about one second shorter; earlier whole beat selected to protect both constraints.",
+      "startAnchor": "7.1.41",
+      "batch": "journey-stills-v006",
+      "startSeconds": 4.583333333333333,
+      "endSeconds": 8.708333333333334,
+      "start": "7.1.41",
+      "end": "9.2.38"
+    },
+    {
+      "id": "S01-SH03",
+      "sceneId": "S01",
+      "title": "The three pillars",
+      "startFrame": 209,
+      "endFrameExclusive": 329,
+      "frames": 120,
+      "seconds": 5.0,
+      "status": "animatic_still_review",
+      "boundaryBasis": {
+        "start": "9.2.38",
+        "end": "11.4.942",
+        "grid": "generated/beatmap.json"
+      },
+      "starterImage": "generated/storyboard/dark-cavern-v001/image-16.png",
+      "imageLabel": "Image 16",
+      "description": "Rear view: Harper and Taffy take only two or three tentative slow steps into the antechamber, then pause near the entrance to absorb the three civic statues. No travel across the hall. Still hold for animatic; walking is intended future action, not generated motion. Dark cavern revision: tower buildings recede into blue-black distance, sparse amber area light and necessary flashlight. No residents visible.",
+      "animaticTreatment": "static_hold",
+      "startAnchor": "9.2.38",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "batch": "journey-stills-v006",
+      "startSeconds": 8.708333333333334,
+      "endSeconds": 13.708333333333334,
+      "start": "9.2.38",
+      "end": "11.4.942"
+    },
+    {
+      "id": "S01-SH05",
+      "sceneId": "S01",
+      "startAnchor": "11.4.942",
+      "title": "The exposed entrance",
+      "starterImage": "generated/storyboard/crater-exterior-v004/image-31.png",
+      "imageLabel": "Image 31",
+      "description": "Establish exterior geography: skid slope, partially hidden wreck, guardian entrance and living concealment rim.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "batch": "journey-stills-v006",
+      "startFrame": 329,
+      "endFrameExclusive": 395,
+      "frames": 66,
+      "startSeconds": 13.708333333333334,
+      "endSeconds": 16.458333333333332,
+      "start": "11.4.942",
+      "end": "13.3.12",
+      "seconds": 2.75,
+      "boundaryBasis": {
+        "start": "11.4.942",
+        "end": "13.3.12",
+        "grid": "generated/beatmap.json"
+      }
+    },
+    {
+      "id": "S01-SH04",
+      "sceneId": "S01",
+      "title": "Bewildered discovery",
+      "startFrame": 395,
+      "endFrameExclusive": 461,
+      "frames": 66,
+      "seconds": 2.75,
+      "status": "animatic_still_review",
+      "boundaryBasis": {
+        "start": "13.3.12",
+        "end": "15.1.34",
+        "grid": "generated/beatmap.json"
+      },
+      "starterImage": "generated/storyboard/dark-cavern-v001/image-17.png",
+      "imageLabel": "Image 17",
+      "description": "Reverse close two-shot: Harper and Taffy exchange bewildered discovery; visible breach behind connects to preceding exterior. Static pre-effect hold.",
+      "animaticTreatment": "static_hold",
+      "motionDirection": {
+        "action": "Concealment progressively masks the breach, flickers during engagement, then removes exterior illumination. Flashlight/local area lighting remain.",
+        "coverage": "Image31 exterior, Image17 reaction, Image35 partial iris, Image32 closed exterior, Image34 dark reaction, Image33 wide. Shared continuous event for later motion.",
+        "physicalBarrier": "Undecided; optical concealment alone does not establish an impassable barrier.",
+        "timingStatus": "v006 keyframe review on musical grid; full continuous reaction and fluid failure/recovery still to be animated later.",
+        "storyFunction": "Establish the concealment visually for the later witnessed choice not to disable it."
+      },
+      "startAnchor": "13.3.12",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "batch": "journey-stills-v006",
+      "startSeconds": 16.458333333333332,
+      "endSeconds": 19.208333333333332,
+      "start": "13.3.12",
+      "end": "15.1.34"
+    },
+    {
+      "id": "S01-SH06",
+      "sceneId": "S01",
+      "startAnchor": "15.1.34",
+      "title": "The optical iris forms",
+      "starterImage": "generated/storyboard/concealment-iris-v001/image-35.png",
+      "imageLabel": "Image 35",
+      "description": "Partial optical closure grows inward from living rim. This still suggests fluid construction; final motion will synchronize with interior light loss.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "batch": "journey-stills-v006",
+      "startFrame": 461,
+      "endFrameExclusive": 548,
+      "frames": 87,
+      "startSeconds": 19.208333333333332,
+      "endSeconds": 22.833333333333332,
+      "start": "15.1.34",
+      "end": "16.4.946",
+      "seconds": 3.625,
+      "boundaryBasis": {
+        "start": "15.1.34",
+        "end": "16.4.946",
+        "grid": "generated/beatmap.json"
+      },
+      "directionHistory": [
+        {
+          "supersededByBatch": "journey-stills-v006",
+          "title": "The rim wakes",
+          "description": "Return to identical exterior framing before concealment engages. Static placeholder; living nodes will activate in future motion.",
+          "starterImage": "generated/storyboard/crater-exterior-v004/image-31.png",
+          "imageLabel": "Image 31"
+        }
+      ]
+    },
+    {
+      "id": "S01-SH07",
+      "sceneId": "S01",
+      "startAnchor": "16.4.946",
+      "title": "Concealment settles",
+      "starterImage": "generated/storyboard/crater-exterior-v005/image-32.png",
+      "imageLabel": "Image 32",
+      "description": "Completed optical rock disguise. Intermediate still replaces the former hard flicker sequence; failure/recovery choreography remains for later motion.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "batch": "journey-stills-v006",
+      "startFrame": 548,
+      "endFrameExclusive": 592,
+      "frames": 44,
+      "startSeconds": 22.833333333333332,
+      "endSeconds": 24.666666666666668,
+      "start": "16.4.946",
+      "end": "18.1.2",
+      "seconds": 1.8333333333333333,
+      "boundaryBasis": {
+        "start": "16.4.946",
+        "end": "18.1.2",
+        "grid": "generated/beatmap.json"
+      },
+      "directionHistory": [
+        {
+          "supersededByBatch": "journey-stills-v006",
+          "title": "Camouflage engages",
+          "description": "Optical rock appearance hides the cavern. Deliberate cut between stills tests readability; not physical rock growth.",
+          "starterImage": "generated/storyboard/crater-exterior-v005/image-32.png",
+          "imageLabel": "Image 32"
+        }
+      ]
+    },
+    {
+      "id": "S01-SH08",
+      "sceneId": "S01",
+      "startAnchor": "18.1.2",
+      "title": "Daylight disappears",
+      "starterImage": "generated/storyboard/interior-light-loss-v001/image-34.png",
+      "imageLabel": "Image 34",
+      "description": "Matched interior after closure: external daylight disappears, flashlight and local amber lights remain. Reaction and lighting will share exterior event timing.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "batch": "journey-stills-v006",
+      "startFrame": 592,
+      "endFrameExclusive": 636,
+      "frames": 44,
+      "startSeconds": 24.666666666666668,
+      "endSeconds": 26.5,
+      "start": "18.1.2",
+      "end": "19.1.21",
+      "seconds": 1.8333333333333333,
+      "boundaryBasis": {
+        "start": "18.1.2",
+        "end": "19.1.21",
+        "grid": "generated/beatmap.json"
+      },
+      "directionHistory": [
+        {
+          "supersededByBatch": "journey-stills-v006",
+          "title": "A brief failure",
+          "description": "The illusion briefly drops, exposing the same cavern. One measured interruption, not rapid strobing.",
+          "starterImage": "generated/storyboard/crater-exterior-v004/image-31.png",
+          "imageLabel": "Image 31"
+        }
+      ]
+    },
+    {
+      "id": "S01-SH10",
+      "sceneId": "S01",
+      "startAnchor": "19.1.21",
+      "title": "An ordinary crater wall",
+      "starterImage": "generated/storyboard/crater-exterior-v006/image-33.png",
+      "imageLabel": "Image 33",
+      "description": "Wider camouflaged exterior locates the concealed opening in the landscape and reserves terrain for later search activity.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "batch": "journey-stills-v006",
+      "startFrame": 636,
+      "endFrameExclusive": 723,
+      "frames": 87,
+      "startSeconds": 26.5,
+      "endSeconds": 30.125,
+      "start": "19.1.21",
+      "end": "20.4.929",
+      "seconds": 3.625,
+      "boundaryBasis": {
+        "start": "19.1.21",
+        "end": "20.4.929",
+        "grid": "generated/beatmap.json"
+      }
+    },
+    {
+      "id": "S02-SH01",
+      "sceneId": "S02",
+      "startAnchor": "20.4.929",
+      "title": "A shared history",
+      "starterImage": "generated/storyboard/wall-clue-v002/image-37.png",
+      "imageLabel": "Image 37",
+      "description": "Taffy reveals the sequential relief with his flashlight. Harper studies it. Living illumination elaborates ant-made shared history. Future motion may let them separate along mural.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "batch": "journey-stills-v006",
+      "startFrame": 723,
+      "endFrameExclusive": 898,
+      "frames": 175,
+      "startSeconds": 30.125,
+      "endSeconds": 37.416666666666664,
+      "start": "20.4.929",
+      "end": "25.1.43",
+      "seconds": 7.291666666666667,
+      "boundaryBasis": {
+        "start": "20.4.929",
+        "end": "25.1.43",
+        "grid": "generated/beatmap.json"
+      }
+    },
+    {
+      "id": "S02-SH02",
+      "sceneId": "S02",
+      "startAnchor": "25.1.43",
+      "title": "The infrastructure guides them",
+      "starterImage": "generated/storyboard/living-guide-v003/image-40.png",
+      "imageLabel": "Image 40",
+      "description": "Taffy searches the obvious route while Harper notices living signals guiding them around a nearby bend through purposeful enclosed service spaces.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "batch": "journey-stills-v006",
+      "startFrame": 898,
+      "endFrameExclusive": 1072,
+      "frames": 174,
+      "startSeconds": 37.416666666666664,
+      "endSeconds": 44.666666666666664,
+      "start": "25.1.43",
+      "end": "29.1.43",
+      "seconds": 7.25,
+      "boundaryBasis": {
+        "start": "25.1.43",
+        "end": "29.1.43",
+        "grid": "generated/beatmap.json"
+      }
+    },
+    {
+      "id": "S03-SH01",
+      "sceneId": "S03",
+      "startAnchor": "29.1.43",
+      "title": "The living bridge responds",
+      "starterImage": "generated/storyboard/living-bridge-v001/image-43.png",
+      "imageLabel": "Image 43",
+      "description": "Pair wait on maintained landing as connected organic ribs and walking surface extend across deliberate gap. Static deployment keyframe only. No broken infrastructure and no crossing action yet.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "batch": "journey-stills-v006",
+      "startFrame": 1072,
+      "endFrameExclusive": 1245,
+      "frames": 173,
+      "startSeconds": 44.666666666666664,
+      "endSeconds": 51.875,
+      "start": "29.1.43",
+      "end": "32.4.922",
+      "seconds": 7.208333333333333,
+      "boundaryBasis": {
+        "start": "29.1.43",
+        "end": "32.4.922",
+        "grid": "generated/beatmap.json"
+      }
+    }
+  ],
+  "supersededShots": [
+    {
+      "id": "S01-SH09",
+      "sceneId": "S01",
+      "startAnchor": "17.1.0",
+      "title": "Concealment holds",
+      "starterImage": "generated/storyboard/crater-exterior-v005/image-32.png",
+      "imageLabel": "Image 32",
+      "description": "The rock illusion returns and holds. Outside landmarks should remain stationary in final motion.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "batch": "opening-concealment-v005",
+      "startFrame": 548,
+      "endFrameExclusive": 636,
+      "frames": 88,
+      "startSeconds": 22.833333333333332,
+      "endSeconds": 26.5,
+      "start": "16.4.946",
+      "end": "19.1.21",
+      "seconds": 3.6666666666666665,
+      "boundaryBasis": {
+        "start": "17.1.0",
+        "end": "19.1.21",
+        "grid": "generated/beatmap.json"
+      },
+      "supersededByBatch": "journey-stills-v006"
+    }
+  ]
+}

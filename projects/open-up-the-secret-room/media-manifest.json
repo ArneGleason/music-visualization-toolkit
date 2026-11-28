@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "repository": "ArneGleason/music-visualization-toolkit",
   "access": "public",
-  "tag": "secret-room-20261125-dark-cavern-v001",
-  "archive": "secret-room-20261125-dark-cavern-v001.zip",
-  "sha256": "9a14d3e4b3e701ee1af37d8778ca5643c8ed442b47b2e773d455f1a858012320",
-  "bytes": 243316667,
-  "scope": "Secret Room checkpoint: approved dark cavern stills and current animatic, retained illustration development and character references, source audio/timing, and only the two reused original source takes. No WIP previews or superseded animatic videos.",
+  "tag": "secret-room-20261127-stills-v001",
+  "archive": "secret-room-20261127-stills-v001.zip",
+  "sha256": "14d3ca5f8bc40183201539d994a674e4d952b36d6c5acde7047bfe91d9379f47",
+  "bytes": 665779369,
+  "scope": "All Secret Room stills through Image160, references and concept alternatives; source audio and cached timing; two reused original opening clips. No rendered MP4 previews or WIP caches.",
   "files": [
     {
       "path": "projects/open-up-the-secret-room/generated/animatic/Open-Up-the-Secret-Room-lyric-timing-v001.ass",
@@ -14,24 +14,24 @@
       "sha256": "bec3679bf09d2450d0623dc143ec3524d41a916fd83d8ca8e7b0787a4e2b48fc"
     },
     {
-      "path": "projects/open-up-the-secret-room/generated/animatic/Open-Up-the-Secret-Room-lyric-timing-v001.mp4",
-      "bytes": 8854994,
-      "sha256": "ce3435653cab644fb2c4169e9e3c60840c006573eef25f6a729e491e41cbc869"
-    },
-    {
       "path": "projects/open-up-the-secret-room/generated/animatic/beat-slate.srt",
       "bytes": 41201,
       "sha256": "167e039c384ff03760cf6ab797b88356ba2575da297bb96f6d05c3818d0bee08"
     },
     {
-      "path": "projects/open-up-the-secret-room/generated/approved/opening-v004/Secret-Room-opening-v004.mp4",
-      "bytes": 5741970,
-      "sha256": "fda36435fb93da5ed988cd47e563d22473507b76b1c20c1423b37473b9067fb4"
-    },
-    {
       "path": "projects/open-up-the-secret-room/generated/beatmap.json",
       "bytes": 177958,
       "sha256": "e9d70d64f3b8273e61e7ca3470d7b8c6ce8806858dbf176a0986e8f511d2261f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/character-development/harper-angle-reference-v001/image-64.png",
+      "bytes": 3117870,
+      "sha256": "678e7168984c7f04e264d878ff531fb05855be964f24733421d1493fd3051c53"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/character-development/pair-height-reference-v001/image-75.png",
+      "bytes": 2162230,
+      "sha256": "2a392152922f9294afb098efc0c1584befef0da81fa887bb721e16c31c5c256b"
     },
     {
       "path": "projects/open-up-the-secret-room/generated/character-development/pillars-v001/image-07-stability.png",
@@ -64,9 +64,44 @@
       "sha256": "1d687491366c431f7297d0357819459abf9115a29ca7c7b234ecbca0e56446a9"
     },
     {
+      "path": "projects/open-up-the-secret-room/generated/character-development/taffy-angle-reference-v001/image-65.png",
+      "bytes": 2596420,
+      "sha256": "b0b0ce9532072af7334466aed89d23e0ae4de0bea82253850edebd2775a6c363"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/character-development/taffy-angle-reference-v002/image-66.png",
+      "bytes": 2536467,
+      "sha256": "87b16e46b961a43acf0e3aa523a2fdfed970a83beaf2a761e74f7f1d24bab9b2"
+    },
+    {
       "path": "projects/open-up-the-secret-room/generated/references/dark-cavern-v001/shot-two-lighting-reference.png",
       "bytes": 2979172,
       "sha256": "221c538f3b0d5f9082ad630111081074c037fb192571536374bc805e041de271"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/references/exterior-leadup-v001/S13-SH03.jpg",
+      "bytes": 127020,
+      "sha256": "45842d31bbf558075da1cc910e4c00405e65129b4d11a6c0a295d182c792c0a3"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/references/exterior-leadup-v001/S13-SH04.jpg",
+      "bytes": 140872,
+      "sha256": "355baa43df611e8b5dc60b51efc3896285ecd5edc7d99191f80b1c1a43170c37"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/references/exterior-leadup-v001/S13-SH05.jpg",
+      "bytes": 162024,
+      "sha256": "557908dff7ae2ddf9f27a87b4a06de82760cb26857435cf35ba2d4dc26c3abde"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/references/exterior-leadup-v001/S14-SH01.jpg",
+      "bytes": 95445,
+      "sha256": "ae603ad3c876e9a73e32f18ed6245f23d27c718e73960e7c596300849f5bc058"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/references/exterior-leadup-v001/S14-SH03.jpg",
+      "bytes": 118501,
+      "sha256": "af43da414d6c3417cb044d72abde312812d6512ae31000b0b31ec2d879f9cd5a"
     },
     {
       "path": "projects/open-up-the-secret-room/generated/references/together-anyways-v072-final-frame.png",
@@ -129,6 +164,156 @@
       "sha256": "13eaf3189babb8b959416f44267f78dbf2c784ebaa415c2f15c4cfa0bff2a029"
     },
     {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/broken-crossing-v001/image-41.png",
+      "bytes": 2649159,
+      "sha256": "68b413ff4fc53751e20bd8a0879f53be5b82fa2f17d414c88bcb1c9e9ad52727"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/come-on-through-v001/image-121.png",
+      "bytes": 2323082,
+      "sha256": "ec5b03310fa6918c8f35763ad442cde5e323ff181275681babcdc621ce493175"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/come-on-through-v002/image-122.png",
+      "bytes": 2736268,
+      "sha256": "687264caa1f951ce011d0cdf6d74bf2114bbc1c393607ef744377c7755343626"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/comedy-close-v001/image-125.png",
+      "bytes": 2571385,
+      "sha256": "9448be4d21ddeac8020b269f9d11b60bfd1a56faa362a42f78940e6666c12676"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/comedy-close-v002/image-126.png",
+      "bytes": 2641716,
+      "sha256": "71c58e4fc524145b2277cf0fd299f96e2af495a3d6b2a219829db2a9c312f97b"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/communal-performance-v001/image-47.png",
+      "bytes": 3016610,
+      "sha256": "9e067869acf6ea2239eccf2496dcd788cb40b8c01caa29501aee50dc45806227"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/community-explanation-v001/image-57.png",
+      "bytes": 2666299,
+      "sha256": "96de5a5cd63330fc62fc36ff44442cf54ca11ef7251c9c81ee3cbcd8b39f79ba"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/community-explanation-v002/image-58.png",
+      "bytes": 2641260,
+      "sha256": "c136b86397c20fdf342ab6e89e788c76c80fa6039ef5c29b71690cddeb828e70"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/community-explanation-v003/image-59.png",
+      "bytes": 2578420,
+      "sha256": "9e2dd7b916aea74778cb44ac0afbbfedb9e0faedd4fa11fc26542b712d581427"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/concealment-iris-v001/image-35.png",
+      "bytes": 2849633,
+      "sha256": "5fa814047295d9af65a8526bc8701a1fe87ac52b3e2f6f6af6cfbea6c0b0c6cf"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/council-arrival-v001/image-79.png",
+      "bytes": 2683246,
+      "sha256": "7a0d81e0a0abf2e5f2f46de1473fba47f858edec45b53660f7889622ac279d8f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/council-arrival-v002/image-80.png",
+      "bytes": 2752348,
+      "sha256": "5969e1063dd0144139dd33f901ce4e411537a1fdf24a762eeac7df25ec57638a"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/council-arrival-v003/image-81.png",
+      "bytes": 2565357,
+      "sha256": "dad3d3097ffd96d21873bc90cf8558663b0d34c9f898dd903ff062eec0c5883b"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/council-arrival-v004/image-82.png",
+      "bytes": 2745602,
+      "sha256": "ebc391e71cc32c7293514e5cbaeee601a53d691bf5c73859f53471f7e0c37858"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/council-arrival-v005/image-83.png",
+      "bytes": 2484861,
+      "sha256": "dbbff776f0a81cc64636edb9017560be722faac084458e83c7ca8b14bc57c451"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/council-deliberation-v001/image-87.png",
+      "bytes": 2379152,
+      "sha256": "16d07207cbb6d3c31c21102413514a862f8e91171f39d6e1a058470e825aecd8"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/council-deliberation-v002/image-88.png",
+      "bytes": 2351134,
+      "sha256": "9bade469683c26e440aeeea04d46c99caa07ed6f4a6b2a45fe9356ae03dc24c5"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/council-deliberation-v003/image-89.png",
+      "bytes": 2279347,
+      "sha256": "5d271488959fd2d1da0ff481efa9d7d20a10498e71efdf4207cf233755c67be8"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/council-explanation-v001/image-84.png",
+      "bytes": 2677799,
+      "sha256": "4cb79afeab141960b1034af50eb40fddb53824dedb8c72aaa6a9c960f07ba946"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/council-explanation-v002/image-85.png",
+      "bytes": 2438371,
+      "sha256": "aed4d640ee9f04ccf9783340852953b383af26abc502f5bc3deab2d85744aa72"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/council-explanation-v003/image-86.png",
+      "bytes": 2311272,
+      "sha256": "1593cbee0b14095d7640dc3361ac4e2fa254b56a821c2c54f5de8a4175112946"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/crater-exterior-v001/image-28.png",
+      "bytes": 3502650,
+      "sha256": "f00eec0ef0de3a4cac2a5a485944e4c1f1e9d993d4888e585bd14cdc2b3654bc"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/crater-exterior-v002/image-29.png",
+      "bytes": 3035744,
+      "sha256": "a7d56ec7ab67290e0b489748931423f0e353786b12e426d33029af3d249d3925"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/crater-exterior-v003/image-30.png",
+      "bytes": 2873146,
+      "sha256": "68dc703f2a3de3ba3686ebf78282c397f8ba20470ca9bc92a4a0ddcf57b77ae5"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/crater-exterior-v004/image-31.png",
+      "bytes": 2765677,
+      "sha256": "ac8cc1b6dc0582c1cdfa532835a7a291f6a64634862b81a9d0e68ffcc2090d96"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/crater-exterior-v005/image-32.png",
+      "bytes": 3641027,
+      "sha256": "6fb0781db41fa4df05ff281f5879ecc2f61f5594c8332e5dd238b9a9d6b3b7dd"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/crater-exterior-v006/image-33.png",
+      "bytes": 3748925,
+      "sha256": "a35e2077bce2f8ef9867f720f366837e641434df3ff7eed92b31787ee839f0f4"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/curiosity-reveal-v001/image-50.png",
+      "bytes": 2824218,
+      "sha256": "0a0dbaf0743167cd799084604664af2aa7f95951ea03b0e3ea882d0a8a4068f5"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/curiosity-reveal-v002/image-51.png",
+      "bytes": 2523677,
+      "sha256": "69bef0cc477eff11b88592383b189c4613c1e9814167be6a32cd624721185fba"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/curiosity-reveal-v003/image-52.png",
+      "bytes": 2431808,
+      "sha256": "d8133ed08de33da2d02b6e05800ff842ed0a64189769d489ba5b7d43894b5304"
+    },
+    {
       "path": "projects/open-up-the-secret-room/generated/storyboard/dark-cavern-v001/image-16.png",
       "bytes": 2364360,
       "sha256": "5c99f91de65c9177055228568bf2b48bf5b1c9793ebf044234e673d40163eb56"
@@ -139,6 +324,21 @@
       "sha256": "6765deb2cc277b00d9fef77e9940499cd877bdba74eedc96657bec65eba9e6c4"
     },
     {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/elder-reaction-v001/image-95.png",
+      "bytes": 2117243,
+      "sha256": "94b1c6bcbd6c74ad2abba2acc81e415b1f61e44f22827d8032d84138193e16e5"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/energy-bridge-v001/image-45.png",
+      "bytes": 2319921,
+      "sha256": "ea27c92f02d2f72c83cfea9fea488206d7650969baf70c30a043da5f183ee7f0"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/energy-first-step-v001/image-46.png",
+      "bytes": 2248738,
+      "sha256": "209c4d60c3d3c4b2c7873e7b0df4bb519cdeadbad64f8d2a7a82ad8cef70ff9d"
+    },
+    {
       "path": "projects/open-up-the-secret-room/generated/storyboard/entrance-continuity-v001/entrance-01.png",
       "bytes": 2998879,
       "sha256": "401c67a8d8f9932af45ae153e126c976e0d01940cc175f9cf59bd1b5eaf77c5f"
@@ -147,6 +347,491 @@
       "path": "projects/open-up-the-secret-room/generated/storyboard/entrance-continuity-v001/entrance-02.png",
       "bytes": 2847075,
       "sha256": "93a53b7fdf6a1d73b42296a0632bb302939ea7965e95d637731daf9d078b4aa9"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/escort-block-v001/image-94.png",
+      "bytes": 2286121,
+      "sha256": "ed28f6887f2a65274aa2b5814196d422c7893c68e7ead8851915cd4c44153aa3"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/escort-boundary-v001/image-92.png",
+      "bytes": 2315197,
+      "sha256": "a5d21a4ebfc24242ed26247350c39b5332c4cb1cd1d9327a4affa72532d15b76"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/escort-boundary-v002/image-93.png",
+      "bytes": 2108237,
+      "sha256": "adc22b40dc2f6b325392e41d1b3ec8e49b56f9dcbb6e9904dc849c7cf7418920"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/expression-response-v001/image-90.png",
+      "bytes": 1863044,
+      "sha256": "d0eaee165186f831ac97b6cb8e457e3408280df0a6a0c624396815ea3e8c6fcc"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/first-contact-v002/image-54.png",
+      "bytes": 2463237,
+      "sha256": "ae7d6bb488b22a7de5a3c9e7d06dee0c22725d4216022a903ce37a4860c16661"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/first-contact-v003/image-55.png",
+      "bytes": 2065516,
+      "sha256": "9fdc193f803d308b2c0db00f696f906e4f170f4ac7c319167550fbc92c9c2937"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guard-direction-v001/image-133.png",
+      "bytes": 2676028,
+      "sha256": "fab351a835e9a6504e107b3c173ee7b1678570de03585fe1447a1f6677c45793"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-arrival-v001/image-60.png",
+      "bytes": 2690365,
+      "sha256": "d6bfaa436f6f3775fb469c0bea173fdbf9ceade4a08ae990a67cc8ddefa64a62"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-arrival-v002/image-61.png",
+      "bytes": 2658959,
+      "sha256": "71b44d776df703abd42f12d73d7c327de175b0f8e130adf2c213a094c6c09228"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-arrival-v003/image-62.png",
+      "bytes": 2514651,
+      "sha256": "c339328a6136b2973b067d3d7b44271f29c6f2c0b56f855c55615b637929af94"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-arrival-v004/image-63.png",
+      "bytes": 2413045,
+      "sha256": "cf4f39fd6ccbe28fac26d8549469edf61dd7ee608894fb9028b5b68452933567"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-arrival-v005/image-67.png",
+      "bytes": 2431105,
+      "sha256": "c4f76fbde5f0f69df33f0f1acd0486aa9c9f50cb07185c3f847a9ceef0fe577e"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-arrival-v006/image-68.png",
+      "bytes": 2374109,
+      "sha256": "1ffec79b63388cb8bf47373e21e3a74015b82415f1d7f07274baf97a69f9869b"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-arrival-v007/image-134.png",
+      "bytes": 2838770,
+      "sha256": "51f4043171a3d1efaed808d5b1cd60f28fa281942b7115874389f1fc70daf8ed"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-boundary-v001/image-69.png",
+      "bytes": 2322611,
+      "sha256": "d015fba98a034460f410fde2a88c2956a7a93763dba64f808d3a4bc37d150503"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-boundary-v002/image-70.png",
+      "bytes": 2354211,
+      "sha256": "6a55d28507fa3a643a3b90cc6a4e6b6d7e7d9f7cc0351605a9bfa5446aa481dd"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-interface-v001/image-71.png",
+      "bytes": 2461942,
+      "sha256": "f90e9c1d0b4161c43856b2ab130c43922a80b96472f3fdd8b40c6c651a57b10c"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-interface-v002/image-72.png",
+      "bytes": 2282177,
+      "sha256": "3d4100146b79ac84515699bab8f655b736c8206bf7ed5e6d1b9c53d114b446f7"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-interface-v003/image-73.png",
+      "bytes": 2135874,
+      "sha256": "5426aee8a91cc00d49e89bd2a375f5c1eeb688b15d03bbf4211a45834f5785a1"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-interface-v003/image-74.png",
+      "bytes": 2180394,
+      "sha256": "a3c037cfa0797c5d4a984c24c019de555c6d2e6de3d24f6e5b6f264ee9882ace"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-summons-v001/image-76.png",
+      "bytes": 2538156,
+      "sha256": "30d9235d22940aee100c1f868ecbae3d3bb3df970681a10c39b3e9078fb8319f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-summons-v002/image-77.png",
+      "bytes": 2439523,
+      "sha256": "d2e2fe2907c834c3b1dbb2f9bd3244fafb6378de48855285f9f7476c61029130"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guest-summons-v003/image-78.png",
+      "bytes": 2357682,
+      "sha256": "5acac47e9de99184c97d81e804cb0d02abcea38f54038646a65a5b6d39e4a066"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/guided-departure-v001/image-56.png",
+      "bytes": 2288793,
+      "sha256": "ccdcae770c154487382aad55b7bbad33a83ca6e0ae9c4a25c690a0973b4957d5"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/harper-smile-v001/image-110.png",
+      "bytes": 2452048,
+      "sha256": "960bb1844f79e2eac6e63f84b5d171dc56a94887b1e527b0e7a589179d721515"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/harper-smile-v002/image-111.png",
+      "bytes": 1588521,
+      "sha256": "bcee7017be364a6a2b74c0b7542f0f64a57c16a66d727be601daeeff8acb8baa"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/harper-smile-v003/image-112.png",
+      "bytes": 1961206,
+      "sha256": "61b65e08afbf2a6c8d570f852240b02a0003bab2e004ed82fb6ccc27bf71e78a"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-concealment-invention-v001/image-146.png",
+      "bytes": 3359124,
+      "sha256": "3bf62304c84bd8a08736193663244a1e80b39f8bc2f17a64e2763a565a691640"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-deep-space-v001/image-142.png",
+      "bytes": 2577523,
+      "sha256": "07950196ca792749cc9489198c03a6dbc997b776e0823b649084521c745f9d56"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-departure-v001/image-138.png",
+      "bytes": 1888752,
+      "sha256": "8115071a9c9abfcfea84666974ee785b4fa6357571a70848d80305965d3b997e"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-departure-v002/image-141.png",
+      "bytes": 3051347,
+      "sha256": "d6a5adc0c62c30d3ccc118899ef545924eb00645dff07cc31c7bc5396a8fe83e"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-discovery-v001/image-136.png",
+      "bytes": 2994318,
+      "sha256": "07169c3af05e6d98f37a85b1e563c7e6991a9e496c97e8d4e0495212d1c5051e"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-discovery-v002/image-137.png",
+      "bytes": 1875850,
+      "sha256": "6b4534e41021866b4cba58c9551caa099049bca44ec41e9dfdfc13c54a728dc5"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-discovery-v003/image-139.png",
+      "bytes": 1878786,
+      "sha256": "5ccd664269880b64f69cfce907066d30e9bd1eb24d64d00d32d628ed63e6b3b8"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-hidden-world-v001/image-147.png",
+      "bytes": 2902833,
+      "sha256": "9dab8ae16d69e2cb0838e9edff462879148dcf5421c377ca4a520649483b9d2b"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-material-paper-v001/image-140.png",
+      "bytes": 3176739,
+      "sha256": "dd2f13a3d90983fad8265393de080d627181ff07df12d1404dbed01d2359c375"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-retreat-v001/image-144.png",
+      "bytes": 2921735,
+      "sha256": "70149cf108a7b88ee6cafebbed848e621c379f258dea4a7a5585f0ae6dee4475"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-retreat-v002/image-145.png",
+      "bytes": 2714390,
+      "sha256": "b236e11d607a46867ed46f2605c4691054a7da6ebc8a0277e686b81ae2b63a14"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/history-star-map-v001/image-143.png",
+      "bytes": 2662696,
+      "sha256": "4e1999414d5f2ff644a3521d1ab32f728f474b3d9472ccdaf958757db3075e0e"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/holding-return-v001/image-96.png",
+      "bytes": 2326693,
+      "sha256": "59f31118713e70e5834d2affb0edeb3737ce9dfe4b646c3d29a5283e870b0620"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/host-story-v001/image-135.png",
+      "bytes": 2650903,
+      "sha256": "1984a461af7fad168e241fbf1fc1b249fa8834014c9115253a626f97760203ea"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/interior-light-loss-v001/image-34.png",
+      "bytes": 2136601,
+      "sha256": "517b156fa832a63c0de75804c96ab83faf8b504abb710ac4e592daa05cbe6ca6"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/living-bridge-v001/image-43.png",
+      "bytes": 2659362,
+      "sha256": "a940659c629ce7f288d84169b3c5a573ae0a7c882d8ea5d46960c02eed27c63d"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/living-descent-v001/image-100.png",
+      "bytes": 2536278,
+      "sha256": "b9bcf25cb768b1e7ff6eae940b9bae2e75a19fec7aa077d5a620092b15869be6"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/living-descent-v002/image-101.png",
+      "bytes": 2453626,
+      "sha256": "9247f08cae9309bf892fcb364dcadbb16a160193b1843f6c50b950d15ba4d4db"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/living-descent-v003/image-102.png",
+      "bytes": 2340553,
+      "sha256": "e6ac9169df6dd3279aacfd2326d6ac5715f5a02ad0030c7dc9659f8e55d166a5"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/living-guide-v001/image-38.png",
+      "bytes": 2543336,
+      "sha256": "6b5a69ffbffaa103672641cb0f088198b80564e7d6441c382387ae9ff949bf80"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/living-guide-v002/image-39.png",
+      "bytes": 2751817,
+      "sha256": "a58edb01455d4ea64613acdd2cfa5d87ddf0e7cbe58dfaf50a1fb39cb7521e93"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/living-guide-v003/image-40.png",
+      "bytes": 2543617,
+      "sha256": "be0104bd04688747a0e11a8faeb4a587bc7616b03135756c279ea177a094f1c3"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/living-lift-v001/image-44.png",
+      "bytes": 2427436,
+      "sha256": "6913191d0c6a3c732ff0d0716241e607c9a7944e093daf17e15ee6b01fb525b4"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/living-threshold-v001/image-42.png",
+      "bytes": 2836929,
+      "sha256": "7d37d26890409a673254e2d722a208587143db9e720373b6ba6ab143921be209"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/mechanical-descent-v001/image-103.png",
+      "bytes": 2538135,
+      "sha256": "cfe404dda0bcdb800db8ef091dd080ae782233c4d8b75cdb2a1250806c621103"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/mechanical-descent-v002/image-104.png",
+      "bytes": 2375656,
+      "sha256": "384bd7d78b9d602ba54b27a0925387caf9e81193a36d00c19c7a2edb099d012e"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/mechanical-descent-v003/image-105.png",
+      "bytes": 2323940,
+      "sha256": "7b25ae1c998298a4f5d5af305797b59c4d65597c7c79662666a04c272c5fad80"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/mineral-survey-v001/image-48.png",
+      "bytes": 3240774,
+      "sha256": "6a8fdd3de7b3e52f7990964f6dc0bf4287160fd3fe63dc052af0431e106f9b73"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/mineral-survey-v002/image-49.png",
+      "bytes": 3292019,
+      "sha256": "2faa3e15a57bd438ec32f93dcca4ea1790d3e8cc55054163dec41763953e73c1"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/mineral-survey-v003/image-123.png",
+      "bytes": 3182750,
+      "sha256": "01513189d9bc0b630db3aefd2482a599234eed2bde4ea18ff1581b181d06d19f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/open-hall-approach-v001/image-108.png",
+      "bytes": 2501869,
+      "sha256": "aa48bc825d6e4c28f01866b138949bea522e447b20752dde420f1385fdf275bd"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/open-hall-approach-v002/image-109.png",
+      "bytes": 2157646,
+      "sha256": "46167e98ae2c20c86a3a76e58081d01926aa1364013a2bbf28d247d8b7fcca59"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/pair-council-reaction-v001/image-91.png",
+      "bytes": 2202208,
+      "sha256": "76d5cdf474d5cb8d2aeb56d091dc2009e41ee76172d87dd8dd8e313e8eee96c7"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/performance-reveal-v001/image-113.png",
+      "bytes": 2758610,
+      "sha256": "5db8f8881fac046ae23c817f933cc81c945adadc3ca8b37f386379b96570979b"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/performance-reveal-v002/image-114.png",
+      "bytes": 2690978,
+      "sha256": "f5233766cc38e1a908ec3fc9a49da26bd17105796ab918e9a2d9d840f6cd3f0a"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/performance-reveal-v003/image-115.png",
+      "bytes": 2622709,
+      "sha256": "dac83401161cbc308304f57730f7b113adc241365ffcadec865ad661ad4635a9"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/performance-reveal-v004/image-116.png",
+      "bytes": 2504082,
+      "sha256": "24eca316f45012bd9e9f828bbabf980e83f7061bde30fbdb91a13edffe46ea26"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/performance-reveal-v005/image-117.png",
+      "bytes": 2379402,
+      "sha256": "4951d2756397331f6d8896a96518645afa9f9fc989ec985f28e478117abd47c6"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/performance-reveal-v006/image-118.png",
+      "bytes": 2351742,
+      "sha256": "529cf1ec9ec90a0f9f7dd2bc69fc3bf69d2708e0aa5d28b6dd55ce43d7d44311"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/performance-reveal-v007/image-119.png",
+      "bytes": 2325515,
+      "sha256": "efe3e79e091aca35c8b6eac56748f41da12151e7bb79265e70f9b4b37f408a0a"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/performance-reveal-v008/image-120.png",
+      "bytes": 2872866,
+      "sha256": "178a8a8acd77e7720d5435d242f61ca2cfde36c6dca9b3d8f4731c1288b9ccbc"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/platform-descent-v001/image-106.png",
+      "bytes": 2426952,
+      "sha256": "5b91ed871d72b50cd6ac51cae6ccc27663d3d06b7cb185f94772f83e28b22fa8"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/quiet-escort-v001/image-53.png",
+      "bytes": 2431013,
+      "sha256": "94fa3f0cebd54370e28297eb0b088596f038a6785404cb1aa2ef979324a98b57"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/quiet-laughter-v001/image-127.png",
+      "bytes": 2492790,
+      "sha256": "5c91af8b7a988c62c61739de3f5ecc0f6fe69d3ff24664540fef65ca2581ba34"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/screened-approach-v001/image-107.png",
+      "bytes": 2638669,
+      "sha256": "8e0066bcf9b03086cd75bc82bf96eb92b5be9cf48d01475d2ff917ac2d0bd714"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/sink-on-back-v001/image-128.png",
+      "bytes": 2287024,
+      "sha256": "018581f9c48e466a2dae09078fcd6489b8cdfd2b36ab7d2df1460951e78b03bf"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/sink-on-back-v002/image-129.png",
+      "bytes": 2235557,
+      "sha256": "bfa6b64c4810333e9724d7ce648f79b5e62a5595473a87f09abe1ed7affd5877"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/sink-on-back-v003/image-130.png",
+      "bytes": 2200992,
+      "sha256": "a192a5dc49a4dc5f77b38ee2bef2a1b0f95faa911b397ba60b9d1052bfa07648"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/sink-on-back-v004/image-131.png",
+      "bytes": 2499522,
+      "sha256": "8445b425ebd1b762ca348be985fc5bdbbd23c3358b6a4e4b819b90597b08f5b2"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/sink-on-back-v005/image-132.png",
+      "bytes": 2739098,
+      "sha256": "b9ae059d6d529fc36f5c23cafc548f08d034f0348c54dcd94e4dbd4554b8d1e9"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/society-common-work-v001/image-149.png",
+      "bytes": 3961352,
+      "sha256": "4c2cc084b25426e50cd736056c43f93b5725c3475293de2f8199a6707cc9b230"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/society-common-work-v002/image-157.png",
+      "bytes": 3527418,
+      "sha256": "c6d97996bb70c4a72f548bee6ec9f66405162fab0b89581f49605481c68e8eec"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/society-distinct-roles-v001/image-150.png",
+      "bytes": 4011176,
+      "sha256": "fee589c326370e23c8e5bc908d5ce2d07db35f2b92fb802a2dd169f6fb8bc809"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/society-distinct-roles-v002/image-151.png",
+      "bytes": 3756775,
+      "sha256": "5d69f6ef70a1b6db2afb13d3aa82f3043d5d38aaab991f6c15de35b8104b9dcc"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/society-hidden-pullback-v001/image-154.png",
+      "bytes": 3411419,
+      "sha256": "361a86bc35de732b18a9bbc1ec377e60f6c3b90d64743c3f39cd02c8ea7599ae"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/society-mixed-media-v001/image-148.png",
+      "bytes": 3736802,
+      "sha256": "8e83eced918c14a96f189c38f254a367327399ee7c416463ba3ede51fe878cf9"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/society-moon-establishing-v001/image-158.png",
+      "bytes": 3254239,
+      "sha256": "490f9cc62388912b751b69ec7004fd2b63788f16c7b1a0d1409b8def55ad351c"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/society-quiet-stores-v001/image-159.png",
+      "bytes": 3430134,
+      "sha256": "73be53d7b9e2794d60188decf840af1af046de80c850131aa7ef3d1e41f89469"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/society-quiet-stores-v002/image-160.png",
+      "bytes": 3713148,
+      "sha256": "fdad1067f356c4a8aee2cc141f910c4fe6c6bd9f56c785e0360def8ea4e0ea0c"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/society-shared-network-v001/image-152.png",
+      "bytes": 3735681,
+      "sha256": "211e639245459a53d9eb8c4b56a38e5a4de2f906b8524fff5da38b70c91e1acb"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/society-stores-v001/image-153.png",
+      "bytes": 4057575,
+      "sha256": "86028926e883b29d5533709e8df556791d141e2b8ac3e00aecce05f460dd7143"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/story-listening-intro-v001/image-156.png",
+      "bytes": 2649507,
+      "sha256": "87af9e411f02a27e674bc1a96d5d67a5b78feecdc195413fc1e5f54cc12d28e0"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/story-listening-response-v001/image-155.png",
+      "bytes": 2636776,
+      "sha256": "f6d02982c6f3dbafdd1a74360722fe5953b51bd51ed534c79cd9b137ef2c0e82"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/survey-flyby-v001/image-124.png",
+      "bytes": 3531157,
+      "sha256": "7effef45ca7cea027a404d2a0658af7955404537163ebf9b11c6947fa14dc7eb"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/technology-threshold-v001/image-97.png",
+      "bytes": 2621231,
+      "sha256": "a88677e111c1bf8aa22ecb5221fe71bd6e28822bc30fcaaa3881843c2a87affe"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/technology-threshold-v002/image-98.png",
+      "bytes": 2501857,
+      "sha256": "d15044432bc2289b09e7f7956e17f6292b6003495e3f1ba84b3c8d060c9bf643"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/technology-threshold-v003/image-99.png",
+      "bytes": 2483324,
+      "sha256": "8a870d5434bb4bd88f377f1e38323a2ce451da36e413b372ff09390c27b3bcd3"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/wall-clue-v001/image-36.png",
+      "bytes": 2936018,
+      "sha256": "f316569adc7ebf7a448644985188eed77bcd9fe73102431c07992745980c0976"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/storyboard/wall-clue-v002/image-37.png",
+      "bytes": 2992877,
+      "sha256": "145ef4478248ae45b9a40028cfdf2d21d9f0b91a84def0b400aea3114b7f143f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/timeline.compiled.json",
+      "bytes": 382992,
+      "sha256": "a60a59910c59a28ddb1a537d03f4a742d2f8c07562cccf479dc40d43abf128be"
     },
     {
       "path": "projects/open-up-the-secret-room/generated/transcription/audio.whisper.raw.json",
@@ -184,6 +869,101 @@
       "sha256": "3b2e70e2a663ccae42284af592757f0d052f69c055287dc4ada84e1cf2f609b3"
     },
     {
+      "path": "projects/open-up-the-secret-room/generated/world-concepts-v001/image-18.png",
+      "bytes": 2176215,
+      "sha256": "1fde1a3ff5fdeb91b5afbf93d613826a61a8d3ceea45f8410a498dde9cb70a0a"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/world-concepts-v001/image-19.png",
+      "bytes": 2780321,
+      "sha256": "49183c571a9de0a612772235a174289c908cdb7793f7f3fdb26d3abd92824127"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/world-concepts-v001/image-20.png",
+      "bytes": 2130981,
+      "sha256": "5ad068296b315dc890730cf6d4cff5e9036d7d29f3533faf8ed57e41c61022ed"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/world-concepts-v001/image-21.png",
+      "bytes": 2537567,
+      "sha256": "ebf7cdf5422dc631127a90716f5989d585da36ad0b7de59dd8aa20b912dd1df6"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/world-concepts-v002/image-22.png",
+      "bytes": 2606608,
+      "sha256": "5e94063fef36c63ebef4ee92ac7f543bf0178c75e9e85e58f8448b9e18603a12"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/world-concepts-v002/image-23.png",
+      "bytes": 1883767,
+      "sha256": "a778c23cf12c821dc3c51e432fc7beb8dac623608a46c8dbfb8259aca4cb2da0"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/world-concepts-v002/image-24.png",
+      "bytes": 2613632,
+      "sha256": "011b986804045f396f69a661879c6d859940ad8ae7053f890b6e2c06c1ba7ce4"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/world-concepts-v003/image-25.png",
+      "bytes": 2556533,
+      "sha256": "7b3400812a204cfaf76a81dc8233be96de155b046780e9b19da39cf7f3c0943e"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/world-concepts-v004/image-26.png",
+      "bytes": 2651328,
+      "sha256": "7e0a5d1bcb34189194f07635f9b13c7153b3bdce00f528e0a7da906a84340a1d"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/generated/world-concepts-v005/image-27.png",
+      "bytes": 2834000,
+      "sha256": "9e7689dd10dc192ac5958e0308e0f47848dbc8c37c6022b589d11ffc1e349850"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/production/guest-arrival-v004/harper-03A-face-crop.png",
+      "bytes": 733831,
+      "sha256": "b90483a06ec100fe496681d483c2b8632707042c7d4f87ca6cc645870ac88db8"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/production/harper-reference-review-v001/H02-face.png",
+      "bytes": 628012,
+      "sha256": "6b681974aa49bc81e1b5cf9ebfa1d55fb99b88b388af6afc8930fe8f70f3676d"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/production/harper-reference-review-v001/H06-face.png",
+      "bytes": 695818,
+      "sha256": "23bdbf1cc436e8da9ee6028fcc6d9e19ccd706966e3cf762489aab793e68fe84"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/production/harper-reference-review-v001/H09-face.png",
+      "bytes": 639339,
+      "sha256": "a02c51ca10f036528768d9bbcf7eac7241e889db46493243d6bc2bebdcb7f1f1"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/production/harper-reference-review-v001/H11-face.png",
+      "bytes": 670996,
+      "sha256": "af78e03df5466a4534e710d0d536df24bf2545604da1bb974f55ec7d9648ff69"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/production/harper-reference-review-v001/candidate-overview.jpg",
+      "bytes": 391469,
+      "sha256": "c63879758fc248df52fe97ae022b74b960653c63ac29b47f3a435cd435074c5f"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/production/harper-reference-review-v001/harper-face-comparison.jpg",
+      "bytes": 288833,
+      "sha256": "03659c16b86d2c1cbb87e8cb141e5ca32618872fcdf581ec7fdd308b5e453029"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/production/taffy-angle-reference-v001/taffy-03A-crop.png",
+      "bytes": 907077,
+      "sha256": "66a44c14f031cce0c82c0419e0403a90faafcffd4afaf3fc8232695de41d7de4"
+    },
+    {
+      "path": "projects/open-up-the-secret-room/production/taffy-angle-reference-v001/taffy-news-crop.png",
+      "bytes": 953825,
+      "sha256": "a915d1ec35679667e34cb2ba210c676d86fbb8a4958c45a3ae730526d7c81163"
+    },
+    {
       "path": "projects/together-anyways/generated/character-development/core-threat-refs-v001/HARPER.png",
       "bytes": 2907412,
       "sha256": "e9146a9264c091ce4a8a10a37ba17ddf7ba0c51be3a486397bdf119828bae770"
@@ -204,6 +984,16 @@
       "sha256": "a1c43f371bd7df8797d6e97c45904b96b327479ee6f54fee73a5004f2e5175d5"
     },
     {
+      "path": "projects/together-anyways/generated/storyboard/distraction-starters-v004/ta-010.png",
+      "bytes": 2913300,
+      "sha256": "c1f76da0350eead975abb3d518b71bc76836c28a880536c7dbd3e3bcf43b7a0c"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-002.png",
+      "bytes": 2691829,
+      "sha256": "4d311dfef67cabe52da6156ab555583388bcbae77c801781a95a90d72af92ee9"
+    },
+    {
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-003.png",
       "bytes": 2797838,
       "sha256": "746ab9990ae16bc8317e2a4287e28a7664af256ef9cb948266e73d629ef3e195"
@@ -212,6 +1002,46 @@
       "path": "projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-006.png",
       "bytes": 2794910,
       "sha256": "b752ec564a7acbe6ab379b741ebf222bbd656aa21ec0856ca3441f0d5dbf6901"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-024.png",
+      "bytes": 2658307,
+      "sha256": "8be4ace1f9938a918d08fa8f0c37e097aca22f3cce51a0aa655fbee2a85b546c"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/harper-likeness-v007/ta-004b.png",
+      "bytes": 2761827,
+      "sha256": "81faf420c7b1bb1eb38789d3ff417cd5add65f5cd6a6c5a925a89d1579d9c0a6"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S09-SH01.png",
+      "bytes": 2468729,
+      "sha256": "7323a54bd371bddd26fcd408b8f2f69d5af92ed1bc2e86d3b7e8228e39ded6e1"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S10-SH05.png",
+      "bytes": 2832719,
+      "sha256": "4b09ce1cbfe144a7450d1e6e1c3a1828104dbefc1f189d47bac7455fbd79b019"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S11-SH04.png",
+      "bytes": 2626617,
+      "sha256": "30fa3df802005854b0172cf1639217e5c5cf7057327f91db90147d7394c68471"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S12-SH02.png",
+      "bytes": 2741604,
+      "sha256": "740129a531e82ee04af1d53b0b5a00ee56189850a33bb0b9a40e7e869f071a58"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v036/S13-SH05.png",
+      "bytes": 2948844,
+      "sha256": "e17da85f90e7f8569425fc88b4f2cd6e97706506d468c21e87b140d01075f681"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S12-SH07B.png",
+      "bytes": 2627992,
+      "sha256": "e0bd6751ea801e7e17f116e50bd45f7ab378f9de78f3835da543c32664776f93"
     },
     {
       "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH02.png",
@@ -229,6 +1059,66 @@
       "sha256": "74154c17317f1aa54fd5cdb9eb6f93a6f91af63daa6f58a1b18e97868379e83e"
     },
     {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S08-SH01.png",
+      "bytes": 2454599,
+      "sha256": "0ef3acb0a58fd3951f66f6af014e4944e7fc246674dd242ec34787027d6b4114"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S09-SH02.png",
+      "bytes": 2342883,
+      "sha256": "b54db11a3a738a3d74026cd403a31347278bba38137f4df2ebf9bdc1860192eb"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S09-SH03.png",
+      "bytes": 2812270,
+      "sha256": "f0421dc59b19c1e974bb9ccff41e8f5ea0fd3b1d674ddbd112caf9c0f3ad28a3"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S09-SH04.png",
+      "bytes": 2356382,
+      "sha256": "89b3d6ce417e26847e47a5a544060c620e8793de3afce2ed2218bf9a27f0ae7f"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v039/S07-SH02.png",
+      "bytes": 2598529,
+      "sha256": "1582df73c43ea6344a4db8ee95a02e47e87e7bff07b8e2eb5105465ba633d4d5"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v039/S11-SH03B.png",
+      "bytes": 2647707,
+      "sha256": "38498368794292451679f73c2f362afbbfa1c56c78db6d7833095d74204557c6"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/rest-of-song-starters-v040/S11-SH05.png",
+      "bytes": 2688740,
+      "sha256": "6100a0c8b7ee3511f56bff23696274701c4423221e0c703e4ceb29c94c67333a"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/scene03-eyelines-v015/ta-014.png",
+      "bytes": 2786665,
+      "sha256": "35495e99fcbecac03ad4601c5bf825e1e3d98e5a713c95e7f2bfe6b5a0d5958b"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/scene12-controller-v065/S12-SH04.png",
+      "bytes": 3041297,
+      "sha256": "7603aab4638b6ff4a56aaae4b53fdbb1529ab876b07b47783dc58630a240ac5b"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/story-inserts-v008/ta-017.png",
+      "bytes": 2938179,
+      "sha256": "1baf77518a4e9f00f4b7af18772d03eaacf040da65eeda91152a1d0a61a831fc"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/story-inserts-v008/ta-017b.png",
+      "bytes": 2415317,
+      "sha256": "10dc2ebd5530772c7d299c7cec47b626e17ce973cc7ec49b40b5951f38e39a8b"
+    },
+    {
+      "path": "projects/together-anyways/generated/storyboard/style-news-v010/ta-004.png",
+      "bytes": 3006933,
+      "sha256": "7e2281f93cc4815ca57f6f57c922bc2e007454ba4a27471d8090957a19990e48"
+    },
+    {
       "path": "projects/together-anyways/generated/world-development/port-ship-v031/scrapper.png",
       "bytes": 1922371,
       "sha256": "bc8015ecbbb8eacb510252a6ab4f3244932ab62a42b965113ec2d8f8b2c85a74"
@@ -244,5 +1134,5 @@
       "sha256": "5643b8e0f2964a8389e0032718cbb0dc4134fee405052d9e356c08133f1f958b"
     }
   ],
-  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/secret-room-20261125-dark-cavern-v001/secret-room-20261125-dark-cavern-v001.zip"
+  "url": "https://github.com/ArneGleason/music-visualization-toolkit/releases/download/secret-room-20261127-stills-v001/secret-room-20261127-stills-v001.zip"
 }

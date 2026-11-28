@@ -1,0 +1,14 @@
+{
+  "image": "Image 36",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/wall-clue-v001/image-36.png",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-a33d2bd2-d7f9-4728-9ad5-b8d9eeb9c76a.png",
+  "prompt": "production/wall-clue-v001/image-36.prompt.txt",
+  "references": [
+    "generated/storyboard/interior-light-loss-v001/image-34.png",
+    "generated/world-concepts-v002/image-22.png"
+  ],
+  "review": "Strong readable flashlight relief and character profiles. Relief arm counts partially occluded/stylized; not verified exact four arms per figure. Pending likeness and illumination review.",
+  "status": "awaiting user feedback",
+  "animaticChanged": false
+}

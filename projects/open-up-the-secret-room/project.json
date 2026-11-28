@@ -23,11 +23,17 @@
     "height": 1080
   },
   "production": {
-    "stage": "approved-dark-cavern-stills-and-opening-animatic",
+    "stage": "society-storage-patrol-review",
     "predecessor": "../together-anyways/project.json",
     "continuityShot": "S14-SH04",
     "shotlist": "shots/shotlist.json",
     "lyricTimingReview": "lyrics/TIMING-REVIEW.md",
-    "currentAnimatic": "generated/approved/opening-v004/Secret-Room-opening-v004.mp4"
+    "currentAnimatic": "generated/wip/previews/story-stills/v009/Secret-Room-story-stills-v009.mp4",
+    "storySceneSource": "production/story-timing-v002/scenes.json",
+    "storyTimingReview": "generated/wip/previews/story-timing/v002/Secret-Room-story-timing-v002.mp4",
+    "currentPacingSource": "shots/shotlist.json",
+    "currentPacingReview": "production/story-stills-v009/timing-review.md",
+    "currentReviewPlayer": "http://127.0.0.1:8777",
+    "currentReviewNotes": "production/story-stills-v009/timeline-review-notes.json"
   }
 }

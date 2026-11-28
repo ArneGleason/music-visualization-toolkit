@@ -4,7 +4,7 @@
 
 | Project | Checkpoint |
 | --- | --- |
-| [Open Up the Secret Room](projects/open-up-the-secret-room/CONTINUE-HERE.md) | Approved dark-cavern stills 16 and 17; 17.375-second opening animatic. Restore media using the project release manifest. |
+| [Open Up the Secret Room](projects/open-up-the-secret-room/CONTINUE-HERE.md) | Checkpoint2026-11-27: all stills through160, scripts and notes backed up; v009 timing through2:01.792. Restore media from the project release manifest; rendered previews are reproducible. |
 
 See [project workflow](docs/PROJECT_WORKFLOW.md) for handoff and retention.
 

@@ -1,0 +1,20 @@
+{
+  "label": "Image 99",
+  "tool": "built-in image_gen",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-5f319dcf-023f-4eb7-9aa9-0625f5fa9682.png",
+  "output": "generated/storyboard/technology-threshold-v003/image-99.png",
+  "references": [
+    "Image98"
+  ],
+  "prompt": "production/technology-threshold-v003/image-99.prompt.txt",
+  "status": "approved by user; keep image unchanged",
+  "review": "Conventional rails replaced by low stone curbs, exposing cavern drop. Architectural fixtures replaced with branching bioluminescent tissue continuous with portal membrane; visitor flashlight retained.",
+  "characterSanityCheck": {
+    "references": [
+      "Image64",
+      "Image66",
+      "Image75"
+    ],
+    "finding": "No obvious silhouette, clothing or hair drift at this shot scale. Harper copper curls and scarf/vest/satchel consistent; Taffy remains stocky, shorter, with tight curls and ropepack. Facial identity partly obscured by side/rear angle; use angle sheets for future face-visible shots. Height reads plausibly in perspective; not a calibrated scale measurement."
+  }
+}

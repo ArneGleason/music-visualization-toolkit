@@ -1,5 +1,12 @@
 # Three governing pillars
 
+Current story revision: Stability and Expression receive the pair; Understanding
+is missing and the small raised chair stays empty. All three entrance statues
+remain. A repeated orbital model shows the requested destination at the council
+and the helper programming that same route into the pod. See [story notes](STORY-NOTES.md)
+and [text timing v002](STORY-TIMELINE.md). Earlier optional-leader notes below
+are superseded; the reason for Understanding's absence remains open.
+
 Current decision: Images 16 and 17 and the dark-cavern direction are approved.
 Older sections below are development history.
 

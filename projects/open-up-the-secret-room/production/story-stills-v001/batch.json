@@ -1,0 +1,375 @@
+{
+  "id": "story-stills-v001",
+  "format": "musical-anchors-v1",
+  "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+  "endAnchor": "133.2.63",
+  "shots": [
+    {
+      "id": "S01-SH01",
+      "startAnchor": "4.3"
+    },
+    {
+      "id": "S01-SH02",
+      "startAnchor": "7.1.41"
+    },
+    {
+      "id": "S01-SH03",
+      "startAnchor": "9.2.38"
+    },
+    {
+      "id": "S01-SH05",
+      "startAnchor": "11.4.942"
+    },
+    {
+      "id": "S01-SH04",
+      "startAnchor": "13.3.12"
+    },
+    {
+      "id": "S01-SH06",
+      "startAnchor": "15.1.34"
+    },
+    {
+      "id": "S01-SH07",
+      "startAnchor": "16.4.946"
+    },
+    {
+      "id": "S01-SH08",
+      "startAnchor": "18.1.2"
+    },
+    {
+      "id": "S01-SH10",
+      "startAnchor": "19.1.21"
+    },
+    {
+      "id": "S02-SH01",
+      "startAnchor": "20.4.929"
+    },
+    {
+      "id": "S02-SH02",
+      "startAnchor": "25.1.43"
+    },
+    {
+      "id": "S03-SH01",
+      "startAnchor": "29.1.43",
+      "starterImage": "generated/storyboard/energy-bridge-v001/image-45.png"
+    },
+    {
+      "id": "S03-SH02",
+      "sceneId": "S03",
+      "startAnchor": "31.1.0",
+      "title": "First step across",
+      "description": "Taffy tests the energy bridge; Harper follows. The span clears a complete chasm.",
+      "reviewDirection": "Taffy tests the energy bridge; Harper follows. The span clears a complete chasm.",
+      "starterImage": "generated/storyboard/energy-first-step-v001/image-46.png",
+      "imageLabel": "Image 46",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R04-01",
+      "sceneId": "R04",
+      "startAnchor": "33.1.0",
+      "title": "A society at play",
+      "description": "A communal dramatic performance: inhabitants are audience and participants.",
+      "reviewDirection": "A communal dramatic performance: inhabitants are audience and participants.",
+      "starterImage": "generated/storyboard/communal-performance-v001/image-47.png",
+      "imageLabel": "Image 47",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R04-02",
+      "sceneId": "R04",
+      "startAnchor": "37.1.0",
+      "title": "Prospectors outside",
+      "description": "A human mineral-survey craft scans the surface. The civilization stays concealed.",
+      "reviewDirection": "A human mineral-survey craft scans the surface. The civilization stays concealed.",
+      "starterImage": "generated/storyboard/mineral-survey-v002/image-49.png",
+      "imageLabel": "Image 49",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R04-03",
+      "sceneId": "R04",
+      "startAnchor": "39.1.0",
+      "title": "Taffy draws attention",
+      "description": "His curious touch activates a living light. The performance notices the strangers.",
+      "reviewDirection": "His curious touch activates a living light. The performance notices the strangers.",
+      "starterImage": "generated/storyboard/curiosity-reveal-v003/image-52.png",
+      "imageLabel": "Image 52",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R04-04",
+      "sceneId": "R04",
+      "startAnchor": "42.1.0",
+      "title": "Discovered at the edge",
+      "description": "A representative approaches the pair in the darker side passage.",
+      "reviewDirection": "A representative approaches the pair in the darker side passage.",
+      "starterImage": "generated/storyboard/first-contact-v003/image-55.png",
+      "imageLabel": "Image 55",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R04-05",
+      "sceneId": "R04",
+      "startAnchor": "44.1.0",
+      "title": "Explain to the room",
+      "description": "Harper and Taffy try to explain themselves to curious and suspicious inhabitants.",
+      "reviewDirection": "Harper and Taffy try to explain themselves to curious and suspicious inhabitants.",
+      "starterImage": "generated/storyboard/community-explanation-v003/image-59.png",
+      "imageLabel": "Image 59",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R05-01",
+      "sceneId": "R05",
+      "startAnchor": "48.1.0",
+      "title": "Comfortable hospitality",
+      "description": "They are shown a comfortable waiting chamber. Taffy finds the food.",
+      "reviewDirection": "They are shown a comfortable waiting chamber. Taffy finds the food.",
+      "starterImage": "generated/storyboard/guest-arrival-v006/image-68.png",
+      "imageLabel": "Image 68",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R05-02",
+      "sceneId": "R05",
+      "startAnchor": "51.1.0",
+      "title": "A boundary responds",
+      "description": "Harper approaches: the iris closes. When she steps back, it opens again.",
+      "reviewDirection": "Harper approaches: the iris closes. When she steps back, it opens again.",
+      "starterImage": "generated/storyboard/guest-boundary-v002/image-70.png",
+      "imageLabel": "Image 70",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R05-03",
+      "sceneId": "R05",
+      "startAnchor": "53.1.0",
+      "title": "Waiting, then trying",
+      "description": "Food gone; they wait on the floor. Harper tests a control and receives a small zap.",
+      "reviewDirection": "Food gone; they wait on the floor. Harper tests a control and receives a small zap.",
+      "starterImage": "generated/storyboard/guest-interface-v003/image-74.png",
+      "imageLabel": "Image 74",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R05-04",
+      "sceneId": "R05",
+      "startAnchor": "55.1.0",
+      "title": "Summoned",
+      "description": "The host returns with a burly escort and a small curious elder.",
+      "reviewDirection": "The host returns with a burly escort and a small curious elder.",
+      "starterImage": "generated/storyboard/guest-summons-v003/image-78.png",
+      "imageLabel": "Image 78",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R06-01",
+      "sceneId": "R06",
+      "startAnchor": "57.1.0",
+      "title": "Three representatives",
+      "description": "All three sit around a shared display. Seats slide and swivel on the circular rail.",
+      "reviewDirection": "All three sit around a shared display. Seats slide and swivel on the circular rail.",
+      "starterImage": "generated/storyboard/council-arrival-v005/image-83.png",
+      "imageLabel": "Image 83",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R06-02",
+      "sceneId": "R06",
+      "startAnchor": "60.1.0",
+      "title": "The destination",
+      "description": "Harper gestures between Taffy and the blue moon. He says his sister found a good job there.",
+      "reviewDirection": "Harper gestures between Taffy and the blue moon. He says his sister found a good job there.",
+      "starterImage": "generated/storyboard/council-explanation-v003/image-86.png",
+      "imageLabel": "Image 86",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R06-03",
+      "sceneId": "R06",
+      "startAnchor": "64.1.0",
+      "title": "Stability makes his case",
+      "description": "A close exchange: outsiders could expose their civilization. Expression weighs his concern.",
+      "reviewDirection": "A close exchange: outsiders could expose their civilization. Expression weighs his concern.",
+      "starterImage": "generated/storyboard/council-deliberation-v003/image-89.png",
+      "imageLabel": "Image 89",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R06-04",
+      "sceneId": "R06",
+      "startAnchor": "66.1.0",
+      "title": "Expression explains",
+      "description": "Sympathetic but firm, she turns to the visitors and explains the restriction.",
+      "reviewDirection": "Sympathetic but firm, she turns to the visitors and explains the restriction.",
+      "starterImage": "generated/storyboard/expression-response-v001/image-90.png",
+      "imageLabel": "Image 90",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R06-05",
+      "sceneId": "R06",
+      "startAnchor": "68.1.0",
+      "title": "Hope becomes uncertainty",
+      "description": "Reverse: Harper and Taffy listen. They do not yet know whether they may leave.",
+      "reviewDirection": "Reverse: Harper and Taffy listen. They do not yet know whether they may leave.",
+      "starterImage": "generated/storyboard/pair-council-reaction-v001/image-91.png",
+      "imageLabel": "Image 91",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R06-06",
+      "sceneId": "R06",
+      "startAnchor": "70.1.0",
+      "title": "An apparently open exit",
+      "description": "Harper starts toward the passage. The escort is still beside it.",
+      "reviewDirection": "Harper starts toward the passage. The escort is still beside it.",
+      "starterImage": "generated/storyboard/escort-boundary-v002/image-93.png",
+      "imageLabel": "Image 93",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R06-07",
+      "sceneId": "R06",
+      "startAnchor": "72.1.0",
+      "title": "They are not free to go",
+      "description": "The escort steps across. Harper stops and looks back toward Expression.",
+      "reviewDirection": "The escort steps across. Harper stops and looks back toward Expression.",
+      "starterImage": "generated/storyboard/escort-block-v001/image-94.png",
+      "imageLabel": "Image 94",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R06-08",
+      "sceneId": "R06",
+      "startAnchor": "74.1.0",
+      "title": "Someone notices",
+      "description": "The curious elder watches Harper. Curiosity shades into concern; helper identity remains open.",
+      "reviewDirection": "The curious elder watches Harper. Curiosity shades into concern; helper identity remains open.",
+      "starterImage": "generated/storyboard/elder-reaction-v001/image-95.png",
+      "imageLabel": "Image 95",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "R07-01",
+      "sceneId": "R07",
+      "startAnchor": "76.1.0",
+      "title": "Back to the holding chamber",
+      "description": "The escort follows them through the second entrance. Harper studies the nearby control.",
+      "reviewDirection": "The escort follows them through the second entrance. Harper studies the nearby control.",
+      "starterImage": "generated/storyboard/holding-return-v001/image-96.png",
+      "imageLabel": "Image 96",
+      "status": "provisional_animatic_still",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "F08-01",
+      "sceneId": "F08",
+      "startAnchor": "79.1.0",
+      "title": "A recognizable opportunity — unresolved",
+      "description": "STORY SPACE ONLY. How Harper learns which control affects concealment is not solved. An earlier clue may be needed.",
+      "reviewDirection": "STORY SPACE ONLY. How Harper learns which control affects concealment is not solved. An earlier clue may be needed.",
+      "storyCard": true,
+      "status": "future_story_placeholder"
+    },
+    {
+      "id": "F08-02",
+      "sceneId": "F08",
+      "startAnchor": "85.1.0",
+      "title": "An escape that risks discovery",
+      "description": "They recognize a chance to expose the entrance and be found, but doing so would expose the civilization to prospectors.",
+      "reviewDirection": "They recognize a chance to expose the entrance and be found, but doing so would expose the civilization to prospectors.",
+      "storyCard": true,
+      "status": "future_story_placeholder"
+    },
+    {
+      "id": "F09-01",
+      "sceneId": "F09",
+      "startAnchor": "89.1.0",
+      "title": "They choose to protect the city",
+      "description": "Harper hesitates, then steps away. Taffy supports the choice. They remain trapped; the city stays hidden.",
+      "reviewDirection": "Harper hesitates, then steps away. Taffy supports the choice. They remain trapped; the city stays hidden.",
+      "storyCard": true,
+      "status": "future_story_placeholder"
+    },
+    {
+      "id": "F09-02",
+      "sceneId": "F09",
+      "startAnchor": "96.1.0",
+      "title": "An unseen witness decides",
+      "description": "Someone sees their deliberate refusal to betray the city. The pair do not know they were observed.",
+      "reviewDirection": "Someone sees their deliberate refusal to betray the city. The pair do not know they were observed.",
+      "storyCard": true,
+      "status": "future_story_placeholder"
+    },
+    {
+      "id": "F10-01",
+      "sceneId": "F10",
+      "startAnchor": "101.1.0",
+      "title": "A quiet release",
+      "description": "The helper frees them secretly and guides them toward the launch chamber. Authorities have not changed their decision.",
+      "reviewDirection": "The helper frees them secretly and guides them toward the launch chamber. Authorities have not changed their decision.",
+      "storyCard": true,
+      "status": "future_story_placeholder"
+    },
+    {
+      "id": "F10-02",
+      "sceneId": "F10",
+      "startAnchor": "108.1.0",
+      "title": "The requested course",
+      "description": "The same violet planet and blue destination moon appear. The helper programs the pod; Harper and Taffy recognize the course.",
+      "reviewDirection": "The same violet planet and blue destination moon appear. The helper programs the pod; Harper and Taffy recognize the course.",
+      "storyCard": true,
+      "status": "future_story_placeholder"
+    },
+    {
+      "id": "F11-01",
+      "sceneId": "F11",
+      "startAnchor": "114.1.0",
+      "title": "Launch through the hidden world",
+      "description": "They enter the compact three-seat pod. Launch carries them up a concealed tube and off-world.",
+      "reviewDirection": "They enter the compact three-seat pod. Launch carries them up a concealed tube and off-world.",
+      "storyCard": true,
+      "status": "future_story_placeholder"
+    },
+    {
+      "id": "F11-02",
+      "sceneId": "F11",
+      "startAnchor": "121.1.0",
+      "title": "Someone stays behind",
+      "description": "Departure leaves a trace. The helper faces possible consequences while the pair escape.",
+      "reviewDirection": "Departure leaves a trace. The helper faces possible consequences while the pair escape.",
+      "storyCard": true,
+      "status": "future_story_placeholder"
+    },
+    {
+      "id": "F12-01",
+      "sceneId": "F12",
+      "startAnchor": "127.1.0",
+      "title": "Orbit and a kept promise",
+      "description": "The pod heads toward the blue moon. They have left this world; arrival and reunion remain ahead.",
+      "reviewDirection": "The pod heads toward the blue moon. They have left this world; arrival and reunion remain ahead.",
+      "storyCard": true,
+      "status": "future_story_placeholder"
+    }
+  ]
+}

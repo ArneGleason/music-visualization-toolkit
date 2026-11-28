@@ -1,0 +1,13 @@
+{
+  "label": "Image 50",
+  "tool": "built-in image_gen",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-3396ff6d-5f7b-4774-b63f-d1e37016c439.png",
+  "output": "generated/storyboard/curiosity-reveal-v001/image-50.png",
+  "prompt": "image-50.prompt.txt",
+  "references": [
+    "generated/storyboard/communal-performance-v001/image-47.png",
+    "generated/storyboard/dark-cavern-v001/image-17.png",
+    "../together-anyways/generated/storyboard/scene12-controller-v065/S12-SH04.png"
+  ],
+  "status": "awaiting review"
+}

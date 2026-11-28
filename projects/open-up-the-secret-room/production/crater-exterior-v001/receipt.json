@@ -1,0 +1,24 @@
+{
+  "image": "Image 28",
+  "date": "2026-11-25",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/crater-exterior-v001/image-28.png",
+  "generatedSource": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-20aa9a75-4773-4980-a313-5f786dc5290d.png",
+  "prompt": "production/crater-exterior-v001/image-28.prompt.txt",
+  "references": [
+    "../together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH03.png",
+    "generated/references/exterior-leadup-v001/S14-SH01.jpg"
+  ],
+  "review": {
+    "naturalEntrance": true,
+    "daylight": true,
+    "miningDistant": true,
+    "recognizableShipPalette": true,
+    "limitations": [
+      "Rear twin exhaust details are newly inferred, not verified ship canon.",
+      "Crater setting is suggested by sweeping natural cliff; full crater rim is out of frame."
+    ],
+    "status": "pending user review"
+  },
+  "animaticChanged": false
+}

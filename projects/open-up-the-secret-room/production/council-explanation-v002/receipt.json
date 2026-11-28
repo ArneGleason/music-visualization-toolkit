@@ -1,0 +1,14 @@
+{
+  "label": "Image 85",
+  "tool": "built-in image_gen",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-41b25ac4-1b4c-4f38-b67a-cd69a3a36b22.png",
+  "output": "generated/storyboard/council-explanation-v002/image-85.png",
+  "references": [
+    "Image83",
+    "Image64",
+    "Image66"
+  ],
+  "prompt": "production/council-explanation-v002/image-85.prompt.txt",
+  "status": "pending review; generated errors",
+  "review": "Rear camera and elevated alien moon-system improved; incorrectly duplicates right senator (four seated total), underrepresents arms, and pointing finger aligns to giant rather than blue moon. Marker rendered head icon rather than flat silhouette. Needs correction."
+}

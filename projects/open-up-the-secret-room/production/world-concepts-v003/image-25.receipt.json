@@ -1,0 +1,12 @@
+{
+  "label": "Image 25",
+  "tool": "built-in image_gen",
+  "source_output": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-5b678a85-1ea6-4ee1-b822-f8c101a330c6.png",
+  "output": "generated/world-concepts-v003/image-25.png",
+  "input_images": [
+    "generated/world-concepts-v002/image-24.png"
+  ],
+  "prompt": "production/world-concepts-v003/image-25.prompt.txt",
+  "status": "candidate pending review",
+  "attempts": 1
+}

@@ -1,5 +1,5 @@
 {
-  "nextImageNumber": 18,
+  "nextImageNumber": 161,
   "images": [
     {
       "label": "Image 01",
@@ -105,6 +105,864 @@
       "title": "Dark cavern reverse — bewildered discovery",
       "path": "generated/storyboard/dark-cavern-v001/image-17.png",
       "status": "approved artwork; current animatic v004"
+    },
+    {
+      "label": "Image 18",
+      "title": "Living infrastructure species — first concept",
+      "path": "generated/world-concepts-v001/image-18.png",
+      "status": "superseded: living species is connected architecture, not ambulatory individuals"
+    },
+    {
+      "label": "Image 19",
+      "title": "Co-invention in the shared workshop",
+      "path": "generated/world-concepts-v001/image-19.png",
+      "status": "superseded: living species is connected architecture, not ambulatory individuals"
+    },
+    {
+      "label": "Image 20",
+      "title": "Orbital destination model",
+      "path": "generated/world-concepts-v001/image-20.png",
+      "status": "superseded: use complete spheres and simpler field display; see Image 23"
+    },
+    {
+      "label": "Image 21",
+      "title": "Two-seat escape pod and destination model",
+      "path": "generated/world-concepts-v001/image-21.png",
+      "status": "superseded boarding/styling: conceal exterior in launch tube; see Image 24"
+    },
+    {
+      "label": "Image 22",
+      "title": "Connected living architecture and geometric ant construction",
+      "path": "generated/world-concepts-v002/image-22.png",
+      "status": "liked world-design direction"
+    },
+    {
+      "label": "Image 23",
+      "title": "Suspended spherical orbital display",
+      "path": "generated/world-concepts-v002/image-23.png",
+      "status": "liked world-design direction"
+    },
+    {
+      "label": "Image 24",
+      "title": "Ant-adapted cabin through launch-tube access",
+      "path": "generated/world-concepts-v002/image-24.png",
+      "status": "liked ant-designed cabin; two-place layout superseded by Image 25"
+    },
+    {
+      "label": "Image 25",
+      "title": "Three-place ant cabin with modest seat perches",
+      "path": "generated/world-concepts-v003/image-25.png",
+      "status": "three-place perch reference; row layout superseded by Image 26"
+    },
+    {
+      "label": "Image 26",
+      "title": "Spherical pod with three inward-facing stations",
+      "path": "generated/world-concepts-v004/image-26.png",
+      "status": "superseded: too spacious and stark; see Image 27"
+    },
+    {
+      "label": "Image 27",
+      "title": "Compact spherical pod with integrated living systems",
+      "path": "generated/world-concepts-v005/image-27.png",
+      "status": "selected pod interior concept"
+    },
+    {
+      "label": "Image 28",
+      "title": "Daylight natural crater entrance — exterior",
+      "path": "generated/storyboard/crater-exterior-v001/image-28.png",
+      "status": "concept candidate, pending review; ship rear details need continuity check"
+    },
+    {
+      "label": "Image 29",
+      "title": "Daylight descent — skid trail into vast cavern",
+      "path": "generated/storyboard/crater-exterior-v002/image-29.png",
+      "status": "liked depth direction; refined by Image30"
+    },
+    {
+      "label": "Image 30",
+      "title": "Concealment infrastructure and distant gateway",
+      "path": "generated/storyboard/crater-exterior-v003/image-30.png",
+      "status": "candidate pending review"
+    },
+    {
+      "label": "Image 31",
+      "title": "Exterior with monumental original guardian entrance",
+      "path": "generated/storyboard/crater-exterior-v004/image-31.png",
+      "status": "approved exterior direction; camouflage-off reference"
+    },
+    {
+      "label": "Image 32",
+      "title": "Exterior — camouflage fully engaged",
+      "path": "generated/storyboard/crater-exterior-v005/image-32.png",
+      "status": "approved camouflage appearance"
+    },
+    {
+      "label": "Image 33",
+      "title": "Wide camouflaged crater wall and search staging terrain",
+      "path": "generated/storyboard/crater-exterior-v006/image-33.png",
+      "status": "approved wide exterior; opening v005"
+    },
+    {
+      "label": "Image 34",
+      "title": "Harper and Taffy after exterior light loss",
+      "path": "generated/storyboard/interior-light-loss-v001/image-34.png",
+      "status": "approved interior light-loss direction"
+    },
+    {
+      "label": "Image 35",
+      "title": "Fluid optical iris — partial concealment",
+      "path": "generated/storyboard/concealment-iris-v001/image-35.png",
+      "status": "accepted partial concealment direction"
+    },
+    {
+      "label": "Image 36",
+      "title": "Flashlight reveals co-invention wall relief",
+      "path": "generated/storyboard/wall-clue-v001/image-36.png",
+      "status": "revised into narrative relief in Image37"
+    },
+    {
+      "label": "Image 37",
+      "title": "Shared-history relief with living illumination",
+      "path": "generated/storyboard/wall-clue-v002/image-37.png",
+      "status": "approved wall-clue reference"
+    },
+    {
+      "label": "Image 38",
+      "title": "The living infrastructure reveals a route",
+      "path": "generated/storyboard/living-guide-v001/image-38.png",
+      "status": "architecture revised: repetitive endless paths; see Image39"
+    },
+    {
+      "label": "Image 39",
+      "title": "Living guidance through purposeful enclosed spaces",
+      "path": "generated/storyboard/living-guide-v002/image-39.png",
+      "status": "layout liked; luggage-like cases replaced in Image40"
+    },
+    {
+      "label": "Image 40",
+      "title": "Living guide with alien service components",
+      "path": "generated/storyboard/living-guide-v003/image-40.png",
+      "status": "approved living-guide reference"
+    },
+    {
+      "label": "Image 41",
+      "title": "Broken crossing and illuminated maintenance ledge",
+      "path": "generated/storyboard/broken-crossing-v001/image-41.png",
+      "status": "superseded: user wants maintained living thresholds, not damage"
+    },
+    {
+      "label": "Image 42",
+      "title": "Maintained living threshold beginning to open",
+      "path": "generated/storyboard/living-threshold-v001/image-42.png",
+      "status": "candidate awaiting feedback"
+    },
+    {
+      "label": "Image 43",
+      "title": "Living bridge unfolding across a maintained gap",
+      "path": "generated/storyboard/living-bridge-v001/image-43.png",
+      "status": "superseded crossing design; Image45 selected"
+    },
+    {
+      "label": "Image 44",
+      "title": "Living floor rises across a complete chasm",
+      "path": "generated/storyboard/living-lift-v001/image-44.png",
+      "status": "superseded crossing design; Image45 selected"
+    },
+    {
+      "label": "Image 45",
+      "title": "Symbiont-generated energy crossing",
+      "path": "generated/storyboard/energy-bridge-v001/image-45.png",
+      "status": "approved selected energy-bridge reference"
+    },
+    {
+      "label": "Image 46",
+      "title": "Harper tests the energy bridge",
+      "path": "generated/storyboard/energy-first-step-v001/image-46.png",
+      "status": "awaiting user feedback"
+    },
+    {
+      "label": "Image 47",
+      "title": "First society reveal — participatory dramatic storytelling",
+      "path": "generated/storyboard/communal-performance-v001/image-47.png",
+      "status": "awaiting user feedback"
+    },
+    {
+      "label": "Image 48",
+      "title": "Human-colony mineral survey over concealed crater",
+      "path": "generated/storyboard/mineral-survey-v001/image-48.png",
+      "status": "awaiting user feedback"
+    },
+    {
+      "label": "Image 49",
+      "title": "Mineral survey — dimensional illustrated style revision of Image 48",
+      "path": "generated/storyboard/mineral-survey-v002/image-49.png",
+      "status": "approved style improvement"
+    },
+    {
+      "label": "Image 50",
+      "title": "Taffy accidentally joins the performance",
+      "path": "generated/storyboard/curiosity-reveal-v001/image-50.png",
+      "status": "composition approved; antenna and eye revision requested"
+    },
+    {
+      "label": "Image 51",
+      "title": "Taffy discovery — cleaned antennae and bronze/amber ant eyes",
+      "path": "generated/storyboard/curiosity-reveal-v002/image-51.png",
+      "status": "eyes approved; antenna length variety accepted; performer arm and foot correction requested"
+    },
+    {
+      "label": "Image 52",
+      "title": "Performance discovery — four arms and bare clawed feet",
+      "path": "generated/storyboard/curiosity-reveal-v003/image-52.png",
+      "status": "approved starter-frame quality benchmark; candidate usable starter"
+    },
+    {
+      "label": "Image 53",
+      "title": "An invitation with the exit watched — reverse view",
+      "path": "generated/storyboard/quiet-escort-v001/image-53.png",
+      "status": "superseded: Taffy too slim; premature surrounding and inconsistent rear sightlines"
+    },
+    {
+      "label": "Image 54",
+      "title": "First contact — stockier Taffy and unoccupied arrival route",
+      "path": "generated/storyboard/first-contact-v002/image-54.png",
+      "status": "appearance and starting pose approved; darker peripheral lighting requested"
+    },
+    {
+      "label": "Image 55",
+      "title": "First contact — darker peripheral lighting",
+      "path": "generated/storyboard/first-contact-v003/image-55.png",
+      "status": "approved selected first-contact lighting"
+    },
+    {
+      "label": "Image 56",
+      "title": "Guided departure — a courteous restriction",
+      "path": "generated/storyboard/guided-departure-v001/image-56.png",
+      "status": "set aside as possible later escort; arm anatomy correction unresolved"
+    },
+    {
+      "label": "Image 57",
+      "title": "Explaining their presence to the paused performance gathering",
+      "path": "generated/storyboard/community-explanation-v001/image-57.png",
+      "status": "setup accepted; style/eyes/beaks and younger-looking Harper rejected"
+    },
+    {
+      "label": "Image 58",
+      "title": "Community explanation — beaked faces and graphic-novel refinement",
+      "path": "generated/storyboard/community-explanation-v002/image-58.png",
+      "status": "style improvement accepted; more clearly visible four-arm anatomy requested"
+    },
+    {
+      "label": "Image 59",
+      "title": "Community explanation — clearly visible four-arm population",
+      "path": "generated/storyboard/community-explanation-v003/image-59.png",
+      "status": "accepted for story pass; final anatomy polish deferred"
+    },
+    {
+      "label": "Image 60",
+      "title": "Arrival in a comfortable guest chamber",
+      "path": "generated/storyboard/guest-arrival-v001/image-60.png",
+      "status": "setup accepted; Harper likeness, host hands/build and Earth-like decor revision requested"
+    },
+    {
+      "label": "Image 61",
+      "title": "Guest chamber — alien furnishings and lighter articulated host",
+      "path": "generated/storyboard/guest-arrival-v002/image-61.png",
+      "status": "host, furniture and rug approved; Harper face correction requested"
+    },
+    {
+      "label": "Image 62",
+      "title": "Guest arrival — Harper likeness correction from 03A",
+      "path": "generated/storyboard/guest-arrival-v003/image-62.png",
+      "status": "Harper likeness still not accepted; see Image 63"
+    },
+    {
+      "label": "Image 63",
+      "title": "Guest arrival — Harper face from tight 03A reference, revised head angle",
+      "path": "generated/storyboard/guest-arrival-v004/image-63.png",
+      "status": "awaiting user review"
+    },
+    {
+      "label": "Image 64",
+      "title": "Harper nine-angle reference review sheet R01–R09",
+      "path": "generated/character-development/harper-angle-reference-v001/image-64.png",
+      "status": "user-approved Harper angle reference sheet"
+    },
+    {
+      "label": "Image 65",
+      "title": "Taffy nine-angle reference sheet T01–T09",
+      "path": "generated/character-development/taffy-angle-reference-v001/image-65.png",
+      "status": "superseded by approved slightly fuller Image66"
+    },
+    {
+      "label": "Image 66",
+      "title": "Taffy nine-angle reference — slightly fuller build",
+      "path": "generated/character-development/taffy-angle-reference-v002/image-66.png",
+      "status": "user-approved reference sheet"
+    },
+    {
+      "label": "Image 67",
+      "title": "Guest arrival — Taffy updated from approved angle sheet",
+      "path": "generated/storyboard/guest-arrival-v005/image-67.png",
+      "status": "Taffy update accepted; furniture revision requested"
+    },
+    {
+      "label": "Image 68",
+      "title": "Guest arrival — broad free-form resting alcove",
+      "path": "generated/storyboard/guest-arrival-v006/image-68.png",
+      "status": "user-approved selected guest-chamber arrival still"
+    },
+    {
+      "label": "Image 69",
+      "title": "Guest chamber — the boundary refuses to open",
+      "path": "generated/storyboard/guest-boundary-v001/image-69.png",
+      "status": "superseded: perspective/reach problem; action changed to iris closing on approach"
+    },
+    {
+      "label": "Image 70",
+      "title": "Guest boundary — iris closes as Harper approaches",
+      "path": "generated/storyboard/guest-boundary-v002/image-70.png",
+      "status": "accepted improved perspective and approach-triggered iris closure"
+    },
+    {
+      "label": "Image 71",
+      "title": "After the wait — wall interface rebuffs Harper",
+      "path": "generated/storyboard/guest-interface-v001/image-71.png",
+      "status": "Harper pose accepted; Taffy scale/table/rug staging superseded"
+    },
+    {
+      "label": "Image 72",
+      "title": "Interface attempt — bare floor and corrected Taffy scale",
+      "path": "generated/storyboard/guest-interface-v002/image-72.png",
+      "status": "awaiting user review"
+    },
+    {
+      "label": "Image 73",
+      "title": "Interface attempt — Taffy depth adjustment",
+      "path": "generated/storyboard/guest-interface-v003/image-73.png",
+      "status": "superseded: generator shrank Taffy excessively"
+    },
+    {
+      "label": "Image 74",
+      "title": "Interface attempt — Taffy depth adjustment",
+      "path": "generated/storyboard/guest-interface-v003/image-74.png",
+      "status": "user-approved interface staging"
+    },
+    {
+      "label": "Image 75",
+      "title": "Harper and Taffy shared-baseline height chart",
+      "path": "generated/character-development/pair-height-reference-v001/image-75.png",
+      "status": "user-approved body-scale reference: Harper158cm, Taffy146cm"
+    },
+    {
+      "label": "Image 76",
+      "title": "The summons — host, escort and curious tagalong",
+      "path": "generated/storyboard/guest-summons-v001/image-76.png",
+      "status": "awaiting user review"
+    },
+    {
+      "label": "Image 77",
+      "title": "Summons — smaller Taffy and curious ancestral elder",
+      "path": "generated/storyboard/guest-summons-v002/image-77.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 78",
+      "title": "Summons — smaller Taffy, elder anatomy correction",
+      "path": "generated/storyboard/guest-summons-v003/image-78.png",
+      "status": "approved story-pass still"
+    },
+    {
+      "label": "Image 79",
+      "title": "Council arrival — two senators and empty chair",
+      "path": "generated/storyboard/council-arrival-v001/image-79.png",
+      "status": "superseded: display-like staging, oversized senators and extra leg; all three now present"
+    },
+    {
+      "label": "Image 80",
+      "title": "Three representatives seated at command workstations",
+      "path": "generated/storyboard/council-arrival-v002/image-80.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 81",
+      "title": "Council — compact comfortable seats and shared display",
+      "path": "generated/storyboard/council-arrival-v003/image-81.png",
+      "status": "pending review; arm anatomy needs correction"
+    },
+    {
+      "label": "Image 82",
+      "title": "Council — circular track and armless backed seats",
+      "path": "generated/storyboard/council-arrival-v004/image-82.png",
+      "status": "pending review; four-arm correction remains"
+    },
+    {
+      "label": "Image 83",
+      "title": "Council — inward swivel and center anatomy correction",
+      "path": "generated/storyboard/council-arrival-v005/image-83.png",
+      "status": "approved story-pass still"
+    },
+    {
+      "label": "Image 84",
+      "title": "Harper explains the journey to Taffy’s sister’s moon",
+      "path": "generated/storyboard/council-explanation-v001/image-84.png",
+      "status": "rejected camera/room discontinuity and Jupiter-like planet"
+    },
+    {
+      "label": "Image 85",
+      "title": "Rear-axis floating moon-system explanation",
+      "path": "generated/storyboard/council-explanation-v002/image-85.png",
+      "status": "pending review; duplicate senator and pointing/anatomy corrections needed"
+    },
+    {
+      "label": "Image 86",
+      "title": "Moon-system explanation — three representatives",
+      "path": "generated/storyboard/council-explanation-v003/image-86.png",
+      "status": "approved story-pass still"
+    },
+    {
+      "label": "Image 87",
+      "title": "Stability and Expression deliberate — tight two-shot",
+      "path": "generated/storyboard/council-deliberation-v001/image-87.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 88",
+      "title": "Deliberation — bilateral arm attachment revision",
+      "path": "generated/storyboard/council-deliberation-v002/image-88.png",
+      "status": "pending review; Stability anatomy unresolved"
+    },
+    {
+      "label": "Image 89",
+      "title": "Stability four-arm rebuild — open gesture",
+      "path": "generated/storyboard/council-deliberation-v003/image-89.png",
+      "status": "approved story-pass still; clear anatomy starter reference"
+    },
+    {
+      "label": "Image 90",
+      "title": "Expression addresses the visitors — close-up",
+      "path": "generated/storyboard/expression-response-v001/image-90.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 91",
+      "title": "Harper and Taffy listen — reverse reaction",
+      "path": "generated/storyboard/pair-council-reaction-v001/image-91.png",
+      "status": "approved story-pass still"
+    },
+    {
+      "label": "Image 92",
+      "title": "Open exit — escort duty harness, before block",
+      "path": "generated/storyboard/escort-boundary-v001/image-92.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 93",
+      "title": "Escort badge — three dots, plain doorway panel",
+      "path": "generated/storyboard/escort-boundary-v002/image-93.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 94",
+      "title": "Escort blocks open exit — Harper looks back",
+      "path": "generated/storyboard/escort-block-v001/image-94.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 95",
+      "title": "Curious elder notices Harper’s reaction",
+      "path": "generated/storyboard/elder-reaction-v001/image-95.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 96",
+      "title": "Escorted return to holding chamber — rear three-quarter",
+      "path": "generated/storyboard/holding-return-v001/image-96.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 97",
+      "title": "Technological threshold — first descent",
+      "path": "generated/storyboard/technology-threshold-v001/image-97.png",
+      "status": "architecture revised in Image98; staging accepted"
+    },
+    {
+      "label": "Image 98",
+      "title": "Technological threshold — stonework and outward statue",
+      "path": "generated/storyboard/technology-threshold-v002/image-98.png",
+      "status": "statue and stonework accepted; lighting and boundaries revised in Image99"
+    },
+    {
+      "label": "Image 99",
+      "title": "Living light network and low stone passage curbs",
+      "path": "generated/storyboard/technology-threshold-v003/image-99.png",
+      "status": "approved selected threshold; architecture reference for second pass"
+    },
+    {
+      "label": "Image 100",
+      "title": "Hallway down below — living infrastructure descent",
+      "path": "generated/storyboard/living-descent-v001/image-100.png",
+      "status": "composition accepted; ornament and organism refined in Image101"
+    },
+    {
+      "label": "Image 101",
+      "title": "Descent — entrance ornament and articulated living exchanger",
+      "path": "generated/storyboard/living-descent-v002/image-101.png",
+      "status": "living structure accepted; menacing crest revised in Image102"
+    },
+    {
+      "label": "Image 102",
+      "title": "Descent — dignified ant entrance crest",
+      "path": "generated/storyboard/living-descent-v003/image-102.png",
+      "status": "approved selected descent and dignified crest"
+    },
+    {
+      "label": "Image 103",
+      "title": "Inside the gateway — mechanical descent platform",
+      "path": "generated/storyboard/mechanical-descent-v001/image-103.png",
+      "status": "superseded: exposed machinery and pair-sized platform; see Image104"
+    },
+    {
+      "label": "Image 104",
+      "title": "Communal physical lift — enclosed drive",
+      "path": "generated/storyboard/mechanical-descent-v002/image-104.png",
+      "status": "platform approved; incoherent shaft background superseded by Image105"
+    },
+    {
+      "label": "Image 105",
+      "title": "Communal lift over open cavern — single lower landing",
+      "path": "generated/storyboard/mechanical-descent-v003/image-105.png",
+      "status": "approved selected communal lift and open cavern layout"
+    },
+    {
+      "label": "Image 106",
+      "title": "Already descending — close pair reaction",
+      "path": "generated/storyboard/platform-descent-v001/image-106.png",
+      "status": "approved selected close reaction during descent"
+    },
+    {
+      "label": "Image 107",
+      "title": "Lower passage — glimpse through living screen",
+      "path": "generated/storyboard/screened-approach-v001/image-107.png",
+      "status": "superseded: use open hallway sightline, no closed screen"
+    },
+    {
+      "label": "Image 108",
+      "title": "Lower landing to open hall — distant activity",
+      "path": "generated/storyboard/open-hall-approach-v001/image-108.png",
+      "status": "setup accepted; dark approach and hiding recesses revised in Image109"
+    },
+    {
+      "label": "Image 109",
+      "title": "Dark approach with sheltered side recesses",
+      "path": "generated/storyboard/open-hall-approach-v002/image-109.png",
+      "status": "approved selected dark approach and sheltered viewing positions"
+    },
+    {
+      "label": "Image 110",
+      "title": "I got a smile on — Harper watches from shadow",
+      "path": "generated/storyboard/harper-smile-v001/image-110.png",
+      "status": "composition liked; dramatic concealment lighting revised in Image111"
+    },
+    {
+      "label": "Image 111",
+      "title": "Harper smile — narrow light, deep concealment",
+      "path": "generated/storyboard/harper-smile-v002/image-111.png",
+      "status": "superseded: lighting too extreme; softened in Image112"
+    },
+    {
+      "label": "Image 112",
+      "title": "Harper smile — softened shadow and subdued backlight",
+      "path": "generated/storyboard/harper-smile-v003/image-112.png",
+      "status": "approved selected Harper smile; sheltered observation lighting reference"
+    },
+    {
+      "label": "Image 113",
+      "title": "Communal performance reveal — sheltered POV",
+      "path": "generated/storyboard/performance-reveal-v001/image-113.png",
+      "status": "composition liked; ceremonial artifact and anatomy revised in Image114"
+    },
+    {
+      "label": "Image 114",
+      "title": "Pet-and-snack comedy — ant anatomy pass",
+      "path": "generated/storyboard/performance-reveal-v002/image-114.png",
+      "status": "superseded: mammalian pet and foreground arm visibility revised in Image115"
+    },
+    {
+      "label": "Image 115",
+      "title": "Chihuahua-inspired shell pet and foreground anatomy",
+      "path": "generated/storyboard/performance-reveal-v003/image-115.png",
+      "status": "superseded: cartoon hybrid and double-face error corrected in Image116"
+    },
+    {
+      "label": "Image 116",
+      "title": "Woodlouse comedy pet and single-faced middle performer",
+      "path": "generated/storyboard/performance-reveal-v004/image-116.png",
+      "status": "performers/pet approved; foreground cleanup in Image117"
+    },
+    {
+      "label": "Image 117",
+      "title": "Foreground spectator arm cleanup — performers retained",
+      "path": "generated/storyboard/performance-reveal-v005/image-117.png",
+      "status": "left spectator accepted; center stump/hand revised in Image118; right lower arm deferred"
+    },
+    {
+      "label": "Image 118",
+      "title": "Center foreground spectator — stump and hand correction",
+      "path": "generated/storyboard/performance-reveal-v006/image-118.png",
+      "status": "rejected ineffective anatomy edit; two foreground figures removed in Image119"
+    },
+    {
+      "label": "Image 119",
+      "title": "Performance — front-left and center spectators removed",
+      "path": "generated/storyboard/performance-reveal-v007/image-119.png",
+      "status": "superseded: user corrected removal to center and right; widened venue in Image120"
+    },
+    {
+      "label": "Image 120",
+      "title": "Larger communal comedy venue and audience",
+      "path": "generated/storyboard/performance-reveal-v008/image-120.png",
+      "status": "approved selected performance reveal; ensemble audience and performers accepted"
+    },
+    {
+      "label": "Image 121",
+      "title": "Come on through — pair enter the shadowed perimeter",
+      "path": "generated/storyboard/come-on-through-v001/image-121.png",
+      "status": "pair/composition liked; actor/audience scale revised in Image122"
+    },
+    {
+      "label": "Image 122",
+      "title": "Come on through — closer side aisle and corrected scale",
+      "path": "generated/storyboard/come-on-through-v002/image-122.png",
+      "status": "approved selected closer side aisle and scale"
+    },
+    {
+      "label": "Image 123",
+      "title": "Hide out from outside — mineral survey finds ordinary rock",
+      "path": "generated/storyboard/mineral-survey-v003/image-123.png",
+      "status": "approved selected mineral survey"
+    },
+    {
+      "label": "Image 124",
+      "title": "Survey flyby — full craft far left, clear rightward exit",
+      "path": "generated/storyboard/survey-flyby-v001/image-124.png",
+      "status": "approved selected survey flyby starter"
+    },
+    {
+      "label": "Image 125",
+      "title": "Comedy close — woodlouse reaches toward snack",
+      "path": "generated/storyboard/comedy-close-v001/image-125.png",
+      "status": "approved selected; user prefers original faces over mask-like revision"
+    },
+    {
+      "label": "Image 126",
+      "title": "Comedy close — rigid exoskeletal faces and four-arm repair",
+      "path": "generated/storyboard/comedy-close-v002/image-126.png",
+      "status": "rejected mask-like faces; reverted selection to Image125"
+    },
+    {
+      "label": "Image 127",
+      "title": "We’re still here — shared quiet laughter",
+      "path": "generated/storyboard/quiet-laughter-v001/image-127.png",
+      "status": "approved selected quiet laughter reaction"
+    },
+    {
+      "label": "Image 128",
+      "title": "Sink on back — backpack before membrane contact",
+      "path": "generated/storyboard/sink-on-back-v001/image-128.png",
+      "status": "superseded: remove membrane, startled retreat into waiting guard"
+    },
+    {
+      "label": "Image 129",
+      "title": "Startled retreat — waiting guard behind",
+      "path": "generated/storyboard/sink-on-back-v002/image-129.png",
+      "status": "staging accepted for revision; guard light/hallway revised in Image130"
+    },
+    {
+      "label": "Image 130",
+      "title": "Waiting guard in shadow — open arrival hallway",
+      "path": "generated/storyboard/sink-on-back-v003/image-130.png",
+      "status": "hallway approved; inconsistent lighting revised with guard flashlight in Image131"
+    },
+    {
+      "label": "Image 131",
+      "title": "Guard hand light — shared scene lighting",
+      "path": "generated/storyboard/sink-on-back-v004/image-131.png",
+      "status": "rejected shadow direction; fresh scene in Image132"
+    },
+    {
+      "label": "Image 132",
+      "title": "Waiting guard — fresh staging and flashlight shadows",
+      "path": "generated/storyboard/sink-on-back-v005/image-132.png",
+      "status": "approved selected waiting guard scene and lighting"
+    },
+    {
+      "label": "Image 133",
+      "title": "Guard directs them down hall — reverse exchange",
+      "path": "generated/storyboard/guard-direction-v001/image-133.png",
+      "status": "approved selected reverse guard exchange"
+    },
+    {
+      "label": "Image 134",
+      "title": "Waiting chamber arrival — host, food and guard at open door",
+      "path": "generated/storyboard/guest-arrival-v007/image-134.png",
+      "status": "approved selected waiting-chamber arrival"
+    },
+    {
+      "label": "Image 135",
+      "title": "Host begins history — interested and concerned listeners",
+      "path": "generated/storyboard/host-story-v001/image-135.png",
+      "status": "approved selected storytelling introduction"
+    },
+    {
+      "label": "Image 136",
+      "title": "Inherited history — scout discovers distant civilization, vivid illustration",
+      "path": "generated/storyboard/history-discovery-v001/image-136.png",
+      "status": "concept liked; too saturated/bordered, dimensional ring-road geometry revised in137"
+    },
+    {
+      "label": "Image 137",
+      "title": "History discovery — borderless limited palette and flatter geometry",
+      "path": "generated/storyboard/history-discovery-v002/image-137.png",
+      "status": "superseded palette/scout continuity by Image139"
+    },
+    {
+      "label": "Image 138",
+      "title": "History departure — multiple ant scouts begin exploration",
+      "path": "generated/storyboard/history-departure-v001/image-138.png",
+      "status": "approved selected exploration departure"
+    },
+    {
+      "label": "Image 139",
+      "title": "History discovery — matching departure colors and scout",
+      "path": "generated/storyboard/history-discovery-v003/image-139.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 140",
+      "title": "History material test A — textured hand-cut paper discovery",
+      "path": "generated/storyboard/history-material-paper-v001/image-140.png",
+      "status": "paper direction tentatively accepted; used to restyle departure141"
+    },
+    {
+      "label": "Image 141",
+      "title": "History departure — textured paper cutouts matching discovery",
+      "path": "generated/storyboard/history-departure-v002/image-141.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 142",
+      "title": "History travel — solitary paper scout in deep space",
+      "path": "generated/storyboard/history-deep-space-v001/image-142.png",
+      "status": "superseded direction: schematic multi-system travel in143"
+    },
+    {
+      "label": "Image 143",
+      "title": "History exploration map — four scouts to four star systems",
+      "path": "generated/storyboard/history-star-map-v001/image-143.png",
+      "status": "approved by user"
+    },
+    {
+      "label": "Image 144",
+      "title": "History retreat — scout withdraws from the unfamiliar civilization",
+      "path": "generated/storyboard/history-retreat-v001/image-144.png",
+      "status": "superseded: composition too similar to discovery; see Image 145"
+    },
+    {
+      "label": "Image 145",
+      "title": "History retreat — extreme wide with distant civilization",
+      "path": "generated/storyboard/history-retreat-v002/image-145.png",
+      "status": "approved by user"
+    },
+    {
+      "label": "Image 146",
+      "title": "History invention — ant and living infrastructure concealment workshop",
+      "path": "generated/storyboard/history-concealment-invention-v001/image-146.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 147",
+      "title": "History ending — hidden civilization deep inside the world",
+      "path": "generated/storyboard/history-hidden-world-v001/image-147.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 148",
+      "title": "Society style test — ornate paper, watercolor and ink cutaway",
+      "path": "generated/storyboard/society-mixed-media-v001/image-148.png",
+      "status": "approved mixed-media style reference"
+    },
+    {
+      "label": "Image 149",
+      "title": "All for one — collaborative living sound sculpture",
+      "path": "generated/storyboard/society-common-work-v001/image-149.png",
+      "status": "approved by user"
+    },
+    {
+      "label": "Image 150",
+      "title": "Parts for every task — adjoining creative, research and biological workspaces",
+      "path": "generated/storyboard/society-distinct-roles-v001/image-150.png",
+      "status": "palette superseded by approved Image 151"
+    },
+    {
+      "label": "Image 151",
+      "title": "Distinct roles — cool mineral teal and complementary amber palette",
+      "path": "generated/storyboard/society-distinct-roles-v002/image-151.png",
+      "status": "approved by user as third shot and palette"
+    },
+    {
+      "label": "Image 152",
+      "title": "One for all — shared living network in ochre and olive",
+      "path": "generated/storyboard/society-shared-network-v001/image-152.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 153",
+      "title": "Every piece on the shelf — communal reserves and stored goods",
+      "path": "generated/storyboard/society-stores-v001/image-153.png",
+      "status": "pending user review"
+    },
+    {
+      "label": "Image 154",
+      "title": "Where we cannot see — cold planetary cutaway and unaware survey craft",
+      "path": "generated/storyboard/society-hidden-pullback-v001/image-154.png",
+      "status": "approved by user; selected for society animatic"
+    },
+    {
+      "label": "Image 155",
+      "title": "Story response — serious Harper, fascinated smiling Taffy",
+      "path": "generated/storyboard/story-listening-response-v001/image-155.png",
+      "status": "approved ending reaction"
+    },
+    {
+      "label": "Image 156",
+      "title": "Before the story — wider storyteller and worried puzzled listeners",
+      "path": "generated/storyboard/story-listening-intro-v001/image-156.png",
+      "status": "pending user review; v005 candidate"
+    },
+    {
+      "label": "Image 157",
+      "title": "Shared creative work — dark blue-gray room, natural chitin palette",
+      "path": "generated/storyboard/society-common-work-v002/image-157.png",
+      "status": "selected for v006 color-rhythm review"
+    },
+    {
+      "label": "Image 158",
+      "title": "Hidden moon — gray exterior, colorful city and vast parent planet",
+      "path": "generated/storyboard/society-moon-establishing-v001/image-158.png",
+      "status": "approved; selected in v007"
+    },
+    {
+      "label": "Image 159",
+      "title": "Keeping quiet to itself — resting stores",
+      "path": "generated/storyboard/society-quiet-stores-v001/image-159.png",
+      "status": "approved alternative retained; superseded by160 in current edit"
+    },
+    {
+      "label": "Image 160",
+      "title": "Quiet storage hall — stairway caretaker and wider reveal",
+      "path": "generated/storyboard/society-quiet-stores-v002/image-160.png",
+      "status": "approved; selected in animatic v009"
     }
   ]
 }

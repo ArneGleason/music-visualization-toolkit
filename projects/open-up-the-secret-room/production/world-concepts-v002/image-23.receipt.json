@@ -1,0 +1,16 @@
+{
+  "label": "Image 23",
+  "tool": "built-in image_gen",
+  "output": "generated/world-concepts-v002/image-23.png",
+  "source_output": "/Users/arnegleason/.codex/generated_images/01a2159f-399f-7280-b5b9-60cf3e4ab193/exec-2571909d-71d0-4bf9-b84c-c820120b7def.png",
+  "input_images": [
+    "generated/world-concepts-v001/image-20.png"
+  ],
+  "prompt": "production/world-concepts-v002/image-23.prompt.txt",
+  "size": [
+    1672,
+    941
+  ],
+  "attempts": 1,
+  "status": "exploratory concept pending review"
+}

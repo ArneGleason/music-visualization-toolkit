@@ -1,0 +1,3 @@
+# Image 19 review
+
+Living collaborator preserves Image18 petal crown, patterned glow, lantern core and two lattice branches. Ant inventor visibly has four separate arms/hands and two legs, beak and antennae. Both independently present and manipulate complementary components; no control/harness/pet treatment. Shared workshop credible, dark tower background and localized glow preserved. Foreground is lighter than deep cave background for work readability. Living partner is somewhat larger than ant and its body/material still reads ornate bronze as well as organic. One foot may be partially obscured by workbench. Artwork demonstrates mutual work but cannot by itself establish language or equal societal standing. Candidate, one generation.

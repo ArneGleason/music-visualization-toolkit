@@ -1,0 +1,14 @@
+{
+  "image": "Image 35",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/concealment-iris-v001/image-35.png",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-f74c582f-3eb1-403c-b937-37c78d3cf3fd.png",
+  "prompt": "production/concealment-iris-v001/image-35.prompt.txt",
+  "references": [
+    "generated/storyboard/crater-exterior-v004/image-31.png",
+    "generated/storyboard/crater-exterior-v005/image-32.png"
+  ],
+  "review": "Fluid interference contours and partially resolved rock surround exposed cavern. Asymmetric aperture, strongest closure from top/left/bottom. Exact registration unverified.",
+  "status": "awaiting user feedback",
+  "animaticChanged": false
+}

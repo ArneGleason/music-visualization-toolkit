@@ -1,0 +1,14 @@
+{
+  "label": "Image 19",
+  "tool": "built-in image_gen",
+  "source_output": "/Users/arnegleason/.codex/generated_images/01a21595-de01-7772-85a0-777177dc5bd9/exec-053ddbfb-5be8-48d1-b9a6-96853999652f.png",
+  "output": "generated/world-concepts-v001/image-19.png",
+  "prompt": "production/world-concepts-v001/image-19.prompt.txt",
+  "references": [
+    "generated/world-concepts-v001/image-18.png",
+    "../together-anyways/generated/world-development/port-ship-v031/scrapper.png",
+    "generated/storyboard/dark-cavern-v001/image-16.png"
+  ],
+  "status": "concept candidate pending user review",
+  "attempts": 1
+}

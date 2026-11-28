@@ -1,0 +1,14 @@
+{
+  "label": "Image 75",
+  "tool": "built-in image_gen",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-01d234bd-99be-4bff-a385-927fa3675896.png",
+  "output": "generated/character-development/pair-height-reference-v001/image-75.png",
+  "prompt": "image-75.prompt.txt",
+  "heightSource": "../together-anyways/character-development/core-threat-refs-v001/review-notes.txt",
+  "heightsCm": {
+    "Harper": 158,
+    "Taffy": 146
+  },
+  "status": "user-approved body-scale reference",
+  "note": "Illustrated scale guide, approximate drawn landmarks; not precision metrology. Earlier source calls heights proposed."
+}

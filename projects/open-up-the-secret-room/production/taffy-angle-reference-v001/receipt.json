@@ -1,0 +1,28 @@
+{
+  "label": "Image 65",
+  "tool": "built-in image_gen",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-d1c1cfb0-cbf7-4b4b-94d1-5ca6b6f4e484.png",
+  "output": "generated/character-development/taffy-angle-reference-v001/image-65.png",
+  "prompt": "image-65.prompt.txt",
+  "references": [
+    "taffy-03A-crop.png",
+    "taffy-news-crop.png",
+    "Image64 layout/lighting only"
+  ],
+  "cropRecipes": [
+    "ta-006.png crop=720:720:900:40",
+    "ta-024.png crop=760:760:850:50"
+  ],
+  "status": "awaiting user review",
+  "views": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09"
+  ]
+}

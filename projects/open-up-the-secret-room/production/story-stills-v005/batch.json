@@ -1,0 +1,45 @@
+{
+  "format": "musical-anchors-v1",
+  "id": "story-stills-v005",
+  "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+  "endAnchor": "line-022:start",
+  "shots": [
+    {
+      "id": "L2-I134",
+      "sceneId": "LYRIC2",
+      "startAnchor": "54.1",
+      "title": "Comfortable hospitality",
+      "description": "Arrive in the waiting chamber: food, curved seating and a welcoming host. Settle before the story.",
+      "reviewDirection": "Arrive in the waiting chamber: food, curved seating and a welcoming host. Settle before the story.",
+      "imageLabel": "Image 134",
+      "starterImage": "generated/storyboard/guest-arrival-v007/image-134.png",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "status": "still_pacing_review",
+      "batch": "story-stills-v003",
+      "startFrame": 2155,
+      "endFrameExclusive": 2295,
+      "frames": 140,
+      "startSeconds": 89.79166666666667,
+      "endSeconds": 95.625,
+      "start": "53.4.943",
+      "end": "57.1.884",
+      "seconds": 5.833333333333333,
+      "boundaryBasis": {
+        "start": "54.1",
+        "end": "57.1.884",
+        "grid": "generated/beatmap.json"
+      }
+    },
+    {
+      "id": "L5-I156",
+      "sceneId": "LISTENING",
+      "startAnchor": "56.1",
+      "title": "Before they understand",
+      "description": "The storyteller begins. Harper and Taffy both look worried and puzzled; neither smiles. Contrast with their different responses afterward.",
+      "reviewDirection": "The storyteller begins. Harper and Taffy both look worried and puzzled; neither smiles. Contrast with their different responses afterward.",
+      "imageLabel": "Image 156",
+      "starterImage": "generated/storyboard/story-listening-intro-v001/image-156.png",
+      "status": "still_pacing_review"
+    }
+  ]
+}

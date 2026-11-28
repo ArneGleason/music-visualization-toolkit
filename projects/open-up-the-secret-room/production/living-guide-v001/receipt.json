@@ -1,0 +1,14 @@
+{
+  "image": "Image 38",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/living-guide-v001/image-38.png",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-75651e43-3dbb-4ffe-baaa-31e040a82754.png",
+  "prompt": "production/living-guide-v001/image-38.prompt.txt",
+  "references": [
+    "generated/storyboard/wall-clue-v002/image-37.png",
+    "generated/world-concepts-v002/image-22.png"
+  ],
+  "review": "Separated characters, shaft depth, flashlight search and illuminated alternate route achieved. Side stairs rise locally instead of descending as prompted; route continuity and character hair silhouette need user review.",
+  "status": "awaiting user feedback",
+  "animaticChanged": false
+}

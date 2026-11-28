@@ -1,0 +1,12 @@
+{
+  "label": "Image 126",
+  "tool": "built-in image_gen",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-1417e403-b657-4157-9e27-a5b114c326d7.png",
+  "output": "generated/storyboard/comedy-close-v002/image-126.png",
+  "references": [
+    "Image 125"
+  ],
+  "prompt": "production/comedy-close-v002/image-126.prompt.txt",
+  "status": "rejected by user: mask-like faces; Image125 selected",
+  "review": "Smiles replaced with rigid angular beak plates, faceted eyes, hinged mouths. Tall right performer now four clearly visible arms/hands. Faces changed substantially; circular jaw joints and angular plates may read manufactured/mask-like rather than living shell. User review required, not species reference lock."
+}

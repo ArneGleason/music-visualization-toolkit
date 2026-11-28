@@ -1,0 +1,16 @@
+{
+  "label": "Image 20",
+  "tool": "built-in image_gen",
+  "source_output": "/Users/arnegleason/.codex/generated_images/01a21596-0e04-7b00-b27b-c53caee73a4e/exec-73372278-a234-4509-8c20-8e5a76145dd2.png",
+  "output": "generated/world-concepts-v001/image-20.png",
+  "input_images": [
+    "generated/storyboard/dark-cavern-v001/image-16.png"
+  ],
+  "prompt": "production/world-concepts-v001/image-20.prompt.txt",
+  "size": [
+    1672,
+    941
+  ],
+  "status": "exploratory concept pending user review",
+  "attempts": 1
+}

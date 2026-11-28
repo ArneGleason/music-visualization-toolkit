@@ -1,0 +1,77 @@
+{
+  "id": "journey-stills-v006",
+  "format": "musical-anchors-v1",
+  "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+  "endAnchor": "33.1.0",
+  "shots": [
+    {
+      "id": "S01-SH01",
+      "startAnchor": "4.3.0"
+    },
+    {
+      "id": "S01-SH02",
+      "startAnchor": "7.1.0"
+    },
+    {
+      "id": "S01-SH03",
+      "startAnchor": "9.2.0"
+    },
+    {
+      "id": "S01-SH05",
+      "startAnchor": "12.1.0"
+    },
+    {
+      "id": "S01-SH04",
+      "startAnchor": "13.3.0"
+    },
+    {
+      "id": "S01-SH06",
+      "startAnchor": "15.1.0"
+    },
+    {
+      "id": "S01-SH07",
+      "startAnchor": "17.1.0"
+    },
+    {
+      "id": "S01-SH08",
+      "startAnchor": "18.1.0"
+    },
+    {
+      "id": "S01-SH10",
+      "startAnchor": "19.1.0"
+    },
+    {
+      "id": "S02-SH01",
+      "sceneId": "S02",
+      "startAnchor": "21.1.0",
+      "title": "A shared history",
+      "starterImage": "generated/storyboard/wall-clue-v002/image-37.png",
+      "imageLabel": "Image 37",
+      "description": "Taffy reveals the sequential relief with his flashlight. Harper studies it. Living illumination elaborates ant-made shared history. Future motion may let them separate along mural.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review"
+    },
+    {
+      "id": "S02-SH02",
+      "sceneId": "S02",
+      "startAnchor": "25.1.0",
+      "title": "The infrastructure guides them",
+      "starterImage": "generated/storyboard/living-guide-v003/image-40.png",
+      "imageLabel": "Image 40",
+      "description": "Taffy searches the obvious route while Harper notices living signals guiding them around a nearby bend through purposeful enclosed service spaces.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review"
+    },
+    {
+      "id": "S03-SH01",
+      "sceneId": "S03",
+      "startAnchor": "29.1.0",
+      "title": "The living bridge responds",
+      "starterImage": "generated/storyboard/living-bridge-v001/image-43.png",
+      "imageLabel": "Image 43",
+      "description": "Pair wait on maintained landing as connected organic ribs and walking surface extend across deliberate gap. Static deployment keyframe only. No broken infrastructure and no crossing action yet.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "label": "H02 \u2014 03A / identity anchor",
+    "source": "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-006.png",
+    "sourceDimensions": [
+      1672,
+      941
+    ],
+    "cropBox": [
+      180,
+      0,
+      740,
+      560
+    ],
+    "crop": "H02-face.png",
+    "status": "approved identity reference"
+  },
+  {
+    "label": "H06 \u2014 news reaction",
+    "source": "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-024.png",
+    "sourceDimensions": [
+      1672,
+      941
+    ],
+    "cropBox": [
+      100,
+      0,
+      700,
+      600
+    ],
+    "crop": "H06-face.png",
+    "status": "approved identity reference"
+  },
+  {
+    "label": "H09 \u2014 cockpit / looking down",
+    "source": "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S09-SH04.png",
+    "sourceDimensions": [
+      1672,
+      941
+    ],
+    "cropBox": [
+      370,
+      0,
+      970,
+      600
+    ],
+    "crop": "H09-face.png",
+    "status": "approved identity reference"
+  },
+  {
+    "label": "H11 \u2014 worried / more frontal",
+    "source": "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/storyboard/rest-of-song-starters-v039/S11-SH03B.png",
+    "sourceDimensions": [
+      1672,
+      941
+    ],
+    "cropBox": [
+      420,
+      0,
+      1020,
+      600
+    ],
+    "crop": "H11-face.png",
+    "status": "excluded",
+    "reviewNote": "User rejects mottled facial rendering: highlights and other marks are confused. Do not use for Harper identity generation."
+  }
+]

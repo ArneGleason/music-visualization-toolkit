@@ -93,7 +93,7 @@ def main():
     samples = sorted({frame for shot in score['shots'] for frame in (shot['startFrame'], shot['endFrameExclusive']-1)})
     selection = '+'.join(f'eq(n,{frame})' for frame in samples)
     run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(output), "-vf", f"select='{selection}',scale=512:-1,tile=2x{len(score['shots'])}", "-frames:v", "1", str(OUT / "review-frames.jpg")])
-    concept_map(OUT / "entrance-map.png")
+    # The old conceptual map predates the approved cavern geography; omit it.
     receipt = {"frames": end, "fps": fps, "scope": "opening excerpt only", "shotlistSHA256": hashlib.sha256(score_path.read_bytes()).hexdigest(), "sourceSHA256": hashes, "masterSHA256": hashlib.sha256(master.read_bytes()).hexdigest(), "probe": result}
     (OUT / "receipt.json").write_text(json.dumps(receipt, indent=2)+"\n")
     (OUT / ".disposable").write_text(f"Reproduce from retained source MP4s, master, shotlist snapshot and script:\n./.venv/bin/python3 projects/open-up-the-secret-room/production/render_opening_review.py --version {args.version} --shotlist {str(snapshot.relative_to(ROOT))}\n")

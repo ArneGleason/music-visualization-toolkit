@@ -1,0 +1,11 @@
+{
+  "image": "Image 44",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/living-lift-v001/image-44.png",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-e560be44-d0f4-4039-8a80-00dc75f445bc.png",
+  "prompt": "production/living-lift-v001/image-44.prompt.txt",
+  "reference": "generated/storyboard/living-bridge-v001/image-43.png",
+  "review": "Full chasm without visible side bypass; broad deck on living supports. Far landing height offset visible. Actual vertical movement needs motion/lower-state reference; single still may read as fixed bridge.",
+  "status": "awaiting user feedback",
+  "animaticChanged": false
+}

@@ -1,0 +1,68 @@
+{
+  "label": "Image 64",
+  "tool": "built-in image_gen",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-b4fd6005-e68d-4e05-bf6c-5eaa8aab2a5b.png",
+  "output": "generated/character-development/harper-angle-reference-v001/image-64.png",
+  "prompt": "image-64.prompt.txt",
+  "references": [
+    "H02",
+    "H06",
+    "H09"
+  ],
+  "excluded": [
+    "H11"
+  ],
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "status": "user-approved reference sheet",
+  "views": [
+    {
+      "id": "R01",
+      "view": "front",
+      "status": "approved as part of sheet"
+    },
+    {
+      "id": "R02",
+      "view": "left three-quarter",
+      "status": "approved as part of sheet"
+    },
+    {
+      "id": "R03",
+      "view": "right three-quarter",
+      "status": "approved as part of sheet"
+    },
+    {
+      "id": "R04",
+      "view": "left profile",
+      "status": "approved as part of sheet"
+    },
+    {
+      "id": "R05",
+      "view": "right profile",
+      "status": "approved as part of sheet"
+    },
+    {
+      "id": "R06",
+      "view": "looking up",
+      "status": "approved as part of sheet"
+    },
+    {
+      "id": "R07",
+      "view": "looking down",
+      "status": "approved as part of sheet"
+    },
+    {
+      "id": "R08",
+      "view": "rear three-quarter",
+      "status": "approved as part of sheet"
+    },
+    {
+      "id": "R09",
+      "view": "back",
+      "status": "approved as part of sheet"
+    }
+  ],
+  "reviewNotes": "Review sheet only; final individual high-detail references not yet generated. R06 retains a small pale chin highlight requiring review; R07 eyes lowered/mostly closed. Assess likeness before approving."
+}

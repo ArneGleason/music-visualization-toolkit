@@ -1,0 +1,11 @@
+{
+  "image": "Image 45",
+  "tool": "built-in image_gen",
+  "output": "generated/storyboard/energy-bridge-v001/image-45.png",
+  "source": "/Users/arnegleason/.codex/generated_images/01a213d6-5dc3-7223-bfcc-c98aad91d8a8/exec-ed61feb1-0bf7-4df0-b044-2d80fde4c49f.png",
+  "prompt": "production/energy-bridge-v001/image-45.prompt.txt",
+  "reference": "generated/storyboard/living-lift-v001/image-44.png",
+  "review": "Physical supports removed; continuous translucent energy surface and living emitters at both ends. Full chasm/no visible bypass. Far end has a bright lip to check in action blocking.",
+  "status": "approved selected energy-bridge reference",
+  "animaticChanged": false
+}

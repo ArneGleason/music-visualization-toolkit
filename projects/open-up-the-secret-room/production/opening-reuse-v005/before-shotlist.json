@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "fps": 24,
+  "frameIndexBase": 0,
+  "endFrameExclusive": true,
+  "status": "opening_and_antechamber_excerpt_review_not_full_song",
+  "totalFrames": 417,
+  "shots": [
+    {
+      "id": "S01-SH01",
+      "sceneId": "S01",
+      "title": "Only a few steps",
+      "startFrame": 0,
+      "endFrameExclusive": 110,
+      "frames": 110,
+      "seconds": 4.583333333333333,
+      "status": "motion_review",
+      "boundaryBasis": {
+        "start": "4.3.0",
+        "end": "7.1.0",
+        "grid": "generated/beatmap.json"
+      },
+      "starterImage": "../together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH03.png",
+      "videoSource": "../together-anyways/generated/kling-ending-v058/S14-SH03.mp4",
+      "videoEdit": {
+        "sourceInFrame": 0
+      },
+      "sourceProvenance": {
+        "project": "../together-anyways/project.json",
+        "shotId": "S14-SH03",
+        "sourceFrames": 145
+      },
+      "description": "They leave the resting craft and take a few tentative steps toward the revealed underground city.",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK."
+    },
+    {
+      "id": "S01-SH02",
+      "sceneId": "S01",
+      "title": "Something noticed",
+      "startFrame": 110,
+      "endFrameExclusive": 209,
+      "frames": 99,
+      "seconds": 4.125,
+      "status": "motion_review",
+      "boundaryBasis": {
+        "start": "7.1.0",
+        "end": "9.2.0",
+        "grid": "generated/beatmap.json"
+      },
+      "starterImage": "../together-anyways/generated/storyboard/rest-of-song-starters-v037/S14-SH04.png",
+      "videoSource": "../together-anyways/generated/kling-ending-v058/S14-SH04.mp4",
+      "videoEdit": {
+        "sourceInFrame": 12
+      },
+      "sourceProvenance": {
+        "project": "../together-anyways/project.json",
+        "shotId": "S14-SH04",
+        "sourceFrames": 145
+      },
+      "description": "They approach the monumental beaked-ant ancestor statue. Taffy raises the flashlight up it; lights and dormant systems activate around the statue.",
+      "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+      "editNote": "Cut before Harper turns toward camera and before arch illumination reaches apex. User requested about one second shorter; earlier whole beat selected to protect both constraints."
+    },
+    {
+      "id": "S01-SH03",
+      "sceneId": "S01",
+      "title": "The three pillars",
+      "startFrame": 209,
+      "endFrameExclusive": 329,
+      "frames": 120,
+      "seconds": 5.0,
+      "status": "animatic_still_review",
+      "boundaryBasis": {
+        "start": "9.2.0",
+        "end": "12.1.0",
+        "grid": "generated/beatmap.json"
+      },
+      "starterImage": "generated/storyboard/dark-cavern-v001/image-16.png",
+      "imageLabel": "Image 16",
+      "description": "Rear view: Harper and Taffy take only two or three tentative slow steps into the antechamber, then pause near the entrance to absorb the three civic statues. No travel across the hall. Still hold for animatic; walking is intended future action, not generated motion. Dark cavern revision: tower buildings recede into blue-black distance, sparse amber area light and necessary flashlight. No residents visible.",
+      "animaticTreatment": "static_hold"
+    },
+    {
+      "id": "S01-SH04",
+      "sceneId": "S01",
+      "title": "Bewildered discovery",
+      "startFrame": 329,
+      "endFrameExclusive": 417,
+      "frames": 88,
+      "seconds": 3.6666666666666665,
+      "status": "animatic_still_review",
+      "boundaryBasis": {
+        "start": "12.1.0",
+        "end": "14.1.0",
+        "grid": "generated/beatmap.json"
+      },
+      "starterImage": "generated/storyboard/dark-cavern-v001/image-17.png",
+      "imageLabel": "Image 17",
+      "description": "Reverse close two-shot: Harper and Taffy look toward the three statues and exchange bewildered discovery. The wreck is initially visible through the breach behind them. Intended new coverage establishes the wreck outside first, then intercuts exterior concealment engagement with intermittent loss of light inside. The disguise hides the breach and cuts exterior light; no cave-in or physical door. Image 17 remains the pre-effect starter; existing animatic is a static hold.",
+      "animaticTreatment": "static_hold",
+      "motionDirection": {
+        "action": "Concealment progressively masks the breach, flickers during engagement, then removes exterior illumination. Flashlight/local area lighting remain.",
+        "coverage": "Exterior wreck establishment before engagement, inside reverse, exterior engaging disguise, inside light loss. Exterior stills not generated yet.",
+        "physicalBarrier": "Undecided; optical concealment alone does not establish an impassable barrier.",
+        "timingStatus": "New intercut sequence untimed. Re-plan on the music grid with --merge before motion; existing frame boundaries unchanged.",
+        "storyFunction": "Establish the concealment visually for the later witnessed choice not to disable it."
+      }
+    }
+  ]
+}

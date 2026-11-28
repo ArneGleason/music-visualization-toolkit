@@ -1,0 +1,90 @@
+{
+  "id": "opening-concealment-v005",
+  "format": "musical-anchors-v1",
+  "promptLock": "TA REMAINDER LOCK v036: Realistic illustrated cinematic desert-colony caper; dimensional natural faces and material detail, not Disney or photoreal live action. Approved direct character references govern identity; Harper retains her established short hair and outfit; Taffy is portly with full cheeks and large rounded ears. Humanoid hands have four fingers plus one thumb and natural wrists. Scrapper is kind beaked ant alien with four arms, two bare clawed legs, metallic-knit sleeveless top, separate teal wrap and canvas powered-tool belt. Private guards wear cream uniforms and cobalt armor. Ship is the approved broad ivory/teal Harrier motorhome, stubby wings, one fin, four side vector nozzles, fixed recessed forward nose radar and missing machinery covers. No external radar dish or pre-Harrier twin engine pods. Clean landscape16:9 single starter frame, no titles, borders, rulers, readable Earth text or montage. Depict the setup just before action; all necessary visible participants and props already present, no duplicated characters or future outcomes prematurely enacted. END LOCK.",
+  "endAnchor": "21.1.0",
+  "shots": [
+    {
+      "id": "S01-SH01",
+      "startAnchor": "4.3.0"
+    },
+    {
+      "id": "S01-SH02",
+      "startAnchor": "7.1.0"
+    },
+    {
+      "id": "S01-SH03",
+      "startAnchor": "9.2.0"
+    },
+    {
+      "id": "S01-SH05",
+      "sceneId": "S01",
+      "startAnchor": "12.1.0",
+      "title": "The exposed entrance",
+      "starterImage": "generated/storyboard/crater-exterior-v004/image-31.png",
+      "imageLabel": "Image 31",
+      "description": "Establish exterior geography: skid slope, partially hidden wreck, guardian entrance and living concealment rim.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review"
+    },
+    {
+      "id": "S01-SH04",
+      "startAnchor": "13.3.0"
+    },
+    {
+      "id": "S01-SH06",
+      "sceneId": "S01",
+      "startAnchor": "15.1.0",
+      "title": "The rim wakes",
+      "starterImage": "generated/storyboard/crater-exterior-v004/image-31.png",
+      "imageLabel": "Image 31",
+      "description": "Return to identical exterior framing before concealment engages. Static placeholder; living nodes will activate in future motion.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review"
+    },
+    {
+      "id": "S01-SH07",
+      "sceneId": "S01",
+      "startAnchor": "16.1.0",
+      "title": "Camouflage engages",
+      "starterImage": "generated/storyboard/crater-exterior-v005/image-32.png",
+      "imageLabel": "Image 32",
+      "description": "Optical rock appearance hides the cavern. Deliberate cut between stills tests readability; not physical rock growth.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review"
+    },
+    {
+      "id": "S01-SH08",
+      "sceneId": "S01",
+      "startAnchor": "16.3.0",
+      "title": "A brief failure",
+      "starterImage": "generated/storyboard/crater-exterior-v004/image-31.png",
+      "imageLabel": "Image 31",
+      "description": "The illusion briefly drops, exposing the same cavern. One measured interruption, not rapid strobing.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review"
+    },
+    {
+      "id": "S01-SH09",
+      "sceneId": "S01",
+      "startAnchor": "17.1.0",
+      "title": "Concealment holds",
+      "starterImage": "generated/storyboard/crater-exterior-v005/image-32.png",
+      "imageLabel": "Image 32",
+      "description": "The rock illusion returns and holds. Outside landmarks should remain stationary in final motion.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review"
+    },
+    {
+      "id": "S01-SH10",
+      "sceneId": "S01",
+      "startAnchor": "19.1.0",
+      "title": "An ordinary crater wall",
+      "starterImage": "generated/storyboard/crater-exterior-v006/image-33.png",
+      "imageLabel": "Image 33",
+      "description": "Wider camouflaged exterior locates the concealed opening in the landscape and reserves terrain for later search activity.",
+      "animaticTreatment": "static_hold",
+      "status": "animatic_still_review"
+    }
+  ]
+}

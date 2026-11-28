@@ -1,0 +1,57 @@
+{
+  "status": "user-approved",
+  "references": [
+    {
+      "label": "H02 \u2014 03A / identity anchor",
+      "source": "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-006.png",
+      "sourceDimensions": [
+        1672,
+        941
+      ],
+      "cropBox": [
+        180,
+        0,
+        740,
+        560
+      ],
+      "crop": "H02-face.png",
+      "status": "approved identity reference"
+    },
+    {
+      "label": "H06 \u2014 news reaction",
+      "source": "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/storyboard/first-run-starters-v003/ta-024.png",
+      "sourceDimensions": [
+        1672,
+        941
+      ],
+      "cropBox": [
+        100,
+        0,
+        700,
+        600
+      ],
+      "crop": "H06-face.png",
+      "status": "approved identity reference"
+    },
+    {
+      "label": "H09 \u2014 cockpit / looking down",
+      "source": "/Users/arnegleason/code/github.com/arnegleason/music-visualization-toolkit/projects/together-anyways/generated/storyboard/rest-of-song-starters-v038/S09-SH04.png",
+      "sourceDimensions": [
+        1672,
+        941
+      ],
+      "cropBox": [
+        370,
+        0,
+        970,
+        600
+      ],
+      "crop": "H09-face.png",
+      "status": "approved identity reference"
+    }
+  ],
+  "excluded": [
+    "H11"
+  ],
+  "usage": "Use H02 / original 03A as primary identity anchor, H06 as additional detailed identity view, H09 for downward three-quarter coverage. Do not use H11."
+}

@@ -1,0 +1,433 @@
+{
+  "fps": 24,
+  "totalFrames": 5589,
+  "scenes": [
+    {
+      "id": "SC01",
+      "start": "4.3.0",
+      "title": "A familiar stranger",
+      "act": "DISCOVERY",
+      "beats": [
+        "The wreck rests in the breach. Harper and Taffy approach the exposed entrance.",
+        "The beaked statue recalls the Scrapper at the spaceport. Their flashlight wakes a line of lights."
+      ],
+      "turn": "Someone they thought unique belongs to something much larger.",
+      "lyricLink": "Instrumental opening; retain the two original motion shots.",
+      "end": "9.2.0",
+      "startFrame": 0,
+      "endFrameExclusive": 209,
+      "frames": 209,
+      "text": "The wreck rests in the breach. Harper and Taffy approach the exposed entrance. The beaked statue recalls the Scrapper at the spaceport. Their flashlight wakes a line of lights.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC02",
+      "start": "9.2.0",
+      "title": "The world beneath",
+      "act": "DISCOVERY",
+      "beats": [
+        "A few tentative steps reveal towers receding into a vast dark cavern.",
+        "Three civic statues overlook a central destination. The pair pause; the flashlight remains necessary."
+      ],
+      "turn": "Wonder draws them inward.",
+      "lyricLink": "Instrumental opening; approved Image 16 is the visual anchor.",
+      "end": "13.1.0",
+      "startFrame": 209,
+      "endFrameExclusive": 373,
+      "frames": 164,
+      "text": "A few tentative steps reveal towers receding into a vast dark cavern. Three civic statues overlook a central destination. The pair pause; the flashlight remains necessary.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC03",
+      "start": "13.1.0",
+      "title": "The entrance disappears",
+      "act": "DISCOVERY",
+      "beats": [
+        "Establish the wreck and jagged breach from outside BEFORE the illusion begins.",
+        "Inside, the pair exchange a look. Intercut the same exterior as a rock disguise flickers into place.",
+        "Outside light pulses across their faces, then vanishes. Their flashlight stays on."
+      ],
+      "turn": "The audience learns what concealment looks like.",
+      "lyricLink": "Been stuck behind the picture / still here on the moon.",
+      "openDetails": [
+        "Exact exterior geometry and effect must be established from one reference.",
+        "Concealment is optical; do not imply solid rock physically materializes."
+      ],
+      "end": "21.1.0",
+      "startFrame": 373,
+      "endFrameExclusive": 723,
+      "frames": 350,
+      "text": "Establish the wreck and jagged breach from outside BEFORE the illusion begins. Inside, the pair exchange a look. Intercut the same exterior as a rock disguise flickers into place. Outside light pulses across their faces, then vanishes. Their flashlight stays on.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC04",
+      "start": "21.1.0",
+      "title": "Clues in the darkness",
+      "act": "DISCOVERY",
+      "beats": [
+        "Taffy's flashlight picks out a wall relief: six-limbed figures building beneath a barren surface.",
+        "A pulse of amber light travels down a conduit. Deep in a shaft, an enormous mechanism starts moving.",
+        "Harper and Taffy follow its glow. Something is still tending this apparently deserted place."
+      ],
+      "turn": "Each discovery suggests an unseen civilization at work.",
+      "lyricLink": "Repeated stuck / never free to leave imagery.",
+      "openDetails": [
+        "Wall relief, light pulse and machinery are proposed visual discoveries, not final shot designs.",
+        "Keep the space dark; reveal each detail with the flashlight or localized light."
+      ],
+      "end": "29.1.0",
+      "startFrame": 723,
+      "endFrameExclusive": 1072,
+      "frames": 349,
+      "text": "Taffy's flashlight picks out a wall relief: six-limbed figures building beneath a barren surface. A pulse of amber light travels down a conduit. Deep in a shaft, an enormous mechanism starts moving. Harper and Taffy follow its glow. Something is still tending this apparently deserted place.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC05",
+      "start": "29.1.0",
+      "title": "The unseen traffic",
+      "act": "DISCOVERY",
+      "beats": [
+        "At a broken walkway, a sealed cargo carrier glides out of darkness on a lower rail.",
+        "Taffy follows its route with the flashlight and spots a narrow maintenance crossing.",
+        "Harper helps him across; he lights her footing. The carrier disappears toward distant working lights."
+      ],
+      "turn": "An obstacle reveals how this world functions, rather than adding more walking.",
+      "lyricLink": "Not a sound / hallway down below / hidden from memory.",
+      "openDetails": [
+        "Carrier, rail and maintenance crossing are proposed; no visible inhabitants until scene06.",
+        "The pair use the safe crossing, not an unexplained ride on moving machinery."
+      ],
+      "end": "36.1.0",
+      "startFrame": 1072,
+      "endFrameExclusive": 1376,
+      "frames": 304,
+      "text": "At a broken walkway, a sealed cargo carrier glides out of darkness on a lower rail. Taffy follows its route with the flashlight and spots a narrow maintenance crossing. Harper helps him across; he lights her footing. The carrier disappears toward distant working lights.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC06",
+      "start": "36.1.0",
+      "title": "A hidden living society",
+      "act": "CONTACT",
+      "beats": [
+        "From cover, they glimpse inhabitants working among the towers. These are the Scrapper's people.",
+        "A watchkeeper sees a distant searching craft through a viewing aperture.",
+        "The inhabitants dim exposed lights and check the rock disguise. Work resumes only when the search passes."
+      ],
+      "turn": "Show that being unseen is deliberate, shared behavior.",
+      "lyricLink": "Open up / hide out from the outside / things faster than we go.",
+      "openDetails": [
+        "Searching craft is a proposed recurring visual cue; it need not see the city."
+      ],
+      "end": "44.1.0",
+      "startFrame": 1376,
+      "endFrameExclusive": 1722,
+      "frames": 346,
+      "text": "From cover, they glimpse inhabitants working among the towers. These are the Scrapper's people. A watchkeeper sees a distant searching craft through a viewing aperture. The inhabitants dim exposed lights and check the rock disguise. Work resumes only when the search passes.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC07",
+      "start": "44.1.0",
+      "title": "Discovered and cornered",
+      "act": "CONTACT",
+      "beats": [
+        "A worker notices the strangers. Harper and Taffy retreat through a narrow service route.",
+        "Guards cut off the next turn. The pair stop rather than fight.",
+        "An escort takes them past shuttered work areas; one inhabitant watches them with uncertainty."
+      ],
+      "turn": "The city is alive, but the visitors are treated as a threat.",
+      "lyricLink": "Still here / wait for wishes, then the instrumental space.",
+      "openDetails": [
+        "Observer may become the helper; identity remains open."
+      ],
+      "end": "57.1.0",
+      "startFrame": 1722,
+      "endFrameExclusive": 2285,
+      "frames": 563,
+      "text": "A worker notices the strangers. Harper and Taffy retreat through a narrow service route. Guards cut off the next turn. The pair stop rather than fight. An escort takes them past shuttered work areas; one inhabitant watches them with uncertainty.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC08",
+      "start": "57.1.0",
+      "title": "Two leaders and an empty chair",
+      "act": "CONFINEMENT",
+      "beats": [
+        "Stability and Expression face them. Understanding's small raised chair is conspicuously empty.",
+        "On an orbital model, Taffy indicates their moon. Harper traces a route to a blue crescent moon beside a banded planet.",
+        "The future helper watches. The leaders refuse passage and have the pair escorted away."
+      ],
+      "turn": "Their destination is clear; the missing third leader remains a mystery.",
+      "lyricLink": "Story of the family / all for one / every part has a role.",
+      "openDetails": [
+        "Understanding is now established as absent; why and where remain open. Keep all three monumental statues intact.",
+        "Orbital model is an astrolabe-like physical or projected display, not a written map.",
+        "Neighboring destination moon and banded parent planet are provisional geography; no habitability claim or planet name.",
+        "Model uses same orientation, body silhouettes, source point and route in scene15. Helper sees the requested destination here."
+      ],
+      "end": "64.1.0",
+      "startFrame": 2285,
+      "endFrameExclusive": 2588,
+      "frames": 303,
+      "text": "Stability and Expression face them. Understanding's small raised chair is conspicuously empty. On an orbital model, Taffy indicates their moon. Harper traces a route to a blue crescent moon beside a banded planet. The future helper watches. The leaders refuse passage and have the pair escorted away.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC09",
+      "start": "64.1.0",
+      "title": "Held among the quiet machinery",
+      "act": "CONFINEMENT",
+      "beats": [
+        "A barrier closes around a holding area beside old service equipment.",
+        "Harper studies the exits. Taffy follows a pulse of light along a conduit within reach.",
+        "Through a viewing opening, they can still see the concealed breach area."
+      ],
+      "turn": "Physical captivity is clear; Taffy notices a possible opportunity.",
+      "lyricLink": "Every piece on the shelf / keeping quiet to itself.",
+      "openDetails": [
+        "Holding-area geometry and credible access to the equipment need design."
+      ],
+      "end": "72.1.0",
+      "startFrame": 2588,
+      "endFrameExclusive": 2934,
+      "frames": 346,
+      "text": "A barrier closes around a holding area beside old service equipment. Harper studies the exits. Taffy follows a pulse of light along a conduit within reach. Through a viewing opening, they can still see the concealed breach area.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC10",
+      "start": "72.1.0",
+      "title": "A control they recognize",
+      "act": "CHOICE",
+      "beats": [
+        "Taffy finds an exposed control and draws Harper's attention to it.",
+        "A small test makes the familiar rock disguise shimmer; releasing it restores concealment.",
+        "Both recognize the connection. A further movement could expose the route to the outside."
+      ],
+      "turn": "Repeat the opening's visual rule so the control needs no words.",
+      "lyricLink": "Open up the secret room, now an apparent opportunity.",
+      "openDetails": [
+        "A reversible test is proposed; it must not accidentally alert everyone."
+      ],
+      "end": "80.1.0",
+      "startFrame": 2934,
+      "endFrameExclusive": 3280,
+      "frames": 346,
+      "text": "Taffy finds an exposed control and draws Harper's attention to it. A small test makes the familiar rock disguise shimmer; releasing it restores concealment. Both recognize the connection. A further movement could expose the route to the outside.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC11",
+      "start": "80.1.0",
+      "title": "Their chance to be seen",
+      "act": "CHOICE",
+      "beats": [
+        "A distant searchlight crosses the outside view, recalling the earlier searching craft.",
+        "Harper reaches toward the control. Taffy readies their flashlight to signal.",
+        "Her attention shifts from the outside to the occupied city: opening the disguise would expose everyone."
+      ],
+      "turn": "Make both the escape opportunity and its cost visible before the choice.",
+      "lyricLink": "Still here / waiting for wishes; allow the repeated tail room.",
+      "openDetails": [
+        "Exact sightlines and how outside rescue could free them are unresolved."
+      ],
+      "end": "89.1.0",
+      "startFrame": 3280,
+      "endFrameExclusive": 3669,
+      "frames": 389,
+      "text": "A distant searchlight crosses the outside view, recalling the earlier searching craft. Harper reaches toward the control. Taffy readies their flashlight to signal. Her attention shifts from the outside to the occupied city: opening the disguise would expose everyone.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC12",
+      "start": "89.1.0",
+      "title": "They choose the darkness",
+      "act": "CHOICE",
+      "beats": [
+        "Hold on Harper's hand near the control, then on the people who would be exposed.",
+        "She lets the control go. Taffy lowers the flashlight; they acknowledge the choice together.",
+        "They step away. Concealment holds and the searching light passes without seeing them."
+      ],
+      "turn": "They surrender an apparent escape without knowing anyone is watching.",
+      "lyricLink": "Easy staying out of sight / let the dark hold down the light.",
+      "end": "96.1.0",
+      "startFrame": 3669,
+      "endFrameExclusive": 3971,
+      "frames": 302,
+      "text": "Hold on Harper's hand near the control, then on the people who would be exposed. She lets the control go. Taffy lowers the flashlight; they acknowledge the choice together. They step away. Concealment holds and the searching light passes without seeing them.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC13",
+      "start": "96.1.0",
+      "title": "An unseen witness decides",
+      "act": "CHOICE",
+      "beats": [
+        "Reveal one inhabitant watching through a sightline or viewing device.",
+        "They have seen the offered chance and the deliberate refusal. Harper and Taffy remain unaware.",
+        "The witness looks toward the guarded holding area, then leaves to act."
+      ],
+      "turn": "Private trust forms; the wider authorities do not change their decision.",
+      "lyricLink": "I gotta sign off: a private decision and a break from official duty.",
+      "openDetails": [
+        "Direct sightline or camera is undecided. Avoid explaining with interface text."
+      ],
+      "end": "101.1.0",
+      "startFrame": 3971,
+      "endFrameExclusive": 4187,
+      "frames": 216,
+      "text": "Reveal one inhabitant watching through a sightline or viewing device. They have seen the offered chance and the deliberate refusal. Harper and Taffy remain unaware. The witness looks toward the guarded holding area, then leaves to act.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC14",
+      "start": "101.1.0",
+      "title": "A door opens quietly",
+      "act": "ESCAPE",
+      "beats": [
+        "The witness returns alone and releases the holding barrier.",
+        "They gesture for silence and guide the pair into a service passage.",
+        "The three pause as a patrol passes, then hurry toward a concealed launch chamber."
+      ],
+      "turn": "Someone risks disobedience to help them leave.",
+      "lyricLink": "Make your ways away / great escape / come on through.",
+      "end": "108.1.0",
+      "startFrame": 4187,
+      "endFrameExclusive": 4489,
+      "frames": 302,
+      "text": "The witness returns alone and releases the holding barrier. They gesture for silence and guide the pair into a service passage. The three pause as a patrol passes, then hurry toward a concealed launch chamber.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC15",
+      "start": "108.1.0",
+      "title": "The requested course",
+      "act": "ESCAPE",
+      "beats": [
+        "At the pod, the helper opens the SAME orbital model and selects the blue crescent moon.",
+        "The identical route lights from their current moon. Harper and Taffy recognize it, nod, and board.",
+        "The helper authorizes departure with a personal token, knowingly leaving a trace."
+      ],
+      "turn": "The helper gives them the journey they asked for, at a personal risk.",
+      "lyricLink": "Hide out from the outside / things faster than we go.",
+      "openDetails": [
+        "Match scene08 model orientation, banded planet, two moons, blue crescent shape and route exactly.",
+        "Route programming and authorization are distinct actions. Personal-token mechanism remains provisional.",
+        "No on-screen labels or technical explanation; recognition links the two scenes."
+      ],
+      "end": "114.1.0",
+      "startFrame": 4489,
+      "endFrameExclusive": 4747,
+      "frames": 258,
+      "text": "At the pod, the helper opens the SAME orbital model and selects the blue crescent moon. The identical route lights from their current moon. Harper and Taffy recognize it, nod, and board. The helper authorizes departure with a personal token, knowingly leaving a trace.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC16",
+      "start": "114.1.0",
+      "title": "Up through the hidden world",
+      "act": "ESCAPE",
+      "beats": [
+        "The helper stays at the controls as the pod closes around Harper and Taffy.",
+        "Launch carries them up a dark shaft, past the last amber lights.",
+        "They break into the sky through a concealed outlet; the city remains hidden below."
+      ],
+      "turn": "Their larger goal is finally achieved: leaving the world.",
+      "lyricLink": "Make your ways away / make a great escape.",
+      "openDetails": [
+        "Volcanic plume or another disguised outlet remains a choice for later design."
+      ],
+      "end": "121.1.0",
+      "startFrame": 4747,
+      "endFrameExclusive": 5050,
+      "frames": 303,
+      "text": "The helper stays at the controls as the pod closes around Harper and Taffy. Launch carries them up a dark shaft, past the last amber lights. They break into the sky through a concealed outlet; the city remains hidden below.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC17",
+      "start": "121.1.0",
+      "title": "Someone stays behind",
+      "act": "ESCAPE",
+      "beats": [
+        "Back below, a launch indicator draws attention. The helper stands beside the used control.",
+        "Other inhabitants approach; the helper does not attempt to deny the choice.",
+        "Cut to Harper and Taffy inside the pod, looking down at the world they have left."
+      ],
+      "turn": "Freedom has a cost to the person who made it possible.",
+      "lyricLink": "Stuck behind the picture / staring at the room now belongs to the helper.",
+      "openDetails": [
+        "Show possible consequences without inventing a punishment or a new rescue subplot."
+      ],
+      "end": "127.1.0",
+      "startFrame": 5050,
+      "endFrameExclusive": 5314,
+      "frames": 264,
+      "text": "Back below, a launch indicator draws attention. The helper stands beside the used control. Other inhabitants approach; the helper does not attempt to deny the choice. Cut to Harper and Taffy inside the pod, looking down at the world they have left.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    },
+    {
+      "id": "SC18",
+      "start": "127.1.0",
+      "title": "Orbit and a kept promise",
+      "act": "ESCAPE",
+      "beats": [
+        "The pod reaches orbit. Beyond the banded planet is the blue crescent moon from the model.",
+        "Harper and Taffy exchange a relieved look as the pod turns toward it; their arrival is still ahead.",
+        "Below, an ordinary dark landscape hides the civilization. Hold this new horizon."
+      ],
+      "turn": "They have left the world and are heading toward their chosen destination.",
+      "lyricLink": "Final sign off / open up the secret room and the musical tail.",
+      "openDetails": [
+        "Final sky should match the model geography if the neighboring-moon option is retained.",
+        "This film ends on departure and course confirmation, not arrival on the destination moon."
+      ],
+      "end": "133.1.953",
+      "startFrame": 5314,
+      "endFrameExclusive": 5589,
+      "frames": 275,
+      "text": "The pod reaches orbit. Beyond the banded planet is the blue crescent moon from the model. Harper and Taffy exchange a relieved look as the pod turns toward it; their arrival is still ahead. Below, an ordinary dark landscape hides the civilization. Hold this new horizon.",
+      "timingStatus": "placed",
+      "reviewStatus": "proposed_scene_timing",
+      "proposalSource": "production/story-timing-v002/scenes.json"
+    }
+  ]
+}
